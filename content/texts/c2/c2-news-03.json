@@ -1,0 +1,137 @@
+{
+  "id": "c2-news-03",
+  "level": "C2",
+  "genre": "news",
+  "title_en": "The Moth in the Archive",
+  "title_ru": "Мотылёк в архиве",
+  "description_ru": "Вымышленная новость о новом виде моли, питающейся только викторианским клеем для книг, и этической дилемме библиотеки.",
+  "text": "MERRIDALE. A previously unknown species of moth, which appears to have spent at least a century quietly devouring the national archive, has been identified by entomologists in the basement of the Merridale State Library, bringing an unexpected conclusion to a mystery that has baffled conservators for two generations.\n\nThe creature, formally named Tinea bibliothecaria but already known to the staff as \"the Archivist,\" is a small, buff-coloured insect with a wingspan of eleven millimetres and, according to its discoverers, an extremely discerning palate. Unlike the common clothes moth, which will consume almost anything, the Archivist seems to feed exclusively on the wheat-starch paste used by Victorian bookbinders, and on the fine rag paper of the 1860s and 1870s. Later volumes it ignores, apparently on grounds of taste.\n\n\"It is, in essence, a connoisseur,\" said Dr Ayasha Lindqvist-Moreno, the lead author of the study, which appeared this week in the Journal of Applied Entomology. \"We have found specimens in perfect, thriving colonies behind the shelves of the nineteenth-century parliamentary reports. Every one of them is fat, content and, I fear, unrepentant.\"\n\nThe discovery began in 1971 with a baffling series of losses. Certain bound volumes, carefully catalogued, would be found on inspection to have developed small, neat holes, as though punched by a tiny and fastidious bureaucrat. The library's directors blamed damp, then mice, then, for a period in the 1980s, a disgruntled former employee, who was eventually acquitted for want of evidence and an adequate motive. A pest-control firm was hired three times, and each time declared the building clear, a conclusion that it now seems the moths found hilarious.\n\nThe breakthrough came when a junior conservator, Tobias Wren, noticed that the damage followed an unusual pattern. It was concentrated in volumes bound between 1862 and 1879, and absent from everything either side. \"It seemed too precise for any ordinary vermin,\" he said. \"Whatever was eating these books had opinions about the date of publication.\" Mr Wren spent forty nights in the stacks with a torch and a jam jar, and on the forty-first night he caught his suspect, flying drunkenly in the beam.\n\nLaboratory analysis showed that the moth possesses a digestive enzyme capable of breaking down the specific starch compounds used by that generation of binders, a chemistry that was later changed by industrial reforms. The moth, in short, may be a living relic of a vanished manufacturing process, surviving for a century and a half on a food source that no longer exists anywhere else on Earth.\n\nThis has led to an awkward ethical dilemma. The library's mission is to preserve its collection, yet the moth, as an apparently endangered species, may now qualify for legal protection. The Ministry of Culture and the Ministry of the Environment have scheduled a joint meeting to determine which of the two treasures takes priority.\n\nDr Lindqvist-Moreno proposes a compromise: a quarantined colony, living on a sacrificial shelf of dull parliamentary reports, in a sealed glass cabinet, tended by the library staff. \"I am not suggesting that we love them,\" she said. \"I am merely suggesting that, having waited a hundred and fifty years to be discovered, they deserve a modest cabinet.\"\n\nAs for Mr Wren, he has been awarded a small plaque, a month of paid leave and, it is understood, the right to name the second specimen. He is considering \"Gladstone.\"",
+  "word_count": 566,
+  "vocabulary": [
+    {
+      "word": "entomologists",
+      "ipa_us": "ˌɛntəˈmɑːlədʒɪsts",
+      "ipa_uk": "ˌentəˈmɒlədʒɪsts",
+      "translation_ru": "энтомологи"
+    },
+    {
+      "word": "discerning",
+      "ipa_us": "dɪˈsɜrnɪŋ",
+      "ipa_uk": "dɪˈsɜːnɪŋ",
+      "translation_ru": "разборчивый"
+    },
+    {
+      "word": "connoisseur",
+      "ipa_us": "ˌkɑːnəˈsɜr",
+      "ipa_uk": "ˌkɒnəˈsɜː",
+      "translation_ru": "знаток"
+    },
+    {
+      "word": "unrepentant",
+      "ipa_us": "ˌʌnrɪˈpɛntənt",
+      "ipa_uk": "ˌʌnrɪˈpentənt",
+      "translation_ru": "нераскаявшийся"
+    },
+    {
+      "word": "fastidious",
+      "ipa_us": "fæˈstɪdiəs",
+      "ipa_uk": "fæˈstɪdiəs",
+      "translation_ru": "придирчивый, дотошный"
+    },
+    {
+      "word": "acquitted",
+      "ipa_us": "əˈkwɪtɪd",
+      "ipa_uk": "əˈkwɪtɪd",
+      "translation_ru": "оправданный"
+    },
+    {
+      "word": "vermin",
+      "ipa_us": "ˈvɜrmɪn",
+      "ipa_uk": "ˈvɜːmɪn",
+      "translation_ru": "паразиты, вредители"
+    },
+    {
+      "word": "quarantined",
+      "ipa_us": "ˈkwɔrənˌtind",
+      "ipa_uk": "ˈkwɒrəntiːnd",
+      "translation_ru": "изолированный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ɜː",
+      "examples": [
+        "Merridale",
+        "journal",
+        "conservator"
+      ],
+      "tip_ru": "Долгий звук с нейтральным положением языка; губы растянуты, без «р»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "specimen",
+        "insect",
+        "discovered"
+      ],
+      "tip_ru": "Короткий расслабленный звук; не заменяйте на русское «и»."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "colonies",
+        "catalogued"
+      ],
+      "tip_ru": "Согласные k, t, p перед ударным гласным произносите с лёгким выдохом."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "library",
+        "moth",
+        "volumes"
+      ],
+      "tip_ru": "Язык упирается в дёсны, спинка поднята к нёбу, звук густой, как «л» в «полка»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the moth feed on?",
+      "answer": "Victorian bookbinders' paste and rag paper.",
+      "accepted_keywords": [
+        "paste",
+        "starch",
+        "paper",
+        "books"
+      ]
+    },
+    {
+      "question": "Who caught the first suspect?",
+      "answer": "Tobias Wren, a junior conservator.",
+      "accepted_keywords": [
+        "wren",
+        "tobias",
+        "conservator"
+      ]
+    },
+    {
+      "question": "Which years were the damaged books bound?",
+      "answer": "Between 1862 and 1879.",
+      "accepted_keywords": [
+        "1862",
+        "1879",
+        "nineteenth",
+        "victorian"
+      ]
+    },
+    {
+      "question": "What compromise does Dr Lindqvist-Moreno propose?",
+      "answer": "A quarantined colony in a sealed cabinet.",
+      "accepted_keywords": [
+        "quarantined",
+        "cabinet",
+        "colony"
+      ]
+    }
+  ]
+}

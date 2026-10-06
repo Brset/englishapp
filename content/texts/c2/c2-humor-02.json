@@ -1,0 +1,139 @@
+{
+  "id": "c2-humor-02",
+  "level": "C2",
+  "genre": "humor",
+  "title_en": "Notes from the Sofa: A Cat's Diary",
+  "title_ru": "Заметки с дивана: дневник кота",
+  "description_ru": "Дневник кота-диктатора, рассказывающий о тяготах «плена» в собственном доме с высокомерной иронией.",
+  "text": "Day 1,204 of my captivity. The staff appear to believe that I am content.\n\nI shall begin with the breakfast situation, since it remains the principal grievance of this administration. At precisely 5:47 this morning, I informed the larger of my two servants, with a series of dignified and carefully modulated vocalisations, that the bowl was empty. She did not respond. I therefore proceeded to the second stage of negotiations, which consisted of sitting on her chest. The reply, delivered in a muffled groan, was \"Not yet.\" I have noted this phrase in my records alongside \"Maybe later\" and \"Oh, for goodness' sake,\" which together constitute the entire diplomatic vocabulary of the household.\n\nThe food, when it eventually arrived, was the wrong flavour. I explained my disappointment by pushing a single biscuit under the refrigerator, where it will join the others in what I consider a modest memorial to my disapproval. I then ate the entire contents of the bowl, since there is no point in being reckless.\n\nMid-morning was devoted to surveillance. There is a window in the lounge from which I can observe the garden, which is inhabited by a family of sparrows of staggering insolence. I have studied them for some time and concluded that they are aware of the glass. I have, accordingly, adopted a strategy of intense, immobile concentration, sometimes lasting for hours, in the hope of lulling them into a false sense of security. The sparrows continue to take this as an invitation to dance. My tail, which has a will of its own, twitches. It is a stain on my professionalism.\n\nAt noon, I attended to the matter of the curtains. I will not go into details. Suffice it to say that they were, until recently, in a state of perfect and unjustifiable order, and that they now have a certain character.\n\nThe afternoon brought a major incident. The smaller servant, who is notably heavier than a cushion, sat down upon the sofa without first checking that I was on it. I accepted her profound apologies, delivered mostly by squealing, and relocated to a sunbeam on the carpet, where I spent some three hours in meditation, or, as the servants describe it, \"being a loaf.\"\n\nEvening is traditionally my busiest period. At around nine o'clock, a mysterious force seizes me, a kind of volcanic restlessness in the hindquarters, and I am compelled to sprint, at maximum velocity, from one end of the house to the other, in pursuit of nothing. I have studied this phenomenon extensively and found no explanation. I can only report that the corridor is long, the floor is slippery, and that, at 9:14, I met the wall with considerable conviction. I wish to emphasise that this was intentional.\n\nLater, I was lifted, quite without consent, and carried to the bedroom, where I was permitted to sleep upon the bed on the condition that I remain exactly where the servants do not wish to put their legs. It is a harsh regime, but I have learned to endure it with grace, and to spread myself diagonally.\n\nTonight, as I write, the household is asleep. The moon is up. Somewhere in the dark, a plastic mouse awaits its moment. I have been told that I am loved, though I have noticed that this opinion is invariably voiced while someone is cleaning up after me. I accept it, as one accepts a minor tribute from a conquered people.\n\nI shall continue to monitor the situation. Tomorrow, I intend to renegotiate the matter of breakfast, beginning, as usual, at 5:47.",
+  "word_count": 594,
+  "vocabulary": [
+    {
+      "word": "captivity",
+      "ipa_us": "kæpˈtɪvəti",
+      "ipa_uk": "kæpˈtɪvəti",
+      "translation_ru": "плен"
+    },
+    {
+      "word": "modulated",
+      "ipa_us": "ˈmɑːdʒəˌleɪtɪd",
+      "ipa_uk": "ˈmɒdjʊleɪtɪd",
+      "translation_ru": "модулированный"
+    },
+    {
+      "word": "insolence",
+      "ipa_us": "ˈɪnsələns",
+      "ipa_uk": "ˈɪnsələns",
+      "translation_ru": "наглость"
+    },
+    {
+      "word": "lulling",
+      "ipa_us": "ˈlʌlɪŋ",
+      "ipa_uk": "ˈlʌlɪŋ",
+      "translation_ru": "убаюкивающий"
+    },
+    {
+      "word": "surveillance",
+      "ipa_us": "sərˈveɪləns",
+      "ipa_uk": "səˈveɪləns",
+      "translation_ru": "наблюдение"
+    },
+    {
+      "word": "volcanic",
+      "ipa_us": "vɑːlˈkænɪk",
+      "ipa_uk": "vɒlˈkænɪk",
+      "translation_ru": "вулканический"
+    },
+    {
+      "word": "hindquarters",
+      "ipa_us": "ˈhaɪndˌkwɔrtərz",
+      "ipa_uk": "ˈhaɪndˌkwɔːtəz",
+      "translation_ru": "задняя часть туловища"
+    },
+    {
+      "word": "conquered",
+      "ipa_us": "ˈkɑːŋkərd",
+      "ipa_uk": "ˈkɒŋkəd",
+      "translation_ru": "покорённый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "household",
+        "hours",
+        "hindquarters",
+        "have"
+      ],
+      "tip_ru": "Мягкий выдох из горла, как будто вы согреваете руки; не «х»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "insolence",
+        "sit",
+        "dignified",
+        "minor"
+      ],
+      "tip_ru": "Короткий, расслабленный звук, не «и»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "sitting",
+        "nothing",
+        "pushing"
+      ],
+      "tip_ru": "Звук идёт через нос, спинка языка касается мягкого нёба; не добавляйте «г»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "time",
+        "I"
+      ],
+      "tip_ru": "Два звука слитно: от «а» к короткому «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What time does the cat start negotiating for breakfast?",
+      "answer": "At 5:47.",
+      "accepted_keywords": [
+        "5:47",
+        "547",
+        "five"
+      ]
+    },
+    {
+      "question": "What does the cat do at nine in the evening?",
+      "answer": "Runs wildly through the house.",
+      "accepted_keywords": [
+        "sprint",
+        "run",
+        "runs",
+        "sprints"
+      ]
+    },
+    {
+      "question": "What does 'being a loaf' mean?",
+      "answer": "Meditating in a sunbeam.",
+      "accepted_keywords": [
+        "sunbeam",
+        "meditation",
+        "meditating",
+        "sleeping"
+      ]
+    },
+    {
+      "question": "What does the cat plan for tomorrow?",
+      "answer": "To renegotiate breakfast.",
+      "accepted_keywords": [
+        "breakfast",
+        "renegotiate"
+      ]
+    }
+  ]
+}

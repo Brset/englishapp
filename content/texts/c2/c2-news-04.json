@@ -1,0 +1,136 @@
+{
+  "id": "c2-news-04",
+  "level": "C2",
+  "genre": "news",
+  "title_en": "A City Moves into the Night",
+  "title_ru": "Город переезжает в ночь",
+  "description_ru": "Вымышленная новость: из-за аномальной жары власти переводят всю городскую жизнь на ночной график.",
+  "text": "ALTENKIRCH, Republic of Altmark. As the third consecutive heatwave of the summer bakes the northern plains, the city council of Altenkirch announced on Monday a measure that its critics call surrender and its supporters call civilisation: the entire municipal economy is to shift, for the duration of the emergency, to a nocturnal timetable.\n\nFrom next Wednesday, banks, post offices, courts and most shops will open at six in the evening and close at three in the morning. Schools will commence at dusk and, where necessary, finish at midnight. Buses will run through the small hours. The only establishments expected to retain traditional hours are bakeries, whose proprietors have pointed out, with weary dignity, that they have been working at four in the morning for several centuries and see no reason for the rest of the city to be so melodramatic about it.\n\n\"People have been trying to work normally in thirty-nine degrees for three weeks,\" said the mayor, Konrad Ellenbogen-Park, at a press conference held, tellingly, in the cellar of the town hall. \"Productivity has collapsed. Clerks are fainting in the archives. A dentist has been seen wearing a swimming costume under his white coat. I have therefore decided that the sun is simply no longer a participant in our economy.\"\n\nThe plan has precedent. In parts of the Mediterranean and the Middle East, the evening has for centuries been the principal stage of civic life. But Altenkirch, a city with a robust tradition of punctuality, is not accustomed to such flamboyance. Local historians recalled that in 1911, when a clock in the central square ran seven minutes slow, a public inquiry was convened.\n\nReaction has been predictably mixed. The Chamber of Commerce welcomed the move as \"a bold realignment of working life to climatic reality,\" and has already reported a surge in applications for outdoor café licences. The city's cinema owners are said to be jubilant, since an after-midnight audience is, for the first time, exactly the audience they have always wanted. Late-night sleepers, however, are distraught. A petition from a neighbourhood of retired schoolteachers argues that the sound of a tram at two in the afternoon is the sound of a healthy society, and that the new timetable would \"merely invert the problem and give it a street light.\"\n\nMedical experts have urged caution. Professor Lucia Haverkamp of the Altmark Institute of Public Health said that, while avoidance of daytime heat is plainly sensible, disrupting circadian rhythms for months may bring consequences of its own. \"People will be bleary,\" she said. \"They will be irritable. They will make decisions at dawn that they would not make at noon, and, in my experience, they will regret the former.\"\n\nNobody has been more surprised by the new order than the city's owls, who have reportedly begun to nest in the courthouse for the first time in fifty years, and several of whom, it is rumoured, are now registered as jurors.\n\nThe council has promised a review at the end of the heatwave. Mayor Ellenbogen-Park insists that if the weather turns cool, the city will revert to normal, though he confided, in the cellar, that he had recently begun to prefer the evenings, and was, for his own part, in no particular hurry for rain.",
+  "word_count": 548,
+  "vocabulary": [
+    {
+      "word": "consecutive",
+      "ipa_us": "kənˈsɛkjətɪv",
+      "ipa_uk": "kənˈsekjʊtɪv",
+      "translation_ru": "подряд идущий"
+    },
+    {
+      "word": "nocturnal",
+      "ipa_us": "nɑːkˈtɜrnəl",
+      "ipa_uk": "nɒkˈtɜːnəl",
+      "translation_ru": "ночной"
+    },
+    {
+      "word": "melodramatic",
+      "ipa_us": "ˌmɛlədrəˈmætɪk",
+      "ipa_uk": "ˌmelədrəˈmætɪk",
+      "translation_ru": "чересчур драматичный"
+    },
+    {
+      "word": "flamboyance",
+      "ipa_us": "flæmˈbɔɪəns",
+      "ipa_uk": "flæmˈbɔɪəns",
+      "translation_ru": "показная яркость"
+    },
+    {
+      "word": "jubilant",
+      "ipa_us": "ˈdʒuːbələnt",
+      "ipa_uk": "ˈdʒuːbɪlənt",
+      "translation_ru": "ликующий"
+    },
+    {
+      "word": "distraught",
+      "ipa_us": "dɪˈstrɔːt",
+      "ipa_uk": "dɪˈstrɔːt",
+      "translation_ru": "потрясённый, убитый горем"
+    },
+    {
+      "word": "circadian",
+      "ipa_us": "sərˈkeɪdiən",
+      "ipa_uk": "səˈkeɪdiən",
+      "translation_ru": "циркадный"
+    },
+    {
+      "word": "bleary",
+      "ipa_us": "ˈblɪri",
+      "ipa_uk": "ˈblɪəri",
+      "translation_ru": "с мутным взглядом, сонный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "there",
+        "than"
+      ],
+      "tip_ru": "Кончик языка между зубами, голос включён; не «з»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "third",
+        "three",
+        "thirty-nine"
+      ],
+      "tip_ru": "Кончик языка между зубами, глухой выдох."
+    },
+    {
+      "sound": "ɔː",
+      "examples": [
+        "small hours",
+        "morning",
+        "court"
+      ],
+      "tip_ru": "Долгий, округлый звук; губы вытянуты, язык оттянут назад."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "civilisation",
+        "punctuality",
+        "productivity",
+        "circadian"
+      ],
+      "tip_ru": "Ударение: ˌcivilisaTION, ˌpunctuˈALity, ˌproducˈTIVity; ударный слог громче и длиннее."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why is the city shifting to a nocturnal timetable?",
+      "answer": "Because of a heatwave.",
+      "accepted_keywords": [
+        "heat",
+        "heatwave",
+        "hot"
+      ]
+    },
+    {
+      "question": "When will banks and shops open?",
+      "answer": "At six in the evening.",
+      "accepted_keywords": [
+        "six",
+        "evening"
+      ]
+    },
+    {
+      "question": "Who is most unaffected, according to the text?",
+      "answer": "Bakeries, who already work early.",
+      "accepted_keywords": [
+        "bakeries",
+        "bakers"
+      ]
+    },
+    {
+      "question": "What have the owls done?",
+      "answer": "They have begun nesting in the courthouse.",
+      "accepted_keywords": [
+        "nest",
+        "courthouse",
+        "court"
+      ]
+    }
+  ]
+}

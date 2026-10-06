@@ -1,0 +1,132 @@
+{
+  "id": "c2-biography-01",
+  "level": "C2",
+  "genre": "biography",
+  "title_en": "Marie Curie: The Woman Who Glowed",
+  "title_ru": "Мария Кюри: женщина, которая светилась",
+  "description_ru": "Жизнь первой женщины, получившей две Нобелевские премии в разных науках, и цена, которую она заплатила за открытия.",
+  "text": "Maria Skłodowska was born in Warsaw in 1867, in a country that did not officially exist on the map, since Poland had been partitioned among three empires. Women were barred from the University of Warsaw, so she and her sister Bronisława attended the clandestine \"Flying University,\" and made a pact: Maria would work as a governess to fund Bronisława's medical studies in Paris, and the favour would later be returned. It was a bargain struck with the stoicism that would define her life.\n\nIn 1891 she arrived in Paris and enrolled at the Sorbonne, living in a freezing garret, subsisting on bread, butter and tea, and occasionally fainting from hunger. She placed first in physics and second in mathematics in successive degrees. In 1894 she met Pierre Curie, a quietly brilliant physicist who, instead of being threatened by her intellect, was captivated by it. They married the following year and spent their honeymoon cycling through the French countryside.\n\nInspired by Henri Becquerel's discovery that uranium salts emitted mysterious rays, Marie made the subject her doctoral research. She coined the term \"radioactivity,\" and reasoned, with remarkable intuition, that the phenomenon was an atomic property, not a chemical reaction. Pitchblende, the ore, was more radioactive than the uranium it contained, so something else must lurk within. In a leaky, draughty shed, the couple processed tonnes of ore by hand, stirring boiling vats with an iron rod nearly as tall as she was. In 1898 they announced two new elements: polonium, named for her occupied homeland, and radium. Isolating a mere decigram of radium chloride took nearly four years.\n\nIn 1903 the Nobel Prize in Physics was awarded to Becquerel and the Curies; the committee had initially intended to overlook Marie until Pierre protested. Three years later, Pierre was killed when a horse-drawn wagon ran him over in a rain-slicked Paris street. Marie, aged thirty-eight, took over his professorship and became the first woman to teach at the Sorbonne. Her inaugural lecture, it is said, began exactly where his had ended, without a word of preamble.\n\nIn 1911 she received a second Nobel Prize, this time in Chemistry, becoming the first person to win in two different sciences, a distinction still rare today. Yet that same year the press savaged her over a liaison with the physicist Paul Langevin, and some commentators suggested that a foreigner and a woman had no place in French science. She nearly declined to travel to Stockholm.\n\nWhen the First World War erupted, she devised mobile X-ray units, nicknamed \"little Curies,\" and drove one herself to the front, training women to operate them. Hundreds of thousands of wounded soldiers were examined with her equipment. Meanwhile, the hazards of her trade went unrecognised: she carried vials of radium in her pockets, admired their eerie blue glow at night, and never imagined that this luminous beauty was slowly eroding her bone marrow. She died in 1934 of aplastic anaemia, and her notebooks remain so radioactive that they are stored in lead-lined boxes, and visitors must sign a waiver to consult them.\n\nHer legacy is nonetheless luminous. The Radium Institute in Paris, which she founded, trained a generation of scientists, among them her daughter Irène, who won a Nobel Prize of her own in 1935.",
+  "word_count": 545,
+  "vocabulary": [
+    {
+      "word": "clandestine",
+      "ipa_us": "klænˈdɛstɪn",
+      "ipa_uk": "klænˈdestɪn",
+      "translation_ru": "подпольный, тайный"
+    },
+    {
+      "word": "stoicism",
+      "ipa_us": "ˈstoʊɪˌsɪzəm",
+      "ipa_uk": "ˈstəʊɪsɪzəm",
+      "translation_ru": "стоицизм"
+    },
+    {
+      "word": "garret",
+      "ipa_us": "ˈɡɛrɪt",
+      "ipa_uk": "ˈɡærɪt",
+      "translation_ru": "мансарда"
+    },
+    {
+      "word": "subsisting",
+      "ipa_us": "səbˈsɪstɪŋ",
+      "ipa_uk": "səbˈsɪstɪŋ",
+      "translation_ru": "влачить существование"
+    },
+    {
+      "word": "pitchblende",
+      "ipa_us": "ˈpɪtʃˌblɛnd",
+      "ipa_uk": "ˈpɪtʃblend",
+      "translation_ru": "урановая смоляная руда"
+    },
+    {
+      "word": "preamble",
+      "ipa_us": "ˈpriˌæmbəl",
+      "ipa_uk": "priˈæmbəl",
+      "translation_ru": "вступление"
+    },
+    {
+      "word": "eerie",
+      "ipa_us": "ˈɪri",
+      "ipa_uk": "ˈɪəri",
+      "translation_ru": "жуткий, призрачный"
+    },
+    {
+      "word": "luminous",
+      "ipa_us": "ˈluːmɪnəs",
+      "ipa_uk": "ˈluːmɪnəs",
+      "translation_ru": "светящийся"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thirty-eight",
+        "mathematics"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса: не «с» и не «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "women",
+        "wounded",
+        "world"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, без касания зубов: это не русское «в»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "radioactivity",
+        "mathematics",
+        "physicist"
+      ],
+      "tip_ru": "В длинных словах ударение смещается: raˌdio-acˈTIVity, ˌmathe-ˈMAtics. Заучивайте слово целиком с ударным слогом."
+    },
+    {
+      "sound": "ɪə",
+      "examples": [
+        "eerie",
+        "Pierre"
+      ],
+      "tip_ru": "Начните с короткого «и» и плавно «скользните» к неясному «э» — это один звук."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which two Nobel Prizes did Marie Curie win?",
+      "answer": "Physics in 1903 and Chemistry in 1911.",
+      "accepted_keywords": [
+        "physics",
+        "chemistry"
+      ]
+    },
+    {
+      "question": "What did she name the first element after her homeland?",
+      "answer": "Polonium.",
+      "accepted_keywords": [
+        "polonium"
+      ]
+    },
+    {
+      "question": "What did she build during the First World War?",
+      "answer": "Mobile X-ray units.",
+      "accepted_keywords": [
+        "x-ray",
+        "x-rays",
+        "mobile"
+      ]
+    },
+    {
+      "question": "Why are her notebooks stored in lead-lined boxes?",
+      "answer": "They are still radioactive.",
+      "accepted_keywords": [
+        "radioactive",
+        "radium",
+        "radiation"
+      ]
+    }
+  ]
+}

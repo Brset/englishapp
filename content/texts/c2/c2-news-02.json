@@ -1,0 +1,138 @@
+{
+  "id": "c2-news-02",
+  "level": "C2",
+  "genre": "news",
+  "title_en": "Parliament Pays Citizens to Read",
+  "title_ru": "Парламент платит гражданам за чтение",
+  "description_ru": "Вымышленная новость: маленькая республика делает налоговый вычет за книги из библиотеки и штрафует за просрочку публичными чтениями.",
+  "text": "OSLEBRO, Vestland. In a decision that has delighted bibliophiles and bewildered accountants, the parliament of the small Baltic republic of Vestland voted on Wednesday, by a margin of ninety-one to forty, to make the borrowing of a library book a tax-deductible activity.\n\nThe Bibliotheca Bill, as it is formally known, will allow any citizen to deduct the equivalent of two euros from their annual tax bill for every book they borrow and return on time, up to a ceiling of one hundred and fifty volumes. Late returns, in a clause that has already acquired a cult following, will be penalised by a fine payable not in money but in public readings, which defaulters must deliver at the local library to an audience of no fewer than five persons.\n\n\"We spend vast sums encouraging people to drive, to shop and to gamble,\" said the Minister for Culture, Henrik Dalgaard-Osei, after the vote. \"Let us for once subsidise a habit that has never knowingly harmed anybody, with the possible exception of the occasional paper cut.\"\n\nThe scheme emerged from a rather melancholy statistic. Last year, according to the National Statistical Bureau, the average Vestlander read less than a single book in twelve months, a figure that placed the country, ironically, third in the world for literacy and ninety-fourth for actually using it. Library visits had fallen by half in a decade. Several rural branches had been converted into yoga studios, which the Minister regards as an unforgivable betrayal, though he admits to attending one himself.\n\nOpposition has been vocal. The Liberal Fiscal Alliance denounced the bill as \"a grotesque attempt to bribe citizens into improving themselves,\" arguing that a government that pays people to read could, with equal logic, pay them to breathe. A columnist for the daily Morgonpost went further, claiming that the measure would produce a nation of cynical bookworms, who would borrow weighty tomes merely to collect the credit, and let them gather dust on the nightstand. \"Nobody ever finished Proust for the tax relief,\" he wrote.\n\nYet early evidence from a pilot scheme in the coastal district of Fjelling suggests that such fears may be exaggerated. In the six months of the trial, loans rose by two hundred and eighty per cent, and the borough's librarian, Marta Szymborska-Lind, reported scenes she described as \"frankly disorienting.\" Teenagers queued at the desk. A retired plumber requested the complete works of Dostoevsky, for reasons he refused to elaborate. A man who had owed the library a copy of a gardening manual since 1987 returned it in person, together with an apology and a small marrow.\n\nEconomists remain divided on the fiscal consequences. The Treasury calculates that the scheme will cost eleven million euros annually, a sum that the Minister considers \"a rounding error, compared to what we spend on repairing the roads that nobody walks on.\" Professor Aurelia Brandt of the University of Oslebro suggested that the savings in healthcare, thanks to improved mental well-being, might ultimately offset the expense, though she cautioned that \"the correlation between reading and virtue has been somewhat overstated, as any survey of literary biographies will confirm.\"\n\nThe bill is expected to take effect in January, following the formal assent of the president, who, reporters noted, was spotted on Wednesday afternoon at the central library, a little furtively, holding three novels and a biography of a Roman emperor.\n\nAsked whether he planned to claim the deduction, he smiled and said that he preferred to keep his reading private. Then, he added, rather loudly, that he would see everyone at the next public reading.",
+  "word_count": 602,
+  "vocabulary": [
+    {
+      "word": "bibliophiles",
+      "ipa_us": "ˈbɪbliəˌfaɪlz",
+      "ipa_uk": "ˈbɪbliəfaɪlz",
+      "translation_ru": "книголюбы"
+    },
+    {
+      "word": "bewildered",
+      "ipa_us": "bɪˈwɪldərd",
+      "ipa_uk": "bɪˈwɪldəd",
+      "translation_ru": "озадаченные"
+    },
+    {
+      "word": "subsidise",
+      "ipa_us": "ˈsʌbsɪˌdaɪz",
+      "ipa_uk": "ˈsʌbsɪdaɪz",
+      "translation_ru": "субсидировать"
+    },
+    {
+      "word": "melancholy",
+      "ipa_us": "ˈmɛlənˌkɑːli",
+      "ipa_uk": "ˈmelənkɒli",
+      "translation_ru": "меланхоличный"
+    },
+    {
+      "word": "grotesque",
+      "ipa_us": "ɡroʊˈtɛsk",
+      "ipa_uk": "ɡrəʊˈtesk",
+      "translation_ru": "нелепый, гротескный"
+    },
+    {
+      "word": "furtively",
+      "ipa_us": "ˈfɜrtɪvli",
+      "ipa_uk": "ˈfɜːtɪvli",
+      "translation_ru": "украдкой"
+    },
+    {
+      "word": "defaulters",
+      "ipa_us": "dɪˈfɔːltərz",
+      "ipa_uk": "dɪˈfɔːltəz",
+      "translation_ru": "нарушители сроков"
+    },
+    {
+      "word": "offset",
+      "ipa_us": "ˌɔfˈsɛt",
+      "ipa_uk": "ˌɒfˈset",
+      "translation_ru": "компенсировать"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ʌ",
+      "examples": [
+        "subsidise",
+        "public"
+      ],
+      "tip_ru": "Короткий звук между «а» и «э», рот полуоткрыт, язык в центре: не «о» и не «а»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thanks",
+        "with"
+      ],
+      "tip_ru": "Язык между зубами; звук глухой."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bill",
+        "bribe",
+        "bewildered",
+        "read"
+      ],
+      "tip_ru": "Сохраняйте голос на конечных b, d, g: bribe, не «брайп»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "bibliophiles",
+        "literacy",
+        "economists"
+      ],
+      "tip_ru": "Ударение в длинных словах: ˈbiblioˌphiles, ˈliteracy, eˈconomists; обратите внимание на ослабление безударных слогов."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the Bibliotheca Bill make tax-deductible?",
+      "answer": "Borrowing library books.",
+      "accepted_keywords": [
+        "borrow",
+        "library",
+        "books"
+      ]
+    },
+    {
+      "question": "What is the penalty for returning books late?",
+      "answer": "Public readings at the library.",
+      "accepted_keywords": [
+        "reading",
+        "readings",
+        "public"
+      ]
+    },
+    {
+      "question": "What happened during the pilot scheme in Fjelling?",
+      "answer": "Loans rose by 280 per cent.",
+      "accepted_keywords": [
+        "loans",
+        "rose",
+        "280",
+        "two hundred"
+      ]
+    },
+    {
+      "question": "What did the president do at the library?",
+      "answer": "He quietly borrowed books.",
+      "accepted_keywords": [
+        "borrow",
+        "books",
+        "novels",
+        "spotted"
+      ]
+    }
+  ]
+}

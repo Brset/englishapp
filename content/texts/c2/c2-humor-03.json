@@ -1,0 +1,134 @@
+{
+  "id": "c2-humor-03",
+  "level": "C2",
+  "genre": "humor",
+  "title_en": "My Life with Gerald",
+  "title_ru": "Моя жизнь с Джеральдом",
+  "description_ru": "Комический рассказ о закваске для хлеба, которая превратилась из безобидной банки в смысл жизни и социальную катастрофу.",
+  "text": "I should state at the outset that I did not intend to adopt a living organism. It happened during the third week of the lockdown, when a friend of a friend left on my doorstep a jar of grey, bubbling paste and a note that read, in its entirety: \"He's called Gerald. Feed him daily. Good luck.\" There was no mention of what, precisely, one was meant to be lucky about.\n\nGerald, it transpired, was a sourdough starter, which is a flour-and-water culture so enthusiastically alive that it resembles a small, very patient science experiment. I read that he required feeding at regular intervals, and that he would reward my devotion with bread of rare complexity. The internet, which treats sourdough as a branch of theology, listed rules so numerous that I was soon unsure whether I had acquired a pet or a religion. The water must be filtered. The flour must be unbleached. The jar must be kept at precisely twenty-four degrees, a temperature which, in my flat, exists for about eleven minutes each afternoon, in one corner of the bathroom.\n\nI did what any reasonable person would do. I became obsessed. I weighed Gerald on a kitchen scale accurate to a tenth of a gram. I kept a log. I spoke to him while feeding him, softly, as one might address a nervous horse. When he did not rise, I took it personally. When he rose too much, and overflowed from his jar in the night to colonise the shelf, I felt, in some peculiar way, proud.\n\nThe first loaf was a catastrophe. I had been warned that the dough would be \"extensible,\" and had interpreted this as an invitation to stretch it. The result was a grey brick, the density of a small planet, which I took to my neighbours as a gift. They thanked me warmly. A week later, I noticed that it had been installed in their garden, in place of a gnome.\n\nThe second loaf was no better, nor the third. My partner, Helena, a woman of formidable tact, observed that the bread had \"a certain honesty.\" I took this as a compliment, until I overheard her telling her mother, on the telephone, that she was thinking of hiding the flour.\n\nBut persistence, as they say, is the mother of improvement, or at least of repetition, and by the sixth week I had produced something that could be sliced without a saw. It was golden, crisp and crowned with a ragged, almost heroic crust. When I cut it, the crumb revealed a lattice of lovely, irregular holes, as if the loaf were a monument to the principle of controlled disappointment. I wept a little. Helena ate three slices and, with a nobility that I shall never forget, did not mention the brick.\n\nNaturally, success changed me. I became insufferable. At dinner parties, I would lean across the table and announce that I had \"a bit of a starter on the go,\" in the tone a man might use to confess to an interesting war record. Friends began to avoid my invitations. A colleague accused me of \"gatekeeping the hydration.\"\n\nGerald, meanwhile, has remained entirely unmoved. He sits on the counter, burbling to himself, with the equanimity of a creature that has outlived all fashions. I have come to regard him less as an organism than as a lodger: temperamental, demanding, occasionally malodorous, but unfailingly capable of producing, when it counts, something warm.",
+  "word_count": 581,
+  "vocabulary": [
+    {
+      "word": "outset",
+      "ipa_us": "ˈaʊtˌsɛt",
+      "ipa_uk": "ˈaʊtset",
+      "translation_ru": "начало"
+    },
+    {
+      "word": "transpired",
+      "ipa_us": "trænˈspaɪərd",
+      "ipa_uk": "trænˈspaɪəd",
+      "translation_ru": "оказалось"
+    },
+    {
+      "word": "theology",
+      "ipa_us": "θiˈɑːlədʒi",
+      "ipa_uk": "θiˈɒlədʒi",
+      "translation_ru": "теология"
+    },
+    {
+      "word": "colonise",
+      "ipa_us": "ˈkɑːləˌnaɪz",
+      "ipa_uk": "ˈkɒlənaɪz",
+      "translation_ru": "колонизировать"
+    },
+    {
+      "word": "extensible",
+      "ipa_us": "ɪkˈstɛnsəbəl",
+      "ipa_uk": "ɪkˈstensəbəl",
+      "translation_ru": "растяжимый"
+    },
+    {
+      "word": "formidable",
+      "ipa_us": "ˈfɔrmɪdəbəl",
+      "ipa_uk": "ˈfɔːmɪdəbəl",
+      "translation_ru": "внушительный"
+    },
+    {
+      "word": "insufferable",
+      "ipa_us": "ɪnˈsʌfərəbəl",
+      "ipa_uk": "ɪnˈsʌfərəbəl",
+      "translation_ru": "невыносимый"
+    },
+    {
+      "word": "malodorous",
+      "ipa_us": "mælˈoʊdərəs",
+      "ipa_uk": "mælˈəʊdərəs",
+      "translation_ru": "дурно пахнущий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "third",
+        "theology",
+        "bathroom"
+      ],
+      "tip_ru": "Кончик языка между зубами, звук глухой."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that"
+      ],
+      "tip_ru": "Язык между зубами, голос включён."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "bread",
+        "brick",
+        "rise",
+        "reasonable"
+      ],
+      "tip_ru": "Язык оттянут назад и не касается нёба; не вибрируйте."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "bubbling",
+        "feeding",
+        "stretch"
+      ],
+      "tip_ru": "Звук «ng» уходит через нос; не добавляйте «г» после него."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who gave the narrator Gerald?",
+      "answer": "A friend of a friend.",
+      "accepted_keywords": [
+        "friend"
+      ]
+    },
+    {
+      "question": "What is Gerald?",
+      "answer": "A sourdough starter.",
+      "accepted_keywords": [
+        "sourdough",
+        "starter",
+        "bread"
+      ]
+    },
+    {
+      "question": "What did the neighbours do with the first loaf?",
+      "answer": "Put it in their garden instead of a gnome.",
+      "accepted_keywords": [
+        "garden",
+        "gnome"
+      ]
+    },
+    {
+      "question": "Why did friends avoid the narrator's invitations?",
+      "answer": "He became insufferable about his starter.",
+      "accepted_keywords": [
+        "insufferable",
+        "starter",
+        "bread",
+        "boasting"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "c2-opinion-02",
+  "level": "C2",
+  "genre": "opinion",
+  "title_en": "The Tyranny of Optimisation",
+  "title_ru": "Тирания оптимизации",
+  "description_ru": "Размышление о том, как погоня за эффективностью лишает жизнь смысла и почему стоит позволять себе «бесполезное».",
+  "text": "There is a particular species of modern misery that has no name, though everyone knows it intimately: the feeling of having finished a day efficiently and discovered that one has not lived it. I call it the tyranny of optimisation, and I believe it to be the quiet disease of our age.\n\nIt begins innocently. Somebody devises a clever method of shaving four minutes off the morning commute, and we are delighted. Then comes a calendar that colour-codes our lives, a device that grades our sleep, an app that rates our conversations, and a self-help industry that insists every spare moment must be monetised, measured or at least shared. We become, one by one, the managers of our own tiny corporations, and woefully overworked managers at that. The terror of waste has soaked into everything. Even leisure must now be productive. One does not simply walk; one logs ten thousand steps. One does not read a novel; one hits a target of fifty books a year, and, inevitably, discovers that the target has crowded out the pleasure.\n\nHere is the paradox that the optimisers will never admit. The things that make life worth living are, almost without exception, spectacularly inefficient. Friendship is a catastrophic waste of time: hours of aimless talk, hardly any of which can be justified by results. Cooking a proper meal for people you love costs ten times what a delivery would. A walk through an unfamiliar town, without a map and without a destination, is, by every rational metric, a mistake. And yet it is precisely in such mistakes that we meet the surprises, the strangers, the corner cafés that become, in retrospect, the whole point of the holiday.\n\nEconomists have a term for this: the problem of the proxy. When a measure becomes a target, it ceases to be a good measure. If you reward a hospital for shorter waiting lists, it will find ingenious ways to remove people from the list without actually treating them. If you judge a student by examination results, she will master the examination rather than the subject. And if you judge yourself by output, you will gradually become a person whose chief talent is producing output, which is a bit like becoming an expert in the use of a ruler and forgetting what you intended to measure.\n\nI do not wish to be misunderstood. I am no enemy of competence. I would not want my surgeon to indulge a taste for inefficiency, nor my train to wander picturesquely off its timetable. There is a proper domain for optimisation, and it is the domain of means. The disaster occurs when we apply it to ends, treating our one finite life as though it were a supply chain.\n\nWhat is the alternative? Not laziness, but something harder to name: a certain stubborn generosity toward time. It means choosing, occasionally, the slow road for no better reason than that it is beautiful. It means leaving a margin in the schedule where nothing is planned, and defending that margin fiercely against the encroachment of the useful. It means accepting that some afternoons will produce nothing that could be reported at a meeting, and that those may well be the afternoons we remember.\n\nLet me end with an unfashionable proposition. Perhaps the point of a life is not to be optimised, but to be inhabited. And you can only inhabit something that you are willing, now and again, to waste.",
+  "word_count": 579,
+  "vocabulary": [
+    {
+      "word": "monetised",
+      "ipa_us": "ˈmɑːnɪˌtaɪzd",
+      "ipa_uk": "ˈmʌnɪtaɪzd",
+      "translation_ru": "превращённый в источник дохода"
+    },
+    {
+      "word": "woefully",
+      "ipa_us": "ˈwoʊfəli",
+      "ipa_uk": "ˈwəʊfəli",
+      "translation_ru": "прискорбно"
+    },
+    {
+      "word": "paradox",
+      "ipa_us": "ˈpærəˌdɑːks",
+      "ipa_uk": "ˈpærədɒks",
+      "translation_ru": "парадокс"
+    },
+    {
+      "word": "spectacularly",
+      "ipa_us": "spɛkˈtækjələrli",
+      "ipa_uk": "spekˈtækjʊləli",
+      "translation_ru": "потрясающе, поразительно"
+    },
+    {
+      "word": "proxy",
+      "ipa_us": "ˈprɑːksi",
+      "ipa_uk": "ˈprɒksi",
+      "translation_ru": "заменитель, показатель-посредник"
+    },
+    {
+      "word": "ingenious",
+      "ipa_us": "ɪnˈdʒinjəs",
+      "ipa_uk": "ɪnˈdʒiːniəs",
+      "translation_ru": "изобретательный"
+    },
+    {
+      "word": "encroachment",
+      "ipa_us": "ɪnˈkroʊtʃmənt",
+      "ipa_uk": "ɪnˈkrəʊtʃmənt",
+      "translation_ru": "посягательство"
+    },
+    {
+      "word": "inhabited",
+      "ipa_us": "ɪnˈhæbɪtɪd",
+      "ipa_uk": "ɪnˈhæbɪtɪd",
+      "translation_ru": "населённый, прожитый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "waste",
+        "walk",
+        "wish",
+        "without"
+      ],
+      "tip_ru": "Округлите губы и сразу переходите к гласному, зубов не касайтесь: wait — не «вейт»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "delivery",
+        "innocently"
+      ],
+      "tip_ru": "Нижняя губа касается верхних зубов; голос включён."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "optimisation",
+        "competence",
+        "generosity"
+      ],
+      "tip_ru": "В безударных слогах произносите короткое неясное «ә», не полное «о» или «а»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "optimisation",
+        "efficiently",
+        "inefficient"
+      ],
+      "tip_ru": "Ударение: ˌoptimiˈsaTION, efˈfiCIENTly, ˌineˈfiCIENT; ударный слог произносится громче и длиннее."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the author call the quiet disease of our age?",
+      "answer": "The tyranny of optimisation.",
+      "accepted_keywords": [
+        "optimisation",
+        "optimization",
+        "tyranny"
+      ]
+    },
+    {
+      "question": "Why does the author call friendship wasteful?",
+      "answer": "It consumes hours of aimless talk.",
+      "accepted_keywords": [
+        "time",
+        "aimless",
+        "talk"
+      ]
+    },
+    {
+      "question": "What is the problem of the proxy?",
+      "answer": "When a measure becomes a target it stops being a good measure.",
+      "accepted_keywords": [
+        "measure",
+        "target"
+      ]
+    },
+    {
+      "question": "Where is optimisation appropriate, according to the author?",
+      "answer": "In the domain of means, not ends.",
+      "accepted_keywords": [
+        "means"
+      ]
+    }
+  ]
+}

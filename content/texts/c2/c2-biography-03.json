@@ -1,0 +1,134 @@
+{
+  "id": "c2-biography-03",
+  "level": "C2",
+  "genre": "biography",
+  "title_en": "Frida Kahlo: Born Twice",
+  "title_ru": "Фрида Кало: родившаяся дважды",
+  "description_ru": "Как автокатастрофа, боль и бурный брак превратились в одно из самых узнаваемых художественных наследий XX века.",
+  "text": "Frida Kahlo liked to say that she had been born twice. The first time was in Coyoacán, then a village on the edge of Mexico City, in July 1907, although she preferred to claim 1910, the year the Mexican Revolution began, so that her life and her country's rebirth might appear to begin together. The second birth was a catastrophe.\n\nAt six she contracted polio, which left her right leg thinner than the left; she hid it beneath long, flowing skirts that later became her trademark. At eighteen, riding home from school in a wooden bus, she was in a collision with a streetcar. An iron handrail pierced her pelvis, and a fellow passenger, carrying gold dust, was said to have burst open, so that she was found glittering in the wreckage. She endured some thirty operations over her lifetime, and spent months immobilised in plaster corsets.\n\nIt was during that first convalescence that she began to paint. Her mother commissioned a special easel that could be used in bed, and fixed a mirror to the canopy overhead. Having little else to look at, Frida studied her own face. \"I paint myself because I am so often alone,\" she later explained, \"and because I am the subject I know best.\" Of her roughly 140 paintings, fifty-five are self-portraits, and in none of them does she flatter herself. The famous unibrow and faint moustache are rendered with deadpan candour, as if daring the viewer to object.\n\nIn 1929 she married Diego Rivera, the celebrated muralist, who was twenty-one years her senior and the size of a small elephant. Her parents called the match \"an elephant and a dove.\" It was tempestuous. He was serially unfaithful, once with her own sister; she retaliated with lovers of both sexes, including, briefly, the exiled Russian revolutionary Leon Trotsky, who stayed at her family's blue house. They divorced in 1939 and, with characteristic perversity, remarried a year later.\n\nHer paintings transmute agony into allegory. In \"The Broken Column\" her torso is split open to reveal a crumbling Ionic pillar, nails studding her skin. In \"The Two Fridas\" a pair of selves sit holding hands, joined by an exposed artery, one in European lace, the other in Tehuana dress. André Breton declared her a surrealist; Frida bristled. \"I never painted dreams,\" she said. \"I painted my own reality.\"\n\nRecognition came slowly. In 1939 the Louvre purchased her self-portrait \"The Frame,\" making her the first twentieth-century Mexican artist in its collection. Yet in her lifetime she remained, in the public mind, Rivera's wife. Her only solo exhibition in Mexico opened in 1953, when she was so frail that doctors forbade her to attend. She arrived by ambulance, and was carried in her four-poster bed to the gallery, where she held court amid the guests, laughing, smoking and drinking tequila.\n\nThat same year gangrene forced the amputation of her right leg below the knee. \"Feet, what do I need them for,\" she wrote in her diary, \"if I have wings to fly?\" She died in July 1954, aged forty-seven, at the Blue House where she was born. The final entry in her diary reads: \"I hope the exit is joyful, and I hope never to return.\"\n\nShe need not have worried about oblivion. Today the Blue House is a museum queued around the block, her face adorns everything from banknotes to tote bags, and the girl who invented herself on a canvas has become, ironically, a commodity. One suspects she would have found that, at the very least, darkly funny.",
+  "word_count": 592,
+  "vocabulary": [
+    {
+      "word": "convalescence",
+      "ipa_us": "ˌkɑːnvəˈlɛsəns",
+      "ipa_uk": "ˌkɒnvəˈlesəns",
+      "translation_ru": "выздоровление"
+    },
+    {
+      "word": "candour",
+      "ipa_us": "ˈkændər",
+      "ipa_uk": "ˈkændə",
+      "translation_ru": "откровенность"
+    },
+    {
+      "word": "tempestuous",
+      "ipa_us": "tɛmˈpɛstʃuəs",
+      "ipa_uk": "temˈpestʃuəs",
+      "translation_ru": "бурный"
+    },
+    {
+      "word": "retaliated",
+      "ipa_us": "rɪˈtæliˌeɪtɪd",
+      "ipa_uk": "rɪˈtælieɪtɪd",
+      "translation_ru": "отплатила"
+    },
+    {
+      "word": "transmute",
+      "ipa_us": "trænzˈmjut",
+      "ipa_uk": "trænzˈmjuːt",
+      "translation_ru": "преображать"
+    },
+    {
+      "word": "allegory",
+      "ipa_us": "ˈæləˌɡɔri",
+      "ipa_uk": "ˈælɪɡəri",
+      "translation_ru": "аллегория"
+    },
+    {
+      "word": "bristled",
+      "ipa_us": "ˈbrɪsəld",
+      "ipa_uk": "ˈbrɪsəld",
+      "translation_ru": "ощетинилась"
+    },
+    {
+      "word": "oblivion",
+      "ipa_us": "əˈblɪviən",
+      "ipa_uk": "əˈblɪviən",
+      "translation_ru": "забвение"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aspiration",
+      "examples": [
+        "painted",
+        "portrait",
+        "paintings"
+      ],
+      "tip_ru": "Звуки p, t, k в начале ударного слога произносите с лёгким «выдохом», как будто к губам поднесена свеча."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "other",
+        "them"
+      ],
+      "tip_ru": "Кончик языка между зубами, голос включён: не «з» и не «д»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "revolution",
+        "remarried",
+        "right"
+      ],
+      "tip_ru": "Язык не касается нёба и не вибрирует; кончик слегка загнут назад, губы чуть округлены."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bed",
+        "died"
+      ],
+      "tip_ru": "Не оглушайте конечные b, d, g: bed — не «бет». Голос сохраняйте до конца слова."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why did Frida claim to be born in 1910?",
+      "answer": "To link her birth with the start of the Mexican Revolution.",
+      "accepted_keywords": [
+        "revolution"
+      ]
+    },
+    {
+      "question": "What happened to her at eighteen?",
+      "answer": "A bus collided with a streetcar and she was badly injured.",
+      "accepted_keywords": [
+        "bus",
+        "accident",
+        "collision",
+        "streetcar"
+      ]
+    },
+    {
+      "question": "Why did she paint so many self-portraits?",
+      "answer": "Because she was often alone and knew herself best.",
+      "accepted_keywords": [
+        "alone",
+        "subject",
+        "best"
+      ]
+    },
+    {
+      "question": "What did she do at her 1953 exhibition?",
+      "answer": "She arrived by ambulance and attended in her bed.",
+      "accepted_keywords": [
+        "bed",
+        "ambulance"
+      ]
+    }
+  ]
+}

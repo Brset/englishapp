@@ -1,0 +1,135 @@
+{
+  "id": "c2-biography-04",
+  "level": "C2",
+  "genre": "biography",
+  "title_en": "Nikola Tesla: Child of Light",
+  "title_ru": "Никола Тесла: дитя света",
+  "description_ru": "Судьба изобретателя переменного тока: вспышки гениальности, война токов, причуды и забвение.",
+  "text": "According to family legend, Nikola Tesla was born at midnight during a violent electrical storm in July 1856, in the village of Smiljan, then part of the Austrian Empire and now in Croatia. The midwife, glancing at the flashes outside, murmured that he would be a child of darkness. His mother, so the story goes, retorted: \"No. Of light.\" Like most legends, it is too neat to be reliably true, and far too good to be abandoned.\n\nThe son of a Serbian Orthodox priest, Tesla was blessed with a prodigious memory and cursed with a vivid, sometimes tormenting imagination. He could visualise an entire machine in his mind, run it for weeks, and inspect the bearings for wear before ever lifting a tool. He studied engineering at Graz, where he made himself unpopular with a professor by insisting that a motor could work without a commutator, and then moved to Budapest and Paris.\n\nIn June 1884 he disembarked in New York with four cents in his pocket, a book of his own poems, and a letter of introduction to Thomas Edison, which allegedly read: \"I know two great men, and you are one of them.\" Edison hired him. The partnership was doomed. Edison was a pragmatic tinkerer who tested a thousand filaments by trial and error; Tesla was a theorist who found such methods insufferably wasteful. When Tesla claimed a promised bonus of fifty thousand dollars, Edison reportedly laughed and said he did not understand American humour. Tesla resigned.\n\nWhat followed was the so-called War of the Currents. Edison championed direct current, which was safe but could travel only a mile or so from the power station. Tesla's polyphase alternating current system, backed by the industrialist George Westinghouse, could be transmitted across vast distances at high voltage. Edison's camp, resorting to some rather ghoulish propaganda, electrocuted stray dogs and even an elephant to demonstrate its dangers. Tesla responded by passing a million volts through his own body, to show that high frequency was harmless, and lit a bulb in his hands.\n\nAlternating current won. It illuminated the 1893 World's Fair in Chicago and, in 1895, began harnessing Niagara Falls. Tesla, meanwhile, was becoming the most fashionable eccentric in New York. He dined nightly at the Waldorf-Astoria at exactly the same table, demanding eighteen clean napkins, and calculating the volume of every dish before eating it. He had an obsessive aversion to pearls, a compulsion to do things in multiples of three, and a tender attachment to a white pigeon, which he claimed to love as a man loves a woman.\n\nHis ambitions swelled until they outran his finances. At Wardenclyffe, on Long Island, he began constructing a colossal tower intended to transmit messages, and even electricity itself, across the Atlantic without wires. His backer, J. P. Morgan, withdrew support when Guglielmo Marconi sent a radio signal across the ocean first, and nobody could see how to bill customers for free energy drifting through the air. The tower was dismantled and sold for scrap.\n\nTesla spent his last decades in a series of hotels, penniless, feeding pigeons in the park, and making announcements about death rays that nobody quite believed. He died alone in room 3327 of the Hotel New Yorker in January 1943, aged eighty-six. Months later, the United States Supreme Court overturned several of Marconi's patents, in a ruling that quietly acknowledged Tesla's earlier work.\n\nToday his name adorns both a unit of magnetic flux density and an automobile company, which would have struck him, doubtless, as a poor exchange rate for genius.",
+  "word_count": 591,
+  "vocabulary": [
+    {
+      "word": "prodigious",
+      "ipa_us": "prəˈdɪdʒəs",
+      "ipa_uk": "prəˈdɪdʒəs",
+      "translation_ru": "колоссальный"
+    },
+    {
+      "word": "insufferably",
+      "ipa_us": "ɪnˈsʌfərəbli",
+      "ipa_uk": "ɪnˈsʌfərəbli",
+      "translation_ru": "невыносимо"
+    },
+    {
+      "word": "polyphase",
+      "ipa_us": "ˈpɑːliˌfeɪz",
+      "ipa_uk": "ˈpɒlifeɪz",
+      "translation_ru": "многофазный"
+    },
+    {
+      "word": "ghoulish",
+      "ipa_us": "ˈɡuːlɪʃ",
+      "ipa_uk": "ˈɡuːlɪʃ",
+      "translation_ru": "жуткий, макабрический"
+    },
+    {
+      "word": "eccentric",
+      "ipa_us": "ɪkˈsɛntrɪk",
+      "ipa_uk": "ɪkˈsentrɪk",
+      "translation_ru": "чудак"
+    },
+    {
+      "word": "aversion",
+      "ipa_us": "əˈvɜrʒən",
+      "ipa_uk": "əˈvɜːʃən",
+      "translation_ru": "отвращение"
+    },
+    {
+      "word": "colossal",
+      "ipa_us": "kəˈlɑːsəl",
+      "ipa_uk": "kəˈlɒsəl",
+      "translation_ru": "колоссальный"
+    },
+    {
+      "word": "penniless",
+      "ipa_us": "ˈpɛnɪləs",
+      "ipa_uk": "ˈpenɪləs",
+      "translation_ru": "без гроша"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "violent",
+        "vivid",
+        "voltage",
+        "vast"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, голос включён: не «в» русское, а более «жужжащий» с зубами."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "world",
+        "Fair",
+        "Hotel New Yorker"
+      ],
+      "tip_ru": "Губы растянуты, язык в середине рта, без «р» в британском варианте; звук долгий и ровный."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "with",
+        "him",
+        "wasteful"
+      ],
+      "tip_ru": "Короткий, напряжённый звук: не «и», а нечто близкое к «ы» с лёгким «и»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "legend",
+        "world"
+      ],
+      "tip_ru": "Задняя часть языка поднята, кончик упирается в дёсны: l звучит глухо и «густо», как мягкий «л» в «полк»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Tesla born?",
+      "answer": "In Smiljan, now in Croatia.",
+      "accepted_keywords": [
+        "smiljan",
+        "croatia"
+      ]
+    },
+    {
+      "question": "Why did Tesla leave Edison?",
+      "answer": "Edison did not pay a promised bonus.",
+      "accepted_keywords": [
+        "bonus",
+        "money",
+        "pay",
+        "fifty"
+      ]
+    },
+    {
+      "question": "Which current did Tesla and Westinghouse promote?",
+      "answer": "Alternating current.",
+      "accepted_keywords": [
+        "alternating",
+        "ac"
+      ]
+    },
+    {
+      "question": "What happened to the Wardenclyffe tower?",
+      "answer": "It was dismantled and sold for scrap.",
+      "accepted_keywords": [
+        "scrap",
+        "dismantled",
+        "sold"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "c2-biography-02",
+  "level": "C2",
+  "genre": "biography",
+  "title_en": "Ada Lovelace: Poetical Science",
+  "title_ru": "Ада Лавлейс: поэтическая наука",
+  "description_ru": "История дочери Байрона, которая увидела в механической машине будущее вычислений и написала первую в мире программу.",
+  "text": "Few children have inherited so much notoriety and so little affection as Augusta Ada Byron, born in London in December 1815. Her father, the poet Lord Byron, left England a month after her birth and never saw her again; he died in Greece when she was eight. Her mother, Annabella Milbanke, a woman of formidable rectitude, was haunted by the fear that Ada might inherit her father's volatile, poetic temperament, and resolved to inoculate her against it with a rigorous diet of mathematics.\n\nThe experiment worked, though not quite as intended. Ada's tutors included the polymath Mary Somerville and the logician Augustus De Morgan, and she proved a prodigy with a restless imagination. As a teenager she designed, on paper, a steam-powered flying machine modelled on the anatomy of birds. At seventeen she met Charles Babbage, the cantankerous Cambridge mathematician, at a party where he demonstrated a small section of his Difference Engine, a mechanical calculator of gleaming brass. Others saw an ingenious curiosity; Ada saw a doorway.\n\nShe married William King in 1835, who was later created Earl of Lovelace, and bore three children while continuing her studies by correspondence. Babbage by then had conceived something far grander: the Analytical Engine, a machine that would be fed instructions on punched cards, borrowed from the Jacquard loom that wove intricate silk patterns. It was never built, largely because Babbage was better at inventing machines than at placating the government officials who funded them.\n\nIn 1843 Ada translated an article about the engine, written in French by the Italian engineer Luigi Menabrea. She appended her own notes, which proved to be nearly three times longer than the original text. In them she did something unprecedented. She described, step by step, a method by which the engine could calculate Bernoulli numbers, a sequence notoriously tedious to compute by hand. This is widely regarded as the first published computer program, though historians still argue over how much of the reasoning was hers and how much Babbage's.\n\nWhat is indisputably hers is the vision. Ada grasped that such a machine need not be confined to arithmetic. If numbers could stand for other things, such as musical pitches, she wrote, the engine might compose elaborate pieces of music. It would weave algebraical patterns, she said, just as the loom weaves flowers and leaves. She called her approach \"poetical science,\" a phrase that would have both delighted and appalled her parents. Yet she was also sceptical: the engine, she cautioned, has no pretensions to originate anything, a remark that Alan Turing later dubbed \"Lady Lovelace's Objection\" and spent pages refuting.\n\nHer private life was less orderly. She dabbled in betting on horses with a syndicate of dubious gentlemen, accumulated ruinous debts, and pawned the family jewels in a desperate attempt to settle them. She was a woman who tried to reduce the unpredictable to a formula, and found the racecourse unwilling to cooperate.\n\nIn 1852 she died of uterine cancer, aged only thirty-six, the same age at which her father had died. At her request she was buried beside him in the family vault in Nottinghamshire, the daughter at last rejoining the father she never knew.\n\nFor a century she was forgotten. Then, in the 1980s, the United States Department of Defense named a programming language Ada in her honour, and each October the world now celebrates Ada Lovelace Day. It seems a fitting posthumous revenge on a mother who feared poetry: the finest poetry of all turned out to be precisely mathematics.",
+  "word_count": 585,
+  "vocabulary": [
+    {
+      "word": "rectitude",
+      "ipa_us": "ˈrɛktɪˌtud",
+      "ipa_uk": "ˈrektɪtjuːd",
+      "translation_ru": "строгая добропорядочность"
+    },
+    {
+      "word": "volatile",
+      "ipa_us": "ˈvɑːlətəl",
+      "ipa_uk": "ˈvɒlətaɪl",
+      "translation_ru": "переменчивый, взрывной"
+    },
+    {
+      "word": "prodigy",
+      "ipa_us": "ˈprɑːdədʒi",
+      "ipa_uk": "ˈprɒdɪdʒi",
+      "translation_ru": "вундеркинд"
+    },
+    {
+      "word": "cantankerous",
+      "ipa_us": "kænˈtæŋkərəs",
+      "ipa_uk": "kænˈtæŋkərəs",
+      "translation_ru": "сварливый"
+    },
+    {
+      "word": "tedious",
+      "ipa_us": "ˈtidiəs",
+      "ipa_uk": "ˈtiːdiəs",
+      "translation_ru": "утомительный"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskɛptɪkəl",
+      "ipa_uk": "ˈskeptɪkəl",
+      "translation_ru": "скептичный"
+    },
+    {
+      "word": "posthumous",
+      "ipa_us": "ˈpɑːstʃəməs",
+      "ipa_uk": "ˈpɒstjʊməs",
+      "translation_ru": "посмертный"
+    },
+    {
+      "word": "polymath",
+      "ipa_us": "ˈpɑːliˌmæθ",
+      "ipa_uk": "ˈpɒlimæθ",
+      "translation_ru": "человек энциклопедических знаний"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ŋ",
+      "examples": [
+        "engine",
+        "programming"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце: programming, а не program-ming-г."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "mathematics",
+        "Babbage",
+        "calculator"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э»: нечто среднее между «э» и «а»."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "Lovelace",
+        "machine",
+        "original"
+      ],
+      "tip_ru": "Безударные слоги ослабляются до короткого неясного звука: ˈLOVelәs, not Love-LACE."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "mathematics",
+        "mathematician",
+        "arithmetic"
+      ],
+      "tip_ru": "Ударение смещается при изменении слова: ˈmaths, ˌmatheməˈtician, əˈrithmetic."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who was Ada Lovelace's father?",
+      "answer": "The poet Lord Byron.",
+      "accepted_keywords": [
+        "byron",
+        "poet"
+      ]
+    },
+    {
+      "question": "What did Ada describe in her notes of 1843?",
+      "answer": "A method for the Analytical Engine to calculate Bernoulli numbers.",
+      "accepted_keywords": [
+        "bernoulli",
+        "program",
+        "calculate"
+      ]
+    },
+    {
+      "question": "What did she think the engine might compose?",
+      "answer": "Music.",
+      "accepted_keywords": [
+        "music"
+      ]
+    },
+    {
+      "question": "Why was a programming language named Ada?",
+      "answer": "In her honour, as the first programmer.",
+      "accepted_keywords": [
+        "honour",
+        "honor",
+        "program",
+        "first"
+      ]
+    }
+  ]
+}

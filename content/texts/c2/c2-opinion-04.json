@@ -1,0 +1,136 @@
+{
+  "id": "c2-opinion-04",
+  "level": "C2",
+  "genre": "opinion",
+  "title_en": "In Defence of the Apology",
+  "title_ru": "В защиту настоящего извинения",
+  "description_ru": "Страстный призыв вернуть искреннее «я был неправ» и отказаться от уклончивых псевдоизвинений.",
+  "text": "I should like to make a modest and unpopular proposal: that we bring back the proper apology. Not the performance that currently passes under that name, the one that begins \"I'm sorry if anyone was offended,\" which is to say the grammatical equivalent of a shrug, but the old, unglamorous, bone-deep article, in which one person looks at another and says, without adverbs, \"I was wrong.\"\n\nObserve how rarely it occurs. Politicians, caught red-handed, regret that \"mistakes were made\", a sentence engineered, with admirable craftsmanship, to have no author. Corporations issue statements of \"deep concern\" about the \"experience\" of customers, whose cars have merely exploded. Even in private life, we have developed an exquisite repertoire of evasions. There is the pre-emptive apology, offered so lavishly that it forecloses criticism. There is the apology with a \"but\" attached, a small trapdoor through which responsibility quietly escapes. And there is the apology that is really a request for absolution, in which the offender weeps so extravagantly that the victim ends up comforting him.\n\nWhy is the genuine article so scarce? I suspect the reason is a pervasive, and largely mistaken, belief that admitting error is a form of defeat. In an age of relentless self-presentation, the confession of a mistake seems a catastrophic loss of face, a gift to one's enemies. But this reckons without the curious arithmetic of trust. Psychologists who study such matters have found that people who admit to blunders are, in the long run, regarded as more competent and more honest than those who deny them. The reason is simple. Everyone makes errors; only the secure acknowledge them. To refuse an apology is therefore to announce, to anyone paying attention, that one is quietly terrified.\n\nA sincere apology, if it is to be worth the breath, has a few severe requirements. It must name the offence precisely, since vagueness is the refuge of the evasive. It must accept responsibility without recruiting the victim's sensibilities as a co-defendant. It must express a credible regret, not merely for being found out but for the harm itself. And it must, wherever possible, be followed by something that costs the speaker: a repair, a restitution, a change of conduct. An apology that costs nothing is worth rather less than that.\n\nThere is, besides, a gift in it that is seldom mentioned. The person who apologises well releases not only the injured party but himself. He no longer needs to remember which version of the story he told to whom, nor to rehearse his defence at three in the morning, nor to rearrange his route to avoid the person he wronged. The burden of concealment, which is considerable, is lifted at a stroke. It is a remarkable bargain: for the price of a few mortifying seconds, one recovers years of freedom.\n\nCritics will say I am naïve, that a world of frank apologies would be a world of lawsuits and exploited weakness. Perhaps in the courtroom. But in the kitchen, the office and the family, the opposite is nearly always true. The ability to say \"I was wrong\" is the foundation of every durable relationship I have ever observed.\n\nSo let us restore it to honour. Let us say it plainly, without hedging, preferably before we are asked. It will feel dreadful for nearly a minute. And then, to our considerable astonishment, we shall feel light.",
+  "word_count": 569,
+  "vocabulary": [
+    {
+      "word": "evasions",
+      "ipa_us": "ɪˈveɪʒənz",
+      "ipa_uk": "ɪˈveɪʒənz",
+      "translation_ru": "увёртки"
+    },
+    {
+      "word": "pre-emptive",
+      "ipa_us": "priˈɛmptɪv",
+      "ipa_uk": "priːˈemptɪv",
+      "translation_ru": "упреждающий"
+    },
+    {
+      "word": "absolution",
+      "ipa_us": "ˌæbsəˈluʃən",
+      "ipa_uk": "ˌæbsəˈluːʃən",
+      "translation_ru": "отпущение грехов"
+    },
+    {
+      "word": "pervasive",
+      "ipa_us": "pərˈveɪsɪv",
+      "ipa_uk": "pəˈveɪsɪv",
+      "translation_ru": "повсеместный"
+    },
+    {
+      "word": "restitution",
+      "ipa_us": "ˌrɛstɪˈtuʃən",
+      "ipa_uk": "ˌrestɪˈtjuːʃən",
+      "translation_ru": "возмещение ущерба"
+    },
+    {
+      "word": "mortifying",
+      "ipa_us": "ˈmɔrtɪˌfaɪɪŋ",
+      "ipa_uk": "ˈmɔːtɪfaɪɪŋ",
+      "translation_ru": "унизительный"
+    },
+    {
+      "word": "concealment",
+      "ipa_us": "kənˈsilmənt",
+      "ipa_uk": "kənˈsiːlmənt",
+      "translation_ru": "сокрытие"
+    },
+    {
+      "word": "exploited",
+      "ipa_us": "ɪkˈsplɔɪtɪd",
+      "ipa_uk": "ɪkˈsplɔɪtɪd",
+      "translation_ru": "использованный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "eɪ",
+      "examples": [
+        "apology",
+        "mistakes",
+        "evasions"
+      ],
+      "tip_ru": "Двигайтесь от «э» к короткому «и»: это двойной звук (дифтонг), а не просто длинное «э»."
+    },
+    {
+      "sound": "ɔɪ",
+      "examples": [
+        "exploited",
+        "avoid"
+      ],
+      "tip_ru": "Начните с округлённого «о» и скользите к «и»."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "performance",
+        "proposal",
+        "trust"
+      ],
+      "tip_ru": "Согласные p, t, k в начале ударного слога произносите с отчётливым выдохом."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "apology",
+        "responsibility",
+        "absolution"
+      ],
+      "tip_ru": "Запоминайте ударение целиком: aˈPOLogy, resˌponsiˈBILity, ˌabsoˈLUtion."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What kind of apology does the author dislike?",
+      "answer": "One that begins 'I'm sorry if anyone was offended.'",
+      "accepted_keywords": [
+        "offended",
+        "sorry if",
+        "shrug"
+      ]
+    },
+    {
+      "question": "According to psychologists, how are people who admit blunders regarded?",
+      "answer": "As more competent and honest.",
+      "accepted_keywords": [
+        "competent",
+        "honest"
+      ]
+    },
+    {
+      "question": "What must a sincere apology cost the speaker?",
+      "answer": "Something, such as a repair or change of conduct.",
+      "accepted_keywords": [
+        "repair",
+        "restitution",
+        "change",
+        "cost"
+      ]
+    },
+    {
+      "question": "What gift does an apology give the apologiser?",
+      "answer": "Freedom from the burden of concealment.",
+      "accepted_keywords": [
+        "freedom",
+        "burden",
+        "concealment",
+        "release"
+      ]
+    }
+  ]
+}

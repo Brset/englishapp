@@ -1,0 +1,132 @@
+{
+  "id": "c2-opinion-01",
+  "level": "C2",
+  "genre": "opinion",
+  "title_en": "In Praise of Boredom",
+  "title_ru": "Похвала скуке",
+  "description_ru": "Эссе о том, почему умение скучать важно для творчества и свободы мысли в эпоху вечного отвлечения.",
+  "text": "We have, it seems, abolished boredom, and nobody has had the decency to hold a funeral. Somewhere between the invention of the smartphone and the last empty waiting room, the idle gap in the day, that grey, formless interval between one occupation and the next, has been quietly paved over. The queue at the bank, the slow train, the dentist's anteroom: each is now a small theatre of glowing rectangles. I submit that this is a catastrophe of the gentlest, most invisible kind.\n\nConsider what boredom actually is. It is not, as we assume, an absence of stimulation, but the uncomfortable sensation of a mind that has been left alone with itself and has not yet decided what to do about it. It is the psychological equivalent of hunger, and like hunger it exists to drive us toward something. Remove it, and you remove the nudge. Marcel Proust did his finest remembering lying in a cork-lined room. Newton, sent home from Cambridge by a plague, effectively invented modern physics while there was nothing better to do. Boredom is the fallow field in which ideas lie dormant until they are ready.\n\nThe defenders of perpetual distraction will protest that the modern mind is simply more efficient. Why stare vacantly at a wall when one can learn Portuguese, answer forty messages, and watch a stranger restore a rusty spade, all before the kettle boils? But efficiency is a ruthless tyrant with a very narrow imagination. It values only what can be counted. Daydreaming, being unproductive by definition, cannot be counted, and therefore, in the ledger of the modern self, it simply does not exist. Yet neuroscientists have repeatedly shown that the so-called default network, which stirs when we stop concentrating, is precisely where we stitch together memories, rehearse futures, and, on a good day, have a genuinely original thought.\n\nThere is also a moral dimension, rarely mentioned. A person who cannot endure ten minutes of unoccupied time is, in a curious sense, a person at the mercy of whoever is willing to occupy it. The entire attention economy is a vast, lucrative machine for ensuring that nobody is ever left alone with their thoughts, for a bored citizen is an expensive citizen: she may wander off, ponder, or, worse, decide that she is dissatisfied with something. A population permanently entertained is, quite literally, a captive audience.\n\nI am not proposing anything monastic. I enjoy my gadgets as much as the next hypocrite, and I would not swap an atlas for the wondrous machine that now fits in my pocket. What I propose is a modest discipline: the deliberate ration of tedium. Leave the phone at home when you walk. Wait for the kettle without a rescue. Allow yourself to be stuck on a station platform with nothing but the pigeons and your own unedited thoughts. The first few minutes will feel like withdrawal; the middle will feel like punishment. And then, quite unexpectedly, something shifts: the mind, finding no entertainment elsewhere, begins to entertain itself. It will remind you of a half-finished letter, a forgotten grievance, a tune from childhood, an idea for a project that you will, to your surprise, actually want to begin.\n\nChildren understand this instinctively. Give a child nothing to do for an afternoon and, after the obligatory chorus of complaint, you will find a cardboard box transformed into a galleon. We rescue them from boredom at our peril, because in doing so we rob them of the one lesson no curriculum can supply: that one's own mind is a place worth living in.\n\nSo let us bring back the blank hour. Let us stare out of windows again, without apology, like a nation of lazy philosophers. If the future belongs to those who can imagine it, then surely it belongs, first of all, to those who have been properly, gloriously bored.",
+  "word_count": 647,
+  "vocabulary": [
+    {
+      "word": "anteroom",
+      "ipa_us": "ˈæntiˌrum",
+      "ipa_uk": "ˈæntirʊm",
+      "translation_ru": "приёмная"
+    },
+    {
+      "word": "fallow",
+      "ipa_us": "ˈfæloʊ",
+      "ipa_uk": "ˈfæləʊ",
+      "translation_ru": "необработанный, под паром"
+    },
+    {
+      "word": "dormant",
+      "ipa_us": "ˈdɔrmənt",
+      "ipa_uk": "ˈdɔːmənt",
+      "translation_ru": "дремлющий"
+    },
+    {
+      "word": "ruthless",
+      "ipa_us": "ˈruθləs",
+      "ipa_uk": "ˈruːθləs",
+      "translation_ru": "безжалостный"
+    },
+    {
+      "word": "lucrative",
+      "ipa_us": "ˈluːkrətɪv",
+      "ipa_uk": "ˈluːkrətɪv",
+      "translation_ru": "прибыльный"
+    },
+    {
+      "word": "monastic",
+      "ipa_us": "məˈnæstɪk",
+      "ipa_uk": "məˈnæstɪk",
+      "translation_ru": "монашеский"
+    },
+    {
+      "word": "tedium",
+      "ipa_us": "ˈtidiəm",
+      "ipa_uk": "ˈtiːdiəm",
+      "translation_ru": "скука, тягомотина"
+    },
+    {
+      "word": "grievance",
+      "ipa_us": "ˈɡrivəns",
+      "ipa_uk": "ˈɡriːvəns",
+      "translation_ru": "обида, жалоба"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "nothing",
+        "thoughts"
+      ],
+      "tip_ru": "Кончик языка между зубами, выдох без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "nothing",
+        "something"
+      ],
+      "tip_ru": "Язык поднят сзади к нёбу, воздух идёт через нос; конечное «г» не произносится."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rusty",
+        "ruthless",
+        "rescue"
+      ],
+      "tip_ru": "Не вибрируйте кончиком языка, как в русском «р»: язык оттянут назад, губы чуть вытянуты."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bored",
+        "kind",
+        "day"
+      ],
+      "tip_ru": "Сохраняйте звонкость в конце слова: bored не превращается в «борт»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the author say boredom really is?",
+      "answer": "A mind left alone with itself.",
+      "accepted_keywords": [
+        "mind",
+        "alone",
+        "itself"
+      ]
+    },
+    {
+      "question": "Which scientist is mentioned as productive during a plague?",
+      "answer": "Newton.",
+      "accepted_keywords": [
+        "newton"
+      ]
+    },
+    {
+      "question": "What does the author propose as a discipline?",
+      "answer": "A deliberate ration of tedium, such as leaving the phone at home.",
+      "accepted_keywords": [
+        "tedium",
+        "phone",
+        "ration",
+        "boredom"
+      ]
+    },
+    {
+      "question": "What can a child do with a cardboard box?",
+      "answer": "Transform it into a galleon.",
+      "accepted_keywords": [
+        "galleon",
+        "ship"
+      ]
+    }
+  ]
+}

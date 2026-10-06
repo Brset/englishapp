@@ -1,0 +1,137 @@
+{
+  "id": "c2-opinion-05",
+  "level": "C2",
+  "genre": "opinion",
+  "title_en": "The Last Endangered Resource",
+  "title_ru": "Последний исчезающий ресурс",
+  "description_ru": "Эссе в защиту тишины как ценного ресурса для здоровья, мысли и справедливого общества.",
+  "text": "The world, we are repeatedly told, is getting louder, and I am inclined to believe it. A hundred years ago a person might have spent an entire afternoon without hearing anything more mechanical than a church bell. Today the average citizen is serenaded from dawn to midnight by traffic, ventilation, notifications, leaf blowers and the unaccountable need of restaurants to play music at a volume that forbids conversation. We have become a civilisation that cannot hear itself think, and has, rather alarmingly, stopped noticing.\n\nI want to argue that silence is not an absence, but a resource, as real as clean water and considerably rarer. Its disappearance is one of the great unlisted losses of our era, precisely because it is difficult to mourn what one cannot see.\n\nStart with the body. Researchers have found that chronic noise raises blood pressure, disrupts sleep, and fills the bloodstream with stress hormones, even when the sufferer insists she has grown accustomed to it. The ear, unlike the eye, has no lid. It stays on guard through the night, a sentry that cannot be dismissed. More remarkably, one study of mice found that two hours of silence each day stimulated the growth of new cells in the region of the brain responsible for memory. One must not generalise from rodents, but one is entitled to a certain wistfulness.\n\nThen consider the mind. Real silence, the sort in which one can hear one's own pulse, does something peculiar to the quality of attention. It slows things down. Thoughts that have been jostling in the doorway for weeks suddenly file in, one at a time, and sit politely. This is why monks, who are not fools, have organised entire civilisations around it. It is also why so many writers, composers and mathematicians have fled to remote huts and unheated cabins, where the only sound is wind in the chimney. Their contemporaries thought them antisocial. They were, I think, merely sensible.\n\nSilence is also, though few notice it, a profound courtesy. To say nothing is sometimes the most generous thing one can do: to leave the grieving friend's pause undisturbed, to let the music finish before applauding, to resist the reflex of filling every awkward gap with chatter. A good listener is simply someone with a well-developed capacity for silence. And a society that has lost it is, accordingly, a society of people talking at one another in parallel.\n\nNaturally, I am aware of the objection that silence is a luxury of the privileged. It is true that the quietest places tend to be expensive, and the noisiest ones tend to be cheap. That is precisely why I regard noise as a matter of justice. Nobody should have to purchase peace and quiet as one buys a holiday; planners should treat it as they treat clean air, as something the public is entitled to expect. Cities could mandate quiet zones, restrict the more gratuitous machinery, and insist that a café is a place to talk rather than a place to shout.\n\nIn the meantime, there is a small private remedy. Tonight, switch off everything that hums. Sit in the dark for ten minutes. At first, you will hear the house fidgeting: the refrigerator, a distant lorry, the pipes. Then, if you are patient, those too will recede, and you will hear something far more interesting, which is yourself.",
+  "word_count": 563,
+  "vocabulary": [
+    {
+      "word": "serenaded",
+      "ipa_us": "ˌsɛrəˈneɪdɪd",
+      "ipa_uk": "ˌserəˈneɪdɪd",
+      "translation_ru": "которому поют серенады"
+    },
+    {
+      "word": "unaccountable",
+      "ipa_us": "ˌʌnəˈkaʊntəbəl",
+      "ipa_uk": "ˌʌnəˈkaʊntəbəl",
+      "translation_ru": "необъяснимый"
+    },
+    {
+      "word": "sentry",
+      "ipa_us": "ˈsɛntri",
+      "ipa_uk": "ˈsentri",
+      "translation_ru": "часовой"
+    },
+    {
+      "word": "wistfulness",
+      "ipa_us": "ˈwɪstfəlnəs",
+      "ipa_uk": "ˈwɪstfəlnəs",
+      "translation_ru": "тоска, грусть"
+    },
+    {
+      "word": "jostling",
+      "ipa_us": "ˈdʒɑːsəlɪŋ",
+      "ipa_uk": "ˈdʒɒsəlɪŋ",
+      "translation_ru": "толкающиеся"
+    },
+    {
+      "word": "courtesy",
+      "ipa_us": "ˈkɜrtəsi",
+      "ipa_uk": "ˈkɜːtəsi",
+      "translation_ru": "учтивость"
+    },
+    {
+      "word": "gratuitous",
+      "ipa_us": "ɡrəˈtuːətəs",
+      "ipa_uk": "ɡrəˈtjuːɪtəs",
+      "translation_ru": "неоправданный"
+    },
+    {
+      "word": "fidgeting",
+      "ipa_us": "ˈfɪdʒɪtɪŋ",
+      "ipa_uk": "ˈfɪdʒɪtɪŋ",
+      "translation_ru": "ёрзающий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "hear",
+        "house",
+        "hours",
+        "hundred"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»: рот открыт, звук мягкий и шумный."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "silence",
+        "civilisation",
+        "distant"
+      ],
+      "tip_ru": "Короткий расслабленный звук, не «и»: язык ниже и дальше назад."
+    },
+    {
+      "sound": "aʊ",
+      "examples": [
+        "around",
+        "sound",
+        "house",
+        "loud"
+      ],
+      "tip_ru": "Начните с «а» и скользите к короткому «у»: как «ау», но второй звук слабее."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "something",
+        "nothing"
+      ],
+      "tip_ru": "Спинка языка касается нёба, воздух через нос: без отдельного «г» в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the author claim silence is?",
+      "answer": "A resource, not an absence.",
+      "accepted_keywords": [
+        "resource"
+      ]
+    },
+    {
+      "question": "What did the mouse study find?",
+      "answer": "Two hours of silence stimulated new cell growth in the memory region.",
+      "accepted_keywords": [
+        "cells",
+        "memory",
+        "growth",
+        "brain"
+      ]
+    },
+    {
+      "question": "Why does the author link noise to justice?",
+      "answer": "Quiet places are expensive and noisy ones are cheap.",
+      "accepted_keywords": [
+        "expensive",
+        "cheap",
+        "privileged"
+      ]
+    },
+    {
+      "question": "What small remedy does the author suggest?",
+      "answer": "Switch everything off and sit in the dark for ten minutes.",
+      "accepted_keywords": [
+        "switch",
+        "dark",
+        "sit",
+        "ten"
+      ]
+    }
+  ]
+}

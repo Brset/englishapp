@@ -1,0 +1,135 @@
+{
+  "id": "c2-news-01",
+  "level": "C2",
+  "genre": "news",
+  "title_en": "The Night the Satellites Went Dark",
+  "title_ru": "Ночь, когда погасли спутники",
+  "description_ru": "Выдуманная новость о солнечной буре, остановившей навигацию, и пожилом смотрителе маяка, спасшем десятки судов.",
+  "text": "PORT CALLOWAY, Northern Marches. When the satellite navigation network flickered into silence for nineteen hours last Tuesday, the harbour town of Port Calloway discovered that its most valuable asset was a retired man named Edmund Thwaite, aged seventy-three, and an ancient lamp that the council had been trying to decommission for a decade.\n\nThe outage, which authorities have attributed to a solar storm of unusual ferocity, left more than two hundred vessels without positioning data along a notoriously treacherous stretch of coast. Fishing boats, a container ship carrying citrus fruit, and a flotilla of amateur yachtsmen, taking part in the annual Gannet Regatta, found themselves groping through a blanket of fog with instruments that insisted, with serene confidence, that they were somewhere in the Sahara.\n\n\"It was extraordinary,\" said Harbour Master Ingrid Valtonen. \"One moment we had a modern coastal approach, and the next we had a hundred skippers on the radio sounding like lost schoolchildren.\"\n\nSalvation came from the Skerrow Head lighthouse, which was automated in 1994 and has since been maintained chiefly by pigeons. Mr Thwaite, its last resident keeper, had been invited to the building only a week earlier, to attend a sentimental ceremony marking its impending conversion into a luxury hotel. When the alarm sounded, he did not wait for instructions. He climbed the one hundred and forty-two steps, bypassed the dormant electronics with a spanner and a bottle of olive oil, and personally cranked the great Fresnel lens into rotation by hand.\n\n\"I hadn't done it for thirty years,\" he told reporters afterwards, rubbing a shoulder. \"My knees complained the entire way. But the lamp, I am pleased to say, remembered exactly what to do.\"\n\nFor the next sixteen hours, assisted by two teenage volunteers and a flask of lukewarm tea, Mr Thwaite kept the beam sweeping across the dark. Foghorns, silent for years, were also coaxed back into service by a team of retired engineers whom the lighthouse association had hastily summoned. One by one, the vessels crept homeward, guided by the oldest navigation technology in the world: a bright thing on a rock, saying, quite unambiguously, \"Not here.\"\n\nNo casualties were reported. The Gannet Regatta's eventual winner, a schoolteacher named Priya Okonkwo-Hale, admitted that she had arrived in port by \"following the sound of a man shouting about washers.\" The container ship, whose master sheepishly confessed that he had spent four hours steering toward what proved to be a fish farm, was escorted to its berth without damage to either party, though several salmon are understood to be in a state of shock.\n\nThe episode has reopened an awkward debate in the district. The council, which is expected to vote next month on the lighthouse's sale to a hospitality firm, now faces a petition bearing more than six thousand signatures, demanding that the building remain in public hands and, preferably, in working order. Councillor Rufus Abernethy, who had previously described the lamp as \"a charming relic with the practical value of a candle,\" conceded on Thursday that his position had \"evolved.\"\n\nExperts caution that the incident reveals a deeper vulnerability. \"We have constructed an entire maritime economy on a single, fragile chain of signals,\" said Dr Halima Rask of the Northern Institute for Marine Safety. \"Redundancy has a cost, certainly. It is cheaper than a shipwreck.\"\n\nMr Thwaite, for his part, has declined all interviews beyond the three he has already given, and has requested only that someone replace the pigeons' nesting boxes. He is expected to be offered a lifetime position as honorary keeper, which, according to sources close to him, he intends to accept on the condition that nobody ever again refers to him as a \"relic.\"",
+  "word_count": 618,
+  "vocabulary": [
+    {
+      "word": "decommission",
+      "ipa_us": "ˌdikəˈmɪʃən",
+      "ipa_uk": "ˌdiːkəˈmɪʃən",
+      "translation_ru": "выводить из эксплуатации"
+    },
+    {
+      "word": "treacherous",
+      "ipa_us": "ˈtrɛtʃərəs",
+      "ipa_uk": "ˈtretʃərəs",
+      "translation_ru": "коварный"
+    },
+    {
+      "word": "flotilla",
+      "ipa_us": "floʊˈtɪlə",
+      "ipa_uk": "fləʊˈtɪlə",
+      "translation_ru": "флотилия"
+    },
+    {
+      "word": "dormant",
+      "ipa_us": "ˈdɔrmənt",
+      "ipa_uk": "ˈdɔːmənt",
+      "translation_ru": "бездействующий"
+    },
+    {
+      "word": "sheepishly",
+      "ipa_us": "ˈʃipɪʃli",
+      "ipa_uk": "ˈʃiːpɪʃli",
+      "translation_ru": "смущённо"
+    },
+    {
+      "word": "redundancy",
+      "ipa_us": "rɪˈdʌndənsi",
+      "ipa_uk": "rɪˈdʌndənsi",
+      "translation_ru": "резервирование, избыточность"
+    },
+    {
+      "word": "relic",
+      "ipa_us": "ˈrɛlɪk",
+      "ipa_uk": "ˈrelɪk",
+      "translation_ru": "реликвия"
+    },
+    {
+      "word": "vulnerability",
+      "ipa_us": "ˌvʌlnərəˈbɪləti",
+      "ipa_uk": "ˌvʌlnərəˈbɪləti",
+      "translation_ru": "уязвимость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vessels",
+        "valuable",
+        "Valtonen",
+        "vulnerability"
+      ],
+      "tip_ru": "Нижняя губа к верхним зубам, голос включён: не «в» русское."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "when",
+        "were",
+        "washers"
+      ],
+      "tip_ru": "Губы вытянуты в трубочку, без касания зубов; wh в начале читается как w."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "harbour",
+        "extraordinary",
+        "remembered"
+      ],
+      "tip_ru": "Язык не касается нёба; в британском варианте r после гласного не произносится."
+    },
+    {
+      "sound": "ɒ",
+      "examples": [
+        "lost",
+        "not",
+        "rock"
+      ],
+      "tip_ru": "Короткий, открытый, округлый звук: рот открыт, губы чуть вытянуты, не русское «а»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What caused the satellite outage?",
+      "answer": "A solar storm.",
+      "accepted_keywords": [
+        "solar",
+        "storm"
+      ]
+    },
+    {
+      "question": "Who saved the ships?",
+      "answer": "Edmund Thwaite, the retired lighthouse keeper.",
+      "accepted_keywords": [
+        "thwaite",
+        "keeper",
+        "edmund"
+      ]
+    },
+    {
+      "question": "What did the container ship accidentally steer toward?",
+      "answer": "A fish farm.",
+      "accepted_keywords": [
+        "fish",
+        "farm"
+      ]
+    },
+    {
+      "question": "What petition is the council facing?",
+      "answer": "One demanding the lighthouse stay in public hands.",
+      "accepted_keywords": [
+        "lighthouse",
+        "public",
+        "petition"
+      ]
+    }
+  ]
+}

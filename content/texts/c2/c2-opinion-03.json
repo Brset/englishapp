@@ -1,0 +1,133 @@
+{
+  "id": "c2-opinion-03",
+  "level": "C2",
+  "genre": "opinion",
+  "title_en": "The Forger in Memory's Gallery",
+  "title_ru": "Фальсификатор в галерее памяти",
+  "description_ru": "Остроумное рассуждение о ностальгии: как память приукрашивает прошлое и как с этим жить разумно.",
+  "text": "Nostalgia, as a medical diagnosis, once carried the death sentence. The term was coined in 1688 by a Swiss student, Johannes Hofer, to describe the pining of homesick mercenaries, who wasted away, he reported, with fever, palpitations and a conviction that the mountains of their youth were calling. The prescribed cures included leeches, opium, and a stern return to the Alps. Three centuries later, we have domesticated the condition. It is now merely a mood, a marketing strategy and a streaming category. But I am convinced that we continue to underestimate its power, and above all its dishonesty.\n\nNostalgia is the most gifted forger of the human mind. It does not recall the past; it edits it, with a ruthless eye for flattering light. Consider the phrase \"the good old days.\" Nobody who utters it means the dentistry, the smog, the bone-chilling bedrooms or the casual cruelty of the schoolyard. What they mean is a particular season of feeling, a certain sunlit Saturday, which has been detached from its circumstances and mounted, framed and hung in the gallery of memory. The curator of this gallery is, of course, an unashamed propagandist.\n\nThe psychological mechanism is quite well understood. We tend to remember the emotional peaks of an experience rather than its average, and we gradually lose the unpleasant details while the pleasant ones persist. Memory, one might say, is a generous liar. Add to this the so-called reminiscence bump, the fact that we recall the music, films and friends of our late adolescence with disproportionate intensity, because those years were when our brains were laying down a first draft of the self. No wonder every generation concludes that the songs of its youth were the last good ones. It is not that music peaked in 1994; it is that you did.\n\nYet it would be a mistake to dismiss nostalgia as mere sentimental fog. Studies suggest that it can warm us on cold days, bolster our sense of meaning, and make us more generous toward strangers. It stitches the discontinuous episodes of a life into a narrative, and a person without a narrative is a person adrift. My quarrel is not with the feeling but with its political exploitation. The slogans that promise to restore a lost greatness are selling a product that never existed, and can therefore never be delivered. A country cannot return to a golden age for the simple reason that the golden age was, in fact, a rather muddy and uncomfortable period which people subsequently glossed.\n\nSo how should a sensible person handle this slippery emotion? I suggest treating nostalgia the way one treats an eloquent but unreliable friend: enjoy the company, admire the storytelling, and verify the facts. When you catch yourself sighing for a vanished summer, ask what the weather was actually like, who was missing from the picture, and what you were worrying about at the time. Almost always you will find that you were anxious, short of money and convinced that real life would begin the following year.\n\nThat is the final irony. The people who inhabit our golden age were, like us, impatient to be somewhere else. The present never looks golden from the inside, because gold is something that the passage of time applies, a patina that only develops on what is behind us. Perhaps, then, the wisest use of nostalgia is to run it in reverse: to look at an ordinary Tuesday, with its dull errands and cold tea, and tell yourself that, one day, you are going to miss this very much.",
+  "word_count": 594,
+  "vocabulary": [
+    {
+      "word": "palpitations",
+      "ipa_us": "ˌpælpɪˈteɪʃənz",
+      "ipa_uk": "ˌpælpɪˈteɪʃənz",
+      "translation_ru": "сердцебиение"
+    },
+    {
+      "word": "mercenaries",
+      "ipa_us": "ˈmɜrsəˌnɛriz",
+      "ipa_uk": "ˈmɜːsɪnriz",
+      "translation_ru": "наёмники"
+    },
+    {
+      "word": "forger",
+      "ipa_us": "ˈfɔrdʒər",
+      "ipa_uk": "ˈfɔːdʒə",
+      "translation_ru": "фальсификатор"
+    },
+    {
+      "word": "propagandist",
+      "ipa_us": "ˌprɑːpəˈɡændɪst",
+      "ipa_uk": "ˌprɒpəˈɡændɪst",
+      "translation_ru": "пропагандист"
+    },
+    {
+      "word": "bolster",
+      "ipa_us": "ˈboʊlstər",
+      "ipa_uk": "ˈbəʊlstə",
+      "translation_ru": "укреплять"
+    },
+    {
+      "word": "adrift",
+      "ipa_us": "əˈdrɪft",
+      "ipa_uk": "əˈdrɪft",
+      "translation_ru": "дрейфующий, неприкаянный"
+    },
+    {
+      "word": "patina",
+      "ipa_us": "pəˈtinə",
+      "ipa_uk": "ˈpætɪnə",
+      "translation_ru": "патина"
+    },
+    {
+      "word": "glossed",
+      "ipa_us": "ɡlɔːst",
+      "ipa_uk": "ɡlɒst",
+      "translation_ru": "приукрасили"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that"
+      ],
+      "tip_ru": "Кончик языка между зубами, голос включён; в служебных словах the, that звук короткий."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "circumstances",
+        "return"
+      ],
+      "tip_ru": "Долгий звук с растянутыми губами, как «ё» без «й»; британский вариант без «р»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "old",
+        "uncomfortable",
+        "calling"
+      ],
+      "tip_ru": "Звук l в конце слога: кончик языка упирается в дёсны, спинка языка поднята к нёбу, как в слове «полка»."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "a lost",
+        "it is"
+      ],
+      "tip_ru": "Согласный в конце слова переходит в следующий гласный без паузы: «a-lost», «i-tis»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who coined the term nostalgia, and when?",
+      "answer": "Johannes Hofer, in 1688.",
+      "accepted_keywords": [
+        "hofer",
+        "1688",
+        "swiss"
+      ]
+    },
+    {
+      "question": "What is the reminiscence bump?",
+      "answer": "We recall our late adolescence with disproportionate intensity.",
+      "accepted_keywords": [
+        "adolescence",
+        "youth",
+        "music"
+      ]
+    },
+    {
+      "question": "What is the author's quarrel with nostalgia?",
+      "answer": "Its political exploitation.",
+      "accepted_keywords": [
+        "political",
+        "exploitation",
+        "politics"
+      ]
+    },
+    {
+      "question": "How does the author suggest treating nostalgia?",
+      "answer": "Like an unreliable friend: enjoy it but verify the facts.",
+      "accepted_keywords": [
+        "friend",
+        "verify",
+        "unreliable"
+      ]
+    }
+  ]
+}
