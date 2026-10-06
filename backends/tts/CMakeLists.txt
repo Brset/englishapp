@@ -29,8 +29,8 @@ if(NOT SHERPA_ONNX_ROOT)
   endif()
 endif()
 
-find_library(SHERPA_C_API NAMES sherpa-onnx-c-api sherpa-onnx-jni HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH REQUIRED)
-find_library(SHERPA_ORT NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH)
+find_library(SHERPA_C_API NAMES sherpa-onnx-c-api sherpa-onnx-jni HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH REQUIRED)
+find_library(SHERPA_ORT NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
 
 add_library(pron_tts STATIC src/piper_tts.cpp)
 target_include_directories(pron_tts PUBLIC include "${PRON_CORE_INCLUDE_DIR}" PRIVATE "${SHERPA_ONNX_ROOT}/include")
@@ -40,6 +40,7 @@ if(SHERPA_ORT)
 endif()
 set_target_properties(pron_tts PROPERTIES BUILD_RPATH "${SHERPA_ONNX_ROOT}/lib")
 
+if(NOT ANDROID)
 enable_testing()
 add_executable(pron_tts_test test/tts_test.cpp)
 target_link_libraries(pron_tts_test PRIVATE pron_tts)
@@ -47,3 +48,4 @@ add_test(NAME tts_fetch_voice COMMAND ${CMAKE_COMMAND}
   -DURL=${PRON_TTS_VOICE_URL} -DDEST=${CMAKE_BINARY_DIR}/voice -P ${CMAKE_CURRENT_SOURCE_DIR}/cmake/fetch_voice.cmake)
 add_test(NAME tts_synthesize COMMAND pron_tts_test ${CMAKE_BINARY_DIR}/voice ${CMAKE_BINARY_DIR})
 set_tests_properties(tts_synthesize PROPERTIES DEPENDS tts_fetch_voice SKIP_RETURN_CODE 77)
+endif()

@@ -13,6 +13,10 @@ set(WHISPER_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(WHISPER_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(WHISPER_BUILD_SERVER OFF CACHE BOOL "" FORCE)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+if(ANDROID OR CMAKE_CROSSCOMPILING)
+  set(GGML_NATIVE OFF CACHE BOOL "" FORCE)   # no -march=native when cross-compiling
+  set(GGML_OPENMP OFF CACHE BOOL "" FORCE)   # NDK libomp.so would not be packaged
+endif()
 FetchContent_Declare(whisper_cpp
     GIT_REPOSITORY https://github.com/ggml-org/whisper.cpp.git
     GIT_TAG v1.9.5

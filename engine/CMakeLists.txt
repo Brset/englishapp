@@ -70,7 +70,7 @@ if(WIN32 AND NOT ORT_IMPORT_LIB_ROOT)
   pron_fetch("https://github.com/microsoft/onnxruntime/releases/download/v${SHERPA_ORT_VERSION}/onnxruntime-win-x64-${SHERPA_ORT_VERSION}.zip"
              "${_deps}/ort-win-x64-${SHERPA_ORT_VERSION}" ORT_IMPORT_LIB_ROOT)
 endif()
-find_library(_ort_lib NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" "${ORT_IMPORT_LIB_ROOT}/lib" NO_DEFAULT_PATH)
+find_library(_ort_lib NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" "${ORT_IMPORT_LIB_ROOT}/lib" NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
 if(NOT _ort_lib)
   message(FATAL_ERROR "onnxruntime not found in ${SHERPA_ONNX_ROOT}/lib")
 endif()

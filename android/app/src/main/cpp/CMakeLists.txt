@@ -17,12 +17,12 @@ target_link_options(pron_jni PRIVATE -Wl,-z,max-page-size=16384)
 
 # Safety net: make sure prebuilt dependency .so files fetched by engine/ get packaged into the APK
 # (AGP packages IMPORTED shared libs that targets link against).
-file(GLOB_RECURSE _pron_extra_so "${CMAKE_CURRENT_BINARY_DIR}/engine/*/${ANDROID_ABI}/*.so"
-     "${CMAKE_CURRENT_BINARY_DIR}/engine/*/lib/${ANDROID_ABI}/*.so")
+# engine/ unpacks them to ${SHERPA_ONNX_ROOT}/lib (under the top-level build dir, not under engine/).
+file(GLOB _pron_extra_so "${SHERPA_ONNX_ROOT}/lib/*.so")
 set(_n 0)
 foreach(so ${_pron_extra_so})
     get_filename_component(_nm "${so}" NAME_WE)
-    if(NOT _nm MATCHES "^lib(pron_engine|pron_jni|c\\+\\+_shared)$")
+    if(NOT _nm MATCHES "^lib(pron_engine|pron_jni|c\\+\\+_shared|sherpa-onnx-jni|sherpa-onnx-cxx-api|onnxruntime4j_jni)$")
         add_library(pron_extra_${_n} SHARED IMPORTED)
         set_target_properties(pron_extra_${_n} PROPERTIES IMPORTED_LOCATION "${so}")
         target_link_libraries(pron_jni PRIVATE pron_extra_${_n})
