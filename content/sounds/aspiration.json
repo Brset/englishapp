@@ -1,0 +1,211 @@
+{
+  "id": "aspiration",
+  "slug": "aspiration",
+  "name_ru": "Придыхание p, t, k (pen, time, car)",
+  "ipa": "pʰ tʰ kʰ",
+  "arpabet": [
+    "P",
+    "T",
+    "K"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "без придыхания (p, t, k как в русском)",
+      "heard_as_example": "pie → buy (слышится как b)",
+      "tip_ru": "В начале ударного слога нужно «выстрелить» воздухом. Русское «п», «т», «к» без придыхания англичане слышат как b, d, g."
+    },
+    {
+      "substitute": "придыхание после s",
+      "heard_as_example": "spin → «спхин»",
+      "tip_ru": "После s придыхания нет: spin, stop, sky звучат как «спин», «стоп», «ски»."
+    },
+    {
+      "substitute": "т с касанием зубов",
+      "heard_as_example": "time → «тайм» (т у зубов)",
+      "tip_ru": "Английский t произносится при касании языка бугорка за зубами, а не самих зубов."
+    }
+  ],
+  "articulation_ru": [
+    "Поднесите к губам тонкий лист бумаги или ладонь на расстоянии 5 см.",
+    "Произнесите pen: лист должен заметно отклониться от струи воздуха. При произнесении spin отклонение почти нет.",
+    "Смыкание делайте, как обычно: p губами, t кончиком языка на бугорке за верхними зубами, k задней частью языка.",
+    "После размыкания сразу выдохните воздух, коротко, как будто «пх», «тх», «кх». Звук h краткий.",
+    "Придыхание есть в начале слова и перед ударным гласным (pen, tea, car; appear, attack), а после s его нет (spin, stop, sky)."
+  ],
+  "us_uk_note_ru": "В американском t между гласными часто превращается в быстрый «р» (flap): water ˈwɔːɾər, better. В таких случаях придыхания нет. В британском (особенно южные говоры) t в конце слова и перед согласным часто заменяется на гортанную смычку: water, a bit. Для обучения произносите чёткие p, t, k перед ударным гласным.",
+  "example_words": [
+    {
+      "word": "pay",
+      "ipa_us": "pʰeɪ",
+      "ipa_uk": "pʰeɪ",
+      "translation_ru": "платить"
+    },
+    {
+      "word": "pen",
+      "ipa_us": "pʰen",
+      "ipa_uk": "pʰen",
+      "translation_ru": "ручка"
+    },
+    {
+      "word": "pie",
+      "ipa_us": "pʰaɪ",
+      "ipa_uk": "pʰaɪ",
+      "translation_ru": "пирог"
+    },
+    {
+      "word": "tea",
+      "ipa_us": "tʰiː",
+      "ipa_uk": "tʰiː",
+      "translation_ru": "чай"
+    },
+    {
+      "word": "take",
+      "ipa_us": "tʰeɪk",
+      "ipa_uk": "tʰeɪk",
+      "translation_ru": "брать"
+    },
+    {
+      "word": "key",
+      "ipa_us": "kʰiː",
+      "ipa_uk": "kʰiː",
+      "translation_ru": "ключ"
+    },
+    {
+      "word": "car",
+      "ipa_us": "kʰɑːr",
+      "ipa_uk": "kʰɑː",
+      "translation_ru": "машина"
+    },
+    {
+      "word": "cold",
+      "ipa_us": "kʰoʊld",
+      "ipa_uk": "kʰəʊld",
+      "translation_ru": "холодный"
+    },
+    {
+      "word": "time",
+      "ipa_us": "tʰaɪm",
+      "ipa_uk": "tʰaɪm",
+      "translation_ru": "время"
+    },
+    {
+      "word": "paper",
+      "ipa_us": "ˈpʰeɪpər",
+      "ipa_uk": "ˈpʰeɪpə",
+      "translation_ru": "бумага"
+    },
+    {
+      "word": "pocket",
+      "ipa_us": "ˈpʰɑːkɪt",
+      "ipa_uk": "ˈpʰɒkɪt",
+      "translation_ru": "карман"
+    },
+    {
+      "word": "today",
+      "ipa_us": "tʰəˈdeɪ",
+      "ipa_uk": "tʰəˈdeɪ",
+      "translation_ru": "сегодня"
+    },
+    {
+      "word": "party",
+      "ipa_us": "ˈpʰɑːrɾi",
+      "ipa_uk": "ˈpʰɑːti",
+      "translation_ru": "вечеринка"
+    },
+    {
+      "word": "picture",
+      "ipa_us": "ˈpʰɪktʃər",
+      "ipa_uk": "ˈpʰɪktʃə",
+      "translation_ru": "картина"
+    },
+    {
+      "word": "kitchen",
+      "ipa_us": "ˈkʰɪtʃən",
+      "ipa_uk": "ˈkʰɪtʃən",
+      "translation_ru": "кухня"
+    },
+    {
+      "word": "computer",
+      "ipa_us": "kʰəmˈpʰjuːɾər",
+      "ipa_uk": "kʰəmˈpʰjuːtə",
+      "translation_ru": "компьютер"
+    },
+    {
+      "word": "potato",
+      "ipa_us": "pʰəˈteɪɾoʊ",
+      "ipa_uk": "pʰəˈteɪtəʊ",
+      "translation_ru": "картофель"
+    },
+    {
+      "word": "capacity",
+      "ipa_us": "kʰəˈpʰæsəɾi",
+      "ipa_uk": "kʰəˈpʰæsɪti",
+      "translation_ru": "вместимость"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "pin",
+      "contrast": "bin",
+      "contrast_sound": "b"
+    },
+    {
+      "target": "pat",
+      "contrast": "bat",
+      "contrast_sound": "b"
+    },
+    {
+      "target": "pie",
+      "contrast": "buy",
+      "contrast_sound": "b"
+    },
+    {
+      "target": "pest",
+      "contrast": "best",
+      "contrast_sound": "b"
+    },
+    {
+      "target": "tie",
+      "contrast": "die",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "time",
+      "contrast": "dime",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "ten",
+      "contrast": "den",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "cold",
+      "contrast": "gold",
+      "contrast_sound": "ɡ"
+    },
+    {
+      "target": "coat",
+      "contrast": "goat",
+      "contrast_sound": "ɡ"
+    },
+    {
+      "target": "came",
+      "contrast": "game",
+      "contrast_sound": "ɡ"
+    }
+  ],
+  "phrases": [
+    "Pat took a picture of the paper pie.",
+    "Peter takes tea at ten past two.",
+    "Can you keep the key and come to the kitchen?",
+    "Tim and Kate came to the party today.",
+    "Please put the tea in the pot at the top."
+  ],
+  "tongue_twisters": [
+    "Peter Piper picked a peck of pickled peppers.",
+    "Tom took ten tiny tin cans to town.",
+    "Kate caught a couple of cold crabs."
+  ]
+}

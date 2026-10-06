@@ -1,0 +1,216 @@
+{
+  "id": "ŋ",
+  "slug": "eng",
+  "name_ru": "Носовой «ng» (sing)",
+  "ipa": "ŋ",
+  "arpabet": [
+    "NG"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "ng + g (ŋɡ)",
+      "heard_as_example": "sing → «синг»",
+      "tip_ru": "В конце слова звук g не произносится. Задняя часть языка касается мягкого нёба, воздух идёт через нос, и всё, никакого взрыва."
+    },
+    {
+      "substitute": "n",
+      "heard_as_example": "sing → sin",
+      "tip_ru": "Кончик языка не поднимается к зубам. Он расслаблен внизу, а касается нёба задняя часть языка."
+    },
+    {
+      "substitute": "носовое «н» без смыкания (гласный носовой)",
+      "heard_as_example": "long → «лоон»",
+      "tip_ru": "Нужно полное смыкание задней части языка с нёбом, иначе звук потеряется."
+    }
+  ],
+  "articulation_ru": [
+    "Кончик языка лежит внизу, за нижними зубами, и в этом звуке не участвует.",
+    "Поднимите заднюю часть языка к мягкому нёбу, как для «к» или «г», но не взрывайте.",
+    "Включите голос и пропустите воздух через нос: можно прикрыть нос пальцами и почувствовать вибрацию.",
+    "Звук можно тянуть: «ŋŋŋ», как при гудении с закрытым ртом.",
+    "В конце слова (sing, long) останавливайтесь на ŋ. Не добавляйте «г» и не добавляйте гласный."
+  ],
+  "us_uk_note_ru": "Одинаково в США и Британии. Исключение: ŋ перед g в середине слова (finger, English, angry) звучит как ŋɡ, а в singer и ringing ŋɡ нет.",
+  "example_words": [
+    {
+      "word": "sing",
+      "ipa_us": "sɪŋ",
+      "ipa_uk": "sɪŋ",
+      "translation_ru": "петь"
+    },
+    {
+      "word": "song",
+      "ipa_us": "sɔːŋ",
+      "ipa_uk": "sɒŋ",
+      "translation_ru": "песня"
+    },
+    {
+      "word": "long",
+      "ipa_us": "lɔːŋ",
+      "ipa_uk": "lɒŋ",
+      "translation_ru": "длинный"
+    },
+    {
+      "word": "ring",
+      "ipa_us": "rɪŋ",
+      "ipa_uk": "rɪŋ",
+      "translation_ru": "звонок, кольцо"
+    },
+    {
+      "word": "thing",
+      "ipa_us": "θɪŋ",
+      "ipa_uk": "θɪŋ",
+      "translation_ru": "вещь"
+    },
+    {
+      "word": "king",
+      "ipa_us": "kɪŋ",
+      "ipa_uk": "kɪŋ",
+      "translation_ru": "король"
+    },
+    {
+      "word": "morning",
+      "ipa_us": "ˈmɔːrnɪŋ",
+      "ipa_uk": "ˈmɔːnɪŋ",
+      "translation_ru": "утро"
+    },
+    {
+      "word": "evening",
+      "ipa_us": "ˈiːvnɪŋ",
+      "ipa_uk": "ˈiːvnɪŋ",
+      "translation_ru": "вечер"
+    },
+    {
+      "word": "going",
+      "ipa_us": "ˈɡoʊɪŋ",
+      "ipa_uk": "ˈɡəʊɪŋ",
+      "translation_ru": "идущий, собираюсь"
+    },
+    {
+      "word": "strong",
+      "ipa_us": "strɔːŋ",
+      "ipa_uk": "strɒŋ",
+      "translation_ru": "сильный"
+    },
+    {
+      "word": "singer",
+      "ipa_us": "ˈsɪŋər",
+      "ipa_uk": "ˈsɪŋə",
+      "translation_ru": "певец"
+    },
+    {
+      "word": "bring",
+      "ipa_us": "brɪŋ",
+      "ipa_uk": "brɪŋ",
+      "translation_ru": "приносить"
+    },
+    {
+      "word": "drink",
+      "ipa_us": "drɪŋk",
+      "ipa_uk": "drɪŋk",
+      "translation_ru": "пить"
+    },
+    {
+      "word": "think",
+      "ipa_us": "θɪŋk",
+      "ipa_uk": "θɪŋk",
+      "translation_ru": "думать"
+    },
+    {
+      "word": "thank",
+      "ipa_us": "θæŋk",
+      "ipa_uk": "θæŋk",
+      "translation_ru": "благодарить"
+    },
+    {
+      "word": "finger",
+      "ipa_us": "ˈfɪŋɡər",
+      "ipa_uk": "ˈfɪŋɡə",
+      "translation_ru": "палец"
+    },
+    {
+      "word": "English",
+      "ipa_us": "ˈɪŋɡlɪʃ",
+      "ipa_uk": "ˈɪŋɡlɪʃ",
+      "translation_ru": "английский"
+    },
+    {
+      "word": "angry",
+      "ipa_us": "ˈæŋɡri",
+      "ipa_uk": "ˈæŋɡri",
+      "translation_ru": "сердитый"
+    },
+    {
+      "word": "language",
+      "ipa_us": "ˈlæŋɡwɪdʒ",
+      "ipa_uk": "ˈlæŋɡwɪdʒ",
+      "translation_ru": "язык"
+    },
+    {
+      "word": "tongue",
+      "ipa_us": "tʌŋ",
+      "ipa_uk": "tʌŋ",
+      "translation_ru": "язык (орган)"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "sing",
+      "contrast": "sin",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "thing",
+      "contrast": "thin",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "king",
+      "contrast": "kin",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "wing",
+      "contrast": "win",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "rang",
+      "contrast": "ran",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "sung",
+      "contrast": "sun",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "bang",
+      "contrast": "ban",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "singer",
+      "contrast": "sinner",
+      "contrast_sound": "n"
+    },
+    {
+      "target": "long",
+      "contrast": "lawn",
+      "contrast_sound": "n"
+    }
+  ],
+  "phrases": [
+    "I am going to sing a long song.",
+    "Something is wrong with the ringing phone.",
+    "He was running and singing in the morning.",
+    "Bring me a strong drink this evening.",
+    "The king is thinking about a ring."
+  ],
+  "tongue_twisters": [
+    "Sing a song of sixpence.",
+    "Ding dong bell, the king is ringing the long, strong gong.",
+    "Flying, fishing, hunting, camping: everything is amazing."
+  ]
+}

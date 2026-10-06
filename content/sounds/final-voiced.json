@@ -1,0 +1,233 @@
+{
+  "id": "final-voiced",
+  "slug": "final-voiced",
+  "name_ru": "Звонкие согласные в конце слова (bad, dog, love)",
+  "ipa": "b d ɡ v z ʒ dʒ ð (в конце слова)",
+  "arpabet": [
+    "B",
+    "D",
+    "G",
+    "V",
+    "Z",
+    "ZH",
+    "JH",
+    "DH"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "глухой парный звук",
+      "heard_as_example": "bad → bat, dog → dock",
+      "tip_ru": "В русском на конце слова звонкие оглушаются (хлеб → «хлеп»). В английском так нельзя: bad и bat это разные слова."
+    },
+    {
+      "substitute": "глухой парный звук + короткий гласный",
+      "heard_as_example": "bed → bet",
+      "tip_ru": "Гласный перед звонким согласным длиннее. Это главный признак: be-e-ed, но bet короче."
+    },
+    {
+      "substitute": "добавление гласного",
+      "heard_as_example": "dog → «дога»",
+      "tip_ru": "Звук не нужно «договаривать» вставным гласным. Достаточно слегка удержать голос и закончить."
+    }
+  ],
+  "articulation_ru": [
+    "Произнесите согласный с голосом, а на конце не отключайте голос сразу. Положите ладонь на горло: вибрация должна быть слышна до конца.",
+    "Удлиняйте гласный перед звонким согласным: bad = ба-а-ад, а bat = бат (короткий).",
+    "Конечный звонкий согласный не обязательно звучит громко. Он может быть тихим, но голос не выключается.",
+    "Не добавляйте гласный после согласного: dog, а не «дога».",
+    "Тренируйтесь на парах: bad / bat, rise / rice, leave / leaf. Различие создаёт длина гласного + голос."
+  ],
+  "us_uk_note_ru": null,
+  "example_words": [
+    {
+      "word": "bad",
+      "ipa_us": "bæd",
+      "ipa_uk": "bæd",
+      "translation_ru": "плохой"
+    },
+    {
+      "word": "bed",
+      "ipa_us": "bed",
+      "ipa_uk": "bed",
+      "translation_ru": "кровать"
+    },
+    {
+      "word": "dog",
+      "ipa_us": "dɔːɡ",
+      "ipa_uk": "dɒɡ",
+      "translation_ru": "собака"
+    },
+    {
+      "word": "big",
+      "ipa_us": "bɪɡ",
+      "ipa_uk": "bɪɡ",
+      "translation_ru": "большой"
+    },
+    {
+      "word": "good",
+      "ipa_us": "ɡʊd",
+      "ipa_uk": "ɡʊd",
+      "translation_ru": "хороший"
+    },
+    {
+      "word": "job",
+      "ipa_us": "dʒɑːb",
+      "ipa_uk": "dʒɒb",
+      "translation_ru": "работа"
+    },
+    {
+      "word": "bag",
+      "ipa_us": "bæɡ",
+      "ipa_uk": "bæɡ",
+      "translation_ru": "сумка"
+    },
+    {
+      "word": "egg",
+      "ipa_us": "eɡ",
+      "ipa_uk": "eɡ",
+      "translation_ru": "яйцо"
+    },
+    {
+      "word": "love",
+      "ipa_us": "lʌv",
+      "ipa_uk": "lʌv",
+      "translation_ru": "любить"
+    },
+    {
+      "word": "have",
+      "ipa_us": "hæv",
+      "ipa_uk": "hæv",
+      "translation_ru": "иметь"
+    },
+    {
+      "word": "five",
+      "ipa_us": "faɪv",
+      "ipa_uk": "faɪv",
+      "translation_ru": "пять"
+    },
+    {
+      "word": "rise",
+      "ipa_us": "raɪz",
+      "ipa_uk": "raɪz",
+      "translation_ru": "подниматься"
+    },
+    {
+      "word": "nose",
+      "ipa_us": "noʊz",
+      "ipa_uk": "nəʊz",
+      "translation_ru": "нос"
+    },
+    {
+      "word": "size",
+      "ipa_us": "saɪz",
+      "ipa_uk": "saɪz",
+      "translation_ru": "размер"
+    },
+    {
+      "word": "because",
+      "ipa_us": "bɪˈkɔːz",
+      "ipa_uk": "bɪˈkɒz",
+      "translation_ru": "потому что"
+    },
+    {
+      "word": "change",
+      "ipa_us": "tʃeɪndʒ",
+      "ipa_uk": "tʃeɪndʒ",
+      "translation_ru": "менять"
+    },
+    {
+      "word": "bridge",
+      "ipa_us": "brɪdʒ",
+      "ipa_uk": "brɪdʒ",
+      "translation_ru": "мост"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "friends",
+      "ipa_us": "frendz",
+      "ipa_uk": "frendz",
+      "translation_ru": "друзья"
+    },
+    {
+      "word": "used",
+      "ipa_us": "juːzd",
+      "ipa_uk": "juːzd",
+      "translation_ru": "использованный"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "bad",
+      "contrast": "bat",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "bed",
+      "contrast": "bet",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "bag",
+      "contrast": "back",
+      "contrast_sound": "k"
+    },
+    {
+      "target": "dog",
+      "contrast": "dock",
+      "contrast_sound": "k"
+    },
+    {
+      "target": "rise",
+      "contrast": "rice",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "ride",
+      "contrast": "right",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "cab",
+      "contrast": "cap",
+      "contrast_sound": "p"
+    },
+    {
+      "target": "pig",
+      "contrast": "pick",
+      "contrast_sound": "k"
+    },
+    {
+      "target": "prize",
+      "contrast": "price",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "hid",
+      "contrast": "hit",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "save",
+      "contrast": "safe",
+      "contrast_sound": "f"
+    }
+  ],
+  "phrases": [
+    "Bad dogs dig big beds.",
+    "I have five good friends and a big bag.",
+    "The rose rises in the wind.",
+    "He used a bridge to change the village.",
+    "Please give me a red egg and a bed."
+  ],
+  "tongue_twisters": [
+    "Bob's big bad dog did a good job in the bed.",
+    "A big black bug bit a big black bear.",
+    "Ed's dog begged for bread and eggs."
+  ]
+}

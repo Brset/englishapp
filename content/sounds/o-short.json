@@ -1,0 +1,209 @@
+{
+  "id": "ɒ",
+  "slug": "o-short",
+  "name_ru": "Краткий «ɒ» (hot)",
+  "ipa": "ɒ",
+  "arpabet": [
+    "AA"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "длинное русское «о» (о-оо)",
+      "heard_as_example": "hot → «хоот»",
+      "tip_ru": "Звук короткий. Не тяните, не округляйте губы сильно."
+    },
+    {
+      "substitute": "русское «а»",
+      "heard_as_example": "hot → «хат»",
+      "tip_ru": "В британском варианте губы слегка округлены. Звук глубже и «темнее», чем «а». (В американском так и есть «а»: hɑːt.)"
+    },
+    {
+      "substitute": "ɔː (длинный)",
+      "heard_as_example": "cot → caught",
+      "tip_ru": "Звук должен быть коротким. ɔː гораздо длиннее и более округлый."
+    }
+  ],
+  "articulation_ru": [
+    "Откройте рот умеренно, нижняя челюсть опущена, как для слова «ох».",
+    "Губы слегка округлены, но расслаблены, не вытягивайте вперёд.",
+    "Язык лежит низко и отодвинут назад.",
+    "Звук короткий и резкий: «о» из «кот», но с более открытым ртом.",
+    "В США такой звук заменён на ɑː (hot hɑːt), так что американцам достаточно сказать открытое «а»."
+  ],
+  "us_uk_note_ru": "Звук ɒ есть только в британском. В американском такие слова произносят с ɑː: hot hɑːt, stop stɑːp, job dʒɑːb. Слова dog, coffee, off, long в США часто звучат с ɔː (dɔːɡ, ɔːf, ˈkɔːfi).",
+  "example_words": [
+    {
+      "word": "hot",
+      "ipa_us": "hɑːt",
+      "ipa_uk": "hɒt",
+      "translation_ru": "горячий"
+    },
+    {
+      "word": "not",
+      "ipa_us": "nɑːt",
+      "ipa_uk": "nɒt",
+      "translation_ru": "не"
+    },
+    {
+      "word": "stop",
+      "ipa_us": "stɑːp",
+      "ipa_uk": "stɒp",
+      "translation_ru": "останавливать"
+    },
+    {
+      "word": "top",
+      "ipa_us": "tɑːp",
+      "ipa_uk": "tɒp",
+      "translation_ru": "вершина"
+    },
+    {
+      "word": "box",
+      "ipa_us": "bɑːks",
+      "ipa_uk": "bɒks",
+      "translation_ru": "коробка"
+    },
+    {
+      "word": "job",
+      "ipa_us": "dʒɑːb",
+      "ipa_uk": "dʒɒb",
+      "translation_ru": "работа"
+    },
+    {
+      "word": "shop",
+      "ipa_us": "ʃɑːp",
+      "ipa_uk": "ʃɒp",
+      "translation_ru": "магазин"
+    },
+    {
+      "word": "clock",
+      "ipa_us": "klɑːk",
+      "ipa_uk": "klɒk",
+      "translation_ru": "часы"
+    },
+    {
+      "word": "dog",
+      "ipa_us": "dɔːɡ",
+      "ipa_uk": "dɒɡ",
+      "translation_ru": "собака"
+    },
+    {
+      "word": "want",
+      "ipa_us": "wɑːnt",
+      "ipa_uk": "wɒnt",
+      "translation_ru": "хотеть"
+    },
+    {
+      "word": "what",
+      "ipa_us": "wʌt",
+      "ipa_uk": "wɒt",
+      "translation_ru": "что"
+    },
+    {
+      "word": "watch",
+      "ipa_us": "wɑːtʃ",
+      "ipa_uk": "wɒtʃ",
+      "translation_ru": "смотреть, часы"
+    },
+    {
+      "word": "because",
+      "ipa_us": "bɪˈkɔːz",
+      "ipa_uk": "bɪˈkɒz",
+      "translation_ru": "потому что"
+    },
+    {
+      "word": "coffee",
+      "ipa_us": "ˈkɔːfi",
+      "ipa_uk": "ˈkɒfi",
+      "translation_ru": "кофе"
+    },
+    {
+      "word": "bottle",
+      "ipa_us": "ˈbɑːtl",
+      "ipa_uk": "ˈbɒtl",
+      "translation_ru": "бутылка"
+    },
+    {
+      "word": "problem",
+      "ipa_us": "ˈprɑːbləm",
+      "ipa_uk": "ˈprɒbləm",
+      "translation_ru": "проблема"
+    },
+    {
+      "word": "knowledge",
+      "ipa_us": "ˈnɑːlɪdʒ",
+      "ipa_uk": "ˈnɒlɪdʒ",
+      "translation_ru": "знание"
+    },
+    {
+      "word": "doctor",
+      "ipa_us": "ˈdɑːktər",
+      "ipa_uk": "ˈdɒktə",
+      "translation_ru": "врач"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "hot",
+      "contrast": "hat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "pot",
+      "contrast": "pat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "cot",
+      "contrast": "cat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "lock",
+      "contrast": "lack",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "lock",
+      "contrast": "luck",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "shot",
+      "contrast": "shut",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "dock",
+      "contrast": "duck",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "cop",
+      "contrast": "cup",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "stock",
+      "contrast": "stuck",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "got",
+      "contrast": "get",
+      "contrast_sound": "e"
+    }
+  ],
+  "phrases": [
+    "The hot pot is on top of the box.",
+    "Tom stopped at the shop to buy a clock.",
+    "What a lot of problems the doctor got!",
+    "The dog is not on the rock.",
+    "Bob got a job in the office."
+  ],
+  "tongue_twisters": [
+    "Tom took twelve hot pots to the shop.",
+    "Bob's got a lot of hot pots.",
+    "A proper copper coffee pot."
+  ]
+}

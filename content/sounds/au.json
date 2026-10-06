@@ -1,0 +1,204 @@
+{
+  "id": "aʊ",
+  "slug": "au",
+  "name_ru": "Дифтонг «aʊ» (now)",
+  "ipa": "aʊ",
+  "arpabet": [
+    "AW"
+  ],
+  "difficulty_for_russians": 1,
+  "typical_errors": [
+    {
+      "substitute": "ɑː (без скольжения)",
+      "heard_as_example": "now → nah",
+      "tip_ru": "Нужно скольжение к «у». Звук состоит из двух частей: открытое «а» + слабое «у»."
+    },
+    {
+      "substitute": "«оу»",
+      "heard_as_example": "house → «хоус»",
+      "tip_ru": "Начало должно быть открытым «а», а не «о»."
+    },
+    {
+      "substitute": "русское «ау» с долгим «у»",
+      "heard_as_example": "out → «аут» (долгое «у»)",
+      "tip_ru": "Вторая часть очень короткая и слабая, почти неслышная."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с открытого положения рта, как для «а».",
+    "Плавно скользите к «у»: губы округляются, а рот закрывается.",
+    "Первая часть звука длинная и громкая, вторая слабая и короткая.",
+    "Это один слог: «ау», как в слове «мяу», но короче.",
+    "Не доводите губы до полного «у»: достаточно слегка округлить."
+  ],
+  "us_uk_note_ru": "Разница незначительная. В американском начало дифтонга может быть чуть более передним (æʊ), а в британском чуть более глубоким (aʊ). В нормативной записи один знак.",
+  "example_words": [
+    {
+      "word": "now",
+      "ipa_us": "naʊ",
+      "ipa_uk": "naʊ",
+      "translation_ru": "сейчас"
+    },
+    {
+      "word": "how",
+      "ipa_us": "haʊ",
+      "ipa_uk": "haʊ",
+      "translation_ru": "как"
+    },
+    {
+      "word": "out",
+      "ipa_us": "aʊt",
+      "ipa_uk": "aʊt",
+      "translation_ru": "вне"
+    },
+    {
+      "word": "our",
+      "ipa_us": "aʊər",
+      "ipa_uk": "aʊə",
+      "translation_ru": "наш"
+    },
+    {
+      "word": "house",
+      "ipa_us": "haʊs",
+      "ipa_uk": "haʊs",
+      "translation_ru": "дом"
+    },
+    {
+      "word": "mouse",
+      "ipa_us": "maʊs",
+      "ipa_uk": "maʊs",
+      "translation_ru": "мышь"
+    },
+    {
+      "word": "down",
+      "ipa_us": "daʊn",
+      "ipa_uk": "daʊn",
+      "translation_ru": "вниз"
+    },
+    {
+      "word": "brown",
+      "ipa_us": "braʊn",
+      "ipa_uk": "braʊn",
+      "translation_ru": "коричневый"
+    },
+    {
+      "word": "found",
+      "ipa_us": "faʊnd",
+      "ipa_uk": "faʊnd",
+      "translation_ru": "нашёл"
+    },
+    {
+      "word": "cloud",
+      "ipa_us": "klaʊd",
+      "ipa_uk": "klaʊd",
+      "translation_ru": "облако"
+    },
+    {
+      "word": "loud",
+      "ipa_us": "laʊd",
+      "ipa_uk": "laʊd",
+      "translation_ru": "громкий"
+    },
+    {
+      "word": "south",
+      "ipa_us": "saʊθ",
+      "ipa_uk": "saʊθ",
+      "translation_ru": "юг"
+    },
+    {
+      "word": "mountain",
+      "ipa_us": "ˈmaʊntn",
+      "ipa_uk": "ˈmaʊntɪn",
+      "translation_ru": "гора"
+    },
+    {
+      "word": "flower",
+      "ipa_us": "ˈflaʊər",
+      "ipa_uk": "ˈflaʊə",
+      "translation_ru": "цветок"
+    },
+    {
+      "word": "power",
+      "ipa_us": "ˈpaʊər",
+      "ipa_uk": "ˈpaʊə",
+      "translation_ru": "сила"
+    },
+    {
+      "word": "shower",
+      "ipa_us": "ˈʃaʊər",
+      "ipa_uk": "ˈʃaʊə",
+      "translation_ru": "душ"
+    },
+    {
+      "word": "thousand",
+      "ipa_us": "ˈθaʊzənd",
+      "ipa_uk": "ˈθaʊzənd",
+      "translation_ru": "тысяча"
+    },
+    {
+      "word": "account",
+      "ipa_us": "əˈkaʊnt",
+      "ipa_uk": "əˈkaʊnt",
+      "translation_ru": "счёт"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "now",
+      "contrast": "no",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "how",
+      "contrast": "hoe",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "loud",
+      "contrast": "load",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "couch",
+      "contrast": "coach",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "pound",
+      "contrast": "pond",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "town",
+      "contrast": "ton",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "sound",
+      "contrast": "sand",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "down",
+      "contrast": "dawn",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "found",
+      "contrast": "phoned",
+      "contrast_sound": "əʊ"
+    }
+  ],
+  "phrases": [
+    "How now, brown cow?",
+    "The loud sound came out of the house.",
+    "Our town has a thousand flowers.",
+    "The mouse found a round brown crown.",
+    "We found the south mountain without doubt."
+  ],
+  "tongue_twisters": [
+    "How now brown cow? Round the house the mouse ran down.",
+    "A loud cloud hung over the town.",
+    "Our proud house is down south, around the town."
+  ]
+}

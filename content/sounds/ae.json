@@ -1,0 +1,231 @@
+{
+  "id": "æ",
+  "slug": "ae",
+  "name_ru": "Открытый гласный «æ» (bad)",
+  "ipa": "æ",
+  "arpabet": [
+    "AE"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "e",
+      "heard_as_example": "bad → bed",
+      "tip_ru": "Рот должен быть открыт шире. Челюсть опущена вниз, а уголки губ растянуты в стороны, как при широкой улыбке."
+    },
+    {
+      "substitute": "а (русское «а»)",
+      "heard_as_example": "man → «ман»",
+      "tip_ru": "Русское «а» глубокое и задне-центральное. Английское æ звучит впереди, ближе к «э», язык прижат к нижним зубам и поднят спереди."
+    },
+    {
+      "substitute": "ʌ",
+      "heard_as_example": "cat → cut",
+      "tip_ru": "Звук не должен быть коротким и приглушённым. Растяните его, потому что он «тяжёлый» и открытый."
+    }
+  ],
+  "articulation_ru": [
+    "Опустите нижнюю челюсть вниз, откройте рот шире, чем для русского «э».",
+    "Растяните губы в стороны, как будто широко улыбаетесь.",
+    "Кончик языка лежит у нижних зубов, передняя часть языка слегка приподнята.",
+    "Включите голос. Звук средней длины, немного длиннее, чем e в bed.",
+    "Проверьте себя: bad и bed не должны звучать одинаково, у bad рот открыт шире."
+  ],
+  "us_uk_note_ru": "В США æ встречается и в словах ask, dance, class, can't, last. В британском (RP) в этих словах произносится ɑː (ask ɑːsk, dance dɑːns). В остальных словах (cat, man, bad) звук одинаков. В американском перед носовыми (man, can) æ часто звучит чуть закрытее и «в нос».",
+  "example_words": [
+    {
+      "word": "cat",
+      "ipa_us": "kæt",
+      "ipa_uk": "kæt",
+      "translation_ru": "кошка"
+    },
+    {
+      "word": "man",
+      "ipa_us": "mæn",
+      "ipa_uk": "mæn",
+      "translation_ru": "мужчина"
+    },
+    {
+      "word": "hand",
+      "ipa_us": "hænd",
+      "ipa_uk": "hænd",
+      "translation_ru": "рука"
+    },
+    {
+      "word": "bad",
+      "ipa_us": "bæd",
+      "ipa_uk": "bæd",
+      "translation_ru": "плохой"
+    },
+    {
+      "word": "black",
+      "ipa_us": "blæk",
+      "ipa_uk": "blæk",
+      "translation_ru": "чёрный"
+    },
+    {
+      "word": "apple",
+      "ipa_us": "ˈæpəl",
+      "ipa_uk": "ˈæpəl",
+      "translation_ru": "яблоко"
+    },
+    {
+      "word": "happy",
+      "ipa_us": "ˈhæpi",
+      "ipa_uk": "ˈhæpi",
+      "translation_ru": "счастливый"
+    },
+    {
+      "word": "thanks",
+      "ipa_us": "θæŋks",
+      "ipa_uk": "θæŋks",
+      "translation_ru": "спасибо"
+    },
+    {
+      "word": "plan",
+      "ipa_us": "plæn",
+      "ipa_uk": "plæn",
+      "translation_ru": "план"
+    },
+    {
+      "word": "family",
+      "ipa_us": "ˈfæməli",
+      "ipa_uk": "ˈfæməli",
+      "translation_ru": "семья"
+    },
+    {
+      "word": "animal",
+      "ipa_us": "ˈænɪməl",
+      "ipa_uk": "ˈænɪməl",
+      "translation_ru": "животное"
+    },
+    {
+      "word": "jacket",
+      "ipa_us": "ˈdʒækɪt",
+      "ipa_uk": "ˈdʒækɪt",
+      "translation_ru": "куртка"
+    },
+    {
+      "word": "glad",
+      "ipa_us": "ɡlæd",
+      "ipa_uk": "ɡlæd",
+      "translation_ru": "рад"
+    },
+    {
+      "word": "passenger",
+      "ipa_us": "ˈpæsɪndʒər",
+      "ipa_uk": "ˈpæsɪndʒə",
+      "translation_ru": "пассажир"
+    },
+    {
+      "word": "class",
+      "ipa_us": "klæs",
+      "ipa_uk": "klɑːs",
+      "translation_ru": "класс"
+    },
+    {
+      "word": "ask",
+      "ipa_us": "æsk",
+      "ipa_uk": "ɑːsk",
+      "translation_ru": "спрашивать"
+    },
+    {
+      "word": "dance",
+      "ipa_us": "dæns",
+      "ipa_uk": "dɑːns",
+      "translation_ru": "танец"
+    },
+    {
+      "word": "grammar",
+      "ipa_us": "ˈɡræmər",
+      "ipa_uk": "ˈɡræmə",
+      "translation_ru": "грамматика"
+    },
+    {
+      "word": "practical",
+      "ipa_us": "ˈpræktɪkəl",
+      "ipa_uk": "ˈpræktɪkəl",
+      "translation_ru": "практичный"
+    },
+    {
+      "word": "catastrophe",
+      "ipa_us": "kəˈtæstrəfi",
+      "ipa_uk": "kəˈtæstrəfi",
+      "translation_ru": "катастрофа"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "bad",
+      "contrast": "bed",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "man",
+      "contrast": "men",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "pat",
+      "contrast": "pet",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "bat",
+      "contrast": "bet",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "sad",
+      "contrast": "said",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "land",
+      "contrast": "lend",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "pan",
+      "contrast": "pen",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "bag",
+      "contrast": "beg",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "had",
+      "contrast": "head",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "dad",
+      "contrast": "dead",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "cap",
+      "contrast": "cup",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "ran",
+      "contrast": "run",
+      "contrast_sound": "ʌ"
+    }
+  ],
+  "phrases": [
+    "The black cat sat on my hand.",
+    "Anna has a bad back and a fat black bag.",
+    "Can Dad answer the man's last plan?",
+    "I am glad that Sam has had a happy family.",
+    "The captain had an apple and a sandwich."
+  ],
+  "tongue_twisters": [
+    "The fat black cat sat flat on a hat.",
+    "A happy hamster had a hat and a bat.",
+    "Sally sat and sang as the black cat sat and sat."
+  ]
+}

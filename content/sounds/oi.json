@@ -1,0 +1,199 @@
+{
+  "id": "ɔɪ",
+  "slug": "oi",
+  "name_ru": "Дифтонг «ɔɪ» (boy)",
+  "ipa": "ɔɪ",
+  "arpabet": [
+    "OY"
+  ],
+  "difficulty_for_russians": 1,
+  "typical_errors": [
+    {
+      "substitute": "ɔː (без скольжения)",
+      "heard_as_example": "boil → ball",
+      "tip_ru": "После округлённого «о» обязательно скользите к «и»."
+    },
+    {
+      "substitute": "«ой» с мягким «й»",
+      "heard_as_example": "boy → «бой» с резким «й»",
+      "tip_ru": "Скольжение лёгкое и короткое, без нажима на «й»."
+    },
+    {
+      "substitute": "а + и (aɪ)",
+      "heard_as_example": "toy → tie",
+      "tip_ru": "Начало звука округлённое («о»), а не открытое «а»."
+    }
+  ],
+  "articulation_ru": [
+    "Округлите губы, как для «о», рот приоткрыт.",
+    "Плавно скользите к «и»: губы растягиваются, рот закрывается.",
+    "Первая часть звука длинная и округлая, вторая лёгкая и короткая.",
+    "Это один слог, как русское «ой» в слове «бой».",
+    "Следите, чтобы начало было «о», а не «а»."
+  ],
+  "us_uk_note_ru": "Разницы между США и Британией практически нет. Звук редкий в английском, встречается в небольшом числе слов.",
+  "example_words": [
+    {
+      "word": "boy",
+      "ipa_us": "bɔɪ",
+      "ipa_uk": "bɔɪ",
+      "translation_ru": "мальчик"
+    },
+    {
+      "word": "toy",
+      "ipa_us": "tɔɪ",
+      "ipa_uk": "tɔɪ",
+      "translation_ru": "игрушка"
+    },
+    {
+      "word": "joy",
+      "ipa_us": "dʒɔɪ",
+      "ipa_uk": "dʒɔɪ",
+      "translation_ru": "радость"
+    },
+    {
+      "word": "oil",
+      "ipa_us": "ɔɪl",
+      "ipa_uk": "ɔɪl",
+      "translation_ru": "масло, нефть"
+    },
+    {
+      "word": "coin",
+      "ipa_us": "kɔɪn",
+      "ipa_uk": "kɔɪn",
+      "translation_ru": "монета"
+    },
+    {
+      "word": "join",
+      "ipa_us": "dʒɔɪn",
+      "ipa_uk": "dʒɔɪn",
+      "translation_ru": "присоединяться"
+    },
+    {
+      "word": "voice",
+      "ipa_us": "vɔɪs",
+      "ipa_uk": "vɔɪs",
+      "translation_ru": "голос"
+    },
+    {
+      "word": "noise",
+      "ipa_us": "nɔɪz",
+      "ipa_uk": "nɔɪz",
+      "translation_ru": "шум"
+    },
+    {
+      "word": "choice",
+      "ipa_us": "tʃɔɪs",
+      "ipa_uk": "tʃɔɪs",
+      "translation_ru": "выбор"
+    },
+    {
+      "word": "point",
+      "ipa_us": "pɔɪnt",
+      "ipa_uk": "pɔɪnt",
+      "translation_ru": "точка, указывать"
+    },
+    {
+      "word": "enjoy",
+      "ipa_us": "ɪnˈdʒɔɪ",
+      "ipa_uk": "ɪnˈdʒɔɪ",
+      "translation_ru": "наслаждаться"
+    },
+    {
+      "word": "avoid",
+      "ipa_us": "əˈvɔɪd",
+      "ipa_uk": "əˈvɔɪd",
+      "translation_ru": "избегать"
+    },
+    {
+      "word": "annoy",
+      "ipa_us": "əˈnɔɪ",
+      "ipa_uk": "əˈnɔɪ",
+      "translation_ru": "раздражать"
+    },
+    {
+      "word": "destroy",
+      "ipa_us": "dɪˈstrɔɪ",
+      "ipa_uk": "dɪˈstrɔɪ",
+      "translation_ru": "разрушать"
+    },
+    {
+      "word": "employ",
+      "ipa_us": "ɪmˈplɔɪ",
+      "ipa_uk": "ɪmˈplɔɪ",
+      "translation_ru": "нанимать"
+    },
+    {
+      "word": "royal",
+      "ipa_us": "ˈrɔɪəl",
+      "ipa_uk": "ˈrɔɪəl",
+      "translation_ru": "королевский"
+    },
+    {
+      "word": "poison",
+      "ipa_us": "ˈpɔɪzən",
+      "ipa_uk": "ˈpɔɪzən",
+      "translation_ru": "яд"
+    },
+    {
+      "word": "oyster",
+      "ipa_us": "ˈɔɪstər",
+      "ipa_uk": "ˈɔɪstə",
+      "translation_ru": "устрица"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "boy",
+      "contrast": "buy",
+      "contrast_sound": "aɪ"
+    },
+    {
+      "target": "toy",
+      "contrast": "tie",
+      "contrast_sound": "aɪ"
+    },
+    {
+      "target": "joy",
+      "contrast": "jaw",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "boil",
+      "contrast": "ball",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "coil",
+      "contrast": "call",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "point",
+      "contrast": "pint",
+      "contrast_sound": "aɪ"
+    },
+    {
+      "target": "noise",
+      "contrast": "nose",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "oil",
+      "contrast": "all",
+      "contrast_sound": "ɔː"
+    }
+  ],
+  "phrases": [
+    "The boy enjoys his new toy.",
+    "Roy has a loud voice and makes noise.",
+    "Join us for a royal choice of oysters.",
+    "Avoid the boiling oil.",
+    "The coin is the point of the joy."
+  ],
+  "tongue_twisters": [
+    "Roy Boyd annoyed Joyce with his noisy toy.",
+    "Boys enjoy noisy toys.",
+    "Roy enjoys oily boiled oysters."
+  ]
+}

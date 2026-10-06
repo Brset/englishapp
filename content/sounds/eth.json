@@ -1,0 +1,216 @@
+{
+  "id": "ð",
+  "slug": "eth",
+  "name_ru": "Межзубный звонкий «th» (this)",
+  "ipa": "ð",
+  "arpabet": [
+    "DH"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "z",
+      "heard_as_example": "they → zey",
+      "tip_ru": "Язык должен быть между зубами, а не за ними. Высуньте кончик языка, как для θ, но включите голос."
+    },
+    {
+      "substitute": "d",
+      "heard_as_example": "then → den",
+      "tip_ru": "Язык не прижимается к бугоркам за зубами и не делает взрыв. Звук плавный и тянущийся."
+    },
+    {
+      "substitute": "v",
+      "heard_as_example": "mother → muvver",
+      "tip_ru": "Нижняя губа не участвует. Смотрите в зеркало: нижняя губа расслаблена."
+    }
+  ],
+  "articulation_ru": [
+    "Положите кончик языка между зубами, как для звука θ.",
+    "Включите голос: на горле под ладонью должна быть вибрация, как в «з».",
+    "Выдыхайте плавно, язык слегка касается верхних зубов, и воздух идёт через щель.",
+    "Звук короткий и мягкий в служебных словах: the, this, that, them.",
+    "Не заканчивайте звук взрывом, сразу переходите к гласному: ðeɪ."
+  ],
+  "us_uk_note_ru": "Различий между США и Британией нет. В словах with и without в США встречаются оба варианта (wɪð и wɪθ).",
+  "example_words": [
+    {
+      "word": "the",
+      "ipa_us": "ðə",
+      "ipa_uk": "ðə",
+      "translation_ru": "определённый артикль"
+    },
+    {
+      "word": "this",
+      "ipa_us": "ðɪs",
+      "ipa_uk": "ðɪs",
+      "translation_ru": "этот"
+    },
+    {
+      "word": "that",
+      "ipa_us": "ðæt",
+      "ipa_uk": "ðæt",
+      "translation_ru": "тот, что"
+    },
+    {
+      "word": "they",
+      "ipa_us": "ðeɪ",
+      "ipa_uk": "ðeɪ",
+      "translation_ru": "они"
+    },
+    {
+      "word": "them",
+      "ipa_us": "ðem",
+      "ipa_uk": "ðem",
+      "translation_ru": "их, им"
+    },
+    {
+      "word": "then",
+      "ipa_us": "ðen",
+      "ipa_uk": "ðen",
+      "translation_ru": "тогда"
+    },
+    {
+      "word": "there",
+      "ipa_us": "ðer",
+      "ipa_uk": "ðeə",
+      "translation_ru": "там"
+    },
+    {
+      "word": "these",
+      "ipa_us": "ðiːz",
+      "ipa_uk": "ðiːz",
+      "translation_ru": "эти"
+    },
+    {
+      "word": "those",
+      "ipa_us": "ðoʊz",
+      "ipa_uk": "ðəʊz",
+      "translation_ru": "те"
+    },
+    {
+      "word": "with",
+      "ipa_us": "wɪð",
+      "ipa_uk": "wɪð",
+      "translation_ru": "с"
+    },
+    {
+      "word": "mother",
+      "ipa_us": "ˈmʌðər",
+      "ipa_uk": "ˈmʌðə",
+      "translation_ru": "мама"
+    },
+    {
+      "word": "father",
+      "ipa_us": "ˈfɑːðər",
+      "ipa_uk": "ˈfɑːðə",
+      "translation_ru": "отец"
+    },
+    {
+      "word": "brother",
+      "ipa_us": "ˈbrʌðər",
+      "ipa_uk": "ˈbrʌðə",
+      "translation_ru": "брат"
+    },
+    {
+      "word": "other",
+      "ipa_us": "ˈʌðər",
+      "ipa_uk": "ˈʌðə",
+      "translation_ru": "другой"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈweðər",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "together",
+      "ipa_us": "təˈɡeðər",
+      "ipa_uk": "təˈɡeðə",
+      "translation_ru": "вместе"
+    },
+    {
+      "word": "clothes",
+      "ipa_us": "kloʊðz",
+      "ipa_uk": "kləʊðz",
+      "translation_ru": "одежда"
+    },
+    {
+      "word": "breathe",
+      "ipa_us": "briːð",
+      "ipa_uk": "briːð",
+      "translation_ru": "дышать"
+    },
+    {
+      "word": "smooth",
+      "ipa_us": "smuːð",
+      "ipa_uk": "smuːð",
+      "translation_ru": "гладкий"
+    },
+    {
+      "word": "although",
+      "ipa_us": "ɔːlˈðoʊ",
+      "ipa_uk": "ɔːlˈðəʊ",
+      "translation_ru": "хотя"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "they",
+      "contrast": "day",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "then",
+      "contrast": "den",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "though",
+      "contrast": "dough",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "there",
+      "contrast": "dare",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "those",
+      "contrast": "doze",
+      "contrast_sound": "d"
+    },
+    {
+      "target": "clothe",
+      "contrast": "close",
+      "contrast_sound": "z"
+    },
+    {
+      "target": "breathe",
+      "contrast": "breeze",
+      "contrast_sound": "z"
+    },
+    {
+      "target": "bathe",
+      "contrast": "bays",
+      "contrast_sound": "z"
+    },
+    {
+      "target": "loathe",
+      "contrast": "load",
+      "contrast_sound": "d"
+    }
+  ],
+  "phrases": [
+    "This is the weather that they like.",
+    "My mother and father are with them today.",
+    "Then they went there together.",
+    "Those clothes are smooth and soft.",
+    "Either this one or that one, not the other."
+  ],
+  "tongue_twisters": [
+    "This is the thing that they bring in the weather.",
+    "Father and mother together brother's other leather feathers.",
+    "Those with the smooth clothes bathe then breathe."
+  ]
+}

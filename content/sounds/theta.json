@@ -1,0 +1,225 @@
+{
+  "id": "θ",
+  "slug": "theta",
+  "name_ru": "Межзубный глухой «th» (think)",
+  "ipa": "θ",
+  "arpabet": [
+    "TH"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "s",
+      "heard_as_example": "think → sink",
+      "tip_ru": "Язык не должен прятаться за зубы. Кончик языка слегка высуньте между зубами и просто выдохните воздух, как в «с», но через щель между языком и зубами."
+    },
+    {
+      "substitute": "f",
+      "heard_as_example": "three → free",
+      "tip_ru": "Нижняя губа не касается верхних зубов. Смотрите в зеркало: должен быть виден кончик языка, а нижняя губа расслаблена."
+    },
+    {
+      "substitute": "t",
+      "heard_as_example": "three → tree",
+      "tip_ru": "Звук тянется, это не взрыв. Не прижимайте язык плотно, оставьте узкую щель для воздуха."
+    }
+  ],
+  "articulation_ru": [
+    "Положите кончик языка между верхними и нижними зубами, чуть-чуть его видно.",
+    "Губы расслаблены, нижняя губа не поднимается к зубам.",
+    "Просто выдыхайте воздух через узкую щель между языком и зубами, как тихое шипение.",
+    "Голос не включайте: горло молчит, положите на него ладонь и не должно быть вибрации.",
+    "Звук можно тянуть: «θθθ», затем сразу добавляйте гласный: θɪŋk."
+  ],
+  "us_uk_note_ru": "В американском и британском варианте звук одинаков. Исключение: в разговорной речи лондонцев (кокни) θ часто заменяют на f, но для обучения берите стандартную норму.",
+  "example_words": [
+    {
+      "word": "both",
+      "ipa_us": "boʊθ",
+      "ipa_uk": "bəʊθ",
+      "translation_ru": "оба"
+    },
+    {
+      "word": "bath",
+      "ipa_us": "bæθ",
+      "ipa_uk": "bɑːθ",
+      "translation_ru": "ванна"
+    },
+    {
+      "word": "think",
+      "ipa_us": "θɪŋk",
+      "ipa_uk": "θɪŋk",
+      "translation_ru": "думать"
+    },
+    {
+      "word": "thing",
+      "ipa_us": "θɪŋ",
+      "ipa_uk": "θɪŋ",
+      "translation_ru": "вещь"
+    },
+    {
+      "word": "thank",
+      "ipa_us": "θæŋk",
+      "ipa_uk": "θæŋk",
+      "translation_ru": "благодарить"
+    },
+    {
+      "word": "three",
+      "ipa_us": "θriː",
+      "ipa_uk": "θriː",
+      "translation_ru": "три"
+    },
+    {
+      "word": "thin",
+      "ipa_us": "θɪn",
+      "ipa_uk": "θɪn",
+      "translation_ru": "тонкий"
+    },
+    {
+      "word": "thick",
+      "ipa_us": "θɪk",
+      "ipa_uk": "θɪk",
+      "translation_ru": "толстый, густой"
+    },
+    {
+      "word": "thought",
+      "ipa_us": "θɔːt",
+      "ipa_uk": "θɔːt",
+      "translation_ru": "мысль, подумал"
+    },
+    {
+      "word": "through",
+      "ipa_us": "θruː",
+      "ipa_uk": "θruː",
+      "translation_ru": "сквозь, через"
+    },
+    {
+      "word": "month",
+      "ipa_us": "mʌnθ",
+      "ipa_uk": "mʌnθ",
+      "translation_ru": "месяц"
+    },
+    {
+      "word": "nothing",
+      "ipa_us": "ˈnʌθɪŋ",
+      "ipa_uk": "ˈnʌθɪŋ",
+      "translation_ru": "ничего"
+    },
+    {
+      "word": "birthday",
+      "ipa_us": "ˈbɜːrθdeɪ",
+      "ipa_uk": "ˈbɜːθdeɪ",
+      "translation_ru": "день рождения"
+    },
+    {
+      "word": "thousand",
+      "ipa_us": "ˈθaʊzənd",
+      "ipa_uk": "ˈθaʊzənd",
+      "translation_ru": "тысяча"
+    },
+    {
+      "word": "healthy",
+      "ipa_us": "ˈhelθi",
+      "ipa_uk": "ˈhelθi",
+      "translation_ru": "здоровый"
+    },
+    {
+      "word": "thirsty",
+      "ipa_us": "ˈθɜːrsti",
+      "ipa_uk": "ˈθɜːsti",
+      "translation_ru": "испытывающий жажду"
+    },
+    {
+      "word": "thirteen",
+      "ipa_us": "ˌθɜːrˈtiːn",
+      "ipa_uk": "ˌθɜːˈtiːn",
+      "translation_ru": "тринадцать"
+    },
+    {
+      "word": "months",
+      "ipa_us": "mʌnθs",
+      "ipa_uk": "mʌnθs",
+      "translation_ru": "месяцы"
+    },
+    {
+      "word": "sixth",
+      "ipa_us": "sɪksθ",
+      "ipa_uk": "sɪksθ",
+      "translation_ru": "шестой"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "think",
+      "contrast": "sink",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "thank",
+      "contrast": "sank",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "thin",
+      "contrast": "sin",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "thick",
+      "contrast": "sick",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "thumb",
+      "contrast": "some",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "theme",
+      "contrast": "seem",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "three",
+      "contrast": "free",
+      "contrast_sound": "f"
+    },
+    {
+      "target": "thought",
+      "contrast": "fought",
+      "contrast_sound": "f"
+    },
+    {
+      "target": "three",
+      "contrast": "tree",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "through",
+      "contrast": "true",
+      "contrast_sound": "t"
+    },
+    {
+      "target": "path",
+      "contrast": "pass",
+      "contrast_sound": "s"
+    },
+    {
+      "target": "mouth",
+      "contrast": "mouse",
+      "contrast_sound": "s"
+    }
+  ],
+  "phrases": [
+    "I think that Thursday is the third.",
+    "Thank you for the three thick books.",
+    "My brother is thirteen and he thinks he is healthy.",
+    "Nothing is worth more than good health.",
+    "The thief thought through the whole thing."
+  ],
+  "tongue_twisters": [
+    "Thirty-three thieves thought they thrilled the throne throughout Thursday.",
+    "I thought a thought, but the thought I thought wasn't the thought I thought I thought.",
+    "Three thin thieves threw three thick things."
+  ]
+}

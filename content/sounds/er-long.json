@@ -1,0 +1,204 @@
+{
+  "id": "ɜː",
+  "slug": "er-long",
+  "name_ru": "Долгий «ɜː» (bird)",
+  "ipa": "ɜː",
+  "arpabet": [
+    "ER"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "er (е + р)",
+      "heard_as_example": "bird → «бёрд» с «р»",
+      "tip_ru": "Не произносите «е» и «р» отдельно. Это один долгий гласный (в американском с r-окраской), язык не вибрирует."
+    },
+    {
+      "substitute": "ор",
+      "heard_as_example": "turn → torn",
+      "tip_ru": "Губы нейтральные, а не округлённые. Это не «о»."
+    },
+    {
+      "substitute": "ɑː",
+      "heard_as_example": "firm → farm",
+      "tip_ru": "Рот открыт меньше. Язык в середине рта, губы растянуты слабо."
+    }
+  ],
+  "articulation_ru": [
+    "Губы нейтральные, слегка расслаблены, не округляйте и не растягивайте их.",
+    "Язык лежит в центре рта, середина языка слегка приподнята.",
+    "Включите голос и тяните звук: «ёёё», он долгий и ровный.",
+    "В американском варианте кончик языка слегка загибается назад, как для r, и звук получается «р-окрашенным».",
+    "В британском варианте r не слышно, остаётся долгий центральный гласный."
+  ],
+  "us_uk_note_ru": "В США ɜːr звучит с r-окраской (bird bɜːrd, girl ɡɜːrl). В британском r не слышно (bird bɜːd). Если за ɜː следует гласный, r в британском появляется: stir it.",
+  "example_words": [
+    {
+      "word": "her",
+      "ipa_us": "hɜːr",
+      "ipa_uk": "hɜː",
+      "translation_ru": "её"
+    },
+    {
+      "word": "sir",
+      "ipa_us": "sɜːr",
+      "ipa_uk": "sɜː",
+      "translation_ru": "сэр"
+    },
+    {
+      "word": "fur",
+      "ipa_us": "fɜːr",
+      "ipa_uk": "fɜː",
+      "translation_ru": "мех"
+    },
+    {
+      "word": "bird",
+      "ipa_us": "bɜːrd",
+      "ipa_uk": "bɜːd",
+      "translation_ru": "птица"
+    },
+    {
+      "word": "girl",
+      "ipa_us": "ɡɜːrl",
+      "ipa_uk": "ɡɜːl",
+      "translation_ru": "девочка"
+    },
+    {
+      "word": "first",
+      "ipa_us": "fɜːrst",
+      "ipa_uk": "fɜːst",
+      "translation_ru": "первый"
+    },
+    {
+      "word": "work",
+      "ipa_us": "wɜːrk",
+      "ipa_uk": "wɜːk",
+      "translation_ru": "работа"
+    },
+    {
+      "word": "learn",
+      "ipa_us": "lɜːrn",
+      "ipa_uk": "lɜːn",
+      "translation_ru": "учить"
+    },
+    {
+      "word": "world",
+      "ipa_us": "wɜːrld",
+      "ipa_uk": "wɜːld",
+      "translation_ru": "мир"
+    },
+    {
+      "word": "word",
+      "ipa_us": "wɜːrd",
+      "ipa_uk": "wɜːd",
+      "translation_ru": "слово"
+    },
+    {
+      "word": "third",
+      "ipa_us": "θɜːrd",
+      "ipa_uk": "θɜːd",
+      "translation_ru": "третий"
+    },
+    {
+      "word": "nurse",
+      "ipa_us": "nɜːrs",
+      "ipa_uk": "nɜːs",
+      "translation_ru": "медсестра"
+    },
+    {
+      "word": "early",
+      "ipa_us": "ˈɜːrli",
+      "ipa_uk": "ˈɜːli",
+      "translation_ru": "рано"
+    },
+    {
+      "word": "certain",
+      "ipa_us": "ˈsɜːrtn",
+      "ipa_uk": "ˈsɜːtn",
+      "translation_ru": "уверенный"
+    },
+    {
+      "word": "thirty",
+      "ipa_us": "ˈθɜːrti",
+      "ipa_uk": "ˈθɜːti",
+      "translation_ru": "тридцать"
+    },
+    {
+      "word": "Thursday",
+      "ipa_us": "ˈθɜːrzdeɪ",
+      "ipa_uk": "ˈθɜːzdeɪ",
+      "translation_ru": "четверг"
+    },
+    {
+      "word": "journey",
+      "ipa_us": "ˈdʒɜːrni",
+      "ipa_uk": "ˈdʒɜːni",
+      "translation_ru": "путешествие"
+    },
+    {
+      "word": "journalist",
+      "ipa_us": "ˈdʒɜːrnəlɪst",
+      "ipa_uk": "ˈdʒɜːnəlɪst",
+      "translation_ru": "журналист"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "turn",
+      "contrast": "torn",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "burn",
+      "contrast": "born",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "work",
+      "contrast": "walk",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "shirt",
+      "contrast": "short",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "curt",
+      "contrast": "court",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "fur",
+      "contrast": "far",
+      "contrast_sound": "ɑː"
+    },
+    {
+      "target": "firm",
+      "contrast": "farm",
+      "contrast_sound": "ɑː"
+    },
+    {
+      "target": "heard",
+      "contrast": "hard",
+      "contrast_sound": "ɑː"
+    },
+    {
+      "target": "bird",
+      "contrast": "bard",
+      "contrast_sound": "ɑː"
+    }
+  ],
+  "phrases": [
+    "The girl heard her first word on Thursday.",
+    "Her nurse learns to work early.",
+    "Thirty birds fly over the world.",
+    "The third person turned and ran.",
+    "I prefer to search first."
+  ],
+  "tongue_twisters": [
+    "Thirty thirsty girls learn to turn.",
+    "The early bird catches the worm, the third bird learns.",
+    "Burt's first shirt hurt his dirty skirt."
+  ]
+}

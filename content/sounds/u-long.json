@@ -1,0 +1,195 @@
+{
+  "id": "uː",
+  "slug": "u-long",
+  "name_ru": "Долгий «uː» (food)",
+  "ipa": "uː",
+  "arpabet": [
+    "UW"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "ʊ (слишком короткий)",
+      "heard_as_example": "fool → full",
+      "tip_ru": "Тяните звук вдвое дольше и вытяните губы вперёд трубочкой."
+    },
+    {
+      "substitute": "ju (с «ю»)",
+      "heard_as_example": "new → «нью», student → «стьюдент»",
+      "tip_ru": "В американском варианте после t, d, n, s звук «ю» обычно не нужен (new nuː). В британском допускается ju, но не путайте."
+    },
+    {
+      "substitute": "«у» без округления",
+      "heard_as_example": "too → «тэ»",
+      "tip_ru": "Губы должны быть заметно округлены и вытянуты, как при свисте."
+    }
+  ],
+  "articulation_ru": [
+    "Вытяните губы вперёд и округлите их, оставив маленькое отверстие, как для свиста.",
+    "Задняя часть языка высоко поднята к мягкому нёбу, кончик языка расслаблен.",
+    "Включите голос и тяните звук: «ууу», он долгий и напряжённый.",
+    "Во время звука губы остаются неподвижными, не делайте «уо» или «ув».",
+    "Перед звонким согласным (mood, food) звук ещё длиннее, чем перед глухим (boot)."
+  ],
+  "us_uk_note_ru": "В американском английском после t, d, n, s, z, l обычно нет j: new nuː, tune tuːn, student ˈstuːdənt. В британском часто есть j: new njuː, student ˈstjuːdənt. В обоих вариантах после ʧ, ʤ, r, ʃ звука j нет.",
+  "example_words": [
+    {
+      "word": "too",
+      "ipa_us": "tuː",
+      "ipa_uk": "tuː",
+      "translation_ru": "тоже"
+    },
+    {
+      "word": "you",
+      "ipa_us": "juː",
+      "ipa_uk": "juː",
+      "translation_ru": "ты, вы"
+    },
+    {
+      "word": "who",
+      "ipa_us": "huː",
+      "ipa_uk": "huː",
+      "translation_ru": "кто"
+    },
+    {
+      "word": "do",
+      "ipa_us": "duː",
+      "ipa_uk": "duː",
+      "translation_ru": "делать"
+    },
+    {
+      "word": "blue",
+      "ipa_us": "bluː",
+      "ipa_uk": "bluː",
+      "translation_ru": "синий"
+    },
+    {
+      "word": "food",
+      "ipa_us": "fuːd",
+      "ipa_uk": "fuːd",
+      "translation_ru": "еда"
+    },
+    {
+      "word": "moon",
+      "ipa_us": "muːn",
+      "ipa_uk": "muːn",
+      "translation_ru": "луна"
+    },
+    {
+      "word": "school",
+      "ipa_us": "skuːl",
+      "ipa_uk": "skuːl",
+      "translation_ru": "школа"
+    },
+    {
+      "word": "group",
+      "ipa_us": "ɡruːp",
+      "ipa_uk": "ɡruːp",
+      "translation_ru": "группа"
+    },
+    {
+      "word": "fruit",
+      "ipa_us": "fruːt",
+      "ipa_uk": "fruːt",
+      "translation_ru": "фрукты"
+    },
+    {
+      "word": "choose",
+      "ipa_us": "tʃuːz",
+      "ipa_uk": "tʃuːz",
+      "translation_ru": "выбирать"
+    },
+    {
+      "word": "true",
+      "ipa_us": "truː",
+      "ipa_uk": "truː",
+      "translation_ru": "правда"
+    },
+    {
+      "word": "juice",
+      "ipa_us": "dʒuːs",
+      "ipa_uk": "dʒuːs",
+      "translation_ru": "сок"
+    },
+    {
+      "word": "route",
+      "ipa_us": "ruːt",
+      "ipa_uk": "ruːt",
+      "translation_ru": "маршрут"
+    },
+    {
+      "word": "through",
+      "ipa_us": "θruː",
+      "ipa_uk": "θruː",
+      "translation_ru": "через"
+    },
+    {
+      "word": "new",
+      "ipa_us": "nuː",
+      "ipa_uk": "njuː",
+      "translation_ru": "новый"
+    },
+    {
+      "word": "student",
+      "ipa_us": "ˈstuːdənt",
+      "ipa_uk": "ˈstjuːdənt",
+      "translation_ru": "студент"
+    },
+    {
+      "word": "beautiful",
+      "ipa_us": "ˈbjuːtɪfəl",
+      "ipa_uk": "ˈbjuːtɪfəl",
+      "translation_ru": "красивый"
+    },
+    {
+      "word": "Tuesday",
+      "ipa_us": "ˈtuːzdeɪ",
+      "ipa_uk": "ˈtjuːzdeɪ",
+      "translation_ru": "вторник"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "fool",
+      "contrast": "full",
+      "contrast_sound": "ʊ"
+    },
+    {
+      "target": "pool",
+      "contrast": "pull",
+      "contrast_sound": "ʊ"
+    },
+    {
+      "target": "wooed",
+      "contrast": "wood",
+      "contrast_sound": "ʊ"
+    },
+    {
+      "target": "cooed",
+      "contrast": "could",
+      "contrast_sound": "ʊ"
+    },
+    {
+      "target": "shooed",
+      "contrast": "should",
+      "contrast_sound": "ʊ"
+    },
+    {
+      "target": "who'd",
+      "contrast": "hood",
+      "contrast_sound": "ʊ"
+    }
+  ],
+  "phrases": [
+    "You should choose the blue shoes too.",
+    "The moon is bright in June.",
+    "Two new students use the school pool.",
+    "I knew the truth about the food.",
+    "Who drew this beautiful blue room?"
+  ],
+  "tongue_twisters": [
+    "How much wood would a woodchuck chuck? Too soon to choose, too cool for school.",
+    "If two witches would watch two watches, which witch would watch which watch?",
+    "Blue moon, true tune, new shoes, cool school."
+  ]
+}

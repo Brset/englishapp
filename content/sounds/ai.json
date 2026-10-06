@@ -1,0 +1,209 @@
+{
+  "id": "aɪ",
+  "slug": "ai",
+  "name_ru": "Дифтонг «aɪ» (my)",
+  "ipa": "aɪ",
+  "arpabet": [
+    "AY"
+  ],
+  "difficulty_for_russians": 1,
+  "typical_errors": [
+    {
+      "substitute": "ɪ (без скольжения)",
+      "heard_as_example": "bite → bit",
+      "tip_ru": "Скольжение обязательное. Начинайте с открытого «а» и скользите к «и»."
+    },
+    {
+      "substitute": "«ай» с «й» на конце, смягчённая",
+      "heard_as_example": "time → «тайм» (резкое «й»)",
+      "tip_ru": "Скольжение должно быть плавным и неполным. Не доводите язык до «и» полностью."
+    },
+    {
+      "substitute": "а + и в два слога",
+      "heard_as_example": "my → «ма-и»",
+      "tip_ru": "Звук один, слитный, как «ай» в «май», слог один."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с открытого положения рта, как для «а».",
+    "Плавно скользите языком вверх и вперёд к «и», рот закрывается.",
+    "Первая часть звука длинная и громкая, вторая лёгкая.",
+    "Это один слог: «ай», без паузы и без дополнительной гласной.",
+    "Перед звонким согласным (time, five) звук длиннее, чем перед глухим (white)."
+  ],
+  "us_uk_note_ru": "В целом одинаково. В американском перед глухими согласными (white, price) начало дифтонга может быть чуть выше и короче («канадский подъём»), но это не меняет стандарт. В британском начало чуть более передний открытый.",
+  "example_words": [
+    {
+      "word": "I",
+      "ipa_us": "aɪ",
+      "ipa_uk": "aɪ",
+      "translation_ru": "я"
+    },
+    {
+      "word": "my",
+      "ipa_us": "maɪ",
+      "ipa_uk": "maɪ",
+      "translation_ru": "мой"
+    },
+    {
+      "word": "eye",
+      "ipa_us": "aɪ",
+      "ipa_uk": "aɪ",
+      "translation_ru": "глаз"
+    },
+    {
+      "word": "buy",
+      "ipa_us": "baɪ",
+      "ipa_uk": "baɪ",
+      "translation_ru": "покупать"
+    },
+    {
+      "word": "nice",
+      "ipa_us": "naɪs",
+      "ipa_uk": "naɪs",
+      "translation_ru": "приятный"
+    },
+    {
+      "word": "time",
+      "ipa_us": "taɪm",
+      "ipa_uk": "taɪm",
+      "translation_ru": "время"
+    },
+    {
+      "word": "like",
+      "ipa_us": "laɪk",
+      "ipa_uk": "laɪk",
+      "translation_ru": "любить"
+    },
+    {
+      "word": "five",
+      "ipa_us": "faɪv",
+      "ipa_uk": "faɪv",
+      "translation_ru": "пять"
+    },
+    {
+      "word": "night",
+      "ipa_us": "naɪt",
+      "ipa_uk": "naɪt",
+      "translation_ru": "ночь"
+    },
+    {
+      "word": "light",
+      "ipa_us": "laɪt",
+      "ipa_uk": "laɪt",
+      "translation_ru": "свет"
+    },
+    {
+      "word": "right",
+      "ipa_us": "raɪt",
+      "ipa_uk": "raɪt",
+      "translation_ru": "правильно"
+    },
+    {
+      "word": "high",
+      "ipa_us": "haɪ",
+      "ipa_uk": "haɪ",
+      "translation_ru": "высокий"
+    },
+    {
+      "word": "bike",
+      "ipa_us": "baɪk",
+      "ipa_uk": "baɪk",
+      "translation_ru": "велосипед"
+    },
+    {
+      "word": "price",
+      "ipa_us": "praɪs",
+      "ipa_uk": "praɪs",
+      "translation_ru": "цена"
+    },
+    {
+      "word": "island",
+      "ipa_us": "ˈaɪlənd",
+      "ipa_uk": "ˈaɪlənd",
+      "translation_ru": "остров"
+    },
+    {
+      "word": "science",
+      "ipa_us": "ˈsaɪəns",
+      "ipa_uk": "ˈsaɪəns",
+      "translation_ru": "наука"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "library",
+      "ipa_us": "ˈlaɪbreri",
+      "ipa_uk": "ˈlaɪbrəri",
+      "translation_ru": "библиотека"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "light",
+      "contrast": "lit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "bite",
+      "contrast": "bit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "like",
+      "contrast": "lick",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "fight",
+      "contrast": "fit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "ride",
+      "contrast": "rid",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "hide",
+      "contrast": "hid",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "high",
+      "contrast": "hay",
+      "contrast_sound": "eɪ"
+    },
+    {
+      "target": "buy",
+      "contrast": "bay",
+      "contrast_sound": "eɪ"
+    },
+    {
+      "target": "my",
+      "contrast": "may",
+      "contrast_sound": "eɪ"
+    },
+    {
+      "target": "tie",
+      "contrast": "tea",
+      "contrast_sound": "iː"
+    }
+  ],
+  "phrases": [
+    "I like to ride my bike at night.",
+    "Five nice guys buy ice and wine.",
+    "My eyes are bright in the light.",
+    "The price is right, I'm quite sure.",
+    "Why are you so shy? Try it twice."
+  ],
+  "tongue_twisters": [
+    "I saw Susie sitting in a shoeshine shop.",
+    "Fine white vines twine in the light.",
+    "Five wise guys like high kites."
+  ]
+}

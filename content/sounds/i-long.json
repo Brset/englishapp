@@ -1,0 +1,215 @@
+{
+  "id": "iː",
+  "slug": "i-long",
+  "name_ru": "Долгий «iː» (sheep)",
+  "ipa": "iː",
+  "arpabet": [
+    "IY"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "ɪ (слишком короткий)",
+      "heard_as_example": "sheep → ship",
+      "tip_ru": "Тяните звук дольше, примерно в два раза. Растяните губы в стороны, как в улыбке."
+    },
+    {
+      "substitute": "смягчённый согласный + «и»",
+      "heard_as_example": "seat → «сьит»",
+      "tip_ru": "Не смягчайте согласный перед гласным и не заканчивайте звук коротко, держите гласный ровно."
+    },
+    {
+      "substitute": "«и» с «й» на конце (ij)",
+      "heard_as_example": "see → «сий»",
+      "tip_ru": "В британском варианте звук почти ровный. Не добавляйте заметного «й» после гласного."
+    }
+  ],
+  "articulation_ru": [
+    "Растяните губы в стороны, как для улыбки, зубы почти видны.",
+    "Кончик языка у нижних зубов, середина языка высоко поднята к нёбу.",
+    "Включите голос и тяните звук: «ииии», он долгий, напряжённый.",
+    "Сравните: iː почти вдвое длиннее ɪ, и губы заметно более растянуты.",
+    "Перед звонким согласным (need, seed) гласный ещё дольше, чем перед глухим (neat, seat)."
+  ],
+  "us_uk_note_ru": "В США iː часто звучит с лёгким глайдом (почти ij: see ˈsiː → [sij]). В британском это более чистый ровный гласный. Знак длины ː в обоих вариантах означает более долгий и напряжённый звук.",
+  "example_words": [
+    {
+      "word": "see",
+      "ipa_us": "siː",
+      "ipa_uk": "siː",
+      "translation_ru": "видеть"
+    },
+    {
+      "word": "me",
+      "ipa_us": "miː",
+      "ipa_uk": "miː",
+      "translation_ru": "меня"
+    },
+    {
+      "word": "tea",
+      "ipa_us": "tiː",
+      "ipa_uk": "tiː",
+      "translation_ru": "чай"
+    },
+    {
+      "word": "eat",
+      "ipa_us": "iːt",
+      "ipa_uk": "iːt",
+      "translation_ru": "есть"
+    },
+    {
+      "word": "green",
+      "ipa_us": "ɡriːn",
+      "ipa_uk": "ɡriːn",
+      "translation_ru": "зелёный"
+    },
+    {
+      "word": "need",
+      "ipa_us": "niːd",
+      "ipa_uk": "niːd",
+      "translation_ru": "нужно"
+    },
+    {
+      "word": "key",
+      "ipa_us": "kiː",
+      "ipa_uk": "kiː",
+      "translation_ru": "ключ"
+    },
+    {
+      "word": "speak",
+      "ipa_us": "spiːk",
+      "ipa_uk": "spiːk",
+      "translation_ru": "говорить"
+    },
+    {
+      "word": "please",
+      "ipa_us": "pliːz",
+      "ipa_uk": "pliːz",
+      "translation_ru": "пожалуйста"
+    },
+    {
+      "word": "three",
+      "ipa_us": "θriː",
+      "ipa_uk": "θriː",
+      "translation_ru": "три"
+    },
+    {
+      "word": "easy",
+      "ipa_us": "ˈiːzi",
+      "ipa_uk": "ˈiːzi",
+      "translation_ru": "лёгкий"
+    },
+    {
+      "word": "people",
+      "ipa_us": "ˈpiːpəl",
+      "ipa_uk": "ˈpiːpəl",
+      "translation_ru": "люди"
+    },
+    {
+      "word": "between",
+      "ipa_us": "bɪˈtwiːn",
+      "ipa_uk": "bɪˈtwiːn",
+      "translation_ru": "между"
+    },
+    {
+      "word": "believe",
+      "ipa_us": "bɪˈliːv",
+      "ipa_uk": "bɪˈliːv",
+      "translation_ru": "верить"
+    },
+    {
+      "word": "police",
+      "ipa_us": "pəˈliːs",
+      "ipa_uk": "pəˈliːs",
+      "translation_ru": "полиция"
+    },
+    {
+      "word": "machine",
+      "ipa_us": "məˈʃiːn",
+      "ipa_uk": "məˈʃiːn",
+      "translation_ru": "машина"
+    },
+    {
+      "word": "ceiling",
+      "ipa_us": "ˈsiːlɪŋ",
+      "ipa_uk": "ˈsiːlɪŋ",
+      "translation_ru": "потолок"
+    },
+    {
+      "word": "receive",
+      "ipa_us": "rɪˈsiːv",
+      "ipa_uk": "rɪˈsiːv",
+      "translation_ru": "получать"
+    },
+    {
+      "word": "achieve",
+      "ipa_us": "əˈtʃiːv",
+      "ipa_uk": "əˈtʃiːv",
+      "translation_ru": "достигать"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "sheep",
+      "contrast": "ship",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "beat",
+      "contrast": "bit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "seat",
+      "contrast": "sit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "leave",
+      "contrast": "live",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "feel",
+      "contrast": "fill",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "heat",
+      "contrast": "hit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "sleep",
+      "contrast": "slip",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "cheap",
+      "contrast": "chip",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "lead",
+      "contrast": "lid",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "peel",
+      "contrast": "pill",
+      "contrast_sound": "ɪ"
+    }
+  ],
+  "phrases": [
+    "Please eat three green peas.",
+    "We need to see the team in the street.",
+    "He speaks with me every week.",
+    "The sheep is asleep beneath the tree.",
+    "I believe he is a really easy teacher."
+  ],
+  "tongue_twisters": [
+    "She sells seashells by the seashore.",
+    "Peter Piper's cheap green peas.",
+    "Fleas flee from the sneezing, freezing breeze."
+  ]
+}

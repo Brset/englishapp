@@ -1,0 +1,215 @@
+{
+  "id": "ʌ",
+  "slug": "wedge",
+  "name_ru": "Краткий «ʌ» (cup)",
+  "ipa": "ʌ",
+  "arpabet": [
+    "AH"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "а (русское «а»)",
+      "heard_as_example": "cup → carp / cap",
+      "tip_ru": "Челюсть открыта меньше, а язык расположен в центре. Звук короче и более «ленивый», чем русское «а»."
+    },
+    {
+      "substitute": "о (русское «о»)",
+      "heard_as_example": "bus → boss",
+      "tip_ru": "Губы не округляются. Звук не «о», он ближе к краткому «а» с расслабленными губами."
+    },
+    {
+      "substitute": "æ",
+      "heard_as_example": "luck → lack",
+      "tip_ru": "Не растягивайте рот в стороны. Рот открыт умеренно, губы нейтральны."
+    }
+  ],
+  "articulation_ru": [
+    "Откройте рот слегка, как будто вы расслабились и слегка удивились.",
+    "Губы нейтральные, не округлены и не растянуты.",
+    "Язык лежит спокойно в центре рта, кончик у нижних зубов.",
+    "Звук похож на очень короткое и расслабленное «а», как в безударном слоге.",
+    "Не тяните звук. Это один из самых коротких гласных."
+  ],
+  "us_uk_note_ru": "В обоих вариантах гласный один и тот же. В северной Англии в cup, bus часто говорят ʊ, но в RP и США используется ʌ. В безударных слогах ʌ заменяется на ə (schwa).",
+  "example_words": [
+    {
+      "word": "up",
+      "ipa_us": "ʌp",
+      "ipa_uk": "ʌp",
+      "translation_ru": "вверх"
+    },
+    {
+      "word": "cup",
+      "ipa_us": "kʌp",
+      "ipa_uk": "kʌp",
+      "translation_ru": "чашка"
+    },
+    {
+      "word": "bus",
+      "ipa_us": "bʌs",
+      "ipa_uk": "bʌs",
+      "translation_ru": "автобус"
+    },
+    {
+      "word": "sun",
+      "ipa_us": "sʌn",
+      "ipa_uk": "sʌn",
+      "translation_ru": "солнце"
+    },
+    {
+      "word": "run",
+      "ipa_us": "rʌn",
+      "ipa_uk": "rʌn",
+      "translation_ru": "бежать"
+    },
+    {
+      "word": "come",
+      "ipa_us": "kʌm",
+      "ipa_uk": "kʌm",
+      "translation_ru": "приходить"
+    },
+    {
+      "word": "love",
+      "ipa_us": "lʌv",
+      "ipa_uk": "lʌv",
+      "translation_ru": "любить"
+    },
+    {
+      "word": "much",
+      "ipa_us": "mʌtʃ",
+      "ipa_uk": "mʌtʃ",
+      "translation_ru": "много"
+    },
+    {
+      "word": "one",
+      "ipa_us": "wʌn",
+      "ipa_uk": "wʌn",
+      "translation_ru": "один"
+    },
+    {
+      "word": "some",
+      "ipa_us": "sʌm",
+      "ipa_uk": "sʌm",
+      "translation_ru": "немного"
+    },
+    {
+      "word": "money",
+      "ipa_us": "ˈmʌni",
+      "ipa_uk": "ˈmʌni",
+      "translation_ru": "деньги"
+    },
+    {
+      "word": "mother",
+      "ipa_us": "ˈmʌðər",
+      "ipa_uk": "ˈmʌðə",
+      "translation_ru": "мама"
+    },
+    {
+      "word": "brother",
+      "ipa_us": "ˈbrʌðər",
+      "ipa_uk": "ˈbrʌðə",
+      "translation_ru": "брат"
+    },
+    {
+      "word": "country",
+      "ipa_us": "ˈkʌntri",
+      "ipa_uk": "ˈkʌntri",
+      "translation_ru": "страна"
+    },
+    {
+      "word": "young",
+      "ipa_us": "jʌŋ",
+      "ipa_uk": "jʌŋ",
+      "translation_ru": "молодой"
+    },
+    {
+      "word": "enough",
+      "ipa_us": "ɪˈnʌf",
+      "ipa_uk": "ɪˈnʌf",
+      "translation_ru": "достаточно"
+    },
+    {
+      "word": "double",
+      "ipa_us": "ˈdʌbəl",
+      "ipa_uk": "ˈdʌbəl",
+      "translation_ru": "двойной"
+    },
+    {
+      "word": "trouble",
+      "ipa_us": "ˈtrʌbəl",
+      "ipa_uk": "ˈtrʌbəl",
+      "translation_ru": "беда"
+    },
+    {
+      "word": "southern",
+      "ipa_us": "ˈsʌðərn",
+      "ipa_uk": "ˈsʌðən",
+      "translation_ru": "южный"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "cup",
+      "contrast": "cap",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "cut",
+      "contrast": "cat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "hut",
+      "contrast": "hat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "bug",
+      "contrast": "bag",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "run",
+      "contrast": "ran",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "luck",
+      "contrast": "lock",
+      "contrast_sound": "ɑː/ɒ"
+    },
+    {
+      "target": "duck",
+      "contrast": "dock",
+      "contrast_sound": "ɑː/ɒ"
+    },
+    {
+      "target": "bus",
+      "contrast": "boss",
+      "contrast_sound": "ɑː/ɒ"
+    },
+    {
+      "target": "nut",
+      "contrast": "not",
+      "contrast_sound": "ɑː/ɒ"
+    },
+    {
+      "target": "shut",
+      "contrast": "shot",
+      "contrast_sound": "ɑː/ɒ"
+    }
+  ],
+  "phrases": [
+    "My mother loves some of the country.",
+    "Come up, the bus is coming.",
+    "One young brother had much money.",
+    "The sun is up, but the cup is cut.",
+    "Don't trouble the dull duck."
+  ],
+  "tongue_twisters": [
+    "The duck stuck in the muck, what luck!",
+    "Mum's lovely buns are much fun.",
+    "Hungry bugs hug the rugs under the sun."
+  ]
+}

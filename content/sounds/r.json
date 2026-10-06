@@ -1,0 +1,221 @@
+{
+  "id": "r",
+  "slug": "r",
+  "name_ru": "Английский «r» (red)",
+  "ipa": "r",
+  "arpabet": [
+    "R"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "раскатистое р [r]",
+      "heard_as_example": "red → «ррэд»",
+      "tip_ru": "Английский r не раскатывается. Кончик языка вообще ни к чему не прикасается, он только приподнят и втянут назад."
+    },
+    {
+      "substitute": "твёрдое «р» с касанием нёба",
+      "heard_as_example": "car → «кар»",
+      "tip_ru": "Не касайтесь языком нёба. Звук должен быть тихим, плавным и звонким, почти как гласный."
+    },
+    {
+      "substitute": "палатальное «рь»",
+      "heard_as_example": "really → «рьили»",
+      "tip_ru": "Не поднимайте середину языка к нёбу. Задняя часть языка отодвигается назад."
+    }
+  ],
+  "articulation_ru": [
+    "Откройте рот немного и округлите губы чуть-чуть вперёд, как будто собираетесь сказать «у».",
+    "Приподнимите кончик языка вверх и оттяните его назад, но не касайтесь нёба и зубов.",
+    "Боковые края языка слегка прижаты к верхним коренным зубам.",
+    "Включите голос и тяните звук, он плавный, без дрожания: rrrred.",
+    "Перед гласным (red, run) начинайте с округления губ, как будто «ур-ед», но быстро."
+  ],
+  "us_uk_note_ru": "В США r произносят везде: car kɑːr, girl ɡɜːrl. В британском (RP) r не звучит после гласного в конце слога (car kɑː, girl ɡɜːl), но звучит перед гласным, в том числе в связке: far away.",
+  "example_words": [
+    {
+      "word": "red",
+      "ipa_us": "red",
+      "ipa_uk": "red",
+      "translation_ru": "красный"
+    },
+    {
+      "word": "run",
+      "ipa_us": "rʌn",
+      "ipa_uk": "rʌn",
+      "translation_ru": "бежать"
+    },
+    {
+      "word": "right",
+      "ipa_us": "raɪt",
+      "ipa_uk": "raɪt",
+      "translation_ru": "правый, верно"
+    },
+    {
+      "word": "read",
+      "ipa_us": "riːd",
+      "ipa_uk": "riːd",
+      "translation_ru": "читать"
+    },
+    {
+      "word": "rain",
+      "ipa_us": "reɪn",
+      "ipa_uk": "reɪn",
+      "translation_ru": "дождь"
+    },
+    {
+      "word": "room",
+      "ipa_us": "ruːm",
+      "ipa_uk": "ruːm",
+      "translation_ru": "комната"
+    },
+    {
+      "word": "ready",
+      "ipa_us": "ˈredi",
+      "ipa_uk": "ˈredi",
+      "translation_ru": "готовый"
+    },
+    {
+      "word": "around",
+      "ipa_us": "əˈraʊnd",
+      "ipa_uk": "əˈraʊnd",
+      "translation_ru": "вокруг"
+    },
+    {
+      "word": "car",
+      "ipa_us": "kɑːr",
+      "ipa_uk": "kɑː",
+      "translation_ru": "машина"
+    },
+    {
+      "word": "girl",
+      "ipa_us": "ɡɜːrl",
+      "ipa_uk": "ɡɜːl",
+      "translation_ru": "девочка"
+    },
+    {
+      "word": "world",
+      "ipa_us": "wɜːrld",
+      "ipa_uk": "wɜːld",
+      "translation_ru": "мир"
+    },
+    {
+      "word": "correct",
+      "ipa_us": "kəˈrekt",
+      "ipa_uk": "kəˈrekt",
+      "translation_ru": "правильный"
+    },
+    {
+      "word": "very",
+      "ipa_us": "ˈveri",
+      "ipa_uk": "ˈveri",
+      "translation_ru": "очень"
+    },
+    {
+      "word": "really",
+      "ipa_us": "ˈriːəli",
+      "ipa_uk": "ˈrɪəli",
+      "translation_ru": "действительно"
+    },
+    {
+      "word": "friend",
+      "ipa_us": "frend",
+      "ipa_uk": "frend",
+      "translation_ru": "друг"
+    },
+    {
+      "word": "problem",
+      "ipa_us": "ˈprɑːbləm",
+      "ipa_uk": "ˈprɒbləm",
+      "translation_ru": "проблема"
+    },
+    {
+      "word": "library",
+      "ipa_us": "ˈlaɪbreri",
+      "ipa_uk": "ˈlaɪbrəri",
+      "translation_ru": "библиотека"
+    },
+    {
+      "word": "strawberry",
+      "ipa_us": "ˈstrɔːberi",
+      "ipa_uk": "ˈstrɔːbəri",
+      "translation_ru": "клубника"
+    },
+    {
+      "word": "pronunciation",
+      "ipa_us": "prəˌnʌnsiˈeɪʃən",
+      "ipa_uk": "prəˌnʌnsiˈeɪʃən",
+      "translation_ru": "произношение"
+    },
+    {
+      "word": "particularly",
+      "ipa_us": "pərˈtɪkjələrli",
+      "ipa_uk": "pəˈtɪkjələli",
+      "translation_ru": "особенно"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "right",
+      "contrast": "light",
+      "contrast_sound": "l"
+    },
+    {
+      "target": "red",
+      "contrast": "led",
+      "contrast_sound": "l"
+    },
+    {
+      "target": "rock",
+      "contrast": "lock",
+      "contrast_sound": "l"
+    },
+    {
+      "target": "road",
+      "contrast": "load",
+      "contrast_sound": "l"
+    },
+    {
+      "target": "rice",
+      "contrast": "lice",
+      "contrast_sound": "l"
+    },
+    {
+      "target": "reed",
+      "contrast": "weed",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "ring",
+      "contrast": "wing",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "rest",
+      "contrast": "west",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "row",
+      "contrast": "woe",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "read",
+      "contrast": "lead",
+      "contrast_sound": "l"
+    }
+  ],
+  "phrases": [
+    "The red car ran around the road.",
+    "Robert read a really great story.",
+    "Right now the rain is rather strong.",
+    "Rita is ready to run around the room.",
+    "Are there strawberries in the library?"
+  ],
+  "tongue_twisters": [
+    "Red lorry, yellow lorry.",
+    "Round the rough and rugged rock the ragged rascal ran.",
+    "Peter Piper picked a peck of pickled peppers."
+  ]
+}

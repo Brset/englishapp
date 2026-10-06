@@ -1,0 +1,204 @@
+{
+  "id": "ɑː",
+  "slug": "a-long",
+  "name_ru": "Долгий «ɑː» (father)",
+  "ipa": "ɑː",
+  "arpabet": [
+    "AA"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "короткое «а»",
+      "heard_as_example": "calm → cam",
+      "tip_ru": "Звук должен быть долгим и глубоким. Рот открыт широко, звук идёт из глубины."
+    },
+    {
+      "substitute": "æ",
+      "heard_as_example": "hard → had",
+      "tip_ru": "Не растягивайте губы в стороны. Челюсть опущена вниз, язык лежит низко и отодвинут назад."
+    },
+    {
+      "substitute": "ʌ",
+      "heard_as_example": "calm → come",
+      "tip_ru": "Откройте рот шире. Для ʌ рот открыт меньше, а ɑː тянется."
+    }
+  ],
+  "articulation_ru": [
+    "Широко откройте рот, как будто зеваете или показываете горло врачу.",
+    "Язык лежит низко и плоско, чуть отодвинут назад. Губы не округляются.",
+    "Включите голос и тяните звук: «аааа», он долгий и глубокий.",
+    "Звук глубже, чем русское «а»: представьте, что говорите «а» при осмотре горла.",
+    "В американском варианте после ɑː часто звучит r: car kɑːr, start stɑːrt, в британском r не слышно."
+  ],
+  "us_uk_note_ru": "В США этот гласный используется ещё и в словах, где в британском ɒ: hot hɑːt (UK hɒt), stop stɑːp. В британском ɑː стоит в словах bath, class, dance, laugh, can't (в США æ). После ɑː в США слышно r (car kɑːr), в британском нет (car kɑː).",
+  "example_words": [
+    {
+      "word": "spa",
+      "ipa_us": "spɑː",
+      "ipa_uk": "spɑː",
+      "translation_ru": "спа"
+    },
+    {
+      "word": "father",
+      "ipa_us": "ˈfɑːðər",
+      "ipa_uk": "ˈfɑːðə",
+      "translation_ru": "отец"
+    },
+    {
+      "word": "calm",
+      "ipa_us": "kɑːm",
+      "ipa_uk": "kɑːm",
+      "translation_ru": "спокойный"
+    },
+    {
+      "word": "palm",
+      "ipa_us": "pɑːm",
+      "ipa_uk": "pɑːm",
+      "translation_ru": "ладонь"
+    },
+    {
+      "word": "car",
+      "ipa_us": "kɑːr",
+      "ipa_uk": "kɑː",
+      "translation_ru": "машина"
+    },
+    {
+      "word": "far",
+      "ipa_us": "fɑːr",
+      "ipa_uk": "fɑː",
+      "translation_ru": "далеко"
+    },
+    {
+      "word": "park",
+      "ipa_us": "pɑːrk",
+      "ipa_uk": "pɑːk",
+      "translation_ru": "парк"
+    },
+    {
+      "word": "start",
+      "ipa_us": "stɑːrt",
+      "ipa_uk": "stɑːt",
+      "translation_ru": "начинать"
+    },
+    {
+      "word": "large",
+      "ipa_us": "lɑːrdʒ",
+      "ipa_uk": "lɑːdʒ",
+      "translation_ru": "большой"
+    },
+    {
+      "word": "heart",
+      "ipa_us": "hɑːrt",
+      "ipa_uk": "hɑːt",
+      "translation_ru": "сердце"
+    },
+    {
+      "word": "hard",
+      "ipa_us": "hɑːrd",
+      "ipa_uk": "hɑːd",
+      "translation_ru": "трудный, твёрдый"
+    },
+    {
+      "word": "farm",
+      "ipa_us": "fɑːrm",
+      "ipa_uk": "fɑːm",
+      "translation_ru": "ферма"
+    },
+    {
+      "word": "garden",
+      "ipa_us": "ˈɡɑːrdn",
+      "ipa_uk": "ˈɡɑːdn",
+      "translation_ru": "сад"
+    },
+    {
+      "word": "dance",
+      "ipa_us": "dæns",
+      "ipa_uk": "dɑːns",
+      "translation_ru": "танцевать"
+    },
+    {
+      "word": "laugh",
+      "ipa_us": "læf",
+      "ipa_uk": "lɑːf",
+      "translation_ru": "смеяться"
+    },
+    {
+      "word": "bath",
+      "ipa_us": "bæθ",
+      "ipa_uk": "bɑːθ",
+      "translation_ru": "ванна"
+    },
+    {
+      "word": "example",
+      "ipa_us": "ɪɡˈzæmpəl",
+      "ipa_uk": "ɪɡˈzɑːmpəl",
+      "translation_ru": "пример"
+    },
+    {
+      "word": "department",
+      "ipa_us": "dɪˈpɑːrtmənt",
+      "ipa_uk": "dɪˈpɑːtmənt",
+      "translation_ru": "отдел"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "calm",
+      "contrast": "cam",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "balm",
+      "contrast": "bam",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "calm",
+      "contrast": "come",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "psalm",
+      "contrast": "some",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "park",
+      "contrast": "pack",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "cart",
+      "contrast": "cat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "heart",
+      "contrast": "hat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "hard",
+      "contrast": "had",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "farm",
+      "contrast": "firm",
+      "contrast_sound": "ɜː"
+    }
+  ],
+  "phrases": [
+    "My father parked the large car far away.",
+    "The dark garden is calm and warm.",
+    "Start the party in the park at half past.",
+    "Can you pass the large glass jar?",
+    "Hard work is part of the art."
+  ],
+  "tongue_twisters": [
+    "Large dark farm cars park far apart.",
+    "Mark's father can't start the car in the dark.",
+    "Larry's army barked and charged at the farm."
+  ]
+}

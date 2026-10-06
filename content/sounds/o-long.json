@@ -1,0 +1,204 @@
+{
+  "id": "ɔː",
+  "slug": "o-long",
+  "name_ru": "Долгий «ɔː» (more)",
+  "ipa": "ɔː",
+  "arpabet": [
+    "AO"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "короткое «о»",
+      "heard_as_example": "caught → cot",
+      "tip_ru": "Тяните звук подольше, он вдвое длиннее. Рот округлён и слегка вытянут."
+    },
+    {
+      "substitute": "ou (оу)",
+      "heard_as_example": "law → low",
+      "tip_ru": "Это ровный звук, без скольжения. Не добавляйте «у» в конце."
+    },
+    {
+      "substitute": "ɒ",
+      "heard_as_example": "short → shot",
+      "tip_ru": "Рот открыт шире, а звук длиннее и более округлён."
+    }
+  ],
+  "articulation_ru": [
+    "Округлите губы и слегка вытяните их вперёд, но не слишком сильно.",
+    "Челюсть опущена, рот открыт средне, кончик языка у нижних зубов.",
+    "Спинка языка отодвинута назад и приподнята умеренно.",
+    "Включите голос и тяните звук ровно: «оооо», без скольжения.",
+    "В американском после ɔː перед r звучит r: more mɔːr, door dɔːr."
+  ],
+  "us_uk_note_ru": "В британском ɔː это ровный долгий гласный (thought θɔːt, more mɔː). В США слова с r дают ɔːr: more mɔːr. Во многих американских говорах cot и caught звучат одинаково (слияние), но в учебной норме их различают.",
+  "example_words": [
+    {
+      "word": "all",
+      "ipa_us": "ɔːl",
+      "ipa_uk": "ɔːl",
+      "translation_ru": "все"
+    },
+    {
+      "word": "call",
+      "ipa_us": "kɔːl",
+      "ipa_uk": "kɔːl",
+      "translation_ru": "звонить"
+    },
+    {
+      "word": "talk",
+      "ipa_us": "tɔːk",
+      "ipa_uk": "tɔːk",
+      "translation_ru": "говорить"
+    },
+    {
+      "word": "walk",
+      "ipa_us": "wɔːk",
+      "ipa_uk": "wɔːk",
+      "translation_ru": "гулять"
+    },
+    {
+      "word": "door",
+      "ipa_us": "dɔːr",
+      "ipa_uk": "dɔː",
+      "translation_ru": "дверь"
+    },
+    {
+      "word": "four",
+      "ipa_us": "fɔːr",
+      "ipa_uk": "fɔː",
+      "translation_ru": "четыре"
+    },
+    {
+      "word": "more",
+      "ipa_us": "mɔːr",
+      "ipa_uk": "mɔː",
+      "translation_ru": "больше"
+    },
+    {
+      "word": "small",
+      "ipa_us": "smɔːl",
+      "ipa_uk": "smɔːl",
+      "translation_ru": "маленький"
+    },
+    {
+      "word": "water",
+      "ipa_us": "ˈwɔːtər",
+      "ipa_uk": "ˈwɔːtə",
+      "translation_ru": "вода"
+    },
+    {
+      "word": "daughter",
+      "ipa_us": "ˈdɔːtər",
+      "ipa_uk": "ˈdɔːtə",
+      "translation_ru": "дочь"
+    },
+    {
+      "word": "thought",
+      "ipa_us": "θɔːt",
+      "ipa_uk": "θɔːt",
+      "translation_ru": "мысль"
+    },
+    {
+      "word": "bought",
+      "ipa_us": "bɔːt",
+      "ipa_uk": "bɔːt",
+      "translation_ru": "купил"
+    },
+    {
+      "word": "always",
+      "ipa_us": "ˈɔːlweɪz",
+      "ipa_uk": "ˈɔːlweɪz",
+      "translation_ru": "всегда"
+    },
+    {
+      "word": "awful",
+      "ipa_us": "ˈɔːfəl",
+      "ipa_uk": "ˈɔːfəl",
+      "translation_ru": "ужасный"
+    },
+    {
+      "word": "autumn",
+      "ipa_us": "ˈɔːtəm",
+      "ipa_uk": "ˈɔːtəm",
+      "translation_ru": "осень"
+    },
+    {
+      "word": "August",
+      "ipa_us": "ˈɔːɡəst",
+      "ipa_uk": "ˈɔːɡəst",
+      "translation_ru": "август"
+    },
+    {
+      "word": "abroad",
+      "ipa_us": "əˈbrɔːd",
+      "ipa_uk": "əˈbrɔːd",
+      "translation_ru": "за границей"
+    },
+    {
+      "word": "applause",
+      "ipa_us": "əˈplɔːz",
+      "ipa_uk": "əˈplɔːz",
+      "translation_ru": "аплодисменты"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "caught",
+      "contrast": "cot",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "short",
+      "contrast": "shot",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "cord",
+      "contrast": "cod",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "stalk",
+      "contrast": "stock",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "naught",
+      "contrast": "not",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "law",
+      "contrast": "low",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "saw",
+      "contrast": "so",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "bought",
+      "contrast": "boat",
+      "contrast_sound": "əʊ"
+    },
+    {
+      "target": "caught",
+      "contrast": "coat",
+      "contrast_sound": "əʊ"
+    }
+  ],
+  "phrases": [
+    "All four daughters walk and talk in August.",
+    "The small door is always open.",
+    "He bought more water for the walk.",
+    "I thought about it all autumn.",
+    "Paul called and talked for hours."
+  ],
+  "tongue_twisters": [
+    "Paul's tall daughter walks along the wall all morning.",
+    "I saw a saw that could out-saw any saw I ever saw.",
+    "The short sport report was not bought."
+  ]
+}

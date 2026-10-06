@@ -1,0 +1,207 @@
+{
+  "id": "linking",
+  "slug": "linking",
+  "name_ru": "Связная речь: слитное произнесение слов",
+  "ipa": "‿ (связка)",
+  "arpabet": [],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "пауза между словами",
+      "heard_as_example": "pick it up → pick / it / up",
+      "tip_ru": "В английской речи слова сливаются: согласный в конце слова переходит в начало следующего слова, если оно начинается с гласного."
+    },
+    {
+      "substitute": "твёрдый гортанный «толчок» перед гласным",
+      "heard_as_example": "an apple → an / apple",
+      "tip_ru": "Русский язык часто ставит лёгкую паузу. В английском это не нужно: «ə-næ-pəl»."
+    },
+    {
+      "substitute": "пропуск связующих звуков j, w, r",
+      "heard_as_example": "see it → see it (без j)",
+      "tip_ru": "Между гласными слов добавляйте быстрый скользящий звук: see‿it → siː‿jɪt, go‿on → ɡoʊ‿wɑːn."
+    }
+  ],
+  "articulation_ru": [
+    "Читайте предложение как одно длинное слово. Конец слова на согласный сразу «прилипает» к следующему слову на гласный: turn‿off → tɜː-nɒf.",
+    "Если слово заканчивается на «-iː, -aɪ, -eɪ, -ɔɪ», между ним и гласным следующего слова вставляется короткое j: see‿it → siː‿jɪt.",
+    "Если слово заканчивается на «-uː, -oʊ, -aʊ», между ним и гласным следующего слова вставляется короткое w: go‿on → ɡoʊ‿wɑːn.",
+    "Если слово заканчивается на одинаковый согласный, с которого начинается следующее слово (hot tea, big girl), произносите один долгий согласный.",
+    "В американском t между гласными превращается в быстрый «р» (flap): get up → ɡe-ɾʌp, what is it → wʌ-ɾɪ-zɪt.",
+    "В британском в конце слова на -r/-re перед гласным r появляется: far away → fɑː-rə-weɪ. Иногда добавляют r там, где его нет в написании: law and order → lɔːr-ən-ɔːdə."
+  ],
+  "us_uk_note_ru": "В американском r пишется и произносится везде, так что связка есть всегда (far away → fɑːr‿əˈweɪ). В британском r в конце слова звучит только перед гласным (far away → fɑː‿rəˈweɪ). В британском бывает «вставное r» между гласными, где в написании r нет: law and order → lɔːr ən ˈɔːdə. В американском вместо t между гласными часто flap ɾ: city ˈsɪɾi.",
+  "example_words": [
+    {
+      "word": "an apple",
+      "ipa_us": "ən‿ˈæpəl",
+      "ipa_uk": "ən‿ˈæpəl",
+      "translation_ru": "яблоко"
+    },
+    {
+      "word": "turn off",
+      "ipa_us": "tɜːrn‿ˈɔːf",
+      "ipa_uk": "tɜːn‿ˈɒf",
+      "translation_ru": "выключать"
+    },
+    {
+      "word": "pick it up",
+      "ipa_us": "ˈpɪk‿ɪt‿ˈʌp",
+      "ipa_uk": "ˈpɪk‿ɪt‿ˈʌp",
+      "translation_ru": "поднять это"
+    },
+    {
+      "word": "look at it",
+      "ipa_us": "ˈlʊk‿ət‿ɪt",
+      "ipa_uk": "ˈlʊk‿ət‿ɪt",
+      "translation_ru": "посмотри на это"
+    },
+    {
+      "word": "come on",
+      "ipa_us": "ˈkʌm‿ˈɑːn",
+      "ipa_uk": "ˈkʌm‿ˈɒn",
+      "translation_ru": "давай"
+    },
+    {
+      "word": "put it on",
+      "ipa_us": "ˈpʊɾ‿ɪt‿ˈɑːn",
+      "ipa_uk": "ˈpʊt‿ɪt‿ˈɒn",
+      "translation_ru": "надень это"
+    },
+    {
+      "word": "not at all",
+      "ipa_us": "ˈnɑːɾ‿ət‿ˈɔːl",
+      "ipa_uk": "ˈnɒt‿ət‿ˈɔːl",
+      "translation_ru": "совсем нет"
+    },
+    {
+      "word": "find out",
+      "ipa_us": "ˈfaɪn‿ˈaʊt",
+      "ipa_uk": "ˈfaɪn‿ˈaʊt",
+      "translation_ru": "выяснить"
+    },
+    {
+      "word": "what is it",
+      "ipa_us": "ˈwʌɾ‿ɪz‿ɪt",
+      "ipa_uk": "ˈwɒt‿ɪz‿ɪt",
+      "translation_ru": "что это"
+    },
+    {
+      "word": "in an hour",
+      "ipa_us": "ɪn‿ən‿ˈaʊər",
+      "ipa_uk": "ɪn‿ən‿ˈaʊə",
+      "translation_ru": "через час"
+    },
+    {
+      "word": "wake up",
+      "ipa_us": "ˈweɪk‿ˈʌp",
+      "ipa_uk": "ˈweɪk‿ˈʌp",
+      "translation_ru": "проснуться"
+    },
+    {
+      "word": "get out of it",
+      "ipa_us": "ˈɡeɾ‿ˈaʊɾ‿əv‿ɪt",
+      "ipa_uk": "ˈɡet‿ˈaʊt‿əv‿ɪt",
+      "translation_ru": "выбраться из этого"
+    }
+  ],
+  "minimal_pairs": [],
+  "phrases": [
+    "Turn it off and pick it up.",
+    "I'm not at all sure what it is.",
+    "Put it on and come in a minute.",
+    "Look at it and find out about an hour.",
+    "What is it, an orange or an apple?"
+  ],
+  "tongue_twisters": [
+    "Pick it up, put it on, take it off, turn it in.",
+    "I scream, you scream, we all scream for ice cream.",
+    "An apple a day keeps the doctor away."
+  ],
+  "linking_phrases": [
+    {
+      "phrase": "turn off",
+      "ipa_linked": "tɜːrn‿ɔːf",
+      "type": "consonant-vowel",
+      "rule_ru": "Согласный n в конце слова переходит к началу следующего слова: tɜːr-nɔːf.",
+      "translation_ru": "выключить"
+    },
+    {
+      "phrase": "pick it up",
+      "ipa_linked": "pɪ‿kɪ‿tʌp",
+      "type": "consonant-vowel",
+      "rule_ru": "Каждый конечный согласный присоединяется к следующему слову: pɪ-kɪ-tʌp.",
+      "translation_ru": "поднять это"
+    },
+    {
+      "phrase": "far away",
+      "ipa_linked": "fɑːr‿əˈweɪ",
+      "type": "linking-r",
+      "rule_ru": "В британском r появляется перед гласным (fɑː-rə-weɪ), в американском r звучит всегда.",
+      "translation_ru": "далеко"
+    },
+    {
+      "phrase": "law and order",
+      "ipa_linked": "lɔːr‿ən‿ˈɔːdə",
+      "type": "intrusive-r",
+      "rule_ru": "В британском между гласными добавляется r, хотя в написании его нет: lɔː-r-ən-ɔːdə.",
+      "translation_ru": "закон и порядок"
+    },
+    {
+      "phrase": "see it",
+      "ipa_linked": "siː‿jɪt",
+      "type": "j-glide",
+      "rule_ru": "После iː, aɪ, eɪ, ɔɪ перед гласным вставляется короткий j: siː-jɪt.",
+      "translation_ru": "увидеть это"
+    },
+    {
+      "phrase": "my aunt",
+      "ipa_linked": "maɪ‿jænt",
+      "type": "j-glide",
+      "rule_ru": "После дифтонга aɪ перед гласным звучит j: maɪ-jænt.",
+      "translation_ru": "моя тётя"
+    },
+    {
+      "phrase": "go on",
+      "ipa_linked": "ɡoʊ‿wɑːn",
+      "type": "w-glide",
+      "rule_ru": "После uː, oʊ, aʊ перед гласным вставляется короткий w: ɡoʊ-wɑːn.",
+      "translation_ru": "продолжай"
+    },
+    {
+      "phrase": "do it",
+      "ipa_linked": "duː‿wɪt",
+      "type": "w-glide",
+      "rule_ru": "После uː перед гласным звучит w: duː-wɪt.",
+      "translation_ru": "сделай это"
+    },
+    {
+      "phrase": "hot tea",
+      "ipa_linked": "hɑːtː‿iː",
+      "type": "same-consonant",
+      "rule_ru": "Одинаковые согласные на стыке слов произносятся как один долгий: hɑːt-tiː без повторного взрыва.",
+      "translation_ru": "горячий чай"
+    },
+    {
+      "phrase": "big girl",
+      "ipa_linked": "bɪɡː‿ɜːrl",
+      "type": "same-consonant",
+      "rule_ru": "Два g подряд: один долгий звук, взрыв только в конце.",
+      "translation_ru": "большая девочка"
+    },
+    {
+      "phrase": "get up",
+      "ipa_linked": "ɡeɾ‿ʌp",
+      "type": "t-flap",
+      "rule_ru": "В американском t между гласными звучит как быстрый «р» (flap ɾ): ɡe-ɾʌp.",
+      "translation_ru": "вставать"
+    },
+    {
+      "phrase": "what is it",
+      "ipa_linked": "wʌɾ‿ɪz‿ɪt",
+      "type": "t-flap",
+      "rule_ru": "В американском t на стыке слов перед гласным звучит как ɾ: wʌ-ɾɪ-zɪt.",
+      "translation_ru": "что это"
+    }
+  ]
+}

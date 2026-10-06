@@ -1,0 +1,210 @@
+{
+  "id": "ʊ",
+  "slug": "u-short",
+  "name_ru": "Краткий «ʊ» (foot)",
+  "ipa": "ʊ",
+  "arpabet": [
+    "UH"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "uː (долгий)",
+      "heard_as_example": "full → fool",
+      "tip_ru": "Звук короткий и расслабленный. Губы не вытягивайте вперёд так сильно, как в русском «у»."
+    },
+    {
+      "substitute": "русское «у» (напряжённое)",
+      "heard_as_example": "book → «бук»",
+      "tip_ru": "Русское «у» напряжено и вытянуто. ʊ делается с лёгким округлением, губы свободны."
+    },
+    {
+      "substitute": "ʌ",
+      "heard_as_example": "look → luck",
+      "tip_ru": "Нужно слегка округлить губы. Если губы не округлены, получается ʌ."
+    }
+  ],
+  "articulation_ru": [
+    "Округлите губы слегка, но не вытягивайте их вперёд и не напрягайте.",
+    "Язык отодвинут назад, середина языка приподнята слабее, чем для uː.",
+    "Челюсть слегка приоткрыта, мышцы расслаблены.",
+    "Звук очень короткий: «ʊ», как короткое неясное «у» в середине слова.",
+    "Контраст: ʊ расслаблен и короток, uː напряжён и долог."
+  ],
+  "us_uk_note_ru": "Одинаково в обоих вариантах. В британском (RP) у многих слов foot, book звук короче и чуть центральнее.",
+  "example_words": [
+    {
+      "word": "put",
+      "ipa_us": "pʊt",
+      "ipa_uk": "pʊt",
+      "translation_ru": "класть"
+    },
+    {
+      "word": "book",
+      "ipa_us": "bʊk",
+      "ipa_uk": "bʊk",
+      "translation_ru": "книга"
+    },
+    {
+      "word": "good",
+      "ipa_us": "ɡʊd",
+      "ipa_uk": "ɡʊd",
+      "translation_ru": "хороший"
+    },
+    {
+      "word": "look",
+      "ipa_us": "lʊk",
+      "ipa_uk": "lʊk",
+      "translation_ru": "смотреть"
+    },
+    {
+      "word": "foot",
+      "ipa_us": "fʊt",
+      "ipa_uk": "fʊt",
+      "translation_ru": "стопа"
+    },
+    {
+      "word": "full",
+      "ipa_us": "fʊl",
+      "ipa_uk": "fʊl",
+      "translation_ru": "полный"
+    },
+    {
+      "word": "cook",
+      "ipa_us": "kʊk",
+      "ipa_uk": "kʊk",
+      "translation_ru": "готовить"
+    },
+    {
+      "word": "wood",
+      "ipa_us": "wʊd",
+      "ipa_uk": "wʊd",
+      "translation_ru": "дерево (древесина)"
+    },
+    {
+      "word": "push",
+      "ipa_us": "pʊʃ",
+      "ipa_uk": "pʊʃ",
+      "translation_ru": "толкать"
+    },
+    {
+      "word": "pull",
+      "ipa_us": "pʊl",
+      "ipa_uk": "pʊl",
+      "translation_ru": "тянуть"
+    },
+    {
+      "word": "could",
+      "ipa_us": "kʊd",
+      "ipa_uk": "kʊd",
+      "translation_ru": "мог"
+    },
+    {
+      "word": "should",
+      "ipa_us": "ʃʊd",
+      "ipa_uk": "ʃʊd",
+      "translation_ru": "следует"
+    },
+    {
+      "word": "woman",
+      "ipa_us": "ˈwʊmən",
+      "ipa_uk": "ˈwʊmən",
+      "translation_ru": "женщина"
+    },
+    {
+      "word": "sugar",
+      "ipa_us": "ˈʃʊɡər",
+      "ipa_uk": "ˈʃʊɡə",
+      "translation_ru": "сахар"
+    },
+    {
+      "word": "wolf",
+      "ipa_us": "wʊlf",
+      "ipa_uk": "wʊlf",
+      "translation_ru": "волк"
+    },
+    {
+      "word": "bush",
+      "ipa_us": "bʊʃ",
+      "ipa_uk": "bʊʃ",
+      "translation_ru": "куст"
+    },
+    {
+      "word": "cushion",
+      "ipa_us": "ˈkʊʃən",
+      "ipa_uk": "ˈkʊʃən",
+      "translation_ru": "подушка"
+    },
+    {
+      "word": "football",
+      "ipa_us": "ˈfʊtbɔːl",
+      "ipa_uk": "ˈfʊtbɔːl",
+      "translation_ru": "футбол"
+    },
+    {
+      "word": "neighborhood",
+      "ipa_us": "ˈneɪbərhʊd",
+      "ipa_uk": "ˈneɪbəhʊd",
+      "translation_ru": "район"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "full",
+      "contrast": "fool",
+      "contrast_sound": "uː"
+    },
+    {
+      "target": "pull",
+      "contrast": "pool",
+      "contrast_sound": "uː"
+    },
+    {
+      "target": "wood",
+      "contrast": "wooed",
+      "contrast_sound": "uː"
+    },
+    {
+      "target": "could",
+      "contrast": "cooed",
+      "contrast_sound": "uː"
+    },
+    {
+      "target": "should",
+      "contrast": "shooed",
+      "contrast_sound": "uː"
+    },
+    {
+      "target": "book",
+      "contrast": "buck",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "look",
+      "contrast": "luck",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "put",
+      "contrast": "putt",
+      "contrast_sound": "ʌ"
+    },
+    {
+      "target": "took",
+      "contrast": "tuck",
+      "contrast_sound": "ʌ"
+    }
+  ],
+  "phrases": [
+    "Look at the good book on the wood.",
+    "You should push, not pull.",
+    "The woman could cook a good pudding.",
+    "Put the sugar in the full cup.",
+    "He took a good look at the football."
+  ],
+  "tongue_twisters": [
+    "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+    "Cook good food: put a good cookbook on the hook.",
+    "Could a cook cook cookies, as a good cook could?"
+  ]
+}

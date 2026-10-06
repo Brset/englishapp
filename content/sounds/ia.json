@@ -1,0 +1,200 @@
+{
+  "id": "ɪə",
+  "slug": "ia",
+  "name_ru": "Дифтонг «ɪə» (here)",
+  "ipa": "ɪə",
+  "arpabet": [
+    "IH",
+    "R"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "«ир» (раскатистое р)",
+      "heard_as_example": "here → «хир»",
+      "tip_ru": "В британском варианте r не звучит. В американском r мягкий и не раскатывается."
+    },
+    {
+      "substitute": "«иэ» с долгим «и»",
+      "heard_as_example": "beer → «биэ»",
+      "tip_ru": "Скольжение быстрое. Первая часть «ɪ» короткая, затем нейтральное «ə»."
+    },
+    {
+      "substitute": "«ия» слитно с «й»",
+      "heard_as_example": "ear → «ийя»",
+      "tip_ru": "Не вставляйте «й» между частями звука."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с короткого «ɪ», как в sit, и плавно скользите к слабому «ə».",
+    "Губы расслаблены, рот немного приоткрыт, язык скользит вниз и назад.",
+    "Первая часть чуть длиннее, вторая слабая и короткая.",
+    "В американском варианте после «ɪ» добавляется r: ɪr (here hɪr), кончик языка загибается назад.",
+    "Не раскатывайте r. Язык не касается нёба."
+  ],
+  "us_uk_note_ru": "В США звук произносится как ɪr: here hɪr, near nɪr. В британском это дифтонг ɪə: here hɪə, без r. Если следующее слово начинается с гласного, r появляется: here is, near it.",
+  "example_words": [
+    {
+      "word": "ear",
+      "ipa_us": "ɪr",
+      "ipa_uk": "ɪə",
+      "translation_ru": "ухо"
+    },
+    {
+      "word": "here",
+      "ipa_us": "hɪr",
+      "ipa_uk": "hɪə",
+      "translation_ru": "здесь"
+    },
+    {
+      "word": "near",
+      "ipa_us": "nɪr",
+      "ipa_uk": "nɪə",
+      "translation_ru": "рядом"
+    },
+    {
+      "word": "beer",
+      "ipa_us": "bɪr",
+      "ipa_uk": "bɪə",
+      "translation_ru": "пиво"
+    },
+    {
+      "word": "deer",
+      "ipa_us": "dɪr",
+      "ipa_uk": "dɪə",
+      "translation_ru": "олень"
+    },
+    {
+      "word": "year",
+      "ipa_us": "jɪr",
+      "ipa_uk": "jɪə",
+      "translation_ru": "год"
+    },
+    {
+      "word": "clear",
+      "ipa_us": "klɪr",
+      "ipa_uk": "klɪə",
+      "translation_ru": "ясный"
+    },
+    {
+      "word": "fear",
+      "ipa_us": "fɪr",
+      "ipa_uk": "fɪə",
+      "translation_ru": "страх"
+    },
+    {
+      "word": "cheer",
+      "ipa_us": "tʃɪr",
+      "ipa_uk": "tʃɪə",
+      "translation_ru": "приветствовать"
+    },
+    {
+      "word": "appear",
+      "ipa_us": "əˈpɪr",
+      "ipa_uk": "əˈpɪə",
+      "translation_ru": "появляться"
+    },
+    {
+      "word": "idea",
+      "ipa_us": "aɪˈdiːə",
+      "ipa_uk": "aɪˈdɪə",
+      "translation_ru": "идея"
+    },
+    {
+      "word": "serious",
+      "ipa_us": "ˈsɪriəs",
+      "ipa_uk": "ˈsɪəriəs",
+      "translation_ru": "серьёзный"
+    },
+    {
+      "word": "period",
+      "ipa_us": "ˈpɪriəd",
+      "ipa_uk": "ˈpɪəriəd",
+      "translation_ru": "период"
+    },
+    {
+      "word": "career",
+      "ipa_us": "kəˈrɪr",
+      "ipa_uk": "kəˈrɪə",
+      "translation_ru": "карьера"
+    },
+    {
+      "word": "experience",
+      "ipa_us": "ɪkˈspɪriəns",
+      "ipa_uk": "ɪkˈspɪəriəns",
+      "translation_ru": "опыт"
+    },
+    {
+      "word": "cheerful",
+      "ipa_us": "ˈtʃɪrfəl",
+      "ipa_uk": "ˈtʃɪəfəl",
+      "translation_ru": "весёлый"
+    },
+    {
+      "word": "weird",
+      "ipa_us": "wɪrd",
+      "ipa_uk": "wɪəd",
+      "translation_ru": "странный"
+    },
+    {
+      "word": "volunteer",
+      "ipa_us": "ˌvɑːlənˈtɪr",
+      "ipa_uk": "ˌvɒlənˈtɪə",
+      "translation_ru": "доброволец"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "beer",
+      "contrast": "bear",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "here",
+      "contrast": "hair",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "fear",
+      "contrast": "fair",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "deer",
+      "contrast": "dare",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "pier",
+      "contrast": "pair",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "cheer",
+      "contrast": "chair",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "steer",
+      "contrast": "stair",
+      "contrast_sound": "eə"
+    },
+    {
+      "target": "ear",
+      "contrast": "air",
+      "contrast_sound": "eə"
+    }
+  ],
+  "phrases": [
+    "Come here, my dear, the beer is near.",
+    "Last year I had a clear idea.",
+    "I fear this weird period of the year.",
+    "Cheer up, the deer is not near.",
+    "We appear to hear a serious cheer."
+  ],
+  "tongue_twisters": [
+    "Dear Mr. Weir, we hear the deer here.",
+    "The cheerful engineer steers the pioneer.",
+    "Near here, a deer appears every year."
+  ]
+}

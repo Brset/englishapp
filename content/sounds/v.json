@@ -1,0 +1,215 @@
+{
+  "id": "v",
+  "slug": "v",
+  "name_ru": "Зубно-губной «v» (very)",
+  "ipa": "v",
+  "arpabet": [
+    "V"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "f",
+      "heard_as_example": "love → luf, five → fife",
+      "tip_ru": "В конце слова русские оглушают «в» в «ф». Держите голос включённым до самого конца звука и немного удлиняйте предыдущий гласный."
+    },
+    {
+      "substitute": "w",
+      "heard_as_example": "very → wery",
+      "tip_ru": "Это обратная ошибка из-за старания не говорить «в». Зубы должны касаться нижней губы. Не округляйте губы."
+    },
+    {
+      "substitute": "в после гласного без трения",
+      "heard_as_example": "vowel → «ауэл»",
+      "tip_ru": "Должно быть слышно лёгкое жужжание: верхние зубы прижаты к нижней губе, воздух проходит через узкую щель."
+    }
+  ],
+  "articulation_ru": [
+    "Прижмите верхние передние зубы к нижней губе, слегка, без напряжения.",
+    "Включите голос и выдыхайте воздух: должно быть слышно жужжание, как у пчелы.",
+    "Губы не округляются и не вытягиваются вперёд.",
+    "В конце слова (love, have, give) не оглушайте звук. Держите голос до конца и не добавляйте «ф».",
+    "Перед конечным v гласный чуть длиннее: liiive, haaave."
+  ],
+  "us_uk_note_ru": "Различий между США и Британией нет. В английском слове of последний звук тоже v (ɒv / əv), а не f.",
+  "example_words": [
+    {
+      "word": "very",
+      "ipa_us": "ˈveri",
+      "ipa_uk": "ˈveri",
+      "translation_ru": "очень"
+    },
+    {
+      "word": "have",
+      "ipa_us": "hæv",
+      "ipa_uk": "hæv",
+      "translation_ru": "иметь"
+    },
+    {
+      "word": "give",
+      "ipa_us": "ɡɪv",
+      "ipa_uk": "ɡɪv",
+      "translation_ru": "давать"
+    },
+    {
+      "word": "live",
+      "ipa_us": "lɪv",
+      "ipa_uk": "lɪv",
+      "translation_ru": "жить"
+    },
+    {
+      "word": "love",
+      "ipa_us": "lʌv",
+      "ipa_uk": "lʌv",
+      "translation_ru": "любить"
+    },
+    {
+      "word": "voice",
+      "ipa_us": "vɔɪs",
+      "ipa_uk": "vɔɪs",
+      "translation_ru": "голос"
+    },
+    {
+      "word": "visit",
+      "ipa_us": "ˈvɪzɪt",
+      "ipa_uk": "ˈvɪzɪt",
+      "translation_ru": "посещать"
+    },
+    {
+      "word": "never",
+      "ipa_us": "ˈnevər",
+      "ipa_uk": "ˈnevə",
+      "translation_ru": "никогда"
+    },
+    {
+      "word": "seven",
+      "ipa_us": "ˈsevən",
+      "ipa_uk": "ˈsevən",
+      "translation_ru": "семь"
+    },
+    {
+      "word": "over",
+      "ipa_us": "ˈoʊvər",
+      "ipa_uk": "ˈəʊvə",
+      "translation_ru": "над, через"
+    },
+    {
+      "word": "eleven",
+      "ipa_us": "ɪˈlevən",
+      "ipa_uk": "ɪˈlevən",
+      "translation_ru": "одиннадцать"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "vowel",
+      "ipa_us": "ˈvaʊəl",
+      "ipa_uk": "ˈvaʊəl",
+      "translation_ru": "гласный"
+    },
+    {
+      "word": "believe",
+      "ipa_us": "bɪˈliːv",
+      "ipa_uk": "bɪˈliːv",
+      "translation_ru": "верить"
+    },
+    {
+      "word": "vegetable",
+      "ipa_us": "ˈvedʒtəbəl",
+      "ipa_uk": "ˈvedʒtəbəl",
+      "translation_ru": "овощ"
+    },
+    {
+      "word": "several",
+      "ipa_us": "ˈsevrəl",
+      "ipa_uk": "ˈsevrəl",
+      "translation_ru": "несколько"
+    },
+    {
+      "word": "television",
+      "ipa_us": "ˈteləvɪʒən",
+      "ipa_uk": "ˈtelɪvɪʒən",
+      "translation_ru": "телевидение"
+    },
+    {
+      "word": "available",
+      "ipa_us": "əˈveɪləbəl",
+      "ipa_uk": "əˈveɪləbəl",
+      "translation_ru": "доступный"
+    },
+    {
+      "word": "achieve",
+      "ipa_us": "əˈtʃiːv",
+      "ipa_uk": "əˈtʃiːv",
+      "translation_ru": "достигать"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "vest",
+      "contrast": "west",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "vine",
+      "contrast": "wine",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "veil",
+      "contrast": "wail",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "vow",
+      "contrast": "wow",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "verse",
+      "contrast": "worse",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "vet",
+      "contrast": "wet",
+      "contrast_sound": "w"
+    },
+    {
+      "target": "leave",
+      "contrast": "leaf",
+      "contrast_sound": "f"
+    },
+    {
+      "target": "save",
+      "contrast": "safe",
+      "contrast_sound": "f"
+    },
+    {
+      "target": "van",
+      "contrast": "fan",
+      "contrast_sound": "f"
+    },
+    {
+      "target": "veal",
+      "contrast": "feel",
+      "contrast_sound": "f"
+    }
+  ],
+  "phrases": [
+    "I have never visited a village over eleven.",
+    "Give very good vegetables to every visitor.",
+    "I love to leave and move on.",
+    "We have several available seats.",
+    "Five of the seven believe it."
+  ],
+  "tongue_twisters": [
+    "Vincent vowed vengeance very vehemently.",
+    "Eleven elves ever very lively lived in a valley.",
+    "Very few vivid verbs vary."
+  ]
+}

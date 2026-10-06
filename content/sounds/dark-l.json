@@ -1,0 +1,211 @@
+{
+  "id": "dark-l",
+  "slug": "dark-l",
+  "name_ru": "Тёмное «ɫ» в конце слога (ball, milk)",
+  "ipa": "ɫ",
+  "arpabet": [
+    "L"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "«ль» (мягкое, палатальное)",
+      "heard_as_example": "feel → «филь»",
+      "tip_ru": "Не поднимайте середину языка к твёрдому нёбу. Задняя часть языка отодвинута назад, как для «у»."
+    },
+    {
+      "substitute": "«л» с касанием зубов (дентальное)",
+      "heard_as_example": "ball → «бол» (кончик языка у зубов)",
+      "tip_ru": "Кончик языка касается бугорка за верхними зубами, а не самих зубов."
+    },
+    {
+      "substitute": "пропуск звука",
+      "heard_as_example": "help → hep, milk → mik",
+      "tip_ru": "Звук нельзя «проглатывать», иначе получается другое слово. Держите язык у бугорка до конца слова."
+    }
+  ],
+  "articulation_ru": [
+    "Кончик языка поднимите и прижмите к бугорку за верхними зубами (альвеолярный бугорок).",
+    "Заднюю часть языка отодвиньте назад и приподнимите к мягкому нёбу, как будто собираетесь сказать «у».",
+    "Боковые края языка опущены, воздух проходит по бокам.",
+    "Включите голос: звук тёмный, «глубокий», слегка похож на «ыл» или «оль» без мягкости.",
+    "В начале слога (light, leg) l светлый, ближе к русскому «ль». Тёмный ɫ стоит в конце слога: ball, milk, little, table."
+  ],
+  "us_uk_note_ru": "В США ɫ тёмный практически везде, даже в начале слов он темнее. В британском перед гласным (light, love) l светлый, после гласного (ball, milk) тёмный. В лондонском произношении ɫ в конце слова часто превращается в «у» (milk → miwk).",
+  "example_words": [
+    {
+      "word": "all",
+      "ipa_us": "ɔːɫ",
+      "ipa_uk": "ɔːɫ",
+      "translation_ru": "все"
+    },
+    {
+      "word": "ball",
+      "ipa_us": "bɔːɫ",
+      "ipa_uk": "bɔːɫ",
+      "translation_ru": "мяч"
+    },
+    {
+      "word": "call",
+      "ipa_us": "kɔːɫ",
+      "ipa_uk": "kɔːɫ",
+      "translation_ru": "звонить"
+    },
+    {
+      "word": "tall",
+      "ipa_us": "tɔːɫ",
+      "ipa_uk": "tɔːɫ",
+      "translation_ru": "высокий"
+    },
+    {
+      "word": "bell",
+      "ipa_us": "beɫ",
+      "ipa_uk": "beɫ",
+      "translation_ru": "звонок"
+    },
+    {
+      "word": "well",
+      "ipa_us": "weɫ",
+      "ipa_uk": "weɫ",
+      "translation_ru": "хорошо"
+    },
+    {
+      "word": "tell",
+      "ipa_us": "teɫ",
+      "ipa_uk": "teɫ",
+      "translation_ru": "рассказывать"
+    },
+    {
+      "word": "feel",
+      "ipa_us": "fiːɫ",
+      "ipa_uk": "fiːɫ",
+      "translation_ru": "чувствовать"
+    },
+    {
+      "word": "pool",
+      "ipa_us": "puːɫ",
+      "ipa_uk": "puːɫ",
+      "translation_ru": "бассейн"
+    },
+    {
+      "word": "school",
+      "ipa_us": "skuːɫ",
+      "ipa_uk": "skuːɫ",
+      "translation_ru": "школа"
+    },
+    {
+      "word": "cold",
+      "ipa_us": "koʊɫd",
+      "ipa_uk": "kəʊɫd",
+      "translation_ru": "холодный"
+    },
+    {
+      "word": "old",
+      "ipa_us": "oʊɫd",
+      "ipa_uk": "əʊɫd",
+      "translation_ru": "старый"
+    },
+    {
+      "word": "help",
+      "ipa_us": "heɫp",
+      "ipa_uk": "heɫp",
+      "translation_ru": "помогать"
+    },
+    {
+      "word": "milk",
+      "ipa_us": "mɪɫk",
+      "ipa_uk": "mɪɫk",
+      "translation_ru": "молоко"
+    },
+    {
+      "word": "film",
+      "ipa_us": "fɪɫm",
+      "ipa_uk": "fɪɫm",
+      "translation_ru": "фильм"
+    },
+    {
+      "word": "world",
+      "ipa_us": "wɜːrɫd",
+      "ipa_uk": "wɜːɫd",
+      "translation_ru": "мир"
+    },
+    {
+      "word": "little",
+      "ipa_us": "ˈlɪtɫ",
+      "ipa_uk": "ˈlɪtɫ",
+      "translation_ru": "маленький"
+    },
+    {
+      "word": "table",
+      "ipa_us": "ˈteɪbɫ",
+      "ipa_uk": "ˈteɪbɫ",
+      "translation_ru": "стол"
+    },
+    {
+      "word": "people",
+      "ipa_us": "ˈpiːpɫ",
+      "ipa_uk": "ˈpiːpɫ",
+      "translation_ru": "люди"
+    },
+    {
+      "word": "apple",
+      "ipa_us": "ˈæpɫ",
+      "ipa_uk": "ˈæpɫ",
+      "translation_ru": "яблоко"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "feel",
+      "contrast": "fee",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "pool",
+      "contrast": "poo",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "cool",
+      "contrast": "coo",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "wheel",
+      "contrast": "we",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "mail",
+      "contrast": "may",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "sail",
+      "contrast": "say",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "toll",
+      "contrast": "toe",
+      "contrast_sound": "нет l"
+    },
+    {
+      "target": "hail",
+      "contrast": "hay",
+      "contrast_sound": "нет l"
+    }
+  ],
+  "phrases": [
+    "The tall girl called a cold ball.",
+    "Tell Bill the milk is on the table.",
+    "Will you help the little old people?",
+    "The whole world feels the school bell.",
+    "Paul fell in the pool at the mall."
+  ],
+  "tongue_twisters": [
+    "Bill's ill, but Bell's well, and all will fall.",
+    "Little Lilly liked the little yellow bell.",
+    "I'll tell all the tall girls to fill the pail."
+  ]
+}

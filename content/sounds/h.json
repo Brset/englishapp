@@ -1,0 +1,225 @@
+{
+  "id": "h",
+  "slug": "h",
+  "name_ru": "Придыхательный «h» (hot)",
+  "ipa": "h",
+  "arpabet": [
+    "HH"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "x (русское «х»)",
+      "heard_as_example": "hot → «хот» с трением",
+      "tip_ru": "Не напрягайте заднюю часть языка. Английский h это просто выдох из горла, без шума у нёба."
+    },
+    {
+      "substitute": "пропуск",
+      "heard_as_example": "hair → air",
+      "tip_ru": "Русскоговорящие иногда теряют звук. Он должен быть слышен как лёгкий выдох перед гласным."
+    },
+    {
+      "substitute": "сильное горловое «г» (γ)",
+      "heard_as_example": "how → «гао»",
+      "tip_ru": "Не сжимайте горло. Звук тихий и мягкий, как когда вы дышите на замёрзшие руки."
+    }
+  ],
+  "articulation_ru": [
+    "Откройте рот так, как для следующего гласного (для hot как для «о»).",
+    "Язык лежит спокойно и ни к чему не прикасается.",
+    "Сделайте мягкий выдох, как будто хотите согреть руки или запотевшее зеркало.",
+    "Голос не включайте: это просто воздух, без вибрации.",
+    "Положите ладонь перед ртом: на «h» вы должны почувствовать тёплый поток воздуха."
+  ],
+  "us_uk_note_ru": "Различий нет. В британском просторечии h иногда пропускают (’ouse вместо house), но в стандартной речи его произносят. В словах hour, honest, honour h не произносится.",
+  "example_words": [
+    {
+      "word": "he",
+      "ipa_us": "hiː",
+      "ipa_uk": "hiː",
+      "translation_ru": "он"
+    },
+    {
+      "word": "her",
+      "ipa_us": "hɜːr",
+      "ipa_uk": "hɜː",
+      "translation_ru": "её"
+    },
+    {
+      "word": "his",
+      "ipa_us": "hɪz",
+      "ipa_uk": "hɪz",
+      "translation_ru": "его"
+    },
+    {
+      "word": "have",
+      "ipa_us": "hæv",
+      "ipa_uk": "hæv",
+      "translation_ru": "иметь"
+    },
+    {
+      "word": "how",
+      "ipa_us": "haʊ",
+      "ipa_uk": "haʊ",
+      "translation_ru": "как"
+    },
+    {
+      "word": "who",
+      "ipa_us": "huː",
+      "ipa_uk": "huː",
+      "translation_ru": "кто"
+    },
+    {
+      "word": "hot",
+      "ipa_us": "hɑːt",
+      "ipa_uk": "hɒt",
+      "translation_ru": "горячий"
+    },
+    {
+      "word": "home",
+      "ipa_us": "hoʊm",
+      "ipa_uk": "həʊm",
+      "translation_ru": "дом"
+    },
+    {
+      "word": "help",
+      "ipa_us": "help",
+      "ipa_uk": "help",
+      "translation_ru": "помогать"
+    },
+    {
+      "word": "house",
+      "ipa_us": "haʊs",
+      "ipa_uk": "haʊs",
+      "translation_ru": "дом (здание)"
+    },
+    {
+      "word": "happy",
+      "ipa_us": "ˈhæpi",
+      "ipa_uk": "ˈhæpi",
+      "translation_ru": "счастливый"
+    },
+    {
+      "word": "heavy",
+      "ipa_us": "ˈhevi",
+      "ipa_uk": "ˈhevi",
+      "translation_ru": "тяжёлый"
+    },
+    {
+      "word": "behind",
+      "ipa_us": "bɪˈhaɪnd",
+      "ipa_uk": "bɪˈhaɪnd",
+      "translation_ru": "позади"
+    },
+    {
+      "word": "perhaps",
+      "ipa_us": "pərˈhæps",
+      "ipa_uk": "pəˈhæps",
+      "translation_ru": "возможно"
+    },
+    {
+      "word": "hospital",
+      "ipa_us": "ˈhɑːspɪtəl",
+      "ipa_uk": "ˈhɒspɪtəl",
+      "translation_ru": "больница"
+    },
+    {
+      "word": "husband",
+      "ipa_us": "ˈhʌzbənd",
+      "ipa_uk": "ˈhʌzbənd",
+      "translation_ru": "муж"
+    },
+    {
+      "word": "whole",
+      "ipa_us": "hoʊl",
+      "ipa_uk": "həʊl",
+      "translation_ru": "целый"
+    },
+    {
+      "word": "behave",
+      "ipa_us": "bɪˈheɪv",
+      "ipa_uk": "bɪˈheɪv",
+      "translation_ru": "вести себя"
+    },
+    {
+      "word": "overhead",
+      "ipa_us": "ˌoʊvərˈhed",
+      "ipa_uk": "ˌəʊvəˈhed",
+      "translation_ru": "над головой"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "hat",
+      "contrast": "at",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "heat",
+      "contrast": "eat",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "hair",
+      "contrast": "air",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "high",
+      "contrast": "eye",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "hold",
+      "contrast": "old",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "his",
+      "contrast": "is",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "hill",
+      "contrast": "ill",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "ham",
+      "contrast": "am",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "hear",
+      "contrast": "ear",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "heart",
+      "contrast": "art",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "hit",
+      "contrast": "it",
+      "contrast_sound": "нет h"
+    },
+    {
+      "target": "harm",
+      "contrast": "arm",
+      "contrast_sound": "нет h"
+    }
+  ],
+  "phrases": [
+    "He has a hot house on the hill.",
+    "Hello, how are you, Harry?",
+    "Help him hold his heavy hat.",
+    "My husband is happy at home.",
+    "Who has the whole house key?"
+  ],
+  "tongue_twisters": [
+    "Harry Hunt hunts for heavy hats.",
+    "How much wood would a woodchuck chuck if a woodchuck could chuck wood? Who knows?",
+    "He who hesitates hardly hits his highest hopes."
+  ]
+}

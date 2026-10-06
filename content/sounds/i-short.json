@@ -1,0 +1,209 @@
+{
+  "id": "ɪ",
+  "slug": "i-short",
+  "name_ru": "Краткий «ɪ» (ship)",
+  "ipa": "ɪ",
+  "arpabet": [
+    "IH"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "iː (русское «и»)",
+      "heard_as_example": "ship → sheep",
+      "tip_ru": "Звук должен быть коротким и расслабленным. Русское «и» напряжённое и узкое, а ɪ ближе к «ы»-образному «и», губы расслаблены."
+    },
+    {
+      "substitute": "палатализация согласного",
+      "heard_as_example": "sit → «сьит»",
+      "tip_ru": "Не смягчайте согласный перед гласным. Язык не поднимается к нёбу."
+    },
+    {
+      "substitute": "e",
+      "heard_as_example": "pin → pen",
+      "tip_ru": "Язык не должен опускаться слишком низко. Это более закрытый звук, чем e."
+    }
+  ],
+  "articulation_ru": [
+    "Губы расслаблены, нет растяжения в улыбку: рот приоткрыт совсем немного.",
+    "Кончик языка у нижних зубов, середина языка приподнята, но не так высоко, как для iː.",
+    "Звук короткий, быстрый и «ленивый», как будто вы произносите «и» очень небрежно.",
+    "Проверка: ship не должно звучать как sheep. Если звук тянется, это уже iː.",
+    "Не смягчайте предыдущий согласный: sit не «сьит», а твёрдое «сит»."
+  ],
+  "us_uk_note_ru": "В США и Британии звук одинаков. В британском конечное -y (happy) обычно ɪ-образный или iː-образный, в США это iː-образный звук (ˈhæpi).",
+  "example_words": [
+    {
+      "word": "it",
+      "ipa_us": "ɪt",
+      "ipa_uk": "ɪt",
+      "translation_ru": "это"
+    },
+    {
+      "word": "in",
+      "ipa_us": "ɪn",
+      "ipa_uk": "ɪn",
+      "translation_ru": "в"
+    },
+    {
+      "word": "sit",
+      "ipa_us": "sɪt",
+      "ipa_uk": "sɪt",
+      "translation_ru": "сидеть"
+    },
+    {
+      "word": "big",
+      "ipa_us": "bɪɡ",
+      "ipa_uk": "bɪɡ",
+      "translation_ru": "большой"
+    },
+    {
+      "word": "fish",
+      "ipa_us": "fɪʃ",
+      "ipa_uk": "fɪʃ",
+      "translation_ru": "рыба"
+    },
+    {
+      "word": "king",
+      "ipa_us": "kɪŋ",
+      "ipa_uk": "kɪŋ",
+      "translation_ru": "король"
+    },
+    {
+      "word": "give",
+      "ipa_us": "ɡɪv",
+      "ipa_uk": "ɡɪv",
+      "translation_ru": "давать"
+    },
+    {
+      "word": "kick",
+      "ipa_us": "kɪk",
+      "ipa_uk": "kɪk",
+      "translation_ru": "пинать"
+    },
+    {
+      "word": "swim",
+      "ipa_us": "swɪm",
+      "ipa_uk": "swɪm",
+      "translation_ru": "плавать"
+    },
+    {
+      "word": "his",
+      "ipa_us": "hɪz",
+      "ipa_uk": "hɪz",
+      "translation_ru": "его"
+    },
+    {
+      "word": "women",
+      "ipa_us": "ˈwɪmɪn",
+      "ipa_uk": "ˈwɪmɪn",
+      "translation_ru": "женщины"
+    },
+    {
+      "word": "busy",
+      "ipa_us": "ˈbɪzi",
+      "ipa_uk": "ˈbɪzi",
+      "translation_ru": "занятой"
+    },
+    {
+      "word": "build",
+      "ipa_us": "bɪld",
+      "ipa_uk": "bɪld",
+      "translation_ru": "строить"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "minute",
+      "ipa_us": "ˈmɪnɪt",
+      "ipa_uk": "ˈmɪnɪt",
+      "translation_ru": "минута"
+    },
+    {
+      "word": "different",
+      "ipa_us": "ˈdɪfrənt",
+      "ipa_uk": "ˈdɪfrənt",
+      "translation_ru": "разный"
+    },
+    {
+      "word": "vegetable",
+      "ipa_us": "ˈvedʒtəbəl",
+      "ipa_uk": "ˈvedʒtəbəl",
+      "translation_ru": "овощ"
+    },
+    {
+      "word": "English",
+      "ipa_us": "ˈɪŋɡlɪʃ",
+      "ipa_uk": "ˈɪŋɡlɪʃ",
+      "translation_ru": "английский"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "ship",
+      "contrast": "sheep",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "bit",
+      "contrast": "beat",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "sit",
+      "contrast": "seat",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "live",
+      "contrast": "leave",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "fill",
+      "contrast": "feel",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "hit",
+      "contrast": "heat",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "slip",
+      "contrast": "sleep",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "chip",
+      "contrast": "cheap",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "lid",
+      "contrast": "lead",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "pill",
+      "contrast": "peel",
+      "contrast_sound": "iː"
+    }
+  ],
+  "phrases": [
+    "This big fish is in the ship.",
+    "Jim is sitting with his sister in the kitchen.",
+    "Give him a little bit of this.",
+    "Will Bill visit the village in a minute?",
+    "Tim lives in a big city, in Britain."
+  ],
+  "tongue_twisters": [
+    "Six sick hick chicks sit in the slick brick kiln.",
+    "Bill's big pig did a jig, in his little thin skin.",
+    "Fill the six dishes with fish."
+  ]
+}

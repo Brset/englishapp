@@ -1,0 +1,200 @@
+{
+  "id": "ə",
+  "slug": "schwa",
+  "name_ru": "Нейтральный «ə» (about)",
+  "ipa": "ə",
+  "arpabet": [
+    "AH0",
+    "ER0"
+  ],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "полный гласный по написанию",
+      "heard_as_example": "about → «абаут», banana → «баНАна»",
+      "tip_ru": "Безударные гласные в английском сокращаются до слабого «э-ы». Не читайте их по буквам."
+    },
+    {
+      "substitute": "ударение на всех слогах",
+      "heard_as_example": "photograph → «фо-то-граф»",
+      "tip_ru": "В английском одно сильное ударение, остальные слоги короткие и слабые."
+    },
+    {
+      "substitute": "«а»",
+      "heard_as_example": "sofa → «софа»",
+      "tip_ru": "Звук совсем расслабленный, нейтральный. Рот почти не открывается, язык лежит спокойно."
+    }
+  ],
+  "articulation_ru": [
+    "Рот открыт слегка и расслаблен, как при вдохе.",
+    "Язык лежит в нейтральном положении, губы нейтральные.",
+    "Звук очень короткий, слабый, почти неслышный.",
+    "Он встречается только в безударных слогах. Найдите ударный слог, а остальные сократите.",
+    "Читайте не по буквам: a-bout, so-fa, to-day: в безударном слоге получается одно и то же слабое «ə»."
+  ],
+  "us_uk_note_ru": "В США последнее -er в словах sofa, teacher звучит как ɚ (r-окрашенный шва) ˈtiːtʃər. В британском это ə без r: ˈtiːtʃə. В остальном ə одинаков.",
+  "example_words": [
+    {
+      "word": "a",
+      "ipa_us": "ə",
+      "ipa_uk": "ə",
+      "translation_ru": "артикль «a»"
+    },
+    {
+      "word": "the",
+      "ipa_us": "ðə",
+      "ipa_uk": "ðə",
+      "translation_ru": "артикль «the»"
+    },
+    {
+      "word": "about",
+      "ipa_us": "əˈbaʊt",
+      "ipa_uk": "əˈbaʊt",
+      "translation_ru": "о, около"
+    },
+    {
+      "word": "again",
+      "ipa_us": "əˈɡen",
+      "ipa_uk": "əˈɡen",
+      "translation_ru": "снова"
+    },
+    {
+      "word": "ago",
+      "ipa_us": "əˈɡoʊ",
+      "ipa_uk": "əˈɡəʊ",
+      "translation_ru": "назад"
+    },
+    {
+      "word": "sofa",
+      "ipa_us": "ˈsoʊfə",
+      "ipa_uk": "ˈsəʊfə",
+      "translation_ru": "диван"
+    },
+    {
+      "word": "banana",
+      "ipa_us": "bəˈnænə",
+      "ipa_uk": "bəˈnɑːnə",
+      "translation_ru": "банан"
+    },
+    {
+      "word": "today",
+      "ipa_us": "təˈdeɪ",
+      "ipa_uk": "təˈdeɪ",
+      "translation_ru": "сегодня"
+    },
+    {
+      "word": "support",
+      "ipa_us": "səˈpɔːrt",
+      "ipa_uk": "səˈpɔːt",
+      "translation_ru": "поддержка"
+    },
+    {
+      "word": "lemon",
+      "ipa_us": "ˈlemən",
+      "ipa_uk": "ˈlemən",
+      "translation_ru": "лимон"
+    },
+    {
+      "word": "problem",
+      "ipa_us": "ˈprɑːbləm",
+      "ipa_uk": "ˈprɒbləm",
+      "translation_ru": "проблема"
+    },
+    {
+      "word": "different",
+      "ipa_us": "ˈdɪfrənt",
+      "ipa_uk": "ˈdɪfrənt",
+      "translation_ru": "разный"
+    },
+    {
+      "word": "family",
+      "ipa_us": "ˈfæməli",
+      "ipa_uk": "ˈfæməli",
+      "translation_ru": "семья"
+    },
+    {
+      "word": "camera",
+      "ipa_us": "ˈkæmrə",
+      "ipa_uk": "ˈkæmərə",
+      "translation_ru": "камера"
+    },
+    {
+      "word": "comfortable",
+      "ipa_us": "ˈkʌmftərbəl",
+      "ipa_uk": "ˈkʌmftəbəl",
+      "translation_ru": "удобный"
+    },
+    {
+      "word": "chocolate",
+      "ipa_us": "ˈtʃɑːklət",
+      "ipa_uk": "ˈtʃɒklət",
+      "translation_ru": "шоколад"
+    },
+    {
+      "word": "interesting",
+      "ipa_us": "ˈɪntrəstɪŋ",
+      "ipa_uk": "ˈɪntrəstɪŋ",
+      "translation_ru": "интересный"
+    },
+    {
+      "word": "photographer",
+      "ipa_us": "fəˈtɑːɡrəfər",
+      "ipa_uk": "fəˈtɒɡrəfə",
+      "translation_ru": "фотограф"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "affect",
+      "contrast": "effect",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "accept",
+      "contrast": "except",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "allusion",
+      "contrast": "illusion",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "ago",
+      "contrast": "ego",
+      "contrast_sound": "iː"
+    },
+    {
+      "target": "conduct (v)",
+      "contrast": "conduct (n)",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "contrast (v)",
+      "contrast": "contrast (n)",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "progress (v)",
+      "contrast": "progress (n)",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "protest (v)",
+      "contrast": "protest (n)",
+      "contrast_sound": "əʊ"
+    }
+  ],
+  "phrases": [
+    "The banana was about to be eaten.",
+    "A woman at a bus stop asked the policeman.",
+    "Today we are talking about a different problem.",
+    "The sofa in the camera shop is comfortable.",
+    "Alone again, he ate a lemon and a banana."
+  ],
+  "tongue_twisters": [
+    "A proper copper coffee pot.",
+    "The photographer thought the elephant was a different animal.",
+    "Banana, camera, sofa, Canada: a-a-a-a-a."
+  ]
+}

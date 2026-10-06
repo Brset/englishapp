@@ -1,0 +1,210 @@
+{
+  "id": "eə",
+  "slug": "ea",
+  "name_ru": "Дифтонг «eə» (hair)",
+  "ipa": "eə",
+  "arpabet": [
+    "EH",
+    "R"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "«эр» (раскатистое р)",
+      "heard_as_example": "hair → «хэр»",
+      "tip_ru": "В британском варианте r не звучит. В американском r мягкий и не раскатывается."
+    },
+    {
+      "substitute": "«эа» с долгим «э»",
+      "heard_as_example": "care → «кэа»",
+      "tip_ru": "Скольжение быстрое. Первая часть «e» (как в bed), вторая нейтральная «ə»."
+    },
+    {
+      "substitute": "ɪə",
+      "heard_as_example": "hair → here",
+      "tip_ru": "Рот открыт чуть шире. Начало звука «э», а не «и»."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с «e», как в bed, рот приоткрыт, губы слегка растянуты.",
+    "Плавно скользите к нейтральному «ə»: рот расслабляется.",
+    "Первая часть длиннее и сильнее, вторая слабая.",
+    "В американском варианте добавляется r: er (hair her, care ker), кончик языка загибается назад.",
+    "Не раскатывайте r и не делайте звук слишком закрытым, как «и»."
+  ],
+  "us_uk_note_ru": "В США это обычно er: hair her, care ker, there ðer. В британском это центрирующий дифтонг eə: hair heə. Перед гласным в британском появляется r: there is ðeər ɪz. В США merry, Mary, marry часто звучат одинаково.",
+  "example_words": [
+    {
+      "word": "air",
+      "ipa_us": "er",
+      "ipa_uk": "eə",
+      "translation_ru": "воздух"
+    },
+    {
+      "word": "hair",
+      "ipa_us": "her",
+      "ipa_uk": "heə",
+      "translation_ru": "волосы"
+    },
+    {
+      "word": "care",
+      "ipa_us": "ker",
+      "ipa_uk": "keə",
+      "translation_ru": "забота"
+    },
+    {
+      "word": "share",
+      "ipa_us": "ʃer",
+      "ipa_uk": "ʃeə",
+      "translation_ru": "делиться"
+    },
+    {
+      "word": "there",
+      "ipa_us": "ðer",
+      "ipa_uk": "ðeə",
+      "translation_ru": "там"
+    },
+    {
+      "word": "where",
+      "ipa_us": "wer",
+      "ipa_uk": "weə",
+      "translation_ru": "где"
+    },
+    {
+      "word": "chair",
+      "ipa_us": "tʃer",
+      "ipa_uk": "tʃeə",
+      "translation_ru": "стул"
+    },
+    {
+      "word": "bear",
+      "ipa_us": "ber",
+      "ipa_uk": "beə",
+      "translation_ru": "медведь"
+    },
+    {
+      "word": "pair",
+      "ipa_us": "per",
+      "ipa_uk": "peə",
+      "translation_ru": "пара"
+    },
+    {
+      "word": "fair",
+      "ipa_us": "fer",
+      "ipa_uk": "feə",
+      "translation_ru": "справедливый"
+    },
+    {
+      "word": "square",
+      "ipa_us": "skwer",
+      "ipa_uk": "skweə",
+      "translation_ru": "площадь"
+    },
+    {
+      "word": "wear",
+      "ipa_us": "wer",
+      "ipa_uk": "weə",
+      "translation_ru": "носить"
+    },
+    {
+      "word": "prepare",
+      "ipa_us": "prɪˈper",
+      "ipa_uk": "prɪˈpeə",
+      "translation_ru": "готовить"
+    },
+    {
+      "word": "parent",
+      "ipa_us": "ˈperənt",
+      "ipa_uk": "ˈpeərənt",
+      "translation_ru": "родитель"
+    },
+    {
+      "word": "careful",
+      "ipa_us": "ˈkerfəl",
+      "ipa_uk": "ˈkeəfəl",
+      "translation_ru": "осторожный"
+    },
+    {
+      "word": "airport",
+      "ipa_us": "ˈerpɔːrt",
+      "ipa_uk": "ˈeəpɔːt",
+      "translation_ru": "аэропорт"
+    },
+    {
+      "word": "aware",
+      "ipa_us": "əˈwer",
+      "ipa_uk": "əˈweə",
+      "translation_ru": "осведомлённый"
+    },
+    {
+      "word": "various",
+      "ipa_us": "ˈveriəs",
+      "ipa_uk": "ˈveəriəs",
+      "translation_ru": "различный"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "bear",
+      "contrast": "beer",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "hair",
+      "contrast": "here",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "fair",
+      "contrast": "fear",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "dare",
+      "contrast": "deer",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "pair",
+      "contrast": "pier",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "chair",
+      "contrast": "cheer",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "stair",
+      "contrast": "steer",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "air",
+      "contrast": "ear",
+      "contrast_sound": "ɪə"
+    },
+    {
+      "target": "care",
+      "contrast": "car",
+      "contrast_sound": "ɑː"
+    },
+    {
+      "target": "fair",
+      "contrast": "far",
+      "contrast_sound": "ɑː"
+    }
+  ],
+  "phrases": [
+    "Where is the pair of chairs over there?",
+    "Be careful with the hair of the bear.",
+    "Clare shares her chair at the fair.",
+    "Wear a warm coat in the cold air.",
+    "Take care at the airport, parents beware."
+  ],
+  "tongue_twisters": [
+    "Fair Clare wears bare, square pears.",
+    "The bear with the hair sat on a chair in the square.",
+    "Where there's care, there's air and a fair share."
+  ]
+}

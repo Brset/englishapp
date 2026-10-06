@@ -1,0 +1,204 @@
+{
+  "id": "əʊ",
+  "slug": "ou",
+  "name_ru": "Дифтонг «əʊ» (go)",
+  "ipa": "əʊ",
+  "arpabet": [
+    "OW"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "о (ровное «о»)",
+      "heard_as_example": "go → «го»",
+      "tip_ru": "В английском это дифтонг: звук начинается нейтрально и скользит к «у». Русское «о» ровное и слишком чистое."
+    },
+    {
+      "substitute": "ɔː",
+      "heard_as_example": "low → law",
+      "tip_ru": "Не растягивайте «о» и не тяните его. Скольжение ведёт к «у», а не остаётся на месте."
+    },
+    {
+      "substitute": "оу с сильным округлением в начале",
+      "heard_as_example": "no → «ноу» (сильное «о»)",
+      "tip_ru": "Начало звука нейтральное, губы не сильно округлены. Округление растёт к концу."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с нейтрального положения: рот приоткрыт, губы расслаблены, как для ə.",
+    "Плавно скользите вверх и назад к «у», губы постепенно округляются.",
+    "Первая часть звука длинная, вторая слабая и короткая.",
+    "В американском варианте начало более «о»-образное (oʊ), в британском более центральное (əʊ).",
+    "Не делайте чистое русское «о»: должно быть скольжение."
+  ],
+  "us_uk_note_ru": "В США oʊ, начало более округлённое и «о»-образное: go ɡoʊ. В британском (RP) əʊ, начало более нейтральное, как «э»: go ɡəʊ. Если вы учите американский вариант, произносите «оу»; для британского начинайте с нейтрального «э».",
+  "example_words": [
+    {
+      "word": "go",
+      "ipa_us": "ɡoʊ",
+      "ipa_uk": "ɡəʊ",
+      "translation_ru": "идти"
+    },
+    {
+      "word": "no",
+      "ipa_us": "noʊ",
+      "ipa_uk": "nəʊ",
+      "translation_ru": "нет"
+    },
+    {
+      "word": "so",
+      "ipa_us": "soʊ",
+      "ipa_uk": "səʊ",
+      "translation_ru": "так"
+    },
+    {
+      "word": "show",
+      "ipa_us": "ʃoʊ",
+      "ipa_uk": "ʃəʊ",
+      "translation_ru": "показывать"
+    },
+    {
+      "word": "home",
+      "ipa_us": "hoʊm",
+      "ipa_uk": "həʊm",
+      "translation_ru": "дом"
+    },
+    {
+      "word": "know",
+      "ipa_us": "noʊ",
+      "ipa_uk": "nəʊ",
+      "translation_ru": "знать"
+    },
+    {
+      "word": "road",
+      "ipa_us": "roʊd",
+      "ipa_uk": "rəʊd",
+      "translation_ru": "дорога"
+    },
+    {
+      "word": "phone",
+      "ipa_us": "foʊn",
+      "ipa_uk": "fəʊn",
+      "translation_ru": "телефон"
+    },
+    {
+      "word": "old",
+      "ipa_us": "oʊld",
+      "ipa_uk": "əʊld",
+      "translation_ru": "старый"
+    },
+    {
+      "word": "only",
+      "ipa_us": "ˈoʊnli",
+      "ipa_uk": "ˈəʊnli",
+      "translation_ru": "только"
+    },
+    {
+      "word": "open",
+      "ipa_us": "ˈoʊpən",
+      "ipa_uk": "ˈəʊpən",
+      "translation_ru": "открывать"
+    },
+    {
+      "word": "over",
+      "ipa_us": "ˈoʊvər",
+      "ipa_uk": "ˈəʊvə",
+      "translation_ru": "над"
+    },
+    {
+      "word": "both",
+      "ipa_us": "boʊθ",
+      "ipa_uk": "bəʊθ",
+      "translation_ru": "оба"
+    },
+    {
+      "word": "whole",
+      "ipa_us": "hoʊl",
+      "ipa_uk": "həʊl",
+      "translation_ru": "целый"
+    },
+    {
+      "word": "hello",
+      "ipa_us": "həˈloʊ",
+      "ipa_uk": "həˈləʊ",
+      "translation_ru": "привет"
+    },
+    {
+      "word": "window",
+      "ipa_us": "ˈwɪndoʊ",
+      "ipa_uk": "ˈwɪndəʊ",
+      "translation_ru": "окно"
+    },
+    {
+      "word": "ocean",
+      "ipa_us": "ˈoʊʃən",
+      "ipa_uk": "ˈəʊʃən",
+      "translation_ru": "океан"
+    },
+    {
+      "word": "almost",
+      "ipa_us": "ˈɔːlmoʊst",
+      "ipa_uk": "ˈɔːlməʊst",
+      "translation_ru": "почти"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "low",
+      "contrast": "law",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "so",
+      "contrast": "saw",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "coat",
+      "contrast": "caught",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "boat",
+      "contrast": "bought",
+      "contrast_sound": "ɔː"
+    },
+    {
+      "target": "note",
+      "contrast": "not",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "code",
+      "contrast": "cod",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "hope",
+      "contrast": "hop",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "won't",
+      "contrast": "want",
+      "contrast_sound": "ɒ"
+    },
+    {
+      "target": "cone",
+      "contrast": "con",
+      "contrast_sound": "ɒ"
+    }
+  ],
+  "phrases": [
+    "Go home alone on the road.",
+    "I don't know the old, slow boat.",
+    "Joe wrote a note on the phone.",
+    "Both of us hope to go to Rome.",
+    "The whole ocean is cold and slow."
+  ],
+  "tongue_twisters": [
+    "Rose chose those old gold clothes.",
+    "Slow and low, over the road we go.",
+    "Mo's old boat rows slowly over the cold ocean."
+  ]
+}

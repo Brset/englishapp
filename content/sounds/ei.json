@@ -1,0 +1,209 @@
+{
+  "id": "eɪ",
+  "slug": "ei",
+  "name_ru": "Дифтонг «eɪ» (day)",
+  "ipa": "eɪ",
+  "arpabet": [
+    "EY"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "e (без скольжения)",
+      "heard_as_example": "late → let",
+      "tip_ru": "Звук состоит из двух частей: начало «э» и плавное скольжение к «и». Не останавливайтесь на «э»."
+    },
+    {
+      "substitute": "«эй» с резким «й»",
+      "heard_as_example": "day → «дэй»",
+      "tip_ru": "Скольжение лёгкое и короткое, без нажима на «й»."
+    },
+    {
+      "substitute": "смягчение согласного",
+      "heard_as_example": "name → «ньейм»",
+      "tip_ru": "Не смягчайте предыдущий согласный."
+    }
+  ],
+  "articulation_ru": [
+    "Начните с положения губ для «э», рот приоткрыт.",
+    "Плавно скользите языком вверх и вперёд к «и», рот закрывается.",
+    "Первая часть звука длинная и сильная, вторая слабая и короткая.",
+    "Звук слитный: не делайте паузу между «э» и «и».",
+    "Перед звонкими согласными (made, name) звук ещё длиннее."
+  ],
+  "us_uk_note_ru": "В американском английском eɪ часто почти «ровный» (make [meik]) и дифтонг менее выражен. В британском скольжение более заметно. Разницы в записи нет.",
+  "example_words": [
+    {
+      "word": "say",
+      "ipa_us": "seɪ",
+      "ipa_uk": "seɪ",
+      "translation_ru": "говорить"
+    },
+    {
+      "word": "day",
+      "ipa_us": "deɪ",
+      "ipa_uk": "deɪ",
+      "translation_ru": "день"
+    },
+    {
+      "word": "make",
+      "ipa_us": "meɪk",
+      "ipa_uk": "meɪk",
+      "translation_ru": "делать"
+    },
+    {
+      "word": "name",
+      "ipa_us": "neɪm",
+      "ipa_uk": "neɪm",
+      "translation_ru": "имя"
+    },
+    {
+      "word": "take",
+      "ipa_us": "teɪk",
+      "ipa_uk": "teɪk",
+      "translation_ru": "брать"
+    },
+    {
+      "word": "wait",
+      "ipa_us": "weɪt",
+      "ipa_uk": "weɪt",
+      "translation_ru": "ждать"
+    },
+    {
+      "word": "rain",
+      "ipa_us": "reɪn",
+      "ipa_uk": "reɪn",
+      "translation_ru": "дождь"
+    },
+    {
+      "word": "eight",
+      "ipa_us": "eɪt",
+      "ipa_uk": "eɪt",
+      "translation_ru": "восемь"
+    },
+    {
+      "word": "they",
+      "ipa_us": "ðeɪ",
+      "ipa_uk": "ðeɪ",
+      "translation_ru": "они"
+    },
+    {
+      "word": "great",
+      "ipa_us": "ɡreɪt",
+      "ipa_uk": "ɡreɪt",
+      "translation_ru": "великий"
+    },
+    {
+      "word": "break",
+      "ipa_us": "breɪk",
+      "ipa_uk": "breɪk",
+      "translation_ru": "ломать"
+    },
+    {
+      "word": "paper",
+      "ipa_us": "ˈpeɪpər",
+      "ipa_uk": "ˈpeɪpə",
+      "translation_ru": "бумага"
+    },
+    {
+      "word": "station",
+      "ipa_us": "ˈsteɪʃən",
+      "ipa_uk": "ˈsteɪʃən",
+      "translation_ru": "станция"
+    },
+    {
+      "word": "famous",
+      "ipa_us": "ˈfeɪməs",
+      "ipa_uk": "ˈfeɪməs",
+      "translation_ru": "известный"
+    },
+    {
+      "word": "steak",
+      "ipa_us": "steɪk",
+      "ipa_uk": "steɪk",
+      "translation_ru": "стейк"
+    },
+    {
+      "word": "vacation",
+      "ipa_us": "veɪˈkeɪʃən",
+      "ipa_uk": "vəˈkeɪʃən",
+      "translation_ru": "отпуск"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "stranger",
+      "ipa_us": "ˈstreɪndʒər",
+      "ipa_uk": "ˈstreɪndʒə",
+      "translation_ru": "незнакомец"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "pain",
+      "contrast": "pen",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "wait",
+      "contrast": "wet",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "late",
+      "contrast": "let",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "taste",
+      "contrast": "test",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "main",
+      "contrast": "men",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "fail",
+      "contrast": "fell",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "sail",
+      "contrast": "sell",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "waist",
+      "contrast": "west",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "gate",
+      "contrast": "get",
+      "contrast_sound": "e"
+    },
+    {
+      "target": "raid",
+      "contrast": "red",
+      "contrast_sound": "e"
+    }
+  ],
+  "phrases": [
+    "Take eight cakes on a great day.",
+    "They say the train is late today.",
+    "Wait at the gate for the rain to stop.",
+    "Kate made a great cake for my birthday.",
+    "The famous baker came to the station."
+  ],
+  "tongue_twisters": [
+    "Eight great gray geese gazed at the lake.",
+    "Ray's brave day at the bay: a great day to play.",
+    "Say 'Hey!' and wait for the rain."
+  ]
+}

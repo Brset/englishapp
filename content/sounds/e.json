@@ -1,0 +1,215 @@
+{
+  "id": "e",
+  "slug": "e",
+  "name_ru": "Гласный «e» (bed)",
+  "ipa": "e",
+  "arpabet": [
+    "EH"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "palatalized «э» (смягчённое: «бьэд»)",
+      "heard_as_example": "bed → «бьед»",
+      "tip_ru": "Не смягчайте согласный перед гласным. Задняя часть языка остаётся ровной, а не поднимается к нёбу."
+    },
+    {
+      "substitute": "æ",
+      "heard_as_example": "men → man",
+      "tip_ru": "Челюсть слегка приоткрыта, но не широко: e уже, чем æ. Не растягивайте рот так сильно."
+    },
+    {
+      "substitute": "ɪ",
+      "heard_as_example": "ten → tin",
+      "tip_ru": "Звук должен быть более открытым, а не как «и». Рот открыт чуть больше, губы не растянуты."
+    }
+  ],
+  "articulation_ru": [
+    "Приоткройте рот немного, челюсть слегка опущена.",
+    "Губы расслаблены, чуть растянуты в стороны, но не как в улыбке.",
+    "Кончик языка у нижних зубов, середина языка слегка приподнята.",
+    "Звук короткий и чёткий. Он короче, чем iː, и похож на русское «э» в слове «этот».",
+    "Не смягчайте предыдущий согласный и не добавляйте после гласного «й»."
+  ],
+  "us_uk_note_ru": "Практически одинаково. В США перед r (merry, Mary) гласные могут сливаться, в британском различаются: merry ˈmeri и Mary ˈmeəri.",
+  "example_words": [
+    {
+      "word": "red",
+      "ipa_us": "red",
+      "ipa_uk": "red",
+      "translation_ru": "красный"
+    },
+    {
+      "word": "bed",
+      "ipa_us": "bed",
+      "ipa_uk": "bed",
+      "translation_ru": "кровать"
+    },
+    {
+      "word": "ten",
+      "ipa_us": "ten",
+      "ipa_uk": "ten",
+      "translation_ru": "десять"
+    },
+    {
+      "word": "get",
+      "ipa_us": "ɡet",
+      "ipa_uk": "ɡet",
+      "translation_ru": "получать"
+    },
+    {
+      "word": "yes",
+      "ipa_us": "jes",
+      "ipa_uk": "jes",
+      "translation_ru": "да"
+    },
+    {
+      "word": "pen",
+      "ipa_us": "pen",
+      "ipa_uk": "pen",
+      "translation_ru": "ручка"
+    },
+    {
+      "word": "help",
+      "ipa_us": "help",
+      "ipa_uk": "help",
+      "translation_ru": "помогать"
+    },
+    {
+      "word": "friend",
+      "ipa_us": "frend",
+      "ipa_uk": "frend",
+      "translation_ru": "друг"
+    },
+    {
+      "word": "many",
+      "ipa_us": "ˈmeni",
+      "ipa_uk": "ˈmeni",
+      "translation_ru": "много"
+    },
+    {
+      "word": "any",
+      "ipa_us": "ˈeni",
+      "ipa_uk": "ˈeni",
+      "translation_ru": "любой"
+    },
+    {
+      "word": "head",
+      "ipa_us": "hed",
+      "ipa_uk": "hed",
+      "translation_ru": "голова"
+    },
+    {
+      "word": "said",
+      "ipa_us": "sed",
+      "ipa_uk": "sed",
+      "translation_ru": "сказал"
+    },
+    {
+      "word": "bread",
+      "ipa_us": "bred",
+      "ipa_uk": "bred",
+      "translation_ru": "хлеб"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈweðər",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "breakfast",
+      "ipa_us": "ˈbrekfəst",
+      "ipa_uk": "ˈbrekfəst",
+      "translation_ru": "завтрак"
+    },
+    {
+      "word": "healthy",
+      "ipa_us": "ˈhelθi",
+      "ipa_uk": "ˈhelθi",
+      "translation_ru": "здоровый"
+    },
+    {
+      "word": "twelfth",
+      "ipa_us": "twelfθ",
+      "ipa_uk": "twelfθ",
+      "translation_ru": "двенадцатый"
+    },
+    {
+      "word": "adventure",
+      "ipa_us": "ədˈventʃər",
+      "ipa_uk": "ədˈventʃə",
+      "translation_ru": "приключение"
+    },
+    {
+      "word": "pleasure",
+      "ipa_us": "ˈpleʒər",
+      "ipa_uk": "ˈpleʒə",
+      "translation_ru": "удовольствие"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "bed",
+      "contrast": "bad",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "men",
+      "contrast": "man",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "pet",
+      "contrast": "pat",
+      "contrast_sound": "æ"
+    },
+    {
+      "target": "pen",
+      "contrast": "pin",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "ten",
+      "contrast": "tin",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "bet",
+      "contrast": "bit",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "led",
+      "contrast": "lid",
+      "contrast_sound": "ɪ"
+    },
+    {
+      "target": "wet",
+      "contrast": "wait",
+      "contrast_sound": "eɪ"
+    },
+    {
+      "target": "let",
+      "contrast": "late",
+      "contrast_sound": "eɪ"
+    },
+    {
+      "target": "red",
+      "contrast": "raid",
+      "contrast_sound": "eɪ"
+    }
+  ],
+  "phrases": [
+    "Ten red pens are on the bed.",
+    "My best friend said yes.",
+    "Ben went to get bread for breakfast.",
+    "Jess left her red jet.",
+    "Get ready, the weather is bad."
+  ],
+  "tongue_twisters": [
+    "Betty Botter bought some butter, but she said the butter's bitter.",
+    "Ten tiny trendy tents.",
+    "Better get the red pen ready."
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "w",
+  "slug": "w",
+  "name_ru": "Губной «w» (west)",
+  "ipa": "w",
+  "arpabet": [
+    "W"
+  ],
+  "difficulty_for_russians": 2,
+  "typical_errors": [
+    {
+      "substitute": "v",
+      "heard_as_example": "west → vest",
+      "tip_ru": "Верхние зубы не касаются нижней губы. Вытяните губы трубочкой, как для «у», и сразу скользите в гласный."
+    },
+    {
+      "substitute": "у-короткое / ʋ",
+      "heard_as_example": "wine → «вайн»",
+      "tip_ru": "Звук начинается с сильно округлённых губ, это не русское «в». Представьте, что собираетесь свистнуть."
+    },
+    {
+      "substitute": "пропуск",
+      "heard_as_example": "would → «ъуд»",
+      "tip_ru": "Не опускайте звук: начинайте с чёткого «у»-образного положения губ и быстро переходите к гласному."
+    }
+  ],
+  "articulation_ru": [
+    "Вытяните губы вперёд и округлите их, как для русского «у».",
+    "Верхние зубы и нижняя губа не соприкасаются. Проверьте в зеркале.",
+    "Язык отодвинут назад, задняя часть языка приподнята, как при «у».",
+    "Включите голос и быстро раскройте губы, скользя в следующий гласный: w-e-st.",
+    "Звук очень короткий: это согласный, а не полноценное «у»."
+  ],
+  "us_uk_note_ru": "Различия минимальны. В некоторых регионах Шотландии и США слово which произносят с глухим hw, но в стандартной речи which и witch звучат одинаково.",
+  "example_words": [
+    {
+      "word": "we",
+      "ipa_us": "wiː",
+      "ipa_uk": "wiː",
+      "translation_ru": "мы"
+    },
+    {
+      "word": "way",
+      "ipa_us": "weɪ",
+      "ipa_uk": "weɪ",
+      "translation_ru": "путь"
+    },
+    {
+      "word": "we're",
+      "ipa_us": "wɪr",
+      "ipa_uk": "wɪə",
+      "translation_ru": "мы есть"
+    },
+    {
+      "word": "water",
+      "ipa_us": "ˈwɔːtər",
+      "ipa_uk": "ˈwɔːtə",
+      "translation_ru": "вода"
+    },
+    {
+      "word": "week",
+      "ipa_us": "wiːk",
+      "ipa_uk": "wiːk",
+      "translation_ru": "неделя"
+    },
+    {
+      "word": "window",
+      "ipa_us": "ˈwɪndoʊ",
+      "ipa_uk": "ˈwɪndəʊ",
+      "translation_ru": "окно"
+    },
+    {
+      "word": "want",
+      "ipa_us": "wɑːnt",
+      "ipa_uk": "wɒnt",
+      "translation_ru": "хотеть"
+    },
+    {
+      "word": "wait",
+      "ipa_us": "weɪt",
+      "ipa_uk": "weɪt",
+      "translation_ru": "ждать"
+    },
+    {
+      "word": "world",
+      "ipa_us": "wɜːrld",
+      "ipa_uk": "wɜːld",
+      "translation_ru": "мир"
+    },
+    {
+      "word": "woman",
+      "ipa_us": "ˈwʊmən",
+      "ipa_uk": "ˈwʊmən",
+      "translation_ru": "женщина"
+    },
+    {
+      "word": "would",
+      "ipa_us": "wʊd",
+      "ipa_uk": "wʊd",
+      "translation_ru": "бы (мог бы)"
+    },
+    {
+      "word": "wonder",
+      "ipa_us": "ˈwʌndər",
+      "ipa_uk": "ˈwʌndə",
+      "translation_ru": "удивляться"
+    },
+    {
+      "word": "always",
+      "ipa_us": "ˈɔːlweɪz",
+      "ipa_uk": "ˈɔːlweɪz",
+      "translation_ru": "всегда"
+    },
+    {
+      "word": "quite",
+      "ipa_us": "kwaɪt",
+      "ipa_uk": "kwaɪt",
+      "translation_ru": "довольно"
+    },
+    {
+      "word": "queen",
+      "ipa_us": "kwiːn",
+      "ipa_uk": "kwiːn",
+      "translation_ru": "королева"
+    },
+    {
+      "word": "between",
+      "ipa_us": "bɪˈtwiːn",
+      "ipa_uk": "bɪˈtwiːn",
+      "translation_ru": "между"
+    },
+    {
+      "word": "twelve",
+      "ipa_us": "twelv",
+      "ipa_uk": "twelv",
+      "translation_ru": "двенадцать"
+    },
+    {
+      "word": "language",
+      "ipa_us": "ˈlæŋɡwɪdʒ",
+      "ipa_uk": "ˈlæŋɡwɪdʒ",
+      "translation_ru": "язык"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    }
+  ],
+  "minimal_pairs": [
+    {
+      "target": "west",
+      "contrast": "vest",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wine",
+      "contrast": "vine",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wet",
+      "contrast": "vet",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "worse",
+      "contrast": "verse",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "went",
+      "contrast": "vent",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wail",
+      "contrast": "veil",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wow",
+      "contrast": "vow",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wiper",
+      "contrast": "viper",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wary",
+      "contrast": "vary",
+      "contrast_sound": "v"
+    },
+    {
+      "target": "wheel",
+      "contrast": "veal",
+      "contrast_sound": "v"
+    }
+  ],
+  "phrases": [
+    "We went west on Wednesday.",
+    "Wendy wants a window and a warm sweater.",
+    "Would you wait a week for the wine?",
+    "The queen was quite weak and wary.",
+    "What a wonderful world we live in."
+  ],
+  "tongue_twisters": [
+    "Whether the weather is warm, whether the weather is hot, we'll weather the weather whatever the weather, whether we like it or not.",
+    "Wayne went to Wales to watch walruses.",
+    "Which witch wished which wicked wish?"
+  ]
+}

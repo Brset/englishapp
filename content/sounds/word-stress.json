@@ -1,0 +1,258 @@
+{
+  "id": "word-stress",
+  "slug": "word-stress",
+  "name_ru": "Словесное ударение",
+  "ipa": "ˈ (ударение)",
+  "arpabet": [],
+  "difficulty_for_russians": 3,
+  "typical_errors": [
+    {
+      "substitute": "ударение на другом слоге (по аналогии с русским)",
+      "heard_as_example": "comfortable → comFORtable",
+      "tip_ru": "В английском ударение закреплено за словом. Новое слово нужно учить сразу с ударением и проверять по словарю."
+    },
+    {
+      "substitute": "все слоги одинаково чётко",
+      "heard_as_example": "photograph → «фо-то-граф»",
+      "tip_ru": "Безударные слоги сокращаются до слабого ə. Ударный слог длиннее, громче, выше по тону."
+    },
+    {
+      "substitute": "ударение в глаголе и существительном одинаково",
+      "heard_as_example": "record (сущ.) vs record (глаг.)",
+      "tip_ru": "Двуслоговые слова часто различают по ударению: сущ. и прил. на 1-м слоге, глаголы на 2-м."
+    }
+  ],
+  "articulation_ru": [
+    "Ударный слог в английском длиннее, громче и немного выше по тону. Остальные слоги короче и слабее.",
+    "Безударные гласные сокращаются до слабого ə: banana → bəˈnænə, photographer → fəˈtɒɡrəfə.",
+    "Ставьте слабые слоги «в тень»: не читайте их по буквам.",
+    "Учите ударение вместе со словом, как отдельную часть слова. Пользуйтесь словарём (знак ˈ перед ударным слогом).",
+    "Двуслоговые пары: ˈpresent (сущ.) / preˈsent (глаг.). Если слово и существительное, и глагол, существительное чаще на 1-м слоге."
+  ],
+  "us_uk_note_ru": "В целом правила одинаковы, но у отдельных слов ударение различается: garage в США ɡəˈrɑːʒ, в Британии ˈɡærɑːʒ; laboratory в США ˈlæbrətɔːri, в Британии ləˈbɒrətri; advertisement в США ˌædvərˈtaɪzmənt, в Британии ədˈvɜːtɪsmənt.",
+  "example_words": [
+    {
+      "word": "table",
+      "ipa_us": "ˈteɪbəl",
+      "ipa_uk": "ˈteɪbəl",
+      "translation_ru": "стол"
+    },
+    {
+      "word": "city",
+      "ipa_us": "ˈsɪti",
+      "ipa_uk": "ˈsɪti",
+      "translation_ru": "город"
+    },
+    {
+      "word": "hotel",
+      "ipa_us": "hoʊˈtel",
+      "ipa_uk": "həʊˈtel",
+      "translation_ru": "отель"
+    },
+    {
+      "word": "police",
+      "ipa_us": "pəˈliːs",
+      "ipa_uk": "pəˈliːs",
+      "translation_ru": "полиция"
+    },
+    {
+      "word": "English",
+      "ipa_us": "ˈɪŋɡlɪʃ",
+      "ipa_uk": "ˈɪŋɡlɪʃ",
+      "translation_ru": "английский"
+    },
+    {
+      "word": "banana",
+      "ipa_us": "bəˈnænə",
+      "ipa_uk": "bəˈnɑːnə",
+      "translation_ru": "банан"
+    },
+    {
+      "word": "tomorrow",
+      "ipa_us": "təˈmɑːroʊ",
+      "ipa_uk": "təˈmɒrəʊ",
+      "translation_ru": "завтра"
+    },
+    {
+      "word": "computer",
+      "ipa_us": "kəmˈpjuːtər",
+      "ipa_uk": "kəmˈpjuːtə",
+      "translation_ru": "компьютер"
+    },
+    {
+      "word": "important",
+      "ipa_us": "ɪmˈpɔːrtənt",
+      "ipa_uk": "ɪmˈpɔːtənt",
+      "translation_ru": "важный"
+    },
+    {
+      "word": "vegetable",
+      "ipa_us": "ˈvedʒtəbəl",
+      "ipa_uk": "ˈvedʒtəbəl",
+      "translation_ru": "овощ"
+    },
+    {
+      "word": "photograph",
+      "ipa_us": "ˈfoʊtəɡræf",
+      "ipa_uk": "ˈfəʊtəɡrɑːf",
+      "translation_ru": "фотография"
+    },
+    {
+      "word": "photographer",
+      "ipa_us": "fəˈtɑːɡrəfər",
+      "ipa_uk": "fəˈtɒɡrəfə",
+      "translation_ru": "фотограф"
+    },
+    {
+      "word": "photographic",
+      "ipa_us": "ˌfoʊtəˈɡræfɪk",
+      "ipa_uk": "ˌfəʊtəˈɡræfɪk",
+      "translation_ru": "фотографический"
+    },
+    {
+      "word": "economy",
+      "ipa_us": "ɪˈkɑːnəmi",
+      "ipa_uk": "ɪˈkɒnəmi",
+      "translation_ru": "экономика"
+    },
+    {
+      "word": "economic",
+      "ipa_us": "ˌekəˈnɑːmɪk",
+      "ipa_uk": "ˌiːkəˈnɒmɪk",
+      "translation_ru": "экономический"
+    },
+    {
+      "word": "education",
+      "ipa_us": "ˌedʒəˈkeɪʃən",
+      "ipa_uk": "ˌedʒuˈkeɪʃən",
+      "translation_ru": "образование"
+    },
+    {
+      "word": "information",
+      "ipa_us": "ˌɪnfərˈmeɪʃən",
+      "ipa_uk": "ˌɪnfəˈmeɪʃən",
+      "translation_ru": "информация"
+    },
+    {
+      "word": "development",
+      "ipa_us": "dɪˈveləpmənt",
+      "ipa_uk": "dɪˈveləpmənt",
+      "translation_ru": "развитие"
+    }
+  ],
+  "minimal_pairs": [],
+  "phrases": [
+    "I want to reCORD a new REcord.",
+    "The PROject will proJECT a profit.",
+    "She has a PREsent to preSENT at the party.",
+    "Metal will conTRACT in the cold, and the CONtract is ready.",
+    "There is an INcrease, so prices will inCREASE."
+  ],
+  "tongue_twisters": [
+    "Betty Botter bought some butter, but the butter was bitter.",
+    "I scream, you scream, we all scream for ice cream.",
+    "Photographer, photograph, photographic: say them stress by stress."
+  ],
+  "stress_pairs": [
+    {
+      "first_stressed": "record",
+      "second_stressed": "record",
+      "ipa_us_first": "ˈrekərd",
+      "ipa_uk_first": "ˈrekɔːd",
+      "ipa_us_second": "rɪˈkɔːrd",
+      "ipa_uk_second": "rɪˈkɔːd",
+      "translation_first_ru": "запись, рекорд (сущ.)",
+      "translation_second_ru": "записывать (глаг.)"
+    },
+    {
+      "first_stressed": "present",
+      "second_stressed": "present",
+      "ipa_us_first": "ˈprezənt",
+      "ipa_uk_first": "ˈprezənt",
+      "ipa_us_second": "prɪˈzent",
+      "ipa_uk_second": "prɪˈzent",
+      "translation_first_ru": "подарок, настоящее (сущ.)",
+      "translation_second_ru": "представлять, вручать (глаг.)"
+    },
+    {
+      "first_stressed": "object",
+      "second_stressed": "object",
+      "ipa_us_first": "ˈɑːbdʒekt",
+      "ipa_uk_first": "ˈɒbdʒekt",
+      "ipa_us_second": "əbˈdʒekt",
+      "ipa_uk_second": "əbˈdʒekt",
+      "translation_first_ru": "предмет (сущ.)",
+      "translation_second_ru": "возражать (глаг.)"
+    },
+    {
+      "first_stressed": "project",
+      "second_stressed": "project",
+      "ipa_us_first": "ˈprɑːdʒekt",
+      "ipa_uk_first": "ˈprɒdʒekt",
+      "ipa_us_second": "prəˈdʒekt",
+      "ipa_uk_second": "prəˈdʒekt",
+      "translation_first_ru": "проект (сущ.)",
+      "translation_second_ru": "проецировать, прогнозировать (глаг.)"
+    },
+    {
+      "first_stressed": "increase",
+      "second_stressed": "increase",
+      "ipa_us_first": "ˈɪnkriːs",
+      "ipa_uk_first": "ˈɪnkriːs",
+      "ipa_us_second": "ɪnˈkriːs",
+      "ipa_uk_second": "ɪnˈkriːs",
+      "translation_first_ru": "рост (сущ.)",
+      "translation_second_ru": "увеличивать(ся) (глаг.)"
+    },
+    {
+      "first_stressed": "permit",
+      "second_stressed": "permit",
+      "ipa_us_first": "ˈpɜːrmɪt",
+      "ipa_uk_first": "ˈpɜːmɪt",
+      "ipa_us_second": "pərˈmɪt",
+      "ipa_uk_second": "pəˈmɪt",
+      "translation_first_ru": "разрешение, пропуск (сущ.)",
+      "translation_second_ru": "разрешать (глаг.)"
+    },
+    {
+      "first_stressed": "contract",
+      "second_stressed": "contract",
+      "ipa_us_first": "ˈkɑːntrækt",
+      "ipa_uk_first": "ˈkɒntrækt",
+      "ipa_us_second": "kənˈtrækt",
+      "ipa_uk_second": "kənˈtrækt",
+      "translation_first_ru": "контракт (сущ.)",
+      "translation_second_ru": "сжиматься, заключать контракт (глаг.)"
+    },
+    {
+      "first_stressed": "import",
+      "second_stressed": "import",
+      "ipa_us_first": "ˈɪmpɔːrt",
+      "ipa_uk_first": "ˈɪmpɔːt",
+      "ipa_us_second": "ɪmˈpɔːrt",
+      "ipa_uk_second": "ɪmˈpɔːt",
+      "translation_first_ru": "импорт (сущ.)",
+      "translation_second_ru": "импортировать (глаг.)"
+    },
+    {
+      "first_stressed": "insult",
+      "second_stressed": "insult",
+      "ipa_us_first": "ˈɪnsʌlt",
+      "ipa_uk_first": "ˈɪnsʌlt",
+      "ipa_us_second": "ɪnˈsʌlt",
+      "ipa_uk_second": "ɪnˈsʌlt",
+      "translation_first_ru": "оскорбление (сущ.)",
+      "translation_second_ru": "оскорблять (глаг.)"
+    },
+    {
+      "first_stressed": "desert",
+      "second_stressed": "desert",
+      "ipa_us_first": "ˈdezərt",
+      "ipa_uk_first": "ˈdezət",
+      "ipa_us_second": "dɪˈzɜːrt",
+      "ipa_uk_second": "dɪˈzɜːt",
+      "translation_first_ru": "пустыня (сущ.)",
+      "translation_second_ru": "покидать, дезертировать (глаг.)"
+    }
+  ]
+}
