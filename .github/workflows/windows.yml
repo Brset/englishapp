@@ -71,6 +71,15 @@ jobs:
             if (-not (Test-Path "publish/$f")) { throw "missing $f in publish output" }
           }
 
+      - name: Bundle VC++ runtime from VS redist
+        shell: pwsh
+        run: |
+          $redist = Get-ChildItem "${env:ProgramFiles}\Microsoft Visual Studio\*\*\VC\Redist\MSVC\*\x64\Microsoft.VC14*.CRT" -Directory -ErrorAction SilentlyContinue | Sort-Object FullName | Select-Object -Last 1
+          if (-not $redist) { Write-Warning 'VS redist CRT folder not found'; return }
+          foreach ($n in 'vcruntime140.dll','vcruntime140_1.dll','msvcp140.dll') {
+            if (Test-Path "$($redist.FullName)\$n") { Copy-Item "$($redist.FullName)\$n" publish/ -Force; Write-Host "vcrt: $n" }
+          }
+
       - name: Zip
         shell: pwsh
         run: Compress-Archive -Path publish/* -DestinationPath EnglishApp-win-x64.zip
@@ -79,3 +88,35 @@ jobs:
         with:
           name: EnglishApp-win-x64
           path: EnglishApp-win-x64.zip
+
+      - uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      - name: Verify bundle contents and DLL imports
+        shell: pwsh
+        run: python tools/ci/check_win_bundle.py publish --engine-dir build/engine/Release
+        # Runs after the upload so a bug in a check never withholds the build.
+
+      - name: Launch smoke test
+        shell: pwsh
+        run: |
+          $exe = (Resolve-Path 'publish/EnglishApp.exe').Path
+          $start = Get-Date
+          $p = Start-Process -FilePath $exe -WorkingDirectory (Split-Path $exe) -PassThru
+          Start-Sleep -Seconds 25
+          $p.Refresh()
+          if (-not $p.HasExited) {
+            Write-Host "PASS: EnglishApp.exe still running after 25 s (pid $($p.Id))"
+            Stop-Process -Id $p.Id -Force
+          } else {
+            Write-Host "FAIL: EnglishApp.exe exited early with code $($p.ExitCode)"
+            Write-Host '--- Application event log ---'
+            Get-WinEvent -LogName Application -MaxEvents 30 -ErrorAction SilentlyContinue |
+              Where-Object { $_.ProviderName -match '\.NET Runtime|Application Error|Windows Error Reporting|SideBySide' -or $_.TimeCreated -ge $start } |
+              ForEach-Object { "[$($_.TimeCreated)] $($_.ProviderName) ($($_.Id)): $($_.Message)"; '' }
+            Write-Host '--- crash logs under %LOCALAPPDATA%\EnglishApp ---'
+            Get-ChildItem "$env:LOCALAPPDATA\EnglishApp" -Recurse -File -ErrorAction SilentlyContinue |
+              ForEach-Object { Write-Host "== $($_.FullName)"; Get-Content $_.FullName -Tail 200 }
+            exit 1
+          }

@@ -12,16 +12,29 @@ public partial class App : Application
         InitializeComponent();
         UnhandledException += (_, e) =>
         {
-            try { File.AppendAllText(Path.Combine(AppPaths.UserDir, "crash.log"), e.Exception + Environment.NewLine); } catch { }
+            Diagnostics.LogException("Application", e.Exception);
+            e.Handled = true;
         };
     }
 
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
-        Directory.CreateDirectory(AppPaths.UserDir);
-        AppServices.Init();
-        MainWindow = new MainWindow();
-        MainWindow.Activate();
-        MainWindow.ApplyTheme(AppServices.Settings.Theme);
+        try
+        {
+            Diagnostics.Log("OnLaunched");
+            Directory.CreateDirectory(AppPaths.UserDir);
+            AppServices.Init();
+            Diagnostics.Log("db opened (content available: " + AppServices.Repo.ContentAvailable + ", " + AppServices.Repo.ContentError + ")");
+            MainWindow = new MainWindow();
+            MainWindow.Activate();
+            MainWindow.ApplyTheme(AppServices.Settings.Theme);
+            Diagnostics.Log("window created");
+        }
+        catch (Exception ex)
+        {
+            Diagnostics.LogException("OnLaunched", ex);
+            Diagnostics.ShowFatal("Ошибка запуска: " + ex.Message);
+            Environment.Exit(1);
+        }
     }
 }

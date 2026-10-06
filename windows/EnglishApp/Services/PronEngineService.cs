@@ -68,11 +68,14 @@ public sealed class PronEngineService
                 var js = Take(NativeMethods.pron_engine_status(h));
                 Status = js == null ? null : EngineStatus.Parse(js);
                 _h = h;
+                Diagnostics.Log("engine created: " + (Status?.ToRussian().Replace(Environment.NewLine, "; ") ?? "no status"));
             }
             catch (Exception ex)
             {
                 Error = ex is DllNotFoundException or BadImageFormatException or EntryPointNotFoundException
                     ? "Не удалось загрузить pron_engine.dll: " + ex.Message : ex.Message;
+                Diagnostics.LogException("engine create", ex);
+                Diagnostics.Log("engine created: FAILED " + Error);
             }
             finally { _ready.TrySetResult(); }
         });

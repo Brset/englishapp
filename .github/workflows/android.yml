@@ -52,3 +52,10 @@ jobs:
           name: EnglishApp-android
           path: android/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+      - name: Verify built APK
+        run: |
+          APK=$(ls android/app/build/outputs/apk/debug/*.apk | head -n1)
+          python tools/ci/check_apk.py "$APK" \
+            --readelf "$ANDROID_SDK_ROOT/ndk/27.2.12479018/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf" \
+            --aapt2 "$ANDROID_SDK_ROOT/build-tools/35.0.0/aapt2"
