@@ -11,6 +11,9 @@ concurrency:
   group: windows-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: windows-latest
@@ -88,6 +91,20 @@ jobs:
           path: publish/
           if-no-files-found: error
           compression-level: 6
+
+      # Single, standard zip as a release asset (7-Zip is preinstalled on the runner).
+      - name: Publish zip as a GitHub release
+        if: github.event_name != 'pull_request'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $tag = "windows-${{ github.run_number }}"
+          Push-Location publish
+          7z a -tzip "..\EnglishApp-$tag.zip" * | Out-Null
+          Pop-Location
+          $short = (git rev-parse --short HEAD)
+          gh release create $tag "EnglishApp-$tag.zip" --target "${{ github.sha }}" --title "Windows ${{ github.run_number }} ($short)" --notes "Unzip the whole archive and run EnglishApp.exe. Commit ${{ github.sha }}."
 
       - uses: ilammy/msvc-dev-cmd@v1
         with:

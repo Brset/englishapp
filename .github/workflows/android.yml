@@ -11,6 +11,9 @@ concurrency:
   group: android-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,6 +55,18 @@ jobs:
           name: EnglishApp-android
           path: android/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
+
+      # Plain .apk download (no zip): phones often fail to extract a 500 MB artifact zip.
+      - name: Publish APK as a GitHub release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="android-${{ github.run_number }}"
+          cp android/app/build/outputs/apk/debug/app-debug.apk "EnglishApp-${TAG}.apk"
+          gh release create "$TAG" "EnglishApp-${TAG}.apk" --target "${{ github.sha }}" \
+            --title "Android ${{ github.run_number }} ($(git rev-parse --short HEAD))" \
+            --notes "Debug APK with bundled models, commit ${{ github.sha }}. Download the .apk and install it."
 
       - name: Verify built APK
         run: |
