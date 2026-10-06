@@ -1,0 +1,122 @@
+{
+  "id": "c1-dialogue-03",
+  "level": "C1",
+  "genre": "dialogue",
+  "title_en": "The Chestnut Tree",
+  "title_ru": "Каштан за забором",
+  "description_ru": "Две соседки спорят из-за старого дерева, но находят достойный компромисс, учитывающий память и безопасность.",
+  "text": "Mrs Alder: Good morning, Mr Patel. I wonder if you have a moment. It concerns the chestnut tree.\nRohan: Of course, Mrs Alder. Is something wrong?\nMrs Alder: Not wrong, exactly. But its branches now hang over my greenhouse, and the council's letter says you intend to have it felled.\nRohan: Ah. I did apply, yes. I'm sorry you heard it from a letter rather than from me.\nMrs Alder: I confess that did sting a little. That tree was here before either of us.\nRohan: It was, and I'm fond of it too. The trouble is the roots. The surveyor says they've begun lifting the foundations at the back of my house. There's a crack above the kitchen window you could slip a coin into.\nMrs Alder: Good heavens. I had no idea it was that serious.\nRohan: Neither did I until March. The repair estimate is nearly twelve thousand pounds, and the insurers won't pay while the tree remains.\nMrs Alder: I see. Has anyone suggested pruning the roots, rather than removing the whole thing?\nRohan: The surveyor mentioned it, but he thinks it would destabilise the tree and make it dangerous in a gale. Which would be worse for both of us.\nMrs Alder: Hm. My late husband planted a little oak behind it in 1987, and I'd hate for that to be damaged during any felling.\nRohan: I wasn't aware of that. I'll make certain the contractors work around it. In fact, if you like, I could pay for a replacement tree in the front garden, something with gentler roots.\nMrs Alder: That's a generous offer. What did you have in mind?\nRohan: A rowan, perhaps. Birds adore them, and the berries are lovely in autumn.\nMrs Alder: My husband would have approved. Though I'd like to choose the spot myself, if I may.\nRohan: Naturally. Shall we say we'll walk the garden together this Saturday and mark it out?\nMrs Alder: One more thing. If any branches fall during the work, my greenhouse will need a new pane or two.\nRohan: Send me the bill and consider it settled. I would also hate to lose your tomatoes.\nMrs Alder: You drive a gentle bargain for a man with a cracked kitchen.\nMrs Alder: I'd like that. And Mr Patel, next time, please knock on my door before the council writes to me.\nRohan: You have my word. I'll even bring the biscuits.\nMrs Alder: Ginger, if you've any sense.\nRohan: Ginger it is. And thank you for being so reasonable about this. I expected a much harder conversation.\nMrs Alder: So did I, to be honest. But it is difficult to stay cross with someone who admits he should have knocked first.",
+  "word_count": 419,
+  "vocabulary": [
+    {
+      "word": "felled",
+      "ipa_us": "feld",
+      "ipa_uk": "feld",
+      "translation_ru": "срубленный"
+    },
+    {
+      "word": "foundations",
+      "ipa_us": "faʊnˈdeɪʃnz",
+      "ipa_uk": "faʊnˈdeɪʃnz",
+      "translation_ru": "фундамент"
+    },
+    {
+      "word": "surveyor",
+      "ipa_us": "sərˈveɪər",
+      "ipa_uk": "səˈveɪə",
+      "translation_ru": "оценщик, землемер"
+    },
+    {
+      "word": "destabilise",
+      "ipa_us": "diːˈsteɪbəlaɪz",
+      "ipa_uk": "diːˈsteɪbəlaɪz",
+      "translation_ru": "дестабилизировать"
+    },
+    {
+      "word": "pruning",
+      "ipa_us": "ˈpruːnɪŋ",
+      "ipa_uk": "ˈpruːnɪŋ",
+      "translation_ru": "обрезка"
+    },
+    {
+      "word": "contractors",
+      "ipa_us": "ˈkɑːntræktərz",
+      "ipa_uk": "kənˈtræktəz",
+      "translation_ru": "подрядчики"
+    },
+    {
+      "word": "gale",
+      "ipa_us": "ɡeɪl",
+      "ipa_uk": "ɡeɪl",
+      "translation_ru": "штормовой ветер"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "eɪ",
+      "examples": [
+        "gale",
+        "planted",
+        "Saturday"
+      ],
+      "tip_ru": "Это дифтонг: начните с «э» и плавно перейдите к краткому «и». Не произносите чистое русское «э»."
+    },
+    {
+      "sound": "aʊ",
+      "examples": [
+        "foundations",
+        "house",
+        "council"
+      ],
+      "tip_ru": "Дифтонг: начните с открытого «а» и скользните к «у», не заканчивайте на «в»."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "oak",
+        "over",
+        "no"
+      ],
+      "tip_ru": "Дифтонг: от нейтрального «э» к «у», губы округляются к концу, не русское чистое «о»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Rohan plan to do with the chestnut tree?",
+      "answer": "Have it cut down.",
+      "accepted_keywords": [
+        "felled",
+        "cut",
+        "remove",
+        "removed",
+        "down"
+      ]
+    },
+    {
+      "question": "Why does he want to do it?",
+      "answer": "The roots are damaging the foundations of his house.",
+      "accepted_keywords": [
+        "roots",
+        "foundations",
+        "crack",
+        "damage",
+        "damaging"
+      ]
+    },
+    {
+      "question": "What did Mrs Alder's husband plant?",
+      "answer": "A little oak tree.",
+      "accepted_keywords": [
+        "oak"
+      ]
+    },
+    {
+      "question": "What replacement does Rohan offer?",
+      "answer": "A rowan tree in the front garden.",
+      "accepted_keywords": [
+        "rowan",
+        "tree"
+      ]
+    }
+  ]
+}

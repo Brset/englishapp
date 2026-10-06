@@ -1,0 +1,124 @@
+{
+  "id": "c1-dialogue-01",
+  "level": "C1",
+  "genre": "dialogue",
+  "title_en": "The Fourteenth Is a Wish",
+  "title_ru": "Четырнадцатое — это пожелание",
+  "description_ru": "Сотрудница честно объясняет начальнику, почему срок запуска проекта нереален, и предлагает два варианта выхода.",
+  "text": "Gordon: Maya, thanks for stopping by. I wanted to talk about the Hartley launch before it gets away from us.\nMaya: I assumed as much. If this is about the fourteenth, I'd rather raise my concerns now than apologise in three weeks.\nGordon: Go on, then. I'd rather hear them.\nMaya: The fourteenth isn't a deadline so much as a wish. We're still waiting on the legal review, the translations aren't finalised, and the payment system has only been tested with a handful of dummy accounts.\nGordon: Those all sound like details to me. The client has already told their board we're launching that week.\nMaya: Then the client has made a promise on our behalf without consulting us. That's not a detail, that's a risk, and it's ours.\nGordon: You're not wrong. But if I go back and ask for another month, they'll start wondering whether we're competent.\nMaya: They'll wonder far more if the checkout fails on the first morning. Imagine the headlines. Imagine the refund requests.\nGordon: Fair point. So what are you proposing, exactly? I don't want a complaint without a plan.\nMaya: Two options. We could launch on schedule with a reduced feature set: no loyalty scheme, no second language, and a visible \"beta\" label. Or we move to the twenty-eighth and launch everything properly.\nGordon: And which would you choose, if it were your name on the contract?\nMaya: Honestly, the second. A partial launch usually gets remembered as a failed launch, whatever the label says. Fourteen days is cheap insurance.\nGordon: What if the client refuses?\nMaya: Then we show them the test results. Numbers tend to be more persuasive than opinions, and ours are not flattering.\nGordon: Hm. I'll admit I was hoping you'd tell me it was all manageable.\nMaya: I could, but I'd be lying, and you'd discover it at the worst possible moment.\nGordon: Which is exactly why I value you, irritating as it is. All right. Draft a one-page summary of the risks, with both options, and I'll take it to the client on Friday.\nMaya: I can have it by tomorrow afternoon. Would you like me to join the call?\nGordon: Perhaps for the technical questions. Leave the diplomacy to me.\nMaya: That seems a sensible division of labour. Thank you for hearing me out.\nGordon: Thank you for not letting me walk off a cliff politely. Most people would have simply nodded and let the deadline do the talking.\nMaya: I considered it for about a second. Then I remembered who would be answering the phone at midnight on the fourteenth.\nGordon: Fair enough. Let's make sure it isn't either of us.",
+  "word_count": 425,
+  "vocabulary": [
+    {
+      "word": "finalised",
+      "ipa_us": "ˈfaɪnəlaɪzd",
+      "ipa_uk": "ˈfaɪnəlaɪzd",
+      "translation_ru": "доработаны, утверждены"
+    },
+    {
+      "word": "competent",
+      "ipa_us": "ˈkɑːmpɪtənt",
+      "ipa_uk": "ˈkɒmpɪtənt",
+      "translation_ru": "компетентный"
+    },
+    {
+      "word": "persuasive",
+      "ipa_us": "pərˈsweɪsɪv",
+      "ipa_uk": "pəˈsweɪsɪv",
+      "translation_ru": "убедительный"
+    },
+    {
+      "word": "flattering",
+      "ipa_us": "ˈflætərɪŋ",
+      "ipa_uk": "ˈflætərɪŋ",
+      "translation_ru": "лестный"
+    },
+    {
+      "word": "manageable",
+      "ipa_us": "ˈmænɪdʒəbl",
+      "ipa_uk": "ˈmænɪdʒəbl",
+      "translation_ru": "выполнимый"
+    },
+    {
+      "word": "irritating",
+      "ipa_us": "ˈɪrɪteɪtɪŋ",
+      "ipa_uk": "ˈɪrɪteɪtɪŋ",
+      "translation_ru": "раздражающий"
+    },
+    {
+      "word": "insurance",
+      "ipa_us": "ɪnˈʃʊrəns",
+      "ipa_uk": "ɪnˈʃʊərəns",
+      "translation_ru": "страховка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "board",
+        "made",
+        "told"
+      ],
+      "tip_ru": "Звонкие согласные на конце не оглушайте: в board и told звук «d» остаётся звонким, а предыдущая гласная чуть длиннее."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "persuasive",
+        "competent",
+        "manageable"
+      ],
+      "tip_ru": "Ударение: perˈsuasive, ˈcompetent, ˈmanageable. Безударные слоги сокращайте до краткого «ə»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thanks",
+        "month",
+        "three"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, звук глухой, без «с» и «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Maya think of the fourteenth?",
+      "answer": "It is a wish rather than a real deadline.",
+      "accepted_keywords": [
+        "wish",
+        "unrealistic",
+        "deadline"
+      ]
+    },
+    {
+      "question": "What two options does Maya offer?",
+      "answer": "Launch on time with fewer features, or move to the twenty-eighth.",
+      "accepted_keywords": [
+        "twenty-eighth",
+        "28th",
+        "fewer",
+        "reduced",
+        "delay"
+      ]
+    },
+    {
+      "question": "Which option would Maya choose?",
+      "answer": "The second one: the later date.",
+      "accepted_keywords": [
+        "second",
+        "later",
+        "twenty-eighth",
+        "delay"
+      ]
+    },
+    {
+      "question": "What will Maya prepare for Gordon?",
+      "answer": "A one-page summary of the risks.",
+      "accepted_keywords": [
+        "summary",
+        "risks",
+        "one-page"
+      ]
+    }
+  ]
+}

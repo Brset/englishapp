@@ -1,0 +1,120 @@
+{
+  "id": "c1-travel-04",
+  "level": "C1",
+  "genre": "travel",
+  "title_en": "Two Days on the Mekong",
+  "title_ru": "Два дня на Меконге",
+  "description_ru": "Двухдневное плавание на медленной лодке по Меконгу из Хуайсая в Луангпхабанг: пейзажи, ночёвка в Пакбенге и размышления об изменяющейся реке.",
+  "text": "There are faster ways to travel from the Thai border to the Lao city of Luang Prabang, but the slow boat down the Mekong is the one that people remember. It takes two days, with a night at a riverside village called Pakbeng, and it begins, as such journeys often do, in chaos. At the jetty in Huay Xai, backpackers clutching crumpled tickets jostled for position, while porters hauled sacks of rice, crates of beer, and, on my boat, a rather indignant chicken.\n\nThe vessel itself was long, narrow, and wooden, with a low roof and benches salvaged, I suspected, from retired buses. Within an hour, the engine's relentless drone had faded into the background, replaced by the landscape: limestone cliffs veiled in morning haze, forested slopes, and sandbanks where water buffalo stood knee-deep and surveyed our progress with unfeigned contempt. Fishermen in narrow canoes lifted their hands in greeting. Children playing at a village jetty ran along the bank, shrieking and waving, until the river carried us out of sight.\n\nThe Mekong is not merely scenery. It rises on the Tibetan plateau and travels nearly five thousand kilometres to the South China Sea, sustaining tens of millions of people along its course. Its seasonal rhythm of floods and retreating waters has shaped agriculture, diet, and festival for centuries. Yet the river is changing. Dams built upstream now alter the flow and trap sediment, and fishermen told us, through a patient translator, that catches are smaller than they once were. A woman selling grilled river weed on the Pakbeng pier shrugged when I asked about it. \"My father fished,\" she said. \"Now my son drives a motorbike.\"\n\nPakbeng itself is a single steep street, lined with guesthouses and restaurants whose menus are written in three languages and agree on nothing. I ate a plate of sticky rice and larb, a salad of minced pork tangy with lime and herbs, on a terrace overlooking the water. The electricity failed twice during dinner, and nobody even paused in their conversation. As the dusk deepened, the only illumination was candlelight, and the stars emerging above the dark bulk of the hills.\n\nThe second day was longer and, strangely, easier. Having surrendered to the pace of the boat, I read, dozed, and watched the banks drift by. A Dutch couple taught a Lao schoolboy a card game; a monk in saffron robes studied a smartphone with gentle concentration. By the time we reached Luang Prabang in the late afternoon, the sun was low and golden, and the city's temple roofs glittered above the confluence of the Mekong and the Nam Khan.\n\nI had read that the journey was an ordeal, and perhaps for some it is. For me it was a rare reminder that distance can be a pleasure, rather than an inconvenience to be eliminated. We arrived slightly stiff, sunburnt, and a little reluctant to disembark. That, I think, is the true measure of a good journey.",
+  "word_count": 495,
+  "vocabulary": [
+    {
+      "word": "jostled",
+      "ipa_us": "ˈdʒɑːsld",
+      "ipa_uk": "ˈdʒɒsld",
+      "translation_ru": "толкались"
+    },
+    {
+      "word": "indignant",
+      "ipa_us": "ɪnˈdɪɡnənt",
+      "ipa_uk": "ɪnˈdɪɡnənt",
+      "translation_ru": "возмущённый"
+    },
+    {
+      "word": "salvaged",
+      "ipa_us": "ˈsælvɪdʒd",
+      "ipa_uk": "ˈsælvɪdʒd",
+      "translation_ru": "спасённый, снятый с чего-то"
+    },
+    {
+      "word": "relentless",
+      "ipa_us": "rɪˈlentləs",
+      "ipa_uk": "rɪˈlentləs",
+      "translation_ru": "неумолимый"
+    },
+    {
+      "word": "sediment",
+      "ipa_us": "ˈsedɪmənt",
+      "ipa_uk": "ˈsedɪmənt",
+      "translation_ru": "осадок, наносы"
+    },
+    {
+      "word": "confluence",
+      "ipa_us": "ˈkɑːnfluəns",
+      "ipa_uk": "ˈkɒnfluəns",
+      "translation_ru": "слияние рек"
+    },
+    {
+      "word": "ordeal",
+      "ipa_us": "ɔːrˈdiːl",
+      "ipa_uk": "ɔːˈdiːl",
+      "translation_ru": "тяжёлое испытание"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vessel",
+        "village",
+        "river"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; на конце слова не оглушайте."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "relentless",
+        "rare"
+      ],
+      "tip_ru": "Не вибрируйте кончиком языка: оттяните его назад, не касаясь нёба, губы чуть округлите."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "indignant",
+        "confluence",
+        "relentless"
+      ],
+      "tip_ru": "Ударение: inˈdignant, ˈconfluence, reˈlentless. Первый слог в relentless безударный и краткий."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long does the slow boat journey last?",
+      "answer": "Two days.",
+      "accepted_keywords": [
+        "two",
+        "days"
+      ]
+    },
+    {
+      "question": "Where do the passengers spend the night?",
+      "answer": "In the village of Pakbeng.",
+      "accepted_keywords": [
+        "pakbeng",
+        "village"
+      ]
+    },
+    {
+      "question": "What are the fishermen worried about?",
+      "answer": "Dams upstream alter the flow, and catches are smaller.",
+      "accepted_keywords": [
+        "dams",
+        "catches",
+        "smaller",
+        "flow"
+      ]
+    },
+    {
+      "question": "How did the author feel by the end of the trip?",
+      "answer": "Reluctant to disembark, convinced distance can be a pleasure.",
+      "accepted_keywords": [
+        "reluctant",
+        "pleasure",
+        "disembark"
+      ]
+    }
+  ]
+}

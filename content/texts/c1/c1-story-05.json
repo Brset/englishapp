@@ -1,0 +1,119 @@
+{
+  "id": "c1-story-05",
+  "level": "C1",
+  "genre": "story",
+  "title_en": "Dr Frost at 02:40",
+  "title_ru": "Доктор Фрост в 02:40",
+  "description_ru": "Метеоролог в одиночестве на горной станции пытается объяснить загадочный порыв ветра, который фиксируется каждую ночь.",
+  "text": "Dr Imre Kovacs had chosen the station on Mount Halvard precisely because it was lonely. For eight months, he would be the only human being within ninety kilometres, tasked with maintaining a cluster of instruments that measured wind, pressure, and the slow chemistry of the upper air. He had packed forty books, a chess set, and no expectations of company.\n\nFor the first weeks, solitude agreed with him. He rose before dawn, calibrated the sensors, and logged the data with the satisfaction of a man whose work was both necessary and unobserved. The radio link to the valley crackled twice a day, and he kept those exchanges brisk. In the evenings he played chess against himself and, with some irritation, lost more often than he won. Nobody else was there to witness it.\n\nThen, in the fifth week, an anomaly appeared in the readings. Every night at precisely 02:40, the anemometer on the northern mast recorded a single sharp gust, even on windless nights. Imre assumed a fault, replaced the sensor, and found that the gust persisted. He checked the wiring, the software, and finally the mast itself, climbing in a freezing pre-dawn gale with numb, clumsy fingers. Nothing was wrong.\n\nBy the seventh week, the mystery had consumed him. He set up a camera, trained on the mast, and waited. At 02:40, in the infrared glow, a snowy owl alighted on the crossbar, shook out its feathers with an almost theatrical shudder, and remained there for exactly one minute before drifting off. Its landing had been triggering the sensor each night.\n\nHe laughed aloud, the sound startling in the silent room. Then, to his own bemusement, he found his eyes stinging. For weeks, he realised, he had been convinced that nothing in this place knew he was there. And all that time, a creature had been keeping an appointment with his instruments, as faithful as any colleague.\n\nHe began to leave a small ledge near the mast, and then, absurdly, a name for the owl: Dr Frost. He logged its arrivals in a separate column, not because science required it, but because the record felt incomplete without it. When the supply flight finally came in spring, the pilot asked what he had learned from eight months alone.\n\nImre thought about the data, the pressure curves, the carefully calibrated numbers. \"That an anomaly,\" he said slowly, \"is just something you haven't yet been introduced to.\"\n\nThe pilot laughed, assuming it was a joke. Imre let him.",
+  "word_count": 415,
+  "vocabulary": [
+    {
+      "word": "solitude",
+      "ipa_us": "ˈsɑːlətuːd",
+      "ipa_uk": "ˈsɒlɪtjuːd",
+      "translation_ru": "уединение"
+    },
+    {
+      "word": "calibrated",
+      "ipa_us": "ˈkæləbreɪtɪd",
+      "ipa_uk": "ˈkælɪbreɪtɪd",
+      "translation_ru": "откалибровал"
+    },
+    {
+      "word": "anomaly",
+      "ipa_us": "əˈnɑːməli",
+      "ipa_uk": "əˈnɒməli",
+      "translation_ru": "аномалия"
+    },
+    {
+      "word": "anemometer",
+      "ipa_us": "ˌænəˈmɑːmɪtər",
+      "ipa_uk": "ˌænɪˈmɒmɪtə",
+      "translation_ru": "анемометр"
+    },
+    {
+      "word": "persisted",
+      "ipa_us": "pərˈsɪstɪd",
+      "ipa_uk": "pəˈsɪstɪd",
+      "translation_ru": "продолжался, упорствовал"
+    },
+    {
+      "word": "bemusement",
+      "ipa_us": "bɪˈmjuːzmənt",
+      "ipa_uk": "bɪˈmjuːzmənt",
+      "translation_ru": "недоумение"
+    },
+    {
+      "word": "theatrical",
+      "ipa_us": "θiˈætrɪkl",
+      "ipa_uk": "θiˈætrɪkl",
+      "translation_ru": "театральный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "anemometer",
+        "anomaly",
+        "calibrated"
+      ],
+      "tip_ru": "Ударение: aneˈmometer, aˈnomaly, ˈcalibrated. Первый слог в anomaly безударный и очень краткий."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "theatrical",
+        "thought",
+        "months"
+      ],
+      "tip_ru": "Язык между зубами, без голоса. В theatrical сразу за θ идёт ударный слог: θiˈætrɪkl."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "anomaly",
+        "crackled",
+        "landing"
+      ],
+      "tip_ru": "Рот открыт шире, чем для русского «э», язык низко и впереди: звук между «а» и «э»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long will Imre stay at the station?",
+      "answer": "Eight months.",
+      "accepted_keywords": [
+        "eight",
+        "8"
+      ]
+    },
+    {
+      "question": "What triggers the nightly gust in the data?",
+      "answer": "A snowy owl landing on the mast.",
+      "accepted_keywords": [
+        "owl",
+        "bird"
+      ]
+    },
+    {
+      "question": "At what time does it happen?",
+      "answer": "At 02:40.",
+      "accepted_keywords": [
+        "02:40",
+        "2:40",
+        "night",
+        "forty"
+      ]
+    },
+    {
+      "question": "What name does Imre give the animal?",
+      "answer": "Dr Frost.",
+      "accepted_keywords": [
+        "frost",
+        "doctor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "c1-dialogue-05",
+  "level": "C1",
+  "genre": "dialogue",
+  "title_en": "Three Days at the Desk",
+  "title_ru": "Три дня в офисе",
+  "description_ru": "Двое друзей спорят о том, оправдан ли возврат в офис и как на самом деле рождаются хорошие идеи и доверие в команде.",
+  "text": "Sam: So, you've finally been summoned back to the office, I hear.\nIngrid: Three days a week, starting in January. Apparently \"collaboration\" has been suffering.\nSam: Has it?\nIngrid: Not that I've noticed. We ship the same amount of work, we've simply stopped pretending that standing next to a printer counts as teamwork.\nSam: Come on, there's something to be said for being in the same room. I've had better ideas in five minutes at a whiteboard than in five days of messages.\nIngrid: Ideas, perhaps. But think about what it costs. I spend two hours commuting, I eat a sandwich at my desk, and by the time I'm home I've nothing left for the people I actually love.\nSam: That's a fair point, but you're describing a bad commute, not a bad office.\nIngrid: Isn't it the same, for most people? Cities are expensive and offices are central. Few can live next door to work.\nSam: True. Though I'd argue that remote work has its own hidden costs. When I started in my first job, I learned most of what I know by overhearing senior colleagues. You can't overhear a video call.\nIngrid: Now that is a genuine concern. Juniors do lose out. But couldn't companies fix that with deliberate mentoring, rather than hauling everyone back to their desks?\nSam: They could, but deliberate is the operative word. Hallway wisdom is free; mentoring takes time and money.\nIngrid: And trust, which is the real issue, isn't it? A manager who insists on seeing people sitting down is a manager who measures presence instead of results.\nSam: Ouch. Though I'll concede that some of my managers did exactly that.\nIngrid: There you are. Honestly, I'd happily come in one day a week for the pleasure of lunch with colleagues. Three is simply arbitrary.\nSam: Seriously, though, is there any version of the policy you'd accept?\nIngrid: Two days, chosen by the team, and no pretending that the calendar is a measure of loyalty.\nSam: So the problem isn't the office, it's the rulebook.\nIngrid: Exactly. Rules designed to calm the anxious rather than to help the productive.\nSam: Well, if you do resign in protest, I'm keeping your spare chair. It's the only comfortable one on our floor.\nIngrid: Take it. I'll be working from a very nice café, thinking of you.\nSam: Just promise me you'll still come to the Friday quiz. Nobody else knows anything about geography.\nIngrid: Deal. Though that might be the strongest argument for the office I have heard all week.",
+  "word_count": 404,
+  "vocabulary": [
+    {
+      "word": "collaboration",
+      "ipa_us": "kəˌlæbəˈreɪʃn",
+      "ipa_uk": "kəˌlæbəˈreɪʃn",
+      "translation_ru": "сотрудничество"
+    },
+    {
+      "word": "commuting",
+      "ipa_us": "kəˈmjuːtɪŋ",
+      "ipa_uk": "kəˈmjuːtɪŋ",
+      "translation_ru": "поездки на работу"
+    },
+    {
+      "word": "overhearing",
+      "ipa_us": "ˌoʊvərˈhɪrɪŋ",
+      "ipa_uk": "ˌəʊvəˈhɪərɪŋ",
+      "translation_ru": "подслушивая, невзначай слыша"
+    },
+    {
+      "word": "deliberate",
+      "ipa_us": "dɪˈlɪbərət",
+      "ipa_uk": "dɪˈlɪbərət",
+      "translation_ru": "целенаправленный"
+    },
+    {
+      "word": "arbitrary",
+      "ipa_us": "ˈɑːrbətreri",
+      "ipa_uk": "ˈɑːbɪtrəri",
+      "translation_ru": "произвольный"
+    },
+    {
+      "word": "hauling",
+      "ipa_us": "ˈhɔːlɪŋ",
+      "ipa_uk": "ˈhɔːlɪŋ",
+      "translation_ru": "тащить"
+    },
+    {
+      "word": "concede",
+      "ipa_us": "kənˈsiːd",
+      "ipa_uk": "kənˈsiːd",
+      "translation_ru": "признавать"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "collaboration",
+        "arbitrary",
+        "deliberate"
+      ],
+      "tip_ru": "Ударение: collaboˈration (на предпоследнем слоге), ˈarbitrary (на первом), у прилагательного deˈliberate ударение на втором слоге."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "three",
+        "thinking"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, звук глухой; не «с» и не «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "whiteboard",
+        "wisdom",
+        "work"
+      ],
+      "tip_ru": "Губы вытянуты вперёд и округлены, зубы не касаются губы; это не «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many days a week will Ingrid have to be in the office?",
+      "answer": "Three.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "What is Sam's argument for the office?",
+      "answer": "Better ideas come faster at a whiteboard, and juniors learn by overhearing colleagues.",
+      "accepted_keywords": [
+        "ideas",
+        "overhearing",
+        "learn",
+        "whiteboard"
+      ]
+    },
+    {
+      "question": "What does Ingrid think the real issue is?",
+      "answer": "Trust: managers measuring presence instead of results.",
+      "accepted_keywords": [
+        "trust",
+        "presence"
+      ]
+    },
+    {
+      "question": "What would Ingrid be happy with?",
+      "answer": "Coming in one day a week.",
+      "accepted_keywords": [
+        "one",
+        "day"
+      ]
+    }
+  ]
+}

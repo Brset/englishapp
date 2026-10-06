@@ -1,0 +1,115 @@
+{
+  "id": "c1-story-04",
+  "level": "C1",
+  "genre": "story",
+  "title_en": "Salt to Taste",
+  "title_ru": "Соль по вкусу",
+  "description_ru": "После смерти бабушки внучка получает карточку с рецептом из трёх слов. Годы попыток помогают ей понять, что на самом деле там написано.",
+  "text": "When my grandmother died, she left me no jewellery, no money to speak of, and a single index card in her cramped handwriting. The card read: Fish stew. Salt to taste. That was the entire recipe, and it infuriated me.\n\nI should explain that my grandmother, Marit, was a woman of famously few words. She had grown up on a northern island where the winters swallowed entire months, and she believed conversation to be a kind of waste, like leaving a lamp burning in an empty room. Her love expressed itself obliquely, through food. Every Sunday, without fail, she made her stew, and every Sunday the family gathered around her table, eating in a contented, almost reverent hush.\n\nAfter the funeral, I resolved to reproduce it. How hard could it be? I bought cod, potatoes, leeks, and a bottle of expensive white wine, and I produced something that was perfectly edible and entirely wrong. It lacked depth. It lacked, I thought, her.\n\nOver the following year, I made the stew more than forty times. I consulted cookbooks, interrogated my aunts, and even travelled to the island, where a neighbour informed me that Marit had never once measured anything. \"She tasted,\" the woman said with a shrug. \"Then she waited. Then she tasted again.\"\n\nIt was the waiting that I had missed. On my forty-third attempt, exhausted and a little tearful, I let the stew sit on the lowest flame for an hour longer than any sensible person would. The kitchen filled with a steam that smelled, quite suddenly, of childhood: woodsmoke, damp wool, the faint sweetness of the sea. I tasted it. Then, as the neighbour had said, I waited, and I tasted again. It needed salt. Not much; barely a pinch. But the moment it touched my tongue, the flavour came together in a way that made me sit down on the kitchen floor.\n\nI understood then what the card meant. Salt to taste was not a recipe at all. It was an instruction to pay attention, to stay in the room, to be patient with something until it told you what it needed. It was, in its economical way, the longest thing she had ever said to me.\n\nThese days, I cook the stew on Sundays for my own children, who eat it noisily and with far too much commentary. I have not written the recipe down. When they ask, I give them a spoon, and I tell them to taste, and to wait.",
+  "word_count": 417,
+  "vocabulary": [
+    {
+      "word": "infuriated",
+      "ipa_us": "ɪnˈfjʊrieɪtɪd",
+      "ipa_uk": "ɪnˈfjʊərieɪtɪd",
+      "translation_ru": "привело в ярость"
+    },
+    {
+      "word": "obliquely",
+      "ipa_us": "əˈbliːkli",
+      "ipa_uk": "əˈbliːkli",
+      "translation_ru": "косвенно, окольным путём"
+    },
+    {
+      "word": "reverent",
+      "ipa_us": "ˈrevərənt",
+      "ipa_uk": "ˈrevərənt",
+      "translation_ru": "благоговейный"
+    },
+    {
+      "word": "edible",
+      "ipa_us": "ˈedəbl",
+      "ipa_uk": "ˈedɪbl",
+      "translation_ru": "съедобный"
+    },
+    {
+      "word": "interrogated",
+      "ipa_us": "ɪnˈterəɡeɪtɪd",
+      "ipa_uk": "ɪnˈterəɡeɪtɪd",
+      "translation_ru": "допрашивал, расспрашивал"
+    },
+    {
+      "word": "economical",
+      "ipa_us": "ˌekəˈnɑːmɪkl",
+      "ipa_uk": "ˌiːkəˈnɒmɪkl",
+      "translation_ru": "экономный, немногословный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "months",
+        "thought",
+        "something"
+      ],
+      "tip_ru": "Кончик языка слегка высунут между зубами, звук глухой; в months язык остаётся между зубами до конца."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "taste",
+        "pinch",
+        "kitchen"
+      ],
+      "tip_ru": "В начале слога «p», «t», «k» произносите с лёгким выдохом, как будто после них есть тихое «х»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "economical",
+        "interrogated",
+        "obliquely"
+      ],
+      "tip_ru": "Ударение: ˌecoˈnomical, inˈterrogated, oˈbliquely. Ударный слог длиннее и выше по тону."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was written on the index card?",
+      "answer": "Fish stew. Salt to taste.",
+      "accepted_keywords": [
+        "stew",
+        "salt",
+        "taste"
+      ]
+    },
+    {
+      "question": "Where did Marit grow up?",
+      "answer": "On a northern island.",
+      "accepted_keywords": [
+        "island",
+        "northern"
+      ]
+    },
+    {
+      "question": "What had the narrator missed in the recipe?",
+      "answer": "The waiting, being patient.",
+      "accepted_keywords": [
+        "waiting",
+        "wait",
+        "patience",
+        "patient"
+      ]
+    },
+    {
+      "question": "How many attempts did the narrator make before succeeding?",
+      "answer": "Forty-three.",
+      "accepted_keywords": [
+        "forty",
+        "43",
+        "forty-three"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "c1-dialogue-02",
+  "level": "C1",
+  "genre": "dialogue",
+  "title_en": "Second Acts",
+  "title_ru": "Вторые акты",
+  "description_ru": "Ведущий подкаста беседует с основателем разорившегося стартапа, который честно рассказывает о собственных ошибках.",
+  "text": "Jo: Welcome back to Second Acts, the show where people tell us about their failures without flinching. Today's guest founded a food-delivery company that burned through eleven million pounds in under three years. Kemal, welcome.\nKemal: Thanks, Jo. Though I must say, you make it sound far more glamorous than it felt.\nJo: Let's start at the top. What did you believe, in the beginning, that turned out not to be true?\nKemal: That growth was the same thing as success. We were adding thousands of customers a month, and every graph pointed upward, so we assumed we were winning. What we ignored was that we lost money on every single order.\nJo: Surely someone in the company noticed that.\nKemal: Several people did. One finance analyst even wrote a memo. I remember reading it on a Sunday and thinking, she's being overly cautious. I filed it under \"worries for later\".\nJo: And later arrived.\nKemal: Rather abruptly. Our biggest investor pulled out, and within six weeks I was standing in a car park telling ninety-four employees that the salaries wouldn't be paid.\nJo: That must have been unbearable.\nKemal: It was the worst afternoon of my career. Nobody shouted, which somehow made it harder. One driver simply shook my hand and thanked me for the work.\nJo: What did you do afterwards? Many founders vanish.\nKemal: I wanted to. For about four months I barely left the house. Then a friend suggested I write down, honestly, every wrong decision I'd made. It filled thirty pages, and the strange thing was that none of them were technical errors. They were all errors of vanity, really. Refusing advice, hiring people who agreed with me, mistaking confidence for competence.\nJo: Do you feel any gratitude for it now, or is that too neat?\nKemal: A little neat, perhaps. But yes, in a bruised sort of way. I'm running a much smaller company now, a repair workshop for bicycles, and I know precisely what every repair costs.\nJo: A modest ambition, after eleven million pounds.\nKemal: Modest, profitable, and I sleep rather well. If I could talk to my younger self, I'd say that being wrong isn't the disaster. Being wrong and refusing to look is.\nJo: A fine place to end. Kemal, thank you for your candour.\nKemal: My pleasure. And Jo, do keep the tissues away from the microphone next time.\nJo: Noted. Listeners, if you've enjoyed this conversation, tell a friend who is thinking of starting something.\nKemal: And tell them to read the memo.",
+  "word_count": 407,
+  "vocabulary": [
+    {
+      "word": "flinching",
+      "ipa_us": "ˈflɪntʃɪŋ",
+      "ipa_uk": "ˈflɪntʃɪŋ",
+      "translation_ru": "вздрагивая, уклоняясь"
+    },
+    {
+      "word": "glamorous",
+      "ipa_us": "ˈɡlæmərəs",
+      "ipa_uk": "ˈɡlæmərəs",
+      "translation_ru": "гламурный"
+    },
+    {
+      "word": "abruptly",
+      "ipa_us": "əˈbrʌptli",
+      "ipa_uk": "əˈbrʌptli",
+      "translation_ru": "внезапно"
+    },
+    {
+      "word": "unbearable",
+      "ipa_us": "ʌnˈberəbl",
+      "ipa_uk": "ʌnˈbeərəbl",
+      "translation_ru": "невыносимый"
+    },
+    {
+      "word": "candour",
+      "ipa_us": "ˈkændər",
+      "ipa_uk": "ˈkændə",
+      "translation_ru": "откровенность"
+    },
+    {
+      "word": "gratitude",
+      "ipa_us": "ˈɡrætɪtuːd",
+      "ipa_uk": "ˈɡrætɪtjuːd",
+      "translation_ru": "благодарность"
+    },
+    {
+      "word": "bruised",
+      "ipa_us": "bruːzd",
+      "ipa_uk": "bruːzd",
+      "translation_ru": "ушибленный, израненный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ʌ",
+      "examples": [
+        "abruptly",
+        "company",
+        "money"
+      ],
+      "tip_ru": "Звук короткий, рот открыт средне, язык расслаблен в центре: что-то между «а» и «э», не русское «о»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "candour",
+        "glamorous",
+        "ambition"
+      ],
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко: звук между «а» и «э»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "wrong",
+        "really",
+        "refusing"
+      ],
+      "tip_ru": "Не вибрируйте кончиком языка; отведите его назад к нёбу, не касаясь, губы слегка округлены."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What happened to the guest's company?",
+      "answer": "It ran out of money and collapsed.",
+      "accepted_keywords": [
+        "collapsed",
+        "failed",
+        "money",
+        "bankrupt",
+        "burned"
+      ]
+    },
+    {
+      "question": "What did the finance analyst write?",
+      "answer": "A memo warning about the losses.",
+      "accepted_keywords": [
+        "memo",
+        "warning"
+      ]
+    },
+    {
+      "question": "What business does Kemal run now?",
+      "answer": "A repair workshop for bicycles.",
+      "accepted_keywords": [
+        "bicycle",
+        "bicycles",
+        "repair",
+        "workshop"
+      ]
+    },
+    {
+      "question": "What does Kemal say is worse than being wrong?",
+      "answer": "Being wrong and refusing to look.",
+      "accepted_keywords": [
+        "refusing",
+        "look"
+      ]
+    }
+  ]
+}

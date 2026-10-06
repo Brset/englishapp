@@ -1,0 +1,123 @@
+{
+  "id": "c1-travel-05",
+  "level": "C1",
+  "genre": "travel",
+  "title_en": "Lost in the Medina",
+  "title_ru": "Заблудиться в медине",
+  "description_ru": "Впечатления от Марракеша: лабиринт сугов, торг как форма гостеприимства, вечерняя площадь Джемаа-эль-Фна и тишина внутреннего дворика.",
+  "text": "Nobody arrives in Marrakech and remains a spectator. The moment you step through a gate of the old medina, the walled city with its ochre ramparts, the place seizes you by the senses. Motorbikes weave through alleys barely wider than a doorway, a vendor calls out in three languages before guessing correctly which you speak, and the smell of cedar shavings, leather, mint, and cumin follows you from one corner to the next. For the first hour, I was hopelessly lost. By the third, I had made peace with it.\n\nGetting lost is, in fact, the recommended method. The medina is a labyrinth of covered souks, each devoted to a trade: copper beaten into lanterns, slippers in pastel leather, spices stacked in perfect cones, carpets heaped like sleeping animals. My host advised me not to rely on maps. \"The phone will lie to you,\" he said, pouring tea from a height that made me nervous. \"Follow your nose, and when the shop owners shout, smile.\" It proved sound advice. The cheerful offers of help from self-appointed guides, I learned, are best met with polite firmness. A sincere \"no, thank you\", repeated three times, usually does the trick.\n\nBargaining is expected, and it is less a contest than a conversation. A merchant named Karim, in whose shop I spent an hour admiring woven blankets, treated the negotiation as a form of hospitality. We discussed football, the weather in England, and the distinction between camel hair and sheep's wool, all over glasses of sweet mint tea, before settling on a price that left us both mildly aggrieved, which he assured me was the sign of a fair deal. I left with a blanket I did not need, and I have never regretted it.\n\nAt the centre of the old city lies the square of Jemaa el-Fnaa, which by day is a modest expanse of storytellers, snake charmers, and orange-juice stalls, and by night becomes an open-air theatre. As the sun sets, hundreds of food stalls appear, sending smoke into the dusk, and the whole square hums with drums, laughter, and the hiss of grills. I sat on a plastic stool and ate lamb skewers and a bowl of harira, the thick, peppery soup traditionally served to break the fast during Ramadan, while a storyteller, surrounded by an attentive circle, spun a tale in rapid Arabic that I could not follow but somehow understood.\n\nTo escape the intensity, the Marrakchis retreat to riads, traditional houses built around quiet courtyards with fountains and orange trees. Mine was behind an unremarkable door, in an alley I could never find twice. Inside, the noise vanished, replaced by splashing water and birdsong. Such contrasts are the essence of the city: chaos on one side of a wall, calm on the other, and the sense that you are always one doorway away from either.",
+  "word_count": 480,
+  "vocabulary": [
+    {
+      "word": "ramparts",
+      "ipa_us": "ˈræmpɑːrts",
+      "ipa_uk": "ˈræmpɑːts",
+      "translation_ru": "крепостные стены"
+    },
+    {
+      "word": "labyrinth",
+      "ipa_us": "ˈlæbərɪnθ",
+      "ipa_uk": "ˈlæbərɪnθ",
+      "translation_ru": "лабиринт"
+    },
+    {
+      "word": "hospitality",
+      "ipa_us": "ˌhɑːspɪˈtæləti",
+      "ipa_uk": "ˌhɒspɪˈtæləti",
+      "translation_ru": "гостеприимство"
+    },
+    {
+      "word": "aggrieved",
+      "ipa_us": "əˈɡriːvd",
+      "ipa_uk": "əˈɡriːvd",
+      "translation_ru": "обиженный"
+    },
+    {
+      "word": "attentive",
+      "ipa_us": "əˈtentɪv",
+      "ipa_uk": "əˈtentɪv",
+      "translation_ru": "внимательный"
+    },
+    {
+      "word": "courtyards",
+      "ipa_us": "ˈkɔːrtjɑːrdz",
+      "ipa_uk": "ˈkɔːtjɑːdz",
+      "translation_ru": "внутренние дворы"
+    },
+    {
+      "word": "intensity",
+      "ipa_us": "ɪnˈtensəti",
+      "ipa_uk": "ɪnˈtensəti",
+      "translation_ru": "напряжённость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "æ",
+      "examples": [
+        "ramparts",
+        "labyrinth",
+        "camel"
+      ],
+      "tip_ru": "Рот открыт шире, чем для русского «э», язык низко и впереди: звук между «а» и «э»."
+    },
+    {
+      "sound": "ɔː",
+      "examples": [
+        "courtyards",
+        "storytellers",
+        "form"
+      ],
+      "tip_ru": "Долгий звук: губы округлены, язык отведён назад и вниз; не заменяйте коротким «о»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "hospitality",
+        "intensity",
+        "attentive"
+      ],
+      "tip_ru": "Ударение: ˌhospiˈtality (на предпоследнем слоге), inˈtensity, atˈtentive."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the author's host say about using maps?",
+      "answer": "The phone will lie to you; follow your nose.",
+      "accepted_keywords": [
+        "lie",
+        "nose",
+        "phone",
+        "maps"
+      ]
+    },
+    {
+      "question": "How does the merchant Karim treat bargaining?",
+      "answer": "As a form of hospitality, over mint tea.",
+      "accepted_keywords": [
+        "hospitality",
+        "tea",
+        "conversation"
+      ]
+    },
+    {
+      "question": "What happens in Jemaa el-Fnaa at night?",
+      "answer": "Hundreds of food stalls appear and the square becomes an open-air theatre.",
+      "accepted_keywords": [
+        "food",
+        "stalls",
+        "theatre"
+      ]
+    },
+    {
+      "question": "What does the author find inside the riad?",
+      "answer": "Quiet, with fountains, orange trees and birdsong.",
+      "accepted_keywords": [
+        "quiet",
+        "calm",
+        "fountains",
+        "silence"
+      ]
+    }
+  ]
+}

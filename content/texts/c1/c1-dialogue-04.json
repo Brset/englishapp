@@ -1,0 +1,122 @@
+{
+  "id": "c1-dialogue-04",
+  "level": "C1",
+  "genre": "dialogue",
+  "title_en": "The Blue Beneath the Signature",
+  "title_ru": "Синий под подписью",
+  "description_ru": "Реставратор обнаруживает в «шедевре» пигмент, которого не могло существовать в XVII веке, и сообщает об этом владельцу галереи.",
+  "text": "Victor: Helena, you said on the phone it was urgent. I hope the Vermeer isn't damaged.\nHelena: The painting is fine, Victor. It's the painting that worries me. Please sit down.\nVictor: That sounds ominous.\nHelena: When I removed the old varnish from the lower left corner, I found a pigment that shouldn't be there. Synthetic ultramarine. It wasn't invented until the early nineteenth century.\nVictor: And Vermeer died in 1675.\nHelena: Precisely.\nVictor: Surely a previous owner could have cleaned it badly and left a modern trace behind?\nHelena: A cleaner might add varnish, Victor, but nobody sprinkles a nineteenth-century pigment through the paint itself. It is mixed into the original layers.\nVictor: Could it be a later restoration? Somebody touching up a damaged patch?\nHelena: That was my first thought, so I took samples from three further areas. The same pigment appears in the sky, in the woman's sleeve, even under the signature.\nVictor: Under the signature?\nHelena: Which means the signature was added after the blue, not before. A forger's mistake, and a rather careless one.\nVictor: Helena, I bought this painting from a respected dealer in Geneva. It has papers, a provenance, an entry in a catalogue from 1934.\nHelena: Papers can be forged as easily as paintings. And catalogues can be mistaken, or deliberately misled. I'm not accusing anyone, I'm telling you what the chemistry says.\nVictor: What happens if I do nothing?\nHelena: Then you'd be knowingly selling a forgery, which is a crime, and I'd be obliged to document my findings. I'm sorry, but my reputation rests on honesty.\nVictor: No, no, I'm not asking you to hide anything. I'm merely trying to understand how much of my money has evaporated.\nHelena: Possibly all of it, I'm afraid. Although a skilful fake from the right period can have a value of its own, as a historical curiosity.\nVictor: A curiosity. Wonderful. I paid four million for a curiosity.\nHelena: There's another route. Let me contact an independent laboratory, quietly, to confirm the results. If they agree, you'll have grounds to pursue the dealer.\nVictor: And if they don't?\nHelena: Then I'll happily eat my words, and the varnish, if you like.\nVictor: Do it. But Helena, until then, not a word to anyone.\nVictor: How long will the tests take?\nHelena: Ten days, perhaps two weeks. In the meantime I'd keep the painting in storage and away from any buyers who might be circling.\nVictor: There is one, as it happens. A collector from Singapore, very keen.\nHelena: Then tell him you need time for conservation. It will even be true.\nVictor: Of course. Discretion is the other half of my profession.\nHelena: That was my line, but I'll allow it.",
+  "word_count": 428,
+  "vocabulary": [
+    {
+      "word": "ominous",
+      "ipa_us": "ˈɑːmɪnəs",
+      "ipa_uk": "ˈɒmɪnəs",
+      "translation_ru": "зловещий"
+    },
+    {
+      "word": "varnish",
+      "ipa_us": "ˈvɑːrnɪʃ",
+      "ipa_uk": "ˈvɑːnɪʃ",
+      "translation_ru": "лак"
+    },
+    {
+      "word": "ultramarine",
+      "ipa_us": "ˌʌltrəməˈriːn",
+      "ipa_uk": "ˌʌltrəməˈriːn",
+      "translation_ru": "ультрамарин"
+    },
+    {
+      "word": "provenance",
+      "ipa_us": "ˈprɑːvənəns",
+      "ipa_uk": "ˈprɒvənəns",
+      "translation_ru": "происхождение, история владения"
+    },
+    {
+      "word": "forger",
+      "ipa_us": "ˈfɔːrdʒər",
+      "ipa_uk": "ˈfɔːdʒə",
+      "translation_ru": "фальсификатор"
+    },
+    {
+      "word": "obliged",
+      "ipa_us": "əˈblaɪdʒd",
+      "ipa_uk": "əˈblaɪdʒd",
+      "translation_ru": "обязан"
+    },
+    {
+      "word": "evaporated",
+      "ipa_us": "ɪˈvæpəreɪtɪd",
+      "ipa_uk": "ɪˈvæpəreɪtɪd",
+      "translation_ru": "испарились"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "varnish",
+        "Vermeer",
+        "provenance"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не заменяйте на «в» с губно-губным оттенком или «ф»."
+    },
+    {
+      "sound": "ɔː",
+      "examples": [
+        "forger",
+        "forged",
+        "four"
+      ],
+      "tip_ru": "Долгий звук: губы округлены, язык слегка отведён назад; не сокращайте и не превращайте в «о»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "ultramarine",
+        "discretion",
+        "independent"
+      ],
+      "tip_ru": "Ударение: ˌultramaˈrine (побочное на первом, главное на последнем), disˈcretion, ˌindeˈpendent."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Helena find under the varnish?",
+      "answer": "A synthetic pigment, ultramarine, that did not exist in Vermeer's time.",
+      "accepted_keywords": [
+        "pigment",
+        "ultramarine",
+        "synthetic",
+        "blue"
+      ]
+    },
+    {
+      "question": "Where else does the pigment appear?",
+      "answer": "In the sky, the woman's sleeve and under the signature.",
+      "accepted_keywords": [
+        "sky",
+        "sleeve",
+        "signature"
+      ]
+    },
+    {
+      "question": "How much did Victor pay for the painting?",
+      "answer": "Four million.",
+      "accepted_keywords": [
+        "four",
+        "million"
+      ]
+    },
+    {
+      "question": "What does Helena propose to do next?",
+      "answer": "Contact an independent laboratory to confirm the results.",
+      "accepted_keywords": [
+        "laboratory",
+        "lab",
+        "confirm",
+        "independent"
+      ]
+    }
+  ]
+}

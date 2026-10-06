@@ -1,0 +1,131 @@
+{
+  "id": "c1-science-05",
+  "level": "C1",
+  "genre": "science",
+  "title_en": "The Ocean's Conveyor Belt",
+  "title_ru": "Океанский конвейер",
+  "description_ru": "Тёплые и холодные океанские течения образуют гигантскую систему, которая смягчает климат Европы. Текст объясняет, как она работает и чем рискует.",
+  "text": "Often called the ocean's conveyor belt, the thermohaline circulation is a vast system of currents driven by differences in the temperature and salinity, and therefore the density, of seawater. Its best-known component in the Atlantic is the Atlantic Meridional Overturning Circulation, or AMOC, which carries warm surface water northward from the tropics and returns cold, deep water southward.\n\nThe mechanism begins near the equator, where intense sunshine heats the surface and evaporation leaves the remaining water saltier. This warm, salty water drifts north, passing the Caribbean and joining the Gulf Stream. As it travels, it releases heat to the atmosphere, which is one reason why north-western Europe enjoys a milder climate than other regions at similar latitudes. By the time the water reaches the seas around Greenland and Iceland, it has cooled so much that, being both cold and salty, it becomes dense enough to sink, plunging more than a kilometre into the abyss. Once there, it creeps southward along the ocean floor, a journey that can take centuries.\n\nThis sinking is the engine of the whole system, and that is why scientists watch it closely. Fresh water is less dense than salt water, so if the North Atlantic receives large amounts of melting ice from Greenland or additional rainfall, the surface layer could become too buoyant to sink. The circulation would then slow down. Measurements from an array of instruments moored across the Atlantic at around twenty-six degrees north have recorded year-to-year fluctuations, and some reconstructions based on sediments and temperature patterns suggest that the AMOC has weakened over the past century. Direct observations, however, cover only about two decades, which is a short window for judging a system whose natural variability is poorly understood.\n\nWhat would happen if it weakened substantially? Climate models point to cooler conditions in parts of north-western Europe, shifts in rainfall patterns in the tropics, and a faster rise in sea level along the east coast of North America. They differ, though, on how likely an abrupt collapse is during this century. The most recent assessments consider a complete shutdown unlikely before 2100, but not impossible, and they emphasise that the uncertainty itself is a reason for caution.\n\nThe geological record offers a sobering precedent. About twelve thousand years ago, as the last ice age was ending, a sudden influx of meltwater is thought by many researchers to have disrupted the circulation, plunging parts of the Northern Hemisphere back into near-glacial cold for roughly a thousand years. The episode is known as the Younger Dryas. It is no forecast of what will occur now, but it demonstrates that the ocean's slow machinery can, under pressure, change gear remarkably fast.",
+  "word_count": 451,
+  "vocabulary": [
+    {
+      "word": "thermohaline",
+      "ipa_us": "ˌθɝːmoʊˈheɪlaɪn",
+      "ipa_uk": "ˌθɜːməʊˈheɪlaɪn",
+      "translation_ru": "термохалинный"
+    },
+    {
+      "word": "salinity",
+      "ipa_us": "səˈlɪnəti",
+      "ipa_uk": "səˈlɪnəti",
+      "translation_ru": "солёность"
+    },
+    {
+      "word": "meridional",
+      "ipa_us": "məˈrɪdiənl",
+      "ipa_uk": "məˈrɪdiənl",
+      "translation_ru": "меридиональный"
+    },
+    {
+      "word": "buoyant",
+      "ipa_us": "ˈbɔɪənt",
+      "ipa_uk": "ˈbɔɪənt",
+      "translation_ru": "плавучий"
+    },
+    {
+      "word": "fluctuations",
+      "ipa_us": "ˌflʌktʃuˈeɪʃnz",
+      "ipa_uk": "ˌflʌktʃuˈeɪʃnz",
+      "translation_ru": "колебания"
+    },
+    {
+      "word": "abrupt",
+      "ipa_us": "əˈbrʌpt",
+      "ipa_uk": "əˈbrʌpt",
+      "translation_ru": "резкий"
+    },
+    {
+      "word": "precedent",
+      "ipa_us": "ˈpresɪdənt",
+      "ipa_uk": "ˈpresɪdənt",
+      "translation_ru": "прецедент"
+    },
+    {
+      "word": "influx",
+      "ipa_us": "ˈɪnflʌks",
+      "ipa_uk": "ˈɪnflʌks",
+      "translation_ru": "приток"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thermohaline",
+        "north",
+        "thousand"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, звук глухой; в north язык остаётся между зубами в конце слова."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "other",
+        "than",
+        "though"
+      ],
+      "tip_ru": "Кончик языка между зубами, но звук звонкий: голосовые связки работают; не «з» и не «д»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "salinity",
+        "meridional",
+        "fluctuations"
+      ],
+      "tip_ru": "Ударение: saˈlinity, meˈridional, fluctuˈations. Ударный слог выделяйте высотой и длиной."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What drives the thermohaline circulation?",
+      "answer": "Differences in temperature and salinity, which change water density.",
+      "accepted_keywords": [
+        "temperature",
+        "salinity",
+        "density"
+      ]
+    },
+    {
+      "question": "Why does Europe have a milder climate?",
+      "answer": "Warm water releases heat to the atmosphere as it flows north.",
+      "accepted_keywords": [
+        "heat",
+        "warm",
+        "gulf",
+        "water"
+      ]
+    },
+    {
+      "question": "What could slow the circulation?",
+      "answer": "Fresh meltwater and rainfall making the surface water too buoyant to sink.",
+      "accepted_keywords": [
+        "meltwater",
+        "ice",
+        "fresh",
+        "rainfall",
+        "melting"
+      ]
+    },
+    {
+      "question": "What was the Younger Dryas?",
+      "answer": "A cold episode about twelve thousand years ago linked to meltwater disrupting the circulation.",
+      "accepted_keywords": [
+        "cold",
+        "twelve",
+        "episode",
+        "ice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "c1-travel-03",
+  "level": "C1",
+  "genre": "travel",
+  "title_en": "Kyoto in the Quiet Season",
+  "title_ru": "Киото в тихий сезон",
+  "description_ru": "Зимнее путешествие по Киото: золотой павильон под снегом, каменный сад Рёандзи, кайсэки и звук деревянных сандалий в Гионе.",
+  "text": "Tourists descend on Kyoto in spring for the cherry blossom and in autumn for the maples, which is exactly why I chose January. In winter the former capital of Japan loses its crowds, and with them the sense of being a stage set for photographers. What remains is something quieter and, to my mind, truer: a city of temples, wooden lanes, and steam rising from bowls of noodles, where every garden has been pared back to its essentials.\n\nMy first morning began at Kinkaku-ji, the Golden Pavilion, which is covered in gold leaf and reflected, with almost ostentatious perfection, in a still pond. A light snowfall had begun, and the pavilion glowed against a grey sky, its image trembling when a duck crossed the water. I had seen the photographs a hundred times, yet nothing prepared me for the way the snow muffled every sound, until even the other visitors seemed to speak in whispers.\n\nBy contrast, the temple of Ryoan-ji offers almost nothing to look at: a rectangle of raked white gravel with fifteen rocks arranged in clusters. The designers left no explanation, and scholars have argued for centuries over what it represents. Islands in a sea? A tiger carrying her cubs across a river? I sat on the wooden veranda for forty minutes, and the longer I looked, the less I wanted an answer. The garden seemed less a puzzle to be solved than a way of teaching the mind to rest.\n\nWinter is also the season for eating well. In the covered Nishiki Market I sampled pickles in a dozen colours, grilled skewers of chicken, and tofu so fresh that it was still warm. One evening, in a tiny restaurant with six seats, a chef served a multi-course kaiseki meal, each dish a miniature landscape composed of seasonal ingredients: a sliver of turnip carved into a camellia, a clear broth scented with citrus peel. He explained nothing and watched our faces with quiet attention, which I later understood to be the entire point.\n\nPractical matters deserve a word. Kyoto is cold, with damp air that reaches the bones, so pack thermal layers and shoes that are easy to remove, since you will leave them at the door of nearly every building. Buses are slow in the city centre, and a bicycle is far more rewarding. Also, book in advance if you hope to stay in a traditional inn, since the best ones have only a handful of rooms.\n\nOn my last evening, I wandered through the Gion district at dusk, where lanterns were being lit along the narrow lanes. A young woman in a kimono hurried past, her wooden sandals clicking on the stone, and vanished around a corner. The sound lingered a moment longer than she did. It occurred to me that this is what winter does to a city: it strips away the noise, and lets you hear what has been there all along.",
+  "word_count": 492,
+  "vocabulary": [
+    {
+      "word": "essentials",
+      "ipa_us": "ɪˈsenʃlz",
+      "ipa_uk": "ɪˈsenʃlz",
+      "translation_ru": "самое необходимое"
+    },
+    {
+      "word": "ostentatious",
+      "ipa_us": "ˌɑːstenˈteɪʃəs",
+      "ipa_uk": "ˌɒstenˈteɪʃəs",
+      "translation_ru": "показной"
+    },
+    {
+      "word": "muffled",
+      "ipa_us": "ˈmʌfld",
+      "ipa_uk": "ˈmʌfld",
+      "translation_ru": "приглушил"
+    },
+    {
+      "word": "veranda",
+      "ipa_us": "vəˈrændə",
+      "ipa_uk": "vəˈrændə",
+      "translation_ru": "веранда"
+    },
+    {
+      "word": "miniature",
+      "ipa_us": "ˈmɪnətʃər",
+      "ipa_uk": "ˈmɪnətʃə",
+      "translation_ru": "миниатюрный"
+    },
+    {
+      "word": "scented",
+      "ipa_us": "ˈsentɪd",
+      "ipa_uk": "ˈsentɪd",
+      "translation_ru": "ароматизированный"
+    },
+    {
+      "word": "lingered",
+      "ipa_us": "ˈlɪŋɡərd",
+      "ipa_uk": "ˈlɪŋɡəd",
+      "translation_ru": "задержался, помедлил"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ʌ",
+      "examples": [
+        "muffled",
+        "covered",
+        "something"
+      ],
+      "tip_ru": "Короткий, расслабленный звук в центре рта: что-то среднее между «а» и «э», без округления губ."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "clicking",
+        "rising",
+        "morning"
+      ],
+      "tip_ru": "Спинка языка касается мягкого нёба, воздух идёт через нос; на конце не добавляйте «г» или «к»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "ostentatious",
+        "veranda",
+        "essentials"
+      ],
+      "tip_ru": "Ударение: ˌostenˈtatious, veˈranda, esˈsentials. Ударный слог — выше и длиннее."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When did the author visit Kyoto, and why?",
+      "answer": "In January, to avoid the crowds.",
+      "accepted_keywords": [
+        "january",
+        "crowds",
+        "winter"
+      ]
+    },
+    {
+      "question": "What is unusual about the garden at Ryoan-ji?",
+      "answer": "Fifteen rocks on raked gravel with no explanation.",
+      "accepted_keywords": [
+        "rocks",
+        "fifteen",
+        "gravel",
+        "explanation"
+      ]
+    },
+    {
+      "question": "What was served at the tiny restaurant?",
+      "answer": "A multi-course kaiseki meal.",
+      "accepted_keywords": [
+        "kaiseki",
+        "meal",
+        "multi-course"
+      ]
+    },
+    {
+      "question": "What did the author hear in Gion?",
+      "answer": "The clicking of a woman's wooden sandals.",
+      "accepted_keywords": [
+        "sandals",
+        "clicking",
+        "footsteps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "c1-science-02",
+  "level": "C1",
+  "genre": "science",
+  "title_en": "What the Brain Does at Night",
+  "title_ru": "Что мозг делает по ночам",
+  "description_ru": "Во сне мозг не отдыхает, а сортирует и закрепляет воспоминания. Текст рассказывает о стадиях сна, их функциях и практических выводах.",
+  "text": "For most of the twentieth century, sleep was regarded as little more than a nightly shutdown, a period in which the brain, exhausted by the day, simply idled. We now know that this view was spectacularly wrong. During sleep the brain is busy, and much of that work involves deciding what to remember.\n\nSleep is divided into cycles of roughly ninety minutes, each containing lighter stages, a deep stage known as slow-wave sleep, and a phase of rapid eye movement, or REM. Different stages seem to serve different purposes. During slow-wave sleep, the hippocampus, a seahorse-shaped structure that holds new memories temporarily, appears to replay the day's experiences in compressed form. Recordings from rats show that the same patterns of neurons that fired as an animal ran through a maze fire again, far faster, as it sleeps. These replays are thought to help transfer information to the cortex, where it can be stored more durably.\n\nSlow-wave sleep is characterised by large, rolling electrical waves, and within them researchers have identified brief bursts of activity called sleep spindles. The more spindles a person produces, the better they tend to perform on memory tests the following day. In one classic type of experiment, volunteers learn a list of word pairs in the evening. Those allowed a full night's rest recall markedly more than those who stay awake, even when the waking group is later given the chance to sleep.\n\nREM sleep, the stage most associated with vivid dreams, appears to play a different role. It is thought to help integrate new knowledge with existing knowledge, making unexpected connections and softening the emotional sting of upsetting experiences. Some studies suggest that people who dream about a task they are learning, such as navigating a virtual maze, improve their performance more than those who do not.\n\nSleep also performs a kind of housekeeping. In mice, the spaces between brain cells expand during sleep, which allows cerebrospinal fluid to flush out waste products, including a protein called beta-amyloid that accumulates in Alzheimer's disease. Whether the same process operates with equal efficiency in humans is still under investigation, but the finding has made researchers take chronic sleep loss more seriously as a possible risk factor.\n\nThe practical lessons are less glamorous than the science. Cramming through the night before an exam is, on balance, a poor strategy; a shorter period of study followed by a proper night's sleep will usually serve a student better. Sleep, moreover, cannot be fully stockpiled in advance. The brain, it seems, does not merely rest while we are away. It edits, files, and cleans, and it does so best when it is left undisturbed.",
+  "word_count": 448,
+  "vocabulary": [
+    {
+      "word": "hippocampus",
+      "ipa_us": "ˌhɪpəˈkæmpəs",
+      "ipa_uk": "ˌhɪpəˈkæmpəs",
+      "translation_ru": "гиппокамп"
+    },
+    {
+      "word": "durably",
+      "ipa_us": "ˈdʊrəbli",
+      "ipa_uk": "ˈdjʊərəbli",
+      "translation_ru": "прочно, надолго"
+    },
+    {
+      "word": "spindles",
+      "ipa_us": "ˈspɪndlz",
+      "ipa_uk": "ˈspɪndlz",
+      "translation_ru": "сонные веретёна"
+    },
+    {
+      "word": "integrate",
+      "ipa_us": "ˈɪntɪɡreɪt",
+      "ipa_uk": "ˈɪntɪɡreɪt",
+      "translation_ru": "интегрировать"
+    },
+    {
+      "word": "cerebrospinal",
+      "ipa_us": "səˌriːbroʊˈspaɪnl",
+      "ipa_uk": "ˌserɪbrəʊˈspaɪnl",
+      "translation_ru": "спинномозговой"
+    },
+    {
+      "word": "accumulates",
+      "ipa_us": "əˈkjuːmjəleɪts",
+      "ipa_uk": "əˈkjuːmjələɪts",
+      "translation_ru": "накапливается"
+    },
+    {
+      "word": "cramming",
+      "ipa_us": "ˈkræmɪŋ",
+      "ipa_uk": "ˈkræmɪŋ",
+      "translation_ru": "зубрёжка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "hippocampus",
+        "cerebrospinal",
+        "accumulates"
+      ],
+      "tip_ru": "Ударение: hippoˈcampus, cerebroˈspinal, aˈccumulates. Не ставьте ударение на первый слог по привычке."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "cramming",
+        "rapid",
+        "accumulates"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э», язык низко: звук между «а» и «э»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "sleep",
+        "deep",
+        "seems"
+      ],
+      "tip_ru": "Долгий, напряжённый «и»: губы растянуты в улыбку, язык высоко. Не сокращайте до русского краткого «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the hippocampus do during slow-wave sleep?",
+      "answer": "It replays the day's experiences.",
+      "accepted_keywords": [
+        "replay",
+        "replays",
+        "experiences"
+      ]
+    },
+    {
+      "question": "What are sleep spindles?",
+      "answer": "Brief bursts of brain activity linked to better memory.",
+      "accepted_keywords": [
+        "bursts",
+        "activity",
+        "brain"
+      ]
+    },
+    {
+      "question": "What happens in the brains of mice during sleep?",
+      "answer": "The spaces between cells expand and waste is flushed out.",
+      "accepted_keywords": [
+        "waste",
+        "flush",
+        "flushed",
+        "expand"
+      ]
+    },
+    {
+      "question": "Why is cramming overnight a poor strategy?",
+      "answer": "The brain needs sleep to store what was learned.",
+      "accepted_keywords": [
+        "sleep",
+        "brain",
+        "memory",
+        "poor"
+      ]
+    }
+  ]
+}

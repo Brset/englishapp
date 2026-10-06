@@ -1,0 +1,121 @@
+{
+  "id": "c1-science-03",
+  "level": "C1",
+  "genre": "science",
+  "title_en": "The Second Forest",
+  "title_ru": "Второй лес",
+  "description_ru": "Деревья вступают в союз с грибами под землёй. Текст разбирает, что в «древесной паутине» подтверждено наукой, а что преувеличено.",
+  "text": "Beneath any forest floor lies a second forest, thinner and paler than the one above, woven from the threads of fungi. The great majority of land plants form partnerships with these fungi, known as mycorrhizae. The fungus colonises the tree's roots and extends fine filaments, called hyphae, far into the surrounding soil. Because these filaments are vastly thinner than roots, they can reach water and minerals, particularly phosphorus and nitrogen, that the tree could never access alone. In return, the tree supplies the fungus with sugars produced by photosynthesis, sometimes allocating as much as a fifth of its carbon to the arrangement.\n\nFor decades, this was understood as a simple bargain between two organisms. In the 1990s, however, the Canadian ecologist Suzanne Simard published experiments suggesting something more extraordinary. Using radioactive carbon as a tracer, she showed that carbon could pass between seedlings of different tree species growing in the same patch of soil, apparently through a shared fungal network. Journalists soon dubbed the phenomenon the wood wide web, and popular accounts described mother trees nursing their offspring and warning neighbours of danger.\n\nThe reality is more nuanced, and scientists disagree about how far the metaphor can be pushed. Transfers of carbon through fungal networks have been measured, but their quantity is often small, and it remains unclear whether the movement benefits the receiving tree in natural conditions or is merely a by-product of the fungus distributing resources for its own purposes. Some researchers have argued that the evidence for deliberate nurturing is thin, and that the enthusiasm of the media has run ahead of the data. Others counter that the technical difficulty of studying life underground means that absence of proof should not be mistaken for proof of absence.\n\nWhat is firmly established is the importance of the partnership. Seedlings that germinate in soil containing compatible fungi tend to survive better than those that do not, and forests managed with heavy soil disturbance, such as clear-cutting, often regenerate more slowly because the underground network has been disrupted. There is also growing interest in the way mycorrhizae store carbon; the fungal filaments and the compounds they produce may hold a substantial share of the carbon locked in forest soils.\n\nPerhaps the most valuable lesson is a cautionary one. A compelling story can spread faster than the evidence that supports it, and nature rarely behaves as sentimentally as we would like. Yet the truth, stripped of romance, is remarkable enough. In a handful of healthy soil, there may be kilometres of living thread, quietly trading sugar for minerals, in an economy that no one planned and that every forest depends upon.",
+  "word_count": 442,
+  "vocabulary": [
+    {
+      "word": "mycorrhizae",
+      "ipa_us": "ˌmaɪkəˈraɪziː",
+      "ipa_uk": "ˌmaɪkəˈraɪziː",
+      "translation_ru": "микоризы"
+    },
+    {
+      "word": "hyphae",
+      "ipa_us": "ˈhaɪfiː",
+      "ipa_uk": "ˈhaɪfiː",
+      "translation_ru": "гифы"
+    },
+    {
+      "word": "photosynthesis",
+      "ipa_us": "ˌfoʊtoʊˈsɪnθəsɪs",
+      "ipa_uk": "ˌfəʊtəʊˈsɪnθəsɪs",
+      "translation_ru": "фотосинтез"
+    },
+    {
+      "word": "seedlings",
+      "ipa_us": "ˈsiːdlɪŋz",
+      "ipa_uk": "ˈsiːdlɪŋz",
+      "translation_ru": "сеянцы"
+    },
+    {
+      "word": "nuanced",
+      "ipa_us": "ˈnuːɑːnst",
+      "ipa_uk": "ˈnjuːɑːnst",
+      "translation_ru": "тонкий, неоднозначный"
+    },
+    {
+      "word": "compatible",
+      "ipa_us": "kəmˈpætəbl",
+      "ipa_uk": "kəmˈpætəbl",
+      "translation_ru": "совместимый"
+    },
+    {
+      "word": "cautionary",
+      "ipa_us": "ˈkɔːʃəneri",
+      "ipa_uk": "ˈkɔːʃənəri",
+      "translation_ru": "предостерегающий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "photosynthesis",
+        "compatible",
+        "cautionary"
+      ],
+      "tip_ru": "Ударение: ˌphotoˈsynthesis (главное на слоге syn), comˈpatible, ˈcautionary. Многосложные слова учите по ударному слогу."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thinner",
+        "threads",
+        "photosynthesis"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, звук глухой, без голоса; не «с» и не «ф»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "mycorrhizae",
+        "hyphae",
+        "fine"
+      ],
+      "tip_ru": "Дифтонг: от открытого «а» скользите к краткому «и», не произносите «ай» слишком коротко."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do trees give to mycorrhizal fungi?",
+      "answer": "Sugars made by photosynthesis.",
+      "accepted_keywords": [
+        "sugar",
+        "sugars",
+        "carbon"
+      ]
+    },
+    {
+      "question": "What did Suzanne Simard's experiments suggest?",
+      "answer": "Carbon can pass between seedlings through a shared fungal network.",
+      "accepted_keywords": [
+        "carbon",
+        "network",
+        "seedlings"
+      ]
+    },
+    {
+      "question": "Why do scientists disagree about the wood wide web?",
+      "answer": "Evidence for deliberate nurturing is thin and media enthusiasm ran ahead of data.",
+      "accepted_keywords": [
+        "evidence",
+        "thin",
+        "media",
+        "data"
+      ]
+    },
+    {
+      "question": "What happens to forests after heavy soil disturbance?",
+      "answer": "They often regenerate more slowly.",
+      "accepted_keywords": [
+        "slowly",
+        "regenerate"
+      ]
+    }
+  ]
+}

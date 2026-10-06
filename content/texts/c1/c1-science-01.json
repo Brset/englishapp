@@ -1,0 +1,121 @@
+{
+  "id": "c1-science-01",
+  "level": "C1",
+  "genre": "science",
+  "title_en": "A Mind With Eight Arms",
+  "title_ru": "Разум с восемью руками",
+  "description_ru": "Осьминоги обладают сложным интеллектом, который развился независимо от нашего. Текст объясняет устройство их нервной системы и цену этой гибкости.",
+  "text": "An octopus has roughly five hundred million neurons, a number comparable to that of a dog, yet only about a third of them sit in its brain. The remainder are distributed through its eight arms, each of which can taste, touch, and make rudimentary decisions without waiting for instructions from the centre. It is a nervous system organised less like a monarchy than like a federation.\n\nThis arrangement evolved along a path entirely separate from our own. The last common ancestor of humans and octopuses was a flatworm-like creature that lived more than five hundred million years ago, which means that intelligence has arisen at least twice, by independent routes. Octopuses are therefore often described as the closest thing we have to an encounter with an alien mind.\n\nTheir abilities are striking. In laboratory experiments, octopuses have unscrewed jars from the inside, navigated mazes, and learned to solve problems by watching other individuals. Aquarium keepers have long complained of escape artists that slip through impossibly narrow gaps, and in a well-known case in New Zealand an octopus named Inky is reported to have climbed out of its tank, crossed the floor, and disappeared down a drainpipe to the sea. Some species also use tools: the veined octopus has been observed carrying coconut shells across the seabed, later assembling them into a portable shelter.\n\nTheir skin is equally remarkable. Millions of pigment-containing cells, called chromatophores, can expand or contract within a fraction of a second, allowing the animal to change colour and pattern with extraordinary speed. Curiously, octopuses are thought to be colour-blind in the conventional sense, possessing only a single type of light-sensitive pigment in their eyes. How they match their surroundings so precisely remains an active question; one hypothesis suggests that their skin itself may detect light.\n\nWhy, then, did such sophisticated cognition evolve in animals that, in many species, live for only one or two years? Many researchers point to the demands of a soft-bodied lifestyle. With no shell, no spines, and no armour, an octopus survives by outwitting predators and prey alike, and a flexible mind is its principal defence. Yet the price is steep. Most species die shortly after reproducing, and females of some kinds stop eating entirely while guarding their eggs.\n\nThis brevity is, perhaps, the saddest fact about the animal. A creature capable of recognising individual human faces, of playing, and of remembering lessons vanishes before it can pass any of its knowledge on to the next generation. Whatever an octopus learns, it learns alone, and takes with it.",
+  "word_count": 431,
+  "vocabulary": [
+    {
+      "word": "rudimentary",
+      "ipa_us": "ˌruːdɪˈmentri",
+      "ipa_uk": "ˌruːdɪˈmentri",
+      "translation_ru": "элементарный, зачаточный"
+    },
+    {
+      "word": "federation",
+      "ipa_us": "ˌfedəˈreɪʃn",
+      "ipa_uk": "ˌfedəˈreɪʃn",
+      "translation_ru": "федерация"
+    },
+    {
+      "word": "chromatophores",
+      "ipa_us": "ˈkroʊmətəfɔːrz",
+      "ipa_uk": "ˈkrəʊmətəfɔːz",
+      "translation_ru": "хроматофоры"
+    },
+    {
+      "word": "hypothesis",
+      "ipa_us": "haɪˈpɑːθəsɪs",
+      "ipa_uk": "haɪˈpɒθəsɪs",
+      "translation_ru": "гипотеза"
+    },
+    {
+      "word": "cognition",
+      "ipa_us": "kɑːɡˈnɪʃn",
+      "ipa_uk": "kɒɡˈnɪʃn",
+      "translation_ru": "познание, мышление"
+    },
+    {
+      "word": "outwitting",
+      "ipa_us": "aʊtˈwɪtɪŋ",
+      "ipa_uk": "aʊtˈwɪtɪŋ",
+      "translation_ru": "перехитрив"
+    },
+    {
+      "word": "brevity",
+      "ipa_us": "ˈbrevəti",
+      "ipa_uk": "ˈbrevəti",
+      "translation_ru": "краткость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "hypothesis",
+        "third",
+        "thought"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, звук глухой; не заменяйте на «с» или «т»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "without",
+        "waiting",
+        "watching"
+      ],
+      "tip_ru": "Губы вытянуты и округлены, как для «у», затем быстро раскрываются; не касайтесь зубами губы."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "hypothesis",
+        "cognition",
+        "rudimentary"
+      ],
+      "tip_ru": "Ударение: hyˈpothesis, cogˈnition, ˌrudiˈmentary. Ударный слог произносите громче и длиннее, остальные редуцируйте."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many neurons does an octopus have?",
+      "answer": "About five hundred million.",
+      "accepted_keywords": [
+        "five hundred",
+        "500",
+        "million"
+      ]
+    },
+    {
+      "question": "Where is most of the octopus's nervous system?",
+      "answer": "In its arms.",
+      "accepted_keywords": [
+        "arms"
+      ]
+    },
+    {
+      "question": "What do chromatophores do?",
+      "answer": "They change the colour and pattern of the skin.",
+      "accepted_keywords": [
+        "colour",
+        "color",
+        "pattern",
+        "skin"
+      ]
+    },
+    {
+      "question": "Why is the octopus's short lifespan sad?",
+      "answer": "It dies before passing its knowledge to the next generation.",
+      "accepted_keywords": [
+        "knowledge",
+        "generation",
+        "lessons",
+        "alone"
+      ]
+    }
+  ]
+}

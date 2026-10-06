@@ -1,0 +1,125 @@
+{
+  "id": "c1-story-01",
+  "level": "C1",
+  "genre": "story",
+  "title_en": "The Keeper's Ledger",
+  "title_ru": "Журнал смотрителя маяка",
+  "description_ru": "Старый смотритель маяка продолжает вести записи, даже когда лампу заменяет автоматика. Молодая инженер понимает, что машины не умеют помнить.",
+  "text": "Every evening for thirty-one years, Elias Marrow climbed the one hundred and twelve steps of the Skerry Point lighthouse, wound the mechanism, and wrote a single line in his ledger. Most entries were unremarkable: wind from the north-west, visibility poor, one trawler passed at dusk. Yet he recorded them with the solemnity of a man composing scripture, because he believed that somebody, someday, would need to know exactly what the sea had been doing.\n\nWhen the authorities announced that the lamp would be automated, Elias received the news with a composure that surprised even himself. A young engineer named Priya arrived to install the new equipment, carrying a laptop and an air of faint apology. She found the old keeper polishing a brass lens that would soon be redundant.\n\n\"You needn't bother with that,\" she said gently. \"The system will run itself.\"\n\n\"I'm aware,\" Elias replied. \"But a lens that is cared for casts a cleaner beam. Call it superstition.\"\n\nOver the following week, Priya noticed that he kept to his routine regardless. Each night he climbed, wound a mechanism that no longer mattered, and made his entry. Out of curiosity, she leafed through the earliest ledgers stacked in the lamp room. Between the weather notes she discovered something unexpected: small, deliberate sketches of vessels, each labelled with a name and a date, and beside many of them a brief, unsentimental remark. Safe passage. Engine trouble, towed in. Did not return.\n\n\"Did not return,\" she read aloud. \"How many of these are there?\"\n\n\"Seven,\" said Elias. \"I know each by heart. Nobody asked me to keep count, and nobody will ever read it, which is rather the point. A record that exists only to be admired is just vanity.\"\n\nPriya said nothing for a while. Then she opened her laptop, hesitated, and closed it again. \"The new system logs everything automatically,\" she admitted. \"Tides, wind, traffic. But it can't tell you which boats mattered to somebody.\"\n\nOn her final evening, a storm rolled in from the west, far earlier than forecast. The sensors, to Priya's dismay, registered the pressure drop several minutes too late, and the automated beam flickered as the generator stumbled. Without a word, Elias seized the old lamp's crank and turned it, steadily, as he had done ten thousand times. The great lens swept the water until the backup power caught.\n\nLater, as the wind subsided, Priya found him writing in the ledger once more. Over his shoulder, she read the line: Storm, early. Beam held. A young engineer stayed to watch.\n\n\"Will you keep writing after the lamp goes dark?\" she asked.\n\nHe considered the question with characteristic gravity. \"Somebody has to,\" he said. \"Machines are excellent at measuring the sea. They are rather poor at remembering it.\"",
+  "word_count": 464,
+  "vocabulary": [
+    {
+      "word": "solemnity",
+      "ipa_us": "səˈlɑːmnəti",
+      "ipa_uk": "səˈlemnəti",
+      "translation_ru": "торжественность"
+    },
+    {
+      "word": "composure",
+      "ipa_us": "kəmˈpoʊʒər",
+      "ipa_uk": "kəmˈpəʊʒə",
+      "translation_ru": "самообладание"
+    },
+    {
+      "word": "redundant",
+      "ipa_us": "rɪˈdʌndənt",
+      "ipa_uk": "rɪˈdʌndənt",
+      "translation_ru": "ненужный, лишний"
+    },
+    {
+      "word": "unsentimental",
+      "ipa_us": "ˌʌnsentɪˈmentl",
+      "ipa_uk": "ˌʌnsentɪˈmentl",
+      "translation_ru": "лишённый сентиментальности"
+    },
+    {
+      "word": "vanity",
+      "ipa_us": "ˈvænəti",
+      "ipa_uk": "ˈvænəti",
+      "translation_ru": "тщеславие"
+    },
+    {
+      "word": "gravity",
+      "ipa_us": "ˈɡrævəti",
+      "ipa_uk": "ˈɡrævəti",
+      "translation_ru": "серьёзность"
+    },
+    {
+      "word": "subsided",
+      "ipa_us": "səbˈsaɪdɪd",
+      "ipa_uk": "səbˈsaɪdɪd",
+      "translation_ru": "утих, спал"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "everything",
+        "without"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wind",
+        "weather",
+        "west"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, без касания зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "automated",
+        "engineer",
+        "unsentimental"
+      ],
+      "tip_ru": "В длинных словах ударение фиксировано: enɡiˈneer, ˈautomated, unsentiˈmental. Выделяйте ударный слог длиннее и громче."
+    }
+  ],
+  "questions": [
+    {
+      "question": "For how long has Elias kept the ledger?",
+      "answer": "For thirty-one years.",
+      "accepted_keywords": [
+        "thirty",
+        "31",
+        "thirty-one"
+      ]
+    },
+    {
+      "question": "What does Priya discover in the old ledgers?",
+      "answer": "Small sketches of vessels with names, dates and remarks.",
+      "accepted_keywords": [
+        "sketches",
+        "drawings",
+        "vessels",
+        "boats",
+        "ships"
+      ]
+    },
+    {
+      "question": "What goes wrong during the storm?",
+      "answer": "The sensors react too late and the generator falters, so Elias turns the old lamp by hand.",
+      "accepted_keywords": [
+        "sensors",
+        "generator",
+        "power",
+        "late"
+      ]
+    },
+    {
+      "question": "Why does Elias say he will keep writing?",
+      "answer": "Machines measure the sea well but are poor at remembering it.",
+      "accepted_keywords": [
+        "remembering",
+        "remember",
+        "somebody",
+        "machines"
+      ]
+    }
+  ]
+}

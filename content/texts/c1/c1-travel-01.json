@@ -1,0 +1,122 @@
+{
+  "id": "c1-travel-01",
+  "level": "C1",
+  "genre": "travel",
+  "title_en": "Seven Hills of Lisbon",
+  "title_ru": "Семь холмов Лиссабона",
+  "description_ru": "Путевые заметки о Лиссабоне: крутые улицы, жёлтые трамваи, смотровые площадки, сардины и тоска по прошлому, которую португальцы называют саудаде.",
+  "text": "Lisbon announces itself with its gradients. Built across seven hills above the broad estuary of the Tagus, the city punishes the unprepared and rewards the stubborn, and nowhere is this clearer than in the district of Alfama, where I spent my first morning climbing lanes so steep that some of them turn into staircases halfway up.\n\nThe old tram, the number 28, is the sensible alternative, although sensible is a relative term. Its yellow carriages rattle and screech around corners so tight that pedestrians must flatten themselves against the walls, and at the busiest hours the tram is so crowded that you are pressed against strangers with startling intimacy. I recommend boarding early, at the terminus, when the seats are still empty and the conductor is willing to chat. Late in the afternoon, by contrast, you may simply admire the trams as they pass, and walk.\n\nWhat redeems the effort is the miradouros, the viewpoints scattered across the city like unexpected gifts. At Santa Luzia, a terrace draped in bougainvillea, I watched the terracotta roofs fall away toward the river while a man in a flat cap played accordion for the pleasure of it. Higher up, at Graça, the crowd thins, and at sunset the whole city turns the colour of apricots. Locals bring bottles of wine and plastic cups, and nobody seems in any hurry to leave.\n\nFood in Lisbon is unpretentious and wonderfully serious. I breakfasted each day on a pastel de nata, the custard tart whose blistered top and flaky shell have been perfected over nearly two centuries in a bakery in Belém, though honestly, the version from the corner café near my guesthouse was almost as good. For lunch, I followed a hungry taxi driver's advice into an unmarked tavern, where a grandmother brought me grilled sardines, boiled potatoes, and a tomato salad with no instructions whatsoever. It was, I think, the best meal of the trip.\n\nThe city's mood is hard to define. The Portuguese have a word, saudade, for a gentle longing for something absent or lost, and you sense it in the fado houses of the evening, where singers accompanied by guitar perform songs of exile and regret. Yet the feeling is not gloomy. It is more like the sweetness of nostalgia, held up to the light and enjoyed.\n\nMy practical advice is brief. Wear shoes with proper grip, because the cobbles, polished by centuries of feet, turn treacherous in the rain. Avoid August, when the heat becomes oppressive and the prices inflate. And leave at least one afternoon unplanned, because the best moments in Lisbon seem to occur in the spaces between the attractions, in a doorway where music drifts out, or on a bench where someone offers you a seat and a story.",
+  "word_count": 463,
+  "vocabulary": [
+    {
+      "word": "gradients",
+      "ipa_us": "ˈɡreɪdiənts",
+      "ipa_uk": "ˈɡreɪdiənts",
+      "translation_ru": "уклоны, подъёмы"
+    },
+    {
+      "word": "pedestrians",
+      "ipa_us": "pəˈdestriənz",
+      "ipa_uk": "pəˈdestriənz",
+      "translation_ru": "пешеходы"
+    },
+    {
+      "word": "terminus",
+      "ipa_us": "ˈtɝːmɪnəs",
+      "ipa_uk": "ˈtɜːmɪnəs",
+      "translation_ru": "конечная остановка"
+    },
+    {
+      "word": "unpretentious",
+      "ipa_us": "ˌʌnprɪˈtenʃəs",
+      "ipa_uk": "ˌʌnprɪˈtenʃəs",
+      "translation_ru": "непритязательный"
+    },
+    {
+      "word": "nostalgia",
+      "ipa_us": "nɑːˈstældʒə",
+      "ipa_uk": "nɒˈstældʒə",
+      "translation_ru": "ностальгия"
+    },
+    {
+      "word": "treacherous",
+      "ipa_us": "ˈtretʃərəs",
+      "ipa_uk": "ˈtretʃərəs",
+      "translation_ru": "коварный, скользкий"
+    },
+    {
+      "word": "oppressive",
+      "ipa_us": "əˈpresɪv",
+      "ipa_uk": "əˈpresɪv",
+      "translation_ru": "гнетущий, душный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "pedestrians",
+        "unpretentious",
+        "nostalgia"
+      ],
+      "tip_ru": "Ударение: peˈdestrians, ˌunpreˈtentious, nosˈtalgia. Не ставьте его на первый слог."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "hills",
+        "walls",
+        "old"
+      ],
+      "tip_ru": "В конце слога «л» твёрдое и тёмное: кончик языка у верхних зубов, спинка языка отодвинута назад, без мягкости."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "terrace",
+        "treacherous",
+        "terracotta"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; звук произносится с округлёнными губами."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which district did the author climb on the first morning?",
+      "answer": "Alfama.",
+      "accepted_keywords": [
+        "alfama"
+      ]
+    },
+    {
+      "question": "Why does the author recommend boarding tram 28 early?",
+      "answer": "It is less crowded, with empty seats, and the conductor is willing to chat.",
+      "accepted_keywords": [
+        "crowded",
+        "empty",
+        "seats",
+        "early"
+      ]
+    },
+    {
+      "question": "What does the word saudade describe?",
+      "answer": "A gentle longing for something absent or lost.",
+      "accepted_keywords": [
+        "longing",
+        "lost",
+        "nostalgia",
+        "absent"
+      ]
+    },
+    {
+      "question": "What does the author advise about shoes?",
+      "answer": "Wear shoes with good grip because the cobbles are slippery in the rain.",
+      "accepted_keywords": [
+        "grip",
+        "cobbles",
+        "rain",
+        "slippery"
+      ]
+    }
+  ]
+}

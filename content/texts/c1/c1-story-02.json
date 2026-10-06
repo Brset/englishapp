@@ -1,0 +1,122 @@
+{
+  "id": "c1-story-02",
+  "level": "C1",
+  "genre": "story",
+  "title_en": "Between the Lines",
+  "title_ru": "Между строк",
+  "description_ru": "Переводчица на переговорах должна за секунду решить, как передать двусмысленную фразу. Её выбор неожиданно меняет ход встречи.",
+  "text": "Dana had interpreted for eleven years, and she had developed a rule she never confessed to clients: the best interpreter is the one nobody remembers. On Thursday morning, in a glass-walled conference room above the harbour, that rule was about to be tested.\n\nTwo delegations faced each other across a polished table. On one side sat the representatives of a Lisbon shipping firm; on the other, a Norwegian consortium eager to buy a controlling stake. The chairman of the Portuguese side, a stout man named Mendes, spoke in long, courtly sentences that curled around his meaning like smoke. The Norwegians, by contrast, preferred plain statements, delivered flatly, as though sentiment were a hidden tax.\n\nFor two hours Dana carried words back and forth, adjusting register as a pianist adjusts pressure. Then Mendes said something that made her pulse quicken. Literally, it meant: \"We would not wish to hurry a decision that history may judge us for.\" A diplomatic way of saying no, or perhaps a way of saying not yet. The distinction was everything.\n\nShe had perhaps a second to choose. Render it faithfully and the Norwegians might hear a polite refusal, rise, and leave. Soften it and she would be putting her own words in a stranger's mouth, which violated the very ethics of her profession.\n\n\"Mr Mendes says he is reluctant to rush,\" she said in English, \"and he adds, with some weight, that he hopes history will be generous to both parties.\"\n\nThe lead Norwegian, Solveig Haugen, studied her for a long moment. \"Is that all he said?\"\n\n\"It is the substance,\" Dana replied. \"The tone was more ceremonial than final.\"\n\nHaugen turned to Mendes and, to Dana's quiet astonishment, addressed him directly in halting Portuguese. \"Senhor, we are not in a hurry either.\" A ripple of laughter crossed the table. Mendes, delighted, abandoned his formalities altogether and began to speak in short sentences, almost bluntly, as if the language itself had been an obstacle.\n\nDuring the break, Dana stood by the window, watching the cranes unload a container ship. Haugen approached with two cups of coffee.\n\n\"You hesitated,\" she said. \"Back there. Most interpreters wouldn't have.\"\n\n\"Most interpreters would have been wrong,\" Dana said, \"or at least, they'd have been certain.\"\n\n\"And you weren't.\"\n\n\"Certainty is a luxury of people who only speak one language.\"\n\nHaugen smiled, handing her a cup. \"I've been studying Portuguese for a year, you know. Secretly. I wanted to hear what was said when I wasn't meant to.\"\n\nDana laughed, genuinely, for the first time that week. Her golden rule, it seemed, had a flaw. Sometimes the best interpreter was the one everyone remembered, and somewhere in that room a deal that might have collapsed had quietly become a conversation.",
+  "word_count": 460,
+  "vocabulary": [
+    {
+      "word": "interpreter",
+      "ipa_us": "ɪnˈtɝːprətər",
+      "ipa_uk": "ɪnˈtɜːprɪtə",
+      "translation_ru": "устный переводчик"
+    },
+    {
+      "word": "consortium",
+      "ipa_us": "kənˈsɔːrʃiəm",
+      "ipa_uk": "kənˈsɔːtiəm",
+      "translation_ru": "консорциум"
+    },
+    {
+      "word": "courtly",
+      "ipa_us": "ˈkɔːrtli",
+      "ipa_uk": "ˈkɔːtli",
+      "translation_ru": "церемонный, учтивый"
+    },
+    {
+      "word": "register",
+      "ipa_us": "ˈredʒɪstər",
+      "ipa_uk": "ˈredʒɪstə",
+      "translation_ru": "стилистический регистр"
+    },
+    {
+      "word": "ceremonial",
+      "ipa_us": "ˌserəˈmoʊniəl",
+      "ipa_uk": "ˌserɪˈməʊniəl",
+      "translation_ru": "церемониальный"
+    },
+    {
+      "word": "halting",
+      "ipa_us": "ˈhɔːltɪŋ",
+      "ipa_uk": "ˈhɒltɪŋ",
+      "translation_ru": "запинающийся"
+    },
+    {
+      "word": "obstacle",
+      "ipa_us": "ˈɑːbstəkl",
+      "ipa_uk": "ˈɒbstəkl",
+      "translation_ru": "препятствие"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "interpreter",
+        "consortium",
+        "ceremonial"
+      ],
+      "tip_ru": "Ударение не на первом слоге: inˈterpreter, conˈsortium, cereˈmonial. Не растягивайте безударные гласные, произносите их коротко (шва)."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "register",
+        "reluctant",
+        "rush"
+      ],
+      "tip_ru": "Язык не касается нёба и не вибрирует, как русское «р»: кончик загнут назад, губы слегка округлены."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "halting",
+        "watching",
+        "studying"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук носовой; в конце не добавляйте «г» или «к»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Mendes's remark really mean?",
+      "answer": "Either a polite refusal or simply not yet; he did not want to hurry.",
+      "accepted_keywords": [
+        "refusal",
+        "no",
+        "yet",
+        "hurry",
+        "rush"
+      ]
+    },
+    {
+      "question": "Who surprised Dana by speaking Portuguese?",
+      "answer": "Solveig Haugen, the Norwegian lead.",
+      "accepted_keywords": [
+        "haugen",
+        "solveig",
+        "norwegian"
+      ]
+    },
+    {
+      "question": "For how long had Haugen been studying Portuguese?",
+      "answer": "For a year.",
+      "accepted_keywords": [
+        "year"
+      ]
+    },
+    {
+      "question": "What was Dana's secret rule?",
+      "answer": "The best interpreter is the one nobody remembers.",
+      "accepted_keywords": [
+        "nobody",
+        "remembers",
+        "remembered",
+        "unnoticed"
+      ]
+    }
+  ]
+}

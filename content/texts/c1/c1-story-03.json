@@ -1,0 +1,120 @@
+{
+  "id": "c1-story-03",
+  "level": "C1",
+  "genre": "story",
+  "title_en": "The Violin in the Underpass",
+  "title_ru": "Скрипка в переходе",
+  "description_ru": "Юрист Лена каждый день проходит мимо старого уличного скрипача, пока однажды не останавливается. Эта дружба меняет её жизнь.",
+  "text": "At 8:15 every weekday morning, the underpass beneath Karlsplatz station filled with the weary shuffle of commuters, and at 8:15 precisely, an old man named Tobias unlatched a battered case and began to play. Nobody paid him much attention. That was, in a sense, the arrangement. He asked for nothing, put out no sign, and played pieces so quiet that they were easily mistaken for the building's ventilation.\n\nLena had walked past him for two years. She was a junior lawyer, perpetually late, with a phone in one hand and a lukewarm coffee in the other, and she had long ago taught herself to experience the city as a series of obstacles. Yet one grey Monday, the day she had been passed over for a promotion she had quietly counted on, she found herself stopping in front of him without having decided to.\n\nHe was playing something slow, in a minor key, with a hesitation in the phrasing that felt oddly like speech. She stood there until the piece ended. Then, to her own surprise, she said, \"That was beautiful. What is it?\"\n\n\"Nothing famous,\" Tobias said. \"I wrote it for my wife. She used to say that I only ever composed in order to avoid apologising.\"\n\n\"Did it work?\"\n\n\"Not once.\" He smiled, tightening a string. \"But the music improved.\"\n\nOver the following weeks, Lena began arriving a few minutes early. She never gave money, because it felt somehow cheap, but she brought him coffee, and in exchange he told her fragments of his life: a conservatory in Prague, a career in a provincial orchestra that ended when his hands began to shake, a widowerhood he described with dry, practical restraint. In return, she confessed what she had told no one, that she suspected she had chosen law merely because it was respectable, and that she dreaded becoming someone who was good at a job she did not love.\n\n\"Respectability,\" said Tobias, \"is a very comfortable cage.\"\n\nOne morning in November, the underpass was empty. The next day, too. Lena asked the kiosk attendant, who shrugged and said the old man had been taken to hospital. Within the hour, she had found the ward, bought a bunch of overpriced tulips, and discovered Tobias sitting up in bed, irritable and perfectly alive, his violin case resting on the chair beside him.\n\n\"They won't let me play,\" he complained. \"Apparently the other patients find it distressing.\"\n\n\"Then I'll listen when you're home,\" Lena said.\n\nShe did, for years. And although she remained a lawyer, she eventually left her firm to represent musicians and street performers, a decision her colleagues called reckless. Lena thought of it differently. It was simply the first thing she had done in a long time that was not an obstacle to be got around.",
+  "word_count": 465,
+  "vocabulary": [
+    {
+      "word": "commuters",
+      "ipa_us": "kəˈmjuːtərz",
+      "ipa_uk": "kəˈmjuːtəz",
+      "translation_ru": "пассажиры-регулярники"
+    },
+    {
+      "word": "perpetually",
+      "ipa_us": "pərˈpetʃuəli",
+      "ipa_uk": "pəˈpetʃuəli",
+      "translation_ru": "постоянно"
+    },
+    {
+      "word": "conservatory",
+      "ipa_us": "kənˈsɝːvətɔːri",
+      "ipa_uk": "kənˈsɜːvətri",
+      "translation_ru": "консерватория"
+    },
+    {
+      "word": "restraint",
+      "ipa_us": "rɪˈstreɪnt",
+      "ipa_uk": "rɪˈstreɪnt",
+      "translation_ru": "сдержанность"
+    },
+    {
+      "word": "respectability",
+      "ipa_us": "rɪˌspektəˈbɪləti",
+      "ipa_uk": "rɪˌspektəˈbɪləti",
+      "translation_ru": "респектабельность"
+    },
+    {
+      "word": "irritable",
+      "ipa_us": "ˈɪrɪtəbl",
+      "ipa_uk": "ˈɪrɪtəbl",
+      "translation_ru": "раздражительный"
+    },
+    {
+      "word": "reckless",
+      "ipa_us": "ˈrekləs",
+      "ipa_uk": "ˈrekləs",
+      "translation_ru": "безрассудный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "respectability",
+        "perpetually",
+        "conservatory"
+      ],
+      "tip_ru": "Ударение смещается при словообразовании: reˌspectaˈbility, perˈpetually, conˈservatory. Выучите ударный слог вместе со словом."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reckless",
+        "restraint",
+        "promotion"
+      ],
+      "tip_ru": "Не вибрируйте кончиком языка: он поднят и оттянут назад, не касаясь нёба."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "old",
+        "until",
+        "hospital"
+      ],
+      "tip_ru": "В конце слога «л» твёрдое: кончик языка упирается за верхние зубы, а спинка языка поднята назад, почти как «ў»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does Tobias play his violin?",
+      "answer": "In the underpass beneath Karlsplatz station.",
+      "accepted_keywords": [
+        "underpass",
+        "karlsplatz",
+        "station",
+        "metro"
+      ]
+    },
+    {
+      "question": "Why does Lena stop to listen one Monday?",
+      "answer": "She had been passed over for a promotion.",
+      "accepted_keywords": [
+        "promotion",
+        "passed"
+      ]
+    },
+    {
+      "question": "What does Lena bring Tobias?",
+      "answer": "Coffee.",
+      "accepted_keywords": [
+        "coffee"
+      ]
+    },
+    {
+      "question": "What does Lena eventually do?",
+      "answer": "She leaves her firm to represent musicians and street performers.",
+      "accepted_keywords": [
+        "musicians",
+        "performers",
+        "represent",
+        "leaves"
+      ]
+    }
+  ]
+}

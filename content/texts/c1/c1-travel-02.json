@@ -1,0 +1,121 @@
+{
+  "id": "c1-travel-02",
+  "level": "C1",
+  "genre": "travel",
+  "title_en": "Weather Before Lunch",
+  "title_ru": "Погода до обеда",
+  "description_ru": "Пеший поход по Фарерским островам: туман, водопад над океаном, овцы и ферментированная баранина.",
+  "text": "The ferry from Denmark to the Faroe Islands takes the better part of two days, which is precisely the right amount of time to adjust your expectations. Eighteen volcanic islands rise from the North Atlantic roughly midway between Scotland and Iceland, and the first impression, as the ship slides through a gap between cliffs, is of an enormous green wall emerging from the mist. There are more sheep than people, there are almost no trees, and the weather is capable of presenting all four seasons before lunch.\n\nI had come to walk, and the Faroese are generous with their landscape. The classic route runs from the village of Gásadalur to its neighbour Bøur, along a path that for centuries was the only way in or out. Until a tunnel was drilled in 2004, the postman made the journey on foot, carrying letters over a mountain pass. Gásadalur's waterfall, the Múlafossur, tumbles straight from the cliff edge into the ocean, and the first time I saw it I stood in the drizzle, absurdly moved, while an indifferent sheep chewed beside me.\n\nHiking here demands humility. The mist can descend within minutes, erasing the path and any sense of direction, and many of the best trails cross land that belongs to local farmers, who ask visitors to pay a small fee or seek permission. I met an elderly shepherd named Jógvan who watched me struggle up a slope and offered some advice: carry a map, a compass, and a spare layer, and above all, respect the weather, because the weather does not respect you. He said it with a smile, but I noticed that he did not laugh.\n\nThe coast is spectacular and, in places, unnerving. At Vestmanna, boat trips glide beneath sea cliffs that tower hundreds of metres overhead, thick with fulmars, puffins, and guillemots. On the island of Mykines, in summer, you can walk to a lighthouse at the far edge of the world, passing puffin burrows so close to the trail that the birds seem utterly unbothered by humans.\n\nIn the evenings, the capital, Tórshavn, offers a surprisingly sophisticated table. Local restaurants make a point of cooking with ingredients such as lamb, fish, and seaweed, and there is a tradition of fermenting and drying meat in wooden sheds, a practice born of necessity in a place where fresh produce was once a luxury. I tried ræst lamb, with its sharp, almost cheesy flavour, and cannot honestly say it was beautiful, but it was memorable.\n\nWhat I will remember most is the silence. Away from the villages, the soundscape consists only of wind, water, and the occasional bleat. I have rarely felt so small, and rarely so content about it.",
+  "word_count": 456,
+  "vocabulary": [
+    {
+      "word": "humility",
+      "ipa_us": "hjuːˈmɪləti",
+      "ipa_uk": "hjuːˈmɪləti",
+      "translation_ru": "смирение"
+    },
+    {
+      "word": "indifferent",
+      "ipa_us": "ɪnˈdɪfrənt",
+      "ipa_uk": "ɪnˈdɪfrənt",
+      "translation_ru": "равнодушный"
+    },
+    {
+      "word": "unnerving",
+      "ipa_us": "ʌnˈnɝːvɪŋ",
+      "ipa_uk": "ʌnˈnɜːvɪŋ",
+      "translation_ru": "выбивающий из колеи"
+    },
+    {
+      "word": "unbothered",
+      "ipa_us": "ʌnˈbɑːðərd",
+      "ipa_uk": "ʌnˈbɒðəd",
+      "translation_ru": "невозмутимый"
+    },
+    {
+      "word": "sophisticated",
+      "ipa_us": "səˈfɪstɪkeɪtɪd",
+      "ipa_uk": "səˈfɪstɪkeɪtɪd",
+      "translation_ru": "изысканный"
+    },
+    {
+      "word": "fermenting",
+      "ipa_us": "fərˈmentɪŋ",
+      "ipa_uk": "fəˈmentɪŋ",
+      "translation_ru": "ферментация"
+    },
+    {
+      "word": "necessity",
+      "ipa_us": "nəˈsesəti",
+      "ipa_uk": "nɪˈsesəti",
+      "translation_ru": "необходимость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "weather",
+        "unbothered",
+        "that"
+      ],
+      "tip_ru": "Кончик языка между зубами, но звук звонкий: голос включён; не заменяйте на «з» или «д»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "waterfall",
+        "wooden",
+        "wind"
+      ],
+      "tip_ru": "Губы вытянуты вперёд и округлены, как для «у»; зубы не касаются губы, это не «в»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "sophisticated",
+        "necessity",
+        "humility"
+      ],
+      "tip_ru": "Ударение: soˈphisticated, neˈcessity, huˈmility. Безударные слоги читайте кратко, с нейтральным «ə»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long does the ferry journey take?",
+      "answer": "The better part of two days.",
+      "accepted_keywords": [
+        "two",
+        "days"
+      ]
+    },
+    {
+      "question": "What is special about the path to Gásadalur?",
+      "answer": "It was the only way in or out for centuries, used by the postman on foot.",
+      "accepted_keywords": [
+        "postman",
+        "only",
+        "path",
+        "foot"
+      ]
+    },
+    {
+      "question": "What advice does the shepherd give?",
+      "answer": "Carry a map, a compass and a spare layer, and respect the weather.",
+      "accepted_keywords": [
+        "map",
+        "compass",
+        "layer",
+        "weather",
+        "respect"
+      ]
+    },
+    {
+      "question": "What does the author remember most?",
+      "answer": "The silence.",
+      "accepted_keywords": [
+        "silence"
+      ]
+    }
+  ]
+}
