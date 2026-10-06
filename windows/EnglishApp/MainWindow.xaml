@@ -1,0 +1,22 @@
+<Window x:Class="EnglishApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <NavigationView x:Name="Nav" IsBackButtonVisible="Collapsed" IsSettingsVisible="False"
+                    PaneDisplayMode="Left" OpenPaneLength="220"
+                    SelectionChanged="OnSelectionChanged">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Главная" Tag="home" Icon="Home" />
+            <NavigationViewItem Content="Библиотека" Tag="library" Icon="Library" />
+            <NavigationViewItem Content="Чтение" Tag="reading" Icon="Read" />
+            <NavigationViewItem Content="Запись" Tag="record" Icon="Microphone" />
+            <NavigationViewItem Content="Разбор" Tag="review" Icon="Zoom" />
+            <NavigationViewItem Content="Звуки" Tag="sounds" Icon="Volume" />
+            <NavigationViewItem Content="Словарь" Tag="vocab" Icon="Bookmarks" />
+            <NavigationViewItem Content="Прогресс" Tag="progress" Icon="Calendar" />
+        </NavigationView.MenuItems>
+        <NavigationView.FooterMenuItems>
+            <NavigationViewItem Content="Настройки" Tag="settings" Icon="Setting" />
+        </NavigationView.FooterMenuItems>
+        <Frame x:Name="ContentFrame" />
+    </NavigationView>
+</Window>

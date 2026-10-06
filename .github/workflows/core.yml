@@ -1,0 +1,32 @@
+name: core
+
+on:
+  push:
+    paths: ['core/**', 'content/**', 'tools/**', '.github/workflows/core.yml']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate content and build content.db
+        run: |
+          pip install jsonschema
+          python tools/validate_texts.py
+          python content/sounds/_validate.py
+          python -m unittest tools/test_build_content_db.py
+          python tools/build_content_db.py
+      - name: Build and test core
+        run: |
+          cmake -S core -B build/core -DCMAKE_BUILD_TYPE=Release -DPRON_BUILD_SHARED=ON
+          cmake --build build/core --config Release -j 4
+          ctest --test-dir build/core -C Release --output-on-failure

@@ -1,0 +1,56 @@
+name: windows
+
+on:
+  push:
+    paths: ['windows/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
+  pull_request:
+    paths: ['windows/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build content.db
+        run: python tools/build_content_db.py
+
+      # core/CMakeLists.txt provides PRON_BUILD_SHARED: target pron_c -> pron.dll (PRON_SHARED + PRON_BUILDING)
+      - name: Build native DLL (Release x64)
+        run: |
+          cmake -S core -B build/native -A x64 -DPRON_BUILD_SHARED=ON -DPRON_BUILD_TESTS=OFF
+          cmake --build build/native --config Release --target pron_c
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Publish app (self-contained, win-x64)
+        run: >
+          dotnet publish windows/EnglishApp/EnglishApp.csproj -c Release -r win-x64 --self-contained true
+          -p:Platform=x64 -p:WindowsAppSDKSelfContained=true
+          -p:NativeDll="${{ github.workspace }}\build\native\Release\pron.dll"
+          -p:ContentDb="${{ github.workspace }}\build\content.db"
+          -p:UserSchema="${{ github.workspace }}\content\db\user_schema.sql"
+          -o publish
+
+      - name: Verify bundled files
+        shell: pwsh
+        run: |
+          foreach ($f in 'EnglishApp.exe','pron.dll','content.db','user_schema.sql') {
+            if (-not (Test-Path "publish/$f")) { throw "missing $f in publish output" }
+          }
+
+      - name: Zip
+        shell: pwsh
+        run: Compress-Archive -Path publish/* -DestinationPath EnglishApp-win-x64.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EnglishApp-win-x64
+          path: EnglishApp-win-x64.zip

@@ -1,0 +1,43 @@
+name: android
+
+on:
+  push:
+    paths: ['android/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/android.yml']
+  pull_request:
+    paths: ['android/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build content DB
+        run: python tools/build_content_db.py
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Install NDK and CMake
+        run: sdkmanager "ndk;27.2.12479018" "cmake;3.22.1" "platforms;android-35" "build-tools;35.0.0"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Assemble debug APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EnglishApp-android
+          path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error

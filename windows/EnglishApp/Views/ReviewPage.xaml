@@ -1,0 +1,59 @@
+<Page x:Class="EnglishApp.Views.ReviewPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:vm="using:EnglishApp.ViewModels"
+      xmlns:n="using:EnglishApp.Native">
+    <ScrollViewer>
+        <StackPanel Padding="32" Spacing="14" MaxWidth="960" HorizontalAlignment="Left">
+            <TextBlock Text="Разбор" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock x:Name="Empty" Text="Пока нет результатов. Запишите чтение текста." Visibility="Collapsed" />
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition /><ColumnDefinition /><ColumnDefinition /><ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0"><TextBlock Text="Точность" /><TextBlock Text="{x:Bind ViewModel.Accuracy, Mode=OneWay}" Style="{StaticResource TitleLargeTextBlockStyle}" /></StackPanel>
+                <StackPanel Grid.Column="1"><TextBlock Text="Полнота" /><TextBlock Text="{x:Bind ViewModel.Completeness, Mode=OneWay}" Style="{StaticResource TitleLargeTextBlockStyle}" /></StackPanel>
+                <StackPanel Grid.Column="2"><TextBlock Text="Беглость" /><TextBlock Text="{x:Bind ViewModel.Fluency, Mode=OneWay}" Style="{StaticResource TitleLargeTextBlockStyle}" /></StackPanel>
+                <StackPanel Grid.Column="3"><TextBlock Text="Итого" /><TextBlock Text="{x:Bind ViewModel.Overall, Mode=OneWay}" Style="{StaticResource TitleLargeTextBlockStyle}" /></StackPanel>
+            </Grid>
+            <TextBlock Text="{x:Bind ViewModel.FluencyDetail, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            <TextBlock Text="{x:Bind ViewModel.Notes, Mode=OneWay}" TextWrapping="Wrap" Foreground="{ThemeResource SystemFillColorCautionBrush}" />
+
+            <RichTextBlock x:Name="Words" FontSize="20" LineHeight="32" TextWrapping="Wrap" Tapped="OnWordsTapped" />
+
+            <Border Padding="16" CornerRadius="8" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                <StackPanel Spacing="6">
+                    <TextBlock Text="{x:Bind ViewModel.WordTitle, Mode=OneWay}" Style="{StaticResource SubtitleTextBlockStyle}" />
+                    <TextBlock Text="{x:Bind ViewModel.WordSubtitle, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                    <ItemsControl ItemsSource="{x:Bind ViewModel.Phonemes}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:PhonemeRow">
+                                <StackPanel Orientation="Horizontal" Spacing="12" Padding="0,4">
+                                    <TextBlock Text="{x:Bind Ipa}" Width="60" FontSize="18" />
+                                    <TextBlock Text="{x:Bind ScoreText}" Width="40" Foreground="{x:Bind Color}" FontWeight="SemiBold" />
+                                    <StackPanel>
+                                        <TextBlock Text="{x:Bind Detail}" />
+                                        <TextBlock Text="{x:Bind Tip}" TextWrapping="Wrap" MaxWidth="700" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </Border>
+
+            <TextBlock Text="Над чем поработать" Style="{StaticResource BodyStrongTextBlockStyle}" />
+            <ItemsControl ItemsSource="{x:Bind ViewModel.Advice}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate x:DataType="n:AdviceItem">
+                        <StackPanel Padding="0,6">
+                            <TextBlock Text="{x:Bind TitleRu}" FontWeight="SemiBold" TextWrapping="Wrap" />
+                            <TextBlock Text="{x:Bind TipRu}" TextWrapping="Wrap" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

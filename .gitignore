@@ -3,3 +3,6 @@ __pycache__/
 models/*
 !models/README.md
 !models/manifest.json
+core/build*/
+.vs/
+*.user
