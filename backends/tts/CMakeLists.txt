@@ -29,7 +29,7 @@ if(NOT SHERPA_ONNX_ROOT)
   endif()
 endif()
 
-find_library(SHERPA_C_API NAMES sherpa-onnx-c-api HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH REQUIRED)
+find_library(SHERPA_C_API NAMES sherpa-onnx-c-api sherpa-onnx-jni HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH REQUIRED)
 find_library(SHERPA_ORT NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH)
 
 add_library(pron_tts STATIC src/piper_tts.cpp)

@@ -19,7 +19,6 @@ public partial class App : Application
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
         Directory.CreateDirectory(AppPaths.UserDir);
-        AppServices.Tts = new WinRtTtsEngine();   // temporary; piper later
         AppServices.Init();
         MainWindow = new MainWindow();
         MainWindow.Activate();

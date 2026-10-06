@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "pron/pron_c.h"
+#include "pron/pron_engine.h"
 
 namespace {
 
@@ -24,6 +25,7 @@ jstring take_json(JNIEnv* env, char* s) {
 }
 
 pron_assessor* H(jlong h) { return reinterpret_cast<pron_assessor*>(h); }
+pron_engine* E(jlong h) { return reinterpret_cast<pron_engine*>(h); }
 
 }  // namespace
 
@@ -119,6 +121,64 @@ JNIEXPORT jstring JNICALL Java_app_englishpron_PronCore_nativeAssess(
                             post.empty() ? nullptr : post.data(), post.empty() ? 0 : nFrames,
                             post.empty() ? 0 : nClasses, frameSeconds);
     return take_json(env, out);
+}
+
+// ---- Real engine (pron_engine.h) ------------------------------------------------------------
+JNIEXPORT jlong JNICALL Java_app_englishpron_engine_NativeEngine_engineCreate(JNIEnv* env, jclass, jstring dir,
+                                                                              jint threads) {
+    return reinterpret_cast<jlong>(pron_engine_create(to_std(env, dir).c_str(), threads));
+}
+
+JNIEXPORT void JNICALL Java_app_englishpron_engine_NativeEngine_engineDestroy(JNIEnv*, jclass, jlong h) {
+    if (h) pron_engine_destroy(E(h));
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineStatus(JNIEnv* env, jclass, jlong h) {
+    return take_json(env, pron_engine_status(E(h)));
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineLastError(JNIEnv* env, jclass, jlong h) {
+    const char* e = pron_engine_last_error(E(h));
+    return env->NewStringUTF(e ? e : "");
+}
+
+JNIEXPORT void JNICALL Java_app_englishpron_engine_NativeEngine_engineSetStrictness(JNIEnv*, jclass, jlong h,
+                                                                                    jint s) {
+    pron_engine_set_strictness(E(h), s);
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineAssessPcm16(
+    JNIEnv* env, jclass, jlong h, jshortArray pcm, jint sampleRate, jstring reference) {
+    const jsize n = pcm ? env->GetArrayLength(pcm) : 0;
+    std::vector<jshort> buf(static_cast<size_t>(n));
+    if (n > 0) env->GetShortArrayRegion(pcm, 0, n, buf.data());
+    std::string ref = to_std(env, reference);
+    char* out = pron_engine_assess_pcm16(E(h), reinterpret_cast<const int16_t*>(buf.data()),
+                                         static_cast<size_t>(n), sampleRate, ref.c_str());
+    return take_json(env, out);
+}
+
+// Returns [sampleRate, s0, s1, ...] or null on error.
+JNIEXPORT jfloatArray JNICALL Java_app_englishpron_engine_NativeEngine_engineTts(
+    JNIEnv* env, jclass, jlong h, jstring text, jstring voice, jfloat speed) {
+    std::string t = to_std(env, text), v = to_std(env, voice);
+    size_t count = 0;
+    int rate = 0;
+    float* a = pron_engine_tts(E(h), t.c_str(), v.c_str(), speed, &count, &rate);
+    if (!a) return nullptr;
+    jfloatArray r = env->NewFloatArray(static_cast<jsize>(count + 1));
+    if (r) {
+        const jfloat head = static_cast<jfloat>(rate);
+        env->SetFloatArrayRegion(r, 0, 1, &head);
+        if (count > 0) env->SetFloatArrayRegion(r, 1, static_cast<jsize>(count), a);
+    }
+    pron_engine_free_audio(a);
+    return r;
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineLookup(JNIEnv* env, jclass, jlong h,
+                                                                                jstring word) {
+    return take_json(env, pron_engine_lookup(E(h), to_std(env, word).c_str()));
 }
 
 }  // extern "C"

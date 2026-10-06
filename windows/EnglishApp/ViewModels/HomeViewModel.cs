@@ -26,7 +26,7 @@ public partial class HomeViewModel : ObservableObject
         var s = repo.GetStreak();
         StreakText = s == 0 ? "Серия: начните сегодня" : $"Серия: {s} {Plural(s, "день", "дня", "дней")} подряд";
         Warning = !repo.ContentAvailable ? "База контента не найдена: " + repo.ContentError
-                : AppServices.NativeError != null ? "Нативная библиотека pron.dll не загружена: " + AppServices.NativeError : "";
+                : AppServices.Engine.Error != null ? "Движок произношения не загружен: " + AppServices.Engine.Error : "";
     }
 
     public static string Plural(int n, string one, string few, string many)

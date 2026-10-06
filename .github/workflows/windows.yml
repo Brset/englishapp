@@ -2,9 +2,9 @@ name: windows
 
 on:
   push:
-    paths: ['windows/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
+    paths: ['windows/**', 'core/**', 'engine/**', '.github/actions/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
   pull_request:
-    paths: ['windows/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
+    paths: ['windows/**', 'core/**', 'engine/**', '.github/actions/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
   workflow_dispatch:
 
 jobs:
@@ -20,11 +20,17 @@ jobs:
       - name: Build content.db
         run: python tools/build_content_db.py
 
-      # core/CMakeLists.txt provides PRON_BUILD_SHARED: target pron_c -> pron.dll (PRON_SHARED + PRON_BUILDING)
-      - name: Build native DLL (Release x64)
+      # engine/CMakeLists.txt: target pron_engine -> pron_engine.dll (also exports pron_c.h); it downloads
+      # onnxruntime / sherpa-onnx / whisper.cpp for win-x64 on configure.
+      - name: Build native engine (Release x64)
         run: |
-          cmake -S core -B build/native -A x64 -DPRON_BUILD_SHARED=ON -DPRON_BUILD_TESTS=OFF
-          cmake --build build/native --config Release --target pron_c
+          cmake -S engine -B build/engine -A x64
+          cmake --build build/engine --config Release --target pron_engine
+
+      - name: Fetch models
+        uses: ./.github/actions/models
+        with:
+          out: models
 
       - uses: actions/setup-dotnet@v4
         with:
@@ -34,15 +40,30 @@ jobs:
         run: >
           dotnet publish windows/EnglishApp/EnglishApp.csproj -c Release -r win-x64 --self-contained true
           -p:Platform=x64 -p:WindowsAppSDKSelfContained=true
-          -p:NativeDll="${{ github.workspace }}\build\native\Release\pron.dll"
           -p:ContentDb="${{ github.workspace }}\build\content.db"
           -p:UserSchema="${{ github.workspace }}\content\db\user_schema.sql"
           -o publish
 
+      - name: Bundle native DLLs and models
+        shell: pwsh
+        run: |
+          $dlls = Get-ChildItem -Path build/engine -Recurse -Filter *.dll |
+            Where-Object { $_.FullName -notmatch '\\CMakeFiles\\' -and $_.FullName -notmatch '\\_deps\\[^\\]+-src\\(test|tests|examples)\\' }
+          $names = @{}
+          foreach ($d in $dlls) {
+            if ($names.ContainsKey($d.Name)) { continue }
+            $names[$d.Name] = $true
+            Copy-Item $d.FullName publish/ -Force
+            Write-Host "native: $($d.FullName)"
+          }
+          if (-not $names.ContainsKey('pron_engine.dll')) { throw 'pron_engine.dll not found in build/engine' }
+          New-Item -ItemType Directory -Force publish/models | Out-Null
+          Copy-Item models/* publish/models -Recurse -Force
+
       - name: Verify bundled files
         shell: pwsh
         run: |
-          foreach ($f in 'EnglishApp.exe','pron.dll','content.db','user_schema.sql') {
+          foreach ($f in 'EnglishApp.exe','pron_engine.dll','onnxruntime.dll','content.db','user_schema.sql','models') {
             if (-not (Test-Path "publish/$f")) { throw "missing $f in publish output" }
           }
 

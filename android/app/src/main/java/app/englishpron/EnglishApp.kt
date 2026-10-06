@@ -5,10 +5,8 @@ import app.englishpron.audio.Player
 import app.englishpron.audio.Recorder
 import app.englishpron.audio.TtsSpeaker
 import app.englishpron.data.AppDatabase
-import app.englishpron.engine.AsrEngine
-import app.englishpron.engine.PhonemeEngine
-import app.englishpron.engine.StubAsrEngine
-import app.englishpron.engine.StubPhonemeEngine
+import app.englishpron.engine.EngineHost
+import app.englishpron.engine.Speaker
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -25,17 +23,18 @@ class EnglishApp : Application() {
     private val _settings = MutableStateFlow(UserSettings())
     val settings: StateFlow<UserSettings> = _settings
 
-    lateinit var tts: TtsSpeaker
+    lateinit var tts: Speaker
+    lateinit var engine: EngineHost
     val recorder = Recorder()
     val player = Player()
-    var asr: AsrEngine = StubAsrEngine()          // TODO whisper.cpp
-    var phonemes: PhonemeEngine = StubPhonemeEngine() // TODO onnxruntime wav2vec2
 
     suspend fun db(): AppDatabase = dbDeferred.await()
 
     override fun onCreate() {
         super.onCreate()
-        tts = TtsSpeaker(this)
+        engine = EngineHost(this)
+        tts = Speaker(engine, player, TtsSpeaker(this))
+        engine.start()
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val db = AppDatabase.open(this@EnglishApp)
@@ -63,6 +62,7 @@ class EnglishApp : Application() {
     private fun applySettings(s: UserSettings) {
         _settings.value = s
         PronCore.setStrictness(s.strictness)
+        engine.setStrictness(s.strictness)
         tts.setBritish(s.british)
     }
 

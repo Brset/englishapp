@@ -7,7 +7,8 @@ set(PRON_CORE_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../core/include" CACHE
 set(ONNXRUNTIME_VERSION "1.22.0" CACHE STRING "onnxruntime release to download")
 set(ONNXRUNTIME_ROOT "" CACHE PATH "Prebuilt onnxruntime (include/ + lib/); downloaded if empty")
 
-if(NOT ONNXRUNTIME_ROOT)
+# ORT_LIB + ORT_INCLUDE_DIR may be preset (engine/: reuse the onnxruntime shipped with sherpa-onnx).
+if(NOT ONNXRUNTIME_ROOT AND NOT (ORT_LIB AND ORT_INCLUDE_DIR))
   include(FetchContent)
   set(_ort_name onnxruntime-linux-x64-${ONNXRUNTIME_VERSION})
   if(WIN32)

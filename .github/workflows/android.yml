@@ -2,9 +2,9 @@ name: android
 
 on:
   push:
-    paths: ['android/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/android.yml']
+    paths: ['android/**', 'core/**', 'engine/**', 'content/**', 'tools/**', '.github/actions/**', '.github/workflows/android.yml']
   pull_request:
-    paths: ['android/**', 'core/**', 'content/**', 'tools/**', '.github/workflows/android.yml']
+    paths: ['android/**', 'core/**', 'engine/**', 'content/**', 'tools/**', '.github/actions/**', '.github/workflows/android.yml']
   workflow_dispatch:
 
 jobs:
@@ -19,6 +19,11 @@ jobs:
 
       - name: Build content DB
         run: python tools/build_content_db.py
+
+      - name: Fetch models
+        uses: ./.github/actions/models
+        with:
+          out: models
 
       - uses: actions/setup-java@v4
         with:
@@ -36,7 +41,7 @@ jobs:
 
       - name: Assemble debug APK
         working-directory: android
-        run: ./gradlew assembleDebug --no-daemon
+        run: ./gradlew assembleDebug -Pabi=arm64-v8a --no-daemon
 
       - uses: actions/upload-artifact@v4
         with:

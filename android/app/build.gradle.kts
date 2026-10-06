@@ -15,10 +15,12 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "0.1.0"
-        ndk { abiFilters += listOf("arm64-v8a", "x86_64") }
+        // CI builds arm64-v8a only: ./gradlew assembleDebug -Pabi=arm64-v8a
+        val abis = (project.findProperty("abi") as String?)?.split(",") ?: listOf("arm64-v8a", "x86_64")
+        ndk { abiFilters += abis }
         externalNativeBuild {
             cmake {
-                arguments += listOf("-DPRON_BUILD_TESTS=OFF", "-DANDROID_STL=c++_static")
+                arguments += listOf("-DPRON_BUILD_TESTS=OFF", "-DANDROID_STL=c++_shared")
                 cppFlags += "-std=c++17"
             }
         }
@@ -43,7 +45,7 @@ android {
     }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }
-    androidResources { noCompress += listOf("db", "sql", "dict") }
+    androidResources { noCompress += listOf("db", "sql", "dict", "onnx", "bin") }
     packaging { jniLibs.useLegacyPackaging = false }
 }
 
@@ -63,6 +65,27 @@ val copyContentAssets by tasks.registering(Copy::class) {
     }
 }
 android.sourceSets["main"].assets.srcDir(contentAssetsDir)
+
+// --- Models: <repo>/models (tools/fetch_models.py) -> assets/models + models_version.txt ---------
+val modelsAssetsDir = layout.buildDirectory.dir("generated/modelsAssets")
+val copyModelAssets by tasks.registering(Copy::class) {
+    val modelsSrc = File(rootProject.projectDir.parentFile, "models")
+    from(modelsSrc) { into("models") }
+    into(modelsAssetsDir)
+    doLast {
+        val out = modelsAssetsDir.get().asFile
+        val ver = File(out, "models_version.txt")
+        val files = File(out, "models").walkTopDown().filter { it.isFile }.sortedBy { it.path }.toList()
+        if (files.isEmpty()) { ver.delete() } else {
+            val h = files.fold(17L) { a, f -> a * 31 + (f.relativeTo(out).path + ":" + f.length()).hashCode() }
+            ver.writeText(java.lang.Long.toHexString(h))
+        }
+    }
+}
+android.sourceSets["main"].assets.srcDir(modelsAssetsDir)
+tasks.configureEach {
+    if (name.startsWith("merge") && name.endsWith("Assets")) dependsOn(copyModelAssets)
+}
 tasks.configureEach {
     if (name.startsWith("merge") && name.endsWith("Assets")) dependsOn(copyContentAssets)
 }

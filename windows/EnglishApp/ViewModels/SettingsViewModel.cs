@@ -15,7 +15,7 @@ public partial class SettingsViewModel : ObservableObject
     [ObservableProperty] private int strictnessIndex;
     [ObservableProperty] private int themeIndex;
     [ObservableProperty] private int micIndex;
-    public string Info => $"pron_core: {(AppServices.Assessor != null ? Native.PronAssessor.Version : "не загружена")}";
+    [ObservableProperty] private string engineStatus = "Движок произношения: загрузка…";
 
     private bool _loading;
 
@@ -30,6 +30,15 @@ public partial class SettingsViewModel : ObservableObject
         if (Mics.Count == 0) Mics.Add("Микрофон не найден");
         MicIndex = Math.Clamp(s.MicDevice, 0, Mics.Count - 1);
         _loading = false;
+        _ = LoadEngineStatusAsync();
+    }
+
+    private async Task LoadEngineStatusAsync()
+    {
+        await AppServices.Engine.Ready;
+        var e = AppServices.Engine;
+        EngineStatus = e.Status != null ? e.Status.ToRussian()
+            : "Движок произношения не загружен" + (e.Error != null ? ": " + e.Error : "");
     }
 
     partial void OnAccentIndexChanged(int value) { if (!_loading) AppServices.Settings.Accent = value == 1 ? "UK" : "US"; }
@@ -37,7 +46,7 @@ public partial class SettingsViewModel : ObservableObject
     {
         if (_loading) return;
         AppServices.Settings.Strictness = value;
-        AppServices.Assessor?.SetStrictness((Native.Strictness)value);
+        _ = AppServices.Engine.SetStrictnessAsync(value);
     }
     partial void OnMicIndexChanged(int value) { if (!_loading && value >= 0) AppServices.Settings.MicDevice = value; }
     partial void OnThemeIndexChanged(int value)

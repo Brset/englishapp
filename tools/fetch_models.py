@@ -1,126 +1,192 @@
 #!/usr/bin/env python3
-"""Download and verify models from manifest.json using stdlib only."""
+"""Fetch models into the layout required by engine/include/pron/pron_engine.h.
 
-import json
-import os
-import sys
-import hashlib
+  python tools/fetch_models.py --out models [--only NAME ...]
+
+Stdlib only. Resumable (.part + Range), sha256-verified where the manifest has a hash
+(computed hashes are printed otherwise), idempotent (finished targets are skipped).
+The "phoneme" entry is produced by tools/export_phoneme_model.py, not downloaded.
+"""
 import argparse
-from urllib.request import urlopen, Request
-from urllib.error import URLError
+import bz2  # noqa: F401  (tarfile needs it; fail early if missing)
+import hashlib
+import json
+import shutil
+import sys
+import tarfile
+import tempfile
+import time
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parent.parent
+UA = "fetch_models.py/2.0"
 
 
-def get_manifest():
-    """Load manifest.json from parent models directory."""
-    manifest_path = Path(__file__).parent.parent / "models" / "manifest.json"
-    with open(manifest_path) as f:
-        return json.load(f)
-
-
-def sha256_file(path, chunk_size=65536):
-    """Compute SHA256 hash of a file."""
-    sha256_hash = hashlib.sha256()
+def sha256_file(path):
+    h = hashlib.sha256()
     with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(chunk_size), b""):
-            sha256_hash.update(chunk)
-    return sha256_hash.hexdigest()
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 
-def get_local_filename(model_url):
-    """Extract filename from URL."""
-    return model_url.rstrip('/').split('/')[-1]
+def download(url, dest, expected=None, retries=4):
+    """Download url to dest (resumable). Returns sha256 or raises."""
+    dest = Path(dest)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if dest.exists():
+        got = sha256_file(dest)
+        if expected is None or got == expected:
+            return got
+        print(f"  hash mismatch on existing {dest.name}, refetching")
+        dest.unlink()
+    part = dest.with_name(dest.name + ".part")
+    for attempt in range(1, retries + 1):
+        have = part.stat().st_size if part.exists() else 0
+        req = Request(url, headers={"User-Agent": UA})
+        if have:
+            req.add_header("Range", f"bytes={have}-")
+        try:
+            with urlopen(req, timeout=60) as r:
+                status = getattr(r, "status", 200)
+                mode = "ab"
+                if have and status != 206:  # server ignored Range
+                    mode, have = "wb", 0
+                total = r.headers.get("Content-Length")
+                total = int(total) + have if total else None
+                done, last = have, time.time()
+                with open(part, mode) as f:
+                    while True:
+                        chunk = r.read(1 << 20)
+                        if not chunk:
+                            break
+                        f.write(chunk)
+                        done += len(chunk)
+                        if time.time() - last > 2:
+                            last = time.time()
+                            pct = f" {100 * done // total}%" if total else ""
+                            print(f"  {dest.name}: {done / 1e6:.1f} MB{pct}", flush=True)
+                if total is not None and done != total:
+                    raise IOError(f"short read {done}/{total}")
+            break
+        except HTTPError as e:
+            if e.code == 416 and part.exists():  # part is already complete
+                break
+            if attempt == retries or e.code in (401, 403, 404):
+                raise
+            print(f"  retry {attempt}: {e}")
+        except (URLError, IOError, TimeoutError) as e:
+            if attempt == retries:
+                raise
+            print(f"  retry {attempt}: {e}")
+            time.sleep(2 * attempt)
+    got = sha256_file(part)
+    if expected and got != expected:
+        part.unlink()
+        raise ValueError(f"sha256 mismatch for {url}: got {got}, expected {expected}")
+    part.replace(dest)
+    return got
 
 
-def download_file(url, dest_path, expected_sha256=None):
-    """Download file with resume support and progress reporting."""
-    dest_path = Path(dest_path)
-    dest_path.parent.mkdir(parents=True, exist_ok=True)
+def safe_extract(tar_path, target):
+    target = Path(target).resolve()
+    with tarfile.open(tar_path, "r:bz2") as tf:
+        for m in tf.getmembers():
+            p = (target / m.name).resolve()
+            if target != p and target not in p.parents:
+                raise ValueError(f"unsafe path in archive: {m.name}")
+            if m.issym() or m.islnk() or m.isdev():
+                raise ValueError(f"unsupported member in archive: {m.name}")
+        if hasattr(tarfile, "data_filter"):
+            tf.extractall(target, filter="data")
+        else:
+            tf.extractall(target)
 
-    # Check if file exists and is complete
-    if dest_path.exists():
-        local_sha = sha256_file(dest_path)
-        if expected_sha256 is None:
-            print(f"  ✓ {dest_path.name} exists (sha256: {local_sha})")
-            return local_sha
-        elif local_sha == expected_sha256:
-            print(f"  ✓ {dest_path.name} verified")
-            return local_sha
 
-    # Determine if resumable (only for HEAD-check, not for actual download)
-    try:
-        req = Request(url, method='HEAD')
-        req.add_header('User-Agent', 'fetch_models.py/1.0')
-        response = urlopen(req, timeout=10)
-        content_length = response.headers.get('Content-Length')
-        if content_length:
-            print(f"  → {dest_path.name} ({int(content_length) / 1e6:.1f} MB)")
-    except (URLError, Exception) as e:
-        print(f"  ✗ {dest_path.name}: {e}")
-        return None
+def voice_ready(d):
+    return ((d / "model.onnx").is_file() and (d / "tokens.txt").is_file()
+            and (d / "espeak-ng-data").is_dir())
 
-    # Download the file
-    try:
-        req = Request(url)
-        req.add_header('User-Agent', 'fetch_models.py/1.0')
-        with urlopen(req, timeout=30) as response:
-            with open(dest_path, 'wb') as f:
-                while True:
-                    chunk = response.read(65536)
-                    if not chunk:
-                        break
-                    f.write(chunk)
 
-        local_sha = sha256_file(dest_path)
-        if expected_sha256 and local_sha != expected_sha256:
-            print(f"  ✗ {dest_path.name}: checksum mismatch")
-            dest_path.unlink()
-            return None
-        print(f"  ✓ {dest_path.name} downloaded (sha256: {local_sha})")
-        return local_sha
-    except Exception as e:
-        print(f"  ✗ Failed to download {dest_path.name}: {e}")
-        if dest_path.exists():
-            dest_path.unlink()
-        return None
+def fetch_file(m, out, cache):
+    dest = out / m["dest"]
+    exp = m.get("sha256")
+    if dest.exists():
+        got = sha256_file(dest)
+        if exp is None or got == exp:
+            return got, "present"
+        dest.unlink()
+    return download(m["url"], dest, exp), "downloaded"
+
+
+def fetch_voice(m, out, cache):
+    dest = out / m["dest"]
+    if voice_ready(dest):
+        return None, "present"
+    archive = cache / m["url"].rsplit("/", 1)[-1]
+    sha = download(m["url"], archive, m.get("sha256"))
+    with tempfile.TemporaryDirectory(dir=cache) as tmp:
+        safe_extract(archive, tmp)
+        roots = [p for p in Path(tmp).iterdir() if p.is_dir()]
+        src = roots[0] if len(roots) == 1 else Path(tmp)
+        onnx = sorted(p for p in src.glob("*.onnx") if "int8" not in p.name) or sorted(src.glob("*.onnx"))
+        if not onnx or not (src / "tokens.txt").is_file() or not (src / "espeak-ng-data").is_dir():
+            raise ValueError(f"unexpected archive contents in {archive.name}")
+        stage = Path(tmp) / "_stage"
+        stage.mkdir()
+        shutil.copy2(onnx[0], stage / "model.onnx")
+        shutil.copy2(src / "tokens.txt", stage / "tokens.txt")
+        shutil.copytree(src / "espeak-ng-data", stage / "espeak-ng-data")
+        if dest.exists():
+            shutil.rmtree(dest)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(stage), str(dest))
+    archive.unlink()
+    return sha, "downloaded"
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Download models from manifest.json")
-    parser.add_argument("--only", help="Download only this model name")
-    parser.add_argument("--verify", action="store_true", help="Only verify existing files")
-    args = parser.parse_args()
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--out", default="models", help="output models directory (default: models)")
+    ap.add_argument("--only", nargs="+", metavar="NAME", help="only these manifest entries")
+    ap.add_argument("--manifest", default=str(ROOT / "models" / "manifest.json"))
+    args = ap.parse_args()
 
-    manifest = get_manifest()
-    models_dir = Path(__file__).parent.parent / "models"
+    manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
+    names = {m["name"] for m in manifest["models"]}
+    if args.only and (bad := set(args.only) - names):
+        print(f"unknown names: {', '.join(sorted(bad))}; known: {', '.join(sorted(names))}")
+        return 2
+    out = Path(args.out)
+    cache = out / ".cache"
+    cache.mkdir(parents=True, exist_ok=True)
 
-    downloaded = []
-    verified = []
     failed = []
-
-    for model in manifest["models"]:
-        name = model["name"]
-        url = model["url"]
-        expected_sha = model.get("sha256")
-
-        if args.only and name != args.only:
+    for m in manifest["models"]:
+        name = m["name"]
+        if args.only and name not in args.only:
             continue
-
-        filename = get_local_filename(url)
-        dest_path = models_dir / filename
-
-        sha = download_file(url, dest_path, expected_sha)
-        if sha:
-            downloaded.append((name, sha))
-        else:
+        kind = m["kind"]
+        if kind == "export":
+            print(f"[{name}] built by {m['script']} --out {out}")
+            continue
+        print(f"[{name}]")
+        try:
+            sha, state = (fetch_file if kind == "file" else fetch_voice)(m, out, cache)
+            note = f" sha256={sha}" if sha and not m.get("sha256") else ""
+            print(f"  ok: {m['dest']} ({state}){note}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  FAILED: {e}")
             failed.append(name)
-
-    # Report
-    print(f"\n✓ Downloaded: {len(downloaded)}")
+    try:
+        cache.rmdir()
+    except OSError:
+        pass
     if failed:
-        print(f"✗ Failed: {', '.join(failed)}")
-
-    return 0 if not failed else 1
+        print("failed: " + ", ".join(failed))
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":

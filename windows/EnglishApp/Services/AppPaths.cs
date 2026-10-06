@@ -9,5 +9,5 @@ public static class AppPaths
     public static string UserDb => Path.Combine(UserDir, "user.db");
     public static string ContentDb => Path.Combine(BaseDir, "content.db");
     public static string UserSchema => Path.Combine(BaseDir, "user_schema.sql");
-    public static string CmuDict => Path.Combine(BaseDir, "cmudict.dict");
+    public static string ModelsDir => Path.Combine(BaseDir, "models");
 }

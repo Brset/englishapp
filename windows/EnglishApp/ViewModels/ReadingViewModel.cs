@@ -43,7 +43,7 @@ public partial class ReadingViewModel : ObservableObject
     {
         var v = FindVocab(word);
         var ipa = v == null ? "" : (Accent == "UK" ? v.IpaUk : v.IpaUs);
-        if (string.IsNullOrWhiteSpace(ipa)) ipa = AppServices.Assessor?.Lookup(word.ToLowerInvariant())?.Ipa ?? "";
+        if (string.IsNullOrWhiteSpace(ipa)) ipa = AppServices.Engine.Lookup(word.ToLowerInvariant())?.Ipa ?? "";
         return ipa;
     }
 

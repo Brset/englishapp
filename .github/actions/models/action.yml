@@ -1,0 +1,29 @@
+name: Fetch models
+description: Download/export all engine models into a directory (cached)
+inputs:
+  out:
+    description: Output models directory
+    default: models
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Cache models
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ inputs.out }}
+        key: models-${{ runner.os }}-${{ hashFiles('models/manifest.json', 'tools/fetch_models.py', 'tools/export_phoneme_model.py') }}
+    - name: Fetch models
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      run: python tools/fetch_models.py --out "${{ inputs.out }}"
+    - name: Export phoneme model
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      run: |
+        pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1"
+        pip install "transformers==4.46.3" "onnx==1.17.0" "onnxruntime==1.20.1" "numpy<2.1"
+        python tools/export_phoneme_model.py --out "${{ inputs.out }}"

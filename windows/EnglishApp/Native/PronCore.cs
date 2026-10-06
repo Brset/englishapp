@@ -6,6 +6,17 @@ using Microsoft.Win32.SafeHandles;
 
 namespace EnglishApp.Native;
 
+/// <summary>Owns a pron_engine*; destroyed via pron_engine_destroy.</summary>
+public sealed class EngineHandle : SafeHandleZeroOrMinusOneIsInvalid
+{
+    public EngineHandle() : base(true) { }
+    protected override bool ReleaseHandle()
+    {
+        NativeMethods.pron_engine_destroy(handle);
+        return true;
+    }
+}
+
 /// <summary>Owns a pron_assessor*; destroyed via pron_assessor_destroy.</summary>
 public sealed class AssessorHandle : SafeHandleZeroOrMinusOneIsInvalid
 {
@@ -29,7 +40,7 @@ public struct PronWordNative
 /// <summary>Raw P/Invoke declarations, one per function in pron_c.h.</summary>
 internal static class NativeMethods
 {
-    private const string Lib = "pron";   // pron.dll (core: OUTPUT_NAME pron)
+    private const string Lib = "pron_engine";   // pron_engine.dll exports pron_c.h + pron_engine.h
     private const CallingConvention Cc = CallingConvention.Cdecl;
 
     [DllImport(Lib, CallingConvention = Cc)] public static extern IntPtr pron_version();
@@ -64,6 +75,31 @@ internal static class NativeMethods
     public static extern IntPtr pron_assessor_lookup(AssessorHandle a, [MarshalAs(UnmanagedType.LPUTF8Str)] string word);
 
     [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_free_string(IntPtr s);
+
+    // ---- pron_engine.h ----
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern EngineHandle pron_engine_create([MarshalAs(UnmanagedType.LPUTF8Str)] string modelsDir, int nThreads);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_engine_destroy(IntPtr e);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern IntPtr pron_engine_last_error(EngineHandle e);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern IntPtr pron_engine_status(EngineHandle e);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_engine_set_strictness(EngineHandle e, int strictness);
+
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_engine_assess_pcm16(EngineHandle e, short[] samples, UIntPtr count, int sampleRate,
+        [MarshalAs(UnmanagedType.LPUTF8Str)] string reference);
+
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_engine_assess_f32(EngineHandle e, float[] samples, UIntPtr count, int sampleRate,
+        [MarshalAs(UnmanagedType.LPUTF8Str)] string reference);
+
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_engine_tts(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string text,
+        [MarshalAs(UnmanagedType.LPUTF8Str)] string voice, float speed, out UIntPtr outCount, out int outSampleRate);
+
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_engine_free_audio(IntPtr samples);
+
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_engine_lookup(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string word);
 }
 
 public enum Strictness { Lenient = 0, Normal = 1, Strict = 2 }

@@ -3,8 +3,8 @@
 
 **Сборка** (Windows 10 1809+, .NET 8 SDK / Visual Studio 2022):
 1. `python tools/build_content_db.py` — собирает `build/content.db`.
-2. `cmake -S core -B build/native -A x64 -DPRON_BUILD_SHARED=ON -DPRON_BUILD_TESTS=OFF` и `cmake --build build/native --config Release --target pron_c` — получается `pron.dll`.
-3. `dotnet publish windows/EnglishApp/EnglishApp.csproj -c Release -r win-x64 --self-contained -p:Platform=x64` — рядом с exe копируются `pron.dll`, `content.db`, `user_schema.sql` (пути: `-p:NativeDll=`, `-p:ContentDb=`).
+2. `cmake -S engine -B build/engine -A x64` и `cmake --build build/engine --config Release --target pron_engine` — получается `pron_engine.dll` (+ onnxruntime/sherpa-onnx DLL).
+3. `dotnet publish windows/EnglishApp/EnglishApp.csproj -c Release -r win-x64 --self-contained -p:Platform=x64` — рядом с exe копируются `content.db`, `user_schema.sql` (`-p:ContentDb=`); `pron_engine.dll`, зависимые DLL и папку `models/` добавляет CI-воркфлоу.
 
 CI: `.github/workflows/windows.yml` выполняет всё это и выкладывает артефакт `EnglishApp-win-x64`.
 

@@ -227,7 +227,8 @@ fun SettingsScreen(vm: SettingsViewModel = viewModel()) {
         }
         SectionTitle("О приложении")
         Text("pron_core ${runCatching { PronCore.version }.getOrDefault("?")}", style = MaterialTheme.typography.bodyMedium)
-        Text("Озвучка: системный TTS (временно, позже Piper). Распознавание речи и фонем: заглушки (whisper / onnx — в планах).",
-            style = MaterialTheme.typography.bodySmall)
+        val es by vm.engineStatus.collectAsStateWithLifecycle()
+        SectionTitle("Движок")
+        Text(es.describe(), style = MaterialTheme.typography.bodySmall)
     }
 }

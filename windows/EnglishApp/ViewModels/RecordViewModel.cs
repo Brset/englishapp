@@ -87,25 +87,12 @@ public partial class RecordViewModel : ObservableObject
         {
             var wav = await AppServices.Recorder.StopAsync();
             if (wav == null) return;
-            var asr = await AppServices.Asr.TranscribeAsync(wav, _text!.Body);
-            var ph = await AppServices.Phoneme.ComputeAsync(wav);
-            var assessor = AppServices.Assessor ?? throw new InvalidOperationException(
-                "Нативная библиотека не загружена: " + AppServices.NativeError);
-            assessor.SetStrictness((Native.Strictness)AppServices.Settings.Strictness);
-            string json;
-            if (ph != null)
-            {
-                AppServices.EnsurePhonemeVocab(ph);
-                json = await Task.Run(() => assessor.AssessJson(_text.Body, asr, ph.LogPosteriors, ph.Frames, ph.Classes, ph.FrameSeconds));
-            }
-            else
-            {
-                json = await Task.Run(() => assessor.AssessJson(_text.Body, asr));
-            }
+            var json = await AppServices.Engine.AssessWavAsync(wav, _text!.Body, AppServices.Settings.Strictness);
             var result = Native.PronAssessor.ParseResult(json);
             AppServices.Repo.SaveAttempt(_text.Id, wav, (int)(seconds * 1000), result.Scores.Overall, json, seconds / 60.0);
             AppServices.Repo.RecordPhonemes(result);
-            string? note = asr.Count == 0 ? "Распознавание речи (ASR) ещё не подключено: слова не распознаны." : null;
+            string? note = AppServices.Engine.Status is { Asr: false }
+                ? "Модель распознавания речи (whisper) не загружена: слова не распознаны." : null;
             Status = "Готово.";
             Completed?.Invoke(new ReviewArgs(_text.Id, _text.Body, json, result, note));
         }

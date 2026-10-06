@@ -1,5 +1,3 @@
-using EnglishApp.Native;
-
 namespace EnglishApp.Services;
 
 /// <summary>Poor man's service locator; created once at startup.</summary>
@@ -8,38 +6,15 @@ public static class AppServices
     public static ContentRepository Repo { get; private set; } = null!;
     public static AudioPlayer Player { get; } = new();
     public static AudioRecorder Recorder { get; } = new();
-    public static IAsrEngine Asr { get; set; } = new StubAsrEngine();
-    public static IPhonemeEngine Phoneme { get; set; } = new StubPhonemeEngine();
-    public static ITtsEngine Tts { get; set; } = new StubTtsEngine();
-    public static PronAssessor? Assessor { get; private set; }
-    public static string? NativeError { get; private set; }
     public static SettingsService Settings { get; private set; } = null!;
 
-    private static bool _vocabSet;
+    public static PronEngineService Engine => PronEngineService.Instance;
 
     public static void Init()
     {
         Repo = new ContentRepository(AppPaths.UserDb, AppPaths.ContentDb, AppPaths.UserSchema);
         Settings = new SettingsService(Repo);
-        try
-        {
-            Assessor = new PronAssessor();
-            if (File.Exists(AppPaths.CmuDict)) Assessor.LoadCmudictFile(AppPaths.CmuDict);
-            Assessor.SetStrictness((Strictness)Settings.Strictness);
-        }
-        catch (Exception ex) when (ex is DllNotFoundException or BadImageFormatException or EntryPointNotFoundException or PronException)
-        {
-            NativeError = ex.Message;
-            Assessor = null;
-        }
-    }
-
-    /// <summary>Feeds the phoneme model's labels to the assessor once.</summary>
-    public static void EnsurePhonemeVocab(PhonemePosteriors p)
-    {
-        if (_vocabSet || Assessor == null) return;
-        Assessor.SetPhonemeVocab(p.Labels, p.BlankIndex);
-        _vocabSet = true;
+        Engine.StartInit(AppPaths.ModelsDir, Settings.Strictness);
     }
 }
 

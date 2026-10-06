@@ -3,7 +3,6 @@ package app.englishpron.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import app.englishpron.AsrWord
 import app.englishpron.EnglishApp
 import app.englishpron.PronCore
 import app.englishpron.UserSettings
@@ -125,7 +124,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
             val v = st.vocab.firstOrNull { it.word.equals(clean, true) }
             val british = ctx.settings.value.british
             val ipa = v?.let { if (british) it.ipaUk else it.ipaUs }
-                ?: withContext(Dispatchers.IO) { PronCore.lookup(clean)?.optString("ipa") }.orEmpty()
+                ?: (ctx.engine.lookup(clean) ?: withContext(Dispatchers.IO) { PronCore.lookup(clean) })?.optString("ipa").orEmpty()
             val saved = io { it.isSaved(clean) }
             _s.update { it.copy(wordInfo = WordInfo(clean, ipa, v?.translationRu ?: "", saved)) }
         }
@@ -164,11 +163,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
             val pcm = ctx.recorder.stop()
             val parsed = withContext(Dispatchers.Default) {
                 try {
-                    val words: List<AsrWord> = ctx.asr.transcribe(pcm, SAMPLE_RATE, reference)
-                    val post = ctx.phonemes.posteriors(pcm, SAMPLE_RATE)
-                    val json = PronCore.assess(reference, words, post?.logPosteriors, post?.nFrames ?: 0,
-                        post?.nClasses ?: 0, post?.frameSeconds ?: 0.02) ?: error(PronCore.lastError())
-                    AssessmentUi.parse(json)
+                    AssessmentUi.parse(ctx.engine.assess(pcm, SAMPLE_RATE, reference))
                 } catch (e: Exception) { e }
             }
             if (parsed is AssessmentUi) {
@@ -221,5 +216,6 @@ class ProgressViewModel(app: Application) : BaseVm(app) {
 
 class SettingsViewModel(app: Application) : BaseVm(app) {
     val settings: StateFlow<UserSettings> = ctx.settings
+    val engineStatus = ctx.engine.status
     fun update(s: UserSettings) { viewModelScope.launch { ctx.updateSettings(s) } }
 }

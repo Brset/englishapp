@@ -21,9 +21,8 @@
     <SatelliteResourceLanguages>en;ru</SatelliteResourceLanguages>
   </PropertyGroup>
 
-  <!-- Native inputs. Override on the command line: -p:NativeDll=... -p:ContentDb=... -->
+  <!-- Inputs. pron_engine.dll + dependent DLLs and models/ are copied next to the exe by the CI workflow. -->
   <PropertyGroup>
-    <NativeDll Condition="'$(NativeDll)' == ''">$(MSBuildThisFileDirectory)..\..\build\native\Release\pron.dll</NativeDll>
     <ContentDb Condition="'$(ContentDb)' == ''">$(MSBuildThisFileDirectory)..\..\build\content.db</ContentDb>
     <UserSchema Condition="'$(UserSchema)' == ''">$(MSBuildThisFileDirectory)..\..\content\db\user_schema.sql</UserSchema>
   </PropertyGroup>
@@ -37,7 +36,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="$(NativeDll)" Condition="Exists('$(NativeDll)')" Link="pron.dll" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="$(ContentDb)" Condition="Exists('$(ContentDb)')" Link="content.db" CopyToOutputDirectory="PreserveNewest" />
     <Content Include="$(UserSchema)" Condition="Exists('$(UserSchema)')" Link="user_schema.sql" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>

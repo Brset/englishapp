@@ -12,7 +12,7 @@
                       SelectedIndex="{x:Bind ViewModel.MicIndex, Mode=TwoWay}" />
             <ComboBox Header="Тема" Width="300" ItemsSource="{x:Bind ViewModel.Themes}"
                       SelectedIndex="{x:Bind ViewModel.ThemeIndex, Mode=TwoWay}" />
-            <TextBlock Text="{x:Bind ViewModel.Info}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            <TextBlock Text="{x:Bind ViewModel.EngineStatus, Mode=OneWay}" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
         </StackPanel>
     </ScrollViewer>
 </Page>
