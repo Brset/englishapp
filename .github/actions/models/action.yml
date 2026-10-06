@@ -7,6 +7,9 @@ inputs:
 runs:
   using: composite
   steps:
+    - name: Use UTF-8 for Python output
+      shell: bash
+      run: echo "PYTHONIOENCODING=utf-8" >> "$GITHUB_ENV"
     - uses: actions/setup-python@v5
       with:
         python-version: "3.11"

@@ -56,8 +56,9 @@ public static class Diagnostics
     {
         var dir = AppContext.BaseDirectory;
         var temp = Path.GetTempPath();
-        bool inTemp = dir.StartsWith(temp, StringComparison.OrdinalIgnoreCase)
-            || dir.Contains(@"\Temp\Temp", StringComparison.OrdinalIgnoreCase)
+        // Only real temp locations (zip preview / archiver extraction), never Downloads/Desktop.
+        bool inTemp = (temp.Length > 3 && temp.Contains("temp", StringComparison.OrdinalIgnoreCase)
+                       && dir.StartsWith(temp, StringComparison.OrdinalIgnoreCase))
             || dir.Contains(@"\AppData\Local\Temp\", StringComparison.OrdinalIgnoreCase);
         bool missing = !File.Exists(Path.Combine(dir, "content.db")) || !File.Exists(Path.Combine(dir, "pron_engine.dll"))
             || !Directory.Exists(Path.Combine(dir, "models"));

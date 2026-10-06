@@ -42,11 +42,12 @@ class Recorder {
         val r = try {
             AudioRecord(MediaRecorder.AudioSource.MIC, SAMPLE_RATE, AudioFormat.CHANNEL_IN_MONO,
                 AudioFormat.ENCODING_PCM_16BIT, minBuf * 2)
-        } catch (e: SecurityException) { return false }
+        } catch (e: SecurityException) { return false } catch (e: IllegalArgumentException) { return false }
         if (r.state != AudioRecord.STATE_INITIALIZED) { r.release(); return false }
-        rec = r
         buf.reset()
-        r.startRecording()
+        try { r.startRecording() } catch (e: IllegalStateException) { r.release(); return false }  // mic busy (call etc.)
+        if (r.recordingState != AudioRecord.RECORDSTATE_RECORDING) { try { r.stop() } catch (_: IllegalStateException) {}; r.release(); return false }
+        rec = r
         _recording.value = true
         job = scope.launch {
             val chunk = ByteArray(2048)

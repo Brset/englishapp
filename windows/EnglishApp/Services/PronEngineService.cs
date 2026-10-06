@@ -160,7 +160,9 @@ public sealed class PronEngineService
             await _heavyGate.WaitAsync();
             try
             {
-                NativeMethods.pron_engine_set_strictness(h, strictness);
+                await _gate.WaitAsync();   // set_strictness is not listed as concurrency-safe; never held while awaiting _heavyGate elsewhere
+                try { NativeMethods.pron_engine_set_strictness(h, strictness); }
+                finally { _gate.Release(); }
                 var p = NativeMethods.pron_engine_assess_pcm16_progress(h, samples, (UIntPtr)samples.Length, rate,
                     reference, cb, IntPtr.Zero);
                 GC.KeepAlive(cb);

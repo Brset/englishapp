@@ -50,6 +50,9 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
             RecStatus.PROCESSING -> {}
         }
     }
+    DisposableEffect(Unit) {
+        onDispose { if ((ctx as? android.app.Activity)?.isChangingConfigurations != true) vm.cancelRecording() }
+    }
     if (s.text == null) { Empty("Сначала выберите текст в библиотеке"); return }
 
     Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {

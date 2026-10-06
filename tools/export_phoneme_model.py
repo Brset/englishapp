@@ -94,7 +94,18 @@ def export(model_id, out):
         raise RuntimeError(f"unexpected logits shape {logits.shape} for vocab {len(vocab)}")
 
 
+
+def _utf8_stdio() -> None:
+    # Windows consoles default to cp1252; the vocab printout contains IPA (ɪ, ə, ...).
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
+
+
 def main():
+    _utf8_stdio()
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="models")
     ap.add_argument("--model", default=DEFAULT_MODEL,

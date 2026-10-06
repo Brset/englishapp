@@ -67,7 +67,9 @@ class ProcessingQueue(private val app: EnglishApp) {
             while (true) {
                 val next = rows.firstOrNull { it.status == "queued" }
                 if (next == null) { kick.receive(); reload(db); continue }
-                runJob(db, next)
+                try { runJob(db, next) }
+                catch (e: CancellationException) { throw e }
+                catch (e: Throwable) { android.util.Log.w("ProcessingQueue", "job failed", e); delay(1000) }  // never crash the process
             }
         }
     }

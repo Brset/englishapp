@@ -30,6 +30,7 @@ import kotlinx.coroutines.launch
 class ProcessingService : Service() {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
     private var watcher: Job? = null
+    private var lastStartId = 0
 
     override fun onBind(intent: Intent?): IBinder? = null
 
@@ -42,6 +43,7 @@ class ProcessingService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        lastStartId = startId
         val queue = (application as EnglishApp).queue
         val first = queue.jobs.value
         try {
@@ -53,7 +55,7 @@ class ProcessingService : Service() {
                 if (list.isEmpty()) {
                     delay(1500)  // grace: the next job may be about to appear
                     ServiceCompat.stopForeground(this@ProcessingService, ServiceCompat.STOP_FOREGROUND_REMOVE)
-                    stopSelf()
+                    stopSelf(lastStartId)  // no-op if a newer start command arrived meanwhile
                 } else {
                     getSystemService(NotificationManager::class.java).notify(NOTIF_ID, build(list.first()))
                     delay(700)  // throttle notification updates

@@ -141,13 +141,31 @@ class EngineHost(private val context: Context) {
         }
         walk("models")
         val total = files.size.coerceAtLeast(1)
-        files.forEachIndexed { i, p ->
-            val out = File(tmp, p.removePrefix("models/"))
-            out.parentFile?.mkdirs()
-            try {
-                assets.open(p).use { inp -> out.outputStream().use { inp.copyTo(it, 1 shl 16) } }
-            } catch (_: java.io.FileNotFoundException) { out.delete() }  // empty asset directory
-            if (i % 8 == 0 || i == files.lastIndex) _state.value = EngineState(EnginePhase.COPYING, (i + 1f) / total)
+        // Free-space check up front: a full disk must give a clear message, not a half-copied model set.
+        val need = files.sumOf { p ->
+            try { assets.openFd(p).use { it.length } } catch (_: Exception) {
+                try { assets.open(p).use { it.available().toLong() } } catch (_: Exception) { 0L }
+            }
+        } + (32L shl 20)
+        fun free() = try { android.os.StatFs(context.filesDir.path).availableBytes } catch (_: Exception) { Long.MAX_VALUE }
+        if (free() < need && target.exists()) target.deleteRecursively()  // old models are stale anyway
+        if (free() < need) {
+            tmp.deleteRecursively()
+            throw IllegalStateException("Недостаточно места для распаковки моделей: нужно около ${need shr 20} МБ, " +
+                "свободно ${free() shr 20} МБ. Освободите место на устройстве и запустите приложение снова.")
+        }
+        try {
+            files.forEachIndexed { i, p ->
+                val out = File(tmp, p.removePrefix("models/"))
+                out.parentFile?.mkdirs()
+                try {
+                    assets.open(p).use { inp -> out.outputStream().use { inp.copyTo(it, 1 shl 16) } }
+                } catch (_: java.io.FileNotFoundException) { out.delete() }  // empty asset directory
+                if (i % 8 == 0 || i == files.lastIndex) _state.value = EngineState(EnginePhase.COPYING, (i + 1f) / total)
+            }
+        } catch (e: java.io.IOException) {
+            tmp.deleteRecursively()
+            throw IllegalStateException("Не удалось распаковать модели (возможно, не хватает места): ${e.message}")
         }
         File(tmp, ".version").writeText(version)
         target.deleteRecursively()

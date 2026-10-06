@@ -274,6 +274,17 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         }
     }
 
+    /** Screen left while recording (not a rotation): drop the recording and release the mic and the live tracker. */
+    fun cancelRecording() {
+        if (_s.value.status != RecStatus.RECORDING) return
+        silenceJob?.cancel(); liveJob?.cancel()
+        session?.release(); session = null
+        _s.update { it.copy(status = RecStatus.PROCESSING) }
+        viewModelScope.launch {
+            try { ctx.recorder.stop() } finally { _s.update { it.copy(status = RecStatus.IDLE, live = null) } }
+        }
+    }
+
     /** User tapped word [index] while recording: restart live tracking from it. */
     fun liveSetCursor(index: Int) {
         if (_s.value.status == RecStatus.RECORDING) session?.setCursor(index)
