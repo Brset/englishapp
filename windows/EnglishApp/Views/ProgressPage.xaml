@@ -1,22 +1,214 @@
 <Page x:Class="EnglishApp.Views.ProgressPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:m="using:EnglishApp.Models">
+      xmlns:m="using:EnglishApp.Models"
+      xmlns:vm="using:EnglishApp.ViewModels">
+    <Page.Resources>
+        <Style x:Key="ProgressStatCardStyle" TargetType="Border" BasedOn="{StaticResource CardStyle}">
+            <Setter Property="Padding" Value="16,14" />
+            <Setter Property="Margin" Value="0,0,12,12" />
+        </Style>
+    </Page.Resources>
+
     <ScrollViewer>
-        <StackPanel Padding="32" Spacing="12" MaxWidth="800" HorizontalAlignment="Left">
-            <TextBlock Text="Прогресс" Style="{StaticResource TitleTextBlockStyle}" />
-            <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.DonePercent, Mode=OneWay}" Height="10" />
-            <ItemsControl ItemsSource="{x:Bind ViewModel.Lines}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate x:DataType="x:String"><TextBlock Text="{x:Bind}" FontSize="16" Padding="0,3" /></DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-            <TextBlock Text="Самые трудные звуки" Style="{StaticResource SubtitleTextBlockStyle}" Margin="0,16,0,0" />
-            <ItemsControl ItemsSource="{x:Bind ViewModel.Weak}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate x:DataType="m:PhonemeStat"><TextBlock Text="{x:Bind Text}" Padding="0,3" /></DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+        <StackPanel Padding="{StaticResource PagePadding}" MaxWidth="{StaticResource PageMaxWidth}"
+                    HorizontalAlignment="Stretch" Spacing="24">
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition IsStaggeringEnabled="True" />
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+
+            <!-- Header -->
+            <StackPanel Spacing="2">
+                <TextBlock Text="Прогресс" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock Text="Ваши результаты: пройденные тексты, практика и звуки, над которыми стоит поработать."
+                           Style="{StaticResource PageSubtitleStyle}" TextWrapping="Wrap" />
+            </StackPanel>
+
+            <!-- Stat cards: wrap into as many ~220px columns as fit (ItemWidth set in code-behind) -->
+            <VariableSizedWrapGrid x:Name="StatsPanel" Orientation="Horizontal" ItemWidth="236" Margin="0,0,-12,-12"
+                                   SizeChanged="OnStatsSizeChanged">
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE73E;" FontSize="14" Foreground="{ThemeResource ScoreGoodBrush}" />
+                                <TextBlock Text="Пройдено текстов" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.TextsDoneValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="{x:Bind ViewModel.TextsTotalCaption, Mode=OneWay}" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE768;" FontSize="14" Foreground="{ThemeResource PrimaryBrush}" />
+                                <TextBlock Text="В процессе" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.StartedValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="начатые тексты" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE720;" FontSize="14" Foreground="{ThemeResource SecondaryBrush}" />
+                                <TextBlock Text="Попыток чтения" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.AttemptsValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="записей всего" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE734;" FontSize="14" Foreground="{ThemeResource ScoreFairBrush}" />
+                                <TextBlock Text="Средний лучший результат" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.AvgBestValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="среднее лучших оценок" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <TextBlock Text="&#x1F525;" FontFamily="Segoe UI Emoji" FontSize="14" VerticalAlignment="Center" />
+                                <TextBlock Text="Серия" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.StreakValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="{x:Bind ViewModel.StreakCaption, Mode=OneWay}" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE916;" FontSize="14" Foreground="{ThemeResource PrimaryBrush}" />
+                                <TextBlock Text="Время практики" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.MinutesValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="минут всего" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource ProgressStatCardStyle}">
+                        <StackPanel Spacing="4">
+                            <StackPanel Orientation="Horizontal" Spacing="8">
+                                <FontIcon Glyph="&#xE8A4;" FontSize="14" Foreground="{ThemeResource SecondaryBrush}" />
+                                <TextBlock Text="Слов в словаре" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <TextBlock Text="{x:Bind ViewModel.WordsValue, Mode=OneWay}" Style="{StaticResource BigNumberStyle}" />
+                            <TextBlock Text="{x:Bind ViewModel.WordsCaption, Mode=OneWay}" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                    </Border>
+            </VariableSizedWrapGrid>
+
+            <!-- Library completion -->
+            <StackPanel Spacing="12">
+                <TextBlock Text="Библиотека" Style="{StaticResource SectionHeaderStyle}" Margin="0" />
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel Spacing="16">
+                        <StackPanel Spacing="6">
+                            <Grid>
+                                <TextBlock Text="Пройдено" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                                <TextBlock Text="{x:Bind ViewModel.DonePercentText, Mode=OneWay}" HorizontalAlignment="Right"
+                                           Style="{StaticResource BodyStrongTextBlockStyle}" Foreground="{ThemeResource ScoreGoodBrush}" />
+                            </Grid>
+                            <Border Height="8" CornerRadius="4" Background="{ThemeResource SurfaceVariantBrush}">
+                                <Border HorizontalAlignment="Stretch" CornerRadius="4" Background="{ThemeResource ScoreGoodBrush}"
+                                        RenderTransformOrigin="0,0.5">
+                                    <Border.RenderTransform>
+                                        <ScaleTransform ScaleX="{x:Bind vm:ProgressViewModel.Fraction(ViewModel.DonePercent), Mode=OneWay}" />
+                                    </Border.RenderTransform>
+                                </Border>
+                            </Border>
+                            <TextBlock Style="{StaticResource CaptionSecondaryStyle}">
+                                <Run Text="{x:Bind ViewModel.TextsDoneValue, Mode=OneWay}" />
+                                <Run Text="{x:Bind ViewModel.TextsTotalCaption, Mode=OneWay}" />
+                            </TextBlock>
+                        </StackPanel>
+                        <StackPanel Spacing="6">
+                            <Grid>
+                                <TextBlock Text="В процессе" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                                <TextBlock Text="{x:Bind ViewModel.StartedPercentText, Mode=OneWay}" HorizontalAlignment="Right"
+                                           Style="{StaticResource BodyStrongTextBlockStyle}" Foreground="{ThemeResource PrimaryBrush}" />
+                            </Grid>
+                            <Border Height="8" CornerRadius="4" Background="{ThemeResource SurfaceVariantBrush}">
+                                <Border HorizontalAlignment="Stretch" CornerRadius="4" Background="{ThemeResource PrimaryBrush}"
+                                        RenderTransformOrigin="0,0.5">
+                                    <Border.RenderTransform>
+                                        <ScaleTransform ScaleX="{x:Bind vm:ProgressViewModel.Fraction(ViewModel.StartedPercent), Mode=OneWay}" />
+                                    </Border.RenderTransform>
+                                </Border>
+                            </Border>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- Hardest sounds -->
+            <StackPanel Spacing="12">
+                <TextBlock Text="Самые трудные звуки" Style="{StaticResource SectionHeaderStyle}" Margin="0" />
+                <Border Style="{StaticResource CardStyle}">
+                    <Grid>
+                        <StackPanel Spacing="4" Visibility="{x:Bind ViewModel.HasWeak, Mode=OneWay}">
+                            <TextBlock Text="Доля ошибок по звуку (не менее 3 попыток)" Style="{StaticResource CaptionSecondaryStyle}"
+                                       Margin="0,0,0,8" />
+                            <ItemsControl ItemsSource="{x:Bind ViewModel.Weak}">
+                                <ItemsControl.ItemContainerTransitions>
+                                    <TransitionCollection>
+                                        <EntranceThemeTransition IsStaggeringEnabled="True" />
+                                        <RepositionThemeTransition />
+                                    </TransitionCollection>
+                                </ItemsControl.ItemContainerTransitions>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="m:PhonemeStat">
+                                        <Grid ColumnSpacing="16" RowSpacing="2" Padding="0,8">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="72" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="48" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <Border Grid.RowSpan="2" Style="{StaticResource ChipStyle}" VerticalAlignment="Center"
+                                                    HorizontalAlignment="Left">
+                                                <TextBlock Text="{x:Bind vm:ProgressViewModel.PhonemeLabel(Phoneme)}"
+                                                           Style="{StaticResource BodyStrongTextBlockStyle}" />
+                                            </Border>
+                                            <Border Grid.Column="1" VerticalAlignment="Center" Height="8" CornerRadius="4" Background="{ThemeResource SurfaceVariantBrush}">
+                                <Border HorizontalAlignment="Stretch" CornerRadius="4" Background="{ThemeResource ScorePoorBrush}"
+                                        RenderTransformOrigin="0,0.5">
+                                    <Border.RenderTransform>
+                                        <ScaleTransform ScaleX="{x:Bind vm:ProgressViewModel.ErrorFraction(Errors, Attempts)}" />
+                                    </Border.RenderTransform>
+                                </Border>
+                            </Border>
+                                            <TextBlock Grid.Column="2" Text="{x:Bind vm:ProgressViewModel.ErrorRateText(Errors, Attempts)}"
+                                                       Style="{StaticResource BodyStrongTextBlockStyle}" HorizontalAlignment="Right"
+                                                       VerticalAlignment="Center" />
+                                            <TextBlock Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
+                                                       Text="{x:Bind vm:ProgressViewModel.PhonemeDetail(Errors, Attempts, AvgScore)}"
+                                                       Style="{StaticResource CaptionSecondaryStyle}" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        <!-- Empty state -->
+                        <StackPanel Spacing="8" HorizontalAlignment="Center" Padding="0,12" MaxWidth="420"
+                                    Visibility="{x:Bind ViewModel.NoWeak, Mode=OneWay}">
+                            <FontIcon Glyph="&#xE720;" FontSize="32" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                            <TextBlock Text="Пока мало данных" Style="{StaticResource BodyStrongTextBlockStyle}" HorizontalAlignment="Center" />
+                            <TextBlock Text="Прочитайте вслух несколько текстов — здесь появятся звуки, которые даются труднее всего."
+                                       Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" TextAlignment="Center"
+                                       HorizontalAlignment="Center" />
+                            <Button Content="Открыть библиотеку" Click="OnOpenLibrary" HorizontalAlignment="Center" Margin="0,4,0,0" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </StackPanel>
         </StackPanel>
     </ScrollViewer>
 </Page>

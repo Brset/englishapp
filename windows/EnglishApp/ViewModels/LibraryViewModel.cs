@@ -20,6 +20,8 @@ public partial class LibraryViewModel : ObservableObject
     [ObservableProperty] private string selectedStatus = All;
     [ObservableProperty] private string searchText = "";
     [ObservableProperty] private string countText = "";
+    /// <summary>Presentation: true when the current filters return nothing (drives the empty state).</summary>
+    [ObservableProperty] private bool isEmpty;
 
     partial void OnSelectedLevelChanged(string value) => Refresh();
     partial void OnSelectedGenreChanged(string value) => Refresh();
@@ -49,5 +51,18 @@ public partial class LibraryViewModel : ObservableObject
         Items.Clear();
         foreach (var t in list) Items.Add(reads.TryGetValue(t.Id, out var rs) ? t with { Read = rs } : t);
         CountText = $"Найдено: {list.Count}";
+        IsEmpty = list.Count == 0;
+    }
+
+    /// <summary>Presentation helper for the empty state: clears every filter (refreshes once).</summary>
+    public void ResetFilters()
+    {
+        _ready = false;
+        SelectedLevel = All;
+        SelectedGenre = All;
+        SelectedStatus = All;
+        SearchText = "";
+        _ready = true;
+        Refresh();
     }
 }

@@ -33,6 +33,18 @@ public partial class ReadingViewModel : ObservableObject
 
     public ObservableCollection<FocusSound> Focus { get; } = new();
 
+    // ---- presentation-only helpers (redesign) ----
+    public Visibility FocusVisibility => Focus.Count > 0 ? Visibility.Visible : Visibility.Collapsed;
+    public Visibility ContentVisibility => Text != null ? Visibility.Visible : Visibility.Collapsed;
+    public Visibility EmptyVisibility => Text == null ? Visibility.Visible : Visibility.Collapsed;
+    public string WordCountText => Text is { WordCount: > 0 } t ? $"{t.WordCount} сл." : "";
+    partial void OnTextChanged(TextDetail? value)
+    {
+        OnPropertyChanged(nameof(ContentVisibility));
+        OnPropertyChanged(nameof(EmptyVisibility));
+        OnPropertyChanged(nameof(WordCountText));
+    }
+
     public string Accent => AppServices.Settings.Accent;
     public string SpeedLabel => $"Скорость: {Speed:0.00}×";
     partial void OnSpeedChanged(double value)
@@ -51,6 +63,7 @@ public partial class ReadingViewModel : ObservableObject
             .ToDictionary(g => g.Key, g => g.First(), StringComparer.OrdinalIgnoreCase);
         Focus.Clear();
         foreach (var f in AppServices.Repo.GetFocusSounds(textId)) Focus.Add(f);
+        OnPropertyChanged(nameof(FocusVisibility));
         LoadReadState();
         return true;
     }

@@ -5,33 +5,143 @@
         <KeyboardAccelerator Key="Space" Invoked="OnSpace" />
         <KeyboardAccelerator Key="R" Invoked="OnReplay" />
     </Page.KeyboardAccelerators>
-    <Grid Padding="32" RowSpacing="12">
+    <Page.Resources>
+        <!-- Subtle key-cap used by the shortcut hints -->
+        <Style x:Key="RecordKeyCapStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="4" />
+            <Setter Property="Padding" Value="6,1" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderBrush" Value="{ThemeResource OutlineBrush}" />
+            <Setter Property="Background" Value="{ThemeResource SurfaceVariantBrush}" />
+        </Style>
+    </Page.Resources>
+
+    <Grid Padding="{StaticResource PagePadding}" RowSpacing="16">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <StackPanel>
-            <TextBlock Text="Запись" Style="{StaticResource TitleTextBlockStyle}" />
-            <TextBlock Text="{x:Bind ViewModel.Title, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
-            <TextBlock Text="Пробел: начать/остановить запись · R: прослушать образец"
-                       Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
-        </StackPanel>
-        <ScrollViewer Grid.Row="1" x:Name="Scroller" SizeChanged="OnScrollerSizeChanged">
-            <RichTextBlock x:Name="Body" FontSize="20" LineHeight="32" TextWrapping="Wrap" MaxWidth="900"
-                           HorizontalAlignment="Left" Tapped="OnBodyTapped" />
-        </ScrollViewer>
-        <StackPanel Grid.Row="2" Spacing="10">
-            <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.Level, Mode=OneWay}" Height="10" />
-            <StackPanel Orientation="Horizontal" Spacing="12">
-                <Button Content="{x:Bind ViewModel.ButtonText, Mode=OneWay}" Command="{x:Bind ViewModel.ToggleCommand}"
-                        Style="{StaticResource AccentButtonStyle}" IsTabStop="False"
-                        IsEnabled="{x:Bind ViewModel.HasText, Mode=OneWay}" />
-                <Button Content="Образец (R)" Command="{x:Bind ViewModel.ReplayReferenceCommand}" IsTabStop="False" />
-                <TextBlock Text="{x:Bind ViewModel.Elapsed, Mode=OneWay}" VerticalAlignment="Center" FontSize="20" />
-                <ProgressRing IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}" Width="24" Height="24" />
+
+        <!-- Header -->
+        <Grid MaxWidth="{StaticResource ReadingMaxWidth}" HorizontalAlignment="Stretch" ColumnSpacing="16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Text="Запись" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock Text="{x:Bind ViewModel.Title, Mode=OneWay}" Style="{StaticResource PageSubtitleStyle}"
+                           TextWrapping="Wrap" />
             </StackPanel>
-            <TextBlock Text="{x:Bind ViewModel.Status, Mode=OneWay}" TextWrapping="Wrap" />
+            <StackPanel Grid.Column="1" Spacing="6" VerticalAlignment="Bottom" Opacity="0.85">
+                <StackPanel Orientation="Horizontal" Spacing="6" HorizontalAlignment="Right">
+                    <Border Style="{StaticResource RecordKeyCapStyle}">
+                        <TextBlock Text="Пробел" Style="{StaticResource CaptionTextBlockStyle}" />
+                    </Border>
+                    <TextBlock Text="— запись" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="6" HorizontalAlignment="Right">
+                    <Border Style="{StaticResource RecordKeyCapStyle}">
+                        <TextBlock Text="R" Style="{StaticResource CaptionTextBlockStyle}" />
+                    </Border>
+                    <TextBlock Text="— образец" Style="{StaticResource CaptionSecondaryStyle}" VerticalAlignment="Center" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <!-- Text being read -->
+        <Border Grid.Row="1" Style="{StaticResource CardStyle}" Padding="0"
+                MaxWidth="{StaticResource ReadingMaxWidth}" HorizontalAlignment="Stretch">
+            <Grid>
+                <ScrollViewer x:Name="Scroller" SizeChanged="OnScrollerSizeChanged" Padding="40,32,40,0">
+                    <RichTextBlock x:Name="Body" FontFamily="{StaticResource ReadingFontFamily}"
+                                   FontSize="22" LineHeight="36" TextWrapping="Wrap"
+                                   HorizontalAlignment="Stretch" Tapped="OnBodyTapped" />
+                </ScrollViewer>
+                <!-- Empty state -->
+                <StackPanel Visibility="{x:Bind EmptyVisibility(ViewModel.HasText), Mode=OneWay}"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="12"
+                            MaxWidth="380" Margin="24">
+                    <FontIcon Glyph="&#xE720;" FontSize="44" HorizontalAlignment="Center"
+                              Foreground="{ThemeResource PrimaryBrush}" />
+                    <TextBlock Text="Текст не выбран" Style="{StaticResource SubtitleTextBlockStyle}"
+                               HorizontalAlignment="Center" />
+                    <TextBlock Text="Откройте текст в библиотеке и нажмите «Записать чтение»."
+                               Style="{StaticResource PageSubtitleStyle}" TextWrapping="Wrap" TextAlignment="Center" />
+                    <Button Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center"
+                            Click="OnOpenLibrary" IsTabStop="False">
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <FontIcon Glyph="&#xE8F1;" FontSize="16" />
+                            <TextBlock Text="Открыть библиотеку" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Controls -->
+        <StackPanel Grid.Row="2" Spacing="14" HorizontalAlignment="Center" MaxWidth="{StaticResource ReadingMaxWidth}">
+            <Grid ColumnSpacing="28" HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Reference -->
+                <StackPanel Spacing="6" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button Command="{x:Bind ViewModel.ReplayReferenceCommand}" IsTabStop="False"
+                            Width="48" Height="48" CornerRadius="24" Padding="0" HorizontalAlignment="Center"
+                            ToolTipService.ToolTip="Прослушать образец (R)" AutomationProperties.Name="Образец">
+                        <FontIcon Glyph="&#xE767;" FontSize="18" />
+                    </Button>
+                    <TextBlock Text="Образец (R)" Style="{StaticResource CaptionSecondaryStyle}" HorizontalAlignment="Center" />
+                </StackPanel>
+
+                <!-- Big record button with recording ring -->
+                <Grid Grid.Column="1" Width="112" Height="112">
+                    <Ellipse x:Name="RecordRing" Width="112" Height="112" StrokeThickness="4"
+                             Stroke="{ThemeResource ScorePoorBrush}"
+                             Visibility="{x:Bind ViewModel.IsRecording, Mode=OneWay}" />
+                    <Button Command="{x:Bind ViewModel.ToggleCommand}" Style="{StaticResource AccentButtonStyle}"
+                            IsTabStop="False" IsEnabled="{x:Bind ViewModel.HasText, Mode=OneWay}"
+                            Width="92" Height="92" CornerRadius="46" Padding="0"
+                            HorizontalAlignment="Center" VerticalAlignment="Center"
+                            ToolTipService.ToolTip="Начать / остановить запись (Пробел)"
+                            AutomationProperties.Name="Запись">
+                        <FontIcon Glyph="{x:Bind RecordGlyph(ViewModel.IsRecording), Mode=OneWay}" FontSize="34" />
+                    </Button>
+                </Grid>
+
+                <!-- Timer -->
+                <StackPanel Grid.Column="2" Spacing="4" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Center">
+                        <Ellipse Width="10" Height="10" VerticalAlignment="Center" Fill="{ThemeResource ScorePoorBrush}"
+                                 Visibility="{x:Bind ViewModel.IsRecording, Mode=OneWay}" />
+                        <TextBlock Text="{x:Bind ViewModel.Elapsed, Mode=OneWay}" FontSize="24" FontWeight="SemiBold"
+                                   FontFamily="Segoe UI Variable Display" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <ProgressRing IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}" Width="20" Height="20"
+                                  HorizontalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+
+            <TextBlock Text="{x:Bind ViewModel.ButtonText, Mode=OneWay}" Style="{StaticResource BodyStrongTextBlockStyle}"
+                       HorizontalAlignment="Center" />
+
+            <!-- Live input level -->
+            <StackPanel Orientation="Horizontal" Spacing="10" HorizontalAlignment="Center">
+                <FontIcon Glyph="&#xE720;" FontSize="14" Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                          VerticalAlignment="Center" />
+                <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.Level, Mode=OneWay}"
+                             Width="280" Height="6" CornerRadius="3" VerticalAlignment="Center"
+                             AutomationProperties.Name="Уровень сигнала" />
+            </StackPanel>
+
+            <InfoBar IsOpen="True" IsClosable="False" MinWidth="420"
+                     Severity="{x:Bind StatusSeverity(ViewModel.Status), Mode=OneWay}"
+                     Message="{x:Bind ViewModel.Status, Mode=OneWay}" />
         </StackPanel>
     </Grid>
 </Page>

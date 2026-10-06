@@ -15,4 +15,11 @@ public sealed partial class VocabularyPage : Page
     {
         if (sender is Button { Tag: long id } && ViewModel.Words.FirstOrDefault(w => w.Id == id) is { } w) ViewModel.Delete(w);
     }
+
+    private async void OnSpeakWord(object sender, RoutedEventArgs e)
+    {
+        if (sender is Button { Tag: string word }) await ViewModel.SpeakWordAsync(word);
+    }
+
+    private void OnOpenLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
 }

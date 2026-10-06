@@ -19,6 +19,8 @@ public sealed partial class MainWindow : Window
     {
         InitializeComponent();
         Title = "English Pronunciation";
+        ExtendsContentIntoTitleBar = true;
+        SetTitleBar(AppTitleBar);
         Nav.SelectedItem = Nav.MenuItems[0];
         QueueList.ItemsSource = AppServices.Jobs.Jobs;
         AppServices.Jobs.Jobs.CollectionChanged += (_, _) => UpdateQueueUi();

@@ -1,18 +1,123 @@
 <Page x:Class="EnglishApp.Views.SettingsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Page.Resources>
+        <!-- Windows 11 settings-style row: icon, title + description, control on the right -->
+        <Style x:Key="SettingsCardStyle" TargetType="Border" BasedOn="{StaticResource CardStyle}">
+            <Setter Property="Padding" Value="16,14" />
+            <Setter Property="MinHeight" Value="68" />
+            <Setter Property="CornerRadius" Value="8" />
+        </Style>
+        <Style x:Key="SettingsGroupHeaderStyle" TargetType="TextBlock" BasedOn="{StaticResource BodyStrongTextBlockStyle}">
+            <Setter Property="Margin" Value="2,20,0,4" />
+        </Style>
+    </Page.Resources>
+
     <ScrollViewer>
-        <StackPanel Padding="32" Spacing="16" MaxWidth="600" HorizontalAlignment="Left">
-            <TextBlock Text="Настройки" Style="{StaticResource TitleTextBlockStyle}" />
-            <ComboBox Header="Акцент (озвучка и транскрипция)" Width="300" ItemsSource="{x:Bind ViewModel.Accents}"
-                      SelectedIndex="{x:Bind ViewModel.AccentIndex, Mode=TwoWay}" />
-            <ComboBox Header="Строгость оценки" Width="300" ItemsSource="{x:Bind ViewModel.Strictnesses}"
-                      SelectedIndex="{x:Bind ViewModel.StrictnessIndex, Mode=TwoWay}" />
-            <ComboBox Header="Микрофон" Width="400" ItemsSource="{x:Bind ViewModel.Mics}"
-                      SelectedIndex="{x:Bind ViewModel.MicIndex, Mode=TwoWay}" />
-            <ComboBox Header="Тема" Width="300" ItemsSource="{x:Bind ViewModel.Themes}"
-                      SelectedIndex="{x:Bind ViewModel.ThemeIndex, Mode=TwoWay}" />
-            <TextBlock Text="{x:Bind ViewModel.EngineStatus, Mode=OneWay}" TextWrapping="Wrap" IsTextSelectionEnabled="True" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+        <StackPanel Padding="{StaticResource PagePadding}" MaxWidth="{StaticResource PageMaxWidth}"
+                    HorizontalAlignment="Stretch" Spacing="4">
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition IsStaggeringEnabled="True" />
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+
+            <StackPanel Spacing="2">
+                <TextBlock Text="Настройки" Style="{StaticResource PageTitleStyle}" />
+                <TextBlock Text="Озвучка, оценка произношения, микрофон и оформление."
+                           Style="{StaticResource PageSubtitleStyle}" TextWrapping="Wrap" />
+            </StackPanel>
+
+                <TextBlock Text="Произношение" Style="{StaticResource SettingsGroupHeaderStyle}" />
+                <Border Style="{StaticResource SettingsCardStyle}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE774;" FontSize="20" VerticalAlignment="Center" Foreground="{ThemeResource PrimaryBrush}" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="2">
+                            <TextBlock Text="Акцент" Style="{StaticResource BodyTextBlockStyle}" />
+                            <TextBlock Text="Вариант английского для озвучки и транскрипции" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="160" MaxWidth="320" VerticalAlignment="Center"
+                                  AutomationProperties.Name="Акцент"
+                                  ItemsSource="{x:Bind ViewModel.Accents}"
+                                  SelectedIndex="{x:Bind ViewModel.AccentIndex, Mode=TwoWay}" />
+                    </Grid>
+                </Border>
+                <Border Style="{StaticResource SettingsCardStyle}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE9E9;" FontSize="20" VerticalAlignment="Center" Foreground="{ThemeResource PrimaryBrush}" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="2">
+                            <TextBlock Text="Строгость оценки" Style="{StaticResource BodyTextBlockStyle}" />
+                            <TextBlock Text="Насколько требовательно оценивается произношение" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="160" MaxWidth="320" VerticalAlignment="Center"
+                                  AutomationProperties.Name="Строгость оценки"
+                                  ItemsSource="{x:Bind ViewModel.Strictnesses}"
+                                  SelectedIndex="{x:Bind ViewModel.StrictnessIndex, Mode=TwoWay}" />
+                    </Grid>
+                </Border>
+                <TextBlock Text="Запись" Style="{StaticResource SettingsGroupHeaderStyle}" />
+                <Border Style="{StaticResource SettingsCardStyle}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE720;" FontSize="20" VerticalAlignment="Center" Foreground="{ThemeResource PrimaryBrush}" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="2">
+                            <TextBlock Text="Микрофон" Style="{StaticResource BodyTextBlockStyle}" />
+                            <TextBlock Text="Устройство, с которого записывается чтение" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="200" MaxWidth="320" VerticalAlignment="Center"
+                                  AutomationProperties.Name="Микрофон"
+                                  ItemsSource="{x:Bind ViewModel.Mics}"
+                                  SelectedIndex="{x:Bind ViewModel.MicIndex, Mode=TwoWay}" />
+                    </Grid>
+                </Border>
+                <TextBlock Text="Оформление" Style="{StaticResource SettingsGroupHeaderStyle}" />
+                <Border Style="{StaticResource SettingsCardStyle}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE790;" FontSize="20" VerticalAlignment="Center" Foreground="{ThemeResource PrimaryBrush}" />
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="2">
+                            <TextBlock Text="Тема" Style="{StaticResource BodyTextBlockStyle}" />
+                            <TextBlock Text="Светлое или тёмное оформление приложения" Style="{StaticResource CaptionSecondaryStyle}" TextWrapping="Wrap" />
+                        </StackPanel>
+                        <ComboBox Grid.Column="2" MinWidth="160" MaxWidth="320" VerticalAlignment="Center"
+                                  AutomationProperties.Name="Тема"
+                                  ItemsSource="{x:Bind ViewModel.Themes}"
+                                  SelectedIndex="{x:Bind ViewModel.ThemeIndex, Mode=TwoWay}" />
+                    </Grid>
+                </Border>
+                <TextBlock Text="О программе" Style="{StaticResource SettingsGroupHeaderStyle}" />
+                <Border Style="{StaticResource SettingsCardStyle}">
+                    <Grid ColumnSpacing="16">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <FontIcon Glyph="&#xE946;" FontSize="20" VerticalAlignment="Top" Margin="0,2,0,0" Foreground="{ThemeResource PrimaryBrush}" />
+                        <StackPanel Grid.Column="1" Spacing="2">
+                            <TextBlock Text="Движок произношения" Style="{StaticResource BodyTextBlockStyle}" />
+                            <TextBlock Text="{x:Bind ViewModel.EngineStatus, Mode=OneWay}" Style="{StaticResource CaptionSecondaryStyle}"
+                                       TextWrapping="Wrap" IsTextSelectionEnabled="True" />
+                        </StackPanel>
+                    </Grid>
+                </Border>
         </StackPanel>
     </ScrollViewer>
 </Page>
