@@ -78,7 +78,7 @@ val copyModelAssets by tasks.registering(Copy::class) {
         val files = File(out, "models").walkTopDown().filter { it.isFile }.sortedBy { it.path }.toList()
         if (files.isEmpty()) { ver.delete() } else {
             val h = files.fold(17L) { a, f -> a * 31 + (f.relativeTo(out).path + ":" + f.length()).hashCode() }
-            ver.writeText(java.lang.Long.toHexString(h))
+            ver.writeText(h.toULong().toString(16))
         }
     }
 }

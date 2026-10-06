@@ -10,9 +10,9 @@ runs:
     - uses: actions/setup-python@v5
       with:
         python-version: "3.11"
-    - name: Cache models
+    - name: Restore models cache
       id: cache
-      uses: actions/cache@v4
+      uses: actions/cache/restore@v4
       with:
         path: ${{ inputs.out }}
         key: models-${{ runner.os }}-${{ hashFiles('models/manifest.json', 'tools/fetch_models.py', 'tools/export_phoneme_model.py') }}
@@ -27,3 +27,10 @@ runs:
         pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1"
         pip install "transformers==4.46.3" "onnx==1.17.0" "onnxruntime==1.20.1" "numpy<2.1"
         python tools/export_phoneme_model.py --out "${{ inputs.out }}"
+    # Save right away (not in a post step) so a later failing build step doesn't lose the models.
+    - name: Save models cache
+      if: steps.cache.outputs.cache-hit != 'true'
+      uses: actions/cache/save@v4
+      with:
+        path: ${{ inputs.out }}
+        key: models-${{ runner.os }}-${{ hashFiles('models/manifest.json', 'tools/fetch_models.py', 'tools/export_phoneme_model.py') }}
