@@ -116,6 +116,7 @@ jobs:
         # Runs after the upload so a bug in a check never withholds the build.
 
       - name: Launch smoke test
+        if: always()
         shell: pwsh
         run: |
           $exe = (Resolve-Path 'publish/EnglishApp.exe').Path

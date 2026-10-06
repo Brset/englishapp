@@ -42,7 +42,8 @@ def main():
     xaml = "microsoft.ui.xaml.dll" in present
     (ok if (boot or xaml) else fail)(f"WinAppSDK runtime ({'Bootstrap.dll ' if boot else ''}{'Microsoft.ui.xaml.dll' if xaml else ''}".strip() + ")" if (boot or xaml) else "WinAppSDK runtime DLLs MISSING (Bootstrap or Microsoft.ui.xaml.dll)")
     xbf = glob.glob(os.path.join(pub, "**", "*.xbf"), recursive=True)
-    (ok if xbf else fail)(f"compiled XAML (*.xbf): {len(xbf)} files" if xbf else "no *.xbf compiled XAML found")
+    # Unpackaged WinUI 3 apps usually embed compiled XAML in resources.pri, so loose .xbf files are optional.
+    (ok if xbf else warn)(f"compiled XAML (*.xbf): {len(xbf)} files" if xbf else "no loose *.xbf (XAML embedded in resources.pri)")
 
     print("== sherpa onnxruntime check ==")
     src = os.path.join(a.engine_dir, "onnxruntime.dll")
@@ -72,8 +73,13 @@ def main():
             p = os.path.join(pub, dll)
             if not os.path.exists(p): continue
             out = subprocess.run([dumpbin, "/dependents", p], capture_output=True, text=True).stdout
-            sec = out.split("image has the following dependencies:")[-1].split("Summary")[0]
-            deps = [l.strip() for l in sec.splitlines() if l.strip().lower().endswith(".dll")]
+            low = out.lower()
+            i = low.find("has the following dependencies:")
+            sec = out[i:] if i >= 0 else out
+            sec = sec.split("Summary")[0]
+            # Dependency lines are bare DLL names; skip headers such as "Dump of file X.dll".
+            deps = [l.strip() for l in sec.splitlines()
+                    if l.strip().lower().endswith(".dll") and " " not in l.strip()]
             print(f"  {dll}: {', '.join(deps)}")
             for d in deps:
                 base = d.lower()[:-4]
