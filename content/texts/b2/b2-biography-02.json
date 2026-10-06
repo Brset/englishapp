@@ -1,0 +1,133 @@
+{
+  "id": "b2-biography-02",
+  "level": "B2",
+  "genre": "biography",
+  "title_en": "Alan Turing: The Man Who Cracked Enigma",
+  "title_ru": "Алан Тьюринг: человек, взломавший Энигму",
+  "description_ru": "Жизнь математика, чьи идеи легли в основу информатики и помогли выиграть войну.",
+  "text": "Alan Turing was born in London in 1912 and showed an unusual talent for numbers from childhood. At school he was considered odd, but he found a close friend in Christopher Morcom, whose early death deeply affected him. He went on to study mathematics at King's College, Cambridge, and in 1936 he published a paper describing an imaginary device that is now called the Turing machine. The idea is regarded as the foundation of modern computer science.\n\nWhen war broke out in 1939, Turing joined the codebreakers at Bletchley Park, a country house north of London. The German navy used a machine called Enigma to scramble its messages, and every day the settings were changed. Turing helped to design an electromechanical machine, the Bombe, which could find those settings far faster than people could. Historians believe that the work done at Bletchley shortened the war and saved countless lives, although it was kept secret for decades.\n\nAfter the war, Turing worked on early computers in Manchester and wondered whether machines could ever think. In 1950 he proposed a test, now known as the Turing test: if a person cannot tell whether they are talking to a human or a machine, the machine could be said to be intelligent. The question still sparks debate today.\n\nHis personal life brought tragedy. In 1952 he was prosecuted for homosexual acts, which were then illegal in Britain, and he was forced to accept hormone treatment. He died in 1954 at the age of forty-one. In 2009 the British government issued a public apology, and in 2013 he was granted a royal pardon. Since 2021, his portrait has appeared on the fifty-pound note, a reminder that he was a genius whom his country treated shamefully.",
+  "vocabulary": [
+    {
+      "word": "device",
+      "ipa_us": "dɪˈvaɪs",
+      "ipa_uk": "dɪˈvaɪs",
+      "translation_ru": "устройство"
+    },
+    {
+      "word": "foundation",
+      "ipa_us": "faʊnˈdeɪʃən",
+      "ipa_uk": "faʊnˈdeɪʃən",
+      "translation_ru": "основа"
+    },
+    {
+      "word": "codebreakers",
+      "ipa_us": "ˈkoʊdˌbreɪkərz",
+      "ipa_uk": "ˈkəʊdˌbreɪkəz",
+      "translation_ru": "взломщики шифров"
+    },
+    {
+      "word": "scramble",
+      "ipa_us": "ˈskræmbəl",
+      "ipa_uk": "ˈskræmbəl",
+      "translation_ru": "шифровать, перемешивать"
+    },
+    {
+      "word": "prosecuted",
+      "ipa_us": "ˈprɑːsɪˌkjuːtɪd",
+      "ipa_uk": "ˈprɒsɪkjuːtɪd",
+      "translation_ru": "привлечён к суду"
+    },
+    {
+      "word": "pardon",
+      "ipa_us": "ˈpɑrdən",
+      "ipa_uk": "ˈpɑːdən",
+      "translation_ru": "помилование"
+    },
+    {
+      "word": "apology",
+      "ipa_us": "əˈpɑlədʒi",
+      "ipa_uk": "əˈpɒlədʒi",
+      "translation_ru": "извинение"
+    },
+    {
+      "word": "genius",
+      "ipa_us": "ˈdʒinjəs",
+      "ipa_uk": "ˈdʒiːniəs",
+      "translation_ru": "гений"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "mathematics",
+        "death"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "war",
+        "was",
+        "whether",
+        "which"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "machine",
+        "modern",
+        "apology"
+      ],
+      "tip_ru": "Безударный слабый звук: расслабьте язык и губы; не произносите гласную полностью."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "mathematics",
+        "intelligent",
+        "electromechanical"
+      ],
+      "tip_ru": "Выделите ударный слог громкостью и длиной, остальные слоги сделайте короткими и слабыми."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did Turing work during the Second World War?",
+      "answer": "At Bletchley Park.",
+      "accepted_keywords": [
+        "bletchley"
+      ]
+    },
+    {
+      "question": "What did the Bombe machine do?",
+      "answer": "It found the settings of the Enigma machine.",
+      "accepted_keywords": [
+        "enigma",
+        "settings"
+      ]
+    },
+    {
+      "question": "What does the Turing test check?",
+      "answer": "Whether a machine can seem intelligent to a human.",
+      "accepted_keywords": [
+        "machine",
+        "intelligent",
+        "think"
+      ]
+    },
+    {
+      "question": "When did the British government apologise to him?",
+      "answer": "In 2009.",
+      "accepted_keywords": [
+        "2009",
+        "two thousand"
+      ]
+    }
+  ],
+  "word_count": 283
+}

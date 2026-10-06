@@ -1,0 +1,121 @@
+{
+  "id": "a1-travel-04",
+  "level": "A1",
+  "genre": "travel",
+  "title_en": "First Time in Tokyo",
+  "title_ru": "Первый раз в Токио",
+  "description_ru": "Кен знакомится с Токио: автоматы с едой, тихие поезда и лапша.",
+  "text": "Ken is in Tokyo for the first time. Everything is new and exciting. In the street, he sees machines that sell hot coffee, cold drinks and even umbrellas. At the station, thousands of people walk quickly but quietly. Nobody talks on the train.\n\nKen is hungry, so he goes into a small restaurant. The chef gives him a bowl of hot noodles. Ken does not know how to use chopsticks. A kind woman shows him. \"Like this,\" she says. Ken tries again, and he smiles. The noodles are delicious!",
+  "vocabulary": [
+    {
+      "word": "machines",
+      "ipa_us": "məˈʃiːnz",
+      "ipa_uk": "məˈʃiːnz",
+      "translation_ru": "автоматы, машины"
+    },
+    {
+      "word": "thousands",
+      "ipa_us": "ˈθaʊzndz",
+      "ipa_uk": "ˈθaʊzndz",
+      "translation_ru": "тысячи"
+    },
+    {
+      "word": "quietly",
+      "ipa_us": "ˈkwaɪətli",
+      "ipa_uk": "ˈkwaɪətli",
+      "translation_ru": "тихо"
+    },
+    {
+      "word": "hungry",
+      "ipa_us": "ˈhʌŋɡri",
+      "ipa_uk": "ˈhʌŋɡri",
+      "translation_ru": "голодный"
+    },
+    {
+      "word": "chef",
+      "ipa_us": "ʃef",
+      "ipa_uk": "ʃef",
+      "translation_ru": "повар"
+    },
+    {
+      "word": "noodles",
+      "ipa_us": "ˈnuːdlz",
+      "ipa_uk": "ˈnuːdlz",
+      "translation_ru": "лапша"
+    },
+    {
+      "word": "chopsticks",
+      "ipa_us": "ˈtʃɑːpstɪks",
+      "ipa_uk": "ˈtʃɒpstɪks",
+      "translation_ru": "палочки для еды"
+    },
+    {
+      "word": "delicious",
+      "ipa_us": "dɪˈlɪʃəs",
+      "ipa_uk": "dɪˈlɪʃəs",
+      "translation_ru": "очень вкусный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "hot",
+        "he",
+        "him",
+        "hungry",
+        "how"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walk",
+        "woman"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "this"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is Ken?",
+      "answer": "In Tokyo.",
+      "accepted_keywords": [
+        "tokyo"
+      ]
+    },
+    {
+      "question": "What do machines in the street sell?",
+      "answer": "Coffee, drinks and umbrellas.",
+      "accepted_keywords": [
+        "coffee",
+        "drinks",
+        "umbrellas"
+      ]
+    },
+    {
+      "question": "What does the chef give Ken?",
+      "answer": "Hot noodles.",
+      "accepted_keywords": [
+        "noodles"
+      ]
+    },
+    {
+      "question": "Who shows Ken the chopsticks?",
+      "answer": "A kind woman.",
+      "accepted_keywords": [
+        "woman"
+      ]
+    }
+  ],
+  "word_count": 89
+}

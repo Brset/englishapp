@@ -1,0 +1,122 @@
+{
+  "id": "a1-dialogue-05",
+  "level": "A1",
+  "genre": "dialogue",
+  "title_en": "A Gift for My Sister",
+  "title_ru": "Подарок для сестры",
+  "description_ru": "Рэйчел выбирает в магазине подарок и просит красиво его упаковать.",
+  "text": "Rachel: Hello. I want a gift for my sister.\nAssistant: Of course. How old is she?\nRachel: She is twenty. She loves bright colours.\nAssistant: This red scarf is very popular.\nRachel: It is lovely! Is it soft?\nAssistant: Yes, it is wool. Please feel it.\nRachel: Oh, it is really soft. How much is it?\nAssistant: It is twelve pounds.\nRachel: That is perfect. Can you wrap it?\nAssistant: Certainly. Choose a ribbon: blue, gold or green?\nRachel: Gold, please. She loves it, I am sure!",
+  "vocabulary": [
+    {
+      "word": "gift",
+      "ipa_us": "ɡɪft",
+      "ipa_uk": "ɡɪft",
+      "translation_ru": "подарок"
+    },
+    {
+      "word": "bright",
+      "ipa_us": "braɪt",
+      "ipa_uk": "braɪt",
+      "translation_ru": "яркий"
+    },
+    {
+      "word": "scarf",
+      "ipa_us": "skɑːrf",
+      "ipa_uk": "skɑːf",
+      "translation_ru": "шарф"
+    },
+    {
+      "word": "popular",
+      "ipa_us": "ˈpɑːpjələr",
+      "ipa_uk": "ˈpɒpjələ",
+      "translation_ru": "популярный"
+    },
+    {
+      "word": "lovely",
+      "ipa_us": "ˈlʌvli",
+      "ipa_uk": "ˈlʌvli",
+      "translation_ru": "прекрасный"
+    },
+    {
+      "word": "soft",
+      "ipa_us": "sɔːft",
+      "ipa_uk": "sɒft",
+      "translation_ru": "мягкий"
+    },
+    {
+      "word": "wool",
+      "ipa_us": "wʊl",
+      "ipa_uk": "wʊl",
+      "translation_ru": "шерсть"
+    },
+    {
+      "word": "ribbon",
+      "ipa_us": "ˈrɪbən",
+      "ipa_uk": "ˈrɪbən",
+      "translation_ru": "лента"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Rachel",
+        "red",
+        "really",
+        "ribbon"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "loves",
+        "lovely",
+        "much"
+      ],
+      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wool",
+        "want",
+        "wrap",
+        "twenty"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Rachel buy?",
+      "answer": "A red scarf.",
+      "accepted_keywords": [
+        "scarf"
+      ]
+    },
+    {
+      "question": "Who is the gift for?",
+      "answer": "Her sister.",
+      "accepted_keywords": [
+        "sister"
+      ]
+    },
+    {
+      "question": "How much is the scarf?",
+      "answer": "Twelve pounds.",
+      "accepted_keywords": [
+        "twelve",
+        "12"
+      ]
+    },
+    {
+      "question": "What colour is the ribbon?",
+      "answer": "Gold.",
+      "accepted_keywords": [
+        "gold"
+      ]
+    }
+  ],
+  "word_count": 76
+}

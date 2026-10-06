@@ -1,0 +1,112 @@
+{
+  "id": "b1-story-01",
+  "level": "B1",
+  "genre": "story",
+  "title_en": "The Lost Key",
+  "title_ru": "Потерянный ключ",
+  "description_ru": "Мария теряет ключ от квартиры и неожиданно знакомится с соседом.",
+  "text": "Maria has lived in the same building for three years, but she has never met her neighbour on the third floor. One rainy Thursday evening, she came home from work and found that her key was missing. She searched her bag twice, then her coat pockets, but there was nothing.\n\n\"If I call a locksmith, it will cost a fortune,\" she thought. Just then, a door opened above her, and a tall old man looked down the stairs. \"Are you having trouble?\" he asked. Maria explained the problem. \"Come upstairs,\" he said. \"I have made some tea, and you can wait here until your sister arrives with the spare key.\"\n\nHis name was Victor, and his flat was full of books and strange clocks. While they were drinking tea, he told her that he had been a watchmaker for forty years. Maria was surprised, because she had always thought he was unfriendly.\n\nAn hour later, her sister rang the bell. Before they left, Victor smiled and said, \"Next time, you don't need to wait for an emergency. If you visit me again, I will show you how a clock works.\"\n\nMaria walked down the stairs with a warm feeling. She had lost her key, but she had found something better: a new friend. On Sunday, she bought a cake and knocked on his door.",
+  "word_count": 224,
+  "vocabulary": [
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbɚ",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "locksmith",
+      "ipa_us": "ˈlɑːksmɪθ",
+      "ipa_uk": "ˈlɒksmɪθ",
+      "translation_ru": "слесарь по замкам"
+    },
+    {
+      "word": "fortune",
+      "ipa_us": "ˈfɔːrtʃən",
+      "ipa_uk": "ˈfɔːtʃuːn",
+      "translation_ru": "целое состояние"
+    },
+    {
+      "word": "spare",
+      "ipa_us": "sper",
+      "ipa_uk": "speə",
+      "translation_ru": "запасной"
+    },
+    {
+      "word": "watchmaker",
+      "ipa_us": "ˈwɑːtʃmeɪkɚ",
+      "ipa_uk": "ˈwɒtʃmeɪkə",
+      "translation_ru": "часовщик"
+    },
+    {
+      "word": "unfriendly",
+      "ipa_us": "ʌnˈfrendli",
+      "ipa_uk": "ʌnˈfrendli",
+      "translation_ru": "недружелюбный"
+    },
+    {
+      "word": "emergency",
+      "ipa_us": "ɪˈmɜːrdʒənsi",
+      "ipa_uk": "ɪˈmɜːdʒənsi",
+      "translation_ru": "срочный случай"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "third",
+        "Thursday",
+        "thought"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "while",
+        "watchmaker",
+        "work",
+        "warm"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rainy",
+        "friend",
+        "rang"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Maria's neighbour's flat?",
+      "answer": "On the third floor.",
+      "accepted_keywords": [
+        "third",
+        "floor",
+        "3rd"
+      ]
+    },
+    {
+      "question": "What was Victor's job?",
+      "answer": "He was a watchmaker.",
+      "accepted_keywords": [
+        "watchmaker",
+        "clocks",
+        "watches"
+      ]
+    },
+    {
+      "question": "Who brought the spare key?",
+      "answer": "Her sister.",
+      "accepted_keywords": [
+        "sister"
+      ]
+    }
+  ]
+}

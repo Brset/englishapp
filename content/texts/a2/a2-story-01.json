@@ -1,0 +1,126 @@
+{
+  "id": "a2-story-01",
+  "level": "A2",
+  "genre": "story",
+  "title_en": "The Red Bicycle",
+  "title_ru": "Красный велосипед",
+  "description_ru": "Виктор находит старый велосипед и чинит его вместе с сестрой. Неожиданный финал связан с маленькой собакой.",
+  "text": "Last summer, Victor found an old red bicycle behind his grandmother's garage. It was dirty and the wheels were very slow, but he loved it at once. \"I am going to repair it,\" he told his sister Vera.\n\nEvery weekend, they worked together. They washed the frame, bought new tires and painted the seat black. Vera was better with the tools, but Victor was stronger, so they made a good team.\n\nAfter three weeks, the bicycle was ready. Victor rode it through the village, past the river and the old white church. The wind was warm and the road was long. Then he heard a strange noise behind him. A small brown dog was running after the bicycle! The dog followed him all the way home. Now the dog lives with Victor's family, and every Sunday the three of them go for a ride.",
+  "word_count": 144,
+  "vocabulary": [
+    {
+      "word": "bicycle",
+      "ipa_us": "ˈbaɪsɪkəl",
+      "ipa_uk": "ˈbaɪsɪkəl",
+      "translation_ru": "велосипед"
+    },
+    {
+      "word": "repair",
+      "ipa_us": "rɪˈper",
+      "ipa_uk": "rɪˈpeə",
+      "translation_ru": "чинить"
+    },
+    {
+      "word": "wheels",
+      "ipa_us": "wiːlz",
+      "ipa_uk": "wiːlz",
+      "translation_ru": "колёса"
+    },
+    {
+      "word": "weekend",
+      "ipa_us": "ˈwiːkend",
+      "ipa_uk": "ˌwiːkˈend",
+      "translation_ru": "выходные"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "river",
+      "ipa_us": "ˈrɪvər",
+      "ipa_uk": "ˈrɪvə",
+      "translation_ru": "река"
+    },
+    {
+      "word": "stronger",
+      "ipa_us": "ˈstrɔːŋɡər",
+      "ipa_uk": "ˈstrɒŋɡə",
+      "translation_ru": "сильнее"
+    },
+    {
+      "word": "strange",
+      "ipa_us": "streɪndʒ",
+      "ipa_uk": "streɪndʒ",
+      "translation_ru": "странный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "very",
+        "village",
+        "river",
+        "Vera"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wheels",
+        "weekend",
+        "worked",
+        "warm",
+        "white"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "repair",
+        "road",
+        "ride"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Victor find?",
+      "answer": "He found an old red bicycle.",
+      "accepted_keywords": [
+        "bicycle",
+        "bike"
+      ]
+    },
+    {
+      "question": "Who helped Victor?",
+      "answer": "His sister Vera.",
+      "accepted_keywords": [
+        "vera",
+        "sister"
+      ]
+    },
+    {
+      "question": "How long did they work?",
+      "answer": "Three weeks.",
+      "accepted_keywords": [
+        "three"
+      ]
+    },
+    {
+      "question": "Who followed Victor home?",
+      "answer": "A small brown dog.",
+      "accepted_keywords": [
+        "dog"
+      ]
+    }
+  ]
+}

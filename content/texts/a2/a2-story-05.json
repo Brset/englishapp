@@ -1,0 +1,127 @@
+{
+  "id": "a2-story-05",
+  "level": "A2",
+  "genre": "story",
+  "title_en": "The Rainy Market",
+  "title_ru": "Дождливый рынок",
+  "description_ru": "Руфь продаёт фрукты на рынке в дождливый день и придумывает необычный способ привлечь покупателей.",
+  "text": "Ruth sold fruit at a small market near the river. One Saturday, it rained heavily, and nobody wanted to buy anything. Her strawberries were red and sweet, but the street was empty.\n\nRuth was sad for an hour. Then she had a funny idea. She found some old yellow umbrellas in her van and put a strawberry on top of each one. \"Free umbrella with every kilo of fruit!\" she shouted.\n\nPeople stopped and laughed. A man took a photograph and sent it to his friends. Within twenty minutes, a long queue was waiting in the rain. Children danced around the stall, and a woman bought three kilos of strawberries and two umbrellas.\n\nBy four o'clock, Ruth had no fruit and no umbrellas. She was wet, but she was very happy. It was her best day of the year, and the rain was the reason.",
+  "word_count": 145,
+  "vocabulary": [
+    {
+      "word": "market",
+      "ipa_us": "ˈmɑrkɪt",
+      "ipa_uk": "ˈmɑːkɪt",
+      "translation_ru": "рынок"
+    },
+    {
+      "word": "strawberries",
+      "ipa_us": "ˈstrɔˌberiz",
+      "ipa_uk": "ˈstrɔːbəriz",
+      "translation_ru": "клубника"
+    },
+    {
+      "word": "empty",
+      "ipa_us": "ˈempti",
+      "ipa_uk": "ˈempti",
+      "translation_ru": "пустой"
+    },
+    {
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrelə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
+    },
+    {
+      "word": "queue",
+      "ipa_us": "kjuː",
+      "ipa_uk": "kjuː",
+      "translation_ru": "очередь"
+    },
+    {
+      "word": "photograph",
+      "ipa_us": "ˈfoʊtəɡræf",
+      "ipa_uk": "ˈfəʊtəɡrɑːf",
+      "translation_ru": "фотография"
+    },
+    {
+      "word": "reason",
+      "ipa_us": "ˈriːzən",
+      "ipa_uk": "ˈriːzən",
+      "translation_ru": "причина"
+    },
+    {
+      "word": "heavily",
+      "ipa_us": "ˈhevɪli",
+      "ipa_uk": "ˈhevɪli",
+      "translation_ru": "сильно"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Ruth",
+        "rained",
+        "red",
+        "river",
+        "strawberries"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "wet",
+        "wanted",
+        "waiting",
+        "with",
+        "woman"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "umbrella",
+        "umbrellas",
+        "but"
+      ],
+      "tip_ru": "Короткий гортанный звук, чуть ближе к «а», чем к «о»; рот открыт слабо."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Ruth sell?",
+      "answer": "Fruit, strawberries.",
+      "accepted_keywords": [
+        "fruit",
+        "strawberries"
+      ]
+    },
+    {
+      "question": "What was the weather like?",
+      "answer": "It rained.",
+      "accepted_keywords": [
+        "rain",
+        "rainy",
+        "rained"
+      ]
+    },
+    {
+      "question": "What did Ruth give away free?",
+      "answer": "An umbrella with every kilo of fruit.",
+      "accepted_keywords": [
+        "umbrella"
+      ]
+    },
+    {
+      "question": "How was Ruth at the end of the day?",
+      "answer": "Very happy.",
+      "accepted_keywords": [
+        "happy"
+      ]
+    }
+  ]
+}

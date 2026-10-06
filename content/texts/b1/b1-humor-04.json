@@ -1,0 +1,129 @@
+{
+  "id": "b1-humor-04",
+  "level": "B1",
+  "genre": "humor",
+  "title_en": "The Diet Starts Tomorrow",
+  "title_ru": "Диета начинается завтра",
+  "description_ru": "Весёлый монолог о человеке, который снова и снова откладывает начало диеты.",
+  "text": "My name is Dave, and I have been starting a diet for eleven years. It always begins on Monday. Unfortunately, I have never been able to find a Monday that was suitable.\n\nLast week, I made a serious plan. I bought a book called Eat Less and Live Longer, a pair of running shoes and a basket of fresh vegetables. On Sunday evening, I stood in front of the mirror and said, \"Tomorrow, everything changes.\"\n\nOn Monday morning, I woke up full of energy. I ate a bowl of porridge without any sugar. It tasted like wet cardboard, but I was proud. At ten o'clock, my colleague Sandra arrived with a birthday cake. \"A tiny piece will not hurt,\" she said. I agreed, because it would be rude to refuse a birthday.\n\nAt lunchtime, I ate a salad. Then I ate Sandra's salad, because she did not like the tomatoes. In the afternoon, I went for a run. I managed to run for three minutes, and then I discovered a bakery. If the bakery had not been there, I would have run for much longer.\n\nBy the evening, I felt terrible about myself. So I decided that Monday had been a bad day to start. Tuesday was much better, since Tuesday has a friendlier name.\n\nTomorrow I will try again, I promise. But first, I need to finish this cake. It would be a waste to throw it away, and wasting food is bad for the planet.",
+  "word_count": 247,
+  "vocabulary": [
+    {
+      "word": "diet",
+      "ipa_us": "ˈdaɪət",
+      "ipa_uk": "ˈdaɪət",
+      "translation_ru": "диета"
+    },
+    {
+      "word": "suitable",
+      "ipa_us": "ˈsutəbəl",
+      "ipa_uk": "ˈsuːtəbəl",
+      "translation_ru": "подходящий"
+    },
+    {
+      "word": "serious",
+      "ipa_us": "ˈsɪriəs",
+      "ipa_uk": "ˈsɪəriəs",
+      "translation_ru": "серьёзный"
+    },
+    {
+      "word": "porridge",
+      "ipa_us": "ˈpɔrɪdʒ",
+      "ipa_uk": "ˈpɒrɪdʒ",
+      "translation_ru": "каша"
+    },
+    {
+      "word": "cardboard",
+      "ipa_us": "ˈkɑrdˌbɔrd",
+      "ipa_uk": "ˈkɑːdbɔːd",
+      "translation_ru": "картон"
+    },
+    {
+      "word": "colleague",
+      "ipa_us": "ˈkɑliɡ",
+      "ipa_uk": "ˈkɒliːɡ",
+      "translation_ru": "коллега"
+    },
+    {
+      "word": "refuse",
+      "ipa_us": "rɪˈfjuz",
+      "ipa_uk": "rɪˈfjuːz",
+      "translation_ru": "отказаться"
+    },
+    {
+      "word": "bakery",
+      "ipa_us": "ˈbeɪkəri",
+      "ipa_uk": "ˈbeɪkəri",
+      "translation_ru": "пекарня"
+    },
+    {
+      "word": "terrible",
+      "ipa_us": "ˈtɛrəbəl",
+      "ipa_uk": "ˈterəbəl",
+      "translation_ru": "ужасный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Dave",
+        "never",
+        "vegetables",
+        "eleven"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "run",
+        "refuse",
+        "promise",
+        "terrible"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bad",
+        "food",
+        "Dave"
+      ],
+      "tip_ru": "Не оглушайте b, d, g, v, z в конце слова: «bed» звучит не как «bet»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long has Dave been starting a diet?",
+      "answer": "For eleven years.",
+      "accepted_keywords": [
+        "eleven",
+        "11"
+      ]
+    },
+    {
+      "question": "What did Sandra bring on Monday?",
+      "answer": "A birthday cake.",
+      "accepted_keywords": [
+        "cake",
+        "birthday"
+      ]
+    },
+    {
+      "question": "Why did he stop running?",
+      "answer": "He found a bakery.",
+      "accepted_keywords": [
+        "bakery"
+      ]
+    },
+    {
+      "question": "Which day does he think is friendlier?",
+      "answer": "Tuesday.",
+      "accepted_keywords": [
+        "tuesday"
+      ]
+    }
+  ]
+}

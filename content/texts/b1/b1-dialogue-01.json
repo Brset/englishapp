@@ -1,0 +1,113 @@
+{
+  "id": "b1-dialogue-01",
+  "level": "B1",
+  "genre": "dialogue",
+  "title_en": "Booking a Hotel Room",
+  "title_ru": "Бронирование номера",
+  "description_ru": "Турист звонит в отель и уточняет детали бронирования.",
+  "text": "Receptionist: Good morning, Riverside Hotel. How can I help you?\nVictor: Hello. I would like to book a room for next weekend, please.\nReceptionist: Certainly. Which nights do you need?\nVictor: Friday and Saturday. There will be two of us, my wife and me.\nReceptionist: I have a double room with a view of the river. It costs ninety pounds a night.\nVictor: That sounds lovely. Is breakfast included?\nReceptionist: Yes, it is. We serve it from seven until ten. If you prefer to sleep late, you can ask for a tray in your room.\nVictor: Excellent. We have never stayed in your city before, so I have a few questions. Is the hotel far from the station?\nReceptionist: Not at all. It takes about ten minutes on foot. If you take a taxi, it will cost you around five pounds.\nVictor: Good. And is there a place to park? My friend might drive us there.\nReceptionist: Yes, we have a small car park behind the hotel, but it is very popular. If you want a space, you should reserve it in advance.\nVictor: Then please reserve one for us. Do you need my credit card number?\nReceptionist: Only the last four digits for now. You can pay the rest when you arrive.\nVictor: Perfect. My name is Victor Warren. That's W-A-R-R-E-N.\nReceptionist: Thank you, Mr Warren. I have written everything down. We look forward to welcoming you on Friday.\nVictor: Thank you very much. Goodbye!",
+  "word_count": 235,
+  "vocabulary": [
+    {
+      "word": "book",
+      "ipa_us": "bʊk",
+      "ipa_uk": "bʊk",
+      "translation_ru": "бронировать"
+    },
+    {
+      "word": "double room",
+      "ipa_us": "ˈdʌbəl ruːm",
+      "ipa_uk": "ˈdʌbəl ruːm",
+      "translation_ru": "двухместный номер"
+    },
+    {
+      "word": "included",
+      "ipa_us": "ɪnˈkluːdɪd",
+      "ipa_uk": "ɪnˈkluːdɪd",
+      "translation_ru": "включён"
+    },
+    {
+      "word": "tray",
+      "ipa_us": "treɪ",
+      "ipa_uk": "treɪ",
+      "translation_ru": "поднос"
+    },
+    {
+      "word": "reserve",
+      "ipa_us": "rɪˈzɜːrv",
+      "ipa_uk": "rɪˈzɜːv",
+      "translation_ru": "зарезервировать"
+    },
+    {
+      "word": "in advance",
+      "ipa_us": "ɪn ədˈvæns",
+      "ipa_uk": "ɪn ədˈvɑːns",
+      "translation_ru": "заранее"
+    },
+    {
+      "word": "welcoming",
+      "ipa_us": "ˈwelkəmɪŋ",
+      "ipa_uk": "ˈwelkəmɪŋ",
+      "translation_ru": "приветствуя"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "we",
+        "Warren",
+        "weekend",
+        "with"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "view",
+        "river",
+        "very"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "welcoming",
+        "everything"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When does Victor want the room?",
+      "answer": "Friday and Saturday next weekend.",
+      "accepted_keywords": [
+        "friday",
+        "saturday",
+        "weekend"
+      ]
+    },
+    {
+      "question": "How much is the room per night?",
+      "answer": "Ninety pounds.",
+      "accepted_keywords": [
+        "ninety",
+        "90"
+      ]
+    },
+    {
+      "question": "How far is the hotel from the station?",
+      "answer": "About ten minutes on foot.",
+      "accepted_keywords": [
+        "ten",
+        "10",
+        "minutes"
+      ]
+    }
+  ]
+}

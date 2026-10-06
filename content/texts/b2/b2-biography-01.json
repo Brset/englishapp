@@ -1,0 +1,132 @@
+{
+  "id": "b2-biography-01",
+  "level": "B2",
+  "genre": "biography",
+  "title_en": "Marie Curie: A Life of Curiosity",
+  "title_ru": "Мария Кюри: жизнь, полная любопытства",
+  "description_ru": "Биография первой женщины, получившей Нобелевскую премию, и единственного человека с премиями в двух разных науках.",
+  "text": "Marie Curie was born Maria Skłodowska in Warsaw in 1867, when Poland was ruled by the Russian Empire. Women were not allowed to study at university there, so she worked as a governess to save money and secretly attended an underground school known as the Flying University. In 1891 she moved to Paris, where she studied physics and mathematics at the Sorbonne. She lived in a tiny attic room, often forgetting to eat because she was so absorbed in her work.\n\nIn Paris she met Pierre Curie, a respected physicist, and they married in 1895. Together they investigated the strange rays that had recently been discovered by Henri Becquerel. Marie coined the word \"radioactivity\" and, after processing tons of ore in a leaky shed, the couple announced two new elements: polonium, named after her homeland, and radium. In 1903 the Nobel Prize in Physics was shared by the Curies and Becquerel, and Marie became the first woman ever to receive it.\n\nTragedy followed in 1906, when Pierre was killed in a street accident. Marie refused to give up. She took over his professorship, becoming the first woman to teach at the Sorbonne, and in 1911 she was awarded a second Nobel Prize, this time in Chemistry. No one had won in two different sciences before.\n\nDuring the First World War, she developed mobile X-ray units, which were nicknamed \"little Curies\". It is estimated that more than a million wounded soldiers were examined with them. Sadly, years of handling radioactive material damaged her health, and she died in 1934. Her daughter Irène later won a Nobel Prize in Chemistry as well. Even today, her notebooks are kept in lead-lined boxes because they are still radioactive. She remains a symbol of curiosity, courage and stubborn determination.",
+  "vocabulary": [
+    {
+      "word": "governess",
+      "ipa_us": "ˈɡʌvərnəs",
+      "ipa_uk": "ˈɡʌvənəs",
+      "translation_ru": "гувернантка"
+    },
+    {
+      "word": "absorbed",
+      "ipa_us": "əbˈzɔrbd",
+      "ipa_uk": "əbˈzɔːbd",
+      "translation_ru": "поглощённый"
+    },
+    {
+      "word": "coined",
+      "ipa_us": "kɔɪnd",
+      "ipa_uk": "kɔɪnd",
+      "translation_ru": "придумала (слово)"
+    },
+    {
+      "word": "ore",
+      "ipa_us": "ɔr",
+      "ipa_uk": "ɔː",
+      "translation_ru": "руда"
+    },
+    {
+      "word": "homeland",
+      "ipa_us": "ˈhoʊmlænd",
+      "ipa_uk": "ˈhəʊmlænd",
+      "translation_ru": "родина"
+    },
+    {
+      "word": "professorship",
+      "ipa_us": "prəˈfɛsərʃɪp",
+      "ipa_uk": "prəˈfesəʃɪp",
+      "translation_ru": "профессорская должность"
+    },
+    {
+      "word": "wounded",
+      "ipa_us": "ˈwundɪd",
+      "ipa_uk": "ˈwuːndɪd",
+      "translation_ru": "раненый"
+    },
+    {
+      "word": "determination",
+      "ipa_us": "dɪˌtɜrməˈneɪʃən",
+      "ipa_uk": "dɪˌtɜːmɪˈneɪʃən",
+      "translation_ru": "решимость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "Warsaw",
+        "wounded"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Marie",
+        "radioactivity",
+        "refused"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "ruled",
+        "studied",
+        "awarded"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Marie Curie born?",
+      "answer": "In Warsaw.",
+      "accepted_keywords": [
+        "warsaw",
+        "poland"
+      ]
+    },
+    {
+      "question": "Which two new elements did the Curies announce?",
+      "answer": "Polonium and radium.",
+      "accepted_keywords": [
+        "polonium",
+        "radium"
+      ]
+    },
+    {
+      "question": "What was special about her two Nobel Prizes?",
+      "answer": "They were in two different sciences, physics and chemistry.",
+      "accepted_keywords": [
+        "physics",
+        "chemistry",
+        "different"
+      ]
+    },
+    {
+      "question": "Why are her notebooks kept in lead-lined boxes?",
+      "answer": "Because they are still radioactive.",
+      "accepted_keywords": [
+        "radioactive",
+        "radiation"
+      ]
+    }
+  ],
+  "word_count": 291
+}

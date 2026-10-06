@@ -1,0 +1,127 @@
+{
+  "id": "a2-biography-02",
+  "level": "A2",
+  "genre": "biography",
+  "title_en": "Marie Curie",
+  "title_ru": "Мария Кюри",
+  "description_ru": "Жизнь учёной, которая первой получила две Нобелевские премии.",
+  "text": "Marie Curie was born in Warsaw, Poland, in 1867. Her name then was Maria Sklodowska. Her family was not rich, and women could not study at university in Poland. So she worked as a teacher for several years and saved money.\n\nIn 1891 Maria moved to Paris and studied science. She worked very hard, and sometimes she had little food. In Paris she met Pierre Curie, a scientist, and they got married in 1895.\n\nTogether, Marie and Pierre discovered two new elements. They called them polonium and radium. In 1903 they won the Nobel Prize in Physics. Marie was the first woman to win this prize. Later, in 1911, she won a second Nobel Prize, this time in Chemistry.\n\nDuring the First World War, Marie helped doctors with special X-ray cars. She died in 1934, but people still remember her.",
+  "word_count": 135,
+  "vocabulary": [
+    {
+      "word": "rich",
+      "ipa_us": "rɪtʃ",
+      "ipa_uk": "rɪtʃ",
+      "translation_ru": "богатый"
+    },
+    {
+      "word": "saved",
+      "ipa_us": "seɪvd",
+      "ipa_uk": "seɪvd",
+      "translation_ru": "копила, откладывала"
+    },
+    {
+      "word": "scientist",
+      "ipa_us": "ˈsaɪəntɪst",
+      "ipa_uk": "ˈsaɪəntɪst",
+      "translation_ru": "учёный"
+    },
+    {
+      "word": "discovered",
+      "ipa_us": "dɪˈskʌvərd",
+      "ipa_uk": "dɪˈskʌvəd",
+      "translation_ru": "открыли"
+    },
+    {
+      "word": "element",
+      "ipa_us": "ˈelɪmənt",
+      "ipa_uk": "ˈelɪmənt",
+      "translation_ru": "(химический) элемент"
+    },
+    {
+      "word": "prize",
+      "ipa_us": "praɪz",
+      "ipa_uk": "praɪz",
+      "translation_ru": "премия"
+    },
+    {
+      "word": "chemistry",
+      "ipa_us": "ˈkemɪstri",
+      "ipa_uk": "ˈkemɪstri",
+      "translation_ru": "химия"
+    },
+    {
+      "word": "remember",
+      "ipa_us": "rɪˈmembər",
+      "ipa_uk": "rɪˈmembə",
+      "translation_ru": "помнить"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rich",
+        "remember"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Warsaw",
+        "woman"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "university",
+        "several"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "prize",
+        "time"
+      ],
+      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Marie Curie born?",
+      "answer": "In Warsaw, Poland.",
+      "accepted_keywords": [
+        "warsaw",
+        "poland"
+      ]
+    },
+    {
+      "question": "When did she move to Paris?",
+      "answer": "In 1891.",
+      "accepted_keywords": [
+        "1891"
+      ]
+    },
+    {
+      "question": "What two elements did the Curies discover?",
+      "answer": "Polonium and radium.",
+      "accepted_keywords": [
+        "polonium",
+        "radium"
+      ]
+    },
+    {
+      "question": "In which two subjects did Marie win a Nobel Prize?",
+      "answer": "Physics and chemistry.",
+      "accepted_keywords": [
+        "physics",
+        "chemistry"
+      ]
+    }
+  ]
+}

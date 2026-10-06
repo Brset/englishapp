@@ -1,0 +1,120 @@
+{
+  "id": "a1-science-02",
+  "level": "A1",
+  "genre": "science",
+  "title_en": "Three Forms of Water",
+  "title_ru": "Три состояния воды",
+  "description_ru": "Как вода превращается в лёд, жидкость и пар и путешествует по кругу.",
+  "text": "Water is special because it has three forms. When water is cold, it becomes ice. Ice is hard, and you can see it in a freezer. When water is warm, it is a liquid. We drink it, and we wash with it.\n\nWhen water is very hot, it turns into steam. Steam is a gas, and you cannot see it well. In the sky, water goes up, becomes clouds and comes back as rain. This journey never stops. Water travels around our world again and again.",
+  "vocabulary": [
+    {
+      "word": "forms",
+      "ipa_us": "fɔːrmz",
+      "ipa_uk": "fɔːmz",
+      "translation_ru": "формы, состояния"
+    },
+    {
+      "word": "ice",
+      "ipa_us": "aɪs",
+      "ipa_uk": "aɪs",
+      "translation_ru": "лёд"
+    },
+    {
+      "word": "freezer",
+      "ipa_us": "ˈfriːzɚ",
+      "ipa_uk": "ˈfriːzə",
+      "translation_ru": "морозильник"
+    },
+    {
+      "word": "liquid",
+      "ipa_us": "ˈlɪkwɪd",
+      "ipa_uk": "ˈlɪkwɪd",
+      "translation_ru": "жидкость"
+    },
+    {
+      "word": "steam",
+      "ipa_us": "stiːm",
+      "ipa_uk": "stiːm",
+      "translation_ru": "пар"
+    },
+    {
+      "word": "clouds",
+      "ipa_us": "klaʊdz",
+      "ipa_uk": "klaʊdz",
+      "translation_ru": "облака"
+    },
+    {
+      "word": "journey",
+      "ipa_us": "ˈdʒɝːni",
+      "ipa_uk": "ˈdʒɜːni",
+      "translation_ru": "путь, путешествие"
+    },
+    {
+      "word": "travels",
+      "ipa_us": "ˈtrævəlz",
+      "ipa_uk": "ˈtrævəlz",
+      "translation_ru": "путешествует"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "warm",
+        "wash",
+        "world"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "travels",
+        "never"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many forms does water have?",
+      "answer": "Three.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "What does cold water become?",
+      "answer": "Ice.",
+      "accepted_keywords": [
+        "ice"
+      ]
+    },
+    {
+      "question": "What is steam?",
+      "answer": "A gas.",
+      "accepted_keywords": [
+        "gas"
+      ]
+    },
+    {
+      "question": "What comes back from the clouds?",
+      "answer": "Rain.",
+      "accepted_keywords": [
+        "rain"
+      ]
+    }
+  ],
+  "word_count": 86
+}

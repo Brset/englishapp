@@ -1,0 +1,146 @@
+{
+  "id": "b2-science-01",
+  "level": "B2",
+  "genre": "science",
+  "title_en": "Why Is the Sky Blue?",
+  "title_ru": "Почему небо голубое?",
+  "description_ru": "Объяснение рассеяния Рэлея: почему днём небо голубое, а на закате красное.",
+  "text": "Every child eventually asks the same question: why is the sky blue? The answer, which was first explained scientifically in the nineteenth century, involves the way sunlight travels through the atmosphere.\n\nSunlight looks white, but it is actually a mixture of all the colours of the rainbow. Each colour has a different wavelength. Red light has a long wavelength, while blue and violet light have much shorter ones. When sunlight enters the atmosphere, it collides with billions of tiny gas molecules, mostly nitrogen and oxygen. These molecules are far smaller than the wavelength of visible light, and they scatter short wavelengths much more strongly than long ones.\n\nThis effect is known as Rayleigh scattering, after the British physicist Lord Rayleigh, who described it mathematically in 1871. The amount of scattering is inversely proportional to the fourth power of the wavelength. In simple terms, blue light is scattered about five times more than red light. As a result, blue light is thrown in all directions across the sky, and wherever we look, some of it reaches our eyes.\n\nViolet light is scattered even more than blue, so why isn't the sky violet? There are several reasons. First, the sun emits less violet light than blue. Second, part of the violet light is absorbed high in the atmosphere. Finally, our eyes are more sensitive to blue than to violet. The combination of these three factors makes the sky appear blue.\n\nThe same principle explains the colours of sunrise and sunset. When the sun is low on the horizon, its light has to travel through a much thicker layer of air. Most of the blue light is scattered away before it reaches us, so only the longer wavelengths, orange and red, are left. If the air contains dust or smoke, the sunset may be even more spectacular.\n\nIt is often said that the sky is blue because it reflects the ocean. This is a common myth. In fact, the opposite is closer to the truth, because the sea looks blue partly because it reflects the sky, although water also absorbs red light.\n\nOn other planets, the sky can be quite different. On Mars, for example, fine dust in the thin atmosphere makes the daytime sky look butterscotch, while sunsets appear bluish.",
+  "word_count": 377,
+  "vocabulary": [
+    {
+      "word": "atmosphere",
+      "ipa_us": "ˈætməsˌfɪr",
+      "ipa_uk": "ˈætməsfɪə",
+      "translation_ru": "атмосфера"
+    },
+    {
+      "word": "wavelength",
+      "ipa_us": "ˈweɪvˌlɛŋθ",
+      "ipa_uk": "ˈweɪvleŋθ",
+      "translation_ru": "длина волны"
+    },
+    {
+      "word": "molecules",
+      "ipa_us": "ˈmɑləˌkjulz",
+      "ipa_uk": "ˈmɒlɪkjuːlz",
+      "translation_ru": "молекулы"
+    },
+    {
+      "word": "scatter",
+      "ipa_us": "ˈskætər",
+      "ipa_uk": "ˈskætə",
+      "translation_ru": "рассеивать"
+    },
+    {
+      "word": "physicist",
+      "ipa_us": "ˈfɪzɪsɪst",
+      "ipa_uk": "ˈfɪzɪsɪst",
+      "translation_ru": "физик"
+    },
+    {
+      "word": "inversely",
+      "ipa_us": "ɪnˈvɜrsli",
+      "ipa_uk": "ɪnˈvɜːsli",
+      "translation_ru": "обратно"
+    },
+    {
+      "word": "absorbed",
+      "ipa_us": "əbˈzɔrbd",
+      "ipa_uk": "əbˈzɔːbd",
+      "translation_ru": "поглощён"
+    },
+    {
+      "word": "sensitive",
+      "ipa_us": "ˈsɛnsɪtɪv",
+      "ipa_uk": "ˈsensɪtɪv",
+      "translation_ru": "чувствительный"
+    },
+    {
+      "word": "horizon",
+      "ipa_us": "həˈraɪzən",
+      "ipa_uk": "həˈraɪzən",
+      "translation_ru": "горизонт"
+    },
+    {
+      "word": "myth",
+      "ipa_us": "mɪθ",
+      "ipa_uk": "mɪθ",
+      "translation_ru": "миф"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "wavelength",
+        "three",
+        "myth",
+        "thicker"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wavelength",
+        "which",
+        "wherever"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "visible",
+        "violet",
+        "every"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "rainbow",
+        "reflects"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which colour of light has a long wavelength?",
+      "answer": "Red.",
+      "accepted_keywords": [
+        "red"
+      ]
+    },
+    {
+      "question": "Who described Rayleigh scattering mathematically?",
+      "answer": "Lord Rayleigh.",
+      "accepted_keywords": [
+        "rayleigh"
+      ]
+    },
+    {
+      "question": "Why isn't the sky violet?",
+      "answer": "The sun emits less violet, it is absorbed, and our eyes are less sensitive to it.",
+      "accepted_keywords": [
+        "sensitive",
+        "absorbed",
+        "less",
+        "eyes"
+      ]
+    },
+    {
+      "question": "What colour is the daytime sky on Mars?",
+      "answer": "Butterscotch.",
+      "accepted_keywords": [
+        "butterscotch",
+        "brown",
+        "yellow"
+      ]
+    }
+  ]
+}

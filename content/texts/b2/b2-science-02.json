@@ -1,0 +1,144 @@
+{
+  "id": "b2-science-02",
+  "level": "B2",
+  "genre": "science",
+  "title_en": "The Secret Language of Bees",
+  "title_ru": "Тайный язык пчёл",
+  "description_ru": "О знаменитом танце виляния, с помощью которого пчёлы сообщают друг другу, где найти нектар.",
+  "text": "In the 1940s, an Austrian scientist named Karl von Frisch made a discovery that would later win him a Nobel Prize. By watching honeybees inside glass-walled hives, he found that they communicate with one another by dancing.\n\nWhen a forager bee finds a rich source of nectar, she returns to the hive and performs what is now called the waggle dance. She moves in a figure of eight, and in the middle of the figure she shakes her body from side to side while moving in a straight line. Other bees gather around her, touching her with their antennae to follow the movements.\n\nThe dance contains remarkably precise information. The angle of the straight run, measured against the vertical wall of the honeycomb, shows the direction of the flowers in relation to the sun. If the bee runs straight upwards, the food lies in the direction of the sun. If she runs thirty degrees to the right of vertical, the flowers are thirty degrees to the right of the sun. The length of the waggle phase indicates the distance: roughly one second of waggling means about one kilometre.\n\nAt first, many researchers were sceptical. It seemed impossible that an insect with a brain the size of a sesame seed could perform such calculations. In the 1960s and 1970s, however, experiments confirmed Frisch's theory. Scientists even built a robotic bee that could be programmed to dance, and real bees followed its instructions to reach a feeding station.\n\nBees also adapt to difficult conditions. On cloudy days, they can still detect the position of the sun through polarised light, which humans cannot see. In addition, they compensate for the movement of the sun during the day, so that a dance performed in the afternoon remains accurate.\n\nToday, researchers are concerned because pesticides and habitat loss threaten bee populations around the world. Since about one third of the food we eat depends on pollination, understanding how these insects live and work is more than a matter of curiosity. It may be essential for our own survival.",
+  "word_count": 344,
+  "vocabulary": [
+    {
+      "word": "discovery",
+      "ipa_us": "dɪˈskʌvəri",
+      "ipa_uk": "dɪˈskʌvəri",
+      "translation_ru": "открытие"
+    },
+    {
+      "word": "forager",
+      "ipa_us": "ˈfɔrɪdʒər",
+      "ipa_uk": "ˈfɒrɪdʒə",
+      "translation_ru": "пчела-сборщица"
+    },
+    {
+      "word": "nectar",
+      "ipa_us": "ˈnɛktər",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
+    },
+    {
+      "word": "waggle",
+      "ipa_us": "ˈwæɡəl",
+      "ipa_uk": "ˈwæɡəl",
+      "translation_ru": "виляние"
+    },
+    {
+      "word": "antennae",
+      "ipa_us": "ænˈtɛni",
+      "ipa_uk": "ænˈteniː",
+      "translation_ru": "усики"
+    },
+    {
+      "word": "precise",
+      "ipa_us": "prɪˈsaɪs",
+      "ipa_uk": "prɪˈsaɪs",
+      "translation_ru": "точный"
+    },
+    {
+      "word": "vertical",
+      "ipa_us": "ˈvɜrtɪkəl",
+      "ipa_uk": "ˈvɜːtɪkəl",
+      "translation_ru": "вертикальный"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskɛptɪkəl",
+      "ipa_uk": "ˈskeptɪkəl",
+      "translation_ru": "скептически настроенный"
+    },
+    {
+      "word": "pesticides",
+      "ipa_us": "ˈpɛstɪˌsaɪdz",
+      "ipa_uk": "ˈpestɪsaɪdz",
+      "translation_ru": "пестициды"
+    },
+    {
+      "word": "pollination",
+      "ipa_us": "ˌpɑləˈneɪʃən",
+      "ipa_uk": "ˌpɒləˈneɪʃən",
+      "translation_ru": "опыление"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "waggle",
+        "watching",
+        "world"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "vertical",
+        "von",
+        "survival"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "third",
+        "theory"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "antennae",
+        "angle",
+        "matter"
+      ],
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий и ёмкий, не «а» и не «э»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who discovered the waggle dance?",
+      "answer": "Karl von Frisch.",
+      "accepted_keywords": [
+        "frisch",
+        "karl"
+      ]
+    },
+    {
+      "question": "What does the length of the waggle phase show?",
+      "answer": "The distance to the flowers.",
+      "accepted_keywords": [
+        "distance"
+      ]
+    },
+    {
+      "question": "How can bees find the sun on cloudy days?",
+      "answer": "Through polarised light.",
+      "accepted_keywords": [
+        "polarised",
+        "polarized",
+        "light"
+      ]
+    },
+    {
+      "question": "What share of our food depends on pollination?",
+      "answer": "About one third.",
+      "accepted_keywords": [
+        "third",
+        "one"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "b1-science-02",
+  "level": "B1",
+  "genre": "science",
+  "title_en": "How Bees Make Honey",
+  "title_ru": "Как пчёлы делают мёд",
+  "description_ru": "Рассказ о том, как пчёлы собирают нектар и превращают его в мёд.",
+  "text": "Honey is one of the oldest foods that people have ever eaten, but few of us know how much work goes into every spoonful. A single bee makes only about one twelfth of a teaspoon of honey in its whole life.\n\nThe process begins when a worker bee flies out of the hive to look for flowers. She drinks a sweet liquid called nectar and stores it in a special stomach, which is separate from the stomach she uses for her own food. During one trip, a bee may visit up to a hundred flowers.\n\nWhen she returns to the hive, she passes the nectar to another worker bee. This bee chews it for about half an hour. During this time, enzymes in her body break the nectar down into simpler sugars. Then she puts the liquid into a wax cell. At this stage, the mixture is still very wet, with too much water to be stored safely.\n\nTo solve the problem, the bees fan the cells with their wings. The warm air makes the water evaporate, and the liquid slowly becomes thick and sticky. When the honey is ready, the bees cover the cell with a thin layer of wax.\n\nHoney can last for thousands of years if it is kept sealed, because it contains so little water that bacteria cannot grow in it. Scientists have even found edible honey in ancient Egyptian tombs.",
+  "word_count": 235,
+  "vocabulary": [
+    {
+      "word": "nectar",
+      "ipa_us": "ˈnektɚ",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
+    },
+    {
+      "word": "hive",
+      "ipa_us": "haɪv",
+      "ipa_uk": "haɪv",
+      "translation_ru": "улей"
+    },
+    {
+      "word": "stomach",
+      "ipa_us": "ˈstʌmək",
+      "ipa_uk": "ˈstʌmək",
+      "translation_ru": "желудок"
+    },
+    {
+      "word": "enzymes",
+      "ipa_us": "ˈenzaɪmz",
+      "ipa_uk": "ˈenzaɪmz",
+      "translation_ru": "ферменты"
+    },
+    {
+      "word": "wax",
+      "ipa_us": "wæks",
+      "ipa_uk": "wæks",
+      "translation_ru": "воск"
+    },
+    {
+      "word": "evaporate",
+      "ipa_us": "ɪˈvæpəreɪt",
+      "ipa_uk": "ɪˈvæpəreɪt",
+      "translation_ru": "испаряться"
+    },
+    {
+      "word": "edible",
+      "ipa_us": "ˈedəbəl",
+      "ipa_uk": "ˈedɪbəl",
+      "translation_ru": "съедобный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "hive",
+        "visit",
+        "evaporate",
+        "every"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "work",
+        "worker",
+        "water",
+        "wings"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thick",
+        "thin",
+        "thousands"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do bees collect from flowers?",
+      "answer": "Nectar.",
+      "accepted_keywords": [
+        "nectar"
+      ]
+    },
+    {
+      "question": "How do bees remove water from the honey?",
+      "answer": "They fan it with their wings.",
+      "accepted_keywords": [
+        "fan",
+        "wings"
+      ]
+    },
+    {
+      "question": "Why can honey last thousands of years?",
+      "answer": "It contains so little water that bacteria cannot grow.",
+      "accepted_keywords": [
+        "water",
+        "bacteria"
+      ]
+    }
+  ]
+}

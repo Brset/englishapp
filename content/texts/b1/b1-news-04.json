@@ -1,0 +1,139 @@
+{
+  "id": "b1-news-04",
+  "level": "B1",
+  "genre": "news",
+  "title_en": "Rooftop Garden Feeds a Neighbourhood",
+  "title_ru": "Сад на крыше кормит целый район",
+  "description_ru": "Вымышленная новость о жителях дома, которые вырастили овощи на крыше и делятся урожаем.",
+  "text": "Residents of an apartment building in the city of Eastham have turned their grey rooftop into a thriving vegetable garden. The project, called Green Roof, began last year with only six wooden boxes and a few bags of soil.\n\nToday the garden has more than sixty boxes, a small greenhouse and even three beehives. Volunteers have grown tomatoes, carrots, beans and herbs, and they give away everything that they cannot eat themselves. Last month alone, the group delivered two hundred kilograms of fresh vegetables to a nearby food bank.\n\nThe idea came from retired nurse Dorothy Cole, who is seventy-two years old. \"I used to have a big garden in the countryside,\" she said. \"When I moved here, I missed the smell of the earth. One day I looked up at the empty roof and thought, why not?\"\n\nAt first, the building's owner refused to give permission. He was worried that the weight of the soil might damage the roof. Engineers checked the structure and confirmed that it was safe, so he changed his mind.\n\nThe garden has also changed life inside the building. Neighbours who had never spoken now meet every Saturday to water the plants and share tea. \"Before the garden, I did not know anyone's name,\" said student Ahmed Rahman. \"Now I know everybody on all eight floors.\"\n\nCity officials have visited the roof and say they would like to help other buildings do the same. If the plan goes ahead, similar gardens could appear across Eastham by next summer.",
+  "word_count": 254,
+  "vocabulary": [
+    {
+      "word": "thriving",
+      "ipa_us": "ˈθraɪvɪŋ",
+      "ipa_uk": "ˈθraɪvɪŋ",
+      "translation_ru": "процветающий"
+    },
+    {
+      "word": "greenhouse",
+      "ipa_us": "ˈɡrinˌhaʊs",
+      "ipa_uk": "ˈɡriːnhaʊs",
+      "translation_ru": "теплица"
+    },
+    {
+      "word": "beehives",
+      "ipa_us": "ˈbiˌhaɪvz",
+      "ipa_uk": "ˈbiːhaɪvz",
+      "translation_ru": "ульи"
+    },
+    {
+      "word": "volunteers",
+      "ipa_us": "ˌvɑlənˈtɪrz",
+      "ipa_uk": "ˌvɒlənˈtɪəz",
+      "translation_ru": "добровольцы"
+    },
+    {
+      "word": "delivered",
+      "ipa_us": "dɪˈlɪvərd",
+      "ipa_uk": "dɪˈlɪvəd",
+      "translation_ru": "доставили"
+    },
+    {
+      "word": "countryside",
+      "ipa_us": "ˈkʌntriˌsaɪd",
+      "ipa_uk": "ˈkʌntrisaɪd",
+      "translation_ru": "сельская местность"
+    },
+    {
+      "word": "permission",
+      "ipa_us": "pərˈmɪʃən",
+      "ipa_uk": "pəˈmɪʃən",
+      "translation_ru": "разрешение"
+    },
+    {
+      "word": "confirmed",
+      "ipa_us": "kənˈfɜrmd",
+      "ipa_uk": "kənˈfɜːmd",
+      "translation_ru": "подтвердили"
+    },
+    {
+      "word": "officials",
+      "ipa_us": "əˈfɪʃəlz",
+      "ipa_uk": "əˈfɪʃəlz",
+      "translation_ru": "чиновники"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vegetable",
+        "volunteers",
+        "delivered",
+        "every"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thriving",
+        "three",
+        "thought",
+        "month"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "roof",
+        "green",
+        "retired",
+        "refused"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the garden called?",
+      "answer": "Green Roof.",
+      "accepted_keywords": [
+        "green",
+        "roof"
+      ]
+    },
+    {
+      "question": "What happens to the extra vegetables?",
+      "answer": "They are given to a food bank.",
+      "accepted_keywords": [
+        "food",
+        "bank",
+        "give",
+        "given"
+      ]
+    },
+    {
+      "question": "Why did the owner first refuse permission?",
+      "answer": "He worried the soil was too heavy for the roof.",
+      "accepted_keywords": [
+        "weight",
+        "heavy",
+        "damage",
+        "roof"
+      ]
+    },
+    {
+      "question": "How has the garden changed life in the building?",
+      "answer": "Neighbours now meet and talk.",
+      "accepted_keywords": [
+        "neighbours",
+        "meet",
+        "talk",
+        "share",
+        "tea"
+      ]
+    }
+  ]
+}

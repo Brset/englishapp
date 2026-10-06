@@ -1,0 +1,121 @@
+{
+  "id": "a1-biography-02",
+  "level": "A1",
+  "genre": "biography",
+  "title_en": "Marie Curie",
+  "title_ru": "Мария Кюри",
+  "description_ru": "Жизнь женщины, которая дважды получила Нобелевскую премию за работу с радиоактивностью.",
+  "text": "Marie Curie was born in Warsaw, in Poland, in 1867. She was a very clever girl, but she was poor. She moved to Paris and studied science there.\n\nIn Paris she met Pierre Curie. They married and worked together in a small, cold room. They studied a new thing in nature: radioactivity.\n\nMarie won two Nobel Prizes. She was the first woman to win one. Her first prize was in physics, and her second prize was in chemistry. She worked hard all her life, and she died in 1934.",
+  "word_count": 87,
+  "vocabulary": [
+    {
+      "word": "clever",
+      "ipa_us": "ˈklɛvər",
+      "ipa_uk": "ˈklevə",
+      "translation_ru": "умный"
+    },
+    {
+      "word": "poor",
+      "ipa_us": "pʊr",
+      "ipa_uk": "pɔː",
+      "translation_ru": "бедный"
+    },
+    {
+      "word": "moved",
+      "ipa_us": "muvd",
+      "ipa_uk": "muːvd",
+      "translation_ru": "переехала"
+    },
+    {
+      "word": "studied",
+      "ipa_us": "ˈstʌdid",
+      "ipa_uk": "ˈstʌdid",
+      "translation_ru": "училась"
+    },
+    {
+      "word": "married",
+      "ipa_us": "ˈmɛrid",
+      "ipa_uk": "ˈmærid",
+      "translation_ru": "поженились"
+    },
+    {
+      "word": "nature",
+      "ipa_us": "ˈneɪtʃər",
+      "ipa_uk": "ˈneɪtʃə",
+      "translation_ru": "природа"
+    },
+    {
+      "word": "chemistry",
+      "ipa_us": "ˈkɛmɪstri",
+      "ipa_uk": "ˈkemɪstri",
+      "translation_ru": "химия"
+    },
+    {
+      "word": "together",
+      "ipa_us": "təˈɡɛðər",
+      "ipa_uk": "təˈɡeðə",
+      "translation_ru": "вместе"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "Warsaw",
+        "woman"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "room",
+        "radioactivity",
+        "first"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "they",
+        "together"
+      ],
+      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Marie Curie born?",
+      "answer": "In Warsaw, in Poland.",
+      "accepted_keywords": [
+        "warsaw",
+        "poland"
+      ]
+    },
+    {
+      "question": "Where did she move to study?",
+      "answer": "To Paris.",
+      "accepted_keywords": [
+        "paris"
+      ]
+    },
+    {
+      "question": "How many Nobel Prizes did she win?",
+      "answer": "Two.",
+      "accepted_keywords": [
+        "two",
+        "2"
+      ]
+    },
+    {
+      "question": "Which year did she die?",
+      "answer": "In 1934.",
+      "accepted_keywords": [
+        "1934",
+        "nineteen"
+      ]
+    }
+  ]
+}

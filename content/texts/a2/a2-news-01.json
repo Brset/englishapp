@@ -1,0 +1,128 @@
+{
+  "id": "a2-news-01",
+  "level": "A2",
+  "genre": "news",
+  "title_en": "Free Buses in Millbrook",
+  "title_ru": "Бесплатные автобусы в Миллбруке",
+  "description_ru": "Вымышленная новость: в небольшом городе автобусы стали бесплатными.",
+  "text": "The town of Millbrook has some good news for its citizens. From next Monday, all city buses are going to be free for everyone.\n\nThe mayor, Helen Frost, told reporters about the plan on Tuesday. \"Our streets are full of cars, and the air is dirty,\" she said. \"We want more people to use the bus. It is cheaper for them, and it is better for the town.\"\n\nLast year, about six thousand people took the bus every day. The mayor hopes that number is going to double in the next twelve months.\n\nNot everyone is happy. Some drivers say that the buses are going to be too crowded. A local shop owner, Victor Hale, said, \"I like the idea, but the buses must come more often.\"\n\nThe town is going to buy five new buses in the spring. The first free ride starts at six o'clock on Monday morning.",
+  "word_count": 150,
+  "vocabulary": [
+    {
+      "word": "citizen",
+      "ipa_us": "ˈsɪtɪzn",
+      "ipa_uk": "ˈsɪtɪzn",
+      "translation_ru": "житель, гражданин"
+    },
+    {
+      "word": "mayor",
+      "ipa_us": "ˈmeɪər",
+      "ipa_uk": "meə",
+      "translation_ru": "мэр"
+    },
+    {
+      "word": "reporter",
+      "ipa_us": "rɪˈpɔːrtər",
+      "ipa_uk": "rɪˈpɔːtə",
+      "translation_ru": "репортёр"
+    },
+    {
+      "word": "dirty",
+      "ipa_us": "ˈdɜːrti",
+      "ipa_uk": "ˈdɜːti",
+      "translation_ru": "грязный"
+    },
+    {
+      "word": "cheaper",
+      "ipa_us": "ˈtʃiːpər",
+      "ipa_uk": "ˈtʃiːpə",
+      "translation_ru": "дешевле"
+    },
+    {
+      "word": "double",
+      "ipa_us": "ˈdʌbl",
+      "ipa_uk": "ˈdʌbl",
+      "translation_ru": "удвоиться"
+    },
+    {
+      "word": "crowded",
+      "ipa_us": "ˈkraʊdɪd",
+      "ipa_uk": "ˈkraʊdɪd",
+      "translation_ru": "переполненный"
+    },
+    {
+      "word": "local",
+      "ipa_us": "ˈloʊkl",
+      "ipa_uk": "ˈləʊkl",
+      "translation_ru": "местный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "every"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reporters",
+        "free"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "them"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "Millbrook",
+        "local"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is going to be free?",
+      "answer": "City buses.",
+      "accepted_keywords": [
+        "bus",
+        "buses"
+      ]
+    },
+    {
+      "question": "Who is the mayor?",
+      "answer": "Helen Frost.",
+      "accepted_keywords": [
+        "helen",
+        "frost"
+      ]
+    },
+    {
+      "question": "How many new buses is the town going to buy?",
+      "answer": "Five.",
+      "accepted_keywords": [
+        "five",
+        "5"
+      ]
+    },
+    {
+      "question": "When does the first free ride start?",
+      "answer": "Monday at six o'clock.",
+      "accepted_keywords": [
+        "monday",
+        "six"
+      ]
+    }
+  ]
+}

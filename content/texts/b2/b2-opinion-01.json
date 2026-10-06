@@ -1,0 +1,133 @@
+{
+  "id": "b2-opinion-01",
+  "level": "B2",
+  "genre": "opinion",
+  "title_en": "In Defence of Paper Books",
+  "title_ru": "В защиту бумажных книг",
+  "description_ru": "Личное мнение автора о том, почему он вернулся от электронной книги к бумажной, с аргументами за и против.",
+  "text": "Last month my daughter gave me an e-reader for my birthday. It is light, it holds a thousand books, and the screen is easy on the eyes. Everyone told me I would love it. Yet after three weeks I went back to paper, and I think I know why.\n\nFirst, a book is more than words. It is said that we remember where on the page we read something, and I believe it. With a paper book I can recall that a quotation was near the bottom of a left-hand page, about a third of the way through. On a screen, the text simply flows away like water, and nothing stays in my memory. Researchers have also reported that readers of printed texts sometimes understand long, complicated arguments better, although the evidence is not completely clear.\n\nSecond, there are no distractions. My e-reader was supposed to be used only for reading, but it kept reminding me that I could check the weather, download another novel, or adjust the font. A paper book never interrupts you. It does not need charging, and it will not break if you drop it in the bath, which, I admit, I have done more than once.\n\nOf course, the other side has strong arguments. Digital books are cheaper, they are better for the environment when you travel, and they are perfect for people with poor eyesight, who can make the letters as large as they like. My grandfather, for instance, reads three novels a week now that he can enlarge the print.\n\nSo I am not saying that e-readers should be banned. That would be ridiculous. What I am saying is that we should not throw the baby out with the bathwater. A shelf of well-worn books tells a story about its owner, and no cloud storage can ever replace the smell of an old library. In my opinion, the future of reading should have room for both, but I will keep choosing paper whenever I have the choice.",
+  "vocabulary": [
+    {
+      "word": "distractions",
+      "ipa_us": "dɪˈstrækʃənz",
+      "ipa_uk": "dɪˈstrækʃənz",
+      "translation_ru": "отвлекающие факторы"
+    },
+    {
+      "word": "quotation",
+      "ipa_us": "kwoʊˈteɪʃən",
+      "ipa_uk": "kwəʊˈteɪʃən",
+      "translation_ru": "цитата"
+    },
+    {
+      "word": "evidence",
+      "ipa_us": "ˈɛvədəns",
+      "ipa_uk": "ˈevɪdəns",
+      "translation_ru": "доказательства"
+    },
+    {
+      "word": "adjust",
+      "ipa_us": "əˈdʒʌst",
+      "ipa_uk": "əˈdʒʌst",
+      "translation_ru": "настроить"
+    },
+    {
+      "word": "enlarge",
+      "ipa_us": "ɪnˈlɑrdʒ",
+      "ipa_uk": "ɪnˈlɑːdʒ",
+      "translation_ru": "увеличить"
+    },
+    {
+      "word": "ridiculous",
+      "ipa_us": "rɪˈdɪkjələs",
+      "ipa_uk": "rɪˈdɪkjʊləs",
+      "translation_ru": "нелепый"
+    },
+    {
+      "word": "well-worn",
+      "ipa_us": "ˌwɛlˈwɔrn",
+      "ipa_uk": "ˌwelˈwɔːn",
+      "translation_ru": "потрёпанный"
+    },
+    {
+      "word": "replace",
+      "ipa_us": "rɪˈpleɪs",
+      "ipa_uk": "rɪˈpleɪs",
+      "translation_ru": "заменить"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "three",
+        "think"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "weeks",
+        "water",
+        "would"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reading",
+        "remember",
+        "researchers"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "evidence",
+        "novel",
+        "never"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the author's daughter give him?",
+      "answer": "An e-reader.",
+      "accepted_keywords": [
+        "e-reader",
+        "reader"
+      ]
+    },
+    {
+      "question": "Why does he say paper books have no distractions?",
+      "answer": "They do not remind you of other things like the weather or downloads.",
+      "accepted_keywords": [
+        "interrupt",
+        "interrupts",
+        "weather",
+        "distractions"
+      ]
+    },
+    {
+      "question": "Who benefits from enlarging the print?",
+      "answer": "People with poor eyesight, such as his grandfather.",
+      "accepted_keywords": [
+        "grandfather",
+        "eyesight"
+      ]
+    },
+    {
+      "question": "What does he choose in the end?",
+      "answer": "Paper books.",
+      "accepted_keywords": [
+        "paper"
+      ]
+    }
+  ],
+  "word_count": 339
+}

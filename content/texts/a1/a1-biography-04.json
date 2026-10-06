@@ -1,0 +1,121 @@
+{
+  "id": "a1-biography-04",
+  "level": "A1",
+  "genre": "biography",
+  "title_en": "Nelson Mandela",
+  "title_ru": "Нельсон Мандела",
+  "description_ru": "Человек, который провёл много лет в тюрьме, а потом стал президентом своей страны.",
+  "text": "Nelson Mandela was born in South Africa in 1918. He was a lawyer, and he wanted all people in his country to be free and equal.\n\nBut the government was unfair, and Mandela spoke against it. For this, he was in prison for twenty-seven years. It was a very long time.\n\nIn 1990 he was free. Everyone in the world was happy. In 1993 he won the Nobel Peace Prize. In 1994 he became the president of South Africa. He was a kind and wise man. Many people still love him. He died in 2013.",
+  "word_count": 91,
+  "vocabulary": [
+    {
+      "word": "lawyer",
+      "ipa_us": "ˈlɔjər",
+      "ipa_uk": "ˈlɔːjə",
+      "translation_ru": "юрист"
+    },
+    {
+      "word": "free",
+      "ipa_us": "fri",
+      "ipa_uk": "friː",
+      "translation_ru": "свободный"
+    },
+    {
+      "word": "equal",
+      "ipa_us": "ˈikwəl",
+      "ipa_uk": "ˈiːkwəl",
+      "translation_ru": "равный"
+    },
+    {
+      "word": "government",
+      "ipa_us": "ˈɡʌvərmənt",
+      "ipa_uk": "ˈɡʌvənmənt",
+      "translation_ru": "правительство"
+    },
+    {
+      "word": "unfair",
+      "ipa_us": "ʌnˈfɛr",
+      "ipa_uk": "ʌnˈfeə",
+      "translation_ru": "несправедливый"
+    },
+    {
+      "word": "prison",
+      "ipa_us": "ˈprɪzən",
+      "ipa_uk": "ˈprɪzən",
+      "translation_ru": "тюрьма"
+    },
+    {
+      "word": "peace",
+      "ipa_us": "pis",
+      "ipa_uk": "piːs",
+      "translation_ru": "мир"
+    },
+    {
+      "word": "wise",
+      "ipa_us": "waɪz",
+      "ipa_uk": "waɪz",
+      "translation_ru": "мудрый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "world",
+        "wise"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "prison",
+        "free",
+        "president"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "free",
+        "peace",
+        "people"
+      ],
+      "tip_ru": "Долгий «и» с растянутыми губами; в коротком ɪ язык ниже и расслабленнее, чем в русском «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Mandela born?",
+      "answer": "In South Africa.",
+      "accepted_keywords": [
+        "africa"
+      ]
+    },
+    {
+      "question": "How long was he in prison?",
+      "answer": "Twenty-seven years.",
+      "accepted_keywords": [
+        "twenty",
+        "27"
+      ]
+    },
+    {
+      "question": "Which prize did he win in 1993?",
+      "answer": "The Nobel Peace Prize.",
+      "accepted_keywords": [
+        "peace",
+        "nobel"
+      ]
+    },
+    {
+      "question": "What was he in 1994?",
+      "answer": "The president of South Africa.",
+      "accepted_keywords": [
+        "president"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "b2-travel-05",
+  "level": "B2",
+  "genre": "travel",
+  "title_en": "Getting Lost in Marrakech",
+  "title_ru": "Заблудиться в Марракеше",
+  "description_ru": "Впечатления от старой медины Марракеша: рынки, торговля, запахи и советы туристам.",
+  "text": "The first thing that hits you in Marrakech is the noise. Motorbikes buzz through impossibly narrow lanes, merchants call out prices in four languages, and somewhere a snake charmer is playing a flute. The second thing is the smell: cinnamon, leather, orange blossom and grilled meat all mixed together in the warm air.\n\nThe old city, or medina, was founded in the eleventh century and is surrounded by pink walls that glow orange at sunset. Inside, hundreds of alleys twist and turn in no logical order. Every guidebook warns that you will get lost, and every guidebook is right. My advice is not to fight it. Some of my best discoveries were made when I had no idea where I was.\n\nThe heart of the medina is the square of Jemaa el-Fnaa. During the day it is fairly quiet, with orange juice sellers and a few street performers. After sunset, however, it is transformed into an enormous open-air restaurant. Dozens of food stalls appear as if by magic, and the smoke from their grills rises into the night sky. I tried a bowl of harira, a thick tomato and lentil soup, and a plate of grilled sausages that I was assured were not too spicy. They were.\n\nShopping in the souks is an adventure in itself. Bargaining is expected, and it can be great fun if you remain good-humoured. A seller once asked me for four hundred dirhams for a small leather bag. I smiled, offered a hundred, and walked away. He chased after me, and we finally agreed on a hundred and fifty, and a glass of mint tea, which he insisted on pouring himself.\n\nTo escape the crowds, visit the Majorelle Garden, a calm oasis of blue walls and cactuses created by the French painter Jacques Majorelle in the 1920s. Later it was restored by the fashion designer Yves Saint Laurent.\n\nTourists are advised to dress modestly, to drink plenty of water and to ignore anyone who offers to show you the way for free. They never mean it.",
+  "word_count": 344,
+  "vocabulary": [
+    {
+      "word": "merchants",
+      "ipa_us": "ˈmɜrtʃənts",
+      "ipa_uk": "ˈmɜːtʃənts",
+      "translation_ru": "торговцы"
+    },
+    {
+      "word": "cinnamon",
+      "ipa_us": "ˈsɪnəmən",
+      "ipa_uk": "ˈsɪnəmən",
+      "translation_ru": "корица"
+    },
+    {
+      "word": "leather",
+      "ipa_us": "ˈlɛðər",
+      "ipa_uk": "ˈleðə",
+      "translation_ru": "кожа"
+    },
+    {
+      "word": "medina",
+      "ipa_us": "məˈdinə",
+      "ipa_uk": "meˈdiːnə",
+      "translation_ru": "медина"
+    },
+    {
+      "word": "logical",
+      "ipa_us": "ˈlɑdʒɪkəl",
+      "ipa_uk": "ˈlɒdʒɪkəl",
+      "translation_ru": "логичный"
+    },
+    {
+      "word": "transformed",
+      "ipa_us": "trænsˈfɔrmd",
+      "ipa_uk": "trænsˈfɔːmd",
+      "translation_ru": "преображена"
+    },
+    {
+      "word": "lentil",
+      "ipa_us": "ˈlɛntəl",
+      "ipa_uk": "ˈlentɪl",
+      "translation_ru": "чечевица"
+    },
+    {
+      "word": "bargaining",
+      "ipa_us": "ˈbɑrɡənɪŋ",
+      "ipa_uk": "ˈbɑːɡɪnɪŋ",
+      "translation_ru": "торг"
+    },
+    {
+      "word": "oasis",
+      "ipa_us": "oʊˈeɪsɪs",
+      "ipa_uk": "əʊˈeɪsɪs",
+      "translation_ru": "оазис"
+    },
+    {
+      "word": "modestly",
+      "ipa_us": "ˈmɑdɪstli",
+      "ipa_uk": "ˈmɒdɪstli",
+      "translation_ru": "скромно"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "leather"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walls",
+        "warm",
+        "where"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "visit",
+        "advised"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "restaurant",
+        "remain",
+        "restored"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When was the medina founded?",
+      "answer": "In the eleventh century.",
+      "accepted_keywords": [
+        "eleventh",
+        "11th"
+      ]
+    },
+    {
+      "question": "What is harira?",
+      "answer": "A thick tomato and lentil soup.",
+      "accepted_keywords": [
+        "soup",
+        "tomato",
+        "lentil"
+      ]
+    },
+    {
+      "question": "How much did the bag finally cost?",
+      "answer": "A hundred and fifty dirhams.",
+      "accepted_keywords": [
+        "150",
+        "hundred",
+        "fifty"
+      ]
+    },
+    {
+      "question": "Who created the Majorelle Garden?",
+      "answer": "The French painter Jacques Majorelle.",
+      "accepted_keywords": [
+        "majorelle",
+        "painter",
+        "jacques"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "b1-news-03",
+  "level": "B1",
+  "genre": "news",
+  "title_en": "Local Swimmer Crosses the Bay",
+  "title_ru": "Местная пловчиха переплыла залив",
+  "description_ru": "Вымышленная новость о женщине, которая поставила личный рекорд и собрала деньги для больницы.",
+  "text": "A thirty-four-year-old teacher from the seaside town of Westbay has swum across Silver Bay in just under five hours. Maria Vega, who only learned to swim at the age of twenty-five, raised more than eight thousand pounds for the local children's hospital.\n\nThe bay is nearly sixteen kilometres wide, and the water is cold even in summer. Maria began her swim at six o'clock in the morning, accompanied by a small boat with her coach and two volunteers. Thousands of people watched from the beach and along the cliffs, waving flags and cheering.\n\n\"The first hour was easy,\" Maria said afterwards, wrapped in a warm towel. \"The second hour was harder. By the third hour, I was thinking about nothing but a hot cup of tea. If my friends had not been shouting my name from the boat, I might have given up.\"\n\nAt one point, a group of dolphins appeared next to her, which the swimmer described as \"a very kind surprise\". Her coach, Peter Lund, said the animals stayed for about ten minutes.\n\nWhen she finally reached the other side, the crowd rushed to hug her. Mayor Clara Fisher announced that the town would celebrate with a party on the beach next Saturday.\n\nAsked about her next challenge, Maria laughed. \"I have promised my family a long holiday first,\" she said. \"Then I may think about crossing the whole channel. But I need a very large breakfast before I decide.\"\n\nDoctors at the hospital say the money will buy new equipment for the children's ward.",
+  "word_count": 261,
+  "vocabulary": [
+    {
+      "word": "seaside",
+      "ipa_us": "ˈsiˌsaɪd",
+      "ipa_uk": "ˈsiːsaɪd",
+      "translation_ru": "приморский"
+    },
+    {
+      "word": "raised",
+      "ipa_us": "reɪzd",
+      "ipa_uk": "reɪzd",
+      "translation_ru": "собрала (деньги)"
+    },
+    {
+      "word": "accompanied",
+      "ipa_us": "əˈkʌmpənid",
+      "ipa_uk": "əˈkʌmpənid",
+      "translation_ru": "в сопровождении"
+    },
+    {
+      "word": "volunteers",
+      "ipa_us": "ˌvɑlənˈtɪrz",
+      "ipa_uk": "ˌvɒlənˈtɪəz",
+      "translation_ru": "добровольцы"
+    },
+    {
+      "word": "cliffs",
+      "ipa_us": "klɪfs",
+      "ipa_uk": "klɪfs",
+      "translation_ru": "скалы"
+    },
+    {
+      "word": "wrapped",
+      "ipa_us": "ræpt",
+      "ipa_uk": "ræpt",
+      "translation_ru": "закутанная"
+    },
+    {
+      "word": "dolphins",
+      "ipa_us": "ˈdɑlfɪnz",
+      "ipa_uk": "ˈdɒlfɪnz",
+      "translation_ru": "дельфины"
+    },
+    {
+      "word": "challenge",
+      "ipa_us": "ˈtʃæləndʒ",
+      "ipa_uk": "ˈtʃælɪndʒ",
+      "translation_ru": "вызов, задача"
+    },
+    {
+      "word": "equipment",
+      "ipa_us": "ɪˈkwɪpmənt",
+      "ipa_uk": "ɪˈkwɪpmənt",
+      "translation_ru": "оборудование"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty-four",
+        "thousands",
+        "third",
+        "thinking"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Westbay",
+        "water",
+        "warm",
+        "wrapped"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Vega",
+        "volunteers",
+        "very",
+        "have"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How did Maria cross the bay?",
+      "answer": "She swam.",
+      "accepted_keywords": [
+        "swam",
+        "swim",
+        "swimming"
+      ]
+    },
+    {
+      "question": "How much money did she raise?",
+      "answer": "More than eight thousand pounds.",
+      "accepted_keywords": [
+        "eight",
+        "8000",
+        "thousand"
+      ]
+    },
+    {
+      "question": "What animals appeared next to her?",
+      "answer": "Dolphins.",
+      "accepted_keywords": [
+        "dolphins",
+        "dolphin"
+      ]
+    },
+    {
+      "question": "What will the town do next Saturday?",
+      "answer": "Hold a party on the beach.",
+      "accepted_keywords": [
+        "party",
+        "beach",
+        "celebrate"
+      ]
+    }
+  ]
+}

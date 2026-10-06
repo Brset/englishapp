@@ -1,0 +1,121 @@
+{
+  "id": "a1-news-03",
+  "level": "A1",
+  "genre": "news",
+  "title_en": "Big Pumpkin Wins Prize",
+  "title_ru": "Огромная тыква получила приз",
+  "description_ru": "Новость с городской ярмарки: самая большая тыква.",
+  "text": "There is a big surprise at the Oakfield Fair this weekend. Farmer Tom Baker has a giant pumpkin. It is as big as a small car!\n\nThe pumpkin is one hundred and fifty kilos. Tom grows it in his garden. Every day he gives it water, and every night he puts a blanket on it. \"It is like a baby,\" he laughs.\n\nThe judges look at all the vegetables. Then they smile and say, \"Tom's pumpkin is the winner!\" Tom gets a golden cup and one hundred dollars.\n\nWhat does he want to do with the pumpkin now? \"I want to make a very, very big soup,\" says Tom.",
+  "word_count": 109,
+  "vocabulary": [
+    {
+      "word": "surprise",
+      "ipa_us": "sərˈpraɪz",
+      "ipa_uk": "səˈpraɪz",
+      "translation_ru": "сюрприз"
+    },
+    {
+      "word": "farmer",
+      "ipa_us": "ˈfɑrmər",
+      "ipa_uk": "ˈfɑːmə",
+      "translation_ru": "фермер"
+    },
+    {
+      "word": "giant",
+      "ipa_us": "ˈdʒaɪənt",
+      "ipa_uk": "ˈdʒaɪənt",
+      "translation_ru": "гигантский"
+    },
+    {
+      "word": "pumpkin",
+      "ipa_us": "ˈpʌmpkɪn",
+      "ipa_uk": "ˈpʌmpkɪn",
+      "translation_ru": "тыква"
+    },
+    {
+      "word": "blanket",
+      "ipa_us": "ˈblæŋkɪt",
+      "ipa_uk": "ˈblæŋkɪt",
+      "translation_ru": "одеяло"
+    },
+    {
+      "word": "judge",
+      "ipa_us": "dʒʌdʒ",
+      "ipa_uk": "dʒʌdʒ",
+      "translation_ru": "судья"
+    },
+    {
+      "word": "vegetable",
+      "ipa_us": "ˈvɛdʒtəbəl",
+      "ipa_uk": "ˈvedʒtəbəl",
+      "translation_ru": "овощ"
+    },
+    {
+      "word": "winner",
+      "ipa_us": "ˈwɪnər",
+      "ipa_uk": "ˈwɪnə",
+      "translation_ru": "победитель"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "weekend",
+        "water",
+        "winner"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "vegetables",
+        "very"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "pumpkin",
+        "judges",
+        "one"
+      ],
+      "tip_ru": "Короткий «а», рот открыт средне, губы не округляйте; не «о» и не русское «а»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is big at the fair?",
+      "answer": "A pumpkin.",
+      "accepted_keywords": [
+        "pumpkin"
+      ]
+    },
+    {
+      "question": "How much is the pumpkin?",
+      "answer": "One hundred and fifty kilos.",
+      "accepted_keywords": [
+        "hundred",
+        "150",
+        "fifty"
+      ]
+    },
+    {
+      "question": "What does Tom put on it at night?",
+      "answer": "A blanket.",
+      "accepted_keywords": [
+        "blanket"
+      ]
+    },
+    {
+      "question": "What does Tom want to make?",
+      "answer": "A very big soup.",
+      "accepted_keywords": [
+        "soup"
+      ]
+    }
+  ]
+}

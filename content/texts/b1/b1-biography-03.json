@@ -1,0 +1,134 @@
+{
+  "id": "b1-biography-03",
+  "level": "B1",
+  "genre": "biography",
+  "title_en": "Yuri Gagarin: The First Man in Space",
+  "title_ru": "Юрий Гагарин: первый человек в космосе",
+  "description_ru": "Короткая биография космонавта, который облетел Землю 12 апреля 1961 года.",
+  "text": "Yuri Gagarin was born in 1934 in a small village west of Moscow. His father was a carpenter and his mother worked on a farm. During the Second World War, the family had to live in a tiny hut after German soldiers took their house.\n\nAs a teenager, Yuri studied to be a metal worker, but he also joined a flying club. He discovered that he loved the sky, and in 1957 he became a military pilot. When the Soviet Union began looking for its first astronauts, thousands of pilots applied. Yuri was chosen, partly because he was calm, friendly and rather short, which suited the small space capsule.\n\nOn the twelfth of April, 1961, he climbed into the spacecraft Vostok 1. Before the rocket left the ground, he is said to have shouted, \"Poyekhali!\", which means \"Let's go!\" The flight lasted only one hundred and eight minutes, but it changed history. Gagarin travelled once around the Earth and looked down at the planet. He later said that it was very beautiful, and that he could see no borders from up there.\n\nAfter he returned, Gagarin became famous all over the world. Sadly, he died in 1968 during a routine training flight. Today, every year on the twelfth of April, people celebrate his journey.",
+  "word_count": 209,
+  "vocabulary": [
+    {
+      "word": "carpenter",
+      "ipa_us": "ˈkɑrpəntər",
+      "ipa_uk": "ˈkɑːpəntə",
+      "translation_ru": "плотник"
+    },
+    {
+      "word": "hut",
+      "ipa_us": "hʌt",
+      "ipa_uk": "hʌt",
+      "translation_ru": "хижина"
+    },
+    {
+      "word": "pilot",
+      "ipa_us": "ˈpaɪlət",
+      "ipa_uk": "ˈpaɪlət",
+      "translation_ru": "лётчик"
+    },
+    {
+      "word": "applied",
+      "ipa_us": "əˈplaɪd",
+      "ipa_uk": "əˈplaɪd",
+      "translation_ru": "подали заявку"
+    },
+    {
+      "word": "capsule",
+      "ipa_us": "ˈkæpsəl",
+      "ipa_uk": "ˈkæpsjuːl",
+      "translation_ru": "капсула"
+    },
+    {
+      "word": "spacecraft",
+      "ipa_us": "ˈspeɪskræft",
+      "ipa_uk": "ˈspeɪskrɑːft",
+      "translation_ru": "космический корабль"
+    },
+    {
+      "word": "lasted",
+      "ipa_us": "ˈlæstɪd",
+      "ipa_uk": "ˈlɑːstɪd",
+      "translation_ru": "длился"
+    },
+    {
+      "word": "borders",
+      "ipa_us": "ˈbɔrdərz",
+      "ipa_uk": "ˈbɔːdəz",
+      "translation_ru": "границы"
+    },
+    {
+      "word": "routine",
+      "ipa_us": "ruˈtiːn",
+      "ipa_uk": "ruːˈtiːn",
+      "translation_ru": "обычный, плановый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "village",
+        "Vostok",
+        "very",
+        "discovered"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousands",
+        "Earth"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "his",
+        "hut",
+        "history",
+        "he"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When did Gagarin fly into space?",
+      "answer": "On the twelfth of April, 1961.",
+      "accepted_keywords": [
+        "1961",
+        "april",
+        "twelfth"
+      ]
+    },
+    {
+      "question": "What did he say before the rocket left the ground?",
+      "answer": "Poyekhali, which means Let us go.",
+      "accepted_keywords": [
+        "poyekhali",
+        "go"
+      ]
+    },
+    {
+      "question": "How long did his flight last?",
+      "answer": "One hundred and eight minutes.",
+      "accepted_keywords": [
+        "hundred",
+        "108",
+        "eight"
+      ]
+    },
+    {
+      "question": "How did he die?",
+      "answer": "During a training flight in 1968.",
+      "accepted_keywords": [
+        "training",
+        "flight",
+        "1968",
+        "plane"
+      ]
+    }
+  ]
+}

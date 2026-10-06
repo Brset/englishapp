@@ -1,0 +1,122 @@
+{
+  "id": "a1-story-04",
+  "level": "A1",
+  "genre": "story",
+  "title_en": "The Last Bus",
+  "title_ru": "Последний автобус",
+  "description_ru": "Поздним вечером Нина ждёт автобус, который не приходит. Но помощь рядом.",
+  "text": "It is late, and Nina is at the bus stop. The street is quiet and dark. She looks at her watch. The last bus is not here.\n\nSuddenly, a small yellow car stops. A friendly old man opens the window. \"Do you need a ride?\" he asks. Nina is not sure. Then she sees a sign on the car: TAXI. She laughs and says yes.\n\n\"Where do you want to go?\"\n\"To Green Street, please,\" she says.\n\nThe man smiles, and they drive through the night.",
+  "vocabulary": [
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "dark",
+      "ipa_us": "dɑːrk",
+      "ipa_uk": "dɑːk",
+      "translation_ru": "тёмный"
+    },
+    {
+      "word": "watch",
+      "ipa_us": "wɑːtʃ",
+      "ipa_uk": "wɒtʃ",
+      "translation_ru": "наручные часы"
+    },
+    {
+      "word": "suddenly",
+      "ipa_us": "ˈsʌdənli",
+      "ipa_uk": "ˈsʌdənli",
+      "translation_ru": "вдруг"
+    },
+    {
+      "word": "window",
+      "ipa_us": "ˈwɪndoʊ",
+      "ipa_uk": "ˈwɪndəʊ",
+      "translation_ru": "окно"
+    },
+    {
+      "word": "friendly",
+      "ipa_us": "ˈfrendli",
+      "ipa_uk": "ˈfrendli",
+      "translation_ru": "дружелюбный"
+    },
+    {
+      "word": "ride",
+      "ipa_us": "raɪd",
+      "ipa_uk": "raɪd",
+      "translation_ru": "поездка"
+    },
+    {
+      "word": "sign",
+      "ipa_us": "saɪn",
+      "ipa_uk": "saɪn",
+      "translation_ru": "знак, табличка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "watch",
+        "window",
+        "want",
+        "where"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "then",
+        "they"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "street",
+        "green",
+        "ride"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is Nina?",
+      "answer": "At the bus stop.",
+      "accepted_keywords": [
+        "bus",
+        "stop"
+      ]
+    },
+    {
+      "question": "What colour is the car?",
+      "answer": "Yellow.",
+      "accepted_keywords": [
+        "yellow"
+      ]
+    },
+    {
+      "question": "What is the sign on the car?",
+      "answer": "Taxi.",
+      "accepted_keywords": [
+        "taxi"
+      ]
+    },
+    {
+      "question": "Where does Nina want to go?",
+      "answer": "To Green Street.",
+      "accepted_keywords": [
+        "green",
+        "street"
+      ]
+    }
+  ],
+  "word_count": 86
+}

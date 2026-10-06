@@ -1,0 +1,134 @@
+{
+  "id": "b2-biography-05",
+  "level": "B2",
+  "genre": "biography",
+  "title_en": "Frida Kahlo: Painting Through Pain",
+  "title_ru": "Фрида Кало: живопись сквозь боль",
+  "description_ru": "Как авария и болезнь превратили Фриду Кало в одну из самых узнаваемых художниц XX века.",
+  "text": "Frida Kahlo was born in 1907 in Coyoacán, near Mexico City, in a house that is now a museum known as the Blue House. As a child she caught polio, which left her right leg thinner than the left. She hid it with long skirts, a habit that later became part of her famous style. She planned to become a doctor, but everything changed in 1925, when the bus she was travelling on collided with a tram. She suffered terrible injuries, including a broken spine, and spent months in bed.\n\nTo pass the time, her parents set up a special easel and fixed a mirror above her bed, so she could paint. That is how she began to produce self-portraits. She later explained, \"I paint myself because I am so often alone and because I am the subject I know best.\" Her paintings, full of bright colours and symbols from Mexican folk art, often show her pain openly.\n\nIn 1929 she married the muralist Diego Rivera, who was twenty years older. Their relationship was stormy: they divorced in 1939, then remarried a year later. Frida also travelled to the United States and France, where the Louvre bought one of her paintings in 1939, the first work by a twentieth-century Mexican artist to be acquired by the museum.\n\nDuring her lifetime she was often described as \"the wife of Diego Rivera\", and she had only one solo exhibition in Mexico, in 1953. By then she was very ill, so she attended it in a four-poster bed that was carried into the gallery. She died in 1954, aged forty-seven. Today she is recognised as one of the most influential artists of the twentieth century, and her image appears on everything from posters to stamps.",
+  "vocabulary": [
+    {
+      "word": "polio",
+      "ipa_us": "ˈpoʊlioʊ",
+      "ipa_uk": "ˈpəʊliəʊ",
+      "translation_ru": "полиомиелит"
+    },
+    {
+      "word": "collided",
+      "ipa_us": "kəˈlaɪdɪd",
+      "ipa_uk": "kəˈlaɪdɪd",
+      "translation_ru": "столкнулся"
+    },
+    {
+      "word": "spine",
+      "ipa_us": "spaɪn",
+      "ipa_uk": "spaɪn",
+      "translation_ru": "позвоночник"
+    },
+    {
+      "word": "easel",
+      "ipa_us": "ˈizəl",
+      "ipa_uk": "ˈiːzəl",
+      "translation_ru": "мольберт"
+    },
+    {
+      "word": "self-portraits",
+      "ipa_us": "ˌsɛlfˈpɔrtrəts",
+      "ipa_uk": "ˌselfˈpɔːtreɪts",
+      "translation_ru": "автопортреты"
+    },
+    {
+      "word": "muralist",
+      "ipa_us": "ˈmjʊrələst",
+      "ipa_uk": "ˈmjʊərəlɪst",
+      "translation_ru": "художник-монументалист"
+    },
+    {
+      "word": "exhibition",
+      "ipa_us": "ˌɛksəˈbɪʃən",
+      "ipa_uk": "ˌeksɪˈbɪʃən",
+      "translation_ru": "выставка"
+    },
+    {
+      "word": "influential",
+      "ipa_us": "ˌɪnfluˈɛnʃəl",
+      "ipa_uk": "ˌɪnfluˈenʃəl",
+      "translation_ru": "влиятельный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "travelling",
+        "very",
+        "divorced",
+        "Rivera"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "wife",
+        "work",
+        "where"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thinner",
+        "months",
+        "twentieth-century"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "left",
+        "alone",
+        "solo"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны за верхними зубами, а задняя часть языка отодвинута назад; звук твёрдый, не «ль»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What disease did Frida have as a child?",
+      "answer": "Polio.",
+      "accepted_keywords": [
+        "polio"
+      ]
+    },
+    {
+      "question": "What happened to her in 1925?",
+      "answer": "Her bus collided with a tram.",
+      "accepted_keywords": [
+        "bus",
+        "tram",
+        "accident"
+      ]
+    },
+    {
+      "question": "Why did her parents fix a mirror above her bed?",
+      "answer": "So she could paint self-portraits.",
+      "accepted_keywords": [
+        "paint",
+        "portrait",
+        "portraits"
+      ]
+    },
+    {
+      "question": "Which museum bought one of her paintings in 1939?",
+      "answer": "The Louvre.",
+      "accepted_keywords": [
+        "louvre"
+      ]
+    }
+  ],
+  "word_count": 290
+}

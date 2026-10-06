@@ -1,0 +1,145 @@
+{
+  "id": "b2-story-05",
+  "level": "B2",
+  "genre": "story",
+  "title_en": "The Last Bus Home",
+  "title_ru": "Последний автобус домой",
+  "description_ru": "Поздним вечером студентка едет домой на последнем автобусе и знакомится с необычным водителем.",
+  "text": "It was almost midnight when Nina left the university library. Her exam was in the morning, her head was full of formulas, and the street outside was empty. She hurried to the stop, because the last bus to Elm Road was due at ten past twelve, and after that there would be nothing until dawn.\n\nThe bus arrived exactly on time. Its windows glowed yellow in the dark, and the driver, an elderly man with a silver moustache, greeted her as if she were an old friend.\n\n\"Long day?\" he asked.\n\n\"Very long,\" Nina sighed, dropping into a seat near the front. \"I have been studying since breakfast.\"\n\nThe driver nodded. He told her that he had worked on this route for thirty-one years and had seen thousands of tired students. \"Every one of them thinks the exam will be a disaster,\" he said, \"and almost every one of them passes.\"\n\nNina smiled for the first time that evening. As the bus rolled through the sleeping town, he pointed out things she had never noticed in all her years of travelling: a clock tower with a crooked hand, a bakery where the ovens were switched on at three in the morning, and a tree that was said to be older than the city itself.\n\nAt one stop, a young man got on carrying a huge cardboard box. The driver asked him politely what was inside. The man admitted that it was a birthday cake for his sister, and that he had been told to deliver it before midnight. He was already twelve minutes late.\n\n\"Then we shall take a small detour,\" the driver announced. \"Hold on tight, everybody.\"\n\nFor the next ten minutes the old bus went faster than Nina had thought possible. The cake was delivered with two minutes to spare, and the whole bus cheered when the sister waved from her doorway.\n\nWhen Nina finally reached her stop, the driver wished her luck. She slept soundly that night. The following afternoon, she wrote an excellent exam, and she was sure the driver had been right.",
+  "word_count": 348,
+  "vocabulary": [
+    {
+      "word": "formulas",
+      "ipa_us": "ˈfɔrmjələz",
+      "ipa_uk": "ˈfɔːmjʊləz",
+      "translation_ru": "формулы"
+    },
+    {
+      "word": "dawn",
+      "ipa_us": "dɔn",
+      "ipa_uk": "dɔːn",
+      "translation_ru": "рассвет"
+    },
+    {
+      "word": "greeted",
+      "ipa_us": "ˈɡritɪd",
+      "ipa_uk": "ˈɡriːtɪd",
+      "translation_ru": "приветствовал"
+    },
+    {
+      "word": "elderly",
+      "ipa_us": "ˈɛldərli",
+      "ipa_uk": "ˈeldəli",
+      "translation_ru": "пожилой"
+    },
+    {
+      "word": "disaster",
+      "ipa_us": "dɪˈzæstər",
+      "ipa_uk": "dɪˈzɑːstə",
+      "translation_ru": "катастрофа"
+    },
+    {
+      "word": "crooked",
+      "ipa_us": "ˈkrʊkɪd",
+      "ipa_uk": "ˈkrʊkɪd",
+      "translation_ru": "кривой"
+    },
+    {
+      "word": "politely",
+      "ipa_us": "pəˈlaɪtli",
+      "ipa_uk": "pəˈlaɪtli",
+      "translation_ru": "вежливо"
+    },
+    {
+      "word": "deliver",
+      "ipa_us": "dɪˈlɪvər",
+      "ipa_uk": "dɪˈlɪvə",
+      "translation_ru": "доставить"
+    },
+    {
+      "word": "detour",
+      "ipa_us": "ˈdiˌtʊr",
+      "ipa_uk": "ˈdiːtʊə",
+      "translation_ru": "объезд"
+    },
+    {
+      "word": "soundly",
+      "ipa_us": "ˈsaʊndli",
+      "ipa_uk": "ˈsaʊndli",
+      "translation_ru": "крепко (спать)"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "road",
+        "driver",
+        "route"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "would",
+        "windows"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "driver",
+        "deliver"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "studying",
+        "travelling"
+      ],
+      "tip_ru": "Спинку языка прижмите к мягкому нёбу, звук носовой; не добавляйте «г» в конце: morning, а не «морнинг-г»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What time was the last bus due?",
+      "answer": "At ten past twelve.",
+      "accepted_keywords": [
+        "twelve",
+        "midnight"
+      ]
+    },
+    {
+      "question": "How long had the driver worked on the route?",
+      "answer": "Thirty-one years.",
+      "accepted_keywords": [
+        "thirty",
+        "31"
+      ]
+    },
+    {
+      "question": "What was inside the cardboard box?",
+      "answer": "A birthday cake.",
+      "accepted_keywords": [
+        "cake",
+        "birthday"
+      ]
+    },
+    {
+      "question": "How did Nina do in her exam?",
+      "answer": "She wrote an excellent exam.",
+      "accepted_keywords": [
+        "excellent",
+        "well",
+        "good"
+      ]
+    }
+  ]
+}

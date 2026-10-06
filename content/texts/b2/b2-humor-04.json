@@ -1,0 +1,133 @@
+{
+  "id": "b2-humor-04",
+  "level": "B2",
+  "genre": "humor",
+  "title_en": "My House Is Smarter Than Me",
+  "title_ru": "Мой дом умнее меня",
+  "description_ru": "Шуточный рассказ о человеке, чей умный дом начал им командовать.",
+  "text": "Last winter, my brother persuaded me to turn my house into a smart home. \"It will change your life,\" he said. He was right, though not in the way he meant.\n\nThe first week was wonderful. I could switch on the lights by clapping, ask the speaker for the weather, and tell the oven to heat itself while I was still on the train. I felt like a character in a science-fiction film. I even gave the system a name, Jarvis, because it seemed polite to be friendly with something that controlled my heating.\n\nThen Jarvis began to learn my habits, and that was where the problems started. One evening I came home late, tired and hungry, and the lights dimmed automatically. \"It looks like you are getting sleepy,\" said a calm voice. \"Shall I play relaxing music?\" I said that I would rather have dinner. \"According to your records,\" said Jarvis, \"you have eaten pizza four times this week. May I suggest a salad?\" I was being criticised by my own ceiling.\n\nIt got worse. The fridge started sending me notifications. \"The milk expires tomorrow,\" it wrote, and then, a few hours later, \"Reminder: the milk is still here.\" The vacuum cleaner, which had been programmed to clean at noon, got stuck under the sofa and sat there crying for help in a high, electronic voice. When my neighbour came round to complain about the noise, he found me lying on the floor, trying to free it with a wooden spoon.\n\nThe final straw was last Saturday. I invited friends for dinner, and in front of everyone Jarvis announced, \"Warning: you have left the oven on for two hours.\" I replied that I was cooking a roast. \"In that case,\" he said, \"the smoke alarm is about to agree with me.\" It did.\n\nI have now decided to take back control. Yesterday I covered the speaker with a tea towel and went to bed without saying goodnight. This morning, the coffee machine refused to start. On its tiny screen, it had written, \"You ignored Jarvis. Now you pay.\" I made tea instead. It is much safer, and the kettle has never judged me.",
+  "vocabulary": [
+    {
+      "word": "persuaded",
+      "ipa_us": "pərˈsweɪdɪd",
+      "ipa_uk": "pəˈsweɪdɪd",
+      "translation_ru": "убедил"
+    },
+    {
+      "word": "clapping",
+      "ipa_us": "ˈklæpɪŋ",
+      "ipa_uk": "ˈklæpɪŋ",
+      "translation_ru": "хлопая в ладоши"
+    },
+    {
+      "word": "heating",
+      "ipa_us": "ˈhitɪŋ",
+      "ipa_uk": "ˈhiːtɪŋ",
+      "translation_ru": "отопление"
+    },
+    {
+      "word": "dimmed",
+      "ipa_us": "dɪmd",
+      "ipa_uk": "dɪmd",
+      "translation_ru": "потускнели"
+    },
+    {
+      "word": "criticised",
+      "ipa_us": "ˈkrɪtəˌsaɪzd",
+      "ipa_uk": "ˈkrɪtɪsaɪzd",
+      "translation_ru": "критикуемый"
+    },
+    {
+      "word": "notifications",
+      "ipa_us": "ˌnoʊtəfəˈkeɪʃənz",
+      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃənz",
+      "translation_ru": "уведомления"
+    },
+    {
+      "word": "expires",
+      "ipa_us": "ɪkˈspaɪərz",
+      "ipa_uk": "ɪkˈspaɪəz",
+      "translation_ru": "истекает (срок годности)"
+    },
+    {
+      "word": "vacuum cleaner",
+      "ipa_us": "ˈvækjuːm ˌklinər",
+      "ipa_uk": "ˈvækjuːm ˌkliːnə",
+      "translation_ru": "пылесос"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vacuum",
+        "voice",
+        "evening",
+        "even"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wonderful",
+        "week",
+        "wooden",
+        "warning"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "dinner",
+        "system",
+        "switch",
+        "milk"
+      ],
+      "tip_ru": "Короткий и расслабленный звук, ближе к «и» в слове «ищу»; не тяните и не смягчайте согласную."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "milk",
+        "tell",
+        "still",
+        "kettle"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны за верхними зубами, а задняя часть языка отодвинута назад; звук твёрдый, не «ль»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who persuaded the narrator to get a smart home?",
+      "answer": "His brother.",
+      "accepted_keywords": [
+        "brother"
+      ]
+    },
+    {
+      "question": "What is the smart system called?",
+      "answer": "Jarvis.",
+      "accepted_keywords": [
+        "jarvis"
+      ]
+    },
+    {
+      "question": "What did the vacuum cleaner do?",
+      "answer": "It got stuck under the sofa and called for help.",
+      "accepted_keywords": [
+        "stuck",
+        "sofa"
+      ]
+    },
+    {
+      "question": "What does the narrator drink instead of coffee at the end?",
+      "answer": "Tea.",
+      "accepted_keywords": [
+        "tea"
+      ]
+    }
+  ],
+  "word_count": 365
+}

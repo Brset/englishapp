@@ -1,0 +1,121 @@
+{
+  "id": "a1-travel-01",
+  "level": "A1",
+  "genre": "travel",
+  "title_en": "A Day in Venice",
+  "title_ru": "День в Венеции",
+  "description_ru": "Клара гуляет по городу без машин, где улицы заменяют каналы.",
+  "text": "In Venice, there are no cars. People travel by boat or on foot. Today, Clara arrives by train and takes a water bus. The city has more than one hundred small bridges and narrow streets. She walks to the big square and sees the famous church. Pigeons fly everywhere!\n\nThen she eats ice cream near a canal. A gondolier sings an old Italian song. Clara takes many photos. Venice is expensive, but she thinks it is beautiful. In the evening, the water turns gold in the light.",
+  "vocabulary": [
+    {
+      "word": "bridges",
+      "ipa_us": "ˈbrɪdʒɪz",
+      "ipa_uk": "ˈbrɪdʒɪz",
+      "translation_ru": "мосты"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈneroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "square",
+      "ipa_us": "skwer",
+      "ipa_uk": "skweə",
+      "translation_ru": "площадь"
+    },
+    {
+      "word": "church",
+      "ipa_us": "tʃɝːtʃ",
+      "ipa_uk": "tʃɜːtʃ",
+      "translation_ru": "церковь"
+    },
+    {
+      "word": "pigeons",
+      "ipa_us": "ˈpɪdʒənz",
+      "ipa_uk": "ˈpɪdʒɪnz",
+      "translation_ru": "голуби"
+    },
+    {
+      "word": "canal",
+      "ipa_us": "kəˈnæl",
+      "ipa_uk": "kəˈnæl",
+      "translation_ru": "канал"
+    },
+    {
+      "word": "expensive",
+      "ipa_us": "ɪkˈspensɪv",
+      "ipa_uk": "ɪkˈspensɪv",
+      "translation_ru": "дорогой"
+    },
+    {
+      "word": "evening",
+      "ipa_us": "ˈiːvnɪŋ",
+      "ipa_uk": "ˈiːvnɪŋ",
+      "translation_ru": "вечер"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Venice",
+        "travel",
+        "evening",
+        "everywhere"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "walks"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "sings",
+        "song",
+        "evening",
+        "thinks"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос. В конце не добавляйте «г» или «к»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Are there cars in Venice?",
+      "answer": "No.",
+      "accepted_keywords": [
+        "no"
+      ]
+    },
+    {
+      "question": "How does Clara arrive?",
+      "answer": "By train.",
+      "accepted_keywords": [
+        "train"
+      ]
+    },
+    {
+      "question": "What does Clara eat near the canal?",
+      "answer": "Ice cream.",
+      "accepted_keywords": [
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "question": "What colour is the water in the evening?",
+      "answer": "Gold.",
+      "accepted_keywords": [
+        "gold"
+      ]
+    }
+  ],
+  "word_count": 87
+}

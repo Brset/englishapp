@@ -1,0 +1,110 @@
+{
+  "id": "b1-science-03",
+  "level": "B1",
+  "genre": "science",
+  "title_en": "The Water Cycle",
+  "title_ru": "Круговорот воды",
+  "description_ru": "Как вода постоянно перемещается между океаном, воздухом и сушей.",
+  "text": "The water on our planet is very old. In fact, the water you drank this morning may be millions of years old, because the Earth has been recycling the same water for billions of years. This continuous movement is called the water cycle.\n\nThe cycle begins with the sun. Its heat warms the surface of oceans, lakes and rivers, and some of the water turns into an invisible gas called water vapour. This process is called evaporation. Plants also release vapour through their leaves, which is known as transpiration.\n\nAs the warm vapour rises, it cools and changes back into tiny drops of liquid water. This is condensation. Millions of these drops gather together to form clouds. When the drops become too heavy, they fall to the ground as rain, snow or hail. Scientists call this precipitation.\n\nSome of the water runs over the ground and flows into rivers, which carry it back to the sea. Another part soaks into the soil and becomes groundwater, which can stay underground for hundreds or even thousands of years. Then the cycle starts again.\n\nUnderstanding the water cycle helps us predict the weather and manage water supplies. If we pollute rivers and lakes, the damage can spread through the whole cycle. That is why protecting water is important for everybody.",
+  "word_count": 217,
+  "vocabulary": [
+    {
+      "word": "recycling",
+      "ipa_us": "riːˈsaɪklɪŋ",
+      "ipa_uk": "riːˈsaɪklɪŋ",
+      "translation_ru": "повторное использование"
+    },
+    {
+      "word": "continuous",
+      "ipa_us": "kənˈtɪnjuəs",
+      "ipa_uk": "kənˈtɪnjuəs",
+      "translation_ru": "непрерывный"
+    },
+    {
+      "word": "vapour",
+      "ipa_us": "ˈveɪpɚ",
+      "ipa_uk": "ˈveɪpə",
+      "translation_ru": "пар"
+    },
+    {
+      "word": "evaporation",
+      "ipa_us": "ɪˌvæpəˈreɪʃən",
+      "ipa_uk": "ɪˌvæpəˈreɪʃən",
+      "translation_ru": "испарение"
+    },
+    {
+      "word": "condensation",
+      "ipa_us": "ˌkɑːndenˈseɪʃən",
+      "ipa_uk": "ˌkɒndenˈseɪʃən",
+      "translation_ru": "конденсация"
+    },
+    {
+      "word": "precipitation",
+      "ipa_us": "prɪˌsɪpɪˈteɪʃən",
+      "ipa_uk": "prɪˌsɪpɪˈteɪʃən",
+      "translation_ru": "осадки"
+    },
+    {
+      "word": "groundwater",
+      "ipa_us": "ˈɡraʊndwɔːtɚ",
+      "ipa_uk": "ˈɡraʊndwɔːtə",
+      "translation_ru": "грунтовые воды"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "warms",
+        "weather"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "vapour",
+        "evaporation",
+        "rivers",
+        "over"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousands",
+        "through"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What gives the energy for the water cycle?",
+      "answer": "The sun.",
+      "accepted_keywords": [
+        "sun",
+        "heat"
+      ]
+    },
+    {
+      "question": "What is condensation?",
+      "answer": "Vapour changing back into tiny drops of water.",
+      "accepted_keywords": [
+        "vapour",
+        "drops",
+        "water"
+      ]
+    },
+    {
+      "question": "What is groundwater?",
+      "answer": "Water that soaks into the soil and stays underground.",
+      "accepted_keywords": [
+        "underground",
+        "soil"
+      ]
+    }
+  ]
+}

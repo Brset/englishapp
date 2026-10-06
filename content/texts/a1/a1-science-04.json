@@ -1,0 +1,124 @@
+{
+  "id": "a1-science-04",
+  "level": "A1",
+  "genre": "science",
+  "title_en": "How a Rainbow Appears",
+  "title_ru": "Как появляется радуга",
+  "description_ru": "Почему после дождя при солнце на небе видна радуга.",
+  "text": "A rainbow appears when the sun shines and it rains at the same time. Sunlight looks white, but it has many colours inside. Raindrops work like tiny glass balls. They bend the light, and the colours separate.\n\nYou see red at the top, then orange, yellow, green, blue and violet. To see a rainbow, the sun must be behind you, and the rain must be in front of you. Sometimes you can see two rainbows. The second one is fainter, and its colours are in the opposite order.",
+  "vocabulary": [
+    {
+      "word": "rainbow",
+      "ipa_us": "ˈreɪnboʊ",
+      "ipa_uk": "ˈreɪnbəʊ",
+      "translation_ru": "радуга"
+    },
+    {
+      "word": "sunlight",
+      "ipa_us": "ˈsʌnlaɪt",
+      "ipa_uk": "ˈsʌnlaɪt",
+      "translation_ru": "солнечный свет"
+    },
+    {
+      "word": "raindrops",
+      "ipa_us": "ˈreɪndrɑːps",
+      "ipa_uk": "ˈreɪndrɒps",
+      "translation_ru": "капли дождя"
+    },
+    {
+      "word": "tiny",
+      "ipa_us": "ˈtaɪni",
+      "ipa_uk": "ˈtaɪni",
+      "translation_ru": "крошечный"
+    },
+    {
+      "word": "bend",
+      "ipa_us": "bend",
+      "ipa_uk": "bend",
+      "translation_ru": "преломлять, гнуть"
+    },
+    {
+      "word": "violet",
+      "ipa_us": "ˈvaɪələt",
+      "ipa_uk": "ˈvaɪələt",
+      "translation_ru": "фиолетовый"
+    },
+    {
+      "word": "behind",
+      "ipa_us": "bɪˈhaɪnd",
+      "ipa_uk": "bɪˈhaɪnd",
+      "translation_ru": "позади"
+    },
+    {
+      "word": "opposite",
+      "ipa_us": "ˈɑːpəzɪt",
+      "ipa_uk": "ˈɒpəzɪt",
+      "translation_ru": "противоположный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rainbow",
+        "rain",
+        "red",
+        "green"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "shines",
+        "white",
+        "light",
+        "violet"
+      ],
+      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "rainbow",
+        "rain",
+        "raindrops",
+        "same"
+      ],
+      "tip_ru": "Начните с «э» и плавно скользите к «и». Звук двойной, а не короткое «е»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When does a rainbow appear?",
+      "answer": "When the sun shines and it rains.",
+      "accepted_keywords": [
+        "sun",
+        "rain"
+      ]
+    },
+    {
+      "question": "What colour is sunlight?",
+      "answer": "White.",
+      "accepted_keywords": [
+        "white"
+      ]
+    },
+    {
+      "question": "What colour is at the top?",
+      "answer": "Red.",
+      "accepted_keywords": [
+        "red"
+      ]
+    },
+    {
+      "question": "How many rainbows can you sometimes see?",
+      "answer": "Two.",
+      "accepted_keywords": [
+        "two",
+        "2"
+      ]
+    }
+  ],
+  "word_count": 88
+}

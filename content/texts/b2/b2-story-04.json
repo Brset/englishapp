@@ -1,0 +1,143 @@
+{
+  "id": "b2-story-04",
+  "level": "B2",
+  "genre": "story",
+  "title_en": "A Very Wet Wedding",
+  "title_ru": "Очень дождливая свадьба",
+  "description_ru": "Юмористический рассказ о свадьбе на открытом воздухе, которая пошла совсем не по плану.",
+  "text": "Everyone agreed that the weather forecast had been wrong. For weeks, Priya and Tom had been assured that the second of June would be warm and dry, so they had booked a garden, hired a band and ordered two hundred white chairs. On the morning of the wedding, however, the sky turned the colour of old steel.\n\n\"It's only a shower,\" said Tom's uncle cheerfully. \"It'll blow over.\"\n\nIt did not blow over. By two o'clock the garden had been turned into a small lake, and the guests were standing under umbrellas that did not match their elegant clothes. The photographer, who had been told to capture the bride walking through the roses, was now trying to protect his camera with a plastic bag.\n\nPriya looked out of the window of the farmhouse and said, with surprising calm, that she had no intention of calling the whole thing off. \"We'll do it in the barn,\" she announced. \"If life gives you lemons, make lemonade.\"\n\nWithin half an hour, dozens of volunteers were carrying chairs, flowers and even the wedding cake across the muddy lawn. The barn, which usually housed three tractors and a very bad-tempered goat, was decorated with fairy lights. The goat, it was reported later, ate part of the bouquet.\n\nThe ceremony was short and slightly chaotic. Rain drummed on the roof so loudly that the vows could hardly be heard, and the bride's veil got stuck on a nail. When the registrar asked whether anyone objected to the marriage, the goat bleated, and everybody burst out laughing.\n\nThe dancing went on until midnight. Muddy shoes were thrown into a corner, and even the grumpiest relatives joined in. Someone remarked that it was the best wedding they had ever attended, because nobody was pretending to be perfect.\n\nYears later, Priya and Tom still tell the story at every anniversary. \"A dry wedding would have been forgotten,\" Priya likes to say. \"Ours was a once-in-a-lifetime event, and it came with a goat.\"",
+  "word_count": 337,
+  "vocabulary": [
+    {
+      "word": "forecast",
+      "ipa_us": "ˈfɔrkæst",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "translation_ru": "прогноз"
+    },
+    {
+      "word": "assured",
+      "ipa_us": "əˈʃʊrd",
+      "ipa_uk": "əˈʃɔːd",
+      "translation_ru": "заверены"
+    },
+    {
+      "word": "elegant",
+      "ipa_us": "ˈɛlɪɡənt",
+      "ipa_uk": "ˈelɪɡənt",
+      "translation_ru": "элегантный"
+    },
+    {
+      "word": "photographer",
+      "ipa_us": "fəˈtɑɡrəfər",
+      "ipa_uk": "fəˈtɒɡrəfə",
+      "translation_ru": "фотограф"
+    },
+    {
+      "word": "barn",
+      "ipa_us": "bɑrn",
+      "ipa_uk": "bɑːn",
+      "translation_ru": "амбар"
+    },
+    {
+      "word": "chaotic",
+      "ipa_us": "keɪˈɑtɪk",
+      "ipa_uk": "keɪˈɒtɪk",
+      "translation_ru": "хаотичный"
+    },
+    {
+      "word": "vows",
+      "ipa_us": "vaʊz",
+      "ipa_uk": "vaʊz",
+      "translation_ru": "брачные клятвы"
+    },
+    {
+      "word": "registrar",
+      "ipa_us": "ˈrɛdʒɪˌstrɑr",
+      "ipa_uk": "ˌredʒɪˈstrɑː",
+      "translation_ru": "регистратор"
+    },
+    {
+      "word": "objected",
+      "ipa_us": "əbˈdʒɛktɪd",
+      "ipa_uk": "əbˈdʒektɪd",
+      "translation_ru": "возражал"
+    },
+    {
+      "word": "grumpiest",
+      "ipa_us": "ˈɡrʌmpiɪst",
+      "ipa_uk": "ˈɡrʌmpiɪst",
+      "translation_ru": "самые ворчливые"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wedding",
+        "weather",
+        "window"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "vows",
+        "volunteers"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "aʊ",
+      "examples": [
+        "loudly",
+        "flowers"
+      ],
+      "tip_ru": "Начните с «а» и плавно сдвигайтесь к короткому «у», не превращая звук в «ау» с двумя ударениями."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "roses",
+        "registrar"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When was the wedding?",
+      "answer": "On the second of June.",
+      "accepted_keywords": [
+        "june",
+        "second"
+      ]
+    },
+    {
+      "question": "Where was the ceremony held instead of the garden?",
+      "answer": "In the barn.",
+      "accepted_keywords": [
+        "barn"
+      ]
+    },
+    {
+      "question": "What did the goat do?",
+      "answer": "It ate part of the bouquet.",
+      "accepted_keywords": [
+        "bouquet",
+        "ate",
+        "flowers"
+      ]
+    },
+    {
+      "question": "Who said, \"If life gives you lemons, make lemonade\"?",
+      "answer": "Priya.",
+      "accepted_keywords": [
+        "priya",
+        "bride"
+      ]
+    }
+  ]
+}

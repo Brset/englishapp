@@ -1,0 +1,111 @@
+{
+  "id": "b1-travel-04",
+  "level": "B1",
+  "genre": "travel",
+  "title_en": "Cycling in the Netherlands",
+  "title_ru": "На велосипеде по Нидерландам",
+  "description_ru": "Почему Нидерланды удобны для велопутешествий и что нужно знать новичку.",
+  "text": "The Netherlands is a country where bicycles are more popular than cars. There are about twenty-three million bicycles for around seventeen million people, so there are more bikes than people. If you have never cycled abroad, this is the perfect place to start.\n\nThe land is almost completely flat, so you do not need to be an athlete. There are also thousands of kilometres of separate cycle paths, with their own traffic lights and signs. Even in big cities like Amsterdam, you can cross the whole centre without meeting a single car.\n\nLast May, my brother and I spent a week cycling from Amsterdam to Rotterdam. We rented bikes for ten euros a day and followed the signs with numbers. On the way, we passed fields of tulips, old windmills and quiet villages. Every afternoon, we stopped at a small café for coffee and a slice of apple pie.\n\nHowever, the wind can be a problem. When it blows against you, even a flat road feels like a mountain. Also, remember that cyclists have priority, so be ready to ring your bell and watch the traffic. Finally, lock your bike every time you leave it, because bicycle theft is common.\n\nIf you decide to try it, you will probably fall in love with this simple, healthy way to travel.",
+  "word_count": 220,
+  "vocabulary": [
+    {
+      "word": "bicycles",
+      "ipa_us": "ˈbaɪsɪkəlz",
+      "ipa_uk": "ˈbaɪsɪkəlz",
+      "translation_ru": "велосипеды"
+    },
+    {
+      "word": "abroad",
+      "ipa_us": "əˈbrɔːd",
+      "ipa_uk": "əˈbrɔːd",
+      "translation_ru": "за границей"
+    },
+    {
+      "word": "athlete",
+      "ipa_us": "ˈæθliːt",
+      "ipa_uk": "ˈæθliːt",
+      "translation_ru": "спортсмен"
+    },
+    {
+      "word": "tulips",
+      "ipa_us": "ˈtuːlɪps",
+      "ipa_uk": "ˈtjuːlɪps",
+      "translation_ru": "тюльпаны"
+    },
+    {
+      "word": "windmills",
+      "ipa_us": "ˈwɪndmɪlz",
+      "ipa_uk": "ˈwɪndmɪlz",
+      "translation_ru": "ветряные мельницы"
+    },
+    {
+      "word": "priority",
+      "ipa_us": "praɪˈɔːrəti",
+      "ipa_uk": "praɪˈɒrəti",
+      "translation_ru": "приоритет, право проезда"
+    },
+    {
+      "word": "theft",
+      "ipa_us": "θeft",
+      "ipa_uk": "θeft",
+      "translation_ru": "кража"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "athlete",
+        "theft",
+        "thousands"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "with",
+        "wind",
+        "windmills",
+        "week",
+        "watch"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "other",
+        "brother"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но с голосом: горло вибрирует. Не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which country is the text about?",
+      "answer": "The Netherlands.",
+      "accepted_keywords": [
+        "netherlands",
+        "holland"
+      ]
+    },
+    {
+      "question": "How much did the bikes cost per day?",
+      "answer": "Ten euros.",
+      "accepted_keywords": [
+        "ten",
+        "10",
+        "euros"
+      ]
+    },
+    {
+      "question": "What can be a problem for cyclists?",
+      "answer": "The wind.",
+      "accepted_keywords": [
+        "wind"
+      ]
+    }
+  ]
+}

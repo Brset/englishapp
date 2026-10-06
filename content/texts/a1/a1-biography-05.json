@@ -1,0 +1,131 @@
+{
+  "id": "a1-biography-05",
+  "level": "A1",
+  "genre": "biography",
+  "title_en": "Yuri Gagarin",
+  "title_ru": "Юрий Гагарин",
+  "description_ru": "Как мальчик из деревни стал первым человеком в космосе.",
+  "text": "Yuri Gagarin was born in 1934 in a small village in Russia. His father was a carpenter, and his mother worked on a farm. Yuri was a happy boy, and he loved planes.\n\nLater he became a pilot. On 12 April 1961 he flew into space in a ship called Vostok 1. He was the first man in space. The flight was short: only one hour and forty-eight minutes.\n\nHe went around the Earth one time. From space he saw our blue planet and said, \"It is beautiful.\" Yuri died in 1968, but people all over the world remember him.",
+  "word_count": 96,
+  "vocabulary": [
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "carpenter",
+      "ipa_us": "ˈkɑrpəntər",
+      "ipa_uk": "ˈkɑːpəntə",
+      "translation_ru": "плотник"
+    },
+    {
+      "word": "farm",
+      "ipa_us": "fɑrm",
+      "ipa_uk": "fɑːm",
+      "translation_ru": "ферма"
+    },
+    {
+      "word": "pilot",
+      "ipa_us": "ˈpaɪlət",
+      "ipa_uk": "ˈpaɪlət",
+      "translation_ru": "лётчик"
+    },
+    {
+      "word": "space",
+      "ipa_us": "speɪs",
+      "ipa_uk": "speɪs",
+      "translation_ru": "космос"
+    },
+    {
+      "word": "flight",
+      "ipa_us": "flaɪt",
+      "ipa_uk": "flaɪt",
+      "translation_ru": "полёт"
+    },
+    {
+      "word": "planet",
+      "ipa_us": "ˈplænɪt",
+      "ipa_uk": "ˈplænɪt",
+      "translation_ru": "планета"
+    },
+    {
+      "word": "beautiful",
+      "ipa_us": "ˈbjutɪfəl",
+      "ipa_uk": "ˈbjuːtɪfəl",
+      "translation_ru": "красивая"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "village",
+        "Vostok",
+        "over"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Russia",
+        "around",
+        "remember"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "Earth",
+        "first",
+        "worked"
+      ],
+      "tip_ru": "Долгий центральный звук, губы не округляйте; язык расслаблен, середина рта; не «ор» и не «ер»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "planet",
+        "planes",
+        "happy"
+      ],
+      "tip_ru": "Откройте рот шире, чем для «э»: звук между «э» и «а», как в слове cat."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Gagarin born?",
+      "answer": "In a small village in Russia.",
+      "accepted_keywords": [
+        "russia",
+        "village"
+      ]
+    },
+    {
+      "question": "What was the name of his ship?",
+      "answer": "Vostok 1.",
+      "accepted_keywords": [
+        "vostok"
+      ]
+    },
+    {
+      "question": "How long was the flight?",
+      "answer": "One hour and forty-eight minutes.",
+      "accepted_keywords": [
+        "hour",
+        "forty",
+        "48"
+      ]
+    },
+    {
+      "question": "What did he say about the planet?",
+      "answer": "It is beautiful.",
+      "accepted_keywords": [
+        "beautiful"
+      ]
+    }
+  ]
+}

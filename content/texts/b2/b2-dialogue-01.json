@@ -1,0 +1,143 @@
+{
+  "id": "b2-dialogue-01",
+  "level": "B2",
+  "genre": "dialogue",
+  "title_en": "A Faulty Laptop",
+  "title_ru": "Неисправный ноутбук",
+  "description_ru": "Покупательница возвращает в магазин сломанный ноутбук и обсуждает с продавцом варианты решения.",
+  "text": "Elena: Good afternoon. I bought this laptop here three weeks ago, and I'm afraid it has stopped working properly.\n\nMark: I'm sorry to hear that. Could you tell me what exactly is wrong with it?\n\nElena: Well, the screen keeps flickering, and yesterday it switched itself off in the middle of an important presentation. I was extremely embarrassed.\n\nMark: I can imagine. Have you tried updating the software?\n\nElena: Of course. The technician on your helpline said that the problem would be fixed after the update, but it only got worse.\n\nMark: Hmm. Do you have the receipt with you?\n\nElena: Yes, here it is. I was also told that there is a two-year guarantee.\n\nMark: That's correct. Let me check the system. It says here that the laptop was delivered on the fourth of September, so you are well within the warranty period.\n\nElena: Good. So what happens now? I'd like a refund, to be honest. I've lost my confidence in this model.\n\nMark: I understand, but I should explain that refunds are normally only given within fourteen days. After that, we can either repair the device or replace it with a new one.\n\nElena: Fourteen days? Nobody mentioned that when I bought it. The assistant simply said that I could bring it back whenever I wanted.\n\nMark: I apologise for the misunderstanding. Let me speak to my manager. Would you mind waiting for a few minutes?\n\nElena: Not at all. But I'm not leaving without a solution.\n\nMark: Thank you for your patience. Right, my manager has agreed to make an exception. We can offer you a full refund, or a better model for the same price.\n\nElena: A better model? That sounds more reasonable. Is it as light as this one?\n\nMark: It's even lighter, and the battery lasts twice as long. Shall I bring one so that you can try it?\n\nElena: Yes, please. If it works as well as you say, I'll take it.\n\nMark: Wonderful. Give me a moment, and I'll be right back.",
+  "word_count": 323,
+  "vocabulary": [
+    {
+      "word": "flickering",
+      "ipa_us": "ˈflɪkərɪŋ",
+      "ipa_uk": "ˈflɪkərɪŋ",
+      "translation_ru": "мерцает"
+    },
+    {
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbɛrəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущена"
+    },
+    {
+      "word": "technician",
+      "ipa_us": "tɛkˈnɪʃən",
+      "ipa_uk": "tekˈnɪʃən",
+      "translation_ru": "техник"
+    },
+    {
+      "word": "guarantee",
+      "ipa_us": "ˌɡɛrənˈti",
+      "ipa_uk": "ˌɡærənˈtiː",
+      "translation_ru": "гарантия"
+    },
+    {
+      "word": "warranty",
+      "ipa_us": "ˈwɔrənti",
+      "ipa_uk": "ˈwɒrənti",
+      "translation_ru": "гарантийный срок"
+    },
+    {
+      "word": "refund",
+      "ipa_us": "ˈriˌfʌnd",
+      "ipa_uk": "ˈriːfʌnd",
+      "translation_ru": "возврат денег"
+    },
+    {
+      "word": "replace",
+      "ipa_us": "rɪˈpleɪs",
+      "ipa_uk": "rɪˈpleɪs",
+      "translation_ru": "заменить"
+    },
+    {
+      "word": "apologise",
+      "ipa_us": "əˈpɑləˌdʒaɪz",
+      "ipa_uk": "əˈpɒlədʒaɪz",
+      "translation_ru": "извиняюсь"
+    },
+    {
+      "word": "exception",
+      "ipa_us": "ɪkˈsɛpʃən",
+      "ipa_uk": "ɪkˈsepʃən",
+      "translation_ru": "исключение"
+    },
+    {
+      "word": "reasonable",
+      "ipa_us": "ˈrizənəbəl",
+      "ipa_uk": "ˈriːzənəbəl",
+      "translation_ru": "разумный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "when",
+        "wanted",
+        "well"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thank"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "refund",
+        "repair",
+        "receipt"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "well",
+        "model",
+        "helpline"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка поднята к нёбу; звук твёрдый, как в «ол», без смягчения."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long ago did Elena buy the laptop?",
+      "answer": "Three weeks ago.",
+      "accepted_keywords": [
+        "three",
+        "weeks"
+      ]
+    },
+    {
+      "question": "What is wrong with the screen?",
+      "answer": "It keeps flickering.",
+      "accepted_keywords": [
+        "flickering",
+        "flicker"
+      ]
+    },
+    {
+      "question": "Within how many days are refunds normally given?",
+      "answer": "Fourteen days.",
+      "accepted_keywords": [
+        "fourteen",
+        "14"
+      ]
+    },
+    {
+      "question": "What does Mark offer in the end?",
+      "answer": "A full refund or a better model.",
+      "accepted_keywords": [
+        "refund",
+        "model"
+      ]
+    }
+  ]
+}

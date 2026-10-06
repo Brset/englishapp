@@ -1,0 +1,135 @@
+{
+  "id": "b1-opinion-03",
+  "level": "B1",
+  "genre": "opinion",
+  "title_en": "Why Everyone Should Learn to Cook",
+  "title_ru": "Почему каждый должен уметь готовить",
+  "description_ru": "Короткое эссе о том, что кулинария должна быть школьным предметом, и о пользе домашней еды.",
+  "text": "Last month, my friend Victor admitted that at the age of thirty he had never cooked a real meal. He lives on sandwiches, frozen pizza and takeaway food. When I heard this, I realised that schools have missed something important. In my opinion, cooking should be a normal school subject, just like maths or geography.\n\nThe first benefit is health. People who cook at home usually eat more vegetables and less sugar, because they know exactly what is in their food. A ready meal from a shop often contains much more salt than we would ever add ourselves.\n\nThe second benefit is money. Although some ingredients look expensive, a simple pot of soup costs far less than a lunch in a restaurant. If Victor had learned to cook ten years ago, he would have saved a small fortune by now.\n\nFinally, cooking is a wonderful skill for life. It teaches patience, planning and creativity. It is also a very friendly activity. When you invite people for dinner, you give them more than food. You give them your time and your attention.\n\nSome people say they are too busy to cook. I understand, but a good meal does not have to take hours. Pasta with tomatoes, an omelette or a vegetable curry can be ready in twenty minutes.\n\nSo if you have never tried, why not begin this week? Buy fresh vegetables, find a simple recipe, and enjoy the smell of your own kitchen. I promise you will be proud of the result.",
+  "word_count": 252,
+  "vocabulary": [
+    {
+      "word": "admitted",
+      "ipa_us": "ədˈmɪtɪd",
+      "ipa_uk": "ədˈmɪtɪd",
+      "translation_ru": "признался"
+    },
+    {
+      "word": "realised",
+      "ipa_us": "ˈriəˌlaɪzd",
+      "ipa_uk": "ˈrɪəlaɪzd",
+      "translation_ru": "осознал"
+    },
+    {
+      "word": "subject",
+      "ipa_us": "ˈsʌbdʒɪkt",
+      "ipa_uk": "ˈsʌbdʒɪkt",
+      "translation_ru": "предмет (школьный)"
+    },
+    {
+      "word": "benefit",
+      "ipa_us": "ˈbɛnəfɪt",
+      "ipa_uk": "ˈbenɪfɪt",
+      "translation_ru": "польза"
+    },
+    {
+      "word": "vegetables",
+      "ipa_us": "ˈvɛdʒtəbəlz",
+      "ipa_uk": "ˈvedʒtəbəlz",
+      "translation_ru": "овощи"
+    },
+    {
+      "word": "ingredients",
+      "ipa_us": "ɪnˈɡridiənts",
+      "ipa_uk": "ɪnˈɡriːdiənts",
+      "translation_ru": "ингредиенты"
+    },
+    {
+      "word": "fortune",
+      "ipa_us": "ˈfɔrtʃən",
+      "ipa_uk": "ˈfɔːtʃuːn",
+      "translation_ru": "состояние (деньги)"
+    },
+    {
+      "word": "patience",
+      "ipa_us": "ˈpeɪʃəns",
+      "ipa_uk": "ˈpeɪʃəns",
+      "translation_ru": "терпение"
+    },
+    {
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresɪpi",
+      "translation_ru": "рецепт"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "vegetables",
+        "very",
+        "ever"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "month",
+        "something"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "real",
+        "restaurant",
+        "recipe",
+        "promise"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What had Victor never done?",
+      "answer": "Cooked a real meal.",
+      "accepted_keywords": [
+        "cooked",
+        "cook",
+        "meal"
+      ]
+    },
+    {
+      "question": "What is the first benefit of cooking?",
+      "answer": "Health.",
+      "accepted_keywords": [
+        "health",
+        "healthy"
+      ]
+    },
+    {
+      "question": "Why is homemade soup good for your money?",
+      "answer": "It costs less than a restaurant lunch.",
+      "accepted_keywords": [
+        "less",
+        "cheaper",
+        "cost",
+        "money"
+      ]
+    },
+    {
+      "question": "How long can a simple meal take?",
+      "answer": "Twenty minutes.",
+      "accepted_keywords": [
+        "twenty",
+        "20",
+        "minutes"
+      ]
+    }
+  ]
+}

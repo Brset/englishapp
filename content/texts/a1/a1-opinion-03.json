@@ -1,0 +1,131 @@
+{
+  "id": "a1-opinion-03",
+  "level": "A1",
+  "genre": "opinion",
+  "title_en": "Summer Is the Best Season",
+  "title_ru": "Лето — лучшее время года",
+  "description_ru": "Почему автору больше всего нравится лето.",
+  "text": "My favourite season is summer. I think it is the best time of the year.\n\nIn summer the days are long and the weather is warm. The sun is bright, and I wear a T-shirt and sandals. I do not need a heavy coat. That is wonderful!\n\nI also love summer food. I eat fresh strawberries, cold watermelon and sweet ice cream. Every weekend, my family goes to the river. We swim, play games and have a picnic.\n\nSome people say summer is too hot. I understand, but I like it. When it is very hot, I drink cold water and sit under a tree. Summer makes me happy.",
+  "word_count": 110,
+  "vocabulary": [
+    {
+      "word": "season",
+      "ipa_us": "ˈsizən",
+      "ipa_uk": "ˈsiːzən",
+      "translation_ru": "время года"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈwɛðər",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "bright",
+      "ipa_us": "braɪt",
+      "ipa_uk": "braɪt",
+      "translation_ru": "яркий"
+    },
+    {
+      "word": "sandals",
+      "ipa_us": "ˈsændəlz",
+      "ipa_uk": "ˈsændəlz",
+      "translation_ru": "сандалии"
+    },
+    {
+      "word": "heavy",
+      "ipa_us": "ˈhɛvi",
+      "ipa_uk": "ˈhevi",
+      "translation_ru": "тяжёлый"
+    },
+    {
+      "word": "strawberries",
+      "ipa_us": "ˈstrɔˌbɛriz",
+      "ipa_uk": "ˈstrɔːbəriz",
+      "translation_ru": "клубника"
+    },
+    {
+      "word": "swim",
+      "ipa_us": "swɪm",
+      "ipa_uk": "swɪm",
+      "translation_ru": "плавать"
+    },
+    {
+      "word": "picnic",
+      "ipa_us": "ˈpɪknɪk",
+      "ipa_uk": "ˈpɪknɪk",
+      "translation_ru": "пикник"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "weather",
+        "warm",
+        "watermelon"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "heavy",
+        "river"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "weather",
+        "the"
+      ],
+      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "strawberries",
+        "bright"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the writer's favourite season?",
+      "answer": "Summer.",
+      "accepted_keywords": [
+        "summer"
+      ]
+    },
+    {
+      "question": "What does the writer wear in summer?",
+      "answer": "A T-shirt and sandals.",
+      "accepted_keywords": [
+        "shirt",
+        "t-shirt",
+        "sandals"
+      ]
+    },
+    {
+      "question": "Where does the family go every weekend?",
+      "answer": "To the river.",
+      "accepted_keywords": [
+        "river"
+      ]
+    },
+    {
+      "question": "What does the writer do when it is very hot?",
+      "answer": "Drinks cold water and sits under a tree.",
+      "accepted_keywords": [
+        "water",
+        "tree",
+        "drink"
+      ]
+    }
+  ]
+}

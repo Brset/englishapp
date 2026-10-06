@@ -1,0 +1,132 @@
+{
+  "id": "b1-humor-02",
+  "level": "B1",
+  "genre": "humor",
+  "title_en": "The Cat and the Robot Vacuum",
+  "title_ru": "Кот и робот-пылесос",
+  "description_ru": "Забавная история о коте, который объявил войну новому пылесосу, а потом нашёл ему неожиданное применение.",
+  "text": "When Nina bought a robot vacuum cleaner, she expected a quiet life. She did not expect a war.\n\nHer cat, Mr Whiskers, had ruled the apartment for six years. He slept where he wanted, ate when he wanted and ignored everyone who disagreed. On the first morning, the little round machine rolled out of the corner and began to hum. Mr Whiskers sat up, stared at it for a long time, and hissed.\n\nThe robot did not care. It simply bumped gently into his tail and carried on cleaning. The cat jumped onto the sofa and watched from above like an angry king.\n\nFor three days, he tried everything. He attacked the robot from behind. He hid under the table and jumped out. He even sat in its path and refused to move, but the machine politely turned around and went the other way. \"It has no respect,\" Nina heard him complain, in his own way.\n\nOn the fourth day, something changed. Nina found the robot slowly driving around the kitchen with Mr Whiskers sitting calmly on top, like a captain on a ship. His eyes were half closed and his tail swung happily from side to side.\n\n\"If you cannot beat them, join them,\" said Nina, taking a photo.\n\nNow every afternoon the cat enjoys a free ride around the apartment. He has even started to meow at the front door whenever the battery runs low. Apparently, he has become very responsible about it.",
+  "word_count": 245,
+  "vocabulary": [
+    {
+      "word": "expected",
+      "ipa_us": "ɪkˈspɛktɪd",
+      "ipa_uk": "ɪkˈspektɪd",
+      "translation_ru": "ожидала"
+    },
+    {
+      "word": "ruled",
+      "ipa_us": "ruld",
+      "ipa_uk": "ruːld",
+      "translation_ru": "правил"
+    },
+    {
+      "word": "ignored",
+      "ipa_us": "ɪɡˈnɔrd",
+      "ipa_uk": "ɪɡˈnɔːd",
+      "translation_ru": "игнорировал"
+    },
+    {
+      "word": "stared",
+      "ipa_us": "stɛrd",
+      "ipa_uk": "steəd",
+      "translation_ru": "пристально смотрел"
+    },
+    {
+      "word": "hissed",
+      "ipa_us": "hɪst",
+      "ipa_uk": "hɪst",
+      "translation_ru": "зашипел"
+    },
+    {
+      "word": "politely",
+      "ipa_us": "pəˈlaɪtli",
+      "ipa_uk": "pəˈlaɪtli",
+      "translation_ru": "вежливо"
+    },
+    {
+      "word": "respect",
+      "ipa_us": "rɪˈspɛkt",
+      "ipa_uk": "rɪˈspekt",
+      "translation_ru": "уважение"
+    },
+    {
+      "word": "captain",
+      "ipa_us": "ˈkæptɪn",
+      "ipa_uk": "ˈkæptɪn",
+      "translation_ru": "капитан"
+    },
+    {
+      "word": "responsible",
+      "ipa_us": "rɪˈspɑnsəbəl",
+      "ipa_uk": "rɪˈspɒnsəbəl",
+      "translation_ru": "ответственный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "robot",
+        "round",
+        "respect",
+        "refused"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the other way",
+        "other"
+      ],
+      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hissed",
+        "hid",
+        "happily",
+        "half"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the cat's name?",
+      "answer": "Mr Whiskers.",
+      "accepted_keywords": [
+        "whiskers"
+      ]
+    },
+    {
+      "question": "How did the cat first react to the robot?",
+      "answer": "He hissed at it.",
+      "accepted_keywords": [
+        "hissed",
+        "angry",
+        "stared"
+      ]
+    },
+    {
+      "question": "What did the cat do on the fourth day?",
+      "answer": "He rode on top of the robot.",
+      "accepted_keywords": [
+        "rode",
+        "top",
+        "ride",
+        "sat"
+      ]
+    },
+    {
+      "question": "What does the cat do when the battery is low?",
+      "answer": "He meows at the front door.",
+      "accepted_keywords": [
+        "meow",
+        "door"
+      ]
+    }
+  ]
+}

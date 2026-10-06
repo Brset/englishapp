@@ -1,0 +1,123 @@
+{
+  "id": "a2-dialogue-04",
+  "level": "A2",
+  "genre": "dialogue",
+  "title_en": "At the Doctor",
+  "title_ru": "У врача",
+  "description_ru": "Пациент с болью в горле приходит на приём. Диалог о здоровье и советах врача.",
+  "text": "Doctor: Good afternoon, Mr Brown. What is the problem?\nMr Brown: I have a terrible sore throat, and I feel tired.\nDoctor: How long have you felt like this?\nMr Brown: Since Monday. Yesterday I also had a headache.\nDoctor: Do you have a fever? Let me check. Open your mouth, please.\nMr Brown: Ahh.\nDoctor: Your throat is red, but it is not serious. You have a cold.\nMr Brown: Do I need medicine?\nDoctor: Not really. You must drink hot water with honey and rest for three days.\nMr Brown: Can I go to work tomorrow?\nDoctor: No, it is better to stay at home. You will feel stronger on Friday.\nMr Brown: Thank you, doctor. I feel better already.\nDoctor: Good. Call me if you are worse.\nMr Brown: I promise. My wife is going to make chicken soup tonight, so I will be fine.",
+  "word_count": 127,
+  "vocabulary": [
+    {
+      "word": "problem",
+      "ipa_us": "ˈprɑbləm",
+      "ipa_uk": "ˈprɒbləm",
+      "translation_ru": "проблема"
+    },
+    {
+      "word": "throat",
+      "ipa_us": "θroʊt",
+      "ipa_uk": "θrəʊt",
+      "translation_ru": "горло"
+    },
+    {
+      "word": "headache",
+      "ipa_us": "ˈhedeɪk",
+      "ipa_uk": "ˈhedeɪk",
+      "translation_ru": "головная боль"
+    },
+    {
+      "word": "fever",
+      "ipa_us": "ˈfiːvər",
+      "ipa_uk": "ˈfiːvə",
+      "translation_ru": "температура"
+    },
+    {
+      "word": "serious",
+      "ipa_us": "ˈsɪriəs",
+      "ipa_uk": "ˈsɪəriəs",
+      "translation_ru": "серьёзный"
+    },
+    {
+      "word": "medicine",
+      "ipa_us": "ˈmedɪsən",
+      "ipa_uk": "ˈmedsən",
+      "translation_ru": "лекарство"
+    },
+    {
+      "word": "honey",
+      "ipa_us": "ˈhʌni",
+      "ipa_uk": "ˈhʌni",
+      "translation_ru": "мёд"
+    },
+    {
+      "word": "worse",
+      "ipa_us": "wɜrs",
+      "ipa_uk": "wɜːs",
+      "translation_ru": "хуже"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "throat",
+        "Thank",
+        "three"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "terrible",
+        "red",
+        "problem",
+        "rest",
+        "Friday"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "headache",
+        "have",
+        "honey",
+        "home"
+      ],
+      "tip_ru": "Выдыхайте воздух из горла мягко, как на холодное стекло; не русское «х»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is wrong with Mr Brown?",
+      "answer": "He has a sore throat.",
+      "accepted_keywords": [
+        "throat"
+      ]
+    },
+    {
+      "question": "What does the doctor say he has?",
+      "answer": "A cold.",
+      "accepted_keywords": [
+        "cold"
+      ]
+    },
+    {
+      "question": "What must he drink?",
+      "answer": "Hot water with honey.",
+      "accepted_keywords": [
+        "honey",
+        "water"
+      ]
+    },
+    {
+      "question": "How many days must he rest?",
+      "answer": "Three days.",
+      "accepted_keywords": [
+        "three"
+      ]
+    }
+  ]
+}

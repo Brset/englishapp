@@ -1,0 +1,117 @@
+{
+  "id": "a2-biography-01",
+  "level": "A2",
+  "genre": "biography",
+  "title_en": "Albert Einstein",
+  "title_ru": "Альберт Эйнштейн",
+  "description_ru": "Короткая биография великого физика: от детства в Германии до Нобелевской премии.",
+  "text": "Albert Einstein was born in 1879 in Ulm, a city in Germany. As a boy, he was quiet and very curious. He loved music, and he played the violin for most of his life.\n\nAfter university, Einstein worked in a patent office in Bern, Switzerland. The work was not difficult, so he had time to think about big things. In 1905 he wrote several famous papers about light, time and energy. These ideas changed science for ever.\n\nIn 1921 he won the Nobel Prize in Physics. Later, life in Germany became dangerous for him, so he moved to the United States in 1933. He worked at a research institute in Princeton and lived there until he died in 1955.\n\nEinstein was clever, but he was also kind and funny. He said that imagination is more important than knowledge.",
+  "word_count": 133,
+  "vocabulary": [
+    {
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любознательный"
+    },
+    {
+      "word": "patent office",
+      "ipa_us": "ˈpætnt ˌɔfɪs",
+      "ipa_uk": "ˈpeɪtnt ˌɒfɪs",
+      "translation_ru": "патентное бюро"
+    },
+    {
+      "word": "violin",
+      "ipa_us": "ˌvaɪəˈlɪn",
+      "ipa_uk": "ˌvaɪəˈlɪn",
+      "translation_ru": "скрипка"
+    },
+    {
+      "word": "energy",
+      "ipa_us": "ˈenərdʒi",
+      "ipa_uk": "ˈenədʒi",
+      "translation_ru": "энергия"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "imagination",
+      "ipa_us": "ɪˌmædʒɪˈneɪʃn",
+      "ipa_uk": "ɪˌmædʒɪˈneɪʃn",
+      "translation_ru": "воображение"
+    },
+    {
+      "word": "knowledge",
+      "ipa_us": "ˈnɑːlɪdʒ",
+      "ipa_uk": "ˈnɒlɪdʒ",
+      "translation_ru": "знания"
+    },
+    {
+      "word": "research",
+      "ipa_us": "ˈriːsɜːrtʃ",
+      "ipa_uk": "rɪˈsɜːtʃ",
+      "translation_ru": "исследование"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "violin",
+        "very"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "worked"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "things"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Einstein born?",
+      "answer": "In Ulm, Germany.",
+      "accepted_keywords": [
+        "ulm",
+        "germany"
+      ]
+    },
+    {
+      "question": "What instrument did he play?",
+      "answer": "The violin.",
+      "accepted_keywords": [
+        "violin"
+      ]
+    },
+    {
+      "question": "When did he win the Nobel Prize?",
+      "answer": "In 1921.",
+      "accepted_keywords": [
+        "1921"
+      ]
+    },
+    {
+      "question": "Where did he live until he died?",
+      "answer": "In Princeton.",
+      "accepted_keywords": [
+        "princeton"
+      ]
+    }
+  ]
+}

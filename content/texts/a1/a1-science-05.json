@@ -1,0 +1,123 @@
+{
+  "id": "a1-science-05",
+  "level": "A1",
+  "genre": "science",
+  "title_en": "Your Strong Heart",
+  "title_ru": "Ваше сильное сердце",
+  "description_ru": "Что делает сердце, как оно качает кровь и как о нём заботиться.",
+  "text": "Your heart is a strong muscle, and it is about the size of your fist. It sits in the middle of your chest, a little to the left. The heart works day and night. It pushes blood around your body through long tubes. Blood carries air from your lungs to every part of you.\n\nAt rest, your heart beats about seventy times in a minute. When you run, it beats faster. You can feel it with your hand on your neck or your wrist. Sleep well, eat healthy food and move every day to help your heart.",
+  "vocabulary": [
+    {
+      "word": "heart",
+      "ipa_us": "hɑːrt",
+      "ipa_uk": "hɑːt",
+      "translation_ru": "сердце"
+    },
+    {
+      "word": "muscle",
+      "ipa_us": "ˈmʌsl",
+      "ipa_uk": "ˈmʌsl",
+      "translation_ru": "мышца"
+    },
+    {
+      "word": "fist",
+      "ipa_us": "fɪst",
+      "ipa_uk": "fɪst",
+      "translation_ru": "кулак"
+    },
+    {
+      "word": "chest",
+      "ipa_us": "tʃest",
+      "ipa_uk": "tʃest",
+      "translation_ru": "грудь"
+    },
+    {
+      "word": "blood",
+      "ipa_us": "blʌd",
+      "ipa_uk": "blʌd",
+      "translation_ru": "кровь"
+    },
+    {
+      "word": "lungs",
+      "ipa_us": "lʌŋz",
+      "ipa_uk": "lʌŋz",
+      "translation_ru": "лёгкие"
+    },
+    {
+      "word": "beats",
+      "ipa_us": "biːts",
+      "ipa_uk": "biːts",
+      "translation_ru": "бьётся"
+    },
+    {
+      "word": "wrist",
+      "ipa_us": "rɪst",
+      "ipa_uk": "rɪst",
+      "translation_ru": "запястье"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "heart",
+        "hand",
+        "healthy",
+        "help"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "ɑː",
+      "examples": [
+        "heart",
+        "part"
+      ],
+      "tip_ru": "Долгий глубокий «а»: рот открыт широко, язык лежит низко. Тяните звук, в американском варианте добавляется «r»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "blood",
+        "lungs",
+        "run",
+        "muscle"
+      ],
+      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the heart?",
+      "answer": "A strong muscle.",
+      "accepted_keywords": [
+        "muscle"
+      ]
+    },
+    {
+      "question": "Where is the heart?",
+      "answer": "In the middle of the chest.",
+      "accepted_keywords": [
+        "chest",
+        "middle"
+      ]
+    },
+    {
+      "question": "What does blood carry?",
+      "answer": "Air from the lungs.",
+      "accepted_keywords": [
+        "air",
+        "lungs"
+      ]
+    },
+    {
+      "question": "How many times does the heart beat in a minute?",
+      "answer": "About seventy.",
+      "accepted_keywords": [
+        "seventy",
+        "70"
+      ]
+    }
+  ],
+  "word_count": 97
+}

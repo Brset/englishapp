@@ -1,0 +1,134 @@
+{
+  "id": "b2-news-04",
+  "level": "B2",
+  "genre": "news",
+  "title_en": "Missing Dog Walks Forty Kilometres Home",
+  "title_ru": "Пропавшая собака прошла сорок километров домой",
+  "description_ru": "Вымышленная новость о собаке, которая нашла дорогу домой через горы и реку.",
+  "text": "A three-year-old border collie called Biscuit has astonished the residents of the fictional village of Tarnmoor by walking forty kilometres across hills and farmland to return to her family, nine days after she disappeared during a camping trip.\n\nBiscuit, who belongs to the Whitaker family, ran away on 14 September when a firework scared her near a campsite in the next valley. The family searched the area for two days, put up posters and posted messages online. \"We were heartbroken,\" said Emma Whitaker, mother of two. \"The children kept asking if she was cold, or hungry, and I did not know what to say.\"\n\nOn Thursday morning, a neighbour noticed a thin, muddy animal sitting at the Whitakers' front door. It was Biscuit. A vet later confirmed that she had lost two kilograms and had sore paws, but was otherwise healthy. \"She must have walked for most of the nine days,\" said veterinarian Dr Anil Kapoor. \"She also seems to have crossed a river, because her coat was covered in weeds.\"\n\nExperts say that dogs find their way home using a combination of smell, memory and possibly the Earth's magnetic field. Animal behaviour researcher Professor Lena Brandt, who was not involved in the case, said that such journeys are rare but not unknown. \"Stories like this are often exaggerated,\" she added, \"but in this instance, the family's microchip records and a farmer's report of a collie crossing his field make the account very credible.\"\n\nVillagers have already described the dog as a local hero. The pub has offered her free sausages for a month, and the school plans to invite her to its autumn assembly. The youngest child, six-year-old Oliver, has been told that Biscuit will not be allowed to go camping again unless she wears a bell.\n\nFor now, the dog is resting. According to her owners, she slept for eighteen hours, ate a huge breakfast and then followed everyone around the house, as if she was afraid of losing them again.",
+  "vocabulary": [
+    {
+      "word": "astonished",
+      "ipa_us": "əˈstɑnɪʃt",
+      "ipa_uk": "əˈstɒnɪʃt",
+      "translation_ru": "поразила"
+    },
+    {
+      "word": "disappeared",
+      "ipa_us": "ˌdɪsəˈpɪrd",
+      "ipa_uk": "ˌdɪsəˈpɪəd",
+      "translation_ru": "исчезла"
+    },
+    {
+      "word": "heartbroken",
+      "ipa_us": "ˈhɑrtˌbroʊkən",
+      "ipa_uk": "ˈhɑːtˌbrəʊkən",
+      "translation_ru": "убитые горем"
+    },
+    {
+      "word": "veterinarian",
+      "ipa_us": "ˌvɛtərəˈnɛriən",
+      "ipa_uk": "ˌvetərɪˈneəriən",
+      "translation_ru": "ветеринар"
+    },
+    {
+      "word": "magnetic",
+      "ipa_us": "mæɡˈnɛtɪk",
+      "ipa_uk": "mæɡˈnetɪk",
+      "translation_ru": "магнитный"
+    },
+    {
+      "word": "exaggerated",
+      "ipa_us": "ɪɡˈzædʒəˌreɪtɪd",
+      "ipa_uk": "ɪɡˈzædʒəreɪtɪd",
+      "translation_ru": "преувеличены"
+    },
+    {
+      "word": "credible",
+      "ipa_us": "ˈkrɛdəbəl",
+      "ipa_uk": "ˈkredəbəl",
+      "translation_ru": "правдоподобный"
+    },
+    {
+      "word": "assembly",
+      "ipa_us": "əˈsɛmbli",
+      "ipa_uk": "əˈsembli",
+      "translation_ru": "собрание"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "hills",
+        "heartbroken",
+        "hungry",
+        "home"
+      ],
+      "tip_ru": "Выдох из горла без напряжения, лёгкий шум; не заменяйте русским «х»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walking",
+        "Whitaker",
+        "weeds",
+        "was"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "residents",
+        "return",
+        "river",
+        "report"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "scared",
+        "covered",
+        "confirmed",
+        "involved"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the dog's name?",
+      "answer": "Biscuit.",
+      "accepted_keywords": [
+        "biscuit"
+      ]
+    },
+    {
+      "question": "How far did she walk?",
+      "answer": "Forty kilometres.",
+      "accepted_keywords": [
+        "forty",
+        "40"
+      ]
+    },
+    {
+      "question": "What scared her at the campsite?",
+      "answer": "A firework.",
+      "accepted_keywords": [
+        "firework"
+      ]
+    },
+    {
+      "question": "What has the pub offered the dog?",
+      "answer": "Free sausages for a month.",
+      "accepted_keywords": [
+        "sausages",
+        "free"
+      ]
+    }
+  ],
+  "word_count": 336
+}

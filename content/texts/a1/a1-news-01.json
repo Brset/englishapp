@@ -1,0 +1,121 @@
+{
+  "id": "a1-news-01",
+  "level": "A1",
+  "genre": "news",
+  "title_en": "Missing Dog Comes Home",
+  "title_ru": "Пропавшая собака вернулась домой",
+  "description_ru": "Лёгкая новость о собаке, которую искал весь городок.",
+  "text": "A small dog called Biscuit is home again. The dog was lost in the town of Willow Creek for three days.\n\nBiscuit's owner is Mrs Green. She is seventy years old and she lives on Mill Road. On Monday, Biscuit ran out of the garden. Mrs Green was very sad.\n\nMany neighbours helped. They walked through the streets and looked in every park. On Thursday morning, a boy named Victor found Biscuit near the old bridge. The dog was wet and hungry, but happy.\n\n\"I am so thankful,\" says Mrs Green. \"This is the best week of my life!\" Now Biscuit sleeps on a warm sofa.",
+  "word_count": 106,
+  "vocabulary": [
+    {
+      "word": "lost",
+      "ipa_us": "lɔst",
+      "ipa_uk": "lɒst",
+      "translation_ru": "потерянный"
+    },
+    {
+      "word": "owner",
+      "ipa_us": "ˈoʊnər",
+      "ipa_uk": "ˈəʊnə",
+      "translation_ru": "хозяин"
+    },
+    {
+      "word": "garden",
+      "ipa_us": "ˈɡɑrdn",
+      "ipa_uk": "ˈɡɑːdn",
+      "translation_ru": "сад"
+    },
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbər",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "bridge",
+      "ipa_us": "brɪdʒ",
+      "ipa_uk": "brɪdʒ",
+      "translation_ru": "мост"
+    },
+    {
+      "word": "wet",
+      "ipa_us": "wɛt",
+      "ipa_uk": "wet",
+      "translation_ru": "мокрый"
+    },
+    {
+      "word": "hungry",
+      "ipa_us": "ˈhʌŋɡri",
+      "ipa_uk": "ˈhʌŋɡri",
+      "translation_ru": "голодный"
+    },
+    {
+      "word": "thankful",
+      "ipa_us": "ˈθæŋkfəl",
+      "ipa_uk": "ˈθæŋkfəl",
+      "translation_ru": "благодарный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "through",
+        "Thursday"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Willow",
+        "was",
+        "week"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "every",
+        "lives"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the dog's name?",
+      "answer": "Biscuit.",
+      "accepted_keywords": [
+        "biscuit"
+      ]
+    },
+    {
+      "question": "How many days was the dog lost?",
+      "answer": "Three days.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "Who found the dog?",
+      "answer": "A boy named Victor.",
+      "accepted_keywords": [
+        "victor",
+        "boy"
+      ]
+    },
+    {
+      "question": "Where did he find the dog?",
+      "answer": "Near the old bridge.",
+      "accepted_keywords": [
+        "bridge"
+      ]
+    }
+  ]
+}

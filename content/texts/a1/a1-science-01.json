@@ -1,0 +1,122 @@
+{
+  "id": "a1-science-01",
+  "level": "A1",
+  "genre": "science",
+  "title_en": "The Moon",
+  "title_ru": "Луна",
+  "description_ru": "Простые факты о Луне: что это, как далеко она и почему там можно прыгать высоко.",
+  "text": "The Moon is our closest neighbour in space. It is not a star, and it has no light of its own. We see it because the sun shines on it. The Moon is very far away, but it moves around our planet in about one month.\n\nThe Moon has no air and no water, so nothing lives there. Its surface is grey and full of big holes. These holes are called craters. On the Moon, you feel much lighter, and you can jump very high!",
+  "vocabulary": [
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbɚ",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "space",
+      "ipa_us": "speɪs",
+      "ipa_uk": "speɪs",
+      "translation_ru": "космос"
+    },
+    {
+      "word": "star",
+      "ipa_us": "stɑːr",
+      "ipa_uk": "stɑː",
+      "translation_ru": "звезда"
+    },
+    {
+      "word": "planet",
+      "ipa_us": "ˈplænɪt",
+      "ipa_uk": "ˈplænɪt",
+      "translation_ru": "планета"
+    },
+    {
+      "word": "month",
+      "ipa_us": "mʌnθ",
+      "ipa_uk": "mʌnθ",
+      "translation_ru": "месяц"
+    },
+    {
+      "word": "surface",
+      "ipa_us": "ˈsɝːfɪs",
+      "ipa_uk": "ˈsɜːfɪs",
+      "translation_ru": "поверхность"
+    },
+    {
+      "word": "craters",
+      "ipa_us": "ˈkreɪtɚz",
+      "ipa_uk": "ˈkreɪtəz",
+      "translation_ru": "кратеры"
+    },
+    {
+      "word": "lighter",
+      "ipa_us": "ˈlaɪtɚ",
+      "ipa_uk": "ˈlaɪtə",
+      "translation_ru": "легче"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "month",
+        "nothing"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "these",
+        "there"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "light",
+        "shines",
+        "high"
+      ],
+      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is the Moon a star?",
+      "answer": "No, it is not.",
+      "accepted_keywords": [
+        "no",
+        "not"
+      ]
+    },
+    {
+      "question": "Why do we see the Moon?",
+      "answer": "The sun shines on it.",
+      "accepted_keywords": [
+        "sun",
+        "shines"
+      ]
+    },
+    {
+      "question": "How long does the Moon take to go around the planet?",
+      "answer": "About one month.",
+      "accepted_keywords": [
+        "month",
+        "one"
+      ]
+    },
+    {
+      "question": "What are the holes called?",
+      "answer": "Craters.",
+      "accepted_keywords": [
+        "craters",
+        "crater"
+      ]
+    }
+  ],
+  "word_count": 85
+}

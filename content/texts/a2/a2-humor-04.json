@@ -1,0 +1,125 @@
+{
+  "id": "a2-humor-04",
+  "level": "A2",
+  "genre": "humor",
+  "title_en": "The Forgetful Professor",
+  "title_ru": "Рассеянный профессор",
+  "description_ru": "Анекдотическая история о профессоре, который постоянно что-то забывает.",
+  "text": "Professor Brown was a very clever man, but he forgot everything. He forgot his keys, his umbrella and even his students' names.\n\nOne morning, he left home in a hurry. At the bus stop, he looked for his glasses, but he could not find them. \"I cannot read the bus number,\" he said to a young woman. \"Can you help me?\"\n\nThe woman smiled and said, \"Professor, your glasses are on your head.\"\n\n\"Thank you,\" said the professor. On the bus, he looked for his ticket. He searched his pockets for ten minutes. Finally, the driver said, \"Sir, the ticket is in your mouth.\"\n\nAt the university, the students waited in the classroom. The professor came in and asked, \"Where is the professor today?\" Everybody laughed.\n\nThat evening, he wrote a note and put it on the door: \"Do not forget to remember!\"",
+  "word_count": 143,
+  "vocabulary": [
+    {
+      "word": "professor",
+      "ipa_us": "prəˈfesər",
+      "ipa_uk": "prəˈfesə",
+      "translation_ru": "профессор"
+    },
+    {
+      "word": "forgot",
+      "ipa_us": "fərˈɡɑːt",
+      "ipa_uk": "fəˈɡɒt",
+      "translation_ru": "забыл"
+    },
+    {
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrelə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
+    },
+    {
+      "word": "hurry",
+      "ipa_us": "ˈhɜːri",
+      "ipa_uk": "ˈhʌri",
+      "translation_ru": "спешка"
+    },
+    {
+      "word": "glasses",
+      "ipa_us": "ˈɡlæsɪz",
+      "ipa_uk": "ˈɡlɑːsɪz",
+      "translation_ru": "очки"
+    },
+    {
+      "word": "ticket",
+      "ipa_us": "ˈtɪkɪt",
+      "ipa_uk": "ˈtɪkɪt",
+      "translation_ru": "билет"
+    },
+    {
+      "word": "searched",
+      "ipa_us": "sɜːrtʃt",
+      "ipa_uk": "sɜːtʃt",
+      "translation_ru": "искал"
+    },
+    {
+      "word": "classroom",
+      "ipa_us": "ˈklæsruːm",
+      "ipa_uk": "ˈklɑːsruːm",
+      "translation_ru": "класс"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "read",
+        "remember"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thank",
+        "them"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "woman",
+        "waited"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "searched",
+        "Sir"
+      ],
+      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the professor's name?",
+      "answer": "Professor Brown.",
+      "accepted_keywords": [
+        "brown"
+      ]
+    },
+    {
+      "question": "Where were his glasses?",
+      "answer": "On his head.",
+      "accepted_keywords": [
+        "head"
+      ]
+    },
+    {
+      "question": "Where was his ticket?",
+      "answer": "In his mouth.",
+      "accepted_keywords": [
+        "mouth"
+      ]
+    },
+    {
+      "question": "What did he write on the note?",
+      "answer": "Do not forget to remember.",
+      "accepted_keywords": [
+        "forget",
+        "remember"
+      ]
+    }
+  ]
+}

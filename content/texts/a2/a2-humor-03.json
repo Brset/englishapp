@@ -1,0 +1,128 @@
+{
+  "id": "a2-humor-03",
+  "level": "A2",
+  "genre": "humor",
+  "title_en": "The Cake That Disappeared",
+  "title_ru": "Торт, который исчез",
+  "description_ru": "Комичная детективная история о семейном торте и маленьких уликах.",
+  "text": "Last Sunday, my mother made a big chocolate cake for the family dinner. She put it on the kitchen table and went to the shop for milk.\n\nWhen she came back, half of the cake was gone. My mother looked at my brother, Sam. \"Did you eat the cake?\" she asked. \"No,\" said Sam. \"I was in my room all the time.\"\n\nMy mother looked at his face. There was chocolate on his nose, on his chin and even in his hair. \"Then who is this?\" she asked, and she pointed at a photo on her phone. In the picture, Sam was smiling happily with a fork in his hand.\n\n\"Oh,\" said Sam. \"I forgot about the camera in the kitchen.\"\n\nNow Sam has to wash the dishes for a week. He is still sad, but I am quite happy. I got the last piece of the cake, and nobody saw me.",
+  "word_count": 152,
+  "vocabulary": [
+    {
+      "word": "chocolate",
+      "ipa_us": "ˈtʃɔːklət",
+      "ipa_uk": "ˈtʃɒklət",
+      "translation_ru": "шоколад"
+    },
+    {
+      "word": "kitchen",
+      "ipa_us": "ˈkɪtʃɪn",
+      "ipa_uk": "ˈkɪtʃɪn",
+      "translation_ru": "кухня"
+    },
+    {
+      "word": "gone",
+      "ipa_us": "ɡɔːn",
+      "ipa_uk": "ɡɒn",
+      "translation_ru": "пропал"
+    },
+    {
+      "word": "chin",
+      "ipa_us": "tʃɪn",
+      "ipa_uk": "tʃɪn",
+      "translation_ru": "подбородок"
+    },
+    {
+      "word": "pointed",
+      "ipa_us": "ˈpɔɪntɪd",
+      "ipa_uk": "ˈpɔɪntɪd",
+      "translation_ru": "указала"
+    },
+    {
+      "word": "fork",
+      "ipa_us": "fɔːrk",
+      "ipa_uk": "fɔːk",
+      "translation_ru": "вилка"
+    },
+    {
+      "word": "camera",
+      "ipa_us": "ˈkæmrə",
+      "ipa_uk": "ˈkæmrə",
+      "translation_ru": "камера"
+    },
+    {
+      "word": "dishes",
+      "ipa_us": "ˈdɪʃɪz",
+      "ipa_uk": "ˈdɪʃɪz",
+      "translation_ru": "посуда"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aspiration",
+      "examples": [
+        "cake",
+        "camera"
+      ],
+      "tip_ru": "p, t, k в начале слова произносите с лёгким придыханием, как будто выдыхаете «х»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "then",
+        "this"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "week"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "hand",
+        "said"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: в «bed», «dog» звучит d, g, а не т, к."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the mother make?",
+      "answer": "A chocolate cake.",
+      "accepted_keywords": [
+        "cake",
+        "chocolate"
+      ]
+    },
+    {
+      "question": "Who ate the cake?",
+      "answer": "Sam.",
+      "accepted_keywords": [
+        "sam"
+      ]
+    },
+    {
+      "question": "How did the mother know?",
+      "answer": "She saw a photo from the camera.",
+      "accepted_keywords": [
+        "camera",
+        "photo",
+        "picture"
+      ]
+    },
+    {
+      "question": "What must Sam do for a week?",
+      "answer": "Wash the dishes.",
+      "accepted_keywords": [
+        "wash",
+        "dishes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "a2-science-05",
+  "level": "A2",
+  "genre": "science",
+  "title_en": "The Water Journey",
+  "title_ru": "Путешествие воды",
+  "description_ru": "Круговорот воды в природе: от моря к облакам и обратно в реки.",
+  "text": "Water never stays in one place. It is always on a long journey, and this journey has no beginning and no end.\n\nFirst, the sun warms the sea, the rivers and the lakes. Some water becomes a gas, which we call vapour, and it rises into the air. High above the ground, the air is much colder. The vapour turns into tiny drops of water and makes white clouds.\n\nSoon, the drops become bigger and heavier. They fall to the Earth as rain. In very cold places, they fall as snow. The rain runs into the streams, and the streams run into the rivers. At last, the rivers carry the water back to the sea, and the journey starts again.\n\nThe water you drink today is very old. Perhaps a dinosaur drank it millions of years ago, and perhaps it was once a cloud over your house.",
+  "word_count": 147,
+  "vocabulary": [
+    {
+      "word": "journey",
+      "ipa_us": "ˈdʒɜrni",
+      "ipa_uk": "ˈdʒɜːni",
+      "translation_ru": "путешествие"
+    },
+    {
+      "word": "vapour",
+      "ipa_us": "ˈveɪpər",
+      "ipa_uk": "ˈveɪpə",
+      "translation_ru": "пар"
+    },
+    {
+      "word": "rises",
+      "ipa_us": "ˈraɪzɪz",
+      "ipa_uk": "ˈraɪzɪz",
+      "translation_ru": "поднимается"
+    },
+    {
+      "word": "tiny",
+      "ipa_us": "ˈtaɪni",
+      "ipa_uk": "ˈtaɪni",
+      "translation_ru": "крошечный"
+    },
+    {
+      "word": "drops",
+      "ipa_us": "drɑps",
+      "ipa_uk": "drɒps",
+      "translation_ru": "капли"
+    },
+    {
+      "word": "clouds",
+      "ipa_us": "klaʊdz",
+      "ipa_uk": "klaʊdz",
+      "translation_ru": "облака"
+    },
+    {
+      "word": "heavier",
+      "ipa_us": "ˈheviər",
+      "ipa_uk": "ˈheviə",
+      "translation_ru": "тяжелее"
+    },
+    {
+      "word": "streams",
+      "ipa_us": "striːmz",
+      "ipa_uk": "striːmz",
+      "translation_ru": "ручьи"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "warms",
+        "white"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rivers",
+        "rises",
+        "rain",
+        "run"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "the",
+        "this",
+        "Earth"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What warms the sea?",
+      "answer": "The sun.",
+      "accepted_keywords": [
+        "sun"
+      ]
+    },
+    {
+      "question": "What is water gas called?",
+      "answer": "Vapour.",
+      "accepted_keywords": [
+        "vapour",
+        "vapor"
+      ]
+    },
+    {
+      "question": "What do the drops make high in the air?",
+      "answer": "Clouds.",
+      "accepted_keywords": [
+        "clouds",
+        "cloud"
+      ]
+    },
+    {
+      "question": "Where do rivers carry the water?",
+      "answer": "Back to the sea.",
+      "accepted_keywords": [
+        "sea"
+      ]
+    }
+  ]
+}

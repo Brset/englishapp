@@ -1,0 +1,136 @@
+{
+  "id": "b2-news-05",
+  "level": "B2",
+  "genre": "news",
+  "title_en": "Schoolchildren Invent Rain-Powered Charger",
+  "title_ru": "Школьники изобрели зарядку, работающую от дождя",
+  "description_ru": "Вымышленная новость о школьной команде, выигравшей научный конкурс.",
+  "text": "A team of four teenagers from the fictional Millbrook Academy has won first prize at the National Young Inventors' Fair with a device that charges a mobile phone using nothing but falling raindrops. The judges described the invention as \"clever, practical and surprisingly elegant\".\n\nThe gadget, which the students named the Drizzle Cell, uses a thin plastic film that produces a tiny electric charge each time a drop hits it. Although the amount of electricity from each drop is very small, hundreds of them every minute are enough to fill a phone battery in about four hours of steady rain. \"It is not going to replace your wall socket,\" admitted team leader Priya Nandakumar, aged sixteen. \"But in places where storms knock out the power, it could be a real lifeline.\"\n\nThe idea came during an unusually wet October, when the group's science teacher, Mr Okonkwo, asked them to think about problems that could be solved with ordinary weather. After three failed prototypes and a flooded classroom, they discovered that a particular type of film, normally used in food packaging, worked best.\n\nThe prize includes five thousand pounds and a place on a summer programme at a leading engineering university. A well-known electronics company has also contacted the school and is said to be considering an offer to develop the idea further. The students, however, say they want to keep the design open, so anyone can build a version for free.\n\n\"We do not want to make a fortune,\" said fifteen-year-old Tomas Reyes, the group's youngest member. \"We want people in villages with no electricity to be able to call their families.\" Their headteacher, Mrs Gallagher, said she was extremely proud. \"Whenever someone claims that young people are only interested in their phones,\" she said, \"I will tell them about this team.\"\n\nMeanwhile, the weather forecast for the weekend promises heavy rain. The students say that they are delighted, and that their phones will be fully charged by Monday.",
+  "vocabulary": [
+    {
+      "word": "inventors",
+      "ipa_us": "ɪnˈvɛntərz",
+      "ipa_uk": "ɪnˈventəz",
+      "translation_ru": "изобретатели"
+    },
+    {
+      "word": "elegant",
+      "ipa_us": "ˈɛləɡənt",
+      "ipa_uk": "ˈelɪɡənt",
+      "translation_ru": "элегантный"
+    },
+    {
+      "word": "gadget",
+      "ipa_us": "ˈɡædʒɪt",
+      "ipa_uk": "ˈɡædʒɪt",
+      "translation_ru": "устройство"
+    },
+    {
+      "word": "raindrops",
+      "ipa_us": "ˈreɪnˌdrɑps",
+      "ipa_uk": "ˈreɪndrɒps",
+      "translation_ru": "капли дождя"
+    },
+    {
+      "word": "lifeline",
+      "ipa_us": "ˈlaɪfˌlaɪn",
+      "ipa_uk": "ˈlaɪflaɪn",
+      "translation_ru": "спасательная нить"
+    },
+    {
+      "word": "prototypes",
+      "ipa_us": "ˈproʊtəˌtaɪps",
+      "ipa_uk": "ˈprəʊtətaɪps",
+      "translation_ru": "прототипы"
+    },
+    {
+      "word": "packaging",
+      "ipa_us": "ˈpækɪdʒɪŋ",
+      "ipa_uk": "ˈpækɪdʒɪŋ",
+      "translation_ru": "упаковка"
+    },
+    {
+      "word": "fortune",
+      "ipa_us": "ˈfɔrtʃən",
+      "ipa_uk": "ˈfɔːtʃuːn",
+      "translation_ru": "состояние, богатство"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "raindrops",
+        "real",
+        "prize"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thin",
+        "three",
+        "think",
+        "thousand"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wet",
+        "weather",
+        "worked",
+        "wall"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "falling",
+        "packaging",
+        "nothing"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, воздух идёт через нос; не добавляйте «г» после звука."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the invention called?",
+      "answer": "The Drizzle Cell.",
+      "accepted_keywords": [
+        "drizzle"
+      ]
+    },
+    {
+      "question": "How long does it take to charge a phone?",
+      "answer": "About four hours of steady rain.",
+      "accepted_keywords": [
+        "four",
+        "4"
+      ]
+    },
+    {
+      "question": "What is the prize money?",
+      "answer": "Five thousand pounds.",
+      "accepted_keywords": [
+        "five",
+        "thousand",
+        "5000"
+      ]
+    },
+    {
+      "question": "Why do the students want to keep the design open?",
+      "answer": "So people without electricity can build one for free.",
+      "accepted_keywords": [
+        "free",
+        "electricity",
+        "open"
+      ]
+    }
+  ],
+  "word_count": 332
+}

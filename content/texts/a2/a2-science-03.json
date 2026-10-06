@@ -1,0 +1,124 @@
+{
+  "id": "a2-science-03",
+  "level": "A2",
+  "genre": "science",
+  "title_en": "The Moon and the Sea",
+  "title_ru": "Луна и море",
+  "description_ru": "Почему на море бывают приливы и отливы и при чём тут Луна.",
+  "text": "If you go to the sea, you can see something interesting. Twice a day, the water comes up the beach, and twice a day it goes back. We call this the tide.\n\nThe moon is the reason. It is much smaller than the Earth, but it is quite close, and it pulls the water with a gentle force. The sea moves towards the moon, and this makes a high tide. About six hours later, the water goes down, and we have a low tide.\n\nThe sun also pulls the sea, but it is far away, so its force is weaker. When the sun, the moon and the Earth are in one line, the tides are the biggest. People who live near the coast must know the tide times.\n\nFishermen use them to plan their trips. Children use them, too. At low tide, they can find shells, crabs and even small fish on the sand.",
+  "word_count": 154,
+  "vocabulary": [
+    {
+      "word": "tide",
+      "ipa_us": "taɪd",
+      "ipa_uk": "taɪd",
+      "translation_ru": "прилив и отлив"
+    },
+    {
+      "word": "beach",
+      "ipa_us": "biːtʃ",
+      "ipa_uk": "biːtʃ",
+      "translation_ru": "пляж"
+    },
+    {
+      "word": "gentle",
+      "ipa_us": "ˈdʒentəl",
+      "ipa_uk": "ˈdʒentəl",
+      "translation_ru": "мягкий"
+    },
+    {
+      "word": "force",
+      "ipa_us": "fɔrs",
+      "ipa_uk": "fɔːs",
+      "translation_ru": "сила"
+    },
+    {
+      "word": "weaker",
+      "ipa_us": "ˈwiːkər",
+      "ipa_uk": "ˈwiːkə",
+      "translation_ru": "слабее"
+    },
+    {
+      "word": "coast",
+      "ipa_us": "koʊst",
+      "ipa_uk": "kəʊst",
+      "translation_ru": "побережье"
+    },
+    {
+      "word": "fishermen",
+      "ipa_us": "ˈfɪʃərmən",
+      "ipa_uk": "ˈfɪʃəmən",
+      "translation_ru": "рыбаки"
+    },
+    {
+      "word": "shells",
+      "ipa_us": "ʃelz",
+      "ipa_uk": "ʃelz",
+      "translation_ru": "ракушки"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "something",
+        "the",
+        "Earth",
+        "smaller",
+        "their"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "weaker",
+        "with"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "interesting",
+        "something"
+      ],
+      "tip_ru": "Кончик языка не двигается: задняя часть языка касается нёба, звук идёт через нос; «г» в конце не произносите."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many high tides are there in a day?",
+      "answer": "Two.",
+      "accepted_keywords": [
+        "two",
+        "twice"
+      ]
+    },
+    {
+      "question": "What pulls the sea most?",
+      "answer": "The moon.",
+      "accepted_keywords": [
+        "moon"
+      ]
+    },
+    {
+      "question": "When are the tides the biggest?",
+      "answer": "When the sun, moon and Earth are in one line.",
+      "accepted_keywords": [
+        "line",
+        "sun"
+      ]
+    },
+    {
+      "question": "What can children find at low tide?",
+      "answer": "Shells, crabs and small fish.",
+      "accepted_keywords": [
+        "shells",
+        "crabs",
+        "fish"
+      ]
+    }
+  ]
+}

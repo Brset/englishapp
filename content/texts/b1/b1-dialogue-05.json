@@ -1,0 +1,113 @@
+{
+  "id": "b1-dialogue-05",
+  "level": "B1",
+  "genre": "dialogue",
+  "title_en": "A Job Interview",
+  "title_ru": "Собеседование",
+  "description_ru": "Кандидат отвечает на вопросы менеджера на собеседовании в кафе.",
+  "text": "Manager: Good afternoon, Daniel. Please take a seat. Thank you for coming.\nDaniel: Thank you for inviting me. I'm really pleased to be here.\nManager: Let's start with your experience. Have you ever worked in a café before?\nDaniel: Yes, I have. I worked in a small coffee bar for two years while I was studying at university.\nManager: What did you enjoy most about it?\nDaniel: Talking to the customers. I have always liked meeting new people, and I think a friendly smile can change someone's day.\nManager: That's good. This job is very busy, especially at lunchtime. How do you deal with stress?\nDaniel: I try to stay calm and work step by step. If there are too many orders, I ask a colleague for help.\nManager: Excellent. Now, if we offered you the job, when could you start?\nDaniel: I could start on the first of next month. I have finished my exams, so I'm free all summer.\nManager: We need people who can work on weekends. Would that be a problem?\nDaniel: Not at all. I prefer weekends, because it is the busiest time, and the day passes quickly.\nManager: I like your attitude. We will make a decision by Friday, and I will call you either way.\nDaniel: Thank you very much. I look forward to hearing from you.",
+  "word_count": 210,
+  "vocabulary": [
+    {
+      "word": "experience",
+      "ipa_us": "ɪkˈspɪriəns",
+      "ipa_uk": "ɪkˈspɪəriəns",
+      "translation_ru": "опыт"
+    },
+    {
+      "word": "customers",
+      "ipa_us": "ˈkʌstəmɚz",
+      "ipa_uk": "ˈkʌstəməz",
+      "translation_ru": "клиенты"
+    },
+    {
+      "word": "stress",
+      "ipa_us": "stres",
+      "ipa_uk": "stres",
+      "translation_ru": "стресс"
+    },
+    {
+      "word": "colleague",
+      "ipa_us": "ˈkɑːliːɡ",
+      "ipa_uk": "ˈkɒliːɡ",
+      "translation_ru": "коллега"
+    },
+    {
+      "word": "offered",
+      "ipa_us": "ˈɔːfɚd",
+      "ipa_uk": "ˈɒfəd",
+      "translation_ru": "предложили"
+    },
+    {
+      "word": "attitude",
+      "ipa_us": "ˈætɪtuːd",
+      "ipa_uk": "ˈætɪtjuːd",
+      "translation_ru": "отношение"
+    },
+    {
+      "word": "decision",
+      "ipa_us": "dɪˈsɪʒən",
+      "ipa_uk": "dɪˈsɪʒən",
+      "translation_ru": "решение"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "really",
+        "start",
+        "prefer",
+        "Friday"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "work",
+        "weekends",
+        "we",
+        "while"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "experience",
+        "if",
+        "will",
+        "busy"
+      ],
+      "tip_ru": "Короткий, расслабленный звук между «и» и «ы»; не растягивайте и не делайте его как русское «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did Daniel work before?",
+      "answer": "In a small coffee bar.",
+      "accepted_keywords": [
+        "coffee",
+        "bar",
+        "café"
+      ]
+    },
+    {
+      "question": "How does Daniel deal with stress?",
+      "answer": "He stays calm and asks a colleague for help.",
+      "accepted_keywords": [
+        "calm",
+        "colleague",
+        "help"
+      ]
+    },
+    {
+      "question": "When will the manager decide?",
+      "answer": "By Friday.",
+      "accepted_keywords": [
+        "friday"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "b1-science-01",
+  "level": "B1",
+  "genre": "science",
+  "title_en": "Why Is the Sky Blue?",
+  "title_ru": "Почему небо голубое?",
+  "description_ru": "Объяснение, как рассеяние солнечного света в атмосфере делает небо синим, а закат красным.",
+  "text": "Every day, we look up at a blue sky, but few people have ever asked why it is blue. The answer lies in the way sunlight travels through the atmosphere.\n\nSunlight looks white, but it is really a mixture of all the colours of the rainbow. Each colour has a different wavelength. Red light has a long wavelength, while blue and violet light have much shorter ones. When sunlight enters the atmosphere, it hits tiny molecules of gas, mostly nitrogen and oxygen. These molecules scatter the light in all directions. This effect is called Rayleigh scattering, after the British scientist who described it in the nineteenth century.\n\nShort waves are scattered much more strongly than long waves. Because of this, blue light is spread across the whole sky, and it reaches our eyes from every direction. Violet light is scattered even more, but the sun gives off less of it, and our eyes are less sensitive to it. That is why we see blue, not violet.\n\nAt sunset, the situation changes. The sun is low, so its light has to travel through a much thicker layer of air. Most of the blue light is scattered away before it reaches us. The light that remains is orange and red, and this is why sunsets look so warm.\n\nIf the Earth had no atmosphere, the sky would be black, even during the day. Astronauts have seen this with their own eyes.",
+  "word_count": 239,
+  "vocabulary": [
+    {
+      "word": "atmosphere",
+      "ipa_us": "ˈætməsfɪr",
+      "ipa_uk": "ˈætməsfɪə",
+      "translation_ru": "атмосфера"
+    },
+    {
+      "word": "mixture",
+      "ipa_us": "ˈmɪkstʃɚ",
+      "ipa_uk": "ˈmɪkstʃə",
+      "translation_ru": "смесь"
+    },
+    {
+      "word": "wavelength",
+      "ipa_us": "ˈweɪvleŋθ",
+      "ipa_uk": "ˈweɪvleŋθ",
+      "translation_ru": "длина волны"
+    },
+    {
+      "word": "molecules",
+      "ipa_us": "ˈmɑːləkjuːlz",
+      "ipa_uk": "ˈmɒlɪkjuːlz",
+      "translation_ru": "молекулы"
+    },
+    {
+      "word": "scatter",
+      "ipa_us": "ˈskætɚ",
+      "ipa_uk": "ˈskætə",
+      "translation_ru": "рассеивать"
+    },
+    {
+      "word": "sensitive",
+      "ipa_us": "ˈsensətɪv",
+      "ipa_uk": "ˈsensətɪv",
+      "translation_ru": "чувствительный"
+    },
+    {
+      "word": "astronauts",
+      "ipa_us": "ˈæstrənɔːts",
+      "ipa_uk": "ˈæstrənɔːts",
+      "translation_ru": "космонавты"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "through",
+        "thick",
+        "nineteenth"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wavelength",
+        "white",
+        "when",
+        "with"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "violet",
+        "very",
+        "even",
+        "travel"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is sunlight a mixture of?",
+      "answer": "All the colours of the rainbow.",
+      "accepted_keywords": [
+        "colours",
+        "colors",
+        "rainbow"
+      ]
+    },
+    {
+      "question": "What is the scientific name for the scattering effect?",
+      "answer": "Rayleigh scattering.",
+      "accepted_keywords": [
+        "rayleigh"
+      ]
+    },
+    {
+      "question": "What colour is the sky without an atmosphere?",
+      "answer": "Black.",
+      "accepted_keywords": [
+        "black"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "a2-biography-05",
+  "level": "A2",
+  "genre": "biography",
+  "title_en": "Frida Kahlo",
+  "title_ru": "Фрида Кало",
+  "description_ru": "Рассказ о мексиканской художнице, которая превратила боль в яркие картины.",
+  "text": "Frida Kahlo was born in 1907 in Mexico City. She lived most of her life in a bright blue house, which is now a museum. When she was six, Frida had an illness called polio, and one of her legs became thinner than the other.\n\nAt the age of eighteen, Frida had a terrible bus accident. She was in bed for many months and could not go out. Her mother gave her paints and put a mirror above her bed. So Frida started to paint herself.\n\nLater, she married a famous painter, Diego Rivera. Frida painted about two hundred pictures, and many of them are self-portraits. She used strong colours and showed her feelings, her pain and her love for Mexico.\n\nFrida Kahlo died in 1954. Today she is one of the most famous artists in the world, and people visit her house to see her work.",
+  "word_count": 146,
+  "vocabulary": [
+    {
+      "word": "illness",
+      "ipa_us": "ˈɪlnəs",
+      "ipa_uk": "ˈɪlnəs",
+      "translation_ru": "болезнь"
+    },
+    {
+      "word": "terrible",
+      "ipa_us": "ˈterəbl",
+      "ipa_uk": "ˈterəbl",
+      "translation_ru": "ужасный"
+    },
+    {
+      "word": "accident",
+      "ipa_us": "ˈæksɪdənt",
+      "ipa_uk": "ˈæksɪdənt",
+      "translation_ru": "авария"
+    },
+    {
+      "word": "mirror",
+      "ipa_us": "ˈmɪrər",
+      "ipa_uk": "ˈmɪrə",
+      "translation_ru": "зеркало"
+    },
+    {
+      "word": "painter",
+      "ipa_us": "ˈpeɪntər",
+      "ipa_uk": "ˈpeɪntə",
+      "translation_ru": "художник"
+    },
+    {
+      "word": "self-portrait",
+      "ipa_us": "ˌselfˈpɔːrtrət",
+      "ipa_uk": "ˌselfˈpɔːtrət",
+      "translation_ru": "автопортрет"
+    },
+    {
+      "word": "feelings",
+      "ipa_us": "ˈfiːlɪŋz",
+      "ipa_uk": "ˈfiːlɪŋz",
+      "translation_ru": "чувства"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziːəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Frida",
+        "terrible"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "illness",
+        "called"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "painted",
+        "eighteen"
+      ],
+      "tip_ru": "Это двойной звук: начните с «э» и плавно скользите к «и»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thinner",
+        "months"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Frida born?",
+      "answer": "In Mexico City.",
+      "accepted_keywords": [
+        "mexico"
+      ]
+    },
+    {
+      "question": "What colour was her house?",
+      "answer": "Blue.",
+      "accepted_keywords": [
+        "blue"
+      ]
+    },
+    {
+      "question": "What did she do in bed?",
+      "answer": "She painted.",
+      "accepted_keywords": [
+        "paint",
+        "painted",
+        "painting"
+      ]
+    },
+    {
+      "question": "Who was her husband?",
+      "answer": "Diego Rivera.",
+      "accepted_keywords": [
+        "diego",
+        "rivera"
+      ]
+    }
+  ]
+}

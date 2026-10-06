@@ -1,0 +1,128 @@
+{
+  "id": "a2-opinion-03",
+  "level": "A2",
+  "genre": "opinion",
+  "title_en": "Cycling to Work",
+  "title_ru": "На работу на велосипеде",
+  "description_ru": "Автор рассказывает, почему велосипед лучше машины в городе.",
+  "text": "Last year, I stopped driving to work and bought a bicycle. Now I think everybody in the city should try it.\n\nFirst, cycling is faster than driving. In the morning, the traffic is terrible. Cars stand in long lines for twenty minutes, but I ride past them and arrive in fifteen minutes.\n\nSecond, it is healthier. I do not have time for the gym, but every day I exercise on the way to work. I feel stronger and more awake than before.\n\nThird, it is cheaper. A bicycle does not need petrol, and parking is free. I saved a lot of money this year.\n\nOf course, cycling is not perfect. When it rains, you get wet, and in winter it is cold. Sometimes drivers are not careful, so I always wear a helmet. But I believe that the good things are more important than the bad things.",
+  "word_count": 147,
+  "vocabulary": [
+    {
+      "word": "bicycle",
+      "ipa_us": "ˈbaɪsɪkl",
+      "ipa_uk": "ˈbaɪsɪkl",
+      "translation_ru": "велосипед"
+    },
+    {
+      "word": "traffic",
+      "ipa_us": "ˈtræfɪk",
+      "ipa_uk": "ˈtræfɪk",
+      "translation_ru": "дорожное движение"
+    },
+    {
+      "word": "arrive",
+      "ipa_us": "əˈraɪv",
+      "ipa_uk": "əˈraɪv",
+      "translation_ru": "прибывать"
+    },
+    {
+      "word": "healthier",
+      "ipa_us": "ˈhelθiər",
+      "ipa_uk": "ˈhelθiə",
+      "translation_ru": "здоровее"
+    },
+    {
+      "word": "exercise",
+      "ipa_us": "ˈeksərsaɪz",
+      "ipa_uk": "ˈeksəsaɪz",
+      "translation_ru": "заниматься спортом"
+    },
+    {
+      "word": "petrol",
+      "ipa_us": "ˈpetrəl",
+      "ipa_uk": "ˈpetrəl",
+      "translation_ru": "бензин"
+    },
+    {
+      "word": "careful",
+      "ipa_us": "ˈkerfl",
+      "ipa_uk": "ˈkeəfl",
+      "translation_ru": "осторожный"
+    },
+    {
+      "word": "helmet",
+      "ipa_us": "ˈhelmət",
+      "ipa_uk": "ˈhelmət",
+      "translation_ru": "шлем"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "drivers"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "ride",
+        "terrible"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "healthier"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "ride",
+        "time"
+      ],
+      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How did the writer go to work before?",
+      "answer": "By car.",
+      "accepted_keywords": [
+        "car",
+        "driving"
+      ]
+    },
+    {
+      "question": "How long does the journey take by bicycle?",
+      "answer": "Fifteen minutes.",
+      "accepted_keywords": [
+        "fifteen",
+        "15"
+      ]
+    },
+    {
+      "question": "Why is cycling cheaper?",
+      "answer": "It does not need petrol and parking is free.",
+      "accepted_keywords": [
+        "petrol",
+        "parking",
+        "free"
+      ]
+    },
+    {
+      "question": "What does the writer wear?",
+      "answer": "A helmet.",
+      "accepted_keywords": [
+        "helmet"
+      ]
+    }
+  ]
+}

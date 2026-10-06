@@ -1,0 +1,128 @@
+{
+  "id": "a2-story-04",
+  "level": "A2",
+  "genre": "story",
+  "title_en": "The Lighthouse Keeper",
+  "title_ru": "Смотритель маяка",
+  "description_ru": "Мальчик Тео проводит лето у дедушки-смотрителя маяка и узнаёт, зачем нужен свет.",
+  "text": "Theo spent the summer with his grandfather, who worked at a lighthouse on a rocky island. Theo thought the job was boring, but he changed his mind on the third night.\n\nA big storm came from the north. The wind was louder than a train, and the waves were higher than the house. \"Quick, Theo,\" shouted his grandfather. \"We must check the lamp!\"\n\nThey climbed ninety-nine steps to the top. The lamp was still working, and its light moved slowly across the dark sea. Far away, Theo saw a small fishing boat. The sailors needed the light to find the rocks and the harbour.\n\nIn the morning, the boat arrived safely. A tired sailor shook the old man's hand and said thank you. Theo understood then that his grandfather's job was not boring at all. It was important, and one day he wanted to do it too.",
+  "word_count": 148,
+  "vocabulary": [
+    {
+      "word": "lighthouse",
+      "ipa_us": "ˈlaɪthaʊs",
+      "ipa_uk": "ˈlaɪthaʊs",
+      "translation_ru": "маяк"
+    },
+    {
+      "word": "island",
+      "ipa_us": "ˈaɪlənd",
+      "ipa_uk": "ˈaɪlənd",
+      "translation_ru": "остров"
+    },
+    {
+      "word": "storm",
+      "ipa_us": "stɔrm",
+      "ipa_uk": "stɔːm",
+      "translation_ru": "шторм"
+    },
+    {
+      "word": "louder",
+      "ipa_us": "ˈlaʊdər",
+      "ipa_uk": "ˈlaʊdə",
+      "translation_ru": "громче"
+    },
+    {
+      "word": "waves",
+      "ipa_us": "weɪvz",
+      "ipa_uk": "weɪvz",
+      "translation_ru": "волны"
+    },
+    {
+      "word": "harbour",
+      "ipa_us": "ˈhɑrbər",
+      "ipa_uk": "ˈhɑːbə",
+      "translation_ru": "гавань"
+    },
+    {
+      "word": "sailor",
+      "ipa_us": "ˈseɪlər",
+      "ipa_uk": "ˈseɪlə",
+      "translation_ru": "моряк"
+    },
+    {
+      "word": "important",
+      "ipa_us": "ɪmˈpɔrtənt",
+      "ipa_uk": "ɪmˈpɔːtənt",
+      "translation_ru": "важный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "Theo",
+        "third",
+        "thought",
+        "thank",
+        "north"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "worked",
+        "wind",
+        "waves",
+        "was",
+        "working"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "his",
+        "house",
+        "higher",
+        "harbour",
+        "hand"
+      ],
+      "tip_ru": "Выдыхайте воздух из горла без напряжения, как будто согреваете руки; не русское «х»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did Theo's grandfather work?",
+      "answer": "At a lighthouse.",
+      "accepted_keywords": [
+        "lighthouse"
+      ]
+    },
+    {
+      "question": "What came from the north?",
+      "answer": "A big storm.",
+      "accepted_keywords": [
+        "storm"
+      ]
+    },
+    {
+      "question": "How many steps did they climb?",
+      "answer": "Ninety-nine.",
+      "accepted_keywords": [
+        "ninety",
+        "99"
+      ]
+    },
+    {
+      "question": "Why did sailors need the light?",
+      "answer": "To find the rocks and the harbour.",
+      "accepted_keywords": [
+        "rocks",
+        "harbour",
+        "find"
+      ]
+    }
+  ]
+}

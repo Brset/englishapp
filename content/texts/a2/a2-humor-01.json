@@ -1,0 +1,125 @@
+{
+  "id": "a2-humor-01",
+  "level": "A2",
+  "genre": "humor",
+  "title_en": "The Talking Parrot",
+  "title_ru": "Говорящий попугай",
+  "description_ru": "Смешная история о попугае, который повторял всё, что слышал дома.",
+  "text": "My uncle Victor had a parrot called Max. Max was very clever, and he could say about fifty words. The problem was that he repeated everything he heard.\n\nOne day, my aunt had a visitor at home. She was a very serious woman from the bank. My aunt wanted to make a good impression, so she put on her best dress and made a lovely cake.\n\nThe visitor sat down and started to talk about money. Suddenly, Max shouted, \"Where are my keys? Where are my keys?\" That was my uncle's voice! Everybody laughed.\n\nThen Max said, \"Not this cake again!\" The visitor looked at my aunt, and my aunt turned red.\n\nAfter that day, my aunt always covered the cage with a blanket when guests came. \"Parrots do not need to hear everything,\" she said. Max did not agree. From under the blanket, he whispered, \"Not this cake again!\"",
+  "word_count": 150,
+  "vocabulary": [
+    {
+      "word": "parrot",
+      "ipa_us": "ˈpærət",
+      "ipa_uk": "ˈpærət",
+      "translation_ru": "попугай"
+    },
+    {
+      "word": "repeated",
+      "ipa_us": "rɪˈpiːtɪd",
+      "ipa_uk": "rɪˈpiːtɪd",
+      "translation_ru": "повторял"
+    },
+    {
+      "word": "visitor",
+      "ipa_us": "ˈvɪzɪtər",
+      "ipa_uk": "ˈvɪzɪtə",
+      "translation_ru": "гость"
+    },
+    {
+      "word": "serious",
+      "ipa_us": "ˈsɪriəs",
+      "ipa_uk": "ˈsɪəriəs",
+      "translation_ru": "серьёзный"
+    },
+    {
+      "word": "impression",
+      "ipa_us": "ɪmˈpreʃn",
+      "ipa_uk": "ɪmˈpreʃn",
+      "translation_ru": "впечатление"
+    },
+    {
+      "word": "suddenly",
+      "ipa_us": "ˈsʌdnli",
+      "ipa_uk": "ˈsʌdnli",
+      "translation_ru": "вдруг"
+    },
+    {
+      "word": "cage",
+      "ipa_us": "keɪdʒ",
+      "ipa_uk": "keɪdʒ",
+      "translation_ru": "клетка"
+    },
+    {
+      "word": "whispered",
+      "ipa_us": "ˈwɪspərd",
+      "ipa_uk": "ˈwɪspəd",
+      "translation_ru": "прошептал"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "very"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "woman",
+        "where"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "parrot",
+        "repeated"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "that",
+        "everything"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the parrot's name?",
+      "answer": "Max.",
+      "accepted_keywords": [
+        "max"
+      ]
+    },
+    {
+      "question": "Who visited the aunt?",
+      "answer": "A woman from the bank.",
+      "accepted_keywords": [
+        "woman",
+        "bank"
+      ]
+    },
+    {
+      "question": "What did Max shout first?",
+      "answer": "Where are my keys?",
+      "accepted_keywords": [
+        "keys"
+      ]
+    },
+    {
+      "question": "What did the aunt put over the cage?",
+      "answer": "A blanket.",
+      "accepted_keywords": [
+        "blanket"
+      ]
+    }
+  ]
+}

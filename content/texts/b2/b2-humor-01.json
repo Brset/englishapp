@@ -1,0 +1,134 @@
+{
+  "id": "b2-humor-01",
+  "level": "B2",
+  "genre": "humor",
+  "title_en": "The Satnav Who Knew Best",
+  "title_ru": "Навигатор, который знал лучше",
+  "description_ru": "Юмористический рассказ о семейной поездке, в которой навигатор и отец спорят о маршруте.",
+  "text": "My father has a rule: he never asks for directions. Forty years of marriage, three countries and one very embarrassing afternoon in a farmyard have not changed it. So when my mother bought him a satnav for his birthday, we all thought the problem was solved. We were wrong. The problem had simply gained a voice.\n\nLast summer we drove to my cousin's wedding, a trip that should have taken two hours. The satnav, which my mother had named Gwendolyn, spoke in a calm, polite British accent. \"In four hundred metres, turn left,\" she said. My father, who was convinced that he knew a shortcut, turned right. \"Recalculating,\" said Gwendolyn, in a tone that suggested she was already disappointed.\n\nTen minutes later, the same thing happened again. \"Turn around when possible,\" she said. \"Nonsense,\" said my father. \"She does not understand the local roads.\" I should mention that we were by then driving through a field, following a tractor that was going nowhere in particular.\n\nMy mother, who had been quiet until then, finally spoke. \"Henry,\" she said, \"you are arguing with a machine, and you are losing.\" Father insisted that he was not arguing, only offering the satnav some helpful advice. Gwendolyn, as if she had heard him, announced, \"You have missed your turning. Please make a legal U-turn.\" There was a long silence in the car. Even the dog, who was asleep on the back seat, seemed to be embarrassed.\n\nIn the end, we arrived at the church forty minutes late, just as the bride was walking in. Father, who had decided to run the last hundred metres, appeared in the doorway with a muddy shoe and a bunch of grass on his jacket. The priest looked at him, and my cousin burst out laughing.\n\nOn the way home my father was unusually thoughtful. Around nine o'clock, he finally turned down the volume. \"Perhaps,\" he said, \"we should ask someone next time.\" My mother smiled and patted his arm. \"Henry, dear,\" she said, \"that is the first sensible thing you have said all day.\" Gwendolyn, naturally, had the last word: \"You have reached your destination.\"\n\nNaturally, we have never let him forget it.",
+  "vocabulary": [
+    {
+      "word": "satnav",
+      "ipa_us": "ˈsætnæv",
+      "ipa_uk": "ˈsætnæv",
+      "translation_ru": "навигатор"
+    },
+    {
+      "word": "embarrassing",
+      "ipa_us": "ɪmˈbɛrəsɪŋ",
+      "ipa_uk": "ɪmˈbærəsɪŋ",
+      "translation_ru": "неловкий"
+    },
+    {
+      "word": "shortcut",
+      "ipa_us": "ˈʃɔrtˌkʌt",
+      "ipa_uk": "ˈʃɔːtkʌt",
+      "translation_ru": "короткий путь"
+    },
+    {
+      "word": "recalculating",
+      "ipa_us": "riˈkælkjəˌleɪtɪŋ",
+      "ipa_uk": "riːˈkælkjʊleɪtɪŋ",
+      "translation_ru": "пересчитываю"
+    },
+    {
+      "word": "disappointed",
+      "ipa_us": "ˌdɪsəˈpɔɪntɪd",
+      "ipa_uk": "ˌdɪsəˈpɔɪntɪd",
+      "translation_ru": "разочарованный"
+    },
+    {
+      "word": "tractor",
+      "ipa_us": "ˈtræktər",
+      "ipa_uk": "ˈtræktə",
+      "translation_ru": "трактор"
+    },
+    {
+      "word": "nonsense",
+      "ipa_us": "ˈnɑnsɛns",
+      "ipa_uk": "ˈnɒnsəns",
+      "translation_ru": "ерунда"
+    },
+    {
+      "word": "destination",
+      "ipa_us": "ˌdɛstəˈneɪʃən",
+      "ipa_uk": "ˌdestɪˈneɪʃən",
+      "translation_ru": "пункт назначения"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wedding",
+        "were",
+        "wrong",
+        "was"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "right",
+        "roads",
+        "rule",
+        "Recalculating"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "Father",
+        "there"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "satnav",
+        "tractor",
+        "back",
+        "happened"
+      ],
+      "tip_ru": "Откройте рот шире, чем для «э», язык у нижних зубов; звук между «а» и «э»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the father's rule?",
+      "answer": "He never asks for directions.",
+      "accepted_keywords": [
+        "never",
+        "directions"
+      ]
+    },
+    {
+      "question": "What did the mother name the satnav?",
+      "answer": "Gwendolyn.",
+      "accepted_keywords": [
+        "gwendolyn"
+      ]
+    },
+    {
+      "question": "What was the family driving through when they got lost?",
+      "answer": "A field.",
+      "accepted_keywords": [
+        "field"
+      ]
+    },
+    {
+      "question": "What did the father say at the end?",
+      "answer": "They should ask someone next time.",
+      "accepted_keywords": [
+        "ask",
+        "someone"
+      ]
+    }
+  ],
+  "word_count": 361
+}

@@ -1,0 +1,126 @@
+{
+  "id": "a2-science-04",
+  "level": "A2",
+  "genre": "science",
+  "title_en": "How Volcanoes Work",
+  "title_ru": "Как работают вулканы",
+  "description_ru": "Что происходит внутри вулкана и почему лава бывает опасной, но полезной.",
+  "text": "Deep under the ground, the rock is so hot that it becomes liquid. This hot liquid rock is called magma. Magma is lighter than the rock around it, so it slowly moves up.\n\nWhen the magma finds a way to the surface, a volcano erupts. Gas, ash and hot rock come out of the top with a loud noise. Outside the volcano, we call the magma lava. Lava can be as hot as one thousand degrees, and it moves down the mountain like a slow river.\n\nVolcanoes are dangerous, but they are useful, too. Ash makes the soil rich, so farmers grow excellent vegetables near volcanoes. In some countries, like Iceland, people use the heat from under the ground to warm their houses.\n\nScientists watch many volcanoes every day. They measure small earthquakes and check the gas. Thanks to this work, they can often warn people before an eruption.",
+  "word_count": 149,
+  "vocabulary": [
+    {
+      "word": "liquid",
+      "ipa_us": "ˈlɪkwɪd",
+      "ipa_uk": "ˈlɪkwɪd",
+      "translation_ru": "жидкость"
+    },
+    {
+      "word": "magma",
+      "ipa_us": "ˈmæɡmə",
+      "ipa_uk": "ˈmæɡmə",
+      "translation_ru": "магма"
+    },
+    {
+      "word": "surface",
+      "ipa_us": "ˈsɜrfɪs",
+      "ipa_uk": "ˈsɜːfɪs",
+      "translation_ru": "поверхность"
+    },
+    {
+      "word": "erupts",
+      "ipa_us": "ɪˈrʌpts",
+      "ipa_uk": "ɪˈrʌpts",
+      "translation_ru": "извергается"
+    },
+    {
+      "word": "lava",
+      "ipa_us": "ˈlɑvə",
+      "ipa_uk": "ˈlɑːvə",
+      "translation_ru": "лава"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "soil",
+      "ipa_us": "sɔɪl",
+      "ipa_uk": "sɔɪl",
+      "translation_ru": "почва"
+    },
+    {
+      "word": "earthquakes",
+      "ipa_us": "ˈɜrθkweɪks",
+      "ipa_uk": "ˈɜːθkweɪks",
+      "translation_ru": "землетрясения"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "volcano",
+        "volcanoes",
+        "vegetables"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rock",
+        "river",
+        "rich",
+        "grow",
+        "around"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "Thanks",
+        "earthquakes",
+        "the",
+        "that",
+        "this"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is hot liquid rock under the ground called?",
+      "answer": "Magma.",
+      "accepted_keywords": [
+        "magma"
+      ]
+    },
+    {
+      "question": "What do we call magma outside the volcano?",
+      "answer": "Lava.",
+      "accepted_keywords": [
+        "lava"
+      ]
+    },
+    {
+      "question": "Why do farmers like volcanoes?",
+      "answer": "Ash makes the soil rich.",
+      "accepted_keywords": [
+        "ash",
+        "soil",
+        "rich"
+      ]
+    },
+    {
+      "question": "What do people in Iceland use?",
+      "answer": "Heat from under the ground.",
+      "accepted_keywords": [
+        "heat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "a1-humor-02",
+  "level": "A1",
+  "genre": "humor",
+  "title_en": "My Bad Cooking",
+  "title_ru": "Моя ужасная стряпня",
+  "description_ru": "Автор рассказывает о своём неудачном обеде.",
+  "text": "I want to cook dinner for my wife. I make soup. I put in carrots, potatoes and onions. Then I add salt. Maybe a little more salt. And a little more.\n\nMy wife comes home. She tastes the soup. Her face goes red, then green. \"Is it good?\" I ask. \"It is very interesting,\" she says. That is not a good sign.\n\nThen our dog tastes it. He looks at me, and he goes to the door. He wants to go out. I think he wants to call a restaurant!\n\nNow my wife cooks dinner and I wash the dishes. That is my plan, I think.",
+  "word_count": 106,
+  "vocabulary": [
+    {
+      "word": "cook",
+      "ipa_us": "kʊk",
+      "ipa_uk": "kʊk",
+      "translation_ru": "готовить"
+    },
+    {
+      "word": "carrot",
+      "ipa_us": "ˈkærət",
+      "ipa_uk": "ˈkærət",
+      "translation_ru": "морковь"
+    },
+    {
+      "word": "potato",
+      "ipa_us": "pəˈteɪtoʊ",
+      "ipa_uk": "pəˈteɪtəʊ",
+      "translation_ru": "картошка"
+    },
+    {
+      "word": "onion",
+      "ipa_us": "ˈʌnjən",
+      "ipa_uk": "ˈʌnjən",
+      "translation_ru": "лук"
+    },
+    {
+      "word": "salt",
+      "ipa_us": "sɔlt",
+      "ipa_uk": "sɔːlt",
+      "translation_ru": "соль"
+    },
+    {
+      "word": "taste",
+      "ipa_us": "teɪst",
+      "ipa_uk": "teɪst",
+      "translation_ru": "пробовать"
+    },
+    {
+      "word": "sign",
+      "ipa_us": "saɪn",
+      "ipa_uk": "saɪn",
+      "translation_ru": "знак"
+    },
+    {
+      "word": "restaurant",
+      "ipa_us": "ˈrɛstərɑnt",
+      "ipa_uk": "ˈrestrɒnt",
+      "translation_ru": "ресторан"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wife",
+        "want",
+        "wash"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "restaurant",
+        "green"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "ʊ",
+      "examples": [
+        "cook",
+        "good",
+        "looks"
+      ],
+      "tip_ru": "Долгий «у» с округлёнными губами; в коротком ʊ губы расслаблены."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "Then",
+        "the"
+      ],
+      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the writer cook?",
+      "answer": "Soup.",
+      "accepted_keywords": [
+        "soup"
+      ]
+    },
+    {
+      "question": "What does the writer put in too much?",
+      "answer": "Salt.",
+      "accepted_keywords": [
+        "salt"
+      ]
+    },
+    {
+      "question": "What does the wife say about the soup?",
+      "answer": "It is very interesting.",
+      "accepted_keywords": [
+        "interesting"
+      ]
+    },
+    {
+      "question": "Who cooks dinner now?",
+      "answer": "The wife.",
+      "accepted_keywords": [
+        "wife"
+      ]
+    }
+  ]
+}

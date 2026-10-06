@@ -1,0 +1,137 @@
+{
+  "id": "b2-opinion-03",
+  "level": "B2",
+  "genre": "opinion",
+  "title_en": "Cars Out of the City Centre",
+  "title_ru": "Автомобили вон из центра города",
+  "description_ru": "Рассуждение о том, почему центры городов стоит закрыть для личного транспорта, на примере Осло и Копенгагена.",
+  "text": "If you have ever tried to cross a busy city centre during the rush hour, you will know the feeling: noise, exhaust fumes and an endless river of cars moving slower than a person could walk. I believe that the time has come for cities to close their centres to private cars, and I want to explain why this is not as radical as it sounds.\n\nConsider what has already happened in cities such as Oslo and Copenhagen. Oslo removed hundreds of parking spaces from its centre and replaced them with bike lanes, benches and small parks. It was predicted that shops would lose customers and go out of business. The opposite happened: more people walked past the windows, and many owners said that trade had improved. Pedestrians, it turns out, spend more time in an area than drivers do, and they notice what is on sale.\n\nThe health benefits are equally clear. Traffic is a major source of air pollution, which has been linked to asthma and heart disease. Fewer cars also mean fewer accidents and a much quieter environment, which is good for everyone, particularly children and the elderly.\n\nOpponents argue that people with disabilities, delivery drivers and residents would suffer. That is a serious concern, but it can be addressed with permits, special lanes and electric delivery vans. Nobody is suggesting that ambulances should be stopped at the border. Others complain that public transport is not good enough. That is true in many places, and it is exactly why the money saved from road maintenance should be invested in trams, buses and trains.\n\nThere is also a more emotional argument. A city is not just a place to travel through; it is a place to live. When a street becomes a square with cafés and street musicians, it begins to feel like a community rather than a car park.\n\nChange is never easy, and the first months are usually met with anger. But once people get used to it, hardly anyone wants to go back. It is time to take the plunge.",
+  "vocabulary": [
+    {
+      "word": "exhaust fumes",
+      "ipa_us": "ɪɡˈzɔst fjumz",
+      "ipa_uk": "ɪɡˈzɔːst fjuːmz",
+      "translation_ru": "выхлопные газы"
+    },
+    {
+      "word": "radical",
+      "ipa_us": "ˈrædɪkəl",
+      "ipa_uk": "ˈrædɪkəl",
+      "translation_ru": "радикальный"
+    },
+    {
+      "word": "pedestrians",
+      "ipa_us": "pəˈdɛstriənz",
+      "ipa_uk": "pəˈdestriənz",
+      "translation_ru": "пешеходы"
+    },
+    {
+      "word": "pollution",
+      "ipa_us": "pəˈluʃən",
+      "ipa_uk": "pəˈluːʃən",
+      "translation_ru": "загрязнение"
+    },
+    {
+      "word": "permits",
+      "ipa_us": "ˈpɜrmɪts",
+      "ipa_uk": "ˈpɜːmɪts",
+      "translation_ru": "разрешения, пропуска"
+    },
+    {
+      "word": "maintenance",
+      "ipa_us": "ˈmeɪntənəns",
+      "ipa_uk": "ˈmeɪntənəns",
+      "translation_ru": "обслуживание"
+    },
+    {
+      "word": "invested",
+      "ipa_us": "ɪnˈvɛstɪd",
+      "ipa_uk": "ɪnˈvestɪd",
+      "translation_ru": "вложены"
+    },
+    {
+      "word": "community",
+      "ipa_us": "kəˈmjunəti",
+      "ipa_uk": "kəˈmjuːnəti",
+      "translation_ru": "сообщество"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rush",
+        "river",
+        "radical",
+        "road"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "private",
+        "vans",
+        "invested"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walk",
+        "windows",
+        "wants"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "that",
+        "the",
+        "there",
+        "rather"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which two cities does the author mention?",
+      "answer": "Oslo and Copenhagen.",
+      "accepted_keywords": [
+        "oslo",
+        "copenhagen"
+      ]
+    },
+    {
+      "question": "What happened to shops after Oslo removed parking spaces?",
+      "answer": "Trade improved.",
+      "accepted_keywords": [
+        "improved",
+        "trade",
+        "better"
+      ]
+    },
+    {
+      "question": "What diseases are linked to air pollution?",
+      "answer": "Asthma and heart disease.",
+      "accepted_keywords": [
+        "asthma",
+        "heart"
+      ]
+    },
+    {
+      "question": "How does the author suggest solving the problems of delivery drivers and disabled people?",
+      "answer": "With permits, special lanes and electric vans.",
+      "accepted_keywords": [
+        "permits",
+        "lanes",
+        "electric",
+        "vans"
+      ]
+    }
+  ],
+  "word_count": 346
+}

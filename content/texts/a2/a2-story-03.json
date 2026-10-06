@@ -1,0 +1,129 @@
+{
+  "id": "a2-story-03",
+  "level": "A2",
+  "genre": "story",
+  "title_en": "The Last Train",
+  "title_ru": "Последний поезд",
+  "description_ru": "Рита опаздывает на последний поезд и знакомится со странным попутчиком. Короткая ночная история.",
+  "text": "Rita ran along the platform, but the last train was already leaving. She was tired, wet and very angry. It was half past eleven, and her village was forty kilometres away.\n\nAn old man with a grey hat was sitting on a bench. \"Don't worry,\" he said with a smile. \"There is another train at midnight. It is a slow one, but it is warm.\" Rita was surprised. She looked at the timetable, and he was right.\n\nThey waited together and drank hot tea from his small bottle. The old man told her about his job. Thirty years ago, he was a train driver, and he drove through the mountains every night. \"The best view in the world,\" he said.\n\nThe midnight train arrived, and Rita climbed in. Through the window, she watched the old man wave his hat. Next week, she was going to come back and bring him some cake.",
+  "word_count": 152,
+  "vocabulary": [
+    {
+      "word": "platform",
+      "ipa_us": "ˈplætfɔrm",
+      "ipa_uk": "ˈplætfɔːm",
+      "translation_ru": "платформа"
+    },
+    {
+      "word": "angry",
+      "ipa_us": "ˈæŋɡri",
+      "ipa_uk": "ˈæŋɡri",
+      "translation_ru": "сердитый"
+    },
+    {
+      "word": "kilometres",
+      "ipa_us": "kɪˈlɑmɪtərz",
+      "ipa_uk": "ˈkɪləmiːtəz",
+      "translation_ru": "километры"
+    },
+    {
+      "word": "timetable",
+      "ipa_us": "ˈtaɪmteɪbəl",
+      "ipa_uk": "ˈtaɪmteɪbəl",
+      "translation_ru": "расписание"
+    },
+    {
+      "word": "thirty",
+      "ipa_us": "ˈθɜrti",
+      "ipa_uk": "ˈθɜːti",
+      "translation_ru": "тридцать"
+    },
+    {
+      "word": "driver",
+      "ipa_us": "ˈdraɪvər",
+      "ipa_uk": "ˈdraɪvə",
+      "translation_ru": "водитель"
+    },
+    {
+      "word": "mountains",
+      "ipa_us": "ˈmaʊntənz",
+      "ipa_uk": "ˈmaʊntɪnz",
+      "translation_ru": "горы"
+    },
+    {
+      "word": "midnight",
+      "ipa_us": "ˈmɪdnaɪt",
+      "ipa_uk": "ˈmɪdnaɪt",
+      "translation_ru": "полночь"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "together",
+        "There",
+        "another",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "wet",
+        "world",
+        "window",
+        "waited",
+        "week"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Rita",
+        "ran",
+        "train",
+        "driver",
+        "right"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why was Rita angry?",
+      "answer": "She missed the last train.",
+      "accepted_keywords": [
+        "missed",
+        "train"
+      ]
+    },
+    {
+      "question": "Who did she meet?",
+      "answer": "An old man with a grey hat.",
+      "accepted_keywords": [
+        "man",
+        "old"
+      ]
+    },
+    {
+      "question": "What was the old man's job thirty years ago?",
+      "answer": "He was a train driver.",
+      "accepted_keywords": [
+        "driver",
+        "train"
+      ]
+    },
+    {
+      "question": "What is Rita going to bring next week?",
+      "answer": "Some cake.",
+      "accepted_keywords": [
+        "cake"
+      ]
+    }
+  ]
+}

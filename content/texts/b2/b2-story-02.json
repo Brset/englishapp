@@ -1,0 +1,142 @@
+{
+  "id": "b2-story-02",
+  "level": "B2",
+  "genre": "story",
+  "title_en": "The Missed Train",
+  "title_ru": "Опоздавший поезд",
+  "description_ru": "Мужчина опаздывает на важное собеседование, но неожиданная встреча на вокзале меняет его планы.",
+  "text": "Daniel had been told three times not to be late. The interview was at ten o'clock in Manchester, the job was exactly what he wanted, and the train was supposed to leave at 7:42. But when he finally reached the platform, breathless and red in the face, he saw the last carriage disappearing around the bend.\n\n\"You must be joking,\" he muttered.\n\nA woman standing nearby, holding a cup of coffee, gave him a sympathetic look. \"It was announced ten minutes ago that this one was leaving early,\" she said. \"Apparently the driver wanted to beat the rain.\"\n\nDaniel checked the timetable. The next train would not arrive until nine, which meant he would be late. He sat on a bench and put his head in his hands. The woman sat beside him and asked what was wrong. He explained everything, and she listened carefully.\n\n\"Where exactly is the interview?\" she asked. When he told her the address, she smiled. \"That's on my way. I'm driving there in five minutes, and I was going to offer someone a lift anyway. My brother cancelled on me this morning.\"\n\nDaniel could hardly believe his luck. At first he wondered whether it was safe to accept, but she showed him her work badge and called her colleague to confirm that she was really who she claimed to be. Ten minutes later they were on the motorway, and the rain had started to fall.\n\nThey talked the whole way. She told him that she worked for the same company, in a different department, and that she had been to many interviews herself. \"The secret,\" she said, \"is to stay calm and to say what you really think.\"\n\nThey arrived with twenty minutes to spare. Daniel thanked her warmly and walked into the building feeling surprisingly confident.\n\nHe got the job. On his first day, he discovered that the woman from the platform was the manager of his new team. She grinned at him across the room and said, \"Better late than never, isn't it?\"",
+  "word_count": 339,
+  "vocabulary": [
+    {
+      "word": "platform",
+      "ipa_us": "ˈplætfɔrm",
+      "ipa_uk": "ˈplætfɔːm",
+      "translation_ru": "платформа"
+    },
+    {
+      "word": "breathless",
+      "ipa_us": "ˈbrɛθləs",
+      "ipa_uk": "ˈbreθləs",
+      "translation_ru": "запыхавшийся"
+    },
+    {
+      "word": "sympathetic",
+      "ipa_us": "ˌsɪmpəˈθɛtɪk",
+      "ipa_uk": "ˌsɪmpəˈθetɪk",
+      "translation_ru": "сочувствующий"
+    },
+    {
+      "word": "announced",
+      "ipa_us": "əˈnaʊnst",
+      "ipa_uk": "əˈnaʊnst",
+      "translation_ru": "объявлено"
+    },
+    {
+      "word": "timetable",
+      "ipa_us": "ˈtaɪmˌteɪbəl",
+      "ipa_uk": "ˈtaɪmˌteɪbəl",
+      "translation_ru": "расписание"
+    },
+    {
+      "word": "lift",
+      "ipa_us": "lɪft",
+      "ipa_uk": "lɪft",
+      "translation_ru": "подвезти"
+    },
+    {
+      "word": "colleague",
+      "ipa_us": "ˈkɑliɡ",
+      "ipa_uk": "ˈkɒliːɡ",
+      "translation_ru": "коллега"
+    },
+    {
+      "word": "confirm",
+      "ipa_us": "kənˈfɜrm",
+      "ipa_uk": "kənˈfɜːm",
+      "translation_ru": "подтвердить"
+    },
+    {
+      "word": "motorway",
+      "ipa_us": "ˈmoʊtərˌweɪ",
+      "ipa_uk": "ˈməʊtəweɪ",
+      "translation_ru": "автомагистраль"
+    },
+    {
+      "word": "confident",
+      "ipa_us": "ˈkɑnfɪdənt",
+      "ipa_uk": "ˈkɒnfɪdənt",
+      "translation_ru": "уверенный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "breathless",
+        "thanked"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was supposed",
+        "where",
+        "wondered",
+        "work"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "driver",
+        "really"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "driver",
+        "discovered",
+        "motorway"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was the interview?",
+      "answer": "In Manchester.",
+      "accepted_keywords": [
+        "manchester"
+      ]
+    },
+    {
+      "question": "Why did Daniel miss the train?",
+      "answer": "It left early.",
+      "accepted_keywords": [
+        "early",
+        "left"
+      ]
+    },
+    {
+      "question": "Who offered Daniel a lift?",
+      "answer": "A woman from the platform.",
+      "accepted_keywords": [
+        "woman"
+      ]
+    },
+    {
+      "question": "Who was the woman on his first day?",
+      "answer": "The manager of his new team.",
+      "accepted_keywords": [
+        "manager"
+      ]
+    }
+  ]
+}

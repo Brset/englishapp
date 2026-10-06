@@ -1,0 +1,135 @@
+{
+  "id": "b2-humor-03",
+  "level": "B2",
+  "genre": "humor",
+  "title_en": "Raining Cats and Dogs",
+  "title_ru": "Льёт как из ведра",
+  "description_ru": "Забавная история о коллеге-иностранце, который понимал английские идиомы буквально.",
+  "text": "When my colleague Henrik moved from Sweden to our London office, his English was excellent. It was better than mine, in fact, which was a little annoying. He knew every grammar rule and had never confused \"fewer\" with \"less\". But nobody had warned him about our idioms, and that is where the trouble began.\n\nOn his first Monday, our manager told him, \"Don't worry, we'll break the ice with a team lunch.\" Henrik looked alarmed and asked whether he should bring a hammer. Later that morning, a colleague said she was snowed under with work. Henrik, who had noticed that it was a warm September day, politely enquired whether she needed help finding her coat.\n\nThe week went on. When I told him that the presentation was a piece of cake, he asked where the cake was. When someone said that it was raining cats and dogs, he rushed to the window to see the animals. \"I am disappointed,\" he told me afterwards. \"Only water.\" I explained that it just meant heavy rain, and he wrote it in a notebook that he carries everywhere, under a heading called \"Strange English Behaviour\".\n\nMeanwhile, we were learning from him too. He explained that in Swedish, people say that something is \"not my cup of tea\" in a different way: it is \"not my cup of coffee\", which seemed to us much more reasonable. He also taught us that we use the word \"sorry\" about forty times a day, which he found hard to believe, until he counted. His total on the first Friday was a hundred and twelve.\n\nThe best moment came at the end of the month. Our boss was in a very bad mood after a failed meeting, and he turned to Henrik and said, \"Well, you have really let the cat out of the bag.\" Henrik looked around the room, completely calm. \"Which cat?\" he asked. \"I have not seen one since Tuesday.\" There was a pause, and then the whole office burst out laughing, including the boss.\n\nHenrik has now been with us for a year, and he uses idioms better than anyone I know. Yesterday he told me that I was \"barking up the wrong tree\" about the new project. The painful thing is that he was right.",
+  "vocabulary": [
+    {
+      "word": "idioms",
+      "ipa_us": "ˈɪdiəmz",
+      "ipa_uk": "ˈɪdiəmz",
+      "translation_ru": "идиомы"
+    },
+    {
+      "word": "annoying",
+      "ipa_us": "əˈnɔɪɪŋ",
+      "ipa_uk": "əˈnɔɪɪŋ",
+      "translation_ru": "раздражающий"
+    },
+    {
+      "word": "alarmed",
+      "ipa_us": "əˈlɑrmd",
+      "ipa_uk": "əˈlɑːmd",
+      "translation_ru": "встревоженный"
+    },
+    {
+      "word": "enquired",
+      "ipa_us": "ɪnˈkwaɪrd",
+      "ipa_uk": "ɪnˈkwaɪəd",
+      "translation_ru": "осведомился"
+    },
+    {
+      "word": "presentation",
+      "ipa_us": "ˌprɛzənˈteɪʃən",
+      "ipa_uk": "ˌprezənˈteɪʃən",
+      "translation_ru": "презентация"
+    },
+    {
+      "word": "reasonable",
+      "ipa_us": "ˈrizənəbəl",
+      "ipa_uk": "ˈriːzənəbəl",
+      "translation_ru": "разумный"
+    },
+    {
+      "word": "pause",
+      "ipa_us": "pɔz",
+      "ipa_uk": "pɔːz",
+      "translation_ru": "пауза"
+    },
+    {
+      "word": "painful",
+      "ipa_us": "ˈpeɪnfəl",
+      "ipa_uk": "ˈpeɪnfʊl",
+      "translation_ru": "болезненный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "week",
+        "warm",
+        "worry",
+        "window"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "raining",
+        "really",
+        "right",
+        "rule"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "break",
+        "raining",
+        "painful",
+        "cake"
+      ],
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не произносите чистое «э»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "that",
+        "the",
+        "there"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Henrik from?",
+      "answer": "Sweden.",
+      "accepted_keywords": [
+        "sweden",
+        "swedish"
+      ]
+    },
+    {
+      "question": "What did he ask when told they would break the ice?",
+      "answer": "Whether he should bring a hammer.",
+      "accepted_keywords": [
+        "hammer"
+      ]
+    },
+    {
+      "question": "How many times did he count people saying sorry on his first Friday?",
+      "answer": "A hundred and twelve.",
+      "accepted_keywords": [
+        "112",
+        "hundred",
+        "twelve"
+      ]
+    },
+    {
+      "question": "What did he say about the cat in the last meeting?",
+      "answer": "That he had not seen one since Tuesday.",
+      "accepted_keywords": [
+        "tuesday",
+        "seen"
+      ]
+    }
+  ],
+  "word_count": 381
+}

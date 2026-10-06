@@ -1,0 +1,136 @@
+{
+  "id": "b2-humor-05",
+  "level": "B2",
+  "genre": "humor",
+  "title_en": "The Meeting That Could Have Been an Email",
+  "title_ru": "Совещание, которое могло быть письмом",
+  "description_ru": "Ироничный рассказ о бесконечном рабочем совещании, где никто не решает главного вопроса.",
+  "text": "At nine o'clock on Tuesday, I received a calendar invitation titled \"Quick Sync\". It was scheduled for ninety minutes. Anyone who has worked in an office knows that \"quick\" is a word with a very flexible meaning, rather like \"I will be there in five minutes\".\n\nEleven of us gathered in a room with no windows. Our manager, Gordon, opened the meeting by saying that we would be discussing \"the future of the stationery cupboard\". For a moment I thought I had misheard. Apparently, someone had been taking the good pens, and it was now a matter of company policy.\n\nThe first twenty minutes were spent finding the right projector cable. Then Gordon asked whether everyone could see his screen, and a voice from the laptop on the table said, \"We cannot hear you.\" This was our colleague Barbara, who was joining online from a train and was, by her own admission, \"somewhere near Birmingham\". Every few seconds she disappeared into a tunnel, and returned half a sentence later.\n\nBy half past ten, we had made a list of reasons why pens vanish. Theories included theft, aliens and \"natural wastage\". A man called Trevor, who had not spoken all week, suddenly said that he had a spreadsheet, and showed us a chart with seventeen colours. Nobody understood it. Everyone nodded thoughtfully, because that is what people do.\n\nAt eleven, Gordon summarised the discussion. \"So, to sum up,\" he said, \"we need to schedule another meeting.\" There was a silence. I could see a dozen faces reaching the same conclusion at the same time. Then Barbara's voice, crackling from the laptop, said, \"Could this not have been an email?\" It was the wisest sentence of the morning.\n\nIn the end, we agreed that Gordon would send a short message about the pens. He did, and it was very clear. Unfortunately, it was sent to everyone except the person who had been taking them, who, I have since learned, was Gordon himself.",
+  "vocabulary": [
+    {
+      "word": "invitation",
+      "ipa_us": "ˌɪnvəˈteɪʃən",
+      "ipa_uk": "ˌɪnvɪˈteɪʃən",
+      "translation_ru": "приглашение"
+    },
+    {
+      "word": "flexible",
+      "ipa_us": "ˈflɛksəbəl",
+      "ipa_uk": "ˈfleksəbəl",
+      "translation_ru": "гибкий"
+    },
+    {
+      "word": "stationery",
+      "ipa_us": "ˈsteɪʃəˌnɛri",
+      "ipa_uk": "ˈsteɪʃənəri",
+      "translation_ru": "канцелярские товары"
+    },
+    {
+      "word": "policy",
+      "ipa_us": "ˈpɑləsi",
+      "ipa_uk": "ˈpɒləsi",
+      "translation_ru": "политика, правило"
+    },
+    {
+      "word": "projector",
+      "ipa_us": "prəˈdʒɛktər",
+      "ipa_uk": "prəˈdʒektə",
+      "translation_ru": "проектор"
+    },
+    {
+      "word": "vanish",
+      "ipa_us": "ˈvænɪʃ",
+      "ipa_uk": "ˈvænɪʃ",
+      "translation_ru": "исчезать"
+    },
+    {
+      "word": "spreadsheet",
+      "ipa_us": "ˈsprɛdˌʃit",
+      "ipa_uk": "ˈspredʃiːt",
+      "translation_ru": "электронная таблица"
+    },
+    {
+      "word": "summarised",
+      "ipa_us": "ˈsʌməˌraɪzd",
+      "ipa_uk": "ˈsʌməraɪzd",
+      "translation_ru": "подвёл итог"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "worked",
+        "windows",
+        "week",
+        "wisest"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "vanish",
+        "voice",
+        "eleven",
+        "everyone"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "right",
+        "room",
+        "reasons",
+        "received"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "theories",
+        "thoughtfully",
+        "Birmingham"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long was the 'quick' meeting scheduled for?",
+      "answer": "Ninety minutes.",
+      "accepted_keywords": [
+        "ninety",
+        "90"
+      ]
+    },
+    {
+      "question": "What was the meeting about?",
+      "answer": "The stationery cupboard and missing pens.",
+      "accepted_keywords": [
+        "pens",
+        "stationery",
+        "cupboard"
+      ]
+    },
+    {
+      "question": "Where was Barbara joining from?",
+      "answer": "A train near Birmingham.",
+      "accepted_keywords": [
+        "train",
+        "birmingham"
+      ]
+    },
+    {
+      "question": "Who had been taking the pens?",
+      "answer": "Gordon, the manager.",
+      "accepted_keywords": [
+        "gordon",
+        "manager"
+      ]
+    }
+  ],
+  "word_count": 330
+}

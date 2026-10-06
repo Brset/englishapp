@@ -1,0 +1,143 @@
+{
+  "id": "b2-dialogue-04",
+  "level": "B2",
+  "genre": "dialogue",
+  "title_en": "At the Doctor's",
+  "title_ru": "На приёме у врача",
+  "description_ru": "Пациент жалуется врачу на усталость и головные боли, и врач даёт советы по образу жизни.",
+  "text": "Dr Hughes: Good morning, Mr Novak. What brings you here today?\n\nPeter: Good morning, doctor. For the past month I've been feeling exhausted, and I get terrible headaches almost every afternoon.\n\nDr Hughes: I see. Have you noticed anything that makes the headaches worse?\n\nPeter: Possibly screens. I work at a computer for nearly ten hours a day, and I rarely take a break.\n\nDr Hughes: How have you been sleeping?\n\nPeter: Badly, I'm afraid. I fall asleep quickly, but I wake up at three or four in the morning and can't get back to sleep.\n\nDr Hughes: And what about your diet? Do you drink much coffee?\n\nPeter: Five or six cups a day, to be honest. My colleagues say that I live on caffeine.\n\nDr Hughes: That may be part of the problem. Let me check your blood pressure. Please roll up your sleeve.\n\nPeter: Is it high?\n\nDr Hughes: It's slightly above normal, but nothing to worry about yet. I would say that stress is the main cause. I'm going to send you for a blood test, just to rule out anything more serious.\n\nPeter: Do I have to stop drinking coffee completely?\n\nDr Hughes: Not completely, but I strongly recommend cutting down to two cups, and none after lunch. You should also take a ten-minute walk every few hours and look away from the screen.\n\nPeter: That sounds easy enough. Anything else?\n\nDr Hughes: Yes. Try to go to bed at the same time every night, and switch off your phone an hour before. A study published last year showed that people who followed this advice slept considerably better within two weeks.\n\nPeter: I'll give it a try. Should I come back?\n\nDr Hughes: Make an appointment for three weeks from now. If the headaches continue, we'll look at other options. Meanwhile, drink plenty of water and try not to overdo it.\n\nPeter: Thank you, doctor. I feel better already.",
+  "word_count": 298,
+  "vocabulary": [
+    {
+      "word": "exhausted",
+      "ipa_us": "ɪɡˈzɔstɪd",
+      "ipa_uk": "ɪɡˈzɔːstɪd",
+      "translation_ru": "измотан"
+    },
+    {
+      "word": "headaches",
+      "ipa_us": "ˈhɛdˌeɪks",
+      "ipa_uk": "ˈhedeɪks",
+      "translation_ru": "головные боли"
+    },
+    {
+      "word": "rarely",
+      "ipa_us": "ˈrɛrli",
+      "ipa_uk": "ˈreəli",
+      "translation_ru": "редко"
+    },
+    {
+      "word": "diet",
+      "ipa_us": "ˈdaɪət",
+      "ipa_uk": "ˈdaɪət",
+      "translation_ru": "питание"
+    },
+    {
+      "word": "blood pressure",
+      "ipa_us": "blʌd ˈprɛʃər",
+      "ipa_uk": "blʌd ˈpreʃə",
+      "translation_ru": "кровяное давление"
+    },
+    {
+      "word": "slightly",
+      "ipa_us": "ˈslaɪtli",
+      "ipa_uk": "ˈslaɪtli",
+      "translation_ru": "слегка"
+    },
+    {
+      "word": "recommend",
+      "ipa_us": "ˌrɛkəˈmɛnd",
+      "ipa_uk": "ˌrekəˈmend",
+      "translation_ru": "рекомендую"
+    },
+    {
+      "word": "considerably",
+      "ipa_us": "kənˈsɪdərəbli",
+      "ipa_uk": "kənˈsɪdərəbli",
+      "translation_ru": "значительно"
+    },
+    {
+      "word": "appointment",
+      "ipa_us": "əˈpɔɪntmənt",
+      "ipa_uk": "əˈpɔɪntmənt",
+      "translation_ru": "приём (запись)"
+    },
+    {
+      "word": "overdo",
+      "ipa_us": "ˌoʊvərˈdu",
+      "ipa_uk": "ˌəʊvəˈduː",
+      "translation_ru": "переусердствовать"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "month",
+        "three",
+        "thank"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "terrible",
+        "rarely",
+        "recommend"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "headaches",
+        "high",
+        "have"
+      ],
+      "tip_ru": "Лёгкий выдох без трения в горле; не произносите как русское «х»."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "work",
+        "worse",
+        "worry"
+      ],
+      "tip_ru": "Долгий гласный: губы не округляйте, язык в середине рта; не заменяйте на «ор» или «ер»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long has Peter felt exhausted?",
+      "answer": "For a month.",
+      "accepted_keywords": [
+        "month"
+      ]
+    },
+    {
+      "question": "How many cups of coffee does he drink a day?",
+      "answer": "Five or six.",
+      "accepted_keywords": [
+        "five",
+        "six"
+      ]
+    },
+    {
+      "question": "What does the doctor send him for?",
+      "answer": "A blood test.",
+      "accepted_keywords": [
+        "blood",
+        "test"
+      ]
+    },
+    {
+      "question": "When should Peter come back?",
+      "answer": "In three weeks.",
+      "accepted_keywords": [
+        "three",
+        "weeks"
+      ]
+    }
+  ]
+}

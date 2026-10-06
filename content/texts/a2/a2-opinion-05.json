@@ -1,0 +1,127 @@
+{
+  "id": "a2-opinion-05",
+  "level": "A2",
+  "genre": "opinion",
+  "title_en": "Learning English Is Worth It",
+  "title_ru": "Английский стоит усилий",
+  "description_ru": "Автор убеждает, что учить английский трудно, но полезно, и делится советами.",
+  "text": "Learning a language is difficult, but I believe it is worth the effort. I started English two years ago, and my life is already different.\n\nFirst, English helps me at work. Last month, a customer from Canada called our office. Nobody wanted to answer, but I took the phone and spoke to him. My boss was surprised and very pleased.\n\nSecond, I can enjoy films and songs without translation. At first, I understood only a few words. Now I understand much more, and it feels great.\n\nThird, English opens the door to the world. When I travel, I can ask for directions, order food and make new friends.\n\nMy advice is simple. Do not wait for the perfect moment. Study a little every day, and speak aloud, even when you make mistakes. Mistakes are normal. Everybody makes them, and they help you learn.",
+  "word_count": 143,
+  "vocabulary": [
+    {
+      "word": "worth",
+      "ipa_us": "wɜːrθ",
+      "ipa_uk": "wɜːθ",
+      "translation_ru": "стоящий"
+    },
+    {
+      "word": "effort",
+      "ipa_us": "ˈefərt",
+      "ipa_uk": "ˈefət",
+      "translation_ru": "усилие"
+    },
+    {
+      "word": "customer",
+      "ipa_us": "ˈkʌstəmər",
+      "ipa_uk": "ˈkʌstəmə",
+      "translation_ru": "клиент"
+    },
+    {
+      "word": "surprised",
+      "ipa_us": "sərˈpraɪzd",
+      "ipa_uk": "səˈpraɪzd",
+      "translation_ru": "удивлённый"
+    },
+    {
+      "word": "translation",
+      "ipa_us": "trænsˈleɪʃn",
+      "ipa_uk": "trænzˈleɪʃn",
+      "translation_ru": "перевод"
+    },
+    {
+      "word": "directions",
+      "ipa_us": "dəˈrekʃnz",
+      "ipa_uk": "dəˈrekʃnz",
+      "translation_ru": "дорога, указания"
+    },
+    {
+      "word": "advice",
+      "ipa_us": "ədˈvaɪs",
+      "ipa_uk": "ədˈvaɪs",
+      "translation_ru": "совет"
+    },
+    {
+      "word": "mistake",
+      "ipa_us": "mɪˈsteɪk",
+      "ipa_uk": "mɪˈsteɪk",
+      "translation_ru": "ошибка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "worth",
+        "month"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "worth",
+        "world"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "advice"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "worth",
+        "learn"
+      ],
+      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long has the writer studied English?",
+      "answer": "Two years.",
+      "accepted_keywords": [
+        "two",
+        "2"
+      ]
+    },
+    {
+      "question": "Where was the customer from?",
+      "answer": "Canada.",
+      "accepted_keywords": [
+        "canada"
+      ]
+    },
+    {
+      "question": "Who was surprised?",
+      "answer": "The boss.",
+      "accepted_keywords": [
+        "boss"
+      ]
+    },
+    {
+      "question": "What is the writer's advice?",
+      "answer": "Study a little every day and speak aloud.",
+      "accepted_keywords": [
+        "study",
+        "speak",
+        "every"
+      ]
+    }
+  ]
+}

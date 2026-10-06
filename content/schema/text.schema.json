@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reading text",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "level", "genre", "title_en", "title_ru", "description_ru", "text", "word_count", "vocabulary", "focus_sounds", "questions"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(a1|a2|b1|b2|c1|c2)-(story|dialogue|science|travel|biography|opinion|news|humor)-0[1-5]$" },
+    "level": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+    "genre": { "enum": ["story", "dialogue", "science", "travel", "biography", "opinion", "news", "humor"] },
+    "title_en": { "type": "string" },
+    "title_ru": { "type": "string" },
+    "description_ru": { "type": "string" },
+    "text": { "type": "string", "description": "Paragraphs separated by \\n\\n. Dialogue lines as 'Name: line'." },
+    "word_count": { "type": "integer" },
+    "vocabulary": {
+      "type": "array", "minItems": 6, "maxItems": 14,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["word", "ipa_us", "ipa_uk", "translation_ru"],
+        "properties": {
+          "word": { "type": "string" },
+          "ipa_us": { "type": "string" },
+          "ipa_uk": { "type": "string" },
+          "translation_ru": { "type": "string" }
+        }
+      }
+    },
+    "focus_sounds": {
+      "type": "array", "minItems": 2, "maxItems": 4,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["sound", "examples", "tip_ru"],
+        "properties": {
+          "sound": { "enum": ["θ", "ð", "w", "v", "r", "h", "ŋ", "æ", "e", "ɪ", "iː", "ʊ", "uː", "ʌ", "ɑː", "ɒ", "ɔː", "ɜː", "ə", "eɪ", "aɪ", "ɔɪ", "əʊ", "aʊ", "ɪə", "eə", "final-voiced", "dark-l", "aspiration", "word-stress", "linking"] },
+          "examples": { "type": "array", "minItems": 2, "items": { "type": "string" }, "description": "Words from this text that contain the sound." },
+          "tip_ru": { "type": "string" }
+        }
+      }
+    },
+    "questions": {
+      "type": "array", "minItems": 3, "maxItems": 4,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["question", "answer", "accepted_keywords"],
+        "properties": {
+          "question": { "type": "string" },
+          "answer": { "type": "string" },
+          "accepted_keywords": { "type": "array", "minItems": 1, "items": { "type": "string" }, "description": "Lowercase words; a spoken answer is accepted if it contains any of them." }
+        }
+      }
+    }
+  }
+}

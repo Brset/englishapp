@@ -1,0 +1,144 @@
+{
+  "id": "b2-travel-02",
+  "level": "B2",
+  "genre": "travel",
+  "title_en": "Driving Iceland's Ring Road",
+  "title_ru": "По кольцевой дороге Исландии",
+  "description_ru": "Путевые заметки о поездке вокруг Исландии по трассе номер один: водопады, ледники и чёрные пляжи.",
+  "text": "Route 1, better known as the Ring Road, circles the whole of Iceland and measures about 1,330 kilometres. In theory, you could drive it in a couple of days. In practice, you will keep stopping, because every few kilometres another breathtaking view appears.\n\nMost travellers set off from Reykjavik and head south. Within an hour, you reach Seljalandsfoss, a waterfall that you can actually walk behind. Be prepared to get wet, and remember to wear a waterproof jacket. Further along the coast lies Reynisfjara, a beach of black volcanic sand, where enormous basalt columns rise out of the sea. Visitors are warned never to turn their backs on the waves, as the so-called sneaker waves have caught many people by surprise.\n\nContinuing east, the road passes beneath glaciers. At Jokulsarlon, huge pieces of blue ice break away from the glacier and float slowly through a lagoon towards the Atlantic. Seals often rest on the ice, and the whole scene looks almost unreal, especially in the soft light of the evening.\n\nThe north of the country is wilder and quieter. Near Lake Myvatn, the ground steams and bubbles, and you can bathe in warm geothermal pools while snow falls around you. I was told by a local guide that Icelanders say, \"If you don't like the weather, wait five minutes.\" After two days of sunshine, rain, hail and a rainbow, I understood exactly what he meant.\n\nDriving here requires care. Many bridges have only one lane, and in winter, roads may be closed without warning because of storms. It is wise to check the weather forecast every morning and to fill the tank whenever you see a petrol station. Mobile coverage is poor in remote areas, so carry a paper map as well.\n\nAccommodation is expensive, so many travellers hire a campervan. A cheaper alternative is to book guesthouses outside the busiest season, from September to May, when the northern lights may even be visible.\n\nAfter nine days, I returned to Reykjavik with a thousand photographs and a sunburnt nose. The Ring Road had not only shown me a country, but also reminded me how small we are beside the forces of nature.",
+  "word_count": 361,
+  "vocabulary": [
+    {
+      "word": "breathtaking",
+      "ipa_us": "ˈbrɛθˌteɪkɪŋ",
+      "ipa_uk": "ˈbreθˌteɪkɪŋ",
+      "translation_ru": "захватывающий дух"
+    },
+    {
+      "word": "waterproof",
+      "ipa_us": "ˈwɔtərˌpruf",
+      "ipa_uk": "ˈwɔːtəpruːf",
+      "translation_ru": "водонепроницаемый"
+    },
+    {
+      "word": "volcanic",
+      "ipa_us": "vɑlˈkænɪk",
+      "ipa_uk": "vɒlˈkænɪk",
+      "translation_ru": "вулканический"
+    },
+    {
+      "word": "basalt",
+      "ipa_us": "bəˈsɔlt",
+      "ipa_uk": "ˈbæsɔːlt",
+      "translation_ru": "базальт"
+    },
+    {
+      "word": "glaciers",
+      "ipa_us": "ˈɡleɪʃərz",
+      "ipa_uk": "ˈɡlæsiəz",
+      "translation_ru": "ледники"
+    },
+    {
+      "word": "lagoon",
+      "ipa_us": "ləˈɡun",
+      "ipa_uk": "ləˈɡuːn",
+      "translation_ru": "лагуна"
+    },
+    {
+      "word": "geothermal",
+      "ipa_us": "ˌdʒioʊˈθɜrməl",
+      "ipa_uk": "ˌdʒiːəʊˈθɜːməl",
+      "translation_ru": "геотермальный"
+    },
+    {
+      "word": "remote",
+      "ipa_us": "rɪˈmoʊt",
+      "ipa_uk": "rɪˈməʊt",
+      "translation_ru": "отдалённый"
+    },
+    {
+      "word": "accommodation",
+      "ipa_us": "əˌkɑməˈdeɪʃən",
+      "ipa_uk": "əˌkɒməˈdeɪʃən",
+      "translation_ru": "жильё"
+    },
+    {
+      "word": "campervan",
+      "ipa_us": "ˈkæmpərˌvæn",
+      "ipa_uk": "ˈkæmpəvæn",
+      "translation_ru": "кемпер"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "waterfall",
+        "waves",
+        "wet"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "volcanic",
+        "every",
+        "evening"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "northern",
+        "geothermal"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "road",
+        "remember",
+        "rainbow"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long is the Ring Road?",
+      "answer": "About 1,330 kilometres.",
+      "accepted_keywords": [
+        "1330",
+        "1,330",
+        "thirteen"
+      ]
+    },
+    {
+      "question": "What can you walk behind at Seljalandsfoss?",
+      "answer": "A waterfall.",
+      "accepted_keywords": [
+        "waterfall"
+      ]
+    },
+    {
+      "question": "What colour is the sand at Reynisfjara?",
+      "answer": "Black.",
+      "accepted_keywords": [
+        "black"
+      ]
+    },
+    {
+      "question": "Why do many travellers hire a campervan?",
+      "answer": "Accommodation is expensive.",
+      "accepted_keywords": [
+        "expensive",
+        "accommodation",
+        "cheaper"
+      ]
+    }
+  ]
+}

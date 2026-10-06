@@ -1,0 +1,114 @@
+{
+  "id": "b1-dialogue-04",
+  "level": "B1",
+  "genre": "dialogue",
+  "title_en": "Returning a Jacket",
+  "title_ru": "Возврат куртки",
+  "description_ru": "Покупательница возвращает куртку в магазин и просит обмен.",
+  "text": "Customer: Excuse me, I bought this jacket here last week, but I'm afraid it doesn't fit.\nAssistant: I'm sorry to hear that. Do you have the receipt?\nCustomer: Yes, here it is. I haven't worn the jacket at all. The label is still on it.\nAssistant: Thank you. Would you like a refund, or would you prefer to exchange it for another size?\nCustomer: I would like a bigger size, if you have one. This one is a medium, and the sleeves are too short.\nAssistant: Let me check. Hmm, we have run out of large jackets in blue, but we have one in green.\nCustomer: Green is not really my colour. If you can order a blue one, I will wait.\nAssistant: It would take about five days to arrive. Alternatively, I can give you your money back today.\nCustomer: How long would a refund take?\nAssistant: The money will go back to your card in three working days.\nCustomer: I think I'll wait for the blue jacket. Will you call me when it comes?\nAssistant: Of course. Could you write your phone number here?\nCustomer: Certainly. It's the same number as on the receipt, but I have added a new last digit.\nAssistant: Thank you very much. We will call you as soon as it arrives. Is there anything else I can help you with?\nCustomer: No, that's everything. Thanks for your help!",
+  "word_count": 220,
+  "vocabulary": [
+    {
+      "word": "jacket",
+      "ipa_us": "ˈdʒækɪt",
+      "ipa_uk": "ˈdʒækɪt",
+      "translation_ru": "куртка"
+    },
+    {
+      "word": "receipt",
+      "ipa_us": "rɪˈsiːt",
+      "ipa_uk": "rɪˈsiːt",
+      "translation_ru": "чек"
+    },
+    {
+      "word": "refund",
+      "ipa_us": "ˈriːfʌnd",
+      "ipa_uk": "ˈriːfʌnd",
+      "translation_ru": "возврат денег"
+    },
+    {
+      "word": "exchange",
+      "ipa_us": "ɪksˈtʃeɪndʒ",
+      "ipa_uk": "ɪksˈtʃeɪndʒ",
+      "translation_ru": "обменять"
+    },
+    {
+      "word": "sleeves",
+      "ipa_us": "sliːvz",
+      "ipa_uk": "sliːvz",
+      "translation_ru": "рукава"
+    },
+    {
+      "word": "alternatively",
+      "ipa_us": "ɔːlˈtɜːrnətɪvli",
+      "ipa_uk": "ɔːlˈtɜːnətɪvli",
+      "translation_ru": "в качестве альтернативы"
+    },
+    {
+      "word": "arrive",
+      "ipa_us": "əˈraɪv",
+      "ipa_uk": "əˈraɪv",
+      "translation_ru": "прибыть"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "have",
+        "receipt",
+        "sleeves",
+        "arrive",
+        "five"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "sleeves",
+        "card",
+        "order"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: say «bad», а не «бат»; сохраняйте вибрацию голоса, но не добавляйте гласную."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "label",
+        "still",
+        "call",
+        "will"
+      ],
+      "tip_ru": "Кончик языка касается дёсен за верхними зубами, а спинка языка отодвинута назад; звук твёрдый, но не «ль» и не «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why does the customer return the jacket?",
+      "answer": "It doesn't fit; the sleeves are too short.",
+      "accepted_keywords": [
+        "fit",
+        "sleeves",
+        "short",
+        "small"
+      ]
+    },
+    {
+      "question": "What colour does she want?",
+      "answer": "Blue.",
+      "accepted_keywords": [
+        "blue"
+      ]
+    },
+    {
+      "question": "How long will the blue jacket take to arrive?",
+      "answer": "About five days.",
+      "accepted_keywords": [
+        "five",
+        "5",
+        "days"
+      ]
+    }
+  ]
+}

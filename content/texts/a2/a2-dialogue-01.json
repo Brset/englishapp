@@ -1,0 +1,123 @@
+{
+  "id": "a2-dialogue-01",
+  "level": "A2",
+  "genre": "dialogue",
+  "title_en": "At the Cafe",
+  "title_ru": "В кафе",
+  "description_ru": "Двое друзей заказывают завтрак и обсуждают планы на день. Полезные фразы для заказа еды.",
+  "text": "Waiter: Good morning! What would you like to drink?\nVera: I would like a large coffee with milk, please.\nVictor: And I want a glass of water and a cup of tea.\nWaiter: Certainly. Would you like something to eat?\nVera: Yes, I am very hungry. What is the soup today?\nWaiter: It is vegetable soup with fresh bread. It is better than the chicken soup.\nVera: Then I will have the vegetable soup, please.\nVictor: I think I will try the cheese sandwich. Is it big?\nWaiter: It is bigger than a plate, so be careful!\nVictor: Wonderful! After breakfast, we are going to walk to the river.\nVera: Good idea. The weather is warm, and the water looks lovely.\nWaiter: Here is your coffee, and your tea will be ready in two minutes.\nVictor: Thank you very much.",
+  "word_count": 127,
+  "vocabulary": [
+    {
+      "word": "coffee",
+      "ipa_us": "ˈkɔfi",
+      "ipa_uk": "ˈkɒfi",
+      "translation_ru": "кофе"
+    },
+    {
+      "word": "water",
+      "ipa_us": "ˈwɔtər",
+      "ipa_uk": "ˈwɔːtə",
+      "translation_ru": "вода"
+    },
+    {
+      "word": "hungry",
+      "ipa_us": "ˈhʌŋɡri",
+      "ipa_uk": "ˈhʌŋɡri",
+      "translation_ru": "голодный"
+    },
+    {
+      "word": "vegetable",
+      "ipa_us": "ˈvedʒtəbəl",
+      "ipa_uk": "ˈvedʒtəbəl",
+      "translation_ru": "овощной"
+    },
+    {
+      "word": "sandwich",
+      "ipa_us": "ˈsænwɪtʃ",
+      "ipa_uk": "ˈsænwɪdʒ",
+      "translation_ru": "сэндвич"
+    },
+    {
+      "word": "bigger",
+      "ipa_us": "ˈbɪɡər",
+      "ipa_uk": "ˈbɪɡə",
+      "translation_ru": "больше"
+    },
+    {
+      "word": "careful",
+      "ipa_us": "ˈkerfəl",
+      "ipa_uk": "ˈkeəfəl",
+      "translation_ru": "осторожный"
+    },
+    {
+      "word": "wonderful",
+      "ipa_us": "ˈwʌndərfəl",
+      "ipa_uk": "ˈwʌndəfəl",
+      "translation_ru": "чудесный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "very",
+        "vegetable",
+        "lovely"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "would",
+        "water",
+        "warm",
+        "walk",
+        "wonderful"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "Thank",
+        "think",
+        "than"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Vera drink?",
+      "answer": "Coffee with milk.",
+      "accepted_keywords": [
+        "coffee"
+      ]
+    },
+    {
+      "question": "What soup is there today?",
+      "answer": "Vegetable soup.",
+      "accepted_keywords": [
+        "vegetable"
+      ]
+    },
+    {
+      "question": "What does Victor want to eat?",
+      "answer": "A cheese sandwich.",
+      "accepted_keywords": [
+        "sandwich",
+        "cheese"
+      ]
+    },
+    {
+      "question": "Where are they going to walk?",
+      "answer": "To the river.",
+      "accepted_keywords": [
+        "river"
+      ]
+    }
+  ]
+}

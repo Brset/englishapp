@@ -1,0 +1,128 @@
+{
+  "id": "a2-opinion-04",
+  "level": "A2",
+  "genre": "opinion",
+  "title_en": "Is Winter Better Than Summer?",
+  "title_ru": "Зима лучше лета?",
+  "description_ru": "Необычное мнение: автор выбирает зиму и объясняет почему.",
+  "text": "Most of my friends love summer, but I prefer winter. Many people think this is strange, so let me explain.\n\nFirst, I love snow. When I was a child, we built snowmen and went sledging every weekend. Even now, a white street makes me feel happy and calm.\n\nSecond, I hate hot weather. In July, my flat is like an oven, and I cannot sleep well. In winter I can put on a warm sweater and drink hot tea. It is easier to get warm than to get cool.\n\nThird, winter has the best holidays. We have New Year, long evenings with family, and delicious food. Everyone is kinder in December.\n\nOf course, winter has problems too. The days are short, and sometimes it is very dark at four o'clock. But I walk in the snow, and I wait for the spring. In my opinion, winter is the best season.",
+  "word_count": 150,
+  "vocabulary": [
+    {
+      "word": "prefer",
+      "ipa_us": "prɪˈfɜːr",
+      "ipa_uk": "prɪˈfɜː",
+      "translation_ru": "предпочитать"
+    },
+    {
+      "word": "strange",
+      "ipa_us": "streɪndʒ",
+      "ipa_uk": "streɪndʒ",
+      "translation_ru": "странный"
+    },
+    {
+      "word": "sledging",
+      "ipa_us": "ˈsledʒɪŋ",
+      "ipa_uk": "ˈsledʒɪŋ",
+      "translation_ru": "катание на санках"
+    },
+    {
+      "word": "calm",
+      "ipa_us": "kɑːm",
+      "ipa_uk": "kɑːm",
+      "translation_ru": "спокойный"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈweðər",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "oven",
+      "ipa_us": "ˈʌvn",
+      "ipa_uk": "ˈʌvn",
+      "translation_ru": "духовка"
+    },
+    {
+      "word": "sweater",
+      "ipa_us": "ˈswetər",
+      "ipa_uk": "ˈswetə",
+      "translation_ru": "свитер"
+    },
+    {
+      "word": "delicious",
+      "ipa_us": "dɪˈlɪʃəs",
+      "ipa_uk": "dɪˈlɪʃəs",
+      "translation_ru": "вкусный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "winter",
+        "weather"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "third"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "first",
+        "third"
+      ],
+      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "sledging",
+        "drink"
+      ],
+      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; не добавляйте «г» в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which season does the writer prefer?",
+      "answer": "Winter.",
+      "accepted_keywords": [
+        "winter"
+      ]
+    },
+    {
+      "question": "What did the writer do in snow as a child?",
+      "answer": "Built snowmen and went sledging.",
+      "accepted_keywords": [
+        "snowmen",
+        "sledging",
+        "snowman"
+      ]
+    },
+    {
+      "question": "Why is summer bad for the writer?",
+      "answer": "It is too hot.",
+      "accepted_keywords": [
+        "hot",
+        "oven"
+      ]
+    },
+    {
+      "question": "Which holiday does the writer mention?",
+      "answer": "New Year.",
+      "accepted_keywords": [
+        "new year",
+        "year"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "a1-opinion-02",
+  "level": "A1",
+  "genre": "opinion",
+  "title_en": "Cats or Dogs?",
+  "title_ru": "Кошки или собаки?",
+  "description_ru": "Автор объясняет, почему он выбирает собаку.",
+  "text": "I like both cats and dogs, but I think dogs are better. Here are my reasons.\n\nFirst, a dog is a true friend. When I come home, my dog is happy. He jumps, he runs and he smiles at me. A cat often says, \"Oh, it is you,\" and goes to sleep.\n\nSecond, a dog needs a walk, so I go outside every day. I meet people and I get exercise. That is good for me.\n\nThird, my dog is funny. He chases his tail and he loves the park.\n\nMy friend Kate loves cats. She says cats are clean and quiet. Maybe she is right too!",
+  "word_count": 107,
+  "vocabulary": [
+    {
+      "word": "both",
+      "ipa_us": "boʊθ",
+      "ipa_uk": "bəʊθ",
+      "translation_ru": "оба"
+    },
+    {
+      "word": "reason",
+      "ipa_us": "ˈrizən",
+      "ipa_uk": "ˈriːzən",
+      "translation_ru": "причина"
+    },
+    {
+      "word": "friend",
+      "ipa_us": "frɛnd",
+      "ipa_uk": "frend",
+      "translation_ru": "друг"
+    },
+    {
+      "word": "jump",
+      "ipa_us": "dʒʌmp",
+      "ipa_uk": "dʒʌmp",
+      "translation_ru": "прыгать"
+    },
+    {
+      "word": "walk",
+      "ipa_us": "wɔk",
+      "ipa_uk": "wɔːk",
+      "translation_ru": "прогулка"
+    },
+    {
+      "word": "exercise",
+      "ipa_us": "ˈɛksərsaɪz",
+      "ipa_uk": "ˈeksəsaɪz",
+      "translation_ru": "упражнения"
+    },
+    {
+      "word": "funny",
+      "ipa_us": "ˈfʌni",
+      "ipa_uk": "ˈfʌni",
+      "translation_ru": "смешной"
+    },
+    {
+      "word": "chase",
+      "ipa_us": "tʃeɪs",
+      "ipa_uk": "tʃeɪs",
+      "translation_ru": "гоняться"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "both",
+        "think",
+        "Third"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reasons",
+        "right",
+        "friend"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "jumps",
+        "funny",
+        "loves"
+      ],
+      "tip_ru": "Короткий «а», рот открыт средне, губы не округляйте; не «о» и не русское «а»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which animal does the writer like better?",
+      "answer": "Dogs.",
+      "accepted_keywords": [
+        "dog",
+        "dogs"
+      ]
+    },
+    {
+      "question": "What does the dog do when the writer comes home?",
+      "answer": "He jumps, runs and smiles.",
+      "accepted_keywords": [
+        "jumps",
+        "runs",
+        "happy",
+        "smiles"
+      ]
+    },
+    {
+      "question": "Why does the writer go outside every day?",
+      "answer": "The dog needs a walk.",
+      "accepted_keywords": [
+        "walk",
+        "dog"
+      ]
+    },
+    {
+      "question": "Who loves cats?",
+      "answer": "Kate.",
+      "accepted_keywords": [
+        "kate"
+      ]
+    }
+  ]
+}

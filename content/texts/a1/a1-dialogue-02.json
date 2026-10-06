@@ -1,0 +1,123 @@
+{
+  "id": "a1-dialogue-02",
+  "level": "A1",
+  "genre": "dialogue",
+  "title_en": "Lost Phone",
+  "title_ru": "Потерянный телефон",
+  "description_ru": "Гарри не может найти телефон и просит помощи у сотрудника бюро находок.",
+  "text": "Harry: Excuse me, I cannot find my phone.\nClerk: Don't worry. What colour is it?\nHarry: It is black, with a green case.\nClerk: Is there a photo on the screen?\nHarry: Yes, there is a photo of my dog.\nClerk: What is his name?\nHarry: His name is Rocky. He is very small and very fluffy.\nClerk: Wait here, please. I check the box.\nHarry: Thank you. I am really worried.\nClerk: Look! Is this your phone? Rocky is on the screen!\nHarry: Yes! That is my phone. Thank you so much!",
+  "vocabulary": [
+    {
+      "word": "excuse",
+      "ipa_us": "ɪkˈskjuːz",
+      "ipa_uk": "ɪkˈskjuːz",
+      "translation_ru": "извинять"
+    },
+    {
+      "word": "worry",
+      "ipa_us": "ˈwɝːi",
+      "ipa_uk": "ˈwʌri",
+      "translation_ru": "волноваться"
+    },
+    {
+      "word": "colour",
+      "ipa_us": "ˈkʌlɚ",
+      "ipa_uk": "ˈkʌlə",
+      "translation_ru": "цвет"
+    },
+    {
+      "word": "screen",
+      "ipa_us": "skriːn",
+      "ipa_uk": "skriːn",
+      "translation_ru": "экран"
+    },
+    {
+      "word": "photo",
+      "ipa_us": "ˈfoʊtoʊ",
+      "ipa_uk": "ˈfəʊtəʊ",
+      "translation_ru": "фото"
+    },
+    {
+      "word": "fluffy",
+      "ipa_us": "ˈflʌfi",
+      "ipa_uk": "ˈflʌfi",
+      "translation_ru": "пушистый"
+    },
+    {
+      "word": "really",
+      "ipa_us": "ˈriːli",
+      "ipa_uk": "ˈrɪəli",
+      "translation_ru": "действительно"
+    },
+    {
+      "word": "worried",
+      "ipa_us": "ˈwɝːid",
+      "ipa_uk": "ˈwʌrid",
+      "translation_ru": "обеспокоенный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "Harry",
+        "his",
+        "here",
+        "He"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Rocky",
+        "green",
+        "really",
+        "worried"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "what",
+        "wait",
+        "worry",
+        "with"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Harry look for?",
+      "answer": "His phone.",
+      "accepted_keywords": [
+        "phone"
+      ]
+    },
+    {
+      "question": "What colour is the case?",
+      "answer": "Green.",
+      "accepted_keywords": [
+        "green"
+      ]
+    },
+    {
+      "question": "Who is on the screen?",
+      "answer": "His dog, Rocky.",
+      "accepted_keywords": [
+        "dog",
+        "rocky"
+      ]
+    },
+    {
+      "question": "Does Harry find his phone?",
+      "answer": "Yes.",
+      "accepted_keywords": [
+        "yes"
+      ]
+    }
+  ],
+  "word_count": 82
+}

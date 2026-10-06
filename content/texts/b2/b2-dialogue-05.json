@@ -1,0 +1,141 @@
+{
+  "id": "b2-dialogue-05",
+  "level": "B2",
+  "genre": "dialogue",
+  "title_en": "The Surprise Party",
+  "title_ru": "Вечеринка-сюрприз",
+  "description_ru": "Друзья планируют сюрприз ко дню рождения коллеги, но возникают неожиданные сложности.",
+  "text": "Lena: Okay, everyone, listen up. Gabriel's birthday is on Friday, and he must not suspect a thing.\n\nRavi: So what's the plan? I was told that you had booked the café on Willow Street.\n\nLena: I had, but this morning the owner called to say that the kitchen was closed because of a burst pipe. We have to find somewhere else.\n\nTara: What about my flat? It's small, but it's cosy, and nobody would expect it.\n\nLena: Brilliant. How many people are coming?\n\nRavi: About fifteen, I think. Gabriel's sister has promised to bring his old school friends.\n\nTara: Fifteen? We'll be packed like sardines! I suppose we could open the balcony door, though.\n\nLena: Fine. Now, how do we get Gabriel there without spoiling the surprise? He's very clever, and he reads people's faces like a book.\n\nRavi: I could say that I need help moving a sofa. He never says no to a friend.\n\nLena: Good, but he'll ask questions if you call him at the last minute. Tell him on Thursday, and remind him on Friday afternoon.\n\nTara: And what about the cake? Last year he said that he would never eat chocolate again.\n\nLena: He was joking. He ate half of mine! I've ordered a lemon cake from the bakery next to the station. It will be delivered at six.\n\nRavi: What if he arrives earlier than expected?\n\nLena: Then we'll improvise. Tara, you'll stand at the window and send us a message as soon as you see him.\n\nTara: Understood. Should we hide in the kitchen, or behind the sofa?\n\nLena: Behind the sofa is better, but please don't giggle. Last time somebody sneezed, and the whole plan fell apart.\n\nRavi: That was my cat's fault, I swear.\n\nLena: Whatever you say. Right, let's make this the best surprise he has ever had.",
+  "word_count": 290,
+  "vocabulary": [
+    {
+      "word": "suspect",
+      "ipa_us": "səˈspɛkt",
+      "ipa_uk": "səˈspekt",
+      "translation_ru": "подозревать"
+    },
+    {
+      "word": "burst",
+      "ipa_us": "bɜrst",
+      "ipa_uk": "bɜːst",
+      "translation_ru": "лопнувшая"
+    },
+    {
+      "word": "pipe",
+      "ipa_us": "paɪp",
+      "ipa_uk": "paɪp",
+      "translation_ru": "труба"
+    },
+    {
+      "word": "cosy",
+      "ipa_us": "ˈkoʊzi",
+      "ipa_uk": "ˈkəʊzi",
+      "translation_ru": "уютный"
+    },
+    {
+      "word": "packed",
+      "ipa_us": "pækt",
+      "ipa_uk": "pækt",
+      "translation_ru": "набиты битком"
+    },
+    {
+      "word": "spoiling",
+      "ipa_us": "ˈspɔɪlɪŋ",
+      "ipa_uk": "ˈspɔɪlɪŋ",
+      "translation_ru": "портя"
+    },
+    {
+      "word": "remind",
+      "ipa_us": "rɪˈmaɪnd",
+      "ipa_uk": "rɪˈmaɪnd",
+      "translation_ru": "напомнить"
+    },
+    {
+      "word": "improvise",
+      "ipa_us": "ˈɪmprəˌvaɪz",
+      "ipa_uk": "ˈɪmprəvaɪz",
+      "translation_ru": "импровизировать"
+    },
+    {
+      "word": "giggle",
+      "ipa_us": "ˈɡɪɡəl",
+      "ipa_uk": "ˈɡɪɡəl",
+      "translation_ru": "хихикать"
+    },
+    {
+      "word": "sneezed",
+      "ipa_us": "snizd",
+      "ipa_uk": "sniːzd",
+      "translation_ru": "чихнул"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "Willow",
+        "would",
+        "what"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "never",
+        "delivered"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "ɔɪ",
+      "examples": [
+        "spoiling",
+        "joking"
+      ],
+      "tip_ru": "Начинайте с округлённого «о» и скользите к «и»; не сокращайте до простого «ой» с резким концом."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "right",
+        "remind",
+        "Friday"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When is Gabriel's birthday?",
+      "answer": "On Friday.",
+      "accepted_keywords": [
+        "friday"
+      ]
+    },
+    {
+      "question": "Why can't they use the café?",
+      "answer": "The kitchen was closed because of a burst pipe.",
+      "accepted_keywords": [
+        "pipe",
+        "kitchen",
+        "burst"
+      ]
+    },
+    {
+      "question": "Whose flat will the party be in?",
+      "answer": "Tara's.",
+      "accepted_keywords": [
+        "tara"
+      ]
+    },
+    {
+      "question": "What kind of cake has Lena ordered?",
+      "answer": "A lemon cake.",
+      "accepted_keywords": [
+        "lemon"
+      ]
+    }
+  ]
+}

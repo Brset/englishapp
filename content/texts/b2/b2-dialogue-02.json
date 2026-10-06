@@ -1,0 +1,141 @@
+{
+  "id": "b2-dialogue-02",
+  "level": "B2",
+  "genre": "dialogue",
+  "title_en": "The Job Interview",
+  "title_ru": "Собеседование",
+  "description_ru": "Кандидат проходит собеседование на должность менеджера проекта и отвечает на непростые вопросы.",
+  "text": "Ms Grant: Please have a seat, Mr Weber. Thank you for coming in today.\n\nAdam: Thank you for inviting me. I've been looking forward to this.\n\nMs Grant: Let's start with your experience. Your CV says that you have managed international projects for six years.\n\nAdam: That's right. In my last job I was responsible for a team of twelve people in three countries. We delivered a new booking system two months ahead of schedule.\n\nMs Grant: Impressive. Was it difficult to work across different time zones?\n\nAdam: At first, yes. People were often waiting for answers overnight. So I suggested that we should have a short video meeting every Tuesday morning, and that solved most of the problems.\n\nMs Grant: Interesting. Can you describe a situation in which a project went wrong?\n\nAdam: Certainly. Two years ago, a major client told us that he wanted to change the whole design a week before the deadline. I was tempted to say no, but instead I asked him to explain his reasons.\n\nMs Grant: And what did you learn?\n\nAdam: That he was under pressure from his own board. Once I understood that, we found a compromise. We kept the original design and added two features that mattered most to him. He was delighted, and he has remained a loyal customer ever since.\n\nMs Grant: That sounds like a mature approach. Many candidates would have panicked. How do you usually deal with stress?\n\nAdam: I try to keep a cool head. I also believe that a good manager should be honest about problems early, rather than sweeping them under the carpet.\n\nMs Grant: I agree. One more question. Where do you see yourself in five years?\n\nAdam: Ideally, leading a larger department here. I've read that your company plans to open offices in Asia, and I'd love to be part of that growth.\n\nMs Grant: Well, we were told by several colleagues that you were an excellent speaker, and now I can see why. We will contact you by Friday.\n\nAdam: Thank you very much, Ms Grant. It was a pleasure to meet you.",
+  "word_count": 329,
+  "vocabulary": [
+    {
+      "word": "experience",
+      "ipa_us": "ɪkˈspɪriəns",
+      "ipa_uk": "ɪkˈspɪəriəns",
+      "translation_ru": "опыт"
+    },
+    {
+      "word": "responsible",
+      "ipa_us": "rɪˈspɑnsəbəl",
+      "ipa_uk": "rɪˈspɒnsəbəl",
+      "translation_ru": "ответственный"
+    },
+    {
+      "word": "schedule",
+      "ipa_us": "ˈskɛdʒul",
+      "ipa_uk": "ˈʃedjuːl",
+      "translation_ru": "график"
+    },
+    {
+      "word": "impressive",
+      "ipa_us": "ɪmˈprɛsɪv",
+      "ipa_uk": "ɪmˈpresɪv",
+      "translation_ru": "впечатляющий"
+    },
+    {
+      "word": "deadline",
+      "ipa_us": "ˈdɛdˌlaɪn",
+      "ipa_uk": "ˈdedlaɪn",
+      "translation_ru": "крайний срок"
+    },
+    {
+      "word": "compromise",
+      "ipa_us": "ˈkɑmprəˌmaɪz",
+      "ipa_uk": "ˈkɒmprəmaɪz",
+      "translation_ru": "компромисс"
+    },
+    {
+      "word": "loyal",
+      "ipa_us": "ˈlɔɪəl",
+      "ipa_uk": "ˈlɔɪəl",
+      "translation_ru": "лояльный"
+    },
+    {
+      "word": "mature",
+      "ipa_us": "məˈtʃʊr",
+      "ipa_uk": "məˈtʃʊə",
+      "translation_ru": "зрелый"
+    },
+    {
+      "word": "panicked",
+      "ipa_us": "ˈpænɪkt",
+      "ipa_uk": "ˈpænɪkt",
+      "translation_ru": "запаниковали"
+    },
+    {
+      "word": "ideally",
+      "ipa_us": "aɪˈdiəli",
+      "ipa_uk": "aɪˈdɪəli",
+      "translation_ru": "в идеале"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "Weber",
+        "waiting",
+        "week"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "inviting",
+        "very",
+        "delivered"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thank",
+        "three"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "project",
+        "responsible",
+        "right"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many years has Adam managed international projects?",
+      "answer": "Six years.",
+      "accepted_keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "question": "How often did Adam's team have a video meeting?",
+      "answer": "Every Tuesday morning.",
+      "accepted_keywords": [
+        "tuesday",
+        "week"
+      ]
+    },
+    {
+      "question": "What did the client want to change?",
+      "answer": "The whole design.",
+      "accepted_keywords": [
+        "design"
+      ]
+    },
+    {
+      "question": "When will the company contact Adam?",
+      "answer": "By Friday.",
+      "accepted_keywords": [
+        "friday"
+      ]
+    }
+  ]
+}

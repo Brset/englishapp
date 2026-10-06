@@ -1,0 +1,109 @@
+{
+  "id": "b1-story-03",
+  "level": "B1",
+  "genre": "story",
+  "title_en": "The Tomato Competition",
+  "title_ru": "Конкурс помидоров",
+  "description_ru": "Хелен хочет выиграть конкурс садоводов, но победа оказывается не главным.",
+  "text": "Every summer, the village of Little Marsh holds a garden competition, and every summer a man called Mr Brown wins first prize for his enormous tomatoes. This year, Helen has decided that she will beat him.\n\nShe has been working in her garden since March. She has read three books about soil, and she has even bought a special lamp to protect the young plants from frost. \"If the weather stays warm, I will win,\" she told her husband. \"And if it rains too much, I will be very unhappy.\"\n\nIn July, the plants grew taller than she was, and the tomatoes turned a beautiful deep red. But on the night before the competition, a strong wind blew through the village. In the morning, Helen found that half of her plants had fallen over.\n\nShe was nearly in tears when she saw Mr Brown at her gate. \"My garden is a disaster, too,\" he said. \"The wind has destroyed my best tomatoes.\" Together, they picked every fruit that was still good and carried them to the village hall.\n\nThe judges tasted everything and decided that nobody should win alone. They gave the prize to both gardens. Helen shook Mr Brown's hand and laughed. \"Next year, I'm going to beat him properly,\" she said. \"I'm looking forward to it,\" he answered.",
+  "word_count": 220,
+  "vocabulary": [
+    {
+      "word": "enormous",
+      "ipa_us": "ɪˈnɔːrməs",
+      "ipa_uk": "ɪˈnɔːməs",
+      "translation_ru": "огромный"
+    },
+    {
+      "word": "soil",
+      "ipa_us": "sɔɪl",
+      "ipa_uk": "sɔɪl",
+      "translation_ru": "почва"
+    },
+    {
+      "word": "frost",
+      "ipa_us": "frɔːst",
+      "ipa_uk": "frɒst",
+      "translation_ru": "заморозок"
+    },
+    {
+      "word": "gate",
+      "ipa_us": "ɡeɪt",
+      "ipa_uk": "ɡeɪt",
+      "translation_ru": "калитка"
+    },
+    {
+      "word": "disaster",
+      "ipa_us": "dɪˈzæstɚ",
+      "ipa_uk": "dɪˈzɑːstə",
+      "translation_ru": "бедствие"
+    },
+    {
+      "word": "destroyed",
+      "ipa_us": "dɪˈstrɔɪd",
+      "ipa_uk": "dɪˈstrɔɪd",
+      "translation_ru": "уничтожил"
+    },
+    {
+      "word": "judges",
+      "ipa_us": "ˈdʒʌdʒɪz",
+      "ipa_uk": "ˈdʒʌdʒɪz",
+      "translation_ru": "судьи"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Brown",
+        "frost",
+        "tomatoes",
+        "read"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "both"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ɔɪ",
+      "examples": [
+        "soil",
+        "destroyed"
+      ],
+      "tip_ru": "Начните с округлённого «о» и плавно перейдите к короткому «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Mr Brown usually win?",
+      "answer": "First prize for his tomatoes.",
+      "accepted_keywords": [
+        "prize",
+        "tomatoes",
+        "first"
+      ]
+    },
+    {
+      "question": "What happened the night before the competition?",
+      "answer": "A strong wind blew down many of Helen's plants.",
+      "accepted_keywords": [
+        "wind"
+      ]
+    },
+    {
+      "question": "Who won in the end?",
+      "answer": "Both gardens shared the prize.",
+      "accepted_keywords": [
+        "both",
+        "helen",
+        "brown"
+      ]
+    }
+  ]
+}

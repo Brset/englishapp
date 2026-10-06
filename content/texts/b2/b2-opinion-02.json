@@ -1,0 +1,140 @@
+{
+  "id": "b2-opinion-02",
+  "level": "B2",
+  "genre": "opinion",
+  "title_en": "Let Teenagers Sleep",
+  "title_ru": "Дайте подросткам выспаться",
+  "description_ru": "Аргументы в пользу более позднего начала школьных занятий и ответы на возражения оппонентов.",
+  "text": "Every weekday morning, millions of teenagers drag themselves out of bed at six o'clock, stagger to the bus stop and spend the first lesson half asleep. Many parents blame laziness or late-night video games. Scientists, however, say that the real culprit is biology, and I am convinced that schools should listen.\n\nDuring puberty, the body clock shifts. Teenagers do not feel sleepy until about eleven at night, and they naturally wake up later in the morning. It was once assumed that this was a bad habit that could be corrected with discipline. We now know that it is a normal stage of development. Doctors recommend between eight and ten hours of sleep for young people, but an early start makes that nearly impossible.\n\nThe results of starting later have been encouraging. In several cities where schools moved their first bell to half past eight or nine, researchers found that attendance improved, students reported feeling happier, and some schools even recorded fewer car accidents involving young drivers. One head teacher told reporters that her pupils were \"finally awake enough to learn\".\n\nCritics raise fair objections. Parents who work early would have to find new arrangements for their children, sports practice would run into the evening, and bus timetables would have to be rewritten. These problems are real, but they are practical ones, and practical problems can be solved. It would be unwise to ignore the health of a whole generation just because a timetable is inconvenient.\n\nOthers claim that young people must get used to early mornings because adult life demands it. I find this argument weak. We do not ask children to lift heavy weights before their bones are strong, so why should we ask their brains to perform at the wrong time of day?\n\nIn short, if we want pupils to be alert, curious and healthy, the answer is not louder alarm clocks. It is a later start. Let them sleep, and they might surprise us.",
+  "vocabulary": [
+    {
+      "word": "stagger",
+      "ipa_us": "ˈstæɡər",
+      "ipa_uk": "ˈstæɡə",
+      "translation_ru": "плестись, шататься"
+    },
+    {
+      "word": "culprit",
+      "ipa_us": "ˈkʌlprɪt",
+      "ipa_uk": "ˈkʌlprɪt",
+      "translation_ru": "виновник"
+    },
+    {
+      "word": "puberty",
+      "ipa_us": "ˈpjubərti",
+      "ipa_uk": "ˈpjuːbəti",
+      "translation_ru": "половое созревание"
+    },
+    {
+      "word": "discipline",
+      "ipa_us": "ˈdɪsəplən",
+      "ipa_uk": "ˈdɪsɪplɪn",
+      "translation_ru": "дисциплина"
+    },
+    {
+      "word": "attendance",
+      "ipa_us": "əˈtɛndəns",
+      "ipa_uk": "əˈtendəns",
+      "translation_ru": "посещаемость"
+    },
+    {
+      "word": "objections",
+      "ipa_us": "əbˈdʒɛkʃənz",
+      "ipa_uk": "əbˈdʒekʃənz",
+      "translation_ru": "возражения"
+    },
+    {
+      "word": "generation",
+      "ipa_us": "ˌdʒɛnəˈreɪʃən",
+      "ipa_uk": "ˌdʒenəˈreɪʃən",
+      "translation_ru": "поколение"
+    },
+    {
+      "word": "alert",
+      "ipa_us": "əˈlɜrt",
+      "ipa_uk": "əˈlɜːt",
+      "translation_ru": "бодрый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "them",
+        "that",
+        "the",
+        "they"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "health",
+        "healthy"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "weekday",
+        "wake",
+        "weights",
+        "wrong"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "real",
+        "results",
+        "reporters",
+        "researchers"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What do scientists say is the real reason teenagers wake up late?",
+      "answer": "Biology, because the body clock shifts during puberty.",
+      "accepted_keywords": [
+        "biology",
+        "body",
+        "clock",
+        "puberty"
+      ]
+    },
+    {
+      "question": "How many hours of sleep do doctors recommend?",
+      "answer": "Between eight and ten.",
+      "accepted_keywords": [
+        "eight",
+        "ten",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "question": "What benefits were found when schools started later?",
+      "answer": "Better attendance, happier students and fewer car accidents.",
+      "accepted_keywords": [
+        "attendance",
+        "happier",
+        "accidents"
+      ]
+    },
+    {
+      "question": "What is the author's conclusion?",
+      "answer": "Schools should start later so teenagers can sleep.",
+      "accepted_keywords": [
+        "later",
+        "sleep",
+        "start"
+      ]
+    }
+  ],
+  "word_count": 328
+}

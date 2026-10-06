@@ -1,0 +1,128 @@
+{
+  "id": "a2-opinion-01",
+  "level": "A2",
+  "genre": "opinion",
+  "title_en": "Why I Like Cats",
+  "title_ru": "Почему я люблю кошек",
+  "description_ru": "Автор объясняет, почему кошки лучше собак для занятых людей.",
+  "text": "Some people say that dogs are better pets than cats. I do not agree. I think cats are easier and more interesting, and here are my reasons.\n\nFirst, a cat is cleaner than a dog. It washes itself every day, and you do not need to walk it in the rain. I work all day, so this is very important for me. A cat is happy at home when I am away.\n\nSecond, cats are quieter. My neighbours never hear my cat, but they sometimes hear the dog from the next flat. Also, a cat is smaller, so it does not need a big house.\n\nThird, cats are clever and funny. My cat, Vera, waits for me by the window every evening. She is sometimes lazy, but she is always warm and friendly.\n\nOf course, dogs are great too. But in my opinion, a cat is the best friend for a busy person.",
+  "word_count": 153,
+  "vocabulary": [
+    {
+      "word": "pet",
+      "ipa_us": "pet",
+      "ipa_uk": "pet",
+      "translation_ru": "домашнее животное"
+    },
+    {
+      "word": "reason",
+      "ipa_us": "ˈriːzn",
+      "ipa_uk": "ˈriːzn",
+      "translation_ru": "причина"
+    },
+    {
+      "word": "cleaner",
+      "ipa_us": "ˈkliːnər",
+      "ipa_uk": "ˈkliːnə",
+      "translation_ru": "чище"
+    },
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbər",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "quieter",
+      "ipa_us": "ˈkwaɪətər",
+      "ipa_uk": "ˈkwaɪətə",
+      "translation_ru": "тише"
+    },
+    {
+      "word": "lazy",
+      "ipa_us": "ˈleɪzi",
+      "ipa_uk": "ˈleɪzi",
+      "translation_ru": "ленивый"
+    },
+    {
+      "word": "friendly",
+      "ipa_us": "ˈfrendli",
+      "ipa_uk": "ˈfrendli",
+      "translation_ru": "дружелюбный"
+    },
+    {
+      "word": "opinion",
+      "ipa_us": "əˈpɪnjən",
+      "ipa_uk": "əˈpɪnjən",
+      "translation_ru": "мнение"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "Vera",
+        "every"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walk",
+        "window"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "that",
+        "think"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "cleaner",
+        "also"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which pet does the writer like more?",
+      "answer": "Cats.",
+      "accepted_keywords": [
+        "cat",
+        "cats"
+      ]
+    },
+    {
+      "question": "Why is a cat easier than a dog?",
+      "answer": "You do not need to walk it.",
+      "accepted_keywords": [
+        "walk",
+        "clean",
+        "cleaner"
+      ]
+    },
+    {
+      "question": "What is the cat's name?",
+      "answer": "Vera.",
+      "accepted_keywords": [
+        "vera"
+      ]
+    },
+    {
+      "question": "Where does the cat wait every evening?",
+      "answer": "By the window.",
+      "accepted_keywords": [
+        "window"
+      ]
+    }
+  ]
+}

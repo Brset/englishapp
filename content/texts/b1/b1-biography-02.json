@@ -1,0 +1,131 @@
+{
+  "id": "b1-biography-02",
+  "level": "B1",
+  "genre": "biography",
+  "title_en": "Nelson Mandela: From Prison to President",
+  "title_ru": "Нельсон Мандела: из тюрьмы в президенты",
+  "description_ru": "Жизнь человека, который четверть века провёл в заключении, а затем возглавил свою страну.",
+  "text": "Nelson Mandela was born in 1918 in a small village in South Africa. His family wanted him to get a good education, and he later studied law. In Johannesburg he opened one of the first law offices run by Black South Africans.\n\nAt that time, the government of South Africa had a system called apartheid. It kept people apart because of the colour of their skin and gave Black people far fewer rights. Mandela believed this was wrong, so he joined the African National Congress and began to protest. In 1964 a court sentenced him to life in prison.\n\nMandela spent twenty-seven years behind bars, most of them on Robben Island. He worked in a stone quarry, slept on a thin mat and could receive only a few visitors every year. Even so, he never lost hope, and he often said that education was the most powerful weapon you can use to change the world.\n\nPeople around the world demanded his freedom, and he was released in 1990. Instead of seeking revenge, he worked with his former enemies to build a peaceful country. In 1993 he won the Nobel Peace Prize, and in 1994 he became the first Black president of South Africa. He left office after just one term and died in 2013, aged ninety-five.",
+  "word_count": 212,
+  "vocabulary": [
+    {
+      "word": "education",
+      "ipa_us": "ˌɛdʒəˈkeɪʃən",
+      "ipa_uk": "ˌedʒuˈkeɪʃən",
+      "translation_ru": "образование"
+    },
+    {
+      "word": "apartheid",
+      "ipa_us": "əˈpɑrtaɪt",
+      "ipa_uk": "əˈpɑːtheɪt",
+      "translation_ru": "апартеид"
+    },
+    {
+      "word": "protest",
+      "ipa_us": "prəˈtɛst",
+      "ipa_uk": "prəˈtest",
+      "translation_ru": "протестовать"
+    },
+    {
+      "word": "sentenced",
+      "ipa_us": "ˈsɛntənst",
+      "ipa_uk": "ˈsentənst",
+      "translation_ru": "приговорил"
+    },
+    {
+      "word": "quarry",
+      "ipa_us": "ˈkwɔri",
+      "ipa_uk": "ˈkwɒri",
+      "translation_ru": "каменоломня"
+    },
+    {
+      "word": "weapon",
+      "ipa_us": "ˈwɛpən",
+      "ipa_uk": "ˈwepən",
+      "translation_ru": "оружие"
+    },
+    {
+      "word": "released",
+      "ipa_us": "rɪˈliːst",
+      "ipa_uk": "rɪˈliːst",
+      "translation_ru": "освобождён"
+    },
+    {
+      "word": "revenge",
+      "ipa_us": "rɪˈvɛndʒ",
+      "ipa_uk": "rɪˈvendʒ",
+      "translation_ru": "месть"
+    },
+    {
+      "word": "peaceful",
+      "ipa_us": "ˈpiːsfəl",
+      "ipa_uk": "ˈpiːsfəl",
+      "translation_ru": "мирный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wanted",
+        "world",
+        "weapon",
+        "was"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "prison",
+        "Robben",
+        "president",
+        "revenge"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "that",
+        "with",
+        "the first"
+      ],
+      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When was Mandela born?",
+      "answer": "In 1918.",
+      "accepted_keywords": [
+        "1918",
+        "nineteen"
+      ]
+    },
+    {
+      "question": "How long did he spend in prison?",
+      "answer": "Twenty-seven years.",
+      "accepted_keywords": [
+        "twenty",
+        "27"
+      ]
+    },
+    {
+      "question": "What prize did he win in 1993?",
+      "answer": "The Nobel Peace Prize.",
+      "accepted_keywords": [
+        "nobel",
+        "peace"
+      ]
+    },
+    {
+      "question": "How many terms did he serve as president?",
+      "answer": "One term.",
+      "accepted_keywords": [
+        "one",
+        "1"
+      ]
+    }
+  ]
+}

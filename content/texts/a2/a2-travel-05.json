@@ -1,0 +1,124 @@
+{
+  "id": "a2-travel-05",
+  "level": "A2",
+  "genre": "travel",
+  "title_en": "The Market in Marrakesh",
+  "title_ru": "Рынок в Марракеше",
+  "description_ru": "Первый день на шумном восточном рынке: запахи, торг и мятный чай.",
+  "text": "On my first day in Marrakesh, I visited the big market in the old city. It was hot, loud and full of colours. Sellers shouted, motorbikes drove between the stalls, and the air smelled of spices and fresh bread.\n\nI wanted to buy a small carpet for my flat. A seller in a blue shirt showed me twenty different carpets. The first price was three hundred euros, which was far too high. \"In this country, we always bargain,\" he said with a smile. I laughed and offered fifty.\n\nAfter half an hour, we agreed on eighty euros. We were both happy. Then he invited me to sit down and gave me a glass of sweet mint tea.\n\nI walked home with my new carpet under my arm. It was not the cheapest carpet in the market, but I learned something important about travelling. Always smile, never hurry, and be ready to say no.",
+  "word_count": 153,
+  "vocabulary": [
+    {
+      "word": "market",
+      "ipa_us": "ˈmɑrkɪt",
+      "ipa_uk": "ˈmɑːkɪt",
+      "translation_ru": "рынок"
+    },
+    {
+      "word": "spices",
+      "ipa_us": "ˈspaɪsɪz",
+      "ipa_uk": "ˈspaɪsɪz",
+      "translation_ru": "специи"
+    },
+    {
+      "word": "carpet",
+      "ipa_us": "ˈkɑrpɪt",
+      "ipa_uk": "ˈkɑːpɪt",
+      "translation_ru": "ковёр"
+    },
+    {
+      "word": "bargain",
+      "ipa_us": "ˈbɑrɡən",
+      "ipa_uk": "ˈbɑːɡɪn",
+      "translation_ru": "торговаться"
+    },
+    {
+      "word": "offered",
+      "ipa_us": "ˈɔfərd",
+      "ipa_uk": "ˈɒfəd",
+      "translation_ru": "предложил"
+    },
+    {
+      "word": "agreed",
+      "ipa_us": "əˈɡriːd",
+      "ipa_uk": "əˈɡriːd",
+      "translation_ru": "договорились"
+    },
+    {
+      "word": "invited",
+      "ipa_us": "ɪnˈvaɪtɪd",
+      "ipa_uk": "ɪnˈvaɪtɪd",
+      "translation_ru": "пригласил"
+    },
+    {
+      "word": "hurry",
+      "ipa_us": "ˈhɜri",
+      "ipa_uk": "ˈhʌri",
+      "translation_ru": "торопиться"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "visited",
+        "fresh",
+        "different",
+        "invited"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "carpet",
+        "price",
+        "first",
+        "bargain"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wanted",
+        "was",
+        "with",
+        "walked"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which city did the writer visit?",
+      "answer": "Marrakesh.",
+      "accepted_keywords": [
+        "marrakesh"
+      ]
+    },
+    {
+      "question": "What did the writer want to buy?",
+      "answer": "A small carpet.",
+      "accepted_keywords": [
+        "carpet"
+      ]
+    },
+    {
+      "question": "What was the final price?",
+      "answer": "Eighty euros.",
+      "accepted_keywords": [
+        "eighty",
+        "80"
+      ]
+    },
+    {
+      "question": "What drink did the seller give?",
+      "answer": "Sweet mint tea.",
+      "accepted_keywords": [
+        "tea",
+        "mint"
+      ]
+    }
+  ]
+}

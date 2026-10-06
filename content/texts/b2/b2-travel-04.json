@@ -1,0 +1,143 @@
+{
+  "id": "b2-travel-04",
+  "level": "B2",
+  "genre": "travel",
+  "title_en": "By Train Through the Highlands",
+  "title_ru": "На поезде по Шотландскому нагорью",
+  "description_ru": "Описание железнодорожного путешествия по Шотландии от Глазго до Маллейга с видами озёр и гор.",
+  "text": "If someone had told me a year ago that I would spend my holiday on a train, I would have laughed. Yet last September I found myself on the West Highland Line, which many people consider one of the most beautiful railway journeys in the world.\n\nThe trip begins in Glasgow, where I boarded a small, slightly old-fashioned train at nine o'clock. Within an hour, the grey city had disappeared, and we were running beside Loch Lomond, a lake so calm that the mountains were reflected perfectly in its surface. A friendly guard walked through the carriage with a trolley and asked if anyone wanted tea. \"You'll need it,\" he said. \"The best part is still ahead.\"\n\nHe was right. After the small town of Crianlarich, the line climbs slowly to Rannoch Moor, a vast, empty wilderness of lakes, bogs and heather. It is claimed that this landscape is one of the last true wildernesses in Europe. The railway was built across it in the 1890s on a floating bed of tree roots and brushwood, because the ground was too soft to support the track. Engineers described the project as nearly impossible, and it took years to complete.\n\nThe highlight of the journey, for many passengers, is the Glenfinnan Viaduct. This curved stone bridge, with twenty-one arches, became world famous when it appeared in the Harry Potter films. On certain days, a steam train crosses it at eleven in the morning, and photographers gather on the hillside long before it arrives. I had to stand on tiptoe to see anything at all, but the moment was worth the effort.\n\nThe final stop is Mallaig, a working fishing port. I ate the freshest fish and chips of my life on the quay, while ferries left for the Isle of Skye. A seal watched me from the harbour wall, clearly hoping for a share.\n\nPractical tip: reserve a window seat in advance, especially in summer. Take warm clothes, because the weather changes quickly, and bring binoculars. With luck, you may spot red deer or even a golden eagle from the carriage window.",
+  "word_count": 350,
+  "vocabulary": [
+    {
+      "word": "Highland",
+      "ipa_us": "ˈhaɪləndz",
+      "ipa_uk": "ˈhaɪləndz",
+      "translation_ru": "Хайленд (нагорье)"
+    },
+    {
+      "word": "carriage",
+      "ipa_us": "ˈkærɪdʒ",
+      "ipa_uk": "ˈkærɪdʒ",
+      "translation_ru": "вагон"
+    },
+    {
+      "word": "trolley",
+      "ipa_us": "ˈtrɑli",
+      "ipa_uk": "ˈtrɒli",
+      "translation_ru": "тележка"
+    },
+    {
+      "word": "wilderness",
+      "ipa_us": "ˈwɪldərnəs",
+      "ipa_uk": "ˈwɪldənəs",
+      "translation_ru": "дикая местность"
+    },
+    {
+      "word": "heather",
+      "ipa_us": "ˈhɛðər",
+      "ipa_uk": "ˈheðə",
+      "translation_ru": "вереск"
+    },
+    {
+      "word": "brushwood",
+      "ipa_us": "ˈbrʌʃˌwʊd",
+      "ipa_uk": "ˈbrʌʃwʊd",
+      "translation_ru": "хворост"
+    },
+    {
+      "word": "viaduct",
+      "ipa_us": "ˈvaɪəˌdʌkt",
+      "ipa_uk": "ˈvaɪədʌkt",
+      "translation_ru": "виадук"
+    },
+    {
+      "word": "arches",
+      "ipa_us": "ˈɑrtʃɪz",
+      "ipa_uk": "ˈɑːtʃɪz",
+      "translation_ru": "арки"
+    },
+    {
+      "word": "quay",
+      "ipa_us": "ki",
+      "ipa_uk": "kiː",
+      "translation_ru": "причал"
+    },
+    {
+      "word": "binoculars",
+      "ipa_us": "bɪˈnɑkjələrz",
+      "ipa_uk": "bɪˈnɒkjʊləz",
+      "translation_ru": "бинокль"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "heather"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "West",
+        "world",
+        "window"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "railway",
+        "Rannoch",
+        "reserve"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "brushwood",
+        "luck"
+      ],
+      "tip_ru": "Короткий, глубокий звук, похожий на «а» в безударном положении; не «о» и не «а» с широко открытым ртом."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does the journey begin?",
+      "answer": "In Glasgow.",
+      "accepted_keywords": [
+        "glasgow"
+      ]
+    },
+    {
+      "question": "What lake does the train run beside?",
+      "answer": "Loch Lomond.",
+      "accepted_keywords": [
+        "lomond",
+        "loch"
+      ]
+    },
+    {
+      "question": "Why is the Glenfinnan Viaduct famous?",
+      "answer": "It appeared in the Harry Potter films.",
+      "accepted_keywords": [
+        "harry",
+        "potter",
+        "films"
+      ]
+    },
+    {
+      "question": "What is Mallaig?",
+      "answer": "A working fishing port.",
+      "accepted_keywords": [
+        "port",
+        "fishing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "a1-biography-01",
+  "level": "A1",
+  "genre": "biography",
+  "title_en": "Albert Einstein",
+  "title_ru": "Альберт Эйнштейн",
+  "description_ru": "Короткая биография великого физика: от тихого мальчика со скрипкой до Нобелевской премии.",
+  "text": "Albert Einstein was born in Germany in 1879. He was a quiet boy, but he loved maths and music. He played the violin every day.\n\nLater he worked in Switzerland. He was a clerk in an office in Bern, and he wrote about time, light and energy. In 1921 he won the Nobel Prize in Physics.\n\nThen he lived in the United States, in a small town called Princeton. He walked to work and he liked to sail. Einstein died in 1955. People still think about his ideas today.",
+  "word_count": 86,
+  "vocabulary": [
+    {
+      "word": "born",
+      "ipa_us": "bɔrn",
+      "ipa_uk": "bɔːn",
+      "translation_ru": "рождённый"
+    },
+    {
+      "word": "violin",
+      "ipa_us": "ˌvaɪəˈlɪn",
+      "ipa_uk": "ˌvaɪəˈlɪn",
+      "translation_ru": "скрипка"
+    },
+    {
+      "word": "clerk",
+      "ipa_us": "klɜrk",
+      "ipa_uk": "klɑːk",
+      "translation_ru": "служащий"
+    },
+    {
+      "word": "energy",
+      "ipa_us": "ˈɛnərdʒi",
+      "ipa_uk": "ˈenədʒi",
+      "translation_ru": "энергия"
+    },
+    {
+      "word": "prize",
+      "ipa_us": "praɪz",
+      "ipa_uk": "praɪz",
+      "translation_ru": "премия"
+    },
+    {
+      "word": "physics",
+      "ipa_us": "ˈfɪzɪks",
+      "ipa_uk": "ˈfɪzɪks",
+      "translation_ru": "физика"
+    },
+    {
+      "word": "sail",
+      "ipa_us": "seɪl",
+      "ipa_uk": "seɪl",
+      "translation_ru": "ходить под парусом"
+    },
+    {
+      "word": "idea",
+      "ipa_us": "aɪˈdiə",
+      "ipa_uk": "aɪˈdɪə",
+      "translation_ru": "идея"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "worked",
+        "walked"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "violin",
+        "every",
+        "lived"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "Then",
+        "the"
+      ],
+      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Einstein born?",
+      "answer": "In Germany.",
+      "accepted_keywords": [
+        "germany"
+      ]
+    },
+    {
+      "question": "What did he play every day?",
+      "answer": "The violin.",
+      "accepted_keywords": [
+        "violin"
+      ]
+    },
+    {
+      "question": "Which prize did he win in 1921?",
+      "answer": "The Nobel Prize in Physics.",
+      "accepted_keywords": [
+        "nobel",
+        "physics"
+      ]
+    },
+    {
+      "question": "Where did he live later?",
+      "answer": "In Princeton, in the United States.",
+      "accepted_keywords": [
+        "princeton",
+        "america",
+        "states"
+      ]
+    }
+  ]
+}

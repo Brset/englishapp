@@ -1,0 +1,126 @@
+{
+  "id": "a2-news-04",
+  "level": "A2",
+  "genre": "news",
+  "title_en": "Giant Pumpkin Wins Prize",
+  "title_ru": "Гигантская тыква получила приз",
+  "description_ru": "Вымышленная новость о фермере, который вырастил огромную тыкву.",
+  "text": "A farmer from Ashford grew the biggest pumpkin in the county this year. Peter Marsh won first prize at the autumn fair on Sunday.\n\nHis pumpkin weighs three hundred and twenty kilos. That is as heavy as a small horse! It took five men and a truck to carry it to the fair.\n\nPeter started to grow the pumpkin in April. He watered it twice a day, and he talked to it every evening. \"I think she liked my jokes,\" he said, and he smiled. He also covered the pumpkin with a blanket on cold nights.\n\nLast year, his pumpkin was smaller, and it finished second. This time Peter changed the soil, and the result was much better.\n\nWhat is going to happen to the giant pumpkin now? Peter has a plan. He is going to make soup for the whole village, and he is going to keep the seeds for next year.",
+  "word_count": 153,
+  "vocabulary": [
+    {
+      "word": "pumpkin",
+      "ipa_us": "ˈpʌmpkɪn",
+      "ipa_uk": "ˈpʌmpkɪn",
+      "translation_ru": "тыква"
+    },
+    {
+      "word": "farmer",
+      "ipa_us": "ˈfɑːrmər",
+      "ipa_uk": "ˈfɑːmə",
+      "translation_ru": "фермер"
+    },
+    {
+      "word": "county",
+      "ipa_us": "ˈkaʊnti",
+      "ipa_uk": "ˈkaʊnti",
+      "translation_ru": "графство, округ"
+    },
+    {
+      "word": "weighs",
+      "ipa_us": "weɪz",
+      "ipa_uk": "weɪz",
+      "translation_ru": "весит"
+    },
+    {
+      "word": "heavy",
+      "ipa_us": "ˈhevi",
+      "ipa_uk": "ˈhevi",
+      "translation_ru": "тяжёлый"
+    },
+    {
+      "word": "blanket",
+      "ipa_us": "ˈblæŋkɪt",
+      "ipa_uk": "ˈblæŋkɪt",
+      "translation_ru": "одеяло"
+    },
+    {
+      "word": "soil",
+      "ipa_us": "sɔɪl",
+      "ipa_uk": "sɔɪl",
+      "translation_ru": "почва"
+    },
+    {
+      "word": "seeds",
+      "ipa_us": "siːdz",
+      "ipa_uk": "siːdz",
+      "translation_ru": "семена"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "weighs",
+        "watered"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "evening"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "think"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "that",
+        "blanket"
+      ],
+      "tip_ru": "Откройте рот шире, чем для русского «э»; звук короткий и «плоский»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Peter grow?",
+      "answer": "A giant pumpkin.",
+      "accepted_keywords": [
+        "pumpkin"
+      ]
+    },
+    {
+      "question": "How heavy is it?",
+      "answer": "Three hundred and twenty kilos.",
+      "accepted_keywords": [
+        "320",
+        "three hundred",
+        "twenty"
+      ]
+    },
+    {
+      "question": "When did he start to grow it?",
+      "answer": "In April.",
+      "accepted_keywords": [
+        "april"
+      ]
+    },
+    {
+      "question": "What is he going to make?",
+      "answer": "Soup.",
+      "accepted_keywords": [
+        "soup"
+      ]
+    }
+  ]
+}

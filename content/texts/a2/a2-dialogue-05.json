@@ -1,0 +1,127 @@
+{
+  "id": "a2-dialogue-05",
+  "level": "A2",
+  "genre": "dialogue",
+  "title_en": "Buying Shoes",
+  "title_ru": "Покупка обуви",
+  "description_ru": "Покупатель выбирает новые кроссовки и сравнивает цены. Диалог в магазине.",
+  "text": "Seller: Hello! Are you looking for something special?\nRuth: Yes, I need new shoes for running. My old ones are too small.\nSeller: What size are you?\nRuth: I am a size thirty-eight.\nSeller: Try these white ones. They are very light, and they are on sale this week.\nRuth: They are nice, but they are a bit tight.\nSeller: Then try the grey pair. They are wider and more comfortable.\nRuth: Oh, these feel perfect! How much are they?\nSeller: Seventy pounds. The white ones are cheaper, but the grey ones are better quality.\nRuth: I think I will take the grey ones. Can I pay by card?\nSeller: Of course. Would you like a bag?\nRuth: No, thank you. I am going to wear them now and run home!\nSeller: Have a lovely day, and good luck with the race!",
+  "word_count": 130,
+  "vocabulary": [
+    {
+      "word": "shoes",
+      "ipa_us": "ʃuːz",
+      "ipa_uk": "ʃuːz",
+      "translation_ru": "обувь"
+    },
+    {
+      "word": "size",
+      "ipa_us": "saɪz",
+      "ipa_uk": "saɪz",
+      "translation_ru": "размер"
+    },
+    {
+      "word": "tight",
+      "ipa_us": "taɪt",
+      "ipa_uk": "taɪt",
+      "translation_ru": "тесный"
+    },
+    {
+      "word": "wider",
+      "ipa_us": "ˈwaɪdər",
+      "ipa_uk": "ˈwaɪdə",
+      "translation_ru": "шире"
+    },
+    {
+      "word": "comfortable",
+      "ipa_us": "ˈkʌmftərbəl",
+      "ipa_uk": "ˈkʌmftəbəl",
+      "translation_ru": "удобный"
+    },
+    {
+      "word": "perfect",
+      "ipa_us": "ˈpɜrfɪkt",
+      "ipa_uk": "ˈpɜːfɪkt",
+      "translation_ru": "идеальный"
+    },
+    {
+      "word": "cheaper",
+      "ipa_us": "ˈtʃiːpər",
+      "ipa_uk": "ˈtʃiːpə",
+      "translation_ru": "дешевле"
+    },
+    {
+      "word": "quality",
+      "ipa_us": "ˈkwɑləti",
+      "ipa_uk": "ˈkwɒləti",
+      "translation_ru": "качество"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "white",
+        "wider",
+        "week",
+        "wear"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Ruth",
+        "running",
+        "grey",
+        "perfect",
+        "pair"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty-eight",
+        "these",
+        "thank",
+        "them",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Ruth need?",
+      "answer": "New shoes for running.",
+      "accepted_keywords": [
+        "shoes",
+        "running"
+      ]
+    },
+    {
+      "question": "What size is she?",
+      "answer": "Thirty-eight.",
+      "accepted_keywords": [
+        "thirty",
+        "38"
+      ]
+    },
+    {
+      "question": "Which shoes does she take?",
+      "answer": "The grey ones.",
+      "accepted_keywords": [
+        "grey"
+      ]
+    },
+    {
+      "question": "How much are the shoes?",
+      "answer": "Seventy pounds.",
+      "accepted_keywords": [
+        "seventy",
+        "70"
+      ]
+    }
+  ]
+}

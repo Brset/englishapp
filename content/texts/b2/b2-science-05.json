@@ -1,0 +1,143 @@
+{
+  "id": "b2-science-05",
+  "level": "B2",
+  "genre": "science",
+  "title_en": "Inside a Vaccine",
+  "title_ru": "Как работает вакцина",
+  "description_ru": "Простое объяснение того, как вакцины учат иммунную систему защищаться от болезней.",
+  "text": "Vaccines are widely regarded as one of the greatest achievements in the history of medicine. According to the World Health Organization, they prevent between three and five million deaths every year. But how do they actually work?\n\nTo understand vaccines, we first need to look at the immune system. When a harmful germ, such as a virus or a bacterium, enters the body, specialised white blood cells recognise it as foreign. They produce antibodies, which are proteins that attach themselves to the invader and help to destroy it. The trouble is that this process takes several days the first time. By then, the germ may already have caused serious damage.\n\nHowever, the immune system has a remarkable feature: it remembers. After the infection has been defeated, some of the cells remain in the body for years, sometimes for life. If the same germ returns, these memory cells recognise it immediately and respond within hours, usually before any symptoms appear.\n\nA vaccine exploits this ability. It contains a harmless version of the germ, or a small part of it, which is unable to cause the disease. The body reacts as if it were facing a real threat, builds antibodies and stores the information for later. In other words, a vaccine is a kind of training exercise.\n\nDifferent technologies are used. Traditional vaccines contain weakened or inactivated viruses. Others include only a single protein from the surface of the germ. Newer vaccines carry genetic instructions, called messenger RNA, which temporarily teach our own cells to make a harmless protein that the immune system can learn to recognise.\n\nThe first vaccine was developed in 1796 by Edward Jenner, an English doctor who noticed that milkmaids who had caught cowpox rarely suffered from smallpox. His experiment was risky by modern standards, but it led, eventually, to the complete eradication of smallpox in 1980.\n\nWhen most people in a community are vaccinated, the disease has difficulty spreading. This is known as herd immunity, and it protects those who cannot be vaccinated, such as newborn babies.\n\nSide effects are usually mild, for example a sore arm or a slight fever, and they show that the body is responding exactly as it should.",
+  "word_count": 364,
+  "vocabulary": [
+    {
+      "word": "achievements",
+      "ipa_us": "əˈtʃivmənts",
+      "ipa_uk": "əˈtʃiːvmənts",
+      "translation_ru": "достижения"
+    },
+    {
+      "word": "immune system",
+      "ipa_us": "ɪˈmjun ˈsɪstəm",
+      "ipa_uk": "ɪˈmjuːn ˈsɪstəm",
+      "translation_ru": "иммунная система"
+    },
+    {
+      "word": "bacterium",
+      "ipa_us": "bækˈtɪriəm",
+      "ipa_uk": "bækˈtɪəriəm",
+      "translation_ru": "бактерия"
+    },
+    {
+      "word": "antibodies",
+      "ipa_us": "ˈæntiˌbɑdiz",
+      "ipa_uk": "ˈæntiˌbɒdiz",
+      "translation_ru": "антитела"
+    },
+    {
+      "word": "defeated",
+      "ipa_us": "dɪˈfitɪd",
+      "ipa_uk": "dɪˈfiːtɪd",
+      "translation_ru": "побеждена"
+    },
+    {
+      "word": "exploits",
+      "ipa_us": "ɪkˈsplɔɪts",
+      "ipa_uk": "ɪkˈsplɔɪts",
+      "translation_ru": "использует"
+    },
+    {
+      "word": "weakened",
+      "ipa_us": "ˈwikənd",
+      "ipa_uk": "ˈwiːkənd",
+      "translation_ru": "ослабленный"
+    },
+    {
+      "word": "genetic",
+      "ipa_us": "dʒəˈnɛtɪk",
+      "ipa_uk": "dʒəˈnetɪk",
+      "translation_ru": "генетический"
+    },
+    {
+      "word": "eradication",
+      "ipa_us": "ɪˌrædɪˈkeɪʃən",
+      "ipa_uk": "ɪˌrædɪˈkeɪʃən",
+      "translation_ru": "искоренение"
+    },
+    {
+      "word": "herd immunity",
+      "ipa_us": "hɜrd ɪˈmjunəti",
+      "ipa_uk": "hɜːd ɪˈmjuːnɪti",
+      "translation_ru": "коллективный иммунитет"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vaccines",
+        "virus",
+        "every"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "widely",
+        "white",
+        "weakened"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "health"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "infection",
+        "system",
+        "symptoms"
+      ],
+      "tip_ru": "Короткий, расслабленный гласный, ближе к русскому «ы»-«и»; не растягивайте его, как «ии»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who developed the first vaccine?",
+      "answer": "Edward Jenner.",
+      "accepted_keywords": [
+        "jenner",
+        "edward"
+      ]
+    },
+    {
+      "question": "What are antibodies?",
+      "answer": "Proteins that attach to germs and help destroy them.",
+      "accepted_keywords": [
+        "proteins",
+        "protein"
+      ]
+    },
+    {
+      "question": "Which disease was completely eradicated in 1980?",
+      "answer": "Smallpox.",
+      "accepted_keywords": [
+        "smallpox"
+      ]
+    },
+    {
+      "question": "What is herd immunity?",
+      "answer": "When most people are vaccinated, so a disease cannot spread easily.",
+      "accepted_keywords": [
+        "vaccinated",
+        "most",
+        "community"
+      ]
+    }
+  ]
+}

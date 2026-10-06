@@ -1,0 +1,122 @@
+{
+  "id": "a1-science-03",
+  "level": "A1",
+  "genre": "science",
+  "title_en": "Busy Bees",
+  "title_ru": "Занятые пчёлы",
+  "description_ru": "Как живут пчёлы в улье и почему они важны для людей.",
+  "text": "Bees are small insects with a big job. They live together in a hive, and one hive has about fifty thousand bees. Every bee has work to do. Some bees clean the home. Some look after the babies. Others fly to flowers and drink sweet liquid called nectar.\n\nThey carry yellow powder from flower to flower. This helps new flowers and fruit to grow. The bees also make honey from nectar. Without bees, we have much less food. So please, be kind to bees!",
+  "vocabulary": [
+    {
+      "word": "insects",
+      "ipa_us": "ˈɪnsekts",
+      "ipa_uk": "ˈɪnsekts",
+      "translation_ru": "насекомые"
+    },
+    {
+      "word": "hive",
+      "ipa_us": "haɪv",
+      "ipa_uk": "haɪv",
+      "translation_ru": "улей"
+    },
+    {
+      "word": "nectar",
+      "ipa_us": "ˈnektɚ",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
+    },
+    {
+      "word": "carry",
+      "ipa_us": "ˈkeri",
+      "ipa_uk": "ˈkæri",
+      "translation_ru": "переносить"
+    },
+    {
+      "word": "powder",
+      "ipa_us": "ˈpaʊdɚ",
+      "ipa_uk": "ˈpaʊdə",
+      "translation_ru": "пыльца, порошок"
+    },
+    {
+      "word": "fruit",
+      "ipa_us": "fruːt",
+      "ipa_uk": "fruːt",
+      "translation_ru": "фрукты"
+    },
+    {
+      "word": "honey",
+      "ipa_us": "ˈhʌni",
+      "ipa_uk": "ˈhʌni",
+      "translation_ru": "мёд"
+    },
+    {
+      "word": "kind",
+      "ipa_us": "kaɪnd",
+      "ipa_uk": "kaɪnd",
+      "translation_ru": "добрый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "hive",
+        "honey",
+        "helps",
+        "home"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "bees",
+        "clean",
+        "sweet",
+        "please"
+      ],
+      "tip_ru": "Долгий звук «и»: растяните губы в лёгкой улыбке и держите звук дольше, чем русское «и»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "hive",
+        "fly",
+        "kind"
+      ],
+      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where do bees live?",
+      "answer": "In a hive.",
+      "accepted_keywords": [
+        "hive"
+      ]
+    },
+    {
+      "question": "What do bees drink from flowers?",
+      "answer": "Nectar.",
+      "accepted_keywords": [
+        "nectar"
+      ]
+    },
+    {
+      "question": "What do bees make?",
+      "answer": "Honey.",
+      "accepted_keywords": [
+        "honey"
+      ]
+    },
+    {
+      "question": "What helps new flowers grow?",
+      "answer": "Yellow powder from bees.",
+      "accepted_keywords": [
+        "powder",
+        "bees"
+      ]
+    }
+  ],
+  "word_count": 84
+}

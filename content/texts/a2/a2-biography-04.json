@@ -1,0 +1,127 @@
+{
+  "id": "a2-biography-04",
+  "level": "A2",
+  "genre": "biography",
+  "title_en": "Wolfgang Amadeus Mozart",
+  "title_ru": "Вольфганг Амадей Моцарт",
+  "description_ru": "Как маленький музыкальный вундеркинд стал одним из самых известных композиторов.",
+  "text": "Wolfgang Amadeus Mozart was born in 1756 in Salzburg, Austria. His father was a musician, and he taught Wolfgang and his older sister Nannerl to play the piano. Wolfgang was a very quick learner. He wrote his first little pieces of music when he was only five years old.\n\nWhen he was a child, he travelled around Europe with his family. He played for kings and queens in many cities. People were amazed because such a small boy played so well.\n\nWhen Mozart was a young man, he moved to Vienna. There he wrote many famous works, for example the opera The Marriage of Figaro and The Magic Flute. His music was beautiful, but he did not always have enough money.\n\nMozart died in Vienna in 1791. He was only thirty-five, but he wrote more than six hundred pieces of music.",
+  "word_count": 140,
+  "vocabulary": [
+    {
+      "word": "musician",
+      "ipa_us": "mjuˈzɪʃn",
+      "ipa_uk": "mjuˈzɪʃn",
+      "translation_ru": "музыкант"
+    },
+    {
+      "word": "taught",
+      "ipa_us": "tɔːt",
+      "ipa_uk": "tɔːt",
+      "translation_ru": "учил"
+    },
+    {
+      "word": "travelled",
+      "ipa_us": "ˈtrævld",
+      "ipa_uk": "ˈtrævld",
+      "translation_ru": "путешествовал"
+    },
+    {
+      "word": "amazed",
+      "ipa_us": "əˈmeɪzd",
+      "ipa_uk": "əˈmeɪzd",
+      "translation_ru": "поражённый"
+    },
+    {
+      "word": "opera",
+      "ipa_us": "ˈɑːprə",
+      "ipa_uk": "ˈɒprə",
+      "translation_ru": "опера"
+    },
+    {
+      "word": "beautiful",
+      "ipa_us": "ˈbjuːtɪfl",
+      "ipa_uk": "ˈbjuːtɪfl",
+      "translation_ru": "красивый"
+    },
+    {
+      "word": "enough",
+      "ipa_us": "ɪˈnʌf",
+      "ipa_uk": "ɪˈnʌf",
+      "translation_ru": "достаточно"
+    },
+    {
+      "word": "hundred",
+      "ipa_us": "ˈhʌndrəd",
+      "ipa_uk": "ˈhʌndrəd",
+      "translation_ru": "сто"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "Vienna"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Wolfgang",
+        "was"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "father",
+        "thirty"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "learner",
+        "thirty"
+      ],
+      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Mozart born?",
+      "answer": "In Salzburg, Austria.",
+      "accepted_keywords": [
+        "salzburg",
+        "austria"
+      ]
+    },
+    {
+      "question": "How old was he when he wrote his first music?",
+      "answer": "Five.",
+      "accepted_keywords": [
+        "five",
+        "5"
+      ]
+    },
+    {
+      "question": "Which city did he move to?",
+      "answer": "Vienna.",
+      "accepted_keywords": [
+        "vienna"
+      ]
+    },
+    {
+      "question": "How old was he when he died?",
+      "answer": "Thirty-five.",
+      "accepted_keywords": [
+        "thirty",
+        "35"
+      ]
+    }
+  ]
+}

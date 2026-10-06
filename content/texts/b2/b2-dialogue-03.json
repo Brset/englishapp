@@ -1,0 +1,144 @@
+{
+  "id": "b2-dialogue-03",
+  "level": "B2",
+  "genre": "dialogue",
+  "title_en": "Noisy Neighbours",
+  "title_ru": "Шумные соседи",
+  "description_ru": "Двое соседей по квартире обсуждают шум по ночам и пытаются договориться о правилах.",
+  "text": "Jon: Hey, Sasha, have you got a minute? There's something I'd like to talk about.\n\nSasha: Sure. You look serious. Is everything all right?\n\nJon: Well, to be honest, I haven't been sleeping well lately. It seems that your music is rather loud after eleven.\n\nSasha: Oh no. I had no idea. I always use headphones, or at least I thought I did.\n\nJon: Last night I could hear the bass through the wall. It went on until almost one o'clock.\n\nSasha: I'm so sorry, Jon. My friend Victor came over, and he asked me to turn the speakers on. I should have said no.\n\nJon: It's not only about the music. Yesterday I was told by the woman upstairs that someone had been dragging furniture across the floor at midnight.\n\nSasha: That was me, I'm afraid. I was rearranging my room. I didn't realise that the sound would travel so far.\n\nJon: Look, I don't want to start an argument. I just think we need some rules, like a quiet hour in the evenings.\n\nSasha: That sounds fair. How about this? After half past ten, no loud music, no vacuum cleaner and no visitors in the living room.\n\nJon: Perfect. And at weekends, maybe we could be a bit more flexible, as long as we warn each other first.\n\nSasha: Agreed. By the way, can I ask you for a favour too? You often leave dirty dishes in the sink for days. It's driving me up the wall.\n\nJon: Ouch. You're right, that's a fair point. I promise I'll wash them every evening.\n\nSasha: Then we have a deal. Shall we write the rules down and stick them on the fridge?\n\nJon: Why not? Let's even add a rule that whoever breaks them has to buy pizza for everyone.\n\nSasha: Brilliant idea. Though I suspect I'll be buying the first one!",
+  "word_count": 296,
+  "vocabulary": [
+    {
+      "word": "headphones",
+      "ipa_us": "ˈhɛdˌfoʊnz",
+      "ipa_uk": "ˈhedfəʊnz",
+      "translation_ru": "наушники"
+    },
+    {
+      "word": "rearranging",
+      "ipa_us": "ˌriəˈreɪndʒɪŋ",
+      "ipa_uk": "ˌriːəˈreɪndʒɪŋ",
+      "translation_ru": "переставлял"
+    },
+    {
+      "word": "dragging",
+      "ipa_us": "ˈdræɡɪŋ",
+      "ipa_uk": "ˈdræɡɪŋ",
+      "translation_ru": "таскал"
+    },
+    {
+      "word": "argument",
+      "ipa_us": "ˈɑrɡjəmənt",
+      "ipa_uk": "ˈɑːɡjʊmənt",
+      "translation_ru": "ссора"
+    },
+    {
+      "word": "flexible",
+      "ipa_us": "ˈflɛksəbəl",
+      "ipa_uk": "ˈfleksəbəl",
+      "translation_ru": "гибкий"
+    },
+    {
+      "word": "favour",
+      "ipa_us": "ˈfeɪvər",
+      "ipa_uk": "ˈfeɪvə",
+      "translation_ru": "одолжение"
+    },
+    {
+      "word": "sink",
+      "ipa_us": "sɪŋk",
+      "ipa_uk": "sɪŋk",
+      "translation_ru": "раковина"
+    },
+    {
+      "word": "promise",
+      "ipa_us": "ˈprɑmɪs",
+      "ipa_uk": "ˈprɒmɪs",
+      "translation_ru": "обещаю"
+    },
+    {
+      "word": "whoever",
+      "ipa_us": "huˈɛvər",
+      "ipa_uk": "huːˈevə",
+      "translation_ru": "кто бы ни"
+    },
+    {
+      "word": "suspect",
+      "ipa_us": "səˈspɛkt",
+      "ipa_uk": "səˈspekt",
+      "translation_ru": "подозреваю"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "well",
+        "wall",
+        "weekends"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "vacuum",
+        "evening"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "headphones",
+        "hear",
+        "have"
+      ],
+      "tip_ru": "Просто выдохните через открытый рот, без трения, как будто согреваете руки; не заменяйте на русское «х»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "that",
+        "the",
+        "rather"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is Jon's problem?",
+      "answer": "The music is too loud at night.",
+      "accepted_keywords": [
+        "music",
+        "loud",
+        "noise"
+      ]
+    },
+    {
+      "question": "Who is Victor?",
+      "answer": "Sasha's friend.",
+      "accepted_keywords": [
+        "friend"
+      ]
+    },
+    {
+      "question": "What time does the quiet hour start?",
+      "answer": "After half past ten.",
+      "accepted_keywords": [
+        "ten",
+        "10:30",
+        "half"
+      ]
+    },
+    {
+      "question": "What does the person who breaks the rules have to do?",
+      "answer": "Buy pizza for everyone.",
+      "accepted_keywords": [
+        "pizza"
+      ]
+    }
+  ]
+}

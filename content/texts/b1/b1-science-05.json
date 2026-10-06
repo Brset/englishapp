@@ -1,0 +1,109 @@
+{
+  "id": "b1-science-05",
+  "level": "B1",
+  "genre": "science",
+  "title_en": "Why We Have Seasons",
+  "title_ru": "Почему бывают времена года",
+  "description_ru": "Объяснение смены времён года наклоном земной оси.",
+  "text": "Many people think that summer happens when the Earth is closer to the sun, and winter happens when it is farther away. This idea sounds logical, but it is wrong. In fact, the Earth is closest to the sun in early January, when it is winter in the Northern Hemisphere.\n\nThe real reason for the seasons is the tilt of the Earth's axis. Our planet spins around an imaginary line that goes through the North and South Poles. This line is not straight up and down. It is tilted by about twenty-three and a half degrees. As the Earth travels around the sun, which takes one year, the same tilt always points in the same direction in space.\n\nBecause of this, the Northern Hemisphere leans towards the sun for part of the year. During that time, sunlight hits the ground more directly, the days are longer, and the weather becomes warmer. Six months later, the Northern Hemisphere leans away from the sun. The light is weaker, the days are shorter, and winter arrives. At the same moment, it is summer in the Southern Hemisphere.\n\nNear the equator, the tilt makes little difference, so the temperature stays almost the same all year. If the Earth had no tilt, there would be no seasons at all, and every day would be very similar to the one before.",
+  "word_count": 226,
+  "vocabulary": [
+    {
+      "word": "logical",
+      "ipa_us": "ˈlɑːdʒɪkəl",
+      "ipa_uk": "ˈlɒdʒɪkəl",
+      "translation_ru": "логичный"
+    },
+    {
+      "word": "hemisphere",
+      "ipa_us": "ˈhemɪsfɪr",
+      "ipa_uk": "ˈhemɪsfɪə",
+      "translation_ru": "полушарие"
+    },
+    {
+      "word": "tilt",
+      "ipa_us": "tɪlt",
+      "ipa_uk": "tɪlt",
+      "translation_ru": "наклон"
+    },
+    {
+      "word": "axis",
+      "ipa_us": "ˈæksɪs",
+      "ipa_uk": "ˈæksɪs",
+      "translation_ru": "ось"
+    },
+    {
+      "word": "imaginary",
+      "ipa_us": "ɪˈmædʒɪneri",
+      "ipa_uk": "ɪˈmædʒɪnəri",
+      "translation_ru": "воображаемый"
+    },
+    {
+      "word": "equator",
+      "ipa_us": "ɪˈkweɪtɚ",
+      "ipa_uk": "ɪˈkweɪtə",
+      "translation_ru": "экватор"
+    },
+    {
+      "word": "temperature",
+      "ipa_us": "ˈtemprətʃɚ",
+      "ipa_uk": "ˈtemprətʃə",
+      "translation_ru": "температура"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "Earth",
+        "through"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hemisphere",
+        "happens",
+        "hits"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто запотевает зеркало; без русского «х» с трением в задней части рта."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "real",
+        "reason",
+        "around",
+        "travels"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When is the Earth closest to the sun?",
+      "answer": "In early January.",
+      "accepted_keywords": [
+        "january"
+      ]
+    },
+    {
+      "question": "How much is the Earth's axis tilted?",
+      "answer": "About twenty-three and a half degrees.",
+      "accepted_keywords": [
+        "twenty",
+        "23",
+        "degrees"
+      ]
+    },
+    {
+      "question": "Why are there almost no seasons near the equator?",
+      "answer": "The tilt makes little difference there.",
+      "accepted_keywords": [
+        "tilt",
+        "difference"
+      ]
+    }
+  ]
+}

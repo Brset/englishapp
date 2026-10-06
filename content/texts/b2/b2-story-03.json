@@ -1,0 +1,143 @@
+{
+  "id": "b2-story-03",
+  "level": "B2",
+  "genre": "story",
+  "title_en": "The Violin in the Attic",
+  "title_ru": "Скрипка на чердаке",
+  "description_ru": "Семья находит на чердаке старинную скрипку, и её история удивляет всех.",
+  "text": "The Whitfield family had lived in the old house for twenty years before anyone thought of cleaning the attic. It was Oliver, the youngest son, who finally volunteered. He climbed the narrow ladder with a torch in his hand and a scarf tied over his nose, because the dust was thicker than snow.\n\nBehind a pile of curtains he discovered a black wooden case. Inside, wrapped in yellow silk, lay a violin. Its strings were broken, but the wood still shone with a warm, reddish colour.\n\n\"Mum, Dad, come and see this!\" he shouted.\n\nHis father, who played the guitar badly, turned it over in his hands. He said that it looked very old and suggested taking it to an expert. The next day they visited a small workshop in the city centre, where a grey-haired craftsman examined the instrument for a long time without saying a word.\n\n\"Do you know what you have here?\" he finally asked. \"This was made in Italy around 1780. A violin like this is worth a fortune.\"\n\nThe family stared at him. Oliver's mother nearly dropped her handbag.\n\nThe craftsman explained that the maker's label was still inside, and that the violin had probably been brought to England by a travelling musician. How it ended up in their attic was a mystery. When Oliver's grandmother heard the news, however, she began to laugh. She admitted that her own father had once been a street performer, and that he had always refused to say where he had got his violin.\n\n\"He told me it was a gift from a stranger,\" she said, \"but I never believed him.\"\n\nThe family had to make a difficult decision. Selling the violin would solve their money problems, but Oliver wanted to hear it played. In the end, they paid for repairs and invited a young violinist to give a concert in the living room.\n\nWhen the first note rose into the air, nobody spoke. Oliver's grandmother wiped her eyes. After two hundred years in the dark, the old violin was singing again, and it had never sounded more beautiful.",
+  "word_count": 350,
+  "vocabulary": [
+    {
+      "word": "volunteered",
+      "ipa_us": "ˌvɑlənˈtɪrd",
+      "ipa_uk": "ˌvɒlənˈtɪəd",
+      "translation_ru": "вызвался"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈnɛroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "wrapped",
+      "ipa_us": "ræpt",
+      "ipa_uk": "ræpt",
+      "translation_ru": "завёрнутый"
+    },
+    {
+      "word": "craftsman",
+      "ipa_us": "ˈkræftsmən",
+      "ipa_uk": "ˈkrɑːftsmən",
+      "translation_ru": "мастер"
+    },
+    {
+      "word": "examined",
+      "ipa_us": "ɪɡˈzæmɪnd",
+      "ipa_uk": "ɪɡˈzæmɪnd",
+      "translation_ru": "осмотрел"
+    },
+    {
+      "word": "fortune",
+      "ipa_us": "ˈfɔrtʃən",
+      "ipa_uk": "ˈfɔːtʃuːn",
+      "translation_ru": "состояние"
+    },
+    {
+      "word": "mystery",
+      "ipa_us": "ˈmɪstəri",
+      "ipa_uk": "ˈmɪstəri",
+      "translation_ru": "загадка"
+    },
+    {
+      "word": "admitted",
+      "ipa_us": "ædˈmɪtɪd",
+      "ipa_uk": "ədˈmɪtɪd",
+      "translation_ru": "призналась"
+    },
+    {
+      "word": "performer",
+      "ipa_us": "pərˈfɔrmər",
+      "ipa_uk": "pəˈfɔːmə",
+      "translation_ru": "исполнитель"
+    },
+    {
+      "word": "repairs",
+      "ipa_us": "rɪˈpɛrz",
+      "ipa_uk": "rɪˈpeəz",
+      "translation_ru": "ремонт"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "volunteered",
+        "violin",
+        "believed"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wooden",
+        "with",
+        "warm"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "wrapped",
+        "reddish",
+        "repairs"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "their"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who found the violin?",
+      "answer": "Oliver.",
+      "accepted_keywords": [
+        "oliver"
+      ]
+    },
+    {
+      "question": "Where was the violin made?",
+      "answer": "In Italy.",
+      "accepted_keywords": [
+        "italy"
+      ]
+    },
+    {
+      "question": "What was the grandmother's father?",
+      "answer": "A street performer.",
+      "accepted_keywords": [
+        "street",
+        "performer"
+      ]
+    },
+    {
+      "question": "What did the family do in the end?",
+      "answer": "They repaired it and held a concert.",
+      "accepted_keywords": [
+        "repair",
+        "repaired",
+        "concert"
+      ]
+    }
+  ]
+}

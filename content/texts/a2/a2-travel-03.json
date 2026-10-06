@@ -1,0 +1,124 @@
+{
+  "id": "a2-travel-03",
+  "level": "A2",
+  "genre": "travel",
+  "title_en": "Rainy Edinburgh",
+  "title_ru": "Дождливый Эдинбург",
+  "description_ru": "Короткая поездка в шотландский город, где дождь не помешал хорошему отдыху.",
+  "text": "Edinburgh is the capital of Scotland, and it is famous for its castle, its history and its weather. When we arrived, it was raining, and it rained for three days. But we did not mind.\n\nOn the first morning, we climbed up to the castle. It was windy and cold, but the view of the city was wonderful. In the afternoon, we went into a museum to get warm. We saw old swords, strange maps and a very big clock.\n\nIn the evening, we had dinner in a traditional pub. I tried a Scottish soup, and my brother ordered a plate of fish and potatoes. A man with a guitar played sad songs, and everybody sang together.\n\nOn the last day, the sun finally came out. We walked up a big hill behind the city, and we could see the sea. Edinburgh in the sun was even better than Edinburgh in the rain.",
+  "word_count": 153,
+  "vocabulary": [
+    {
+      "word": "capital",
+      "ipa_us": "ˈkæpɪtəl",
+      "ipa_uk": "ˈkæpɪtəl",
+      "translation_ru": "столица"
+    },
+    {
+      "word": "castle",
+      "ipa_us": "ˈkæsəl",
+      "ipa_uk": "ˈkɑːsəl",
+      "translation_ru": "замок"
+    },
+    {
+      "word": "windy",
+      "ipa_us": "ˈwɪndi",
+      "ipa_uk": "ˈwɪndi",
+      "translation_ru": "ветреный"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziːəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
+    },
+    {
+      "word": "swords",
+      "ipa_us": "sɔrdz",
+      "ipa_uk": "sɔːdz",
+      "translation_ru": "мечи"
+    },
+    {
+      "word": "traditional",
+      "ipa_us": "trəˈdɪʃənəl",
+      "ipa_uk": "trəˈdɪʃənəl",
+      "translation_ru": "традиционный"
+    },
+    {
+      "word": "guitar",
+      "ipa_us": "ɡɪˈtɑr",
+      "ipa_uk": "ɡɪˈtɑː",
+      "translation_ru": "гитара"
+    },
+    {
+      "word": "finally",
+      "ipa_us": "ˈfaɪnəli",
+      "ipa_uk": "ˈfaɪnəli",
+      "translation_ru": "наконец"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "the",
+        "with",
+        "together"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rained",
+        "brother",
+        "ordered",
+        "rain"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "weather",
+        "windy",
+        "wonderful",
+        "walked",
+        "was"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is Edinburgh?",
+      "answer": "In Scotland.",
+      "accepted_keywords": [
+        "scotland"
+      ]
+    },
+    {
+      "question": "How long did it rain?",
+      "answer": "Three days.",
+      "accepted_keywords": [
+        "three"
+      ]
+    },
+    {
+      "question": "What did the man with the guitar play?",
+      "answer": "Sad songs.",
+      "accepted_keywords": [
+        "sad",
+        "songs"
+      ]
+    },
+    {
+      "question": "What could they see from the hill?",
+      "answer": "The sea.",
+      "accepted_keywords": [
+        "sea"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "a1-travel-02",
+  "level": "A1",
+  "genre": "travel",
+  "title_en": "The Mountain Train",
+  "title_ru": "Горный поезд",
+  "description_ru": "Марек едет на старом красном поезде по долинам Норвегии.",
+  "text": "Marek takes the famous mountain train in Norway. The train is old and red, and it climbs slowly through a wide green valley. Outside the window, he sees high white mountains, deep blue water and many waterfalls. The air is fresh and cold.\n\nAt one stop, everybody gets out for thirty minutes. Marek takes a photo and drinks hot chocolate. A girl next to him says, \"This is my third time here, and I still love it.\" Marek agrees. He sits down, and the train goes on. He does not want the trip to end.",
+  "vocabulary": [
+    {
+      "word": "mountain",
+      "ipa_us": "ˈmaʊntn",
+      "ipa_uk": "ˈmaʊntɪn",
+      "translation_ru": "гора"
+    },
+    {
+      "word": "climbs",
+      "ipa_us": "klaɪmz",
+      "ipa_uk": "klaɪmz",
+      "translation_ru": "поднимается"
+    },
+    {
+      "word": "valley",
+      "ipa_us": "ˈvæli",
+      "ipa_uk": "ˈvæli",
+      "translation_ru": "долина"
+    },
+    {
+      "word": "waterfalls",
+      "ipa_us": "ˈwɔːtɚfɔːlz",
+      "ipa_uk": "ˈwɔːtəfɔːlz",
+      "translation_ru": "водопады"
+    },
+    {
+      "word": "fresh",
+      "ipa_us": "freʃ",
+      "ipa_uk": "freʃ",
+      "translation_ru": "свежий"
+    },
+    {
+      "word": "chocolate",
+      "ipa_us": "ˈtʃɑːklət",
+      "ipa_uk": "ˈtʃɒklət",
+      "translation_ru": "шоколад"
+    },
+    {
+      "word": "third",
+      "ipa_us": "θɝːd",
+      "ipa_uk": "θɜːd",
+      "translation_ru": "третий"
+    },
+    {
+      "word": "trip",
+      "ipa_us": "trɪp",
+      "ipa_uk": "trɪp",
+      "translation_ru": "поездка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "third"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "this",
+        "the"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wide",
+        "window",
+        "white",
+        "want"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is the train?",
+      "answer": "In Norway.",
+      "accepted_keywords": [
+        "norway"
+      ]
+    },
+    {
+      "question": "What colour is the train?",
+      "answer": "Red.",
+      "accepted_keywords": [
+        "red"
+      ]
+    },
+    {
+      "question": "What does Marek drink?",
+      "answer": "Hot chocolate.",
+      "accepted_keywords": [
+        "chocolate"
+      ]
+    },
+    {
+      "question": "How long is the stop?",
+      "answer": "Thirty minutes.",
+      "accepted_keywords": [
+        "thirty",
+        "30"
+      ]
+    }
+  ],
+  "word_count": 95
+}

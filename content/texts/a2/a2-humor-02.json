@@ -1,0 +1,127 @@
+{
+  "id": "a2-humor-02",
+  "level": "A2",
+  "genre": "humor",
+  "title_en": "Grandma's New Phone",
+  "title_ru": "Новый телефон бабушки",
+  "description_ru": "Весёлый рассказ о бабушке, которая впервые пользуется смартфоном.",
+  "text": "Last week, my grandma Rose got her first smartphone. She is seventy-two, and she was very excited. \"Now I am modern!\" she said.\n\nOn the first day, she called me nine times. \"Tom, the phone is dark. Is it broken?\" I said, \"Grandma, push the button.\" \"Oh,\" she said. \"Now it is bright. Thank you.\"\n\nOn the second day, she sent me a photo. It was a picture of her left ear. \"I wanted to take a picture of the flowers,\" she wrote. \"But the flowers are behind me.\"\n\nOn the third day, she found a game with birds. She played all afternoon and shouted, \"Take that, you silly green pig!\" My grandfather came into the room and asked, \"Who are you talking to?\"\n\nNow Grandma says she is better at games than me. The sad thing is that she is right.",
+  "word_count": 143,
+  "vocabulary": [
+    {
+      "word": "smartphone",
+      "ipa_us": "ˈsmɑːrtfoʊn",
+      "ipa_uk": "ˈsmɑːtfəʊn",
+      "translation_ru": "смартфон"
+    },
+    {
+      "word": "excited",
+      "ipa_us": "ɪkˈsaɪtɪd",
+      "ipa_uk": "ɪkˈsaɪtɪd",
+      "translation_ru": "взволнованный"
+    },
+    {
+      "word": "broken",
+      "ipa_us": "ˈbroʊkən",
+      "ipa_uk": "ˈbrəʊkən",
+      "translation_ru": "сломанный"
+    },
+    {
+      "word": "button",
+      "ipa_us": "ˈbʌtn",
+      "ipa_uk": "ˈbʌtn",
+      "translation_ru": "кнопка"
+    },
+    {
+      "word": "bright",
+      "ipa_us": "braɪt",
+      "ipa_uk": "braɪt",
+      "translation_ru": "яркий"
+    },
+    {
+      "word": "photo",
+      "ipa_us": "ˈfoʊtoʊ",
+      "ipa_uk": "ˈfəʊtəʊ",
+      "translation_ru": "фото"
+    },
+    {
+      "word": "silly",
+      "ipa_us": "ˈsɪli",
+      "ipa_uk": "ˈsɪli",
+      "translation_ru": "глупый"
+    },
+    {
+      "word": "grandfather",
+      "ipa_us": "ˈɡrænfɑːðər",
+      "ipa_uk": "ˈɡrænfɑːðə",
+      "translation_ru": "дедушка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thank",
+        "third"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "seventy",
+        "very"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "bright",
+        "right"
+      ],
+      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "phone",
+        "photo"
+      ],
+      "tip_ru": "Начните со звука «э» (ə) и плавно переходите к «у» с округлёнными губами."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Grandma get?",
+      "answer": "A smartphone.",
+      "accepted_keywords": [
+        "smartphone",
+        "phone"
+      ]
+    },
+    {
+      "question": "How old is she?",
+      "answer": "Seventy-two.",
+      "accepted_keywords": [
+        "seventy",
+        "72"
+      ]
+    },
+    {
+      "question": "What was in the photo?",
+      "answer": "Her ear.",
+      "accepted_keywords": [
+        "ear"
+      ]
+    },
+    {
+      "question": "What game did she play?",
+      "answer": "A game with birds.",
+      "accepted_keywords": [
+        "bird",
+        "birds"
+      ]
+    }
+  ]
+}

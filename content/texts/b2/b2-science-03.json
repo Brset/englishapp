@@ -1,0 +1,144 @@
+{
+  "id": "b2-science-03",
+  "level": "B2",
+  "genre": "science",
+  "title_en": "How the Moon Moves the Sea",
+  "title_ru": "Как Луна двигает море",
+  "description_ru": "Почему на Земле бывают приливы и отливы и какую роль играют Луна и Солнце.",
+  "text": "Anyone who has spent a day at the seaside knows that the water level changes. In most places, the sea rises and falls twice every day. These movements are called tides, and they are caused mainly by the gravitational pull of the Moon.\n\nGravity weakens with distance. The side of the Earth that faces the Moon is about twelve thousand kilometres closer to it than the far side, so it is pulled slightly harder. This difference creates a stretching effect, known as a tidal force. The oceans, being fluid, are drawn into a bulge on the side facing the Moon. A second bulge forms on the opposite side, where the Earth is pulled away from the water more strongly than the water is pulled towards the Moon. As our planet rotates once every twenty-four hours, each coastline passes through both bulges, and that is why most coasts experience two high tides a day.\n\nBecause the Moon also moves around the Earth, a tidal cycle actually lasts about twenty-four hours and fifty minutes. This is why high tide arrives later each day.\n\nThe Sun plays a role too. Although it is far more massive than the Moon, it is about four hundred times farther away, so its tidal effect is less than half as strong. When the Sun, the Moon and the Earth are aligned, at new moon and full moon, the two effects combine, producing unusually large tides called spring tides. A week later, when the Sun and Moon pull at right angles, the tides are weaker. These are called neap tides.\n\nGeography has a powerful influence as well. In the Bay of Fundy in Canada, the funnel shape of the coast pushes the water up to sixteen metres, the highest range in the world. By contrast, the Mediterranean Sea is almost enclosed, and its tides are barely noticeable.\n\nTides are not only a curiosity. They affect navigation, fishing and the lives of countless coastal creatures. Engineers have also built power stations that generate electricity from moving water. Unlike wind or sunshine, the tides can be predicted centuries ahead.",
+  "word_count": 351,
+  "vocabulary": [
+    {
+      "word": "tides",
+      "ipa_us": "taɪdz",
+      "ipa_uk": "taɪdz",
+      "translation_ru": "приливы и отливы"
+    },
+    {
+      "word": "gravitational",
+      "ipa_us": "ˌɡrævɪˈteɪʃənəl",
+      "ipa_uk": "ˌɡrævɪˈteɪʃənəl",
+      "translation_ru": "гравитационный"
+    },
+    {
+      "word": "fluid",
+      "ipa_us": "ˈfluɪd",
+      "ipa_uk": "ˈfluːɪd",
+      "translation_ru": "жидкий"
+    },
+    {
+      "word": "bulge",
+      "ipa_us": "bʌldʒ",
+      "ipa_uk": "bʌldʒ",
+      "translation_ru": "выступ"
+    },
+    {
+      "word": "rotates",
+      "ipa_us": "ˈroʊteɪts",
+      "ipa_uk": "rəʊˈteɪts",
+      "translation_ru": "вращается"
+    },
+    {
+      "word": "coastline",
+      "ipa_us": "ˈkoʊstˌlaɪn",
+      "ipa_uk": "ˈkəʊstlaɪn",
+      "translation_ru": "береговая линия"
+    },
+    {
+      "word": "massive",
+      "ipa_us": "ˈmæsɪv",
+      "ipa_uk": "ˈmæsɪv",
+      "translation_ru": "массивный"
+    },
+    {
+      "word": "aligned",
+      "ipa_us": "əˈlaɪnd",
+      "ipa_uk": "əˈlaɪnd",
+      "translation_ru": "выстроены в линию"
+    },
+    {
+      "word": "enclosed",
+      "ipa_us": "ɪnˈkloʊzd",
+      "ipa_uk": "ɪnˈkləʊzd",
+      "translation_ru": "замкнутое"
+    },
+    {
+      "word": "predicted",
+      "ipa_us": "prɪˈdɪktɪd",
+      "ipa_uk": "prɪˈdɪktɪd",
+      "translation_ru": "предсказаны"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "these",
+        "both"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "these",
+        "that",
+        "farther"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "level",
+        "every",
+        "navigation"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rises",
+        "rotates",
+        "range"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What mainly causes the tides?",
+      "answer": "The Moon's gravitational pull.",
+      "accepted_keywords": [
+        "moon",
+        "gravity",
+        "gravitational"
+      ]
+    },
+    {
+      "question": "How often do most coasts have high tide?",
+      "answer": "Twice a day.",
+      "accepted_keywords": [
+        "twice",
+        "two"
+      ]
+    },
+    {
+      "question": "What are unusually large tides called?",
+      "answer": "Spring tides.",
+      "accepted_keywords": [
+        "spring"
+      ]
+    },
+    {
+      "question": "Where is the highest tidal range in the world?",
+      "answer": "The Bay of Fundy in Canada.",
+      "accepted_keywords": [
+        "fundy",
+        "canada"
+      ]
+    }
+  ]
+}

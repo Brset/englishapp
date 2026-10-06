@@ -1,0 +1,121 @@
+{
+  "id": "a1-opinion-01",
+  "level": "A1",
+  "genre": "opinion",
+  "title_en": "I Love Rainy Days",
+  "title_ru": "Я люблю дождливые дни",
+  "description_ru": "Короткое мнение о том, чем хороша дождливая погода.",
+  "text": "Many people think rainy days are bad. I think they are great! I love the rain.\n\nFirst, the world is quiet when it rains. I hear the water on the window, and I feel calm. Second, I can stay at home. I make hot tea, wear warm socks and read a good book.\n\nThird, rain is good for the trees and the flowers. The streets are clean and the air is fresh. Of course, I need an umbrella and boots. But I do not mind. For me, a rainy day is a gift. What do you think about rain?",
+  "word_count": 99,
+  "vocabulary": [
+    {
+      "word": "rain",
+      "ipa_us": "reɪn",
+      "ipa_uk": "reɪn",
+      "translation_ru": "дождь"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "window",
+      "ipa_us": "ˈwɪndoʊ",
+      "ipa_uk": "ˈwɪndəʊ",
+      "translation_ru": "окно"
+    },
+    {
+      "word": "calm",
+      "ipa_us": "kɑm",
+      "ipa_uk": "kɑːm",
+      "translation_ru": "спокойный"
+    },
+    {
+      "word": "warm",
+      "ipa_us": "wɔrm",
+      "ipa_uk": "wɔːm",
+      "translation_ru": "тёплый"
+    },
+    {
+      "word": "fresh",
+      "ipa_us": "frɛʃ",
+      "ipa_uk": "freʃ",
+      "translation_ru": "свежий"
+    },
+    {
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrɛlə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
+    },
+    {
+      "word": "gift",
+      "ipa_us": "ɡɪft",
+      "ipa_uk": "ɡɪft",
+      "translation_ru": "подарок"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "great",
+        "fresh"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "world",
+        "water",
+        "window"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "think",
+        "Third"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the writer love?",
+      "answer": "Rainy days.",
+      "accepted_keywords": [
+        "rain",
+        "rainy"
+      ]
+    },
+    {
+      "question": "What does the writer drink at home?",
+      "answer": "Hot tea.",
+      "accepted_keywords": [
+        "tea"
+      ]
+    },
+    {
+      "question": "Why is rain good for trees?",
+      "answer": "It is good for them / rain helps them.",
+      "accepted_keywords": [
+        "trees",
+        "good"
+      ]
+    },
+    {
+      "question": "What does the writer need in the rain?",
+      "answer": "An umbrella and boots.",
+      "accepted_keywords": [
+        "umbrella",
+        "boots"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "a1-travel-05",
+  "level": "A1",
+  "genre": "travel",
+  "title_en": "Hot Water in Iceland",
+  "title_ru": "Горячий источник в Исландии",
+  "description_ru": "Фрейя греется в тёплой воде и видит северное сияние.",
+  "text": "Freya is on holiday in Iceland. The weather is cold and windy, but she is very happy. Today she visits a hot spring. The water is warm and blue, and white steam rises over it. Outside, it is minus five degrees.\n\nFreya sits in the water and looks at the mountains. A man next to her says, \"Look up! The sky is green!\" She sees soft green lights dancing above her. They are the northern lights. Freya forgets the cold. She stays in the water for two hours, and she doesn't want to leave.",
+  "vocabulary": [
+    {
+      "word": "holiday",
+      "ipa_us": "ˈhɑːlədeɪ",
+      "ipa_uk": "ˈhɒlədeɪ",
+      "translation_ru": "отпуск"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈweðɚ",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "windy",
+      "ipa_us": "ˈwɪndi",
+      "ipa_uk": "ˈwɪndi",
+      "translation_ru": "ветреный"
+    },
+    {
+      "word": "spring",
+      "ipa_us": "sprɪŋ",
+      "ipa_uk": "sprɪŋ",
+      "translation_ru": "источник, весна"
+    },
+    {
+      "word": "steam",
+      "ipa_us": "stiːm",
+      "ipa_uk": "stiːm",
+      "translation_ru": "пар"
+    },
+    {
+      "word": "degrees",
+      "ipa_us": "dɪˈɡriːz",
+      "ipa_uk": "dɪˈɡriːz",
+      "translation_ru": "градусы"
+    },
+    {
+      "word": "northern lights",
+      "ipa_us": "ˈnɔːrðɚn laɪts",
+      "ipa_uk": "ˈnɔːðən laɪts",
+      "translation_ru": "северное сияние"
+    },
+    {
+      "word": "forgets",
+      "ipa_us": "fɚˈɡets",
+      "ipa_uk": "fəˈɡets",
+      "translation_ru": "забывает"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "weather",
+        "windy",
+        "water",
+        "warm",
+        "white"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Freya",
+        "green",
+        "degrees",
+        "northern"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "weather",
+        "northern",
+        "the",
+        "they"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where is Freya?",
+      "answer": "In Iceland.",
+      "accepted_keywords": [
+        "iceland"
+      ]
+    },
+    {
+      "question": "What is the weather like?",
+      "answer": "Cold and windy.",
+      "accepted_keywords": [
+        "cold",
+        "windy"
+      ]
+    },
+    {
+      "question": "What colour is the sky?",
+      "answer": "Green.",
+      "accepted_keywords": [
+        "green"
+      ]
+    },
+    {
+      "question": "How long does she stay in the water?",
+      "answer": "Two hours.",
+      "accepted_keywords": [
+        "two",
+        "hours"
+      ]
+    }
+  ],
+  "word_count": 94
+}

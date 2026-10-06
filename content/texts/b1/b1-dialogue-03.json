@@ -1,0 +1,111 @@
+{
+  "id": "b1-dialogue-03",
+  "level": "B1",
+  "genre": "dialogue",
+  "title_en": "Planning a Weekend",
+  "title_ru": "Планируем выходные",
+  "description_ru": "Трое друзей обсуждают, как провести выходные, если погода будет плохой.",
+  "text": "Tom: So, what are we doing this weekend? Have you checked the weather?\nNina: I have, and it isn't good. It will rain all day on Saturday.\nBen: That's a shame. I wanted to go to the lake.\nNina: We could go on Sunday instead. The forecast says it will be sunny then.\nTom: Fine, but what shall we do on Saturday? If we stay at home, we will just watch television.\nBen: Why don't we visit the new science museum? I have heard that it has a huge space exhibition.\nNina: Good idea! I have never been there, and my brother says that the planetarium is amazing.\nTom: How much are the tickets?\nBen: Twelve pounds for adults, but students pay half price. If we book online, we can skip the queue.\nTom: Great, thanks. Then let's meet at the bus stop at ten o'clock.\nNina: I think ten is too early for me. I never wake up before nine on Saturdays. How about eleven?\nBen: Eleven is fine. We can have lunch at the café there.\nTom: And on Sunday, shall we take sandwiches to the lake?\nNina: Yes, and I will bring some chocolate. If it's very sunny, we might even swim.\nBen: The water will be freezing! But I'm in.\nTom: Perfect. See you on Saturday!",
+  "word_count": 204,
+  "vocabulary": [
+    {
+      "word": "forecast",
+      "ipa_us": "ˈfɔːrkæst",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "translation_ru": "прогноз"
+    },
+    {
+      "word": "shame",
+      "ipa_us": "ʃeɪm",
+      "ipa_uk": "ʃeɪm",
+      "translation_ru": "жаль"
+    },
+    {
+      "word": "exhibition",
+      "ipa_us": "ˌeksɪˈbɪʃən",
+      "ipa_uk": "ˌeksɪˈbɪʃən",
+      "translation_ru": "выставка"
+    },
+    {
+      "word": "planetarium",
+      "ipa_us": "ˌplænɪˈteriəm",
+      "ipa_uk": "ˌplænɪˈteəriəm",
+      "translation_ru": "планетарий"
+    },
+    {
+      "word": "queue",
+      "ipa_us": "kjuː",
+      "ipa_uk": "kjuː",
+      "translation_ru": "очередь"
+    },
+    {
+      "word": "skip",
+      "ipa_us": "skɪp",
+      "ipa_uk": "skɪp",
+      "translation_ru": "пропустить"
+    },
+    {
+      "word": "freezing",
+      "ipa_us": "ˈfriːzɪŋ",
+      "ipa_uk": "ˈfriːzɪŋ",
+      "translation_ru": "ледяной"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "weekend",
+        "weather",
+        "we",
+        "wake"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thanks",
+        "think"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "that",
+        "then",
+        "the",
+        "brother"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но с голосом: горло вибрирует. Не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What will the weather be like on Saturday?",
+      "answer": "It will rain all day.",
+      "accepted_keywords": [
+        "rain",
+        "rainy"
+      ]
+    },
+    {
+      "question": "Where do they decide to go on Saturday?",
+      "answer": "The new science museum.",
+      "accepted_keywords": [
+        "museum",
+        "science"
+      ]
+    },
+    {
+      "question": "What will they do on Sunday?",
+      "answer": "Go to the lake and have a picnic.",
+      "accepted_keywords": [
+        "lake",
+        "picnic",
+        "sandwiches"
+      ]
+    }
+  ]
+}

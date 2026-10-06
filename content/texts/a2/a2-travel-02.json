@@ -1,0 +1,128 @@
+{
+  "id": "a2-travel-02",
+  "level": "A2",
+  "genre": "travel",
+  "title_en": "The Mountain Train",
+  "title_ru": "Горный поезд",
+  "description_ru": "Поездка на поезде по горам Швейцарии: виды, погода и сыр.",
+  "text": "Last winter, I took a famous train through the mountains of Switzerland. The journey was nine hours long, and it was the most beautiful trip of my life.\n\nThe train was slow, but that was good, because we had time to look out of the big windows. We crossed high bridges, passed dark forests and went through long tunnels. Outside, everything was white. Small wooden houses stood in the snow, and thin smoke rose from their chimneys.\n\nAt lunchtime, I walked to the restaurant car and ordered a hot cheese dish. It was delicious, and it was much cheaper than the food at the airport. A young couple from Brazil sat at my table, and we talked about our countries.\n\nWhen the train arrived at the last station, the sun was already going down. The mountains turned pink, and I took one hundred photographs. I am going to go again next year.",
+  "word_count": 152,
+  "vocabulary": [
+    {
+      "word": "famous",
+      "ipa_us": "ˈfeɪməs",
+      "ipa_uk": "ˈfeɪməs",
+      "translation_ru": "знаменитый"
+    },
+    {
+      "word": "journey",
+      "ipa_us": "ˈdʒɜrni",
+      "ipa_uk": "ˈdʒɜːni",
+      "translation_ru": "путешествие"
+    },
+    {
+      "word": "windows",
+      "ipa_us": "ˈwɪndoʊz",
+      "ipa_uk": "ˈwɪndəʊz",
+      "translation_ru": "окна"
+    },
+    {
+      "word": "tunnels",
+      "ipa_us": "ˈtʌnəlz",
+      "ipa_uk": "ˈtʌnəlz",
+      "translation_ru": "туннели"
+    },
+    {
+      "word": "wooden",
+      "ipa_us": "ˈwʊdən",
+      "ipa_uk": "ˈwʊdən",
+      "translation_ru": "деревянный"
+    },
+    {
+      "word": "chimneys",
+      "ipa_us": "ˈtʃɪmniz",
+      "ipa_uk": "ˈtʃɪmniz",
+      "translation_ru": "дымоходы"
+    },
+    {
+      "word": "delicious",
+      "ipa_us": "dɪˈlɪʃəs",
+      "ipa_uk": "dɪˈlɪʃəs",
+      "translation_ru": "вкусный"
+    },
+    {
+      "word": "station",
+      "ipa_us": "ˈsteɪʃən",
+      "ipa_uk": "ˈsteɪʃən",
+      "translation_ru": "станция"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "winter",
+        "windows",
+        "white",
+        "wooden",
+        "was",
+        "walked"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "the",
+        "through",
+        "thin",
+        "that"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "train",
+        "crossed",
+        "restaurant",
+        "ordered",
+        "Brazil"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long was the journey?",
+      "answer": "Nine hours.",
+      "accepted_keywords": [
+        "nine",
+        "9"
+      ]
+    },
+    {
+      "question": "What was the weather outside?",
+      "answer": "Snowy, everything was white.",
+      "accepted_keywords": [
+        "snow",
+        "white"
+      ]
+    },
+    {
+      "question": "What did the writer eat?",
+      "answer": "A hot cheese dish.",
+      "accepted_keywords": [
+        "cheese"
+      ]
+    },
+    {
+      "question": "How many photographs did the writer take?",
+      "answer": "One hundred.",
+      "accepted_keywords": [
+        "hundred",
+        "100"
+      ]
+    }
+  ]
+}

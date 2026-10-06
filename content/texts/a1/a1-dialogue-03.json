@@ -1,0 +1,123 @@
+{
+  "id": "a1-dialogue-03",
+  "level": "A1",
+  "genre": "dialogue",
+  "title_en": "Saturday Plans",
+  "title_ru": "Планы на субботу",
+  "description_ru": "Двое друзей договариваются сходить на новый рынок и пообедать у реки.",
+  "text": "Will: Hi, Vicky! Are you free on Saturday?\nVicky: Yes, I am. Why?\nWill: I want to visit the new market in the old town.\nVicky: Great idea! What do we buy there?\nWill: Fresh vegetables, warm bread and maybe a vase.\nVicky: A vase? Why a vase?\nWill: My window is very empty. I need some flowers.\nVicky: Ha! Okay. When do we meet?\nWill: At nine, near the train station. I bring the coffee.\nVicky: Perfect. Then we have lunch by the river.\nWill: Wonderful. See you on Saturday!",
+  "vocabulary": [
+    {
+      "word": "visit",
+      "ipa_us": "ˈvɪzɪt",
+      "ipa_uk": "ˈvɪzɪt",
+      "translation_ru": "посещать"
+    },
+    {
+      "word": "market",
+      "ipa_us": "ˈmɑːrkɪt",
+      "ipa_uk": "ˈmɑːkɪt",
+      "translation_ru": "рынок"
+    },
+    {
+      "word": "vegetables",
+      "ipa_us": "ˈvedʒtəbəlz",
+      "ipa_uk": "ˈvedʒtəbəlz",
+      "translation_ru": "овощи"
+    },
+    {
+      "word": "vase",
+      "ipa_us": "veɪs",
+      "ipa_uk": "vɑːz",
+      "translation_ru": "ваза"
+    },
+    {
+      "word": "empty",
+      "ipa_us": "ˈempti",
+      "ipa_uk": "ˈempti",
+      "translation_ru": "пустой"
+    },
+    {
+      "word": "flowers",
+      "ipa_us": "ˈflaʊɚz",
+      "ipa_uk": "ˈflaʊəz",
+      "translation_ru": "цветы"
+    },
+    {
+      "word": "station",
+      "ipa_us": "ˈsteɪʃn",
+      "ipa_uk": "ˈsteɪʃn",
+      "translation_ru": "станция"
+    },
+    {
+      "word": "lunch",
+      "ipa_us": "lʌntʃ",
+      "ipa_uk": "lʌntʃ",
+      "translation_ru": "обед"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "Will",
+        "window",
+        "want",
+        "when"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Vicky",
+        "vase",
+        "very",
+        "visit"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "fresh",
+        "great"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When do they meet?",
+      "answer": "At nine.",
+      "accepted_keywords": [
+        "nine",
+        "9"
+      ]
+    },
+    {
+      "question": "Where do they go on Saturday?",
+      "answer": "To the market.",
+      "accepted_keywords": [
+        "market"
+      ]
+    },
+    {
+      "question": "What does Will want to buy for his window?",
+      "answer": "A vase and flowers.",
+      "accepted_keywords": [
+        "vase",
+        "flowers"
+      ]
+    },
+    {
+      "question": "Where do they have lunch?",
+      "answer": "By the river.",
+      "accepted_keywords": [
+        "river"
+      ]
+    }
+  ],
+  "word_count": 80
+}

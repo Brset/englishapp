@@ -1,0 +1,135 @@
+{
+  "id": "b1-biography-01",
+  "level": "B1",
+  "genre": "biography",
+  "title_en": "Marie Curie: A Life for Science",
+  "title_ru": "Мария Кюри: жизнь ради науки",
+  "description_ru": "История первой женщины, получившей Нобелевскую премию, и единственного человека, получившего её в двух разных науках.",
+  "text": "Marie Curie was born in Warsaw in 1867. As a girl she loved science, but women were not allowed to study at university in Poland at that time. So in 1891 she moved to Paris, where she studied physics and mathematics. She was very poor and often had little to eat, yet she worked harder than anyone.\n\nIn Paris she met Pierre Curie, a French scientist, and they married in 1895. Together they studied radioactivity, a word that Marie herself invented. Their research led to the discovery of two new elements, polonium and radium. In 1903 they shared the Nobel Prize in Physics with Henri Becquerel. Marie was the first woman ever to win a Nobel Prize.\n\nTragedy came in 1906, when Pierre died in a street accident. Marie did not give up. She took his place as a professor at the Sorbonne and became the first woman to teach there. In 1911 she won a second Nobel Prize, this time in Chemistry. During the First World War she helped doctors by building mobile X-ray machines and driving them to the front line.\n\nIf she had not been so determined, science might look very different today. Marie Curie died in 1934, but her notebooks are still radioactive, and the world has never forgotten her.",
+  "word_count": 208,
+  "vocabulary": [
+    {
+      "word": "radioactivity",
+      "ipa_us": "ˌreɪdioʊækˈtɪvəti",
+      "ipa_uk": "ˌreɪdiəʊækˈtɪvəti",
+      "translation_ru": "радиоактивность"
+    },
+    {
+      "word": "discovery",
+      "ipa_us": "dɪˈskʌvəri",
+      "ipa_uk": "dɪˈskʌvəri",
+      "translation_ru": "открытие"
+    },
+    {
+      "word": "element",
+      "ipa_us": "ˈɛləmənt",
+      "ipa_uk": "ˈelɪmənt",
+      "translation_ru": "(химический) элемент"
+    },
+    {
+      "word": "professor",
+      "ipa_us": "prəˈfɛsər",
+      "ipa_uk": "prəˈfesə",
+      "translation_ru": "профессор"
+    },
+    {
+      "word": "determined",
+      "ipa_us": "dɪˈtɜrmɪnd",
+      "ipa_uk": "dɪˈtɜːmɪnd",
+      "translation_ru": "решительный, целеустремлённый"
+    },
+    {
+      "word": "tragedy",
+      "ipa_us": "ˈtrædʒədi",
+      "ipa_uk": "ˈtrædʒədi",
+      "translation_ru": "трагедия"
+    },
+    {
+      "word": "research",
+      "ipa_us": "ˈriːsɜrtʃ",
+      "ipa_uk": "rɪˈsɜːtʃ",
+      "translation_ru": "исследование"
+    },
+    {
+      "word": "shared",
+      "ipa_us": "ʃɛrd",
+      "ipa_uk": "ʃeəd",
+      "translation_ru": "разделили"
+    },
+    {
+      "word": "invented",
+      "ipa_us": "ɪnˈvɛntɪd",
+      "ipa_uk": "ɪnˈventɪd",
+      "translation_ru": "придумала, изобрела"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Paris",
+        "research",
+        "radium",
+        "harder"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Warsaw",
+        "was",
+        "were",
+        "world"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "determined",
+        "research",
+        "worked"
+      ],
+      "tip_ru": "Долгий звук, губы нейтральны, язык в середине рта; не заменяйте на «ор» или «эр»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Marie Curie born?",
+      "answer": "In Warsaw.",
+      "accepted_keywords": [
+        "warsaw",
+        "poland"
+      ]
+    },
+    {
+      "question": "Why did she move to Paris?",
+      "answer": "Women could not study at university in Poland.",
+      "accepted_keywords": [
+        "study",
+        "university",
+        "women"
+      ]
+    },
+    {
+      "question": "How many Nobel Prizes did she win?",
+      "answer": "Two.",
+      "accepted_keywords": [
+        "two",
+        "2",
+        "second"
+      ]
+    },
+    {
+      "question": "How did she help during the First World War?",
+      "answer": "She built mobile X-ray machines.",
+      "accepted_keywords": [
+        "x-ray",
+        "xray",
+        "machines",
+        "doctors"
+      ]
+    }
+  ]
+}

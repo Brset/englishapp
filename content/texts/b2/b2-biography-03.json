@@ -1,0 +1,135 @@
+{
+  "id": "b2-biography-03",
+  "level": "B2",
+  "genre": "biography",
+  "title_en": "Ada Lovelace: The First Programmer",
+  "title_ru": "Ада Лавлейс: первая в мире программистка",
+  "description_ru": "История дочери поэта Байрона, которая увидела в вычислительной машине инструмент для музыки и символов.",
+  "text": "Augusta Ada Byron was born in London in 1815. Her father was the famous poet Lord Byron, but he left England when she was only a few weeks old, and she never really knew him. Her mother, Annabella, was determined that Ada would not inherit her father's wild temperament, so she arranged for her to be taught mathematics and science, subjects that were unusual for a girl at the time.\n\nAs a child, Ada designed a flying machine, studying the anatomy of birds to work out how wings could be built. At seventeen she met Charles Babbage, an inventor who was working on a huge mechanical calculator called the Difference Engine. Later he designed a far more ambitious machine, the Analytical Engine, which was never completed. Ada was fascinated, and the two became friends.\n\nIn 1843 she translated an article about the Analytical Engine from French into English. She added her own notes, which turned out to be three times longer than the original text. In them she explained that the machine could do more than calculate numbers: it could, in theory, manipulate symbols and even compose music, if the rules were written correctly. She also included a detailed set of instructions for calculating Bernoulli numbers, which is often described as the first computer program ever published.\n\nAda, who had married William King and become the Countess of Lovelace, did not live to see how right she was. She died of cancer in 1852, at the age of thirty-six. Her work was largely forgotten for a century, but it was rediscovered when the first modern computers appeared. In the early 1980s a programming language was named Ada in her honour, and every October people celebrate Ada Lovelace Day.",
+  "vocabulary": [
+    {
+      "word": "temperament",
+      "ipa_us": "ˈtɛmprəmənt",
+      "ipa_uk": "ˈtemp(ə)rəmənt",
+      "translation_ru": "характер, темперамент"
+    },
+    {
+      "word": "inherit",
+      "ipa_us": "ɪnˈhɛrɪt",
+      "ipa_uk": "ɪnˈherɪt",
+      "translation_ru": "унаследовать"
+    },
+    {
+      "word": "anatomy",
+      "ipa_us": "əˈnætəmi",
+      "ipa_uk": "əˈnætəmi",
+      "translation_ru": "анатомия"
+    },
+    {
+      "word": "ambitious",
+      "ipa_us": "æmˈbɪʃəs",
+      "ipa_uk": "æmˈbɪʃəs",
+      "translation_ru": "амбициозный"
+    },
+    {
+      "word": "fascinated",
+      "ipa_us": "ˈfæsəˌneɪtɪd",
+      "ipa_uk": "ˈfæsɪneɪtɪd",
+      "translation_ru": "очарованный"
+    },
+    {
+      "word": "manipulate",
+      "ipa_us": "məˈnɪpjəˌleɪt",
+      "ipa_uk": "məˈnɪpjʊleɪt",
+      "translation_ru": "управлять, обрабатывать"
+    },
+    {
+      "word": "compose",
+      "ipa_us": "kəmˈpoʊz",
+      "ipa_uk": "kəmˈpəʊz",
+      "translation_ru": "сочинять"
+    },
+    {
+      "word": "rediscovered",
+      "ipa_us": "ˌridɪˈskʌvərd",
+      "ipa_uk": "ˌriːdɪˈskʌvəd",
+      "translation_ru": "заново открыт"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "æ",
+      "examples": [
+        "anatomy",
+        "Analytical",
+        "manipulate",
+        "mathematics"
+      ],
+      "tip_ru": "Откройте рот шире, чем для «э», язык у нижних зубов; звук между «а» и «э»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "mathematics",
+        "thirty-six",
+        "three"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "father's",
+        "mother",
+        "the"
+      ],
+      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "Byron",
+        "rules",
+        "Bernoulli",
+        "rediscovered"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who was Ada's father?",
+      "answer": "The poet Lord Byron.",
+      "accepted_keywords": [
+        "byron",
+        "poet"
+      ]
+    },
+    {
+      "question": "Which inventor did Ada work with?",
+      "answer": "Charles Babbage.",
+      "accepted_keywords": [
+        "babbage"
+      ]
+    },
+    {
+      "question": "What did Ada's notes say a machine could do besides calculate?",
+      "answer": "Compose music and manipulate symbols.",
+      "accepted_keywords": [
+        "music",
+        "symbols",
+        "compose"
+      ]
+    },
+    {
+      "question": "How old was she when she died?",
+      "answer": "Thirty-six.",
+      "accepted_keywords": [
+        "thirty-six",
+        "36",
+        "thirty"
+      ]
+    }
+  ],
+  "word_count": 286
+}

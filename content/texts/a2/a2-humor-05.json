@@ -1,0 +1,126 @@
+{
+  "id": "a2-humor-05",
+  "level": "A2",
+  "genre": "humor",
+  "title_en": "My Terrible Cooking",
+  "title_ru": "Моя ужасная стряпня",
+  "description_ru": "Автор с юмором рассказывает, как он пытался приготовить ужин.",
+  "text": "I love food, but I am a terrible cook. Last Friday, I decided to make dinner for my wife for her birthday. I wanted to cook something special, and I found a recipe for fish with rice.\n\nFirst, I bought the fish, and I started to cook it. The recipe said, \"Cook for ten minutes.\" I read it again and again, but I did not understand the word \"gently\". So I used a very high heat.\n\nAfter five minutes, the kitchen was full of smoke. The smoke alarm screamed, the dog barked and the neighbours knocked on our door. My wife came home and looked at the black fish on the plate.\n\n\"What is it?\" she asked. \"Dinner,\" I said. She laughed and said, \"Let's order a pizza.\"\n\nWe had a lovely evening. I am not going to cook again. But next year, I am going to buy her a pizza before her birthday!",
+  "word_count": 154,
+  "vocabulary": [
+    {
+      "word": "terrible",
+      "ipa_us": "ˈterəbl",
+      "ipa_uk": "ˈterəbl",
+      "translation_ru": "ужасный"
+    },
+    {
+      "word": "recipe",
+      "ipa_us": "ˈresəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
+    },
+    {
+      "word": "gently",
+      "ipa_us": "ˈdʒentli",
+      "ipa_uk": "ˈdʒentli",
+      "translation_ru": "осторожно, на медленном огне"
+    },
+    {
+      "word": "heat",
+      "ipa_us": "hiːt",
+      "ipa_uk": "hiːt",
+      "translation_ru": "жар, огонь"
+    },
+    {
+      "word": "smoke",
+      "ipa_us": "smoʊk",
+      "ipa_uk": "sməʊk",
+      "translation_ru": "дым"
+    },
+    {
+      "word": "alarm",
+      "ipa_us": "əˈlɑːrm",
+      "ipa_uk": "əˈlɑːm",
+      "translation_ru": "сигнализация"
+    },
+    {
+      "word": "barked",
+      "ipa_us": "bɑːrkt",
+      "ipa_uk": "bɑːkt",
+      "translation_ru": "лаял"
+    },
+    {
+      "word": "plate",
+      "ipa_us": "pleɪt",
+      "ipa_uk": "pleɪt",
+      "translation_ru": "тарелка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "recipe",
+        "rice"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "evening"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wife",
+        "wanted"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "heat",
+        "high"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х» с шумом в задней части языка."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why did the writer cook?",
+      "answer": "For his wife's birthday.",
+      "accepted_keywords": [
+        "birthday",
+        "wife"
+      ]
+    },
+    {
+      "question": "What food was in the recipe?",
+      "answer": "Fish with rice.",
+      "accepted_keywords": [
+        "fish",
+        "rice"
+      ]
+    },
+    {
+      "question": "What screamed in the kitchen?",
+      "answer": "The smoke alarm.",
+      "accepted_keywords": [
+        "alarm"
+      ]
+    },
+    {
+      "question": "What did they order?",
+      "answer": "A pizza.",
+      "accepted_keywords": [
+        "pizza"
+      ]
+    }
+  ]
+}

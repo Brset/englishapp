@@ -1,0 +1,127 @@
+{
+  "id": "a2-science-02",
+  "level": "A2",
+  "genre": "science",
+  "title_en": "The Busy Bees",
+  "title_ru": "Трудолюбивые пчёлы",
+  "description_ru": "Как живёт пчелиная семья и сколько работы нужно для одной ложки мёда.",
+  "text": "Bees are small, but they do a very important job. A bee family can have fifty thousand members, and every bee has its own work.\n\nYoung bees clean the house and take care of the babies. Older bees fly outside to find flowers. When a bee finds a good place, it returns and dances. The dance tells the other bees where to fly and how far it is.\n\nA worker bee visits hundreds of flowers every day. It drinks a sweet liquid called nectar and carries it home. In the hive, the bees change the nectar into honey. To make one small spoon of honey, twelve bees work all their lives!\n\nBees also help us in another way. When they move from flower to flower, they carry pollen, and this helps plants make fruit. Without bees, we would have fewer apples, almonds and strawberries.",
+  "word_count": 144,
+  "vocabulary": [
+    {
+      "word": "important",
+      "ipa_us": "ɪmˈpɔrtənt",
+      "ipa_uk": "ɪmˈpɔːtənt",
+      "translation_ru": "важный"
+    },
+    {
+      "word": "members",
+      "ipa_us": "ˈmembərz",
+      "ipa_uk": "ˈmembəz",
+      "translation_ru": "члены"
+    },
+    {
+      "word": "flowers",
+      "ipa_us": "ˈflaʊərz",
+      "ipa_uk": "ˈflaʊəz",
+      "translation_ru": "цветы"
+    },
+    {
+      "word": "nectar",
+      "ipa_us": "ˈnektər",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
+    },
+    {
+      "word": "hive",
+      "ipa_us": "haɪv",
+      "ipa_uk": "haɪv",
+      "translation_ru": "улей"
+    },
+    {
+      "word": "honey",
+      "ipa_us": "ˈhʌni",
+      "ipa_uk": "ˈhʌni",
+      "translation_ru": "мёд"
+    },
+    {
+      "word": "pollen",
+      "ipa_us": "ˈpɑlən",
+      "ipa_uk": "ˈpɒlən",
+      "translation_ru": "пыльца"
+    },
+    {
+      "word": "fewer",
+      "ipa_us": "ˈfjuːər",
+      "ipa_uk": "ˈfjuːə",
+      "translation_ru": "меньше"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "have",
+        "visits",
+        "twelve",
+        "lives"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "work",
+        "way",
+        "when",
+        "without"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hive",
+        "honey",
+        "helps",
+        "hundreds",
+        "house"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many bees can live in one family?",
+      "answer": "Fifty thousand.",
+      "accepted_keywords": [
+        "fifty",
+        "thousand"
+      ]
+    },
+    {
+      "question": "What does the bee dance tell other bees?",
+      "answer": "Where to fly and how far it is.",
+      "accepted_keywords": [
+        "flowers",
+        "fly",
+        "where"
+      ]
+    },
+    {
+      "question": "What do bees make from nectar?",
+      "answer": "Honey.",
+      "accepted_keywords": [
+        "honey"
+      ]
+    },
+    {
+      "question": "What do bees carry from flower to flower?",
+      "answer": "Pollen.",
+      "accepted_keywords": [
+        "pollen"
+      ]
+    }
+  ]
+}

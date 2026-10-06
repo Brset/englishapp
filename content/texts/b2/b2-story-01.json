@@ -1,0 +1,142 @@
+{
+  "id": "b2-story-01",
+  "level": "B2",
+  "genre": "story",
+  "title_en": "The Lighthouse Keeper's Letter",
+  "title_ru": "Письмо смотрителя маяка",
+  "description_ru": "Рассказ о девушке, которая находит старое письмо на заброшенном маяке и узнаёт тайну своей семьи.",
+  "text": "When Clara inherited her grandfather's lighthouse, she expected dust, damp walls and a few broken chairs. She did not expect to find a letter. It was hidden behind a loose brick at the top of the spiral staircase, and it had clearly been waiting there for a very long time.\n\nThe envelope was addressed to \"Whoever keeps the light after me.\" Clara hesitated, then opened it carefully. Inside, her grandfather explained that he had never been the hero the village believed him to be. According to the story everyone told, he had saved a fishing boat during the great storm of 1974. In reality, he wrote, the boat had been rescued by a young woman named Margaret, who had rowed out alone while he was sleeping at his post.\n\n\"I took the credit because I was ashamed,\" the letter said. \"I have regretted it every day since.\"\n\nClara read the page twice. Then she sat down on the cold steps and laughed, because the village had always said that her grandfather was as honest as the day is long. It seemed that nobody is perfect, not even legends.\n\nThe next morning she walked down to the harbour and asked the oldest fisherman whether he had ever heard of Margaret. He scratched his beard and told her that Margaret Hale had died three years earlier, but that her daughter still lived above the bakery.\n\nThe daughter, a cheerful woman with flour on her sleeves, listened without interrupting. When Clara had finished, she said that her mother had always refused to talk about that night. \"She used to say that the sea does not care who gets the praise,\" she added.\n\nClara decided to put things right. Within a month, a small bronze plaque had been fixed beside the lighthouse door. It was officially unveiled on a windy Saturday, and the whole village came to watch. The plaque said that Margaret Hale had saved four lives on that stormy night.\n\nAfterwards, Clara climbed the staircase one last time. She placed her grandfather's letter back behind the brick, and beside it she left a note of her own. It read simply, \"The truth came out in the end.\"",
+  "word_count": 364,
+  "vocabulary": [
+    {
+      "word": "inherited",
+      "ipa_us": "ɪnˈhɛrɪtɪd",
+      "ipa_uk": "ɪnˈherɪtɪd",
+      "translation_ru": "унаследовала"
+    },
+    {
+      "word": "hesitated",
+      "ipa_us": "ˈhɛzɪteɪtɪd",
+      "ipa_uk": "ˈhezɪteɪtɪd",
+      "translation_ru": "заколебалась"
+    },
+    {
+      "word": "rescued",
+      "ipa_us": "ˈrɛskjud",
+      "ipa_uk": "ˈreskjuːd",
+      "translation_ru": "спасена"
+    },
+    {
+      "word": "ashamed",
+      "ipa_us": "əˈʃeɪmd",
+      "ipa_uk": "əˈʃeɪmd",
+      "translation_ru": "пристыженный"
+    },
+    {
+      "word": "regretted",
+      "ipa_us": "rɪˈɡrɛtɪd",
+      "ipa_uk": "rɪˈɡretɪd",
+      "translation_ru": "сожалел"
+    },
+    {
+      "word": "harbour",
+      "ipa_us": "ˈhɑrbər",
+      "ipa_uk": "ˈhɑːbə",
+      "translation_ru": "гавань"
+    },
+    {
+      "word": "interrupting",
+      "ipa_us": "ˌɪntəˈrʌptɪŋ",
+      "ipa_uk": "ˌɪntəˈrʌptɪŋ",
+      "translation_ru": "перебивая"
+    },
+    {
+      "word": "plaque",
+      "ipa_us": "plæk",
+      "ipa_uk": "plæk",
+      "translation_ru": "мемориальная табличка"
+    },
+    {
+      "word": "unveiled",
+      "ipa_us": "ʌnˈveɪld",
+      "ipa_uk": "ʌnˈveɪld",
+      "translation_ru": "торжественно открыта"
+    },
+    {
+      "word": "credit",
+      "ipa_us": "ˈkrɛdɪt",
+      "ipa_uk": "ˈkredɪt",
+      "translation_ru": "заслуга"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rescued",
+        "regretted",
+        "harbour"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "whoever",
+        "waiting",
+        "windy"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "the truth",
+        "three",
+        "month"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "village",
+        "never",
+        "unveiled"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Clara find behind the brick?",
+      "answer": "A letter from her grandfather.",
+      "accepted_keywords": [
+        "letter"
+      ]
+    },
+    {
+      "question": "Who really rescued the fishing boat?",
+      "answer": "A young woman named Margaret.",
+      "accepted_keywords": [
+        "margaret",
+        "woman"
+      ]
+    },
+    {
+      "question": "Where did Margaret's daughter live?",
+      "answer": "Above the bakery.",
+      "accepted_keywords": [
+        "bakery"
+      ]
+    },
+    {
+      "question": "What was fixed beside the lighthouse door?",
+      "answer": "A bronze plaque.",
+      "accepted_keywords": [
+        "plaque",
+        "bronze"
+      ]
+    }
+  ]
+}

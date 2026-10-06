@@ -1,0 +1,125 @@
+{
+  "id": "a1-story-03",
+  "level": "A1",
+  "genre": "story",
+  "title_en": "The Brown Box",
+  "title_ru": "Коричневая коробка",
+  "description_ru": "Том находит у двери загадочную коробку. Что же в ней?",
+  "text": "Tom comes home at six. There is a big brown box at his door. His name is not on it. He is very curious. He shakes the box and hears a small noise: meow!\n\nTom opens the box carefully. Inside, there is a tiny grey kitten with green eyes. There is also a letter. \"Hello, Tom. Happy birthday! This is your new friend. Love, Mum.\"\n\nTom laughs. He is not alone now. The kitten looks at him and yawns. \"Welcome home, little one,\" says Tom.",
+  "vocabulary": [
+    {
+      "word": "box",
+      "ipa_us": "bɑːks",
+      "ipa_uk": "bɒks",
+      "translation_ru": "коробка"
+    },
+    {
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любопытный"
+    },
+    {
+      "word": "noise",
+      "ipa_us": "nɔɪz",
+      "ipa_uk": "nɔɪz",
+      "translation_ru": "шум"
+    },
+    {
+      "word": "carefully",
+      "ipa_us": "ˈkerfəli",
+      "ipa_uk": "ˈkeəfəli",
+      "translation_ru": "осторожно"
+    },
+    {
+      "word": "kitten",
+      "ipa_us": "ˈkɪtn",
+      "ipa_uk": "ˈkɪtən",
+      "translation_ru": "котёнок"
+    },
+    {
+      "word": "letter",
+      "ipa_us": "ˈletɚ",
+      "ipa_uk": "ˈletə",
+      "translation_ru": "письмо"
+    },
+    {
+      "word": "birthday",
+      "ipa_us": "ˈbɝːθdeɪ",
+      "ipa_uk": "ˈbɜːθdeɪ",
+      "translation_ru": "день рождения"
+    },
+    {
+      "word": "alone",
+      "ipa_us": "əˈloʊn",
+      "ipa_uk": "əˈləʊn",
+      "translation_ru": "один, в одиночестве"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "home",
+        "his",
+        "hears",
+        "hello",
+        "happy"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "brown",
+        "grey",
+        "green",
+        "carefully"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "home",
+        "opens",
+        "hello",
+        "alone"
+      ],
+      "tip_ru": "Начните с «э» и плавно сдвиньте губы к «у». Это один скольжящий звук, а не «о»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What time does Tom come home?",
+      "answer": "At six.",
+      "accepted_keywords": [
+        "six"
+      ]
+    },
+    {
+      "question": "What is in the box?",
+      "answer": "A kitten.",
+      "accepted_keywords": [
+        "kitten",
+        "cat"
+      ]
+    },
+    {
+      "question": "What colour are the kitten's eyes?",
+      "answer": "Green.",
+      "accepted_keywords": [
+        "green"
+      ]
+    },
+    {
+      "question": "Who is the letter from?",
+      "answer": "From Mum.",
+      "accepted_keywords": [
+        "mum",
+        "mother"
+      ]
+    }
+  ],
+  "word_count": 85
+}

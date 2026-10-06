@@ -1,0 +1,124 @@
+{
+  "id": "a2-story-02",
+  "level": "A2",
+  "genre": "story",
+  "title_en": "The Birthday Dinner",
+  "title_ru": "Праздничный ужин",
+  "description_ru": "Том хочет приготовить ужин для мамы, но всё идёт не по плану. Тёплая история о заботе.",
+  "text": "Tom wanted to make a special dinner for his mother's birthday. He was nervous because he never cooked anything difficult. He bought chicken, rice, vegetables and a small chocolate cake.\n\nAt five o'clock, he started to cook. First, he burned the rice. Then he dropped three eggs on the floor. The kitchen smelled terrible, and Tom was almost ready to cry.\n\nSuddenly, his mother came home early. She looked at the kitchen and laughed. \"Thank you, Tom,\" she said. \"This is the best surprise of my life.\" Together they cleaned the floor and cooked new rice. The chicken was a little dry, and the vegetables were too salty, but nobody cared.\n\nAfter dinner, they ate the cake and talked for three hours. Tom decided that next year he was going to try something easier. Maybe soup!",
+  "word_count": 136,
+  "vocabulary": [
+    {
+      "word": "birthday",
+      "ipa_us": "ˈbɜrθdeɪ",
+      "ipa_uk": "ˈbɜːθdeɪ",
+      "translation_ru": "день рождения"
+    },
+    {
+      "word": "nervous",
+      "ipa_us": "ˈnɜrvəs",
+      "ipa_uk": "ˈnɜːvəs",
+      "translation_ru": "нервничающий"
+    },
+    {
+      "word": "vegetables",
+      "ipa_us": "ˈvedʒtəbəlz",
+      "ipa_uk": "ˈvedʒtəbəlz",
+      "translation_ru": "овощи"
+    },
+    {
+      "word": "burned",
+      "ipa_us": "bɜrnd",
+      "ipa_uk": "bɜːnd",
+      "translation_ru": "сжёг"
+    },
+    {
+      "word": "terrible",
+      "ipa_us": "ˈterəbəl",
+      "ipa_uk": "ˈterəbəl",
+      "translation_ru": "ужасный"
+    },
+    {
+      "word": "suddenly",
+      "ipa_us": "ˈsʌdənli",
+      "ipa_uk": "ˈsʌdənli",
+      "translation_ru": "вдруг"
+    },
+    {
+      "word": "surprise",
+      "ipa_us": "sərˈpraɪz",
+      "ipa_uk": "səˈpraɪz",
+      "translation_ru": "сюрприз"
+    },
+    {
+      "word": "easier",
+      "ipa_us": "ˈiːziər",
+      "ipa_uk": "ˈiːziə",
+      "translation_ru": "легче"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "birthday",
+        "three",
+        "thank",
+        "Thank"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "vegetables",
+        "nervous",
+        "never"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rice",
+        "terrible",
+        "surprise",
+        "first"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why was Tom nervous?",
+      "answer": "He never cooked anything difficult.",
+      "accepted_keywords": [
+        "cooked",
+        "difficult",
+        "cook"
+      ]
+    },
+    {
+      "question": "What did Tom burn?",
+      "answer": "The rice.",
+      "accepted_keywords": [
+        "rice"
+      ]
+    },
+    {
+      "question": "When did his mother come home?",
+      "answer": "Early.",
+      "accepted_keywords": [
+        "early"
+      ]
+    },
+    {
+      "question": "What is Tom going to try next year?",
+      "answer": "Something easier, maybe soup.",
+      "accepted_keywords": [
+        "soup",
+        "easier"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "a1-travel-03",
+  "level": "A1",
+  "genre": "travel",
+  "title_en": "The Market in Marrakech",
+  "title_ru": "Рынок в Марракеше",
+  "description_ru": "Амира и её дядя торгуются на шумном рынке и покупают синюю чашу.",
+  "text": "Amira visits the big market in Marrakech with her uncle. It is noisy and full of colour. Sellers shout, \"Come, look, look!\" There are bright lamps, soft carpets, sweet dates and hundreds of spices. Amira loves the smell of orange and mint.\n\nShe wants a small blue bowl. The seller says, \"Forty dirhams.\" Her uncle smiles and says, \"Twenty.\" They both laugh, and finally the price is thirty. Amira is proud of her first bargain. She carries her new bowl carefully through the crowd and drinks sweet mint tea in a quiet corner.",
+  "vocabulary": [
+    {
+      "word": "market",
+      "ipa_us": "ˈmɑːrkɪt",
+      "ipa_uk": "ˈmɑːkɪt",
+      "translation_ru": "рынок"
+    },
+    {
+      "word": "uncle",
+      "ipa_us": "ˈʌŋkl",
+      "ipa_uk": "ˈʌŋkl",
+      "translation_ru": "дядя"
+    },
+    {
+      "word": "carpets",
+      "ipa_us": "ˈkɑːrpɪts",
+      "ipa_uk": "ˈkɑːpɪts",
+      "translation_ru": "ковры"
+    },
+    {
+      "word": "spices",
+      "ipa_us": "ˈspaɪsɪz",
+      "ipa_uk": "ˈspaɪsɪz",
+      "translation_ru": "специи"
+    },
+    {
+      "word": "bowl",
+      "ipa_us": "boʊl",
+      "ipa_uk": "bəʊl",
+      "translation_ru": "чаша, миска"
+    },
+    {
+      "word": "price",
+      "ipa_us": "praɪs",
+      "ipa_uk": "praɪs",
+      "translation_ru": "цена"
+    },
+    {
+      "word": "bargain",
+      "ipa_us": "ˈbɑːrɡɪn",
+      "ipa_uk": "ˈbɑːɡɪn",
+      "translation_ru": "выгодная покупка"
+    },
+    {
+      "word": "crowd",
+      "ipa_us": "kraʊd",
+      "ipa_uk": "kraʊd",
+      "translation_ru": "толпа"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Marrakech",
+        "market",
+        "carpets",
+        "bright",
+        "price"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "uncle",
+        "Come",
+        "love",
+        "colour"
+      ],
+      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "with",
+        "mint",
+        "bargain"
+      ],
+      "tip_ru": "Короткий расслабленный звук между «и» и «ы». Не растягивайте и не смягчайте согласный перед ним."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who goes to the market with Amira?",
+      "answer": "Her uncle.",
+      "accepted_keywords": [
+        "uncle"
+      ]
+    },
+    {
+      "question": "What does Amira want?",
+      "answer": "A small blue bowl.",
+      "accepted_keywords": [
+        "bowl"
+      ]
+    },
+    {
+      "question": "What is the final price?",
+      "answer": "Thirty dirhams.",
+      "accepted_keywords": [
+        "thirty",
+        "30"
+      ]
+    },
+    {
+      "question": "What does Amira drink?",
+      "answer": "Sweet mint tea.",
+      "accepted_keywords": [
+        "tea",
+        "mint"
+      ]
+    }
+  ],
+  "word_count": 93
+}

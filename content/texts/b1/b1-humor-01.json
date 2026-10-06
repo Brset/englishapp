@@ -1,0 +1,133 @@
+{
+  "id": "b1-humor-01",
+  "level": "B1",
+  "genre": "humor",
+  "title_en": "The Stubborn GPS",
+  "title_ru": "Упрямый навигатор",
+  "description_ru": "Смешная история о человеке, который слепо доверяет навигатору и в итоге оказывается в самом неожиданном месте.",
+  "text": "Victor had never been good with maps, so when he bought a new car with a built-in GPS, he was delighted. \"Finally,\" he told his wife, \"I will never get lost again.\"\n\nOn Saturday, they decided to drive to her sister's house in the countryside. Victor entered the address, and a calm voice said, \"Turn left in two hundred metres.\" He turned left. \"Turn right at the roundabout.\" He turned right. Everything seemed fine.\n\nAfter forty minutes, however, the road became narrow and muddy. \"Are you sure this is correct?\" asked his wife. \"Of course,\" said Victor. \"The GPS has never made a mistake.\" Then the voice announced, \"Drive straight for five hundred metres.\" Ahead of them was a large green field full of cows.\n\n\"Perhaps it means across the field,\" said Victor. \"That would be a shortcut.\" His wife folded her arms and said nothing. Victor slowly drove through the gate, and the cows looked at him with great interest.\n\nHalfway across, the car stopped. It was stuck in the mud. The GPS said cheerfully, \"You have arrived at your destination.\"\n\nThey waited for an hour until a farmer came with a tractor. He laughed so hard that he almost fell off his seat. \"This happens every month,\" he said. \"Last week it was a delivery van.\"\n\nVictor was very quiet on the drive home. His wife patted his shoulder. \"Next time,\" she said kindly, \"let's buy a paper map.\"\n\nHe agreed, but he kept the GPS. After all, the cows had enjoyed the visit.",
+  "word_count": 257,
+  "vocabulary": [
+    {
+      "word": "delighted",
+      "ipa_us": "dɪˈlaɪtɪd",
+      "ipa_uk": "dɪˈlaɪtɪd",
+      "translation_ru": "в восторге"
+    },
+    {
+      "word": "roundabout",
+      "ipa_us": "ˈraʊndəˌbaʊt",
+      "ipa_uk": "ˈraʊndəbaʊt",
+      "translation_ru": "круговое движение"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈnæroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "muddy",
+      "ipa_us": "ˈmʌdi",
+      "ipa_uk": "ˈmʌdi",
+      "translation_ru": "грязный"
+    },
+    {
+      "word": "shortcut",
+      "ipa_us": "ˈʃɔrtˌkʌt",
+      "ipa_uk": "ˈʃɔːtkʌt",
+      "translation_ru": "короткий путь"
+    },
+    {
+      "word": "cheerfully",
+      "ipa_us": "ˈtʃɪrfəli",
+      "ipa_uk": "ˈtʃɪəfəli",
+      "translation_ru": "бодро, весело"
+    },
+    {
+      "word": "destination",
+      "ipa_us": "ˌdɛstəˈneɪʃən",
+      "ipa_uk": "ˌdestɪˈneɪʃən",
+      "translation_ru": "пункт назначения"
+    },
+    {
+      "word": "tractor",
+      "ipa_us": "ˈtræktər",
+      "ipa_uk": "ˈtræktə",
+      "translation_ru": "трактор"
+    },
+    {
+      "word": "delivery",
+      "ipa_us": "dɪˈlɪvəri",
+      "ipa_uk": "dɪˈlɪvəri",
+      "translation_ru": "доставка"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "very",
+        "every",
+        "never"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "right",
+        "roundabout",
+        "road",
+        "drive"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wife",
+        "was",
+        "waited",
+        "with"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did Victor buy?",
+      "answer": "A car with a built-in GPS.",
+      "accepted_keywords": [
+        "car",
+        "gps"
+      ]
+    },
+    {
+      "question": "What was ahead of them on the road?",
+      "answer": "A field full of cows.",
+      "accepted_keywords": [
+        "field",
+        "cows",
+        "cow"
+      ]
+    },
+    {
+      "question": "What happened to the car?",
+      "answer": "It got stuck in the mud.",
+      "accepted_keywords": [
+        "stuck",
+        "mud"
+      ]
+    },
+    {
+      "question": "What did his wife suggest at the end?",
+      "answer": "Buying a paper map.",
+      "accepted_keywords": [
+        "map",
+        "paper"
+      ]
+    }
+  ]
+}

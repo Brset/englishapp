@@ -1,0 +1,128 @@
+{
+  "id": "a2-news-03",
+  "level": "A2",
+  "genre": "news",
+  "title_en": "New Library Opens in Rivertown",
+  "title_ru": "В Риверстауне открылась новая библиотека",
+  "description_ru": "Вымышленная новость об открытии современной библиотеки с кафе и игровой комнатой.",
+  "text": "A new library opened in Rivertown on Saturday. More than two hundred people came to the opening, and many of them waited outside for an hour.\n\nThe new building is much bigger than the old one. It has three floors, a quiet room for students and a large children's area with soft chairs. There is also a small cafe, where visitors can drink coffee and read the newspaper.\n\nThe head librarian, Ahmed Reed, said the old library was too small and too dark. \"Now people have a modern and warm place to study and meet,\" he said. \"We also have fifty computers, and they are free to use.\"\n\nAn eight-year-old boy, Ben, was the first visitor. He chose a book about dinosaurs and sat down on the floor. \"This place is better than my school library,\" he said.\n\nThe library is open every day from eight in the morning until nine in the evening.",
+  "word_count": 156,
+  "vocabulary": [
+    {
+      "word": "opening",
+      "ipa_us": "ˈoʊpnɪŋ",
+      "ipa_uk": "ˈəʊpnɪŋ",
+      "translation_ru": "открытие"
+    },
+    {
+      "word": "building",
+      "ipa_us": "ˈbɪldɪŋ",
+      "ipa_uk": "ˈbɪldɪŋ",
+      "translation_ru": "здание"
+    },
+    {
+      "word": "floor",
+      "ipa_us": "flɔːr",
+      "ipa_uk": "flɔː",
+      "translation_ru": "этаж, пол"
+    },
+    {
+      "word": "area",
+      "ipa_us": "ˈeriə",
+      "ipa_uk": "ˈeəriə",
+      "translation_ru": "зона"
+    },
+    {
+      "word": "visitor",
+      "ipa_us": "ˈvɪzɪtər",
+      "ipa_uk": "ˈvɪzɪtə",
+      "translation_ru": "посетитель"
+    },
+    {
+      "word": "librarian",
+      "ipa_us": "laɪˈbreriən",
+      "ipa_uk": "laɪˈbreəriən",
+      "translation_ru": "библиотекарь"
+    },
+    {
+      "word": "modern",
+      "ipa_us": "ˈmɑːdərn",
+      "ipa_uk": "ˈmɒdn",
+      "translation_ru": "современный"
+    },
+    {
+      "word": "dinosaur",
+      "ipa_us": "ˈdaɪnəsɔːr",
+      "ipa_uk": "ˈdaɪnəsɔː",
+      "translation_ru": "динозавр"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "visitors",
+        "every"
+      ],
+      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "waited",
+        "warm"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "than"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "building",
+        "morning"
+      ],
+      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; не добавляйте «г» в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did the new library open?",
+      "answer": "In Rivertown.",
+      "accepted_keywords": [
+        "rivertown"
+      ]
+    },
+    {
+      "question": "How many floors does it have?",
+      "answer": "Three.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "Who is the head librarian?",
+      "answer": "Ahmed Reed.",
+      "accepted_keywords": [
+        "ahmed",
+        "reed"
+      ]
+    },
+    {
+      "question": "What did Ben choose?",
+      "answer": "A book about dinosaurs.",
+      "accepted_keywords": [
+        "dinosaur",
+        "dinosaurs",
+        "book"
+      ]
+    }
+  ]
+}

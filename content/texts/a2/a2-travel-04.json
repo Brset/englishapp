@@ -1,0 +1,126 @@
+{
+  "id": "a2-travel-04",
+  "level": "A2",
+  "genre": "travel",
+  "title_en": "A Week in Iceland",
+  "title_ru": "Неделя в Исландии",
+  "description_ru": "Путешествие по острову льда и огня: водопады, горячие источники и северное сияние.",
+  "text": "My brother and I went to Iceland in November. We rented a small car and drove around the island for a week. The days were short, but the landscape was amazing.\n\nFirst, we visited a huge waterfall. The water fell from a high rock, and a rainbow appeared in the cold air. Then we found a hot spring in the middle of nowhere. It was thirty-eight degrees, and we sat in it for an hour while the snow fell on our heads.\n\nThe best moment was on Thursday night. We drove away from the town, turned off the car lights and waited. At midnight, a green light began to move across the sky. It was the northern lights! We watched them for two hours, and neither of us said a word.\n\nIceland is expensive, and the weather changes every ten minutes. But I am already planning my next trip.",
+  "word_count": 150,
+  "vocabulary": [
+    {
+      "word": "rented",
+      "ipa_us": "ˈrentɪd",
+      "ipa_uk": "ˈrentɪd",
+      "translation_ru": "арендовали"
+    },
+    {
+      "word": "landscape",
+      "ipa_us": "ˈlænskeɪp",
+      "ipa_uk": "ˈlænskeɪp",
+      "translation_ru": "пейзаж"
+    },
+    {
+      "word": "amazing",
+      "ipa_us": "əˈmeɪzɪŋ",
+      "ipa_uk": "əˈmeɪzɪŋ",
+      "translation_ru": "потрясающий"
+    },
+    {
+      "word": "waterfall",
+      "ipa_us": "ˈwɔtərfɔl",
+      "ipa_uk": "ˈwɔːtəfɔːl",
+      "translation_ru": "водопад"
+    },
+    {
+      "word": "spring",
+      "ipa_us": "sprɪŋ",
+      "ipa_uk": "sprɪŋ",
+      "translation_ru": "источник"
+    },
+    {
+      "word": "degrees",
+      "ipa_us": "dɪˈɡriz",
+      "ipa_uk": "dɪˈɡriːz",
+      "translation_ru": "градусы"
+    },
+    {
+      "word": "moment",
+      "ipa_us": "ˈmoʊmənt",
+      "ipa_uk": "ˈməʊmənt",
+      "translation_ru": "момент"
+    },
+    {
+      "word": "northern",
+      "ipa_us": "ˈnɔrðərn",
+      "ipa_uk": "ˈnɔːðən",
+      "translation_ru": "северный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "week",
+        "was",
+        "waterfall",
+        "water",
+        "waited",
+        "went",
+        "watched"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "Thursday",
+        "northern",
+        "thirty-eight",
+        "the"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "amazing",
+        "spring",
+        "planning"
+      ],
+      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; «г» в конце не произносите."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When did the brothers go to Iceland?",
+      "answer": "In November.",
+      "accepted_keywords": [
+        "november"
+      ]
+    },
+    {
+      "question": "What did they rent?",
+      "answer": "A small car.",
+      "accepted_keywords": [
+        "car"
+      ]
+    },
+    {
+      "question": "What did they see at midnight?",
+      "answer": "The northern lights.",
+      "accepted_keywords": [
+        "northern",
+        "lights",
+        "green"
+      ]
+    },
+    {
+      "question": "How long did they watch the lights?",
+      "answer": "Two hours.",
+      "accepted_keywords": [
+        "two"
+      ]
+    }
+  ]
+}

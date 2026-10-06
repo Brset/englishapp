@@ -1,0 +1,142 @@
+{
+  "id": "b1-news-05",
+  "level": "B1",
+  "genre": "news",
+  "title_en": "Heatwave Brings Record Temperatures",
+  "title_ru": "Жара принесла рекордные температуры",
+  "description_ru": "Вымышленный выпуск новостей о сильной жаре в северной стране и советах метеорологов.",
+  "text": "Northern Valdia has recorded its hottest day in history, as temperatures reached thirty-nine degrees in the capital, Lorenburg. Weather experts say the heatwave will continue for at least another four days.\n\nMeteorologist Dr Karen Osei explained that a mass of warm air from the south has been sitting over the region since last Monday. \"We have never seen such high temperatures so early in the summer,\" she told reporters. \"Unless a cold front arrives, the heat will become even more dangerous.\"\n\nHospitals have reported a rise in the number of patients with heat exhaustion, especially among elderly people. The health ministry has advised everyone to drink plenty of water, stay in the shade during the afternoon, and avoid exercise outdoors. Parents have been told never to leave children or pets in a parked car.\n\nMeanwhile, life in the capital has slowed down. Many shops now open at dawn and close at noon, and the city has set up fifty cooling centres in libraries and schools. At the central swimming pool, queues stretched around the block, and ice cream sellers say they have never been so busy.\n\nFarmers are worried too. If the rain does not return soon, they warn, the wheat harvest could be much smaller than expected, and food prices may rise.\n\nForecasters say that relief may come on Friday, when thunderstorms are expected to move in from the west. Until then, residents are asked to look after their neighbours.",
+  "word_count": 242,
+  "vocabulary": [
+    {
+      "word": "recorded",
+      "ipa_us": "rɪˈkɔrdɪd",
+      "ipa_uk": "rɪˈkɔːdɪd",
+      "translation_ru": "зафиксировала"
+    },
+    {
+      "word": "heatwave",
+      "ipa_us": "ˈhitˌweɪv",
+      "ipa_uk": "ˈhiːtweɪv",
+      "translation_ru": "волна жары"
+    },
+    {
+      "word": "meteorologist",
+      "ipa_us": "ˌmitiəˈrɑlədʒɪst",
+      "ipa_uk": "ˌmiːtiəˈrɒlədʒɪst",
+      "translation_ru": "метеоролог"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "exhaustion",
+      "ipa_us": "ɪɡˈzɔstʃən",
+      "ipa_uk": "ɪɡˈzɔːstʃən",
+      "translation_ru": "истощение"
+    },
+    {
+      "word": "elderly",
+      "ipa_us": "ˈɛldərli",
+      "ipa_uk": "ˈeldəli",
+      "translation_ru": "пожилой"
+    },
+    {
+      "word": "shade",
+      "ipa_us": "ʃeɪd",
+      "ipa_uk": "ʃeɪd",
+      "translation_ru": "тень"
+    },
+    {
+      "word": "harvest",
+      "ipa_us": "ˈhɑrvɪst",
+      "ipa_uk": "ˈhɑːvɪst",
+      "translation_ru": "урожай"
+    },
+    {
+      "word": "thunderstorms",
+      "ipa_us": "ˈθʌndərˌstɔrmz",
+      "ipa_uk": "ˈθʌndəstɔːmz",
+      "translation_ru": "грозы"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty-nine",
+        "thunderstorms"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "weather",
+        "Northern"
+      ],
+      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "weather",
+        "warm",
+        "water",
+        "wheat"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hottest",
+        "heatwave",
+        "hospitals",
+        "harvest"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What record did Northern Valdia set?",
+      "answer": "Its hottest day in history.",
+      "accepted_keywords": [
+        "hottest",
+        "hot",
+        "heat",
+        "temperature"
+      ]
+    },
+    {
+      "question": "How hot was it in the capital?",
+      "answer": "Thirty-nine degrees.",
+      "accepted_keywords": [
+        "thirty",
+        "39"
+      ]
+    },
+    {
+      "question": "Who is most at risk from the heat?",
+      "answer": "Elderly people.",
+      "accepted_keywords": [
+        "elderly",
+        "old",
+        "older"
+      ]
+    },
+    {
+      "question": "When might relief arrive?",
+      "answer": "On Friday, with thunderstorms.",
+      "accepted_keywords": [
+        "friday",
+        "thunderstorms",
+        "storms"
+      ]
+    }
+  ]
+}

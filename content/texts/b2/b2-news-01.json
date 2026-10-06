@@ -1,0 +1,135 @@
+{
+  "id": "b2-news-01",
+  "level": "B2",
+  "genre": "news",
+  "title_en": "Villagers Save Library from Flood",
+  "title_ru": "Жители спасли библиотеку от наводнения",
+  "description_ru": "Вымышленная новость о том, как жители городка спасали книги во время сильного паводка.",
+  "text": "Residents of the fictional town of Harlow Bridge spent a sleepless night on Tuesday saving thousands of books after the River Ennis burst its banks. By dawn, more than two hundred volunteers had formed a human chain stretching from the flooded library to the dry hall of the nearby church.\n\nAccording to town councillor Margaret Oakley, the water began to rise shortly after midnight, following three days of heavy rain in the hills. \"At first we thought the sandbags would be enough,\" she told reporters. \"Then someone shouted that the basement was filling up, and everybody ran.\" The rare local history collection, which is kept on the lowest floor, was reported to be at serious risk.\n\nVolunteers passed the books from hand to hand, wrapping the most valuable ones in plastic bags and blankets. A bakery owner, Victor Lindqvist, said that he had been woken by his neighbour's phone call at one o'clock. \"I put my coat on over my pyjamas and ran down the street,\" he said. \"Nobody gave us orders, but everyone knew what to do.\"\n\nBy six o'clock in the morning, around eleven thousand books had been carried to safety. Fewer than fifty were damaged beyond repair. The fire service, which arrived with pumps shortly before dawn, praised the volunteers and said that the speed of their reaction had prevented a much larger disaster.\n\nThe water has now fallen, but the library will remain closed for at least three months while the building is dried and repaired. Engineers have warned that the walls may have to be replaced. The council has promised that a temporary reading room will be opened in the church hall next week, and a fund has been set up to pay for the restoration. More than four thousand pounds had already been donated by Wednesday evening.\n\nLibrarian Helen Marsh, who has worked in the building for thirty years, said she was moved to tears. \"People often say that libraries are old-fashioned,\" she said. \"Last night proved that this one is the heart of the town.\"\n\nWeather experts say that further rain is expected at the weekend, and residents have been advised to keep their sandbags ready.",
+  "vocabulary": [
+    {
+      "word": "sleepless",
+      "ipa_us": "ˈsliplɪs",
+      "ipa_uk": "ˈsliːpləs",
+      "translation_ru": "бессонный"
+    },
+    {
+      "word": "volunteers",
+      "ipa_us": "ˌvɑlənˈtɪrz",
+      "ipa_uk": "ˌvɒlənˈtɪəz",
+      "translation_ru": "добровольцы"
+    },
+    {
+      "word": "councillor",
+      "ipa_us": "ˈkaʊnsələr",
+      "ipa_uk": "ˈkaʊnsələ",
+      "translation_ru": "член совета"
+    },
+    {
+      "word": "sandbags",
+      "ipa_us": "ˈsændbæɡz",
+      "ipa_uk": "ˈsændbæɡz",
+      "translation_ru": "мешки с песком"
+    },
+    {
+      "word": "basement",
+      "ipa_us": "ˈbeɪsmənt",
+      "ipa_uk": "ˈbeɪsmənt",
+      "translation_ru": "подвал"
+    },
+    {
+      "word": "valuable",
+      "ipa_us": "ˈvæljəbəl",
+      "ipa_uk": "ˈvæljʊbəl",
+      "translation_ru": "ценный"
+    },
+    {
+      "word": "restoration",
+      "ipa_us": "ˌrɛstəˈreɪʃən",
+      "ipa_uk": "ˌrestəˈreɪʃən",
+      "translation_ru": "восстановление"
+    },
+    {
+      "word": "donated",
+      "ipa_us": "ˈdoʊneɪtɪd",
+      "ipa_uk": "dəʊˈneɪtɪd",
+      "translation_ru": "пожертвованы"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "volunteers",
+        "valuable",
+        "Victor",
+        "heavy"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "woken",
+        "walls",
+        "worked"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousands",
+        "three",
+        "thirty",
+        "months"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "River",
+        "repair",
+        "reporters"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which river burst its banks?",
+      "answer": "The River Ennis.",
+      "accepted_keywords": [
+        "ennis"
+      ]
+    },
+    {
+      "question": "How many volunteers formed the human chain?",
+      "answer": "More than two hundred.",
+      "accepted_keywords": [
+        "two hundred",
+        "200",
+        "hundred"
+      ]
+    },
+    {
+      "question": "How long will the library stay closed?",
+      "answer": "At least three months.",
+      "accepted_keywords": [
+        "three",
+        "months"
+      ]
+    },
+    {
+      "question": "Where will the temporary reading room be?",
+      "answer": "In the church hall.",
+      "accepted_keywords": [
+        "church"
+      ]
+    }
+  ],
+  "word_count": 364
+}

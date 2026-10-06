@@ -1,0 +1,125 @@
+{
+  "id": "a1-dialogue-04",
+  "level": "A1",
+  "genre": "dialogue",
+  "title_en": "At the Doctor",
+  "title_ru": "У врача",
+  "description_ru": "Мистер Браун плохо себя чувствует. Врач даёт простые советы.",
+  "text": "Doctor: Good morning, Mr Brown. How are you today?\nMr Brown: Not very well. My head hurts, and my throat is sore.\nDoctor: Do you have a fever?\nMr Brown: I think so. I feel hot and then cold.\nDoctor: Open your mouth, please. Say \"ah\".\nMr Brown: Ahh.\nDoctor: Your throat is red. You need rest, warm drinks and lots of sleep.\nMr Brown: Can I go to work tomorrow?\nDoctor: No, not this week. Stay at home for three days.\nMr Brown: Thank you, doctor. I drink tea with honey.\nDoctor: Good idea. Get well soon!",
+  "vocabulary": [
+    {
+      "word": "throat",
+      "ipa_us": "θroʊt",
+      "ipa_uk": "θrəʊt",
+      "translation_ru": "горло"
+    },
+    {
+      "word": "sore",
+      "ipa_us": "sɔːr",
+      "ipa_uk": "sɔː",
+      "translation_ru": "больной (о горле)"
+    },
+    {
+      "word": "fever",
+      "ipa_us": "ˈfiːvɚ",
+      "ipa_uk": "ˈfiːvə",
+      "translation_ru": "температура, жар"
+    },
+    {
+      "word": "mouth",
+      "ipa_us": "maʊθ",
+      "ipa_uk": "maʊθ",
+      "translation_ru": "рот"
+    },
+    {
+      "word": "rest",
+      "ipa_us": "rest",
+      "ipa_uk": "rest",
+      "translation_ru": "отдых"
+    },
+    {
+      "word": "sleep",
+      "ipa_us": "sliːp",
+      "ipa_uk": "sliːp",
+      "translation_ru": "сон"
+    },
+    {
+      "word": "honey",
+      "ipa_us": "ˈhʌni",
+      "ipa_uk": "ˈhʌni",
+      "translation_ru": "мёд"
+    },
+    {
+      "word": "tomorrow",
+      "ipa_us": "təˈmɑːroʊ",
+      "ipa_uk": "təˈmɒrəʊ",
+      "translation_ru": "завтра"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "throat",
+        "three",
+        "Thank",
+        "think"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "head",
+        "hurts",
+        "honey",
+        "home"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "this",
+        "then",
+        "the"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What hurts Mr Brown?",
+      "answer": "His head and his throat.",
+      "accepted_keywords": [
+        "head",
+        "throat"
+      ]
+    },
+    {
+      "question": "Does he have a fever?",
+      "answer": "Yes, he thinks so.",
+      "accepted_keywords": [
+        "yes",
+        "fever"
+      ]
+    },
+    {
+      "question": "How many days does he stay at home?",
+      "answer": "Three days.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "What does he drink?",
+      "answer": "Tea with honey.",
+      "accepted_keywords": [
+        "tea",
+        "honey"
+      ]
+    }
+  ],
+  "word_count": 82
+}

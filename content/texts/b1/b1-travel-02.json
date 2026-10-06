@@ -1,0 +1,112 @@
+{
+  "id": "b1-travel-02",
+  "level": "B1",
+  "genre": "travel",
+  "title_en": "Lake Baikal in Winter",
+  "title_ru": "Байкал зимой",
+  "description_ru": "Что можно увидеть и сделать на самом глубоком озере мира зимой.",
+  "text": "Lake Baikal in Siberia is the deepest lake in the world. It is more than sixteen hundred metres deep, and it contains about one fifth of all the fresh water on the planet that is not frozen. It is also very old: scientists believe that it has existed for around twenty-five million years.\n\nMost tourists come in summer, but winter is the best time for adventure. From January to March, the whole surface of the lake is covered with thick ice, which can be more than a metre deep. It is strong enough for trucks to drive across it. The ice is also remarkably clear, so you can look straight down and see cracks, bubbles and even stones on the bottom.\n\nLast February, I travelled to Baikal with two friends. We stayed in a small wooden house in the village of Listvyanka. During the day, we skated on the ice, took photographs and rode in a hovercraft, which moves above the surface on a cushion of air. In the evening, we drank hot tea and ate smoked fish, a local speciality.\n\nThe cold is serious. The temperature can fall to minus thirty degrees, so you must wear warm layers, good boots and a hat. If you forget your gloves, your hands will freeze in minutes. But I promise that the silence and the blue ice are worth every shiver.",
+  "word_count": 230,
+  "vocabulary": [
+    {
+      "word": "deepest",
+      "ipa_us": "ˈdiːpɪst",
+      "ipa_uk": "ˈdiːpɪst",
+      "translation_ru": "самый глубокий"
+    },
+    {
+      "word": "frozen",
+      "ipa_us": "ˈfroʊzən",
+      "ipa_uk": "ˈfrəʊzən",
+      "translation_ru": "замёрзший"
+    },
+    {
+      "word": "surface",
+      "ipa_us": "ˈsɜːrfɪs",
+      "ipa_uk": "ˈsɜːfɪs",
+      "translation_ru": "поверхность"
+    },
+    {
+      "word": "remarkably",
+      "ipa_us": "rɪˈmɑːrkəbli",
+      "ipa_uk": "rɪˈmɑːkəbli",
+      "translation_ru": "удивительно"
+    },
+    {
+      "word": "hovercraft",
+      "ipa_us": "ˈhʌvɚkræft",
+      "ipa_uk": "ˈhɒvəkrɑːft",
+      "translation_ru": "судно на воздушной подушке"
+    },
+    {
+      "word": "speciality",
+      "ipa_us": "ˌspeʃiˈæləti",
+      "ipa_uk": "ˌspeʃiˈæləti",
+      "translation_ru": "фирменное блюдо"
+    },
+    {
+      "word": "shiver",
+      "ipa_us": "ˈʃɪvɚ",
+      "ipa_uk": "ˈʃɪvə",
+      "translation_ru": "дрожь"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thick",
+        "thirty"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "remarkably",
+        "travelled",
+        "frozen",
+        "friends"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "village",
+        "travelled",
+        "over",
+        "drive"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How deep is Lake Baikal?",
+      "answer": "More than sixteen hundred metres.",
+      "accepted_keywords": [
+        "sixteen",
+        "1600",
+        "hundred"
+      ]
+    },
+    {
+      "question": "What can trucks do in winter?",
+      "answer": "Drive across the ice.",
+      "accepted_keywords": [
+        "drive",
+        "ice"
+      ]
+    },
+    {
+      "question": "What did the travellers eat?",
+      "answer": "Smoked fish.",
+      "accepted_keywords": [
+        "fish",
+        "smoked"
+      ]
+    }
+  ]
+}

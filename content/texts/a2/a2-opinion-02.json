@@ -1,0 +1,129 @@
+{
+  "id": "a2-opinion-02",
+  "level": "A2",
+  "genre": "opinion",
+  "title_en": "Paper Books or Phones?",
+  "title_ru": "Бумажные книги или телефон?",
+  "description_ru": "Размышление о том, что приятнее читать: бумажную книгу или текст на экране.",
+  "text": "I love reading, but I do not like reading on my phone. I prefer paper books, and I want to tell you why.\n\nFirst, a book does not hurt my eyes. When I read on a screen for an hour, my eyes feel tired and dry. With a book I can read for three hours and feel fine.\n\nSecond, a phone is full of messages. Every few minutes it makes a noise, and I stop reading. A book is quiet. It does not send me news or videos, so I can think about the story.\n\nAlso, I like the smell of a new book and the feel of the pages. I can write notes in it, and I can lend it to a friend.\n\nOf course, phones have good points. You can carry hundreds of books in your pocket, and it is cheaper. But for me, a real book is still better. What do you think?",
+  "word_count": 156,
+  "vocabulary": [
+    {
+      "word": "prefer",
+      "ipa_us": "prɪˈfɜːr",
+      "ipa_uk": "prɪˈfɜː",
+      "translation_ru": "предпочитать"
+    },
+    {
+      "word": "tired",
+      "ipa_us": "ˈtaɪərd",
+      "ipa_uk": "ˈtaɪəd",
+      "translation_ru": "усталый"
+    },
+    {
+      "word": "message",
+      "ipa_us": "ˈmesɪdʒ",
+      "ipa_uk": "ˈmesɪdʒ",
+      "translation_ru": "сообщение"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "pages",
+      "ipa_us": "ˈpeɪdʒɪz",
+      "ipa_uk": "ˈpeɪdʒɪz",
+      "translation_ru": "страницы"
+    },
+    {
+      "word": "lend",
+      "ipa_us": "lend",
+      "ipa_uk": "lend",
+      "translation_ru": "одолжить"
+    },
+    {
+      "word": "pocket",
+      "ipa_us": "ˈpɑːkɪt",
+      "ipa_uk": "ˈpɒkɪt",
+      "translation_ru": "карман"
+    },
+    {
+      "word": "cheaper",
+      "ipa_us": "ˈtʃiːpər",
+      "ipa_uk": "ˈtʃiːpə",
+      "translation_ru": "дешевле"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "think"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "read",
+        "real"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "read",
+        "feel"
+      ],
+      "tip_ru": "Долгий «и»: растяните звук, губы в улыбке; не путайте с коротким ɪ."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "paper",
+        "phone"
+      ],
+      "tip_ru": "p, t, k в начале слова произносите с лёгким придыханием, как будто выдыхаете «х»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the writer prefer?",
+      "answer": "Paper books.",
+      "accepted_keywords": [
+        "paper",
+        "book",
+        "books"
+      ]
+    },
+    {
+      "question": "What happens when the phone makes a noise?",
+      "answer": "The writer stops reading.",
+      "accepted_keywords": [
+        "stop",
+        "stops"
+      ]
+    },
+    {
+      "question": "What can you do with a book and a friend?",
+      "answer": "Lend it.",
+      "accepted_keywords": [
+        "lend"
+      ]
+    },
+    {
+      "question": "Why is a phone good?",
+      "answer": "You can carry many books and it is cheaper.",
+      "accepted_keywords": [
+        "carry",
+        "cheaper",
+        "books"
+      ]
+    }
+  ]
+}

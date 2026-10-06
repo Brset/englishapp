@@ -1,0 +1,125 @@
+{
+  "id": "a2-dialogue-03",
+  "level": "A2",
+  "genre": "dialogue",
+  "title_en": "Weekend Plans",
+  "title_ru": "Планы на выходные",
+  "description_ru": "Два друга выбирают, как провести выходные: в горах или у моря. Сравнения и разговор о будущем.",
+  "text": "Tom: What are you going to do this weekend, Wendy?\nWendy: I am not sure. The weather forecast says it will be sunny on Saturday.\nTom: Great! Why don't we go to the mountains?\nWendy: The mountains are beautiful, but the road is very long. The sea is closer.\nTom: That is true. But the beach is more crowded than the mountains.\nWendy: Hmm. Last summer, we went to the beach, and it was terrible. There were too many people.\nTom: OK, let's go to the mountains. I will bring sandwiches and fruit.\nWendy: And I will bring a map and warm jackets. It is colder in the mountains.\nTom: What time shall we leave?\nWendy: Let's leave at seven. Then we can have lunch at the top.\nTom: Seven o'clock on Saturday? That is early!\nWendy: Do not worry. I will bring you a strong coffee.",
+  "word_count": 135,
+  "vocabulary": [
+    {
+      "word": "weekend",
+      "ipa_us": "ˈwiːkend",
+      "ipa_uk": "ˌwiːkˈend",
+      "translation_ru": "выходные"
+    },
+    {
+      "word": "forecast",
+      "ipa_us": "ˈfɔrkæst",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "translation_ru": "прогноз"
+    },
+    {
+      "word": "mountains",
+      "ipa_us": "ˈmaʊntənz",
+      "ipa_uk": "ˈmaʊntɪnz",
+      "translation_ru": "горы"
+    },
+    {
+      "word": "closer",
+      "ipa_us": "ˈkloʊsər",
+      "ipa_uk": "ˈkləʊsə",
+      "translation_ru": "ближе"
+    },
+    {
+      "word": "crowded",
+      "ipa_us": "ˈkraʊdɪd",
+      "ipa_uk": "ˈkraʊdɪd",
+      "translation_ru": "людный"
+    },
+    {
+      "word": "beautiful",
+      "ipa_us": "ˈbjuːtɪfəl",
+      "ipa_uk": "ˈbjuːtɪfəl",
+      "translation_ru": "красивый"
+    },
+    {
+      "word": "jackets",
+      "ipa_us": "ˈdʒækɪts",
+      "ipa_uk": "ˈdʒækɪts",
+      "translation_ru": "куртки"
+    },
+    {
+      "word": "colder",
+      "ipa_us": "ˈkoʊldər",
+      "ipa_uk": "ˈkəʊldə",
+      "translation_ru": "холоднее"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "Wendy",
+        "weekend",
+        "weather",
+        "warm",
+        "what"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "this",
+        "There",
+        "the",
+        "than",
+        "that"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "road",
+        "crowded",
+        "terrible",
+        "bring"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What will the weather be on Saturday?",
+      "answer": "Sunny.",
+      "accepted_keywords": [
+        "sunny"
+      ]
+    },
+    {
+      "question": "Where do they decide to go?",
+      "answer": "To the mountains.",
+      "accepted_keywords": [
+        "mountains"
+      ]
+    },
+    {
+      "question": "What will Tom bring?",
+      "answer": "Sandwiches and fruit.",
+      "accepted_keywords": [
+        "sandwiches",
+        "fruit"
+      ]
+    },
+    {
+      "question": "What time are they going to leave?",
+      "answer": "At seven.",
+      "accepted_keywords": [
+        "seven"
+      ]
+    }
+  ]
+}

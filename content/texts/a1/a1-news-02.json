@@ -1,0 +1,123 @@
+{
+  "id": "a1-news-02",
+  "level": "A1",
+  "genre": "news",
+  "title_en": "New Library Robot",
+  "title_ru": "Новый робот в библиотеке",
+  "description_ru": "Забавная новость о роботе-помощнике в городской библиотеке.",
+  "text": "Today there is a new worker in the library of Rivertown. His name is Robo Bob, and he is a robot!\n\nRobo Bob is one metre tall. He has big blue eyes and a friendly voice. He helps children to find books. He also says, \"Please be quiet,\" in a very soft voice.\n\nThe children love him. \"He is so funny,\" says eight-year-old Rita. \"He knows every book in the room!\"\n\nThe librarian, Mr Brown, is happy. \"Bob never gets tired,\" he says. \"But he cannot drink tea with me.\" The library is open from nine to six, Monday to Saturday.",
+  "word_count": 103,
+  "vocabulary": [
+    {
+      "word": "library",
+      "ipa_us": "ˈlaɪˌbrɛri",
+      "ipa_uk": "ˈlaɪbrəri",
+      "translation_ru": "библиотека"
+    },
+    {
+      "word": "robot",
+      "ipa_us": "ˈroʊˌbɑt",
+      "ipa_uk": "ˈrəʊbɒt",
+      "translation_ru": "робот"
+    },
+    {
+      "word": "metre",
+      "ipa_us": "ˈmitər",
+      "ipa_uk": "ˈmiːtə",
+      "translation_ru": "метр"
+    },
+    {
+      "word": "friendly",
+      "ipa_us": "ˈfrɛndli",
+      "ipa_uk": "ˈfrendli",
+      "translation_ru": "дружелюбный"
+    },
+    {
+      "word": "voice",
+      "ipa_us": "vɔɪs",
+      "ipa_uk": "vɔɪs",
+      "translation_ru": "голос"
+    },
+    {
+      "word": "librarian",
+      "ipa_us": "laɪˈbrɛriən",
+      "ipa_uk": "laɪˈbreəriən",
+      "translation_ru": "библиотекарь"
+    },
+    {
+      "word": "tired",
+      "ipa_us": "ˈtaɪərd",
+      "ipa_uk": "ˈtaɪəd",
+      "translation_ru": "уставший"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "robot",
+        "Rita",
+        "library"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "voice",
+        "every",
+        "love"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "worker",
+        "quiet"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the robot's name?",
+      "answer": "Robo Bob.",
+      "accepted_keywords": [
+        "bob",
+        "robo"
+      ]
+    },
+    {
+      "question": "How tall is he?",
+      "answer": "One metre.",
+      "accepted_keywords": [
+        "metre",
+        "one"
+      ]
+    },
+    {
+      "question": "What does he help children to do?",
+      "answer": "To find books.",
+      "accepted_keywords": [
+        "books",
+        "find"
+      ]
+    },
+    {
+      "question": "Who is Rita?",
+      "answer": "A child / an eight-year-old girl.",
+      "accepted_keywords": [
+        "child",
+        "girl",
+        "eight"
+      ]
+    }
+  ]
+}

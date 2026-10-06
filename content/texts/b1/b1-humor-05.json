@@ -1,0 +1,133 @@
+{
+  "id": "b1-humor-05",
+  "level": "B1",
+  "genre": "humor",
+  "title_en": "The Parrot Who Knew Too Much",
+  "title_ru": "Попугай, который знал слишком много",
+  "description_ru": "Комичная история о говорящем попугае, который пересказывает семейные секреты в самый неподходящий момент.",
+  "text": "Aunt Rosa owned a green parrot called Captain. He was clever, loud and extremely good at listening. Unfortunately, he was also very good at repeating everything he had heard.\n\nFor years, this was not a problem, because Rosa lived alone. But last spring, she invited her whole family for dinner, and she wanted everything to be perfect. She cooked all morning, polished the glasses and told the parrot, \"Please behave tonight.\"\n\nThe first guests arrived at six. Uncle Henry came in with a large bunch of flowers and a wide smile. \"What a lovely surprise,\" said Rosa. \"Not a lovely surprise,\" said the parrot in a perfect copy of Henry's voice. \"I hate her soup!\"\n\nThere was a terrible silence. Henry went red. \"I may have said something like that once,\" he muttered, \"but it was a long time ago.\"\n\nRosa hurried to the kitchen to bring the main course. While she was away, the parrot continued. He imitated cousin Lily's phone call about her secret boyfriend, and he repeated the story of how little Tom had broken the neighbour's window with a football.\n\nBy the time dessert arrived, nobody was speaking. Then the doorbell rang, and the parrot shouted, \"Who is it? I am not at home!\"\n\nEverybody burst out laughing, even Rosa. \"Captain,\" she said, wiping her eyes, \"you have just told the truth for the first time this evening.\"\n\nSince then, the family always eats dinner in the garden, and Captain stays in his cage with a blanket over it.",
+  "word_count": 253,
+  "vocabulary": [
+    {
+      "word": "parrot",
+      "ipa_us": "ˈpærət",
+      "ipa_uk": "ˈpærət",
+      "translation_ru": "попугай"
+    },
+    {
+      "word": "extremely",
+      "ipa_us": "ɪkˈstrimli",
+      "ipa_uk": "ɪkˈstriːmli",
+      "translation_ru": "крайне"
+    },
+    {
+      "word": "repeating",
+      "ipa_us": "rɪˈpitɪŋ",
+      "ipa_uk": "rɪˈpiːtɪŋ",
+      "translation_ru": "повторяющий"
+    },
+    {
+      "word": "behave",
+      "ipa_us": "bɪˈheɪv",
+      "ipa_uk": "bɪˈheɪv",
+      "translation_ru": "вести себя хорошо"
+    },
+    {
+      "word": "imitated",
+      "ipa_us": "ˈɪməˌteɪtɪd",
+      "ipa_uk": "ˈɪmɪteɪtɪd",
+      "translation_ru": "передразнивал"
+    },
+    {
+      "word": "boyfriend",
+      "ipa_us": "ˈbɔɪˌfrɛnd",
+      "ipa_uk": "ˈbɔɪfrend",
+      "translation_ru": "парень (возлюбленный)"
+    },
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbər",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "dessert",
+      "ipa_us": "dɪˈzɜrt",
+      "ipa_uk": "dɪˈzɜːt",
+      "translation_ru": "десерт"
+    },
+    {
+      "word": "silence",
+      "ipa_us": "ˈsaɪləns",
+      "ipa_uk": "ˈsaɪləns",
+      "translation_ru": "тишина"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "Rosa",
+        "parrot",
+        "repeating",
+        "red"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "everything",
+        "lovely",
+        "voice"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wanted",
+        "window",
+        "whole",
+        "while"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the parrot's name?",
+      "answer": "Captain.",
+      "accepted_keywords": [
+        "captain"
+      ]
+    },
+    {
+      "question": "Why did Rosa tell the parrot to behave?",
+      "answer": "Her family was coming for dinner.",
+      "accepted_keywords": [
+        "family",
+        "dinner",
+        "guests"
+      ]
+    },
+    {
+      "question": "What did the parrot say about the soup?",
+      "answer": "That he hated it, in Henry's voice.",
+      "accepted_keywords": [
+        "hate",
+        "hated",
+        "soup",
+        "henry"
+      ]
+    },
+    {
+      "question": "Where does the family eat dinner now?",
+      "answer": "In the garden.",
+      "accepted_keywords": [
+        "garden"
+      ]
+    }
+  ]
+}

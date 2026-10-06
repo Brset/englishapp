@@ -1,0 +1,110 @@
+{
+  "id": "b1-science-04",
+  "level": "B1",
+  "genre": "science",
+  "title_en": "Sleep and Memory",
+  "title_ru": "Сон и память",
+  "description_ru": "Почему сон помогает мозгу запоминать информацию и что происходит, если спать мало.",
+  "text": "Many students believe that studying all night before an exam is a good idea. However, scientists have discovered that sleep is just as important for learning as study itself.\n\nWhen we sleep, our brains are not resting. In fact, some areas are very active. During the night, we pass through several cycles of sleep, and each cycle lasts about ninety minutes. In deep sleep, the brain replays the events of the day and moves important information from short-term memory to long-term memory. During another stage, called REM sleep, we dream, and the brain connects new ideas with old ones.\n\nResearchers have tested this in many experiments. In one famous study, two groups of people learned a list of words. One group slept for eight hours, and the other stayed awake. The next day, the people who had slept remembered far more words.\n\nLack of sleep causes problems, too. If you sleep less than six hours a night, you will find it harder to concentrate, and you may become irritable. Over many years, poor sleep can also increase the risk of serious illnesses.\n\nMost adults need between seven and nine hours of sleep. So, if you have an important test tomorrow, review your notes this evening, and then go to bed on time. Your brain will do the rest of the work while you are asleep.",
+  "word_count": 227,
+  "vocabulary": [
+    {
+      "word": "exam",
+      "ipa_us": "ɪɡˈzæm",
+      "ipa_uk": "ɪɡˈzæm",
+      "translation_ru": "экзамен"
+    },
+    {
+      "word": "memory",
+      "ipa_us": "ˈmeməri",
+      "ipa_uk": "ˈmeməri",
+      "translation_ru": "память"
+    },
+    {
+      "word": "several",
+      "ipa_us": "ˈsevrəl",
+      "ipa_uk": "ˈsevrəl",
+      "translation_ru": "несколько"
+    },
+    {
+      "word": "cycle",
+      "ipa_us": "ˈsaɪkəl",
+      "ipa_uk": "ˈsaɪkəl",
+      "translation_ru": "цикл"
+    },
+    {
+      "word": "researchers",
+      "ipa_us": "ˈriːsɜːrtʃɚz",
+      "ipa_uk": "rɪˈsɜːtʃəz",
+      "translation_ru": "исследователи"
+    },
+    {
+      "word": "concentrate",
+      "ipa_us": "ˈkɑːnsəntreɪt",
+      "ipa_uk": "ˈkɒnsəntreɪt",
+      "translation_ru": "сосредоточиться"
+    },
+    {
+      "word": "irritable",
+      "ipa_us": "ˈɪrɪtəbəl",
+      "ipa_uk": "ˈɪrɪtəbəl",
+      "translation_ru": "раздражительный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ɜː",
+      "examples": [
+        "learned",
+        "researchers",
+        "words"
+      ],
+      "tip_ru": "Долгий нейтральный звук, как «ё» без смягчения; губы не округляйте, язык в центре."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "work",
+        "while",
+        "words"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "study",
+        "students",
+        "another"
+      ],
+      "tip_ru": "Короткий звук между «а» и «э», рот открыт умеренно, язык в центре."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long does one sleep cycle last?",
+      "answer": "About ninety minutes.",
+      "accepted_keywords": [
+        "ninety",
+        "90"
+      ]
+    },
+    {
+      "question": "What does the brain do in deep sleep?",
+      "answer": "It moves information to long-term memory.",
+      "accepted_keywords": [
+        "memory",
+        "information",
+        "long-term"
+      ]
+    },
+    {
+      "question": "How many hours of sleep do most adults need?",
+      "answer": "Seven to nine hours.",
+      "accepted_keywords": [
+        "seven",
+        "nine"
+      ]
+    }
+  ]
+}

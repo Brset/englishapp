@@ -1,0 +1,133 @@
+{
+  "id": "b2-news-03",
+  "level": "B2",
+  "genre": "news",
+  "title_en": "Giant Pumpkin Breaks Local Record",
+  "title_ru": "Гигантская тыква побила местный рекорд",
+  "description_ru": "Вымышленная новость о фермере, вырастившем рекордную тыкву, и странном способе её доставки.",
+  "text": "A retired bus driver from the fictional village of Ashworth Green has smashed the county record for growing pumpkins, producing a monster that weighs 612 kilograms. Gerald Thistlewood, sixty-eight, said he could hardly believe it when the scales were finally checked at the annual Harvest Show on Saturday.\n\n\"I have been growing pumpkins for twenty years, and my best until now was about four hundred kilos,\" he told the crowd. \"This year I changed everything. I gave her a bed of horse manure, watered her every morning and even played her classical music in the evenings.\" He said his wife, Joan, had been sceptical. \"She said I was talking to a vegetable, and she was right, but it worked.\"\n\nMoving the giant fruit to the show was not easy. According to organisers, a crane had to be borrowed from a nearby building site, and the pumpkin was carried to the village green on the back of a farm trailer, escorted by two police officers on bicycles. Children ran alongside, cheering, and some neighbours were seen taking photographs from their windows.\n\nJudges praised the pumpkin's perfect shape and its bright orange colour. \"It is the heaviest we have ever seen at this show,\" said head judge Priscilla Wren. \"Our scales were so old that we were afraid they might collapse.\" A local engineer was called in to check them, and the result was confirmed.\n\nMr Thistlewood has already received several offers for his prize. A bakery in the neighbouring town wants to turn it into three hundred pies, and a primary school has asked to borrow it for a week to use in science lessons. However, the grower says he is not yet ready to part with it. \"She will sit by my front gate until Halloween,\" he said. \"After that, we shall see. Perhaps I will carve a face, or perhaps I will make a very large soup.\"\n\nNext year, he is already planning to aim even higher. His wife, he admitted, has asked him to grow smaller vegetables, or at least keep them out of the kitchen.",
+  "vocabulary": [
+    {
+      "word": "smashed",
+      "ipa_us": "smæʃt",
+      "ipa_uk": "smæʃt",
+      "translation_ru": "побил (рекорд)"
+    },
+    {
+      "word": "scales",
+      "ipa_us": "skeɪlz",
+      "ipa_uk": "skeɪlz",
+      "translation_ru": "весы"
+    },
+    {
+      "word": "manure",
+      "ipa_us": "məˈnʊr",
+      "ipa_uk": "məˈnjʊə",
+      "translation_ru": "навоз"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskɛptɪkəl",
+      "ipa_uk": "ˈskeptɪkəl",
+      "translation_ru": "скептически настроенная"
+    },
+    {
+      "word": "crane",
+      "ipa_us": "kreɪn",
+      "ipa_uk": "kreɪn",
+      "translation_ru": "кран"
+    },
+    {
+      "word": "escorted",
+      "ipa_us": "ɪˈskɔrtɪd",
+      "ipa_uk": "ɪˈskɔːtɪd",
+      "translation_ru": "сопровождаемая"
+    },
+    {
+      "word": "collapse",
+      "ipa_us": "kəˈlæps",
+      "ipa_uk": "kəˈlæps",
+      "translation_ru": "развалиться"
+    },
+    {
+      "word": "carve",
+      "ipa_us": "kɑrv",
+      "ipa_uk": "kɑːv",
+      "translation_ru": "вырезать"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wife",
+        "watered",
+        "weighs",
+        "week"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "village",
+        "vegetable",
+        "very",
+        "even"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "Thistlewood",
+        "three",
+        "everything"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "record",
+        "retired",
+        "right",
+        "growing"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How much does the pumpkin weigh?",
+      "answer": "612 kilograms.",
+      "accepted_keywords": [
+        "612",
+        "six hundred"
+      ]
+    },
+    {
+      "question": "What music did Mr Thistlewood play for the pumpkin?",
+      "answer": "Classical music.",
+      "accepted_keywords": [
+        "classical"
+      ]
+    },
+    {
+      "question": "How was the pumpkin transported to the show?",
+      "answer": "On a farm trailer, lifted with a crane.",
+      "accepted_keywords": [
+        "trailer",
+        "crane"
+      ]
+    },
+    {
+      "question": "What does he plan to do with it until Halloween?",
+      "answer": "Keep it by his front gate.",
+      "accepted_keywords": [
+        "gate"
+      ]
+    }
+  ],
+  "word_count": 348
+}

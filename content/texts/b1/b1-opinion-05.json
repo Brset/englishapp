@@ -1,0 +1,132 @@
+{
+  "id": "b1-opinion-05",
+  "level": "B1",
+  "genre": "opinion",
+  "title_en": "Should Zoos Still Exist?",
+  "title_ru": "Нужны ли зоопарки?",
+  "description_ru": "Размышление о пользе и вреде зоопарков и о том, как они могли бы измениться.",
+  "text": "When I was a child, a trip to the zoo was the best day of the year. I loved the elephants, the monkeys and especially the tiger, who always seemed to look straight at me. Now that I am an adult, I am not so sure that zoos are a good idea.\n\nOn the one hand, good zoos do important work. They have saved several species from disappearing, such as the Arabian oryx and the golden lion tamarin. They also teach children to care about nature. If a child has never seen a real giraffe, it is hard to make them worry about giraffes in the wild.\n\nOn the other hand, many animals suffer in captivity. A tiger in a small cage walks up and down all day, because it needs a territory of many kilometres. Scientists have found that animals in poor conditions often show stress and even illness. I find it difficult to enjoy a visit when the animals look bored and unhappy.\n\nSo what is the answer? In my opinion, we should not close all zoos, but we should change them. Cages should be replaced by large natural spaces, and zoos should keep only the animals they can look after properly. They should also work harder to return rare species to their natural homes.\n\nIf zoos become sanctuaries rather than shows, I will happily take my own children there. Until then, I prefer to watch wild animals on a documentary at home.",
+  "word_count": 245,
+  "vocabulary": [
+    {
+      "word": "species",
+      "ipa_us": "ˈspiʃiz",
+      "ipa_uk": "ˈspiːʃiːz",
+      "translation_ru": "вид (биологический)"
+    },
+    {
+      "word": "disappearing",
+      "ipa_us": "ˌdɪsəˈpɪrɪŋ",
+      "ipa_uk": "ˌdɪsəˈpɪərɪŋ",
+      "translation_ru": "исчезать"
+    },
+    {
+      "word": "wild",
+      "ipa_us": "waɪld",
+      "ipa_uk": "waɪld",
+      "translation_ru": "дикая природа"
+    },
+    {
+      "word": "captivity",
+      "ipa_us": "kæpˈtɪvəti",
+      "ipa_uk": "kæpˈtɪvəti",
+      "translation_ru": "неволя"
+    },
+    {
+      "word": "territory",
+      "ipa_us": "ˈtɛrəˌtɔri",
+      "ipa_uk": "ˈterətri",
+      "translation_ru": "территория"
+    },
+    {
+      "word": "conditions",
+      "ipa_us": "kənˈdɪʃənz",
+      "ipa_uk": "kənˈdɪʃənz",
+      "translation_ru": "условия"
+    },
+    {
+      "word": "sanctuaries",
+      "ipa_us": "ˈsæŋktʃuˌɛriz",
+      "ipa_uk": "ˈsæŋktʃuərɪz",
+      "translation_ru": "заповедники, приюты"
+    },
+    {
+      "word": "documentary",
+      "ipa_us": "ˌdɑkjəˈmɛntəri",
+      "ipa_uk": "ˌdɒkjuˈmentəri",
+      "translation_ru": "документальный фильм"
+    },
+    {
+      "word": "rare",
+      "ipa_us": "rɛr",
+      "ipa_uk": "reə",
+      "translation_ru": "редкий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ŋ",
+      "examples": [
+        "disappearing",
+        "sanctuaries"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, воздух идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rare",
+        "real",
+        "return",
+        "territory"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wild",
+        "worry",
+        "work",
+        "when"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the best day of the year for the writer as a child?",
+      "answer": "A trip to the zoo.",
+      "accepted_keywords": [
+        "zoo",
+        "trip"
+      ]
+    },
+    {
+      "question": "Name one animal that zoos have helped to save.",
+      "answer": "The Arabian oryx or the golden lion tamarin.",
+      "accepted_keywords": [
+        "oryx",
+        "tamarin"
+      ]
+    },
+    {
+      "question": "Why do tigers suffer in small cages?",
+      "answer": "They need a large territory.",
+      "accepted_keywords": [
+        "territory",
+        "space",
+        "large",
+        "kilometres"
+      ]
+    },
+    {
+      "question": "What does the writer want zoos to become?",
+      "answer": "Sanctuaries rather than shows.",
+      "accepted_keywords": [
+        "sanctuaries",
+        "sanctuary"
+      ]
+    }
+  ]
+}

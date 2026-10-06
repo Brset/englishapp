@@ -1,0 +1,137 @@
+{
+  "id": "b2-opinion-04",
+  "level": "B2",
+  "genre": "opinion",
+  "title_en": "Apps Cannot Teach You to Speak",
+  "title_ru": "Приложения не научат вас говорить",
+  "description_ru": "Критический взгляд на языковые приложения: почему они хороши для разминки, но не заменяют живую речь.",
+  "text": "Language-learning apps are everywhere. Millions of people open them every morning to keep their streak alive, collect points and be told they are \"doing great\". I have used several of them myself, and I will admit that they are fun. However, after two years of daily practice I discovered that I could match pictures with words perfectly well and yet could not order a coffee in Spanish without freezing.\n\nThe problem, in my view, is that apps reward recognition rather than production. Choosing the correct answer from three options is much easier than building a sentence from nothing. In real conversation nobody gives you a multiple-choice menu. You have to find the words quickly, pronounce them clearly and, most frighteningly, listen to a stranger who speaks twice as fast as the recording in your lesson.\n\nIt is also worth mentioning that apps often teach strange sentences. I have been taught to say \"The elephant drinks milk\" and \"My horse is wearing a hat\", but never how to ask for directions or complain politely about a cold meal. Some people say that this does not matter because the aim is only to build vocabulary. Perhaps, but vocabulary that is never used is soon forgotten.\n\nThat said, I do not want to be unfair. Apps are cheap, convenient and perfect for ten minutes on a train. They have helped many beginners to overcome their fear of starting. A friend of mine told me that without his app he would never have opened a grammar book at all, and I believe him.\n\nMy conclusion is that apps should be treated as a warm-up, not as the main event. If you really want to speak, you need to speak: find a tutor, join a conversation club, or talk to yourself in the shower. Read aloud every day, record your voice and listen to the mistakes. It feels uncomfortable at first, but discomfort is where progress hides. In the end, a language is a way of talking to people, and it can only be learned the same way you learn to swim: by getting wet.",
+  "vocabulary": [
+    {
+      "word": "streak",
+      "ipa_us": "strik",
+      "ipa_uk": "striːk",
+      "translation_ru": "серия (дней подряд)"
+    },
+    {
+      "word": "recognition",
+      "ipa_us": "ˌrɛkɪɡˈnɪʃən",
+      "ipa_uk": "ˌrekəɡˈnɪʃən",
+      "translation_ru": "узнавание"
+    },
+    {
+      "word": "production",
+      "ipa_us": "prəˈdʌkʃən",
+      "ipa_uk": "prəˈdʌkʃən",
+      "translation_ru": "воспроизведение, производство"
+    },
+    {
+      "word": "pronounce",
+      "ipa_us": "prəˈnaʊns",
+      "ipa_uk": "prəˈnaʊns",
+      "translation_ru": "произносить"
+    },
+    {
+      "word": "vocabulary",
+      "ipa_us": "voʊˈkæbjəˌlɛri",
+      "ipa_uk": "vəˈkæbjʊləri",
+      "translation_ru": "словарный запас"
+    },
+    {
+      "word": "convenient",
+      "ipa_us": "kənˈvinjənt",
+      "ipa_uk": "kənˈviːniənt",
+      "translation_ru": "удобный"
+    },
+    {
+      "word": "overcome",
+      "ipa_us": "ˌoʊvərˈkʌm",
+      "ipa_uk": "ˌəʊvəˈkʌm",
+      "translation_ru": "преодолеть"
+    },
+    {
+      "word": "tutor",
+      "ipa_us": "ˈtutər",
+      "ipa_uk": "ˈtjuːtə",
+      "translation_ru": "репетитор"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vocabulary",
+        "every",
+        "voice",
+        "never"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "warm-up",
+        "wet",
+        "words",
+        "way"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "nothing",
+        "without"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "recognition",
+        "really",
+        "record",
+        "progress"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What could the author do well after two years of practice?",
+      "answer": "Match pictures with words.",
+      "accepted_keywords": [
+        "match",
+        "pictures",
+        "words"
+      ]
+    },
+    {
+      "question": "According to the author, what do apps reward?",
+      "answer": "Recognition rather than production.",
+      "accepted_keywords": [
+        "recognition"
+      ]
+    },
+    {
+      "question": "What strange sentences did the apps teach him?",
+      "answer": "The elephant drinks milk and my horse is wearing a hat.",
+      "accepted_keywords": [
+        "elephant",
+        "horse"
+      ]
+    },
+    {
+      "question": "What does he advise learners to do?",
+      "answer": "Speak with a tutor or in a conversation club and read aloud.",
+      "accepted_keywords": [
+        "tutor",
+        "speak",
+        "club",
+        "aloud"
+      ]
+    }
+  ],
+  "word_count": 353
+}

@@ -1,0 +1,135 @@
+{
+  "id": "b2-biography-04",
+  "level": "B2",
+  "genre": "biography",
+  "title_en": "Nelson Mandela: From Prisoner to President",
+  "title_ru": "Нельсон Мандела: от заключённого до президента",
+  "description_ru": "Путь человека, который провёл 27 лет в тюрьме, а затем возглавил страну и призвал к примирению.",
+  "text": "Nelson Mandela was born in 1918 in a small village in the Eastern Cape of South Africa. His birth name was Rolihlahla, which in his language means \"pulling the branch of a tree\", or, more loosely, \"troublemaker\". His teacher later gave him the English name Nelson. He trained as a lawyer and in 1944 joined the African National Congress, a movement that fought against apartheid, the system by which black South Africans were denied basic rights.\n\nIn 1952 Mandela and his friend Oliver Tambo opened the country's first black law firm in Johannesburg. As protests were violently suppressed, he came to believe that peaceful methods alone would not work, and he helped to found an armed wing of the movement. In 1962 he was arrested, and two years later he was sentenced to life imprisonment. He spent eighteen of his twenty-seven years in prison on Robben Island, where he was made to break stones in a lime quarry. Despite the harsh conditions, he studied for a law degree by correspondence and became an inspiration to people around the world.\n\nInternational pressure on South Africa grew steadily, and Mandela was finally released on 11 February 1990. Millions watched the event on television. He then negotiated with President F. W. de Klerk to end apartheid, and the two men shared the Nobel Peace Prize in 1993. A year later, in the country's first democratic election, Mandela was elected president.\n\nRather than seeking revenge, he encouraged reconciliation. In 1995 he famously wore a rugby shirt to hand the World Cup trophy to the white captain of the national team. He stepped down after one term, in 1999, and spent his retirement fighting poverty and disease. Mandela died in 2013, aged ninety-five.",
+  "vocabulary": [
+    {
+      "word": "apartheid",
+      "ipa_us": "əˈpɑrtˌhaɪt",
+      "ipa_uk": "əˈpɑːtheɪt",
+      "translation_ru": "апартеид"
+    },
+    {
+      "word": "suppressed",
+      "ipa_us": "səˈprɛst",
+      "ipa_uk": "səˈprest",
+      "translation_ru": "подавлены"
+    },
+    {
+      "word": "sentenced",
+      "ipa_us": "ˈsɛntənst",
+      "ipa_uk": "ˈsentənst",
+      "translation_ru": "приговорён"
+    },
+    {
+      "word": "imprisonment",
+      "ipa_us": "ɪmˈprɪzənmənt",
+      "ipa_uk": "ɪmˈprɪzənmənt",
+      "translation_ru": "тюремное заключение"
+    },
+    {
+      "word": "quarry",
+      "ipa_us": "ˈkwɔri",
+      "ipa_uk": "ˈkwɒri",
+      "translation_ru": "карьер"
+    },
+    {
+      "word": "negotiated",
+      "ipa_us": "nɪˈɡoʊʃiˌeɪtɪd",
+      "ipa_uk": "nɪˈɡəʊʃieɪtɪd",
+      "translation_ru": "вёл переговоры"
+    },
+    {
+      "word": "democratic",
+      "ipa_us": "ˌdɛməˈkrætɪk",
+      "ipa_uk": "ˌdeməˈkrætɪk",
+      "translation_ru": "демократический"
+    },
+    {
+      "word": "reconciliation",
+      "ipa_us": "ˌrɛkənˌsɪliˈeɪʃən",
+      "ipa_uk": "ˌrekənsɪliˈeɪʃən",
+      "translation_ru": "примирение"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "prison",
+        "rights",
+        "Robben",
+        "revenge"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "world",
+        "watched",
+        "wore"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "arrested",
+        "released",
+        "studied",
+        "elected"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "South",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the name Rolihlahla loosely mean?",
+      "answer": "Troublemaker.",
+      "accepted_keywords": [
+        "troublemaker"
+      ]
+    },
+    {
+      "question": "How many years did Mandela spend in prison?",
+      "answer": "Twenty-seven.",
+      "accepted_keywords": [
+        "twenty-seven",
+        "27",
+        "twenty"
+      ]
+    },
+    {
+      "question": "When was he released?",
+      "answer": "On 11 February 1990.",
+      "accepted_keywords": [
+        "1990",
+        "february"
+      ]
+    },
+    {
+      "question": "What did he encourage after becoming president?",
+      "answer": "Reconciliation.",
+      "accepted_keywords": [
+        "reconciliation",
+        "forgiveness",
+        "peace"
+      ]
+    }
+  ],
+  "word_count": 280
+}

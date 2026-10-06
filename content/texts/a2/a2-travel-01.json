@@ -1,0 +1,130 @@
+{
+  "id": "a2-travel-01",
+  "level": "A2",
+  "genre": "travel",
+  "title_en": "A Weekend in Venice",
+  "title_ru": "Выходные в Венеции",
+  "description_ru": "Рассказ о поездке в город на воде: где ходить, на чём ехать и что попробовать.",
+  "text": "Last April, my friend Vera and I spent a weekend in Venice. We arrived by train, and then we took a water bus to our hotel. In Venice, there are no cars, so the city is very quiet.\n\nOn Saturday, we walked through the narrow streets and crossed more than twenty bridges. We were lost many times, but that was the best part. Every corner had a beautiful view of the water and the old houses.\n\nIn the afternoon, we visited a small workshop and watched a man make glass. He was very friendly and gave us a tiny glass bird. In the evening, we ate fresh fish and drank sweet white wine.\n\nOn Sunday, we got up early and went to the main square before the crowds arrived. Venice was empty and golden in the morning light. Venice is more expensive than other Italian cities, but I think it is worth every euro.",
+  "word_count": 154,
+  "vocabulary": [
+    {
+      "word": "arrived",
+      "ipa_us": "əˈraɪvd",
+      "ipa_uk": "əˈraɪvd",
+      "translation_ru": "прибыли"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈnæroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "bridges",
+      "ipa_us": "ˈbrɪdʒɪz",
+      "ipa_uk": "ˈbrɪdʒɪz",
+      "translation_ru": "мосты"
+    },
+    {
+      "word": "corner",
+      "ipa_us": "ˈkɔrnər",
+      "ipa_uk": "ˈkɔːnə",
+      "translation_ru": "угол"
+    },
+    {
+      "word": "workshop",
+      "ipa_us": "ˈwɜrkʃɑp",
+      "ipa_uk": "ˈwɜːkʃɒp",
+      "translation_ru": "мастерская"
+    },
+    {
+      "word": "glass",
+      "ipa_us": "ɡlæs",
+      "ipa_uk": "ɡlɑːs",
+      "translation_ru": "стекло"
+    },
+    {
+      "word": "square",
+      "ipa_us": "skwer",
+      "ipa_uk": "skweə",
+      "translation_ru": "площадь"
+    },
+    {
+      "word": "expensive",
+      "ipa_us": "ɪkˈspensɪv",
+      "ipa_uk": "ɪkˈspensɪv",
+      "translation_ru": "дорогой"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Venice",
+        "Vera",
+        "very",
+        "view",
+        "visited"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "weekend",
+        "water",
+        "walked",
+        "was",
+        "watched",
+        "white",
+        "wine"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "train",
+        "arrived",
+        "bridges",
+        "every"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did the writer spend the weekend?",
+      "answer": "In Venice.",
+      "accepted_keywords": [
+        "venice"
+      ]
+    },
+    {
+      "question": "How did they travel to the hotel?",
+      "answer": "By water bus.",
+      "accepted_keywords": [
+        "water",
+        "bus",
+        "boat"
+      ]
+    },
+    {
+      "question": "What did the man make in the workshop?",
+      "answer": "Glass.",
+      "accepted_keywords": [
+        "glass"
+      ]
+    },
+    {
+      "question": "Why was Sunday morning special?",
+      "answer": "Venice was empty and golden.",
+      "accepted_keywords": [
+        "empty",
+        "golden",
+        "quiet"
+      ]
+    }
+  ]
+}

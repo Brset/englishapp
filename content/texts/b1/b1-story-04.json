@@ -1,0 +1,112 @@
+{
+  "id": "b1-story-04",
+  "level": "B1",
+  "genre": "story",
+  "title_en": "The Wrong Suitcase",
+  "title_ru": "Не тот чемодан",
+  "description_ru": "В аэропорту Анна берёт чужой чемодан, и это приводит к необычной встрече.",
+  "text": "When Anna arrived in Lisbon, she picked up a black suitcase from the luggage belt and went straight to her hotel. It was only when she opened it that she realised something was wrong. Instead of her clothes, there were a tuba, three yellow shirts and a map covered in red circles.\n\n\"This isn't mine,\" she said to herself. She looked for a name, and she found a small label with an email address. She wrote a message at once: \"I think I have taken your suitcase. Could you meet me at the airport?\"\n\nThe answer came in ten minutes. \"Yes! I have been looking for it for two hours. I'm in a brass band, and the concert starts tonight!\" Anna hurried to the airport, where a worried young man was waiting with her small blue suitcase in his hand.\n\nHis name was Paulo. \"If you had arrived later, we would have played without a tuba,\" he joked. He was so grateful that he invited her to the concert. Anna had planned to spend the evening in bed, but she changed her mind.\n\nThe music was loud, cheerful and slightly out of tune. Afterwards, Paulo introduced her to the whole band. \"Every traveller should make one mistake like this,\" Anna laughed. She has never forgotten that evening, and she still keeps a yellow shirt in her wardrobe.",
+  "word_count": 227,
+  "vocabulary": [
+    {
+      "word": "suitcase",
+      "ipa_us": "ˈsuːtkeɪs",
+      "ipa_uk": "ˈsuːtkeɪs",
+      "translation_ru": "чемодан"
+    },
+    {
+      "word": "luggage",
+      "ipa_us": "ˈlʌɡɪdʒ",
+      "ipa_uk": "ˈlʌɡɪdʒ",
+      "translation_ru": "багаж"
+    },
+    {
+      "word": "realised",
+      "ipa_us": "ˈriːəlaɪzd",
+      "ipa_uk": "ˈrɪəlaɪzd",
+      "translation_ru": "осознала"
+    },
+    {
+      "word": "label",
+      "ipa_us": "ˈleɪbəl",
+      "ipa_uk": "ˈleɪbəl",
+      "translation_ru": "бирка"
+    },
+    {
+      "word": "grateful",
+      "ipa_us": "ˈɡreɪtfəl",
+      "ipa_uk": "ˈɡreɪtfəl",
+      "translation_ru": "благодарный"
+    },
+    {
+      "word": "cheerful",
+      "ipa_us": "ˈtʃɪrfəl",
+      "ipa_uk": "ˈtʃɪəfəl",
+      "translation_ru": "весёлый"
+    },
+    {
+      "word": "wardrobe",
+      "ipa_us": "ˈwɔːrdroʊb",
+      "ipa_uk": "ˈwɔːdrəʊb",
+      "translation_ru": "шкаф для одежды"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "when",
+        "was",
+        "would",
+        "wardrobe"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "grateful",
+        "arrived",
+        "brass"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "label",
+        "small",
+        "whole"
+      ],
+      "tip_ru": "Кончик языка касается дёсен за верхними зубами, а спинка языка отодвинута назад; звук твёрдый, но не «ль» и не «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did Anna arrive?",
+      "answer": "In Lisbon.",
+      "accepted_keywords": [
+        "lisbon"
+      ]
+    },
+    {
+      "question": "What was inside the wrong suitcase?",
+      "answer": "A tuba, three yellow shirts and a map.",
+      "accepted_keywords": [
+        "tuba",
+        "shirts",
+        "map"
+      ]
+    },
+    {
+      "question": "Why was Paulo grateful?",
+      "answer": "Anna returned his suitcase with the tuba for the concert.",
+      "accepted_keywords": [
+        "suitcase",
+        "tuba",
+        "returned"
+      ]
+    }
+  ]
+}

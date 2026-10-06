@@ -1,0 +1,131 @@
+{
+  "id": "a1-biography-03",
+  "level": "A1",
+  "genre": "biography",
+  "title_en": "Leonardo da Vinci",
+  "title_ru": "Леонардо да Винчи",
+  "description_ru": "Художник, изобретатель и великий любопытный человек эпохи Возрождения.",
+  "text": "Leonardo da Vinci was born in Italy in 1452. His home was near a small town called Vinci. He loved nature, and he drew birds, rivers and flowers.\n\nLeonardo was a painter. He painted the Mona Lisa, a famous picture of a woman with a quiet smile. It is now in a big museum in Paris.\n\nHe was also an inventor. He drew flying machines and boats on paper. He wrote his notes backwards, from right to left. Leonardo lived in France at the end of his life. He died in 1519.",
+  "word_count": 90,
+  "vocabulary": [
+    {
+      "word": "drew",
+      "ipa_us": "druː",
+      "ipa_uk": "druː",
+      "translation_ru": "рисовал"
+    },
+    {
+      "word": "painter",
+      "ipa_us": "ˈpeɪntər",
+      "ipa_uk": "ˈpeɪntə",
+      "translation_ru": "художник"
+    },
+    {
+      "word": "picture",
+      "ipa_us": "ˈpɪktʃər",
+      "ipa_uk": "ˈpɪktʃə",
+      "translation_ru": "картина"
+    },
+    {
+      "word": "smile",
+      "ipa_us": "smaɪl",
+      "ipa_uk": "smaɪl",
+      "translation_ru": "улыбка"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
+    },
+    {
+      "word": "inventor",
+      "ipa_us": "ɪnˈvɛntər",
+      "ipa_uk": "ɪnˈventə",
+      "translation_ru": "изобретатель"
+    },
+    {
+      "word": "machine",
+      "ipa_us": "məˈʃin",
+      "ipa_uk": "məˈʃiːn",
+      "translation_ru": "машина"
+    },
+    {
+      "word": "backwards",
+      "ipa_us": "ˈbækwərdz",
+      "ipa_uk": "ˈbækwədz",
+      "translation_ru": "задом наперёд"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Vinci",
+        "loved",
+        "rivers"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rivers",
+        "right",
+        "drew"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "with",
+        "wrote"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "life",
+        "right",
+        "flying"
+      ],
+      "tip_ru": "Начните с «а» и плавно уходите к короткому «и»; не делайте два отдельных звука."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Leonardo born?",
+      "answer": "In Italy.",
+      "accepted_keywords": [
+        "italy",
+        "vinci"
+      ]
+    },
+    {
+      "question": "What famous picture did he paint?",
+      "answer": "The Mona Lisa.",
+      "accepted_keywords": [
+        "mona",
+        "lisa"
+      ]
+    },
+    {
+      "question": "How did he write his notes?",
+      "answer": "Backwards, from right to left.",
+      "accepted_keywords": [
+        "backwards",
+        "left"
+      ]
+    },
+    {
+      "question": "Where did he live at the end of his life?",
+      "answer": "In France.",
+      "accepted_keywords": [
+        "france"
+      ]
+    }
+  ]
+}

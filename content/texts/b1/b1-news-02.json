@@ -1,0 +1,130 @@
+{
+  "id": "b1-news-02",
+  "level": "B1",
+  "genre": "news",
+  "title_en": "Robot Librarian Joins Town Library",
+  "title_ru": "Робот-библиотекарь в городской библиотеке",
+  "description_ru": "Вымышленная новость о роботе, который помогает посетителям библиотеки, и о реакции горожан.",
+  "text": "A friendly robot named Page has started work at the Oakfield Public Library, and visitors have been lining up to meet it. The robot, which is about one metre tall, can find any book in the building in less than ten seconds.\n\nLibrary director Grace Thornton said the idea came from a shortage of staff. \"We have had fewer librarians since last spring,\" she explained. \"Page does not replace people. It helps them, so that they can spend more time reading with children and organising events.\"\n\nPage speaks three languages and can tell visitors where to find a book, how long they can borrow it, and what to read next. If you say that you enjoyed a detective novel, the robot will suggest five similar stories. It also has a small screen on its chest that shows a smiling face.\n\nNot everyone is happy about the new arrival. Retired teacher Walter Greene said he prefers talking to real people. \"A machine cannot understand why I love old poetry,\" he said. However, after a short chat, he admitted that Page had recommended a book he had never heard of, and that he was looking forward to reading it.\n\nChildren seem to be the biggest fans. Eight-year-old Lucy Park said, \"Page is my best friend in the library. It never tells me to be quiet!\"\n\nThe library plans to evaluate the project over the next six months. If it is successful, a second robot may arrive in the children's section before the end of the year.",
+  "word_count": 256,
+  "vocabulary": [
+    {
+      "word": "librarian",
+      "ipa_us": "laɪˈbrɛriən",
+      "ipa_uk": "laɪˈbreəriən",
+      "translation_ru": "библиотекарь"
+    },
+    {
+      "word": "shortage",
+      "ipa_us": "ˈʃɔrtɪdʒ",
+      "ipa_uk": "ˈʃɔːtɪdʒ",
+      "translation_ru": "нехватка"
+    },
+    {
+      "word": "organising",
+      "ipa_us": "ˈɔrɡəˌnaɪzɪŋ",
+      "ipa_uk": "ˈɔːɡənaɪzɪŋ",
+      "translation_ru": "организация"
+    },
+    {
+      "word": "borrow",
+      "ipa_us": "ˈbɑroʊ",
+      "ipa_uk": "ˈbɒrəʊ",
+      "translation_ru": "брать на время"
+    },
+    {
+      "word": "suggest",
+      "ipa_us": "səɡˈdʒɛst",
+      "ipa_uk": "səˈdʒest",
+      "translation_ru": "предложить, посоветовать"
+    },
+    {
+      "word": "similar",
+      "ipa_us": "ˈsɪmələr",
+      "ipa_uk": "ˈsɪmɪlə",
+      "translation_ru": "похожий"
+    },
+    {
+      "word": "retired",
+      "ipa_us": "rɪˈtaɪərd",
+      "ipa_uk": "rɪˈtaɪəd",
+      "translation_ru": "на пенсии"
+    },
+    {
+      "word": "recommended",
+      "ipa_us": "ˌrɛkəˈmɛndɪd",
+      "ipa_uk": "ˌrekəˈmendɪd",
+      "translation_ru": "порекомендовал"
+    },
+    {
+      "word": "evaluate",
+      "ipa_us": "ɪˈvæljuˌeɪt",
+      "ipa_uk": "ɪˈvæljueɪt",
+      "translation_ru": "оценить"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "Thornton",
+        "three"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "robot",
+        "library",
+        "real",
+        "retired"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "visitors",
+        "similar",
+        "it",
+        "children"
+      ],
+      "tip_ru": "Короткий расслабленный звук, не такой напряжённый, как русское «и»; не делайте его долгим."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the robot's name?",
+      "answer": "Page.",
+      "accepted_keywords": [
+        "page"
+      ]
+    },
+    {
+      "question": "Why did the library get the robot?",
+      "answer": "There was a shortage of staff.",
+      "accepted_keywords": [
+        "shortage",
+        "staff",
+        "fewer"
+      ]
+    },
+    {
+      "question": "How many languages does it speak?",
+      "answer": "Three.",
+      "accepted_keywords": [
+        "three",
+        "3"
+      ]
+    },
+    {
+      "question": "Why did Walter Greene change his mind?",
+      "answer": "Page recommended a book he had never heard of.",
+      "accepted_keywords": [
+        "recommended",
+        "book"
+      ]
+    }
+  ]
+}

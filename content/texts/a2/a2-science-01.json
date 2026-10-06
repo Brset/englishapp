@@ -1,0 +1,131 @@
+{
+  "id": "a2-science-01",
+  "level": "A2",
+  "genre": "science",
+  "title_en": "Why Is the Sky Blue?",
+  "title_ru": "Почему небо голубое?",
+  "description_ru": "Простое объяснение того, почему мы видим голубое небо днём и красный закат вечером.",
+  "text": "Every day, we look up and see a blue sky. But why is it blue? The answer is in the light from the sun.\n\nSunlight looks white, but it really has many colours inside it, like a rainbow. When the light travels through the air, it hits very small pieces of gas. Blue light moves in short waves, so it bounces around more than red light. This means blue light comes to our eyes from every part of the sky.\n\nIn the evening, the sun is lower, and its light has to travel through more air. The blue light goes away in other directions, and only the red and orange light arrives. That is why a sunset can be so red.\n\nOn other planets, the sky has different colours. On Mars, for example, the daytime sky is a pale brown. So the colour of the sky depends on the air around a planet.",
+  "word_count": 153,
+  "vocabulary": [
+    {
+      "word": "sunlight",
+      "ipa_us": "ˈsʌnlaɪt",
+      "ipa_uk": "ˈsʌnlaɪt",
+      "translation_ru": "солнечный свет"
+    },
+    {
+      "word": "rainbow",
+      "ipa_us": "ˈreɪnboʊ",
+      "ipa_uk": "ˈreɪnbəʊ",
+      "translation_ru": "радуга"
+    },
+    {
+      "word": "travels",
+      "ipa_us": "ˈtrævəlz",
+      "ipa_uk": "ˈtrævəlz",
+      "translation_ru": "путешествует"
+    },
+    {
+      "word": "waves",
+      "ipa_us": "weɪvz",
+      "ipa_uk": "weɪvz",
+      "translation_ru": "волны"
+    },
+    {
+      "word": "bounces",
+      "ipa_us": "ˈbaʊnsɪz",
+      "ipa_uk": "ˈbaʊnsɪz",
+      "translation_ru": "отскакивает"
+    },
+    {
+      "word": "sunset",
+      "ipa_us": "ˈsʌnset",
+      "ipa_uk": "ˈsʌnset",
+      "translation_ru": "закат"
+    },
+    {
+      "word": "planets",
+      "ipa_us": "ˈplænɪts",
+      "ipa_uk": "ˈplænɪts",
+      "translation_ru": "планеты"
+    },
+    {
+      "word": "depends",
+      "ipa_us": "dɪˈpendz",
+      "ipa_uk": "dɪˈpendz",
+      "translation_ru": "зависит"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "the",
+        "through",
+        "other",
+        "that",
+        "this"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "every",
+        "travels",
+        "very",
+        "evening"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "rainbow",
+        "travel",
+        "through",
+        "orange",
+        "around"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why does the sky look blue?",
+      "answer": "Blue light bounces around more in the air.",
+      "accepted_keywords": [
+        "blue",
+        "light",
+        "bounces",
+        "waves"
+      ]
+    },
+    {
+      "question": "What colour is a sunset?",
+      "answer": "Red and orange.",
+      "accepted_keywords": [
+        "red",
+        "orange"
+      ]
+    },
+    {
+      "question": "What does sunlight have inside it?",
+      "answer": "Many colours.",
+      "accepted_keywords": [
+        "colours",
+        "colors",
+        "rainbow"
+      ]
+    },
+    {
+      "question": "What colour is the daytime sky on Mars?",
+      "answer": "Pale brown.",
+      "accepted_keywords": [
+        "brown"
+      ]
+    }
+  ]
+}

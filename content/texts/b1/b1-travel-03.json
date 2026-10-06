@@ -1,0 +1,114 @@
+{
+  "id": "b1-travel-03",
+  "level": "B1",
+  "genre": "travel",
+  "title_en": "Venice Without Cars",
+  "title_ru": "Венеция без машин",
+  "description_ru": "Как передвигаться по Венеции, где нет автомобилей, и что стоит увидеть.",
+  "text": "Venice is a city that looks like nothing else. It is built on more than a hundred small islands, which are connected by about four hundred bridges. There are no cars, no buses and no motorbikes. If you want to travel, you must walk or use the water.\n\nThe best way to see the city is to take a vaporetto, which is a public water bus. Line number one goes along the Grand Canal, the main street of Venice, and passes dozens of old palaces. A ticket is expensive, but you can buy a pass for the whole day. If you prefer something romantic, you can take a gondola, though the price is high, so it is better to share it with friends.\n\nYou will certainly get lost in the narrow streets, but don't worry. Getting lost is part of the fun. Every corner has a surprise: a tiny square, a hidden church or a bakery with warm cakes. When you are tired, sit down in a small café and order a coffee. Avoid the restaurants near the main square, because they are often overpriced.\n\nVenice has a problem, however. The city is slowly sinking, and high water floods the streets several times a year. If you visit in autumn or winter, bring waterproof boots. Whatever the season, Venice will stay in your memory forever.",
+  "word_count": 225,
+  "vocabulary": [
+    {
+      "word": "islands",
+      "ipa_us": "ˈaɪləndz",
+      "ipa_uk": "ˈaɪləndz",
+      "translation_ru": "острова"
+    },
+    {
+      "word": "bridges",
+      "ipa_us": "ˈbrɪdʒɪz",
+      "ipa_uk": "ˈbrɪdʒɪz",
+      "translation_ru": "мосты"
+    },
+    {
+      "word": "vaporetto",
+      "ipa_us": "ˌvɑːpəˈretoʊ",
+      "ipa_uk": "ˌvɑːpəˈretəʊ",
+      "translation_ru": "вапоретто, водный автобус"
+    },
+    {
+      "word": "gondola",
+      "ipa_us": "ˈɡɑːndələ",
+      "ipa_uk": "ˈɡɒndələ",
+      "translation_ru": "гондола"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈnæroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "overpriced",
+      "ipa_us": "ˌoʊvɚˈpraɪst",
+      "ipa_uk": "ˌəʊvəˈpraɪst",
+      "translation_ru": "слишком дорогой"
+    },
+    {
+      "word": "waterproof",
+      "ipa_us": "ˈwɔːtɚpruːf",
+      "ipa_uk": "ˈwɔːtəpruːf",
+      "translation_ru": "водонепроницаемый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Venice",
+        "vaporetto",
+        "visit",
+        "travel"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walk",
+        "water",
+        "worry",
+        "waterproof"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "romantic",
+        "restaurants",
+        "prefer",
+        "bridges"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How many bridges does Venice have?",
+      "answer": "About four hundred.",
+      "accepted_keywords": [
+        "four",
+        "400",
+        "hundred"
+      ]
+    },
+    {
+      "question": "What is a vaporetto?",
+      "answer": "A public water bus.",
+      "accepted_keywords": [
+        "water",
+        "bus"
+      ]
+    },
+    {
+      "question": "What problem does Venice have?",
+      "answer": "It is slowly sinking and floods.",
+      "accepted_keywords": [
+        "sinking",
+        "floods",
+        "water"
+      ]
+    }
+  ]
+}

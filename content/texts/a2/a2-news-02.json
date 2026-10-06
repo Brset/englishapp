@@ -1,0 +1,125 @@
+{
+  "id": "a2-news-02",
+  "level": "A2",
+  "genre": "news",
+  "title_en": "Lost Dog Found After Three Days",
+  "title_ru": "Потерявшаяся собака нашлась через три дня",
+  "description_ru": "Вымышленная новость о собаке, которая вернулась домой с неожиданной помощью.",
+  "text": "A small brown dog called Biscuit came home yesterday after three days in the forest near Oakton.\n\nBiscuit ran away on Friday when his owner, Tom Wilson, opened the garden gate. Tom looked everywhere. He walked through the park, he called the dog's name, and he put signs on trees.\n\nOn Sunday evening, a girl named Lucy Green found the dog. She was riding her bike near the river when she heard a strange noise. Biscuit was sitting under a bridge, cold and wet but not hurt. Lucy gave him half of her sandwich and then took him to the police station.\n\nThe police called Tom, and he arrived in ten minutes. \"I was so worried,\" he said. \"I cried when I saw him.\"\n\nToday, Biscuit is eating a big dinner and sleeping on the sofa. Tom says he is never going to open that gate again.",
+  "word_count": 147,
+  "vocabulary": [
+    {
+      "word": "forest",
+      "ipa_us": "ˈfɔːrɪst",
+      "ipa_uk": "ˈfɒrɪst",
+      "translation_ru": "лес"
+    },
+    {
+      "word": "owner",
+      "ipa_us": "ˈoʊnər",
+      "ipa_uk": "ˈəʊnə",
+      "translation_ru": "владелец"
+    },
+    {
+      "word": "gate",
+      "ipa_us": "ɡeɪt",
+      "ipa_uk": "ɡeɪt",
+      "translation_ru": "калитка"
+    },
+    {
+      "word": "sign",
+      "ipa_us": "saɪn",
+      "ipa_uk": "saɪn",
+      "translation_ru": "объявление, знак"
+    },
+    {
+      "word": "bridge",
+      "ipa_us": "brɪdʒ",
+      "ipa_uk": "brɪdʒ",
+      "translation_ru": "мост"
+    },
+    {
+      "word": "hurt",
+      "ipa_us": "hɜːrt",
+      "ipa_uk": "hɜːt",
+      "translation_ru": "ранен"
+    },
+    {
+      "word": "worried",
+      "ipa_us": "ˈwɜːrid",
+      "ipa_uk": "ˈwʌrid",
+      "translation_ru": "обеспокоенный"
+    },
+    {
+      "word": "sofa",
+      "ipa_us": "ˈsoʊfə",
+      "ipa_uk": "ˈsəʊfə",
+      "translation_ru": "диван"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "through"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "Wilson",
+        "was"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "riding"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "dog",
+        "cried"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: в «bed», «dog» звучит d, g, а не т, к."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the dog's name?",
+      "answer": "Biscuit.",
+      "accepted_keywords": [
+        "biscuit"
+      ]
+    },
+    {
+      "question": "Who found the dog?",
+      "answer": "A girl named Lucy.",
+      "accepted_keywords": [
+        "lucy",
+        "girl"
+      ]
+    },
+    {
+      "question": "Where was the dog?",
+      "answer": "Under a bridge.",
+      "accepted_keywords": [
+        "bridge"
+      ]
+    },
+    {
+      "question": "What did Lucy give the dog?",
+      "answer": "Half of her sandwich.",
+      "accepted_keywords": [
+        "sandwich"
+      ]
+    }
+  ]
+}

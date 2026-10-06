@@ -1,0 +1,123 @@
+{
+  "id": "a1-story-02",
+  "level": "A1",
+  "genre": "story",
+  "title_en": "The Singing Fisherman",
+  "title_ru": "Поющий рыбак",
+  "description_ru": "Рыбак Виктор очень громко поёт на озере, и это приводит к неожиданному повороту.",
+  "text": "Every morning, Victor takes his small boat to the lake. He is a fisherman, and he sings very loudly. The fish hear his songs and swim away! Victor does not catch many fish. His wife is not angry. She says, \"Your voice is terrible, but I love it.\"\n\nOne day, a famous teacher walks by the lake. She hears Victor and stops. \"You have a strong voice,\" she says. \"Come and sing in my school.\" Now Victor sings in a big hall, and the fish are very happy.",
+  "vocabulary": [
+    {
+      "word": "fisherman",
+      "ipa_us": "ˈfɪʃɚmən",
+      "ipa_uk": "ˈfɪʃəmən",
+      "translation_ru": "рыбак"
+    },
+    {
+      "word": "lake",
+      "ipa_us": "leɪk",
+      "ipa_uk": "leɪk",
+      "translation_ru": "озеро"
+    },
+    {
+      "word": "boat",
+      "ipa_us": "boʊt",
+      "ipa_uk": "bəʊt",
+      "translation_ru": "лодка"
+    },
+    {
+      "word": "loudly",
+      "ipa_us": "ˈlaʊdli",
+      "ipa_uk": "ˈlaʊdli",
+      "translation_ru": "громко"
+    },
+    {
+      "word": "voice",
+      "ipa_us": "vɔɪs",
+      "ipa_uk": "vɔɪs",
+      "translation_ru": "голос"
+    },
+    {
+      "word": "terrible",
+      "ipa_us": "ˈterəbəl",
+      "ipa_uk": "ˈterəbəl",
+      "translation_ru": "ужасный"
+    },
+    {
+      "word": "teacher",
+      "ipa_us": "ˈtiːtʃɚ",
+      "ipa_uk": "ˈtiːtʃə",
+      "translation_ru": "учитель"
+    },
+    {
+      "word": "famous",
+      "ipa_us": "ˈfeɪməs",
+      "ipa_uk": "ˈfeɪməs",
+      "translation_ru": "известный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "sings",
+        "strong"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос. В конце не добавляйте «г» или «к»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Victor",
+        "voice",
+        "very"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "fish",
+        "swim",
+        "big"
+      ],
+      "tip_ru": "Короткий расслабленный звук между «и» и «ы». Не растягивайте и не смягчайте согласный перед ним."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Victor do every morning?",
+      "answer": "He takes his boat to the lake.",
+      "accepted_keywords": [
+        "boat",
+        "lake",
+        "fish"
+      ]
+    },
+    {
+      "question": "What happens to the fish?",
+      "answer": "They swim away.",
+      "accepted_keywords": [
+        "swim",
+        "away"
+      ]
+    },
+    {
+      "question": "What does Victor's wife say about his voice?",
+      "answer": "It is terrible, but she loves it.",
+      "accepted_keywords": [
+        "terrible",
+        "love"
+      ]
+    },
+    {
+      "question": "Who hears Victor by the lake?",
+      "answer": "A famous teacher.",
+      "accepted_keywords": [
+        "teacher"
+      ]
+    }
+  ],
+  "word_count": 88
+}

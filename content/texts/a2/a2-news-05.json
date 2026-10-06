@@ -1,0 +1,129 @@
+{
+  "id": "a2-news-05",
+  "level": "A2",
+  "genre": "news",
+  "title_en": "Snow Stops Trains in Northvale",
+  "title_ru": "Снег остановил поезда в Нортвейле",
+  "description_ru": "Вымышленная новость о сильном снегопаде и работе города в непогоду.",
+  "text": "Heavy snow fell in Northvale last night, and the town woke up to a white world on Thursday morning. By seven o'clock, there was almost thirty centimetres of snow on the roads.\n\nAll trains stopped, and about half of the buses did not run. Many people stayed at home. The two schools in the town were closed, and the children were very happy.\n\nWorkers started to clear the main streets at four in the morning. \"We are working as fast as we can,\" said Mary Doyle, who leads the road team. \"But it is going to snow again this afternoon.\"\n\nThe weather office says that Friday is going to be warmer. The temperature is going to rise to three degrees, and the snow is going to start to melt.\n\nPolice ask drivers to be careful. If you do not need to travel today, please stay inside, keep warm and drink something hot.",
+  "word_count": 152,
+  "vocabulary": [
+    {
+      "word": "heavy",
+      "ipa_us": "ˈhevi",
+      "ipa_uk": "ˈhevi",
+      "translation_ru": "сильный, тяжёлый"
+    },
+    {
+      "word": "almost",
+      "ipa_us": "ˈɔːlmoʊst",
+      "ipa_uk": "ˈɔːlməʊst",
+      "translation_ru": "почти"
+    },
+    {
+      "word": "centimetre",
+      "ipa_us": "ˈsentɪmiːtər",
+      "ipa_uk": "ˈsentɪmiːtə",
+      "translation_ru": "сантиметр"
+    },
+    {
+      "word": "closed",
+      "ipa_us": "kloʊzd",
+      "ipa_uk": "kləʊzd",
+      "translation_ru": "закрыты"
+    },
+    {
+      "word": "clear",
+      "ipa_us": "klɪr",
+      "ipa_uk": "klɪə",
+      "translation_ru": "расчищать"
+    },
+    {
+      "word": "temperature",
+      "ipa_us": "ˈtemprətʃər",
+      "ipa_uk": "ˈtemprətʃə",
+      "translation_ru": "температура"
+    },
+    {
+      "word": "melt",
+      "ipa_us": "melt",
+      "ipa_uk": "melt",
+      "translation_ru": "таять"
+    },
+    {
+      "word": "careful",
+      "ipa_us": "ˈkerfl",
+      "ipa_uk": "ˈkeəfl",
+      "translation_ru": "осторожный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "woke",
+        "world"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "Thursday",
+        "thirty"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "trains",
+        "roads"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "schools",
+        "melt"
+      ],
+      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What fell in Northvale?",
+      "answer": "Snow.",
+      "accepted_keywords": [
+        "snow"
+      ]
+    },
+    {
+      "question": "What stopped?",
+      "answer": "The trains.",
+      "accepted_keywords": [
+        "train",
+        "trains"
+      ]
+    },
+    {
+      "question": "Who is Mary Doyle?",
+      "answer": "The leader of the road team.",
+      "accepted_keywords": [
+        "road",
+        "team",
+        "leads",
+        "leader"
+      ]
+    },
+    {
+      "question": "What will the weather be like on Friday?",
+      "answer": "Warmer.",
+      "accepted_keywords": [
+        "warmer",
+        "warm"
+      ]
+    }
+  ]
+}

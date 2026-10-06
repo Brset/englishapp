@@ -1,0 +1,134 @@
+{
+  "id": "b1-news-01",
+  "level": "B1",
+  "genre": "news",
+  "title_en": "Bridge Reopens After Two Years",
+  "title_ru": "Мост снова открыт спустя два года",
+  "description_ru": "Вымышленная новость о ремонте моста в небольшом городе и радости жителей.",
+  "text": "The old Harborview Bridge in the town of Marlow reopened yesterday after two years of repairs. Hundreds of residents gathered at the entrance to watch Mayor Helen Brightwater cut a long red ribbon.\n\nThe bridge, which was built in 1931, was closed in 2024 when engineers discovered serious cracks in its steel frame. Since then, drivers have been forced to take a twelve-kilometre detour through the hills, and many local businesses have complained about the loss of customers.\n\n\"This has been a difficult time for all of us,\" the mayor told the crowd. \"But today we have a safer, stronger bridge, and I promise it will last for another hundred years.\"\n\nThe repair project cost eleven million pounds. About half of the money came from the national government, while the rest was paid by the town council. Workers have replaced almost every metal part and have added a wide path for cyclists and walkers.\n\nBaker Tom Wilkins, whose shop stands near the bridge, said he was delighted. \"Last winter, I sold only half as many loaves as usual,\" he said. \"If the bridge had stayed closed for another year, I would have had to shut my doors.\"\n\nSchoolchildren were among the first to cross. They walked over the bridge singing a song that they had written for the occasion.\n\nEngineers say they will inspect the structure every six months. A small festival with music and food will be held on the bridge this weekend, and everybody in Marlow is invited.",
+  "word_count": 249,
+  "vocabulary": [
+    {
+      "word": "reopened",
+      "ipa_us": "riˈoʊpənd",
+      "ipa_uk": "riːˈəʊpənd",
+      "translation_ru": "вновь открылся"
+    },
+    {
+      "word": "residents",
+      "ipa_us": "ˈrɛzɪdənts",
+      "ipa_uk": "ˈrezɪdənts",
+      "translation_ru": "жители"
+    },
+    {
+      "word": "ribbon",
+      "ipa_us": "ˈrɪbən",
+      "ipa_uk": "ˈrɪbən",
+      "translation_ru": "лента"
+    },
+    {
+      "word": "engineers",
+      "ipa_us": "ˌɛndʒəˈnɪrz",
+      "ipa_uk": "ˌendʒɪˈnɪəz",
+      "translation_ru": "инженеры"
+    },
+    {
+      "word": "cracks",
+      "ipa_us": "kræks",
+      "ipa_uk": "kræks",
+      "translation_ru": "трещины"
+    },
+    {
+      "word": "detour",
+      "ipa_us": "ˈdiːtʊr",
+      "ipa_uk": "ˈdiːtʊə",
+      "translation_ru": "объезд"
+    },
+    {
+      "word": "complained",
+      "ipa_us": "kəmˈpleɪnd",
+      "ipa_uk": "kəmˈpleɪnd",
+      "translation_ru": "жаловались"
+    },
+    {
+      "word": "cyclists",
+      "ipa_us": "ˈsaɪklɪsts",
+      "ipa_uk": "ˈsaɪklɪsts",
+      "translation_ru": "велосипедисты"
+    },
+    {
+      "word": "inspect",
+      "ipa_us": "ɪnˈspɛkt",
+      "ipa_uk": "ɪnˈspekt",
+      "translation_ru": "осматривать"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "watch",
+        "walked",
+        "wide",
+        "winter"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "repairs",
+        "red",
+        "reopened",
+        "residents"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "Harborview",
+        "twelve",
+        "discovered",
+        "eleven"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long was the bridge closed?",
+      "answer": "Two years.",
+      "accepted_keywords": [
+        "two",
+        "2"
+      ]
+    },
+    {
+      "question": "Why was it closed?",
+      "answer": "Engineers found cracks in the steel frame.",
+      "accepted_keywords": [
+        "cracks",
+        "steel",
+        "frame"
+      ]
+    },
+    {
+      "question": "How much did the repairs cost?",
+      "answer": "Eleven million pounds.",
+      "accepted_keywords": [
+        "eleven",
+        "11"
+      ]
+    },
+    {
+      "question": "What will happen this weekend?",
+      "answer": "A festival on the bridge.",
+      "accepted_keywords": [
+        "festival",
+        "music",
+        "food"
+      ]
+    }
+  ]
+}

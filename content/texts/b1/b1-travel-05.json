@@ -1,0 +1,108 @@
+{
+  "id": "b1-travel-05",
+  "level": "B1",
+  "genre": "travel",
+  "title_en": "The Glacier Express",
+  "title_ru": "Ледниковый экспресс",
+  "description_ru": "Поездка на панорамном поезде через швейцарские Альпы.",
+  "text": "Some journeys are famous because they are fast. The Glacier Express in Switzerland is famous because it is slow. It takes about eight hours to travel less than three hundred kilometres, and that is exactly the point.\n\nThe train connects two mountain resorts, Zermatt and St. Moritz. During the trip, it crosses almost three hundred bridges and passes through ninety tunnels. The highest point of the route is the Oberalp Pass, which is more than two thousand metres above sea level. The carriages have huge windows that curve into the roof, so passengers can admire the peaks above them.\n\nI made this journey last September. I sat next to the window, and I did not look at my phone once. We passed deep valleys, wooden villages and waterfalls that seemed to fall from the sky. In the dining car, a waiter served hot soup and fresh bread while the mountains slid slowly past.\n\nA few practical tips: you must book your seat in advance, because the train is very popular. If you travel in summer, you will see green meadows, but winter offers snowy landscapes. Sit on the right side if you want the best views, and bring a warm jacket, because the windows can be cold.\n\nIf you ever have a free day in Switzerland, I strongly recommend this trip. It has taught me that the road is sometimes more beautiful than the destination.",
+  "word_count": 231,
+  "vocabulary": [
+    {
+      "word": "glacier",
+      "ipa_us": "ˈɡleɪʃɚ",
+      "ipa_uk": "ˈɡlæsiə",
+      "translation_ru": "ледник"
+    },
+    {
+      "word": "resorts",
+      "ipa_us": "rɪˈzɔːrts",
+      "ipa_uk": "rɪˈzɔːts",
+      "translation_ru": "курорты"
+    },
+    {
+      "word": "tunnels",
+      "ipa_us": "ˈtʌnəlz",
+      "ipa_uk": "ˈtʌnəlz",
+      "translation_ru": "туннели"
+    },
+    {
+      "word": "carriages",
+      "ipa_us": "ˈkærɪdʒɪz",
+      "ipa_uk": "ˈkærɪdʒɪz",
+      "translation_ru": "вагоны"
+    },
+    {
+      "word": "admire",
+      "ipa_us": "ədˈmaɪɚ",
+      "ipa_uk": "ədˈmaɪə",
+      "translation_ru": "любоваться"
+    },
+    {
+      "word": "valleys",
+      "ipa_us": "ˈvæliz",
+      "ipa_uk": "ˈvæliz",
+      "translation_ru": "долины"
+    },
+    {
+      "word": "destination",
+      "ipa_us": "ˌdestɪˈneɪʃən",
+      "ipa_uk": "ˌdestɪˈneɪʃən",
+      "translation_ru": "пункт назначения"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "valleys",
+        "villages",
+        "travel"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "window",
+        "waterfalls",
+        "waiter",
+        "wooden"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "passengers",
+        "valleys",
+        "carriages"
+      ],
+      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди: звук между «э» и «а»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long does the journey take?",
+      "answer": "About eight hours.",
+      "accepted_keywords": [
+        "eight",
+        "8"
+      ]
+    },
+    {
+      "question": "Which pass is the highest point?",
+      "answer": "The Oberalp Pass.",
+      "accepted_keywords": [
+        "oberalp"
+      ]
+    },
+    {
+      "question": "Why should passengers book in advance?",
+      "answer": "The train is very popular.",
+      "accepted_keywords": [
+        "popular"
+      ]
+    }
+  ]
+}

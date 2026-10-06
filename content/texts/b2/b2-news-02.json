@@ -1,0 +1,133 @@
+{
+  "id": "b2-news-02",
+  "level": "B2",
+  "genre": "news",
+  "title_en": "Driverless Bus Begins Trial in Lindford",
+  "title_ru": "В Линдфорде начались испытания беспилотного автобуса",
+  "description_ru": "Вымышленная новость о первом беспилотном автобусе в маленьком городе и реакции пассажиров.",
+  "text": "A driverless bus began carrying passengers in the fictional city of Lindford on Monday, becoming the first vehicle of its kind to run on public roads in the region. The six-month trial, which was announced by the city council last spring, will be closely watched by transport planners across the country.\n\nThe electric minibus, nicknamed \"Bertie\" by local schoolchildren, follows a three-kilometre route between the railway station and the university campus. It can carry twelve passengers and reaches a top speed of thirty kilometres an hour. Although no driver is needed, a safety assistant is required by law to sit at the front and take control if anything goes wrong.\n\nOn its first morning, more than three hundred people queued to ride. Retired teacher Dorothy Fenwick, who was the first passenger, said the journey was \"smoother than my nephew's driving\". Others were less impressed. One student complained that the bus stopped suddenly when a pigeon landed in the road, and several passengers admitted that they felt nervous at first.\n\nThe project's manager, Dr Samir Haddad, explained that the vehicle is guided by cameras and sensors that scan the street in every direction. \"It does not get tired, it does not text, and it never loses its temper,\" he said. \"But it is cautious, so sometimes it will stop when a human would simply carry on.\" He added that the data collected over the next six months would be used to improve the software.\n\nNot everyone is convinced. A taxi drivers' association has argued that the trial is a threat to jobs, and has asked the council to publish its plans for the future. A spokesperson for the council replied that no drivers would be replaced during the trial and that new roles, such as remote operators, were expected to be created.\n\nThe bus will run every fifteen minutes from seven in the morning until eight in the evening, and tickets are free until the end of the month. If the trial is judged a success, two more routes could be introduced next year.",
+  "vocabulary": [
+    {
+      "word": "driverless",
+      "ipa_us": "ˈdraɪvərləs",
+      "ipa_uk": "ˈdraɪvələs",
+      "translation_ru": "беспилотный"
+    },
+    {
+      "word": "vehicle",
+      "ipa_us": "ˈviɪkəl",
+      "ipa_uk": "ˈviːəkəl",
+      "translation_ru": "транспортное средство"
+    },
+    {
+      "word": "campus",
+      "ipa_us": "ˈkæmpəs",
+      "ipa_uk": "ˈkæmpəs",
+      "translation_ru": "кампус"
+    },
+    {
+      "word": "assistant",
+      "ipa_us": "əˈsɪstənt",
+      "ipa_uk": "əˈsɪstənt",
+      "translation_ru": "помощник"
+    },
+    {
+      "word": "nervous",
+      "ipa_us": "ˈnɜrvəs",
+      "ipa_uk": "ˈnɜːvəs",
+      "translation_ru": "нервничающий"
+    },
+    {
+      "word": "sensors",
+      "ipa_us": "ˈsɛnsərz",
+      "ipa_uk": "ˈsensəz",
+      "translation_ru": "датчики"
+    },
+    {
+      "word": "cautious",
+      "ipa_us": "ˈkɔʃəs",
+      "ipa_uk": "ˈkɔːʃəs",
+      "translation_ru": "осторожный"
+    },
+    {
+      "word": "threat",
+      "ipa_us": "θrɛt",
+      "ipa_uk": "θret",
+      "translation_ru": "угроза"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "driverless",
+        "vehicle",
+        "nervous",
+        "every"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thirty",
+        "threat",
+        "month"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "route",
+        "railway",
+        "retired",
+        "replaced"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "when",
+        "was",
+        "would"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the nickname of the bus?",
+      "answer": "Bertie.",
+      "accepted_keywords": [
+        "bertie"
+      ]
+    },
+    {
+      "question": "How many passengers can it carry?",
+      "answer": "Twelve.",
+      "accepted_keywords": [
+        "twelve",
+        "12"
+      ]
+    },
+    {
+      "question": "Why did the bus stop suddenly for one student?",
+      "answer": "A pigeon landed in the road.",
+      "accepted_keywords": [
+        "pigeon"
+      ]
+    },
+    {
+      "question": "How long will the trial last?",
+      "answer": "Six months.",
+      "accepted_keywords": [
+        "six",
+        "6"
+      ]
+    }
+  ],
+  "word_count": 345
+}

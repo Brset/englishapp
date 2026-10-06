@@ -1,0 +1,120 @@
+{
+  "id": "a1-humor-03",
+  "level": "A1",
+  "genre": "humor",
+  "title_en": "The Tired Teacher",
+  "title_ru": "Усталый учитель",
+  "description_ru": "Урок в школе, на котором ученики дают смешные ответы.",
+  "text": "Mr Ray is a teacher. He loves his job, but today he is very tired.\n\n\"Class, who can tell me a word with the letter A?\" he asks.\n\nTim puts up his hand. \"Banana!\" he says.\n\n\"Good. But where is the A in banana?\"\n\n\"At the end, sir!\" says Tim, and he smiles.\n\nMr Ray closes his eyes. Then he asks another question. \"How many days are there in a week?\"\n\nSara says, \"Seven.\"\n\n\"Right. And name them.\"\n\nSara thinks for a long time. \"Mr Ray, it is too difficult. I only know that the last one is the weekend!\"",
+  "word_count": 100,
+  "vocabulary": [
+    {
+      "word": "teacher",
+      "ipa_us": "ˈtitʃər",
+      "ipa_uk": "ˈtiːtʃə",
+      "translation_ru": "учитель"
+    },
+    {
+      "word": "tired",
+      "ipa_us": "ˈtaɪərd",
+      "ipa_uk": "ˈtaɪəd",
+      "translation_ru": "уставший"
+    },
+    {
+      "word": "letter",
+      "ipa_us": "ˈlɛtər",
+      "ipa_uk": "ˈletə",
+      "translation_ru": "буква"
+    },
+    {
+      "word": "hand",
+      "ipa_us": "hænd",
+      "ipa_uk": "hænd",
+      "translation_ru": "рука"
+    },
+    {
+      "word": "banana",
+      "ipa_us": "bəˈnænə",
+      "ipa_uk": "bəˈnɑːnə",
+      "translation_ru": "банан"
+    },
+    {
+      "word": "question",
+      "ipa_us": "ˈkwɛstʃən",
+      "ipa_uk": "ˈkwestʃən",
+      "translation_ru": "вопрос"
+    },
+    {
+      "word": "difficult",
+      "ipa_us": "ˈdɪfɪkəlt",
+      "ipa_uk": "ˈdɪfɪkəlt",
+      "translation_ru": "трудный"
+    },
+    {
+      "word": "weekend",
+      "ipa_us": "ˈwikˌɛnd",
+      "ipa_uk": "ˌwiːkˈend",
+      "translation_ru": "выходные"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "week",
+        "where",
+        "weekend"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "them",
+        "the",
+        "there"
+      ],
+      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "teacher",
+        "week",
+        "weekend"
+      ],
+      "tip_ru": "Долгий «и» с растянутыми губами; в коротком ɪ язык ниже и расслабленнее, чем в русском «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is Mr Ray's job?",
+      "answer": "He is a teacher.",
+      "accepted_keywords": [
+        "teacher"
+      ]
+    },
+    {
+      "question": "What word does Tim say?",
+      "answer": "Banana.",
+      "accepted_keywords": [
+        "banana"
+      ]
+    },
+    {
+      "question": "How many days are in a week?",
+      "answer": "Seven.",
+      "accepted_keywords": [
+        "seven",
+        "7"
+      ]
+    },
+    {
+      "question": "What does Sara know about the last day?",
+      "answer": "It is the weekend.",
+      "accepted_keywords": [
+        "weekend"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "b1-story-05",
+  "level": "B1",
+  "genre": "story",
+  "title_en": "The Violin in the Attic",
+  "title_ru": "Скрипка на чердаке",
+  "description_ru": "Девочка находит на чердаке старую скрипку и узнаёт историю своей прабабушки.",
+  "text": "Last winter, ten-year-old Lena climbed into her grandmother's attic to look for a sledge. Behind a pile of old curtains, she found a dusty wooden box. Inside was a small violin with a faded note: \"For Lena, when she is ready.\"\n\nLena was confused. Nobody had ever told her that anyone in the family could play. She carried the box downstairs and asked her grandmother about it. The old woman sat very still for a moment. \"That was my mother's violin,\" she said at last. \"She was named Lena, too. She played in a theatre before the war, but when she moved to the country, she put the violin away and never played it again.\"\n\n\"Why not?\" asked Lena. \"I think she was afraid that nobody would listen,\" her grandmother answered. \"If she had been braver, she might have become famous.\"\n\nThat evening, Lena tried to play. The sound was terrible, like a cat in a bag. But she did not give up. She has practised every day since then, and her teacher says that she is making good progress.\n\nLast week, Lena played her first song for the whole family. When she had finished, her grandmother was crying. \"If my mother could hear you now,\" she whispered, \"she would be so proud.\" Lena smiled and played the song once more, just for her.",
+  "word_count": 226,
+  "vocabulary": [
+    {
+      "word": "attic",
+      "ipa_us": "ˈætɪk",
+      "ipa_uk": "ˈætɪk",
+      "translation_ru": "чердак"
+    },
+    {
+      "word": "sledge",
+      "ipa_us": "sledʒ",
+      "ipa_uk": "sledʒ",
+      "translation_ru": "санки"
+    },
+    {
+      "word": "faded",
+      "ipa_us": "ˈfeɪdɪd",
+      "ipa_uk": "ˈfeɪdɪd",
+      "translation_ru": "выцветший"
+    },
+    {
+      "word": "confused",
+      "ipa_us": "kənˈfjuːzd",
+      "ipa_uk": "kənˈfjuːzd",
+      "translation_ru": "озадаченный"
+    },
+    {
+      "word": "theatre",
+      "ipa_us": "ˈθiːətɚ",
+      "ipa_uk": "ˈθɪətə",
+      "translation_ru": "театр"
+    },
+    {
+      "word": "afraid",
+      "ipa_us": "əˈfreɪd",
+      "ipa_uk": "əˈfreɪd",
+      "translation_ru": "испуганный, боящийся"
+    },
+    {
+      "word": "practised",
+      "ipa_us": "ˈpræktɪst",
+      "ipa_uk": "ˈpræktɪst",
+      "translation_ru": "тренировалась"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "theatre",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "attic",
+        "grandmother",
+        "family"
+      ],
+      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди: звук между «э» и «а»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "old",
+        "played",
+        "confused",
+        "afraid"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: say «bad», а не «бат»; сохраняйте вибрацию голоса, но не добавляйте гласную."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where did Lena find the violin?",
+      "answer": "In her grandmother's attic.",
+      "accepted_keywords": [
+        "attic"
+      ]
+    },
+    {
+      "question": "Who did the violin belong to?",
+      "answer": "Lena's great-grandmother, also called Lena.",
+      "accepted_keywords": [
+        "mother",
+        "grandmother",
+        "great-grandmother"
+      ]
+    },
+    {
+      "question": "Why did the old Lena stop playing?",
+      "answer": "She was afraid nobody would listen.",
+      "accepted_keywords": [
+        "afraid",
+        "listen"
+      ]
+    }
+  ]
+}

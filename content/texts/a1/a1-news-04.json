@@ -1,0 +1,132 @@
+{
+  "id": "a1-news-04",
+  "level": "A1",
+  "genre": "news",
+  "title_en": "Free Bike Day in Lakeside",
+  "title_ru": "День бесплатных велосипедов",
+  "description_ru": "Городок предлагает велосипеды всем бесплатно на один день.",
+  "text": "Good news for Lakeside! This Saturday is Free Bike Day. The town gives bikes to everyone, and you pay nothing.\n\nThere are two hundred bikes in the main square. They are red, blue and yellow. You take a bike, put on a helmet and ride around the lake. The path is flat and six kilometres long.\n\n\"We want people to leave their cars at home,\" says Mayor Jane Hill. \"The air is cleaner, and bike rides are fun.\"\n\nThere is also a small party at the lake. There is music, hot dogs and juice for children. The weather is sunny, so bring your friends and family!",
+  "word_count": 106,
+  "vocabulary": [
+    {
+      "word": "bikes",
+      "ipa_us": "baɪks",
+      "ipa_uk": "baɪks",
+      "translation_ru": "велосипеды"
+    },
+    {
+      "word": "square",
+      "ipa_us": "skwɛr",
+      "ipa_uk": "skweə",
+      "translation_ru": "площадь"
+    },
+    {
+      "word": "helmet",
+      "ipa_us": "ˈhɛlmɪt",
+      "ipa_uk": "ˈhelmɪt",
+      "translation_ru": "шлем"
+    },
+    {
+      "word": "ride",
+      "ipa_us": "raɪd",
+      "ipa_uk": "raɪd",
+      "translation_ru": "ехать"
+    },
+    {
+      "word": "lake",
+      "ipa_us": "leɪk",
+      "ipa_uk": "leɪk",
+      "translation_ru": "озеро"
+    },
+    {
+      "word": "path",
+      "ipa_us": "pæθ",
+      "ipa_uk": "pɑːθ",
+      "translation_ru": "дорожка"
+    },
+    {
+      "word": "mayor",
+      "ipa_us": "ˈmeɪər",
+      "ipa_uk": "meə",
+      "translation_ru": "мэр"
+    },
+    {
+      "word": "juice",
+      "ipa_us": "dʒus",
+      "ipa_uk": "dʒuːs",
+      "translation_ru": "сок"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "path",
+        "nothing"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "ride",
+        "around"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "Saturday",
+        "path",
+        "flat"
+      ],
+      "tip_ru": "Откройте рот шире, чем для «э»: звук между «э» и «а», как в слове cat."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "lake",
+        "helmet",
+        "Hill"
+      ],
+      "tip_ru": "В конце слога язык прижат к бугоркам за верхними зубами, звук глубокий и твёрдый."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What day is Free Bike Day?",
+      "answer": "Saturday.",
+      "accepted_keywords": [
+        "saturday"
+      ]
+    },
+    {
+      "question": "How many bikes are in the square?",
+      "answer": "Two hundred.",
+      "accepted_keywords": [
+        "two",
+        "200",
+        "hundred"
+      ]
+    },
+    {
+      "question": "How long is the path?",
+      "answer": "Six kilometres.",
+      "accepted_keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "question": "Who says people should leave their cars at home?",
+      "answer": "Mayor Jane Hill.",
+      "accepted_keywords": [
+        "jane",
+        "hill",
+        "mayor"
+      ]
+    }
+  ]
+}

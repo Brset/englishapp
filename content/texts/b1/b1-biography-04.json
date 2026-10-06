@@ -1,0 +1,131 @@
+{
+  "id": "b1-biography-04",
+  "level": "B1",
+  "genre": "biography",
+  "title_en": "Frida Kahlo: Painting Through Pain",
+  "title_ru": "Фрида Кало: живопись сквозь боль",
+  "description_ru": "Как мексиканская художница превратила болезнь и травму в яркое и узнаваемое искусство.",
+  "text": "Frida Kahlo was born in 1907 in Mexico City, in a house that was later called the Blue House. When she was six, she caught polio, and one of her legs stayed thinner than the other. Other children laughed at her, but Frida grew up strong and curious. She wanted to become a doctor.\n\nEverything changed in 1925. At the age of eighteen, Frida was travelling on a bus when it crashed into a tram. She broke her back, her leg and several other bones, and she spent months in bed. To help her pass the time, her parents made a special easel and put a mirror above her bed. Frida started to paint herself. If she had not had the accident, she might never have become an artist.\n\nOver the years, she painted many self-portraits, because, as she explained, she was often alone, and she knew herself best. Her pictures are full of bright colours, animals, flowers and symbols from Mexican culture. In 1929 she married the famous painter Diego Rivera. Their relationship was stormy, but they supported each other's work.\n\nFrida suffered pain all her life and had many operations. Still, she kept painting until the end. She died in 1954 at the age of forty-seven. Today her paintings are loved all over the world, and the Blue House is a museum.",
+  "word_count": 222,
+  "vocabulary": [
+    {
+      "word": "polio",
+      "ipa_us": "ˈpoʊlioʊ",
+      "ipa_uk": "ˈpəʊliəʊ",
+      "translation_ru": "полиомиелит"
+    },
+    {
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любопытный"
+    },
+    {
+      "word": "crashed",
+      "ipa_us": "kræʃt",
+      "ipa_uk": "kræʃt",
+      "translation_ru": "врезался"
+    },
+    {
+      "word": "easel",
+      "ipa_us": "ˈiːzəl",
+      "ipa_uk": "ˈiːzəl",
+      "translation_ru": "мольберт"
+    },
+    {
+      "word": "mirror",
+      "ipa_us": "ˈmɪrər",
+      "ipa_uk": "ˈmɪrə",
+      "translation_ru": "зеркало"
+    },
+    {
+      "word": "self-portraits",
+      "ipa_us": "ˈsɛlf ˈpɔrtrəts",
+      "ipa_uk": "ˈself ˈpɔːtrɪts",
+      "translation_ru": "автопортреты"
+    },
+    {
+      "word": "symbols",
+      "ipa_us": "ˈsɪmbəlz",
+      "ipa_uk": "ˈsɪmbəlz",
+      "translation_ru": "символы"
+    },
+    {
+      "word": "stormy",
+      "ipa_us": "ˈstɔrmi",
+      "ipa_uk": "ˈstɔːmi",
+      "translation_ru": "бурный"
+    },
+    {
+      "word": "suffered",
+      "ipa_us": "ˈsʌfərd",
+      "ipa_uk": "ˈsʌfəd",
+      "translation_ru": "страдала"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thinner",
+        "months"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "broke",
+        "mirror",
+        "bright",
+        "Rivera"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "crashed",
+        "accident",
+        "back",
+        "animals"
+      ],
+      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What illness did Frida have as a child?",
+      "answer": "Polio.",
+      "accepted_keywords": [
+        "polio"
+      ]
+    },
+    {
+      "question": "What happened to her in 1925?",
+      "answer": "A bus crashed into a tram.",
+      "accepted_keywords": [
+        "bus",
+        "tram",
+        "accident",
+        "crashed"
+      ]
+    },
+    {
+      "question": "Why did she paint herself?",
+      "answer": "She was often alone and knew herself best.",
+      "accepted_keywords": [
+        "alone",
+        "herself",
+        "knew"
+      ]
+    },
+    {
+      "question": "What is the Blue House today?",
+      "answer": "A museum.",
+      "accepted_keywords": [
+        "museum"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "a1-news-05",
+  "level": "A1",
+  "genre": "news",
+  "title_en": "Snow in September",
+  "title_ru": "Снег в сентябре",
+  "description_ru": "Необычная погодная новость в вымышленной горной деревне.",
+  "text": "It is only September, but there is snow in the village of Pine Hill! This morning people wake up and see a white world.\n\n\"It is very strange,\" says Mr Evans, who sells bread in the village shop. \"Yesterday I wore a T-shirt. Today I need a big coat!\"\n\nThe children are very happy. They do not go to school today because the road is closed. They build snowmen, throw snowballs and slide down the hill on plastic bags.\n\nBy the afternoon, the sun comes out and the snow starts to melt. Meteorologists say that it is a rare event. Tomorrow the weather is warm again.",
+  "word_count": 107,
+  "vocabulary": [
+    {
+      "word": "snow",
+      "ipa_us": "snoʊ",
+      "ipa_uk": "snəʊ",
+      "translation_ru": "снег"
+    },
+    {
+      "word": "strange",
+      "ipa_us": "streɪndʒ",
+      "ipa_uk": "streɪndʒ",
+      "translation_ru": "странный"
+    },
+    {
+      "word": "bread",
+      "ipa_us": "brɛd",
+      "ipa_uk": "bred",
+      "translation_ru": "хлеб"
+    },
+    {
+      "word": "closed",
+      "ipa_us": "kloʊzd",
+      "ipa_uk": "kləʊzd",
+      "translation_ru": "закрыта"
+    },
+    {
+      "word": "build",
+      "ipa_us": "bɪld",
+      "ipa_uk": "bɪld",
+      "translation_ru": "строить"
+    },
+    {
+      "word": "slide",
+      "ipa_us": "slaɪd",
+      "ipa_uk": "slaɪd",
+      "translation_ru": "скатываться"
+    },
+    {
+      "word": "melt",
+      "ipa_us": "mɛlt",
+      "ipa_uk": "melt",
+      "translation_ru": "таять"
+    },
+    {
+      "word": "rare",
+      "ipa_us": "rɛr",
+      "ipa_uk": "reə",
+      "translation_ru": "редкий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "wake",
+        "world",
+        "white"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "snow",
+        "snowmen",
+        "road"
+      ],
+      "tip_ru": "Скользите от «ə» к «у», губы округляются в конце; не говорите чистое «о»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "strange",
+        "road",
+        "rare"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "closed",
+        "bread",
+        "road"
+      ],
+      "tip_ru": "В конце слова не оглушайте согласный: bad звучит с «д», а не «т»; тяните гласный перед ним."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What month is it?",
+      "answer": "September.",
+      "accepted_keywords": [
+        "september"
+      ]
+    },
+    {
+      "question": "Where is the snow?",
+      "answer": "In the village of Pine Hill.",
+      "accepted_keywords": [
+        "pine",
+        "hill",
+        "village"
+      ]
+    },
+    {
+      "question": "Why do the children not go to school?",
+      "answer": "The road is closed.",
+      "accepted_keywords": [
+        "road",
+        "closed"
+      ]
+    },
+    {
+      "question": "What do the children build?",
+      "answer": "Snowmen.",
+      "accepted_keywords": [
+        "snowmen",
+        "snowman"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "b1-humor-03",
+  "level": "B1",
+  "genre": "humor",
+  "title_en": "The Absent-Minded Professor",
+  "title_ru": "Рассеянный профессор",
+  "description_ru": "Юмористический рассказ о профессоре, который теряет всё подряд, но помнит самые сложные формулы.",
+  "text": "Professor Whitmore was the most brilliant scientist at the university, and also the most forgetful man in the whole country. He could explain the secrets of the universe in three sentences, but he could not remember where he had parked his bicycle.\n\nOne Monday morning, he arrived at his lecture hall and discovered that he had brought two different shoes. One was brown and the other was black. \"Fashion is a matter of opinion,\" he told the students, and began to talk about gravity.\n\nAn hour later, he looked for his glasses everywhere. He checked his desk, his coat and his briefcase. The students tried not to laugh. Finally, a girl in the front row said, \"Professor, they are on your head.\"\n\n\"Ah, thank you,\" he said. \"I have been looking at the problem from the wrong angle.\"\n\nAt lunchtime, he went to the cafe and ordered soup. When the waiter brought it, the professor poured the whole bowl into his briefcase and put his sandwich in the bin. Nobody was surprised. It had happened before.\n\nThat evening, he walked home in the rain and realised he had no key. He knocked on the door for ten minutes. Eventually his wife opened it. \"Why are you knocking?\" she asked. \"You live here.\"\n\n\"Do I?\" he said. \"How wonderful.\"\n\nThe next day, his wife gave him a very large sign to hang around his neck. It said, \"Name: Professor Whitmore. Address: the house with the blue door. Please return me before dinner.\"\n\nHe wore it proudly, and for once he did not lose it.",
+  "word_count": 263,
+  "vocabulary": [
+    {
+      "word": "brilliant",
+      "ipa_us": "ˈbrɪljənt",
+      "ipa_uk": "ˈbrɪliənt",
+      "translation_ru": "блестящий"
+    },
+    {
+      "word": "forgetful",
+      "ipa_us": "fərˈɡɛtfəl",
+      "ipa_uk": "fəˈɡetfəl",
+      "translation_ru": "забывчивый"
+    },
+    {
+      "word": "universe",
+      "ipa_us": "ˈjunəˌvɜrs",
+      "ipa_uk": "ˈjuːnɪvɜːs",
+      "translation_ru": "вселенная"
+    },
+    {
+      "word": "lecture",
+      "ipa_us": "ˈlɛktʃər",
+      "ipa_uk": "ˈlektʃə",
+      "translation_ru": "лекция"
+    },
+    {
+      "word": "gravity",
+      "ipa_us": "ˈɡrævəti",
+      "ipa_uk": "ˈɡrævɪti",
+      "translation_ru": "гравитация"
+    },
+    {
+      "word": "briefcase",
+      "ipa_us": "ˈbrifˌkeɪs",
+      "ipa_uk": "ˈbriːfkeɪs",
+      "translation_ru": "портфель"
+    },
+    {
+      "word": "angle",
+      "ipa_us": "ˈæŋɡəl",
+      "ipa_uk": "ˈæŋɡəl",
+      "translation_ru": "угол, ракурс"
+    },
+    {
+      "word": "realised",
+      "ipa_us": "ˈriəˌlaɪzd",
+      "ipa_uk": "ˈrɪəlaɪzd",
+      "translation_ru": "осознал"
+    },
+    {
+      "word": "eventually",
+      "ipa_us": "ɪˈvɛntʃuəli",
+      "ipa_uk": "ɪˈventʃuəli",
+      "translation_ru": "в конце концов"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "Whitmore",
+        "whole",
+        "where",
+        "wrong"
+      ],
+      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thank"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the other",
+        "they"
+      ],
+      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was Professor Whitmore famous for?",
+      "answer": "Being brilliant but forgetful.",
+      "accepted_keywords": [
+        "forgetful",
+        "brilliant",
+        "forget"
+      ]
+    },
+    {
+      "question": "What was wrong with his shoes?",
+      "answer": "They were different colours.",
+      "accepted_keywords": [
+        "different",
+        "brown",
+        "black",
+        "two"
+      ]
+    },
+    {
+      "question": "Where were his glasses?",
+      "answer": "On his head.",
+      "accepted_keywords": [
+        "head"
+      ]
+    },
+    {
+      "question": "What did his wife give him?",
+      "answer": "A sign with his name and address.",
+      "accepted_keywords": [
+        "sign",
+        "address",
+        "name"
+      ]
+    }
+  ]
+}

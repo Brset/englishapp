@@ -1,0 +1,129 @@
+{
+  "id": "a1-story-01",
+  "level": "A1",
+  "genre": "story",
+  "title_en": "The Red Umbrella",
+  "title_ru": "Красный зонт",
+  "description_ru": "Маленькая история о девочке, которая помогла замёрзшему котёнку в дождливый день.",
+  "text": "Vera lives in a small village near the river. Today it is rainy, and Vera has a red umbrella. She walks to the market with her grandmother. They want fresh vegetables and three warm apples.\n\nOn the way, Vera sees a wet little cat under a tree. The cat is very thin, and it is shivering. Vera gives the cat her red umbrella.\n\nHer grandmother smiles. \"That is kind,\" she says. Now the cat is dry and happy. Vera is wet, but she is happy too.",
+  "vocabulary": [
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "river",
+      "ipa_us": "ˈrɪvɚ",
+      "ipa_uk": "ˈrɪvə",
+      "translation_ru": "река"
+    },
+    {
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrelə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
+    },
+    {
+      "word": "vegetables",
+      "ipa_us": "ˈvedʒtəbəlz",
+      "ipa_uk": "ˈvedʒtəbəlz",
+      "translation_ru": "овощи"
+    },
+    {
+      "word": "grandmother",
+      "ipa_us": "ˈɡrænˌmʌðɚ",
+      "ipa_uk": "ˈɡrænˌmʌðə",
+      "translation_ru": "бабушка"
+    },
+    {
+      "word": "thin",
+      "ipa_us": "θɪn",
+      "ipa_uk": "θɪn",
+      "translation_ru": "худой"
+    },
+    {
+      "word": "shivering",
+      "ipa_us": "ˈʃɪvɚɪŋ",
+      "ipa_uk": "ˈʃɪvərɪŋ",
+      "translation_ru": "дрожащий"
+    },
+    {
+      "word": "wet",
+      "ipa_us": "wet",
+      "ipa_uk": "wet",
+      "translation_ru": "мокрый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Vera",
+        "village",
+        "vegetables"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walks",
+        "wet",
+        "warm"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thin"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "red",
+        "river",
+        "rainy"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where does Vera live?",
+      "answer": "In a small village near the river.",
+      "accepted_keywords": [
+        "village",
+        "river"
+      ]
+    },
+    {
+      "question": "What colour is the umbrella?",
+      "answer": "It is red.",
+      "accepted_keywords": [
+        "red"
+      ]
+    },
+    {
+      "question": "What does Vera see under the tree?",
+      "answer": "A wet little cat.",
+      "accepted_keywords": [
+        "cat"
+      ]
+    },
+    {
+      "question": "Who goes to the market with Vera?",
+      "answer": "Her grandmother.",
+      "accepted_keywords": [
+        "grandmother",
+        "grandma"
+      ]
+    }
+  ],
+  "word_count": 86
+}

@@ -1,0 +1,146 @@
+{
+  "id": "b2-travel-01",
+  "level": "B2",
+  "genre": "travel",
+  "title_en": "A Day in Venice",
+  "title_ru": "Один день в Венеции",
+  "description_ru": "Рассказ о том, как лучше всего провести день в Венеции и как избежать толп туристов.",
+  "text": "Venice is a city that is often described as a floating dream, and for once the description is not an exaggeration. Built on more than a hundred small islands in a lagoon, it has no cars, no motorbikes and hardly any straight streets. Instead, there are canals, bridges and narrow alleys where even the best map can let you down.\n\nThe secret to enjoying Venice is to wake up early. By nine o'clock, St Mark's Square is packed with tour groups, but at seven it is almost empty, and the pigeons seem to belong entirely to you. The basilica, which is decorated with golden mosaics, opens its doors at half past nine. If you book a ticket online, you can skip the long queue.\n\nAfter the morning rush, it is worth leaving the main sights behind. Take a vaporetto, one of the public water buses, to the island of Burano, which is famous for its brightly painted houses. It is said that the fishermen painted their homes in vivid colours so that they could find them in the fog. Nowadays, the island is also known for its delicate handmade lace.\n\nBack in the main city, lunch should be taken in a bacaro, a small traditional bar. There you can try cicchetti, which are little snacks served on bread, usually with fish, cheese or vegetables. Local people eat them standing up, with a small glass of wine, and the whole meal rarely costs more than fifteen euros.\n\nIn the afternoon, simply get lost. Wander through the Dorsoduro district, where students sit on the steps beside the water, and cross the wooden bridge near the Accademia for a famous view of the Grand Canal. A gondola ride is expensive, around eighty euros for half an hour, so many visitors prefer the traghetto, a cheap ferry that crosses the canal in two minutes.\n\nFinally, remember that Venice is a fragile place. Floods are becoming more frequent, and about thirty million tourists visit the city every year. Respect the local residents, carry your rubbish with you, and consider staying overnight, because the evening, when the day trippers have gone, is when the city is truly enchanting.",
+  "word_count": 362,
+  "vocabulary": [
+    {
+      "word": "lagoon",
+      "ipa_us": "ləˈɡun",
+      "ipa_uk": "ləˈɡuːn",
+      "translation_ru": "лагуна"
+    },
+    {
+      "word": "canals",
+      "ipa_us": "kəˈnælz",
+      "ipa_uk": "kəˈnælz",
+      "translation_ru": "каналы"
+    },
+    {
+      "word": "alleys",
+      "ipa_us": "ˈæliz",
+      "ipa_uk": "ˈæliz",
+      "translation_ru": "переулки"
+    },
+    {
+      "word": "basilica",
+      "ipa_us": "bəˈsɪlɪkə",
+      "ipa_uk": "bəˈzɪlɪkə",
+      "translation_ru": "базилика"
+    },
+    {
+      "word": "mosaics",
+      "ipa_us": "moʊˈzeɪɪks",
+      "ipa_uk": "məʊˈzeɪɪks",
+      "translation_ru": "мозаики"
+    },
+    {
+      "word": "queue",
+      "ipa_us": "kju",
+      "ipa_uk": "kjuː",
+      "translation_ru": "очередь"
+    },
+    {
+      "word": "vivid",
+      "ipa_us": "ˈvɪvɪd",
+      "ipa_uk": "ˈvɪvɪd",
+      "translation_ru": "яркий"
+    },
+    {
+      "word": "delicate",
+      "ipa_us": "ˈdɛlɪkət",
+      "ipa_uk": "ˈdelɪkət",
+      "translation_ru": "тонкий"
+    },
+    {
+      "word": "fragile",
+      "ipa_us": "ˈfrædʒəl",
+      "ipa_uk": "ˈfrædʒaɪl",
+      "translation_ru": "хрупкий"
+    },
+    {
+      "word": "enchanting",
+      "ipa_us": "ɪnˈtʃæntɪŋ",
+      "ipa_uk": "ɪnˈtʃɑːntɪŋ",
+      "translation_ru": "очаровательный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "Venice",
+        "vivid",
+        "vegetables"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wake",
+        "water",
+        "wine"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thirty",
+        "through"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rarely",
+        "rush",
+        "rubbish"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why should visitors wake up early?",
+      "answer": "St Mark's Square is almost empty at seven.",
+      "accepted_keywords": [
+        "empty",
+        "crowds",
+        "packed",
+        "early"
+      ]
+    },
+    {
+      "question": "What is Burano famous for?",
+      "answer": "Brightly painted houses and lace.",
+      "accepted_keywords": [
+        "houses",
+        "lace",
+        "painted"
+      ]
+    },
+    {
+      "question": "What are cicchetti?",
+      "answer": "Little snacks served on bread.",
+      "accepted_keywords": [
+        "snacks",
+        "bread"
+      ]
+    },
+    {
+      "question": "How much is a gondola ride for half an hour?",
+      "answer": "Around eighty euros.",
+      "accepted_keywords": [
+        "eighty",
+        "80"
+      ]
+    }
+  ]
+}

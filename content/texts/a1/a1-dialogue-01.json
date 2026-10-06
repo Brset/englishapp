@@ -1,0 +1,121 @@
+{
+  "id": "a1-dialogue-01",
+  "level": "A1",
+  "genre": "dialogue",
+  "title_en": "At the Café",
+  "title_ru": "В кафе",
+  "description_ru": "Эмма заказывает чай и сэндвич. Простой диалог с официантом.",
+  "text": "Waiter: Hello! What would you like today?\nEmma: A cup of tea, please.\nWaiter: Black or with milk?\nEmma: With milk and one sugar. And a sandwich, too.\nWaiter: Cheese or chicken?\nEmma: Chicken, please. How much is it?\nWaiter: The tea is two pounds, and the sandwich is four. Six pounds in total.\nEmma: Here you are. Thank you very much.\nWaiter: Thank you. Please take a seat by the window. I bring it now.\nEmma: Wonderful. This café is so warm and quiet!\nWaiter: Yes, and the tea is very hot. Be careful!",
+  "vocabulary": [
+    {
+      "word": "sandwich",
+      "ipa_us": "ˈsænwɪtʃ",
+      "ipa_uk": "ˈsænwɪdʒ",
+      "translation_ru": "сэндвич"
+    },
+    {
+      "word": "cheese",
+      "ipa_us": "tʃiːz",
+      "ipa_uk": "tʃiːz",
+      "translation_ru": "сыр"
+    },
+    {
+      "word": "chicken",
+      "ipa_us": "ˈtʃɪkən",
+      "ipa_uk": "ˈtʃɪkɪn",
+      "translation_ru": "курица"
+    },
+    {
+      "word": "pounds",
+      "ipa_us": "paʊndz",
+      "ipa_uk": "paʊndz",
+      "translation_ru": "фунты"
+    },
+    {
+      "word": "total",
+      "ipa_us": "ˈtoʊtl",
+      "ipa_uk": "ˈtəʊtl",
+      "translation_ru": "итого"
+    },
+    {
+      "word": "seat",
+      "ipa_us": "siːt",
+      "ipa_uk": "siːt",
+      "translation_ru": "место, стул"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "careful",
+      "ipa_us": "ˈkerfəl",
+      "ipa_uk": "ˈkeəfəl",
+      "translation_ru": "осторожный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ɪ",
+      "examples": [
+        "with",
+        "milk",
+        "sandwich"
+      ],
+      "tip_ru": "Короткий расслабленный звук между «и» и «ы». Не растягивайте и не смягчайте согласный перед ним."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "with",
+        "would",
+        "warm",
+        "window"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "cheese",
+        "please",
+        "seat"
+      ],
+      "tip_ru": "Долгий звук «и»: растяните губы в лёгкой улыбке и держите звук дольше, чем русское «и»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Emma drink?",
+      "answer": "Tea with milk and sugar.",
+      "accepted_keywords": [
+        "tea"
+      ]
+    },
+    {
+      "question": "What sandwich does Emma choose?",
+      "answer": "Chicken.",
+      "accepted_keywords": [
+        "chicken"
+      ]
+    },
+    {
+      "question": "How much is the sandwich?",
+      "answer": "Four pounds.",
+      "accepted_keywords": [
+        "four",
+        "4"
+      ]
+    },
+    {
+      "question": "Where does Emma sit?",
+      "answer": "By the window.",
+      "accepted_keywords": [
+        "window"
+      ]
+    }
+  ],
+  "word_count": 84
+}

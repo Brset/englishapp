@@ -1,0 +1,143 @@
+{
+  "id": "b2-travel-03",
+  "level": "B2",
+  "genre": "travel",
+  "title_en": "Slow Mornings in Kyoto",
+  "title_ru": "Неспешные утра в Киото",
+  "description_ru": "Путешественник рассказывает о храмах, чайных церемониях и тихих улочках старой столицы Японии.",
+  "text": "Kyoto was the capital of Japan for more than a thousand years, and it has somehow managed to keep its soul. Although bullet trains connect it to Tokyo in barely two hours, the old city moves at a gentler pace, and the best way to experience it is slowly.\n\nI recommend starting the day at Fushimi Inari Shrine, famous for its thousands of bright orange gates. The path winds up a forested mountain, and while the lower section is full of photographers by ten o'clock, those who arrive at dawn are rewarded with silence. Halfway up, I met an elderly priest sweeping leaves. He explained that every gate was donated by a company or a family, hoping for success, and that their names are written in black ink on the back.\n\nNext, I visited a traditional tea house in the Gion district, where I took part in a tea ceremony. The host, wearing a pale blue kimono, prepared the matcha with slow, deliberate movements. I had been told in advance that I should turn the bowl twice before drinking, and I did my best, though I suspect I looked clumsy. The tea tasted bitter at first, but the sweet cake that came with it balanced the flavour perfectly.\n\nKyoto has about seventeen hundred temples, so it is impossible to see them all. My favourite was Ryoan-ji, whose famous rock garden consists of fifteen stones placed on white gravel. Nobody knows exactly what the arrangement is supposed to represent. Some say a tiger crossing the sea; others say islands in the ocean. Sitting on the wooden veranda for half an hour, I stopped trying to solve the puzzle and simply enjoyed it.\n\nPractical advice: buy a bus pass, but also rent a bicycle, because many of the loveliest corners are found in quiet back streets. Remember to remove your shoes before entering temples and homes, and avoid speaking loudly on trains.\n\nIn the evening, I walked along the Kamo River, where couples sat on the bank and lanterns glowed in the water. I realised that I had hardly looked at my phone all day, and that Kyoto had quietly cured me of my hurry.",
+  "word_count": 362,
+  "vocabulary": [
+    {
+      "word": "shrine",
+      "ipa_us": "ʃraɪn",
+      "ipa_uk": "ʃraɪn",
+      "translation_ru": "святилище"
+    },
+    {
+      "word": "gates",
+      "ipa_us": "ɡeɪts",
+      "ipa_uk": "ɡeɪts",
+      "translation_ru": "ворота"
+    },
+    {
+      "word": "donated",
+      "ipa_us": "ˈdoʊneɪtɪd",
+      "ipa_uk": "dəʊˈneɪtɪd",
+      "translation_ru": "пожертвованы"
+    },
+    {
+      "word": "deliberate",
+      "ipa_us": "dɪˈlɪbərət",
+      "ipa_uk": "dɪˈlɪbərət",
+      "translation_ru": "обдуманный"
+    },
+    {
+      "word": "clumsy",
+      "ipa_us": "ˈklʌmzi",
+      "ipa_uk": "ˈklʌmzi",
+      "translation_ru": "неуклюжий"
+    },
+    {
+      "word": "bitter",
+      "ipa_us": "ˈbɪtər",
+      "ipa_uk": "ˈbɪtə",
+      "translation_ru": "горький"
+    },
+    {
+      "word": "gravel",
+      "ipa_us": "ˈɡrævəl",
+      "ipa_uk": "ˈɡrævəl",
+      "translation_ru": "гравий"
+    },
+    {
+      "word": "arrangement",
+      "ipa_us": "əˈreɪndʒmənt",
+      "ipa_uk": "əˈreɪndʒmənt",
+      "translation_ru": "расположение"
+    },
+    {
+      "word": "veranda",
+      "ipa_us": "vəˈrændə",
+      "ipa_uk": "vəˈrændə",
+      "translation_ru": "веранда"
+    },
+    {
+      "word": "cured",
+      "ipa_us": "kjʊrd",
+      "ipa_uk": "kjʊəd",
+      "translation_ru": "излечил"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "thousands",
+        "with"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wooden",
+        "white",
+        "wearing"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rewarded",
+        "rock",
+        "remember"
+      ],
+      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+    },
+    {
+      "sound": "ɔː",
+      "examples": [
+        "more",
+        "forested",
+        "walked"
+      ],
+      "tip_ru": "Долгий звук с округлёнными губами и опущенной нижней челюстью; не «о» и не «ор» с раскатистым р."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long was Kyoto the capital of Japan?",
+      "answer": "More than a thousand years.",
+      "accepted_keywords": [
+        "thousand",
+        "1000"
+      ]
+    },
+    {
+      "question": "How many stones are in the rock garden at Ryoan-ji?",
+      "answer": "Fifteen.",
+      "accepted_keywords": [
+        "fifteen",
+        "15"
+      ]
+    },
+    {
+      "question": "What should visitors remove before entering temples?",
+      "answer": "Their shoes.",
+      "accepted_keywords": [
+        "shoes"
+      ]
+    },
+    {
+      "question": "Where did the writer walk in the evening?",
+      "answer": "Along the Kamo River.",
+      "accepted_keywords": [
+        "kamo",
+        "river"
+      ]
+    }
+  ]
+}

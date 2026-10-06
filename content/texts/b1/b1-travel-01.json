@@ -1,0 +1,108 @@
+{
+  "id": "b1-travel-01",
+  "level": "B1",
+  "genre": "travel",
+  "title_en": "A Weekend in Edinburgh",
+  "title_ru": "Выходные в Эдинбурге",
+  "description_ru": "Маршрут по Эдинбургу на два дня: замок, Королевская миля и вид с холма.",
+  "text": "Edinburgh is one of the most beautiful cities in Britain, and two days are enough to see its best parts. I have visited it twice, and I would happily go again.\n\nStart your first morning at Edinburgh Castle. It stands on top of an extinct volcano, and from its walls you can see the whole city. If you arrive early, you will avoid the long queues. After that, walk down the Royal Mile, a famous street that connects the castle with the royal palace. It is full of small shops, old pubs and street musicians. Try a bowl of Scottish porridge or some warm shortbread in one of the cafés.\n\nOn the second day, climb Arthur's Seat. This hill is the remains of another ancient volcano, and the walk to the top takes about an hour. The path can be steep, so wear strong shoes. The view is worth the effort. On a clear day, you can see the sea, the bridges and the green hills in the distance.\n\nIn the afternoon, you could visit the National Museum, which is free. It has everything from dinosaur bones to modern technology.\n\nThe weather in Scotland changes quickly, so take a raincoat even if the sky is blue. Also, be careful with the cobbled streets, because they can be slippery. If you follow this plan, you will go home with wonderful memories.",
+  "word_count": 231,
+  "vocabulary": [
+    {
+      "word": "extinct",
+      "ipa_us": "ɪkˈstɪŋkt",
+      "ipa_uk": "ɪkˈstɪŋkt",
+      "translation_ru": "потухший"
+    },
+    {
+      "word": "volcano",
+      "ipa_us": "vɑːlˈkeɪnoʊ",
+      "ipa_uk": "vɒlˈkeɪnəʊ",
+      "translation_ru": "вулкан"
+    },
+    {
+      "word": "queues",
+      "ipa_us": "kjuːz",
+      "ipa_uk": "kjuːz",
+      "translation_ru": "очереди"
+    },
+    {
+      "word": "porridge",
+      "ipa_us": "ˈpɔːrɪdʒ",
+      "ipa_uk": "ˈpɒrɪdʒ",
+      "translation_ru": "овсяная каша"
+    },
+    {
+      "word": "steep",
+      "ipa_us": "stiːp",
+      "ipa_uk": "stiːp",
+      "translation_ru": "крутой"
+    },
+    {
+      "word": "distance",
+      "ipa_us": "ˈdɪstəns",
+      "ipa_uk": "ˈdɪstəns",
+      "translation_ru": "даль"
+    },
+    {
+      "word": "slippery",
+      "ipa_us": "ˈslɪpɚi",
+      "ipa_uk": "ˈslɪpəri",
+      "translation_ru": "скользкий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "visited",
+        "volcano",
+        "view",
+        "have"
+      ],
+      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walk",
+        "wear",
+        "weather",
+        "wonderful"
+      ],
+      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "everything"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does Edinburgh Castle stand on?",
+      "answer": "An extinct volcano.",
+      "accepted_keywords": [
+        "volcano"
+      ]
+    },
+    {
+      "question": "How long does the walk up Arthur's Seat take?",
+      "answer": "About an hour.",
+      "accepted_keywords": [
+        "hour"
+      ]
+    },
+    {
+      "question": "Which museum is free?",
+      "answer": "The National Museum.",
+      "accepted_keywords": [
+        "national",
+        "museum"
+      ]
+    }
+  ]
+}

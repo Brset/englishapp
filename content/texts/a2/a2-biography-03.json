@@ -1,0 +1,125 @@
+{
+  "id": "a2-biography-03",
+  "level": "A2",
+  "genre": "biography",
+  "title_en": "Neil Armstrong",
+  "title_ru": "Нил Армстронг",
+  "description_ru": "История человека, который первым ступил на Луну.",
+  "text": "Neil Armstrong was born in 1930 in Ohio, in the United States. He loved planes as a small boy. At the age of sixteen, he got his pilot's licence, even before he could drive a car.\n\nLater, Neil became a pilot in the navy and flew many missions in the Korean War. After that, he worked as a test pilot, and then he joined NASA as an astronaut.\n\nIn July 1969, Neil flew to the Moon in a spaceship called Apollo 11. Two other men, Buzz Aldrin and Michael Collins, travelled with him. When the spaceship landed, Neil walked out first. He said, \"That's one small step for man, one giant leap for mankind.\"\n\nNeil spent about two hours outside with Buzz on the Moon. Michael stayed in the spaceship above them. Neil Armstrong died in 2012, but he is still famous all over the world.",
+  "word_count": 142,
+  "vocabulary": [
+    {
+      "word": "pilot",
+      "ipa_us": "ˈpaɪlət",
+      "ipa_uk": "ˈpaɪlət",
+      "translation_ru": "лётчик, пилот"
+    },
+    {
+      "word": "licence",
+      "ipa_us": "ˈlaɪsns",
+      "ipa_uk": "ˈlaɪsns",
+      "translation_ru": "права, лицензия"
+    },
+    {
+      "word": "navy",
+      "ipa_us": "ˈneɪvi",
+      "ipa_uk": "ˈneɪvi",
+      "translation_ru": "военно-морской флот"
+    },
+    {
+      "word": "astronaut",
+      "ipa_us": "ˈæstrənɔːt",
+      "ipa_uk": "ˈæstrənɔːt",
+      "translation_ru": "астронавт"
+    },
+    {
+      "word": "spaceship",
+      "ipa_us": "ˈspeɪsʃɪp",
+      "ipa_uk": "ˈspeɪsʃɪp",
+      "translation_ru": "космический корабль"
+    },
+    {
+      "word": "landed",
+      "ipa_us": "ˈlændɪd",
+      "ipa_uk": "ˈlændɪd",
+      "translation_ru": "приземлился"
+    },
+    {
+      "word": "giant",
+      "ipa_us": "ˈdʒaɪənt",
+      "ipa_uk": "ˈdʒaɪənt",
+      "translation_ru": "гигантский"
+    },
+    {
+      "word": "mankind",
+      "ipa_us": "mænˈkaɪnd",
+      "ipa_uk": "mænˈkaɪnd",
+      "translation_ru": "человечество"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aspiration",
+      "examples": [
+        "pilot",
+        "car"
+      ],
+      "tip_ru": "p, t, k в начале слова произносите с лёгким придыханием, как будто выдыхаете «х»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "landed",
+        "man"
+      ],
+      "tip_ru": "Откройте рот шире, чем для русского «э»; звук короткий и «плоский»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "world",
+        "walked"
+      ],
+      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "that",
+        "them"
+      ],
+      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where was Neil Armstrong born?",
+      "answer": "In Ohio.",
+      "accepted_keywords": [
+        "ohio"
+      ]
+    },
+    {
+      "question": "What was the name of the spaceship?",
+      "answer": "Apollo 11.",
+      "accepted_keywords": [
+        "apollo"
+      ]
+    },
+    {
+      "question": "Who stayed in the spaceship?",
+      "answer": "Michael Collins.",
+      "accepted_keywords": [
+        "michael",
+        "collins"
+      ]
+    },
+    {
+      "question": "When did he die?",
+      "answer": "In 2012.",
+      "accepted_keywords": [
+        "2012"
+      ]
+    }
+  ]
+}

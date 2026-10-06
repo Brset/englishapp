@@ -1,0 +1,132 @@
+{
+  "id": "b1-opinion-02",
+  "level": "B1",
+  "genre": "opinion",
+  "title_en": "Cities Need Fewer Cars",
+  "title_ru": "Городам нужно меньше машин",
+  "description_ru": "Рассуждение о том, как центр города без автомобилей может стать чище, тише и приятнее.",
+  "text": "I have lived in the centre of a big city for ten years, and I am convinced that we need fewer cars in our streets. I do not say we should ban every vehicle tomorrow, but I think the city centre should belong to people first.\n\nLet me give you three reasons. Firstly, traffic makes the air dirty. Every morning, my window is covered in grey dust, and children in my neighbourhood cough more often than they should. Secondly, cars are noisy. If you have ever tried to talk to a friend on a busy road, you know how tiring the sound can be. Finally, cars take up an enormous amount of space. A single parking place could be a bench, a tree or a small garden.\n\nSome people argue that shops will lose customers if drivers cannot park outside. However, several European cities have already closed their central streets to traffic, and the shops there are doing better than before. People walk slowly, look in the windows and stay longer for a coffee.\n\nOf course, I understand that not everyone can leave the car at home. Older people and workers who carry heavy tools need special help. That is why the city must provide reliable buses, safe bicycle lanes and cheaper trains. If public transport were fast and comfortable, many drivers would choose it voluntarily.\n\nIn my view, a quiet, green centre is not a dream. It is a practical choice that we can make together.",
+  "word_count": 247,
+  "vocabulary": [
+    {
+      "word": "convinced",
+      "ipa_us": "kənˈvɪnst",
+      "ipa_uk": "kənˈvɪnst",
+      "translation_ru": "убеждён"
+    },
+    {
+      "word": "vehicle",
+      "ipa_us": "ˈviːəkəl",
+      "ipa_uk": "ˈviːɪkəl",
+      "translation_ru": "транспортное средство"
+    },
+    {
+      "word": "traffic",
+      "ipa_us": "ˈtræfɪk",
+      "ipa_uk": "ˈtræfɪk",
+      "translation_ru": "транспорт, движение"
+    },
+    {
+      "word": "neighbourhood",
+      "ipa_us": "ˈneɪbərˌhʊd",
+      "ipa_uk": "ˈneɪbəhʊd",
+      "translation_ru": "район"
+    },
+    {
+      "word": "enormous",
+      "ipa_us": "ɪˈnɔrməs",
+      "ipa_uk": "ɪˈnɔːməs",
+      "translation_ru": "огромный"
+    },
+    {
+      "word": "customers",
+      "ipa_us": "ˈkʌstəmərz",
+      "ipa_uk": "ˈkʌstəməz",
+      "translation_ru": "покупатели"
+    },
+    {
+      "word": "reliable",
+      "ipa_us": "rɪˈlaɪəbəl",
+      "ipa_uk": "rɪˈlaɪəbəl",
+      "translation_ru": "надёжный"
+    },
+    {
+      "word": "voluntarily",
+      "ipa_us": "ˌvɑlənˈtɛrəli",
+      "ipa_uk": "ˈvɒləntrəli",
+      "translation_ru": "добровольно"
+    },
+    {
+      "word": "practical",
+      "ipa_us": "ˈpræktɪkəl",
+      "ipa_uk": "ˈpræktɪkəl",
+      "translation_ru": "практичный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vehicle",
+        "every",
+        "have",
+        "voluntarily"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "think"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "they",
+        "there",
+        "the city"
+      ],
+      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long has the writer lived in the city centre?",
+      "answer": "For ten years.",
+      "accepted_keywords": [
+        "ten",
+        "10"
+      ]
+    },
+    {
+      "question": "Name one problem caused by cars.",
+      "answer": "Dirty air, noise or lack of space.",
+      "accepted_keywords": [
+        "air",
+        "noise",
+        "noisy",
+        "space",
+        "dirty"
+      ]
+    },
+    {
+      "question": "What happened to shops in cities that closed streets to traffic?",
+      "answer": "They did better.",
+      "accepted_keywords": [
+        "better"
+      ]
+    },
+    {
+      "question": "What should the city provide for people who leave their cars?",
+      "answer": "Reliable buses, bicycle lanes and cheaper trains.",
+      "accepted_keywords": [
+        "buses",
+        "bicycle",
+        "trains"
+      ]
+    }
+  ]
+}

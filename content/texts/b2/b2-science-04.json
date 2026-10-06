@@ -1,0 +1,143 @@
+{
+  "id": "b2-science-04",
+  "level": "B2",
+  "genre": "science",
+  "title_en": "Sleep and Memory",
+  "title_ru": "Сон и память",
+  "description_ru": "О том, как сон помогает мозгу закреплять воспоминания, и почему недосып вредит учёбе.",
+  "text": "For centuries, sleep was considered a passive state in which the brain simply switched off. Modern research has shown that this idea was completely wrong. While we sleep, the brain is extremely busy, and one of its most important tasks is the organisation of memories.\n\nA typical night consists of four or five cycles, each lasting around ninety minutes. Every cycle includes light sleep, deep sleep and rapid eye movement sleep, usually abbreviated to REM. Each stage appears to serve a different purpose.\n\nDuring deep sleep, the brain replays the events of the day. Scientists studying rats found that the same patterns of neural activity that occurred while the animals were learning a maze were repeated, at a faster speed, as they slept. It is believed that this process transfers information from the hippocampus, a small structure that stores new experiences temporarily, to the cortex, where long-term memories are kept.\n\nREM sleep, which is the stage when most vivid dreams occur, seems to be more important for emotional memories and creative thinking. In one famous experiment, volunteers who had been allowed to dream solved a difficult puzzle far more often than those who had stayed awake.\n\nThe consequences of sleep deprivation are serious. Students who regularly sleep for fewer than six hours remember considerably less of what they have studied. Studies also suggest that a single sleepless night can reduce the ability to form new memories by about forty percent. Furthermore, tired people tend to make riskier decisions and react more slowly, which explains why drowsy driving is so dangerous.\n\nHow can we sleep better? Experts usually recommend keeping a regular schedule, avoiding caffeine in the late afternoon and switching off bright screens before bedtime. A cool, dark room also helps.\n\nSo the next time someone tells you to burn the midnight oil before an exam, you might reply that a good night's sleep is the better strategy. After all, a rested brain does not merely remember more. It also understands more.",
+  "word_count": 333,
+  "vocabulary": [
+    {
+      "word": "passive",
+      "ipa_us": "ˈpæsɪv",
+      "ipa_uk": "ˈpæsɪv",
+      "translation_ru": "пассивный"
+    },
+    {
+      "word": "organisation",
+      "ipa_us": "ˌɔrɡənəˈzeɪʃən",
+      "ipa_uk": "ˌɔːɡənaɪˈzeɪʃən",
+      "translation_ru": "организация"
+    },
+    {
+      "word": "abbreviated",
+      "ipa_us": "əˈbrivieɪtɪd",
+      "ipa_uk": "əˈbriːvieɪtɪd",
+      "translation_ru": "сокращённо называется"
+    },
+    {
+      "word": "neural",
+      "ipa_us": "ˈnʊrəl",
+      "ipa_uk": "ˈnjʊərəl",
+      "translation_ru": "нейронный"
+    },
+    {
+      "word": "maze",
+      "ipa_us": "meɪz",
+      "ipa_uk": "meɪz",
+      "translation_ru": "лабиринт"
+    },
+    {
+      "word": "hippocampus",
+      "ipa_us": "ˌhɪpəˈkæmpəs",
+      "ipa_uk": "ˌhɪpəˈkæmpəs",
+      "translation_ru": "гиппокамп"
+    },
+    {
+      "word": "vivid",
+      "ipa_us": "ˈvɪvɪd",
+      "ipa_uk": "ˈvɪvɪd",
+      "translation_ru": "яркий"
+    },
+    {
+      "word": "deprivation",
+      "ipa_us": "ˌdɛprɪˈveɪʃən",
+      "ipa_uk": "ˌdeprɪˈveɪʃən",
+      "translation_ru": "лишение"
+    },
+    {
+      "word": "drowsy",
+      "ipa_us": "ˈdraʊzi",
+      "ipa_uk": "ˈdraʊzi",
+      "translation_ru": "сонный"
+    },
+    {
+      "word": "strategy",
+      "ipa_us": "ˈstrætədʒi",
+      "ipa_uk": "ˈstrætədʒi",
+      "translation_ru": "стратегия"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vivid",
+        "every",
+        "deprivation"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "while",
+        "awake",
+        "was"
+      ],
+      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "than",
+        "those",
+        "they"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: the, they, those звучат с межзубным звуком, а не «з»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "maze",
+        "brain",
+        "day"
+      ],
+      "tip_ru": "Двигайтесь от «э» к «и» плавно, как один долгий звук; не заканчивайте на чистом «э»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long does each sleep cycle last?",
+      "answer": "About ninety minutes.",
+      "accepted_keywords": [
+        "ninety",
+        "90"
+      ]
+    },
+    {
+      "question": "Which stage is more important for emotional memories?",
+      "answer": "REM sleep.",
+      "accepted_keywords": [
+        "rem"
+      ]
+    },
+    {
+      "question": "Where do new memories move to from the hippocampus?",
+      "answer": "To the cortex.",
+      "accepted_keywords": [
+        "cortex"
+      ]
+    },
+    {
+      "question": "What do experts recommend before bedtime?",
+      "answer": "Switching off bright screens.",
+      "accepted_keywords": [
+        "screens",
+        "switch",
+        "off"
+      ]
+    }
+  ]
+}

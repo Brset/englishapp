@@ -1,0 +1,140 @@
+{
+  "id": "b2-opinion-05",
+  "level": "B2",
+  "genre": "opinion",
+  "title_en": "Why We Need a Four-Day Week",
+  "title_ru": "Почему нужна четырёхдневная рабочая неделя",
+  "description_ru": "Разбор опыта компаний, перешедших на четырёхдневку, с аргументами сторонников и критиков.",
+  "text": "Imagine finishing work on Thursday afternoon and having three full days to yourself. For a growing number of employees, this is no longer a daydream. Several companies in Britain, Iceland and Japan have tested a four-day working week, with no reduction in pay, and the results have surprised even the sceptics.\n\nIn a large British trial, around sixty companies took part for six months. Most of them reported that productivity stayed the same or even rose, and a majority decided to continue afterwards. Employees said that they felt less stressed, slept better and were more motivated. Many companies also noticed that fewer people resigned, which saved a great deal of money on recruitment.\n\nWhy does it work? Mainly because a shorter week forces everyone to cut the waste. Meetings are shortened, pointless emails are skipped and people concentrate harder when they know that the weekend is longer. As one manager put it, \"We stopped pretending to be busy.\"\n\nOf course, the idea is not perfect for every job. Hospitals, shops and restaurants cannot simply close for an extra day, and nurses have already complained that they are overworked. Critics also argue that staff might squeeze five days of work into four long ones, which would leave them exhausted. They have a point, and it shows that the model has to be adapted carefully to each workplace.\n\nSome employers worry that clients will be unhappy if the office is closed on Fridays. In practice, however, most companies solved this by rotating schedules. Customers hardly noticed.\n\nI would go further and say that the old five-day week is a habit inherited from the factories of the nineteenth century, when machines needed to be watched by humans. Today, much of our work is done by thinking, and thinking does not improve after the eighth hour. Giving people more time to rest, to see their families and to learn new skills is not a luxury. It is an investment. If it is introduced sensibly, I am convinced that everyone will benefit, including the boss.",
+  "vocabulary": [
+    {
+      "word": "employees",
+      "ipa_us": "ɪmˈplɔɪiz",
+      "ipa_uk": "ɪmˈplɔɪiːz",
+      "translation_ru": "сотрудники"
+    },
+    {
+      "word": "reduction",
+      "ipa_us": "rɪˈdʌkʃən",
+      "ipa_uk": "rɪˈdʌkʃən",
+      "translation_ru": "сокращение"
+    },
+    {
+      "word": "sceptics",
+      "ipa_us": "ˈskɛptɪks",
+      "ipa_uk": "ˈskeptɪks",
+      "translation_ru": "скептики"
+    },
+    {
+      "word": "productivity",
+      "ipa_us": "ˌproʊdʌkˈtɪvəti",
+      "ipa_uk": "ˌprɒdʌkˈtɪvəti",
+      "translation_ru": "производительность"
+    },
+    {
+      "word": "resigned",
+      "ipa_us": "rɪˈzaɪnd",
+      "ipa_uk": "rɪˈzaɪnd",
+      "translation_ru": "уволились"
+    },
+    {
+      "word": "recruitment",
+      "ipa_us": "rɪˈkrutmənt",
+      "ipa_uk": "rɪˈkruːtmənt",
+      "translation_ru": "набор персонала"
+    },
+    {
+      "word": "exhausted",
+      "ipa_us": "ɪɡˈzɔstɪd",
+      "ipa_uk": "ɪɡˈzɔːstɪd",
+      "translation_ru": "измотанные"
+    },
+    {
+      "word": "inherited",
+      "ipa_us": "ɪnˈhɛrətɪd",
+      "ipa_uk": "ɪnˈherɪtɪd",
+      "translation_ru": "унаследованная"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "Thursday",
+        "three",
+        "thinking",
+        "months"
+      ],
+      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "week",
+        "work",
+        "working",
+        "with"
+      ],
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reduction",
+        "results",
+        "resigned",
+        "recruitment"
+      ],
+      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "closed",
+        "solved",
+        "resigned",
+        "introduced"
+      ],
+      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which countries have tested a four-day week?",
+      "answer": "Britain, Iceland and Japan.",
+      "accepted_keywords": [
+        "britain",
+        "iceland",
+        "japan"
+      ]
+    },
+    {
+      "question": "How long did the British trial last?",
+      "answer": "Six months.",
+      "accepted_keywords": [
+        "six",
+        "6"
+      ]
+    },
+    {
+      "question": "What happened to productivity in most companies?",
+      "answer": "It stayed the same or rose.",
+      "accepted_keywords": [
+        "same",
+        "rose",
+        "stayed",
+        "increased"
+      ]
+    },
+    {
+      "question": "Which workplaces cannot easily close for an extra day?",
+      "answer": "Hospitals, shops and restaurants.",
+      "accepted_keywords": [
+        "hospitals",
+        "shops",
+        "restaurants"
+      ]
+    }
+  ],
+  "word_count": 342
+}
