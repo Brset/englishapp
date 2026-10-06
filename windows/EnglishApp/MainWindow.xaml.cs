@@ -1,7 +1,9 @@
+using EnglishApp.Services;
 using EnglishApp.ViewModels;
 using EnglishApp.Views;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
 namespace EnglishApp;
 
@@ -18,6 +20,29 @@ public sealed partial class MainWindow : Window
         InitializeComponent();
         Title = "English Pronunciation";
         Nav.SelectedItem = Nav.MenuItems[0];
+        QueueList.ItemsSource = AppServices.Jobs.Jobs;
+        AppServices.Jobs.Jobs.CollectionChanged += (_, _) => UpdateQueueUi();
+        UpdateQueueUi();
+    }
+
+    /// <summary>Footer "Обработка" item (ProgressRing + count badge) is visible only while the queue is non-empty.</summary>
+    private void UpdateQueueUi()
+    {
+        int n = AppServices.Jobs.Jobs.Count;
+        QueueBadge.Value = n;
+        QueueItem.Visibility = n > 0 ? Visibility.Visible : Visibility.Collapsed;
+        if (n == 0) QueueFlyout.Hide();
+    }
+
+    private void OnItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs e)
+    {
+        if (e.InvokedItemContainer is NavigationViewItem { Tag: "processing" } item)
+            FlyoutBase.ShowAttachedFlyout(item);
+    }
+
+    private void OnCancelJob(object sender, RoutedEventArgs e)
+    {
+        if (sender is FrameworkElement { DataContext: JobItem job }) AppServices.Jobs.Cancel(job.Id);
     }
 
     public void ApplyTheme(string theme)

@@ -63,7 +63,7 @@ private fun Stat(value: String, label: String) = Column(horizontalAlignment = Al
 }
 
 @Composable
-private fun TextCard(t: TextItem, onClick: () -> Unit) = ElevatedCard(Modifier.fillMaxWidth().clickable(onClick = onClick)) {
+private fun TextCard(t: TextItem, onHistory: (() -> Unit)? = null, onClick: () -> Unit) = ElevatedCard(Modifier.fillMaxWidth().clickable(onClick = onClick)) {
     Column(Modifier.padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             AssistChip(onClick = onClick, label = { Text(t.level) })
@@ -80,6 +80,15 @@ private fun TextCard(t: TextItem, onClick: () -> Unit) = ElevatedCard(Modifier.f
         Text(t.descriptionRu, style = MaterialTheme.typography.bodySmall, maxLines = 2)
         Text("${t.wordCount} слов" + (t.bestScore?.let { " · лучший результат %.0f".format(it) } ?: ""),
             style = MaterialTheme.typography.labelSmall)
+        if (t.pending) Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 6.dp)) {
+            CircularProgressIndicator(Modifier.size(14.dp), strokeWidth = 2.dp)
+            Spacer(Modifier.width(8.dp))
+            Text("оценка готовится…", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+        } else t.lastScore?.let {
+            Text("Оценка: %.0f · %s".format(it, levelLabel(it)), style = MaterialTheme.typography.labelLarge,
+                color = scoreColor(it), modifier = Modifier.padding(top = 6.dp))
+        }
+        if (onHistory != null && t.status != "new") TextButton(onHistory, contentPadding = PaddingValues(0.dp)) { Text("История попыток") }
     }
 }
 
@@ -91,7 +100,19 @@ fun LibraryScreen(onOpen: (String) -> Unit, vm: LibraryViewModel = viewModel()) 
     val level by vm.level.collectAsStateWithLifecycle()
     val genre by vm.genre.collectAsStateWithLifecycle()
     val query by vm.query.collectAsStateWithLifecycle()
+    val history by vm.history.collectAsStateWithLifecycle()
+    var historyFor by remember { mutableStateOf<TextItem?>(null) }
     LaunchedEffect(Unit) { vm.refresh() }
+    historyFor?.let { t ->
+        LaunchedEffect(t.id, s.items) { vm.loadHistory(t.id) }
+        ModalBottomSheet(onDismissRequest = { historyFor = null; vm.loadHistory(null) }) {
+            Column(Modifier.fillMaxWidth().padding(horizontal = 24.dp).padding(bottom = 32.dp)) {
+                Text(t.titleEn, style = MaterialTheme.typography.titleLarge)
+                if (history.isEmpty()) Text("Попыток пока нет", color = MaterialTheme.colorScheme.onSurfaceVariant)
+                else AttemptsList(history, vm::playAttempt)
+            }
+        }
+    }
     Column(Modifier.fillMaxSize()) {
         OutlinedTextField(
             value = query, onValueChange = { vm.query.value = it }, singleLine = true,
@@ -109,7 +130,7 @@ fun LibraryScreen(onOpen: (String) -> Unit, vm: LibraryViewModel = viewModel()) 
         }
         if (s.items.isEmpty()) Empty("Ничего не найдено")
         else LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            items(s.items, key = { it.id }) { t -> TextCard(t) { onOpen(t.id) } }
+            items(s.items, key = { it.id }) { t -> TextCard(t, onHistory = { historyFor = t }) { onOpen(t.id) } }
         }
     }
 }
@@ -119,6 +140,7 @@ fun LibraryScreen(onOpen: (String) -> Unit, vm: LibraryViewModel = viewModel()) 
 @Composable
 fun ReadingScreen(vm: PracticeViewModel, textId: String, onRecord: () -> Unit) {
     val s by vm.state.collectAsStateWithLifecycle()
+    val jobs by vm.jobs.collectAsStateWithLifecycle()
     LaunchedEffect(textId) { vm.load(textId) }
     DisposableEffect(Unit) { onDispose { vm.stopSpeaking() } }
     val text = s.text
@@ -130,7 +152,19 @@ fun ReadingScreen(vm: PracticeViewModel, textId: String, onRecord: () -> Unit) {
             Text(text.item.titleEn, style = MaterialTheme.typography.headlineSmall)
             Text(text.item.titleRu, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(12.dp))
-            text.body.split("\n\n").forEach { para ->
+            val reading = s.reading
+            if (reading != null) {
+                val job = jobs.filter { it.textId == textId }.let { l -> l.firstOrNull { it.running } ?: l.firstOrNull() }
+                ReadingStatusCard(reading, job)
+                Spacer(Modifier.height(12.dp))
+            }
+            s.error?.let { Text(it, color = MaterialTheme.colorScheme.error, modifier = Modifier.padding(bottom = 8.dp)) }
+            val marked = remember(text.body, reading, s.wordSheet) {
+                markedBody(text.body, reading, s.wordSheet, onScored = { vm.selectWord(it) }, onPlain = { vm.showWord(it) })
+            }
+            if (marked != null) {
+                Text(marked, fontSize = 20.sp, lineHeight = 30.sp, modifier = Modifier.padding(bottom = 12.dp))
+            } else text.body.split("\n\n").forEach { para ->
                 val annotated = buildAnnotatedString {
                     var last = 0
                     for (m in Regex("[\\p{L}\\p{N}]+(?:['’-][\\p{L}\\p{N}]+)*").findAll(para)) {
@@ -142,6 +176,11 @@ fun ReadingScreen(vm: PracticeViewModel, textId: String, onRecord: () -> Unit) {
                     append(para.substring(last))
                 }
                 Text(annotated, fontSize = 20.sp, lineHeight = 30.sp, modifier = Modifier.padding(bottom = 12.dp))
+            }
+            s.reading?.result?.let { AdviceList(it.advice) }
+            if (s.attempts.isNotEmpty()) {
+                SectionTitle("Попытки")
+                AttemptsList(s.attempts, vm::playAttempt)
             }
             if (s.focus.isNotEmpty()) {
                 SectionTitle("Звуки этого текста")
@@ -168,6 +207,11 @@ fun ReadingScreen(vm: PracticeViewModel, textId: String, onRecord: () -> Unit) {
                 }
             }
         }
+    }
+
+    s.wordSheet?.let { w ->
+        WordScoreSheet(w, s.reading?.result?.advice.orEmpty(), onDismiss = { vm.selectWord(null); vm.stopSpeaking() },
+            onReference = { vm.playReference(w) }, onMine = { vm.playMyWord(w) })
     }
 
     s.wordInfo?.let { w ->

@@ -23,6 +23,7 @@
 #include <fstream>
 #include <map>
 #include <memory>
+#include <mutex>
 #include <sstream>
 #include <string>
 #include <thread>
@@ -36,6 +37,8 @@
 namespace fs = std::filesystem;
 
 #include "engine_internal.h"
+#include "phoneme_segments.h"
+#include "pron/pron_progress.h"
 
 namespace pron_internal {
 
@@ -178,8 +181,82 @@ void load_voice(pron_engine* e, const fs::path& models, const char* id, std::uni
 std::string ints(double v) { char b[32]; std::snprintf(b, sizeof b, "%.1f", v); return b; }
 std::string num(double v) { char b[40]; std::snprintf(b, sizeof b, "%.4f", v); return b; }
 
-char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sample_rate, const char* reference) {
+enum Stage { kVad = 0, kAsr = 1, kPhoneme = 2, kAssess = 3, kStages = 4 };
+const char* const kStageNames[kStages] = {"vad", "asr", "phoneme", "assess"};
+
+bool stage_present(const pron_engine* e, int s) {
+    return s == kVad ? bool(e->vad) : s == kAsr ? bool(e->asr) : s == kPhoneme ? bool(e->phoneme) : true;
+}
+
+// Seconds of processing per second of audio, per stage (moving average; defaults sum to 0.6).
+double stage_ratio(pron_engine* e, int s) {
+    return e->ratio_seen[s] ? e->ratio[s] : kDefaultRatio[s];
+}
+double total_ratio(pron_engine* e) {
+    std::lock_guard<std::mutex> lk(e->ratio_mu);
+    double t = 0;
+    for (int s = 0; s < kStages; ++s) t += stage_ratio(e, s);
+    return t;
+}
+
+// Progress reporting for one assess call; runs on the calling thread.
+struct Reporter {
+    pron_progress_fn cb = nullptr;
+    void* user = nullptr;
+    Clock::time_point t0 = Clock::now(), last_emit = Clock::now();
+    double w[kStages] = {0, 0, 0, 0};  // normalized stage weights
+    double est_total = 0;              // per-device estimate of the whole call, seconds
+    double last_frac = 0;
+    int stage = -1;
+    double before = 0;
+    bool started = false;
+
+    void init(pron_engine* e, double audio_sec) {
+        double r[kStages], sum = 0;
+        {
+            std::lock_guard<std::mutex> lk(e->ratio_mu);
+            for (int s = 0; s < kStages; ++s) { r[s] = stage_present(e, s) ? stage_ratio(e, s) : 0.0; sum += r[s]; }
+        }
+        for (int s = 0; s < kStages; ++s) w[s] = sum > 0 ? r[s] / sum : (s == kAssess ? 1.0 : 0.0);
+        est_total = sum * audio_sec;
+    }
+    void fire(const char* name, double f, bool force) {
+        if (!cb) return;
+        const auto now = Clock::now();
+        if (!force && std::chrono::duration<double>(now - last_emit).count() < 0.5) return;
+        last_emit = now;
+        const double el = std::chrono::duration<double>(now - t0).count();
+        double eta;
+        if (f > 0.05) eta = std::max(0.0, el / f - el);
+        else eta = std::max(0.0, est_total - el);
+        try { cb(user, name, f, eta); } catch (...) {}
+    }
+    void begin(int s) {
+        stage = s;
+        before = 0;
+        for (int i = 0; i < s; ++i) before += w[i];
+        fire(kStageNames[s], last_frac = std::max(last_frac, std::min(0.99, before)), true);
+    }
+    // within: 0..1 progress inside the current stage
+    void update(double within) {
+        if (stage < 0) return;
+        const double f = std::max(last_frac, std::min(0.99, before + std::max(0.0, std::min(1.0, within)) * w[stage]));
+        last_frac = f;
+        fire(kStageNames[stage], f, false);
+    }
+    void done() {
+        if (!cb) return;
+        last_frac = 1.0;
+        fire("done", 1.0, true);
+    }
+};
+
+char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sample_rate, const char* reference,
+                      pron_progress_fn cb, void* user) {
+    std::lock_guard<std::mutex> heavy(e->heavy_mu);  // concurrent heavy calls serialize
     e->last_error.clear();
+    e->cancel.store(false);
+    const auto cancelled = [&]() -> char* { e->last_error = "cancelled"; return nullptr; };
     if (!reference) { e->last_error = "reference is NULL"; return nullptr; }
     if (sample_rate <= 0) { e->last_error = "invalid sample rate"; return nullptr; }
     if (!samples && count > 0) { e->last_error = "samples is NULL"; return nullptr; }
@@ -187,18 +264,27 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
     std::vector<float> audio;
     if (count > 0) audio = resample_16k(samples, count, sample_rate);
     for (float& v : audio) v = std::max(-1.0f, std::min(1.0f, v));
+    const double audio_sec = double(audio.size()) / 16000.0;
+
+    Reporter rep;
+    rep.cb = cb;
+    rep.user = user;
+    rep.init(e, audio_sec);
 
     double t_vad = 0, t_asr = 0, t_ph = 0, t_as = 0;
+    bool ran_vad = false, ran_asr = false, ran_ph = false;
 
     // VAD: trim leading/trailing silence only, inner pauses stay.
     std::vector<pron::SpeechSegment> segments;
     size_t b = 0, en = audio.size();
     bool have_speech = !audio.empty();
     if (e->vad && !audio.empty()) {
+        rep.begin(kVad);
         auto t0 = Clock::now();
         pron::AudioView av{audio.data(), audio.size(), 16000};
         segments = e->vad->detect(av);
         t_vad = ms_since(t0);
+        ran_vad = true;
         if (segments.empty()) {
             have_speech = false;
         } else {
@@ -208,6 +294,7 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
             if (en <= b) have_speech = false;
         }
     }
+    if (e->cancel.load()) return cancelled();
     const double offset = double(b) / 16000.0;
 
     std::vector<pron::AsrWord> asr_words;
@@ -215,14 +302,33 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
     std::vector<pron_word> words;
     std::string recognized;
     if (have_speech && e->asr) {
+        rep.begin(kAsr);
         auto t0 = Clock::now();
         pron::AudioView av{audio.data() + b, en - b, 16000};
+        auto* wasr = dynamic_cast<pron::WhisperAsr*>(e->asr.get());
+        double asr_within = 0;
+        const auto worker = std::this_thread::get_id();
+        if (wasr) {
+            wasr->set_progress_callback([&](int pct) { asr_within = pct / 100.0; rep.update(asr_within); });
+            // whisper polls this (also from its compute threads): cancel flag, plus a heartbeat on our own thread.
+            wasr->set_abort_callback([&]() {
+                if (e->cancel.load(std::memory_order_relaxed)) return true;
+                if (std::this_thread::get_id() == worker) rep.update(asr_within);
+                return false;
+            });
+        }
+        bool was_cancelled = false;
         try {
             asr_words = e->asr->transcribe(av, pron::AsrOptions{});
+        } catch (const pron::AsrCancelled&) {
+            was_cancelled = true;
         } catch (const std::exception& ex) {
-            e->errors["asr_run"] = ex.what();
+            { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["asr_run"] = ex.what(); }
         }
+        if (wasr) { wasr->set_progress_callback(nullptr); wasr->set_abort_callback(nullptr); }
+        if (was_cancelled || e->cancel.load()) return cancelled();
         t_asr = ms_since(t0);
+        ran_asr = true;
         word_text.reserve(asr_words.size());
         for (const auto& w : asr_words) word_text.push_back(trim(w.text));
         for (size_t i = 0; i < asr_words.size(); ++i) {
@@ -240,34 +346,40 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
 
     pron::LogPosteriors post;
     bool have_post = false;
-    if (have_speech && e->phoneme) {
-        auto t0 = Clock::now();
-        try {
-            pron::AudioView av{audio.data() + b, en - b, 16000};
-            pron::LogPosteriors lp = e->phoneme->compute(av);
-            if (lp.valid() && lp.frames > 0 && lp.classes > 0) {
-                // Re-anchor to the original recording: prepend blank-dominant frames for the trimmed lead.
-                const int pad = static_cast<int>(std::lround(offset / lp.frame_seconds));
-                if (pad > 0) {
-                    pron::LogPosteriors full(lp.frames + pad, lp.classes, lp.frame_seconds);
-                    const int blank = e->phoneme->blank_index();
-                    for (int t = 0; t < pad; ++t)
-                        for (int c = 0; c < lp.classes; ++c) full.at(t, c) = (c == blank) ? 0.0f : -30.0f;
-                    std::copy(lp.data.begin(), lp.data.end(),
-                              full.data.begin() + static_cast<std::ptrdiff_t>(pad) * lp.classes);
-                    post = std::move(full);
-                } else {
-                    post = std::move(lp);
+    size_t n_ph_segments = 0;
+    if (have_speech) {
+        const auto plan = pron_internal::plan_phoneme_segments(audio.data(), audio.size(), b, en, segments);
+        n_ph_segments = plan.size();
+        if (e->phoneme) {
+            rep.begin(kPhoneme);
+            auto t0 = Clock::now();
+            try {
+                size_t total = 0, donelen = 0;
+                for (const auto& g : plan) total += g.pad_end - g.pad_begin;
+                pron_internal::PosteriorStitcher st(int(e->phoneme->labels().size()), e->phoneme->blank_index());
+                for (size_t i = 0; i < plan.size(); ++i) {
+                    if (e->cancel.load()) return cancelled();
+                    const auto& g = plan[i];
+                    pron::AudioView av{audio.data() + g.pad_begin, g.pad_end - g.pad_begin, 16000};
+                    pron::LogPosteriors lp = e->phoneme->compute(av);
+                    st.add(g, lp, i + 1 == plan.size());
+                    donelen += g.pad_end - g.pad_begin;
+                    rep.update(total ? double(donelen) / double(total) : 1.0);
                 }
-                have_post = true;
+                post = st.finish();
+                if (post.valid() && post.frames > 0 && post.classes > 0) have_post = true;
+            } catch (const std::exception& ex) {
+                { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["phoneme_run"] = ex.what(); }
             }
-        } catch (const std::exception& ex) {
-            e->errors["phoneme_run"] = ex.what();
+            t_ph = ms_since(t0);
+            ran_ph = true;
         }
-        t_ph = ms_since(t0);
     }
+    if (e->cancel.load()) return cancelled();
 
+    rep.begin(kAssess);
     auto t0 = Clock::now();
+    std::unique_lock<std::mutex> alk(e->assessor_mu);
     char* res = pron_assess(e->assessor, reference, words.empty() ? nullptr : words.data(), int(words.size()),
                             have_post ? post.data.data() : nullptr, have_post ? post.frames : 0,
                             have_post ? post.classes : 0, have_post ? post.frame_seconds : 0.02);
@@ -277,6 +389,7 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
         e->last_error = (le && *le) ? le : "pron_assess failed";
         return nullptr;
     }
+    alk.unlock();
 
     std::string json = res;
     pron_free_string(res);
@@ -288,9 +401,23 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
         if (i) x << ',';
         x << '[' << num(segments[i].start) << ',' << num(segments[i].end) << ']';
     }
-    x << "],\"timings_ms\":{\"vad\":" << ints(t_vad) << ",\"asr\":" << ints(t_asr) << ",\"phoneme\":" << ints(t_ph)
+    x << "],\"phoneme_segments\":" << n_ph_segments << ",\"timings_ms\":{\"vad\":" << ints(t_vad) << ",\"asr\":" << ints(t_asr) << ",\"phoneme\":" << ints(t_ph)
       << ",\"assess\":" << ints(t_as) << "}";
     json.insert(close, x.str());
+
+    // Moving average of processing time per audio second, per stage that ran.
+    if (audio_sec > 0.5) {
+        std::lock_guard<std::mutex> lk(e->ratio_mu);
+        const double ms[kStages] = {t_vad, t_asr, t_ph, t_as};
+        const bool ran[kStages] = {ran_vad, ran_asr, ran_ph, true};
+        for (int s = 0; s < kStages; ++s) {
+            if (!ran[s]) continue;
+            const double r = ms[s] / 1000.0 / audio_sec;
+            e->ratio[s] = e->ratio_seen[s] ? 0.7 * e->ratio[s] + 0.3 * r : r;
+            e->ratio_seen[s] = true;
+        }
+    }
+    rep.done();
     return dup_string(json);
 }
 
@@ -404,13 +531,15 @@ PRON_API char* pron_engine_status(pron_engine* e) {
           << ",\"live\":" << (e->live_available ? "true" : "false") << ",\"cmudict\":" << (e->cmudict ? "true" : "false") << ",\"tts\":{\"us\":" << (e->tts_us ? "true" : "false")
           << ",\"gb\":" << (e->tts_gb ? "true" : "false") << "},\"errors\":{";
         bool first = true;
+        std::lock_guard<std::mutex> elk(e->errors_mu);
         for (const auto& kv : e->errors) {
             if (!first) o << ',';
             first = false;
             o << '"' << json_escape(kv.first) << "\":\"" << json_escape(kv.second) << '"';
         }
         o << "},\"phoneme_vocab\":";
-        char* vj = pron_assessor_phoneme_vocab_json(e->assessor);
+        char* vj;
+        { std::lock_guard<std::mutex> alk(e->assessor_mu); vj = pron_assessor_phoneme_vocab_json(e->assessor); }
         if (vj) { o << vj; pron_free_string(vj); }
         else o << "{\"size\":0,\"mapped\":0,\"unmapped\":[]}";
         o << "}";
@@ -419,11 +548,12 @@ PRON_API char* pron_engine_status(pron_engine* e) {
 }
 
 PRON_API void pron_engine_set_strictness(pron_engine* e, int strictness) {
-    if (e && e->assessor) pron_assessor_set_strictness(e->assessor, strictness);
+    if (e && e->assessor) { std::lock_guard<std::mutex> lk(e->assessor_mu); pron_assessor_set_strictness(e->assessor, strictness); }
 }
 
 PRON_API int pron_engine_set_accent(pron_engine* e, const char* accent) {
     if (!e || !e->assessor) return -1;
+    std::lock_guard<std::mutex> lk(e->assessor_mu);
     const int rc = pron_assessor_set_accent(e->assessor, accent);
     if (rc < 0) e->last_error = pron_last_error(e->assessor);
     return rc;
@@ -432,7 +562,34 @@ PRON_API int pron_engine_set_accent(pron_engine* e, const char* accent) {
 PRON_API char* pron_engine_assess_f32(pron_engine* e, const float* samples, size_t count, int sample_rate,
                                       const char* reference_utf8) {
     if (!e) return nullptr;
-    return guard(e, [&] { return assess_f32_impl(e, samples, count, sample_rate, reference_utf8); });
+    return guard(e, [&] { return assess_f32_impl(e, samples, count, sample_rate, reference_utf8, nullptr, nullptr); });
+}
+
+PRON_API char* pron_engine_assess_f32_progress(pron_engine* e, const float* samples, size_t count, int sample_rate,
+                                               const char* reference_utf8, pron_progress_fn cb, void* user) {
+    if (!e) return nullptr;
+    return guard(e, [&] { return assess_f32_impl(e, samples, count, sample_rate, reference_utf8, cb, user); });
+}
+
+PRON_API char* pron_engine_assess_pcm16_progress(pron_engine* e, const int16_t* samples, size_t count,
+                                                 int sample_rate, const char* reference_utf8, pron_progress_fn cb,
+                                                 void* user) {
+    if (!e) return nullptr;
+    return guard(e, [&]() -> char* {
+        if (!samples && count > 0) { e->last_error = "samples is NULL"; return nullptr; }
+        std::vector<float> f(count);
+        for (size_t i = 0; i < count; ++i) f[i] = float(samples[i]) / 32768.0f;
+        return assess_f32_impl(e, f.data(), count, sample_rate, reference_utf8, cb, user);
+    });
+}
+
+PRON_API void pron_engine_cancel(pron_engine* e) {
+    if (e) e->cancel.store(true);
+}
+
+PRON_API double pron_engine_estimate_seconds(pron_engine* e, double audio_seconds) {
+    if (!e || !(audio_seconds > 0)) return 0.0;
+    return audio_seconds * total_ratio(e);
 }
 
 PRON_API char* pron_engine_assess_pcm16(pron_engine* e, const int16_t* samples, size_t count, int sample_rate,
@@ -442,7 +599,7 @@ PRON_API char* pron_engine_assess_pcm16(pron_engine* e, const int16_t* samples, 
         if (!samples && count > 0) { e->last_error = "samples is NULL"; return nullptr; }
         std::vector<float> f(count);
         for (size_t i = 0; i < count; ++i) f[i] = float(samples[i]) / 32768.0f;
-        return assess_f32_impl(e, f.data(), count, sample_rate, reference_utf8);
+        return assess_f32_impl(e, f.data(), count, sample_rate, reference_utf8, nullptr, nullptr);
     });
 }
 
@@ -457,12 +614,17 @@ PRON_API float* pron_engine_tts(pron_engine* e, const char* text_utf8, const cha
         pron::ITts* t = v == "us" ? e->tts_us.get() : v == "gb" ? e->tts_gb.get() : nullptr;
         if (v != "us" && v != "gb") { e->last_error = "unknown voice: " + v; return nullptr; }
         if (!t) {
+            std::lock_guard<std::mutex> elk(e->errors_mu);
             auto it = e->errors.find("tts_" + v);
             e->last_error = "voice not loaded: " + v + (it != e->errors.end() ? " (" + it->second + ")" : "");
             return nullptr;
         }
         speed = std::max(0.5f, std::min(1.5f, speed));
-        std::vector<float> pcm = t->synthesize(text_utf8, speed);
+        std::vector<float> pcm;
+        {
+            std::lock_guard<std::mutex> lk(v == "us" ? e->tts_us_mu : e->tts_gb_mu);
+            pcm = t->synthesize(text_utf8, speed);
+        }
         if (pcm.empty()) { e->last_error = "synthesis failed"; return nullptr; }
         float* out = static_cast<float*>(std::malloc(pcm.size() * sizeof(float)));
         if (!out) { e->last_error = "out of memory"; return nullptr; }
@@ -478,6 +640,7 @@ PRON_API void pron_engine_free_audio(float* samples) { std::free(samples); }
 PRON_API char* pron_engine_lookup(pron_engine* e, const char* word_utf8) {
     if (!e || !word_utf8) return nullptr;
     return guard(e, [&] {
+        std::lock_guard<std::mutex> lk(e->assessor_mu);
         char* r = pron_assessor_lookup(e->assessor, word_utf8);
         if (!r) e->last_error = pron_last_error(e->assessor);
         return r;

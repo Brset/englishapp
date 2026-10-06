@@ -1,5 +1,8 @@
 // Engine tests. argv[1] = test data dir (contains models/ assembled by fetch_models.cmake).
+#include <atomic>
 #include <cctype>
+#include <cstring>
+#include <thread>
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>
@@ -8,6 +11,8 @@
 #include <vector>
 
 #include "pron/pron_engine.h"
+#include "pron/pron_live.h"
+#include "pron/pron_progress.h"
 
 static int g_fail = 0;
 #define CHECK(c) do { if (!(c)) { std::printf("FAIL %s:%d: %s\n", __FILE__, __LINE__, #c); ++g_fail; } } while (0)
@@ -36,6 +41,17 @@ struct J {
 };
 static bool valid_json(const std::string& s) { J j{s.data(), s.data() + s.size()}; if (!j.val()) return false; j.ws(); return j.p == j.e; }
 static bool has(const std::string& s, const char* sub) { return s.find(sub) != std::string::npos; }
+
+struct ProgLog {
+    struct Ev { std::string stage; double f, eta; };
+    std::vector<Ev> ev;
+    std::atomic<bool> trigger{false};
+};
+static void on_progress(void* u, const char* stage, double f, double eta) {
+    auto* l = static_cast<ProgLog*>(u);
+    l->ev.push_back({stage, f, eta});
+    l->trigger = true;
+}
 
 static std::vector<int16_t> tone(int sr, double sec) {
     std::vector<int16_t> v(size_t(sr * sec));
@@ -81,6 +97,7 @@ int main(int argc, char** argv) {
     st = pron_engine_status(e);
     CHECK(st && valid_json(st));
     std::printf("status: %s\n", st ? st : "(null)");
+    CHECK(std::fabs(pron_engine_estimate_seconds(e, 10.0) - 6.0) < 1e-6);  // default ratio 0.6 before the first call
     const bool vad = st && has(st, "\"vad\":true"), tts = st && has(st, "\"tts\":{\"us\":true");
     const bool asr = st && has(st, "\"asr\":true");
     pron_free_string(st);
@@ -110,6 +127,117 @@ int main(int argc, char** argv) {
     CHECK(lk && valid_json(lk));
     pron_free_string(lk);
     std::printf("asr loaded (tiny test model, no-crash only): %d\n", asr);
+    // 3. Progress, cancel, long input (progress API).
+    {
+        const char* kPara =
+            "Learning to speak a new language takes patience, and a little practice every single day. "
+            "When you read aloud, try to listen carefully to the sounds that you make, and compare them with the sounds "
+            "that native speakers produce. Think about the weather, and talk about the three brothers who were walking "
+            "very fast along the road to the village. They stopped near the old bridge, because the river was high, "
+            "and the water was moving much faster than anyone had expected after such a quiet and sunny morning. "
+            "In the end they decided to wait, to drink some tea, and to tell each other a few stories about their "
+            "childhood, while the clouds slowly drifted away across the wide blue sky above the hills.";
+        size_t ln = 0; int lsr = 0;
+        float* la = pron_engine_tts(e, kPara, "us", 1.0f, &ln, &lsr);
+        CHECK(la && ln > 0);
+        if (la) {
+            const double secs = double(ln) / lsr;
+            std::printf("long tts: %.1f s\n", secs);
+            CHECK(secs > 30.0);
+            ProgLog log;
+            char* j = pron_engine_assess_f32_progress(e, la, ln, lsr, kPara, on_progress, &log);
+            CHECK(j && valid_json(j));
+            if (!j) std::printf("err: %s\n", pron_engine_last_error(e));
+            if (j) {
+                CHECK(has(j, "\"recognized\":"));
+                const char* ps = std::strstr(j, "\"phoneme_segments\":");
+                const int nseg = ps ? std::atoi(ps + 19) : 0;
+                std::printf("phoneme segments: %d\n", nseg);
+                CHECK(nseg >= 3);
+                pron_free_string(j);
+            }
+            CHECK(log.ev.size() >= 3);
+            double prev = -1;
+            bool mono = true;
+            for (const auto& x : log.ev) {
+                std::printf("  %-8s %.3f eta %.2f\n", x.stage.c_str(), x.f, x.eta);
+                if (x.f < prev - 1e-12 || x.f < 0 || x.f > 1) mono = false;
+                prev = x.f;
+            }
+            CHECK(mono);
+            CHECK(!log.ev.empty() && log.ev.front().stage == "vad");
+            CHECK(!log.ev.empty() && log.ev.back().stage == "done" && log.ev.back().f == 1.0);
+            for (size_t i = 0; i + 1 < log.ev.size(); ++i) CHECK(log.ev[i].stage != "done" && log.ev[i].f < 1.0);
+            const double est1 = pron_engine_estimate_seconds(e, 10.0);
+            std::printf("estimate after a call for 10 s: %.2f s\n", est1);
+            CHECK(est1 > 0.0);
+
+            // Concurrency: heavy assess on this thread while another thread does TTS, lookup, status, estimate (+ live if present).
+            {
+                std::atomic<int> tts_ok{0}, look_ok{0}, live_ok{0}, started{0};
+                std::atomic<bool> stop{false};
+                const bool live_here = [&] { char* s = pron_engine_status(e); bool v = s && has(s, "\"live\":true"); pron_free_string(s); return v; }();
+                std::thread other([&] {
+                    started = 1;
+                    while (!stop.load()) {
+                        size_t n2 = 0; int sr2 = 0;
+                        float* w = pron_engine_tts(e, "Think about the weather.", "us", 1.0f, &n2, &sr2);
+                        if (w && n2 > 1000) ++tts_ok;
+                        pron_engine_free_audio(w);
+                        for (int k = 0; k < 20; ++k) {
+                            char* l = pron_engine_lookup(e, "weather");
+                            if (l && has(l, "\"ipa\"")) ++look_ok;
+                            pron_free_string(l);
+                        }
+                        char* s = pron_engine_status(e); pron_free_string(s);
+                        (void)pron_engine_estimate_seconds(e, 5.0);
+                        if (live_here) {
+                            pron_live* lv = pron_live_start(e, "Think about the weather.");
+                            if (lv) {
+                                std::vector<int16_t> ch(2560, 0);
+                                for (int k = 0; k < 5; ++k) { char* r = pron_live_feed_pcm16(lv, ch.data(), ch.size(), 16000); pron_free_string(r); }
+                                char* r = pron_live_finish(lv);
+                                if (r) ++live_ok;
+                                pron_free_string(r);
+                                pron_live_free(lv);
+                            }
+                        }
+                    }
+                });
+                while (!started.load()) std::this_thread::yield();
+                ProgLog clog2;
+                char* cj2 = pron_engine_assess_f32_progress(e, la, ln, lsr, kPara, on_progress, &clog2);
+                stop = true;
+                other.join();
+                std::printf("concurrent: assess %s, tts %d, lookup %d, live %d (live model %s)\n", cj2 ? "ok" : "FAILED",
+                            tts_ok.load(), look_ok.load(), live_ok.load(), live_here ? "present" : "absent");
+                CHECK(cj2 != nullptr);
+                CHECK(tts_ok.load() >= 1 && look_ok.load() >= 1);
+                if (live_here) CHECK(live_ok.load() >= 1);
+                pron_free_string(cj2);
+            }
+
+            // Cancel from another thread, shortly after the call started.
+            ProgLog clog;
+            std::thread th([&] {
+                while (!clog.trigger.load()) std::this_thread::yield();
+                pron_engine_cancel(e);
+            });
+            char* cj = pron_engine_assess_f32_progress(e, la, ln, lsr, kPara, on_progress, &clog);
+            th.join();
+            CHECK(cj == nullptr);
+            CHECK(std::strcmp(pron_engine_last_error(e), "cancelled") == 0);
+            for (const auto& x : clog.ev) CHECK(x.stage != "done");
+            pron_free_string(cj);
+
+            // The flag is cleared by the next call; thin wrappers (no callback) still work.
+            char* again = pron_engine_assess_f32(e, la, ln, lsr, kPara);
+            CHECK(again != nullptr);
+            pron_free_string(again);
+            pron_engine_free_audio(la);
+        }
+    }
+
     pron_engine_destroy(e);
     std::printf(g_fail ? "FAILED\n" : "OK\n");
     return g_fail ? 1 : 0;

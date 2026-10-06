@@ -1,1 +1,4 @@
 -keep class app.englishpron.PronCore { *; }
+-keep class app.englishpron.engine.NativeEngine { *; }
+-keep interface app.englishpron.engine.NativeEngine$ProgressListener { *; }
+-keep class * implements app.englishpron.engine.NativeEngine$ProgressListener { *; }

@@ -7,6 +7,25 @@ import org.json.JSONObject
 data class TextItem(
     val id: String, val level: String, val genre: String, val titleEn: String, val titleRu: String,
     val descriptionRu: String, val wordCount: Int, val status: String = "new", val bestScore: Double? = null,
+    /** A background assessment of this text is queued or running. */
+    val pending: Boolean = false, val lastScore: Double? = null,
+)
+
+/** Row of processing_jobs (active ones carry the text title for the UI). */
+data class JobRow(
+    val id: Long, val textId: String, val title: String, val status: String, val progress: Double, val etaSec: Double,
+    val audioSeconds: Double, val reference: String, val wavPath: String, val kind: String,
+)
+
+/** Latest saved reading of a text: quick live marks first, full [result] once the job is done. */
+data class TextReading(
+    val recordingId: Long, val wavPath: String, val live: app.englishpron.engine.LiveState?,
+    val result: AssessmentUi?, val pending: Boolean, val failed: Boolean,
+)
+
+data class AttemptItem(
+    val id: Long, val createdAt: Long, val durationMs: Long, val score: Double?, val kind: String,
+    val wavPath: String, val jobStatus: String?,
 )
 
 data class TextFull(val item: TextItem, val body: String)
@@ -36,6 +55,8 @@ data class WordResult(
     val index: Int, val text: String, val u16Begin: Int, val u16End: Int, val status: String,
     val score: Double, val band: String, val colorHex: String, val expectedIpa: String,
     val phonemes: List<PhonemeResult>,
+    /** What was heard in this word's slot ("" if omitted); start/end seconds in the recording or -1. */
+    val recognized: String = "", val startSec: Double = -1.0, val endSec: Double = -1.0,
 )
 
 data class AdviceItem(val id: String, val soundId: String, val expectedIpa: String, val actualIpa: String,
@@ -62,6 +83,9 @@ data class AssessmentUi(
                             p.optBoolean("substituted"), p.optString("actual_ipa"),
                             if (p.isNull("advice_id")) null else p.optString("advice_id"))
                     } ?: emptyList(),
+                    w.optString("recognized"),
+                    if (w.isNull("start")) -1.0 else w.optDouble("start", -1.0),
+                    if (w.isNull("end")) -1.0 else w.optDouble("end", -1.0),
                 )
             }
             val advice = o.optJSONArray("advice")?.objs()?.map { a ->

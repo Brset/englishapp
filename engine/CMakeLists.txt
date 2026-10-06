@@ -101,7 +101,7 @@ foreach(s ${_core_src})
   list(APPEND _core_abs "${_core_dir}/${s}")
 endforeach()
 
-add_library(pron_engine SHARED ${_core_abs} src/engine.cpp src/live.cpp)
+add_library(pron_engine SHARED ${_core_abs} src/engine.cpp src/live.cpp src/phoneme_segments.cpp)
 target_include_directories(pron_engine PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include" "${_core_dir}/include")
 target_compile_definitions(pron_engine PUBLIC PRON_SHARED PRIVATE PRON_BUILDING)
 target_include_directories(pron_engine PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src" "${SHERPA_ONNX_ROOT}/include")
@@ -143,6 +143,9 @@ if(PRON_ENGINE_BUILD_TESTS AND NOT ANDROID)
     -DWHISPER_TEST_MODEL=${_whisper_src}/models/for-tests-ggml-tiny.en.bin
     -P ${CMAKE_CURRENT_SOURCE_DIR}/tests/fetch_models.cmake)
   add_test(NAME engine_tests COMMAND pron_engine_tests ${_td})
+  add_executable(pron_segment_tests tests/segment_tests.cpp src/phoneme_segments.cpp)
+  target_include_directories(pron_segment_tests PRIVATE src "${_core_dir}/include")
+  add_test(NAME engine_segment_tests COMMAND pron_segment_tests)
   set_tests_properties(engine_tests PROPERTIES DEPENDS engine_fetch_models)
 endif()
 

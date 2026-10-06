@@ -1,7 +1,7 @@
 // pron_cli - end-to-end check of the engine through its C API only.
 //   pron_cli status   <models>
 //   pron_cli selftest <models>
-//   pron_cli assess   <models> <wav16k_mono_pcm16> <text>
+//   pron_cli assess   [--progress] <models> <wav16k_mono_pcm16> <text>
 //   pron_cli live     <models> <wav_mono_pcm16> <text>   (live tracker, 160 ms chunks, prints cursor per chunk)
 #include <algorithm>
 #include <chrono>
@@ -18,6 +18,7 @@
 
 #include "pron/pron_engine.h"
 #include "pron/pron_live.h"
+#include "pron/pron_progress.h"
 
 // ---------------------------------------------------------------- tiny JSON DOM
 struct JV {
@@ -212,6 +213,16 @@ static Verdict check_assessment(const std::string& json, double ms) {
     return v;
 }
 
+struct ProgState { bool print = false; double last = -1; bool mono = true; bool done = false; size_t n = 0; const char* tag = ""; };
+static void print_progress(void* u, const char* stage, double f, double eta) {
+    auto* p = static_cast<ProgState*>(u);
+    ++p->n;
+    if (f < p->last - 1e-12 || f < 0 || f > 1) p->mono = false;
+    p->last = f;
+    if (!std::strcmp(stage, "done")) p->done = true;
+    if (p->print) std::fprintf(stderr, "progress%s %-7s %5.1f%%  eta %.1fs\n", p->tag, stage, f * 100.0, eta);
+}
+
 struct LiveRun {
     bool ok = false;
     std::string error;
@@ -312,9 +323,18 @@ static int cmd_selftest(const char* models) {
                 live_pcm = q; live_sr = sr;
             }
             t0 = std::chrono::steady_clock::now();
-            std::string json = take(pron_engine_assess_f32(en.e, pcm.data(), pcm.size(), sr, text));
+            ProgState ps; ps.print = true; ps.tag = voice[0] == 'u' ? " [us]" : " [gb]";
+            std::string json = take(pron_engine_assess_f32_progress(en.e, pcm.data(), pcm.size(), sr, text, print_progress, &ps));
             assess_ms = ms_since(t0);
             if (json.empty()) f.push_back("assess failed: " + en.last_error());
+            else {
+                if (!ps.mono) f.push_back("progress fractions not monotonic");
+                if (!ps.done || ps.last != 1.0) f.push_back("progress did not end with done 1.0");
+                const double ratio = audio_s > 0 ? assess_ms / 1000.0 / audio_s : 0;
+                std::fprintf(stderr, "measured ratio [%s]: %.3f s processing per audio second (%.0f ms for %.2f s); estimate for 10 s: %.2f s\n",
+                             voice, ratio, assess_ms, audio_s, pron_engine_estimate_seconds(en.e, 10.0));
+            }
+            if (json.empty()) {}
             else { Verdict v = check_assessment(json, assess_ms); summary = v.summary; f.insert(f.end(), v.failures.begin(), v.failures.end()); }
         }
         std::printf("{\"voice\":\"%s\",\"ok\":%s,\"tts_ms\":%.0f,\"tts_sample_rate\":%d,\"audio_seconds\":%.2f,\"assess_ms\":%.0f,\"result\":%s,\"failures\":[",
@@ -355,12 +375,15 @@ static int cmd_selftest(const char* models) {
     return fails ? 1 : 0;
 }
 
-static int cmd_assess(const char* models, const char* wav, const char* text) {
+static int cmd_assess(const char* models, const char* wav, const char* text, bool show_progress) {
     std::vector<int16_t> pcm; int sr = 0; std::string err;
     if (!read_wav(wav, pcm, sr, err)) { std::fprintf(stderr, "error: %s\n", err.c_str()); return 2; }
     Engine en(models);
     if (!en.e) { std::fprintf(stderr, "error: cannot create engine for %s\n", models); return 2; }
-    std::string json = take(pron_engine_assess_pcm16(en.e, pcm.data(), pcm.size(), sr, text));
+    ProgState ps; ps.print = true;
+    std::string json = show_progress
+        ? take(pron_engine_assess_pcm16_progress(en.e, pcm.data(), pcm.size(), sr, text, print_progress, &ps))
+        : take(pron_engine_assess_pcm16(en.e, pcm.data(), pcm.size(), sr, text));
     if (json.empty()) { std::fprintf(stderr, "error: %s\n", en.last_error().c_str()); return 1; }
     std::printf("%s\n", json.c_str());
     return 0;
@@ -371,7 +394,8 @@ int main(int argc, char** argv) {
     if (c == "status" && argc == 3) return cmd_status(argv[2]);
     if (c == "selftest" && argc == 3) return cmd_selftest(argv[2]);
     if (c == "live" && argc == 5) return cmd_live(argv[2], argv[3], argv[4]);
-    if (c == "assess" && argc == 5) return cmd_assess(argv[2], argv[3], argv[4]);
-    std::fprintf(stderr, "usage: pron_cli status <models> | selftest <models> | assess <models> <wav16k_mono_pcm16> <text> | live <models> <wav_mono_pcm16> <text>\n");
+    if (c == "assess" && argc == 5) return cmd_assess(argv[2], argv[3], argv[4], false);
+    if (c == "assess" && argc == 6 && !std::strcmp(argv[2], "--progress")) return cmd_assess(argv[3], argv[4], argv[5], true);
+    std::fprintf(stderr, "usage: pron_cli status <models> | selftest <models> | assess [--progress] <models> <wav16k_mono_pcm16> <text> | live <models> <wav_mono_pcm16> <text>\n");
     return 2;
 }

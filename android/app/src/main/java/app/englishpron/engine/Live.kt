@@ -15,6 +15,14 @@ enum class WordState { READ, SKIPPED, CURRENT, PENDING }
 data class LiveWord(val index: Int, val state: WordState, val u16Begin: Int, val u16End: Int)
 
 data class LiveState(val cursor: Int, val scrollTo: Int, val done: Boolean, val words: List<LiveWord>) {
+    /** Compact form stored with the recording; [parse] reads it back. */
+    fun toJson(): String {
+        val arr = org.json.JSONArray()
+        for (w in words) arr.put(JSONObject().put("i", w.index).put("u16_begin", w.u16Begin).put("u16_end", w.u16End)
+            .put("state", when (w.state) { WordState.READ -> "read"; WordState.SKIPPED -> "skipped"; WordState.CURRENT -> "current"; WordState.PENDING -> "pending" }))
+        return JSONObject().put("cursor", cursor).put("scroll_to", scrollTo).put("done", done).put("words", arr).toString()
+    }
+
     companion object {
         fun parse(json: String): LiveState? = try {
             val o = JSONObject(json)

@@ -45,8 +45,9 @@ public partial class LibraryViewModel : ObservableObject
             SelectedLevel == All ? null : SelectedLevel,
             SelectedGenre == All || string.IsNullOrEmpty(SelectedGenre) ? null : SelectedGenre,
             status, SearchText);
+        var reads = AppServices.Repo.GetReadSummaries();
         Items.Clear();
-        foreach (var t in list) Items.Add(t);
+        foreach (var t in list) Items.Add(reads.TryGetValue(t.Id, out var rs) ? t with { Read = rs } : t);
         CountText = $"Найдено: {list.Count}";
     }
 }

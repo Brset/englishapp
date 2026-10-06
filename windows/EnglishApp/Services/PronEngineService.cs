@@ -46,7 +46,8 @@ public sealed record EngineStatus(string Version, bool Asr, bool Vad, bool Phone
 /// <summary>Singleton wrapper over pron_engine. The native handle is not thread-safe: all calls go through a semaphore.</summary>
 public sealed class PronEngineService
 {
-    private readonly SemaphoreSlim _gate = new(1, 1);
+    private readonly SemaphoreSlim _gate = new(1, 1);        // live + TTS + lookup + strictness
+    private readonly SemaphoreSlim _heavyGate = new(1, 1);   // background assessments only (engine is concurrency-safe)
     private EngineHandle? _h;
     private readonly TaskCompletionSource _ready = new(TaskCreationOptions.RunContinuationsAsynchronously);
 
@@ -103,6 +104,18 @@ public sealed class PronEngineService
         finally { _gate.Release(); }
     }
 
+    private static short[] ReadWavPcm16(string wavPath, out int rate)
+    {
+        using var r = new WaveFileReader(wavPath);
+        rate = r.WaveFormat.SampleRate;
+        var bytes = new byte[r.Length];
+        int got = 0, n;
+        while (got < bytes.Length && (n = r.Read(bytes, got, bytes.Length - got)) > 0) got += n;
+        var samples = new short[got / 2];
+        Buffer.BlockCopy(bytes, 0, samples, 0, samples.Length * 2);
+        return samples;
+    }
+
     /// <summary>Assesses a 16 kHz mono 16-bit WAV recording; returns the result JSON.</summary>
     public async Task<string> AssessWavAsync(string wavPath, string reference, int strictness)
     {
@@ -111,17 +124,7 @@ public sealed class PronEngineService
         var h = _h;
         return await Task.Run(async () =>
         {
-            short[] samples;
-            int rate;
-            using (var r = new WaveFileReader(wavPath))
-            {
-                rate = r.WaveFormat.SampleRate;
-                var bytes = new byte[r.Length];
-                int got = 0, n;
-                while (got < bytes.Length && (n = r.Read(bytes, got, bytes.Length - got)) > 0) got += n;
-                samples = new short[got / 2];
-                Buffer.BlockCopy(bytes, 0, samples, 0, samples.Length * 2);
-            }
+            var samples = ReadWavPcm16(wavPath, out var rate);
             await _gate.WaitAsync();
             try
             {
@@ -133,6 +136,62 @@ public sealed class PronEngineService
             }
             finally { _gate.Release(); }
         });
+    }
+
+    /// <summary>
+    /// Heavy assessment with progress (stage, fraction 0..1, eta seconds or &lt;0) reported on the worker thread.
+    /// Holds the engine gate for the whole call. Throws PronCancelledException after CancelAssess().
+    /// </summary>
+    public async Task<string> AssessWavProgressAsync(string wavPath, string reference, int strictness,
+        Action<string, double, double> onProgress)
+    {
+        await Ready;
+        if (_h == null) throw new InvalidOperationException("Движок не загружен: " + Error);
+        var h = _h;
+        return await Task.Run(async () =>
+        {
+            var samples = ReadWavPcm16(wavPath, out var rate);
+            // The delegate must stay reachable for the whole native call (the marshaller holds only a raw thunk).
+            PronProgressFn cb = (user, stage, fraction, eta) =>
+            {
+                try { onProgress(Marshal.PtrToStringUTF8(stage) ?? "", fraction, eta); }
+                catch (Exception) { /* never let exceptions cross the native boundary */ }
+            };
+            await _heavyGate.WaitAsync();
+            try
+            {
+                NativeMethods.pron_engine_set_strictness(h, strictness);
+                var p = NativeMethods.pron_engine_assess_pcm16_progress(h, samples, (UIntPtr)samples.Length, rate,
+                    reference, cb, IntPtr.Zero);
+                GC.KeepAlive(cb);
+                var s = Take(p);
+                if (s == null)
+                {
+                    var err = LastError();
+                    if (err.Contains("cancel", StringComparison.OrdinalIgnoreCase)) throw new PronCancelledException();
+                    throw new PronException(err);
+                }
+                return s;
+            }
+            finally { _heavyGate.Release(); }
+        });
+    }
+
+    /// <summary>Aborts the running heavy assessment (any thread, does not take the gate).</summary>
+    public void CancelAssess()
+    {
+        var h = _h;
+        if (h == null || h.IsInvalid) return;
+        try { NativeMethods.pron_engine_cancel(h); } catch (Exception ex) { Diagnostics.LogException("cancel", ex); }
+    }
+
+    /// <summary>Estimated processing seconds for a recording of this length; &lt;0 when unknown.</summary>
+    public double EstimateSeconds(double audioSeconds)
+    {
+        var h = _h;
+        if (h == null || h.IsInvalid) return -1;
+        try { return NativeMethods.pron_engine_estimate_seconds(h, audioSeconds); }
+        catch (Exception) { return -1; }
     }
 
     /// <summary>Synthesizes speech; returns 16-bit mono WAV bytes or null (engine/voice missing or error).</summary>

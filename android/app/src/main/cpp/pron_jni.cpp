@@ -7,6 +7,7 @@
 #include "pron/pron_c.h"
 #include "pron/pron_engine.h"
 #include "pron/pron_live.h"
+#include "pron/pron_progress.h"
 
 namespace {
 
@@ -28,6 +29,38 @@ jstring take_json(JNIEnv* env, char* s) {
 pron_assessor* H(jlong h) { return reinterpret_cast<pron_assessor*>(h); }
 pron_engine* E(jlong h) { return reinterpret_cast<pron_engine*>(h); }
 pron_live* L(jlong h) { return reinterpret_cast<pron_live*>(h); }
+
+// Progress callback bridge: pron_progress_fn -> Kotlin NativeEngine.ProgressListener.onProgress.
+struct ProgressCtx {
+    JavaVM* vm = nullptr;
+    jobject listener = nullptr;  // global ref, owned by the assess call
+    jmethodID mid = nullptr;
+};
+
+void progress_cb(void* user, const char* stage, double fraction, double eta_sec) {
+    auto* c = static_cast<ProgressCtx*>(user);
+    if (!c || !c->vm || !c->listener || !c->mid) return;
+    JNIEnv* env = nullptr;
+    bool attached = false;
+    jint r = c->vm->GetEnv(reinterpret_cast<void**>(&env), JNI_VERSION_1_6);
+    if (r == JNI_EDETACHED) {
+#ifdef __ANDROID__
+        if (c->vm->AttachCurrentThread(&env, nullptr) != JNI_OK) return;
+#else
+        if (c->vm->AttachCurrentThread(reinterpret_cast<void**>(&env), nullptr) != JNI_OK) return;
+#endif
+        attached = true;
+    } else if (r != JNI_OK || !env) {
+        return;
+    }
+    jstring s = env->NewStringUTF(stage ? stage : "");
+    if (s) {
+        env->CallVoidMethod(c->listener, c->mid, s, static_cast<jdouble>(fraction), static_cast<jdouble>(eta_sec));
+        env->DeleteLocalRef(s);
+    }
+    if (env->ExceptionCheck()) env->ExceptionClear();  // never propagate into the engine
+    if (attached) c->vm->DetachCurrentThread();
+}
 
 }  // namespace
 
@@ -158,6 +191,40 @@ JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineAssessP
     char* out = pron_engine_assess_pcm16(E(h), reinterpret_cast<const int16_t*>(buf.data()),
                                          static_cast<size_t>(n), sampleRate, ref.c_str());
     return take_json(env, out);
+}
+
+// Heavy assessment with progress; listener is a Kotlin object with onProgress(String, double, double).
+// Returns null on error or when cancelled (engineLastError() == "cancelled").
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineAssessPcm16Progress(
+    JNIEnv* env, jclass, jlong h, jshortArray pcm, jint sampleRate, jstring reference, jobject listener) {
+    const jsize n = pcm ? env->GetArrayLength(pcm) : 0;
+    std::vector<jshort> buf(static_cast<size_t>(n));
+    if (n > 0) env->GetShortArrayRegion(pcm, 0, n, buf.data());
+    std::string ref = to_std(env, reference);
+
+    ProgressCtx ctx;
+    if (listener && env->GetJavaVM(&ctx.vm) == JNI_OK) {
+        jclass cls = env->GetObjectClass(listener);
+        ctx.mid = cls ? env->GetMethodID(cls, "onProgress", "(Ljava/lang/String;DD)V") : nullptr;
+        if (env->ExceptionCheck()) env->ExceptionClear();
+        if (cls) env->DeleteLocalRef(cls);
+        if (ctx.mid) ctx.listener = env->NewGlobalRef(listener);
+    }
+    char* out = pron_engine_assess_pcm16_progress(E(h), reinterpret_cast<const int16_t*>(buf.data()),
+                                                  static_cast<size_t>(n), sampleRate, ref.c_str(),
+                                                  ctx.listener ? progress_cb : nullptr, &ctx);
+    if (ctx.listener) env->DeleteGlobalRef(ctx.listener);
+    return take_json(env, out);
+}
+
+// Callable from any thread while an assess call runs on another.
+JNIEXPORT void JNICALL Java_app_englishpron_engine_NativeEngine_engineCancel(JNIEnv*, jclass, jlong h) {
+    if (h) pron_engine_cancel(E(h));
+}
+
+JNIEXPORT jdouble JNICALL Java_app_englishpron_engine_NativeEngine_engineEstimateSeconds(JNIEnv*, jclass, jlong h,
+                                                                                         jdouble audioSeconds) {
+    return h ? pron_engine_estimate_seconds(E(h), audioSeconds) : -1.0;
 }
 
 // Returns [sampleRate, s0, s1, ...] or null on error.

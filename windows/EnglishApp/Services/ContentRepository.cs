@@ -33,6 +33,8 @@ public sealed class ContentRepository : IDisposable
             Exec("INSERT OR REPLACE INTO user_meta(key,value) VALUES('schema_version','1')");
         }
 
+        Exec(JobsSchema);
+
         try
         {
             if (!File.Exists(contentDbPath)) throw new FileNotFoundException("content.db not found", contentDbPath);
@@ -49,16 +51,26 @@ public sealed class ContentRepository : IDisposable
         }
     }
 
+    private const string JobsSchema =
+        "CREATE TABLE IF NOT EXISTS processing_jobs (" +
+        "id INTEGER PRIMARY KEY AUTOINCREMENT, text_id TEXT NOT NULL, wav_path TEXT NOT NULL, " +
+        "audio_seconds REAL NOT NULL DEFAULT 0, " +
+        "status TEXT NOT NULL DEFAULT 'queued' CHECK (status IN ('queued','processing','done','failed','cancelled')), " +
+        "progress REAL NOT NULL DEFAULT 0, eta_sec REAL, result_json TEXT, error TEXT, " +
+        "created_at INTEGER NOT NULL, finished_at INTEGER); " +
+        "CREATE INDEX IF NOT EXISTS idx_jobs_status ON processing_jobs(status, id); " +
+        "CREATE INDEX IF NOT EXISTS idx_jobs_wav ON processing_jobs(wav_path);";
+
     // ---------- helpers ----------
 
-    private void Exec(string sql, params (string, object?)[] args)
+    private int Exec(string sql, params (string, object?)[] args)
     {
         lock (_lock)
         {
             using var cmd = _c.CreateCommand();
             cmd.CommandText = sql;
             foreach (var (k, v) in args) cmd.Parameters.AddWithValue(k, v ?? DBNull.Value);
-            cmd.ExecuteNonQuery();
+            return cmd.ExecuteNonQuery();
         }
     }
 
@@ -339,6 +351,170 @@ public sealed class ContentRepository : IDisposable
         ease = Math.Max(1.3, ease + 0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02));
         Exec("UPDATE saved_words SET ease=$e,interval_days=$i,due_at=$d,reps=$r,lapses=$l WHERE id=$id",
             ("$e", ease), ("$i", interval), ("$d", Now + (long)(interval * 86400)), ("$r", reps), ("$l", lapses), ("$id", w.Id));
+    }
+
+    // ---------- background processing queue ----------
+
+    /// <summary>
+    /// Called when a reading ends: stores the recording (live marks only, no score yet), marks the text read
+    /// (progress/streak) and enqueues the heavy assessment. Returns the job id.
+    /// </summary>
+    public long AddPendingReading(string textId, string wavPath, double audioSeconds, string? liveMarks)
+    {
+        long jobId;
+        string? liveJson = liveMarks == null ? null : System.Text.Json.JsonSerializer.Serialize(new { live = liveMarks });
+        lock (_lock)
+        {
+            using var tx = _c.BeginTransaction();
+            using (var cmd = _c.CreateCommand())
+            {
+                cmd.Transaction = tx;
+                cmd.CommandText = "INSERT INTO recordings(text_id,kind,file_path,duration_ms,score,scores_json,created_at) " +
+                                  "VALUES($t,'reading',$f,$d,NULL,$j,$c)";
+                cmd.Parameters.AddWithValue("$t", textId);
+                cmd.Parameters.AddWithValue("$f", wavPath);
+                cmd.Parameters.AddWithValue("$d", (int)(audioSeconds * 1000));
+                cmd.Parameters.AddWithValue("$j", (object?)liveJson ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$c", Now);
+                cmd.ExecuteNonQuery();
+            }
+            using (var cmd = _c.CreateCommand())
+            {
+                cmd.Transaction = tx;
+                cmd.CommandText =
+                    "INSERT INTO progress(text_id,status,attempts,last_opened_at,completed_at) VALUES($t,'done',1,$n,$n) " +
+                    "ON CONFLICT(text_id) DO UPDATE SET attempts=attempts+1, last_opened_at=$n, status='done', " +
+                    "completed_at=COALESCE(completed_at,$n)";
+                cmd.Parameters.AddWithValue("$t", textId);
+                cmd.Parameters.AddWithValue("$n", Now);
+                cmd.ExecuteNonQuery();
+            }
+            using (var cmd = _c.CreateCommand())
+            {
+                cmd.Transaction = tx;
+                cmd.CommandText =
+                    "INSERT INTO daily_streak(day,minutes,texts_done,goal_met) VALUES($d,$m,1,0) " +
+                    "ON CONFLICT(day) DO UPDATE SET minutes=minutes+$m, texts_done=texts_done+1";
+                cmd.Parameters.AddWithValue("$d", Today);
+                cmd.Parameters.AddWithValue("$m", audioSeconds / 60.0);
+                cmd.ExecuteNonQuery();
+            }
+            using (var cmd = _c.CreateCommand())
+            {
+                cmd.Transaction = tx;
+                cmd.CommandText = "INSERT INTO processing_jobs(text_id,wav_path,audio_seconds,status,created_at) " +
+                                  "VALUES($t,$f,$a,'queued',$c); SELECT last_insert_rowid()";
+                cmd.Parameters.AddWithValue("$t", textId);
+                cmd.Parameters.AddWithValue("$f", wavPath);
+                cmd.Parameters.AddWithValue("$a", audioSeconds);
+                cmd.Parameters.AddWithValue("$c", Now);
+                jobId = Convert.ToInt64(cmd.ExecuteScalar(), CultureInfo.InvariantCulture);
+            }
+            tx.Commit();
+        }
+        return jobId;
+    }
+
+    private static JobRow MapJob(SqliteDataReader r) =>
+        new(r.GetInt64(0), S(r, 1), S(r, 2), r.GetDouble(3), S(r, 4));
+
+    private const string JobSelect = "SELECT id,text_id,wav_path,audio_seconds,status FROM processing_jobs ";
+
+    /// <summary>Jobs interrupted by an app exit go back to the queue.</summary>
+    public void RequeueInterruptedJobs() =>
+        Exec("UPDATE processing_jobs SET status='queued', progress=0, eta_sec=NULL WHERE status='processing'");
+
+    public IReadOnlyList<JobRow> GetActiveJobs() =>
+        Query(JobSelect + "WHERE status IN ('queued','processing') ORDER BY id", MapJob);
+
+    public JobRow? NextQueuedJob()
+    {
+        var l = Query(JobSelect + "WHERE status='queued' ORDER BY id LIMIT 1", MapJob);
+        return l.Count == 0 ? null : l[0];
+    }
+
+    /// <summary>queued -> processing; false when the job was cancelled in the meantime.</summary>
+    public bool StartJob(long id) =>
+        Exec("UPDATE processing_jobs SET status='processing', progress=0, eta_sec=NULL WHERE id=$id AND status='queued'", ("$id", id)) > 0;
+
+    public void UpdateJobProgress(long id, double fraction, double etaSec) =>
+        Exec("UPDATE processing_jobs SET progress=$p, eta_sec=$e WHERE id=$id AND status='processing'",
+            ("$p", fraction), ("$e", etaSec < 0 ? (object?)null : etaSec), ("$id", id));
+
+    /// <summary>Stores the result: job done, recording scored, best score updated.</summary>
+    public void CompleteJob(long id, string textId, string wavPath, string resultJson, double score)
+    {
+        lock (_lock)
+        {
+            using var tx = _c.BeginTransaction();
+            void Run(string sql, params (string, object?)[] args)
+            {
+                using var cmd = _c.CreateCommand();
+                cmd.Transaction = tx;
+                cmd.CommandText = sql;
+                foreach (var (k, v) in args) cmd.Parameters.AddWithValue(k, v ?? DBNull.Value);
+                cmd.ExecuteNonQuery();
+            }
+            Run("UPDATE processing_jobs SET status='done', progress=1, eta_sec=0, result_json=$j, error=NULL, finished_at=$n WHERE id=$id",
+                ("$j", resultJson), ("$n", Now), ("$id", id));
+            Run("UPDATE recordings SET score=$s, scores_json=$j WHERE file_path=$f AND kind='reading'",
+                ("$s", score), ("$j", resultJson), ("$f", wavPath));
+            Run("UPDATE progress SET best_score=MAX(COALESCE(best_score,0),$s) WHERE text_id=$t",
+                ("$s", score), ("$t", textId));
+            tx.Commit();
+        }
+    }
+
+    /// <summary>status: failed | cancelled. Only queued/processing jobs are touched; returns false otherwise.</summary>
+    public bool EndJob(long id, string status, string? error) =>
+        Exec("UPDATE processing_jobs SET status=$s, error=$e, finished_at=$n WHERE id=$id AND status IN ('queued','processing')",
+            ("$s", status), ("$e", error), ("$n", Now), ("$id", id)) > 0;
+
+    private List<AttemptInfo> QueryAttempts(string? textId) =>
+        Query("SELECT r.id,r.text_id,r.created_at,r.score,r.file_path,r.scores_json," +
+              "(SELECT j.status FROM processing_jobs j WHERE j.wav_path=r.file_path ORDER BY j.id DESC LIMIT 1) " +
+              "FROM recordings r WHERE r.kind='reading' " + (textId == null ? "" : "AND r.text_id=$t ") +
+              "ORDER BY r.created_at, r.id",
+            r => new AttemptInfo(r.GetInt64(0), S(r, 1), r.GetInt64(2), r.IsDBNull(3) ? null : r.GetDouble(3), S(r, 4),
+                r.IsDBNull(5) ? null : r.GetString(5), r.IsDBNull(6) ? null : r.GetString(6)),
+            textId == null ? Array.Empty<(string, object?)>() : new (string, object?)[] { ("$t", textId) });
+
+    /// <summary>Reading attempts of a text, newest first.</summary>
+    public IReadOnlyList<AttemptInfo> GetAttempts(string textId)
+    {
+        var l = QueryAttempts(textId);
+        l.Reverse();
+        return l;
+    }
+
+    /// <summary>Live marks string ('r' read, 's' skipped, '-' other per word) from a pending attempt's scores_json.</summary>
+    public static string? ParseLiveMarks(string? json)
+    {
+        if (string.IsNullOrEmpty(json) || !json.Contains("\"live\"")) return null;
+        try
+        {
+            using var doc = System.Text.Json.JsonDocument.Parse(json);
+            return doc.RootElement.ValueKind == System.Text.Json.JsonValueKind.Object &&
+                   doc.RootElement.TryGetProperty("live", out var v) && v.ValueKind == System.Text.Json.JsonValueKind.String
+                ? v.GetString() : null;
+        }
+        catch (System.Text.Json.JsonException) { return null; }
+    }
+
+    /// <summary>Per-text reading summary for library cards.</summary>
+    public IReadOnlyDictionary<string, ReadSummary> GetReadSummaries()
+    {
+        var result = new Dictionary<string, ReadSummary>();
+        foreach (var g in QueryAttempts(null).GroupBy(a => a.TextId))
+        {
+            var list = g.ToList();   // oldest first
+            var last = list[^1];
+            var scores = list.Where(a => a.Score != null).Select(a => a.Score!.Value).ToList();
+            var marks = ParseLiveMarks(last.ScoresJson);
+            result[g.Key] = new ReadSummary(list.Count, scores.Count > 0 ? scores[^1] : null,
+                scores.Skip(Math.Max(0, scores.Count - 6)).ToList(), last.Badge, marks?.Count(ch => ch == 's') ?? 0);
+        }
+        return result;
     }
 
     public void Dispose() { lock (_lock) _c.Dispose(); }

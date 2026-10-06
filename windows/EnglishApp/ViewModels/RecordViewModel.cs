@@ -48,8 +48,26 @@ public partial class RecordViewModel : ObservableObject
         if (LiveActive) AppServices.Engine.SetLiveCursor(wordIndex);
     }
 
-    /// <summary>Raised on the UI thread when an assessment is ready.</summary>
-    public event Action<ReviewArgs>? Completed;
+    /// <summary>Raised on the UI thread when the reading is saved and its assessment queued (argument: text id).</summary>
+    public event Action<string>? Queued;
+
+    // Latest known live state per word index (merged across incremental updates), for the quick read/skipped marks.
+    private readonly Dictionary<int, string> _liveStates = new();
+
+    private void MergeLive(LiveState st)
+    {
+        foreach (var w in st.Words) _liveStates[w.I] = w.State;
+    }
+
+    private string? BuildLiveMarks()
+    {
+        if (_liveStates.Count == 0) return null;
+        int n = Math.Max(Tokens.Count, _liveStates.Keys.Max() + 1);
+        var chars = new char[n];
+        for (int i = 0; i < n; i++)
+            chars[i] = _liveStates.TryGetValue(i, out var st) ? (st == "read" ? 'r' : st == "skipped" ? 's' : '-') : '-';
+        return new string(chars);
+    }
 
     public RecordViewModel()
     {
@@ -90,6 +108,7 @@ public partial class RecordViewModel : ObservableObject
     {
         _ui.TryEnqueue(() =>
         {
+            MergeLive(st);
             LiveUpdated?.Invoke(st);
             if (!IsRecording) return;
             if (st.Done && !_liveDone && _liveRequested)
@@ -138,6 +157,7 @@ public partial class RecordViewModel : ObservableObject
         if (AppServices.Engine.LiveSupported)
         {
             _liveDone = false;
+            _liveStates.Clear();
             Interlocked.Exchange(ref _lastVoiceTick, Environment.TickCount64);
             _liveRequested = true;
             AppServices.Engine.LiveUpdated += OnLiveState;
@@ -183,7 +203,7 @@ public partial class RecordViewModel : ObservableObject
         _timer?.Stop();
         IsBusy = true; IsRecording = false;
         ButtonText = "Обработка…";
-        Status = "Анализ произношения…";
+        Status = "Сохранение записи…";
         var seconds = _clock.Elapsed.TotalSeconds;
         try
         {
@@ -192,24 +212,21 @@ public partial class RecordViewModel : ObservableObject
             if (_liveRequested)
             {
                 AppServices.Recorder.ChunkAvailable -= OnChunk;
-                await AppServices.Engine.FinishLive();   // flushes queued audio; its final state arrives via LiveUpdated
+                var fin = await AppServices.Engine.FinishLive();   // flushes queued audio; the final state also arrives via LiveUpdated
+                if (fin != null) MergeLive(fin);
                 StopLiveWiring();
                 LiveActive = false;
                 LiveEnded?.Invoke();
             }
             if (wav == null) return;
-            var json = await AppServices.Engine.AssessWavAsync(wav, _text!.Body, AppServices.Settings.Strictness);
-            var result = Native.PronAssessor.ParseResult(json);
-            AppServices.Repo.SaveAttempt(_text.Id, wav, (int)(seconds * 1000), result.Scores.Overall, json, seconds / 60.0);
-            AppServices.Repo.RecordPhonemes(result);
-            string? note = AppServices.Engine.Status is { Asr: false }
-                ? "Модель распознавания речи (whisper) не загружена: слова не распознаны." : null;
-            Status = "Готово.";
-            Completed?.Invoke(new ReviewArgs(_text.Id, _text.Body, json, result, note));
+            // Heavy assessment runs in the background queue; the text is marked read right away.
+            AppServices.Jobs.Enqueue(_text!.Id, wav, seconds, BuildLiveMarks());
+            Status = "Чтение сохранено. Оценка готовится в фоне…";
+            Queued?.Invoke(_text.Id);
         }
         catch (Exception ex)
         {
-            Status = "Ошибка анализа: " + ex.Message;
+            Status = "Ошибка сохранения: " + ex.Message;
         }
         finally
         {

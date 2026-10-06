@@ -3,6 +3,7 @@ package app.englishpron.data
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
+import app.englishpron.engine.LiveState
 import org.json.JSONObject
 import java.io.File
 import java.text.SimpleDateFormat
@@ -12,6 +13,8 @@ import kotlin.math.max
 
 private const val CONTENT_ASSET = "content.db"
 private const val USER_SCHEMA_ASSET = "user_schema.sql"
+private const val PENDING_SQL = "EXISTS(SELECT 1 FROM processing_jobs j WHERE j.text_id = t.id AND j.status IN ('queued','processing'))"
+private const val LAST_SCORE_SQL = "(SELECT r.score FROM recordings r WHERE r.text_id = t.id AND r.kind = 'reading' AND r.score IS NOT NULL ORDER BY r.created_at DESC, r.id DESC LIMIT 1)"
 
 /**
  * user.db (read/write) with content.db ATTACHed as `content`. Non-WAL mode keeps a single
@@ -33,7 +36,7 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
             where += "t.rowid IN (SELECT rowid FROM content.texts_fts WHERE texts_fts MATCH ?)"; args += fts
         }
         val sql = "SELECT t.id, t.level, t.genre, t.title_en, t.title_ru, t.description_ru, t.word_count, " +
-            "COALESCE(p.status,'new'), p.best_score FROM content.texts t LEFT JOIN progress p ON p.text_id = t.id " +
+            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL FROM content.texts t LEFT JOIN progress p ON p.text_id = t.id " +
             (if (where.isEmpty()) "" else "WHERE " + where.joinToString(" AND ")) + " ORDER BY t.sort_order"
         return try { list(sql, args.toTypedArray(), ::textItem) } catch (e: android.database.sqlite.SQLiteException) { emptyList() }
     }
@@ -46,13 +49,14 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
     private fun textItem(c: Cursor) = TextItem(
         c.getString(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), c.getString(5),
         c.getInt(6), c.getString(7), if (c.isNull(8)) null else c.getDouble(8),
+        c.getInt(9) != 0, if (c.isNull(10)) null else c.getDouble(10),
     )
 
     fun text(id: String): TextFull? = list(
         "SELECT t.id, t.level, t.genre, t.title_en, t.title_ru, t.description_ru, t.word_count, " +
-            "COALESCE(p.status,'new'), p.best_score, t.body FROM content.texts t " +
+            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL, t.body FROM content.texts t " +
             "LEFT JOIN progress p ON p.text_id = t.id WHERE t.id = ?", arrayOf(id)
-    ) { TextFull(textItem(it), it.getString(9)) }.firstOrNull()
+    ) { TextFull(textItem(it), it.getString(11)) }.firstOrNull()
 
     fun vocabulary(textId: String): List<VocabItem> = list(
         "SELECT word, ipa_us, ipa_uk, translation_ru FROM content.text_vocabulary WHERE text_id = ? ORDER BY position",
@@ -150,6 +154,117 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
         } finally { db.endTransaction() }
     }
 
+    // ---- reading attempts + background processing queue ------------------------------------------
+    /**
+     * Saves a finished reading (WAV already written) with its quick live result, marks the text as read
+     * right away (status 'done', completed_at / last_opened_at = now) and, if [enqueue], queues the heavy
+     * assessment. Returns the new job id (or -1).
+     */
+    fun saveReading(textId: String, kind: String, durationMs: Long, wavPath: String, audioSeconds: Double,
+                    reference: String, liveJson: String?, enqueue: Boolean): Long {
+        db.beginTransaction()
+        try {
+            val t = now()
+            val prev = list("SELECT status FROM progress WHERE text_id = ?", arrayOf(textId)) { it.getString(0) }.firstOrNull()
+            db.execSQL("INSERT INTO recordings(text_id, kind, file_path, duration_ms, score, scores_json, created_at) VALUES(?,?,?,?,NULL,?,?)",
+                arrayOf(textId, kind, wavPath, durationMs, liveJson, t))
+            val whole = kind == "reading"
+            val st = if (whole) "done" else "started"
+            db.execSQL(
+                "INSERT INTO progress(text_id, status, attempts, last_opened_at, completed_at) VALUES(?,?,1,?,?) " +
+                    "ON CONFLICT(text_id) DO UPDATE SET attempts = attempts + 1, last_opened_at = excluded.last_opened_at, " +
+                    "status = CASE WHEN ? = 1 THEN 'done' WHEN status = 'new' THEN 'started' ELSE status END, " +
+                    "completed_at = CASE WHEN ? = 1 AND completed_at IS NULL THEN excluded.last_opened_at ELSE completed_at END",
+                arrayOf(textId, st, t, if (whole) t else null, if (whole) 1 else 0, if (whole) 1 else 0))
+            val day = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
+            db.execSQL(
+                "INSERT INTO daily_streak(day, minutes, texts_done, goal_met) VALUES(?,?,?,0) " +
+                    "ON CONFLICT(day) DO UPDATE SET minutes = minutes + excluded.minutes, texts_done = texts_done + excluded.texts_done",
+                arrayOf(day, durationMs / 60000.0, if (whole && prev != "done") 1 else 0))
+            var jobId = -1L
+            if (enqueue) {
+                db.execSQL("INSERT INTO processing_jobs(text_id, wav_path, audio_seconds, status, progress, created_at, reference, kind) " +
+                    "VALUES(?,?,?,'queued',0,?,?,?)", arrayOf(textId, wavPath, audioSeconds, t, reference, kind))
+                jobId = list("SELECT last_insert_rowid()") { it.getLong(0) }.first()
+            }
+            db.setTransactionSuccessful()
+            return jobId
+        } finally { db.endTransaction() }
+    }
+
+    fun activeJobs(): List<JobRow> = list(
+        "SELECT j.id, j.text_id, COALESCE(t.title_en, j.text_id), j.status, j.progress, j.eta_sec, j.audio_seconds, " +
+            "j.reference, j.wav_path, j.kind FROM processing_jobs j LEFT JOIN content.texts t ON t.id = j.text_id " +
+            "WHERE j.status IN ('queued','processing') ORDER BY j.id"
+    ) { JobRow(it.getLong(0), it.getString(1), it.getString(2), it.getString(3), it.getDouble(4),
+        if (it.isNull(5)) -1.0 else it.getDouble(5), it.getDouble(6), it.getString(7), it.getString(8), it.getString(9)) }
+
+    fun jobStatus(id: Long): String? = list("SELECT status FROM processing_jobs WHERE id = ?", arrayOf(id.toString())) { it.getString(0) }.firstOrNull()
+
+    fun jobStart(id: Long) = db.execSQL("UPDATE processing_jobs SET status='processing', progress=0, eta_sec=NULL, error=NULL WHERE id=? AND status IN ('queued','processing')", arrayOf(id))
+
+    fun jobProgress(id: Long, progress: Double, etaSec: Double) =
+        db.execSQL("UPDATE processing_jobs SET progress=?, eta_sec=? WHERE id=? AND status='processing'", arrayOf(progress, etaSec, id))
+
+    fun jobFail(id: Long, error: String) = db.execSQL(
+        "UPDATE processing_jobs SET status='failed', error=?, finished_at=? WHERE id=? AND status IN ('queued','processing')", arrayOf(error, now(), id))
+
+    /** Returns false when the job was not active any more. */
+    fun jobCancel(id: Long): Boolean {
+        db.execSQL("UPDATE processing_jobs SET status='cancelled', finished_at=? WHERE id=? AND status IN ('queued','processing')", arrayOf(now(), id))
+        return list("SELECT changes()") { it.getInt(0) }.first() > 0
+    }
+
+    fun jobRequeue(id: Long) = db.execSQL("UPDATE processing_jobs SET status='queued', progress=0, eta_sec=NULL WHERE id=? AND status='processing'", arrayOf(id))
+
+    /** Stores the assessment, updates the recording, best score and phoneme statistics. */
+    fun jobDone(job: JobRow, resultJson: String, r: AssessmentUi) {
+        db.beginTransaction()
+        try {
+            db.execSQL("UPDATE processing_jobs SET status='done', progress=1, eta_sec=0, result_json=?, error=NULL, finished_at=? WHERE id=? AND status='processing'",
+                arrayOf(resultJson, now(), job.id))
+            if (list("SELECT changes()") { it.getInt(0) }.first() == 0) return  // cancelled meanwhile
+            db.execSQL("UPDATE recordings SET score=?, scores_json=? WHERE file_path=? AND text_id=?",
+                arrayOf(r.overall, resultJson, job.wavPath, job.textId))
+            if (job.kind == "reading") db.execSQL(
+                "UPDATE progress SET best_score = MAX(COALESCE(best_score,0), ?) WHERE text_id = ?", arrayOf(r.overall, job.textId))
+            for (w in r.words) for (p in w.phonemes) {
+                val s = p.score ?: continue
+                val err = if (p.substituted || s < 60) 1 else 0
+                db.execSQL(
+                    "INSERT INTO phoneme_stats(phoneme, attempts, errors, avg_score, updated_at) VALUES(?,?,?,?,?) " +
+                        "ON CONFLICT(phoneme) DO UPDATE SET avg_score = (COALESCE(avg_score,0) * attempts + ?) / (attempts + 1), " +
+                        "attempts = attempts + 1, errors = errors + ?, updated_at = ?",
+                    arrayOf(p.ipa, 1, err, s, now(), s, err, now()))
+            }
+            db.setTransactionSuccessful()
+        } finally { db.endTransaction() }
+    }
+
+    /** Latest whole-text reading: its WAV, the quick live marks and (when done) the full assessment. */
+    fun latestReading(textId: String): TextReading? = list(
+        "SELECT r.id, r.file_path, r.scores_json, (SELECT j.status FROM processing_jobs j WHERE j.wav_path = r.file_path ORDER BY j.id DESC LIMIT 1) " +
+            "FROM recordings r WHERE r.text_id = ? AND r.kind = 'reading' AND r.file_path != '' ORDER BY r.created_at DESC, r.id DESC LIMIT 1",
+        arrayOf(textId)
+    ) { c ->
+        val js = if (c.isNull(2)) null else c.getString(2)
+        var result: AssessmentUi? = null
+        var live: LiveState? = null
+        if (js != null) {
+            if (js.contains("\"scores\"")) result = try { AssessmentUi.parse(js) } catch (_: Exception) { null }
+            else live = LiveState.parse(js)
+        }
+        val st = if (c.isNull(3)) null else c.getString(3)
+        TextReading(c.getLong(0), c.getString(1), live, result, st == "queued" || st == "processing", st == "failed")
+    }.firstOrNull()
+
+    fun attempts(textId: String): List<AttemptItem> = list(
+        "SELECT r.id, r.created_at, COALESCE(r.duration_ms,0), r.score, r.kind, r.file_path, " +
+            "(SELECT j.status FROM processing_jobs j WHERE j.wav_path = r.file_path ORDER BY j.id DESC LIMIT 1) " +
+            "FROM recordings r WHERE r.text_id = ? ORDER BY r.created_at DESC, r.id DESC LIMIT 30", arrayOf(textId)
+    ) { AttemptItem(it.getLong(0), it.getLong(1), it.getLong(2), if (it.isNull(3)) null else it.getDouble(3),
+        it.getString(4), it.getString(5), if (it.isNull(6)) null else it.getString(6)) }
+
     fun progress(): ProgressSummary {
         val (done, started) = list("SELECT SUM(status='done'), SUM(status!='new') FROM progress") { it.getInt(0) to it.getInt(1) }.first()
         val (attempts, avg) = list("SELECT COUNT(*), AVG(score) FROM recordings") {
@@ -163,7 +278,7 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
         val today = list("SELECT minutes FROM daily_streak WHERE day = ?", arrayOf(fmt.format(Date()))) { it.getDouble(0) }.firstOrNull() ?: 0.0
         val weak = list("SELECT phoneme, errors, COALESCE(avg_score,0) FROM phoneme_stats WHERE attempts >= 3 ORDER BY errors * 1.0 / attempts DESC, avg_score LIMIT 5") {
             Triple(it.getString(0), it.getInt(1), it.getDouble(2)) }
-        val recent = list("SELECT COALESCE(t.title_en, r.text_id), r.score FROM recordings r LEFT JOIN content.texts t ON t.id = r.text_id ORDER BY r.created_at DESC LIMIT 8") {
+        val recent = list("SELECT COALESCE(t.title_en, r.text_id), r.score FROM recordings r LEFT JOIN content.texts t ON t.id = r.text_id WHERE r.score IS NOT NULL ORDER BY r.created_at DESC LIMIT 8") {
             it.getString(0) to (if (it.isNull(1)) 0.0 else it.getDouble(1)) }
         return ProgressSummary(done, started, attempts, avg, streak, today, weak, recent)
     }
@@ -197,6 +312,7 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
             // ATTACH must run outside a transaction. The file itself is read-only (setReadOnly).
             db.execSQL("ATTACH DATABASE ? AS content", arrayOf(contentFile.path))
             applyUserSchema(context, db)
+            applyQueueSchema(db)
             return AppDatabase(db)
         }
 
@@ -219,6 +335,21 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
         @Suppress("DEPRECATION")
         private fun appVersion(c: Context): Long =
             c.packageManager.getPackageInfo(c.packageName, 0).let { if (android.os.Build.VERSION.SDK_INT >= 28) it.longVersionCode else it.versionCode.toLong() }
+
+        /** The background queue table lives in app code (content/db/user_schema.sql is not changed). */
+        private fun applyQueueSchema(db: SQLiteDatabase) {
+            db.execSQL("CREATE TABLE IF NOT EXISTS processing_jobs (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, text_id TEXT NOT NULL, wav_path TEXT NOT NULL, " +
+                "audio_seconds REAL NOT NULL DEFAULT 0, " +
+                "status TEXT NOT NULL DEFAULT 'queued' CHECK (status IN ('queued','processing','done','failed','cancelled')), " +
+                "progress REAL NOT NULL DEFAULT 0, eta_sec REAL, result_json TEXT, error TEXT, " +
+                "created_at INTEGER NOT NULL, finished_at INTEGER, " +
+                "reference TEXT NOT NULL DEFAULT '', kind TEXT NOT NULL DEFAULT 'reading')")
+            db.execSQL("CREATE INDEX IF NOT EXISTS idx_jobs_status ON processing_jobs(status, id)")
+            db.execSQL("CREATE INDEX IF NOT EXISTS idx_jobs_text ON processing_jobs(text_id)")
+            // Process death while a job was running: run it again.
+            db.execSQL("UPDATE processing_jobs SET status='queued', progress=0, eta_sec=NULL WHERE status='processing'")
+        }
 
         private fun applyUserSchema(context: Context, db: SQLiteDatabase) {
             val exists = db.rawQuery("SELECT 1 FROM sqlite_master WHERE type='table' AND name='user_meta'", null).use { it.moveToFirst() }

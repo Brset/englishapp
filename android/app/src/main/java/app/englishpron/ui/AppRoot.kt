@@ -1,6 +1,15 @@
 package app.englishpron.ui
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.platform.LocalContext
+import androidx.core.content.ContextCompat
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import app.englishpron.EnglishApp
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.LibraryBooks
@@ -29,6 +38,21 @@ private val tabs = listOf(
 @Composable
 fun AppRoot() {
     val nav = rememberNavController()
+    val ctx = LocalContext.current
+    val queue = remember { (ctx.applicationContext as EnglishApp).queue }
+    val jobs by queue.jobs.collectAsStateWithLifecycle()
+    var showQueue by rememberSaveable { mutableStateOf(false) }
+    var askedNotif by rememberSaveable { mutableStateOf(false) }
+    val notifLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
+    LaunchedEffect(jobs.isNotEmpty()) {
+        // Android 13+: the progress notification needs POST_NOTIFICATIONS (the service runs without it, silently).
+        if (jobs.isNotEmpty() && !askedNotif && Build.VERSION.SDK_INT >= 33 &&
+            ContextCompat.checkSelfPermission(ctx, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+            askedNotif = true
+            notifLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+        }
+    }
+    if (showQueue) ProcessingSheet(jobs, onCancel = { queue.cancel(it) }, onDismiss = { showQueue = false })
     val practice: PracticeViewModel = viewModel() // shared by reading / record / result
     val entry by nav.currentBackStackEntryAsState()
     val route = entry?.destination?.route
@@ -53,6 +77,7 @@ fun AppRoot() {
                     }
                 },
                 actions = {
+                    QueueIndicator(jobs) { showQueue = true }
                     if (topLevel) IconButton(onClick = { nav.navigate("settings") }) {
                         Icon(Icons.Filled.Settings, contentDescription = "Настройки")
                     }
@@ -94,12 +119,8 @@ fun AppRoot() {
                 ReadingScreen(practice, it.arguments?.getString("id").orEmpty(), onRecord = { nav.navigate("record") })
             }
             composable("record") {
-                RecordScreen(practice, onResult = { nav.navigate("result") })
-            }
-            composable("result") {
-                ResultScreen(practice, onRetry = { nav.popBackStack() }, onLibrary = {
-                    if (!nav.popBackStack("library", inclusive = false)) nav.navigate("library")
-                })
+                // Reading saved: back to the text (it is already marked as read; the assessment runs in the queue).
+                RecordScreen(practice, onResult = { if (nav.currentDestination?.route == "record") nav.popBackStack() })
             }
         }
     }

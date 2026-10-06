@@ -39,20 +39,20 @@ public sealed partial class RecordPage : Page
     {
         ViewModel.Load(e.Parameter as string ?? App.MainWindow.CurrentTextId);
         BuildText(ViewModel.ReferenceText, ViewModel.Tokens);
-        ViewModel.Completed += OnCompleted;
+        ViewModel.Queued += OnQueued;
         ViewModel.LiveStarted += OnLiveStarted;
         ViewModel.LiveUpdated += OnLiveUpdated;
     }
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)
     {
-        ViewModel.Completed -= OnCompleted;
+        ViewModel.Queued -= OnQueued;
         ViewModel.LiveStarted -= OnLiveStarted;
         ViewModel.LiveUpdated -= OnLiveUpdated;
         ViewModel.Detach();
     }
 
-    private void OnCompleted(ReviewArgs args) => App.MainWindow.NavigateTo("review", args);
+    private void OnQueued(string textId) => App.MainWindow.NavigateTo("reading", textId);
 
     private async void OnSpace(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
     {

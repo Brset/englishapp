@@ -23,6 +23,7 @@ struct Recognizer {
 };
 
 std::shared_ptr<Recognizer> get_recognizer(pron_engine* e) {
+    std::lock_guard<std::mutex> lk(e->live_mu);
     if (e->live_recognizer) return std::static_pointer_cast<Recognizer>(e->live_recognizer);
     if (!e->live_available) { e->last_error = "live model not available"; return nullptr; }
     const fs::path d = e->models_dir / "live";
@@ -46,7 +47,7 @@ std::shared_ptr<Recognizer> get_recognizer(pron_engine* e) {
     r->rec = SherpaOnnxCreateOnlineRecognizer(&cfg);
     if (!r->rec) {
         e->last_error = "failed to create live recognizer";
-        e->errors["live"] = e->last_error;
+        { std::lock_guard<std::mutex> elk(e->errors_mu); e->errors["live"] = std::string(e->last_error); }
         return nullptr;
     }
     e->live_recognizer = r;

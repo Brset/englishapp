@@ -1,9 +1,10 @@
 <Window x:Class="EnglishApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:s="using:EnglishApp.Services">
     <NavigationView x:Name="Nav" IsBackButtonVisible="Collapsed" IsSettingsVisible="False"
                     PaneDisplayMode="Left" OpenPaneLength="220"
-                    SelectionChanged="OnSelectionChanged">
+                    SelectionChanged="OnSelectionChanged" ItemInvoked="OnItemInvoked">
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Главная" Tag="home" Icon="Home" />
             <NavigationViewItem Content="Библиотека" Tag="library" Icon="Library" />
@@ -15,6 +16,45 @@
             <NavigationViewItem Content="Прогресс" Tag="progress" Icon="Calendar" />
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
+            <NavigationViewItem x:Name="QueueItem" Tag="processing" SelectsOnInvoked="False" Visibility="Collapsed">
+                <NavigationViewItem.Icon>
+                    <SymbolIcon Symbol="Sync" />
+                </NavigationViewItem.Icon>
+                <NavigationViewItem.InfoBadge>
+                    <InfoBadge x:Name="QueueBadge" Value="0" />
+                </NavigationViewItem.InfoBadge>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                    <ProgressRing IsActive="True" Width="16" Height="16" />
+                    <TextBlock Text="Обработка" VerticalAlignment="Center" />
+                </StackPanel>
+                <FlyoutBase.AttachedFlyout>
+                    <Flyout x:Name="QueueFlyout" Placement="Right">
+                        <StackPanel Width="340" Spacing="8">
+                            <TextBlock Text="Обработка записей" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                            <ItemsControl x:Name="QueueList">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate x:DataType="s:JobItem">
+                                        <Grid ColumnSpacing="8" Margin="0,6">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <StackPanel Spacing="3">
+                                                <TextBlock Text="{x:Bind Title}" TextTrimming="CharacterEllipsis"
+                                                           Style="{StaticResource BodyStrongTextBlockStyle}" />
+                                                <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind Percent, Mode=OneWay}" />
+                                                <TextBlock Text="{x:Bind Detail, Mode=OneWay}"
+                                                           Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                                            </StackPanel>
+                                            <Button Grid.Column="1" Content="Отмена" VerticalAlignment="Center" Click="OnCancelJob" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </Flyout>
+                </FlyoutBase.AttachedFlyout>
+            </NavigationViewItem>
             <NavigationViewItem Content="Настройки" Tag="settings" Icon="Setting" />
         </NavigationView.FooterMenuItems>
         <Frame x:Name="ContentFrame" />

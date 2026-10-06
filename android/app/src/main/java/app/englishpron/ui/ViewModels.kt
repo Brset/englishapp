@@ -8,6 +8,8 @@ import app.englishpron.PronCore
 import app.englishpron.UserSettings
 import app.englishpron.audio.SAMPLE_RATE
 import app.englishpron.data.*
+import app.englishpron.audio.Wav
+import app.englishpron.engine.JobUi
 import app.englishpron.engine.LiveSession
 import app.englishpron.engine.LiveState
 import kotlinx.coroutines.Dispatchers
@@ -18,7 +20,8 @@ import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import kotlin.coroutines.coroutineContext
+import kotlinx.coroutines.withTimeoutOrNull
+import java.io.File
 import org.json.JSONObject
 
 abstract class BaseVm(app: Application) : AndroidViewModel(app) {
@@ -52,7 +55,7 @@ class LibraryViewModel(app: Application) : BaseVm(app) {
     private val tick = MutableStateFlow(0)
     private val _filters = MutableStateFlow(Pair(emptyList<String>(), emptyList<String>()))
 
-    val state: StateFlow<LibraryState> = combine(level, genre, query.debounce(250), tick) { l, g, q, _ -> Triple(l, g, q) }
+    val state: StateFlow<LibraryState> = combine(level, genre, query.debounce(250), tick, ctx.queue.version) { l, g, q, _, _ -> Triple(l, g, q) }
         .mapLatest { (l, g, q) ->
             io { db ->
                 if (_filters.value.first.isEmpty()) _filters.value = db.levels() to db.genres()
@@ -63,10 +66,27 @@ class LibraryViewModel(app: Application) : BaseVm(app) {
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), LibraryState())
 
     fun refresh() { tick.value++ }
+
+    private val _history = MutableStateFlow<List<AttemptItem>>(emptyList())
+    val history: StateFlow<List<AttemptItem>> = _history
+    fun loadHistory(textId: String?) {
+        if (textId == null) { _history.value = emptyList(); return }
+        viewModelScope.launch { _history.value = try { io { it.attempts(textId) } } catch (e: Exception) { emptyList() } }
+    }
+    fun playAttempt(a: AttemptItem) {
+        viewModelScope.launch {
+            val (pcm, rate) = withContext(Dispatchers.IO) {
+                try { Wav.range(java.io.File(a.wavPath), 0.0, Double.MAX_VALUE) } catch (e: Exception) { ShortArray(0) to SAMPLE_RATE }
+            }
+            if (pcm.isNotEmpty()) ctx.player.play(pcm, rate)
+        }
+    }
+    override fun onCleared() { ctx.player.stop() }
 }
 
-// ---- Practice (reading -> recording -> result) ------------------------------------------------
+// ---- Practice (reading -> recording -> saved result) ------------------------------------------
 enum class RecordMode { WHOLE, SENTENCE }
+/** PROCESSING here only means "saving the recording" (fast); the heavy assessment runs in the queue. */
 enum class RecStatus { IDLE, RECORDING, PROCESSING }
 
 data class WordInfo(val word: String, val ipa: String, val translation: String, val saved: Boolean)
@@ -81,15 +101,14 @@ data class PracticeState(
     val sentenceIdx: Int = 0,
     val status: RecStatus = RecStatus.IDLE,
     val permissionDenied: Boolean = false,
-    val reference: String = "",
-    val result: AssessmentUi? = null,
-    val lastPcm: ShortArray = ShortArray(0),
     val wordInfo: WordInfo? = null,
     val error: String? = null,
     val live: LiveState? = null,
     val liveUnavailable: Boolean = false,
-    val processingSec: Int = 0,
-    val processingAudioSec: Int = 0,
+    /** Latest saved reading of this text (live marks, then the full assessment) and the attempt history. */
+    val reading: TextReading? = null,
+    val attempts: List<AttemptItem> = emptyList(),
+    val wordSheet: WordResult? = null,
 ) {
     val referenceNow: String get() = if (mode == RecordMode.WHOLE) (text?.body ?: "") else sentences.getOrElse(sentenceIdx) { "" }
 }
@@ -98,10 +117,17 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
     private val _s = MutableStateFlow(PracticeState())
     val state: StateFlow<PracticeState> = _s
     val level: StateFlow<Float> = ctx.recorder.level
+    /** Queued/running background jobs (progress of this text's job is shown on the reading screen). */
+    val jobs: StateFlow<List<JobUi>> = ctx.queue.jobs
     private var startedAt = 0L
 
+    init {
+        // Any queue status change (job finished, ...) refreshes the saved result of the open text.
+        viewModelScope.launch { ctx.queue.version.collect { reloadReading() } }
+    }
+
     fun load(textId: String) {
-        if (_s.value.text?.item?.id == textId) return
+        if (_s.value.text?.item?.id == textId) { reloadReading(); return }
         viewModelScope.launch {
             val data = try {
                 io { db ->
@@ -112,6 +138,15 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
             } catch (e: Exception) { return@launch }
             val t = data.first ?: return@launch
             _s.value = PracticeState(text = t, vocab = data.second, focus = data.third, sentences = splitSentences(t.body))
+            reloadReading()
+        }
+    }
+
+    private fun reloadReading() {
+        val id = _s.value.text?.item?.id ?: return
+        viewModelScope.launch {
+            val r = try { io { it.latestReading(id) to it.attempts(id) } } catch (e: Exception) { return@launch }
+            _s.update { if (it.text?.item?.id == id) it.copy(reading = r.first, attempts = r.second) else it }
         }
     }
 
@@ -123,7 +158,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
     fun setSentence(i: Int) { _s.update { it.copy(sentenceIdx = i.coerceIn(0, (it.sentences.size - 1).coerceAtLeast(0))) } }
 
     fun speak(text: String) = ctx.tts.speak(text, _s.value.speed)
-    fun stopSpeaking() = ctx.tts.stop()
+    fun stopSpeaking() { ctx.tts.stop(); ctx.player.stop() }
 
     fun onPermissionResult(granted: Boolean) { _s.update { it.copy(permissionDenied = !granted) } }
 
@@ -135,7 +170,10 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
             val v = st.vocab.firstOrNull { it.word.equals(clean, true) }
             val british = ctx.settings.value.british
             val ipa = v?.let { if (british) it.ipaUk else it.ipaUs }
-                ?: try { (ctx.engine.lookup(clean) ?: withContext(Dispatchers.IO) { PronCore.lookup(clean) })?.optString("ipa").orEmpty() } catch (e: Exception) { "" }
+                ?: try {
+                    val viaEngine = ctx.engine.lookup(clean)
+                    (viaEngine ?: withContext(Dispatchers.IO) { PronCore.lookup(clean) })?.optString("ipa").orEmpty()
+                } catch (e: Exception) { "" }
             val saved = try { io { it.isSaved(clean) } } catch (e: Exception) { false }
             _s.update { it.copy(wordInfo = WordInfo(clean, ipa, v?.translationRu ?: "", saved)) }
         }
@@ -152,11 +190,40 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         }
     }
 
+    // ---- scored-word sheet (result of the background assessment) ------------------------------
+    fun selectWord(w: WordResult?) { _s.update { it.copy(wordSheet = w) } }
+
+    /** "Эталон": engine TTS (system voice while the engine is busy). */
+    fun playReference(w: WordResult) = ctx.tts.speak(w.text, 1f)
+
+    /** "Моя запись": the word's time span from the saved WAV. */
+    fun playMyWord(w: WordResult) {
+        val path = _s.value.reading?.wavPath ?: return
+        if (w.startSec < 0 || w.endSec <= w.startSec) { _s.update { it.copy(error = "Для этого слова нет фрагмента записи") }; return }
+        viewModelScope.launch {
+            val (pcm, rate) = withContext(Dispatchers.IO) {
+                try { Wav.range(File(path), w.startSec - 0.12, w.endSec + 0.12) } catch (e: Exception) { ShortArray(0) to SAMPLE_RATE }
+            }
+            ctx.tts.stop()
+            if (pcm.isEmpty()) _s.update { it.copy(error = "Запись не найдена") } else ctx.player.play(pcm, rate)
+        }
+    }
+
+    fun playAttempt(a: AttemptItem) {
+        viewModelScope.launch {
+            val (pcm, rate) = withContext(Dispatchers.IO) {
+                try { Wav.range(File(a.wavPath), 0.0, Double.MAX_VALUE) } catch (e: Exception) { ShortArray(0) to SAMPLE_RATE }
+            }
+            ctx.tts.stop()
+            if (pcm.isNotEmpty()) ctx.player.play(pcm, rate)
+        }
+    }
+
+    fun clearError() { _s.update { it.copy(error = null) } }
+
     private var session: LiveSession? = null
     private var liveJob: Job? = null
     private var silenceJob: Job? = null
-    private var assessJob: Job? = null
-    private var tickJob: Job? = null
     private var autoDone: () -> Unit = {}
     private var starting = false
 
@@ -168,7 +235,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         val reference = _s.value.referenceNow
         viewModelScope.launch {
             try {
-                val sess = if (reference.isNotBlank()) ctx.engine.liveStart(reference) else null  // engine thread
+                val sess = if (reference.isNotBlank()) ctx.engine.liveStart(reference) else null
                 val sink: ((ShortArray) -> Unit)? = sess?.let { l -> { frame: ShortArray -> l.offer(frame) } }
                 val ok = ctx.recorder.start(sink)
                 if (!ok) {
@@ -201,7 +268,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
                 val now = System.currentTimeMillis()
                 if (level.value < 0.04f) {
                     if (quietSince == 0L) quietSince = now
-                    else if (now - quietSince >= 1500) { stopAndAssess(autoDone); return@launch }
+                    else if (now - quietSince >= 1500) { stopAndSave(autoDone); return@launch }
                 } else quietSince = 0L
             }
         }
@@ -212,54 +279,50 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         if (_s.value.status == RecStatus.RECORDING) session?.setCursor(index)
     }
 
-    /** Stops recording and runs ASR + phoneme model + scoring. onDone fires on success. */
-    fun stopAndAssess(onDone: () -> Unit) {
+    /**
+     * Stops recording, saves the WAV + the quick live result, marks the text as read, queues the heavy
+     * assessment and returns immediately ([onDone] fires once everything is stored).
+     */
+    fun stopAndSave(onDone: () -> Unit) {
         val st = _s.value
         if (st.status != RecStatus.RECORDING) return
         val textId = st.text?.item?.id ?: return
         val reference = st.referenceNow
-        val kind = if (st.mode == RecordMode.WHOLE) "reading" else "sentence"
+        val whole = st.mode == RecordMode.WHOLE
+        val kind = if (whole) "reading" else "sentence"
         silenceJob?.cancel()
-        _s.update { it.copy(status = RecStatus.PROCESSING, processingSec = 0, processingAudioSec = 0) }
-        val t0 = System.currentTimeMillis()
-        tickJob?.cancel()
-        tickJob = viewModelScope.launch {
-            while (true) { delay(500); _s.update { it.copy(processingSec = ((System.currentTimeMillis() - t0) / 1000).toInt()) } }
-        }
-        assessJob = viewModelScope.launch {
+        _s.update { it.copy(status = RecStatus.PROCESSING) }
+        viewModelScope.launch {
             val durationMs = System.currentTimeMillis() - startedAt
             val pcm = ctx.recorder.stop()
-            _s.update { it.copy(processingAudioSec = pcm.size / SAMPLE_RATE) }
             val sess = session; session = null
-            val fin = try { sess?.finish() } catch (_: Throwable) { null }
-            if (fin != null) _s.update { it.copy(live = fin) }
-            val parsed = withContext(Dispatchers.Default) {
-                try {
-                    AssessmentUi.parse(ctx.engine.assess(pcm, SAMPLE_RATE, reference))
-                } catch (e: Exception) { e }
+            liveJob?.cancel()
+            val fin = try { if (sess != null) withTimeoutOrNull(3000) { sess.finish() } ?: run { sess.release(); null } else null } catch (_: Throwable) { null }
+            val live = fin ?: _s.value.live
+            if (pcm.size < SAMPLE_RATE / 2) {
+                _s.update { it.copy(status = RecStatus.IDLE, live = null, error = "Запись слишком короткая") }
+                return@launch
             }
-            tickJob?.cancel()
-            // Cancelled while the native call was running: the result is ignored.
-            if (assessJob !== coroutineContext[Job] || _s.value.status != RecStatus.PROCESSING) return@launch
-            if (parsed is AssessmentUi) {
-                try { io { it.saveResult(textId, kind, durationMs, parsed) } } catch (_: Exception) {}
-                _s.update { it.copy(status = RecStatus.IDLE, result = parsed, reference = reference, lastPcm = pcm) }
-                onDone()
-            } else {
-                _s.update { it.copy(status = RecStatus.IDLE, error = "Ошибка оценки: ${(parsed as Exception).message}") }
+            val seconds = pcm.size.toDouble() / SAMPLE_RATE
+            try {
+                io { db ->
+                    val file = File(ctx.filesDir, "recordings/${textId}-${System.currentTimeMillis()}.wav")
+                    Wav.write(file, pcm, SAMPLE_RATE)
+                    try {
+                        db.saveReading(textId, kind, durationMs, file.path, seconds, reference, live?.toJson(), true)
+                    } catch (e: Exception) { file.delete(); throw e }
+                }
+                ctx.queue.onEnqueued()
+                reloadReading()
+                val nextSentence = !whole && st.sentenceIdx < st.sentences.size - 1
+                _s.update { it.copy(status = RecStatus.IDLE, live = null, sentenceIdx = if (nextSentence) it.sentenceIdx + 1 else it.sentenceIdx) }
+                if (!nextSentence) onDone()
+            } catch (e: Exception) {
+                _s.update { it.copy(status = RecStatus.IDLE, live = null, error = "Не удалось сохранить запись: ${e.message}") }
             }
         }
     }
 
-    /** Back to the text; the native assessment cannot be interrupted, its result is dropped. */
-    fun cancelAssessment() {
-        if (_s.value.status != RecStatus.PROCESSING) return
-        tickJob?.cancel(); assessJob = null
-        _s.update { it.copy(status = RecStatus.IDLE, live = null) }
-    }
-
-    fun playLast() = ctx.player.play(_s.value.lastPcm)
-    fun nextSentence() { _s.update { it.copy(sentenceIdx = (it.sentenceIdx + 1).coerceAtMost((it.sentences.size - 1).coerceAtLeast(0))) } }
     override fun onCleared() {
         ctx.player.stop()
         session?.release(); session = null

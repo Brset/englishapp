@@ -6,6 +6,7 @@ import app.englishpron.audio.Recorder
 import app.englishpron.audio.TtsSpeaker
 import app.englishpron.data.AppDatabase
 import app.englishpron.engine.EngineHost
+import app.englishpron.engine.ProcessingQueue
 import app.englishpron.engine.Speaker
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
@@ -26,6 +27,7 @@ class EnglishApp : Application() {
 
     lateinit var tts: Speaker
     lateinit var engine: EngineHost
+    val queue = ProcessingQueue(this)
     val recorder = Recorder()
     val player = Player()
 
@@ -43,6 +45,7 @@ class EnglishApp : Application() {
                 val s = UserSettings(db.setting("accent", "us") == "uk", db.setting("strictness", "1").toIntOrNull() ?: 1)
                 applySettings(s)
                 dbDeferred.complete(db)
+                queue.start()  // re-queued jobs (processing -> queued) continue from here
             } catch (e: Throwable) {
                 dbDeferred.completeExceptionally(e)
             }

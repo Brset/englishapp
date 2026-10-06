@@ -72,6 +72,12 @@ jobs:
           mkdir -p selftest-out && cd selftest-out
           set -o pipefail
           "../$CLI" selftest ../models 2>&1 | tee selftest.txt
+      - name: Assess with progress on the selftest recording
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = "Windows" ]; then CLI=build/engine/Release/pron_cli.exe; else CLI=build/engine/pron_cli; fi
+          set -o pipefail
+          "$CLI" assess --progress models selftest-out/selftest_us.wav "Think about the weather. The three brothers are walking very fast." 2>&1 >/dev/null | tee selftest-out/progress.txt
       - name: Live tracker on the selftest recording
         shell: bash
         run: |
@@ -87,5 +93,6 @@ jobs:
             selftest-out/selftest.txt
             selftest-out/status.txt
             selftest-out/live.txt
+            selftest-out/progress.txt
             selftest-out/selftest_us.wav
           if-no-files-found: warn

@@ -24,6 +24,15 @@ object NativeEngine {
     @JvmStatic external fun engineLastError(h: Long): String?
     @JvmStatic external fun engineSetStrictness(h: Long, s: Int)
     @JvmStatic external fun engineAssessPcm16(h: Long, pcm: ShortArray, sampleRate: Int, reference: String): String?
+    /** Heavy assessment with progress callbacks on the calling thread; null on error/cancel. */
+    @JvmStatic external fun engineAssessPcm16Progress(h: Long, pcm: ShortArray, sampleRate: Int, reference: String, listener: ProgressListener): String?
+    /** Thread-safe: aborts the running assess call (it then returns null, last error "cancelled"). */
+    @JvmStatic external fun engineCancel(h: Long)
+    @JvmStatic external fun engineEstimateSeconds(h: Long, audioSeconds: Double): Double
+
+    /** Called from native code (kept by proguard); stage = vad|asr|phoneme|assess|done, eta < 0 = unknown. */
+    interface ProgressListener { fun onProgress(stage: String, fraction: Double, etaSec: Double) }
+
     /** Returns [sampleRate, samples...] or null. */
     @JvmStatic external fun engineTts(h: Long, text: String, voice: String, speed: Float): FloatArray?
     @JvmStatic external fun engineLookup(h: Long, word: String): String?
@@ -65,7 +74,14 @@ class EngineHost(private val context: Context) {
     private val executor = Executors.newSingleThreadExecutor { r -> Thread(r, "pron-engine") }
     private val dispatcher = executor.asCoroutineDispatcher()
     private val scope = CoroutineScope(dispatcher)
-    private var handle = 0L  // only touched on [dispatcher]
+    // Background assessments get their own thread: live tracking / TTS / lookup stay responsive meanwhile.
+    private val heavyExecutor = Executors.newSingleThreadExecutor { r -> Thread(r, "pron-heavy") }
+    private val heavyDispatcher = heavyExecutor.asCoroutineDispatcher()
+    @Volatile private var handle = 0L  // written/used on [dispatcher]; read by cancelHeavy() from any thread
+    /** True while a background assessment is running (informational; it no longer blocks live/TTS). */
+    @Volatile var heavyBusy = false
+        private set
+    @Volatile private var secPerAudioSec = 1.0
     private var strictness = 1
 
     private val _state = MutableStateFlow(EngineState())
@@ -151,6 +167,43 @@ class EngineHost(private val context: Context) {
             ?: throw IllegalStateException(NativeEngine.engineLastError(handle).orEmpty().ifEmpty { "ошибка движка" })
     }
 
+    /**
+     * Background assessment with progress (stage, fraction 0..1, eta sec or < 0). Runs on the dedicated
+     * heavy-job thread (the engine is thread-safe); throws [AssessCancelled] when [cancelHeavy] aborted it.
+     */
+    suspend fun assessProgress(pcm: ShortArray, sampleRate: Int, reference: String,
+                               onProgress: (String, Double, Double) -> Unit): String = withContext(heavyDispatcher) {
+        if (handle == 0L) throw IllegalStateException("движок ещё не готов")
+        heavyBusy = true
+        try {
+            val l = object : NativeEngine.ProgressListener {
+                override fun onProgress(stage: String, fraction: Double, etaSec: Double) {
+                    try { onProgress(stage, fraction, etaSec) } catch (_: Throwable) {}
+                }
+            }
+            NativeEngine.engineAssessPcm16Progress(handle, pcm, sampleRate, reference, l) ?: run {
+                val err = NativeEngine.engineLastError(handle).orEmpty()
+                if (err.contains("cancel", ignoreCase = true)) throw AssessCancelled()
+                throw IllegalStateException(err.ifEmpty { "ошибка движка" })
+            }
+        } finally { heavyBusy = false }
+    }
+
+    /** Any thread. Safe when nothing is running (the native flag is cleared at the next assess start). */
+    fun cancelHeavy() {
+        val h = handle
+        if (h != 0L) try { NativeEngine.engineCancel(h) } catch (_: Throwable) {}
+    }
+
+    /** Estimated processing seconds for [audioSeconds] of audio (thread-safe in the engine; any thread). */
+    fun estimateSeconds(audioSeconds: Double): Double {
+        val h = handle
+        if (h == 0L) return audioSeconds * secPerAudioSec
+        val v = try { NativeEngine.engineEstimateSeconds(h, 60.0) } catch (_: Throwable) { -1.0 }
+        if (v > 0) secPerAudioSec = v / 60.0
+        return audioSeconds * secPerAudioSec
+    }
+
     /** Starts a live tracker for [reference]; null if the live model is missing or the engine is not ready. */
     suspend fun liveStart(reference: String): LiveSession? = withContext(dispatcher) {
         if (handle == 0L) return@withContext null
@@ -171,6 +224,8 @@ class EngineHost(private val context: Context) {
         Pair(ShortArray(a.size - 1) { (a[it + 1].coerceIn(-1f, 1f) * 32767f).toInt().toShort() }, rate)
     }
 }
+
+class AssessCancelled : Exception("cancelled")
 
 /** Speech output: engine TTS (Piper) via AudioTrack; system TTS only if the engine has no voice. */
 class Speaker(private val host: EngineHost, private val player: Player, private val system: TtsSpeaker) {

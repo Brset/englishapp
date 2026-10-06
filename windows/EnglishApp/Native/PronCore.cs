@@ -48,6 +48,10 @@ public struct PronWordNative
     public float probability;
 }
 
+/// <summary>pron_progress_fn: stage is a const char* (UTF-8); invoked on the calling worker thread.</summary>
+[UnmanagedFunctionPointer(CallingConvention.Cdecl)]
+public delegate void PronProgressFn(IntPtr user, IntPtr stage, double fraction, double etaSec);
+
 /// <summary>Raw P/Invoke declarations, one per function in pron_c.h.</summary>
 internal static class NativeMethods
 {
@@ -112,6 +116,13 @@ internal static class NativeMethods
     [DllImport(Lib, CallingConvention = Cc)]
     public static extern IntPtr pron_engine_lookup(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string word);
 
+    // ---- pron_progress.h ----
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_engine_assess_pcm16_progress(EngineHandle e, short[] samples, UIntPtr count, int sampleRate,
+        [MarshalAs(UnmanagedType.LPUTF8Str)] string reference, PronProgressFn cb, IntPtr user);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_engine_cancel(EngineHandle e);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern double pron_engine_estimate_seconds(EngineHandle e, double audioSeconds);
+
     // ---- pron_live.h ----
     [DllImport(Lib, CallingConvention = Cc)]
     public static extern LiveHandle pron_live_start(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string referenceUtf8);
@@ -146,9 +157,15 @@ public enum Strictness { Lenient = 0, Normal = 1, Strict = 2 }
 
 public sealed record AsrWord(string Text, double Start, double End, float Probability = 1f);
 
-public sealed class PronException : Exception
+public class PronException : Exception
 {
     public PronException(string message) : base(message) { }
+}
+
+/// <summary>pron_engine_cancel aborted the running assessment (last_error == "cancelled").</summary>
+public sealed class PronCancelledException : PronException
+{
+    public PronCancelledException() : base("cancelled") { }
 }
 
 /// <summary>Managed wrapper over the C API. Not thread-safe per handle; calls are serialized by a lock.</summary>

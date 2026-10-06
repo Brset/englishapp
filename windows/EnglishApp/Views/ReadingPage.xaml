@@ -13,6 +13,20 @@
             <TextBlock Text="{x:Bind ViewModel.Text.TitleEn, Mode=OneWay, FallbackValue='Чтение'}" Style="{StaticResource TitleTextBlockStyle}" />
             <TextBlock Text="{x:Bind ViewModel.Text.TitleRu, Mode=OneWay, FallbackValue='Выберите текст в библиотеке'}"
                        Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            <StackPanel Orientation="Horizontal" Spacing="12" Margin="0,6,0,0">
+                <ProgressRing IsActive="{x:Bind ViewModel.IsPending, Mode=OneWay}" Width="18" Height="18"
+                              Visibility="{x:Bind ViewModel.BadgeVisibility, Mode=OneWay}" />
+                <TextBlock Text="{x:Bind ViewModel.Badge, Mode=OneWay}" VerticalAlignment="Center"
+                           Visibility="{x:Bind ViewModel.BadgeVisibility, Mode=OneWay}"
+                           Foreground="{ThemeResource SystemFillColorCautionBrush}" />
+                <TextBlock Text="{x:Bind ViewModel.ScoreText, Mode=OneWay}" VerticalAlignment="Center"
+                           Visibility="{x:Bind ViewModel.ScoreVisibility, Mode=OneWay}" />
+                <Button Content="Подробный разбор" Click="OnReview"
+                        Visibility="{x:Bind ViewModel.ReviewVisibility, Mode=OneWay}" />
+            </StackPanel>
+            <TextBlock Text="{x:Bind ViewModel.HistoryText, Mode=OneWay}"
+                       Visibility="{x:Bind ViewModel.HistoryVisibility, Mode=OneWay}"
+                       Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="12" VerticalAlignment="Bottom">
             <Button Content="Озвучить текст" Command="{x:Bind ViewModel.SpeakAllCommand}" />

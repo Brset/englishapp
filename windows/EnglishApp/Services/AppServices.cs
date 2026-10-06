@@ -8,6 +8,8 @@ public static class AppServices
     public static AudioRecorder Recorder { get; } = new();
     public static SettingsService Settings { get; private set; } = null!;
 
+    public static ProcessingQueue Jobs { get; private set; } = null!;
+
     public static PronEngineService Engine => PronEngineService.Instance;
 
     public static void Init()
@@ -15,6 +17,7 @@ public static class AppServices
         Repo = new ContentRepository(AppPaths.UserDb, AppPaths.ContentDb, AppPaths.UserSchema);
         Settings = new SettingsService(Repo);
         Engine.StartInit(AppPaths.ModelsDir, Settings.Strictness);
+        Jobs = new ProcessingQueue(Repo);   // must be created on the UI thread (captures its DispatcherQueue)
     }
 }
 

@@ -30,6 +30,9 @@
                         <TextBlock Text="{x:Bind TitleEn}" Style="{StaticResource BodyStrongTextBlockStyle}" />
                         <TextBlock Text="{x:Bind TitleRu}" />
                         <TextBlock Text="{x:Bind Subtitle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                        <TextBlock Text="{x:Bind ScoreLine}" Visibility="{x:Bind ScoreVisibility}" />
+                        <TextBlock Text="{x:Bind BadgeText}" Visibility="{x:Bind BadgeVisibility}"
+                                   Foreground="{ThemeResource SystemFillColorCautionBrush}" />
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>

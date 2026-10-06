@@ -12,6 +12,8 @@ struct WhisperAsr::Impl {
     whisper_context* ctx = nullptr;
     int n_threads = 4;
     bool dtw = false;
+    std::function<void(int)> progress;
+    std::function<bool()> abort;
     ~Impl() { if (ctx) whisper_free(ctx); }
 };
 
@@ -31,6 +33,10 @@ WhisperAsr::WhisperAsr(const std::string& model_path, int n_threads, int use_dtw
 
 WhisperAsr::~WhisperAsr() = default;
 
+void WhisperAsr::set_progress_callback(std::function<void(int)> cb) { impl_->progress = std::move(cb); }
+void WhisperAsr::set_abort_callback(std::function<bool()> cb) { impl_->abort = std::move(cb); }
+
+
 std::vector<AsrWord> WhisperAsr::transcribe(const AudioView& audio, const AsrOptions& opt) {
     std::vector<AsrWord> words;
     if (!audio.samples || audio.count == 0) return words;
@@ -46,7 +52,26 @@ std::vector<AsrWord> WhisperAsr::transcribe(const AudioView& audio, const AsrOpt
     p.print_progress = p.print_realtime = p.print_timestamps = p.print_special = false;
     if (!opt.initial_prompt.empty()) p.initial_prompt = opt.initial_prompt.c_str();
 
-    if (whisper_full(impl_->ctx, p, audio.samples, static_cast<int>(audio.count)) != 0)
+    Impl* im = impl_.get();
+    if (im->progress) {
+        p.progress_callback = [](whisper_context*, whisper_state*, int pr, void* u) {
+            auto* i = static_cast<Impl*>(u);
+            if (i->progress) i->progress(pr);
+        };
+        p.progress_callback_user_data = im;
+    }
+    if (im->abort) {
+        p.abort_callback = [](void* u) -> bool { auto* i = static_cast<Impl*>(u); return i->abort && i->abort(); };
+        p.abort_callback_user_data = im;
+        p.encoder_begin_callback = [](whisper_context*, whisper_state*, void* u) -> bool {
+            auto* i = static_cast<Impl*>(u);
+            return !(i->abort && i->abort());
+        };
+        p.encoder_begin_callback_user_data = im;
+    }
+    const int rc = whisper_full(impl_->ctx, p, audio.samples, static_cast<int>(audio.count));
+    if (im->abort && im->abort()) throw AsrCancelled();
+    if (rc != 0)
         throw std::runtime_error("WhisperAsr: whisper_full failed");
 
     const whisper_token eot = whisper_token_eot(impl_->ctx);
