@@ -80,14 +80,14 @@ jobs:
             if (Test-Path "$($redist.FullName)\$n") { Copy-Item "$($redist.FullName)\$n" publish/ -Force; Write-Host "vcrt: $n" }
           }
 
-      - name: Zip
-        shell: pwsh
-        run: Compress-Archive -Path publish/* -DestinationPath EnglishApp-win-x64.zip
-
+      # Upload the folder itself: GitHub zips artifacts once. Zipping it ourselves first produced a
+      # zip-inside-a-zip (~600 MB) that Windows Explorer failed to extract ("data error").
       - uses: actions/upload-artifact@v4
         with:
           name: EnglishApp-win-x64
-          path: EnglishApp-win-x64.zip
+          path: publish/
+          if-no-files-found: error
+          compression-level: 6
 
       - uses: ilammy/msvc-dev-cmd@v1
         with:
