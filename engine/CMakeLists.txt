@@ -64,7 +64,13 @@ if(NOT ONNXRUNTIME_HEADERS_ROOT)
   pron_fetch("https://github.com/microsoft/onnxruntime/releases/download/v${SHERPA_ORT_VERSION}/onnxruntime-linux-x64-${SHERPA_ORT_VERSION}.tgz"
              "${_deps}/ort-headers-${SHERPA_ORT_VERSION}" ONNXRUNTIME_HEADERS_ROOT)
 endif()
-find_library(_ort_lib NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" NO_DEFAULT_PATH)
+if(WIN32 AND NOT ORT_IMPORT_LIB_ROOT)
+  # The sherpa-onnx Windows archive ships onnxruntime.dll without its import library; take the
+  # import lib from the official release of the same version (the DLL itself still comes from sherpa).
+  pron_fetch("https://github.com/microsoft/onnxruntime/releases/download/v${SHERPA_ORT_VERSION}/onnxruntime-win-x64-${SHERPA_ORT_VERSION}.zip"
+             "${_deps}/ort-win-x64-${SHERPA_ORT_VERSION}" ORT_IMPORT_LIB_ROOT)
+endif()
+find_library(_ort_lib NAMES onnxruntime HINTS "${SHERPA_ONNX_ROOT}/lib" "${ORT_IMPORT_LIB_ROOT}/lib" NO_DEFAULT_PATH)
 if(NOT _ort_lib)
   message(FATAL_ERROR "onnxruntime not found in ${SHERPA_ONNX_ROOT}/lib")
 endif()
