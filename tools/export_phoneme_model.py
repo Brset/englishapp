@@ -63,7 +63,10 @@ def main():
                 dynamo=False,  # legacy TorchScript exporter: single-file, stable on torch 2.5
             )
         print(f"fp32 export: {fp32.stat().st_size / 1e6:.0f} MB")
+        # Only MatMul: ORT's CPU provider has no kernel for the ConvInteger nodes that
+        # quantizing the conv feature extractor would produce.
         quantize_dynamic(str(fp32), str(target), weight_type=QuantType.QInt8,
+                         op_types_to_quantize=["MatMul"],
                          use_external_data_format=False)
     print(f"int8 model: {target.stat().st_size / 1e6:.0f} MB")
 
