@@ -235,13 +235,22 @@ std::string live_state_json(const LiveTracker& t, const std::string& partial) {
     j.kv("scroll_to", s.scroll_to);
     j.kv("done", s.done);
     j.kv("partial", partial);
+    // Token offsets are non-decreasing: advance one running UTF-16 counter instead of rescanning the text per
+    // word (O(N) instead of O(N^2) for a 5000-word reference, once per audio chunk).
+    std::size_t cur_byte = 0, cur_units = 0;
+    const auto u16_at = [&](std::size_t byte) {
+        if (byte < cur_byte) { cur_byte = 0; cur_units = 0; }
+        cur_units += utf16_offset(t.reference().substr(cur_byte, byte - cur_byte), byte - cur_byte);
+        cur_byte = std::min(byte, t.reference().size());
+        return cur_units;
+    };
     j.key("words").begin_array();
     for (std::size_t i = 0; i < s.words.size(); ++i) {
         j.begin_object();
         j.kv("i", static_cast<int>(i));
         j.kv("state", to_string(s.words[i]));
-        j.kv("u16_begin", utf16_offset(t.reference(), t.tokens()[i].begin));
-        j.kv("u16_end", utf16_offset(t.reference(), t.tokens()[i].end));
+        j.kv("u16_begin", u16_at(t.tokens()[i].begin));
+        j.kv("u16_end", u16_at(t.tokens()[i].end));
         j.end_object();
     }
     j.end_array();

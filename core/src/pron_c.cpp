@@ -1,5 +1,7 @@
 #include "pron/pron_c.h"
 
+#include <algorithm>
+#include <cmath>
 #include <cstdlib>
 #include <cstring>
 #include <exception>
@@ -133,14 +135,20 @@ char* pron_assess(pron_assessor* a, const char* reference, const pron_word* word
         for (int i = 0; i < n_words; ++i) {
             pron::AsrWord w;
             w.text = words[i].text ? words[i].text : "";
-            w.start = words[i].start;
-            w.end = words[i].end;
-            w.probability = words[i].probability;
+            // Non-finite / absurd times and probabilities would otherwise reach float->int casts downstream.
+            const auto t = [](double v) { return std::isfinite(v) ? std::max(-1e7, std::min(1e7, v)) : 0.0; };
+            w.start = t(words[i].start);
+            w.end = t(words[i].end);
+            w.probability = std::isfinite(words[i].probability) ? words[i].probability : 0.0f;
             asr.push_back(std::move(w));
         }
         pron::LogPosteriors lp;
         const pron::LogPosteriors* lpp = nullptr;
         if (log_posteriors && n_frames > 0 && n_classes > 0) {
+            if (static_cast<unsigned long long>(n_frames) * static_cast<unsigned long long>(n_classes) > (1ull << 30)) {
+                a->error = "posterior matrix too large";
+                return nullptr;
+            }
             lp = pron::LogPosteriors(n_frames, n_classes, frame_seconds > 0 ? frame_seconds : 0.02);
             std::memcpy(lp.data.data(), log_posteriors, lp.data.size() * sizeof(float));
             lpp = &lp;

@@ -93,10 +93,9 @@ char* feed_impl(pron_live* s, const float* x, size_t n, int sr) {
     pron_engine* e = s->engine;
     try {
         e->last_error.clear();
-        if (sr <= 0 || (!x && n > 0)) { e->last_error = "invalid arguments"; return nullptr; }
+        if (!pron_internal::valid_sample_rate(sr) || (!x && n > 0)) { e->last_error = "invalid arguments"; return nullptr; }
         if (n > 0 && !s->finished) {
             std::vector<float> a = pron_internal::resample_16k(x, n, sr);
-            for (float& v : a) v = std::max(-1.0f, std::min(1.0f, v));
             if (!a.empty()) SherpaOnnxOnlineStreamAcceptWaveform(s->stream, 16000, a.data(), static_cast<int32_t>(a.size()));
         }
         if (s->finished) return pron_internal::dup_string(pron::live_state_json(*s->tracker, s->partial));

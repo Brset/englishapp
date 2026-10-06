@@ -23,7 +23,14 @@
  * pron_engine_cancel, pron_engine_estimate_seconds and pron_engine_status may be called from any
  * thread. Two heavy assess calls on the same handle are serialized (the second waits). Each TTS
  * voice has its own lock (two syntheses with the same voice serialize). pron_engine_last_error()
- * is per calling thread. pron_engine_destroy() must not race with any other call.
+ * is per calling thread. pron_engine_destroy() must not race with any other call, and every
+ * pron_live session must be freed BEFORE the engine is destroyed.
+ * The progress callback runs while the assess call holds the heavy-call lock (and no other engine
+ * lock): it may call status / estimate_seconds / cancel / lookup / tts (also via another thread it
+ * waits for), but NOT another assess on the same engine (rejected with "re-entrant assess call").
+ * A cancel() issued before an assess call has started is discarded by that call. Input sample rates
+ * outside 4000..384000 Hz are rejected ("invalid sample rate"); NaN/inf samples are treated as 0
+ * and values are clamped to [-1, 1].
  *
  * The result JSON is the same as pron_engine_assess_*; every word object carries "recognized"
  * (what was heard in that slot, "" if omitted) so the UI can show "you said X".

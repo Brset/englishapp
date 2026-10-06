@@ -9,7 +9,37 @@ std::string JsonWriter::escape(const std::string& s) {
     std::string out;
     out.reserve(s.size() + 2);
     out += '"';
-    for (unsigned char c : s) {
+    const std::size_t n = s.size();
+    for (std::size_t i = 0; i < n;) {
+        const unsigned char c = static_cast<unsigned char>(s[i]);
+        if (c >= 0x80) {
+            // Strict UTF-8 validation (no overlongs, surrogates or > U+10FFFF); anything else becomes U+FFFD,
+            // one replacement per invalid byte, so the output is always valid UTF-8.
+            std::size_t len = 0;
+            if (c >= 0xC2 && c <= 0xDF) len = 2;
+            else if (c >= 0xE0 && c <= 0xEF) len = 3;
+            else if (c >= 0xF0 && c <= 0xF4) len = 4;
+            bool ok = len > 0 && i + len <= n;
+            if (ok) {
+                const unsigned char c1 = static_cast<unsigned char>(s[i + 1]);
+                unsigned char lo = 0x80, hi = 0xBF;
+                if (c == 0xE0) lo = 0xA0;
+                else if (c == 0xED) hi = 0x9F;
+                else if (c == 0xF0) lo = 0x90;
+                else if (c == 0xF4) hi = 0x8F;
+                ok = c1 >= lo && c1 <= hi;
+                for (std::size_t k = 2; ok && k < len; ++k) ok = (static_cast<unsigned char>(s[i + k]) & 0xC0) == 0x80;
+            }
+            if (ok) {
+                out.append(s, i, len);
+                i += len;
+            } else {
+                out += "\xEF\xBF\xBD";
+                ++i;
+            }
+            continue;
+        }
+        ++i;
         switch (c) {
             case '"': out += "\\\""; break;
             case '\\': out += "\\\\"; break;
@@ -19,12 +49,12 @@ std::string JsonWriter::escape(const std::string& s) {
             case '\b': out += "\\b"; break;
             case '\f': out += "\\f"; break;
             default:
-                if (c < 0x20) {
+                if (c < 0x20 || c == 0x7F) {
                     out += "\\u00";
                     out += kHex[c >> 4];
                     out += kHex[c & 0xF];
                 } else {
-                    out += static_cast<char>(c);  // UTF-8 passes through unchanged
+                    out += static_cast<char>(c);
                 }
         }
     }

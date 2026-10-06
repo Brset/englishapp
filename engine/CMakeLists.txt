@@ -140,13 +140,20 @@ if(PRON_ENGINE_BUILD_TESTS AND NOT ANDROID)
     -DVOICE_URL=${PRON_TTS_VOICE_URL}
     -DVOICE_SCRIPT=${CMAKE_CURRENT_SOURCE_DIR}/../backends/tts/cmake/fetch_voice.cmake
     -DCMUDICT=${CMAKE_CURRENT_SOURCE_DIR}/../models/cmudict.dict
+    -DPHONEME_SCRIPT=${CMAKE_CURRENT_SOURCE_DIR}/tests/make_fake_phoneme.py
     -DWHISPER_TEST_MODEL=${_whisper_src}/models/for-tests-ggml-tiny.en.bin
     -P ${CMAKE_CURRENT_SOURCE_DIR}/tests/fetch_models.cmake)
   add_test(NAME engine_tests COMMAND pron_engine_tests ${_td})
   add_executable(pron_segment_tests tests/segment_tests.cpp src/phoneme_segments.cpp)
   target_include_directories(pron_segment_tests PRIVATE src "${_core_dir}/include")
   add_test(NAME engine_segment_tests COMMAND pron_segment_tests)
-  set_tests_properties(engine_tests PROPERTIES DEPENDS engine_fetch_models)
+  add_executable(pron_engine_robust_tests tests/robust_tests.cpp)
+  target_link_libraries(pron_engine_robust_tests PRIVATE pron_engine)
+  find_package(Threads REQUIRED)
+  target_link_libraries(pron_engine_robust_tests PRIVATE Threads::Threads)
+  add_test(NAME engine_robust_tests COMMAND pron_engine_robust_tests ${_td})
+  set_tests_properties(engine_tests engine_robust_tests PROPERTIES DEPENDS engine_fetch_models)
+  set_tests_properties(engine_robust_tests PROPERTIES TIMEOUT 1500 SKIP_RETURN_CODE 77)
 endif()
 
 if(PRON_ENGINE_BUILD_TOOLS AND NOT ANDROID)

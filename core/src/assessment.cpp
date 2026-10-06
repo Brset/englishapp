@@ -241,8 +241,15 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
         bool gop_done = false;
         if (use_gop && !expected.empty()) {
             const double fs = inv.frame_seconds;
-            int f0 = static_cast<int>(std::floor((h.start - opt.word_padding_seconds) / fs));
-            int f1 = static_cast<int>(std::ceil((h.end + opt.word_padding_seconds) / fs));
+            // clamp in floating point first: a float->int cast of an out-of-range value is undefined
+            const double fmax = static_cast<double>(inv.frames);
+            const auto to_frame = [&](double sec, bool up) {
+                double f = (up ? std::ceil(sec / fs) : std::floor(sec / fs));
+                if (!(f > 0.0)) f = 0.0;  // also NaN
+                return static_cast<int>(std::min(f, fmax));
+            };
+            int f0 = to_frame(h.start - opt.word_padding_seconds, false);
+            int f1 = to_frame(h.end + opt.word_padding_seconds, true);
             f0 = std::max(0, f0);
             f1 = std::min(inv.frames, f1);
             const int L = static_cast<int>(expected.size());

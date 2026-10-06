@@ -30,6 +30,7 @@
 #include <vector>
 
 #include "pron/backends.h"
+#include "pron/json_writer.h"
 #include "pron/onnx_backends.h"
 #include "pron/piper_tts.h"
 #include "pron/whisper_asr.h"
@@ -56,22 +57,10 @@ double ms_since(Clock::time_point t) {
     return std::chrono::duration<double, std::milli>(Clock::now() - t).count();
 }
 
+// Escaped JSON string body (no quotes); invalid UTF-8 is replaced by U+FFFD (core JsonWriter does the work).
 std::string json_escape(const std::string& s) {
-    std::string o;
-    o.reserve(s.size() + 2);
-    for (unsigned char c : s) {
-        switch (c) {
-            case '"': o += "\\\""; break;
-            case '\\': o += "\\\\"; break;
-            case '\n': o += "\\n"; break;
-            case '\r': o += "\\r"; break;
-            case '\t': o += "\\t"; break;
-            default:
-                if (c < 0x20) { char b[8]; std::snprintf(b, sizeof b, "\\u%04x", c); o += b; }
-                else o += char(c);
-        }
-    }
-    return o;
+    const std::string q = pron::JsonWriter::escape(s);
+    return q.substr(1, q.size() - 2);
 }
 
 char* dup_string(const std::string& s) {
@@ -122,19 +111,25 @@ fs::path make_path(const std::string& utf8) {
 
 bool file_exists(const fs::path& p) { std::error_code ec; return fs::is_regular_file(p, ec); }
 
-// Linear resampling of mono float PCM to 16 kHz.
+// Linear resampling of mono float PCM to 16 kHz (non-finite samples -> 0, values clamped to [-1, 1]).
 std::vector<float> resample_16k(const float* x, size_t n, int sr) {
     std::vector<float> out;
-    if (sr == 16000) { out.assign(x, x + n); return out; }
+    if (n == 0 || sr <= 0) return out;
+    const auto clean = [](float v) { return std::isfinite(v) ? std::max(-1.0f, std::min(1.0f, v)) : 0.0f; };
+    if (sr == 16000) {
+        out.resize(n);
+        for (size_t i = 0; i < n; ++i) out[i] = clean(x[i]);
+        return out;
+    }
     const double ratio = double(sr) / 16000.0;
     const size_t m = static_cast<size_t>(std::floor(double(n) / ratio));
     out.resize(m);
     for (size_t i = 0; i < m; ++i) {
         const double pos = double(i) * ratio;
-        const size_t i0 = static_cast<size_t>(pos);
+        const size_t i0 = std::min(static_cast<size_t>(pos), n - 1);
         const size_t i1 = std::min(i0 + 1, n - 1);
         const float f = float(pos - double(i0));
-        out[i] = x[i0] * (1.0f - f) + x[i1] * f;
+        out[i] = clean(clean(x[i0]) * (1.0f - f) + clean(x[i1]) * f);
     }
     return out;
 }
@@ -253,17 +248,26 @@ struct Reporter {
 
 char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sample_rate, const char* reference,
                       pron_progress_fn cb, void* user) {
+    if (e->heavy_owner.load() == std::this_thread::get_id()) {  // e.g. from inside the progress callback
+        e->last_error = "re-entrant assess call";
+        return nullptr;
+    }
     std::lock_guard<std::mutex> heavy(e->heavy_mu);  // concurrent heavy calls serialize
+    struct Owner {
+        pron_engine* e;
+        explicit Owner(pron_engine* x) : e(x) { e->heavy_owner.store(std::this_thread::get_id()); }
+        ~Owner() { e->heavy_owner.store(std::thread::id()); }
+    } owner(e);
     e->last_error.clear();
     e->cancel.store(false);
+    { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors.erase("asr_run"); e->errors.erase("phoneme_run"); }
     const auto cancelled = [&]() -> char* { e->last_error = "cancelled"; return nullptr; };
     if (!reference) { e->last_error = "reference is NULL"; return nullptr; }
-    if (sample_rate <= 0) { e->last_error = "invalid sample rate"; return nullptr; }
+    if (!pron_internal::valid_sample_rate(sample_rate)) { e->last_error = "invalid sample rate"; return nullptr; }
     if (!samples && count > 0) { e->last_error = "samples is NULL"; return nullptr; }
 
     std::vector<float> audio;
     if (count > 0) audio = resample_16k(samples, count, sample_rate);
-    for (float& v : audio) v = std::max(-1.0f, std::min(1.0f, v));
     const double audio_sec = double(audio.size()) / 16000.0;
 
     Reporter rep;
@@ -324,6 +328,8 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
             was_cancelled = true;
         } catch (const std::exception& ex) {
             { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["asr_run"] = ex.what(); }
+        } catch (...) {
+            { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["asr_run"] = "unknown error"; }
         }
         if (wasr) { wasr->set_progress_callback(nullptr); wasr->set_abort_callback(nullptr); }
         if (was_cancelled || e->cancel.load()) return cancelled();
@@ -370,6 +376,8 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
                 if (post.valid() && post.frames > 0 && post.classes > 0) have_post = true;
             } catch (const std::exception& ex) {
                 { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["phoneme_run"] = ex.what(); }
+            } catch (...) {
+                { std::lock_guard<std::mutex> lk(e->errors_mu); e->errors["phoneme_run"] = "unknown error"; }
             }
             t_ph = ms_since(t0);
             ran_ph = true;
@@ -391,7 +399,8 @@ char* assess_f32_impl(pron_engine* e, const float* samples, size_t count, int sa
     }
     alk.unlock();
 
-    std::string json = res;
+    std::string json;
+    try { json = res; } catch (...) { pron_free_string(res); throw; }
     pron_free_string(res);
     const size_t close = json.rfind('}');
     if (close == std::string::npos) { e->last_error = "unexpected assessment JSON"; return nullptr; }
@@ -531,8 +540,9 @@ PRON_API char* pron_engine_status(pron_engine* e) {
           << ",\"live\":" << (e->live_available ? "true" : "false") << ",\"cmudict\":" << (e->cmudict ? "true" : "false") << ",\"tts\":{\"us\":" << (e->tts_us ? "true" : "false")
           << ",\"gb\":" << (e->tts_gb ? "true" : "false") << "},\"errors\":{";
         bool first = true;
-        std::lock_guard<std::mutex> elk(e->errors_mu);
-        for (const auto& kv : e->errors) {
+        std::map<std::string, std::string> errs;
+        { std::lock_guard<std::mutex> elk(e->errors_mu); errs = e->errors; }  // copy: never nest errors_mu/assessor_mu
+        for (const auto& kv : errs) {
             if (!first) o << ',';
             first = false;
             o << '"' << json_escape(kv.first) << "\":\"" << json_escape(kv.second) << '"';

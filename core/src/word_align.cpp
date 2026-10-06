@@ -39,30 +39,27 @@ WordAlignment align_words(const std::vector<std::string>& ref, const std::vector
                           const WordAlignOptions& opt) {
     const std::size_t R = ref.size(), H = hyp.size();
     enum Move : unsigned char { kNone, kDiag, kDel, kIns };
-    std::vector<double> cost((R + 1) * (H + 1), 0.0);
+    // Memory is O(R*H) bytes (move table only): costs are kept per row and the similarity is recomputed
+    // during the backtrace, so a 5000 x 5000 word alignment needs ~25 MB instead of ~400 MB.
     std::vector<unsigned char> move((R + 1) * (H + 1), kNone);
-    std::vector<double> sim(R * H + 1, 0.0);
     auto at = [H](std::size_t i, std::size_t j) { return i * (H + 1) + j; };
+    auto sim_at = [&](std::size_t i, std::size_t j) { return word_similarity(ref[i], hyp[j]); };
 
-    for (std::size_t i = 0; i < R; ++i)
-        for (std::size_t j = 0; j < H; ++j) sim[i * H + j] = word_similarity(ref[i], hyp[j]);
-
-    for (std::size_t i = 1; i <= R; ++i) {
-        cost[at(i, 0)] = static_cast<double>(i);
-        move[at(i, 0)] = kDel;
-    }
+    std::vector<double> prev(H + 1, 0.0), cur(H + 1, 0.0);
     for (std::size_t j = 1; j <= H; ++j) {
-        cost[at(0, j)] = static_cast<double>(j);
+        prev[j] = static_cast<double>(j);
         move[at(0, j)] = kIns;
     }
     const double eps = 1e-9;
     for (std::size_t i = 1; i <= R; ++i) {
+        cur[0] = static_cast<double>(i);
+        move[at(i, 0)] = kDel;
         for (std::size_t j = 1; j <= H; ++j) {
-            double s = sim[(i - 1) * H + (j - 1)];
+            double s = sim_at(i - 1, j - 1);
             double sub = s >= 1.0 ? 0.0 : (s < opt.min_similarity ? 2.0 : opt.sub_weight * (1.0 - s));
-            double cd = cost[at(i - 1, j - 1)] + sub;
-            double cdel = cost[at(i - 1, j)] + 1.0;
-            double cins = cost[at(i, j - 1)] + 1.0;
+            double cd = prev[j - 1] + sub;
+            double cdel = prev[j] + 1.0;
+            double cins = cur[j - 1] + 1.0;
             // Tie-breaking: diagonal, then deletion (omission), then insertion.
             double best = cd;
             unsigned char m = kDiag;
@@ -74,19 +71,20 @@ WordAlignment align_words(const std::vector<std::string>& ref, const std::vector
                 best = cins;
                 m = kIns;
             }
-            cost[at(i, j)] = best;
+            cur[j] = best;
             move[at(i, j)] = m;
         }
+        std::swap(prev, cur);
     }
 
     WordAlignment out;
     out.ref.resize(R);
-    out.cost = cost[at(R, H)];
+    out.cost = prev[H];
     std::size_t i = R, j = H;
     while (i > 0 || j > 0) {
         unsigned char m = move[at(i, j)];
         if (m == kDiag) {
-            double s = sim[(i - 1) * H + (j - 1)];
+            double s = sim_at(i - 1, j - 1);
             RefWordAlignment& a = out.ref[i - 1];
             a.hyp_index = static_cast<int>(j - 1);
             a.similarity = s;
