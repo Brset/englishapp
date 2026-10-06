@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.18)
 project(pron_tts CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -37,6 +37,9 @@ target_include_directories(pron_tts PUBLIC include "${PRON_CORE_INCLUDE_DIR}" PR
 target_link_libraries(pron_tts PUBLIC "${SHERPA_C_API}")
 if(SHERPA_ORT)
   target_link_libraries(pron_tts PUBLIC "${SHERPA_ORT}")
+endif()
+if(MSVC)
+  target_compile_options(pron_tts PRIVATE /W4 /utf-8)
 endif()
 set_target_properties(pron_tts PROPERTIES BUILD_RPATH "${SHERPA_ONNX_ROOT}/lib")
 

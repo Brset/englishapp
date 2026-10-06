@@ -1,10 +1,20 @@
 // pron_engine: audio in -> assessment JSON out, text in -> speech out. See pron_engine.h.
+#ifdef _WIN32
+#  ifndef NOMINMAX
+#    define NOMINMAX
+#  endif
+#  ifndef WIN32_LEAN_AND_MEAN
+#    define WIN32_LEAN_AND_MEAN
+#  endif
+#  include <windows.h>
+#endif
 #include "pron/pron_engine.h"
 
 #include <algorithm>
 #include <chrono>
 #include <cctype>
 #include <cmath>
+#include <cstdint>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -70,7 +80,36 @@ char* dup_string(const std::string& s) {
     return p;
 }
 
-std::string path_str(const fs::path& p) { return p.generic_string(); }
+// UTF-8 (never the ANSI code page: generic_string()/string() would mangle or throw on Windows).
+std::string path_str(const fs::path& p) {
+    const auto u = p.generic_u8string();
+    return std::string(reinterpret_cast<const char*>(u.data()), u.size());
+}
+
+// Path for third-party C APIs that take char* (sherpa-onnx/espeak-ng): on Windows they may use the ANSI
+// code page, so a non-ASCII path is replaced by its ASCII 8.3 short form when the volume provides one.
+std::string c_api_path(const fs::path& p) {
+    std::string u = path_str(p);
+#ifdef _WIN32
+    bool ascii = true;
+    for (unsigned char c : u) if (c >= 0x80) { ascii = false; break; }
+    if (!ascii) {
+        const std::wstring w = p.native();
+        const DWORD n = GetShortPathNameW(w.c_str(), nullptr, 0);
+        if (n > 0) {
+            std::wstring sh(n, L'\0');
+            const DWORD m = GetShortPathNameW(w.c_str(), &sh[0], n);
+            if (m > 0 && m < n) {
+                sh.resize(m);
+                std::string out;
+                for (wchar_t c : sh) { if (c >= 0x80) { out.clear(); break; } out += static_cast<char>(c); }
+                if (!out.empty()) return out;
+            }
+        }
+    }
+#endif
+    return u;
+}
 
 fs::path make_path(const std::string& utf8) {
 #if defined(__cpp_char8_t)
@@ -130,7 +169,7 @@ void load_voice(pron_engine* e, const fs::path& models, const char* id, std::uni
     if (!file_exists(tokens)) { e->errors[key] = "file not found: " + path_str(tokens); return; }
     if (!fs::is_directory(espeak, ec)) { e->errors[key] = "directory not found: " + path_str(espeak); return; }
     try {
-        slot = std::make_unique<pron::PiperTts>(path_str(onnx), path_str(tokens), path_str(espeak), std::min(e->n_threads, 4));
+        slot = std::make_unique<pron::PiperTts>(c_api_path(onnx), c_api_path(tokens), c_api_path(espeak), std::min(e->n_threads, 4));
     } catch (const std::exception& ex) {
         e->errors[key] = ex.what();
     } catch (...) {
@@ -298,7 +337,7 @@ PRON_API pron_engine* pron_engine_create(const char* models_dir_utf8, int n_thre
         if (!file_exists(wm)) {  // fall back to any other ggml model (e.g. tiny.en)
             std::error_code ec2;
             for (fs::directory_iterator it(models / "whisper", ec2), end; !ec2 && it != end; it.increment(ec2)) {
-                const std::string n = it->path().filename().string();
+                const std::string n = path_str(it->path().filename());
                 if (n.find("ggml-") != std::string::npos && it->path().extension() == ".bin") { wm = it->path(); break; }
             }
         }

@@ -1,20 +1,16 @@
 #include <algorithm>
 #include <cmath>
+#include <filesystem>
 #include <fstream>
 #include <sstream>
 #include <stdexcept>
 
 #include <onnxruntime_cxx_api.h>
 
+#include "ort_path.h"
 #include "pron/onnx_backends.h"
 
 namespace pron {
-
-#ifdef _WIN32
-#define PRON_ORT_PATH(s) std::wstring((s).begin(), (s).end()).c_str()
-#else
-#define PRON_ORT_PATH(s) (s).c_str()
-#endif
 
 struct Wav2Vec2PhonemeModel::Impl {
     Ort::Env env{ORT_LOGGING_LEVEL_WARNING, "pron_w2v"};
@@ -26,7 +22,11 @@ struct Wav2Vec2PhonemeModel::Impl {
 
 Wav2Vec2PhonemeModel::Wav2Vec2PhonemeModel(const std::string& model_path, const std::string& vocab_path)
     : impl_(new Impl) {
+#ifdef _WIN32
+    std::ifstream f(std::filesystem::u8path(vocab_path), std::ios::binary);  // UTF-8 path
+#else
     std::ifstream f(vocab_path, std::ios::binary);
+#endif
     if (!f) throw std::runtime_error("cannot open " + vocab_path);
     std::stringstream ss; ss << f.rdbuf();
     impl_->labels = parse_vocab_json(ss.str());
@@ -35,7 +35,7 @@ Wav2Vec2PhonemeModel::Wav2Vec2PhonemeModel(const std::string& model_path, const 
     impl_->blank = int(it - impl_->labels.begin());
     Ort::SessionOptions so;
     so.SetIntraOpNumThreads(2);
-    impl_->session = Ort::Session(impl_->env, PRON_ORT_PATH(model_path), so);
+    impl_->session = Ort::Session(impl_->env, ort_path(model_path).c_str(), so);
     Ort::AllocatorWithDefaultOptions a;
     impl_->in_name = impl_->session.GetInputNameAllocated(0, a).get();
     impl_->out_name = impl_->session.GetOutputNameAllocated(0, a).get();

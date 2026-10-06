@@ -36,6 +36,9 @@ add_library(pron_onnx STATIC src/silero_vad.cpp src/wav2vec2_phoneme.cpp src/voc
 target_include_directories(pron_onnx PUBLIC include "${PRON_CORE_INCLUDE_DIR}" PRIVATE "${ORT_INCLUDE_DIR}" src)
 target_link_libraries(pron_onnx PUBLIC "${ORT_LIB}")
 set_target_properties(pron_onnx PROPERTIES POSITION_INDEPENDENT_CODE ON)
+if(MSVC)
+  target_compile_options(pron_onnx PRIVATE /W4 /utf-8)
+endif()
 
 option(PRON_ONNX_BUILD_TESTS "Build pron_onnx tests" ON)
 if(PRON_ONNX_BUILD_TESTS)

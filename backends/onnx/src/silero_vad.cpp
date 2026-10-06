@@ -5,15 +5,10 @@
 
 #include <onnxruntime_cxx_api.h>
 
+#include "ort_path.h"
 #include "pron/onnx_backends.h"
 
 namespace pron {
-
-#ifdef _WIN32
-#define PRON_ORT_PATH(s) std::wstring((s).begin(), (s).end()).c_str()
-#else
-#define PRON_ORT_PATH(s) (s).c_str()
-#endif
 
 namespace {
 constexpr int kChunk = 512;    // samples per step at 16 kHz (32 ms)
@@ -32,7 +27,7 @@ SileroVad::SileroVad(const std::string& model_path, SileroVadOptions opt) : impl
     Ort::SessionOptions so;
     so.SetIntraOpNumThreads(1);
     so.SetInterOpNumThreads(1);
-    impl_->session = Ort::Session(impl_->env, PRON_ORT_PATH(model_path), so);
+    impl_->session = Ort::Session(impl_->env, ort_path(model_path).c_str(), so);
 }
 SileroVad::~SileroVad() = default;
 

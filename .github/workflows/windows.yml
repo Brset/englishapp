@@ -7,6 +7,10 @@ on:
     paths: ['windows/**', 'core/**', 'engine/**', '.github/actions/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
   workflow_dispatch:
 
+concurrency:
+  group: windows-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: windows-latest
@@ -47,23 +51,23 @@ jobs:
       - name: Bundle native DLLs and models
         shell: pwsh
         run: |
-          $dlls = Get-ChildItem -Path build/engine -Recurse -Filter *.dll |
-            Where-Object { $_.FullName -notmatch '\\CMakeFiles\\' -and $_.FullName -notmatch '\\_deps\\[^\\]+-src\\(test|tests|examples)\\' }
-          $names = @{}
-          foreach ($d in $dlls) {
-            if ($names.ContainsKey($d.Name)) { continue }
-            $names[$d.Name] = $true
-            Copy-Item $d.FullName publish/ -Force
-            Write-Host "native: $($d.FullName)"
+          # engine/CMakeLists.txt copies sherpa-onnx's onnxruntime.dll / sherpa-onnx-c-api.dll / providers next to
+          # pron_engine.dll (build/engine/Release). whisper/ggml are static, so no ggml DLLs. Do NOT glob the whole
+          # build tree: it also holds the official onnxruntime.dll (import-lib donor) which must not win.
+          $dir = 'build/engine/Release'
+          $dlls = Get-ChildItem -Path $dir -Filter *.dll
+          foreach ($d in $dlls) { Copy-Item $d.FullName publish/ -Force; Write-Host "native: $($d.Name)" }
+          foreach ($n in 'pron_engine.dll','onnxruntime.dll','sherpa-onnx-c-api.dll') {
+            if (-not (Test-Path "publish/$n")) { throw "$n not found in $dir" }
           }
-          if (-not $names.ContainsKey('pron_engine.dll')) { throw 'pron_engine.dll not found in build/engine' }
+          if (-not (Test-Path 'publish/onnxruntime_providers_shared.dll')) { Write-Warning 'onnxruntime_providers_shared.dll not in the sherpa-onnx archive (CPU-only use is fine)' }
           New-Item -ItemType Directory -Force publish/models | Out-Null
           Copy-Item models/* publish/models -Recurse -Force
 
       - name: Verify bundled files
         shell: pwsh
         run: |
-          foreach ($f in 'EnglishApp.exe','pron_engine.dll','onnxruntime.dll','content.db','user_schema.sql','models') {
+          foreach ($f in 'EnglishApp.exe','pron_engine.dll','onnxruntime.dll','sherpa-onnx-c-api.dll','content.db','user_schema.sql','models') {
             if (-not (Test-Path "publish/$f")) { throw "missing $f in publish output" }
           }
 
