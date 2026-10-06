@@ -30,9 +30,17 @@ Wav2Vec2PhonemeModel::Wav2Vec2PhonemeModel(const std::string& model_path, const 
     if (!f) throw std::runtime_error("cannot open " + vocab_path);
     std::stringstream ss; ss << f.rdbuf();
     impl_->labels = parse_vocab_json(ss.str());
-    auto it = std::find(impl_->labels.begin(), impl_->labels.end(), "<pad>");
-    if (it == impl_->labels.end()) throw std::runtime_error("vocab.json has no <pad> token");
-    impl_->blank = int(it - impl_->labels.begin());
+    // CTC blank: HF wav2vec2 tokenizers call it "<pad>" (espeak models) or "[PAD]" (e.g. gruut/
+    // ljspeech fine-tunes); a few use "<blank>"/"<eps>". Fall back to id 0, the usual blank slot.
+    impl_->blank = -1;
+    for (const char* name : {"<pad>", "[PAD]", "<blank>", "[blank]", "<eps>", "[pad]"}) {
+        auto it = std::find(impl_->labels.begin(), impl_->labels.end(), name);
+        if (it != impl_->labels.end()) { impl_->blank = int(it - impl_->labels.begin()); break; }
+    }
+    if (impl_->blank < 0) {
+        if (impl_->labels.empty()) throw std::runtime_error("vocab.json is empty");
+        impl_->blank = 0;
+    }
     Ort::SessionOptions so;
     so.SetIntraOpNumThreads(2);
     impl_->session = Ort::Session(impl_->env, ort_path(model_path).c_str(), so);

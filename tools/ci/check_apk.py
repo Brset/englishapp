@@ -13,7 +13,7 @@ SYSTEM_LIBS = {"libc.so", "libm.so", "libdl.so", "liblog.so", "libandroid.so", "
                "libOpenSLES.so", "libmediandk.so", "libEGL.so", "libGLESv2.so",
                "libvulkan.so", "libjnigraphics.so", "libnativewindow.so", "libsync.so"}
 M = "assets/models/"
-REQUIRED_ASSETS = ["whisper/ggml-base.en.bin", "vad/silero_vad.onnx", "phoneme/model.onnx",
+REQUIRED_ASSETS = ["vad/silero_vad.onnx", "phoneme/model.onnx",
                    "phoneme/vocab.json", "cmudict/cmudict.dict", "tts/us/model.onnx",
                    "tts/us/tokens.txt", "tts/us/espeak-ng-data/", "tts/gb/"]
 OTHER_ASSETS = ["assets/content.db", "assets/user_schema.sql"]
@@ -80,6 +80,12 @@ def main():
         else:
             n = M + r
             (ok if n in names else fail)(f"{n} " + ("present" if n in names else "MISSING"))
+    # exactly one whisper model (name varies: base.en / base.en-q5_1 ...)
+    wh = [n for n in names if n.startswith(M + "whisper/ggml-") and n.endswith(".bin")]
+    (ok if len(wh) == 1 else fail)(f"whisper model: {wh or 'MISSING'}")
+    for r in ("live/encoder.onnx", "live/decoder.onnx", "live/joiner.onnx", "live/tokens.txt"):
+        n = M + r
+        (ok if n in names else fail)(f"{n} " + ("present" if n in names else "MISSING"))
     for n in OTHER_ASSETS:
         (ok if n in names else fail)(f"{n} " + ("present" if n in names else "MISSING"))
     for n, i in sorted(infos.items()):

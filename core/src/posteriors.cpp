@@ -36,7 +36,7 @@ PhonemeVocab::PhonemeVocab(std::vector<std::string> labels, int blank_index)
         if (static_cast<int>(i) == blank_) continue;
         const std::string& l = labels_[i];
         if (l == "|" || l == " " || l == "\xE2\x96\x81") { delim_[i] = true; continue; }
-        if (l.empty() || l[0] == '<' || l == "[PAD]" || l == "[UNK]") continue;
+        if (l.empty() || l[0] == '<' || (l.front() == '[' && l.back() == ']')) continue;
         int id = phoneme_id_from_ipa(l);
         if (id < 0 && looks_like_arpabet(l)) id = phoneme_id(l);
         map_[i] = id;

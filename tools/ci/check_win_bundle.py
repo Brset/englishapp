@@ -8,7 +8,7 @@ import argparse, glob, os, re, shutil, subprocess, sys
 
 REQUIRED = ["EnglishApp.exe", "pron_engine.dll", "onnxruntime.dll", "sherpa-onnx-c-api.dll",
             "resources.pri", "content.db", "user_schema.sql"]
-MODELS = ["whisper/ggml-base.en.bin", "vad/silero_vad.onnx", "phoneme/model.onnx", "phoneme/vocab.json",
+MODELS = ["vad/silero_vad.onnx", "phoneme/model.onnx", "phoneme/vocab.json",
           "cmudict/cmudict.dict", "tts/us/model.onnx", "tts/us/tokens.txt", "tts/us/espeak-ng-data/", "tts/gb/"]
 SYS_EXACT = {"kernel32", "user32", "advapi32", "ole32", "oleaut32", "shell32", "ws2_32", "ucrtbase",
              "gdi32", "shlwapi", "bcrypt", "crypt32", "ntdll", "combase", "rpcrt4", "winmm", "version",
@@ -56,6 +56,11 @@ def main():
     else: fail(f"cannot compare onnxruntime.dll ({src} / {dst})")
 
     print("== models ==")
+    wh = glob.glob(os.path.join(pub, "models", "whisper", "ggml-*.bin"))
+    (ok if len(wh) == 1 else fail)(f"whisper model: {[os.path.basename(w) for w in wh] or 'MISSING'}")
+    for r in ("live/encoder.onnx", "live/decoder.onnx", "live/joiner.onnx", "live/tokens.txt"):
+        p = os.path.join(pub, "models", r)
+        (ok if os.path.isfile(p) else fail)(f"models/{r} " + ("present" if os.path.isfile(p) else "MISSING"))
     for r in MODELS:
         p = os.path.join(pub, "models", r)
         if r.endswith("/"):
