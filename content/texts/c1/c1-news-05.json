@@ -1,0 +1,141 @@
+{
+  "id": "c1-news-05",
+  "level": "C1",
+  "genre": "news",
+  "title_en": "Rail Strike Called Off at the Eleventh Hour",
+  "title_ru": "Забастовка железнодорожников отменена в последний момент",
+  "description_ru": "Вымышленная новость о переговорах, предотвративших остановку железной дороги.",
+  "text": "A nationwide strike that threatened to paralyse the Northvale rail network on Monday was called off late last night, after marathon negotiations between union leaders and management produced a deal that both sides described, with varying degrees of enthusiasm, as acceptable.\n\nThe agreement, reached shortly before midnight at a conference hotel in the capital, will give the company's twelve thousand employees a pay rise of five per cent this year and a further three per cent next year, together with a commitment to review shift patterns. It falls short of the eight per cent originally demanded by the union, but exceeds the opening offer of two per cent made by the company during the first week of talks.\n\n\"Nobody walks away from a negotiation like this with everything they wanted,\" said Marcus Teller, general secretary of the Rail Workers' Alliance, speaking to reporters in the early hours of the morning. \"But I believe we have secured a fair settlement, and, more importantly, a framework for resolving the issue of working hours that has caused so much resentment.\" He added that union members would be asked to vote on the proposal within ten days, and that he would recommend acceptance.\n\nThe chief executive of Northvale Rail, Sophie Armitage, also struck a conciliatory tone. \"This dispute has been difficult for everyone, not least the passengers whose plans were thrown into uncertainty,\" she said. \"I would like to apologise to them sincerely, and to thank our staff for their patience.\" Asked whether ticket prices would rise to cover the increased wage bill, she declined to commit herself, saying only that the company would \"explore every option\".\n\nThe strike, if it had gone ahead, would have been the most disruptive in the network's recent history. Business groups estimated that a week of stoppages could cost the economy up to two hundred million pounds, while travellers had already begun to cancel journeys, rearrange meetings and hunt for alternatives. Coach operators reported a surge in bookings, and one car-sharing website said that demand had tripled over the weekend.\n\nPassengers greeted the news with relief tinged with scepticism. \"I'm glad, obviously,\" said Daniel Okoro, a commuter waiting at the main station on Sunday morning. \"But I have been here before. Every time there is a deal, I assume we will be back in the same place in a year.\" Others were less restrained, with one traveller celebrating by buying a round of coffee for the entire platform.\n\nAnalysts cautioned that the underlying tensions have not disappeared. The unions remain concerned about proposed job cuts at ticket offices, an issue that has been postponed rather than settled. Services are expected to run normally from Monday morning, though minor delays may persist while timetables recover.",
+  "word_count": 457,
+  "vocabulary": [
+    {
+      "word": "paralyse",
+      "ipa_us": "ˈpærəlaɪz",
+      "ipa_uk": "ˈpærəlaɪz",
+      "translation_ru": "парализовать"
+    },
+    {
+      "word": "marathon",
+      "ipa_us": "ˈmærəθɑːn",
+      "ipa_uk": "ˈmærəθən",
+      "translation_ru": "марафонский, затяжной"
+    },
+    {
+      "word": "framework",
+      "ipa_us": "ˈfreɪmwɜːrk",
+      "ipa_uk": "ˈfreɪmwɜːk",
+      "translation_ru": "рамочное соглашение"
+    },
+    {
+      "word": "resentment",
+      "ipa_us": "rɪˈzentmənt",
+      "ipa_uk": "rɪˈzentmənt",
+      "translation_ru": "недовольство"
+    },
+    {
+      "word": "conciliatory",
+      "ipa_us": "kənˈsɪliətɔːri",
+      "ipa_uk": "kənˈsɪliətəri",
+      "translation_ru": "примирительный"
+    },
+    {
+      "word": "disruptive",
+      "ipa_us": "dɪsˈrʌptɪv",
+      "ipa_uk": "dɪsˈrʌptɪv",
+      "translation_ru": "нарушающий порядок"
+    },
+    {
+      "word": "stoppages",
+      "ipa_us": "ˈstɑːpɪdʒɪz",
+      "ipa_uk": "ˈstɒpɪdʒɪz",
+      "translation_ru": "остановки работы"
+    },
+    {
+      "word": "tinged",
+      "ipa_us": "tɪndʒd",
+      "ipa_uk": "tɪndʒd",
+      "translation_ru": "с оттенком"
+    },
+    {
+      "word": "scepticism",
+      "ipa_us": "ˈskeptɪsɪzəm",
+      "ipa_uk": "ˈskeptɪsɪzəm",
+      "translation_ru": "скептицизм"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "negotiations",
+        "acceptable",
+        "uncertainty"
+      ],
+      "tip_ru": "В длинных словах ударение стоит не в начале: negotiAtions, acCEPtable, unCERtainty."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "called off",
+        "walks away",
+        "back in"
+      ],
+      "tip_ru": "Согласный в конце слова переходит в гласный следующего: «колдоф», «уокс-эвей». Читайте слитно."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "meetings",
+        "morning",
+        "everything"
+      ],
+      "tip_ru": "Задняя часть языка у мягкого нёба, звук носовой. everything — без отчётливого г."
+    },
+    {
+      "sound": "e",
+      "examples": [
+        "ten",
+        "demanded",
+        "expected"
+      ],
+      "tip_ru": "Рот приоткрыт, язык ближе к передней части: звук между русскими э и е; не заменяйте на и."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was called off?",
+      "answer": "A nationwide rail strike.",
+      "accepted_keywords": [
+        "strike",
+        "rail"
+      ]
+    },
+    {
+      "question": "What pay rise was agreed this year?",
+      "answer": "Five per cent.",
+      "accepted_keywords": [
+        "five",
+        "5"
+      ]
+    },
+    {
+      "question": "What did the union leader plan to do with the deal?",
+      "answer": "Put it to members to vote and recommend acceptance.",
+      "accepted_keywords": [
+        "vote",
+        "recommend",
+        "members",
+        "acceptance"
+      ]
+    },
+    {
+      "question": "What issue remains unsettled?",
+      "answer": "Proposed job cuts at ticket offices.",
+      "accepted_keywords": [
+        "job",
+        "cuts",
+        "ticket"
+      ]
+    }
+  ]
+}

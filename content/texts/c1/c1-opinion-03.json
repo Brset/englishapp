@@ -1,0 +1,138 @@
+{
+  "id": "c1-opinion-03",
+  "level": "C1",
+  "genre": "opinion",
+  "title_en": "The Tyranny of Optimisation",
+  "title_ru": "Тирания оптимизации",
+  "description_ru": "Рассуждение о том, как стремление всё измерять и улучшать лишает жизнь спонтанности.",
+  "text": "A friend of mine recently confessed that she had stopped enjoying her evening walks. The reason, she explained, was that her watch now monitored them. It counted her steps, graded her pace, noted that she had burned fewer calories than on Tuesday, and issued a polite reminder that she was falling short of her weekly goal. The walk had ceased to be a walk; it had become a performance review conducted by a bracelet.\n\nHer experience is hardly unusual. We live in an age of optimisation, in which almost every area of life has acquired its own metrics and its own army of applications. We track our sleep, our heart rate, our reading speed, our spending and our mood. There are programs to optimise our mornings, our friendships and even our meditation, a practice whose original purpose was presumably to escape the endless urge to improve.\n\nI am not hostile to measurement as such. Data can be illuminating, and a diabetic who monitors her blood sugar is doing something sensible. My objection is to the quiet shift in what we regard as worth doing. Whatever can be counted tends to be treated as important, and whatever cannot be counted slips out of view. Steps are easy to measure; the pleasure of strolling aimlessly through an unfamiliar street is not. Words typed per minute are simple to compare; the slow, inefficient mulling over of a difficult sentence is not. Gradually, we begin to value the first kind of thing at the expense of the second.\n\nThere is also a psychological cost. When an activity becomes a means to a measurable end, the activity itself loses its intrinsic appeal. Researchers have shown that children who are rewarded for drawing often lose interest in drawing once the rewards stop. The lesson applies to adults, too. If I read only to reach a target of fifty books a year, I will inevitably choose shorter books, skim the difficult ones and finish with a number rather than an education.\n\nFurthermore, optimisation is a treadmill. The standard is never fixed, because there is always a more efficient routine, a smarter schedule, a better version of oneself waiting just out of reach. Satisfaction becomes a moving target, and contentment is permanently deferred.\n\nWhat is the alternative? Not, I think, a rebellion against all organisation, which would be both impractical and tiresome. It is more modest: to reserve some corners of life for pursuits that are deliberately pointless. Take a walk without your watch. Cook a meal without timing it. Have a conversation that is not designed to lead anywhere.\n\nEfficiency is an excellent servant but a dreadful master. The best moments of life are rarely efficient, and most of them are impossible to put on a graph.",
+  "word_count": 460,
+  "vocabulary": [
+    {
+      "word": "optimisation",
+      "ipa_us": "ˌɑːptɪmaɪˈzeɪʃən",
+      "ipa_uk": "ˌɒptɪmaɪˈzeɪʃən",
+      "translation_ru": "оптимизация"
+    },
+    {
+      "word": "metrics",
+      "ipa_us": "ˈmetrɪks",
+      "ipa_uk": "ˈmetrɪks",
+      "translation_ru": "показатели"
+    },
+    {
+      "word": "illuminating",
+      "ipa_us": "ɪˈluːmɪneɪtɪŋ",
+      "ipa_uk": "ɪˈluːmɪneɪtɪŋ",
+      "translation_ru": "поучительный, проясняющий"
+    },
+    {
+      "word": "mulling",
+      "ipa_us": "ˈmʌlɪŋ",
+      "ipa_uk": "ˈmʌlɪŋ",
+      "translation_ru": "обдумывая"
+    },
+    {
+      "word": "intrinsic",
+      "ipa_us": "ɪnˈtrɪnzɪk",
+      "ipa_uk": "ɪnˈtrɪnzɪk",
+      "translation_ru": "внутренний, присущий"
+    },
+    {
+      "word": "treadmill",
+      "ipa_us": "ˈtredmɪl",
+      "ipa_uk": "ˈtredmɪl",
+      "translation_ru": "беговая дорожка; бег по кругу"
+    },
+    {
+      "word": "deferred",
+      "ipa_us": "dɪˈfɜːrd",
+      "ipa_uk": "dɪˈfɜːd",
+      "translation_ru": "отложенный"
+    },
+    {
+      "word": "aimlessly",
+      "ipa_us": "ˈeɪmləsli",
+      "ipa_uk": "ˈeɪmləsli",
+      "translation_ru": "бесцельно"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "something",
+        "worth",
+        "without"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса; не подменяйте звуками с и т."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "reason",
+        "rewarded",
+        "routine"
+      ],
+      "tip_ru": "Язык не касается нёба. Кончик чуть загнут назад, губы слегка вытянуты."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "optimisation",
+        "psychological",
+        "efficient"
+      ],
+      "tip_ru": "В optimisation ударение на -sa-: optimiSAtion; psychoLOgical — на -lo-. Ударный слог длиннее и громче."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "evening",
+        "something",
+        "strolling"
+      ],
+      "tip_ru": "Не произносите отчётливое г после n: evening, something — задняя часть языка к нёбу, звук носовой."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why did the writer's friend stop enjoying walks?",
+      "answer": "Her watch monitored and graded them, making them feel like a performance review.",
+      "accepted_keywords": [
+        "watch",
+        "monitored",
+        "review",
+        "graded"
+      ]
+    },
+    {
+      "question": "What happens to children rewarded for drawing?",
+      "answer": "They often lose interest in drawing when rewards stop.",
+      "accepted_keywords": [
+        "interest",
+        "lose"
+      ]
+    },
+    {
+      "question": "Why does the writer call optimisation a treadmill?",
+      "answer": "The standard keeps moving, so satisfaction is always deferred.",
+      "accepted_keywords": [
+        "standard",
+        "moving",
+        "satisfaction",
+        "never"
+      ]
+    },
+    {
+      "question": "What does the writer recommend?",
+      "answer": "Keeping some pursuits deliberately pointless.",
+      "accepted_keywords": [
+        "pointless",
+        "walk",
+        "without",
+        "watch"
+      ]
+    }
+  ]
+}

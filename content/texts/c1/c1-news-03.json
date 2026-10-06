@@ -1,0 +1,144 @@
+{
+  "id": "c1-news-03",
+  "level": "C1",
+  "genre": "news",
+  "title_en": "Brindlemoor Trials a Car-Free Centre",
+  "title_ru": "Бриндлмур вводит эксперимент: центр без машин",
+  "description_ru": "Вымышленный городской совет вводит пробный запрет на автомобили, вызывая споры.",
+  "text": "BRINDLEMOOR - The city council voted late on Wednesday to close the historic centre to private cars for a six-month trial, a decision that has divided residents as sharply as any local issue in recent memory.\n\nThe measure, which passed by fourteen votes to eleven after a heated four-hour debate, will take effect on the first of March. During the trial, vehicles other than buses, taxis, emergency services and delivery vans will be barred from an area of roughly one square kilometre around the cathedral. Residents of the zone will be allowed to drive to their homes, but will be asked to travel at walking speed.\n\nCouncillor Priya Venn, who proposed the scheme, described it as \"a modest attempt to give the city back to the people who live in it\". She pointed to figures showing that air pollution in the centre regularly exceeds recommended limits, and that nearly a third of journeys into the zone are shorter than two kilometres. \"If a trip is shorter than a bus ride, we should ask whether a car is really necessary,\" she said.\n\nNot everyone agreed. Opponents, led by Councillor Gordon Haddock, warned that the policy would devastate local trade. \"Shopkeepers are already struggling against online competition,\" he said. \"Telling customers they cannot park outside is like asking them to go somewhere else.\" A petition against the proposal, signed by more than three thousand people, was presented to the chamber before the vote.\n\nDisability groups have also expressed concern. Although the plan includes exemptions for blue-badge holders, campaigners argue that the details remain vague. \"We welcome the ambition, but an exemption on paper is no use if the pavements are blocked by café tables,\" said Lena Fairbank, who represents a local advocacy network. The council has promised to consult her organisation before the changes begin.\n\nElsewhere, similar experiments have produced mixed results. In the neighbouring town of Ashcombe, a smaller pedestrian zone introduced three years ago led to an initial dip in sales, followed by a recovery as new cafés and market stalls moved in. Researchers who studied the project found that shoppers on foot visited more frequently and spent slightly more over a month, though the effect varied from street to street.\n\nTo soften the impact, the council plans to run free shuttle buses around the perimeter at ten-minute intervals, and to subsidise cargo bicycles for small businesses. Traders will receive a monthly report on footfall, which councillors will review before deciding whether to make the closure permanent.\n\nWhatever the outcome, the experiment will be closely watched. As Councillor Venn put it after the vote, \"Either we will be pleasantly surprised, or we will be wiser. Neither is a bad result.\"",
+  "word_count": 454,
+  "vocabulary": [
+    {
+      "word": "trial",
+      "ipa_us": "ˈtraɪəl",
+      "ipa_uk": "ˈtraɪəl",
+      "translation_ru": "пробный период"
+    },
+    {
+      "word": "barred",
+      "ipa_us": "bɑːrd",
+      "ipa_uk": "bɑːd",
+      "translation_ru": "запрещён (въезд)"
+    },
+    {
+      "word": "devastate",
+      "ipa_us": "ˈdevəsteɪt",
+      "ipa_uk": "ˈdevəsteɪt",
+      "translation_ru": "разрушить"
+    },
+    {
+      "word": "petition",
+      "ipa_us": "pəˈtɪʃən",
+      "ipa_uk": "pəˈtɪʃən",
+      "translation_ru": "петиция"
+    },
+    {
+      "word": "exemptions",
+      "ipa_us": "ɪɡˈzempʃənz",
+      "ipa_uk": "ɪɡˈzempʃənz",
+      "translation_ru": "исключения"
+    },
+    {
+      "word": "advocacy",
+      "ipa_us": "ˈædvəkəsi",
+      "ipa_uk": "ˈædvəkəsi",
+      "translation_ru": "защита интересов"
+    },
+    {
+      "word": "subsidise",
+      "ipa_us": "ˈsʌbsɪdaɪz",
+      "ipa_uk": "ˈsʌbsɪdaɪz",
+      "translation_ru": "субсидировать"
+    },
+    {
+      "word": "perimeter",
+      "ipa_us": "pəˈrɪmɪtər",
+      "ipa_uk": "pəˈrɪmɪtə",
+      "translation_ru": "периметр"
+    },
+    {
+      "word": "footfall",
+      "ipa_us": "ˈfʊtfɔːl",
+      "ipa_uk": "ˈfʊtfɔːl",
+      "translation_ru": "поток посетителей"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vehicles",
+        "voted",
+        "devastate"
+      ],
+      "tip_ru": "Нижняя губа касается верхних зубов, голос включён. Не путайте v и w: vote — не «вот»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walking",
+        "warned",
+        "welcome"
+      ],
+      "tip_ru": "Губы сильно округлены, зубы не касаются губ: это не в."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "cars",
+        "plans",
+        "buses"
+      ],
+      "tip_ru": "Звонкое s в конце: cars — «карз», buses — «басиз». Не оглушайте в с."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "though",
+        "thousand"
+      ],
+      "tip_ru": "Кончик языка между зубами. Глухой в three, with; звонкий ð в though."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the council vote to do?",
+      "answer": "Close the historic centre to private cars for six months.",
+      "accepted_keywords": [
+        "close",
+        "cars",
+        "car-free",
+        "ban"
+      ]
+    },
+    {
+      "question": "What was the result of the vote?",
+      "answer": "Fourteen votes to eleven.",
+      "accepted_keywords": [
+        "fourteen",
+        "eleven",
+        "14"
+      ]
+    },
+    {
+      "question": "What happened in Ashcombe?",
+      "answer": "Sales dipped at first and then recovered.",
+      "accepted_keywords": [
+        "dip",
+        "recovery",
+        "recovered",
+        "sales"
+      ]
+    },
+    {
+      "question": "What will the council provide to soften the impact?",
+      "answer": "Free shuttle buses and subsidised cargo bicycles.",
+      "accepted_keywords": [
+        "shuttle",
+        "buses",
+        "bicycles"
+      ]
+    }
+  ]
+}

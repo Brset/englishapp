@@ -1,0 +1,146 @@
+{
+  "id": "c1-opinion-04",
+  "level": "C1",
+  "genre": "opinion",
+  "title_en": "Why Libraries Still Matter",
+  "title_ru": "Почему библиотеки по-прежнему важны",
+  "description_ru": "Страстная защита библиотек как общественного пространства, а не просто хранилища книг.",
+  "text": "Every few years, a politician looking for savings discovers the public library. Why, the argument runs, should we maintain buildings full of paper in an age when information is available on every phone? The logic seems irresistible, which is precisely why it deserves to be examined with suspicion. It rests on a misunderstanding of what a library is for.\n \nCertainly, a library lends books, and books alone would justify its existence. But anyone who has spent an afternoon in a busy branch knows that lending is only the beginning. On a typical morning I have seen a retired engineer reading newspapers, a group of toddlers shrieking happily through rhyme time, a teenager revising for examinations because her flat is too crowded for homework, and a man in a worn coat quietly filling out a job application. None of them is there for a bargain. They are there because the library offers something increasingly rare: a warm, welcoming space where nobody asks you to buy anything.\n\nSociologists call such places the \"third places\" of a community, neither home nor work. Pubs, cafés and churches once performed this function for many, but they are vanishing or becoming expensive. A library is open to all, regardless of income, age or opinion. In an era of growing social division, this is a quiet miracle. It is one of the few institutions where a student and a pensioner may sit at the same table without either feeling out of place.\n\nThe claim that everything is online also deserves a sceptical look. It ignores the fact that millions of people lack reliable internet access, or lack the devices, or the skills to use them. For these citizens, the library computer is not a convenience but a lifeline, used to claim benefits, apply for jobs and communicate with doctors. Moreover, the sheer abundance of online material makes expertise more valuable, not less. A trained librarian, who can help someone distinguish a reliable source from a persuasive rumour, is arguably more necessary now than at any time in history.\n\nCritics sometimes respond that libraries should earn their keep. That is the wrong way to look at them. We do not demand that street lighting turn a profit. A library is infrastructure for the mind, and its returns are diffuse and long-term: literacy, confidence, opportunity, and the faint, unquantifiable sense that a society takes its own curiosity seriously.\n\nClosing a library is a decision that is easy to make and almost impossible to reverse. Once the building is sold and the staff dispersed, no future government will rebuild it. Those who hold the purse strings should think carefully before they treat a cornerstone of civic life as an accounting error.\n\nThe next time you walk past your local branch, step inside. Borrow something. It will be glad to see you, and so, I suspect, will you.",
+  "word_count": 479,
+  "vocabulary": [
+    {
+      "word": "irresistible",
+      "ipa_us": "ˌɪrɪˈzɪstəbl",
+      "ipa_uk": "ˌɪrɪˈzɪstəbl",
+      "translation_ru": "неотразимый"
+    },
+    {
+      "word": "toddlers",
+      "ipa_us": "ˈtɑːdlərz",
+      "ipa_uk": "ˈtɒdləz",
+      "translation_ru": "малыши"
+    },
+    {
+      "word": "shrieking",
+      "ipa_us": "ˈʃriːkɪŋ",
+      "ipa_uk": "ˈʃriːkɪŋ",
+      "translation_ru": "визжащие"
+    },
+    {
+      "word": "sociologists",
+      "ipa_us": "ˌsoʊsiˈɑːlədʒɪsts",
+      "ipa_uk": "ˌsəʊsiˈɒlədʒɪsts",
+      "translation_ru": "социологи"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskeptɪkl",
+      "ipa_uk": "ˈskeptɪkl",
+      "translation_ru": "скептический"
+    },
+    {
+      "word": "lifeline",
+      "ipa_us": "ˈlaɪflaɪn",
+      "ipa_uk": "ˈlaɪflaɪn",
+      "translation_ru": "спасательный круг"
+    },
+    {
+      "word": "abundance",
+      "ipa_us": "əˈbʌndəns",
+      "ipa_uk": "əˈbʌndəns",
+      "translation_ru": "изобилие"
+    },
+    {
+      "word": "diffuse",
+      "ipa_us": "dɪˈfjuːs",
+      "ipa_uk": "dɪˈfjuːs",
+      "translation_ru": "рассеянный, неочевидный"
+    },
+    {
+      "word": "dispersed",
+      "ipa_us": "dɪˈspɜːrst",
+      "ipa_uk": "dɪˈspɜːst",
+      "translation_ru": "разошедшийся"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aspiration",
+      "examples": [
+        "public",
+        "politician",
+        "computer"
+      ],
+      "tip_ru": "Глухие p, t, k в начале ударного слога произносите с лёгким придыханием: небольшой выдох, как будто дуете на свечу."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "public",
+        "none",
+        "once"
+      ],
+      "tip_ru": "Короткий, открытый и центральный звук, ближе к русскому а в безударной позиции; не э и не о."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "information",
+        "politician",
+        "infrastructure"
+      ],
+      "tip_ru": "Ударение: inforMAtion, poliTIcian, INfrastructure (на первом слоге). Выучите их как отдельные слова."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "library",
+        "with",
+        "miracle"
+      ],
+      "tip_ru": "Короткий и расслабленный звук, ниже и ближе к центру, чем русское и. Не растягивайте."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What argument do politicians use against libraries?",
+      "answer": "That information is online, so paper buildings are unnecessary.",
+      "accepted_keywords": [
+        "online",
+        "savings",
+        "internet",
+        "phone"
+      ]
+    },
+    {
+      "question": "What are third places?",
+      "answer": "Places that are neither home nor work.",
+      "accepted_keywords": [
+        "neither",
+        "home",
+        "work"
+      ]
+    },
+    {
+      "question": "Why does the library computer matter?",
+      "answer": "Many people lack internet access, devices or skills.",
+      "accepted_keywords": [
+        "access",
+        "internet",
+        "lifeline",
+        "jobs",
+        "benefits"
+      ]
+    },
+    {
+      "question": "Why is closing a library hard to reverse?",
+      "answer": "The building is sold and staff dispersed, so nobody rebuilds it.",
+      "accepted_keywords": [
+        "sold",
+        "staff",
+        "building",
+        "dispersed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "c1-biography-04",
+  "level": "C1",
+  "genre": "biography",
+  "title_en": "Wangari Maathai: The Woman Who Planted a Movement",
+  "title_ru": "Вангари Маатаи: женщина, посадившая целое движение",
+  "description_ru": "Кенийская учёная и активистка, которая начала с саженцев и получила Нобелевскую премию мира.",
+  "text": "Wangari Maathai was born in 1940 in the central highlands of Kenya, in a village near Nyeri, at a time when the country was still a British colony. Girls in her community were seldom sent to school, but her older brother asked why his sister was not in class, and the question changed her life. She proved to be an exceptional student, and in the early 1960s she won a scholarship to study biology in the United States, at a small Catholic college in Kansas. She later completed a master's degree at the University of Pittsburgh.\n\nReturning to Kenya, she continued her studies in veterinary anatomy at the University of Nairobi and in 1971 became the first woman in East and Central Africa to earn a doctorate. She went on to head her department and to become an associate professor, again a first for a woman in the region. Yet the academic world did not shelter her from prejudice. When she campaigned for equal benefits for female staff, she met with fierce resistance.\n\nThe idea that made her famous grew out of her work with rural women. They told her that their streams were drying up, that firewood had to be fetched from ever farther away, and that their children were malnourished because the soil was exhausted. Deforestation, she realised, was the common cause. Her answer was disarmingly simple. In 1977 she founded the Green Belt Movement, which paid poor women a small sum to grow seedlings and plant trees. The scheme restored the land, provided income and gave the women a sense of dignity and independence. Over the following decades, millions of trees were planted across Kenya, and the idea spread to other African countries.\n\nPlanting trees soon became a political act. Maathai opposed the corrupt land grabs of the government of President Daniel arap Moi, who in the 1990s was allotting public forests to his political allies. She was arrested, threatened and beaten, and in 1999 she was injured by guards while protecting trees in the Karura Forest near Nairobi. Her persistence eventually helped to defeat the plans, and in 2002 she was elected to parliament, afterwards serving as an assistant minister for the environment.\n\nIn 2004 she was awarded the Nobel Peace Prize, the first African woman to receive it. The committee recognised that peace depends on the sustainable management of resources, a connection that was then unfashionable and today seems obvious. She was known for her colourful headscarves, her warm laugh and her stubborn refusal to be discouraged.\n\nWangari Maathai died of cancer in Nairobi in September 2011, aged seventy-one. Her philosophy was disarmingly modest: she once described herself as simply doing what any person who cared for the earth would do, one seedling at a time.",
+  "word_count": 455,
+  "vocabulary": [
+    {
+      "word": "prejudice",
+      "ipa_us": "ˈpredʒədɪs",
+      "ipa_uk": "ˈpredʒədɪs",
+      "translation_ru": "предубеждение"
+    },
+    {
+      "word": "malnourished",
+      "ipa_us": "ˌmælˈnɜːrɪʃt",
+      "ipa_uk": "ˌmælˈnʌrɪʃt",
+      "translation_ru": "истощённые, недоедающие"
+    },
+    {
+      "word": "deforestation",
+      "ipa_us": "diːˌfɔːrɪˈsteɪʃən",
+      "ipa_uk": "diːˌfɒrɪˈsteɪʃən",
+      "translation_ru": "вырубка лесов"
+    },
+    {
+      "word": "seedlings",
+      "ipa_us": "ˈsiːdlɪŋz",
+      "ipa_uk": "ˈsiːdlɪŋz",
+      "translation_ru": "саженцы"
+    },
+    {
+      "word": "disarmingly",
+      "ipa_us": "dɪsˈɑːrmɪŋli",
+      "ipa_uk": "dɪsˈɑːmɪŋli",
+      "translation_ru": "обезоруживающе"
+    },
+    {
+      "word": "corrupt",
+      "ipa_us": "kəˈrʌpt",
+      "ipa_uk": "kəˈrʌpt",
+      "translation_ru": "коррумпированный"
+    },
+    {
+      "word": "allotting",
+      "ipa_us": "əˈlɑːtɪŋ",
+      "ipa_uk": "əˈlɒtɪŋ",
+      "translation_ru": "выделяя, раздавая"
+    },
+    {
+      "word": "sustainable",
+      "ipa_us": "səˈsteɪnəbl",
+      "ipa_uk": "səˈsteɪnəbl",
+      "translation_ru": "устойчивый"
+    },
+    {
+      "word": "persistence",
+      "ipa_us": "pərˈsɪstəns",
+      "ipa_uk": "pəˈsɪstəns",
+      "translation_ru": "настойчивость"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "was",
+        "wangari",
+        "woman"
+      ],
+      "tip_ru": "Губы сильно округлены и выдвинуты вперёд; зубов не касайтесь. Это не в."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "other",
+        "that"
+      ],
+      "tip_ru": "Кончик языка между зубами и звонкий голос. Не заменяйте на з или д."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "planting",
+        "seedlings",
+        "following"
+      ],
+      "tip_ru": "Спинка языка поднимается к мягкому нёбу, воздух идёт через нос; последнего г не слышно."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "deforestation",
+        "environment",
+        "sustainable"
+      ],
+      "tip_ru": "Слова на -ation несут ударение на слоге перед суффиксом: deforesTAtion. В sustainable ударение на втором слоге."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was special about her doctorate in 1971?",
+      "answer": "She was the first woman in East and Central Africa to earn one.",
+      "accepted_keywords": [
+        "first",
+        "woman",
+        "doctorate"
+      ]
+    },
+    {
+      "question": "What did the Green Belt Movement do?",
+      "answer": "It paid poor women to grow and plant trees.",
+      "accepted_keywords": [
+        "trees",
+        "seedlings",
+        "plant",
+        "women"
+      ]
+    },
+    {
+      "question": "Why was she attacked in the 1990s?",
+      "answer": "She opposed corrupt land grabs and protected public forests.",
+      "accepted_keywords": [
+        "forest",
+        "land",
+        "trees",
+        "corrupt"
+      ]
+    },
+    {
+      "question": "What prize did she win in 2004?",
+      "answer": "The Nobel Peace Prize.",
+      "accepted_keywords": [
+        "nobel",
+        "peace"
+      ]
+    }
+  ]
+}

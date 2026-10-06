@@ -1,0 +1,143 @@
+{
+  "id": "c1-biography-02",
+  "level": "C1",
+  "genre": "biography",
+  "title_en": "Alan Turing: The Man Who Thought About Thinking",
+  "title_ru": "Алан Тьюринг: человек, который думал о мышлении",
+  "description_ru": "Биография математика, взломавшего «Энигму» и заложившего основы информатики, и его несправедливая судьба.",
+  "text": "Alan Turing was born in London in 1912 and showed an unusual mind from childhood. At boarding school he was an indifferent pupil in the eyes of his teachers, who despaired of his untidy handwriting, yet he taught himself advanced mathematics and studied Einstein's work for pleasure. He went on to King's College, Cambridge, where he was elected a fellow at the age of twenty-two.\n\nIn 1936 he published a paper that quietly changed the world. Turing described an imaginary device, later called the Turing machine, that could carry out any calculation which can be expressed as a series of precise steps. The idea showed both what a general-purpose computer could do and, just as importantly, what no computer ever could. Modern computing rests on that foundation.\n\nWhen Britain declared war on Germany in 1939, Turing reported to Bletchley Park, the secret codebreaking centre in Buckinghamshire. German forces protected their messages with the Enigma machine, whose settings changed every day, producing an astronomical number of possibilities. Building on earlier Polish work, Turing designed an electromechanical machine known as the bombe, which could eliminate wrong settings at remarkable speed. As head of Hut 8 he concentrated on the naval Enigma, the cipher used by U-boats that were strangling Atlantic convoys. Historians generally estimate that the intelligence gathered at Bletchley shortened the war by up to two years, although such figures remain impossible to prove.\n\nAfter the war Turing worked on early computers in London and Manchester. In 1950 he published a famous essay asking whether machines can think. Recognising that the question was too vague, he proposed a practical test, now known as the Turing test, in which a judge converses with a hidden partner and tries to decide whether it is human. The debate he started is more alive today than ever.\n\nHis private life, however, brought catastrophe. Homosexual acts were criminal in Britain at that time, and in 1952 Turing was convicted of gross indecency. To avoid prison he accepted hormone treatment, a humiliating punishment which damaged his health, and he lost his security clearance. In June 1954 he was found dead at his home in Wilmslow, aged forty-one. The inquest ruled it suicide, though some friends and later writers have questioned that conclusion.\n\nRecognition came slowly. In 2009 the prime minister, Gordon Brown, issued a public apology on behalf of the British government, and in 2013 Turing received a royal pardon. A banknote bearing his portrait entered circulation in 2021. It is a modest tribute to a man who gave the twentieth century its most powerful tool, and was treated by it so cruelly.",
+  "word_count": 430,
+  "vocabulary": [
+    {
+      "word": "indifferent",
+      "ipa_us": "ɪnˈdɪfrənt",
+      "ipa_uk": "ɪnˈdɪfrənt",
+      "translation_ru": "посредственный, безразличный"
+    },
+    {
+      "word": "despaired",
+      "ipa_us": "dɪˈsperd",
+      "ipa_uk": "dɪˈspeəd",
+      "translation_ru": "отчаивались"
+    },
+    {
+      "word": "codebreaking",
+      "ipa_us": "ˈkoʊdbreɪkɪŋ",
+      "ipa_uk": "ˈkəʊdbreɪkɪŋ",
+      "translation_ru": "взлом шифров"
+    },
+    {
+      "word": "astronomical",
+      "ipa_us": "ˌæstrəˈnɑːmɪkəl",
+      "ipa_uk": "ˌæstrəˈnɒmɪkəl",
+      "translation_ru": "астрономический, огромный"
+    },
+    {
+      "word": "cipher",
+      "ipa_us": "ˈsaɪfər",
+      "ipa_uk": "ˈsaɪfə",
+      "translation_ru": "шифр"
+    },
+    {
+      "word": "convoys",
+      "ipa_us": "ˈkɑːnvɔɪz",
+      "ipa_uk": "ˈkɒnvɔɪz",
+      "translation_ru": "конвои"
+    },
+    {
+      "word": "indecency",
+      "ipa_us": "ɪnˈdiːsənsi",
+      "ipa_uk": "ɪnˈdiːsənsi",
+      "translation_ru": "непристойность"
+    },
+    {
+      "word": "pardon",
+      "ipa_us": "ˈpɑːrdn",
+      "ipa_uk": "ˈpɑːdn",
+      "translation_ru": "помилование"
+    },
+    {
+      "word": "inquest",
+      "ipa_us": "ˈɪnkwest",
+      "ipa_uk": "ˈɪnkwest",
+      "translation_ru": "дознание"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "mathematics",
+        "calculation",
+        "intelligence"
+      ],
+      "tip_ru": "Ударение в длинных словах на -ation, -ic, -ence: ударный слог перед суффиксом — calcuLAtion, inTELligence."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "world",
+        "war",
+        "wrong"
+      ],
+      "tip_ru": "Губы округлены и вытянуты вперёд, без касания зубов. Не произносите как в или у."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "calculation",
+        "published",
+        "world"
+      ],
+      "tip_ru": "В конце слога язык поднят к альвеолам, а задняя часть опущена: звук глубокий, не мягкий русский ль."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "strangling",
+        "changed",
+        "producing"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос. Не добавляйте г в конце."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the Turing machine?",
+      "answer": "An imaginary device that could carry out any calculation made of precise steps.",
+      "accepted_keywords": [
+        "imaginary",
+        "calculation",
+        "device",
+        "computer"
+      ]
+    },
+    {
+      "question": "What did Turing do at Bletchley Park?",
+      "answer": "He helped break the German Enigma cipher.",
+      "accepted_keywords": [
+        "enigma",
+        "codebreaking",
+        "cipher",
+        "bombe"
+      ]
+    },
+    {
+      "question": "Why was he convicted in 1952?",
+      "answer": "Gross indecency, because homosexual acts were criminal.",
+      "accepted_keywords": [
+        "indecency",
+        "homosexual",
+        "criminal"
+      ]
+    },
+    {
+      "question": "When did he receive a royal pardon?",
+      "answer": "In 2013.",
+      "accepted_keywords": [
+        "2013",
+        "twenty thirteen"
+      ]
+    }
+  ]
+}

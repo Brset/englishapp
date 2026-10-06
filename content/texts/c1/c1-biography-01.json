@@ -1,0 +1,137 @@
+{
+  "id": "c1-biography-01",
+  "level": "C1",
+  "genre": "biography",
+  "title_en": "Marie Curie: Light from the Shed",
+  "title_ru": "Мария Кюри: свет из сарая",
+  "description_ru": "Жизнь первой женщины, получившей две Нобелевские премии в разных науках, и цена, которую она заплатила за открытия.",
+  "text": "Maria Skłodowska was born in Warsaw in 1867, at a time when Poland did not exist as an independent state and women were barred from university study. Her parents, both teachers, instilled in her a stubborn respect for learning, and she worked as a governess for several years to help finance her older sister's medical studies in Paris. Only then did she follow, arriving in 1891 with little money and an imperfect command of French.\n\nAt the Sorbonne she lived in a cold attic room, sometimes surviving on bread and tea, and she fainted from hunger more than once. Nevertheless, she finished first in physics and second in mathematics. In 1895 she married Pierre Curie, a gifted physicist who recognised in her not an assistant but an equal. Their partnership became one of the most productive in the history of science.\n\nInspired by Henri Becquerel's discovery that uranium emits mysterious rays, Marie began to measure the radiation of various minerals. She noticed that pitchblende was far more active than the uranium it contained could explain, and she concluded, correctly, that it must hide another, undiscovered element. Working in a leaking shed that had formerly been used to dissect corpses, the couple processed tonnes of ore by hand. In 1898 they announced polonium, named after her homeland, and radium shortly afterwards. It was Marie who coined the word \"radioactivity\".\n\nIn 1903 the Curies shared the Nobel Prize in Physics with Becquerel, although the committee had initially intended to overlook her; it was Pierre's insistence that corrected the omission. Tragedy followed in 1906, when Pierre was killed in a street accident in Paris. Rather than retreat, Marie took over his professorship and became the first woman to teach at the Sorbonne.\n\nIn 1911 she received a second Nobel Prize, this time in Chemistry, for isolating pure radium. She remains the only person to have won Nobel Prizes in two different scientific fields. During the First World War she developed mobile X-ray units, nicknamed \"little Curies\", and drove one of them to the front herself, training women to operate the equipment and helping to treat an estimated one million wounded soldiers.\n\nThe price of her devotion was heavy. She carried test tubes of radioactive material in her pockets, unaware of the danger, and her notebooks are still too contaminated to handle without protection. She died in 1934 of aplastic anaemia, almost certainly caused by decades of exposure. Her daughter Irène, who shared a Nobel Prize in 1935, continued the family's work. Today Marie Curie is remembered not only for her results but also for her tenacity, a quality she summed up in a single sentence: nothing in life is to be feared, only understood.",
+  "word_count": 445,
+  "vocabulary": [
+    {
+      "word": "governess",
+      "ipa_us": "ˈɡʌvərnəs",
+      "ipa_uk": "ˈɡʌvənəs",
+      "translation_ru": "гувернантка"
+    },
+    {
+      "word": "instilled",
+      "ipa_us": "ɪnˈstɪld",
+      "ipa_uk": "ɪnˈstɪld",
+      "translation_ru": "привила, внушила"
+    },
+    {
+      "word": "pitchblende",
+      "ipa_us": "ˈpɪtʃblend",
+      "ipa_uk": "ˈpɪtʃblend",
+      "translation_ru": "урановая смоляная руда"
+    },
+    {
+      "word": "coined",
+      "ipa_us": "kɔɪnd",
+      "ipa_uk": "kɔɪnd",
+      "translation_ru": "придумала (термин)"
+    },
+    {
+      "word": "omission",
+      "ipa_us": "oʊˈmɪʃən",
+      "ipa_uk": "əʊˈmɪʃən",
+      "translation_ru": "упущение"
+    },
+    {
+      "word": "tenacity",
+      "ipa_us": "təˈnæsəti",
+      "ipa_uk": "təˈnæsəti",
+      "translation_ru": "упорство"
+    },
+    {
+      "word": "contaminated",
+      "ipa_us": "kənˈtæmɪneɪtɪd",
+      "ipa_uk": "kənˈtæmɪneɪtɪd",
+      "translation_ru": "заражённый, загрязнённый"
+    },
+    {
+      "word": "isolating",
+      "ipa_us": "ˈaɪsəleɪtɪŋ",
+      "ipa_uk": "ˈaɪsəleɪtɪŋ",
+      "translation_ru": "выделяя"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "radioactivity",
+        "mathematics",
+        "undiscovered"
+      ],
+      "tip_ru": "В длинных словах ударение часто падает на третий слог от конца: ra-di-o-ac-TI-vi-ty, math-e-MAT-ics. Выучите ударение вместе со словом."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "mathematics",
+        "with",
+        "nothing"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса. Не заменяйте на с или т."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "radium",
+        "rays",
+        "rather"
+      ],
+      "tip_ru": "Английское r: язык не касается нёба и не вибрирует, губы чуть округлены."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "life",
+        "time",
+        "finance"
+      ],
+      "tip_ru": "Дифтонг начинается с открытого а и скользит к ɪ; не превращайте в «ай» с твёрдым й."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why did Maria move to Paris?",
+      "answer": "To study at the Sorbonne, following her sister.",
+      "accepted_keywords": [
+        "study",
+        "sorbonne",
+        "university"
+      ]
+    },
+    {
+      "question": "Which two elements did the Curies announce in 1898?",
+      "answer": "Polonium and radium.",
+      "accepted_keywords": [
+        "polonium",
+        "radium"
+      ]
+    },
+    {
+      "question": "What made Marie Curie unique among Nobel winners?",
+      "answer": "She won Nobel Prizes in two different scientific fields.",
+      "accepted_keywords": [
+        "two",
+        "physics",
+        "chemistry",
+        "different"
+      ]
+    },
+    {
+      "question": "What probably caused her death?",
+      "answer": "Long exposure to radiation.",
+      "accepted_keywords": [
+        "radiation",
+        "exposure",
+        "radioactive",
+        "anaemia"
+      ]
+    }
+  ]
+}

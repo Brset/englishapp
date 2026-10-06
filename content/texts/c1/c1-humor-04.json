@@ -1,0 +1,138 @@
+{
+  "id": "c1-humor-04",
+  "level": "C1",
+  "genre": "humor",
+  "title_en": "Me Versus the Satnav",
+  "title_ru": "Я против навигатора",
+  "description_ru": "Забавная история о поездке, в которой навигатор и водитель никак не могут договориться.",
+  "text": "My satnav and I have not spoken to each other for three days, except to exchange the minimum of necessary insults. It began, as these things so often do, with a misunderstanding about a roundabout.\n\nWe were driving to a wedding in a village I will not name, partly to protect its dignity and partly because I cannot pronounce it. The satnav, who speaks in the calm voice of a woman who has never been late for anything, instructed me to \"take the third exit\". I counted the exits. There appeared to be five, one of which was a car park, one a field and one a sort of suggestion. I chose the one that looked most like a road. \"Recalculating,\" she said, in a tone that managed to be both patient and devastating.\n\nFor the next twenty minutes we were engaged in a polite war. She suggested U-turns; I ignored them. She offered an alternative route; I declined it on principle. At one point she told me to \"continue straight for four miles\", and I did so, trusting her, until the road narrowed into a lane, the lane narrowed into a track, and the track ended at a gate with a sign that said \"Private: Beware of the Goat\".\n\nI do not know why the goat concerned me more than the sign did, but I stopped the car. The goat looked at me. I looked at the goat. It was an extraordinarily judgemental animal, and I felt, with the strange clarity of a man who is lost, that it, too, had a view on my navigation.\n\n\"You have arrived,\" said the satnav, with what I thought was needless cruelty.\n\nI reversed down the lane at roughly the speed of a retiring snail, ignoring the voice that kept saying, \"When possible, make a U-turn.\" My passenger, my cousin Gerald, who had spent the journey studying a paper map with the air of a man who distrusts all technology, said it would have been quicker to ask the goat. Gerald is a man of strong opinions and an unfortunate lack of useful ones.\n\nBy the time we reached the church, the bride had already walked up the aisle, and I slid into the back pew in the manner of a criminal attending his own trial. A woman beside me whispered that I had missed the vows. I whispered that I had been delayed by a goat. She nodded as though this were an entirely reasonable excuse, which I found oddly comforting.\n\nAt the reception, I confessed the whole story to the groom. He laughed so hard that he knocked over a vase. \"Lovely village, isn't it?\" he said. \"Famous for its goats.\"\n\nOn the way home, the satnav was unusually quiet. Somewhere around the second motorway junction, she cleared her throat, if a machine can do that, and said, \"In four hundred yards, you have my sincere apologies.\" I do not believe she said it. But I think of it often.",
+  "word_count": 502,
+  "vocabulary": [
+    {
+      "word": "misunderstanding",
+      "ipa_us": "ˌmɪsʌndərˈstændɪŋ",
+      "ipa_uk": "ˌmɪsʌndəˈstændɪŋ",
+      "translation_ru": "недоразумение"
+    },
+    {
+      "word": "devastating",
+      "ipa_us": "ˈdevəsteɪtɪŋ",
+      "ipa_uk": "ˈdevəsteɪtɪŋ",
+      "translation_ru": "уничтожающий"
+    },
+    {
+      "word": "alternative",
+      "ipa_us": "ɔːlˈtɜːrnətɪv",
+      "ipa_uk": "ɔːlˈtɜːnətɪv",
+      "translation_ru": "альтернативный"
+    },
+    {
+      "word": "declined",
+      "ipa_us": "dɪˈklaɪnd",
+      "ipa_uk": "dɪˈklaɪnd",
+      "translation_ru": "отклонил"
+    },
+    {
+      "word": "judgemental",
+      "ipa_us": "dʒʌdʒˈmentl",
+      "ipa_uk": "dʒʌdʒˈmentl",
+      "translation_ru": "осуждающий"
+    },
+    {
+      "word": "clarity",
+      "ipa_us": "ˈklærəti",
+      "ipa_uk": "ˈklærəti",
+      "translation_ru": "ясность"
+    },
+    {
+      "word": "distrusts",
+      "ipa_us": "dɪsˈtrʌsts",
+      "ipa_uk": "dɪsˈtrʌsts",
+      "translation_ru": "не доверяет"
+    },
+    {
+      "word": "pew",
+      "ipa_us": "pjuː",
+      "ipa_uk": "pjuː",
+      "translation_ru": "церковная скамья"
+    },
+    {
+      "word": "sincere",
+      "ipa_us": "sɪnˈsɪr",
+      "ipa_uk": "sɪnˈsɪə",
+      "translation_ru": "искренний"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "roundabout",
+        "reversed",
+        "road"
+      ],
+      "tip_ru": "Не касайтесь нёба кончиком языка, оттяните его назад и слегка округлите губы."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "this"
+      ],
+      "tip_ru": "Кончик языка между зубами и звонкий голос. Не заменяйте на з."
+    },
+    {
+      "sound": "ɒ",
+      "examples": [
+        "not",
+        "stopped",
+        "possible"
+      ],
+      "tip_ru": "Краткий задний звук с округлёнными губами, похож на русское о, но короче и более открытый."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "a sort of",
+        "slid into",
+        "take the"
+      ],
+      "tip_ru": "Соединяйте слова: «э-сорт-ов», «слид-инту»: согласный в конце переходит в гласный следующего слова."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What began the argument with the satnav?",
+      "answer": "A misunderstanding about a roundabout exit.",
+      "accepted_keywords": [
+        "roundabout",
+        "exit"
+      ]
+    },
+    {
+      "question": "What was at the end of the track?",
+      "answer": "A gate with a sign warning about a goat.",
+      "accepted_keywords": [
+        "goat",
+        "gate"
+      ]
+    },
+    {
+      "question": "Who sat beside the narrator in the car?",
+      "answer": "His cousin Gerald.",
+      "accepted_keywords": [
+        "gerald",
+        "cousin"
+      ]
+    },
+    {
+      "question": "What was the village famous for?",
+      "answer": "Goats.",
+      "accepted_keywords": [
+        "goats",
+        "goat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "c1-news-04",
+  "level": "C1",
+  "genre": "news",
+  "title_en": "Rare Heron Returns to Thornwick Marshes",
+  "title_ru": "Редкая цапля вернулась на болота Торнвика",
+  "description_ru": "Вымышленная новость о возвращении редкой птицы и скромной победе защитников природы.",
+  "text": "THORNWICK - A pair of purple herons has nested in the Thornwick Marshes for the first time in more than forty years, delighting conservationists who had almost abandoned hope of seeing the elusive birds return to the region.\n\nThe discovery was made last week by a volunteer warden, Elspeth Maddox, who noticed an unusually large nest woven into the reeds while conducting a routine survey. \"At first I assumed it was a crow's nest or something similar,\" she recalled. \"Then I saw a long, snake-like neck rise above the vegetation and realised exactly what I was looking at. I sat down in the mud and, I admit, wept a little.\"\n\nThe purple heron, a slender and secretive wader with chestnut plumage, was once a fairly regular summer visitor to the marshes. Its numbers collapsed during the second half of the twentieth century, when large areas of wetland were drained for farming and the remaining reedbeds became fragmented, polluted or overgrown. By the nineteen-eighties the species had effectively vanished from the district.\n\nThe return is largely attributable to a restoration programme begun twelve years ago by the Thornwick Wetlands Trust, which bought a stretch of former farmland, blocked old drainage channels and allowed the water to creep back. \"We were told it was a gamble,\" said the trust's director, Callum Reith. \"Wetlands are slow to recover, and there is no guarantee that animals will come back simply because you have rebuilt the habitat. This is an enormous vindication.\"\n\nExperts have urged restraint, however. Dr Beatrix Lowell, an ornithologist from the University of Eastmere, cautioned that a single nesting pair does not constitute a population. \"It is wonderful news, but herons are sensitive to disturbance, and the nest could easily be abandoned if people crowd round,\" she said. \"The best thing the public can do is admire from a distance.\"\n\nThe trust has taken that advice seriously. Access to the northern reedbeds has been closed until the end of August, and wardens will patrol the area daily. A discreet viewing platform, set well back from the nest, is being planned for next year, and a camera will broadcast images to the visitor centre without disturbing the birds.\n\nLocal businesses are already speculating about the potential benefits. Bird-watching tourism is a growing sector in the region, and a rare sighting could attract enthusiasts from far beyond the county. The landlord of the nearby Heron's Rest inn, which until now had no particular reason for its name beyond tradition, said he was \"feeling rather vindicated himself\".\n\nFor the wardens, the event is a modest reward for years of unglamorous labour. If the chicks hatch successfully, the marshes may soon have something more precious than a headline: a future.",
+  "word_count": 456,
+  "vocabulary": [
+    {
+      "word": "conservationists",
+      "ipa_us": "ˌkɑːnsərˈveɪʃənɪsts",
+      "ipa_uk": "ˌkɒnsəˈveɪʃənɪsts",
+      "translation_ru": "защитники природы"
+    },
+    {
+      "word": "elusive",
+      "ipa_us": "ɪˈluːsɪv",
+      "ipa_uk": "ɪˈluːsɪv",
+      "translation_ru": "неуловимый"
+    },
+    {
+      "word": "secretive",
+      "ipa_us": "ˈsiːkrətɪv",
+      "ipa_uk": "ˈsiːkrətɪv",
+      "translation_ru": "скрытный"
+    },
+    {
+      "word": "plumage",
+      "ipa_us": "ˈpluːmɪdʒ",
+      "ipa_uk": "ˈpluːmɪdʒ",
+      "translation_ru": "оперение"
+    },
+    {
+      "word": "fragmented",
+      "ipa_us": "ˈfræɡmentɪd",
+      "ipa_uk": "fræɡˈmentɪd",
+      "translation_ru": "раздробленный"
+    },
+    {
+      "word": "vindication",
+      "ipa_us": "ˌvɪndɪˈkeɪʃən",
+      "ipa_uk": "ˌvɪndɪˈkeɪʃən",
+      "translation_ru": "оправдание правоты"
+    },
+    {
+      "word": "ornithologist",
+      "ipa_us": "ˌɔːrnɪˈθɑːlədʒɪst",
+      "ipa_uk": "ˌɔːnɪˈθɒlədʒɪst",
+      "translation_ru": "орнитолог"
+    },
+    {
+      "word": "restraint",
+      "ipa_us": "rɪˈstreɪnt",
+      "ipa_uk": "rɪˈstreɪnt",
+      "translation_ru": "сдержанность"
+    },
+    {
+      "word": "disturbance",
+      "ipa_us": "dɪˈstɜːrbəns",
+      "ipa_uk": "dɪˈstɜːbəns",
+      "translation_ru": "беспокойство"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "heron",
+        "habitat",
+        "hope"
+      ],
+      "tip_ru": "Тихий выдох без напряжения; не заменяйте на х и не пропускайте звук: heron, а не «эрон»."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "Thornwick",
+        "northern",
+        "ornithologist"
+      ],
+      "tip_ru": "Кончик языка слегка высовывается между зубами, воздух глухой. Не с и не т."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "restoration",
+        "reedbeds",
+        "restraint"
+      ],
+      "tip_ru": "Язык оттянут назад, не касается нёба; губы слегка вытянуты. Избегайте русского раскатистого р."
+    },
+    {
+      "sound": "ɪə",
+      "examples": [
+        "nearby",
+        "years"
+      ],
+      "tip_ru": "Скользящий звук: начните с ɪ и закончите нейтральным ə. В years язык не должен напрягаться."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What happened at Thornwick Marshes?",
+      "answer": "A pair of purple herons nested for the first time in forty years.",
+      "accepted_keywords": [
+        "herons",
+        "nested",
+        "nest",
+        "heron"
+      ]
+    },
+    {
+      "question": "Who found the nest?",
+      "answer": "A volunteer warden named Elspeth Maddox.",
+      "accepted_keywords": [
+        "warden",
+        "elspeth",
+        "maddox",
+        "volunteer"
+      ]
+    },
+    {
+      "question": "What advice did the ornithologist give the public?",
+      "answer": "To admire the birds from a distance.",
+      "accepted_keywords": [
+        "distance",
+        "admire",
+        "far"
+      ]
+    },
+    {
+      "question": "How have the wardens protected the nest?",
+      "answer": "By closing the northern reedbeds and patrolling daily.",
+      "accepted_keywords": [
+        "closed",
+        "closing",
+        "patrol",
+        "reedbeds"
+      ]
+    }
+  ]
+}

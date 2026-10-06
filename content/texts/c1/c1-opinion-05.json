@@ -1,0 +1,147 @@
+{
+  "id": "c1-opinion-05",
+  "level": "C1",
+  "genre": "opinion",
+  "title_en": "A Fair Trial for the Four-Day Week",
+  "title_ru": "Честный эксперимент: четырёхдневная рабочая неделя",
+  "description_ru": "Аргументы в пользу пилотных проектов с сокращённой рабочей неделей, с оговорками и возражениями.",
+  "text": "The five-day working week is so familiar that we tend to treat it as a law of nature. It is nothing of the kind. It emerged in the early twentieth century, partly through the stubborn campaigning of trade unions and partly through the practical conclusion of a few industrialists that rested employees were more productive. In other words, the week we regard as normal was itself once a radical experiment. It seems reasonable to ask whether another experiment might now be due.\n\nThe proposal is straightforward: employees work four days instead of five for the same pay, while output is maintained. Sceptics call it a fantasy, and they are not entirely wrong to be cautious. A pledge to deliver the same results in eighty per cent of the time sounds like the kind of promise made by people selling miracle diets. But the evidence from recent pilot schemes deserves a hearing. Several large trials in Britain, Iceland and elsewhere involving thousands of workers reported that most participating firms kept the shorter week, and that staff described lower stress, better sleep and fewer resignations. Revenue was broadly stable, and in some cases improved.\n\nHow is that possible? Part of the answer is that the working day is full of waste. Anyone who has endured a meeting that could have been an email knows that much of the time spent at work is not spent on work. When employees are given a strong incentive to protect their free day, they become ruthless about eliminating pointless gatherings, trimming reports nobody reads and resisting the temptation to drift between tasks. A deadline concentrates the mind wonderfully.\n\nThere is also the human dimension. Exhausted staff make mistakes, take sick leave and eventually leave altogether, and replacing them is expensive. A company that offers a fourth free day gains a recruiting advantage that no ping-pong table can match.\n\nNevertheless, honesty requires a few caveats. Trials attract enthusiastic volunteers, so the results may flatter the idea. Some roles do not suit a shorter week: hospitals, restaurants and emergency services cannot simply close on Fridays, and in those fields the change would require extra hiring, with real costs. There is a risk, too, that employees will simply compress five days of work into four longer, more exhausting ones, which would defeat the purpose.\n\nThese objections argue for careful design, not for dismissal. Governments and firms should run more pilots, with transparent measurement and honest reporting of failures as well as successes. If the shorter week delivers, it could become the most significant improvement in working life in a century. If it does not, we shall at least have replaced a prejudice with knowledge.\n\nEither way, the question is worth asking, and a fair trial is the only respectable way to answer it.",
+  "word_count": 466,
+  "vocabulary": [
+    {
+      "word": "stubborn",
+      "ipa_us": "ˈstʌbərn",
+      "ipa_uk": "ˈstʌbən",
+      "translation_ru": "упорный"
+    },
+    {
+      "word": "industrialists",
+      "ipa_us": "ɪnˈdʌstriəlɪsts",
+      "ipa_uk": "ɪnˈdʌstriəlɪsts",
+      "translation_ru": "промышленники"
+    },
+    {
+      "word": "pledge",
+      "ipa_us": "pledʒ",
+      "ipa_uk": "pledʒ",
+      "translation_ru": "обещание"
+    },
+    {
+      "word": "resignations",
+      "ipa_us": "ˌrezɪɡˈneɪʃənz",
+      "ipa_uk": "ˌrezɪɡˈneɪʃənz",
+      "translation_ru": "увольнения по собственному желанию"
+    },
+    {
+      "word": "ruthless",
+      "ipa_us": "ˈruːθləs",
+      "ipa_uk": "ˈruːθləs",
+      "translation_ru": "безжалостный"
+    },
+    {
+      "word": "incentive",
+      "ipa_us": "ɪnˈsentɪv",
+      "ipa_uk": "ɪnˈsentɪv",
+      "translation_ru": "стимул"
+    },
+    {
+      "word": "caveats",
+      "ipa_us": "ˈkæviæts",
+      "ipa_uk": "ˈkæviæts",
+      "translation_ru": "оговорки"
+    },
+    {
+      "word": "compress",
+      "ipa_us": "kəmˈpres",
+      "ipa_uk": "kəmˈpres",
+      "translation_ru": "сжимать"
+    },
+    {
+      "word": "transparent",
+      "ipa_us": "trænsˈperənt",
+      "ipa_uk": "trænsˈpærənt",
+      "translation_ru": "прозрачный, открытый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "evidence",
+        "five",
+        "improved"
+      ],
+      "tip_ru": "Нижняя губа касается верхних зубов, голос звучит; в five не оглушайте в конце."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "week",
+        "work",
+        "workers"
+      ],
+      "tip_ru": "Округлите губы и вытяните их вперёд; быстро раскройте, не касаясь зубов."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousands",
+        "ruthless",
+        "with"
+      ],
+      "tip_ru": "Язык между зубами, воздух без голоса. thousands — не «саузендз»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "days",
+        "improved",
+        "trials"
+      ],
+      "tip_ru": "Звонкие s, d в конце слов должны звучать как z, d. days — «дейз», improved — «импрувд»; не оглушайте."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How did the five-day week emerge?",
+      "answer": "Through union campaigning and industrialists who found rested workers productive.",
+      "accepted_keywords": [
+        "unions",
+        "trade",
+        "industrialists",
+        "productive"
+      ]
+    },
+    {
+      "question": "What did pilot trials report?",
+      "answer": "Most firms kept the shorter week; staff had lower stress and fewer resignations.",
+      "accepted_keywords": [
+        "stress",
+        "kept",
+        "resignations",
+        "sleep"
+      ]
+    },
+    {
+      "question": "Why might a four-day week work?",
+      "answer": "People eliminate wasted time such as pointless meetings.",
+      "accepted_keywords": [
+        "meetings",
+        "waste",
+        "wasted",
+        "pointless"
+      ]
+    },
+    {
+      "question": "Name one caveat the writer gives.",
+      "answer": "Trials attract volunteers; some jobs cannot close; longer days.",
+      "accepted_keywords": [
+        "volunteers",
+        "hospitals",
+        "longer",
+        "compress",
+        "roles"
+      ]
+    }
+  ]
+}

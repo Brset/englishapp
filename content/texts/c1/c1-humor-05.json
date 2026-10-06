@@ -1,0 +1,139 @@
+{
+  "id": "c1-humor-05",
+  "level": "C1",
+  "genre": "humor",
+  "title_en": "My Gym Membership and Other Fictions",
+  "title_ru": "Мой абонемент в спортзал и другие выдумки",
+  "description_ru": "Самоирония человека, который платит за спортзал, но предпочитает диван.",
+  "text": "Every January I join a gym. I do so with the sincere conviction of a person boarding a ship to a new continent. I buy new trainers, a water bottle the size of a small child and a pair of shorts that make optimistic claims about my future. I sign a contract for twelve months, because the salesman assures me that this is the only way to demonstrate commitment, and because the monthly price, when divided by the number of days in the year, sounds like a rounding error.\n\nThen I go twice. On the first visit, I wander through the equipment area like a tourist in a foreign capital, impressed and slightly alarmed. The machines have the look of medieval instruments, and the men who use them have the look of those who enjoy it. I attempt a rowing machine, which promptly informs me that I have rowed for five minutes and, on this basis, should probably consider a boat. Afterwards I take a long shower, drink a smoothie that costs more than my lunch and feel so virtuous that I rest for the remainder of the week.\n\nMy second visit takes place in February, mainly to confirm that my fingerprint still opens the turnstile. It does, but with a faint tone of surprise.\n\nI have tried to understand why I continue to pay for something I do not use. My accountant says it is a classic case of sunk-cost thinking. My sister says it is a ritual, like lighting a candle in a church one does not attend. I prefer to think of it as a charitable donation to a local business, a sort of philanthropy for the muscular.\n\nLast month I received a message from the gym: \"We miss you!\" It was signed by someone called Tiffany. I do not know Tiffany, though I feel that she knows me, perhaps rather better than I would like. The message suggested a free session with a personal trainer, \"to get you back on track\". I went, partly out of guilt and partly out of curiosity about what exactly the track was.\n\nThe trainer, a man named Dominic with arms like well-fed pythons, asked what my fitness goals were. I said that I wanted to be able to climb a flight of stairs without being overtaken by a pensioner. He wrote this down, quite seriously, and then made me do something called a burpee, which I can best describe as falling over on purpose, repeatedly.\n\nI survived. I even enjoyed parts of it, though I will deny that if asked. The next morning, however, I could not lift my arms above my shoulders, and I spent the day brushing my teeth with the wrong hand and eating soup through a straw.\n\nI am now considering a new plan. I will keep the membership, accept my fate and take up a sport that does not require any equipment at all: a brisk, dignified, leisurely stroll to the bakery. It will be difficult, but I am assured the shorts will fit.",
+  "word_count": 511,
+  "vocabulary": [
+    {
+      "word": "conviction",
+      "ipa_us": "kənˈvɪkʃən",
+      "ipa_uk": "kənˈvɪkʃən",
+      "translation_ru": "убеждённость"
+    },
+    {
+      "word": "commitment",
+      "ipa_us": "kəˈmɪtmənt",
+      "ipa_uk": "kəˈmɪtmənt",
+      "translation_ru": "обязательство"
+    },
+    {
+      "word": "virtuous",
+      "ipa_us": "ˈvɜːrtʃuəs",
+      "ipa_uk": "ˈvɜːtʃuəs",
+      "translation_ru": "добродетельный"
+    },
+    {
+      "word": "turnstile",
+      "ipa_us": "ˈtɜːrnstaɪl",
+      "ipa_uk": "ˈtɜːnstaɪl",
+      "translation_ru": "турникет"
+    },
+    {
+      "word": "sunk-cost",
+      "ipa_us": "ˌsʌŋk ˈkɔːst",
+      "ipa_uk": "ˌsʌŋk ˈkɒst",
+      "translation_ru": "невозвратные затраты"
+    },
+    {
+      "word": "philanthropy",
+      "ipa_us": "fɪˈlænθrəpi",
+      "ipa_uk": "fɪˈlænθrəpi",
+      "translation_ru": "благотворительность"
+    },
+    {
+      "word": "pensioner",
+      "ipa_us": "ˈpenʃənər",
+      "ipa_uk": "ˈpenʃənə",
+      "translation_ru": "пенсионер"
+    },
+    {
+      "word": "brisk",
+      "ipa_us": "brɪsk",
+      "ipa_uk": "brɪsk",
+      "translation_ru": "бодрый, быстрый"
+    },
+    {
+      "word": "overtaken",
+      "ipa_us": "ˌoʊvərˈteɪkən",
+      "ipa_uk": "ˌəʊvəˈteɪkən",
+      "translation_ru": "обогнанный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "month",
+        "thinking",
+        "philanthropy"
+      ],
+      "tip_ru": "Кончик языка между зубами, звук глухой. Не заменяйте на с, ф или т."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "thinking",
+        "falling",
+        "brushing"
+      ],
+      "tip_ru": "Звук ŋ — спинка языка у мягкого нёба, носовой. В thinking не произносите отдельное г."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "virtuous",
+        "visit",
+        "twelve"
+      ],
+      "tip_ru": "Нижняя губа к верхним зубам, голос включён. В twelve на конце звонкий v, не ф."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "so",
+        "know",
+        "shoulders"
+      ],
+      "tip_ru": "Дифтонг: начните с ə и плавно закруглите губы до ʊ. Не произносите как чистое о."
+    }
+  ],
+  "questions": [
+    {
+      "question": "When does the writer join the gym?",
+      "answer": "Every January.",
+      "accepted_keywords": [
+        "january"
+      ]
+    },
+    {
+      "question": "How often does the writer go?",
+      "answer": "Twice a year.",
+      "accepted_keywords": [
+        "twice",
+        "two"
+      ]
+    },
+    {
+      "question": "What does the writer want to achieve?",
+      "answer": "To climb stairs without being overtaken by a pensioner.",
+      "accepted_keywords": [
+        "stairs",
+        "pensioner",
+        "climb"
+      ]
+    },
+    {
+      "question": "What is the writer's new plan?",
+      "answer": "To take a stroll to the bakery.",
+      "accepted_keywords": [
+        "stroll",
+        "walk",
+        "bakery"
+      ]
+    }
+  ]
+}

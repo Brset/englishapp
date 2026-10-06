@@ -1,0 +1,139 @@
+{
+  "id": "c1-humor-03",
+  "level": "C1",
+  "genre": "humor",
+  "title_en": "The Wardrobe That Defeated Me",
+  "title_ru": "Шкаф, который победил меня",
+  "description_ru": "Комическая сага о сборке шкафа из магазина с инструкцией без слов.",
+  "text": "The box was labelled \"easy assembly\", an expression that deserves a place in the dictionary of famous lies, somewhere between \"the cheque is in the post\" and \"it will only take five minutes\". Inside, wrapped in cardboard and optimism, lay the parts of a wardrobe: eleven panels, four sacks of screws and one small hexagonal key that I would come to hate with an intensity usually reserved for tax inspectors.\n\nThe instruction booklet contained no words. Apparently the manufacturers had decided that language was a barrier to progress and replaced it with diagrams featuring a small, expressionless man. I studied him carefully. In step one, he smiled at a panel. In step two, he held a screw up and appeared to be astonished by it. In step three, he was joined by a second man, who looked exactly as confused as I felt and was clearly the sensible one.\n\nHaving sorted the screws into piles, I found that there were four types of bolt, each marked with a letter, and that the instructions referred only to numbers. A brief discussion with myself led to a compromise: I would simply guess. This approach worked for the first hour, during which I assembled something that resembled the left side of a wardrobe. Then I realised that I had attached it upside down, and that the holes for the hinges were now in the floor.\n\nDismantling it took longer than building it, because the screws, which had gone in with such enthusiasm, now refused to leave. By this time my dog had arrived to supervise. He sat on the instructions, which I considered his most helpful contribution to date, since it hid the man.\n\nAt seven in the evening, I phoned my brother, a person who enjoys practical tasks as other people enjoy music. He asked whether I had checked the diagram, whether I had located the cam locks, and whether I had perhaps been attempting to assemble it on a sloping floor. I said yes, no and possibly, in that order. He sighed in a way that carried across the entire county and promised to come on Sunday.\n\nWhen he arrived, he finished the work in forty minutes, humming. He pointed out that I had used the wrong panel as the back, that two of the shelves were still in the box, and that the small key had been in my pocket all along. The wardrobe now stands against my wall, perfectly upright, with the exception of one door that opens a little more eagerly than the others, like a guest who has had too much coffee.\n\nI stand before it every morning and feel a mixture of pride and resentment. I did build most of it, and I hung my shirts in it myself. But I have decided that the next piece of furniture I buy will be old, solid and already assembled, preferably by a carpenter who died in 1932.",
+  "word_count": 489,
+  "vocabulary": [
+    {
+      "word": "assembly",
+      "ipa_us": "əˈsembli",
+      "ipa_uk": "əˈsembli",
+      "translation_ru": "сборка"
+    },
+    {
+      "word": "hexagonal",
+      "ipa_us": "hekˈsæɡənl",
+      "ipa_uk": "hekˈsæɡənl",
+      "translation_ru": "шестигранный"
+    },
+    {
+      "word": "intensity",
+      "ipa_us": "ɪnˈtensəti",
+      "ipa_uk": "ɪnˈtensəti",
+      "translation_ru": "сила, интенсивность"
+    },
+    {
+      "word": "expressionless",
+      "ipa_us": "ɪkˈspreʃənləs",
+      "ipa_uk": "ɪkˈspreʃənləs",
+      "translation_ru": "невыразительный"
+    },
+    {
+      "word": "compromise",
+      "ipa_us": "ˈkɑːmprəmaɪz",
+      "ipa_uk": "ˈkɒmprəmaɪz",
+      "translation_ru": "компромисс"
+    },
+    {
+      "word": "hinges",
+      "ipa_us": "ˈhɪndʒɪz",
+      "ipa_uk": "ˈhɪndʒɪz",
+      "translation_ru": "петли"
+    },
+    {
+      "word": "dismantling",
+      "ipa_us": "dɪsˈmæntlɪŋ",
+      "ipa_uk": "dɪsˈmæntlɪŋ",
+      "translation_ru": "разборка"
+    },
+    {
+      "word": "resentment",
+      "ipa_us": "rɪˈzentmənt",
+      "ipa_uk": "rɪˈzentmənt",
+      "translation_ru": "обида"
+    },
+    {
+      "word": "carpenter",
+      "ipa_us": "ˈkɑːrpəntər",
+      "ipa_uk": "ˈkɑːpəntə",
+      "translation_ru": "плотник"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "æ",
+      "examples": [
+        "panel",
+        "assembly",
+        "man"
+      ],
+      "tip_ru": "Рот широко открыт, язык низко: звук между э и а. man — не «мэн» и не «ман»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hexagonal",
+        "hinges",
+        "hate"
+      ],
+      "tip_ru": "Тихий выдох, без трения. Не произносите как х."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "five",
+        "side",
+        "like"
+      ],
+      "tip_ru": "Дифтонг: широкое а плавно уходит в ɪ. Не обрывайте на й."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "screws",
+        "holes",
+        "shelves"
+      ],
+      "tip_ru": "Звонкое s после гласных и звонких: screws — «скрузз». Не превращайте в с."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was strange about the instruction booklet?",
+      "answer": "It contained no words, only diagrams.",
+      "accepted_keywords": [
+        "no words",
+        "diagrams",
+        "pictures"
+      ]
+    },
+    {
+      "question": "What went wrong with the first side?",
+      "answer": "It was attached upside down.",
+      "accepted_keywords": [
+        "upside",
+        "down"
+      ]
+    },
+    {
+      "question": "Who finished the wardrobe?",
+      "answer": "The writer's brother.",
+      "accepted_keywords": [
+        "brother"
+      ]
+    },
+    {
+      "question": "What does the writer plan to buy next time?",
+      "answer": "Old, solid, already assembled furniture.",
+      "accepted_keywords": [
+        "old",
+        "assembled",
+        "solid"
+      ]
+    }
+  ]
+}

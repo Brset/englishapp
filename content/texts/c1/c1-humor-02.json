@@ -1,0 +1,139 @@
+{
+  "id": "c1-humor-02",
+  "level": "C1",
+  "genre": "humor",
+  "title_en": "Cooking by Video: A Cautionary Tale",
+  "title_ru": "Готовим по видео: поучительная история",
+  "description_ru": "Автор пытается повторить рецепт из ролика, где «всё просто», и сталкивается с реальностью.",
+  "text": "The video promised that I could make a restaurant-quality risotto in twenty minutes. This should have alerted me. Anyone who has ever made a risotto knows that it takes at least forty minutes, a great deal of stirring and, ideally, a glass of wine for the cook. But the chef in the video was young, cheerful and wearing a spotless apron, and in my experience nothing is more persuasive than a man who has never had to wash up.\n\n\"First,\" he said, \"finely chop one onion.\" He did this in about four seconds, with a blur of knife and a small cloud of confidence. I took nearly four minutes, wept throughout, and ended with pieces ranging in size from a grain of sand to a chestnut. \"Next, add a splash of white wine.\" In the video, a splash was an elegant, controlled gesture. In my kitchen, the bottle slipped, and my risotto acquired what I can only describe as an alcoholic personality.\n\nThe real trouble began with the stock. The recipe required it to be \"gently simmering on the back burner\", a phrase that assumes the possession of both a back burner and a stock. I had a cube and a kettle. Using them, I produced a liquid of a worrying colour, which I decided to call rustic.\n\n\"Add the rice and stir constantly,\" the chef said, smiling gently at the camera. I discovered that constant stirring is a physical impossibility when one also has to pause the video every ten seconds to find out what he did next. My phone, propped against the sugar bowl, kept falling over. Each time I paused, the pan hissed menacingly; each time I resumed, the chef had already moved on to garnishing, leaving me with a spoonful of grey porridge and a mounting sense of inadequacy.\n\nAt the thirty-minute mark, the smoke alarm joined the production. At the forty-minute mark, I opened the window and the neighbour's cat joined it. By fifty minutes, my kitchen resembled the aftermath of a small, ill-tempered festival, and the risotto had set into something that could have served as a building material.\n\nI stood back and examined the result. In the video, the finished dish was creamy and glossy, topped with a feathery sprig of parsley. On my plate, the parsley had gone limp and the rice had formed a single, determined mass. I took a photograph, as one is supposed to do, and posted it online with the caption \"Work in progress\". Three people clicked \"like\", presumably out of pity.\n\nI did eat it, in the end, with plenty of cheese and a rather wounded pride. It was not good, but it was edible, and it taught me a valuable lesson. The next time a video tells me that something is easy, I will remember that the person who says so is surrounded by assistants, ingredients prepared weeks in advance, and a sink that somebody else will clean.\n\nTomorrow, I am ordering a pizza and watching a documentary about people who fail at things on a far grander scale.",
+  "word_count": 517,
+  "vocabulary": [
+    {
+      "word": "persuasive",
+      "ipa_us": "pərˈsweɪsɪv",
+      "ipa_uk": "pəˈsweɪsɪv",
+      "translation_ru": "убедительный"
+    },
+    {
+      "word": "simmering",
+      "ipa_us": "ˈsɪmərɪŋ",
+      "ipa_uk": "ˈsɪmərɪŋ",
+      "translation_ru": "тихо кипящий"
+    },
+    {
+      "word": "rustic",
+      "ipa_us": "ˈrʌstɪk",
+      "ipa_uk": "ˈrʌstɪk",
+      "translation_ru": "деревенский, простой"
+    },
+    {
+      "word": "menacingly",
+      "ipa_us": "ˈmenəsɪŋli",
+      "ipa_uk": "ˈmenəsɪŋli",
+      "translation_ru": "угрожающе"
+    },
+    {
+      "word": "garnishing",
+      "ipa_us": "ˈɡɑːrnɪʃɪŋ",
+      "ipa_uk": "ˈɡɑːnɪʃɪŋ",
+      "translation_ru": "украшение блюда"
+    },
+    {
+      "word": "inadequacy",
+      "ipa_us": "ɪnˈædɪkwəsi",
+      "ipa_uk": "ɪnˈædɪkwəsi",
+      "translation_ru": "неполноценность"
+    },
+    {
+      "word": "aftermath",
+      "ipa_us": "ˈæftərmæθ",
+      "ipa_uk": "ˈɑːftəmæθ",
+      "translation_ru": "последствия"
+    },
+    {
+      "word": "ill-tempered",
+      "ipa_us": "ˌɪl ˈtempərd",
+      "ipa_uk": "ˌɪl ˈtempəd",
+      "translation_ru": "злобный, раздражённый"
+    },
+    {
+      "word": "edible",
+      "ipa_us": "ˈedəbl",
+      "ipa_uk": "ˈedɪbl",
+      "translation_ru": "съедобный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "risotto",
+        "recipe",
+        "rice"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы округлены. В risotto не раскатывайте r."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wine",
+        "wearing",
+        "window"
+      ],
+      "tip_ru": "Губы округлены, как для у, затем быстрое раскрытие. wine не должно звучать как «вайн» с в."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "kettle",
+        "spoonful",
+        "small"
+      ],
+      "tip_ru": "l в конце слога тёмное: кончик языка у альвеол, спинка отведена назад, звук глубокий."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "persuasive",
+        "kitchen",
+        "camera"
+      ],
+      "tip_ru": "Глухие p, k, t в начале ударного слога произносите с лёгким придыханием: kitchen — «кхичн»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the video promise?",
+      "answer": "A restaurant-quality risotto in twenty minutes.",
+      "accepted_keywords": [
+        "risotto",
+        "twenty"
+      ]
+    },
+    {
+      "question": "What did the writer use instead of stock?",
+      "answer": "A cube and a kettle.",
+      "accepted_keywords": [
+        "cube",
+        "kettle"
+      ]
+    },
+    {
+      "question": "Why did the smoke alarm join in?",
+      "answer": "The cooking went wrong and produced smoke.",
+      "accepted_keywords": [
+        "smoke",
+        "burn",
+        "wrong"
+      ]
+    },
+    {
+      "question": "What did the writer do at the end?",
+      "answer": "Ordered a pizza.",
+      "accepted_keywords": [
+        "pizza",
+        "order"
+      ]
+    }
+  ]
+}

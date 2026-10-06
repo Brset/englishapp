@@ -1,0 +1,141 @@
+{
+  "id": "c1-biography-05",
+  "level": "C1",
+  "genre": "biography",
+  "title_en": "Nikola Tesla: Brilliance Without a Business Plan",
+  "title_ru": "Никола Тесла: гениальность без бизнес-плана",
+  "description_ru": "Жизнь изобретателя переменного тока, чьи идеи опередили время, а деловая хватка отстала.",
+  "text": "Nikola Tesla was born in July 1856 in the village of Smiljan, in what was then the Austrian Empire and is now Croatia. His father was an Orthodox priest who hoped that his son would follow him into the church, but the boy had other ambitions. He had an extraordinary visual imagination, and he later claimed that he could construct a whole machine in his head, test it mentally and only afterwards build it.\n\nHe studied engineering at the Technical University in Graz, where he became convinced that the commutator in a direct-current motor, a part that produced constant sparks, was an unnecessary flaw. After working in Budapest and Paris, he emigrated to the United States in 1884 with a letter of recommendation to Thomas Edison, whose company he joined. The partnership was short-lived. Edison championed direct current, while Tesla believed that alternating current was far more efficient for transmitting electricity over long distances. Disagreements, including a dispute about payment, led him to resign within months.\n\nTesla's fortunes improved when the industrialist George Westinghouse bought his patents for an alternating-current system and a brilliant induction motor. What followed became known as the War of the Currents, a bitter public contest in which Edison's camp tried to frighten the public by stressing the dangers of alternating current. Westinghouse prevailed. His company lit the 1893 World's Fair in Chicago, and in 1895 a pioneering hydroelectric plant at Niagara Falls began sending alternating current to the city of Buffalo. The system that Tesla championed still powers our homes.\n\nHe was also an irresistible showman. In his laboratory he demonstrated wireless lamps glowing in his hands and invented the Tesla coil, a transformer that produces spectacular high-voltage discharges and is still used in radio technology. He experimented with radio-controlled boats, explored X-rays and dreamed of transmitting both information and power across the globe without wires. With funding from the financier J. P. Morgan, he began building a huge tower at Wardenclyffe on Long Island, but the money ran out, and the structure was demolished in 1917.\n\nDespite his genius, he was a poor businessman. He generously signed away royalties that might have made him a very wealthy man, and he spent his later years in New York hotels, increasingly isolated, devoted to pigeons and weighed down by debt. His habits grew eccentric: he was obsessive about cleanliness and the number three.\n\nTesla died alone in a hotel room in January 1943, aged eighty-six. Within a few months the Supreme Court recognised that he, not Marconi, had priority in certain radio patents. In 1960 the international unit of magnetic flux density was named the tesla, a belated honour for a visionary whose ideas travelled far faster than his fortune.",
+  "word_count": 454,
+  "vocabulary": [
+    {
+      "word": "commutator",
+      "ipa_us": "ˈkɑːmjuteɪtər",
+      "ipa_uk": "ˈkɒmjuteɪtə",
+      "translation_ru": "коллектор (электромашины)"
+    },
+    {
+      "word": "alternating",
+      "ipa_us": "ˈɔːltərneɪtɪŋ",
+      "ipa_uk": "ˈɔːltəneɪtɪŋ",
+      "translation_ru": "переменный"
+    },
+    {
+      "word": "induction",
+      "ipa_us": "ɪnˈdʌkʃən",
+      "ipa_uk": "ɪnˈdʌkʃən",
+      "translation_ru": "индукция"
+    },
+    {
+      "word": "prevailed",
+      "ipa_us": "prɪˈveɪld",
+      "ipa_uk": "prɪˈveɪld",
+      "translation_ru": "одержал верх"
+    },
+    {
+      "word": "pioneering",
+      "ipa_us": "ˌpaɪəˈnɪrɪŋ",
+      "ipa_uk": "ˌpaɪəˈnɪərɪŋ",
+      "translation_ru": "новаторский"
+    },
+    {
+      "word": "hydroelectric",
+      "ipa_us": "ˌhaɪdroʊɪˈlektrɪk",
+      "ipa_uk": "ˌhaɪdrəʊɪˈlektrɪk",
+      "translation_ru": "гидроэлектрический"
+    },
+    {
+      "word": "royalties",
+      "ipa_us": "ˈrɔɪəltiz",
+      "ipa_uk": "ˈrɔɪəltiz",
+      "translation_ru": "роялти, авторские отчисления"
+    },
+    {
+      "word": "visionary",
+      "ipa_us": "ˈvɪʒəneri",
+      "ipa_uk": "ˈvɪʒənəri",
+      "translation_ru": "провидец"
+    },
+    {
+      "word": "belated",
+      "ipa_us": "bɪˈleɪtɪd",
+      "ipa_uk": "bɪˈleɪtɪd",
+      "translation_ru": "запоздалый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "engineering",
+        "alternating",
+        "electricity"
+      ],
+      "tip_ru": "В engineering ударение на последнем слоге перед -ing: engiNEERing; в electricity — на -tri-: electRIcity."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "visionary",
+        "invented"
+      ],
+      "tip_ru": "Нижняя губа касается верхних зубов, голос включён. Не оглушайте v в конце слова: have, of."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "his",
+        "hotel",
+        "hands"
+      ],
+      "tip_ru": "Просто сильный выдох из горла без трения, не как русское х."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "alternating",
+        "transformer",
+        "magnetic"
+      ],
+      "tip_ru": "Рот открыт шире, чем для э; язык впереди и низко: звук между а и э."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why did Tesla leave Edison?",
+      "answer": "They disagreed about direct and alternating current, and about payment.",
+      "accepted_keywords": [
+        "current",
+        "payment",
+        "disagreement",
+        "alternating"
+      ]
+    },
+    {
+      "question": "Who bought Tesla's patents?",
+      "answer": "George Westinghouse.",
+      "accepted_keywords": [
+        "westinghouse"
+      ]
+    },
+    {
+      "question": "What was the Tesla coil used for?",
+      "answer": "Producing high-voltage discharges, used in radio technology.",
+      "accepted_keywords": [
+        "voltage",
+        "radio",
+        "discharges",
+        "transformer"
+      ]
+    },
+    {
+      "question": "What was Wardenclyffe?",
+      "answer": "A huge tower Tesla began building on Long Island.",
+      "accepted_keywords": [
+        "tower",
+        "long island"
+      ]
+    }
+  ]
+}

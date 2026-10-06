@@ -1,0 +1,141 @@
+{
+  "id": "c1-news-01",
+  "level": "C1",
+  "genre": "news",
+  "title_en": "Historic Bridge Reopens After Eight-Year Restoration",
+  "title_ru": "Исторический мост открыт после восьми лет реставрации",
+  "description_ru": "Вымышленная новость о торжественном открытии отреставрированного моста в городе Харроуфорд.",
+  "text": "HARROWFORD - Thousands of residents lined the banks of the River Alden on Saturday morning to watch the Marlowe Bridge reopen to traffic after an eight-year restoration that has cost nearly forty million pounds, almost double the original estimate.\n\nThe ceremony, which was delayed by half an hour owing to a stubborn thunderstorm, was led by the mayor, Councillor Ingrid Pelham, who cut a ribbon of green silk before walking across the span at the head of a brass band. \"This is more than a piece of engineering,\" she told the crowd. \"It is a promise kept to a town that refused to forget its own history.\"\n\nCompleted in 1871, the Marlowe Bridge was long regarded as a masterpiece of Victorian ironwork, its elegant arches carrying carts, trams and, eventually, lorries across the river for a century and a half. By the 2010s, however, inspectors had found serious corrosion in the supporting beams, and in 2017 the council reluctantly closed the structure to everything except pedestrians. A heated debate followed. Some councillors argued that the bridge should be demolished and replaced by a cheaper concrete crossing, while a vocal campaign led by local historians insisted on full restoration.\n\nThe campaigners eventually prevailed, helped by a substantial grant from a national heritage fund and by a series of public donations that included a single anonymous gift of two hundred thousand pounds. Work began in 2018 but was repeatedly hampered by unforeseen complications. Engineers discovered that the original foundations had been weakened by decades of erosion, and a prolonged spell of flooding in 2021 halted operations for nearly a year. The cost rose steadily, provoking criticism from opposition members, who described the project as a monument to poor planning.\n\n\"Nobody pretends it went smoothly,\" conceded Dr Samuel Okafor, the chief engineer, who has overseen the work since its inception. \"But I would ask critics to remember that we were repairing something that was built without computers or modern steel. Every rivet had to be examined individually, and about a fifth of them had to be replaced by hand-forged copies.\"\n\nThe restored bridge retains its original character, but with several discreet improvements. A reinforced deck can now bear vehicles of up to eighteen tonnes, a separate cycle lane has been added, and a subtle lighting system will illuminate the arches after dark. Buses will resume their regular route across the river from Monday, ending a detour that commuters say has added up to twenty minutes to their daily journeys.\n\nLocal business owners have welcomed the news. \"The reopening could not have come sooner,\" said Marguerite Dunn, who runs a bakery near the eastern end of the bridge. \"We lost a third of our customers when it closed. I think people are going to celebrate with cake.\"\n\nThe council has announced that a small exhibition about the bridge's history will open in the old toll house next month. In the meantime, residents are encouraged to enjoy a bridge that, after nearly a decade, is once again part of the town's daily life.",
+  "word_count": 505,
+  "vocabulary": [
+    {
+      "word": "restoration",
+      "ipa_us": "ˌrestəˈreɪʃən",
+      "ipa_uk": "ˌrestəˈreɪʃən",
+      "translation_ru": "реставрация"
+    },
+    {
+      "word": "corrosion",
+      "ipa_us": "kəˈroʊʒən",
+      "ipa_uk": "kəˈrəʊʒən",
+      "translation_ru": "коррозия"
+    },
+    {
+      "word": "demolished",
+      "ipa_us": "dɪˈmɑːlɪʃt",
+      "ipa_uk": "dɪˈmɒlɪʃt",
+      "translation_ru": "снесён"
+    },
+    {
+      "word": "prevailed",
+      "ipa_us": "prɪˈveɪld",
+      "ipa_uk": "prɪˈveɪld",
+      "translation_ru": "одержали верх"
+    },
+    {
+      "word": "hampered",
+      "ipa_us": "ˈhæmpərd",
+      "ipa_uk": "ˈhæmpəd",
+      "translation_ru": "затруднённый"
+    },
+    {
+      "word": "erosion",
+      "ipa_us": "ɪˈroʊʒən",
+      "ipa_uk": "ɪˈrəʊʒən",
+      "translation_ru": "эрозия"
+    },
+    {
+      "word": "inception",
+      "ipa_us": "ɪnˈsepʃən",
+      "ipa_uk": "ɪnˈsepʃən",
+      "translation_ru": "начало"
+    },
+    {
+      "word": "rivet",
+      "ipa_us": "ˈrɪvɪt",
+      "ipa_uk": "ˈrɪvɪt",
+      "translation_ru": "заклёпка"
+    },
+    {
+      "word": "discreet",
+      "ipa_us": "dɪˈskriːt",
+      "ipa_uk": "dɪˈskriːt",
+      "translation_ru": "неброский, ненавязчивый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "river",
+        "restoration",
+        "reopen"
+      ],
+      "tip_ru": "Кончик языка поднят, но не касается нёба, губы чуть округлены. Не вибрируйте."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "full",
+        "council",
+        "local"
+      ],
+      "tip_ru": "В конце слога l тёмное: язык касается альвеол, а спинка уходит назад, почти как у."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "vehicles",
+        "improvements",
+        "every"
+      ],
+      "tip_ru": "Нижняя губа слегка прижата к верхним зубам. Голос включён; не оглушайте в ф."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "restoration",
+        "engineering",
+        "complications"
+      ],
+      "tip_ru": "Слова на -ation и -ing: ударение перед суффиксом: restoRAtion, enginEERing, complicAtions."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long did the restoration take?",
+      "answer": "Eight years.",
+      "accepted_keywords": [
+        "eight",
+        "8"
+      ]
+    },
+    {
+      "question": "Why was the ceremony delayed?",
+      "answer": "Because of a thunderstorm.",
+      "accepted_keywords": [
+        "thunderstorm",
+        "storm",
+        "weather"
+      ]
+    },
+    {
+      "question": "What was added to the restored bridge?",
+      "answer": "A reinforced deck, a cycle lane and lighting.",
+      "accepted_keywords": [
+        "cycle",
+        "lane",
+        "lighting",
+        "deck"
+      ]
+    },
+    {
+      "question": "What did the baker expect people to do?",
+      "answer": "Celebrate with cake.",
+      "accepted_keywords": [
+        "cake",
+        "celebrate"
+      ]
+    }
+  ]
+}

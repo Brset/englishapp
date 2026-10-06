@@ -1,0 +1,142 @@
+{
+  "id": "c1-news-02",
+  "level": "C1",
+  "genre": "news",
+  "title_en": "Researchers Unveil Battery That Recycles Itself",
+  "title_ru": "Учёные представили самовосстанавливающуюся батарею",
+  "description_ru": "Вымышленная научная новость о батарее нового типа и осторожных реакциях экспертов.",
+  "text": "A team of scientists at the Kestrel Institute of Materials in Norland has announced the development of a rechargeable battery that can partly repair itself, a breakthrough that its creators say could extend the life of electric vehicles and household storage units by a factor of three.\n\nThe device, described on Tuesday in a paper in the journal Applied Energy Systems, relies on a flexible polymer layer inside each cell. In conventional lithium batteries, repeated charging gradually produces microscopic metallic spikes, known as dendrites, which can pierce the internal separator, reduce capacity and, in rare cases, cause dangerous short circuits. The new polymer, by contrast, responds to heat by softening slightly, allowing the damaged surfaces to knit back together. According to the researchers, a brief warming cycle, which the battery can trigger automatically overnight, restores up to ninety per cent of its lost capacity.\n\n\"We drew inspiration from the way human skin heals,\" said Dr Annika Rosdahl, who led the project. \"A scratch is not a catastrophe; the body simply gets on with the repair. We asked ourselves why a battery should be any different.\"\n\nThe announcement has aroused considerable excitement in an industry preoccupied with durability. At present, the cost of replacing a car battery, which typically accounts for a third of the price of an electric vehicle, remains a major deterrent for prospective buyers. Longer-lasting cells could also reduce the mountains of waste produced when old batteries are discarded, and decrease demand for scarce materials such as cobalt, whose extraction is notorious for its environmental and human costs.\n\nIndependent specialists, however, have urged caution. Professor Tobias Wren of Halvering University, who was not involved in the study, described the results as \"genuinely promising but strictly laboratory-scale\". The prototype cells, he pointed out, have been tested for only eight hundred charging cycles, a fraction of the lifespan required for commercial use. \"Manufacturing this technology cheaply and reliably, at a scale of millions of units, is an entirely different challenge,\" he said. \"History is littered with laboratory marvels that never survived contact with a factory floor.\"\n\nThe Kestrel Institute has acknowledged these concerns. A spokesperson confirmed that the team is currently negotiating with two manufacturers and expects to begin pilot production within eighteen months, although no contracts have yet been signed. The researchers also plan to test the batteries in extreme conditions, including temperatures well below freezing, which are known to impair the performance of conventional cells.\n\nShares in several battery companies rose modestly after the announcement, though analysts attributed this more to general optimism about the sector than to the specifics of the research. For now, the self-repairing battery remains a promising idea. Whether it becomes a product will depend on the unglamorous work that follows every great discovery: patient testing, careful engineering and a great deal of money.",
+  "word_count": 473,
+  "vocabulary": [
+    {
+      "word": "rechargeable",
+      "ipa_us": "ˌriːˈtʃɑːrdʒəbl",
+      "ipa_uk": "ˌriːˈtʃɑːdʒəbl",
+      "translation_ru": "перезаряжаемый"
+    },
+    {
+      "word": "polymer",
+      "ipa_us": "ˈpɑːlɪmər",
+      "ipa_uk": "ˈpɒlɪmə",
+      "translation_ru": "полимер"
+    },
+    {
+      "word": "dendrites",
+      "ipa_us": "ˈdendraɪts",
+      "ipa_uk": "ˈdendraɪts",
+      "translation_ru": "дендриты"
+    },
+    {
+      "word": "pierce",
+      "ipa_us": "pɪrs",
+      "ipa_uk": "pɪəs",
+      "translation_ru": "прокалывать"
+    },
+    {
+      "word": "preoccupied",
+      "ipa_us": "priˈɑːkjupaɪd",
+      "ipa_uk": "priˈɒkjupaɪd",
+      "translation_ru": "озабоченный"
+    },
+    {
+      "word": "deterrent",
+      "ipa_us": "dɪˈtɜːrənt",
+      "ipa_uk": "dɪˈterənt",
+      "translation_ru": "сдерживающий фактор"
+    },
+    {
+      "word": "prospective",
+      "ipa_us": "prəˈspektɪv",
+      "ipa_uk": "prəˈspektɪv",
+      "translation_ru": "потенциальный"
+    },
+    {
+      "word": "notorious",
+      "ipa_us": "noʊˈtɔːriəs",
+      "ipa_uk": "nəʊˈtɔːriəs",
+      "translation_ru": "печально известный"
+    },
+    {
+      "word": "unglamorous",
+      "ipa_us": "ʌnˈɡlæmərəs",
+      "ipa_uk": "ʌnˈɡlæmərəs",
+      "translation_ru": "непритязательный, скучный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "development",
+        "technology",
+        "manufacturing"
+      ],
+      "tip_ru": "В technology ударение на втором слоге: tecHNOlogy; в manufacturing — на -fac-: manuFACturing."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "discovery",
+        "money",
+        "months"
+      ],
+      "tip_ru": "Короткий звук между а и ы, рот расслаблен, язык в центре. Не заменяйте на о."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "battery",
+        "polymer",
+        "conventional"
+      ],
+      "tip_ru": "Безударный нейтральный звук: рот и язык расслаблены, звук очень краткий и неясный."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "technology",
+        "capacity",
+        "pilot"
+      ],
+      "tip_ru": "После p, t, k в начале ударного слога слышен короткий выдох: pilot — «пхайлот»."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What can the new battery do?",
+      "answer": "Partly repair itself.",
+      "accepted_keywords": [
+        "repair",
+        "heal",
+        "itself"
+      ]
+    },
+    {
+      "question": "What inspired the researchers?",
+      "answer": "The way human skin heals.",
+      "accepted_keywords": [
+        "skin",
+        "heals",
+        "heal"
+      ]
+    },
+    {
+      "question": "Why is Professor Wren cautious?",
+      "answer": "Only tested for 800 cycles in laboratory scale.",
+      "accepted_keywords": [
+        "laboratory",
+        "cycles",
+        "scale",
+        "tested"
+      ]
+    },
+    {
+      "question": "When is pilot production expected?",
+      "answer": "Within eighteen months.",
+      "accepted_keywords": [
+        "eighteen",
+        "months"
+      ]
+    }
+  ]
+}

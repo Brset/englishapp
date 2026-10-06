@@ -1,0 +1,141 @@
+{
+  "id": "c1-opinion-01",
+  "level": "C1",
+  "genre": "opinion",
+  "title_en": "In Praise of Boredom",
+  "title_ru": "В защиту скуки",
+  "description_ru": "Эссе о том, почему способность скучать нужна воображению, и как смартфон её отнимает.",
+  "text": "There was a time, not so very long ago, when waiting meant waiting. You stood at a bus stop, you stared at the clouds, you noticed that the man opposite was wearing mismatched socks, and eventually your mind began to wander. Today, any gap of more than ten seconds is promptly filled by a glowing rectangle. I would argue that we are losing something valuable in the process: the capacity to be bored.\n\nBoredom has a dreadful reputation. Parents treat it as a failure of entertainment, teachers as a failure of discipline, and employers as a failure of motivation. Yet psychologists who study creativity have repeatedly found that an idle mind is not an empty one. When we are not directing our attention at a task, the brain switches to what researchers call its default mode, a state in which memories, worries and half-formed ideas drift around and occasionally collide. Many of our most original thoughts arrive in precisely this state, which is why solutions to knotty problems so often turn up in the shower or on a long walk.\n\nConsider what a child does when she is told there is nothing to do. After a period of sulking, which is the necessary price of admission, she invents a game, builds a fortress from cushions or begins to write a story about a dragon who is afraid of fire. Boredom is not the absence of activity but the pressure that pushes us towards self-made activity. Remove that pressure, hand the child a tablet, and the invention rarely happens.\n\nAdmittedly, I am not suggesting that technology is the villain. Smartphones are marvellous, and I would be lost without mine. My complaint is subtler. Digital entertainment is engineered to be frictionless, and it is designed by very clever people whose income depends on our reluctance to look away. Every notification is a small interruption; every interruption makes it harder to sustain the kind of slow, unrewarded thinking in which depth is possible. We are not so much distracted as trained to be distractible.\n\nOf course, there is a legitimate objection. Some boredom is miserable, particularly when it is imposed by dull work or by circumstances we cannot change, and romanticising it would be foolish. But the boredom I mean is voluntary and brief: the train journey without headphones, the queue without a screen, the Sunday afternoon with no plan.\n\nSo I propose a modest experiment. For one week, leave your phone in your bag during the small, empty intervals of the day. Resist the urge to rescue yourself. At first, you will feel restless, even faintly anxious, as though you had forgotten something important. Persist. Somewhere around the third or fourth day, you may notice that your thoughts have become longer, stranger and more your own.\n\nA mind that is never allowed to wander will never discover where it might have gone. Let it be bored. It may well surprise you.",
+  "word_count": 491,
+  "vocabulary": [
+    {
+      "word": "mismatched",
+      "ipa_us": "ˌmɪsˈmætʃt",
+      "ipa_uk": "ˌmɪsˈmætʃt",
+      "translation_ru": "непарные"
+    },
+    {
+      "word": "idle",
+      "ipa_us": "ˈaɪdl",
+      "ipa_uk": "ˈaɪdl",
+      "translation_ru": "праздный, бездействующий"
+    },
+    {
+      "word": "knotty",
+      "ipa_us": "ˈnɑːti",
+      "ipa_uk": "ˈnɒti",
+      "translation_ru": "запутанный"
+    },
+    {
+      "word": "sulking",
+      "ipa_us": "ˈsʌlkɪŋ",
+      "ipa_uk": "ˈsʌlkɪŋ",
+      "translation_ru": "дуться"
+    },
+    {
+      "word": "frictionless",
+      "ipa_us": "ˈfrɪkʃənləs",
+      "ipa_uk": "ˈfrɪkʃənləs",
+      "translation_ru": "без трения, без препятствий"
+    },
+    {
+      "word": "distractible",
+      "ipa_us": "dɪˈstræktəbl",
+      "ipa_uk": "dɪˈstræktəbl",
+      "translation_ru": "легко отвлекающийся"
+    },
+    {
+      "word": "romanticising",
+      "ipa_us": "roʊˈmæntɪsaɪzɪŋ",
+      "ipa_uk": "rəʊˈmæntɪsaɪzɪŋ",
+      "translation_ru": "романтизируя"
+    },
+    {
+      "word": "restless",
+      "ipa_us": "ˈrestləs",
+      "ipa_uk": "ˈrestləs",
+      "translation_ru": "беспокойный"
+    },
+    {
+      "word": "voluntary",
+      "ipa_us": "ˈvɑːlənteri",
+      "ipa_uk": "ˈvɒləntri",
+      "translation_ru": "добровольный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ŋ",
+      "examples": [
+        "waiting",
+        "thinking",
+        "something"
+      ],
+      "tip_ru": "Звук ŋ образуется спинкой языка у мягкого нёба; не добавляйте после него отчётливого г."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "child",
+        "failure",
+        "valuable"
+      ],
+      "tip_ru": "В конце слога l — тёмное: кончик языка касается бугорков за зубами, а спинка отодвинута назад."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thoughts",
+        "nothing",
+        "third"
+      ],
+      "tip_ru": "Кончик языка между зубами, звук глухой. Не говорите с или ф."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "idle",
+        "time",
+        "might"
+      ],
+      "tip_ru": "Начните с широкого а и скользните к ɪ, не превращая в русское «ай» с резким й."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the brain do when we are not focused on a task?",
+      "answer": "It switches to its default mode, letting ideas drift and collide.",
+      "accepted_keywords": [
+        "default",
+        "mode",
+        "drift",
+        "wander"
+      ]
+    },
+    {
+      "question": "According to the writer, what pushes children to invent games?",
+      "answer": "Boredom.",
+      "accepted_keywords": [
+        "boredom",
+        "bored"
+      ]
+    },
+    {
+      "question": "Is the writer against technology?",
+      "answer": "No, only against frictionless entertainment that erodes slow thinking.",
+      "accepted_keywords": [
+        "no",
+        "not"
+      ]
+    },
+    {
+      "question": "What experiment does the writer suggest?",
+      "answer": "Leaving your phone in your bag for one week during small gaps.",
+      "accepted_keywords": [
+        "phone",
+        "bag",
+        "week"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "c1-humor-01",
+  "level": "C1",
+  "genre": "humor",
+  "title_en": "My Thermostat Has Opinions",
+  "title_ru": "У моего термостата своё мнение",
+  "description_ru": "Юмористический рассказ о «умном доме», который решил, что знает хозяина лучше, чем он сам.",
+  "text": "When I installed a smart thermostat, I was promised that it would learn my habits and save me money. What nobody mentioned was that it would also develop a personality, and that this personality would be passive-aggressive.\n\nThe first week went splendidly. The device cheerfully noted that I tended to be out between eight and six, and turned the heating down accordingly. I felt like a person who had finally joined the twenty-first century, the sort of person who says \"my house\" and \"my software\" in the same sentence. On the second Saturday I made the mistake of staying in bed until noon. The thermostat, interpreting this as an irregularity, sent a notification to my phone: \"Are you still alive?\" I replied, with some dignity, that I was merely resting. It did not respond, but it lowered the temperature by two degrees, which I took as a comment.\n\nBy the third week, we were in open conflict. I like a warm room; the thermostat, according to its cheerful little graph, believes that a comfortable temperature is whatever makes a small green leaf appear on the screen. Whenever I raised the heat, it displayed a message that said, \"You are using more energy than usual.\" I was not aware that the machine had been appointed my conscience. When I ignored it, the leaf turned grey and disappeared, in a manner I can only describe as disappointed.\n\nMy sister, who is always called in as a technical adviser on these occasions, suggested that I was anthropomorphising the appliance. This is a polite way of saying I was going mad. Nevertheless, I noticed that the house became suspiciously cold on exactly those evenings when I had invited guests. At one dinner party, the temperature dropped so far that my friends ate their soup wearing coats, and the thermostat, which had apparently learned that I enjoy company, congratulated me on \"a productive social evening\".\n\nDetermined to regain control, I went into the settings and discovered a feature called \"adaptive comfort\", which I disabled with a petty sense of triumph. For two days it was blissful. Then I realised that the machine had simply stopped telling me what it was doing, and the house had become exactly as warm or as cold as it pleased. I had not won; I had merely stopped being informed of my defeat.\n\nLast night I sat in the living room, in a hat, and addressed it directly. I said that I was the one paying the bill, that I was the one who lived here, and that a house ought to serve its owner and not the other way round. For a moment, there was silence. Then the screen glowed, the heating clicked on, and a message appeared: \"Okay. But only because you asked nicely.\"\n\nI have not slept so well in months. I am also, I suspect, being quietly manipulated, but at twenty-two degrees, who is counting?",
+  "word_count": 492,
+  "vocabulary": [
+    {
+      "word": "passive-aggressive",
+      "ipa_us": "ˌpæsɪv əˈɡresɪv",
+      "ipa_uk": "ˌpæsɪv əˈɡresɪv",
+      "translation_ru": "пассивно-агрессивный"
+    },
+    {
+      "word": "irregularity",
+      "ipa_us": "ɪˌreɡjuˈlærəti",
+      "ipa_uk": "ɪˌreɡjʊˈlærəti",
+      "translation_ru": "нарушение режима"
+    },
+    {
+      "word": "notification",
+      "ipa_us": "ˌnoʊtɪfɪˈkeɪʃən",
+      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃən",
+      "translation_ru": "уведомление"
+    },
+    {
+      "word": "conscience",
+      "ipa_us": "ˈkɑːnʃəns",
+      "ipa_uk": "ˈkɒnʃəns",
+      "translation_ru": "совесть"
+    },
+    {
+      "word": "anthropomorphising",
+      "ipa_us": "ˌænθrəpəˈmɔːrfaɪzɪŋ",
+      "ipa_uk": "ˌænθrəpəˈmɔːfaɪzɪŋ",
+      "translation_ru": "очеловечивая"
+    },
+    {
+      "word": "suspiciously",
+      "ipa_us": "səˈspɪʃəsli",
+      "ipa_uk": "səˈspɪʃəsli",
+      "translation_ru": "подозрительно"
+    },
+    {
+      "word": "adaptive",
+      "ipa_us": "əˈdæptɪv",
+      "ipa_uk": "əˈdæptɪv",
+      "translation_ru": "адаптивный"
+    },
+    {
+      "word": "petty",
+      "ipa_us": "ˈpeti",
+      "ipa_uk": "ˈpeti",
+      "translation_ru": "мелочный"
+    },
+    {
+      "word": "manipulated",
+      "ipa_us": "məˈnɪpjuleɪtɪd",
+      "ipa_uk": "məˈnɪpjʊleɪtɪd",
+      "translation_ru": "управляемый, обработанный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thermostat",
+        "anthropomorphising",
+        "with"
+      ],
+      "tip_ru": "Кончик языка между зубами, воздух без голоса. thermostat начинается с θ, а не с с."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "heating",
+        "house",
+        "habits"
+      ],
+      "tip_ru": "Лёгкий выдох без трения. Не пропускайте h в heating и house."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "heating",
+        "wearing",
+        "interpreting"
+      ],
+      "tip_ru": "Задняя часть языка у мягкого нёба, звук идёт через нос. Не добавляйте г."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "temperature",
+        "notification",
+        "anthropomorphising"
+      ],
+      "tip_ru": "temPerature — на втором слоге (в британском tempratyre — сжато); notifiCAtion — на -ca-."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What did the thermostat promise to do?",
+      "answer": "Learn the writer's habits and save money.",
+      "accepted_keywords": [
+        "habits",
+        "money",
+        "save",
+        "learn"
+      ]
+    },
+    {
+      "question": "What did it ask on the second Saturday?",
+      "answer": "Whether the writer was still alive.",
+      "accepted_keywords": [
+        "alive"
+      ]
+    },
+    {
+      "question": "What happened at the dinner party?",
+      "answer": "The room got so cold that guests ate in coats.",
+      "accepted_keywords": [
+        "cold",
+        "coats",
+        "soup"
+      ]
+    },
+    {
+      "question": "How does the story end?",
+      "answer": "The thermostat turned the heating on because the writer asked nicely.",
+      "accepted_keywords": [
+        "asked",
+        "nicely",
+        "heating",
+        "on"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "c1-opinion-02",
+  "level": "C1",
+  "genre": "opinion",
+  "title_en": "Open-Plan Offices Are an Expensive Mistake",
+  "title_ru": "Офисы открытого типа — дорогая ошибка",
+  "description_ru": "Колонка против офисов-«опенспейсов»: почему шум и отсутствие приватности мешают работать.",
+  "text": "Some ideas survive not because they work but because they are cheap. The open-plan office is the perfect example. Sold to employees as a way of fostering collaboration and sold to accountants as a way of fitting more desks into fewer square metres, it has spread across the corporate world with the persistence of a weed. I have worked in such offices for nearly twenty years, and I have yet to meet anyone who genuinely likes them.\n\nThe theory is seductive. Remove the walls, so the argument goes, and ideas will flow freely. Colleagues will overhear a problem, wander across and solve it; spontaneous conversations will sparkle at the coffee machine; hierarchy will dissolve in a sea of shared tables. It is a charming picture, and it is largely fiction.\n\nStudies of what actually happens when companies tear down their partitions tell a rather different story. One widely discussed experiment, in which researchers tracked employees before and after a move to an open layout, found that face-to-face interaction fell by roughly seventy per cent, while the exchange of emails and messages increased. People, it seems, are not stupid. If you are sitting in full view of thirty colleagues, you do not strike up a casual conversation; you put on headphones and send a message instead. The noise-cancelling headset has become the modern equivalent of a closed door, and it is considerably less effective.\n\nThen there is the question of concentration. Serious intellectual work, whether drafting a report, writing code or analysing a contract, requires long stretches of uninterrupted attention. Research on interruptions suggests that after being disturbed, it can take well over twenty minutes to regain the same depth of focus. In an open office, interruptions are not occasional but constant: a ringing phone, a loud laugh, a colleague rehearsing a presentation, someone eating crisps with startling enthusiasm. Employees respond rationally by working late at home, which is where, ironically, they finally get something done.\n\nDefenders of the open plan will point out that it is flexible and egalitarian. Fair enough, but an egalitarian environment in which nobody can think is hardly a triumph. Besides, executives who proclaim the virtues of openness tend, curiously, to retain their own private offices.\n\nI am not arguing for a return to the gloomy corridor of identical cubicles. The sensible solution is variety: quiet rooms for concentration, small meeting spaces for conversation, and the freedom to choose between them according to the task at hand. Offices should be designed around how people actually work, not around how a consultant's slide imagines they might.\n\nUntil then, I will be the one wearing the enormous headphones in the corner, pretending not to hear you.",
+  "word_count": 452,
+  "vocabulary": [
+    {
+      "word": "fostering",
+      "ipa_us": "ˈfɔːstərɪŋ",
+      "ipa_uk": "ˈfɒstərɪŋ",
+      "translation_ru": "способствуя, поощряя"
+    },
+    {
+      "word": "persistence",
+      "ipa_us": "pərˈsɪstəns",
+      "ipa_uk": "pəˈsɪstəns",
+      "translation_ru": "живучесть, упорство"
+    },
+    {
+      "word": "seductive",
+      "ipa_us": "sɪˈdʌktɪv",
+      "ipa_uk": "sɪˈdʌktɪv",
+      "translation_ru": "заманчивый"
+    },
+    {
+      "word": "hierarchy",
+      "ipa_us": "ˈhaɪərɑːrki",
+      "ipa_uk": "ˈhaɪərɑːki",
+      "translation_ru": "иерархия"
+    },
+    {
+      "word": "partitions",
+      "ipa_us": "pɑːrˈtɪʃənz",
+      "ipa_uk": "pɑːˈtɪʃənz",
+      "translation_ru": "перегородки"
+    },
+    {
+      "word": "spontaneous",
+      "ipa_us": "spɑːnˈteɪniəs",
+      "ipa_uk": "spɒnˈteɪniəs",
+      "translation_ru": "спонтанный"
+    },
+    {
+      "word": "egalitarian",
+      "ipa_us": "ɪˌɡælɪˈteriən",
+      "ipa_uk": "ɪˌɡælɪˈteəriən",
+      "translation_ru": "эгалитарный, равноправный"
+    },
+    {
+      "word": "rationally",
+      "ipa_us": "ˈræʃnəli",
+      "ipa_uk": "ˈræʃnəli",
+      "translation_ru": "разумно"
+    },
+    {
+      "word": "cubicles",
+      "ipa_us": "ˈkjuːbɪklz",
+      "ipa_uk": "ˈkjuːbɪklz",
+      "translation_ru": "офисные кабинки"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "word-stress",
+      "examples": [
+        "collaboration",
+        "hierarchy",
+        "spontaneous"
+      ],
+      "tip_ru": "Ударение: collaboRAtion, HIerarchy (первый слог), sponTAneous. Перед -ion ударение падает на предыдущий слог."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "work",
+        "walls",
+        "wearing"
+      ],
+      "tip_ru": "Губы округлены, как для у, затем быстро раскрываются; нижней губой зубов не касайтесь."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "headphones",
+        "hierarchy",
+        "hardly"
+      ],
+      "tip_ru": "Лёгкий выдох без напряжения, как будто вы согреваете стекло. Не заменяйте звуком х."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "closed",
+        "colleagues",
+        "ideas"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: closed — d, а не т; ideas — z, а не с."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Why do companies like open-plan offices, according to the writer?",
+      "answer": "They fit more desks into less space and are said to foster collaboration.",
+      "accepted_keywords": [
+        "cheap",
+        "space",
+        "collaboration",
+        "desks"
+      ]
+    },
+    {
+      "question": "What did the experiment find about face-to-face interaction?",
+      "answer": "It fell by about seventy per cent.",
+      "accepted_keywords": [
+        "fell",
+        "seventy",
+        "decreased",
+        "dropped"
+      ]
+    },
+    {
+      "question": "How long can it take to regain focus after an interruption?",
+      "answer": "Over twenty minutes.",
+      "accepted_keywords": [
+        "twenty"
+      ]
+    },
+    {
+      "question": "What solution does the writer propose?",
+      "answer": "A variety of spaces for different tasks.",
+      "accepted_keywords": [
+        "variety",
+        "quiet",
+        "rooms",
+        "choose"
+      ]
+    }
+  ]
+}
