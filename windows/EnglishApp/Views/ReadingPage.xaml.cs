@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using EnglishApp.Converters;
 using EnglishApp.Models;
 using EnglishApp.Native;
 using EnglishApp.Services;
@@ -17,12 +18,33 @@ public sealed partial class ReadingPage : Page
     private static readonly Regex WordRx = new(@"[A-Za-z]+(?:['’][A-Za-z]+)*", RegexOptions.Compiled);
 
     public ReadingViewModel ViewModel { get; } = new();
-    public ReadingPage() { InitializeComponent(); }
+    public ReadingPage()
+    {
+        InitializeComponent();
+        // Theme brushes are resolved per theme; recolour the hand-built runs when the theme flips.
+        ActualThemeChanged += (_, _) =>
+        {
+            if (ViewModel.Text != null) RebuildBody();
+            Bindings.Update();
+        };
+    }
 
     private readonly Dictionary<Run, WordResult> _resultRuns = new();
 
-    private static readonly SolidColorBrush ReadBrush = new(Windows.UI.Color.FromArgb(255, 0x2E, 0x9E, 0x5B));
-    private static readonly SolidColorBrush SkippedBrush = new(Windows.UI.Color.FromArgb(255, 0xE0, 0x80, 0x1A));
+    // Live tracker / score colours come from the theme's Score*Brush (fallback: the former hard-coded colours).
+    private Brush ReadBrush => ReadingThemeBrushes.Good(this);
+    private Brush SkippedBrush => ReadingThemeBrushes.Fair(this);
+
+    /// <summary>Colour of a scored word: omitted → ScoreMissing, otherwise the design-system score bands.</summary>
+    private Brush WordBrush(WordResult w) =>
+        IsOmitted(w) ? ReadingThemeBrushes.Missing(this) : ReadingThemeBrushes.ForScore(this, w.Score);
+
+    /// <summary>x:Bind helper: level chip dot colour (Level{A1..C2}Brush).</summary>
+    public Brush LevelBrush(TextDetail? t) =>
+        ReadingThemeBrushes.Get(this, $"Level{t?.Level?.Trim().ToUpperInvariant()}Brush",
+            Windows.UI.Color.FromArgb(255, 0x46, 0x55, 0xD4));
+
+    private void OnOpenLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
 
     protected override void OnNavigatedTo(NavigationEventArgs e)
     {
@@ -53,10 +75,7 @@ public sealed partial class ReadingPage : Page
         {
             var spans = new List<(int, int, Brush?, bool, WordResult?)>();
             foreach (var w in r.Words)
-            {
-                var color = string.IsNullOrEmpty(w.Color) ? ReviewViewModel.ColorFor(w.Score) : ReviewViewModel.ParseHex(w.Color);
-                spans.Add((w.U16Begin, w.U16End, new SolidColorBrush(color), IsOmitted(w), w));
-            }
+                spans.Add((w.U16Begin, w.U16End, WordBrush(w), IsOmitted(w), w));
             BuildSpans(body, spans);
         }
         else if (ViewModel.LiveMarks is { } marks)
@@ -187,7 +206,7 @@ public sealed partial class ReadingPage : Page
                 row.Children.Add(new TextBlock
                 {
                     Text = $"/{ph.Ipa}/ → /{heard}/", MinWidth = 120,
-                    Foreground = new SolidColorBrush(ReviewViewModel.ColorFor(ph.Score)),
+                    Foreground = ReadingThemeBrushes.ForScore(this, ph.Score),
                     FontWeight = Microsoft.UI.Text.FontWeights.SemiBold,
                 });
                 row.Children.Add(new TextBlock { Text = ph.Score is double sc ? $"{sc:0}" : "–" });

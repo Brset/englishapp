@@ -1,3 +1,4 @@
+using EnglishApp.Converters;
 using EnglishApp.Native;
 using EnglishApp.ViewModels;
 using Microsoft.UI;
@@ -7,6 +8,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Navigation;
 
 namespace EnglishApp.Views;
@@ -22,9 +24,12 @@ public sealed partial class RecordPage : Page
     private int _forceFrom = int.MaxValue;        // re-apply states from here (after a manual cursor jump)
     private bool _gotUpdate;
 
-    private static readonly SolidColorBrush ReadBrush = new(ColorHelper.FromArgb(255, 0x2E, 0x9E, 0x5B));
-    private static readonly SolidColorBrush SkippedBrush = new(ColorHelper.FromArgb(255, 0xE0, 0x80, 0x1A));
-    private static readonly SolidColorBrush PendingBrush = new(ColorHelper.FromArgb(255, 0x80, 0x80, 0x80));
+    // Live tracker colours from the theme's Score*Brush (fallback: the former hard-coded colours).
+    private Brush ReadBrush => ReadingThemeBrushes.Good(this);
+    private Brush SkippedBrush => ReadingThemeBrushes.Fair(this);
+    private Brush PendingBrush => ReadingThemeBrushes.Missing(this);
+
+    private Storyboard? _pulse;
 
     public RecordPage()
     {
@@ -33,6 +38,59 @@ public sealed partial class RecordPage : Page
         Scroller.AddHandler(UIElement.PointerWheelChangedEvent, new PointerEventHandler(OnManualScroll), true);
         Scroller.AddHandler(UIElement.PointerPressedEvent, new PointerEventHandler(OnManualScroll), true);
         Scroller.ViewChanging += OnViewChanging;
+        ViewModel.PropertyChanged += (_, e) =>
+        {
+            if (e.PropertyName == nameof(RecordViewModel.IsRecording)) UpdatePulse();
+        };
+        // Re-apply word colours with the new theme's brushes.
+        ActualThemeChanged += (_, _) =>
+        {
+            for (int i = 0; i < _applied.Length && i < _runs.Count; i++)
+                if (_applied[i] != null) SetWordState(i, _applied[i]);
+        };
+    }
+
+    // ---------------- presentation helpers (x:Bind) ----------------
+
+    public string RecordGlyph(bool recording) => recording ? "\uE71A" : "\uE720";   // Stop / Microphone
+
+    public Visibility EmptyVisibility(bool hasText) => hasText ? Visibility.Collapsed : Visibility.Visible;
+
+    public InfoBarSeverity StatusSeverity(string? status) =>
+        status is { } s && (s.StartsWith("Ошибка") || s.StartsWith("Не удалось")) ? InfoBarSeverity.Error
+        : status is { } r && r.StartsWith("Идёт запись") ? InfoBarSeverity.Warning
+        : status is { } q && q.StartsWith("Чтение сохранено") ? InfoBarSeverity.Success
+        : InfoBarSeverity.Informational;
+
+    private void OnOpenLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
+
+    private void UpdatePulse()
+    {
+        try
+        {
+            if (ViewModel.IsRecording)
+            {
+                if (_pulse == null)
+                {
+                    var anim = new DoubleAnimation
+                    {
+                        From = 1, To = 0.35, Duration = new Duration(TimeSpan.FromMilliseconds(800)),
+                        AutoReverse = true, RepeatBehavior = RepeatBehavior.Forever,
+                    };
+                    Storyboard.SetTarget(anim, RecordRing);
+                    Storyboard.SetTargetProperty(anim, "Opacity");
+                    _pulse = new Storyboard();
+                    _pulse.Children.Add(anim);
+                }
+                _pulse.Begin();
+            }
+            else
+            {
+                _pulse?.Stop();
+                RecordRing.Opacity = 1;
+            }
+        }
+        catch (Exception) { /* cosmetic only */ }
     }
 
     protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -109,6 +167,12 @@ public sealed partial class RecordPage : Page
 
 
     private Brush AccentBrush()
+    {
+        var fallback = LegacyAccentBrush();
+        return fallback is SolidColorBrush sb ? ReadingThemeBrushes.Primary(this, sb.Color) : fallback;
+    }
+
+    private Brush LegacyAccentBrush()
     {
         try
         {

@@ -17,6 +17,8 @@ public sealed partial class HomePage : Page
         if (ViewModel.ContinueText != null) App.MainWindow.NavigateTo("reading", ViewModel.ContinueText.Id);
     }
 
+    private void OnOpenLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
+
     private void OnToday(object sender, RoutedEventArgs e)
     {
         if (ViewModel.TodayText != null) App.MainWindow.NavigateTo("reading", ViewModel.TodayText.Id);
