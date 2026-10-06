@@ -1,0 +1,135 @@
+{
+  "id": "c2-story-03",
+  "level": "C2",
+  "genre": "story",
+  "title_en": "A Funeral for the Piano",
+  "title_ru": "Похороны рояля",
+  "description_ru": "Семья не знает, что делать с огромным старым пианино тёти Филиппы, и решает устроить ему похороны. Внутри ждёт неожиданный сюрприз.",
+  "text": "The decision to bury the piano was reached, as most family decisions are, by a process of exhaustion rather than agreement. It had stood in the front room of Aunt Philippa's house for seventy years, a black, glowering upright with a cracked soundboard, nineteen dead keys, and a smell of lavender and old arguments. Nobody played it. Nobody could. It had become, in the words of my cousin Rupert, \"a very large coaster\".\n\nAunt Philippa had died in March. The house was to be sold in June. And the piano, which weighed roughly as much as a small cow, could neither be given away nor, we discovered, even insulted into leaving. Three charities declined it. A dealer in Leeds offered to take it for free, then rang back to withdraw the offer, apparently after consulting his back.\n\n\"We could burn it,\" suggested Rupert, who has always favoured the dramatic solution.\n\n\"We could not,\" said my mother, \"and we will not discuss it at the dinner table, either.\"\n\nIn the end it was my sister Clementine who proposed the funeral. She said it with the straight face of someone who had been waiting all week to say it. The piano, she argued, had been present at every christening, wake, and ill-advised Christmas singalong for three generations; it deserved a proper send-off before the movers reduced it to firewood. We laughed. Then we noticed that nobody had objected.\n\nSo on a drizzling Saturday, nine adults in black stood in a semicircle around an upright piano in a half-emptied room, and Rupert, clutching a hymn sheet like a man handed a live grenade, delivered the eulogy. He praised its loyalty, its stoicism, its unrivalled capacity to hold framed photographs. He apologised, on behalf of the family, for the years of neglect, and for the unfortunate episode with the sherry in 1987. My mother wept a little, and then, discreetly, laughed.\n\nIt was the lid that undid us. Clementine, performing the last rites, lifted it for a final look, and a small envelope slid from among the hammers and landed on the floor. Inside, in Aunt Philippa's brisk, slanting hand, was a note: \"If you are reading this, you have finally got round to getting rid of me. Do look under the keys before you do.\"\n\nWe looked. It took four men, a screwdriver, and some highly unbecoming language to remove the keyboard cover. Beneath it, wrapped in a yellowed tea towel, lay a bundle of sheet music, handwritten, and signed by someone none of us recognised: a young man named Anselm, with dates that suggested a death in the last winter of the war. Underneath the music was a photograph. Philippa, perhaps twenty, laughing at the camera, her hand on his shoulder.\n\nNobody said anything for a while. Rupert folded his hymn sheet very small.\n\nThe piano did not go to the dump. It went, after a long and faintly absurd negotiation, to a retired music teacher in Whitby, who said that a soundboard could be mended, and that dead keys, like dead languages, were merely waiting for somebody patient. On the day it was collected, my mother stood at the window and watched four sweating men carry it down the path.\n\n\"Seventy years,\" she murmured, \"and not once did she play a note for us.\"\n\n\"Perhaps,\" said Clementine, \"she was playing it for him.\"",
+  "word_count": 564,
+  "vocabulary": [
+    {
+      "word": "glowering",
+      "ipa_us": "ˈglaʊərɪŋ",
+      "ipa_uk": "ˈglaʊərɪŋ",
+      "translation_ru": "хмурый, угрюмый"
+    },
+    {
+      "word": "exhaustion",
+      "ipa_us": "ɪɡˈzɔːstʃən",
+      "ipa_uk": "ɪɡˈzɔːstʃən",
+      "translation_ru": "изнурение"
+    },
+    {
+      "word": "eulogy",
+      "ipa_us": "ˈjuːlədʒi",
+      "ipa_uk": "ˈjuːlədʒi",
+      "translation_ru": "надгробная речь"
+    },
+    {
+      "word": "stoicism",
+      "ipa_us": "ˈstoʊɪsɪzəm",
+      "ipa_uk": "ˈstəʊɪsɪzəm",
+      "translation_ru": "стоицизм"
+    },
+    {
+      "word": "unrivalled",
+      "ipa_us": "ʌnˈraɪvəld",
+      "ipa_uk": "ʌnˈraɪvəld",
+      "translation_ru": "непревзойдённый"
+    },
+    {
+      "word": "discreetly",
+      "ipa_us": "dɪˈskriːtli",
+      "ipa_uk": "dɪˈskriːtli",
+      "translation_ru": "сдержанно, незаметно"
+    },
+    {
+      "word": "unbecoming",
+      "ipa_us": "ˌʌnbɪˈkʌmɪŋ",
+      "ipa_uk": "ˌʌnbɪˈkʌmɪŋ",
+      "translation_ru": "неподобающий"
+    },
+    {
+      "word": "christening",
+      "ipa_us": "ˈkrɪsənɪŋ",
+      "ipa_uk": "ˈkrɪsənɪŋ",
+      "translation_ru": "крестины"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ŋ",
+      "examples": [
+        "singalong",
+        "slanting",
+        "clutching",
+        "murmured"
+      ],
+      "tip_ru": "ŋ: задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце: sing-a-long."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "rather",
+        "none",
+        "dump"
+      ],
+      "tip_ru": "ʌ: короткий открытый звук, средний между «а» и «ы»; рот расслаблен: dump, none."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "room",
+        "funeral",
+        "grenade",
+        "proposed"
+      ],
+      "tip_ru": "r: кончик языка поднят, но не касается нёба и не вибрирует; губы чуть округлены."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "exhaustion",
+        "negotiation",
+        "unbecoming"
+      ],
+      "tip_ru": "Ударение падает на слог перед -tion: ex-HAUS-tion, ne-go-ti-A-tion; помните об ослаблении безударных слогов."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Whose piano was it?",
+      "answer": "Aunt Philippa's.",
+      "accepted_keywords": [
+        "philippa",
+        "aunt"
+      ]
+    },
+    {
+      "question": "Who proposed holding a funeral for it?",
+      "answer": "Clementine, the narrator's sister.",
+      "accepted_keywords": [
+        "clementine",
+        "sister"
+      ]
+    },
+    {
+      "question": "What was hidden under the keys?",
+      "answer": "Handwritten sheet music and a photograph.",
+      "accepted_keywords": [
+        "music",
+        "photograph",
+        "photo"
+      ]
+    },
+    {
+      "question": "Where did the piano finally go?",
+      "answer": "To a retired music teacher in Whitby.",
+      "accepted_keywords": [
+        "teacher",
+        "whitby"
+      ]
+    }
+  ]
+}

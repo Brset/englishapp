@@ -1,0 +1,135 @@
+{
+  "id": "c2-travel-01",
+  "level": "C2",
+  "genre": "travel",
+  "title_en": "Venice Out of Season",
+  "title_ru": "Венеция вне сезона",
+  "description_ru": "Февральская Венеция без толп: туман, высокая вода, пустые переулки и город, который наконец позволяет себя разглядеть.",
+  "text": "Venice in February is a city that has taken off its make-up. The crowds that clog its bridges from May to October have fled, the gondoliers lounge about in their striped jerseys looking faintly hurt, and the fog, which arrives from the lagoon like an unhurried guest, softens the palaces until they appear to be painted on damp silk. If you want to see the place the way its residents do, this is the month.\n\nI arrived at dusk on a vaporetto, the water bus, which wallowed down the Grand Canal with the weary dignity of an old cow. The Rialto Bridge loomed out of the mist and vanished again. Along the quays, lamps were coming on, and in the lit windows of the palazzi I could see chandeliers, bookshelves, and one man in his vest eating soup, an unglamorous glimpse of the continuity of life that no postcard has ever recorded.\n\nMy hotel was a narrow building in Cannaregio, the northern district, where the pace is slower and the washing hangs across the lanes like bunting. The landlady, Signora Bellini, greeted me with a long speech about the plumbing, from which I understood only the word \"sometimes\". She then issued me with a pair of rubber boots. This, I discovered, was not eccentricity but foresight. Between autumn and early spring, exceptionally high tides flood the lowest parts of the city, an occurrence known as acqua alta. The sirens sound, the pavements vanish, and Venetians, with the equanimity of a people who have been dealing with water for a thousand years, simply put on their waders and go to work. Raised wooden walkways appear on trestles, and tourists totter along them like tightrope artists. Since 2020, a system of mobile barriers across the lagoon entrances has been closing in the worst storms, with considerable success, although the argument over whether it is a triumph or a very expensive stopgap has not ended.\n\nIn the morning I walked without a map, which is the only sensible way to treat Venice, since the maps are optimistic fictions. Lanes narrowed into passages, passages into tunnels, and tunnels into a door that opened, to my astonishment, onto a courtyard with a well, a cat, and a single orange tree that nobody had told about the winter. Somewhere a window was thrown open and a woman began to sing, flat and fearless. I stood and listened until it was over, and no one clapped, which seemed exactly right.\n\nAt noon I ate in a bacaro, one of those little bars where locals drink a small glass of wine, an ombra, and nibble cicchetti, tiny snacks of salt cod, marinated sardines, and artichoke hearts, balanced on bread. The conversation around me was a swift, melodious dialect I could not follow, but the mood was perfectly legible: complaint, affection, and a gentle contempt for anyone who had not been born within the sound of a particular church bell.\n\nThat evening, from the Zattere promenade, I watched the sun fall into the Giudecca Canal in a smear of apricot and gunmetal, and the entire city appeared to hold its breath. It occurred to me that Venice is not, as the guidebooks claim, a city that is sinking. It is a city that is persevering, a bit like an elderly aristocrat who has lost the money but not the manners.\n\nThere are cities that should be visited in the sun, and cities that should be visited in the rain. Venice should be visited in the fog, humbly, in borrowed boots, with no plan, and with the willingness to be lost.",
+  "word_count": 601,
+  "vocabulary": [
+    {
+      "word": "vaporetto",
+      "ipa_us": "ˌvɑːpəˈretoʊ",
+      "ipa_uk": "ˌvɑːpəˈretəʊ",
+      "translation_ru": "речной трамвайчик, вапоретто"
+    },
+    {
+      "word": "wallowed",
+      "ipa_us": "ˈwɑːloʊd",
+      "ipa_uk": "ˈwɒləʊd",
+      "translation_ru": "тяжело переваливался"
+    },
+    {
+      "word": "equanimity",
+      "ipa_us": "ˌiːkwəˈnɪməti",
+      "ipa_uk": "ˌiːkwəˈnɪməti",
+      "translation_ru": "невозмутимость"
+    },
+    {
+      "word": "trestles",
+      "ipa_us": "ˈtreslz",
+      "ipa_uk": "ˈtreslz",
+      "translation_ru": "козлы, опоры"
+    },
+    {
+      "word": "stopgap",
+      "ipa_us": "ˈstɑːpɡæp",
+      "ipa_uk": "ˈstɒpɡæp",
+      "translation_ru": "временная мера"
+    },
+    {
+      "word": "legible",
+      "ipa_us": "ˈledʒəbl",
+      "ipa_uk": "ˈledʒəbl",
+      "translation_ru": "читаемый, понятный"
+    },
+    {
+      "word": "persevering",
+      "ipa_us": "ˌpɜːrsəˈvɪrɪŋ",
+      "ipa_uk": "ˌpɜːsɪˈvɪərɪŋ",
+      "translation_ru": "упорствующий"
+    },
+    {
+      "word": "foresight",
+      "ipa_us": "ˈfɔːrsaɪt",
+      "ipa_uk": "ˈfɔːsaɪt",
+      "translation_ru": "предусмотрительность"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "vaporetto",
+        "Venice",
+        "vanished",
+        "very"
+      ],
+      "tip_ru": "v: нижняя губа касается верхних зубов, голос включён: Venice, vaporetto; в русском «в» губы не касаются так сильно."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "water",
+        "windows",
+        "wine",
+        "with"
+      ],
+      "tip_ru": "w: губы круглые, как для «у», без зубов: water, windows."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "lagoon",
+        "painted"
+      ],
+      "tip_ru": "eɪ: скользите от «э» к «и», не обрывайте звук: painted, made."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "equanimity",
+        "persevering",
+        "vaporetto"
+      ],
+      "tip_ru": "Ударение: e-qua-NIM-i-ty, per-se-VER-ing, va-po-RET-to; ударный слог выделяйте высотой и длительностью."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which month does the writer visit?",
+      "answer": "February.",
+      "accepted_keywords": [
+        "february"
+      ]
+    },
+    {
+      "question": "What is acqua alta?",
+      "answer": "Exceptionally high tides that flood the city.",
+      "accepted_keywords": [
+        "tide",
+        "tides",
+        "flood",
+        "high water"
+      ]
+    },
+    {
+      "question": "What does the landlady give the writer?",
+      "answer": "Rubber boots.",
+      "accepted_keywords": [
+        "boots",
+        "boot"
+      ]
+    },
+    {
+      "question": "What is a bacaro?",
+      "answer": "A small local bar serving wine and snacks.",
+      "accepted_keywords": [
+        "bar",
+        "wine",
+        "snacks"
+      ]
+    }
+  ]
+}

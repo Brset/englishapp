@@ -1,0 +1,137 @@
+{
+  "id": "c2-science-01",
+  "level": "C2",
+  "genre": "science",
+  "title_en": "The Animal That Pauses Death",
+  "title_ru": "Животное, которое ставит смерть на паузу",
+  "description_ru": "О тихоходках: как крошечные существа выживают в космосе, высушивании и радиации, и почему они всё же не бессмертны.",
+  "text": "Under a microscope, a tardigrade looks like a portly, eight-legged balloon that has wandered out of a children's cartoon. It measures roughly half a millimetre, ambles on stubby limbs tipped with claws, and has a mouth shaped like a tiny, reluctant trumpet. Yet this unassuming creature, nicknamed the water bear, has earned a reputation as the most resilient animal known to science, and the reputation is, with some qualifications, deserved.\n\nTardigrades live almost everywhere there is a film of water: in damp moss, in lake sediments, on Himalayan slopes, and in the deep sea. The trouble begins when the water goes. A garden pond can dry in a week, and an animal that depends on moisture would seem to be doomed. The tardigrade, however, performs a trick known as cryptobiosis, a word meaning, rather poetically, hidden life. It retracts its legs, expels most of its body water, and shrivels into a wrinkled, barrel-shaped form called a tun. In this state its metabolism falls to a tiny fraction of normal, perhaps a hundredth of a per cent, and it can wait for years. A few drops of rain are enough to restore it. Within hours, the animal unfurls and goes looking for lunch.\n\nHow it survives this is only partly understood. For a long time, researchers suspected a sugar called trehalose, which protects cells in other dried organisms such as brewer's yeast. But many tardigrades produce very little of it. In 2017, a team led by Thomas Boothby proposed that they instead make special, disordered proteins that, as the animal dries, form a glass-like matrix around the delicate machinery inside its cells, holding everything in place until the water returns.\n\nThe feats that followed are well documented. Tardigrades in the tun state have been cooled to within a few degrees of absolute zero and revived. They have endured pressures far beyond those at the bottom of the ocean. And in 2007, in an experiment aboard a European Space Agency capsule, dried specimens were exposed to the vacuum of space and to harsh solar radiation for ten days. Many revived once they were back on Earth, and some even laid eggs that hatched.\n\nRadiation is a particular puzzle, because it shreds DNA. In 2016, Japanese scientists reported that one species, Ramazzottius varieornatus, carries a protein they named Dsup, short for damage suppressor. It appears to cling to the DNA and shield it from reactive molecules. When human cells in a laboratory were engineered to produce the protein, they suffered significantly less damage from X-rays, which has stirred speculation about protecting astronauts. It is, however, early days, and speculation is cheap.\n\nIt would be a mistake to call tardigrades indestructible. Active, hydrated animals die quickly in boiling water, and nothing they have evolved would protect them from, say, a collapsing star or an unlucky boot. Their toughness is a precise biological strategy, not a superpower. They evolved it because the habitats they love, mosses and lichens, dry out constantly, and a creature that cannot move must learn to wait.\n\nThere is something quietly instructive in that. We tend to admire strength as the capacity to resist, to push back against the world. The tardigrade offers a subtler model: to stop, to conserve, to endure without struggling, and to resume only when conditions allow. Whether or not it will help us build better vaccines or safer spacecraft, it has already humbled a few assumptions about where life draws its limits.",
+  "word_count": 577,
+  "vocabulary": [
+    {
+      "word": "resilient",
+      "ipa_us": "rɪˈzɪliənt",
+      "ipa_uk": "rɪˈzɪliənt",
+      "translation_ru": "устойчивый"
+    },
+    {
+      "word": "unassuming",
+      "ipa_us": "ˌʌnəˈsuːmɪŋ",
+      "ipa_uk": "ˌʌnəˈsjuːmɪŋ",
+      "translation_ru": "скромный, непритязательный"
+    },
+    {
+      "word": "cryptobiosis",
+      "ipa_us": "ˌkrɪptoʊbaɪˈoʊsɪs",
+      "ipa_uk": "ˌkrɪptəʊbaɪˈəʊsɪs",
+      "translation_ru": "криптобиоз"
+    },
+    {
+      "word": "metabolism",
+      "ipa_us": "məˈtæbəlɪzəm",
+      "ipa_uk": "məˈtæbəlɪzəm",
+      "translation_ru": "обмен веществ"
+    },
+    {
+      "word": "matrix",
+      "ipa_us": "ˈmeɪtrɪks",
+      "ipa_uk": "ˈmeɪtrɪks",
+      "translation_ru": "матрица, основа"
+    },
+    {
+      "word": "specimens",
+      "ipa_us": "ˈspesəmɪnz",
+      "ipa_uk": "ˈspesɪmɪnz",
+      "translation_ru": "экземпляры"
+    },
+    {
+      "word": "shield",
+      "ipa_us": "ʃiːld",
+      "ipa_uk": "ʃiːld",
+      "translation_ru": "защищать"
+    },
+    {
+      "word": "indestructible",
+      "ipa_us": "ˌɪndɪˈstrʌktəbl",
+      "ipa_uk": "ˌɪndɪˈstrʌktəbl",
+      "translation_ru": "неразрушимый"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thing",
+        "earth",
+        "with"
+      ],
+      "tip_ru": "θ: язык слегка выдвинут между зубами, дыхание без голоса: earth, with."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "them",
+        "that",
+        "other"
+      ],
+      "tip_ru": "ð: язык между зубами и голос; не превращайте в «з» или «в»: the, that."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "cryptobiosis",
+        "metabolism",
+        "indestructible"
+      ],
+      "tip_ru": "Ударение: cryp-to-bi-O-sis, me-TAB-o-lism, in-de-STRUC-ti-ble; ударный слог произносится громче и длиннее."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "tardigrade",
+        "protein",
+        "cells",
+        "water"
+      ],
+      "tip_ru": "p, t, k перед ударным гласным произносите с лёгким придыханием: tardigrade, protein."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How big is a tardigrade?",
+      "answer": "About half a millimetre.",
+      "accepted_keywords": [
+        "half",
+        "millimetre",
+        "millimeter"
+      ]
+    },
+    {
+      "question": "What is the dried-out state called?",
+      "answer": "A tun.",
+      "accepted_keywords": [
+        "tun"
+      ]
+    },
+    {
+      "question": "What did the 2007 experiment test?",
+      "answer": "Survival in open space.",
+      "accepted_keywords": [
+        "space",
+        "vacuum",
+        "radiation"
+      ]
+    },
+    {
+      "question": "What does the Dsup protein do?",
+      "answer": "It shields DNA from damage.",
+      "accepted_keywords": [
+        "dna",
+        "shield",
+        "damage",
+        "protects"
+      ]
+    }
+  ]
+}

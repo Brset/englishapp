@@ -1,0 +1,133 @@
+{
+  "id": "c2-travel-02",
+  "level": "C2",
+  "genre": "travel",
+  "title_en": "Walking on the Sky at Uyuni",
+  "title_ru": "Прогулка по небу в Уюни",
+  "description_ru": "Поездка по гигантскому солончаку Боливии в сезон дождей, когда земля превращается в зеркало, а горизонт исчезает.",
+  "text": "There is a point, somewhere on the Salar de Uyuni, at which you stop being sure which way is up. The salt flat, the largest in the world, spreads across more than ten thousand square kilometres of the Bolivian highlands at an altitude of nearly four thousand metres. In the dry season it is a blinding white plain, cracked into tidy hexagons, as flat as a table and nearly as featureless. But in the rainy months, from roughly January to March, a thin sheet of water settles over it, and the plain turns into a mirror so perfect that the sky seems to have fallen to the ground.\n\nWe set out at dawn from the town of Uyuni, a dusty, wind-scoured outpost whose chief attraction is a railway cemetery of rusting locomotives, abandoned a century ago when the mining boom faded. Our driver, Ismael, was a quiet man in a woollen cap who communicated principally through the radio, which played the same panpipe song three times in a row. He drove a battered four-wheel-drive with the confidence of someone who had mastered the one terrain on Earth that has no landmarks.\n\nThe first hour was merely strange. The crust of salt, white and rough, crunched under the tyres like frozen snow. Then, without warning, the car slid into the water, and the world doubled. Clouds hung beneath us. The horizon dissolved. A pair of distant jeeps appeared to float in the sky, their reflections trailing below them like anchors. I opened the door, stepped out in rubber boots into water only a few centimetres deep, and was seized by a faint, absurd vertigo, as though I might fall upward.\n\nIsmael, who had seen this a thousand times, kindly gave me a moment, and then, less kindly, gave me instructions. Sunglasses were mandatory, he said, and sunscreen on the underside of my chin, because the light bounces up as fiercely as it comes down. At that altitude, the sun burns in minutes, and the air is so thin that even a short stroll leaves you gasping and giddy. I took it seriously. A frightening number of the tourists we passed did not, and wore the expression of boiled lobsters.\n\nBy midday we reached Incahuasi, an island of ancient coral in the middle of the white sea, studded with cacti that rise like green candelabra, some of them more than ten metres tall and centuries old. We climbed the path to the summit, panting, and looked out across a horizon that curved gently in every direction, and for a long while no one spoke.\n\nIt is worth remembering that the Salar is not only a spectacle. Beneath its crust lies a brine rich in lithium, the metal essential to modern batteries, and Bolivia holds some of the largest known resources in the world. The debate over how to extract it without harming this fragile place is under way, and it is, in its way, as heated as the sun.\n\nWe drove home in the late light, flamingos pink and absurd in a shallow lagoon, the sky above turning the colour of a peach, and the sky below doing exactly the same. Ismael finally turned off the radio. \"Now,\" he said, \"you see why I stay.\"",
+  "word_count": 546,
+  "vocabulary": [
+    {
+      "word": "hexagons",
+      "ipa_us": "ˈheksəɡɑːnz",
+      "ipa_uk": "ˈheksəɡənz",
+      "translation_ru": "шестиугольники"
+    },
+    {
+      "word": "scoured",
+      "ipa_us": "ˈskaʊərd",
+      "ipa_uk": "ˈskaʊəd",
+      "translation_ru": "выдубленный (ветром)"
+    },
+    {
+      "word": "terrain",
+      "ipa_us": "təˈreɪn",
+      "ipa_uk": "təˈreɪn",
+      "translation_ru": "местность"
+    },
+    {
+      "word": "vertigo",
+      "ipa_us": "ˈvɜːrtɪɡoʊ",
+      "ipa_uk": "ˈvɜːtɪɡəʊ",
+      "translation_ru": "головокружение"
+    },
+    {
+      "word": "mandatory",
+      "ipa_us": "ˈmændətɔːri",
+      "ipa_uk": "ˈmændətəri",
+      "translation_ru": "обязательный"
+    },
+    {
+      "word": "candelabra",
+      "ipa_us": "ˌkændəˈlɑːbrə",
+      "ipa_uk": "ˌkændəˈlɑːbrə",
+      "translation_ru": "канделябры"
+    },
+    {
+      "word": "brine",
+      "ipa_us": "braɪn",
+      "ipa_uk": "braɪn",
+      "translation_ru": "рассол"
+    },
+    {
+      "word": "fragile",
+      "ipa_us": "ˈfrædʒəl",
+      "ipa_uk": "ˈfrædʒaɪl",
+      "translation_ru": "хрупкий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aɪ",
+      "examples": [
+        "highlands",
+        "white",
+        "sunglasses",
+        "light"
+      ],
+      "tip_ru": "aɪ: от широкого «а» к «и», звук должен быть двойным: white, light, sunglasses."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "highlands",
+        "horizon",
+        "hexagons"
+      ],
+      "tip_ru": "h: просто выдох из горла, без «х»: highlands, horizon."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "strange",
+        "long",
+        "gasping"
+      ],
+      "tip_ru": "ŋ: задняя спинка языка к нёбу, звук через нос, без «г»: strange, long, gasping."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "ground",
+        "said",
+        "world"
+      ],
+      "tip_ru": "Звонкий согласный на конце слова не оглушайте: ground, world; удлиняйте предыдущий гласный."
+    }
+  ],
+  "questions": [
+    {
+      "question": "In which country is the Salar de Uyuni?",
+      "answer": "Bolivia.",
+      "accepted_keywords": [
+        "bolivia"
+      ]
+    },
+    {
+      "question": "When does the salt flat become a mirror?",
+      "answer": "In the rainy season, January to March.",
+      "accepted_keywords": [
+        "rainy",
+        "january",
+        "march",
+        "rain"
+      ]
+    },
+    {
+      "question": "What metal lies beneath the crust?",
+      "answer": "Lithium.",
+      "accepted_keywords": [
+        "lithium"
+      ]
+    },
+    {
+      "question": "What is Ismael's job?",
+      "answer": "He is a driver and guide.",
+      "accepted_keywords": [
+        "driver",
+        "guide"
+      ]
+    }
+  ]
+}

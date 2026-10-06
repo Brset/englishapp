@@ -1,0 +1,136 @@
+{
+  "id": "c2-dialogue-05",
+  "level": "C2",
+  "genre": "dialogue",
+  "title_en": "The Ghostwriter and the General",
+  "title_ru": "Литературный негр и генерал",
+  "description_ru": "Писательница-призрак пытается превратить скупые воспоминания отставного генерала в книгу. Оказывается, самое интересное он скрывает.",
+  "text": "Verity: General Hartley, let us begin with your earliest memory. Close your eyes if it helps.\nHartley: I never close my eyes. It is how one loses things. Earliest memory: a cavalry sword, hanging in my grandfather's hall.\nVerity: Lovely. And how did it make you feel?\nHartley: Like a sword. I was four.\nVerity: Might we try something more emotional?\nHartley: Miss Lindqvist, I commanded eleven thousand soldiers across three continents. I have emotions as other men have luggage. They are there, but I do not carry them through customs.\nVerity: Then perhaps I should tell you what the publisher has in mind. They want a memoir with, and I quote, \"intimacy, vulnerability, and a single moment of doubt\".\nHartley: I never doubted anything.\nVerity: Everyone doubts something, General.\nHartley: I once doubted a sandwich. In Cairo. I was proved right.\nVerity: That is wonderful. It is nothing, but it is wonderful. Why do I feel that you are hiding something more interesting behind the sandwich?\nHartley: Because you are paid to feel that. It is what makes you a ghostwriter rather than a typist.\nVerity: Touché. Very well. Let me ask something different. In your entire career, was there ever a day you wished you could undo?\nHartley: Ah.\nVerity: That sounded like a door opening.\nHartley: It was a chair creaking. I am old, and the furniture is older.\nVerity: General.\nHartley: Very well. There was a bridge, in the autumn of 'seventy-four. We were ordered to hold it. I held it. It was a magnificent defence, and it was entirely pointless, because the army we were protecting had retreated that morning, and nobody had thought to tell the rearguard.\nVerity: And the men?\nHartley: Eighty-three came home. Forty did not. For years afterwards I would explain to relatives that their sons had died gloriously, and I could not tell if I was lying.\nVerity: Why have you never written that down?\nHartley: Because it makes a poor chapter. There is no victory in it. There is merely a bridge, a very long night, and an old fool with a megaphone.\nVerity: Or a man who stayed at his post because he had been asked to, and then spent fifty years asking himself who had the right to ask.\nVerity: Forgive me, but I think it is the only chapter anyone will remember.\nHartley: You are very sure of yourself, for a person who has never held a bridge.\nVerity: I am sure of one thing. The publisher asked for a moment of doubt. You have just had forty.\nHartley: You have a cruel talent, Miss Lindqvist.\nVerity: It is merely a talent for listening, General. The cruelty belongs to the rest of the world.\nHartley: That is a monstrous way of putting it.\nVerity: It is the honest way. And honesty, General, is the only thing the book has not yet got.\nHartley: Hm. And if I refuse?\nVerity: Then I shall write four hundred pages about a sword and a sandwich, and the reviewers will call it \"reticent\", which is what they say when they mean \"dull\".\nHartley: You drive a harsh bargain.\nVerity: I learned from the best. Shall we begin at the bridge?\nHartley: Let me pour a whisky first. For you as well. It is a long story, and I intend to tell it only once.\nVerity: Then I shall write very quickly, and with great care.",
+  "word_count": 541,
+  "vocabulary": [
+    {
+      "word": "cavalry",
+      "ipa_us": "ˈkævlri",
+      "ipa_uk": "ˈkævlri",
+      "translation_ru": "кавалерия"
+    },
+    {
+      "word": "vulnerability",
+      "ipa_us": "ˌvʌlnərəˈbɪləti",
+      "ipa_uk": "ˌvʌlnərəˈbɪləti",
+      "translation_ru": "уязвимость"
+    },
+    {
+      "word": "memoir",
+      "ipa_us": "ˈmemwɑːr",
+      "ipa_uk": "ˈmemwɑː",
+      "translation_ru": "мемуары"
+    },
+    {
+      "word": "touché",
+      "ipa_us": "tuːˈʃeɪ",
+      "ipa_uk": "tuːˈʃeɪ",
+      "translation_ru": "ваша взяла (в споре)"
+    },
+    {
+      "word": "rearguard",
+      "ipa_us": "ˈrɪrɡɑːrd",
+      "ipa_uk": "ˈrɪəɡɑːd",
+      "translation_ru": "арьергард"
+    },
+    {
+      "word": "gloriously",
+      "ipa_us": "ˈɡlɔːriəsli",
+      "ipa_uk": "ˈɡlɔːriəsli",
+      "translation_ru": "славно"
+    },
+    {
+      "word": "monstrous",
+      "ipa_us": "ˈmɑːnstrəs",
+      "ipa_uk": "ˈmɒnstrəs",
+      "translation_ru": "чудовищный"
+    },
+    {
+      "word": "reticent",
+      "ipa_us": "ˈretɪsənt",
+      "ipa_uk": "ˈretɪsənt",
+      "translation_ru": "сдержанный, немногословный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "cavalry",
+        "vulnerability",
+        "very",
+        "eleven"
+      ],
+      "tip_ru": "v: нижняя губа касается верхних зубов, голос есть; не путайте с w и не оглушайте: very, eleven."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "emotions",
+        "publisher",
+        "memoir",
+        "luggage"
+      ],
+      "tip_ru": "ə: нейтральный безударный звук, очень короткий и расслабленный; не читайте безударное «о» как «о»: emotions, luggage."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "Hartley",
+        "hold",
+        "how",
+        "held"
+      ],
+      "tip_ru": "h: выдохните из горла без трения о нёбо; не «х»: Hartley, hold."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "vulnerability",
+        "magnificent",
+        "emotional"
+      ],
+      "tip_ru": "Длинные слова: vul-ner-a-BIL-i-ty, mag-NIF-i-cent, e-MO-tion-al; ударение на слог перед -ity."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is General Hartley's earliest memory?",
+      "answer": "A cavalry sword in his grandfather's hall.",
+      "accepted_keywords": [
+        "sword"
+      ]
+    },
+    {
+      "question": "What did the publisher want in the memoir?",
+      "answer": "A moment of doubt, intimacy and vulnerability.",
+      "accepted_keywords": [
+        "doubt",
+        "intimacy",
+        "vulnerability"
+      ]
+    },
+    {
+      "question": "What happened at the bridge?",
+      "answer": "He held it pointlessly after the army had retreated.",
+      "accepted_keywords": [
+        "bridge",
+        "retreated",
+        "pointless"
+      ]
+    },
+    {
+      "question": "How many men did not come home?",
+      "answer": "Forty.",
+      "accepted_keywords": [
+        "forty",
+        "40"
+      ]
+    }
+  ]
+}

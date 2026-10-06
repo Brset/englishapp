@@ -1,0 +1,139 @@
+{
+  "id": "c2-dialogue-02",
+  "level": "C2",
+  "genre": "dialogue",
+  "title_en": "The Salary Conversation",
+  "title_ru": "Разговор о зарплате",
+  "description_ru": "Кандидатка на должность и скептичный директор торгуются о зарплате и должностных титулах. Сухая ирония и деловой английский.",
+  "text": "Castellan: Do sit down, Ms. Rao. I trust the lift was not too much of an ordeal.\nPriya: It was a lift, Mr. Castellan. I survived it. Shall we discuss the offer?\nCastellan: Directly to business. I admire that, and I am obliged to say that it costs you three points.\nPriya: Three points of what?\nCastellan: Charm. We keep a private tally. Now, the position. We are prepared to offer you the title of Senior Associate Strategist, at a salary I am delighted to describe as \"competitive\".\nPriya: Competitive with whom?\nCastellan: With itself. Last year's figure, I mean.\nPriya: Then perhaps we could discuss the figure rather than the adjective.\nCastellan: Forty-eight thousand.\nPriya: I currently earn fifty-six, with a bonus, and I do not have to say \"synergy\" before lunch.\nCastellan: Ah. You have been told about the synergy.\nPriya: Everyone has been told about the synergy.\nCastellan: Let me be candid. The budget is, shall we say, under reflection. But we can be flexible on the title. How would you feel about Principal?\nPriya: Principal of what?\nCastellan: That is the beauty of it. The title has been left deliberately open.\nPriya: In my experience, titles that cost nothing are generally worth precisely that.\nCastellan: You are unsentimental, Ms. Rao. Splendid. I find sentiment so inefficient in a negotiator.\nPriya: Then let me be efficient. I will accept fifty-four, a pension contribution matched at six per cent, and an additional week of leave.\nCastellan: A week. Of leave. You do realise there are only fifty-two of them in a year?\nPriya: I have counted. It leaves fifty-one for you to enjoy my work.\nCastellan: Hm. That was rather good. Plus one point for charm.\nPriya: So I am up to minus two.\nCastellan: You are a fast learner. Now, in the spirit of mutual transparency, I should mention that the role does involve a certain amount of travel.\nPriya: How much is a certain amount?\nCastellan: Between forty and sixty per cent.\nPriya: Of my time, or of my sanity?\nCastellan: We have never measured the second.\nPriya: Then I shall want that in writing, along with the first. Travel capped at forty per cent, and flights, within reason, in a seat with a window.\nCastellan: You do understand that I am not a magician.\nPriya: And you do understand that I am not a charity. Forgive me. I mean that kindly.\nCastellan: I took it in that spirit. Very well. I cannot do fifty-four, but I could manage fifty-one, a six per cent pension, and the week.\nPriya: Fifty-three, and I withdraw my request about the window.\nCastellan: You are bargaining with your own windows.\nPriya: It is a mark of how much I want the job.\nCastellan: Is it? Because until now, I had assumed you were mildly insulted by it.\nPriya: Both things can be true. It is a very good company with a rather peculiar vocabulary.\nCastellan: Fifty-two. Final offer.\nPriya: Fifty-two, the week, the pension, and the title Principal.\nCastellan: Principal of what?\nPriya: I rather thought we would leave that open.\nCastellan: Ms. Rao, I am going to enjoy working with you, and I fear I am going to regret it.\nPriya: Please put both in the contract.",
+  "word_count": 516,
+  "vocabulary": [
+    {
+      "word": "ordeal",
+      "ipa_us": "ɔːrˈdiːl",
+      "ipa_uk": "ɔːˈdiːl",
+      "translation_ru": "тяжёлое испытание"
+    },
+    {
+      "word": "tally",
+      "ipa_us": "ˈtæli",
+      "ipa_uk": "ˈtæli",
+      "translation_ru": "подсчёт"
+    },
+    {
+      "word": "competitive",
+      "ipa_us": "kəmˈpetətɪv",
+      "ipa_uk": "kəmˈpetətɪv",
+      "translation_ru": "конкурентный"
+    },
+    {
+      "word": "candid",
+      "ipa_us": "ˈkændɪd",
+      "ipa_uk": "ˈkændɪd",
+      "translation_ru": "откровенный"
+    },
+    {
+      "word": "flexible",
+      "ipa_us": "ˈfleksəbl",
+      "ipa_uk": "ˈfleksəbl",
+      "translation_ru": "гибкий"
+    },
+    {
+      "word": "unsentimental",
+      "ipa_us": "ˌʌnsentɪˈmentl",
+      "ipa_uk": "ˌʌnsentɪˈmentl",
+      "translation_ru": "не склонный к сантиментам"
+    },
+    {
+      "word": "transparency",
+      "ipa_us": "trænsˈperənsi",
+      "ipa_uk": "trænsˈpærənsi",
+      "translation_ru": "прозрачность"
+    },
+    {
+      "word": "capped",
+      "ipa_us": "kæpt",
+      "ipa_uk": "kæpt",
+      "translation_ru": "ограничен потолком"
+    },
+    {
+      "word": "peculiar",
+      "ipa_us": "pɪˈkjuːliər",
+      "ipa_uk": "pɪˈkjuːliə",
+      "translation_ru": "своеобразный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "v",
+      "examples": [
+        "salary",
+        "vocabulary",
+        "travel"
+      ],
+      "tip_ru": "v: нижняя губа слегка касается верхних зубов, голос звучит; не произносите «в» русским билабиальным: salary, travel."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "much",
+        "budget",
+        "company"
+      ],
+      "tip_ru": "ʌ: краткий, расслабленный звук между «а» и «ы»: much, budget, company."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "competitive",
+        "unsentimental",
+        "transparency"
+      ],
+      "tip_ru": "Ударение смещается: com-PET-i-tive, un-sen-ti-MEN-tal, trans-PAR-en-cy."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "position",
+        "pension",
+        "time",
+        "cannot"
+      ],
+      "tip_ru": "Звуки p, t, k в начале ударного слога произносите с лёгким выдохом воздуха: position, time, cannot."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What title does Castellan first offer?",
+      "answer": "Senior Associate Strategist.",
+      "accepted_keywords": [
+        "strategist",
+        "associate",
+        "senior"
+      ]
+    },
+    {
+      "question": "What salary does Priya currently earn?",
+      "answer": "Fifty-six thousand.",
+      "accepted_keywords": [
+        "fifty-six",
+        "56"
+      ]
+    },
+    {
+      "question": "What do they finally agree on as the salary?",
+      "answer": "Fifty-two thousand.",
+      "accepted_keywords": [
+        "fifty-two",
+        "52"
+      ]
+    },
+    {
+      "question": "What title does Priya ask for in the end?",
+      "answer": "Principal.",
+      "accepted_keywords": [
+        "principal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "c2-story-04",
+  "level": "C2",
+  "genre": "story",
+  "title_en": "The Translator's Silence",
+  "title_ru": "Молчание переводчицы",
+  "description_ru": "На изматывающих переговорах переводчица впервые в жизни нарушает главное правило профессии. Одна милосердная ложь меняет ход истории.",
+  "text": "Dagmar Voss had interpreted for three ceasefires, two trade agreements, and one memorable dinner at which a minister had mistaken a finger bowl for soup. She regarded her profession as a kind of honourable invisibility: the best interpreter, she liked to say, is a pane of glass, and nobody ever thanked a window.\n\nThe talks at the Hotel Meridian had been grinding on for nine days. On one side of the long mahogany table sat the delegation of the Republic, stiff and wounded; on the other, the envoys of the Federation, polished and faintly bored. Between them lay a disputed river, a quantity of buried grievances, and a carafe of water that nobody dared touch, as though it might be construed as a concession.\n\nOn the tenth morning, the Federation's chief negotiator, a heavy man named Orlov-Bright with a voice like a barge, leaned back and delivered a speech. It was, in its original language, a masterpiece of contempt. He spoke of \"a people who mistake memory for a policy\", of \"children quarrelling over a puddle\", and, in a flourish she could still taste afterwards, of a nation \"whose only export is its own sorrow\".\n\nDagmar's pencil hovered. The interpreter's creed is exact: render everything, soften nothing, add nothing. She had followed it for twenty-six years. She drew a breath and, for the first time in her career, did something quite different.\n\n\"The Federation,\" she said in the other tongue, evenly, \"recognises the depth of feeling surrounding the river, and wishes to understand what lies beneath it.\"\n\nThe Republic's lead delegate, a thin woman named Ilse Marchetti, narrowed her eyes. She was nobody's fool. She had heard, beneath the translation, the faint rattle of something sharper. But she also heard an opening, as one hears a door unlatch in a quiet house, and she walked through it.\n\n\"Then perhaps,\" she said, \"we may tell him what lies beneath it.\"\n\nBy the afternoon, a remarkable thing had occurred. Two sets of people who had spent nine days exchanging insults through a window had begun, haltingly, to speak. Her renderings grew gentler, then plainer, then, increasingly, unnecessary, as the principals discovered that a shared grievance about bureaucrats is a splendid foundation for friendship. The river was to be shared. A subcommittee was proposed. Someone, scandalously, asked for coffee.\n\nNobody noticed what she had done. That was the horror and the glory of it. A single, merciful lie, folded into a single sentence, and history had gone round it like water around a stone.\n\nOnly Orlov-Bright, collecting his coat, paused beside her booth. His voice, close up, was quiet and surprisingly courteous.\n\n\"I have been told,\" he said, \"that my speech this morning was very diplomatic.\"\n\n\"Your speech,\" said Dagmar, \"was extremely clear.\"\n\n\"Ah.\" He considered this with the weary respect of one professional for another. \"Then I shall make my next one shorter.\"\n\nShe never told a soul. Years later, at a retirement dinner, a younger colleague asked what the hardest rule of interpreting was, and she said it was the one about adding nothing. Then she smiled into her wine, and said that rules, like rivers, occasionally needed to be redirected.",
+  "word_count": 533,
+  "vocabulary": [
+    {
+      "word": "interpreter",
+      "ipa_us": "ɪnˈtɜːrprɪtər",
+      "ipa_uk": "ɪnˈtɜːprɪtə",
+      "translation_ru": "устный переводчик"
+    },
+    {
+      "word": "delegation",
+      "ipa_us": "ˌdelɪˈɡeɪʃən",
+      "ipa_uk": "ˌdelɪˈɡeɪʃən",
+      "translation_ru": "делегация"
+    },
+    {
+      "word": "grievances",
+      "ipa_us": "ˈɡriːvənsɪz",
+      "ipa_uk": "ˈɡriːvənsɪz",
+      "translation_ru": "обиды, претензии"
+    },
+    {
+      "word": "contempt",
+      "ipa_us": "kənˈtempt",
+      "ipa_uk": "kənˈtempt",
+      "translation_ru": "презрение"
+    },
+    {
+      "word": "creed",
+      "ipa_us": "kriːd",
+      "ipa_uk": "kriːd",
+      "translation_ru": "кредо"
+    },
+    {
+      "word": "courteous",
+      "ipa_us": "ˈkɜːrtiəs",
+      "ipa_uk": "ˈkɜːtiəs",
+      "translation_ru": "учтивый"
+    },
+    {
+      "word": "haltingly",
+      "ipa_us": "ˈhɔːltɪŋli",
+      "ipa_uk": "ˈhɒltɪŋli",
+      "translation_ru": "запинаясь, неуверенно"
+    },
+    {
+      "word": "construed",
+      "ipa_us": "kənˈstruːd",
+      "ipa_uk": "kənˈstruːd",
+      "translation_ru": "истолкован"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "hotel",
+        "heavy",
+        "heard",
+        "haltingly"
+      ],
+      "tip_ru": "h: просто сильный выдох из горла, без русского «х» с шумом у нёба: heavy, heard."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "interpreter",
+        "heard",
+        "courteous"
+      ],
+      "tip_ru": "ɜː: долгий звук, губы нейтральны, не округляйте и не произносите «ё»; язык в середине рта."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "said",
+        "named"
+      ],
+      "tip_ru": "Звонкие согласные на конце слова не оглушайте: said, not «сэт»; сохраняйте голос и удлиняйте гласный."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "interpreter",
+        "delegation",
+        "diplomatic"
+      ],
+      "tip_ru": "Ударение: in-TER-pre-ter, del-e-GA-tion, dip-lo-MAT-ic; перед -ic ударение падает на предыдущий слог."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was Dagmar Voss's profession?",
+      "answer": "She was an interpreter.",
+      "accepted_keywords": [
+        "interpreter",
+        "translator"
+      ]
+    },
+    {
+      "question": "What did the chief negotiator deliver on the tenth morning?",
+      "answer": "A contemptuous speech.",
+      "accepted_keywords": [
+        "speech",
+        "insult",
+        "insults"
+      ]
+    },
+    {
+      "question": "What did Dagmar do differently that morning?",
+      "answer": "She softened the speech in translation.",
+      "accepted_keywords": [
+        "softened",
+        "lie",
+        "changed",
+        "gentler"
+      ]
+    },
+    {
+      "question": "What was the dispute about?",
+      "answer": "A river.",
+      "accepted_keywords": [
+        "river"
+      ]
+    }
+  ]
+}

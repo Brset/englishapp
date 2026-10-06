@@ -1,0 +1,135 @@
+{
+  "id": "c2-story-02",
+  "level": "C2",
+  "genre": "story",
+  "title_en": "The Lighthouse Keeper's Ledger",
+  "title_ru": "Журнал смотрителя маяка",
+  "description_ru": "Смотритель, чей маяк давно работает сам, продолжает вести журнал всех кораблей. Когда приезжает инспектор, выясняется, что его записи бесценны.",
+  "text": "For thirty-one years, Ambrose Quill had kept the light at Skerry Rock, and for the last nineteen of them the light had kept itself. The authorities, in a burst of administrative optimism, had installed an automatic lamp, a solar panel, and a small grey box that reported its own health to an office in the city, much as a nervous patient telephones his doctor. Ambrose was retained, officially, as \"caretaker of the premises\". Unofficially he was a man with a tower, a kettle, and a great deal of unrequited vigilance.\n\nHe did not take it well, or rather, he took it with such exquisite politeness that nobody noticed. Each dusk he climbed the hundred and twelve steps, inspected a lamp that required no inspection, and wrote in the ledger. The ledger had been begun by his predecessor's predecessor, and its entries, by tradition, recorded every vessel that passed. Ambrose continued the practice with a scrupulousness that bordered on the pathological. \"Tuesday. Trawler, red hull, low in the water, her captain evidently an optimist. Ore carrier, enormous, unconcerned. Yacht, white, absurd. Fog at six. No casualties.\"\n\nHe addressed the ships, too, though never aloud, which he considered the difference between devotion and lunacy. He gave them names of his own invention. The grey tanker that passed every second Thursday was Mrs. Fairweather; the little blue ferry that wobbled across the horizon at noon was the Curate. He worried about them in rough weather, and was irrationally proud when they emerged from it intact, as though he had personally negotiated with the sea.\n\nThen, in the spring of the nineteenth year, an inspector arrived by helicopter. She was young, crisp, and equipped with a tablet that appeared to know more about the lighthouse than the lighthouse did. The service, she explained, was consolidating. The tower would be decommissioned, the lamp sold to a museum, and Mr. Quill, with deep gratitude, retired.\n\n\"Of course,\" said Ambrose, and poured her tea with a steady hand. \"I shall only need to finish the ledger.\"\n\nShe meant to leave within the hour. Instead, because the wind had risen and the helicopter sulked, she spent the evening on his sofa with the ledger across her knees, and she read it, page after page, nineteen years of weather and vessels and tender, ridiculous commentary. Somewhere around the entry concerning Mrs. Fairweather's unexpected change of course during the great storm, she stopped being an inspector.\n\n\"This is a record of every ship,\" she said at last. \"It is the only one. The coastguard's logs only start where the transponders do.\"\n\n\"I imagine they do,\" said Ambrose. \"Machines are wonderfully good at the ships that announce themselves.\"\n\n\"And the others?\"\n\n\"Ah.\" He looked, for a moment, almost mischievous. \"The others are rather my speciality.\"\n\nIt would be pleasant to report that the tower was saved by an outburst of public feeling. It was not. It was saved by a footnote, a quiet and thoroughly bureaucratic paragraph in the inspector's report observing that the ledger constituted \"an irreplaceable independent archive of coastal traffic\" and that its continuation \"required, regrettably, a human observer in situ\".\n\nAmbrose is still there. The lamp still lights itself. And each dusk he climbs the steps, opens the book, and writes, in his small, immaculate hand, that the Curate is on time.",
+  "word_count": 556,
+  "vocabulary": [
+    {
+      "word": "unrequited",
+      "ipa_us": "ˌʌnrɪˈkwaɪtɪd",
+      "ipa_uk": "ˌʌnrɪˈkwaɪtɪd",
+      "translation_ru": "безответный"
+    },
+    {
+      "word": "vigilance",
+      "ipa_us": "ˈvɪdʒɪləns",
+      "ipa_uk": "ˈvɪdʒɪləns",
+      "translation_ru": "бдительность"
+    },
+    {
+      "word": "exquisite",
+      "ipa_us": "ɪkˈskwɪzɪt",
+      "ipa_uk": "ˈekskwɪzɪt",
+      "translation_ru": "изысканный"
+    },
+    {
+      "word": "scrupulousness",
+      "ipa_us": "ˈskruːpjələsnəs",
+      "ipa_uk": "ˈskruːpjələsnəs",
+      "translation_ru": "щепетильность, дотошность"
+    },
+    {
+      "word": "pathological",
+      "ipa_us": "ˌpæθəˈlɑːdʒɪkəl",
+      "ipa_uk": "ˌpæθəˈlɒdʒɪkəl",
+      "translation_ru": "болезненный, патологический"
+    },
+    {
+      "word": "decommissioned",
+      "ipa_us": "ˌdiːkəˈmɪʃənd",
+      "ipa_uk": "ˌdiːkəˈmɪʃənd",
+      "translation_ru": "выведен из эксплуатации"
+    },
+    {
+      "word": "immaculate",
+      "ipa_us": "ɪˈmækjələt",
+      "ipa_uk": "ɪˈmækjʊlət",
+      "translation_ru": "безупречный"
+    },
+    {
+      "word": "in situ",
+      "ipa_us": "ɪn ˈsaɪtuː",
+      "ipa_uk": "ɪn ˈsɪtjuː",
+      "translation_ru": "на месте"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "though",
+        "this"
+      ],
+      "tip_ru": "Для ð кончик языка между зубами и включите голос; не заменяйте на «з» или «д»: the, that, though."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "lighthouse",
+        "light",
+        "inspector"
+      ],
+      "tip_ru": "aɪ: начинайте с широкого «а» и плавно скользите к «и»: light, lighthouse."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "ledger",
+        "well",
+        "tower"
+      ],
+      "tip_ru": "В конце слога l твёрдое: кончик языка к дёснам, а спинка языка отодвинута назад; без мягкости русского «ль»."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "inspector arrived",
+        "each dusk"
+      ],
+      "tip_ru": "Соединяйте согласный с последующим гласным без паузы: arrived by, steps opens."
+    }
+  ],
+  "questions": [
+    {
+      "question": "How long had the light run itself?",
+      "answer": "Nineteen years.",
+      "accepted_keywords": [
+        "nineteen",
+        "19"
+      ]
+    },
+    {
+      "question": "What did Ambrose record in the ledger?",
+      "answer": "Every vessel that passed.",
+      "accepted_keywords": [
+        "vessel",
+        "ship",
+        "ships",
+        "vessels"
+      ]
+    },
+    {
+      "question": "What did the inspector come to do?",
+      "answer": "Decommission the tower and retire him.",
+      "accepted_keywords": [
+        "decommission",
+        "close",
+        "retire"
+      ]
+    },
+    {
+      "question": "What saved the tower?",
+      "answer": "A footnote in the inspector's report.",
+      "accepted_keywords": [
+        "footnote",
+        "report"
+      ]
+    }
+  ]
+}

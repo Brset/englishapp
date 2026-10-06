@@ -1,0 +1,135 @@
+{
+  "id": "c2-science-05",
+  "level": "C2",
+  "genre": "science",
+  "title_en": "The Air That Nearly Killed Everything",
+  "title_ru": "Воздух, едва не убивший жизнь",
+  "description_ru": "Великое кислородное событие: как древние бактерии отравили атмосферу кислородом и тем самым создали условия для сложной жизни.",
+  "text": "Of all the pollution crises in the history of our planet, none compares with the first. It occurred about two and a half billion years ago, long before there were fish, forests, or even a single animal, and the polluter was a microbe too small to see. The pollutant was oxygen.\n\nConsider the scale of the thing. No volcano, no asteroid, no industrial revolution has altered the air so completely, and none of them did it so patiently.\n\nIt is hard to appreciate, from a world in which a fifth of the air is oxygen, how peculiar this was. The early Earth had an atmosphere made largely of nitrogen, carbon dioxide, and methane, with scarcely a trace of free oxygen. The oceans were rich in dissolved iron, and life consisted entirely of single-celled organisms that had never needed to breathe. Then a lineage of bacteria, the ancestors of modern cyanobacteria, invented a remarkable trick. They learned to split water molecules using sunlight, harvesting the hydrogen to build their own food and discarding the oxygen as waste.\n\nFor hundreds of millions of years, nothing much seemed to happen. The oxygen they released was seized at once by every substance eager to react with it. The dissolved iron in the sea combined with oxygen to form rust, which sank to the seabed and accumulated in layers. Those layers, banded in red and grey, can still be found in ancient rocks, and they are known as banded iron formations. Remarkably, most of the iron ore we mine today comes from them. Our skyscrapers and bridges, in a sense, are built from a billion years of microbial exhaust.\n\nEventually, the great sinks filled up. Between roughly 2.4 and 2.1 billion years ago, oxygen began to accumulate in the air, an episode geologists call the Great Oxidation Event. For most living things, it was a calamity. Oxygen is a ferociously reactive gas that damages delicate molecules, and the anaerobic organisms that dominated the planet either perished or retreated into mud, deep water, and other places that the new air could not reach. Some researchers call it the oxygen catastrophe, and there is evidence it was one of the largest extinctions in history, although, since the victims were microbes, nobody left a fossil record to prove it.\n\nThe consequences did not end there. Oxygen also destroyed atmospheric methane, a powerful greenhouse gas, and this loss may have helped plunge the planet into one of its earliest and longest ice ages, the Huronian glaciation. A world that had been warmed by methane was suddenly cold, and perhaps, for a time, almost entirely frozen.\n\nYet the story has an irony that is difficult to resist. Some organisms did not merely survive the new atmosphere, they exploited it. Burning food with oxygen releases far more energy than any anaerobic process, and that surplus eventually made large, active, complex creatures possible. Every muscle in your body is working by courtesy of the disaster.\n\nThe lesson is not that disasters are secretly good. The microbes that died would hardly agree. It is simply that the planet has a long memory, and that what one era calls poison, a later era may call breath.\n\nWe often imagine that catastrophe and creativity are opposites. The history of the atmosphere suggests that they are frequently the same event, viewed from different sides, a thousand million years apart.",
+  "word_count": 562,
+  "vocabulary": [
+    {
+      "word": "pollutant",
+      "ipa_us": "pəˈluːtənt",
+      "ipa_uk": "pəˈluːtənt",
+      "translation_ru": "загрязнитель"
+    },
+    {
+      "word": "cyanobacteria",
+      "ipa_us": "ˌsaɪənoʊbækˈtɪriə",
+      "ipa_uk": "ˌsaɪənəʊbækˈtɪəriə",
+      "translation_ru": "цианобактерии"
+    },
+    {
+      "word": "accumulated",
+      "ipa_us": "əˈkjuːmjəleɪtɪd",
+      "ipa_uk": "əˈkjuːmjʊleɪtɪd",
+      "translation_ru": "накопились"
+    },
+    {
+      "word": "anaerobic",
+      "ipa_us": "ˌænəˈroʊbɪk",
+      "ipa_uk": "ˌænəˈrəʊbɪk",
+      "translation_ru": "анаэробный"
+    },
+    {
+      "word": "calamity",
+      "ipa_us": "kəˈlæməti",
+      "ipa_uk": "kəˈlæməti",
+      "translation_ru": "бедствие"
+    },
+    {
+      "word": "ferociously",
+      "ipa_us": "fəˈroʊʃəsli",
+      "ipa_uk": "fəˈrəʊʃəsli",
+      "translation_ru": "яростно"
+    },
+    {
+      "word": "glaciation",
+      "ipa_us": "ˌɡleɪʃiˈeɪʃən",
+      "ipa_uk": "ˌɡleɪsiˈeɪʃən",
+      "translation_ru": "оледенение"
+    },
+    {
+      "word": "surplus",
+      "ipa_us": "ˈsɜːrpləs",
+      "ipa_uk": "ˈsɜːpləs",
+      "translation_ru": "избыток"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "w",
+      "examples": [
+        "world",
+        "water",
+        "was"
+      ],
+      "tip_ru": "w: округлите губы, как для «у», нижняя губа не касается зубов: water, world."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "dissolved",
+        "evidence",
+        "every",
+        "very"
+      ],
+      "tip_ru": "v: нижняя губа касается верхних зубов, с голосом: dissolved, evidence, every."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "surplus",
+        "world",
+        "perished",
+        "burning"
+      ],
+      "tip_ru": "ɜː: долгий нейтральный звук, губы не округляйте, язык посередине: world, burning."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "cyanobacteria",
+        "accumulated",
+        "anaerobic"
+      ],
+      "tip_ru": "Ударение: cy-a-no-bac-TE-ri-a, ac-CU-mu-la-ted, an-ae-RO-bic."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the pollutant?",
+      "answer": "Oxygen.",
+      "accepted_keywords": [
+        "oxygen"
+      ]
+    },
+    {
+      "question": "Which organisms produced it?",
+      "answer": "Cyanobacteria.",
+      "accepted_keywords": [
+        "cyanobacteria",
+        "bacteria",
+        "microbes"
+      ]
+    },
+    {
+      "question": "What do banded iron formations provide today?",
+      "answer": "Most iron ore.",
+      "accepted_keywords": [
+        "iron",
+        "ore"
+      ]
+    },
+    {
+      "question": "What ice age may oxygen have triggered?",
+      "answer": "The Huronian glaciation.",
+      "accepted_keywords": [
+        "huronian",
+        "glaciation",
+        "ice"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "c2-dialogue-03",
+  "level": "C2",
+  "genre": "dialogue",
+  "title_en": "Platform Four",
+  "title_ru": "Платформа номер четыре",
+  "description_ru": "Две давние подруги случайно встречаются на вокзале спустя двадцать лет. Одна из них успела стать политиком, и это изрядно усложняет разговор.",
+  "text": "Nadia: Tobias? Tobias Merriweather? Good heavens, it is you. You've gone grey.\nTobias: Distinguished, I believe, is the word the party uses. Nadia Kovač, as I live and breathe. Twenty years.\nNadia: Twenty-two. I counted on the train, mostly to avoid reading the paper that carried your photograph.\nTobias: Ah. The photograph. I look rather resolute in it.\nNadia: You look like a man being told his soufflé has collapsed, and being very brave about it.\nTobias: That was the expression the photographer requested. It is called \"statesmanlike concern\".\nNadia: Of course it is. Tell me, how does a boy who once set fire to the chemistry laboratory end up in charge of the Ministry of Public Works?\nTobias: Strictly speaking, I am only the Under-Secretary. And the laboratory was an accident, which, I may point out, I have never publicly denied.\nNadia: Only because nobody has asked.\nTobias: Quite. That is the beauty of the profession. One simply waits until the questions grow tired.\nNadia: You used to hate that sort of thing. You used to say politicians were just actors who had misplaced their scripts.\nTobias: I said that, did I?\nNadia: Often. Usually at the top of your voice, and usually on the roof of the library.\nTobias: The roof was structurally unsound. I felt the library deserved a witness.\nNadia: The library deserved a fire warden, and received you.\nTobias: Well. I have since discovered that the scripts are not misplaced. They are written by somebody else, at three in the morning, and handed to you in a folder.\nNadia: And you read them.\nTobias: I read them beautifully. I have a gift for sounding as if I mean it. It is, regrettably, the only gift that has never failed.\nNadia: And do you? Mean it, I mean. Even occasionally?\nTobias: Occasionally, by accident, in the middle of a sentence. It is always terribly embarrassing for everyone.\nNadia: That is the saddest thing I have ever heard a man say on Platform Four.\nTobias: It is the only place I can say it. Nobody listens on platforms. They are all too busy looking for the right train.\nNadia: And are you? Looking for the right train?\nTobias: I am looking for the four-fifteen to the capital, which is delayed, which I shall defend in Parliament on Thursday.\nNadia: Then perhaps you can spare half an hour for a coffee, and I will tell you what became of the girl who wrote your essays.\nTobias: You were the girl who wrote my essays! I had quite forgotten.\nNadia: You had not. You merely found it convenient.\nTobias: Guilty. Do I owe you anything?\nNadia: A decent apology, and the price of two coffees. I am now a bridge engineer, as it happens.\nTobias: A bridge engineer. Of course. Of course you are. You always did build the things the rest of us walked across.\nNadia: Don't be gracious. It doesn't suit a man with a motorcade.\nTobias: I shall practise being rude. I have a whole cabinet of colleagues who can give lessons.\nTobias: There is no motorcade. There is a rather tired civil servant and a briefcase.\nNadia: Then come. The cafe has terrible coffee, and a view of the tracks, and nobody has ever recognised anybody in it.\nTobias: That sounds exactly like paradise.\nNadia: Bring your folder. I will correct your grammar.\nTobias: Nadia, I am delighted to report that you are the first person in twenty years to threaten me with anything useful.",
+  "word_count": 556,
+  "vocabulary": [
+    {
+      "word": "distinguished",
+      "ipa_us": "dɪˈstɪŋɡwɪʃt",
+      "ipa_uk": "dɪˈstɪŋɡwɪʃt",
+      "translation_ru": "респектабельный"
+    },
+    {
+      "word": "resolute",
+      "ipa_us": "ˈrezəluːt",
+      "ipa_uk": "ˈrezəluːt",
+      "translation_ru": "решительный"
+    },
+    {
+      "word": "statesmanlike",
+      "ipa_us": "ˈsteɪtsmənlaɪk",
+      "ipa_uk": "ˈsteɪtsmənlaɪk",
+      "translation_ru": "государственный, достойный политика"
+    },
+    {
+      "word": "misplaced",
+      "ipa_us": "mɪsˈpleɪst",
+      "ipa_uk": "mɪsˈpleɪst",
+      "translation_ru": "потерянный, не на месте"
+    },
+    {
+      "word": "regrettably",
+      "ipa_us": "rɪˈɡretəbli",
+      "ipa_uk": "rɪˈɡretəbli",
+      "translation_ru": "к сожалению"
+    },
+    {
+      "word": "convenient",
+      "ipa_us": "kənˈviːniənt",
+      "ipa_uk": "kənˈviːniənt",
+      "translation_ru": "удобный"
+    },
+    {
+      "word": "motorcade",
+      "ipa_us": "ˈmoʊtərkeɪd",
+      "ipa_uk": "ˈməʊtəkeɪd",
+      "translation_ru": "кортеж"
+    },
+    {
+      "word": "civil servant",
+      "ipa_us": "ˈsɪvl ˈsɜːrvənt",
+      "ipa_uk": "ˈsɪvl ˈsɜːvənt",
+      "translation_ru": "госслужащий"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "Thursday",
+        "thing"
+      ],
+      "tip_ru": "θ: язык между зубами, без голоса; не заменяйте на «с» или «ф»: Thursday, thing."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "train",
+        "regrettably",
+        "three"
+      ],
+      "tip_ru": "r: кончик языка поднят и оттянут назад, не касается нёба; не рычите: train, three."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "statesmanlike",
+        "grey",
+        "platform",
+        "paper"
+      ],
+      "tip_ru": "eɪ: дифтонг, от «э» к «и», не обрывайте на «э»: grey, paper, platform."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "once set",
+        "end up",
+        "set fire"
+      ],
+      "tip_ru": "Связывайте согласный конца слова с гласным начала следующего: once_set, look_at."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where do Nadia and Tobias meet?",
+      "answer": "On a station platform.",
+      "accepted_keywords": [
+        "platform",
+        "station"
+      ]
+    },
+    {
+      "question": "What is Tobias's job?",
+      "answer": "Under-Secretary at the Ministry of Public Works.",
+      "accepted_keywords": [
+        "under-secretary",
+        "secretary",
+        "ministry",
+        "politician"
+      ]
+    },
+    {
+      "question": "What is Nadia's job now?",
+      "answer": "A bridge engineer.",
+      "accepted_keywords": [
+        "engineer",
+        "bridge"
+      ]
+    },
+    {
+      "question": "What did Nadia do for Tobias at school?",
+      "answer": "She wrote his essays.",
+      "accepted_keywords": [
+        "essays",
+        "essay",
+        "wrote"
+      ]
+    }
+  ]
+}

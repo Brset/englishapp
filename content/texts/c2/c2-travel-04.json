@@ -1,0 +1,137 @@
+{
+  "id": "c2-travel-04",
+  "level": "C2",
+  "genre": "travel",
+  "title_en": "Four Seasons in an Afternoon",
+  "title_ru": "Четыре времени года за один день",
+  "description_ru": "Фарерские острова: переменчивая погода, травяные крыши, подводные тоннели и тишина, в которой слышно, как растёт трава.",
+  "text": "Nobody visits the Faroe Islands for the weather, and everyone leaves talking about it. Eighteen volcanic rocks, flung into the North Atlantic roughly halfway between Scotland and Iceland, they are home to about fifty-four thousand people and a considerably larger number of sheep, a fact the sheep appear to understand and exploit. The weather there does not so much change as perform. Over the course of a single walk I have been sunburned, rained on horizontally, wrapped in fog thick enough to chew, and, finally, rewarded with a rainbow so theatrical that I felt it should have been introduced by a trumpet.\n\nThe Faroese have a saying that if you do not like the weather, you should wait five minutes. They also have, I noticed, an admirable collection of hats.\n\nI arrived by plane at Vágar and drove, with one eye on the road and the other on the scenery, towards the village of Gásadalur, which for centuries was reachable only by a mountain footpath. The postman used to walk it every week. In 2004, a tunnel opened, and the village was suddenly connected to the rest of the world, though it still has only about a dozen residents. At the edge of the village, a waterfall called Múlafossur leaps directly off a cliff into the ocean, and I stood at the lip of it with a stunned expression and several layers of wet wool, trying to remember the last time anything had looked so unreasonably dramatic.\n\nThe islands are stitched together by an impressive network of tunnels, some of them beneath the sea. One, opened in 2020, includes an underwater roundabout, lit like a nightclub in shifting blues, in which you circle, with a mixture of delight and mild terror, hundreds of metres under the waves. A Faroese friend, asked about it, shrugged and said that the alternative was a ferry in February.\n\nIn the capital, Tórshavn, which with around twenty thousand inhabitants is one of the smallest in the world, I wandered through the old quarter of Tinganes, where turf-roofed cottages, painted black and red, crouch against the wind with the grassy rooftops waving like uncombed hair. The roofs are not a quaint affectation. Grass and birch bark, laid over timber, make a snug, durable layer of insulation, and it is not unusual to see a goat grazing contentedly on somebody's house.\n\nHospitality here is generous and unadorned. In a farmhouse above the fjord, I was fed a Sunday lunch of lamb and potatoes, then offered, with exaggerated courtesy, a piece of ræst, a fermented meat that smells like a sock in a cellar and tastes, to my surprise, rather wonderful. My hosts watched my face as closely as a jury. I think I passed.\n\nWhat lingers, though, is the quiet. Away from the villages, there are no trees, no traffic, hardly a sound but the wind, the sea, and an occasional bird, and the silence is so complete that it takes on a texture. I sat on a slope above the cliffs at Mykines, among puffins that regarded me with the offended dignity of clergymen interrupted at lunch, and understood why the Faroese are in no hurry. When the weather is the main event, one learns to be patient, and to carry a hat.",
+  "word_count": 552,
+  "vocabulary": [
+    {
+      "word": "volcanic",
+      "ipa_us": "vɑːlˈkænɪk",
+      "ipa_uk": "vɒlˈkænɪk",
+      "translation_ru": "вулканический"
+    },
+    {
+      "word": "theatrical",
+      "ipa_us": "θiˈætrɪkl",
+      "ipa_uk": "θiˈætrɪkl",
+      "translation_ru": "театральный"
+    },
+    {
+      "word": "exploit",
+      "ipa_us": "ɪkˈsplɔɪt",
+      "ipa_uk": "ɪkˈsplɔɪt",
+      "translation_ru": "использовать в своих интересах"
+    },
+    {
+      "word": "affectation",
+      "ipa_us": "ˌæfekˈteɪʃən",
+      "ipa_uk": "ˌæfekˈteɪʃən",
+      "translation_ru": "манерность, притворство"
+    },
+    {
+      "word": "insulation",
+      "ipa_us": "ˌɪnsəˈleɪʃən",
+      "ipa_uk": "ˌɪnsjʊˈleɪʃən",
+      "translation_ru": "изоляция, утепление"
+    },
+    {
+      "word": "unadorned",
+      "ipa_us": "ˌʌnəˈdɔːrnd",
+      "ipa_uk": "ˌʌnəˈdɔːnd",
+      "translation_ru": "безыскусный"
+    },
+    {
+      "word": "fermented",
+      "ipa_us": "fərˈmentɪd",
+      "ipa_uk": "fəˈmentɪd",
+      "translation_ru": "ферментированный"
+    },
+    {
+      "word": "clergymen",
+      "ipa_us": "ˈklɜːrdʒimən",
+      "ipa_uk": "ˈklɜːdʒimən",
+      "translation_ru": "священнослужители"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "weather",
+        "through",
+        "thick",
+        "theatrical"
+      ],
+      "tip_ru": "θ: кончик языка слегка высунут между зубами, без голоса: thick, theatrical."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "other",
+        "rather"
+      ],
+      "tip_ru": "ð: тот же язык между зубами, но с голосом; не «з» и не «д»: the, that, rather."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wind",
+        "wool",
+        "wet",
+        "waves"
+      ],
+      "tip_ru": "w: губы вытянуты, как для «у», быстро раскрываются; не касайтесь зубов: wind, wool."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "sunburned",
+        "hundreds",
+        "tunnel",
+        "one"
+      ],
+      "tip_ru": "ʌ: короткий открытый звук, средний между «а» и «ы»: sunburned, tunnel."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Where are the Faroe Islands?",
+      "answer": "In the North Atlantic between Scotland and Iceland.",
+      "accepted_keywords": [
+        "atlantic",
+        "iceland",
+        "scotland"
+      ]
+    },
+    {
+      "question": "What is unusual about the 2020 tunnel?",
+      "answer": "It has an underwater roundabout.",
+      "accepted_keywords": [
+        "roundabout"
+      ]
+    },
+    {
+      "question": "What grows on the roofs of the cottages?",
+      "answer": "Grass.",
+      "accepted_keywords": [
+        "grass",
+        "turf"
+      ]
+    },
+    {
+      "question": "What is ræst?",
+      "answer": "Fermented meat.",
+      "accepted_keywords": [
+        "fermented",
+        "meat",
+        "lamb"
+      ]
+    }
+  ]
+}

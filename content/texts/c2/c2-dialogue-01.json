@@ -1,0 +1,136 @@
+{
+  "id": "c2-dialogue-01",
+  "level": "C2",
+  "genre": "dialogue",
+  "title_en": "The Unfinished Canvas",
+  "title_ru": "Незаконченный холст",
+  "description_ru": "Язвительная критикесса и художник спорят в галерее о том, где заканчивается искусство и начинается недосмотр уборщика. Остроумный диалог с неожиданной развязкой.",
+  "text": "Imogen: Mr. Varga, I have walked round this room three times, and I am still unable to decide whether the exhibition has begun.\nLucian: That is the finest review I have ever received, and you haven't even written it yet.\nImogen: Don't flatter yourself. It was a complaint. There is a stepladder in the middle of the floor, a bucket of grey paint, and a canvas that appears to be, at best, a primer.\nLucian: The canvas is the centrepiece. It is called \"Before\".\nImogen: Before what, precisely?\nLucian: Before anyone tells it what it is. Every other painting in this city arrives already burdened with meaning. Mine is blessedly unemployed.\nImogen: How restful for it. And the stepladder?\nLucian: Ah. The stepladder is a comment on aspiration.\nImogen: It is a stepladder, Mr. Varga. It has a price sticker on it from a hardware shop.\nLucian: Which is precisely the commentary. Aspiration, I'm afraid, is always on sale.\nImogen: I will grant you the sticker has a certain brutal eloquence. But I must ask you directly. Is any of this finished?\nLucian: Finished is a word invented by people who wanted to go home.\nImogen: Then permit me to put it differently. If I were to take the bucket, and add a stroke of paint to your canvas, would that be vandalism or collaboration?\nLucian: That would depend entirely on the stroke.\nImogen: And if it were a very bad stroke?\nLucian: Then it would be collaboration. Vandals, in my experience, have excellent technique.\nImogen: You are insufferable.\nLucian: I am also, according to the catalogue, \"a vital voice of his generation\". I wrote that myself, but the typesetter was very moved.\nImogen: Tell me honestly, off the record. Do you actually believe in any of this?\nLucian: Off the record, I believe in the stepladder. I bought it on Tuesday because I needed to reach a high shelf, and by Wednesday I had begun to feel it was looking at me.\nImogen: Looking at you.\nLucian: Reproachfully. As if it had expected, on the whole, to be used for something nobler than a shelf.\nImogen: So the entire exhibition is a bout of guilt towards a piece of hardware.\nLucian: When you put it like that, it sounds rather less profound.\nImogen: It sounds a great deal more honest. I might even like it.\nLucian: Please do not like it. I have a reputation for being misunderstood, and I have invested heavily in it.\nImogen: Very well. I shall write that the artist is a charlatan of unusual sincerity.\nLucian: Splendid. May I quote you on the poster?\nImogen: You may not. But I do have one more question, and I should like a straight answer.\nLucian: I shall do my best, which is rarely straight.\nImogen: The grey paint. Is it part of the piece, or did a cleaner simply leave it there?\nLucian: Heavens. I assumed it was yours.\nImogen: Mine?\nLucian: Someone must have brought it. I certainly did not order a bucket.\nImogen: Then we have a mystery on our hands, Mr. Varga. Either the gallery has been visited by an anonymous genius, or by a very diligent, very tired decorator.\nLucian: Do you know, I think I prefer the genius. Shall we leave it where it stands and let the public decide?\nImogen: The public, I regret to say, will walk round the room three times and ask whether the exhibition has begun.\nLucian: Then at last, Miss Fairley, we agree. It is the finest review I have ever received.\nImogen: Goodnight, Mr. Varga. And do move that ladder before somebody sues you.",
+  "word_count": 571,
+  "vocabulary": [
+    {
+      "word": "burdened",
+      "ipa_us": "ˈbɜːrdnd",
+      "ipa_uk": "ˈbɜːdnd",
+      "translation_ru": "отягощённый"
+    },
+    {
+      "word": "aspiration",
+      "ipa_us": "ˌæspəˈreɪʃən",
+      "ipa_uk": "ˌæspəˈreɪʃən",
+      "translation_ru": "стремление"
+    },
+    {
+      "word": "brutal",
+      "ipa_us": "ˈbruːtl",
+      "ipa_uk": "ˈbruːtl",
+      "translation_ru": "жестокий, резкий"
+    },
+    {
+      "word": "eloquence",
+      "ipa_us": "ˈeləkwəns",
+      "ipa_uk": "ˈeləkwəns",
+      "translation_ru": "красноречие"
+    },
+    {
+      "word": "vandalism",
+      "ipa_us": "ˈvændəlɪzəm",
+      "ipa_uk": "ˈvændəlɪzəm",
+      "translation_ru": "вандализм"
+    },
+    {
+      "word": "insufferable",
+      "ipa_us": "ɪnˈsʌfərəbl",
+      "ipa_uk": "ɪnˈsʌfərəbl",
+      "translation_ru": "невыносимый"
+    },
+    {
+      "word": "reproachfully",
+      "ipa_us": "rɪˈproʊtʃfəli",
+      "ipa_uk": "rɪˈprəʊtʃfəli",
+      "translation_ru": "с упрёком"
+    },
+    {
+      "word": "charlatan",
+      "ipa_us": "ˈʃɑːrlətən",
+      "ipa_uk": "ˈʃɑːlətən",
+      "translation_ru": "шарлатан"
+    },
+    {
+      "word": "diligent",
+      "ipa_us": "ˈdɪlɪdʒənt",
+      "ipa_uk": "ˈdɪlɪdʒənt",
+      "translation_ru": "усердный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "there",
+        "other"
+      ],
+      "tip_ru": "ð: кончик языка между зубами, голос включён: the, that, there; не говорите «зэ» или «дэ»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "walked",
+        "whether",
+        "wrote"
+      ],
+      "tip_ru": "w: губы вперёд, как для «у», без касания зубов; не заменяйте на v: whether, walked."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "aspiration",
+        "vandalism",
+        "eloquence"
+      ],
+      "tip_ru": "Ударение: as-pi-RA-tion, VAN-dal-ism, EL-o-quence; безударные гласные сводите к ə."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bad",
+        "stroke",
+        "stepladder"
+      ],
+      "tip_ru": "Конечные звонкие не оглушайте: bad, ladder; голос не пропадает до конца слова."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the canvas called?",
+      "answer": "Before.",
+      "accepted_keywords": [
+        "before"
+      ]
+    },
+    {
+      "question": "What does the stepladder comment on, according to Lucian?",
+      "answer": "Aspiration.",
+      "accepted_keywords": [
+        "aspiration"
+      ]
+    },
+    {
+      "question": "Why did Lucian really buy the stepladder?",
+      "answer": "To reach a high shelf.",
+      "accepted_keywords": [
+        "shelf"
+      ]
+    },
+    {
+      "question": "What is the mystery at the end?",
+      "answer": "Who left the bucket of grey paint.",
+      "accepted_keywords": [
+        "paint",
+        "bucket"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "c2-science-04",
+  "level": "C2",
+  "genre": "science",
+  "title_en": "The Night Shift of the Brain",
+  "title_ru": "Ночная смена мозга",
+  "description_ru": "Что происходит в мозге во время сна: гипотеза глимфатической системы, её доказательства, споры и осторожные выводы.",
+  "text": "For most of the twentieth century, sleep was a bit of an embarrassment to neuroscience. Everyone agreed it was important, since animals deprived of it deteriorate, yet no one could say with confidence what it was for. Theories abounded: memory consolidation, energy conservation, emotional housekeeping. Each was plausible, and none was decisive.\n\nThen, in 2012, a team led by the Danish neuroscientist Maiken Nedergaard, working at the University of Rochester, offered a striking answer, or at least a new question. Most of the body is cleaned by the lymphatic system, a network of vessels that carries away cellular debris. The brain, however, has no lymphatic vessels. What does it do with its rubbish? Nedergaard's group, watching living mouse brains with a special microscope, saw cerebrospinal fluid flowing along channels around blood vessels, entering the tissue and washing through the spaces between cells. They named the arrangement the glymphatic system, a pun that combines the word lymphatic with glia, the brain cells that help regulate the channels.\n\nThe experiments suggested that this flow was dramatically stronger during sleep. In a 2013 study, the space between brain cells in sleeping mice appeared to widen by roughly sixty per cent, allowing the fluid to move more freely and to clear away waste, including a protein called beta-amyloid, whose accumulation is a hallmark of Alzheimer's disease. In effect, the brain seemed to run a night shift, a cleaning crew that works while the occupants sleep.\n\nThe human evidence is less direct, and honesty demands that we say so. Mouse brains differ from ours, and it is difficult to watch fluid moving through a living human skull. Still, some intriguing results exist. In 2019, researchers at Boston University used brain scans to show that, during deep sleep, slow waves of electrical activity were followed by pulses of cerebrospinal fluid washing through the brain. In 2018, volunteers deprived of a single night's sleep showed a small rise in beta-amyloid in certain brain regions. None of this proves that poor sleep causes dementia, and a number of scientists remain sceptical of the glymphatic model altogether. A recent mouse study even suggested that some anaesthetics may reduce clearance rather than enhance it, a reminder that the science is moving.\n\nWhat can reasonably be said? The idea that sleep helps the brain clear waste is plausible, supported by animal studies, and consistent with human observations. It has not been settled, and anyone who tells you otherwise is selling either a mattress or a book. The tidy slogan that sleep washes your brain is a half-truth, as tidy slogans generally are.\n\nYet the practical advice survives the controversy, and it is worth stating plainly, since sleep is so easily sacrificed to deadlines, screens, and the vague belief that rest is a luxury. Regular, sufficient sleep is associated with better memory, mood, and long-term health, whatever the final mechanism turns out to be. If the glymphatic story proves correct, then each night's rest is a quiet act of maintenance. If it does not, we shall merely have discovered that the brain, like most good institutions, does its most important work when nobody is watching.",
+  "word_count": 523,
+  "vocabulary": [
+    {
+      "word": "neuroscience",
+      "ipa_us": "ˈnʊroʊˌsaɪəns",
+      "ipa_uk": "ˈnjʊərəʊˌsaɪəns",
+      "translation_ru": "нейронаука"
+    },
+    {
+      "word": "consolidation",
+      "ipa_us": "kənˌsɑːləˈdeɪʃən",
+      "ipa_uk": "kənˌsɒlɪˈdeɪʃən",
+      "translation_ru": "закрепление"
+    },
+    {
+      "word": "cerebrospinal",
+      "ipa_us": "ˌserəbroʊˈspaɪnl",
+      "ipa_uk": "ˌserɪbrəʊˈspaɪnl",
+      "translation_ru": "спинномозговой"
+    },
+    {
+      "word": "glymphatic",
+      "ipa_us": "ɡlɪmˈfætɪk",
+      "ipa_uk": "ɡlɪmˈfætɪk",
+      "translation_ru": "глимфатический"
+    },
+    {
+      "word": "accumulation",
+      "ipa_us": "əˌkjuːmjəˈleɪʃən",
+      "ipa_uk": "əˌkjuːmjʊˈleɪʃən",
+      "translation_ru": "накопление"
+    },
+    {
+      "word": "hallmark",
+      "ipa_us": "ˈhɔːlmɑːrk",
+      "ipa_uk": "ˈhɔːlmɑːk",
+      "translation_ru": "характерный признак"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskeptɪkəl",
+      "ipa_uk": "ˈskeptɪkəl",
+      "translation_ru": "скептический"
+    },
+    {
+      "word": "plausible",
+      "ipa_us": "ˈplɔːzəbl",
+      "ipa_uk": "ˈplɔːzəbl",
+      "translation_ru": "правдоподобный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "ɪ",
+      "examples": [
+        "it",
+        "this",
+        "glymphatic"
+      ],
+      "tip_ru": "ɪ: короткий расслабленный звук, средний между «и» и «ы»; не тяните его как в слове sleep: it, this, significantly."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "sleep",
+        "deep"
+      ],
+      "tip_ru": "iː: долгий, напряжённый звук «и», губы растянуты: sleep, deep; не сокращайте до ɪ."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "cell",
+        "fluid"
+      ],
+      "tip_ru": "Конечное l произносите твёрдо: язык упирается в дёсны, задняя спинка поднята: cell, fluid."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "consolidation",
+        "accumulation",
+        "neuroscience"
+      ],
+      "tip_ru": "Ударение на слог перед -tion: con-sol-i-DA-tion, ac-cu-mu-LA-tion."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Who led the 2012 team?",
+      "answer": "Maiken Nedergaard.",
+      "accepted_keywords": [
+        "nedergaard",
+        "maiken"
+      ]
+    },
+    {
+      "question": "What is the glymphatic system?",
+      "answer": "A system that clears waste from the brain via cerebrospinal fluid.",
+      "accepted_keywords": [
+        "waste",
+        "clears",
+        "cleaning",
+        "fluid"
+      ]
+    },
+    {
+      "question": "What protein was mentioned?",
+      "answer": "Beta-amyloid.",
+      "accepted_keywords": [
+        "amyloid",
+        "beta"
+      ]
+    },
+    {
+      "question": "Is the idea fully settled?",
+      "answer": "No, it is still debated.",
+      "accepted_keywords": [
+        "no",
+        "debated",
+        "sceptical",
+        "settled"
+      ]
+    }
+  ]
+}

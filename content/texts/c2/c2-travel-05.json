@@ -1,0 +1,133 @@
+{
+  "id": "c2-travel-05",
+  "level": "C2",
+  "genre": "travel",
+  "title_en": "The Square That Changes Its Mind",
+  "title_ru": "Площадь, которая меняет мнение",
+  "description_ru": "Марракеш, его медина и главная площадь Джемаа-эль-Фна: день и ночь, торговцы, чай и искусство заблудиться.",
+  "text": "The first rule of the Marrakech medina is that you will get lost. The second is that this is the point. The old walled city, a labyrinth of ochre lanes, tunnelled souks, and unmarked doors, was built, some say, to confuse invaders, and it has confused, with equal impartiality, generations of tourists, map-makers, and at least one very determined mule.\n\nI entered through a gate in the rose-coloured wall, and was at once enfolded by the noise. Mopeds weaved around donkey carts. Merchants called out in four languages and pronounced my nationality wrongly in all of them. A boy shot past with a tray of bread on his head, as upright and serene as a statue being delivered. Over everything rose the Koutoubia minaret, an elegant tower of sandstone from the twelfth century, so tall and so calmly proportioned that it serves as a compass: whenever you are hopelessly lost, you merely look up, locate it, and then, naturally, lose it again.\n\nThe heart of the city is Jemaa el-Fna, an enormous square that, like a character in a Russian novel, changes mood entirely depending on the hour. In the morning, it is a rather sleepy parking lot for orange-juice carts, where a glass of fresh juice costs about as much as a postage stamp. By afternoon, it fills with storytellers, snake charmers, and boys with trained monkeys, a scene that the visitor will find either charming or distressing, and probably both. But at dusk the square transforms. Dozens of food stalls, lit by hissing lamps, appear as if conjured, and clouds of fragrant smoke drift up from grills of lamb, sausage, and sizzling vegetables. Musicians, acrobats, and fortune-tellers claim their patches of ground. UNESCO has recognised the square's traditions as part of humanity's intangible heritage, and it is easy to see why: no one designed it, and no one controls it, but it is somehow always a stage.\n\nI took refuge from the crush in a riad, a house arranged around a quiet courtyard, with a fountain, a lemon tree, and a roof terrace from which I could see, on clear mornings, the snow-capped Atlas Mountains floating above the pink city like a promise. Breakfast was bread, olives, honey, and mint tea, poured in a long, silvery arc from a teapot held at an alarming height. The height, my host explained, is for aeration, and also for show, and the Moroccan attitude to hospitality is that there should always be a little of both.\n\nOn my last afternoon, I abandoned the map entirely, and found, quite by accident, a tiny workshop where an old man was hammering patterns into copper lamps. He did not ask me to buy anything. He simply let me sit on a stool and watch him work, and when I finally rose to go, he said, in careful English, \"Now you are not lost. Now you are here.\"\n\nI bought a lamp. I am, as I hope I have made clear, extremely easy to persuade. But the old man was not bargaining. It struck me, walking back through the blue twilight with the lamp under my arm, that in a city designed for confusion, a person who stops moving is the only one who can be said to have arrived.",
+  "word_count": 551,
+  "vocabulary": [
+    {
+      "word": "labyrinth",
+      "ipa_us": "ˈlæbərɪnθ",
+      "ipa_uk": "ˈlæbərɪnθ",
+      "translation_ru": "лабиринт"
+    },
+    {
+      "word": "impartiality",
+      "ipa_us": "ˌɪmpɑːrʃiˈæləti",
+      "ipa_uk": "ˌɪmpɑːʃiˈæləti",
+      "translation_ru": "беспристрастие"
+    },
+    {
+      "word": "serene",
+      "ipa_us": "səˈriːn",
+      "ipa_uk": "səˈriːn",
+      "translation_ru": "безмятежный"
+    },
+    {
+      "word": "minaret",
+      "ipa_us": "ˌmɪnəˈret",
+      "ipa_uk": "ˌmɪnəˈret",
+      "translation_ru": "минарет"
+    },
+    {
+      "word": "intangible",
+      "ipa_us": "ɪnˈtændʒəbl",
+      "ipa_uk": "ɪnˈtændʒəbl",
+      "translation_ru": "нематериальный"
+    },
+    {
+      "word": "riad",
+      "ipa_us": "riˈɑːd",
+      "ipa_uk": "riˈæd",
+      "translation_ru": "риад, дом с внутренним двором"
+    },
+    {
+      "word": "aeration",
+      "ipa_us": "erˈeɪʃən",
+      "ipa_uk": "eəˈreɪʃən",
+      "translation_ru": "аэрация, насыщение воздухом"
+    },
+    {
+      "word": "hospitality",
+      "ipa_us": "ˌhɑːspɪˈtæləti",
+      "ipa_uk": "ˌhɒspɪˈtæləti",
+      "translation_ru": "гостеприимство"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rose",
+        "around",
+        "enormous"
+      ],
+      "tip_ru": "r: язык оттянут и не касается нёба, не рычите: around, rose."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hospitality",
+        "heritage",
+        "heart",
+        "hammering"
+      ],
+      "tip_ru": "h: мягкий выдох без трения, не «х»: hospitality, heritage, hammering."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "impartiality",
+        "hospitality",
+        "intangible"
+      ],
+      "tip_ru": "Ударение: im-par-ti-AL-i-ty, hos-pi-TAL-i-ty; перед -ity ударение падает на предыдущий слог."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "look up",
+        "at once"
+      ],
+      "tip_ru": "Соединяйте согласный и следующий гласный в потоке: look_up, at_once."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the main square called?",
+      "answer": "Jemaa el-Fna.",
+      "accepted_keywords": [
+        "jemaa",
+        "fna"
+      ]
+    },
+    {
+      "question": "What serves as a compass for visitors?",
+      "answer": "The Koutoubia minaret.",
+      "accepted_keywords": [
+        "koutoubia",
+        "minaret",
+        "tower"
+      ]
+    },
+    {
+      "question": "What is a riad?",
+      "answer": "A house around a courtyard.",
+      "accepted_keywords": [
+        "house",
+        "courtyard"
+      ]
+    },
+    {
+      "question": "What did the old man say to the author?",
+      "answer": "Now you are not lost, now you are here.",
+      "accepted_keywords": [
+        "lost",
+        "here"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "c2-travel-03",
+  "level": "C2",
+  "genre": "travel",
+  "title_en": "The Moss Garden of Kyoto",
+  "title_ru": "Мшистый сад Киото",
+  "description_ru": "Дождливый июнь в Киото, паломничество в сад с сотней видов мха и урок терпения, который путешественник не планировал получить.",
+  "text": "Most visitors to Kyoto come for the gold. They queue at the Golden Pavilion, photograph it from a safe distance, and leave with the pleasant sensation of having ticked off a miracle. I came, for no better reason than a rumour, for the moss.\n\nThe rumour concerned Saihō-ji, a Zen temple in the western suburbs, popularly known as Kokedera, the moss temple. Its garden is said to contain about a hundred and twenty varieties of moss, spread beneath maples and pines in a green so rich and so various that it has been compared to a carpet woven by a poet. It is not easy to enter. To keep the numbers low and the mood hushed, the temple admits only visitors who have applied in advance, and, in a charming demonstration of the Japanese gift for turning logistics into liturgy, those visitors must first copy out a Buddhist sutra by brush.\n\nI had never held a brush in my life. Seated on my knees on a tatami mat, in a hall that smelled of incense and old wood, I was handed an ink stone, a sheet of thin paper with the characters faintly printed on it, and a quietly encouraging nod from a monk. For forty minutes I traced them with the concentration of a man defusing a bomb. The result looked like a spider's funeral. The monk, with exquisite tact, gathered it up and said nothing.\n\nThen, at last, the doors were opened, and it began to rain.\n\nIt was June, the season called tsuyu, when the plum rains settle over the city like a damp, affectionate blanket, and the tourist guides advise caution. They are wrong. Rain is what the garden has been waiting for. Under the dripping canopy, the moss swelled and glowed, an extraordinary spectrum of emerald, olive, and almost yellow, and every stone, every root, every fallen maple leaf had been given a cushion of living velvet. Water ticked from the leaves. A pond in the shape of the Japanese character for heart, a feature of the original design, shone like pewter. Nobody spoke. There were perhaps twenty of us, moving slowly along the narrow paths with the reverence of people entering a very old, very green cathedral.\n\nWhat struck me, as I stood beneath a curtain of drizzle, was not the beauty, which is undeniable, but the labour. The garden cannot be left to itself. Moss is fragile, dislikes foot traffic, and quickly yellows in the heat, and so, every day, the gardeners come with bamboo brooms and tweezers to pick out the weeds, one by one, as though performing a long, devout surgery. The perfection is not natural. It is attended.\n\nI left with damp shoes, a pen-and-ink souvenir I could not bring myself to display, and an irritating and persistent new thought. We spend our lives urging things to grow faster, bigger, and louder. Moss, indifferent to our schedule, grows slowly, softly, and a little at a time, and it ends up covering a temple.\n\nOn the bus back to the city centre, I passed the Golden Pavilion again, glowing in the downpour. It looked, for the first time, a trifle loud.",
+  "word_count": 533,
+  "vocabulary": [
+    {
+      "word": "hushed",
+      "ipa_us": "hʌʃt",
+      "ipa_uk": "hʌʃt",
+      "translation_ru": "приглушённый, тихий"
+    },
+    {
+      "word": "logistics",
+      "ipa_us": "loʊˈdʒɪstɪks",
+      "ipa_uk": "ləˈdʒɪstɪks",
+      "translation_ru": "логистика"
+    },
+    {
+      "word": "liturgy",
+      "ipa_us": "ˈlɪtərdʒi",
+      "ipa_uk": "ˈlɪtədʒi",
+      "translation_ru": "литургия, ритуал"
+    },
+    {
+      "word": "sutra",
+      "ipa_us": "ˈsuːtrə",
+      "ipa_uk": "ˈsuːtrə",
+      "translation_ru": "сутра"
+    },
+    {
+      "word": "canopy",
+      "ipa_us": "ˈkænəpi",
+      "ipa_uk": "ˈkænəpi",
+      "translation_ru": "полог, крона"
+    },
+    {
+      "word": "pewter",
+      "ipa_us": "ˈpjuːtər",
+      "ipa_uk": "ˈpjuːtə",
+      "translation_ru": "олово, оловянный цвет"
+    },
+    {
+      "word": "reverence",
+      "ipa_us": "ˈrevərəns",
+      "ipa_uk": "ˈrevərəns",
+      "translation_ru": "благоговение"
+    },
+    {
+      "word": "devout",
+      "ipa_us": "dɪˈvaʊt",
+      "ipa_uk": "dɪˈvaʊt",
+      "translation_ru": "набожный"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "r",
+      "examples": [
+        "rain",
+        "brush",
+        "rumour",
+        "green"
+      ],
+      "tip_ru": "r: язык оттянут назад, кончик не касается нёба, губы чуть округлены: rain, green."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "rumour",
+        "hushed",
+        "suburbs",
+        "trifle"
+      ],
+      "tip_ru": "ʌ: короткий, открытый, расслабленный звук; не «а» и не «о»: rumour, hushed."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thin",
+        "thought",
+        "moss"
+      ],
+      "tip_ru": "θ: язык слегка между зубами, воздух без голоса: thin, thought."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "logistics",
+        "reverence",
+        "extraordinary"
+      ],
+      "tip_ru": "Ударение: lo-GIS-tics, REV-er-ence, ex-TRAOR-di-nar-y; не ставьте ударение на последний слог."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is Kokedera also called in English?",
+      "answer": "The moss temple.",
+      "accepted_keywords": [
+        "moss"
+      ]
+    },
+    {
+      "question": "What must visitors do before entering?",
+      "answer": "Copy a Buddhist sutra by brush.",
+      "accepted_keywords": [
+        "sutra",
+        "copy",
+        "brush"
+      ]
+    },
+    {
+      "question": "What season is it?",
+      "answer": "The rainy season in June.",
+      "accepted_keywords": [
+        "june",
+        "rainy",
+        "tsuyu",
+        "rain"
+      ]
+    },
+    {
+      "question": "Why do gardeners use tweezers?",
+      "answer": "To pick out weeds.",
+      "accepted_keywords": [
+        "weeds",
+        "weed"
+      ]
+    }
+  ]
+}

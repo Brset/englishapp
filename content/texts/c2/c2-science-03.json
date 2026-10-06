@@ -1,0 +1,131 @@
+{
+  "id": "c2-science-03",
+  "level": "C2",
+  "genre": "science",
+  "title_en": "A Chirp from Across the Cosmos",
+  "title_ru": "Чирп из глубин космоса",
+  "description_ru": "Как LIGO впервые услышал слияние чёрных дыр и почему это стало настоящей революцией в астрономии.",
+  "text": "On the morning of the fourteenth of September 2015, in two laboratories separated by nearly three thousand kilometres, a pair of instruments registered something that no human being had ever perceived. It lasted about a fifth of a second. It rose in pitch and strength, like a bird's chirp, and then vanished. When physicists eventually plotted it, they found a shape that matched, almost to the last wiggle, the prediction of Einstein's general relativity. They were listening to two black holes colliding, roughly 1.3 billion years ago.\n\nEinstein had predicted such ripples in 1916. A heavy object that accelerates, he reasoned, should disturb the fabric of space and time, sending out waves that stretch and squeeze everything they pass through, much as a stone sends circles across a pond. The trouble was scale. Even the most violent events in the universe produce waves that are, by the time they reach us, almost unimaginably faint. Einstein himself doubted they could ever be measured.\n\nThe two observatories of LIGO, the Laser Interferometer Gravitational-Wave Observatory, were built to prove him wrong. Each is shaped like a giant letter L, with two arms four kilometres long. A laser beam is split, sent down both arms, reflected by mirrors, and recombined. If the arms stay exactly the same length, the light cancels itself out. If a gravitational wave passes, one arm is stretched very slightly while the other is squeezed, and a flicker of light escapes. The change in length that LIGO can detect is smaller than a thousandth of the width of a proton. It is rather like noticing a change in the distance to the nearest star the size of a human hair.\n\nThe signal, labelled GW150914, reached the Livingston detector in Louisiana seven milliseconds before it reached Hanford in Washington State, which told researchers roughly where in the sky to look. Analysis showed that the source was a pair of black holes, about twenty-nine and thirty-six times the mass of the Sun, spiralling together faster and faster before merging into a single hole of about sixty-two solar masses. The sums do not quite add up, and the discrepancy is the point. About three solar masses had been converted into pure energy, in the form of gravitational waves, in a fraction of a second. For that instant, the collision outshone all the stars in the observable universe combined, although not a single photon of light was seen.\n\nThe announcement came in February 2016, and in 2017 the Nobel Prize in Physics went to Rainer Weiss, Barry Barish, and Kip Thorne for their leadership of the project. Since then detectors have heard dozens of mergers, including neutron stars, whose 2017 collision was also seen by telescopes, producing gold and platinum in an enormous cosmic forge.\n\nIt is worth pausing on the sheer improbability of it all: a tiny shudder, born hundreds of millions of years before the first animal crawled ashore, crossing the universe in near silence only to be caught by two patient machines in the American countryside.\n\nWhat makes this achievement remarkable is not only the engineering but the change in kind. For all of history we have looked at the universe. We have now begun to listen to it, and the universe, it turns out, has been talking all along.",
+  "word_count": 547,
+  "vocabulary": [
+    {
+      "word": "perceived",
+      "ipa_us": "pərˈsiːvd",
+      "ipa_uk": "pəˈsiːvd",
+      "translation_ru": "воспринял"
+    },
+    {
+      "word": "fabric",
+      "ipa_us": "ˈfæbrɪk",
+      "ipa_uk": "ˈfæbrɪk",
+      "translation_ru": "ткань (пространства-времени)"
+    },
+    {
+      "word": "interferometer",
+      "ipa_us": "ˌɪntərfəˈrɑːmɪtər",
+      "ipa_uk": "ˌɪntəfəˈrɒmɪtə",
+      "translation_ru": "интерферометр"
+    },
+    {
+      "word": "proton",
+      "ipa_us": "ˈproʊtɑːn",
+      "ipa_uk": "ˈprəʊtɒn",
+      "translation_ru": "протон"
+    },
+    {
+      "word": "discrepancy",
+      "ipa_us": "dɪˈskrepənsi",
+      "ipa_uk": "dɪˈskrepənsi",
+      "translation_ru": "расхождение"
+    },
+    {
+      "word": "spiralling",
+      "ipa_us": "ˈspaɪrəlɪŋ",
+      "ipa_uk": "ˈspaɪrəlɪŋ",
+      "translation_ru": "движущиеся по спирали"
+    },
+    {
+      "word": "neutron",
+      "ipa_us": "ˈnuːtrɑːn",
+      "ipa_uk": "ˈnjuːtrɒn",
+      "translation_ru": "нейтрон"
+    },
+    {
+      "word": "observatories",
+      "ipa_us": "əbˈzɜːrvətɔːriz",
+      "ipa_uk": "əbˈzɜːvətriz",
+      "translation_ru": "обсерватории"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "three",
+        "with"
+      ],
+      "tip_ru": "θ: кончик языка слегка высунут между зубами, голоса нет: thousand, three."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wave",
+        "width",
+        "where",
+        "was"
+      ],
+      "tip_ru": "w: губы вытянуты вперёд, как для «у», и быстро раскрываются; не касайтесь зубов: wave, width."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "observatories",
+        "universe",
+        "have"
+      ],
+      "tip_ru": "v: нижняя губа к верхним зубам, голос звучит; в конце слова не оглушайте: have, universe."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "interferometer",
+        "observatories",
+        "discrepancy"
+      ],
+      "tip_ru": "Ударение: in-ter-fe-ROM-e-ter, ob-SERV-a-to-ries, dis-CREP-an-cy; в британском observatories ударный слог тот же."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What was the signal called?",
+      "answer": "GW150914.",
+      "accepted_keywords": [
+        "gw150914",
+        "gravitational"
+      ]
+    },
+    {
+      "question": "How long are LIGO's arms?",
+      "answer": "Four kilometres.",
+      "accepted_keywords": [
+        "four",
+        "4"
+      ]
+    },
+    {
+      "question": "What collided?",
+      "answer": "Two black holes.",
+      "accepted_keywords": [
+        "black"
+      ]
+    },
+    {
+      "question": "Who predicted gravitational waves?",
+      "answer": "Einstein.",
+      "accepted_keywords": [
+        "einstein"
+      ]
+    }
+  ]
+}

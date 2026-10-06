@@ -1,0 +1,139 @@
+{
+  "id": "c2-story-01",
+  "level": "C2",
+  "genre": "story",
+  "title_en": "The Cartographer of Small Disappointments",
+  "title_ru": "Картограф мелких разочарований",
+  "description_ru": "Чудаковатая рисовальщица карт в рыбацком городке и чиновник, который приехал всё снести. Тёплая ироничная история о том, что карты бывают не только дорожными.",
+  "text": "Nobody in Port Wennick could remember who had first decided that Ottoline Pratt was eccentric, but the verdict had stood for so long that it had acquired the dignity of a landmark. She lived above the chandler's shop, drew maps for a living, and the maps were, by common consent, useless.\n\nThey did not show roads. They showed, instead, the places where something had gone quietly wrong: the bench where Mr. Halloran had rehearsed a proposal for eleven summers and never delivered it; the bakery doorway under which a dozen umbrellas had been abandoned by people too proud to go back for them; the stretch of breakwater from which the Pettigrew boy had once, with immense ceremony, thrown his violin into the sea. Each blemish was inked in a fine, forgiving hand, and each was given a name in the margin. She called the collection An Atlas of Minor Regrets.\n\nThe town tolerated it the way one tolerates a relative who sings at weddings. Then, in the lean autumn of the year the herring failed, a surveyor arrived from the ministry with a theodolite, a clipboard, and the serene confidence of a man who has never been lost in his own opinions. The harbour, he announced, was to be dredged, the old lanes widened, and the whole sorry cluster of cottages \"rationalised\". He required a map. The official charts, regrettably, had been eaten by damp.\n\nIt was Ottoline who, with a sigh of the kind usually reserved for dentists, offered him hers.\n\nHe unrolled it on the pub table, frowned, and turned it upside down, as though the fault might lie in the geometry rather than the philosophy. \"There are no streets here,\" he said. \"Only feelings.\"\n\n\"Streets are what people walk along,\" said Ottoline. \"Feelings are where they stop.\"\n\nHe might have dismissed her entirely, had the afternoon not turned treacherous. A sea fret rolled in, thick as wet flannel, and the surveyor, who had insisted on measuring the breakwater alone, lost the shore within minutes. His instruments proved admirably precise and entirely irrelevant. It was a pale, scruffy dog belonging to nobody that finally led him, by a wandering and faintly insulting route, to the bakery doorway, where he stood dripping amid the ghosts of forty umbrellas.\n\nOnly then did he notice that the doorway, on Ottoline's map, was marked with a tiny, careful cross and the words \"Here, people hesitate\". He glanced at the street. He glanced at the map. Something in him, a muscle long disused, gave a faint, indignant twitch.\n\nOver the following week he walked the entire town with her atlas rather than his own. He discovered that the narrow lanes ran precisely where gossip travelled fastest, that the proposed widening would obliterate the only wall against which the old men sat to be wrong about politics, and that the harbour's famous crookedness was nothing but forty generations of sensible compromise with the wind. He drafted his report three times. The first draft recommended demolition. The second recommended \"sensitive reinterpretation\". The third, composed at two in the morning with an unexpected tremor in the handwriting, recommended that nothing whatsoever be done.\n\nThe ministry was baffled, then relieved, then, characteristically, indifferent. Port Wennick remained exactly as crooked as before.\n\nAs for the surveyor, he left on the Thursday ferry. Ottoline watched him from her window, and noticed, with the tender malice of the true cartographer, that he paused at the end of the pier, looked back at the town, and stood a full minute where no one had ever stood before. The next morning she inked a new mark on the breakwater, small and unflattering and entirely accurate: \"Here, a man changed his mind.\"",
+  "word_count": 619,
+  "vocabulary": [
+    {
+      "word": "eccentric",
+      "ipa_us": "ɪkˈsentrɪk",
+      "ipa_uk": "ɪkˈsentrɪk",
+      "translation_ru": "эксцентричный, чудаковатый"
+    },
+    {
+      "word": "blemish",
+      "ipa_us": "ˈblemɪʃ",
+      "ipa_uk": "ˈblemɪʃ",
+      "translation_ru": "изъян, пятно"
+    },
+    {
+      "word": "serene",
+      "ipa_us": "səˈriːn",
+      "ipa_uk": "səˈriːn",
+      "translation_ru": "безмятежный"
+    },
+    {
+      "word": "treacherous",
+      "ipa_us": "ˈtretʃərəs",
+      "ipa_uk": "ˈtretʃərəs",
+      "translation_ru": "коварный"
+    },
+    {
+      "word": "obliterate",
+      "ipa_us": "əˈblɪtəreɪt",
+      "ipa_uk": "əˈblɪtəreɪt",
+      "translation_ru": "стереть, уничтожить без следа"
+    },
+    {
+      "word": "indifferent",
+      "ipa_us": "ɪnˈdɪfrənt",
+      "ipa_uk": "ɪnˈdɪfrənt",
+      "translation_ru": "безразличный"
+    },
+    {
+      "word": "malice",
+      "ipa_us": "ˈmælɪs",
+      "ipa_uk": "ˈmælɪs",
+      "translation_ru": "злорадство, злой умысел"
+    },
+    {
+      "word": "dredged",
+      "ipa_us": "dredʒd",
+      "ipa_uk": "dredʒd",
+      "translation_ru": "углублён (о дне, землечерпалкой)"
+    },
+    {
+      "word": "chandler's",
+      "ipa_us": "ˈtʃændlərz",
+      "ipa_uk": "ˈtʃɑːndləz",
+      "translation_ru": "лавка судовых припасов"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "θ",
+      "examples": [
+        "theodolite",
+        "Thursday",
+        "nothing",
+        "something"
+      ],
+      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните, без звука «с» или «ф»: theodolite, Thursday."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wet",
+        "wandering",
+        "whatsoever",
+        "wind"
+      ],
+      "tip_ru": "Для w округлите губы, как для «у», и быстро раскройте; нижняя губа не касается зубов, в отличие от v."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "eleven",
+        "violin",
+        "never"
+      ],
+      "tip_ru": "Для v нижняя губа касается верхних зубов и голос звучит: eleven, violin."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "eccentric",
+        "obliterate",
+        "indifferent"
+      ],
+      "tip_ru": "В длинных словах ударение падает на второй или третий слог; безударные слоги сокращайте: ec-CEN-tric, ob-LIT-er-ate."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What kind of places did Ottoline's maps show?",
+      "answer": "Places where something had gone wrong or people had regrets.",
+      "accepted_keywords": [
+        "regrets",
+        "wrong",
+        "disappointments",
+        "feelings"
+      ]
+    },
+    {
+      "question": "Who arrived in Port Wennick from the ministry?",
+      "answer": "A surveyor.",
+      "accepted_keywords": [
+        "surveyor"
+      ]
+    },
+    {
+      "question": "What led the surveyor out of the sea fog?",
+      "answer": "A scruffy dog.",
+      "accepted_keywords": [
+        "dog"
+      ]
+    },
+    {
+      "question": "What did his third report recommend?",
+      "answer": "That nothing be done.",
+      "accepted_keywords": [
+        "nothing"
+      ]
+    }
+  ]
+}

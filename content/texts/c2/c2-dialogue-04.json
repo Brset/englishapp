@@ -1,0 +1,135 @@
+{
+  "id": "c2-dialogue-04",
+  "level": "C2",
+  "genre": "dialogue",
+  "title_en": "The Mantel Clock",
+  "title_ru": "Каминные часы",
+  "description_ru": "Антиквар и покупательница торгуются из-за часов с сомнительным происхождением. Каждая реплика скрывает подвох.",
+  "text": "Fenwick: Ah, madam, you have an eye. That clock is a Regency mantel piece, circa 1815, in original working order.\nOakes: It says seven minutes past four, and it is a quarter to two.\nFenwick: It keeps its own time. Many of the finest pieces do. One must meet them halfway.\nOakes: I should prefer a clock that meets me. What is the provenance?\nFenwick: Provenance. Yes. A distinguished one. It belonged, I am told, to a lady of considerable breeding.\nOakes: Told by whom?\nFenwick: By the lady's nephew. Who, I should say, had a very honest face.\nOakes: I find that the faces of nephews are rarely the most reliable evidence. Why is the back panel screwed down with modern screws?\nFenwick: Preservation. The original fastenings were, ah, not up to the task.\nOakes: Mr. Fenwick, the screws are stamped with the name of a supermarket.\nFenwick: A supermarket with exceptional ironmongery. Now, madam, I have other buyers who are most keen. A gentleman was in only this morning.\nOakes: Was he, by any chance, your nephew?\nFenwick: I am an only child.\nOakes: A tragic fact, though it does explain the confidence.\nOakes: Of course. Let me be plain. I am a retired horologist. I spent forty years restoring clocks for the National Trust, and I can tell a Regency movement from a Tuesday afternoon in Birmingham.\nFenwick: I see. And what, in your expert opinion, is this?\nOakes: A Victorian case, with a Continental movement from about 1890, and a dial that was repainted last week.\nFenwick: Last week? Surely not.\nOakes: It is still faintly tacky, Mr. Fenwick, and it smells of enamel.\nFenwick: Perhaps the previous owner liked to keep it fresh.\nOakes: The previous owner, I suspect, was you, on Thursday, with a small brush and a radio playing.\nFenwick: It is a very old enamel.\nOakes: It is a very fresh one. However. I should like to buy it.\nFenwick: You would? That is, I mean, naturally. I would not dream of parting with it for less than four hundred pounds.\nOakes: Eighty.\nFenwick: Madam, that is an insult to the craftsman.\nOakes: The craftsman, if he exists, was probably paid forty. I shall say one hundred and twenty, on condition that you tell me where the movement really came from.\nFenwick: It came from a house clearance in Dorchester. A very sad house. Seven cats.\nOakes: And the lady of breeding?\nFenwick: Possibly one of the cats.\nOakes: I see. A dynasty of cats, then, and a clock that has outlived them all.\nOakes: That is the first honest thing you have said all afternoon. One hundred and fifty, and I shall not mention the supermarket screws.\nFenwick: Done. You drive a hard bargain, Mrs. Oakes.\nOakes: I drive a soft one, Mr. Fenwick. I could have reported you to Trading Standards.\nFenwick: I shall wrap it in my best tissue paper. May I ask why you want it? It is, frankly, a fraud.\nOakes: It is a very good fraud. Somebody put real affection into that dial. I should like to see it run.\nFenwick: Well. I suppose that is the most flattering thing anyone has said about my stock.\nOakes: Do not let it go to your head. You still owe me a receipt, a guarantee, and an apology to the cats.",
+  "word_count": 523,
+  "vocabulary": [
+    {
+      "word": "provenance",
+      "ipa_us": "ˈprɑːvənəns",
+      "ipa_uk": "ˈprɒvənəns",
+      "translation_ru": "происхождение, история владения"
+    },
+    {
+      "word": "Regency",
+      "ipa_us": "ˈriːdʒənsi",
+      "ipa_uk": "ˈriːdʒənsi",
+      "translation_ru": "эпохи Регентства"
+    },
+    {
+      "word": "preservation",
+      "ipa_us": "ˌprezərˈveɪʃən",
+      "ipa_uk": "ˌprezəˈveɪʃən",
+      "translation_ru": "сохранение"
+    },
+    {
+      "word": "ironmongery",
+      "ipa_us": "ˈaɪərnmʌŋɡəri",
+      "ipa_uk": "ˈaɪənmʌŋɡəri",
+      "translation_ru": "скобяные изделия"
+    },
+    {
+      "word": "horologist",
+      "ipa_us": "həˈrɑːlədʒɪst",
+      "ipa_uk": "həˈrɒlədʒɪst",
+      "translation_ru": "часовщик, знаток часов"
+    },
+    {
+      "word": "movement",
+      "ipa_us": "ˈmuːvmənt",
+      "ipa_uk": "ˈmuːvmənt",
+      "translation_ru": "часовой механизм"
+    },
+    {
+      "word": "tacky",
+      "ipa_us": "ˈtæki",
+      "ipa_uk": "ˈtæki",
+      "translation_ru": "липкий, не высохший"
+    },
+    {
+      "word": "fraud",
+      "ipa_us": "frɔːd",
+      "ipa_uk": "frɔːd",
+      "translation_ru": "подделка, мошенничество"
+    }
+  ],
+  "focus_sounds": [
+    {
+      "sound": "aɪ",
+      "examples": [
+        "time",
+        "finest",
+        "ironmongery"
+      ],
+      "tip_ru": "aɪ: начинайте с открытого «а» и скользите к «и»; не сокращайте до «ай» с йотой: time, finest."
+    },
+    {
+      "sound": "ɒ",
+      "examples": [
+        "clock",
+        "stamped",
+        "honest"
+      ],
+      "tip_ru": "ɒ: короткий, губы слегка округлены, рот открыт; в американском варианте ближе к «а»: clock, honest."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "provenance",
+        "horologist",
+        "preservation"
+      ],
+      "tip_ru": "Ударение: PROV-e-nance, ho-ROL-o-gist, pres-er-VA-tion; суффиксы -tion и -ist смещают ударение."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "old",
+        "real",
+        "well"
+      ],
+      "tip_ru": "Конечное l твёрдое: кончик языка к дёснам и задняя спинка поднята; не «ль»: old, real."
+    }
+  ],
+  "questions": [
+    {
+      "question": "What does the clock actually show?",
+      "answer": "A wrong time (seven past four).",
+      "accepted_keywords": [
+        "four",
+        "seven",
+        "wrong"
+      ]
+    },
+    {
+      "question": "What is Mrs. Oakes's former profession?",
+      "answer": "A horologist, restoring clocks.",
+      "accepted_keywords": [
+        "horologist",
+        "restoring",
+        "clocks"
+      ]
+    },
+    {
+      "question": "Where did the movement really come from?",
+      "answer": "A house clearance in Dorchester.",
+      "accepted_keywords": [
+        "dorchester",
+        "clearance"
+      ]
+    },
+    {
+      "question": "What price do they agree on?",
+      "answer": "One hundred and fifty pounds.",
+      "accepted_keywords": [
+        "hundred",
+        "150",
+        "fifty"
+      ]
+    }
+  ]
+}
