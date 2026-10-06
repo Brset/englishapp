@@ -1,0 +1,58 @@
+{
+  "models": [
+    {
+      "name": "whisper-base-en",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin",
+      "sha256": null,
+      "size": 140000000
+    },
+    {
+      "name": "silero-vad",
+      "url": "https://raw.githubusercontent.com/snakers4/silero-vad/v6.2/src/silero_vad/data/silero_vad.onnx",
+      "sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3",
+      "size": 2327524
+    },
+    {
+      "name": "wav2vec2-onnx",
+      "url": "https://huggingface.co/onnx-community/wav2vec2-base-en/resolve/main/model.onnx",
+      "sha256": null,
+      "size": 300000000
+    },
+    {
+      "name": "wav2vec2-vocab",
+      "url": "https://huggingface.co/facebook/wav2vec2-base-en/resolve/main/vocab.json",
+      "sha256": null,
+      "size": 50000
+    },
+    {
+      "name": "piper-en-us-lessac-medium-onnx",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+      "sha256": null,
+      "size": 28000000
+    },
+    {
+      "name": "piper-en-us-lessac-medium-json",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json",
+      "sha256": null,
+      "size": 5000
+    },
+    {
+      "name": "piper-en-gb-alan-medium-onnx",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx",
+      "sha256": null,
+      "size": 28000000
+    },
+    {
+      "name": "piper-en-gb-alan-medium-json",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_GB/alan/medium/en_GB-alan-medium.onnx.json",
+      "sha256": null,
+      "size": 5000
+    },
+    {
+      "name": "cmudict",
+      "url": "https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict",
+      "sha256": null,
+      "size": 1400000
+    }
+  ]
+}
