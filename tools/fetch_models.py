@@ -110,15 +110,29 @@ def voice_ready(d):
             and (d / "espeak-ng-data").is_dir())
 
 
+def prune_siblings(m, out, dest):
+    """Remove stale files next to dest matching m["exclusive_glob"] (e.g. old ggml-*.bin)."""
+    pat = m.get("exclusive_glob")
+    if not pat:
+        return
+    for p in dest.parent.glob(pat):
+        if p.name != dest.name and p.is_file():
+            print(f"  removing stale {p.relative_to(out)}")
+            p.unlink()
+
+
 def fetch_file(m, out, cache):
     dest = out / m["dest"]
     exp = m.get("sha256")
     if dest.exists():
         got = sha256_file(dest)
         if exp is None or got == exp:
+            prune_siblings(m, out, dest)
             return got, "present"
         dest.unlink()
-    return download(m["url"], dest, exp), "downloaded"
+    sha = download(m["url"], dest, exp)
+    prune_siblings(m, out, dest)
+    return sha, "downloaded"
 
 
 def fetch_voice(m, out, cache):

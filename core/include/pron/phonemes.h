@@ -2,6 +2,7 @@
 // phoneme recognizers may output for Russian speakers (x, trilled r, close e ...).
 #pragma once
 
+#include <cstddef>
 #include <string>
 #include <vector>
 
@@ -26,6 +27,12 @@ int phoneme_id(const std::string& arpabet);
 // Length marks and tie bars are tolerated. -1 if unknown.
 int phoneme_id_from_ipa(const std::string& ipa);
 
+// Accent of the reference pronunciation. CMUdict is General American; Gb adds RP variants
+// (non-rhotic r, ɒ/ɑː/əʊ, ...), Any (default) accepts both.
+enum class Accent { Any, Us, Gb };
+// "us"/"gb"/"any" (also "en-us", "uk", ...; case-insensitive). Returns false if unknown.
+bool parse_accent(const std::string& s, Accent& out);
+
 std::string arpabet_to_ipa(const std::string& arpabet);  // "" if unknown
 std::string ipa_to_arpabet(const std::string& ipa);      // "" if unknown
 
@@ -46,6 +53,14 @@ std::string to_arpabet_string(const Pronunciation& p, bool with_stress = true);
 // "θɪŋk"; with_stress renders primary stress as ˈ at the start of the stressed syllable
 // (simple maximal-onset syllabification: "abandon" -> "əˈbændən", "extra" -> "ˈɛkstɹə").
 std::string to_ipa_string(const Pronunciation& p, bool with_stress = false);
+
+// Phoneme ids (inventory) that are acceptable realisations of p[i] in its context, p[i] first.
+// `allow_blank`: the phoneme may be absent altogether (e.g. post-vocalic r in non-rhotic accents).
+struct PhonemeVariants {
+    std::vector<int> ids;
+    bool allow_blank = false;
+};
+PhonemeVariants phoneme_variants(const Pronunciation& p, std::size_t i, Accent accent);
 
 // Index of the vowel carrying primary stress (counted among vowels, i.e. syllable index), -1 if none.
 int primary_stress_syllable(const Pronunciation& p);

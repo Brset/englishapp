@@ -5,7 +5,7 @@
  * pron_c.h API, so each app loads a single native library.
  *
  * Models directory layout (created by tools/fetch_models.py, bundled with the apps):
- *   <models>/whisper/ggml-base.en.bin
+ *   <models>/whisper/ggml-*.bin (one file, e.g. ggml-base.en-q5_1.bin)
  *   <models>/vad/silero_vad.onnx
  *   <models>/phoneme/model.onnx + <models>/phoneme/vocab.json   (wav2vec2 CTC, espeak IPA labels)
  *   <models>/cmudict/cmudict.dict
@@ -42,6 +42,11 @@ PRON_API const char* pron_engine_last_error(const pron_engine* e);
 PRON_API char* pron_engine_status(pron_engine* e);
 
 PRON_API void pron_engine_set_strictness(pron_engine* e, int strictness); /* PRON_STRICTNESS_* */
+
+/* Accent of the reference pronunciation: "us", "gb" or "any" (default). Returns 0, -1 if unknown.
+ * Status JSON also carries "phoneme_vocab":{"size":N,"mapped":M,"unmapped":[first 40 labels]};
+ * the assessment JSON carries "phoneme_debug":{"frames":T,"classes":C,"used":bool,"reason":".."}. */
+PRON_API int pron_engine_set_accent(pron_engine* e, const char* accent);
 
 /* Full pipeline on one recording: resample to 16 kHz -> VAD trim -> whisper words+timestamps ->
  * wav2vec2 posteriors -> pron_assess. Returns the pron_assess JSON with extra top-level fields

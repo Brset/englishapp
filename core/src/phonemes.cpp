@@ -1,5 +1,6 @@
 #include "pron/phonemes.h"
 
+#include <algorithm>
 #include <cctype>
 #include <cstring>
 #include <sstream>
@@ -72,6 +73,9 @@ const Alias kIpaAliases[] = {
     {"ᵻ", "IH"},  {"ɛ", "EH"},  {"eə", "EH"},  {"əʊ", "OW"}, {"g", "G"},   {"ɾ", "T"},
     {"ɫ", "L"},   {"t͡ʃ", "CH"}, {"ʧ", "CH"},   {"d͡ʒ", "JH"}, {"ʤ", "JH"},  {"ɹ", "R"},
     {"ʁ", "RR"},  {"χ", "X"},   {"ɪ", "IH"},   {"i", "IY"},  {"ɨ", "Y_RU"},
+    {"ʔ", "T"},   {"ɪə", "IH"}, {"ʊə", "UH"},  {"ɛə", "EH"}, {"ɝ", "ER"},  {"ɚː", "ER"}, {"ɒː", "AA"},
+    {"ɑ", "AA"},  {"ʌː", "AH"}, {"ɔ", "AO"},   {"ɡ", "G"},   {"ɹ̩", "R"},  {"ɻ", "R"},   {"ɑ̃", "AA"},
+    {"ɪ̈", "IH"},  {"ɵ", "AH"},  {"ɘ", "AH"},
 };
 
 std::string upper_no_stress(const std::string& s) {
@@ -115,8 +119,18 @@ int phoneme_id_from_ipa(const std::string& ipa) {
     for (const auto& a : kIpaAliases)
         if (ipa == a.ipa) return phoneme_id(a.arpabet);
     std::string stripped = strip_ipa_marks(ipa);
+    if (stripped.empty()) return -1;
     if (!stripped.empty() && stripped != ipa) return phoneme_id_from_ipa(stripped);
     return -1;
+}
+
+bool parse_accent(const std::string& s, Accent& out) {
+    std::string l;
+    for (char c : s) l += static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
+    if (l == "any" || l == "auto" || l.empty()) { out = Accent::Any; return true; }
+    if (l == "us" || l == "en-us" || l == "en_us" || l == "american" || l == "ga") { out = Accent::Us; return true; }
+    if (l == "gb" || l == "uk" || l == "en-gb" || l == "en_gb" || l == "rp" || l == "british") { out = Accent::Gb; return true; }
+    return false;
 }
 
 std::string arpabet_to_ipa(const std::string& arpabet) {
@@ -150,6 +164,54 @@ bool parse_arpabet(const std::string& s, Pronunciation& out) {
         out.push_back(p);
     }
     return true;
+}
+
+PhonemeVariants phoneme_variants(const Pronunciation& p, std::size_t i, Accent accent) {
+    PhonemeVariants v;
+    if (i >= p.size()) return v;
+    auto add = [&](const char* a) {
+        int id = phoneme_id(a);
+        if (id >= 0 && std::find(v.ids.begin(), v.ids.end(), id) == v.ids.end()) v.ids.push_back(id);
+    };
+    const std::string& s = p[i].symbol;
+    const int stress = p[i].stress;
+    const bool gb = accent != Accent::Us;
+    auto vowel_at = [&](std::size_t k) {
+        if (k >= p.size()) return false;
+        int id = phoneme_id(p[k].symbol);
+        return id >= 0 && kInventory[id].vowel;
+    };
+    const bool prev_vowel = i > 0 && vowel_at(i - 1);
+    const bool next_vowel = vowel_at(i + 1);
+    const std::string next = i + 1 < p.size() ? p[i + 1].symbol : std::string();
+    const std::string next2 = i + 2 < p.size() ? p[i + 2].symbol : std::string();
+    add(s.c_str());
+    if (s == "ER") {
+        if (stress <= 0) add("AH");  // ɚ ~ ə
+    } else if (s == "AH") {
+        if (stress <= 0) add("IH");  // weak vowel ə ~ ɪ ~ ᵻ
+    } else if (s == "IH") {
+        if (stress <= 0) add("AH");
+    } else if (s == "D") {
+        if (prev_vowel && next_vowel) add("T");  // flapped ɾ
+    } else if (s == "T") {
+        if (prev_vowel && next_vowel) add("D");
+    } else if (s == "EY") {
+        add("E");
+    } else if (s == "OW") {
+        add("O");
+    } else if (s == "AO") {
+        if (gb && next != "R") add("AA");  // ɒ in "dog", "long"
+    } else if (s == "AE") {
+        const bool bath = next == "S" || next == "F" || next == "TH" ||
+                          (next == "N" && (next2 == "S" || next2 == "T" || next2 == "D" || next2 == "CH"));
+        if (gb && bath) add("AA");  // ɑː in bath/dance/can't words
+    } else if (s == "UH") {
+        if (gb && next == "R") add("AO");  // poor, sure: ɔː
+    } else if (s == "R") {
+        if (gb && prev_vowel && !next_vowel) v.allow_blank = true;  // non-rhotic
+    }
+    return v;
 }
 
 std::string to_arpabet_string(const Pronunciation& p, bool with_stress) {

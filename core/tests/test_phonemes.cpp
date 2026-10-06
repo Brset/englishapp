@@ -102,6 +102,38 @@ TEST_SUITE("phonemes") {
         CHECK(inv.at(0, column_of_phoneme(phoneme_id("K"))) < -100.0f);
     }
 
+    TEST_CASE("espeak IPA aliases and accent variants") {
+        CHECK(phoneme_id_from_ipa("\xC9\xA1") == phoneme_id("G"));  // U+0261 script g
+        CHECK(phoneme_id_from_ipa("g") == phoneme_id("G"));
+        CHECK(phoneme_id_from_ipa("ɹ") == phoneme_id("R"));
+        CHECK(phoneme_id_from_ipa("ɚ") == phoneme_id("ER"));
+        CHECK(phoneme_id_from_ipa("oʊ") == phoneme_id("OW"));
+        CHECK(phoneme_id_from_ipa("əʊ") == phoneme_id("OW"));
+        CHECK(phoneme_id_from_ipa("ɐ") == phoneme_id("AH"));
+        CHECK(phoneme_id_from_ipa("ᵻ") == phoneme_id("IH"));
+        CHECK(phoneme_id_from_ipa("ɾ") == phoneme_id("T"));
+        CHECK(phoneme_id_from_ipa("ɒ") == phoneme_id("AA"));
+        CHECK(phoneme_id_from_ipa("ɜː") == phoneme_id("ER"));
+        CHECK(phoneme_id_from_ipa("uː") == phoneme_id("UW"));
+        CHECK(phoneme_id_from_ipa("ː") == -1);
+        Accent a;
+        CHECK(parse_accent("GB", a));
+        CHECK(a == Accent::Gb);
+        CHECK_FALSE(parse_accent("martian", a));
+
+        Pronunciation car, weather, bath;
+        REQUIRE(parse_arpabet("K AA1 R", car));
+        REQUIRE(parse_arpabet("W EH1 DH ER0", weather));
+        REQUIRE(parse_arpabet("B AE1 TH", bath));
+        CHECK(phoneme_variants(car, 2, Accent::Gb).allow_blank);
+        CHECK(phoneme_variants(car, 2, Accent::Any).allow_blank);
+        CHECK_FALSE(phoneme_variants(car, 2, Accent::Us).allow_blank);
+        auto er = phoneme_variants(weather, 3, Accent::Gb);
+        CHECK(er.ids == std::vector<int>{phoneme_id("ER"), phoneme_id("AH")});
+        CHECK(phoneme_variants(bath, 1, Accent::Gb).ids.size() == 2);
+        CHECK(phoneme_variants(bath, 1, Accent::Us).ids.size() == 1);
+    }
+
     TEST_CASE("posterior slice") {
         LogPosteriors m(5, 2);
         for (int t = 0; t < 5; ++t) m.at(t, 0) = static_cast<float>(t);

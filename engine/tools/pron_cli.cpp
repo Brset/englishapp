@@ -184,14 +184,28 @@ static Verdict check_assessment(const std::string& json, double ms) {
     if (sc) { if (sc->get("overall")) overall = sc->get("overall")->n; if (sc->get("accuracy")) accuracy = sc->get("accuracy")->n; }
     if (!(overall >= 60)) v.failures.push_back("overall score < 60");
     if (!(accuracy >= 60)) v.failures.push_back("accuracy score < 60");
-    bool phl = sc && truthy(sc->get("phoneme_level"));
-    if (!phl) v.failures.push_back("scores.phoneme_level is not true");
+    // "phoneme_level" is a top-level field of the assessment JSON (older builds nested it under scores).
+    bool phl = truthy(j.get("phoneme_level")) || (sc && truthy(sc->get("phoneme_level")));
+    std::string dbg = "{}";
+    if (const JV* pd = j.get("phoneme_debug")) {
+        char b[400];
+        std::snprintf(b, sizeof b, "{\"frames\":%.0f,\"classes\":%.0f,\"used\":%s,\"reason\":\"%s\"}",
+                      pd->get("frames") ? pd->get("frames")->n : -1.0, pd->get("classes") ? pd->get("classes")->n : -1.0,
+                      truthy(pd->get("used")) ? "true" : "false",
+                      jesc(pd->get("reason") ? pd->get("reason")->s : "").c_str());
+        dbg = b;
+    }
+    if (!phl) {
+        std::string why = "no phoneme_debug in result";
+        if (const JV* pd = j.get("phoneme_debug")) if (pd->get("reason")) why = pd->get("reason")->s;
+        v.failures.push_back("phoneme_level is false: " + why);
+    }
     if (!with_ph) v.failures.push_back("no word has phoneme details");
-    char buf[640];
+    char buf[1024];
     std::snprintf(buf, sizeof buf,
         "{\"recognized_text\":\"%s\",\"words\":%zu,\"omitted\":%zu,\"words_not_omitted_pct\":%.0f,\"words_with_phonemes\":%zu,"
-        "\"phonemes\":%zu,\"phoneme_level\":%s,\"overall\":%.1f,\"accuracy\":%.1f,\"assess_ms\":%.0f}",
-        jesc(rec).c_str(), total, omitted, kept, with_ph, ph_total, phl ? "true" : "false", overall, accuracy, ms);
+        "\"phonemes\":%zu,\"phoneme_level\":%s,\"phoneme_debug\":%s,\"overall\":%.1f,\"accuracy\":%.1f,\"assess_ms\":%.0f}",
+        jesc(rec).c_str(), total, omitted, kept, with_ph, ph_total, phl ? "true" : "false", dbg.c_str(), overall, accuracy, ms);
     v.summary = buf;
     return v;
 }
@@ -201,6 +215,17 @@ static int cmd_selftest(const char* models) {
     Engine en(models);
     if (!en.e) { std::printf("{\"ok\":false,\"error\":\"cannot create engine for %s\"}\n", jesc(models).c_str()); return 1; }
     int fails = 0;
+    {
+        std::string st = take(pron_engine_status(en.e));
+        JV sj;
+        if (parse_json(st, sj)) {
+            const JV* pv = sj.get("phoneme_vocab");
+            std::string un;
+            if (pv && pv->get("unmapped")) for (const JV& u : pv->get("unmapped")->a) un += (un.empty() ? "\"" : ",\"") + jesc(u.s) + "\"";
+            std::printf("{\"phoneme_vocab\":{\"size\":%.0f,\"mapped\":%.0f,\"unmapped\":[%s]}}\n",
+                        pv && pv->get("size") ? pv->get("size")->n : -1.0, pv && pv->get("mapped") ? pv->get("mapped")->n : -1.0, un.c_str());
+        } else std::printf("{\"phoneme_vocab\":null}\n");
+    }
     for (const char* voice : {"us", "gb"}) {
         std::vector<std::string> f;
         size_t n = 0; int sr = 0;

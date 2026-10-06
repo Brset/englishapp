@@ -186,6 +186,42 @@ char* pron_assessor_lookup(pron_assessor* a, const char* word) {
     }
 }
 
+int pron_assessor_set_accent(pron_assessor* a, const char* accent) {
+    if (!a) return -1;
+    pron::Accent ac;
+    if (!accent || !pron::parse_accent(accent, ac)) {
+        a->error = "unknown accent";
+        return -1;
+    }
+    a->assessor.options().accent = ac;
+    a->error.clear();
+    return 0;
+}
+
+char* pron_assessor_phoneme_vocab_json(pron_assessor* a) {
+    if (!a) return nullptr;
+    try {
+        const pron::PhonemeVocab& v = a->assessor.vocab();
+        pron::JsonWriter j;
+        j.begin_object();
+        j.kv("size", v.size());
+        j.kv("mapped", v.size() > 0 ? v.mapped_count() : 0);
+        j.key("unmapped").begin_array();
+        int n = 0;
+        if (v.size() > 0)
+            for (const auto& l : v.unmapped_labels()) {
+                if (n++ >= 40) break;
+                j.value(l);
+            }
+        j.end_array();
+        j.end_object();
+        return dup_string(j.str());
+    } catch (const std::exception& e) {
+        a->error = e.what();
+        return nullptr;
+    }
+}
+
 void pron_free_string(char* s) { std::free(s); }
 
 }  // extern "C"

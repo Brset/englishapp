@@ -71,6 +71,51 @@ PhonemeScore score_phoneme(const LogPosteriors& inv, int phoneme_id, int start, 
     return r;
 }
 
+PhonemeScore score_column(const LogPosteriors& m, int inventory_cols, int target_col, int expected_id,
+                          const std::vector<int>& equivalent, int start, int end, const GopOptions& opt) {
+    PhonemeScore r;
+    r.phoneme_id = expected_id;
+    start = std::max(0, start);
+    end = std::min(end, m.frames);
+    r.start_frame = start;
+    r.end_frame = end;
+    if (end <= start || target_col < 0 || target_col >= m.classes) return r;
+    const int C = std::min(inventory_cols, m.classes);
+    std::vector<bool> skip(static_cast<std::size_t>(C), false);
+    skip[kBlankColumn] = true;
+    for (int c : equivalent)
+        if (c >= 0 && c < C) skip[static_cast<std::size_t>(c)] = true;
+
+    const int n = end - start;
+    std::vector<double> mean(static_cast<std::size_t>(C), 0.0);
+    double gop_sum = 0.0, tgt_sum = 0.0;
+    for (int t = start; t < end; ++t) {
+        double best_other = -std::numeric_limits<double>::infinity();
+        for (int c = 0; c < C; ++c) {
+            double v = m.at(t, c);
+            mean[static_cast<std::size_t>(c)] += v;
+            if (!skip[static_cast<std::size_t>(c)]) best_other = std::max(best_other, v);
+        }
+        double tv = m.at(t, target_col);
+        tgt_sum += tv;
+        gop_sum += tv - best_other;
+    }
+    r.gop = gop_sum / n;
+    r.score = gop_to_score(r.gop, opt);
+    r.mean_log_prob = tgt_sum / n;
+    int best_c = -1;
+    for (int c = 0; c < C; ++c) {
+        if (skip[static_cast<std::size_t>(c)]) continue;
+        if (best_c < 0 || mean[static_cast<std::size_t>(c)] > mean[static_cast<std::size_t>(best_c)]) best_c = c;
+    }
+    if (best_c >= 0) {
+        r.likely_id = phoneme_of_column(best_c);
+        r.likely_margin = mean[static_cast<std::size_t>(best_c)] / n - r.mean_log_prob;
+        r.substituted = r.score < opt.substitution_score && r.likely_margin > 0.0;
+    }
+    return r;
+}
+
 std::vector<PhonemeScore> score_alignment(const LogPosteriors& inv, const CtcAlignment& al,
                                           const GopOptions& opt) {
     std::vector<PhonemeScore> out;

@@ -1,11 +1,12 @@
 {
-  "_comment": "Layout is defined in engine/include/pron/pron_engine.h. kind=file: single download to dest. kind=tar_voice: tar.bz2 (sherpa-onnx Piper voice) extracted into dest dir, the single *.onnx renamed to model.onnx, tokens.txt and espeak-ng-data/ kept. kind=export: built by tools/export_phoneme_model.py. sha256 null = unknown (computed hash is printed; paste it here to pin). cmudict tracks master (no commit pin available offline).",
+  "_comment": "Layout is defined in engine/include/pron/pron_engine.h. kind=file: single download to dest. kind=tar_voice: tar.bz2 (sherpa-onnx Piper voice) extracted into dest dir, the single *.onnx renamed to model.onnx, tokens.txt and espeak-ng-data/ kept. kind=export: built by tools/export_phoneme_model.py. sha256 null = unknown (computed hash is printed; paste it here to pin). whisper: q5_1-quantized base.en, the only ggml-*.bin kept in whisper/ (exclusive_glob). cmudict tracks master (no commit pin available offline).",
   "models": [
     {
       "name": "whisper",
       "kind": "file",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin",
-      "dest": "whisper/ggml-base.en.bin",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en-q5_1.bin",
+      "dest": "whisper/ggml-base.en-q5_1.bin",
+      "exclusive_glob": "ggml-*.bin",
       "sha256": null
     },
     {
@@ -40,7 +41,7 @@
       "name": "phoneme",
       "kind": "export",
       "script": "tools/export_phoneme_model.py",
-      "source": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+      "source": "bookbot/wav2vec2-ljspeech-gruut (fallback: facebook/wav2vec2-lv-60-espeak-cv-ft)",
       "dest": "phoneme"
     }
   ]

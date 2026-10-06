@@ -62,7 +62,9 @@ jobs:
         shell: bash
         run: |
           if [ "$RUNNER_OS" = "Windows" ]; then CLI=build/engine/Release/pron_cli.exe; else CLI=build/engine/pron_cli; fi
-          "$CLI" status models
+          mkdir -p selftest-out
+          set -o pipefail
+          "$CLI" status models | tee selftest-out/status.txt   # includes phoneme_vocab {size,mapped,unmapped}
       - name: Engine selftest (real models)
         shell: bash
         run: |
@@ -77,5 +79,6 @@ jobs:
           name: engine-selftest-${{ runner.os }}
           path: |
             selftest-out/selftest.txt
+            selftest-out/status.txt
             selftest-out/selftest_us.wav
           if-no-files-found: warn

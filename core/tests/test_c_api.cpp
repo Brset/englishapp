@@ -36,6 +36,13 @@ TEST_SUITE("c_api") {
         CHECK(pron_assessor_set_phoneme_vocab(a, labels, 7, 0) == 1);  // <unk> unmapped
         CHECK(pron_assessor_set_phoneme_vocab(a, labels, 7, 9) == -1);
         CHECK(pron_assessor_set_phoneme_vocab(a, labels, 7, 0) == 1);
+        CHECK(pron_assessor_set_accent(a, "gb") == 0);
+        CHECK(pron_assessor_set_accent(a, "any") == 0);
+        CHECK(pron_assessor_set_accent(a, "mars") == -1);
+        {
+            std::string vj = take(pron_assessor_phoneme_vocab_json(a));
+            CHECK(vj == "{\"size\":7,\"mapped\":5,\"unmapped\":[\"<unk>\"]}");
+        }
         pron_assessor_set_strictness(a, PRON_STRICTNESS_STRICT);
         pron_assessor_set_long_pause(a, 0.7);
 

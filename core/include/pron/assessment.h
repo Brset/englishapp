@@ -12,6 +12,7 @@
 #include "pron/fluency.h"
 #include "pron/gop.h"
 #include "pron/lexicon.h"
+#include "pron/phonemes.h"
 #include "pron/posteriors.h"
 #include "pron/text.h"
 #include "pron/word_align.h"
@@ -87,6 +88,10 @@ struct AssessmentResult {
     double fluency_score = 0.0; // 0..100
     double overall = 0.0;       // weighted combination
     bool phoneme_level = false; // posteriors were available and used
+    // Diagnostics of the phoneme-posterior path.
+    int post_frames = 0, post_classes = 0;
+    bool post_used = false;
+    std::string post_reason;    // "ok" or why posteriors were not used
     std::vector<AdviceSummary> advice;  // sorted by frequency
     std::vector<std::string> warnings;
 };
@@ -102,6 +107,7 @@ struct AssessmentOptions {
     double substituted_phone_word_cap = 75.0;  // max score of a word with a substituted phoneme
     double word_padding_seconds = 0.08;  // widen ASR word spans before forced alignment
     double advice_score_threshold = 70.0;  // phonemes below this get advice
+    Accent accent = Accent::Any;  // which pronunciation variants count as correct
     double weight_accuracy = 0.5, weight_completeness = 0.25, weight_fluency = 0.25;
 
     void set_strictness(Strictness s) { gop = GopOptions::preset(s); }

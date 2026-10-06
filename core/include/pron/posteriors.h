@@ -49,6 +49,12 @@ public:
     // Phoneme id for a label index, -1 if unmapped (or blank).
     int phoneme_of_label(int label) const { return map_[label]; }
     std::vector<std::string> unmapped_labels() const;
+    // Number of labels mapped to an inventory phoneme.
+    int mapped_count() const;
+    // True if label is a word delimiter ("|" or " "); it is folded into the blank column.
+    bool is_delimiter(int label) const { return delim_[label]; }
+    // True if at least one model label feeds this inventory column (blank is always present).
+    bool has_column(int column) const { return column >= 0 && column < static_cast<int>(present_.size()) && present_[column]; }
 
     // Collapse model posteriors into inventory space: for each phoneme, log-sum-exp of all
     // labels mapped to it; phonemes without a label get a very low log-probability.
@@ -57,6 +63,8 @@ public:
 private:
     std::vector<std::string> labels_;
     std::vector<int> map_;
+    std::vector<bool> delim_;
+    std::vector<bool> present_;
     int blank_ = 0;
 };
 

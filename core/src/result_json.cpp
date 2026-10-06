@@ -63,6 +63,12 @@ std::string to_json(const AssessmentResult& r, bool pretty) {
     j.kv("overall", r.overall, 1);
     j.end_object();
     j.kv("phoneme_level", r.phoneme_level);
+    j.key("phoneme_debug").begin_object();
+    j.kv("frames", r.post_frames);
+    j.kv("classes", r.post_classes);
+    j.kv("used", r.post_used);
+    j.kv("reason", r.post_reason);
+    j.end_object();
 
     j.key("words").begin_array();
     for (const auto& w : r.words) {

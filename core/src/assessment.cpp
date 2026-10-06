@@ -160,16 +160,29 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
     LogPosteriors inv;
     bool use_gop = false;
     if (posteriors) {
-        if (!has_vocab_) {
-            res.warnings.push_back("posteriors given but no phoneme vocabulary set; phoneme scoring skipped");
-        } else if (!posteriors->valid() || posteriors->classes != vocab_.size()) {
-            res.warnings.push_back("posterior matrix does not match the phoneme vocabulary; phoneme scoring skipped");
-        } else {
-            inv = vocab_.collapse(*posteriors);
-            use_gop = true;
-        }
+        res.post_frames = posteriors->frames;
+        res.post_classes = posteriors->classes;
+    }
+    if (!posteriors) {
+        res.post_reason = "no posteriors provided";
+    } else if (!has_vocab_) {
+        res.post_reason = "no phoneme vocabulary set";
+        res.warnings.push_back("posteriors given but no phoneme vocabulary set; phoneme scoring skipped");
+    } else if (!posteriors->valid() || posteriors->frames <= 0) {
+        res.post_reason = "posterior matrix is empty or invalid";
+        res.warnings.push_back("posterior matrix does not match the phoneme vocabulary; phoneme scoring skipped");
+    } else if (posteriors->classes != vocab_.size()) {
+        res.post_reason = "classes " + std::to_string(posteriors->classes) + " != vocab size " +
+                          std::to_string(vocab_.size());
+        res.warnings.push_back("posterior matrix does not match the phoneme vocabulary; phoneme scoring skipped");
+    } else {
+        inv = vocab_.collapse(*posteriors);
+        use_gop = true;
+        res.post_reason = "ok";
     }
     res.phoneme_level = use_gop;
+    res.post_used = use_gop;
+    const int kInvCols = inventory_columns();
 
     // 6. Per-word results.
     std::map<std::string, std::size_t> advice_index;
@@ -232,30 +245,68 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
             int f1 = static_cast<int>(std::ceil((h.end + opt.word_padding_seconds) / fs));
             f0 = std::max(0, f0);
             f1 = std::min(inv.frames, f1);
+            const int L = static_cast<int>(expected.size());
+            // Per expected phone: allowed variants -> one merged column (log-sum-exp) appended to the
+            // word segment, so alignment and scoring take the best of the allowed realisations.
+            std::vector<std::vector<int>> equiv(static_cast<std::size_t>(L));   // inventory columns (no blank)
+            std::vector<std::vector<int>> merged(static_cast<std::size_t>(L));  // incl. blank if optional
+            for (int k = 0; k < L; ++k) {
+                PhonemeVariants pv = phoneme_variants(expected, static_cast<std::size_t>(k), opt.accent);
+                for (int id : pv.ids) {
+                    int col = column_of_phoneme(id);
+                    if (vocab_.has_column(col)) equiv[static_cast<std::size_t>(k)].push_back(col);
+                }
+                merged[static_cast<std::size_t>(k)] = equiv[static_cast<std::size_t>(k)];
+                if (pv.allow_blank) merged[static_cast<std::size_t>(k)].push_back(kBlankColumn);
+            }
             std::vector<int> targets;
-            for (const auto& ph : expected) targets.push_back(column_of_phoneme(phoneme_id(ph.symbol)));
+            for (int k = 0; k < L; ++k) targets.push_back(kInvCols + k);
             if (f1 - f0 < ctc_min_frames(targets)) {  // word span too short: widen symmetrically
                 int need = ctc_min_frames(targets) - (f1 - f0);
                 f0 = std::max(0, f0 - (need + 1) / 2);
                 f1 = std::min(inv.frames, f0 + ctc_min_frames(targets) + 1);
             }
-            LogPosteriors seg = inv.slice(f0, f1);
+            LogPosteriors base = inv.slice(f0, f1);
+            LogPosteriors seg(base.frames, kInvCols + L, base.frame_seconds);
+            for (int t = 0; t < base.frames; ++t) {
+                std::copy(base.data.begin() + static_cast<std::ptrdiff_t>(t) * kInvCols,
+                          base.data.begin() + static_cast<std::ptrdiff_t>(t + 1) * kInvCols,
+                          seg.data.begin() + static_cast<std::ptrdiff_t>(t) * seg.classes);
+                for (int k = 0; k < L; ++k) {
+                    const auto& cols = merged[static_cast<std::size_t>(k)];
+                    float v = -3.0f;  // no label can express this phone: neutral
+                    if (!cols.empty()) {
+                        float mx = -INFINITY;
+                        for (int c : cols) mx = std::max(mx, base.at(t, c));
+                        double acc = 0.0;
+                        for (int c : cols) acc += std::exp(static_cast<double>(base.at(t, c) - mx));
+                        v = std::max(-1e4f, mx + static_cast<float>(std::log(acc)));
+                    }
+                    seg.at(t, kInvCols + k) = v;
+                }
+            }
             CtcAlignment ca = ctc_force_align(seg, targets, kBlankColumn);
             if (ca.ok) {
-                std::vector<PhonemeScore> ps = score_alignment(seg, ca, opt.gop);
-                for (std::size_t k = 0; k < ps.size(); ++k) {
-                    PhonemeResult& pr = w.phonemes[k];
-                    pr.score = ps[k].score;
-                    pr.gop = ps[k].gop;
-                    pr.start = (f0 + ca.spans[k].start_frame) * fs;
-                    pr.end = (f0 + ca.spans[k].region_end) * fs;
-                    if (ps[k].substituted && ps[k].likely_id >= 0) {
+                int scored = 0;
+                for (int k = 0; k < L; ++k) {
+                    PhonemeResult& pr = w.phonemes[static_cast<std::size_t>(k)];
+                    const auto& sp = ca.spans[static_cast<std::size_t>(k)];
+                    pr.start = (f0 + sp.start_frame) * fs;
+                    pr.end = (f0 + sp.region_end) * fs;
+                    if (merged[static_cast<std::size_t>(k)].empty()) continue;  // not expressible by this model
+                    PhonemeScore ps = score_column(seg, kInvCols, sp.column, phoneme_id(pr.arpabet),
+                                                   equiv[static_cast<std::size_t>(k)], sp.start_frame,
+                                                   sp.end_frame, opt.gop);
+                    pr.score = ps.score;
+                    pr.gop = ps.gop;
+                    ++scored;
+                    if (ps.substituted && ps.likely_id >= 0) {
                         pr.substituted = true;
-                        pr.actual_arpabet = phoneme_info(ps[k].likely_id).arpabet;
-                        pr.actual_ipa = phoneme_info(ps[k].likely_id).ipa;
+                        pr.actual_arpabet = phoneme_info(ps.likely_id).arpabet;
+                        pr.actual_ipa = phoneme_info(ps.likely_id).ipa;
                     }
                 }
-                gop_done = true;
+                gop_done = scored > 0;
             } else {
                 res.warnings.push_back("forced alignment failed for word '" + w.norm + "'");
             }
@@ -285,8 +336,10 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
         // 6c. Word score.
         if (gop_done || diff_used) {
             double sum = 0.0;
-            for (const auto& pr : w.phonemes) sum += pr.score;
-            w.score = w.phonemes.empty() ? 0.0 : sum / static_cast<double>(w.phonemes.size());
+            int counted = 0;
+            for (const auto& pr : w.phonemes)
+                if (pr.score >= 0) { sum += pr.score; ++counted; }
+            w.score = counted ? sum / counted : 0.0;
             if (a.status == WordStatus::Substituted) w.score = std::min(w.score, opt.substituted_word_cap);
             for (const auto& pr : w.phonemes)
                 if (pr.substituted) w.score = std::min(w.score, opt.substituted_phone_word_cap);

@@ -394,13 +394,24 @@ PRON_API char* pron_engine_status(pron_engine* e) {
             first = false;
             o << '"' << json_escape(kv.first) << "\":\"" << json_escape(kv.second) << '"';
         }
-        o << "}}";
+        o << "},\"phoneme_vocab\":";
+        char* vj = pron_assessor_phoneme_vocab_json(e->assessor);
+        if (vj) { o << vj; pron_free_string(vj); }
+        else o << "{\"size\":0,\"mapped\":0,\"unmapped\":[]}";
+        o << "}";
         return dup_string(o.str());
     });
 }
 
 PRON_API void pron_engine_set_strictness(pron_engine* e, int strictness) {
     if (e && e->assessor) pron_assessor_set_strictness(e->assessor, strictness);
+}
+
+PRON_API int pron_engine_set_accent(pron_engine* e, const char* accent) {
+    if (!e || !e->assessor) return -1;
+    const int rc = pron_assessor_set_accent(e->assessor, accent);
+    if (rc < 0) e->last_error = pron_last_error(e->assessor);
+    return rc;
 }
 
 PRON_API char* pron_engine_assess_f32(pron_engine* e, const float* samples, size_t count, int sample_rate,

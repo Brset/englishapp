@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Export facebook/wav2vec2-lv-60-espeak-cv-ft (CTC, espeak IPA phoneme vocab) to ONNX + int8.
+"""Export an English wav2vec2 CTC phoneme model to ONNX + int8 (MatMul only).
 
-  python tools/export_phoneme_model.py --out models
+  python tools/export_phoneme_model.py --out models [--model ID]
 
-Writes <out>/phoneme/model.onnx (dynamic int8, input `input_values` [1, N] float32 16 kHz
-normalised waveform, output `logits` [1, T, V]) and <out>/phoneme/vocab.json.
+Default: bookbot/wav2vec2-ljspeech-gruut (BASE size, ~95M params, IPA vocab -> ~95-110 MB int8).
+Documented fallback: --model facebook/wav2vec2-lv-60-espeak-cv-ft (LARGE, ~300 MB int8).
+If the default model fails to download/convert, the fallback is used automatically.
+
+Writes <out>/phoneme/model.onnx (input `input_values` [1, N] float32 16 kHz, output
+`logits` [1, T, V]) and <out>/phoneme/vocab.json ({token: id}).
 
 Pinned dependencies (tested set; CPU only):
   pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1"
@@ -14,34 +18,42 @@ import argparse
 import json
 import sys
 import tempfile
+import traceback
 from pathlib import Path
 
-MODEL_ID = "facebook/wav2vec2-lv-60-espeak-cv-ft"
+DEFAULT_MODEL = "bookbot/wav2vec2-ljspeech-gruut"
+FALLBACK_MODEL = "facebook/wav2vec2-lv-60-espeak-cv-ft"
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default="models")
-    ap.add_argument("--model", default=MODEL_ID)
-    ap.add_argument("--force", action="store_true")
-    args = ap.parse_args()
+def load_vocab(model_id):
+    """Return flat {token: id}; handles flat and nested {"en": {...}} vocab.json."""
+    vocab = None
+    try:
+        from transformers import AutoProcessor
+        proc = AutoProcessor.from_pretrained(model_id)
+        tok = getattr(proc, "tokenizer", proc)
+        vocab = tok.get_vocab()
+    except Exception as e:  # noqa: BLE001
+        print(f"  processor vocab unavailable ({e!r}); reading vocab.json")
+    if not vocab:
+        from huggingface_hub import hf_hub_download
+        vocab = json.loads(Path(hf_hub_download(model_id, "vocab.json")).read_text(encoding="utf-8"))
+    if vocab and all(isinstance(v, dict) for v in vocab.values()):  # nested {"en": {...}}
+        vocab = vocab.get("en") or next(iter(vocab.values()))
+    return {str(k): int(v) for k, v in vocab.items()}
 
-    out = Path(args.out) / "phoneme"
-    target, vocab_path = out / "model.onnx", out / "vocab.json"
-    if target.is_file() and vocab_path.is_file() and not args.force:
-        print(f"{target} exists, skipping (use --force to rebuild)")
-        return 0
-    out.mkdir(parents=True, exist_ok=True)
 
+def export(model_id, out):
     import numpy as np
     import onnxruntime as ort
     import torch
-    from huggingface_hub import hf_hub_download
     from onnxruntime.quantization import QuantType, quantize_dynamic
     from transformers import Wav2Vec2ForCTC
 
-    model = Wav2Vec2ForCTC.from_pretrained(args.model).eval()
+    target, vocab_path = out / "model.onnx", out / "vocab.json"
+    model = Wav2Vec2ForCTC.from_pretrained(model_id).eval()
     model.config.return_dict = True
+    print(f"model {model_id}: {sum(p.numel() for p in model.parameters()) / 1e6:.0f}M params")
 
     class Wrap(torch.nn.Module):
         def __init__(self, m):
@@ -63,28 +75,54 @@ def main():
                 dynamo=False,  # legacy TorchScript exporter: single-file, stable on torch 2.5
             )
         print(f"fp32 export: {fp32.stat().st_size / 1e6:.0f} MB")
-        # Only MatMul: ORT's CPU provider has no kernel for the ConvInteger nodes that
-        # quantizing the conv feature extractor would produce.
+        # MatMul only: ORT's CPU provider has no kernel for ConvInteger (conv feature extractor).
         quantize_dynamic(str(fp32), str(target), weight_type=QuantType.QInt8,
-                         op_types_to_quantize=["MatMul"],
-                         use_external_data_format=False)
+                         op_types_to_quantize=["MatMul"], use_external_data_format=False)
     print(f"int8 model: {target.stat().st_size / 1e6:.0f} MB")
 
-    # vocab.json: token -> id (espeak IPA labels incl. <pad>/<s>/</s>/<unk>)
-    vp = hf_hub_download(args.model, "vocab.json")
-    vocab = json.loads(Path(vp).read_text(encoding="utf-8"))
+    vocab = load_vocab(model_id)
     vocab_path.write_text(json.dumps(vocab, ensure_ascii=False, indent=0), encoding="utf-8")
-    print(f"vocab: {len(vocab)} tokens -> {vocab_path}")
+    print(f"vocab size: {len(vocab)} -> {vocab_path}")
+    print("vocab tokens: " + json.dumps([t for t, _ in sorted(vocab.items(), key=lambda kv: kv[1])],
+                                        ensure_ascii=False))
 
-    # verify: ORT on 1 s of noise
     sess = ort.InferenceSession(str(target), providers=["CPUExecutionProvider"])
     x = np.random.randn(1, 16000).astype(np.float32)
     logits = sess.run(["logits"], {"input_values": x})[0]
     print(f"verify: logits shape {logits.shape}")
     if logits.ndim != 3 or logits.shape[0] != 1 or logits.shape[2] < len(vocab) - 8:
-        print("verify FAILED: unexpected output shape")
+        raise RuntimeError(f"unexpected logits shape {logits.shape} for vocab {len(vocab)}")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--out", default="models")
+    ap.add_argument("--model", default=DEFAULT_MODEL,
+                    help=f"HF model id (default {DEFAULT_MODEL}; fallback {FALLBACK_MODEL})")
+    ap.add_argument("--force", action="store_true")
+    args = ap.parse_args()
+
+    out = Path(args.out) / "phoneme"
+    if (out / "model.onnx").is_file() and (out / "vocab.json").is_file() and not args.force:
+        print(f"{out / 'model.onnx'} exists, skipping (use --force to rebuild)")
+        return 0
+    out.mkdir(parents=True, exist_ok=True)
+
+    try:
+        export(args.model, out)
+        return 0
+    except Exception:  # noqa: BLE001
+        traceback.print_exc()
+        if args.model == FALLBACK_MODEL:
+            return 1
+        print(f"\n*** WARNING: {args.model} failed; falling back to {FALLBACK_MODEL} "
+              f"(much larger, ~300 MB int8 -> APK grows) ***\n", flush=True)
+    try:
+        export(FALLBACK_MODEL, out)
+        return 0
+    except Exception:  # noqa: BLE001
+        traceback.print_exc()
         return 1
-    return 0
 
 
 if __name__ == "__main__":

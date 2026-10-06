@@ -256,4 +256,154 @@ TEST_SUITE("assessment") {
         std::string pretty = to_json(r, true);
         CHECK(pretty.find("\n  \"scores\": {") != std::string::npos);
     }
+
+    // ---- espeak-style vocabulary (wav2vec2-lv-60-espeak-cv-ft): script ɡ, ɹ, ɚ, oʊ, length marks ----
+    TEST_CASE("espeak-style vocab: posteriors are used, labels map, scores are correct") {
+        const std::vector<std::string> labels = {"<pad>", "<s>", "</s>", "<unk>", "|", "b", "ɹ", "ʌ", "ð", "ə", "z",
+                                                 "w", "ɛ", "d", "ɡ", "oʊ", "ɚ", "k", "ɑː", "ᵻ", "ɾ", "t", "ɐ"};
+        auto L = [&](const char* s) {
+            for (std::size_t i = 0; i < labels.size(); ++i)
+                if (labels[i] == s) return static_cast<int>(i);
+            FAIL("label not in test vocab");
+            return -1;
+        };
+        PhonemeVocab v(labels, 0);
+        CHECK(v.phoneme_of_label(L("ɡ")) == phoneme_id("G"));
+        CHECK(v.phoneme_of_label(L("ɹ")) == phoneme_id("R"));
+        CHECK(v.phoneme_of_label(L("ɚ")) == phoneme_id("ER"));
+        CHECK(v.phoneme_of_label(L("oʊ")) == phoneme_id("OW"));
+        CHECK(v.phoneme_of_label(L("ɛ")) == phoneme_id("EH"));
+        CHECK(v.phoneme_of_label(L("ɑː")) == phoneme_id("AA"));
+        CHECK(v.phoneme_of_label(L("ᵻ")) == phoneme_id("IH"));
+        CHECK(v.phoneme_of_label(L("ɐ")) == phoneme_id("AH"));
+        CHECK(v.phoneme_of_label(L("ɾ")) == phoneme_id("T"));
+        CHECK(v.is_delimiter(L("|")));
+        CHECK(v.mapped_count() == static_cast<int>(labels.size()) - 5);  // pad, <s>, </s>, <unk>, |
+
+        // One frame of label then one blank per phone, word starts at 0.1 s (frame 5).
+        auto speak = [&](const std::vector<const char*>& seq) {
+            std::vector<std::map<int, double>> spec(5, kBlank);
+            for (const char* l : seq) {
+                int id = L(l);
+                spec.push_back({{id, 0.93}, {0, 0.03}});
+                spec.push_back({{0, 0.95}});
+            }
+            for (int i = 0; i < 6; ++i) spec.push_back(kBlank);
+            const int C = static_cast<int>(labels.size());
+            LogPosteriors lp(static_cast<int>(spec.size()), C, 0.02);
+            for (int t = 0; t < lp.frames; ++t) {
+                const auto& m = spec[static_cast<std::size_t>(t)];
+                double used = 0;
+                for (const auto& kv : m) used += kv.second;
+                double rest = (1.0 - used) / (C - static_cast<int>(m.size()));
+                for (int c = 0; c < C; ++c) {
+                    auto it = m.find(c);
+                    lp.at(t, c) = static_cast<float>(std::log(it != m.end() ? it->second : rest));
+                }
+            }
+            return lp;
+        };
+        auto setup_dict = [](Assessor& a, Accent ac) {
+            a.dict().load_from_string(
+                "GO  G OW1\nRED  R EH1 D\nBROTHERS  B R AH1 DH ER0 Z\nWEATHER  W EH1 DH ER0\nCAR  K AA1 R\n"
+                "WATER  W AO1 T ER0\n");
+            a.options().accent = ac;
+        };
+
+        SUBCASE("US reading: ɡ oʊ / ɹ ɛ d") {
+            Assessor a;
+            setup_dict(a, Accent::Us);
+            a.set_vocab(v);
+            LogPosteriors lp = speak({"ɡ", "oʊ"});
+            auto r = a.assess("go", words({{"go", 0.1, 0.26}}), &lp);
+            CHECK(r.phoneme_level);
+            CHECK(r.post_used);
+            CHECK(r.post_reason == "ok");
+            CHECK(r.post_classes == static_cast<int>(labels.size()));
+            REQUIRE(r.words.size() == 1);
+            CHECK(r.words[0].scored_by == ScoredBy::Gop);
+            CHECK(r.words[0].score > 95);
+            LogPosteriors lp2 = speak({"ɹ", "ɛ", "d"});
+            auto r2 = a.assess("red", words({{"red", 0.1, 0.3}}), &lp2);
+            CHECK(r2.phoneme_level);
+            CHECK(r2.words[0].score > 95);
+            for (const auto& p : r2.words[0].phonemes) CHECK(p.score > 90);
+            // A wrong sound is still penalised: "go" read as "ɡ ɚ".
+            LogPosteriors lp3 = speak({"ɡ", "ɚ"});
+            auto r3 = a.assess("go", words({{"go", 0.1, 0.26}}), &lp3);
+            CHECK(r3.words[0].phonemes[1].score < 30);
+            CHECK(r3.words[0].phonemes[1].substituted);
+            std::string j = to_json(r);
+            CHECK(j.find("\"phoneme_debug\":{\"frames\":") != std::string::npos);
+            CHECK(j.find("\"used\":true,\"reason\":\"ok\"") != std::string::npos);
+        }
+
+        SUBCASE("GB reading of brothers and weather scores high for accent any and gb") {
+            for (Accent ac : {Accent::Any, Accent::Gb}) {
+                CAPTURE(static_cast<int>(ac));
+                Assessor a;
+                setup_dict(a, ac);
+                a.set_vocab(v);
+                LogPosteriors lp = speak({"b", "ɹ", "ʌ", "ð", "ə", "z"});
+                auto r = a.assess("brothers", words({{"brothers", 0.1, 0.4}}), &lp);
+                CHECK(r.phoneme_level);
+                CHECK(r.words[0].score >= 80);
+                LogPosteriors lp2 = speak({"w", "ɛ", "ð", "ə"});
+                auto r2 = a.assess("weather", words({{"weather", 0.1, 0.34}}), &lp2);
+                CHECK(r2.words[0].score >= 80);
+                CHECK(r2.words[0].band == ScoreBand::Good);
+                // Non-rhotic "car" = k ɑː ; "water" with ɐ for the final schwa.
+                LogPosteriors lp3 = speak({"k", "ɑː"});
+                auto r3 = a.assess("car", words({{"car", 0.1, 0.26}}), &lp3);
+                CHECK(r3.words[0].score >= 80);
+                LogPosteriors lp4 = speak({"w", "ɐ", "ɾ", "ɐ"});  // unrelated vowel: AO not allowed
+                auto r4 = a.assess("water", words({{"water", 0.1, 0.34}}), &lp4);
+                CHECK(r4.words[0].score < r2.words[0].score);
+            }
+        }
+
+        SUBCASE("US accent does not forgive a dropped r") {
+            Assessor us, gb;
+            setup_dict(us, Accent::Us);
+            setup_dict(gb, Accent::Gb);
+            us.set_vocab(v);
+            gb.set_vocab(v);
+            LogPosteriors lp = speak({"k", "ɑː"});
+            auto ru = us.assess("car", words({{"car", 0.1, 0.26}}), &lp);
+            auto rg = gb.assess("car", words({{"car", 0.1, 0.26}}), &lp);
+            CHECK(rg.words[0].score > ru.words[0].score + 10);
+        }
+
+        SUBCASE("expected phone with no model label is scored via its variants / skipped, not dropped") {
+            // Vocab without "ɚ"/"ə"/"ɐ": ER0 has no label at all -> unscored, other phones still scored by GOP.
+            std::vector<std::string> small = {"<pad>", "w", "ɛ", "ð"};
+            Assessor a;
+            setup_dict(a, Accent::Any);
+            a.set_vocab(PhonemeVocab(small, 0));
+            std::vector<int> dom = {0, 0, 0, 0, 0, 1, 0, 2, 0, 3, 0, 0, 0, 0, 0, 0, 0};
+            LogPosteriors lp = testdata::peaked(dom, 4, 0.93);
+            auto r = a.assess("weather", words({{"weather", 0.1, 0.34}}), &lp);
+            CHECK(r.phoneme_level);
+            REQUIRE(r.words[0].phonemes.size() == 4);
+            CHECK(r.words[0].phonemes[0].score > 90);
+            CHECK(r.words[0].phonemes[3].score < 0);
+            CHECK(r.words[0].score > 80);
+        }
+    }
+
+    TEST_CASE("phoneme_debug reasons") {
+        Assessor a;
+        setup(a);
+        auto r0 = a.assess("cat", words({{"cat", 0, 0.3}}));
+        CHECK_FALSE(r0.post_used);
+        CHECK(r0.post_reason == "no posteriors provided");
+        LogPosteriors lp(10, 3);
+        a.set_vocab(PhonemeVocab(kLabels, 0));
+        auto r1 = a.assess("cat", words({{"cat", 0, 0.3}}), &lp);
+        CHECK_FALSE(r1.post_used);
+        CHECK(r1.post_frames == 10);
+        CHECK(r1.post_classes == 3);
+        CHECK(r1.post_reason.find("3 != vocab size 11") != std::string::npos);
+        CHECK(to_json(r1).find("\"phoneme_debug\":{\"frames\":10,\"classes\":3,\"used\":false") != std::string::npos);
+    }
 }

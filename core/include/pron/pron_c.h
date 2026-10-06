@@ -93,6 +93,15 @@ PRON_API char* pron_tokenize(const char* text);
  * {"word":..,"source":"cmudict|g2p|none","arpabet":"TH IH1 NG K","ipa":"ˈθɪŋk","stress_syllable":0} */
 PRON_API char* pron_assessor_lookup(pron_assessor* a, const char* word);
 
+/* Accent of the reference pronunciation: "us", "gb" or "any" (default). With "gb"/"any" British
+ * variants are accepted too (non-rhotic r, ɒ, əʊ, ɑː in bath words ...); the best variant counts.
+ * Returns 0, or -1 for an unknown accent name. */
+PRON_API int pron_assessor_set_accent(pron_assessor* a, const char* accent);
+
+/* How the phoneme vocabulary was mapped, as JSON:
+ * {"size":392,"mapped":60,"unmapped":["<s>",...first 40...]} */
+PRON_API char* pron_assessor_phoneme_vocab_json(pron_assessor* a);
+
 PRON_API void pron_free_string(char* s);
 
 #ifdef __cplusplus

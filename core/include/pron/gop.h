@@ -40,6 +40,13 @@ double gop_to_score(double gop, const GopOptions& opt);
 PhonemeScore score_phoneme(const LogPosteriors& inv, int phoneme_id, int start, int end,
                            const GopOptions& opt);
 
+// Like score_phoneme, but the expected phone is column `target_col` of `m` (which may be an extra
+// merged column beyond the first `inventory_cols` columns, e.g. log-sum-exp of the allowed
+// variants) and the columns in `equivalent` (inventory columns) are never counted as competitors.
+// `expected_id` is stored in the result.
+PhonemeScore score_column(const LogPosteriors& m, int inventory_cols, int target_col, int expected_id,
+                          const std::vector<int>& equivalent, int start, int end, const GopOptions& opt);
+
 // Score every span of a forced alignment computed on the same inventory-space matrix.
 std::vector<PhonemeScore> score_alignment(const LogPosteriors& inv, const CtcAlignment& al,
                                           const GopOptions& opt);
