@@ -44,6 +44,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
+      - name: Fetch models
+        uses: ./.github/actions/models
+        with:
+          out: models
       - name: Configure engine
         run: cmake -S engine -B build/engine -DCMAKE_BUILD_TYPE=Release
         if: runner.os != 'Windows'
@@ -54,3 +58,24 @@ jobs:
         run: cmake --build build/engine --config Release -j 4
       - name: Test engine
         run: ctest --test-dir build/engine -C Release --output-on-failure
+      - name: Engine status (real models)
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = "Windows" ]; then CLI=build/engine/Release/pron_cli.exe; else CLI=build/engine/pron_cli; fi
+          "$CLI" status models
+      - name: Engine selftest (real models)
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = "Windows" ]; then CLI=build/engine/Release/pron_cli.exe; else CLI=build/engine/pron_cli; fi
+          mkdir -p selftest-out && cd selftest-out
+          set -o pipefail
+          "../$CLI" selftest ../models 2>&1 | tee selftest.txt
+      - name: Upload selftest output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: engine-selftest-${{ runner.os }}
+          path: |
+            selftest-out/selftest.txt
+            selftest-out/selftest_us.wav
+          if-no-files-found: warn

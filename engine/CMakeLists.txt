@@ -7,6 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 option(PRON_ENGINE_BUILD_TESTS "Build engine tests" ON)
+option(PRON_ENGINE_BUILD_TOOLS "Build pron_cli (end-to-end check tool)" ON)
 # Pinned versions (see README.md). sherpa-onnx ships its own onnxruntime: the whole engine uses THAT one.
 set(SHERPA_ONNX_VERSION "1.12.14" CACHE STRING "sherpa-onnx release")
 set(SHERPA_ORT_VERSION "1.17.1" CACHE STRING "onnxruntime version bundled in that sherpa-onnx release (headers are taken from it)")
@@ -142,4 +143,18 @@ if(PRON_ENGINE_BUILD_TESTS AND NOT ANDROID)
     -P ${CMAKE_CURRENT_SOURCE_DIR}/tests/fetch_models.cmake)
   add_test(NAME engine_tests COMMAND pron_engine_tests ${_td})
   set_tests_properties(engine_tests PROPERTIES DEPENDS engine_fetch_models)
+endif()
+
+if(PRON_ENGINE_BUILD_TOOLS AND NOT ANDROID)
+  add_executable(pron_cli tools/pron_cli.cpp)
+  target_link_libraries(pron_cli PRIVATE pron_engine)
+  # same directory as pron_engine so the shared libs (sherpa/onnxruntime DLLs) are found on Windows
+  set_target_properties(pron_cli PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "$<TARGET_FILE_DIR:pron_engine>"
+    BUILD_RPATH "\$ORIGIN" INSTALL_RPATH "\$ORIGIN")
+  if(MSVC)
+    target_compile_options(pron_cli PRIVATE /W4 /utf-8)
+  else()
+    target_compile_options(pron_cli PRIVATE -Wall -Wextra)
+  endif()
 endif()
