@@ -129,19 +129,19 @@ public sealed partial class RecordPage : Page
         {
             case "read":
                 r.Foreground = ReadBrush; r.FontWeight = FontWeights.Normal;
-                r.TextDecorations = Windows.UI.Text.TextDecorations.None; break;
+                break;
             case "skipped":
                 r.Foreground = SkippedBrush; r.FontWeight = FontWeights.Normal;
-                r.TextDecorations = Windows.UI.Text.TextDecorations.Underline; break;
+                break; // no underline: TextDecorations is ambiguous between WinUI and the Windows SDK projection
             case "current":
                 r.Foreground = AccentBrush(); r.FontWeight = FontWeights.Bold;
-                r.TextDecorations = Windows.UI.Text.TextDecorations.None; break;
+                break;
             case "pending":
                 r.Foreground = PendingBrush; r.FontWeight = FontWeights.Normal;
-                r.TextDecorations = Windows.UI.Text.TextDecorations.None; break;
+                break;
             default:
                 r.ClearValue(TextElement.ForegroundProperty); r.FontWeight = FontWeights.Normal;
-                r.TextDecorations = Windows.UI.Text.TextDecorations.None; break;
+                break;
         }
     }
 

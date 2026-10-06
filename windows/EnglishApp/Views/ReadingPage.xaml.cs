@@ -98,7 +98,7 @@ public sealed partial class ReadingPage : Page
             var run = new Run { Text = text[s.Begin..s.End] };
             if (s.Brush != null) run.Foreground = s.Brush;
             if (s.Word != null) { run.FontWeight = Microsoft.UI.Text.FontWeights.SemiBold; _resultRuns[run] = s.Word; }
-            if (s.Underline) run.TextDecorations = Windows.UI.Text.TextDecorations.Underline;
+            // s.Underline is shown by colour only: TextDecorations is ambiguous (WinUI vs Windows SDK projection).
             p.Inlines.Add(run);
             pos = s.End;
         }
