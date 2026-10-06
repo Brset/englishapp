@@ -6,6 +6,7 @@
 
 #include "pron/pron_c.h"
 #include "pron/pron_engine.h"
+#include "pron/pron_live.h"
 
 namespace {
 
@@ -26,6 +27,7 @@ jstring take_json(JNIEnv* env, char* s) {
 
 pron_assessor* H(jlong h) { return reinterpret_cast<pron_assessor*>(h); }
 pron_engine* E(jlong h) { return reinterpret_cast<pron_engine*>(h); }
+pron_live* L(jlong h) { return reinterpret_cast<pron_live*>(h); }
 
 }  // namespace
 
@@ -179,6 +181,39 @@ JNIEXPORT jfloatArray JNICALL Java_app_englishpron_engine_NativeEngine_engineTts
 JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_engineLookup(JNIEnv* env, jclass, jlong h,
                                                                                 jstring word) {
     return take_json(env, pron_engine_lookup(E(h), to_std(env, word).c_str()));
+}
+
+// ---- Live reading tracker (pron_live.h). All calls must come from the single engine thread. ----
+// Returns 0 when the live model is unavailable.
+JNIEXPORT jlong JNICALL Java_app_englishpron_engine_NativeEngine_liveStart(JNIEnv* env, jclass, jlong h,
+                                                                           jstring text) {
+    if (!h) return 0;
+    return reinterpret_cast<jlong>(pron_live_start(E(h), to_std(env, text).c_str()));
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_liveFeed(JNIEnv* env, jclass, jlong h,
+                                                                            jshortArray pcm, jint count,
+                                                                            jint rate) {
+    if (!h || !pcm) return nullptr;
+    jsize n = env->GetArrayLength(pcm);
+    if (count < n) n = count < 0 ? 0 : count;
+    std::vector<jshort> buf(static_cast<size_t>(n));
+    if (n > 0) env->GetShortArrayRegion(pcm, 0, n, buf.data());
+    return take_json(env, pron_live_feed_pcm16(L(h), reinterpret_cast<const int16_t*>(buf.data()),
+                                               static_cast<size_t>(n), rate));
+}
+
+JNIEXPORT jstring JNICALL Java_app_englishpron_engine_NativeEngine_liveFinish(JNIEnv* env, jclass, jlong h) {
+    if (!h) return nullptr;
+    return take_json(env, pron_live_finish(L(h)));
+}
+
+JNIEXPORT void JNICALL Java_app_englishpron_engine_NativeEngine_liveSetCursor(JNIEnv*, jclass, jlong h, jint i) {
+    if (h) pron_live_set_cursor(L(h), i);
+}
+
+JNIEXPORT void JNICALL Java_app_englishpron_engine_NativeEngine_liveFree(JNIEnv*, jclass, jlong h) {
+    if (h) pron_live_free(L(h));
 }
 
 }  // extern "C"

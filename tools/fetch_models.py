@@ -161,6 +161,40 @@ def fetch_voice(m, out, cache):
     return sha, "downloaded"
 
 
+def asr_ready(m, d):
+    return all((d / name).is_file() for name in m["pick"])
+
+
+def fetch_asr(m, out, cache):
+    dest = out / m["dest"]
+    if asr_ready(m, dest):
+        return None, "present"
+    archive = cache / m["url"].rsplit("/", 1)[-1]
+    sha = download(m["url"], archive, m.get("sha256"))
+    with tempfile.TemporaryDirectory(dir=cache) as tmp:
+        safe_extract(archive, tmp)
+        roots = [p for p in Path(tmp).iterdir() if p.is_dir()]
+        src = roots[0] if len(roots) == 1 else Path(tmp)
+        stage = Path(tmp) / "_stage"
+        stage.mkdir()
+        for name, alts in m["pick"].items():
+            found = None
+            for pat in alts.split("|"):
+                hits = sorted(src.glob(pat))
+                if hits:
+                    found = hits[0]
+                    break
+            if found is None:
+                raise ValueError(f"{name}: nothing matching '{alts}' in {archive.name}")
+            shutil.copy2(found, stage / name)
+        if dest.exists():
+            shutil.rmtree(dest)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(stage), str(dest))
+    archive.unlink()
+    return sha, "downloaded"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default="models", help="output models directory (default: models)")
@@ -188,7 +222,7 @@ def main():
             continue
         print(f"[{name}]")
         try:
-            sha, state = (fetch_file if kind == "file" else fetch_voice)(m, out, cache)
+            sha, state = {"file": fetch_file, "tar_voice": fetch_voice, "tar_asr": fetch_asr}[kind](m, out, cache)
             note = f" sha256={sha}" if sha and not m.get("sha256") else ""
             print(f"  ok: {m['dest']} ({state}){note}")
         except Exception as e:  # noqa: BLE001

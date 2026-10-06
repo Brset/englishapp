@@ -1,5 +1,5 @@
 {
-  "_comment": "Layout is defined in engine/include/pron/pron_engine.h. kind=file: single download to dest. kind=tar_voice: tar.bz2 (sherpa-onnx Piper voice) extracted into dest dir, the single *.onnx renamed to model.onnx, tokens.txt and espeak-ng-data/ kept. kind=export: built by tools/export_phoneme_model.py. sha256 null = unknown (computed hash is printed; paste it here to pin). whisper: q5_1-quantized base.en, the only ggml-*.bin kept in whisper/ (exclusive_glob). cmudict tracks master (no commit pin available offline).",
+  "_comment": "Layout is defined in engine/include/pron/pron_engine.h. kind=file: single download to dest. kind=tar_voice: tar.bz2 (sherpa-onnx Piper voice) extracted into dest dir, the single *.onnx renamed to model.onnx, tokens.txt and espeak-ng-data/ kept. kind=tar_asr: tar.bz2 (sherpa-onnx streaming transducer) whose files are picked by the 'pick' globs (first matching alternative, int8 preferred) and installed under the given names in dest (live/{encoder,decoder,joiner}.onnx, tokens.txt). kind=export: built by tools/export_phoneme_model.py. sha256 null = unknown (computed hash is printed; paste it here to pin). whisper: q5_1-quantized base.en, the only ggml-*.bin kept in whisper/ (exclusive_glob). cmudict tracks master (no commit pin available offline).",
   "models": [
     {
       "name": "whisper",
@@ -36,6 +36,19 @@
       "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-en_GB-alan-medium.tar.bz2",
       "dest": "tts/gb",
       "sha256": null
+    },
+    {
+      "name": "live",
+      "kind": "tar_asr",
+      "url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-streaming-zipformer-en-20M-2023-02-17.tar.bz2",
+      "dest": "live",
+      "pick": {
+        "encoder.onnx": "encoder-*.int8.onnx|encoder-*.onnx",
+        "decoder.onnx": "decoder-*.int8.onnx|decoder-*.onnx",
+        "joiner.onnx": "joiner-*.int8.onnx|joiner-*.onnx",
+        "tokens.txt": "tokens.txt"
+      },
+      "sha256": "9c559283e8498d3fe95913c79ca1cb454bb26281ac2b102b41306c7d752765d9"
     },
     {
       "name": "phoneme",

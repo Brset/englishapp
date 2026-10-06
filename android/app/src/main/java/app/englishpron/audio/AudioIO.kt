@@ -35,7 +35,7 @@ class Recorder {
     val recording: StateFlow<Boolean> = _recording
 
     @SuppressLint("MissingPermission")
-    fun start(): Boolean {
+    fun start(sink: ((ShortArray) -> Unit)? = null): Boolean {
         if (_recording.value) return true
         val minBuf = AudioRecord.getMinBufferSize(SAMPLE_RATE, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT)
         if (minBuf <= 0) return false
@@ -54,6 +54,11 @@ class Recorder {
                 val n = r.read(chunk, 0, chunk.size)
                 if (n <= 0) break
                 buf.write(chunk, 0, n)
+                if (sink != null) {
+                    val m = n / 2
+                    val frame = ShortArray(m) { ((chunk[2 * it + 1].toInt() shl 8) or (chunk[2 * it].toInt() and 0xFF)).toShort() }
+                    try { sink(frame) } catch (_: Throwable) {}  // never let live tracking break recording
+                }
                 var sum = 0.0
                 var i = 0
                 while (i + 1 < n) {

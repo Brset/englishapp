@@ -17,9 +17,9 @@
             <TextBlock Text="Пробел: начать/остановить запись · R: прослушать образец"
                        Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
         </StackPanel>
-        <ScrollViewer Grid.Row="1">
-            <TextBlock Text="{x:Bind ViewModel.ReferenceText, Mode=OneWay}" FontSize="20" LineHeight="32"
-                       TextWrapping="Wrap" MaxWidth="900" HorizontalAlignment="Left" />
+        <ScrollViewer Grid.Row="1" x:Name="Scroller" SizeChanged="OnScrollerSizeChanged">
+            <RichTextBlock x:Name="Body" FontSize="20" LineHeight="32" TextWrapping="Wrap" MaxWidth="900"
+                           HorizontalAlignment="Left" Tapped="OnBodyTapped" />
         </ScrollViewer>
         <StackPanel Grid.Row="2" Spacing="10">
             <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.Level, Mode=OneWay}" Height="10" />

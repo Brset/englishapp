@@ -27,6 +27,13 @@ object NativeEngine {
     /** Returns [sampleRate, samples...] or null. */
     @JvmStatic external fun engineTts(h: Long, text: String, voice: String, speed: Float): FloatArray?
     @JvmStatic external fun engineLookup(h: Long, word: String): String?
+
+    // Live reading tracker; handle 0 = unavailable. Call only from the engine thread.
+    @JvmStatic external fun liveStart(engine: Long, text: String): Long
+    @JvmStatic external fun liveFeed(handle: Long, pcm: ShortArray, count: Int, rate: Int): String?
+    @JvmStatic external fun liveFinish(handle: Long): String?
+    @JvmStatic external fun liveSetCursor(handle: Long, index: Int)
+    @JvmStatic external fun liveFree(handle: Long)
 }
 
 enum class EnginePhase { PREPARING, COPYING, LOADING, READY, FAILED }
@@ -142,6 +149,13 @@ class EngineHost(private val context: Context) {
         if (handle == 0L) throw IllegalStateException("движок ещё не готов")
         NativeEngine.engineAssessPcm16(handle, pcm, sampleRate, reference)
             ?: throw IllegalStateException(NativeEngine.engineLastError(handle).orEmpty().ifEmpty { "ошибка движка" })
+    }
+
+    /** Starts a live tracker for [reference]; null if the live model is missing or the engine is not ready. */
+    suspend fun liveStart(reference: String): LiveSession? = withContext(dispatcher) {
+        if (handle == 0L) return@withContext null
+        val h = try { NativeEngine.liveStart(handle, reference) } catch (_: Throwable) { 0L }
+        if (h == 0L) null else LiveSession(h, dispatcher)
     }
 
     suspend fun lookup(word: String): JSONObject? = withContext(dispatcher) {

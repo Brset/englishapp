@@ -2,6 +2,7 @@
 //   pron_cli status   <models>
 //   pron_cli selftest <models>
 //   pron_cli assess   <models> <wav16k_mono_pcm16> <text>
+//   pron_cli live     <models> <wav_mono_pcm16> <text>   (live tracker, 160 ms chunks, prints cursor per chunk)
 #include <algorithm>
 #include <chrono>
 #include <cctype>
@@ -16,6 +17,7 @@
 #include <vector>
 
 #include "pron/pron_engine.h"
+#include "pron/pron_live.h"
 
 // ---------------------------------------------------------------- tiny JSON DOM
 struct JV {
@@ -150,7 +152,7 @@ static int cmd_status(const char* models) {
     const JV* tts = j.get("tts");
     struct { const char* name; bool ok; } req[] = {
         {"asr", truthy(j.get("asr"))}, {"vad", truthy(j.get("vad"))}, {"phoneme", truthy(j.get("phoneme"))},
-        {"cmudict", truthy(j.get("cmudict"))}, {"tts.us", tts && truthy(tts->get("us"))}, {"tts.gb", tts && truthy(tts->get("gb"))}};
+        {"cmudict", truthy(j.get("cmudict"))}, {"live", truthy(j.get("live"))}, {"tts.us", tts && truthy(tts->get("us"))}, {"tts.gb", tts && truthy(tts->get("gb"))}};
     int bad = 0;
     for (auto& r : req) if (!r.ok) { std::fprintf(stderr, "FAIL: component missing: %s\n", r.name); ++bad; }
     if (!bad) std::fprintf(stderr, "OK: all components loaded\n");
@@ -210,6 +212,68 @@ static Verdict check_assessment(const std::string& json, double ms) {
     return v;
 }
 
+struct LiveRun {
+    bool ok = false;
+    std::string error;
+    int cursor = 0, words = 0, skipped = 0;
+    bool done = false, monotonic = true;
+    size_t chunks = 0;
+    double avg_ms = 0, max_ms = 0, audio_s = 0;
+    std::string partial;
+};
+
+// Feeds pcm in 160 ms chunks (+ finish) through the live tracker. verbose: one line per chunk.
+static LiveRun run_live(pron_engine* e, const std::vector<int16_t>& pcm, int sr, const char* text, bool verbose) {
+    LiveRun r;
+    pron_live* s = pron_live_start(e, text);
+    if (!s) { const char* m = pron_engine_last_error(e); r.error = std::string("pron_live_start failed: ") + (m ? m : ""); return r; }
+    const size_t chunk = (size_t)sr * 160 / 1000;
+    double total_ms = 0;
+    int prev = 0;
+    JV j;
+    auto handle = [&](const std::string& js, double ms, const char* tag) {
+        if (!parse_json(js, j) || j.t != JV::Obj) { r.error = "live state is not valid JSON"; return false; }
+        int cur = j.get("cursor") ? (int)j.get("cursor")->n : -1;
+        if (cur < prev) r.monotonic = false;
+        prev = cur; r.cursor = cur;
+        r.done = truthy(j.get("done"));
+        r.partial = j.get("partial") ? j.get("partial")->s : "";
+        r.words = 0; r.skipped = 0;
+        if (const JV* w = j.get("words")) for (const JV& x : w->a) { ++r.words; const JV* st = x.get("state"); if (st && st->s == "skipped") ++r.skipped; }
+        if (verbose) std::printf("%s t=%.2fs cursor=%d/%d done=%d %.0fms partial=\"%s\"\n", tag, (double)r.chunks * 0.16, cur, r.words, r.done ? 1 : 0, ms, jesc(r.partial).c_str());
+        return true;
+    };
+    for (size_t o = 0; o < pcm.size(); o += chunk) {
+        const size_t n = std::min(chunk, pcm.size() - o);
+        auto t0 = std::chrono::steady_clock::now();
+        std::string js = take(pron_live_feed_pcm16(s, pcm.data() + o, n, sr));
+        double ms = ms_since(t0);
+        if (js.empty()) { const char* m = pron_engine_last_error(e); r.error = std::string("live feed failed: ") + (m ? m : ""); pron_live_free(s); return r; }
+        ++r.chunks; total_ms += ms; r.max_ms = std::max(r.max_ms, ms);
+        if (!handle(js, ms, "chunk")) { pron_live_free(s); return r; }
+    }
+    std::string fin = take(pron_live_finish(s));
+    if (fin.empty()) { r.error = "live finish failed"; pron_live_free(s); return r; }
+    if (!handle(fin, 0, "final")) { pron_live_free(s); return r; }
+    pron_live_free(s);
+    r.avg_ms = r.chunks ? total_ms / (double)r.chunks : 0;
+    r.audio_s = (double)pcm.size() / sr;
+    r.ok = true;
+    return r;
+}
+
+static int cmd_live(const char* models, const char* wav, const char* text) {
+    std::vector<int16_t> pcm; int sr = 0; std::string err;
+    if (!read_wav(wav, pcm, sr, err)) { std::fprintf(stderr, "error: %s\n", err.c_str()); return 2; }
+    Engine en(models);
+    if (!en.e) { std::fprintf(stderr, "error: cannot create engine for %s\n", models); return 2; }
+    LiveRun r = run_live(en.e, pcm, sr, text, true);
+    if (!r.ok) { std::fprintf(stderr, "error: %s\n", r.error.c_str()); return 1; }
+    std::printf("{\"cursor\":%d,\"words\":%d,\"skipped\":%d,\"done\":%s,\"avg_chunk_ms\":%.1f,\"max_chunk_ms\":%.1f}\n",
+                r.cursor, r.words, r.skipped, r.done ? "true" : "false", r.avg_ms, r.max_ms);
+    return 0;
+}
+
 static int cmd_selftest(const char* models) {
     const char* text = "Think about the weather. The three brothers are walking very fast.";
     Engine en(models);
@@ -226,6 +290,7 @@ static int cmd_selftest(const char* models) {
                         pv && pv->get("size") ? pv->get("size")->n : -1.0, pv && pv->get("mapped") ? pv->get("mapped")->n : -1.0, un.c_str());
         } else std::printf("{\"phoneme_vocab\":null}\n");
     }
+    std::vector<int16_t> live_pcm; int live_sr = 0;
     for (const char* voice : {"us", "gb"}) {
         std::vector<std::string> f;
         size_t n = 0; int sr = 0;
@@ -241,6 +306,11 @@ static int cmd_selftest(const char* models) {
             pron_engine_free_audio(audio);
             audio_s = sr > 0 ? (double)n / sr : 0;
             if (!std::strcmp(voice, "us") && !write_wav("selftest_us.wav", pcm, sr)) f.push_back("cannot write selftest_us.wav");
+            if (!std::strcmp(voice, "us")) {
+                std::vector<int16_t> q(pcm.size());
+                for (size_t i = 0; i < pcm.size(); ++i) q[i] = (int16_t)(std::max(-1.f, std::min(1.f, pcm[i])) * 32767.f);
+                live_pcm = q; live_sr = sr;
+            }
             t0 = std::chrono::steady_clock::now();
             std::string json = take(pron_engine_assess_f32(en.e, pcm.data(), pcm.size(), sr, text));
             assess_ms = ms_since(t0);
@@ -253,6 +323,32 @@ static int cmd_selftest(const char* models) {
         std::printf("]}\n");
         std::fflush(stdout);
         for (auto& m : f) std::fprintf(stderr, "FAIL [%s]: %s\n", voice, m.c_str());
+        fails += (int)f.size();
+    }
+    {
+        std::vector<std::string> f;
+        LiveRun r;
+        if (live_pcm.empty()) f.push_back("live: no US audio to feed");
+        else {
+            r = run_live(en.e, live_pcm, live_sr, text, false);
+            if (!r.ok) f.push_back("live: " + r.error);
+            else {
+                // 13 words in the selftest sentence
+                int expect = 0;
+                { pron_live* tmp = pron_live_start(en.e, text);
+                  if (tmp) { std::string js = take(pron_live_finish(tmp)); JV jj; if (parse_json(js, jj) && jj.get("words")) expect = (int)jj.get("words")->a.size(); pron_live_free(tmp); } }
+                if (r.cursor != expect || expect == 0) f.push_back("live: final cursor " + std::to_string(r.cursor) + " != word count " + std::to_string(expect) + " (partial: " + r.partial + ")");
+                if (r.skipped) f.push_back("live: " + std::to_string(r.skipped) + " word(s) marked skipped");
+                if (!r.monotonic) f.push_back("live: cursor decreased");
+                if (r.avg_ms > 160.0) f.push_back("live: avg decode per 160 ms chunk " + std::to_string((int)r.avg_ms) + " ms > 160 ms");
+            }
+        }
+        std::printf("{\"live\":{\"ok\":%s,\"cursor\":%d,\"words\":%d,\"skipped\":%d,\"monotonic\":%s,\"chunks\":%zu,\"audio_seconds\":%.2f,\"avg_chunk_ms\":%.1f,\"max_chunk_ms\":%.1f,\"partial\":\"%s\",\"failures\":[",
+                    f.empty() ? "true" : "false", r.cursor, r.words, r.skipped, r.monotonic ? "true" : "false", r.chunks, r.audio_s, r.avg_ms, r.max_ms, jesc(r.partial).c_str());
+        for (size_t i = 0; i < f.size(); ++i) std::printf("%s\"%s\"", i ? "," : "", jesc(f[i]).c_str());
+        std::printf("]}}\n");
+        std::fflush(stdout);
+        for (auto& m : f) std::fprintf(stderr, "FAIL [live]: %s\n", m.c_str());
         fails += (int)f.size();
     }
     std::fprintf(stderr, fails ? "SELFTEST FAILED (%d problem(s))\n" : "SELFTEST OK\n", fails);
@@ -274,7 +370,8 @@ int main(int argc, char** argv) {
     std::string c = argc > 1 ? argv[1] : "";
     if (c == "status" && argc == 3) return cmd_status(argv[2]);
     if (c == "selftest" && argc == 3) return cmd_selftest(argv[2]);
+    if (c == "live" && argc == 5) return cmd_live(argv[2], argv[3], argv[4]);
     if (c == "assess" && argc == 5) return cmd_assess(argv[2], argv[3], argv[4]);
-    std::fprintf(stderr, "usage: pron_cli status <models> | selftest <models> | assess <models> <wav16k_mono_pcm16> <text>\n");
+    std::fprintf(stderr, "usage: pron_cli status <models> | selftest <models> | assess <models> <wav16k_mono_pcm16> <text> | live <models> <wav_mono_pcm16> <text>\n");
     return 2;
 }

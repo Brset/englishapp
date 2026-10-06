@@ -35,18 +35,16 @@
 
 namespace fs = std::filesystem;
 
-struct pron_engine {
-    pron_assessor* assessor = nullptr;
-    std::unique_ptr<pron::IAsr> asr;
-    std::unique_ptr<pron::IVad> vad;
-    std::unique_ptr<pron::IPhonemeModel> phoneme;
-    std::unique_ptr<pron::ITts> tts_us, tts_gb;
-    bool cmudict = false;
-    std::map<std::string, std::string> errors;  // component -> message
-    std::string last_error;
-    int n_threads = 2;
-    ~pron_engine() { if (assessor) pron_assessor_destroy(assessor); }
-};
+#include "engine_internal.h"
+
+namespace pron_internal {
+
+char* dup_string(const std::string& s);
+std::string c_api_path(const fs::path& p);
+std::vector<float> resample_16k(const float* x, size_t n, int sr);
+std::string path_str(const fs::path& p);
+bool file_exists(const fs::path& p);
+}  // namespace pron_internal
 
 namespace {
 
@@ -310,6 +308,14 @@ auto guard(pron_engine* e, F&& f) -> decltype(f()) {
 
 }  // namespace
 
+namespace pron_internal {
+char* dup_string(const std::string& s) { return ::dup_string(s); }
+std::string c_api_path(const fs::path& p) { return ::c_api_path(p); }
+std::vector<float> resample_16k(const float* x, size_t n, int sr) { return ::resample_16k(x, n, sr); }
+std::string path_str(const fs::path& p) { return ::path_str(p); }
+bool file_exists(const fs::path& p) { return ::file_exists(p); }
+}  // namespace pron_internal
+
 extern "C" {
 
 PRON_API pron_engine* pron_engine_create(const char* models_dir_utf8, int n_threads) {
@@ -366,6 +372,15 @@ PRON_API pron_engine* pron_engine_create(const char* models_dir_utf8, int n_thre
             }
         }
 
+        e->models_dir = models;
+        {
+            const fs::path ld = models / "live";
+            std::string missing;
+            for (const char* f : {"encoder.onnx", "decoder.onnx", "joiner.onnx", "tokens.txt"})
+                if (!file_exists(ld / f)) { missing = path_str(ld / f); break; }
+            if (missing.empty()) e->live_available = true;
+            else e->errors["live"] = "file not found: " + missing;
+        }
         load_voice(e.get(), models, "us", e->tts_us);
         load_voice(e.get(), models, "gb", e->tts_gb);
         return e.release();
@@ -386,7 +401,7 @@ PRON_API char* pron_engine_status(pron_engine* e) {
         std::ostringstream o;
         o << "{\"version\":\"" << json_escape(pron_version()) << "\",\"asr\":" << (e->asr ? "true" : "false")
           << ",\"vad\":" << (e->vad ? "true" : "false") << ",\"phoneme\":" << (e->phoneme ? "true" : "false")
-          << ",\"cmudict\":" << (e->cmudict ? "true" : "false") << ",\"tts\":{\"us\":" << (e->tts_us ? "true" : "false")
+          << ",\"live\":" << (e->live_available ? "true" : "false") << ",\"cmudict\":" << (e->cmudict ? "true" : "false") << ",\"tts\":{\"us\":" << (e->tts_us ? "true" : "false")
           << ",\"gb\":" << (e->tts_gb ? "true" : "false") << "},\"errors\":{";
         bool first = true;
         for (const auto& kv : e->errors) {

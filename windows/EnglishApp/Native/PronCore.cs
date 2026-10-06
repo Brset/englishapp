@@ -28,6 +28,17 @@ public sealed class AssessorHandle : SafeHandleZeroOrMinusOneIsInvalid
     }
 }
 
+/// <summary>Owns a pron_live*; destroyed via pron_live_free.</summary>
+public sealed class LiveHandle : SafeHandleZeroOrMinusOneIsInvalid
+{
+    public LiveHandle() : base(true) { }
+    protected override bool ReleaseHandle()
+    {
+        NativeMethods.pron_live_free(handle);
+        return true;
+    }
+}
+
 [StructLayout(LayoutKind.Sequential)]
 public struct PronWordNative
 {
@@ -100,6 +111,35 @@ internal static class NativeMethods
 
     [DllImport(Lib, CallingConvention = Cc)]
     public static extern IntPtr pron_engine_lookup(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string word);
+
+    // ---- pron_live.h ----
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern LiveHandle pron_live_start(EngineHandle e, [MarshalAs(UnmanagedType.LPUTF8Str)] string referenceUtf8);
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_live_feed_pcm16(LiveHandle s, short[] samples, UIntPtr count, int sampleRate);
+    [DllImport(Lib, CallingConvention = Cc)]
+    public static extern IntPtr pron_live_feed_f32(LiveHandle s, float[] samples, UIntPtr count, int sampleRate);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern IntPtr pron_live_finish(LiveHandle s);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_live_set_cursor(LiveHandle s, int wordIndex);
+    [DllImport(Lib, CallingConvention = Cc)] public static extern void pron_live_free(IntPtr s);
+}
+
+/// <summary>One word of the live state: state is read | skipped | current | pending.</summary>
+public sealed record LiveWord
+{
+    [JsonPropertyName("i")] public int I { get; init; }
+    public string State { get; init; } = "";
+}
+
+/// <summary>State JSON returned by pron_live_feed_* / pron_live_finish.</summary>
+public sealed record LiveState
+{
+    public int Cursor { get; init; }
+    public int ScrollTo { get; init; }
+    public bool Done { get; init; }
+    public string Partial { get; init; } = "";
+    public List<LiveWord> Words { get; init; } = new();
+    public int ChangedFrom { get; init; }
 }
 
 public enum Strictness { Lenient = 0, Normal = 1, Strict = 2 }

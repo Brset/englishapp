@@ -8,12 +8,17 @@ import app.englishpron.PronCore
 import app.englishpron.UserSettings
 import app.englishpron.audio.SAMPLE_RATE
 import app.englishpron.data.*
+import app.englishpron.engine.LiveSession
+import app.englishpron.engine.LiveState
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import kotlin.coroutines.coroutineContext
 import org.json.JSONObject
 
 abstract class BaseVm(app: Application) : AndroidViewModel(app) {
@@ -81,6 +86,10 @@ data class PracticeState(
     val lastPcm: ShortArray = ShortArray(0),
     val wordInfo: WordInfo? = null,
     val error: String? = null,
+    val live: LiveState? = null,
+    val liveUnavailable: Boolean = false,
+    val processingSec: Int = 0,
+    val processingAudioSec: Int = 0,
 ) {
     val referenceNow: String get() = if (mode == RecordMode.WHOLE) (text?.body ?: "") else sentences.getOrElse(sentenceIdx) { "" }
 }
@@ -143,31 +152,95 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         }
     }
 
-    fun startRecording(): Boolean {
+    private var session: LiveSession? = null
+    private var liveJob: Job? = null
+    private var silenceJob: Job? = null
+    private var assessJob: Job? = null
+    private var tickJob: Job? = null
+    private var autoDone: () -> Unit = {}
+    private var starting = false
+
+    fun startRecording(onAutoDone: () -> Unit = {}) {
+        if (starting || _s.value.status != RecStatus.IDLE) return
+        starting = true
+        autoDone = onAutoDone
         ctx.tts.stop(); ctx.player.stop()
-        val ok = ctx.recorder.start()
-        if (ok) {
-            startedAt = System.currentTimeMillis()
-            _s.update { it.copy(status = RecStatus.RECORDING, error = null) }
-        } else _s.update { it.copy(error = "Не удалось начать запись") }
-        return ok
+        val reference = _s.value.referenceNow
+        viewModelScope.launch {
+            try {
+                val sess = if (reference.isNotBlank()) ctx.engine.liveStart(reference) else null  // engine thread
+                val sink: ((ShortArray) -> Unit)? = sess?.let { l -> { frame: ShortArray -> l.offer(frame) } }
+                val ok = ctx.recorder.start(sink)
+                if (!ok) {
+                    sess?.release()
+                    _s.update { it.copy(error = "Не удалось начать запись") }
+                } else {
+                    startedAt = System.currentTimeMillis()
+                    session = sess
+                    liveJob?.cancel()
+                    liveJob = sess?.let { l ->
+                        viewModelScope.launch {
+                            l.state.collect { st ->
+                                _s.update { it.copy(live = st) }
+                                if (st?.done == true && silenceJob?.isActive != true) watchSilence()
+                            }
+                        }
+                    }
+                    _s.update { it.copy(status = RecStatus.RECORDING, error = null, live = null, liveUnavailable = sess == null) }
+                }
+            } finally { starting = false }
+        }
+    }
+
+    /** Reading finished (live tracker saw the last word): stop automatically after 1.5 s of silence. */
+    private fun watchSilence() {
+        silenceJob = viewModelScope.launch {
+            var quietSince = 0L
+            while (_s.value.status == RecStatus.RECORDING) {
+                delay(100)
+                val now = System.currentTimeMillis()
+                if (level.value < 0.04f) {
+                    if (quietSince == 0L) quietSince = now
+                    else if (now - quietSince >= 1500) { stopAndAssess(autoDone); return@launch }
+                } else quietSince = 0L
+            }
+        }
+    }
+
+    /** User tapped word [index] while recording: restart live tracking from it. */
+    fun liveSetCursor(index: Int) {
+        if (_s.value.status == RecStatus.RECORDING) session?.setCursor(index)
     }
 
     /** Stops recording and runs ASR + phoneme model + scoring. onDone fires on success. */
     fun stopAndAssess(onDone: () -> Unit) {
         val st = _s.value
+        if (st.status != RecStatus.RECORDING) return
         val textId = st.text?.item?.id ?: return
         val reference = st.referenceNow
         val kind = if (st.mode == RecordMode.WHOLE) "reading" else "sentence"
-        _s.update { it.copy(status = RecStatus.PROCESSING) }
-        viewModelScope.launch {
+        silenceJob?.cancel()
+        _s.update { it.copy(status = RecStatus.PROCESSING, processingSec = 0, processingAudioSec = 0) }
+        val t0 = System.currentTimeMillis()
+        tickJob?.cancel()
+        tickJob = viewModelScope.launch {
+            while (true) { delay(500); _s.update { it.copy(processingSec = ((System.currentTimeMillis() - t0) / 1000).toInt()) } }
+        }
+        assessJob = viewModelScope.launch {
             val durationMs = System.currentTimeMillis() - startedAt
             val pcm = ctx.recorder.stop()
+            _s.update { it.copy(processingAudioSec = pcm.size / SAMPLE_RATE) }
+            val sess = session; session = null
+            val fin = try { sess?.finish() } catch (_: Throwable) { null }
+            if (fin != null) _s.update { it.copy(live = fin) }
             val parsed = withContext(Dispatchers.Default) {
                 try {
                     AssessmentUi.parse(ctx.engine.assess(pcm, SAMPLE_RATE, reference))
                 } catch (e: Exception) { e }
             }
+            tickJob?.cancel()
+            // Cancelled while the native call was running: the result is ignored.
+            if (assessJob !== coroutineContext[Job] || _s.value.status != RecStatus.PROCESSING) return@launch
             if (parsed is AssessmentUi) {
                 try { io { it.saveResult(textId, kind, durationMs, parsed) } } catch (_: Exception) {}
                 _s.update { it.copy(status = RecStatus.IDLE, result = parsed, reference = reference, lastPcm = pcm) }
@@ -178,9 +251,20 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         }
     }
 
+    /** Back to the text; the native assessment cannot be interrupted, its result is dropped. */
+    fun cancelAssessment() {
+        if (_s.value.status != RecStatus.PROCESSING) return
+        tickJob?.cancel(); assessJob = null
+        _s.update { it.copy(status = RecStatus.IDLE, live = null) }
+    }
+
     fun playLast() = ctx.player.play(_s.value.lastPcm)
     fun nextSentence() { _s.update { it.copy(sentenceIdx = (it.sentenceIdx + 1).coerceAtMost((it.sentences.size - 1).coerceAtLeast(0))) } }
-    override fun onCleared() { ctx.player.stop() }
+    override fun onCleared() {
+        ctx.player.stop()
+        session?.release(); session = null
+        if (ctx.recorder.recording.value) kotlinx.coroutines.CoroutineScope(Dispatchers.IO).launch { ctx.recorder.stop() }
+    }
 }
 
 // ---- Sounds ---------------------------------------------------------------------------------

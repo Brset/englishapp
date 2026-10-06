@@ -38,12 +38,12 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
     val ctx = LocalContext.current
     val launcher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         vm.onPermissionResult(granted)
-        if (granted) vm.startRecording()
+        if (granted) vm.startRecording(onResult)
     }
     fun toggle() {
         when (s.status) {
             RecStatus.IDLE -> {
-                if (ContextCompat.checkSelfPermission(ctx, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) vm.startRecording()
+                if (ContextCompat.checkSelfPermission(ctx, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) vm.startRecording(onResult)
                 else launcher.launch(Manifest.permission.RECORD_AUDIO)
             }
             RecStatus.RECORDING -> vm.stopAndAssess(onResult)
@@ -71,8 +71,15 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
             }
         }
         Card(Modifier.weight(1f).fillMaxWidth()) {
-            Text(s.referenceNow, Modifier.verticalScroll(rememberScrollState()).padding(16.dp), fontSize = 20.sp, lineHeight = 30.sp)
+            LiveReadingText(s.referenceNow, if (s.status == RecStatus.IDLE) null else s.live,
+                onTapWord = { vm.liveSetCursor(it) }, modifier = Modifier.fillMaxSize())
         }
+        if (s.status == RecStatus.RECORDING && s.liveUnavailable)
+            Text("Подсветка по ходу чтения недоступна (нет модели) - читайте, оценка будет после записи.",
+                style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (s.status == RecStatus.RECORDING && s.live?.done == true)
+            Text("Текст дочитан - запись остановится сама после паузы.", style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.primary)
         LinearProgressIndicator(progress = { level }, Modifier.fillMaxWidth().height(10.dp).clip(RoundedCornerShape(5.dp)))
         s.error?.let { Text(it, color = MaterialTheme.colorScheme.error) }
         if (s.permissionDenied) Text("Нужен доступ к микрофону (Настройки Android → Приложения → разрешения).", color = MaterialTheme.colorScheme.error)
@@ -80,11 +87,17 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
             when (s.status) {
                 RecStatus.IDLE -> "Нажмите на микрофон и читайте вслух"
                 RecStatus.RECORDING -> "Идёт запись… нажмите, чтобы закончить"
-                RecStatus.PROCESSING -> "Оцениваем…"
+                RecStatus.PROCESSING -> {
+                    val stage = if (s.processingSec < maxOf(5, s.processingAudioSec / 2)) "Распознаю речь…" else "Оцениваю звуки…"
+                    "$stage ${s.processingSec} с"
+                }
             }, Modifier.align(Alignment.CenterHorizontally), style = MaterialTheme.typography.bodyMedium
         )
         Box(Modifier.fillMaxWidth(), Alignment.Center) {
-            if (s.status == RecStatus.PROCESSING) CircularProgressIndicator()
+            if (s.status == RecStatus.PROCESSING) Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                CircularProgressIndicator()
+                OutlinedButton({ vm.cancelAssessment() }) { Text("Отмена") }
+            }
             else LargeFloatingActionButton(onClick = ::toggle,
                 containerColor = if (s.status == RecStatus.RECORDING) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary) {
                 Icon(if (s.status == RecStatus.RECORDING) Icons.Filled.Stop else Icons.Filled.Mic,

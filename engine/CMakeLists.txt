@@ -101,9 +101,10 @@ foreach(s ${_core_src})
   list(APPEND _core_abs "${_core_dir}/${s}")
 endforeach()
 
-add_library(pron_engine SHARED ${_core_abs} src/engine.cpp)
+add_library(pron_engine SHARED ${_core_abs} src/engine.cpp src/live.cpp)
 target_include_directories(pron_engine PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include" "${_core_dir}/include")
 target_compile_definitions(pron_engine PUBLIC PRON_SHARED PRIVATE PRON_BUILDING)
+target_include_directories(pron_engine PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src" "${SHERPA_ONNX_ROOT}/include")
 set_target_properties(pron_engine PROPERTIES
   OUTPUT_NAME pron_engine
   CXX_VISIBILITY_PRESET hidden VISIBILITY_INLINES_HIDDEN ON

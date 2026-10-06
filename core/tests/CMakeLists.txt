@@ -10,7 +10,7 @@ if(NOT EXISTS "${PRON_DOCTEST_DIR}/doctest.h")
   set(PRON_DOCTEST_DIR "${doctest_SOURCE_DIR}")
 endif()
 
-set(PRON_TEST_SUITES text word_align phonemes cmudict ctc gop fluency advice json assessment c_api)
+set(PRON_TEST_SUITES text word_align phonemes cmudict ctc gop fluency advice json assessment c_api live)
 
 set(PRON_TEST_SOURCES main.cpp)
 foreach(s ${PRON_TEST_SUITES})

@@ -23,6 +23,7 @@ set(PRON_SOURCES
   src/json_writer.cpp
   src/assessment.cpp
   src/result_json.cpp
+  src/live_tracker.cpp
   src/pron_c.cpp
 )
 

@@ -20,7 +20,7 @@ android {
         ndk { abiFilters += abis }
         externalNativeBuild {
             cmake {
-                arguments += listOf("-DPRON_BUILD_TESTS=OFF", "-DANDROID_STL=c++_shared")
+                arguments += listOf("-DPRON_BUILD_TESTS=OFF", "-DANDROID_STL=c++_shared", "-DCMAKE_BUILD_TYPE=Release")
                 cppFlags += "-std=c++17"
             }
         }

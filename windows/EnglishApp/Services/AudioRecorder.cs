@@ -19,6 +19,13 @@ public sealed class AudioRecorder : IDisposable
     public event Action<float>? LevelChanged;
     public event Action<Exception>? Failed;
 
+    /// <summary>~160 ms of 16 kHz mono samples (a fresh array each time), raised on the NAudio thread; handlers must not block.</summary>
+    public event Action<short[]>? ChunkAvailable;
+
+    private const int ChunkSamples = 2560;   // 160 ms at 16 kHz
+    private readonly short[] _acc = new short[ChunkSamples];
+    private int _accN;
+
     public static IReadOnlyList<string> GetDevices()
     {
         var list = new List<string>();
@@ -31,6 +38,7 @@ public sealed class AudioRecorder : IDisposable
         if (IsRecording) return;
         Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
         FilePath = filePath;
+        _accN = 0;
         _writer = new WaveFileWriter(filePath, Format);
         _stopped = new TaskCompletionSource(TaskCreationOptions.RunContinuationsAsynchronously);
         _in = new WaveInEvent { WaveFormat = Format, DeviceNumber = deviceNumber, BufferMilliseconds = 50 };
@@ -50,9 +58,19 @@ public sealed class AudioRecorder : IDisposable
         {
             short s = (short)(e.Buffer[i] | (e.Buffer[i + 1] << 8));
             sum += (long)s * s;
+            _acc[_accN++] = s;
+            if (_accN == ChunkSamples) EmitChunk();
         }
         double rms = n == 0 ? 0 : Math.Sqrt((double)sum / n) / 32768.0;
         LevelChanged?.Invoke((float)Math.Min(1.0, rms * 4));
+    }
+
+    private void EmitChunk()
+    {
+        var copy = new short[_accN];
+        Array.Copy(_acc, copy, _accN);
+        _accN = 0;
+        try { ChunkAvailable?.Invoke(copy); } catch (Exception) { /* never break recording */ }
     }
 
     private void OnStopped(object? sender, StoppedEventArgs e)
@@ -69,6 +87,7 @@ public sealed class AudioRecorder : IDisposable
         _in.StopRecording();
         if (_stopped != null) await Task.WhenAny(_stopped.Task, Task.Delay(2000));
         var path = FilePath;
+        if (_accN > 0) EmitChunk();
         Cleanup();
         LevelChanged?.Invoke(0);
         return path;

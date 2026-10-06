@@ -1,4 +1,5 @@
 using System.Runtime.InteropServices;
+using System.Threading.Channels;
 using System.Text.Json;
 using EnglishApp.Native;
 using NAudio.Wave;
@@ -7,7 +8,7 @@ namespace EnglishApp.Services;
 
 /// <summary>Parsed pron_engine_status JSON.</summary>
 public sealed record EngineStatus(string Version, bool Asr, bool Vad, bool Phoneme, bool Cmudict,
-    bool TtsUs, bool TtsGb, IReadOnlyDictionary<string, string> Errors)
+    bool TtsUs, bool TtsGb, IReadOnlyDictionary<string, string> Errors, bool Live = false)
 {
     public static EngineStatus Parse(string json)
     {
@@ -20,7 +21,7 @@ public sealed record EngineStatus(string Version, bool Asr, bool Vad, bool Phone
             foreach (var p in er.EnumerateObject()) errors[p.Name] = p.Value.ToString();
         return new EngineStatus(
             r.TryGetProperty("version", out var ver) ? ver.ToString() : "",
-            B(r, "asr"), B(r, "vad"), B(r, "phoneme"), B(r, "cmudict"), B(tts, "us"), B(tts, "gb"), errors);
+            B(r, "asr"), B(r, "vad"), B(r, "phoneme"), B(r, "cmudict"), B(tts, "us"), B(tts, "gb"), errors, B(r, "live"));
     }
 
     public string ToRussian()
@@ -33,6 +34,7 @@ public sealed record EngineStatus(string Version, bool Asr, bool Vad, bool Phone
             L("Детектор речи (VAD)", Vad),
             L("Фонемная модель (wav2vec2)", Phoneme),
             L("Словарь CMUdict", Cmudict),
+            L("Живое отслеживание чтения", Live),
             L("Озвучка US", TtsUs),
             L("Озвучка UK", TtsGb),
         };
@@ -183,5 +185,151 @@ public sealed class PronEngineService
         }
         catch (Exception) { return null; }
         finally { _gate.Release(); }
+    }
+
+    // ---------------- live reading tracking ----------------
+
+    private readonly record struct LiveItem(short[]? Pcm, int Cursor);
+
+    private sealed class LiveSession
+    {
+        public Channel<LiveItem> Queue { get; } = Channel.CreateUnbounded<LiveItem>(new UnboundedChannelOptions { SingleReader = true });
+        public TaskCompletionSource<bool> Started { get; } = new(TaskCreationOptions.RunContinuationsAsynchronously);
+        public Task<LiveState?> Final { get; set; } = Task.FromResult<LiveState?>(null);
+        public volatile bool Dead;
+    }
+
+    private LiveSession? _live;
+
+    /// <summary>Raised on a background thread after every feed and after finish.</summary>
+    public event Action<LiveState>? LiveUpdated;
+
+    /// <summary>True while the engine is loading or when it reports the live model as present.</summary>
+    public bool LiveSupported => !_ready.Task.IsCompleted || (IsAvailable && Status is { Live: true });
+
+    /// <summary>
+    /// Opens a live session. Chunks fed before it is open are queued (and merged). Resolves to false when the
+    /// engine is unavailable or pron_live_start returned NULL (live model missing).
+    /// </summary>
+    public Task<bool> StartLive(string text)
+    {
+        var old = Interlocked.Exchange(ref _live, null);
+        old?.Queue.Writer.TryComplete();
+        var s = new LiveSession();
+        _live = s;
+        s.Final = Task.Run(() => RunLiveAsync(s, text));
+        return s.Started.Task;
+    }
+
+    /// <summary>Queues 16 kHz mono PCM; never blocks (safe from the NAudio callback).</summary>
+    public void FeedLive(short[] chunk)
+    {
+        var s = _live;
+        if (s == null || s.Dead || chunk.Length == 0) return;
+        s.Queue.Writer.TryWrite(new LiveItem(chunk, -1));
+    }
+
+    /// <summary>Jumps the live cursor (ordered with the audio chunks).</summary>
+    public void SetLiveCursor(int wordIndex)
+    {
+        var s = _live;
+        if (s == null || s.Dead) return;
+        s.Queue.Writer.TryWrite(new LiveItem(null, wordIndex));
+    }
+
+    /// <summary>Flushes queued audio, finishes and frees the session; returns the final state (or null).</summary>
+    public async Task<LiveState?> FinishLive()
+    {
+        var s = Interlocked.Exchange(ref _live, null);
+        if (s == null) return null;
+        s.Queue.Writer.TryComplete();
+        try { return await s.Final; }
+        catch (Exception) { return null; }
+    }
+
+    private LiveState? Publish(string? json)
+    {
+        if (json == null) return null;
+        try
+        {
+            var st = JsonSerializer.Deserialize<LiveState>(json, PronAssessor.Json);
+            if (st != null) LiveUpdated?.Invoke(st);
+            return st;
+        }
+        catch (Exception ex) { Diagnostics.LogException("live state", ex); return null; }
+    }
+
+    private async Task<LiveState?> RunLiveAsync(LiveSession s, string text)
+    {
+        LiveHandle? lh = null;
+        LiveState? last = null;
+        try
+        {
+            await Ready;
+            var h = _h;
+            if (h == null) { s.Dead = true; s.Started.TrySetResult(false); return null; }
+            await _gate.WaitAsync();
+            try { lh = NativeMethods.pron_live_start(h, text); }
+            finally { _gate.Release(); }
+            if (lh.IsInvalid) { s.Dead = true; lh.Dispose(); lh = null; s.Started.TrySetResult(false); return null; }
+            s.Started.TrySetResult(true);
+
+            var reader = s.Queue.Reader;
+            var batch = new List<LiveItem>();
+            var pending = new List<short[]>();
+            async Task FlushAsync()
+            {
+                if (pending.Count == 0) return;
+                int total = 0;
+                foreach (var c in pending) total += c.Length;
+                var merged = new short[total];
+                int o = 0;
+                foreach (var c in pending) { Buffer.BlockCopy(c, 0, merged, o * 2, c.Length * 2); o += c.Length; }
+                pending.Clear();
+                await _gate.WaitAsync();
+                string? json;
+                try { json = Take(NativeMethods.pron_live_feed_pcm16(lh!, merged, (UIntPtr)merged.Length, 16000)); }
+                finally { _gate.Release(); }
+                last = Publish(json) ?? last;
+            }
+            while (await reader.WaitToReadAsync())
+            {
+                batch.Clear();
+                while (reader.TryRead(out var it)) batch.Add(it);
+                foreach (var it in batch)
+                {
+                    if (it.Pcm != null) { pending.Add(it.Pcm); continue; }
+                    await FlushAsync();
+                    await _gate.WaitAsync();
+                    try { NativeMethods.pron_live_set_cursor(lh!, it.Cursor); }
+                    finally { _gate.Release(); }
+                }
+                await FlushAsync();   // everything that piled up while we were busy goes as one merged chunk
+            }
+            await _gate.WaitAsync();
+            try
+            {
+                var json = Take(NativeMethods.pron_live_finish(lh!));
+                lh.Dispose(); lh = null;
+                last = Publish(json) ?? last;
+            }
+            finally { _gate.Release(); }
+            return last;
+        }
+        catch (Exception ex)
+        {
+            Diagnostics.LogException("live session", ex);
+            s.Dead = true;
+            s.Started.TrySetResult(false);
+            return last;
+        }
+        finally
+        {
+            if (lh != null && !lh.IsClosed)
+            {
+                await _gate.WaitAsync();
+                try { lh.Dispose(); } finally { _gate.Release(); }
+            }
+        }
     }
 }

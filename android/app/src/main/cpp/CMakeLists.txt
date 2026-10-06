@@ -4,6 +4,14 @@ project(pron_jni LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Always optimized native code (CI runs assembleDebug, which would otherwise compile -O0).
+set(CMAKE_BUILD_TYPE Release CACHE STRING "" FORCE)
+set(CMAKE_C_FLAGS_DEBUG "-O3 -DNDEBUG" CACHE STRING "" FORCE)
+set(CMAKE_CXX_FLAGS_DEBUG "-O3 -DNDEBUG" CACHE STRING "" FORCE)
+set(CMAKE_C_FLAGS_RELEASE "-O3 -DNDEBUG" CACHE STRING "" FORCE)
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG" CACHE STRING "" FORCE)
+add_compile_options(-O3)
+
 set(PRON_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(PRON_BUILD_SHARED ON CACHE BOOL "" FORCE)
 # engine/ builds pron_core, pron_engine (shared, exports the whole pron_c.h API) and downloads the
