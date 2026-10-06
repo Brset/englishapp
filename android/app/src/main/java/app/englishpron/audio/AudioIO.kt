@@ -86,6 +86,7 @@ class Recorder {
 class Player {
     private var track: AudioTrack? = null
 
+    @Synchronized
     fun play(pcm: ShortArray, sampleRate: Int = SAMPLE_RATE, onDone: () -> Unit = {}) {
         stop()
         if (pcm.isEmpty()) { onDone(); return }
@@ -107,6 +108,7 @@ class Player {
         t.play()
     }
 
+    @Synchronized
     fun stop() {
         track?.let { try { it.stop() } catch (_: IllegalStateException) {}; it.release() }
         track = null

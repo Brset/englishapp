@@ -94,11 +94,13 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
     fun load(textId: String) {
         if (_s.value.text?.item?.id == textId) return
         viewModelScope.launch {
-            val data = io { db ->
-                val t = db.text(textId)
-                db.markOpened(textId)
-                Triple(t, db.vocabulary(textId), db.focusSounds(textId))
-            }
+            val data = try {
+                io { db ->
+                    val t = db.text(textId)
+                    db.markOpened(textId)
+                    Triple(t, db.vocabulary(textId), db.focusSounds(textId))
+                }
+            } catch (e: Exception) { return@launch }
             val t = data.first ?: return@launch
             _s.value = PracticeState(text = t, vocab = data.second, focus = data.third, sentences = splitSentences(t.body))
         }
@@ -124,8 +126,8 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
             val v = st.vocab.firstOrNull { it.word.equals(clean, true) }
             val british = ctx.settings.value.british
             val ipa = v?.let { if (british) it.ipaUk else it.ipaUs }
-                ?: (ctx.engine.lookup(clean) ?: withContext(Dispatchers.IO) { PronCore.lookup(clean) })?.optString("ipa").orEmpty()
-            val saved = io { it.isSaved(clean) }
+                ?: try { (ctx.engine.lookup(clean) ?: withContext(Dispatchers.IO) { PronCore.lookup(clean) })?.optString("ipa").orEmpty() } catch (e: Exception) { "" }
+            val saved = try { io { it.isSaved(clean) } } catch (e: Exception) { false }
             _s.update { it.copy(wordInfo = WordInfo(clean, ipa, v?.translationRu ?: "", saved)) }
         }
     }
@@ -136,7 +138,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         val st = _s.value
         val w = st.wordInfo ?: return
         viewModelScope.launch {
-            io { it.saveWord(w.word, w.ipa, w.translation, st.text?.item?.id) }
+            try { io { it.saveWord(w.word, w.ipa, w.translation, st.text?.item?.id) } } catch (e: Exception) { return@launch }
             _s.update { it.copy(wordInfo = w.copy(saved = true)) }
         }
     }
@@ -189,7 +191,7 @@ class SoundsViewModel(app: Application) : BaseVm(app) {
     val card: StateFlow<JSONObject?> = _card
 
     init { viewModelScope.launch { _list.value = try { io { it.sounds() } } catch (e: Exception) { emptyList() } } }
-    fun open(id: String) { viewModelScope.launch { _card.value = io { it.soundCard(id) } } }
+    fun open(id: String) { viewModelScope.launch { _card.value = try { io { it.soundCard(id) } } catch (e: Exception) { null } } }
     fun speak(text: String) = ctx.tts.speak(text, 1f)
 }
 
@@ -202,8 +204,8 @@ class DictionaryViewModel(app: Application) : BaseVm(app) {
     fun refresh() = viewModelScope.launch {
         _s.value = try { io { DictState(it.savedWords(true), it.savedWords(false)) } } catch (e: Exception) { DictState() }
     }
-    fun review(w: SavedWord, grade: Int) = viewModelScope.launch { io { it.review(w, grade) }; refresh() }
-    fun delete(w: SavedWord) = viewModelScope.launch { io { it.deleteWord(w.id) }; refresh() }
+    fun review(w: SavedWord, grade: Int) = viewModelScope.launch { try { io { it.review(w, grade) } } catch (e: Exception) {}; refresh() }
+    fun delete(w: SavedWord) = viewModelScope.launch { try { io { it.deleteWord(w.id) } } catch (e: Exception) {}; refresh() }
     fun speak(text: String) = ctx.tts.speak(text, 1f)
 }
 

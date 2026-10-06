@@ -107,7 +107,7 @@ fun ResultScreen(vm: PracticeViewModel, onRetry: () -> Unit, onLibrary: () -> Un
         buildAnnotatedString {
             var last = 0
             for (w in r.words.sortedBy { it.u16Begin }) {
-                if (w.u16Begin < last || w.u16End > s.reference.length) continue
+                if (w.u16Begin < last || w.u16End < w.u16Begin || w.u16End > s.reference.length) continue
                 append(s.reference.substring(last, w.u16Begin))
                 val c = parseColor(w.colorHex)
                 withStyle(SpanStyle(background = c.copy(alpha = if (w == selected) 0.7f else 0.3f), fontWeight = FontWeight.Medium)) {

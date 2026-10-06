@@ -91,7 +91,7 @@ class EngineHost(private val context: Context) {
         val o = JSONObject(js)
         val tts = o.optJSONObject("tts")
         val err = o.optJSONObject("errors")
-        val errText = err?.keys()?.asSequence()?.joinToString("; ") { "$it: ${err.optString(it)}" }.orEmpty()
+        val errText = err?.keys()?.asSequence()?.joinToString("; ") { "$it: ${err?.optString(it)}" }.orEmpty()
         _status.value = EngineStatus(
             o.optString("version"), o.optBoolean("asr"), o.optBoolean("vad"), o.optBoolean("phoneme"),
             o.optBoolean("cmudict"), tts?.optBoolean("us") ?: false, tts?.optBoolean("gb") ?: false, errText, true,
@@ -121,7 +121,9 @@ class EngineHost(private val context: Context) {
         files.forEachIndexed { i, p ->
             val out = File(tmp, p.removePrefix("models/"))
             out.parentFile?.mkdirs()
-            assets.open(p).use { inp -> out.outputStream().use { inp.copyTo(it, 1 shl 16) } }
+            try {
+                assets.open(p).use { inp -> out.outputStream().use { inp.copyTo(it, 1 shl 16) } }
+            } catch (_: java.io.FileNotFoundException) { out.delete() }  // empty asset directory
             if (i % 8 == 0 || i == files.lastIndex) _state.value = EngineState(EnginePhase.COPYING, (i + 1f) / total)
         }
         File(tmp, ".version").writeText(version)

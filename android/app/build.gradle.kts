@@ -45,7 +45,7 @@ android {
     }
     kotlinOptions { jvmTarget = "17" }
     buildFeatures { compose = true }
-    androidResources { noCompress += listOf("db", "sql", "dict", "onnx", "bin") }
+    androidResources { noCompress += listOf("db", "sql", "dict", "onnx", "bin", "txt", "json", "ort") }
     packaging { jniLibs.useLegacyPackaging = false }
 }
 

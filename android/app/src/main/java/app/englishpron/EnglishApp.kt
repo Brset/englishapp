@@ -13,6 +13,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import org.json.JSONObject
 
 data class UserSettings(val british: Boolean = false, val strictness: Int = 1)
@@ -38,7 +39,7 @@ class EnglishApp : Application() {
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val db = AppDatabase.open(this@EnglishApp)
-                loadCore()
+                try { loadCore() } catch (e: Throwable) { android.util.Log.w("EnglishApp", "core assets not loaded", e) }
                 val s = UserSettings(db.setting("accent", "us") == "uk", db.setting("strictness", "1").toIntOrNull() ?: 1)
                 applySettings(s)
                 dbDeferred.complete(db)
@@ -69,7 +70,9 @@ class EnglishApp : Application() {
     suspend fun updateSettings(s: UserSettings) {
         applySettings(s)
         val db = db()
-        db.putSetting("accent", if (s.british) "uk" else "us")
-        db.putSetting("strictness", s.strictness.toString())
+        withContext(Dispatchers.IO) {
+            db.putSetting("accent", if (s.british) "uk" else "us")
+            db.putSetting("strictness", s.strictness.toString())
+        }
     }
 }
