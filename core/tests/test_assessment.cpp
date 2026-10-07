@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "doctest.h"
 #include "pron/assessment.h"
 #include "pron/result_json.h"
@@ -405,5 +406,53 @@ TEST_SUITE("assessment") {
         CHECK(r1.post_classes == 3);
         CHECK(r1.post_reason.find("3 != vocab size 11") != std::string::npos);
         CHECK(to_json(r1).find("\"phoneme_debug\":{\"frames\":10,\"classes\":3,\"used\":false") != std::string::npos);
+    }
+
+    // ---- gruut-style character-level vocab (bookbot/wav2vec2-ljspeech-gruut): diphthongs are two tokens ----
+    TEST_CASE("character-level vocab: stress marks and split diphthongs do not hurt GOP") {
+        const std::vector<std::string> labels = {"[PAD]", "[UNK]", "|", "ˈ", "ː", "d", "e", "ɪ", "ɡ", "o", "ʊ", "a", "ð", "ə", "t", "ʃ"};
+        PhonemeVocab v(labels, 0);
+        auto L = [&](const char* s) { return static_cast<int>(std::find(labels.begin(), labels.end(), std::string(s)) - labels.begin()); };
+        // Each step: one frame of the label (0.9) or blank (0.95).
+        auto speak = [&](const std::vector<const char*>& seq) {
+            const int C = static_cast<int>(labels.size());
+            std::vector<int> ids(5, 0);  // 5 blank frames = 0.1 s
+            for (const char* l : seq) { ids.push_back(L(l)); ids.push_back(0); }
+            for (int i = 0; i < 6; ++i) ids.push_back(0);
+            LogPosteriors lp(static_cast<int>(ids.size()), C, 0.02);
+            for (int t = 0; t < lp.frames; ++t)
+                for (int c = 0; c < C; ++c) {
+                    const double rest = 0.05 / (C - 1);
+                    lp.at(t, c) = static_cast<float>(std::log(c == ids[static_cast<std::size_t>(t)] ? (c == 0 ? 0.95 : 0.9) : (c == 0 ? 0.05 : rest)));
+                }
+            return lp;
+        };
+        auto run = [&](const char* word, const char* arpa, const std::vector<const char*>& seq, double t1) {
+            Assessor a;
+            a.dict().load_from_string(std::string(word) + "  " + arpa + "\n");
+            a.options().accent = Accent::Us;
+            a.set_vocab(v);
+            LogPosteriors lp = speak(seq);
+            return a.assess(word, words({{word, 0.1, t1}}), &lp);
+        };
+        SUBCASE("day = d + stress mark + e + ɪ") {
+            auto r = run("day", "D EY1", {"d", "ˈ", "e", "ɪ"}, 0.26);
+            REQUIRE(r.phoneme_level);
+            REQUIRE(r.words[0].phonemes.size() == 2);
+            CHECK(r.words[0].scored_by == ScoredBy::Gop);
+            for (const auto& p : r.words[0].phonemes) CHECK(p.score > 90);
+            CHECK(r.words[0].score > 90);
+        }
+        SUBCASE("go = ɡ ˈ o ʊ and now = n... aʊ via a + ʊ") {
+            auto r = run("go", "G OW1", {"ɡ", "ˈ", "o", "ʊ"}, 0.26);
+            CHECK(r.words[0].score > 90);
+            auto r2 = run("ow", "AW1", {"ˈ", "a", "ʊ"}, 0.24);
+            REQUIRE(r2.words[0].phonemes.size() == 1);
+            CHECK(r2.words[0].phonemes[0].score > 90);
+        }
+        SUBCASE("a wrong vowel is still detected") {
+            auto r = run("day", "D EY1", {"d", "ˈ", "ð", "ð"}, 0.26);
+            CHECK(r.words[0].phonemes[1].score < 40);
+        }
     }
 }

@@ -53,6 +53,11 @@ public:
     int mapped_count() const;
     // True if label is a word delimiter ("|" or " "); it is folded into the blank column.
     bool is_delimiter(int label) const { return delim_[label]; }
+    // True if the label is a stress / length mark token (ˈ ˌ ː ...): no phone, folded into the
+    // blank column like delimiters so those frames do not look like "unexplained" frames.
+    bool is_ignored(int label) const { return ignored_[label]; }
+    // One entry per label: "tok>ARPA" (mapped), "tok>blank" (blank / delimiter / mark), "tok>-" (unmapped).
+    std::vector<std::string> mapping_summary() const;
     // True if at least one model label feeds this inventory column (blank is always present).
     bool has_column(int column) const { return column >= 0 && column < static_cast<int>(present_.size()) && present_[column]; }
 
@@ -64,6 +69,7 @@ private:
     std::vector<std::string> labels_;
     std::vector<int> map_;
     std::vector<bool> delim_;
+    std::vector<bool> ignored_;
     std::vector<bool> present_;
     int blank_ = 0;
 };

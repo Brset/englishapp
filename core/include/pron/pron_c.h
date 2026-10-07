@@ -102,6 +102,10 @@ PRON_API int pron_assessor_set_accent(pron_assessor* a, const char* accent);
  * {"size":392,"mapped":60,"unmapped":["<s>",...first 40...]} */
 PRON_API char* pron_assessor_phoneme_vocab_json(pron_assessor* a);
 
+/* Debug output: when enabled, every phoneme of the result JSON carries "model_labels" (argmax model
+ * labels over its aligned region). Off by default. */
+PRON_API void pron_assessor_set_debug(pron_assessor* a, int enabled);
+
 PRON_API void pron_free_string(char* s);
 
 #ifdef __cplusplus

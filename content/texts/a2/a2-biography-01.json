@@ -39,10 +39,10 @@
       "translation_ru": "радиоактивность"
     },
     {
-      "word": "element",
-      "ipa_us": "ˈɛləmənt",
-      "ipa_uk": "ˈelɪmənt",
-      "translation_ru": "элемент"
+      "word": "chemistry",
+      "ipa_us": "ˈkemɪstri",
+      "ipa_uk": "ˈkemɪstri",
+      "translation_ru": "химия"
     },
     {
       "word": "polonium",
@@ -96,7 +96,7 @@
       "examples": [
         "mother",
         "together",
-        "other"
+        "though"
       ],
       "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
     },

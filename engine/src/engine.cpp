@@ -465,6 +465,10 @@ PRON_API pron_engine* pron_engine_create(const char* models_dir_utf8, int n_thre
         e->n_threads = n_threads > 0 ? n_threads : static_cast<int>(std::max(1u, std::min(4u, std::thread::hardware_concurrency())));
         e->assessor = pron_assessor_create();
         if (!e->assessor) return nullptr;
+        {   // PRON_DEBUG_LABELS=1: per-phoneme model labels in results + token mapping table in status
+            const char* dbg = std::getenv("PRON_DEBUG_LABELS");
+            if (dbg && *dbg && std::strcmp(dbg, "0") != 0) pron_assessor_set_debug(e->assessor, 1);
+        }
 
         const fs::path dict = models / "cmudict" / "cmudict.dict";
         if (!file_exists(dict)) {

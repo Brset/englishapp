@@ -54,13 +54,32 @@ def check(path: Path) -> list[str]:
     if not lo <= actual <= hi:
         errors.append(f"{actual} words, {data['level']} needs {lo}-{hi}")
     lower = data["text"].lower()
+    # Extract whole words from text (word boundary checking)
+    words_in_text = set(re.findall(r"\b[A-Za-z]+(?:[''][A-Za-z]+)*\b", lower))
+
     for v in data["vocabulary"]:
-        if v["word"].lower().split()[0] not in lower:
-            errors.append(f"vocabulary word not in text: {v['word']}")
+        word = v["word"].lower()
+        word_parts = word.split()
+        # For multi-word vocabulary entries, check if phrase appears with word boundaries
+        if len(word_parts) == 1:
+            if word_parts[0] not in words_in_text:
+                errors.append(f"vocabulary word not in text (whole word): {v['word']}")
+        else:
+            # For multi-word: check if phrase appears as substring with word boundaries
+            if not re.search(r'\b' + re.escape(word) + r'\b', lower):
+                errors.append(f"vocabulary phrase not in text: {v['word']}")
+
     for s in data["focus_sounds"]:
         for ex in s["examples"]:
-            if ex.lower() not in lower:
-                errors.append(f"focus example not in text: {ex}")
+            ex_lower = ex.lower()
+            ex_parts = ex_lower.split()
+            # Check whole word matching for examples
+            if len(ex_parts) == 1:
+                if ex_lower not in words_in_text:
+                    errors.append(f"focus example not in text (whole word): {ex}")
+            else:
+                if not re.search(r'\b' + re.escape(ex_lower) + r'\b', lower):
+                    errors.append(f"focus example phrase not in text: {ex}")
     return errors
 
 

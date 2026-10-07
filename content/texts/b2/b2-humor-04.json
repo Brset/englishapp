@@ -9,10 +9,10 @@
   "word_count": 859,
   "vocabulary": [
     {
-      "word": "flat-pack",
-      "ipa_us": "ˈflæt ˌpæk",
-      "ipa_uk": "ˈflæt ˌpæk",
-      "translation_ru": "мебель в разобранном виде"
+      "word": "cardboard",
+      "ipa_us": "ˈkɑːrdbɔːrd",
+      "ipa_uk": "ˈkɑːdbɔːd",
+      "translation_ru": "картон"
     },
     {
       "word": "wardrobe",
@@ -105,7 +105,7 @@
     {
       "sound": "word-stress",
       "examples": [
-        "flat-pack",
+        "decided",
         "wardrobe",
         "assembled",
         "bald"

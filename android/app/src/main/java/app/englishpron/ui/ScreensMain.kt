@@ -226,7 +226,7 @@ fun ReadingScreen(vm: PracticeViewModel, textId: String, onRecord: () -> Unit, o
             }
             val pos = s.position
             if (pos != null && (text.item.bestCoverage ?: 0.0) < 90.0) {
-                val label = if (pos.wordIndex > 0) "слово ${pos.wordIndex + 1}" else "абзац ${pos.paragraphIndex + 1}/${s.paragraphs.size}"
+                val label = if (pos.wordIndex > 0) "слово ${pos.wordIndex + 1}" else "абзац ${(pos.paragraphIndex + 1).coerceAtMost(s.paragraphs.size.coerceAtLeast(1))}/${s.paragraphs.size}"
                 FilledTonalButton({ vm.resume(); onRecord() }, Modifier.padding(top = 8.dp)) {
                     Icon(Icons.Filled.PlayArrow, null); Spacer(Modifier.width(6.dp)); Text("Продолжить с места ($label)")
                 }

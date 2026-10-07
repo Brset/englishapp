@@ -35,7 +35,15 @@ public sealed partial class MainWindow : Window
         {
             if (_onboardingChecked) return;
             _onboardingChecked = true;
-            try { if (!AppServices.Settings.Onboarded) await OnboardingDialog.ShowAsync(Nav.XamlRoot); }
+            try
+            {
+                if (!AppServices.Settings.Onboarded)
+                {
+                    var st = AppServices.Repo.GetStats();   // existing v1 user: has data already, skip the first-run tour
+                    if (st.Attempts > 0 || st.TextsDone > 0 || st.TextsStarted > 0 || st.WordsSaved > 0) AppServices.Settings.Onboarded = true;
+                    else await OnboardingDialog.ShowAsync(Nav.XamlRoot);
+                }
+            }
             catch (Exception ex) { Diagnostics.LogException("onboarding", ex); }
         };
         QueueList.ItemsSource = AppServices.Jobs.Jobs;

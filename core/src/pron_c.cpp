@@ -222,12 +222,22 @@ char* pron_assessor_phoneme_vocab_json(pron_assessor* a) {
                 j.value(l);
             }
         j.end_array();
+        if (a->assessor.options().debug_labels) {  // full token -> phone table (debug only)
+            j.key("mapping").begin_array();
+            if (v.size() > 0)
+                for (const auto& m : v.mapping_summary()) j.value(m);
+            j.end_array();
+        }
         j.end_object();
         return dup_string(j.str());
     } catch (const std::exception& e) {
         a->error = e.what();
         return nullptr;
     }
+}
+
+void pron_assessor_set_debug(pron_assessor* a, int enabled) {
+    if (a) a->assessor.options().debug_labels = enabled != 0;
 }
 
 void pron_free_string(char* s) { std::free(s); }

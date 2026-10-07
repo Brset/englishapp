@@ -29,13 +29,14 @@ bool looks_like_arpabet(const std::string& l) {
 }  // namespace
 
 PhonemeVocab::PhonemeVocab(std::vector<std::string> labels, int blank_index)
-    : labels_(std::move(labels)), map_(labels_.size(), -1), delim_(labels_.size(), false),
+    : labels_(std::move(labels)), map_(labels_.size(), -1), delim_(labels_.size(), false), ignored_(labels_.size(), false),
       present_(static_cast<std::size_t>(phoneme_count()) + 1, false), blank_(blank_index) {
     present_[kBlankColumn] = true;
     for (std::size_t i = 0; i < labels_.size(); ++i) {
         if (static_cast<int>(i) == blank_) continue;
         const std::string& l = labels_[i];
         if (l == "|" || l == " " || l == "\xE2\x96\x81") { delim_[i] = true; continue; }
+        if (is_ipa_mark_only(l)) { ignored_[i] = true; continue; }
         if (l.empty() || l[0] == '<' || (l.front() == '[' && l.back() == ']')) continue;
         int id = phoneme_id_from_ipa(l);
         if (id < 0 && looks_like_arpabet(l)) id = phoneme_id(l);
@@ -58,6 +59,18 @@ std::vector<std::string> PhonemeVocab::unmapped_labels() const {
     return out;
 }
 
+std::vector<std::string> PhonemeVocab::mapping_summary() const {
+    std::vector<std::string> out;
+    for (std::size_t i = 0; i < labels_.size(); ++i) {
+        std::string t = labels_[i] + ">";
+        if (static_cast<int>(i) == blank_ || delim_[i] || ignored_[i]) t += "blank";
+        else if (map_[i] >= 0) t += phoneme_info(map_[i]).arpabet;
+        else t += "-";
+        out.push_back(t);
+    }
+    return out;
+}
+
 LogPosteriors PhonemeVocab::collapse(const LogPosteriors& model) const {
     const int C = inventory_columns();
     LogPosteriors out(model.frames, C, model.frame_seconds);
@@ -67,7 +80,7 @@ LogPosteriors PhonemeVocab::collapse(const LogPosteriors& model) const {
         std::fill(mx.begin(), mx.end(), -INFINITY);
         std::fill(acc.begin(), acc.end(), 0.0f);
         auto col_of = [&](int label) -> int {
-            if (label == blank_ || delim_[label]) return kBlankColumn;
+            if (label == blank_ || delim_[label] || ignored_[label]) return kBlankColumn;
             int id = map_[label];
             return id < 0 ? -1 : column_of_phoneme(id);
         };

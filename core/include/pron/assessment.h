@@ -42,6 +42,9 @@ struct PhonemeResult {
     bool substituted = false;
     std::string actual_arpabet;  // likely produced phoneme ("" if unknown / omitted)
     std::string actual_ipa;
+    // Debug (AssessmentOptions::debug_labels): argmax model labels over the aligned region,
+    // repeats collapsed, blank as "_", e.g. "ˈ ɪ _ ŋ".
+    std::string model_labels;
     std::optional<Advice> advice;
 };
 
@@ -91,6 +94,8 @@ struct AssessmentResult {
     // Diagnostics of the phoneme-posterior path.
     int post_frames = 0, post_classes = 0;
     bool post_used = false;
+    double post_blank_ratio = -1.0;  // share of frames whose argmax label is blank/delimiter/mark
+    double post_peak_prob = -1.0;    // mean probability of the best non-blank phone on non-blank frames
     std::string post_reason;    // "ok" or why posteriors were not used
     std::vector<AdviceSummary> advice;  // sorted by frequency
     std::vector<std::string> warnings;
@@ -107,6 +112,7 @@ struct AssessmentOptions {
     double substituted_phone_word_cap = 75.0;  // max score of a word with a substituted phoneme
     double word_padding_seconds = 0.08;  // widen ASR word spans before forced alignment
     double advice_score_threshold = 70.0;  // phonemes below this get advice
+    bool debug_labels = false;  // fill PhonemeResult::model_labels
     Accent accent = Accent::Any;  // which pronunciation variants count as correct
     double weight_accuracy = 0.5, weight_completeness = 0.25, weight_fluency = 0.25;
 

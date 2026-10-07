@@ -75,10 +75,10 @@
       "translation_ru": "пешеходы"
     },
     {
-      "word": "flood",
-      "ipa_us": "flʌd",
-      "ipa_uk": "flʌd",
-      "translation_ru": "наводнение"
+      "word": "pavement",
+      "ipa_us": "ˈpeɪvmənt",
+      "ipa_uk": "ˈpeɪvmənt",
+      "translation_ru": "тротуар"
     }
   ],
   "focus_sounds": [
@@ -104,7 +104,7 @@
       "examples": [
         "months",
         "customers",
-        "flood"
+        "hundred"
       ],
       "tip_ru": "Короткий звук, похожий на «а» без напряжения, рот полуоткрыт."
     },

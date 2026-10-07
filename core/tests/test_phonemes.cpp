@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "doctest.h"
 #include "pron/phonemes.h"
 #include "pron/posteriors.h"
@@ -132,6 +133,53 @@ TEST_SUITE("phonemes") {
         CHECK(er.ids == std::vector<int>{phoneme_id("ER"), phoneme_id("AH")});
         CHECK(phoneme_variants(bath, 1, Accent::Gb).ids.size() == 2);
         CHECK(phoneme_variants(bath, 1, Accent::Us).ids.size() == 1);
+    }
+
+    TEST_CASE("gruut-style character-level vocab: marks fold into blank, components, summary") {
+        const std::vector<std::string> labels = {"[PAD]", "[UNK]", "|", "ˈ", "ˌ", "ː", "θ", "ð", "ŋ", "ɡ", "ɹ", "ɾ",
+                                                 "a", "e", "o", "i", "u", "ɪ", "ʊ", "ɔ", "ɑ", "ɚ", "ə", "t", "ʃ"};
+        PhonemeVocab v(labels, 0);
+        auto L = [&](const char* s) { return static_cast<int>(std::find(labels.begin(), labels.end(), std::string(s)) - labels.begin()); };
+        for (const char* m : {"ˈ", "ˌ", "ː"}) {
+            CHECK(is_ipa_mark_only(m));
+            CHECK(v.is_ignored(L(m)));
+            CHECK(v.phoneme_of_label(L(m)) == -1);
+        }
+        CHECK_FALSE(is_ipa_mark_only("ɪ"));
+        CHECK_FALSE(is_ipa_mark_only("|"));
+        CHECK(v.is_delimiter(L("|")));
+        CHECK_FALSE(v.is_ignored(L("|")));
+        CHECK(v.phoneme_of_label(L("a")) == phoneme_id("AA"));
+        CHECK(v.phoneme_of_label(L("e")) == phoneme_id("E"));
+        CHECK(v.phoneme_of_label(L("o")) == phoneme_id("O"));
+        CHECK(v.phoneme_of_label(L("ɪ")) == phoneme_id("IH"));
+        CHECK(v.phoneme_of_label(L("ʊ")) == phoneme_id("UH"));
+        CHECK(v.phoneme_of_label(L("ɹ")) == phoneme_id("R"));
+        CHECK(v.phoneme_of_label(L("ɾ")) == phoneme_id("T"));
+        CHECK(v.phoneme_of_label(L("ɚ")) == phoneme_id("ER"));
+        // No single token for diphthongs / affricates in this vocab.
+        for (const char* d : {"EY", "AY", "AW", "OW", "OY", "CH", "JH"})
+            CHECK_FALSE(v.has_column(column_of_phoneme(phoneme_id(d))));
+        CHECK(phoneme_components(phoneme_id("EY")) == std::vector<int>{phoneme_id("E"), phoneme_id("IH")});
+        CHECK(phoneme_components(phoneme_id("AW")) == std::vector<int>{phoneme_id("AA"), phoneme_id("UH")});
+        CHECK(phoneme_components(phoneme_id("CH")) == std::vector<int>{phoneme_id("T"), phoneme_id("SH")});
+        CHECK(phoneme_components(phoneme_id("TH")).empty());
+
+        auto sum = v.mapping_summary();
+        REQUIRE(sum.size() == labels.size());
+        CHECK(sum[0] == "[PAD]>blank");
+        CHECK(sum[1] == "[UNK]>-");
+        CHECK(sum[2] == "|>blank");
+        CHECK(sum[3] == "ˈ>blank");
+        CHECK(sum[6] == "θ>TH");
+
+        // A stress-mark frame is blank mass, not lost mass.
+        LogPosteriors m(1, static_cast<int>(labels.size()));
+        for (int c = 0; c < m.classes; ++c) m.at(0, c) = -20.0f;
+        m.at(0, L("ˈ")) = std::log(0.9f);
+        m.at(0, 0) = std::log(0.05f);
+        LogPosteriors inv = v.collapse(m);
+        CHECK(std::exp(inv.at(0, kBlankColumn)) == doctest::Approx(0.95).epsilon(1e-3));
     }
 
     TEST_CASE("posterior slice") {

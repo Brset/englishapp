@@ -9,10 +9,10 @@
   "word_count": 921,
   "vocabulary": [
     {
-      "word": "solicitor",
-      "ipa_us": "səˈlɪsətər",
-      "ipa_uk": "səˈlɪsɪtə",
-      "translation_ru": "нотариус, юрист (брит.)"
+      "word": "distinguish",
+      "ipa_us": "dɪˈstɪŋɡwɪʃ",
+      "ipa_uk": "dɪˈstɪŋɡwɪʃ",
+      "translation_ru": "различать"
     },
     {
       "word": "erosion",
@@ -85,7 +85,7 @@
     {
       "sound": "word-stress",
       "examples": [
-        "solicitor",
+        "erosion",
         "negligences",
         "digressions"
       ],

@@ -21,6 +21,7 @@ public sealed partial class ShadowingPage : Page
     protected override void OnNavigatedFrom(NavigationEventArgs e)
     {
         ViewModel.Changed -= Render;
+        EnglishApp.Services.QuickSpeech.CancelCurrent();
         EnglishApp.Services.AppServices.Player.Stop();
     }
 

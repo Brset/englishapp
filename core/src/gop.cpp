@@ -86,10 +86,26 @@ PhonemeScore score_column(const LogPosteriors& m, int inventory_cols, int target
     for (int c : equivalent)
         if (c >= 0 && c < C) skip[static_cast<std::size_t>(c)] = true;
 
-    const int n = end - start;
+    // Frames that count: blank is not the argmax (over blank, all inventory columns and the target).
+    std::vector<char> use(static_cast<std::size_t>(end - start), 1);
+    int n = end - start;
+    if (opt.skip_blank_frames) {
+        int kept = 0;
+        for (int t = start; t < end; ++t) {
+            double best = m.at(t, target_col);
+            for (int c = 0; c < C; ++c)
+                if (c != kBlankColumn) best = std::max(best, static_cast<double>(m.at(t, c)));
+            const bool keep = m.at(t, kBlankColumn) < best;
+            use[static_cast<std::size_t>(t - start)] = keep;
+            kept += keep;
+        }
+        if (kept > 0) n = kept;
+        else std::fill(use.begin(), use.end(), 1);
+    }
     std::vector<double> mean(static_cast<std::size_t>(C), 0.0);
     double gop_sum = 0.0, tgt_sum = 0.0;
     for (int t = start; t < end; ++t) {
+        if (!use[static_cast<std::size_t>(t - start)]) continue;
         double best_other = -std::numeric_limits<double>::infinity();
         for (int c = 0; c < C; ++c) {
             double v = m.at(t, c);

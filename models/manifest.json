@@ -55,6 +55,8 @@
       "kind": "export",
       "script": "tools/export_phoneme_model.py",
       "source": "bookbot/wav2vec2-ljspeech-gruut (fallback: facebook/wav2vec2-lv-60-espeak-cv-ft)",
+      "model_env": "PRON_PHONEME_MODEL",
+      "model_choices": {"gruut": "bookbot/wav2vec2-ljspeech-gruut", "espeak": "facebook/wav2vec2-lv-60-espeak-cv-ft"},
       "dest": "phoneme"
     }
   ]

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Export an English wav2vec2 CTC phoneme model to ONNX + int8 (MatMul only).
 
-  python tools/export_phoneme_model.py --out models [--model ID]
+  python tools/export_phoneme_model.py --out models [--model ID|gruut|espeak]
+
+The model can also be chosen with the env var PRON_PHONEME_MODEL (CI switch; --model wins).
+Aliases: "gruut" = bookbot/wav2vec2-ljspeech-gruut (default), "espeak" = facebook/wav2vec2-lv-60-espeak-cv-ft.
+When a model is chosen explicitly there is NO silent fallback to the other one.
 
 Default: bookbot/wav2vec2-ljspeech-gruut (BASE size, ~95M params, IPA vocab -> ~95-110 MB int8).
 Documented fallback: --model facebook/wav2vec2-lv-60-espeak-cv-ft (LARGE, ~300 MB int8).
@@ -16,6 +20,7 @@ Pinned dependencies (tested set; CPU only):
 """
 import argparse
 import json
+import os
 import sys
 import tempfile
 import traceback
@@ -108,10 +113,17 @@ def main():
     _utf8_stdio()
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="models")
-    ap.add_argument("--model", default=DEFAULT_MODEL,
-                    help=f"HF model id (default {DEFAULT_MODEL}; fallback {FALLBACK_MODEL})")
+    ap.add_argument("--model", default=None,
+                    help=f"HF model id or alias gruut|espeak (default: $PRON_PHONEME_MODEL, else {DEFAULT_MODEL}; "
+                         f"fallback {FALLBACK_MODEL} only for the default)")
     ap.add_argument("--force", action="store_true")
     args = ap.parse_args()
+
+    chosen = args.model or os.environ.get("PRON_PHONEME_MODEL", "").strip() or None
+    explicit = chosen is not None
+    aliases = {"gruut": DEFAULT_MODEL, "espeak": FALLBACK_MODEL, "large": FALLBACK_MODEL, "small": DEFAULT_MODEL}
+    args.model = aliases.get(chosen.lower(), chosen) if chosen else DEFAULT_MODEL
+    print(f"phoneme model: {args.model} ({'explicit' if explicit else 'default'})")
 
     out = Path(args.out) / "phoneme"
     if (out / "model.onnx").is_file() and (out / "vocab.json").is_file() and not args.force:
@@ -124,7 +136,7 @@ def main():
         return 0
     except Exception:  # noqa: BLE001
         traceback.print_exc()
-        if args.model == FALLBACK_MODEL:
+        if args.model == FALLBACK_MODEL or explicit:
             return 1
         print(f"\n*** WARNING: {args.model} failed; falling back to {FALLBACK_MODEL} "
               f"(much larger, ~300 MB int8 -> APK grows) ***\n", flush=True)

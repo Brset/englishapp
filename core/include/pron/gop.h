@@ -17,6 +17,11 @@ struct GopOptions {
     // A phone is reported as substituted when its score is below this and the most likely
     // competitor is more probable than the expected phone on average.
     double substitution_score = 60.0;
+    // CTC models are spiky: between the emitting frames of a phone (and on stress/length/word-
+    // separator frames) the blank dominates. Averaging the GOP over those frames drags correct
+    // phones down, so score_column() only averages frames where blank is not the argmax
+    // (falling back to all frames of the span if there is none).
+    bool skip_blank_frames = true;
 
     static GopOptions preset(Strictness s);
 };

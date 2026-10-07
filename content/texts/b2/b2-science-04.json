@@ -86,7 +86,7 @@
       "sound": "w",
       "examples": [
         "waggle",
-        "worker",
+        "workers",
         "weather",
         "wall"
       ],
@@ -114,7 +114,7 @@
     {
       "sound": "ŋ",
       "examples": [
-        "long",
+        "kingdom",
         "strongly",
         "morning"
       ],

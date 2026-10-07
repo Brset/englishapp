@@ -57,6 +57,7 @@ class DrillScorer(private val app: EnglishApp) {
         val t0 = System.currentTimeMillis()
         var quiet = 0L
         var heard = false
+        try {
         while (true) {
             delay(100)
             val now = System.currentTimeMillis()
@@ -67,6 +68,11 @@ class DrillScorer(private val app: EnglishApp) {
             if (finished && lvl < 0.04f) {
                 if (quiet == 0L) quiet = now else if (now - quiet >= (if (sess != null) 700 else 1200)) break
             } else quiet = 0L
+        }
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            // screen left mid-recording: free the mic and the live tracker, otherwise the next start() reuses the stale recording
+            kotlinx.coroutines.withContext(kotlinx.coroutines.NonCancellable) { app.recorder.stop(); sess?.release() }
+            throw e
         }
         val pcm = app.recorder.stop()
         onRecorded()
@@ -111,6 +117,8 @@ fun SayPanel(scorer: DrillScorer, reference: String, resetKey: Any?, maxMs: Long
     var failed by remember(resetKey) { mutableStateOf(false) }
     var stopFlag by remember(resetKey) { mutableStateOf(false) }
     val level by scorer.level.collectAsStateWithLifecycle()
+    val alive = remember(resetKey) { booleanArrayOf(true) }
+    DisposableEffect(resetKey) { onDispose { alive[0] = false; stopFlag = true } }
     Column(Modifier.fillMaxWidth().animateContentSize(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
         when (phase) {
             DrillPhase.IDLE -> FilledTonalButton({
@@ -118,6 +126,7 @@ fun SayPanel(scorer: DrillScorer, reference: String, resetKey: Any?, maxMs: Long
                     result = null; failed = false; stopFlag = false; phase = DrillPhase.RECORDING
                     scope.launch {
                         val r = scorer.listen(reference, maxMs, { stopFlag }, { phase = DrillPhase.SCORING })
+                        if (!alive[0]) return@launch  // reset key changed meanwhile: result belongs to another item
                         phase = DrillPhase.IDLE
                         if (r == null) failed = true else { result = r; onResult(r) }
                     }

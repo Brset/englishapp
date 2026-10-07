@@ -33,6 +33,15 @@ enum class Accent { Any, Us, Gb };
 // "us"/"gb"/"any" (also "en-us", "uk", ...; case-insensitive). Returns false if unknown.
 bool parse_accent(const std::string& s, Accent& out);
 
+// True if the label consists only of stress / length / tie / syllabic marks (ˈ ˌ ː ˑ ͡ ̩ ...):
+// such model tokens (e.g. in character-level IPA vocabularies like gruut) carry no phone.
+bool is_ipa_mark_only(const std::string& label);
+
+// Phones a character-level IPA model emits one after another for a composite inventory phone:
+// EY -> e + ɪ, AY -> a + ɪ, AW -> a + ʊ, OW -> o + ʊ (or ə + ʊ), OY -> ɔ + ɪ, CH -> t + ʃ,
+// JH -> d + ʒ. Empty for other phones. Used when the model has no single token for the phone.
+std::vector<int> phoneme_components(int id);
+
 std::string arpabet_to_ipa(const std::string& arpabet);  // "" if unknown
 std::string ipa_to_arpabet(const std::string& ipa);      // "" if unknown
 

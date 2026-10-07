@@ -9,16 +9,16 @@
   "word_count": 725,
   "vocabulary": [
     {
-      "word": "old-fashioned",
-      "ipa_us": "ˌoʊldˈfæʃənd",
-      "ipa_uk": "ˌəʊldˈfæʃnd",
-      "translation_ru": "старомодный"
+      "word": "wonderful",
+      "ipa_us": "ˈwʌndərfl",
+      "ipa_uk": "ˈwʌndəfl",
+      "translation_ru": "замечательный"
     },
     {
-      "word": "e-reader",
-      "ipa_us": "ˈiˌridər",
-      "ipa_uk": "ˈiːˌriːdə",
-      "translation_ru": "электронная книга"
+      "word": "library",
+      "ipa_us": "ˈlaɪbreri",
+      "ipa_uk": "ˈlaɪbrəri",
+      "translation_ru": "библиотека"
     },
     {
       "word": "battery",
@@ -45,10 +45,10 @@
       "translation_ru": "память"
     },
     {
-      "word": "advantage",
-      "ipa_us": "ədˈvæntɪdʒ",
-      "ipa_uk": "ədˈvɑːntɪdʒ",
-      "translation_ru": "преимущество"
+      "word": "expensive",
+      "ipa_us": "ɪkˈspensɪv",
+      "ipa_uk": "ɪkˈspensɪv",
+      "translation_ru": "дорогой"
     },
     {
       "word": "dictionary",

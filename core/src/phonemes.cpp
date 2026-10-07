@@ -113,6 +113,27 @@ int phoneme_id(const std::string& arpabet) {
     return -1;
 }
 
+bool is_ipa_mark_only(const std::string& label) {
+    if (label.empty()) return false;
+    for (const char* m : {"'", ",", "\xCB\x91" /* ˑ */}) if (label == m) return true;
+    return strip_ipa_marks(label).empty();
+}
+
+std::vector<int> phoneme_components(int id) {
+    if (id < 0 || id >= kCount) return {};
+    static const struct { const char* id; const char* parts[3]; } kParts[] = {
+        {"EY", {"E", "IH", nullptr}},   {"AY", {"AA", "IH", nullptr}},  {"AW", {"AA", "UH", nullptr}},
+        {"OW", {"O", "UH", "AH"}},      {"OY", {"AO", "IH", nullptr}},  {"CH", {"T", "SH", nullptr}},
+        {"JH", {"D", "ZH", nullptr}},
+    };
+    std::vector<int> out;
+    for (const auto& k : kParts)
+        if (!std::strcmp(k.id, kInventory[id].arpabet))
+            for (const char* p : k.parts)
+                if (p) out.push_back(phoneme_id(p));
+    return out;
+}
+
 int phoneme_id_from_ipa(const std::string& ipa) {
     for (int i = 0; i < kCount; ++i)
         if (ipa == kInventory[i].ipa) return i;

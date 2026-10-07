@@ -27,10 +27,10 @@
       "translation_ru": "польза"
     },
     {
-      "word": "helmet",
-      "ipa_us": "ˈhɛlmɪt",
-      "ipa_uk": "ˈhelmɪt",
-      "translation_ru": "шлем"
+      "word": "discount",
+      "ipa_us": "ˈdɪskaʊnt",
+      "ipa_uk": "ˈdɪskaʊnt",
+      "translation_ru": "скидка"
     },
     {
       "word": "mechanic",
@@ -79,7 +79,7 @@
     {
       "sound": "h",
       "examples": [
-        "helmet",
+        "hundred",
         "happy"
       ],
       "tip_ru": "Лёгкий выдох из горла без напряжения. Это не русское «х»."

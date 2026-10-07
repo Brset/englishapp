@@ -39,10 +39,10 @@
       "translation_ru": "полоса движения"
     },
     {
-      "word": "windmill",
-      "ipa_us": "ˈwɪndmɪl",
-      "ipa_uk": "ˈwɪndmɪl",
-      "translation_ru": "ветряная мельница"
+      "word": "guidebook",
+      "ipa_us": "ˈɡaɪdbʊk",
+      "ipa_uk": "ˈɡaɪdbʊk",
+      "translation_ru": "путеводитель"
     },
     {
       "word": "herring",
@@ -89,7 +89,7 @@
       "sound": "dark-l",
       "examples": [
         "bell",
-        "windmill",
+        "million",
         "local"
       ],
       "tip_ru": "В конце слога язык поднимается к нёбу, звук твёрдый и глубокий; не смягчайте его как русское «ль»."
@@ -97,7 +97,7 @@
     {
       "sound": "w",
       "examples": [
-        "windmill",
+        "quickly",
         "white",
         "water"
       ],

@@ -45,10 +45,10 @@
       "translation_ru": "скобы, кронштейны"
     },
     {
-      "word": "pre-drilled",
-      "ipa_us": "ˌpriː ˈdrɪld",
-      "ipa_uk": "ˌpriː ˈdrɪld",
-      "translation_ru": "заранее просверленный"
+      "word": "screwdriver",
+      "ipa_us": "ˈskruːdraɪvər",
+      "ipa_uk": "ˈskruːdraɪvə",
+      "translation_ru": "отвёртка"
     },
     {
       "word": "serenity",
@@ -69,10 +69,10 @@
       "translation_ru": "небрежный"
     },
     {
-      "word": "flat-pack",
-      "ipa_us": "ˈflæt pæk",
-      "ipa_uk": "ˈflæt pæk",
-      "translation_ru": "мебель в разобранном виде"
+      "word": "furniture",
+      "ipa_us": "ˈfɜːrnɪtʃər",
+      "ipa_uk": "ˈfɜːnɪtʃə",
+      "translation_ru": "мебель"
     },
     {
       "word": "plaintive",
@@ -110,12 +110,12 @@
     {
       "sound": "aspiration",
       "examples": [
-        "time",
+        "turning",
         "two",
         "pegs",
         "kit"
       ],
-      "tip_ru": "Выдох после начальных p, t, k: pegs, time."
+      "tip_ru": "Выдох после начальных p, t, k: pegs, turning."
     },
     {
       "sound": "word-stress",

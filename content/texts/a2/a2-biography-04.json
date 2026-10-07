@@ -21,10 +21,10 @@
       "translation_ru": "бродяга"
     },
     {
-      "word": "performer",
-      "ipa_us": "pərˈfɔrmər",
-      "ipa_uk": "pəˈfɔːmə",
-      "translation_ru": "артист"
+      "word": "laughter",
+      "ipa_us": "ˈlæftər",
+      "ipa_uk": "ˈlɑːftə",
+      "translation_ru": "смех"
     },
     {
       "word": "audience",
@@ -108,7 +108,7 @@
       "examples": [
         "father",
         "the",
-        "other"
+        "brother"
       ],
       "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
     }

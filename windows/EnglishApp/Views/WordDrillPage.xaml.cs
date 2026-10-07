@@ -12,5 +12,7 @@ public sealed partial class WordDrillPage : Page
 
     protected override void OnNavigatedTo(NavigationEventArgs e) => ViewModel.Load();
 
+    protected override void OnNavigatedFrom(NavigationEventArgs e) { EnglishApp.Services.QuickSpeech.CancelCurrent(); EnglishApp.Services.AppServices.Player.Stop(); }
+
     private void OnVocab(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("vocab");
 }

@@ -9,11 +9,19 @@ public static class QuickSpeech
 {
     private const float VoiceLevel = 0.1f;
 
+    private static CancellationTokenSource? _current;
+
+    /// <summary>Aborts a running RecordAsync (call when leaving a drill page so the recorder is freed).</summary>
+    public static void CancelCurrent() { try { _current?.Cancel(); } catch (Exception) { } }
+
     /// <summary>Records until a pause after speech (or maxMs); returns the WAV path, or null when nothing was recorded.</summary>
     public static async Task<string?> RecordAsync(int maxMs = 7000, int silenceMs = 900, CancellationToken ct = default)
     {
         var rec = AppServices.Recorder;
         if (rec.IsRecording) return null;
+        using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+        _current = cts;
+        ct = cts.Token;
         AppServices.Player.Stop();
         var path = Path.Combine(Path.GetTempPath(), "pron_quick_" + Guid.NewGuid().ToString("N") + ".wav");
         var tcs = new TaskCompletionSource(TaskCreationOptions.RunContinuationsAsynchronously);
@@ -40,7 +48,13 @@ public static class QuickSpeech
             throw;
         }
         finally { rec.LevelChanged -= OnLevel; }
-        return await rec.StopAsync();
+        var wav = await rec.StopAsync();
+        if (ct.IsCancellationRequested)
+        {
+            if (wav != null) { try { File.Delete(wav); } catch (Exception) { } }
+            return null;
+        }
+        return wav;
     }
 
     /// <summary>Assesses the recording against the reference text (instant, non-queued) and deletes the temp file.</summary>

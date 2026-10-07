@@ -3,6 +3,11 @@ name: core
 # Public repo: Actions minutes are free. Build on pushes to main only (wip/* snapshots don't build).
 on:
   workflow_dispatch:
+    inputs:
+      phoneme_model:
+        description: 'Phoneme model for the engine job: gruut (default, small), espeak (large) or a HF model id'
+        required: false
+        default: ''
   push:
     branches: [main]
     tags: ['v*']
@@ -44,8 +49,16 @@ jobs:
       matrix:
         os: [ubuntu-latest]  # Windows runners cost 2x minutes; the windows workflow already builds the engine
     runs-on: ${{ matrix.os }}
+    env:
+      PRON_PHONEME_MODEL: ${{ inputs.phoneme_model }}   # read by tools/export_phoneme_model.py ("" = default)
+      PRON_DEBUG_LABELS: "1"                            # pron_cli: model labels per phoneme + vocab mapping
     steps:
       - uses: actions/checkout@v4
+      - name: Pin phoneme model into the models cache key
+        if: ${{ inputs.phoneme_model != '' }}
+        shell: bash
+        # the models action hashes tools/export_phoneme_model.py into its cache key; make a model switch miss the cache
+        run: echo "# ci-model=${PRON_PHONEME_MODEL}" >> tools/export_phoneme_model.py
       - name: Fetch models
         uses: ./.github/actions/models
         with:

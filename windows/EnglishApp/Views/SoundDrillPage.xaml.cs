@@ -10,4 +10,6 @@ public sealed partial class SoundDrillPage : Page
     public SoundDrillPage() { InitializeComponent(); }
 
     protected override void OnNavigatedTo(NavigationEventArgs e) => ViewModel.Load(e.Parameter as string);
+
+    protected override void OnNavigatedFrom(NavigationEventArgs e) { EnglishApp.Services.QuickSpeech.CancelCurrent(); EnglishApp.Services.AppServices.Player.Stop(); }
 }

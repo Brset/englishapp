@@ -11,7 +11,8 @@ import java.util.Locale
 import kotlin.math.max
 import kotlin.math.min
 
-private val DAY = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+// SimpleDateFormat is not thread-safe and caches the time zone: build a fresh one per use
+private val DAY get() = SimpleDateFormat("yyyy-MM-dd", Locale.US)
 
 internal fun today(): String = DAY.format(Date())
 

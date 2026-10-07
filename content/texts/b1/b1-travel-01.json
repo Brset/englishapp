@@ -9,10 +9,10 @@
   "word_count": 886,
   "vocabulary": [
     {
-      "word": "neighbourhood",
-      "ipa_us": "ˈneɪbərhʊd",
-      "ipa_uk": "ˈneɪbəhʊd",
-      "translation_ru": "район"
+      "word": "earthquakes",
+      "ipa_us": "ˈɜːrθkweɪks",
+      "ipa_uk": "ˈɜːθkweɪks",
+      "translation_ru": "землетрясения"
     },
     {
       "word": "souvenirs",
@@ -115,7 +115,7 @@
     {
       "sound": "word-stress",
       "examples": [
-        "neighbourhood",
+        "imagine",
         "souvenirs",
         "punctual",
         "convenience"

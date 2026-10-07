@@ -15,10 +15,10 @@
       "translation_ru": "население"
     },
     {
-      "word": "candidate",
-      "ipa_us": "ˈkændɪdeɪt",
-      "ipa_uk": "ˈkændɪdət",
-      "translation_ru": "кандидат"
+      "word": "campaign",
+      "ipa_us": "kæmˈpeɪn",
+      "ipa_uk": "kæmˈpeɪn",
+      "translation_ru": "кампания"
     },
     {
       "word": "punctuation",
@@ -95,7 +95,7 @@
     {
       "sound": "æ",
       "examples": [
-        "candidate",
+        "traffic",
         "that",
         "had",
         "laughed"

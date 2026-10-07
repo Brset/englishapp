@@ -143,7 +143,18 @@ static bool write_wav(const std::string& path, const std::vector<float>& x, int 
 }
 
 // ---------------------------------------------------------------- commands
+
+// Debug output of the engine: model labels per phoneme and the vocab token mapping table.
+static void enable_debug() {
+#ifdef _WIN32
+    _putenv_s("PRON_DEBUG_LABELS", "1");
+#else
+    setenv("PRON_DEBUG_LABELS", "1", 1);
+#endif
+}
+
 static int cmd_status(const char* models) {
+    enable_debug();
     Engine en(models);
     if (!en.e) { std::printf("{\"ok\":false,\"error\":\"cannot create engine for %s\"}\n", jesc(models).c_str()); return 1; }
     std::string st = take(pron_engine_status(en.e));
@@ -191,11 +202,12 @@ static Verdict check_assessment(const std::string& json, double ms) {
     bool phl = truthy(j.get("phoneme_level")) || (sc && truthy(sc->get("phoneme_level")));
     std::string dbg = "{}";
     if (const JV* pd = j.get("phoneme_debug")) {
-        char b[400];
-        std::snprintf(b, sizeof b, "{\"frames\":%.0f,\"classes\":%.0f,\"used\":%s,\"reason\":\"%s\"}",
+        char b[500];
+        std::snprintf(b, sizeof b, "{\"frames\":%.0f,\"classes\":%.0f,\"used\":%s,\"reason\":\"%s\",\"blank_ratio\":%.3f,\"peak_prob\":%.3f}",
                       pd->get("frames") ? pd->get("frames")->n : -1.0, pd->get("classes") ? pd->get("classes")->n : -1.0,
                       truthy(pd->get("used")) ? "true" : "false",
-                      jesc(pd->get("reason") ? pd->get("reason")->s : "").c_str());
+                      jesc(pd->get("reason") ? pd->get("reason")->s : "").c_str(),
+                      pd->get("blank_ratio") ? pd->get("blank_ratio")->n : -1.0, pd->get("peak_prob") ? pd->get("peak_prob")->n : -1.0);
         dbg = b;
     }
     if (!phl) {
@@ -285,7 +297,36 @@ static int cmd_live(const char* models, const char* wav, const char* text) {
     return 0;
 }
 
+// Per-phoneme table (word, expected IPA, model labels in the aligned region, GOP, score) on stderr.
+static void print_phoneme_table(const std::string& json, const char* voice) {
+    JV j;
+    if (!parse_json(json, j)) return;
+    const JV* words = j.get("words");
+    if (!words || words->t != JV::Arr) return;
+    std::fprintf(stderr, "PHONEME TABLE [%s]\n%-10s %-4s %-6s %-7s %-6s %6s %6s %5s  %-6s %s\n", voice, "word", "ipa", "arpa", "gop", "score",
+                 "t0", "t1", "subst", "actual", "model_labels(argmax over aligned region; _=blank)");
+    for (const JV& w : words->a) {
+        const JV* ph = w.get("phonemes");
+        const JV* st = w.get("status");
+        if (!ph || ph->t != JV::Arr) continue;
+        std::fprintf(stderr, "-- %s  status=%s score=%.1f scored_by=%s expected=/%s/ recognized=%s\n", w.get("text") ? w.get("text")->s.c_str() : "?",
+                     st ? st->s.c_str() : "?", w.get("score") ? w.get("score")->n : -1.0, w.get("scored_by") ? w.get("scored_by")->s.c_str() : "?",
+                     w.get("expected_ipa") ? w.get("expected_ipa")->s.c_str() : "", w.get("recognized") ? w.get("recognized")->s.c_str() : "");
+        for (const JV& p : ph->a) {
+            const JV* sc = p.get("score");
+            char score[16] = "-";
+            if (sc && sc->t == JV::Num) std::snprintf(score, sizeof score, "%.0f", sc->n);
+            std::fprintf(stderr, "%-10s %-4s %-6s %7.2f %-6s %6.2f %6.2f %5s  %-6s %s\n", w.get("text") ? w.get("text")->s.c_str() : "",
+                         p.get("ipa") ? p.get("ipa")->s.c_str() : "", p.get("arpabet") ? p.get("arpabet")->s.c_str() : "",
+                         p.get("gop") ? p.get("gop")->n : 0.0, score, p.get("start") ? p.get("start")->n : -1.0, p.get("end") ? p.get("end")->n : -1.0,
+                         truthy(p.get("substituted")) ? "yes" : "", p.get("actual_ipa") ? p.get("actual_ipa")->s.c_str() : "",
+                         p.get("model_labels") ? p.get("model_labels")->s.c_str() : "");
+        }
+    }
+}
+
 static int cmd_selftest(const char* models) {
+    enable_debug();
     const char* text = "Think about the weather. The three brothers are walking very fast.";
     Engine en(models);
     if (!en.e) { std::printf("{\"ok\":false,\"error\":\"cannot create engine for %s\"}\n", jesc(models).c_str()); return 1; }
@@ -299,6 +340,10 @@ static int cmd_selftest(const char* models) {
             if (pv && pv->get("unmapped")) for (const JV& u : pv->get("unmapped")->a) un += (un.empty() ? "\"" : ",\"") + jesc(u.s) + "\"";
             std::printf("{\"phoneme_vocab\":{\"size\":%.0f,\"mapped\":%.0f,\"unmapped\":[%s]}}\n",
                         pv && pv->get("size") ? pv->get("size")->n : -1.0, pv && pv->get("mapped") ? pv->get("mapped")->n : -1.0, un.c_str());
+            if (pv && pv->get("mapping") && pv->get("mapping")->t == JV::Arr) {
+                std::fprintf(stderr, "VOCAB MAPPING (token>phone; blank = blank/word separator/stress/length mark; - = unmapped):\n");
+                for (const JV& m : pv->get("mapping")->a) std::fprintf(stderr, "  %s\n", m.s.c_str());
+            }
         } else std::printf("{\"phoneme_vocab\":null}\n");
     }
     std::vector<int16_t> live_pcm; int live_sr = 0;
@@ -335,7 +380,7 @@ static int cmd_selftest(const char* models) {
                              voice, ratio, assess_ms, audio_s, pron_engine_estimate_seconds(en.e, 10.0));
             }
             if (json.empty()) {}
-            else { Verdict v = check_assessment(json, assess_ms); summary = v.summary; f.insert(f.end(), v.failures.begin(), v.failures.end()); }
+            else { print_phoneme_table(json, voice); Verdict v = check_assessment(json, assess_ms); summary = v.summary; f.insert(f.end(), v.failures.begin(), v.failures.end()); }
         }
         std::printf("{\"voice\":\"%s\",\"ok\":%s,\"tts_ms\":%.0f,\"tts_sample_rate\":%d,\"audio_seconds\":%.2f,\"assess_ms\":%.0f,\"result\":%s,\"failures\":[",
                     voice, f.empty() ? "true" : "false", tts_ms, sr, audio_s, assess_ms, summary.c_str());

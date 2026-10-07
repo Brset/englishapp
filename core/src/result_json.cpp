@@ -68,6 +68,10 @@ std::string to_json(const AssessmentResult& r, bool pretty) {
     j.kv("classes", r.post_classes);
     j.kv("used", r.post_used);
     j.kv("reason", r.post_reason);
+    if (r.post_blank_ratio >= 0) {
+        j.kv("blank_ratio", r.post_blank_ratio, 3);
+        j.kv("peak_prob", r.post_peak_prob, 3);
+    }
     j.end_object();
 
     j.key("words").begin_array();
@@ -110,6 +114,7 @@ std::string to_json(const AssessmentResult& r, bool pretty) {
             j.kv("substituted", p.substituted);
             j.kv("actual_arpabet", p.actual_arpabet);
             j.kv("actual_ipa", p.actual_ipa);
+            if (!p.model_labels.empty()) j.kv("model_labels", p.model_labels);
             j.key("advice_id");
             if (p.advice) {
                 j.value(p.advice->id);

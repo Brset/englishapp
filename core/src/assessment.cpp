@@ -50,6 +50,26 @@ std::size_t utf16_offset(const std::string& utf8, std::size_t byte_offset) {
 
 namespace {
 
+// Argmax model label per frame of [t0, t1), repeats collapsed, blank-like labels as "_".
+std::string argmax_labels(const LogPosteriors& lp, const PhonemeVocab& v, int t0, int t1) {
+    std::string out;
+    int last = -2, n = 0;
+    t0 = std::max(0, t0);
+    t1 = std::min(t1, lp.frames);
+    for (int t = t0; t < t1 && n < 14; ++t) {
+        int best = 0;
+        for (int c = 1; c < lp.classes; ++c)
+            if (lp.at(t, c) > lp.at(t, best)) best = c;
+        if (best == last) continue;
+        last = best;
+        const bool blank = best == v.blank_index() || v.is_delimiter(best);
+        if (!out.empty()) out += ' ';
+        out += blank ? std::string("_") : v.labels()[static_cast<std::size_t>(best)];
+        ++n;
+    }
+    return out;
+}
+
 struct HypWord {
     std::string norm;
     double start, end;
@@ -178,6 +198,20 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
     } else {
         inv = vocab_.collapse(*posteriors);
         use_gop = true;
+        {   // blank statistics of the model (diagnostics for score calibration)
+            int blank_frames = 0, nb = 0;
+            double peak = 0.0;
+            for (int t = 0; t < inv.frames; ++t) {
+                int best = kBlankColumn;
+                for (int c = 1; c < inv.classes; ++c)
+                    if (inv.at(t, c) > inv.at(t, best)) best = c;
+                if (best == kBlankColumn) { ++blank_frames; continue; }
+                peak += std::exp(static_cast<double>(inv.at(t, best)));
+                ++nb;
+            }
+            res.post_blank_ratio = static_cast<double>(blank_frames) / inv.frames;
+            res.post_peak_prob = nb ? peak / nb : 0.0;
+        }
         res.post_reason = "ok";
     }
     res.phoneme_level = use_gop;
@@ -259,6 +293,12 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
             std::vector<std::vector<int>> merged(static_cast<std::size_t>(L));  // incl. blank if optional
             for (int k = 0; k < L; ++k) {
                 PhonemeVariants pv = phoneme_variants(expected, static_cast<std::size_t>(k), opt.accent);
+                // Character-level IPA models (gruut) have no single token for diphthongs/affricates:
+                // they emit e.g. "e" then "ɪ" for EY. Accept the component phones as realisations.
+                const int pid = phoneme_id(expected[static_cast<std::size_t>(k)].symbol);
+                if (pid >= 0 && !vocab_.has_column(column_of_phoneme(pid)))
+                    for (int cid : phoneme_components(pid))
+                        if (std::find(pv.ids.begin(), pv.ids.end(), cid) == pv.ids.end()) pv.ids.push_back(cid);
                 for (int id : pv.ids) {
                     int col = column_of_phoneme(id);
                     if (vocab_.has_column(col)) equiv[static_cast<std::size_t>(k)].push_back(col);
@@ -300,6 +340,7 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
                     const auto& sp = ca.spans[static_cast<std::size_t>(k)];
                     pr.start = (f0 + sp.start_frame) * fs;
                     pr.end = (f0 + sp.region_end) * fs;
+                    if (opt.debug_labels) pr.model_labels = argmax_labels(*posteriors, vocab_, f0 + sp.start_frame, f0 + sp.region_end);
                     if (merged[static_cast<std::size_t>(k)].empty()) continue;  // not expressible by this model
                     PhonemeScore ps = score_column(seg, kInvCols, sp.column, phoneme_id(pr.arpabet),
                                                    equiv[static_cast<std::size_t>(k)], sp.start_frame,

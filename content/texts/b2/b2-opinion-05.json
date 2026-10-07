@@ -9,10 +9,10 @@
   "word_count": 882,
   "vocabulary": [
     {
-      "word": "e-readers",
-      "ipa_us": "ˈi ˌridərz",
-      "ipa_uk": "ˈiː ˌriːdəz",
-      "translation_ru": "электронные книги"
+      "word": "dictionary",
+      "ipa_us": "ˈdɪkʃəneri",
+      "ipa_uk": "ˈdɪkʃənri",
+      "translation_ru": "словарь"
     },
     {
       "word": "nostalgia",
@@ -105,7 +105,7 @@
     {
       "sound": "word-stress",
       "examples": [
-        "e-readers",
+        "museums",
         "nostalgia",
         "paperback",
         "complicated"
