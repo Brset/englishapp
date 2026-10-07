@@ -2,125 +2,155 @@
   "id": "a2-opinion-05",
   "level": "A2",
   "genre": "opinion",
-  "title_en": "Learning English Is Worth It",
-  "title_ru": "Английский стоит усилий",
-  "description_ru": "Автор убеждает, что учить английский трудно, но полезно, и делится советами.",
-  "text": "Learning a language is difficult, but I believe it is worth the effort. I started English two years ago, and my life is already different.\n\nFirst, English helps me at work. Last month, a customer from Canada called our office. Nobody wanted to answer, but I took the phone and spoke to him. My boss was surprised and very pleased.\n\nSecond, I can enjoy films and songs without translation. At first, I understood only a few words. Now I understand much more, and it feels great.\n\nThird, English opens the door to the world. When I travel, I can ask for directions, order food and make new friends.\n\nMy advice is simple. Do not wait for the perfect moment. Study a little every day, and speak aloud, even when you make mistakes. Mistakes are normal. Everybody makes them, and they help you learn.",
-  "word_count": 143,
+  "title_en": "Why We Need a Four-Day Week",
+  "title_ru": "Почему нужна четырёхдневная рабочая неделя",
+  "description_ru": "Рассуждение в защиту рабочей недели из четырёх дней: аргументы, примеры, возможные трудности и итог.",
+  "text": "Imagine a week with only four working days and three days of rest. It sounds like a dream, but some countries and companies are already trying it. In my opinion, a four-day working week is a great idea, and I think it is going to become normal in the future. Here are my reasons.\n\nFirst, let me explain what I mean. At present, most people in my country work five days, from Monday to Friday, for eight hours a day. A four-day week means that employees work for four days, and they get the same salary as before. Sometimes the days are a bit longer, but the total time is shorter. The idea is not new, but it has become popular in recent years.\n\nLet me give you my first and best argument. It is simple: people are happier when they have more free time. My uncle works in an office, and he often comes home after seven o'clock. He is so tired that he only wants to eat dinner and watch television. On Saturday he does the shopping and cleans the house, and on Sunday evening he already feels sad because Monday is coming. If he had one more free day, he could rest, spend time with his children and finally learn to play the guitar, which he has wanted to do for ten years.\n\nThere is also good evidence that short weeks work. In Britain, in 2022, about sixty companies tried a four-day week for six months. At the end, most of them said they would keep it. The workers felt less stressed, and fewer people were ill or left their jobs. In Iceland, many workers moved to shorter hours after a large trial, and the results were also positive. These experiments show that people can do the same work in less time, because they concentrate better when they are fresh.\n\nThink about your own working day. Be honest with yourself. How many hours do you really work? Studies suggest that many office workers do useful work for only three or four hours a day. The rest of the time they talk, look at their phones, go to long meetings or wait for something. A shorter week makes people use their time more carefully. Meetings become shorter, and people stop doing unnecessary things. My cousin works for a small company that tried this, and she says that everyone became more organised.\n\nA shorter week is good for the environment, too. If fewer people travel to work, there are fewer cars on the roads and less pollution. Offices use less electricity and heating. Families can cook at home instead of buying fast food, and they can spend time outside instead of shopping. It is not a perfect solution to climate problems, but it helps.\n\nMoney is also a question. Some people say that a company cannot pay the same salary for fewer hours. But a happy worker stays longer in a job, and a company that does not need to find and teach new people saves a lot of money every year. Of course, there are difficulties. Some jobs cannot easily be done in four days. Hospitals, shops and restaurants need people every day, so these workplaces would have to use different groups of workers. It could also be more expensive for some small businesses. Some managers are afraid that their employees will relax too much and produce less. I understand these worries. But I think that if a company treats its workers well, the workers will repay it with better work.\n\nAnother possible problem is that people might use their extra day to take a second job. If this happens, the idea loses its point. So the change must come with a clear message: the extra day is for rest, family and hobbies, not for more money.\n\nI believe the world is moving in this direction. A hundred years ago, people worked six days a week, and many said that two days of rest would ruin the economy. They were wrong. The five-day week made life better, and I think a four-day week can do the same.\n\nIn the end, a job is only one part of life. We work to live, we do not live to work. If we have a day more to walk, read, cook or just sit in the sun, we are going to be healthier people, and probably better workers as well.",
+  "word_count": 743,
   "vocabulary": [
     {
-      "word": "worth",
-      "ipa_us": "wɜːrθ",
-      "ipa_uk": "wɜːθ",
-      "translation_ru": "стоящий"
+      "word": "employee",
+      "ipa_us": "ɪmˈplɔɪi",
+      "ipa_uk": "ɪmˈplɔɪiː",
+      "translation_ru": "работник"
     },
     {
-      "word": "effort",
-      "ipa_us": "ˈefərt",
-      "ipa_uk": "ˈefət",
-      "translation_ru": "усилие"
+      "word": "salary",
+      "ipa_us": "ˈsæləri",
+      "ipa_uk": "ˈsæləri",
+      "translation_ru": "зарплата"
     },
     {
-      "word": "customer",
-      "ipa_us": "ˈkʌstəmər",
-      "ipa_uk": "ˈkʌstəmə",
-      "translation_ru": "клиент"
+      "word": "evidence",
+      "ipa_us": "ˈɛvədəns",
+      "ipa_uk": "ˈevɪdəns",
+      "translation_ru": "доказательства"
     },
     {
-      "word": "surprised",
-      "ipa_us": "sərˈpraɪzd",
-      "ipa_uk": "səˈpraɪzd",
-      "translation_ru": "удивлённый"
+      "word": "experiment",
+      "ipa_us": "ɪkˈspɛrəmənt",
+      "ipa_uk": "ɪkˈsperɪmənt",
+      "translation_ru": "эксперимент"
     },
     {
-      "word": "translation",
-      "ipa_us": "trænsˈleɪʃn",
-      "ipa_uk": "trænzˈleɪʃn",
-      "translation_ru": "перевод"
+      "word": "stressed",
+      "ipa_us": "strɛst",
+      "ipa_uk": "strest",
+      "translation_ru": "напряжённый"
     },
     {
-      "word": "directions",
-      "ipa_us": "dəˈrekʃnz",
-      "ipa_uk": "dəˈrekʃnz",
-      "translation_ru": "дорога, указания"
+      "word": "organised",
+      "ipa_us": "ˈɔrɡəˌnaɪzd",
+      "ipa_uk": "ˈɔːɡənaɪzd",
+      "translation_ru": "организованный"
     },
     {
-      "word": "advice",
-      "ipa_us": "ədˈvaɪs",
-      "ipa_uk": "ədˈvaɪs",
-      "translation_ru": "совет"
+      "word": "unnecessary",
+      "ipa_us": "ʌnˈnɛsəˌsɛri",
+      "ipa_uk": "ʌnˈnesəsəri",
+      "translation_ru": "ненужный"
     },
     {
-      "word": "mistake",
-      "ipa_us": "mɪˈsteɪk",
-      "ipa_uk": "mɪˈsteɪk",
-      "translation_ru": "ошибка"
+      "word": "pollution",
+      "ipa_us": "pəˈluʃən",
+      "ipa_uk": "pəˈluːʃn",
+      "translation_ru": "загрязнение"
+    },
+    {
+      "word": "environment",
+      "ipa_us": "ɪnˈvaɪrənmənt",
+      "ipa_uk": "ɪnˈvaɪrənmənt",
+      "translation_ru": "окружающая среда"
+    },
+    {
+      "word": "economy",
+      "ipa_us": "ɪˈkɑnəmi",
+      "ipa_uk": "ɪˈkɒnəmi",
+      "translation_ru": "экономика"
+    },
+    {
+      "word": "hobbies",
+      "ipa_us": "ˈhɑbiz",
+      "ipa_uk": "ˈhɒbiz",
+      "translation_ru": "хобби"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "worth",
-        "month"
-      ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
       "sound": "w",
       "examples": [
-        "worth",
-        "world"
+        "week",
+        "work",
+        "worker"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "v",
+      "sound": "aɪ",
       "examples": [
-        "very",
-        "advice"
+        "time",
+        "idea",
+        "times"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
     },
     {
-      "sound": "ɜː",
+      "sound": "h",
       "examples": [
-        "worth",
-        "learn"
+        "happy",
+        "hours",
+        "hobbies"
       ],
-      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+      "tip_ru": "Лёгкий выдох из горла без напряжения. Это не русское «х»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "world",
+        "hours",
+        "days"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
     }
   ],
   "questions": [
     {
-      "question": "How long has the writer studied English?",
-      "answer": "Two years.",
+      "question": "What is a four-day week?",
+      "answer": "Employees work four days and get the same salary as before.",
       "accepted_keywords": [
-        "two",
-        "2"
+        "four",
+        "same",
+        "salary",
+        "days"
       ]
     },
     {
-      "question": "Where was the customer from?",
-      "answer": "Canada.",
+      "question": "Which countries does the writer mention as examples?",
+      "answer": "Britain and Iceland.",
       "accepted_keywords": [
-        "canada"
+        "britain",
+        "iceland"
       ]
     },
     {
-      "question": "Who was surprised?",
-      "answer": "The boss.",
+      "question": "How can a shorter week help the environment?",
+      "answer": "Fewer people travel to work, so there are fewer cars and less pollution.",
       "accepted_keywords": [
-        "boss"
+        "cars",
+        "pollution",
+        "travel",
+        "less"
       ]
     },
     {
-      "question": "What is the writer's advice?",
-      "answer": "Study a little every day and speak aloud.",
+      "question": "What is a possible problem?",
+      "answer": "Some jobs cannot be done in four days, or people may take a second job.",
       "accepted_keywords": [
-        "study",
-        "speak",
-        "every"
+        "jobs",
+        "hospitals",
+        "shops",
+        "second",
+        "expensive"
       ]
     }
   ]

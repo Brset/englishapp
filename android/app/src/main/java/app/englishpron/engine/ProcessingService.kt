@@ -76,9 +76,9 @@ class ProcessingService : Service() {
             job.running -> {
                 val pct = (job.progress * 100).toInt()
                 val eta = if (job.etaSec >= 0) job.etaSec else job.estimateSec
-                "Обработка: ${job.title} — $pct%" + if (eta >= 0) " · осталось ${formatMmSs(eta)}" else ""
+                "Обработка: ${job.label} — $pct%" + if (eta >= 0) " · осталось ${formatMmSs(eta)}" else ""
             }
-            else -> "Обработка: ${job.title} — в очереди"
+            else -> "Обработка: ${job.label} — в очереди"
         }
         val open = PendingIntent.getActivity(this, 0, Intent(this, MainActivity::class.java)
             .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP), PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)

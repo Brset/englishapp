@@ -3,40 +3,52 @@
   "level": "C1",
   "genre": "biography",
   "title_en": "Nikola Tesla: Brilliance Without a Business Plan",
-  "title_ru": "Никола Тесла: гениальность без бизнес-плана",
-  "description_ru": "Жизнь изобретателя переменного тока, чьи идеи опередили время, а деловая хватка отстала.",
-  "text": "Nikola Tesla was born in July 1856 in the village of Smiljan, in what was then the Austrian Empire and is now Croatia. His father was an Orthodox priest who hoped that his son would follow him into the church, but the boy had other ambitions. He had an extraordinary visual imagination, and he later claimed that he could construct a whole machine in his head, test it mentally and only afterwards build it.\n\nHe studied engineering at the Technical University in Graz, where he became convinced that the commutator in a direct-current motor, a part that produced constant sparks, was an unnecessary flaw. After working in Budapest and Paris, he emigrated to the United States in 1884 with a letter of recommendation to Thomas Edison, whose company he joined. The partnership was short-lived. Edison championed direct current, while Tesla believed that alternating current was far more efficient for transmitting electricity over long distances. Disagreements, including a dispute about payment, led him to resign within months.\n\nTesla's fortunes improved when the industrialist George Westinghouse bought his patents for an alternating-current system and a brilliant induction motor. What followed became known as the War of the Currents, a bitter public contest in which Edison's camp tried to frighten the public by stressing the dangers of alternating current. Westinghouse prevailed. His company lit the 1893 World's Fair in Chicago, and in 1895 a pioneering hydroelectric plant at Niagara Falls began sending alternating current to the city of Buffalo. The system that Tesla championed still powers our homes.\n\nHe was also an irresistible showman. In his laboratory he demonstrated wireless lamps glowing in his hands and invented the Tesla coil, a transformer that produces spectacular high-voltage discharges and is still used in radio technology. He experimented with radio-controlled boats, explored X-rays and dreamed of transmitting both information and power across the globe without wires. With funding from the financier J. P. Morgan, he began building a huge tower at Wardenclyffe on Long Island, but the money ran out, and the structure was demolished in 1917.\n\nDespite his genius, he was a poor businessman. He generously signed away royalties that might have made him a very wealthy man, and he spent his later years in New York hotels, increasingly isolated, devoted to pigeons and weighed down by debt. His habits grew eccentric: he was obsessive about cleanliness and the number three.\n\nTesla died alone in a hotel room in January 1943, aged eighty-six. Within a few months the Supreme Court recognised that he, not Marconi, had priority in certain radio patents. In 1960 the international unit of magnetic flux density was named the tesla, a belated honour for a visionary whose ideas travelled far faster than his fortune.",
-  "word_count": 454,
+  "title_ru": "Никола Тесла: гений без бизнес-плана",
+  "description_ru": "История изобретателя, подарившего миру переменный ток, и его трагического неумения превращать великие идеи в деньги.",
+  "text": "When Nikola Tesla stepped off a ship in New York in 1884, he reportedly had four cents in his pocket, a book of poems and a letter of introduction to Thomas Edison. The letter contained one sentence of lasting fame: \"I know two great men and you are one of them. The other is this young man.\" Whether Edison truly deserved the compliment is a matter for debate. What is beyond dispute is that the young man would go on to reshape how the modern world is powered, and that he would die almost penniless.\n\nHe was born in 1856 in the village of Smiljan, then part of the Austrian Empire and now in Croatia, into a Serbian Orthodox family. His father was a priest who hoped that his son would follow him into the Church. Nikola had other ideas. As a child he was haunted by vivid flashes of light and images that appeared before his eyes, and he later claimed that he could see an entire machine in his mind, test it, and detect flaws in its design before he built anything. Many people took the claim as an exaggeration, but his later work suggests that he had a remarkable gift for visualisation.\n\nAfter studying engineering in Graz, Tesla worked in Budapest on a new telephone exchange, and it was in a Budapest park in 1882, while reciting Goethe, that the solution to a problem that had been haunting him suddenly arrived. He picked up a stick and sketched in the dirt the design of a motor driven by a rotating magnetic field, powered by alternating current. Such a motor needed no fragile brushes and could run smoothly for years. The idea would eventually prove worth many millions of dollars.\n\nIn New York he worked briefly for Edison, who was then the best-known inventor in America and a passionate advocate of direct current. The partnership was doomed. Tesla was a polished, fastidious European who read in several languages and dressed immaculately; Edison was a pragmatic tinkerer who trusted experiment over theory. A famous story, whose details are disputed, holds that Edison promised a fifty-thousand-dollar bonus for improving his generators, then dismissed the offer as an American joke. Tesla resigned in disgust.\n\nHis luck changed when he met investors who set up the Tesla Electric Light Company, and later the industrialist George Westinghouse, who bought the rights to his alternating-current patents in 1888 for cash and a royalty on every unit of horsepower. Thus began the so-called War of the Currents. Edison, whose business depended on direct current, ran a campaign of public demonstrations that were designed to frighten the public by showing how deadly alternating current could be. Yet alternating current had a decisive economic advantage: it could be sent over long distances at high voltage and then reduced for safe use at home.\n\nWestinghouse won the argument in 1893, when his company illuminated the World's Columbian Exposition in Chicago with a quarter of a million lamps, and in 1895 the first major hydroelectric power plant at Niagara Falls began transmitting alternating current to Buffalo. Tesla, who had helped to design the system, was in his late thirties and famous. He lived in a suite in a Manhattan hotel, dined with celebrities and gave lectures in which he passed hundreds of thousands of volts through his body without harm, delighting audiences who could not tell that the current was of a frequency too high to injure him.\n\nIronically, Tesla's greatest financial decision was an act of generosity. When Westinghouse's company teetered on the edge of bankruptcy in the early 1890s, he tore up the royalty agreement that would have made Tesla a multimillionaire. Tesla felt grateful to the man who had believed in him, and had no head for money anyway. He never again managed to secure such favourable terms.\n\nHis ambitions only grew larger. He demonstrated wireless-controlled boats, designed neon-like lighting and invented the Tesla coil, a resonant transformer still used in radio equipment and, more theatrically, in science museums. Then he conceived the project that would break him: a tall tower at Wardenclyffe on Long Island that would transmit information, and even power, across the globe without wires. The banker J. P. Morgan put up one hundred and fifty thousand dollars, but when Guglielmo Marconi sent a transatlantic radio signal in 1901 using cheaper methods, Morgan refused to supply more. The tower was never finished and, in 1917, it was demolished to pay debts.\n\nThe final decades were lonely. Tesla made grand announcements, including a so-called death ray, that were never backed by working prototypes, and newspapers began to treat him as an eccentric. He developed rituals bordering on obsession, such as insisting on napkins in multiples of three, and he formed an intense bond with the pigeons that he fed in city parks. He died alone in a New York hotel room in January 1943, aged eighty-six, with more than a few debts to his name.\n\nYet reputation tends to be generous to the neglected. In 1960 the international scientific community named the unit of magnetic flux density the tesla in his honour, and the world has since discovered that his name, like his best ideas, has a tendency to return. His story is a reminder that invention and success are not the same thing, and that a brilliant mind without a business plan may illuminate everyone but its owner.",
+  "word_count": 904,
   "vocabulary": [
     {
-      "word": "commutator",
-      "ipa_us": "ˈkɑːmjuteɪtər",
-      "ipa_uk": "ˈkɒmjuteɪtə",
-      "translation_ru": "коллектор (электромашины)"
+      "word": "penniless",
+      "ipa_us": "ˈpeniləs",
+      "ipa_uk": "ˈpeniləs",
+      "translation_ru": "без гроша"
+    },
+    {
+      "word": "visualisation",
+      "ipa_us": "ˌvɪʒuələˈzeɪʃən",
+      "ipa_uk": "ˌvɪʒuəlaɪˈzeɪʃən",
+      "translation_ru": "визуализация"
     },
     {
       "word": "alternating",
       "ipa_us": "ˈɔːltərneɪtɪŋ",
-      "ipa_uk": "ˈɔːltəneɪtɪŋ",
+      "ipa_uk": "ˈɒltəneɪtɪŋ",
       "translation_ru": "переменный"
     },
     {
-      "word": "induction",
-      "ipa_us": "ɪnˈdʌkʃən",
-      "ipa_uk": "ɪnˈdʌkʃən",
-      "translation_ru": "индукция"
+      "word": "fastidious",
+      "ipa_us": "fæˈstɪdiəs",
+      "ipa_uk": "fæˈstɪdiəs",
+      "translation_ru": "привередливый, щепетильный"
     },
     {
-      "word": "prevailed",
-      "ipa_us": "prɪˈveɪld",
-      "ipa_uk": "prɪˈveɪld",
-      "translation_ru": "одержал верх"
+      "word": "immaculately",
+      "ipa_us": "ɪˈmækjələtli",
+      "ipa_uk": "ɪˈmækjʊlətli",
+      "translation_ru": "безупречно"
     },
     {
-      "word": "pioneering",
-      "ipa_us": "ˌpaɪəˈnɪrɪŋ",
-      "ipa_uk": "ˌpaɪəˈnɪərɪŋ",
-      "translation_ru": "новаторский"
+      "word": "pragmatic",
+      "ipa_us": "præɡˈmætɪk",
+      "ipa_uk": "præɡˈmætɪk",
+      "translation_ru": "практичный"
+    },
+    {
+      "word": "royalty",
+      "ipa_us": "ˈrɔɪəlti",
+      "ipa_uk": "ˈrɔɪəlti",
+      "translation_ru": "роялти, авторские отчисления"
     },
     {
       "word": "hydroelectric",
@@ -45,96 +57,124 @@
       "translation_ru": "гидроэлектрический"
     },
     {
-      "word": "royalties",
-      "ipa_us": "ˈrɔɪəltiz",
-      "ipa_uk": "ˈrɔɪəltiz",
-      "translation_ru": "роялти, авторские отчисления"
+      "word": "teetered",
+      "ipa_us": "ˈtiːtərd",
+      "ipa_uk": "ˈtiːtəd",
+      "translation_ru": "балансировала на грани"
     },
     {
-      "word": "visionary",
-      "ipa_us": "ˈvɪʒəneri",
-      "ipa_uk": "ˈvɪʒənəri",
-      "translation_ru": "провидец"
+      "word": "resonant",
+      "ipa_us": "ˈrezənənt",
+      "ipa_uk": "ˈrezənənt",
+      "translation_ru": "резонансный"
     },
     {
-      "word": "belated",
-      "ipa_us": "bɪˈleɪtɪd",
-      "ipa_uk": "bɪˈleɪtɪd",
-      "translation_ru": "запоздалый"
+      "word": "transatlantic",
+      "ipa_us": "ˌtrænzətˈlæntɪk",
+      "ipa_uk": "ˌtrænzətˈlæntɪk",
+      "translation_ru": "трансатлантический"
+    },
+    {
+      "word": "prototypes",
+      "ipa_us": "ˈproʊtətaɪps",
+      "ipa_uk": "ˈprəʊtətaɪps",
+      "translation_ru": "опытные образцы"
+    },
+    {
+      "word": "obsession",
+      "ipa_us": "əbˈseʃən",
+      "ipa_uk": "əbˈseʃən",
+      "translation_ru": "одержимость"
+    },
+    {
+      "word": "neglected",
+      "ipa_us": "nɪˈɡlektɪd",
+      "ipa_uk": "nɪˈɡlektɪd",
+      "translation_ru": "забытый, оставленный без внимания"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "word-stress",
-      "examples": [
-        "engineering",
-        "alternating",
-        "electricity"
-      ],
-      "tip_ru": "В engineering ударение на последнем слоге перед -ing: engiNEERing; в electricity — на -tri-: electRIcity."
-    },
-    {
       "sound": "v",
       "examples": [
-        "very",
-        "visionary",
+        "visualisation",
+        "Westinghouse",
+        "voltage",
         "invented"
       ],
-      "tip_ru": "Нижняя губа касается верхних зубов, голос включён. Не оглушайте v в конце слова: have, of."
+      "tip_ru": "Нижняя губа прижимается к верхним зубам, голос включён. Не заменяйте на в с двумя губами или на ф."
     },
     {
-      "sound": "h",
+      "sound": "w",
       "examples": [
-        "his",
-        "hotel",
-        "hands"
+        "world",
+        "wireless",
+        "wires",
+        "without"
       ],
-      "tip_ru": "Просто сильный выдох из горла без трения, не как русское х."
+      "tip_ru": "Губы вытянуты и округлены, затем резко раскрываются: world, wires. Это не в."
     },
     {
-      "sound": "æ",
+      "sound": "ɜː",
+      "examples": [
+        "world",
+        "Westinghouse",
+        "first",
+        "work"
+      ],
+      "tip_ru": "Долгий центральный гласный: губы расслаблены, язык в середине рта, без р-окраски в британском варианте."
+    },
+    {
+      "sound": "word-stress",
       "examples": [
         "alternating",
-        "transformer",
-        "magnetic"
+        "hydroelectric",
+        "transatlantic"
       ],
-      "tip_ru": "Рот открыт шире, чем для э; язык впереди и низко: звук между а и э."
+      "tip_ru": "hydroelEctric, transatLANtic: ударение на слоге перед -ic. Не ставьте его на первый слог."
     }
   ],
   "questions": [
     {
+      "question": "What did Tesla sketch in the dirt in Budapest?",
+      "answer": "A motor driven by a rotating magnetic field using alternating current.",
+      "accepted_keywords": [
+        "motor",
+        "alternating",
+        "magnetic",
+        "current"
+      ]
+    },
+    {
       "question": "Why did Tesla leave Edison?",
-      "answer": "They disagreed about direct and alternating current, and about payment.",
+      "answer": "They clashed; Edison would not pay a promised bonus.",
       "accepted_keywords": [
-        "current",
-        "payment",
-        "disagreement",
-        "alternating"
+        "bonus",
+        "edison",
+        "joke",
+        "resigned",
+        "promised"
       ]
     },
     {
-      "question": "Who bought Tesla's patents?",
-      "answer": "George Westinghouse.",
+      "question": "What generous thing did Tesla do for Westinghouse?",
+      "answer": "He tore up the royalty agreement.",
       "accepted_keywords": [
-        "westinghouse"
+        "royalty",
+        "tore",
+        "agreement",
+        "contract"
       ]
     },
     {
-      "question": "What was the Tesla coil used for?",
-      "answer": "Producing high-voltage discharges, used in radio technology.",
+      "question": "What happened to the Wardenclyffe tower?",
+      "answer": "It was never finished and was demolished to pay debts.",
       "accepted_keywords": [
-        "voltage",
-        "radio",
-        "discharges",
-        "transformer"
-      ]
-    },
-    {
-      "question": "What was Wardenclyffe?",
-      "answer": "A huge tower Tesla began building on Long Island.",
-      "accepted_keywords": [
-        "tower",
-        "long island"
+        "demolished",
+        "debts",
+        "unfinished",
+        "never finished",
+        "money"
       ]
     }
   ]

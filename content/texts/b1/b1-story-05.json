@@ -2,107 +2,166 @@
   "id": "b1-story-05",
   "level": "B1",
   "genre": "story",
-  "title_en": "The Violin in the Attic",
-  "title_ru": "Скрипка на чердаке",
-  "description_ru": "Девочка находит на чердаке старую скрипку и узнаёт историю своей прабабушки.",
-  "text": "Last winter, ten-year-old Lena climbed into her grandmother's attic to look for a sledge. Behind a pile of old curtains, she found a dusty wooden box. Inside was a small violin with a faded note: \"For Lena, when she is ready.\"\n\nLena was confused. Nobody had ever told her that anyone in the family could play. She carried the box downstairs and asked her grandmother about it. The old woman sat very still for a moment. \"That was my mother's violin,\" she said at last. \"She was named Lena, too. She played in a theatre before the war, but when she moved to the country, she put the violin away and never played it again.\"\n\n\"Why not?\" asked Lena. \"I think she was afraid that nobody would listen,\" her grandmother answered. \"If she had been braver, she might have become famous.\"\n\nThat evening, Lena tried to play. The sound was terrible, like a cat in a bag. But she did not give up. She has practised every day since then, and her teacher says that she is making good progress.\n\nLast week, Lena played her first song for the whole family. When she had finished, her grandmother was crying. \"If my mother could hear you now,\" she whispered, \"she would be so proud.\" Lena smiled and played the song once more, just for her.",
-  "word_count": 226,
+  "title_en": "Learning to Swim",
+  "title_ru": "Обучение плаванию",
+  "description_ru": "Взрослая женщина преодолевает детский страх воды перед свадьбой лучшей подруги.",
+  "text": "Karen Whitfield was thirty-nine years old and had never learned to swim. As a child she had fallen into a pond, and although an uncle had pulled her out within seconds, the fear had stayed with her for decades. She avoided beaches, refused invitations to pool parties and always found a reason to stay on the shore. Her friends had stopped asking. Then her best friend, Rachel, announced that she was getting married on a Greek island, and that the ceremony would take place on a boat.\n\n\"You do not have to swim,\" Rachel said, when she saw Karen's face. \"You only have to stand on a deck in a nice dress.\" But Karen knew that wasn't the point. She lay awake that night thinking about the water, about how deep it was and how easily it could close over her head. By morning she had made a decision. She would not let fear ruin her friend's wedding, and, more importantly, she would not let it rule her life for another forty years.\n\nShe found a swimming school for adults called Blue Door, tucked behind a supermarket. On the phone, the instructor, a calm man named Hugo, asked her one question: \"How would you describe your relationship with water?\" Karen laughed nervously. \"We are not on speaking terms,\" she said. Hugo replied that this was perfectly normal and that most of his students felt the same. He promised that no one would ever push her, and that she would decide how quickly she moved.\n\nThe first lesson lasted forty minutes, and she did not get her shoulders wet. She stood in the shallow end, holding the edge, while Hugo explained how the body floats. \"Water wants to hold you up,\" he said. \"It is only your fear that makes you push against it.\" Karen did not believe him, but she listened. By the end of the session, she had put her hands in the water and splashed her face. It felt like a small victory, and she told Rachel about it for a whole hour.\n\nProgress was slow. In the third week, she learned to breathe out under water, blowing bubbles like a child. In the fourth, she let go of the wall for the first time and floated on her back for three seconds, with Hugo's hand barely touching her shoulder. She counted every second aloud. When she stood up, she was shaking and laughing at the same time. A woman in the next lane, who was seventy years old and had been swimming for just two months, gave her a thumbs-up.\n\nThere were bad days, too. Once, she swallowed a mouthful of water and panicked, and she did not go back to the pool for ten days. Hugo called to check on her, and instead of encouraging her, he said something she did not expect. \"Fear does not disappear because we are brave,\" he told her. \"It disappears because we get used to the thing we are afraid of. You have done the hard part already. You have shown up.\" The next morning, she went back.\n\nRachel followed Karen's progress with growing excitement. She sent encouraging messages every evening and, on the weekend of the fifth week, she came to the pool to watch. Karen was embarrassed at first, but when Rachel sat on the bench and held up a banner that said \"Go, Karen!\" in glittery letters, she burst out laughing and forgot to be afraid. Hugo said that a friendly face was often better than any technique.\n\nBy the sixth week she could swim a short length of the pool, awkwardly, with her head held high like a nervous duck. By the eighth week, she was swimming two lengths without stopping, and she had even learned to put her face in the water without panic. She watched videos online, bought a pair of goggles that cost more than her shoes, and began to notice how peaceful it was underneath the surface, where the noise of the world disappeared.\n\nThe night before the wedding, however, her old fear returned. Standing on the deck at sunset, she looked down at the dark water and felt her knees go weak. She called Hugo, who was on holiday himself, and he answered immediately. \"If you want to stay on the boat, that is perfectly fine,\" he said. \"But remember that you now know how to float. Whatever happens, the water will hold you.\" She thought about it all night, and by morning she had made up her mind.\n\nOn the day of the wedding, the sea near the Greek island was as smooth as glass. After the ceremony, while the guests were drinking champagne, Karen quietly took off her shoes. Rachel watched from the deck as her friend climbed down the ladder, slid into the clear water and swam slowly around the boat. When she came back, dripping and grinning, the guests cheered. \"I thought you could not swim,\" someone shouted. Karen wiped her face and said, \"I could not, until two months ago.\"",
+  "word_count": 846,
   "vocabulary": [
     {
-      "word": "attic",
-      "ipa_us": "ˈætɪk",
-      "ipa_uk": "ˈætɪk",
-      "translation_ru": "чердак"
+      "word": "pond",
+      "ipa_us": "pɑːnd",
+      "ipa_uk": "pɒnd",
+      "translation_ru": "пруд"
     },
     {
-      "word": "sledge",
-      "ipa_us": "sledʒ",
-      "ipa_uk": "sledʒ",
-      "translation_ru": "санки"
+      "word": "shallow",
+      "ipa_us": "ˈʃæloʊ",
+      "ipa_uk": "ˈʃæləʊ",
+      "translation_ru": "мелкий"
     },
     {
-      "word": "faded",
-      "ipa_us": "ˈfeɪdɪd",
-      "ipa_uk": "ˈfeɪdɪd",
-      "translation_ru": "выцветший"
+      "word": "float",
+      "ipa_us": "floʊt",
+      "ipa_uk": "fləʊt",
+      "translation_ru": "держаться на воде"
     },
     {
-      "word": "confused",
-      "ipa_us": "kənˈfjuːzd",
-      "ipa_uk": "kənˈfjuːzd",
-      "translation_ru": "озадаченный"
+      "word": "instructor",
+      "ipa_us": "ɪnˈstrʌktər",
+      "ipa_uk": "ɪnˈstrʌktə",
+      "translation_ru": "инструктор"
     },
     {
-      "word": "theatre",
-      "ipa_us": "ˈθiːətɚ",
-      "ipa_uk": "ˈθɪətə",
-      "translation_ru": "театр"
+      "word": "encouraging",
+      "ipa_us": "ɪnˈkɜːrɪdʒɪŋ",
+      "ipa_uk": "ɪnˈkʌrɪdʒɪŋ",
+      "translation_ru": "ободряющий"
     },
     {
-      "word": "afraid",
-      "ipa_us": "əˈfreɪd",
-      "ipa_uk": "əˈfreɪd",
-      "translation_ru": "испуганный, боящийся"
+      "word": "panicked",
+      "ipa_us": "ˈpænɪkt",
+      "ipa_uk": "ˈpænɪkt",
+      "translation_ru": "запаниковала"
     },
     {
-      "word": "practised",
-      "ipa_us": "ˈpræktɪst",
-      "ipa_uk": "ˈpræktɪst",
-      "translation_ru": "тренировалась"
+      "word": "goggles",
+      "ipa_us": "ˈɡɑːɡəlz",
+      "ipa_uk": "ˈɡɒɡəlz",
+      "translation_ru": "плавательные очки"
+    },
+    {
+      "word": "awkwardly",
+      "ipa_us": "ˈɔːkwərdli",
+      "ipa_uk": "ˈɔːkwədli",
+      "translation_ru": "неуклюже"
+    },
+    {
+      "word": "ceremony",
+      "ipa_us": "ˈsɛrəmoʊni",
+      "ipa_uk": "ˈserəməni",
+      "translation_ru": "церемония"
+    },
+    {
+      "word": "victory",
+      "ipa_us": "ˈvɪktəri",
+      "ipa_uk": "ˈvɪktəri",
+      "translation_ru": "победа"
+    },
+    {
+      "word": "peaceful",
+      "ipa_us": "ˈpiːsfəl",
+      "ipa_uk": "ˈpiːsfəl",
+      "translation_ru": "спокойный"
+    },
+    {
+      "word": "deck",
+      "ipa_us": "dɛk",
+      "ipa_uk": "dek",
+      "translation_ru": "палуба"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "w",
       "examples": [
-        "theatre",
-        "with"
+        "water",
+        "wedding",
+        "would",
+        "week"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "æ",
+      "sound": "aɪ",
       "examples": [
-        "attic",
-        "grandmother",
-        "family"
+        "night",
+        "describe",
+        "life",
+        "behind"
       ],
-      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди: звук между «э» и «а»."
+      "tip_ru": "Начните с «а» и скользите к «и», как в русском «ай»."
     },
     {
-      "sound": "final-voiced",
+      "sound": "əʊ",
       "examples": [
-        "old",
-        "played",
-        "confused",
-        "afraid"
+        "floated",
+        "slowly",
+        "goggles",
+        "no"
       ],
-      "tip_ru": "Звонкие согласные в конце слова не оглушайте: say «bad», а не «бат»; сохраняйте вибрацию голоса, но не добавляйте гласную."
+      "tip_ru": "Начните с нейтрального «э» и скользите к «у»; не говорите чистое «о»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "ceremony",
+        "instructor",
+        "encouraging",
+        "victory"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Where did Lena find the violin?",
-      "answer": "In her grandmother's attic.",
+      "question": "Why had Karen never learned to swim?",
+      "answer": "She fell into a pond as a child and was afraid of water ever since.",
       "accepted_keywords": [
-        "attic"
-      ]
-    },
-    {
-      "question": "Who did the violin belong to?",
-      "answer": "Lena's great-grandmother, also called Lena.",
-      "accepted_keywords": [
-        "mother",
-        "grandmother",
-        "great-grandmother"
-      ]
-    },
-    {
-      "question": "Why did the old Lena stop playing?",
-      "answer": "She was afraid nobody would listen.",
-      "accepted_keywords": [
+        "pond",
+        "fear",
         "afraid",
-        "listen"
+        "child"
+      ]
+    },
+    {
+      "question": "Why did Karen decide to learn now?",
+      "answer": "Her best friend Rachel was getting married on a boat in Greece.",
+      "accepted_keywords": [
+        "rachel",
+        "wedding",
+        "married",
+        "boat"
+      ]
+    },
+    {
+      "question": "What advice did Hugo give her about fear?",
+      "answer": "Fear disappears when we get used to the thing we are afraid of.",
+      "accepted_keywords": [
+        "used",
+        "fear",
+        "disappears",
+        "show"
+      ]
+    },
+    {
+      "question": "What did Karen do after the wedding ceremony?",
+      "answer": "She climbed down the ladder and swam around the boat.",
+      "accepted_keywords": [
+        "swam",
+        "swim",
+        "ladder",
+        "boat"
       ]
     }
   ]

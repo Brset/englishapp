@@ -6,11 +6,12 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="Auto" /><RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <TextBlock Text="Словарь" Style="{StaticResource TitleTextBlockStyle}" />
+        <StackPanel Orientation="Horizontal" Spacing="16">
+            <TextBlock Text="Словарь" Style="{StaticResource TitleTextBlockStyle}" VerticalAlignment="Center" />
+            <Button Content="Тренировка слов" Click="OnDrill" Style="{StaticResource AccentButtonStyle}" VerticalAlignment="Center" />
+        </StackPanel>
         <TextBlock Grid.Row="1" Text="{x:Bind ViewModel.DueText, Mode=OneWay}" Style="{StaticResource BodyStrongTextBlockStyle}" />
-        <Border Grid.Row="2" Padding="20" CornerRadius="8" Visibility="{x:Bind ViewModel.HasCurrent, Mode=OneWay}"
-                Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
-                BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+        <Border Grid.Row="2" Style="{StaticResource CardStyle}" Visibility="{x:Bind ViewModel.HasCurrent, Mode=OneWay}">
             <StackPanel Spacing="8">
                 <TextBlock Text="{x:Bind ViewModel.Current.Word, Mode=OneWay, FallbackValue=''}" Style="{StaticResource TitleTextBlockStyle}" />
                 <TextBlock Text="{x:Bind ViewModel.Current.Ipa, Mode=OneWay, FallbackValue=''}" FontSize="18" />
@@ -45,5 +46,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <StackPanel Grid.Row="3" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Visibility="{x:Bind ViewModel.NoWords, Mode=OneWay}">
+            <FontIcon Glyph="&#xE8F1;" FontSize="48" Foreground="{ThemeResource TextFillColorTertiaryBrush}" />
+            <TextBlock Text="Словарь пока пуст" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center" />
+            <TextBlock Text="Нажимайте на слова в тексте и сохраняйте их. Слова с низкой оценкой добавятся сами."
+                       TextWrapping="Wrap" MaxWidth="420" TextAlignment="Center"
+                       Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+        </StackPanel>
     </Grid>
 </Page>

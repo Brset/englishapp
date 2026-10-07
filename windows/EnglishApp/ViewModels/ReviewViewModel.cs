@@ -68,9 +68,8 @@ public partial class ReviewViewModel : ObservableObject
     public static Windows.UI.Color ColorFor(double? score) => score switch
     {
         null => Colors.Gray,
-        >= 85 => ParseHex("#2E9E5B"),
-        >= 70 => ParseHex("#8BB63A"),
-        >= 50 => ParseHex("#E0A100"),
+        >= 80 => ParseHex("#2E9E5B"),
+        >= 60 => ParseHex("#E0A100"),
         _ => ParseHex("#D64545"),
     };
 

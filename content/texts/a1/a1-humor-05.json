@@ -2,117 +2,157 @@
   "id": "a1-humor-05",
   "level": "A1",
   "genre": "humor",
-  "title_en": "At the Doctor's",
-  "title_ru": "У врача",
-  "description_ru": "Короткий диалог-история о пациенте и его очень простой проблеме.",
-  "text": "A man goes to the doctor. He says, \"Doctor, I have a big problem. I forget everything!\"\n\n\"Oh,\" says the doctor. \"Since when?\"\n\n\"Since when what?\" says the man.\n\nThe doctor writes some notes. \"Sit down, please. First, what is your name?\"\n\nThe man thinks hard. \"I do not know. Can I phone my wife?\"\n\nThe doctor laughs. \"Okay. Here is the phone.\"\n\nThe man calls his wife. \"Hello, dear. What is my name?\" He listens. Then he smiles and says to the doctor, \"It is Peter! And my wife says, 'Come home, the dinner is ready!'\"",
-  "word_count": 97,
+  "title_en": "The Shopping List",
+  "title_ru": "Список покупок",
+  "description_ru": "Муж Том идёт в магазин со списком жены, и всё идёт не так: от яиц до игрушечной мыши для соседской кошки.",
+  "text": "My husband Tom is a kind man, but he is not a good shopper. He cannot find anything in a supermarket. He walks around for an hour, and then he comes home with three bags of things we do not need. So last Saturday I decide to help him. I write a very clear shopping list, and I give it to him at the door. \"Please read it carefully,\" I say. Tom smiles and answers, \"Do not worry. It is only a list.\"\n\nI stay at home and clean the kitchen. After a short time, my phone rings. It is Tom, and he is in the shop. \"Anna,\" he says, \"I have a small problem. What is 'a loaf of bread'?\" I say, \"It is bread, Tom. One whole bread.\" There is a silence. Then he says, \"Oh! I think a loaf is a kind of shoe.\" I laugh and say, \"Never mind. Look for the bread.\"\n\nTen minutes later he calls again. \"Anna, they have brown eggs and white eggs. Which one?\" I say, \"Any of them.\" He says, \"Which one tastes better?\" I say, \"They taste the same.\" He is quiet for a moment. \"Then why are they different colours?\" I say, \"Because the chickens are different.\" Tom says, \"I think chickens are very strange.\" I put my head in my hands. This is going to be a long morning.\n\nNext, Tom wants to buy the cheese. My list says, \"Cheese, hard, 200 grams.\" In the shop he asks a young assistant, \"Please, I need a hard cheese. Not soft.\" She shows him a big yellow block. Tom takes it in his hands, and he knocks it on the shelf, like a door. \"Yes, it is hard,\" he says. \"I think we take it.\" The assistant looks at him like he is crazy, and she walks away fast.\n\nNow it is time for the milk. Tom takes a bottle and then calls me again. \"Anna, they have so many types of milk! There is whole milk, low-fat milk, soya milk, almond milk. Which one do you want?\" I say, \"The normal one, Tom. The same as always.\" He says, \"What is normal? Is it the one with a cow on the bottle?\" I say, \"They all have a cow on the bottle.\" He says, \"Then I buy five.\" I say, \"No! Buy one!\" But he already hangs up.\n\nSoon I hear the door. Tom comes in, tired and happy, with six big bags. He puts them on the table and says, \"I am a hero! I found everything.\" I look in the bags. There is bread, there are five bottles of milk, and there is a lot of hard yellow cheese. There is a bag of dog food, but we have no dog. There is a pink umbrella, because it was on sale. There are twelve bananas and a pineapple. Finally, there is something small and round at the bottom of the bag. It is a toy mouse.\n\n\"Tom,\" I say, \"what is this?\" He says, \"It is for the cat.\" I say, \"We have no cat.\" He looks at me and says, \"I know. But our neighbour's cat is always in our garden. I think she is sad.\" I want to be angry, but I cannot. It is a very Tom thing to do. Then I take the list from his pocket and look at it. My handwriting is terrible. The line \"oat flour\" looks exactly like \"dog food\". I start to laugh and cannot stop.\n\nWe spend the rest of the morning making the strangest lunch in the world. We have cheese on bread, banana pancakes, tea with milk and a little pineapple. It is not bad, and Tom eats three plates. After lunch, he takes the toy mouse and goes to the garden. A big grey cat is sitting on the wall. He puts the mouse on the grass, and the cat looks at him for a long time. Then she walks away. I think she is not impressed by his gift.\n\nThe next Saturday I go to the supermarket myself. Tom says he wants to come, but I say, \"No, thank you.\" Before I leave, I write a new list for him. It says, \"Stay at home. Do the dishes. Make a cup of tea.\" When I come back, the kitchen is clean, and the table is ready. There is a cup of tea and a small toy mouse next to it. Tom smiles and says, \"The grey cat came back today. She likes the mouse now.\"",
+  "word_count": 763,
   "vocabulary": [
     {
-      "word": "doctor",
-      "ipa_us": "ˈdɑktər",
-      "ipa_uk": "ˈdɒktə",
-      "translation_ru": "врач"
+      "word": "shopper",
+      "ipa_us": "ˈʃɑpər",
+      "ipa_uk": "ˈʃɒpə",
+      "translation_ru": "покупатель"
     },
     {
-      "word": "problem",
-      "ipa_us": "ˈprɑbləm",
-      "ipa_uk": "ˈprɒbləm",
-      "translation_ru": "проблема"
+      "word": "supermarket",
+      "ipa_us": "ˈsupərˌmɑrkɪt",
+      "ipa_uk": "ˈsuːpəmɑːkɪt",
+      "translation_ru": "супермаркет"
     },
     {
-      "word": "forget",
-      "ipa_us": "fərˈɡɛt",
-      "ipa_uk": "fəˈɡet",
-      "translation_ru": "забывать"
+      "word": "loaf",
+      "ipa_us": "loʊf",
+      "ipa_uk": "ləʊf",
+      "translation_ru": "буханка"
     },
     {
-      "word": "everything",
-      "ipa_us": "ˈɛvriˌθɪŋ",
-      "ipa_uk": "ˈevriθɪŋ",
-      "translation_ru": "всё"
+      "word": "eggs",
+      "ipa_us": "ɛɡz",
+      "ipa_uk": "eɡz",
+      "translation_ru": "яйца"
     },
     {
-      "word": "notes",
-      "ipa_us": "noʊts",
-      "ipa_uk": "nəʊts",
-      "translation_ru": "записи"
+      "word": "cheese",
+      "ipa_us": "tʃiz",
+      "ipa_uk": "tʃiːz",
+      "translation_ru": "сыр"
     },
     {
-      "word": "phone",
-      "ipa_us": "foʊn",
-      "ipa_uk": "fəʊn",
-      "translation_ru": "телефон"
+      "word": "assistant",
+      "ipa_us": "əˈsɪstənt",
+      "ipa_uk": "əˈsɪstənt",
+      "translation_ru": "продавец, помощник"
     },
     {
-      "word": "listen",
-      "ipa_us": "ˈlɪsən",
-      "ipa_uk": "ˈlɪsən",
-      "translation_ru": "слушать"
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrɛlə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
     },
     {
-      "word": "ready",
-      "ipa_us": "ˈrɛdi",
-      "ipa_uk": "ˈredi",
-      "translation_ru": "готов"
+      "word": "pineapple",
+      "ipa_us": "ˈpaɪnˌæpəl",
+      "ipa_uk": "ˈpaɪnæpəl",
+      "translation_ru": "ананас"
+    },
+    {
+      "word": "handwriting",
+      "ipa_us": "ˈhændˌraɪtɪŋ",
+      "ipa_uk": "ˈhændraɪtɪŋ",
+      "translation_ru": "почерк"
+    },
+    {
+      "word": "bananas",
+      "ipa_us": "bəˈnænəz",
+      "ipa_uk": "bəˈnɑːnəz",
+      "translation_ru": "бананы"
+    },
+    {
+      "word": "pancakes",
+      "ipa_us": "ˈpænˌkeɪks",
+      "ipa_uk": "ˈpænkeɪks",
+      "translation_ru": "блины"
+    },
+    {
+      "word": "hero",
+      "ipa_us": "ˈhɪroʊ",
+      "ipa_uk": "ˈhɪərəʊ",
+      "translation_ru": "герой"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "iː",
       "examples": [
-        "thinks",
-        "everything"
+        "cheese",
+        "tea",
+        "three"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Долгий «и», губы растянуты в улыбку."
     },
     {
-      "sound": "ŋ",
+      "sound": "æ",
       "examples": [
-        "everything",
-        "thinks"
+        "Anna",
+        "bananas",
+        "pancakes"
       ],
-      "tip_ru": "Спинка языка у мягкого нёба, воздух идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
     },
     {
-      "sound": "w",
+      "sound": "ʌ",
       "examples": [
-        "when",
-        "wife",
-        "what"
+        "umbrella",
+        "come",
+        "lunch"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Краткий звук между «а» и «э», рот открыт слабо; не «о»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hero",
+        "handwriting",
+        "husband"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»."
     }
   ],
   "questions": [
     {
-      "question": "Where does the man go?",
-      "answer": "To the doctor.",
+      "question": "What does Tom think a loaf is?",
+      "answer": "He thinks it is a kind of shoe.",
       "accepted_keywords": [
-        "doctor"
+        "shoe"
       ]
     },
     {
-      "question": "What is the man's problem?",
-      "answer": "He forgets everything.",
+      "question": "What does Tom buy for the cat?",
+      "answer": "A toy mouse.",
       "accepted_keywords": [
-        "forget",
-        "forgets",
-        "everything"
+        "mouse",
+        "toy"
       ]
     },
     {
-      "question": "Who does he phone?",
-      "answer": "His wife.",
+      "question": "Why does Tom buy dog food?",
+      "answer": "Anna's handwriting is bad, and 'oat flour' looks like 'dog food'.",
       "accepted_keywords": [
-        "wife"
+        "handwriting",
+        "oat",
+        "flour",
+        "list"
       ]
     },
     {
-      "question": "What is his name?",
-      "answer": "Peter.",
+      "question": "What do they eat for lunch?",
+      "answer": "Cheese on bread, banana pancakes, tea with milk and a little pineapple.",
       "accepted_keywords": [
-        "peter"
+        "cheese",
+        "pancakes",
+        "bread",
+        "pineapple"
       ]
     }
   ]

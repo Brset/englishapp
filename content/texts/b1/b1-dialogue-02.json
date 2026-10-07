@@ -2,109 +2,161 @@
   "id": "b1-dialogue-02",
   "level": "B1",
   "genre": "dialogue",
-  "title_en": "Looking for a Flat",
-  "title_ru": "В поисках квартиры",
-  "description_ru": "Девушка осматривает квартиру с агентом по недвижимости и задаёт вопросы.",
-  "text": "Agent: Come in, Emma. This is the living room. As you can see, it gets a lot of light in the afternoon.\nEmma: It's really bright. Has the flat been empty for long?\nAgent: No, the last tenants moved out two weeks ago. They have just painted the walls.\nEmma: I can smell the paint. Could we open a window?\nAgent: Of course. Now, the kitchen is through here. The fridge and the cooker are included.\nEmma: That's a good thing, because I don't have any furniture yet. How much is the rent?\nAgent: It is seven hundred pounds a month, and you also pay for electricity and water.\nEmma: Hmm, that's a little more than I wanted to spend. If you could lower the price, I would take it today.\nAgent: I'm afraid I can't change the rent, but the owner might give you a discount if you sign a two-year contract.\nEmma: Two years is a long time. What happens if I need to leave earlier?\nAgent: You would have to give three months' notice. It's quite normal.\nEmma: And what are the neighbours like?\nAgent: Very quiet. The woman next door is a retired teacher, and she has lived here for thirty years.\nEmma: That sounds wonderful. Can I think about it until tomorrow?\nAgent: Certainly. Here is my card. Please call me whenever you are ready.",
-  "word_count": 216,
+  "title_en": "Travel Plans Debate",
+  "title_ru": "Обсуждение планов путешествия",
+  "description_ru": "Анна и Бен спорят, куда поехать летом, и находят компромисс между горами и городом.",
+  "text": "Anna: Okay, we've been talking about this for two weeks, and we still haven't booked anything. Where should we go this summer?\nBen: I've told you many times, I want to go to the mountains. Imagine fresh air, quiet villages, and long walks every day. If we went to Austria, we could even stay in a cabin by a lake.\nAnna: A cabin by a lake sounds lovely for about two days. Then I would be bored. I want a city with museums, restaurants and street musicians. What about Lisbon?\nBen: Lisbon is beautiful, but it will be crowded and hot in July. Last time we visited a big city in summer, you complained about the heat for a week.\nAnna: That's not true! I complained for three days. And you spent the whole trip looking for a bench in the shade.\nBen: Fair enough. Let's make a list, then. What do we both want from the holiday?\nAnna: I want good food, some culture and a bit of adventure. And I don't want to spend the whole time in a car.\nBen: I want to relax, to see some nature, and to avoid crowds. And to be honest, I would like to spend less money than last year. We went over the budget by almost four hundred euros.\nAnna: Because you bought that ridiculous hat in Florence.\nBen: It was a very good hat. Anyway, what if we found a place that combines both? A small city near the mountains, perhaps?\nAnna: Hmm. Like Innsbruck? It has an old town, great cafés, and the mountains are right behind it. We could take a cable car in the morning and have dinner in the city in the evening.\nBen: That's a clever idea. I've heard that you can hike to a little restaurant on top of a hill, and the view is supposed to be incredible.\nAnna: Then we could do both. But how would we get there? Flights are expensive in summer, and I don't want to drive for ten hours.\nBen: We could take the train. I've read that the night train from Berlin has sleeping cabins. It takes longer, but we would save the cost of a hotel for one night.\nAnna: I like that. Sleeping on a train is romantic, as long as nobody snores. My cousin travelled that way last year, and he said that the man in the next cabin sounded like a tractor.\nBen: If that happens, we'll buy earplugs. Now, what about accommodation? Hotels in the centre will be pricey.\nAnna: We could look for a small guesthouse a little further out. Some of them include breakfast, and the owners often give you good tips about local places.\nBen: Good point. I've stayed in a guesthouse in Slovenia once, and the owner took us to a hidden waterfall that wasn't in any guidebook.\nAnna: See, that's the kind of adventure I mean. Okay, let me check the dates. I can take the holiday from the fifth to the nineteenth of July. Is that possible for you?\nBen: I haven't asked my boss yet, but I don't think it will be a problem. If I tell her this week, she will probably agree. Everyone wants August off, so July is easier.\nAnna: Perfect. How long should we stay in each place? I'd say four days in the city and five in the mountains.\nBen: I'd prefer the opposite, but let's compromise. Five days in the mountains, four in the city, and three days travelling.\nAnna: That adds up to twelve. We have fourteen. What shall we do with the other two days?\nBen: We could add a stop in Munich on the way back. I've always wanted to see the big beer gardens.\nAnna: Of course you have. Fine, but only if we also visit the art museum. There's a famous collection of modern paintings there.\nBen: Deal. And if the weather is bad in the mountains, we'll spend a day in the museums in Innsbruck instead.\nBen: One more thing. Should we rent bikes in the city? I've heard that Innsbruck has special paths along the river.\nAnna: Good idea, as long as the bikes have gears. I've never liked pushing a bike uphill.\nAnna: Wonderful. So, let's decide who does what. I'll look at trains and tickets, and you can search for guesthouses.\nBen: Agreed. But we'll have to be quick. If we wait another week, the prices will probably go up.\nAnna: Then let's do it tonight. I'll open the laptop and you'll make the tea.\nBen: I knew it. You always give me the easy job.\nAnna: That's because you make terrible travel plans but excellent tea.\nBen: I'll accept that compliment. Shall we say dinner first, and bookings afterwards?\nAnna: Yes. And I'm paying for the dinner, since you won the argument about the mountains.\nBen: Did I win? I thought we both won.\nAnna: That's the right answer. Come on, let's go.",
+  "word_count": 799,
   "vocabulary": [
     {
-      "word": "tenant",
-      "ipa_us": "ˈtenənt",
-      "ipa_uk": "ˈtenənt",
-      "translation_ru": "арендатор"
+      "word": "crowded",
+      "ipa_us": "ˈkraʊdɪd",
+      "ipa_uk": "ˈkraʊdɪd",
+      "translation_ru": "переполненный"
     },
     {
-      "word": "furniture",
-      "ipa_us": "ˈfɜːrnɪtʃɚ",
-      "ipa_uk": "ˈfɜːnɪtʃə",
-      "translation_ru": "мебель"
+      "word": "budget",
+      "ipa_us": "ˈbʌdʒɪt",
+      "ipa_uk": "ˈbʌdʒɪt",
+      "translation_ru": "бюджет"
     },
     {
-      "word": "rent",
-      "ipa_us": "rent",
-      "ipa_uk": "rent",
-      "translation_ru": "арендная плата"
+      "word": "combines",
+      "ipa_us": "kəmˈbaɪnz",
+      "ipa_uk": "kəmˈbaɪnz",
+      "translation_ru": "сочетает"
     },
     {
-      "word": "electricity",
-      "ipa_us": "ɪˌlekˈtrɪsəti",
-      "ipa_uk": "ɪˌlekˈtrɪsəti",
-      "translation_ru": "электричество"
+      "word": "hike",
+      "ipa_us": "haɪk",
+      "ipa_uk": "haɪk",
+      "translation_ru": "идти в поход"
     },
     {
-      "word": "discount",
-      "ipa_us": "ˈdɪskaʊnt",
-      "ipa_uk": "ˈdɪskaʊnt",
-      "translation_ru": "скидка"
+      "word": "accommodation",
+      "ipa_us": "əˌkɑːməˈdeɪʃən",
+      "ipa_uk": "əˌkɒməˈdeɪʃən",
+      "translation_ru": "жильё"
     },
     {
-      "word": "contract",
-      "ipa_us": "ˈkɑːntrækt",
-      "ipa_uk": "ˈkɒntrækt",
-      "translation_ru": "договор"
+      "word": "guesthouse",
+      "ipa_us": "ˈɡɛsthaʊs",
+      "ipa_uk": "ˈɡesthaʊs",
+      "translation_ru": "гостевой дом"
     },
     {
-      "word": "notice",
-      "ipa_us": "ˈnoʊtɪs",
-      "ipa_uk": "ˈnəʊtɪs",
-      "translation_ru": "уведомление"
+      "word": "compromise",
+      "ipa_us": "ˈkɑːmprəmaɪz",
+      "ipa_uk": "ˈkɒmprəmaɪz",
+      "translation_ru": "компромисс"
+    },
+    {
+      "word": "ridiculous",
+      "ipa_us": "rɪˈdɪkjələs",
+      "ipa_uk": "rɪˈdɪkjʊləs",
+      "translation_ru": "нелепый"
+    },
+    {
+      "word": "romantic",
+      "ipa_us": "roʊˈmæntɪk",
+      "ipa_uk": "rəʊˈmæntɪk",
+      "translation_ru": "романтичный"
+    },
+    {
+      "word": "waterfall",
+      "ipa_us": "ˈwɔːtərfɔːl",
+      "ipa_uk": "ˈwɔːtəfɔːl",
+      "translation_ru": "водопад"
+    },
+    {
+      "word": "adventure",
+      "ipa_us": "ədˈvɛntʃər",
+      "ipa_uk": "ədˈventʃə",
+      "translation_ru": "приключение"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziːəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "h",
+      "examples": [
+        "hotel",
+        "heat",
+        "hat",
+        "hike"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»; рот расслаблен."
+    },
+    {
+      "sound": "aʊ",
+      "examples": [
+        "mountains",
+        "about",
+        "crowded",
+        "town"
+      ],
+      "tip_ru": "Скольжение от «а» к «у», как в «ау»."
+    },
+    {
       "sound": "r",
       "examples": [
-        "room",
-        "really",
-        "rent",
-        "retired"
+        "romantic",
+        "ridiculous",
+        "right",
+        "breakfast"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Язык не касается нёба и не вибрирует; кончик слегка загнут назад, губы чуть округлены."
     },
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "thing",
-        "thirty",
-        "three"
+        "accommodation",
+        "adventure",
+        "museum",
+        "compromise"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "æ",
-      "examples": [
-        "agent",
-        "have",
-        "that"
-      ],
-      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди: звук между «э» и «а»."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "When did the last tenants leave?",
-      "answer": "Two weeks ago.",
+      "question": "Where does Ben want to go at first?",
+      "answer": "He wants to go to the mountains, for example Austria.",
       "accepted_keywords": [
-        "two",
-        "weeks"
+        "mountains",
+        "austria"
       ]
     },
     {
-      "question": "How much is the rent?",
-      "answer": "Seven hundred pounds a month.",
+      "question": "Why does Anna not want only the mountains?",
+      "answer": "She would be bored and wants museums, restaurants and music.",
       "accepted_keywords": [
-        "seven",
-        "hundred",
-        "700"
+        "bored",
+        "museums",
+        "city",
+        "restaurants"
       ]
     },
     {
-      "question": "Who lives next door?",
-      "answer": "A retired teacher.",
+      "question": "How do they decide to travel?",
+      "answer": "They plan to take the night train.",
       "accepted_keywords": [
-        "teacher",
-        "retired"
+        "train"
+      ]
+    },
+    {
+      "question": "Who does which task at the end?",
+      "answer": "Anna looks at trains and Ben searches for guesthouses.",
+      "accepted_keywords": [
+        "trains",
+        "tickets",
+        "guesthouses",
+        "accommodation"
       ]
     }
   ]

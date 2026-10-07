@@ -1,3 +1,4 @@
+using EnglishApp.Models;
 using EnglishApp.Native;
 using EnglishApp.ViewModels;
 using Microsoft.UI;
@@ -25,6 +26,7 @@ public sealed partial class RecordPage : Page
     private static readonly SolidColorBrush ReadBrush = new(ColorHelper.FromArgb(255, 0x2E, 0x9E, 0x5B));
     private static readonly SolidColorBrush SkippedBrush = new(ColorHelper.FromArgb(255, 0xE0, 0x80, 0x1A));
     private static readonly SolidColorBrush PendingBrush = new(ColorHelper.FromArgb(255, 0x80, 0x80, 0x80));
+    private static readonly SolidColorBrush DimBrush = new(ColorHelper.FromArgb(110, 0x80, 0x80, 0x80));
 
     public RecordPage()
     {
@@ -37,11 +39,12 @@ public sealed partial class RecordPage : Page
 
     protected override void OnNavigatedTo(NavigationEventArgs e)
     {
-        ViewModel.Load(e.Parameter as string ?? App.MainWindow.CurrentTextId);
-        BuildText(ViewModel.ReferenceText, ViewModel.Tokens);
         ViewModel.Queued += OnQueued;
         ViewModel.LiveStarted += OnLiveStarted;
         ViewModel.LiveUpdated += OnLiveUpdated;
+        ViewModel.ViewChanged += OnViewChanged;
+        if (e.Parameter is RecordArgs ra) ViewModel.Load(ra.TextId, ra.StartParagraph, ra.ParagraphMode);
+        else ViewModel.Load(e.Parameter as string ?? App.MainWindow.CurrentTextId);
     }
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -49,6 +52,7 @@ public sealed partial class RecordPage : Page
         ViewModel.Queued -= OnQueued;
         ViewModel.LiveStarted -= OnLiveStarted;
         ViewModel.LiveUpdated -= OnLiveUpdated;
+        ViewModel.ViewChanged -= OnViewChanged;
         ViewModel.Detach();
     }
 
@@ -68,14 +72,40 @@ public sealed partial class RecordPage : Page
 
     // ---------------- text rendering ----------------
 
-    private void BuildText(string text, IReadOnlyList<TokenInfo> tokens)
+    private void OnViewChanged()
+    {
+        BuildAll();
+        DispatcherQueue.TryEnqueue(() =>
+        {
+            try { Body.UpdateLayout(); } catch (Exception) { /* not in the visual tree yet */ }
+            _manualUntil = 0;
+            ScrollToWord(0);
+        });
+    }
+
+    /// <summary>Whole text: one paragraph of tracked runs. Paragraph mode: the current paragraph is tracked, the rest dimmed.</summary>
+    private void BuildAll()
     {
         Body.Blocks.Clear();
         _runs.Clear();
         _runIndex.Clear();
-        _applied = Array.Empty<string?>();
         _gotUpdate = false;
-        var p = new Paragraph();
+        if (!ViewModel.IsParagraphMode)
+            Body.Blocks.Add(BuildTokenParagraph(ViewModel.ReferenceText, ViewModel.Tokens, true, null, false));
+        else
+            foreach (var pi in ViewModel.Paragraphs)
+            {
+                if (pi.Index == ViewModel.ParaIndex)
+                    Body.Blocks.Add(BuildTokenParagraph(ViewModel.ReferenceText, ViewModel.Tokens, true, null, false));
+                else
+                    Body.Blocks.Add(BuildTokenParagraph(pi.Text, ViewModel.TokensOf(pi.Index), false, ViewModel.MarksOf(pi.Index), true));
+            }
+        _applied = new string?[_runs.Count];
+    }
+
+    private Paragraph BuildTokenParagraph(string text, IReadOnlyList<TokenInfo> tokens, bool track, string? marks, bool dim)
+    {
+        var p = new Paragraph { Margin = new Thickness(0, 0, 0, 18) };
         int pos = 0;
 
         void AddGap(string gap)
@@ -84,29 +114,41 @@ public sealed partial class RecordPage : Page
             for (int i = 0; i < lines.Length; i++)
             {
                 if (i > 0) p.Inlines.Add(new LineBreak());
-                if (lines[i].Length > 0) p.Inlines.Add(new Run { Text = lines[i] });
+                if (lines[i].Length > 0)
+                {
+                    var g = new Run { Text = lines[i] };
+                    if (dim) g.Foreground = DimBrush;
+                    p.Inlines.Add(g);
+                }
             }
         }
 
-        foreach (var t in tokens)
+        for (int k = 0; k < tokens.Count; k++)
         {
+            var t = tokens[k];
             if (t.U16Begin < pos || t.U16End <= t.U16Begin || t.U16End > text.Length)
             {
-                _runs.Add(null);   // keep indexes aligned with the engine's tokens
+                if (track) _runs.Add(null);   // keep indexes aligned with the engine's tokens
                 continue;
             }
             if (t.U16Begin > pos) AddGap(text[pos..t.U16Begin]);
             var run = new Run { Text = text[t.U16Begin..t.U16End] };
+            if (track)
+            {
+                _runIndex[run] = _runs.Count;
+                _runs.Add(run);
+            }
+            else if (marks != null && k < marks.Length && marks[k] == 'r') run.Foreground = ReadBrush;
+            else if (marks != null && k < marks.Length && marks[k] == 's') run.Foreground = SkippedBrush;
+            else if (dim) run.Foreground = DimBrush;
             p.Inlines.Add(run);
-            _runIndex[run] = _runs.Count;
-            _runs.Add(run);
             pos = t.U16End;
         }
         if (pos < text.Length) AddGap(text[pos..]);
-        Body.Blocks.Add(p);
-        _applied = new string?[_runs.Count];
+        return p;
     }
 
+    private void OnShowLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
 
     private Brush AccentBrush()
     {

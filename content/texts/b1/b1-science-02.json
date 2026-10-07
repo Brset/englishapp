@@ -2,108 +2,165 @@
   "id": "b1-science-02",
   "level": "B1",
   "genre": "science",
-  "title_en": "How Bees Make Honey",
-  "title_ru": "Как пчёлы делают мёд",
-  "description_ru": "Рассказ о том, как пчёлы собирают нектар и превращают его в мёд.",
-  "text": "Honey is one of the oldest foods that people have ever eaten, but few of us know how much work goes into every spoonful. A single bee makes only about one twelfth of a teaspoon of honey in its whole life.\n\nThe process begins when a worker bee flies out of the hive to look for flowers. She drinks a sweet liquid called nectar and stores it in a special stomach, which is separate from the stomach she uses for her own food. During one trip, a bee may visit up to a hundred flowers.\n\nWhen she returns to the hive, she passes the nectar to another worker bee. This bee chews it for about half an hour. During this time, enzymes in her body break the nectar down into simpler sugars. Then she puts the liquid into a wax cell. At this stage, the mixture is still very wet, with too much water to be stored safely.\n\nTo solve the problem, the bees fan the cells with their wings. The warm air makes the water evaporate, and the liquid slowly becomes thick and sticky. When the honey is ready, the bees cover the cell with a thin layer of wax.\n\nHoney can last for thousands of years if it is kept sealed, because it contains so little water that bacteria cannot grow in it. Scientists have even found edible honey in ancient Egyptian tombs.",
-  "word_count": 235,
+  "title_en": "Climate Change and Our Planet",
+  "title_ru": "Изменение климата и наша планета",
+  "description_ru": "Почему планета нагревается, какие доказательства есть у учёных и что можно сделать, чтобы замедлить потепление.",
+  "text": "Our planet has always had natural cycles of warm and cold periods, so it might seem strange to worry about the climate now. However, scientists have discovered that the present warming is happening far more quickly than anything in the past few thousand years, and that human activity is the main cause. Understanding why this is true requires a short journey into the physics of the atmosphere, and it begins with something that is actually very useful: the greenhouse effect.\n\nSunlight passes through the atmosphere and warms the surface of the Earth. The surface then sends some of that energy back toward space as invisible heat, which scientists call infrared radiation. Certain gases in the air, including carbon dioxide, methane and water vapour, absorb part of this heat and send some of it back down. Without this natural effect, the average temperature on Earth would be about minus eighteen degrees Celsius, and most life would not exist. The problem is not the greenhouse effect itself, but the fact that we have been making it stronger.\n\nSince the start of the industrial revolution in the eighteenth century, people have burned enormous amounts of coal, oil and gas. When these fuels burn, they release carbon dioxide that was stored underground for millions of years. Before 1800, the concentration of carbon dioxide in the atmosphere was about 280 parts per million. Today it is above 420, the highest level in at least eight hundred thousand years, which we know from air bubbles trapped in ancient ice. Cutting down forests makes the situation worse, because trees absorb carbon dioxide as they grow.\n\nAs a result, the average global temperature has risen by about 1.1 to 1.2 degrees Celsius since the late nineteenth century. That may sound small, but the difference between today and the last ice age was only about five or six degrees. A small change in the average can shift the weather in large ways. Heat waves have become more frequent and more intense, and many of the warmest years on record have occurred in the last decade. Meanwhile, the Arctic is warming roughly three times faster than the rest of the planet.\n\nThe consequences are already visible. Glaciers in the Alps, the Himalayas and the Andes have been shrinking for decades, and the Greenland ice sheet is losing hundreds of billions of tonnes of ice every year. Because water expands when it warms and ice melts into the oceans, the global sea level has risen by around twenty centimetres since 1900, and the rise is speeding up. Low coastal areas and small island nations, which have contributed very little to the problem, are among the most threatened.\n\nWarming also affects rainfall. A warmer atmosphere holds more water vapour, which can lead to heavier storms and floods in some regions. In others, droughts last longer, and wildfires spread more easily. Meanwhile, the oceans absorb about a quarter of our carbon dioxide emissions, which makes seawater slightly more acidic. This is a serious danger for animals with shells, and for coral reefs, which support about a quarter of all marine species, even though they cover less than one percent of the sea floor.\n\nHow do we know all this? Scientists use many independent kinds of evidence. Thermometers and weather stations have recorded temperatures for over a century, and satellites have measured the oceans, the ice and the atmosphere since the 1970s. Older information comes from tree rings, corals and layers of ice, which preserve a chemical record of past temperatures. When researchers put all of these sources together, they find the same pattern, and it matches computer models that include human emissions but not natural changes alone.\n\nWhat can be done? Scientists generally agree that the most important step is to reduce emissions of greenhouse gases as fast as possible. Solar and wind power have become cheaper than coal in many countries, and electric cars are now common in several parts of the world. Governments can encourage change by putting a price on carbon, protecting forests and improving public transport. If emissions fall to net zero by about 2050, according to many climate models, the warming could be limited to around one and a half degrees.\n\nIndividual choices matter, too, although they are only part of the solution. People can save energy at home, eat less meat, fly less often and choose to cycle or walk for short trips. Perhaps just as important is talking about the issue with friends and colleagues, and voting for leaders who take it seriously. The climate has changed before, but never because of a single species. This time, the cause is us, and that means the solution is also in our hands.",
+  "word_count": 778,
   "vocabulary": [
     {
-      "word": "nectar",
-      "ipa_us": "ˈnektɚ",
-      "ipa_uk": "ˈnektə",
-      "translation_ru": "нектар"
+      "word": "greenhouse",
+      "ipa_us": "ˈɡriːnhaʊs",
+      "ipa_uk": "ˈɡriːnhaʊs",
+      "translation_ru": "парниковый"
     },
     {
-      "word": "hive",
-      "ipa_us": "haɪv",
-      "ipa_uk": "haɪv",
-      "translation_ru": "улей"
+      "word": "atmosphere",
+      "ipa_us": "ˈætməsfɪr",
+      "ipa_uk": "ˈætməsfɪə",
+      "translation_ru": "атмосфера"
     },
     {
-      "word": "stomach",
-      "ipa_us": "ˈstʌmək",
-      "ipa_uk": "ˈstʌmək",
-      "translation_ru": "желудок"
+      "word": "infrared",
+      "ipa_us": "ˌɪnfrəˈrɛd",
+      "ipa_uk": "ˌɪnfrəˈred",
+      "translation_ru": "инфракрасный"
     },
     {
-      "word": "enzymes",
-      "ipa_us": "ˈenzaɪmz",
-      "ipa_uk": "ˈenzaɪmz",
-      "translation_ru": "ферменты"
+      "word": "concentration",
+      "ipa_us": "ˌkɑːnsənˈtreɪʃən",
+      "ipa_uk": "ˌkɒnsənˈtreɪʃən",
+      "translation_ru": "концентрация"
     },
     {
-      "word": "wax",
-      "ipa_us": "wæks",
-      "ipa_uk": "wæks",
-      "translation_ru": "воск"
+      "word": "emissions",
+      "ipa_us": "ɪˈmɪʃənz",
+      "ipa_uk": "ɪˈmɪʃənz",
+      "translation_ru": "выбросы"
     },
     {
-      "word": "evaporate",
-      "ipa_us": "ɪˈvæpəreɪt",
-      "ipa_uk": "ɪˈvæpəreɪt",
-      "translation_ru": "испаряться"
+      "word": "glaciers",
+      "ipa_us": "ˈɡleɪʃərz",
+      "ipa_uk": "ˈɡlæsiəz",
+      "translation_ru": "ледники"
     },
     {
-      "word": "edible",
-      "ipa_us": "ˈedəbəl",
-      "ipa_uk": "ˈedɪbəl",
-      "translation_ru": "съедобный"
+      "word": "drought",
+      "ipa_us": "draʊt",
+      "ipa_uk": "draʊt",
+      "translation_ru": "засуха"
+    },
+    {
+      "word": "acidic",
+      "ipa_us": "əˈsɪdɪk",
+      "ipa_uk": "əˈsɪdɪk",
+      "translation_ru": "кислотный"
+    },
+    {
+      "word": "coral",
+      "ipa_us": "ˈkɔːrəl",
+      "ipa_uk": "ˈkɒrəl",
+      "translation_ru": "коралл"
+    },
+    {
+      "word": "wildfires",
+      "ipa_us": "ˈwaɪərfaɪərz",
+      "ipa_uk": "ˈwaɪəfaɪəz",
+      "translation_ru": "лесные пожары"
+    },
+    {
+      "word": "evidence",
+      "ipa_us": "ˈɛvɪdəns",
+      "ipa_uk": "ˈevɪdəns",
+      "translation_ru": "доказательства"
+    },
+    {
+      "word": "threatened",
+      "ipa_us": "ˈθrɛtənd",
+      "ipa_uk": "ˈθretənd",
+      "translation_ru": "под угрозой"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "hive",
-        "visit",
-        "evaporate",
-        "every"
-      ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "work",
-        "worker",
-        "water",
-        "wings"
-      ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thick",
-        "thin",
-        "thousands"
+        "threatened",
+        "thousand",
+        "thermometers",
+        "three"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте мягко; не заменяйте на «с» или «з»."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "these",
+        "than"
+      ],
+      "tip_ru": "Язык между зубами, но со звучанием голоса; не произносите «з» или «д»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "radiation",
+        "rise",
+        "warming",
+        "record"
+      ],
+      "tip_ru": "Язык не касается нёба и не вибрирует; кончик слегка загнут назад, губы чуть округлены."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "atmosphere",
+        "concentration",
+        "emissions",
+        "evidence"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What do bees collect from flowers?",
-      "answer": "Nectar.",
+      "question": "What is the greenhouse effect?",
+      "answer": "Gases in the air absorb heat and send some back to the surface.",
       "accepted_keywords": [
-        "nectar"
+        "gases",
+        "heat",
+        "absorb",
+        "warm"
       ]
     },
     {
-      "question": "How do bees remove water from the honey?",
-      "answer": "They fan it with their wings.",
+      "question": "How much has the global temperature risen since the late nineteenth century?",
+      "answer": "About 1.1 to 1.2 degrees Celsius.",
       "accepted_keywords": [
-        "fan",
-        "wings"
+        "1.1",
+        "1.2",
+        "degree",
+        "degrees"
       ]
     },
     {
-      "question": "Why can honey last thousands of years?",
-      "answer": "It contains so little water that bacteria cannot grow.",
+      "question": "Why is the Arctic important in the text?",
+      "answer": "It is warming about three times faster than the rest of the planet.",
       "accepted_keywords": [
-        "water",
-        "bacteria"
+        "three",
+        "faster",
+        "warming"
+      ]
+    },
+    {
+      "question": "What is the most important step to slow climate change?",
+      "answer": "Reducing greenhouse gas emissions as fast as possible.",
+      "accepted_keywords": [
+        "reduce",
+        "reducing",
+        "emissions",
+        "cut"
       ]
     }
   ]

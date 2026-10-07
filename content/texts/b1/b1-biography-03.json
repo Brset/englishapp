@@ -2,132 +2,159 @@
   "id": "b1-biography-03",
   "level": "B1",
   "genre": "biography",
-  "title_en": "Yuri Gagarin: The First Man in Space",
-  "title_ru": "Юрий Гагарин: первый человек в космосе",
-  "description_ru": "Короткая биография космонавта, который облетел Землю 12 апреля 1961 года.",
-  "text": "Yuri Gagarin was born in 1934 in a small village west of Moscow. His father was a carpenter and his mother worked on a farm. During the Second World War, the family had to live in a tiny hut after German soldiers took their house.\n\nAs a teenager, Yuri studied to be a metal worker, but he also joined a flying club. He discovered that he loved the sky, and in 1957 he became a military pilot. When the Soviet Union began looking for its first astronauts, thousands of pilots applied. Yuri was chosen, partly because he was calm, friendly and rather short, which suited the small space capsule.\n\nOn the twelfth of April, 1961, he climbed into the spacecraft Vostok 1. Before the rocket left the ground, he is said to have shouted, \"Poyekhali!\", which means \"Let's go!\" The flight lasted only one hundred and eight minutes, but it changed history. Gagarin travelled once around the Earth and looked down at the planet. He later said that it was very beautiful, and that he could see no borders from up there.\n\nAfter he returned, Gagarin became famous all over the world. Sadly, he died in 1968 during a routine training flight. Today, every year on the twelfth of April, people celebrate his journey.",
-  "word_count": 209,
+  "title_en": "Amelia Earhart: Flying into the Unknown",
+  "title_ru": "Амелия Эрхарт: полёт в неизвестность",
+  "description_ru": "Биография Амелии Эрхарт: от детства в Канзасе до перелёта через Атлантику и загадочного исчезновения над Тихим океаном в 1937 году.",
+  "text": "Amelia Earhart has become a symbol of courage and adventure, and her mysterious disappearance has fascinated people for almost ninety years. But she was much more than a famous missing pilot. She was a determined woman who proved that women could succeed in a field that men had dominated, and she often said that she wanted to do things simply because she wanted to.\n\nShe was born in 1897 in Atchison, Kansas. As a child she was not interested in dolls and fashionable dresses. Instead, she climbed trees, collected insects, and built a homemade roller coaster in the garden with her sister Muriel. Her father had a difficult time keeping a job, and the family moved many times, but her grandmother and her mother encouraged her to be independent. By the time she finished school, she had lived in six different cities.\n\nHer interest in flying began quite late. During the First World War she worked as a nurse's aide in a military hospital in Toronto, where she often watched pilots practise at a nearby airfield. In 1920 she went to an air show in California, and a pilot gave her a short ride. \"As soon as we left the ground,\" she later said, \"I knew I had to fly.\" She took a job, saved her money, and bought lessons from a woman pilot named Neta Snook. To pay for them, she worked as a truck driver and as a clerk in a telephone office.\n\nIn 1921 she bought her first aircraft, a small yellow biplane that she called \"The Canary\". A year later she set a women's altitude record of 14,000 feet. Fame came in 1928, when she was invited to join a transatlantic flight as a passenger. She was not allowed to fly the plane, and she felt disappointed. \"I was just baggage,\" she joked, \"like a sack of potatoes.\" Nevertheless, the newspapers loved her, and she became a celebrity almost overnight.\n\nEarhart was determined to prove herself, so in May 1932 she attempted the Atlantic crossing alone. It was exactly five years after Charles Lindbergh's famous flight. She took off from Newfoundland in a red Lockheed Vega and flew through storms, ice and a broken altimeter. After almost fifteen hours she landed in a field in Northern Ireland, frightening a herd of cows. When a farm worker asked her if she had flown far, she answered, \"From America.\" She was the first woman to fly solo across the Atlantic, and she received medals from the American Congress and the French government.\n\nHer private life was just as unusual. In 1931 she married the publisher George Putnam, who had helped to manage her career and had asked her several times before she agreed. Before the wedding she wrote him a letter saying that she wanted to keep her freedom and her work. She also wrote bestselling books about her flights, designed a line of practical clothes for active women, and gave lectures across the country, so she was almost as busy on the ground as she was in the air.\n\nShe did not stop there. In 1935 she flew alone from Hawaii to California, a distance of more than 3,800 kilometres, and no one had done that before. She also used her fame to help other women. She was an early member and the first president of an organisation for female pilots called the Ninety-Nines, and she taught at a university, where she encouraged young women to choose careers in aviation and engineering. If she had not taken these steps, many students might never have considered those subjects.\n\nIn 1937 she set out on her biggest challenge: to fly around the world along the equator. With her navigator Fred Noonan, she began the journey in June. They had already completed about 35,000 kilometres, and only 11,000 remained, when they left New Guinea for a tiny island called Howland, in the middle of the Pacific Ocean. They never arrived. The last radio messages said that they were running low on fuel and could not see the island.\n\nThe American navy and coast guard carried out a massive search, but they found nothing. Since then, people have proposed many explanations. Some believe that the plane crashed into the sea, while others think that they landed on another island and died there. Researchers have launched expeditions, studied old photographs and examined bones, but the mystery has not been solved.\n\nWhatever happened, her legacy remains. Earhart showed that fear should not stop anyone from trying. Her words are still quoted on posters and in classrooms: \"The most difficult thing is the decision to act. The rest is merely tenacity.\"",
+  "word_count": 766,
   "vocabulary": [
     {
-      "word": "carpenter",
-      "ipa_us": "ˈkɑrpəntər",
-      "ipa_uk": "ˈkɑːpəntə",
-      "translation_ru": "плотник"
+      "word": "courage",
+      "ipa_us": "ˈkɜːrɪdʒ",
+      "ipa_uk": "ˈkʌrɪdʒ",
+      "translation_ru": "смелость"
     },
     {
-      "word": "hut",
-      "ipa_us": "hʌt",
-      "ipa_uk": "hʌt",
-      "translation_ru": "хижина"
+      "word": "determined",
+      "ipa_us": "dɪˈtɜːrmɪnd",
+      "ipa_uk": "dɪˈtɜːmɪnd",
+      "translation_ru": "решительная, целеустремлённая"
     },
     {
-      "word": "pilot",
-      "ipa_us": "ˈpaɪlət",
-      "ipa_uk": "ˈpaɪlət",
-      "translation_ru": "лётчик"
+      "word": "altitude",
+      "ipa_us": "ˈæltɪˌtuːd",
+      "ipa_uk": "ˈæltɪtjuːd",
+      "translation_ru": "высота"
     },
     {
-      "word": "applied",
-      "ipa_us": "əˈplaɪd",
-      "ipa_uk": "əˈplaɪd",
-      "translation_ru": "подали заявку"
+      "word": "transatlantic",
+      "ipa_us": "ˌtrænzətˈlæntɪk",
+      "ipa_uk": "ˌtrænzətˈlæntɪk",
+      "translation_ru": "трансатлантический"
     },
     {
-      "word": "capsule",
-      "ipa_us": "ˈkæpsəl",
-      "ipa_uk": "ˈkæpsjuːl",
-      "translation_ru": "капсула"
+      "word": "solo",
+      "ipa_us": "ˈsoʊloʊ",
+      "ipa_uk": "ˈsəʊləʊ",
+      "translation_ru": "в одиночку"
     },
     {
-      "word": "spacecraft",
-      "ipa_us": "ˈspeɪskræft",
-      "ipa_uk": "ˈspeɪskrɑːft",
-      "translation_ru": "космический корабль"
+      "word": "navigator",
+      "ipa_us": "ˈnævɪˌɡeɪtər",
+      "ipa_uk": "ˈnævɪɡeɪtə",
+      "translation_ru": "штурман"
     },
     {
-      "word": "lasted",
-      "ipa_us": "ˈlæstɪd",
-      "ipa_uk": "ˈlɑːstɪd",
-      "translation_ru": "длился"
+      "word": "disappearance",
+      "ipa_us": "ˌdɪsəˈpɪrəns",
+      "ipa_uk": "ˌdɪsəˈpɪərəns",
+      "translation_ru": "исчезновение"
     },
     {
-      "word": "borders",
-      "ipa_us": "ˈbɔrdərz",
-      "ipa_uk": "ˈbɔːdəz",
-      "translation_ru": "границы"
+      "word": "expeditions",
+      "ipa_us": "ˌɛkspəˈdɪʃənz",
+      "ipa_uk": "ˌekspəˈdɪʃənz",
+      "translation_ru": "экспедиции"
     },
     {
-      "word": "routine",
-      "ipa_us": "ruˈtiːn",
-      "ipa_uk": "ruːˈtiːn",
-      "translation_ru": "обычный, плановый"
+      "word": "aviation",
+      "ipa_us": "ˌeɪviˈeɪʃən",
+      "ipa_uk": "ˌeɪviˈeɪʃən",
+      "translation_ru": "авиация"
+    },
+    {
+      "word": "tenacity",
+      "ipa_us": "təˈnæsəti",
+      "ipa_uk": "təˈnæsəti",
+      "translation_ru": "упорство"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "village",
-        "Vostok",
-        "very",
-        "discovered"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thousands",
-        "Earth"
+        "nothing",
+        "thing",
+        "think",
+        "through"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "h",
+      "sound": "w",
       "examples": [
-        "his",
-        "hut",
-        "history",
-        "he"
+        "woman",
+        "women",
+        "world",
+        "wrote"
       ],
-      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "flying",
+        "running",
+        "crossing",
+        "saying"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "courage",
+        "altitude",
+        "navigator",
+        "aviation"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "When did Gagarin fly into space?",
-      "answer": "On the twelfth of April, 1961.",
+      "question": "What did Amelia do in 1932?",
+      "answer": "She flew solo across the Atlantic Ocean and landed in Northern Ireland.",
       "accepted_keywords": [
-        "1961",
-        "april",
-        "twelfth"
+        "atlantic",
+        "solo",
+        "alone",
+        "ireland",
+        "ocean"
       ]
     },
     {
-      "question": "What did he say before the rocket left the ground?",
-      "answer": "Poyekhali, which means Let us go.",
+      "question": "Why did she feel disappointed in 1928?",
+      "answer": "She joined a transatlantic flight only as a passenger and was not allowed to fly the plane.",
       "accepted_keywords": [
-        "poyekhali",
-        "go"
+        "passenger",
+        "baggage",
+        "allowed",
+        "not"
       ]
     },
     {
-      "question": "How long did his flight last?",
-      "answer": "One hundred and eight minutes.",
+      "question": "How did Amelia help other women?",
+      "answer": "She was the first president of the Ninety-Nines and encouraged young women to choose careers in aviation.",
       "accepted_keywords": [
-        "hundred",
-        "108",
-        "eight"
+        "ninety-nines",
+        "president",
+        "pilots",
+        "careers",
+        "encouraged",
+        "taught"
       ]
     },
     {
-      "question": "How did he die?",
-      "answer": "During a training flight in 1968.",
+      "question": "What happened in 1937?",
+      "answer": "She disappeared with her navigator while trying to fly around the world, near Howland Island.",
       "accepted_keywords": [
-        "training",
-        "flight",
-        "1968",
-        "plane"
+        "disappeared",
+        "howland",
+        "navigator",
+        "world",
+        "noonan",
+        "never"
       ]
     }
   ]

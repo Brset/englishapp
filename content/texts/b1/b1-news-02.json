@@ -2,128 +2,155 @@
   "id": "b1-news-02",
   "level": "B1",
   "genre": "news",
-  "title_en": "Robot Librarian Joins Town Library",
-  "title_ru": "Робот-библиотекарь в городской библиотеке",
-  "description_ru": "Вымышленная новость о роботе, который помогает посетителям библиотеки, и о реакции горожан.",
-  "text": "A friendly robot named Page has started work at the Oakfield Public Library, and visitors have been lining up to meet it. The robot, which is about one metre tall, can find any book in the building in less than ten seconds.\n\nLibrary director Grace Thornton said the idea came from a shortage of staff. \"We have had fewer librarians since last spring,\" she explained. \"Page does not replace people. It helps them, so that they can spend more time reading with children and organising events.\"\n\nPage speaks three languages and can tell visitors where to find a book, how long they can borrow it, and what to read next. If you say that you enjoyed a detective novel, the robot will suggest five similar stories. It also has a small screen on its chest that shows a smiling face.\n\nNot everyone is happy about the new arrival. Retired teacher Walter Greene said he prefers talking to real people. \"A machine cannot understand why I love old poetry,\" he said. However, after a short chat, he admitted that Page had recommended a book he had never heard of, and that he was looking forward to reading it.\n\nChildren seem to be the biggest fans. Eight-year-old Lucy Park said, \"Page is my best friend in the library. It never tells me to be quiet!\"\n\nThe library plans to evaluate the project over the next six months. If it is successful, a second robot may arrive in the children's section before the end of the year.",
-  "word_count": 256,
+  "title_en": "Teenagers Win National Prize with Solar Boat",
+  "title_ru": "Подростки выиграли национальную премию с лодкой на солнечной энергии",
+  "description_ru": "Вымышленная новость: школьники из Таллоуфилда построили лодку на солнечных батареях, которая убирает водоросли с озера.",
+  "text": "A group of teenagers from a small school in northern Eastmere has won the national Young Engineers Award with a boat that runs entirely on sunlight. The students, who attend Tallowfield High School, beat more than three hundred teams from across the country with their design, which they have named the Sunskipper. The judges described the project as \"practical, clever and wonderfully well built\", and the winners will now represent the country at an international competition next spring.\n\nThe idea began last year in a physics lesson, when teacher Hannah Crowley asked her class to think of a problem in their own town. The students quickly agreed on one: the lake in the town park, which is popular with families, is covered with weeds every summer, and the council cannot afford to pay for machines to clear them. \"We wanted to find a cheap and clean way to do it,\" said sixteen-year-old Tomas Reeve, the leader of the team. \"Most weed cutters use petrol, which pollutes the water, so we decided to use the sun.\"\n\nOver the following eight months, the six students worked every Thursday after school and during most of their holidays. They started with a flat plastic boat that had been thrown away by a local sailing club, and they covered it with solar panels bought with money from a bake sale. Then they added a small electric motor and a set of rotating blades at the front. When the boat moves slowly across the surface, the blades cut the weeds and push them into a net, which can be emptied on the shore. \"Our first test was a disaster,\" said fifteen-year-old Priya Nandakumar, who designed the electronics. \"The boat spun in circles for twenty minutes, and then it sank.\"\n\nAfter that failure, the team decided to ask for help. They wrote to a retired engineer called Walter Bright, who used to build ships, and he agreed to meet them every week. \"At first they argued so much that I thought I would go home,\" he said with a laugh. \"But they listened to advice, and that is the most important skill for any engineer.\" With his help, they changed the shape of the hull, moved the motor, and added a simple sensor that stops the blades if something gets caught. If they had not made these changes, the boat would never have completed its trials.\n\nThe Sunskipper has now cleaned about a third of the lake. In a recent test, it removed two hundred kilograms of weeds in a single afternoon, and it needed no fuel at all. The council has already asked the students whether a second boat could be built for another lake on the edge of town. Councillor Marcus Bell said that the project had saved the town about twelve thousand pounds so far. \"We have been trying to solve this problem for years,\" he said. \"It took a group of teenagers to find the answer.\"\n\nThe national competition took place last weekend in the city of Harbourgate. Each team had ten minutes to present its work to a panel of professional engineers, and then to demonstrate it in a large water tank. Many entries were very impressive, including an automatic greenhouse and a bicycle that charges mobile phones. Even so, the judges said that the Sunskipper stood out because it solved a real local problem and could easily be copied by other towns. \"It is not a fantasy machine,\" said head judge Dr Eleanor Marsh. \"It is something that a community can use tomorrow.\"\n\nThe students are not planning to rest. They are currently raising money for their trip abroad, and the headteacher, Ian Prescott, has said that the school will pay for the tickets if the team cannot collect enough. In the meantime, they hope to improve the boat by adding a camera, which would allow the operator to steer it from the shore. Priya Nandakumar also wants to teach younger pupils how to build a simple version. \"If we can inspire a few younger students, then we have really won,\" she said.\n\nLocal people have also joined in. On Sunday afternoon, dozens of families gathered at the lake to watch the Sunskipper at work. Children waved from the bank, and a few brave dog owners threw sticks to see whether the boat would avoid them. It did. As the sun sank behind the trees, Tomas Reeve picked up the trophy, which is shaped like a small golden gear, and held it above his head. \"We are only a small school,\" he said, \"but we have shown that good ideas can come from anywhere.\"",
+  "word_count": 777,
   "vocabulary": [
     {
-      "word": "librarian",
-      "ipa_us": "laɪˈbrɛriən",
-      "ipa_uk": "laɪˈbreəriən",
-      "translation_ru": "библиотекарь"
+      "word": "solar",
+      "ipa_us": "ˈsoʊlər",
+      "ipa_uk": "ˈsəʊlə",
+      "translation_ru": "солнечный"
     },
     {
-      "word": "shortage",
-      "ipa_us": "ˈʃɔrtɪdʒ",
-      "ipa_uk": "ˈʃɔːtɪdʒ",
-      "translation_ru": "нехватка"
+      "word": "engineer",
+      "ipa_us": "ˌɛndʒəˈnɪr",
+      "ipa_uk": "ˌendʒɪˈnɪə",
+      "translation_ru": "инженер"
     },
     {
-      "word": "organising",
-      "ipa_us": "ˈɔrɡəˌnaɪzɪŋ",
-      "ipa_uk": "ˈɔːɡənaɪzɪŋ",
-      "translation_ru": "организация"
+      "word": "judges",
+      "ipa_us": "ˈdʒʌdʒɪz",
+      "ipa_uk": "ˈdʒʌdʒɪz",
+      "translation_ru": "судьи, жюри"
     },
     {
-      "word": "borrow",
-      "ipa_us": "ˈbɑroʊ",
-      "ipa_uk": "ˈbɒrəʊ",
-      "translation_ru": "брать на время"
+      "word": "weeds",
+      "ipa_us": "wiːdz",
+      "ipa_uk": "wiːdz",
+      "translation_ru": "сорная трава, водоросли"
     },
     {
-      "word": "suggest",
-      "ipa_us": "səɡˈdʒɛst",
-      "ipa_uk": "səˈdʒest",
-      "translation_ru": "предложить, посоветовать"
+      "word": "electronics",
+      "ipa_us": "ɪˌlɛkˈtrɑːnɪks",
+      "ipa_uk": "ˌelekˈtrɒnɪks",
+      "translation_ru": "электроника"
     },
     {
-      "word": "similar",
-      "ipa_us": "ˈsɪmələr",
-      "ipa_uk": "ˈsɪmɪlə",
-      "translation_ru": "похожий"
+      "word": "hull",
+      "ipa_us": "hʌl",
+      "ipa_uk": "hʌl",
+      "translation_ru": "корпус судна"
     },
     {
-      "word": "retired",
-      "ipa_us": "rɪˈtaɪərd",
-      "ipa_uk": "rɪˈtaɪəd",
-      "translation_ru": "на пенсии"
+      "word": "sensor",
+      "ipa_us": "ˈsɛnsər",
+      "ipa_uk": "ˈsensə",
+      "translation_ru": "датчик"
     },
     {
-      "word": "recommended",
-      "ipa_us": "ˌrɛkəˈmɛndɪd",
-      "ipa_uk": "ˌrekəˈmendɪd",
-      "translation_ru": "порекомендовал"
+      "word": "trials",
+      "ipa_us": "ˈtraɪəlz",
+      "ipa_uk": "ˈtraɪəlz",
+      "translation_ru": "испытания"
     },
     {
-      "word": "evaluate",
-      "ipa_us": "ɪˈvæljuˌeɪt",
-      "ipa_uk": "ɪˈvæljueɪt",
-      "translation_ru": "оценить"
+      "word": "demonstrate",
+      "ipa_us": "ˈdɛmənˌstreɪt",
+      "ipa_uk": "ˈdemənstreɪt",
+      "translation_ru": "продемонстрировать"
+    },
+    {
+      "word": "trophy",
+      "ipa_us": "ˈtroʊfi",
+      "ipa_uk": "ˈtrəʊfi",
+      "translation_ru": "кубок"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "Thornton",
-        "three"
+        "thought",
+        "thousand",
+        "three",
+        "something"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "w",
       "examples": [
-        "robot",
-        "library",
-        "real",
-        "retired"
+        "weeds",
+        "won",
+        "water",
+        "wrote"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
     },
     {
-      "sound": "ɪ",
+      "sound": "ŋ",
       "examples": [
-        "visitors",
-        "similar",
-        "it",
-        "children"
+        "rotating",
+        "following",
+        "adding",
+        "planning"
       ],
-      "tip_ru": "Короткий расслабленный звук, не такой напряжённый, как русское «и»; не делайте его долгим."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "hull",
+        "panel",
+        "national",
+        "well"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What is the robot's name?",
-      "answer": "Page.",
+      "question": "What problem did the students want to solve?",
+      "answer": "The lake in the town park was covered with weeds every summer.",
       "accepted_keywords": [
-        "page"
+        "weeds",
+        "lake",
+        "park",
+        "summer"
       ]
     },
     {
-      "question": "Why did the library get the robot?",
-      "answer": "There was a shortage of staff.",
+      "question": "What did the first test of the boat look like?",
+      "answer": "It was a disaster: the boat spun in circles and then sank.",
       "accepted_keywords": [
-        "shortage",
-        "staff",
-        "fewer"
+        "circles",
+        "sank",
+        "disaster",
+        "spun"
       ]
     },
     {
-      "question": "How many languages does it speak?",
-      "answer": "Three.",
+      "question": "Who helped the students improve the design?",
+      "answer": "A retired engineer called Walter Bright, who used to build ships.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "walter",
+        "bright",
+        "engineer",
+        "retired"
       ]
     },
     {
-      "question": "Why did Walter Greene change his mind?",
-      "answer": "Page recommended a book he had never heard of.",
+      "question": "Why did the judges like the Sunskipper?",
+      "answer": "It solved a real local problem and could be copied by other towns.",
       "accepted_keywords": [
-        "recommended",
-        "book"
+        "real",
+        "local",
+        "problem",
+        "copied",
+        "towns"
       ]
     }
   ]

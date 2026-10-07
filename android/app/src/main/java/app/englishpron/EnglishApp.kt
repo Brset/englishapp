@@ -17,7 +17,14 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
 
-data class UserSettings(val british: Boolean = false, val strictness: Int = 1)
+data class UserSettings(
+    val british: Boolean = false, val strictness: Int = 1,
+    /** false until user.db settings are read (the UI shows nothing instead of flashing onboarding). */
+    val loaded: Boolean = false, val onboarded: Boolean = false,
+    val level: String = "A2", val dailyGoal: Int = 10,
+    /** Reading text: size 0..3 (S/M/L/XL), line spacing 0..2, serif face, auto-advance to the next paragraph. */
+    val fontSize: Int = 1, val lineSpacing: Int = 1, val serif: Boolean = false, val autoAdvance: Boolean = true,
+)
 
 /** Process-wide singletons (poor man's DI). */
 class EnglishApp : Application() {
@@ -42,7 +49,19 @@ class EnglishApp : Application() {
             try {
                 val db = AppDatabase.open(this@EnglishApp)
                 try { loadCore() } catch (e: Throwable) { android.util.Log.w("EnglishApp", "core assets not loaded", e) }
-                val s = UserSettings(db.setting("accent", "us") == "uk", db.setting("strictness", "1").toIntOrNull() ?: 1)
+                var onboarded = db.setting("onboarded", "")
+                if (onboarded.isEmpty()) {  // existing users (before onboarding existed) skip it
+                    onboarded = if (db.progress().attempts > 0) "1" else "0"
+                    if (onboarded == "1") db.putSetting("onboarded", "1")
+                }
+                val s = UserSettings(
+                    british = db.setting("accent", "us") == "uk", strictness = db.setting("strictness", "1").toIntOrNull() ?: 1,
+                    loaded = true, onboarded = onboarded == "1", level = db.setting("level", "A2"),
+                    dailyGoal = db.setting("daily_goal", "10").toIntOrNull() ?: 10,
+                    fontSize = db.setting("font_size", "1").toIntOrNull()?.coerceIn(0, 3) ?: 1,
+                    lineSpacing = db.setting("line_spacing", "1").toIntOrNull()?.coerceIn(0, 2) ?: 1,
+                    serif = db.setting("serif", "0") == "1", autoAdvance = db.setting("auto_advance", "1") == "1",
+                )
                 applySettings(s)
                 dbDeferred.complete(db)
                 queue.start()  // re-queued jobs (processing -> queued) continue from here
@@ -76,6 +95,13 @@ class EnglishApp : Application() {
         withContext(Dispatchers.IO) {
             db.putSetting("accent", if (s.british) "uk" else "us")
             db.putSetting("strictness", s.strictness.toString())
+            db.putSetting("onboarded", if (s.onboarded) "1" else "0")
+            db.putSetting("level", s.level)
+            db.putSetting("daily_goal", s.dailyGoal.toString())
+            db.putSetting("font_size", s.fontSize.toString())
+            db.putSetting("line_spacing", s.lineSpacing.toString())
+            db.putSetting("serif", if (s.serif) "1" else "0")
+            db.putSetting("auto_advance", if (s.autoAdvance) "1" else "0")
         }
     }
 }

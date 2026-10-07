@@ -2,133 +2,165 @@
   "id": "c2-story-02",
   "level": "C2",
   "genre": "story",
-  "title_en": "The Lighthouse Keeper's Ledger",
-  "title_ru": "Журнал смотрителя маяка",
-  "description_ru": "Смотритель, чей маяк давно работает сам, продолжает вести журнал всех кораблей. Когда приезжает инспектор, выясняется, что его записи бесценны.",
-  "text": "For thirty-one years, Ambrose Quill had kept the light at Skerry Rock, and for the last nineteen of them the light had kept itself. The authorities, in a burst of administrative optimism, had installed an automatic lamp, a solar panel, and a small grey box that reported its own health to an office in the city, much as a nervous patient telephones his doctor. Ambrose was retained, officially, as \"caretaker of the premises\". Unofficially he was a man with a tower, a kettle, and a great deal of unrequited vigilance.\n\nHe did not take it well, or rather, he took it with such exquisite politeness that nobody noticed. Each dusk he climbed the hundred and twelve steps, inspected a lamp that required no inspection, and wrote in the ledger. The ledger had been begun by his predecessor's predecessor, and its entries, by tradition, recorded every vessel that passed. Ambrose continued the practice with a scrupulousness that bordered on the pathological. \"Tuesday. Trawler, red hull, low in the water, her captain evidently an optimist. Ore carrier, enormous, unconcerned. Yacht, white, absurd. Fog at six. No casualties.\"\n\nHe addressed the ships, too, though never aloud, which he considered the difference between devotion and lunacy. He gave them names of his own invention. The grey tanker that passed every second Thursday was Mrs. Fairweather; the little blue ferry that wobbled across the horizon at noon was the Curate. He worried about them in rough weather, and was irrationally proud when they emerged from it intact, as though he had personally negotiated with the sea.\n\nThen, in the spring of the nineteenth year, an inspector arrived by helicopter. She was young, crisp, and equipped with a tablet that appeared to know more about the lighthouse than the lighthouse did. The service, she explained, was consolidating. The tower would be decommissioned, the lamp sold to a museum, and Mr. Quill, with deep gratitude, retired.\n\n\"Of course,\" said Ambrose, and poured her tea with a steady hand. \"I shall only need to finish the ledger.\"\n\nShe meant to leave within the hour. Instead, because the wind had risen and the helicopter sulked, she spent the evening on his sofa with the ledger across her knees, and she read it, page after page, nineteen years of weather and vessels and tender, ridiculous commentary. Somewhere around the entry concerning Mrs. Fairweather's unexpected change of course during the great storm, she stopped being an inspector.\n\n\"This is a record of every ship,\" she said at last. \"It is the only one. The coastguard's logs only start where the transponders do.\"\n\n\"I imagine they do,\" said Ambrose. \"Machines are wonderfully good at the ships that announce themselves.\"\n\n\"And the others?\"\n\n\"Ah.\" He looked, for a moment, almost mischievous. \"The others are rather my speciality.\"\n\nIt would be pleasant to report that the tower was saved by an outburst of public feeling. It was not. It was saved by a footnote, a quiet and thoroughly bureaucratic paragraph in the inspector's report observing that the ledger constituted \"an irreplaceable independent archive of coastal traffic\" and that its continuation \"required, regrettably, a human observer in situ\".\n\nAmbrose is still there. The lamp still lights itself. And each dusk he climbs the steps, opens the book, and writes, in his small, immaculate hand, that the Curate is on time.",
-  "word_count": 556,
+  "title_en": "The Clocks of Little Orrery",
+  "title_ru": "Часы Литтл-Оррери",
+  "description_ru": "В деревне, где все часы нарочно показывают разное время, появляется педантичный инспектор. Тёплая ироничная притча о том, что точность не всегда добродетель.",
+  "text": "In the village of Little Orrery, which no map had ever treated with respect, every clock told a different time, and the inhabitants regarded this as one of the more civilised arrangements in the county. The church clock was twelve minutes fast, on the principle that the vicar liked to be early for God. The clock above the post office was nine minutes slow, because the postmistress, Mrs. Abney, believed that a letter delayed was a letter improved. The grandfather clock in the Lamb and Anchor had not moved since a night in 1953 that nobody discussed, and it was consulted only by those who wished to be told it was always, mercifully, closing time.\n\nIt was therefore with some bewilderment that the village received, on a bright and brittle morning in March, a man from the Bureau of Standards. His name was Mr. Gideon Fastidge, and he arrived in a car so clean that it appeared to have been laundered. He carried a briefcase, a tuning fork, and an expression of ferocious benevolence, the look of a man who has come to improve you whether you like it or not.\n\n\"I have been informed,\" he said to the assembled villagers in the pub, \"that Little Orrery is the single most unpunctual settlement in the kingdom. Gentlemen, ladies, I am here to restore order. In seven days, every clock will be synchronised to the second.\"\n\nThere was a respectful silence, of the sort commonly offered to a stranger who has just announced he intends to rearrange the furniture of your soul. Then old Hobday, the retired shepherd, who had not spoken since the Coronation and was saving his words for something worthwhile, took his pipe out of his mouth. \"To what?\" he said. \"I beg your pardon?\" \"Synchronised to what, young man? Time's got to be to something.\"\n\nMr. Fastidge explained, with the fluency of a man who had rehearsed this in mirrors, that it would be synchronised to the signal broadcast from the national observatory, which was itself governed by an atomic oscillator of staggering exactitude. Hobday listened to this with the courteous incomprehension of a cow regarding a railway timetable, and then replaced the pipe.\n\nFor the next six days the village was subjected to a campaign of relentless accuracy. Mr. Fastidge climbed the church tower with a spanner and descended, sweating, with the vicar's clock adjusted. He corrected the post office. He opened the grandfather clock in the pub, discovered that its pendulum had been used for a decade as a hat peg, and was visibly shaken. By Friday the whole village agreed, with an eerie unanimity, on what time it was, and the consequences were almost immediately catastrophic.\n\nThe vicar, who had always arrived at church twelve minutes early, found himself arriving at the correct time, and discovered that the congregation had been counting on his earliness to finish their gossip. The sermon was heard by a disconcerted audience still arguing about a goat. Mrs. Abney's letters, now delivered with merciless promptness, began arriving before the people who had sent them had time to regret them, and there was a brief epidemic of apologies. Even the bus, which had for half a century been late by an amount that everyone had learned to anticipate, now left on the hour, and a dozen people stood in the lane watching its tail lights with the stunned expressions of folk betrayed by a trusted friend.\n\nOn Saturday evening, Mr. Fastidge sat alone in the pub, nursing a small and ungenerous sherry. Around him, the villagers moved with a faint, unfamiliar crispness, like actors in a play whose script had been changed at the last moment. Nobody was talking much. Somebody had forgotten to be late for something, and the consequence was a kind of collective awkwardness.\n\nHobday approached, carrying his own pocket watch, an ancient silver object with a cracked glass. \"Mine says half past seven,\" he said. \"Yours?\"\n\nMr. Fastidge consulted a wristwatch of considerable sophistication. \"Seven twenty-nine and forty seconds.\"\n\n\"Close,\" said Hobday, with the air of a man conceding a minor point to a very small child. \"The thing is, young man, we don't keep our clocks wrong because we can't read them. We keep them wrong so that nobody in Little Orrery is ever on time for anything at the same moment. Think about it. If everybody's at the church at the same second, who is left to look after the church?\" \"That,\" said Mr. Fastidge, \"is the most preposterous thing I have ever heard.\"\n\n\"Is it?\" Hobday gestured at the room, at the stiff backs and the silenced laughter. \"Then why does everyone look so uncomfortable?\"\n\nMr. Fastidge opened his mouth to produce a rebuttal, and found, to his considerable annoyance, that he had none. He looked at the faces. He had spent twenty years among instruments that never disagreed, and he realised, with the slow dread of a man seeing his own reflection in a spoon, that he could not remember the last time he had been genuinely late for anything, and that he could not remember the last time he had been happy.\n\nHe left on Sunday morning, in his immaculate car, having completed the assignment with scrupulous accuracy. His report, filed the following week, was a model of bureaucratic clarity. It stated that the clocks of Little Orrery had been synchronised, that the village was now compliant with every applicable standard, and that the project should be considered a success.\n\nWithin a month, every clock had drifted back. The vicar's was twelve minutes fast again; Mrs. Abney's was nine minutes slow; the pendulum was returned to the hat peg with a ceremony of cheerful solemnity. Nobody ever discussed what had been done, and nobody ever mentioned the stranger. But on the first of every March, when the weather turned bright and brittle, a small parcel arrived at the pub, postmarked from the capital, containing nothing but a cheap, noisy alarm clock, set to ring at some hopelessly wrong hour. Hobday kept it on the mantelpiece, between the pipe cleaners and the dried thistle, where it ticked with a vigour that suggested its sender had, at long last, begun to be late.",
+  "word_count": 1040,
   "vocabulary": [
     {
-      "word": "unrequited",
-      "ipa_us": "ˌʌnrɪˈkwaɪtɪd",
-      "ipa_uk": "ˌʌnrɪˈkwaɪtɪd",
-      "translation_ru": "безответный"
+      "word": "civilised",
+      "ipa_us": "ˈsɪvəˌlaɪzd",
+      "ipa_uk": "ˈsɪvəlaɪzd",
+      "translation_ru": "цивилизованный"
     },
     {
-      "word": "vigilance",
-      "ipa_us": "ˈvɪdʒɪləns",
-      "ipa_uk": "ˈvɪdʒɪləns",
-      "translation_ru": "бдительность"
+      "word": "bewilderment",
+      "ipa_us": "bɪˈwɪldərmənt",
+      "ipa_uk": "bɪˈwɪldəmənt",
+      "translation_ru": "замешательство"
     },
     {
-      "word": "exquisite",
-      "ipa_us": "ɪkˈskwɪzɪt",
-      "ipa_uk": "ˈekskwɪzɪt",
-      "translation_ru": "изысканный"
+      "word": "ferocious",
+      "ipa_us": "fəˈroʊʃəs",
+      "ipa_uk": "fəˈrəʊʃəs",
+      "translation_ru": "свирепый, яростный"
     },
     {
-      "word": "scrupulousness",
-      "ipa_us": "ˈskruːpjələsnəs",
-      "ipa_uk": "ˈskruːpjələsnəs",
-      "translation_ru": "щепетильность, дотошность"
+      "word": "benevolence",
+      "ipa_us": "bəˈnɛvələns",
+      "ipa_uk": "bəˈnev(ə)l(ə)ns",
+      "translation_ru": "доброжелательность"
     },
     {
-      "word": "pathological",
-      "ipa_us": "ˌpæθəˈlɑːdʒɪkəl",
-      "ipa_uk": "ˌpæθəˈlɒdʒɪkəl",
-      "translation_ru": "болезненный, патологический"
+      "word": "unpunctual",
+      "ipa_us": "ʌnˈpʌŋktʃuəl",
+      "ipa_uk": "ʌnˈpʌŋktʃʊəl",
+      "translation_ru": "непунктуальный"
     },
     {
-      "word": "decommissioned",
-      "ipa_us": "ˌdiːkəˈmɪʃənd",
-      "ipa_uk": "ˌdiːkəˈmɪʃənd",
-      "translation_ru": "выведен из эксплуатации"
+      "word": "synchronised",
+      "ipa_us": "ˈsɪŋkrəˌnaɪzd",
+      "ipa_uk": "ˈsɪŋkrənaɪzd",
+      "translation_ru": "синхронизированный"
     },
     {
-      "word": "immaculate",
-      "ipa_us": "ɪˈmækjələt",
-      "ipa_uk": "ɪˈmækjʊlət",
-      "translation_ru": "безупречный"
+      "word": "exactitude",
+      "ipa_us": "ɪɡˈzæktəˌtud",
+      "ipa_uk": "ɪɡˈzæktɪtjuːd",
+      "translation_ru": "точность"
     },
     {
-      "word": "in situ",
-      "ipa_us": "ɪn ˈsaɪtuː",
-      "ipa_uk": "ɪn ˈsɪtjuː",
-      "translation_ru": "на месте"
+      "word": "catastrophic",
+      "ipa_us": "ˌkætəˈstrɑːfɪk",
+      "ipa_uk": "ˌkætəˈstrɒfɪk",
+      "translation_ru": "катастрофический"
+    },
+    {
+      "word": "disconcerted",
+      "ipa_us": "ˌdɪskənˈsɜːrtɪd",
+      "ipa_uk": "ˌdɪskənˈsɜːtɪd",
+      "translation_ru": "смущённый"
+    },
+    {
+      "word": "preposterous",
+      "ipa_us": "prɪˈpɑːstərəs",
+      "ipa_uk": "prɪˈpɒst(ə)rəs",
+      "translation_ru": "нелепый"
+    },
+    {
+      "word": "rebuttal",
+      "ipa_us": "rɪˈbʌtəl",
+      "ipa_uk": "rɪˈbʌt(ə)l",
+      "translation_ru": "опровержение"
+    },
+    {
+      "word": "scrupulous",
+      "ipa_us": "ˈskruːpjələs",
+      "ipa_uk": "ˈskruːpjʊləs",
+      "translation_ru": "дотошный, щепетильный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ð",
+      "sound": "word-stress",
       "examples": [
-        "the",
-        "that",
-        "though",
-        "this"
+        "synchronised",
+        "catastrophic",
+        "preposterous"
       ],
-      "tip_ru": "Для ð кончик языка между зубами и включите голос; не заменяйте на «з» или «д»: the, that, though."
+      "tip_ru": "Ударение в многосложных словах: ca-ta-STRO-phic, pre-POS-ter-ous. Первый слог часто безударный."
     },
     {
-      "sound": "aɪ",
+      "sound": "ŋ",
       "examples": [
-        "lighthouse",
-        "light",
-        "inspector"
+        "morning",
+        "something",
+        "ticked"
       ],
-      "tip_ru": "aɪ: начинайте с широкого «а» и плавно скользите к «и»: light, lighthouse."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, воздух идёт через нос; не добавляйте отчётливого г в конце слова: morning."
     },
     {
-      "sound": "dark-l",
+      "sound": "ʌ",
       "examples": [
-        "ledger",
-        "well",
-        "tower"
+        "dozen",
+        "trusted",
+        "unpunctual"
       ],
-      "tip_ru": "В конце слога l твёрдое: кончик языка к дёснам, а спинка языка отодвинута назад; без мягкости русского «ль»."
+      "tip_ru": "Краткий звук между а и ы, рот расслаблен, язык в центре."
     },
     {
       "sound": "linking",
       "examples": [
-        "inspector arrived",
-        "each dusk"
+        "clock above",
+        "half past",
+        "an expression"
       ],
-      "tip_ru": "Соединяйте согласный с последующим гласным без паузы: arrived by, steps opens."
+      "tip_ru": "Согласный в конце слова переходит на начальную гласную следующего: clock_above звучит как clo-kabove."
     }
   ],
   "questions": [
     {
-      "question": "How long had the light run itself?",
-      "answer": "Nineteen years.",
+      "question": "Why was the church clock twelve minutes fast?",
+      "answer": "The vicar liked to be early for God.",
       "accepted_keywords": [
-        "nineteen",
-        "19"
+        "vicar",
+        "early",
+        "god"
       ]
     },
     {
-      "question": "What did Ambrose record in the ledger?",
-      "answer": "Every vessel that passed.",
+      "question": "What was Mr. Fastidge's job?",
+      "answer": "He came from the Bureau of Standards to synchronise every clock.",
       "accepted_keywords": [
-        "vessel",
-        "ship",
-        "ships",
-        "vessels"
+        "bureau",
+        "standards",
+        "synchronise",
+        "synchronize",
+        "clocks"
       ]
     },
     {
-      "question": "What did the inspector come to do?",
-      "answer": "Decommission the tower and retire him.",
+      "question": "What happened once all the clocks agreed?",
+      "answer": "Village life fell into awkward chaos: congregations, letters and the bus all went wrong.",
       "accepted_keywords": [
-        "decommission",
-        "close",
-        "retire"
+        "awkward",
+        "chaos",
+        "bus",
+        "letters",
+        "gossip",
+        "church"
       ]
     },
     {
-      "question": "What saved the tower?",
-      "answer": "A footnote in the inspector's report.",
+      "question": "What did Hobday say was the purpose of the wrong clocks?",
+      "answer": "So nobody would be on time at the same moment and the village would be looked after.",
       "accepted_keywords": [
-        "footnote",
-        "report"
+        "same",
+        "moment",
+        "time",
+        "nobody",
+        "looked"
       ]
     }
   ]

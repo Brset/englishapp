@@ -2,124 +2,157 @@
   "id": "a2-news-04",
   "level": "A2",
   "genre": "news",
-  "title_en": "Giant Pumpkin Wins Prize",
-  "title_ru": "Гигантская тыква получила приз",
-  "description_ru": "Вымышленная новость о фермере, который вырастил огромную тыкву.",
-  "text": "A farmer from Ashford grew the biggest pumpkin in the county this year. Peter Marsh won first prize at the autumn fair on Sunday.\n\nHis pumpkin weighs three hundred and twenty kilos. That is as heavy as a small horse! It took five men and a truck to carry it to the fair.\n\nPeter started to grow the pumpkin in April. He watered it twice a day, and he talked to it every evening. \"I think she liked my jokes,\" he said, and he smiled. He also covered the pumpkin with a blanket on cold nights.\n\nLast year, his pumpkin was smaller, and it finished second. This time Peter changed the soil, and the result was much better.\n\nWhat is going to happen to the giant pumpkin now? Peter has a plan. He is going to make soup for the whole village, and he is going to keep the seeds for next year.",
-  "word_count": 153,
+  "title_en": "Page the Library Robot",
+  "title_ru": "Page, робот в библиотеке",
+  "description_ru": "Вымышленная новость: в библиотеке города Уэстбери появился робот, который помогает читателям и смешит детей.",
+  "text": "A new helper has started work at the public library in the town of Westbury, and it does not look like any librarian you have met before. It is a white robot that is about one metre tall, with blue eyes and a friendly voice. Its name is Page, and it can speak four languages. Since it arrived on 1 October, it has become the most popular member of staff.\n\nThe robot was bought with money from the town council and from a local company, Brightwell Technology. The library's manager, Joanne Sutherland, explained that the idea came from a young volunteer. \"We have a problem,\" she said. \"Our building is large, and there are more than forty thousand books. Visitors often cannot find what they want, and our staff are busy. We wanted something that could help people quickly.\" Page can show visitors the right shelf, answer simple questions and tell them which books are available.\n\nOn its first day, hundreds of people came to meet the robot. Children were the most excited. They asked it difficult questions, such as \"How old are you?\" and \"Do you like pizza?\" Page answered, \"I am three weeks old, and I do not eat, but I think books are better than pizza.\" The children laughed, and a small girl named Ivy Carter gave it a drawing. \"He is my friend,\" she said seriously. \"He is smarter than my teacher.\"\n\nThe robot has several special skills. It can read a story aloud in a funny voice, and it knows hundreds of poems. For visitors who are learning English, it speaks slowly and repeats difficult words. It can also carry a small pile of books, but not a heavy one. Last Tuesday, it tried to bring forty books to a table, and it fell over. Nobody was hurt, and Page said, \"I am sorry. I am going to practise.\" The audience clapped.\n\nNot everybody is happy about the change, however. Some residents worry that robots will take jobs from people. A retired teacher, Mr Edwin Cole, said that he prefers to talk to a real person. \"A librarian knows you,\" he said. \"She remembers your favourite author and she asks about your family. A machine can never do that.\" Ms Sutherland understands this worry, but she says that no one will lose a job. \"Page is not cheaper or better than my team,\" she explained. \"It is simply another pair of hands. My staff now have more time for the things that only people can do, like running reading clubs and helping older people with computers.\"\n\nExperts agree that robots are going to appear in more public places. Professor Aaron Lind, who studies technology at Eastfield University, visited the library last week. He said that Page is slower and less clever than many people imagine. \"It does one job, and it does that job well. It cannot think like a human, and it makes mistakes.\" He added that the most important thing is to use the machine as a tool and not to replace human contact. \"If it brings more people to the library, that is a great result.\"\n\nPage also has a few small habits that people find funny. When someone says thank you, it answers, \"My pleasure, I think.\" When a visitor tells a joke, it waits for two seconds and then says, \"Ha. Ha. Ha.\" Ms Sutherland says that the programmers are working on its sense of humour, but they are not in a hurry.\n\nThere are signs that this is already happening. The number of children who visited the library in the first week was twice as high as last month. Some teenagers, who usually never come, said that they wanted to try the robot. A few of them even borrowed books. \"I came to take a selfie,\" said sixteen-year-old Marcus Bell, \"and now I am reading a detective story. It is not bad.\"\n\nAt the end of the week, the library organised a special evening. Page told a story to twenty children in the reading room, and then it taught them a simple dance. Parents took photographs, and the manager served hot chocolate. The robot's battery lasts about eight hours, so the evening ended at six o'clock, when Page said goodnight and went to its charging corner.\n\nThe library plans to buy a second robot next year if people like the first one. For now, Page is learning new words every day. Its newest sentence, it says, is \"Please be quiet, but not too quiet.\"",
+  "word_count": 756,
   "vocabulary": [
     {
-      "word": "pumpkin",
-      "ipa_us": "ˈpʌmpkɪn",
-      "ipa_uk": "ˈpʌmpkɪn",
-      "translation_ru": "тыква"
+      "word": "librarian",
+      "ipa_us": "laɪˈbrɛriən",
+      "ipa_uk": "laɪˈbreəriən",
+      "translation_ru": "библиотекарь"
     },
     {
-      "word": "farmer",
-      "ipa_us": "ˈfɑːrmər",
-      "ipa_uk": "ˈfɑːmə",
-      "translation_ru": "фермер"
+      "word": "robot",
+      "ipa_us": "ˈroʊˌbɑt",
+      "ipa_uk": "ˈrəʊbɒt",
+      "translation_ru": "робот"
     },
     {
-      "word": "county",
-      "ipa_us": "ˈkaʊnti",
-      "ipa_uk": "ˈkaʊnti",
-      "translation_ru": "графство, округ"
+      "word": "volunteer",
+      "ipa_us": "ˌvɑlənˈtɪr",
+      "ipa_uk": "ˌvɒlənˈtɪə",
+      "translation_ru": "волонтёр"
     },
     {
-      "word": "weighs",
-      "ipa_us": "weɪz",
-      "ipa_uk": "weɪz",
-      "translation_ru": "весит"
+      "word": "shelf",
+      "ipa_us": "ʃɛlf",
+      "ipa_uk": "ʃelf",
+      "translation_ru": "полка"
     },
     {
-      "word": "heavy",
-      "ipa_us": "ˈhevi",
-      "ipa_uk": "ˈhevi",
-      "translation_ru": "тяжёлый"
+      "word": "visitors",
+      "ipa_us": "ˈvɪzɪtərz",
+      "ipa_uk": "ˈvɪzɪtəz",
+      "translation_ru": "посетители"
     },
     {
-      "word": "blanket",
-      "ipa_us": "ˈblæŋkɪt",
-      "ipa_uk": "ˈblæŋkɪt",
-      "translation_ru": "одеяло"
+      "word": "poems",
+      "ipa_us": "ˈpoʊəmz",
+      "ipa_uk": "ˈpəʊɪmz",
+      "translation_ru": "стихи"
     },
     {
-      "word": "soil",
-      "ipa_us": "sɔɪl",
-      "ipa_uk": "sɔɪl",
-      "translation_ru": "почва"
+      "word": "worry",
+      "ipa_us": "ˈwɜri",
+      "ipa_uk": "ˈwʌri",
+      "translation_ru": "беспокоиться"
     },
     {
-      "word": "seeds",
-      "ipa_us": "siːdz",
-      "ipa_uk": "siːdz",
-      "translation_ru": "семена"
+      "word": "replace",
+      "ipa_us": "rɪˈpleɪs",
+      "ipa_uk": "rɪˈpleɪs",
+      "translation_ru": "заменить"
+    },
+    {
+      "word": "contact",
+      "ipa_us": "ˈkɑnˌtækt",
+      "ipa_uk": "ˈkɒntækt",
+      "translation_ru": "контакт"
+    },
+    {
+      "word": "battery",
+      "ipa_us": "ˈbætəri",
+      "ipa_uk": "ˈbætəri",
+      "translation_ru": "батарея"
+    },
+    {
+      "word": "detective",
+      "ipa_us": "dɪˈtɛktɪv",
+      "ipa_uk": "dɪˈtektɪv",
+      "translation_ru": "детективный"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "r",
+      "examples": [
+        "robot",
+        "reading",
+        "room"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены. Не раскатывайте русское «р»."
+    },
+    {
       "sound": "w",
       "examples": [
-        "weighs",
-        "watered"
+        "worry",
+        "week",
+        "when"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "every",
-        "evening"
-      ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "three",
-        "think"
-      ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
       "sound": "æ",
       "examples": [
-        "that",
-        "blanket"
+        "can",
+        "that"
       ],
-      "tip_ru": "Откройте рот шире, чем для русского «э»; звук короткий и «плоский»."
+      "tip_ru": "Рот открыт шире, чем для русского «э», язык впереди и внизу."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "library",
+        "eyes",
+        "time"
+      ],
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
     }
   ],
   "questions": [
     {
-      "question": "What did Peter grow?",
-      "answer": "A giant pumpkin.",
+      "question": "What does the robot Page do?",
+      "answer": "It shows visitors the right shelf, answers questions and reads stories aloud.",
       "accepted_keywords": [
-        "pumpkin"
+        "shelf",
+        "questions",
+        "stories",
+        "help",
+        "show",
+        "read"
       ]
     },
     {
-      "question": "How heavy is it?",
-      "answer": "Three hundred and twenty kilos.",
+      "question": "What happened last Tuesday?",
+      "answer": "Page tried to carry forty books, and it fell over.",
       "accepted_keywords": [
-        "320",
-        "three hundred",
-        "twenty"
+        "fell",
+        "books",
+        "forty",
+        "carry"
       ]
     },
     {
-      "question": "When did he start to grow it?",
-      "answer": "In April.",
+      "question": "Why are some residents worried?",
+      "answer": "They think robots will take jobs from people.",
       "accepted_keywords": [
-        "april"
+        "jobs",
+        "take",
+        "worry",
+        "people"
       ]
     },
     {
-      "question": "What is he going to make?",
-      "answer": "Soup.",
+      "question": "What happened to the number of children visitors?",
+      "answer": "It was twice as high as the month before.",
       "accepted_keywords": [
-        "soup"
+        "twice",
+        "double",
+        "more",
+        "higher"
       ]
     }
   ]

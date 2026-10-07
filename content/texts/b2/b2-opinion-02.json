@@ -2,139 +2,175 @@
   "id": "b2-opinion-02",
   "level": "B2",
   "genre": "opinion",
-  "title_en": "Let Teenagers Sleep",
-  "title_ru": "Дайте подросткам выспаться",
-  "description_ru": "Аргументы в пользу более позднего начала школьных занятий и ответы на возражения оппонентов.",
-  "text": "Every weekday morning, millions of teenagers drag themselves out of bed at six o'clock, stagger to the bus stop and spend the first lesson half asleep. Many parents blame laziness or late-night video games. Scientists, however, say that the real culprit is biology, and I am convinced that schools should listen.\n\nDuring puberty, the body clock shifts. Teenagers do not feel sleepy until about eleven at night, and they naturally wake up later in the morning. It was once assumed that this was a bad habit that could be corrected with discipline. We now know that it is a normal stage of development. Doctors recommend between eight and ten hours of sleep for young people, but an early start makes that nearly impossible.\n\nThe results of starting later have been encouraging. In several cities where schools moved their first bell to half past eight or nine, researchers found that attendance improved, students reported feeling happier, and some schools even recorded fewer car accidents involving young drivers. One head teacher told reporters that her pupils were \"finally awake enough to learn\".\n\nCritics raise fair objections. Parents who work early would have to find new arrangements for their children, sports practice would run into the evening, and bus timetables would have to be rewritten. These problems are real, but they are practical ones, and practical problems can be solved. It would be unwise to ignore the health of a whole generation just because a timetable is inconvenient.\n\nOthers claim that young people must get used to early mornings because adult life demands it. I find this argument weak. We do not ask children to lift heavy weights before their bones are strong, so why should we ask their brains to perform at the wrong time of day?\n\nIn short, if we want pupils to be alert, curious and healthy, the answer is not louder alarm clocks. It is a later start. Let them sleep, and they might surprise us.",
+  "title_en": "The Case for a Four-Day Week",
+  "title_ru": "Аргументы за четырёхдневную рабочую неделю",
+  "description_ru": "Колонка о том, почему сокращение рабочей недели может сделать людей и компании продуктивнее, и какие возражения нужно учитывать.",
+  "text": "Imagine that your employer announced tomorrow that you would be paid the same salary for working one day less each week. Most people would assume there was a catch. After all, we have been told since childhood that hard work means long hours, and that anyone who leaves the office early must be lazy. Yet a growing number of companies and even governments are testing a four-day week, and the early results are surprising enough that sceptics are starting to eat their words.\n\nThe idea is not new. In the nineteenth century, factory workers fought for the eight-hour day, and they were told that the economy would collapse. Henry Ford is often said to have introduced the five-day week in his car factories in the 1920s, partly because he believed that workers with free time would buy more cars. The economy did not collapse. The weekend, which we now take for granted, was once a radical proposal. The question is whether the next step in this long story is another day off.\n\nSeveral large trials have recently put the idea to the test. In 2022, around sixty British companies agreed to take part in a six-month experiment, cutting their working week to four days without reducing pay. When the results were published, nearly all of the companies reported that they intended to carry on. Revenue stayed roughly the same, staff were less likely to resign, and the number of sick days fell. Many employees said that they felt less stressed and slept better. Similar trials in Iceland, which involved thousands of public-sector workers, were described by researchers as an overwhelming success.\n\nHow can people produce the same amount in less time? The answer, I think, is that much of the working week has always been wasted. Anyone who has sat through a pointless meeting, answered an email that could have been a single sentence, or pretended to look busy at four o'clock on a Friday afternoon knows what I mean. When time is scarce, people become ruthless. Meetings are shortened, or cancelled altogether, and interruptions are reduced. Workers in the trials reported that they had learned to protect their concentration as if it were gold.\n\nThen there is the question of well-being, which is not a soft issue but a business one. Burnout costs employers billions every year in absence, mistakes and recruitment. A rested employee is more creative, more patient with customers and less likely to start looking for another job. One manager I read about said that, since the change, her team had been arriving on Mondays in a much better mood. It sounds trivial, but a happy team is hard to beat. Parents, carers and people with long journeys to work have also gained a precious day that they can use for their families or their health.\n\nThe environment might benefit as well. If fewer people commute, fewer cars are on the road, and offices use less electricity. Some studies have estimated that a shorter week could reduce a country's carbon emissions, although the effect would depend on how people spend their extra day. If everyone flew to a weekend city break, the benefit would vanish. Still, it is a hopeful side effect that is worth investigating.\n\nI do not want to suggest that the four-day week is a magic cure. It is not suited to every job. A hospital cannot close on Fridays, and a shop needs somebody to stand behind the counter. In such cases, the days off may have to be organised in shifts, or the hours spread more cleverly, and it is harder to promise the same pay. There is also a risk that some employers will merely squeeze five days of work into four, leaving staff exhausted. Squeezing the same hours into longer days is not the same thing at all, and critics are right to warn against it.\n\nAnother objection is that the experiments have mostly involved enthusiastic companies, which volunteered to take part and were therefore likely to succeed. This is a fair criticism. A reluctant manager who dislikes the idea can make any trial fail. Researchers admit that more evidence is needed from different industries and different countries. But the same is true of the old model, which is rarely questioned even though no one has ever proved that forty hours is the perfect number.\n\nWhat strikes me most is how quickly an idea can move from impossible to obvious. Not long ago, working from home was regarded as a risky privilege, and then, almost overnight, millions of people were doing it. I suspect that the four-day week will follow a similar path, slowly at first and then very fast. The real question is not whether we can afford to work less. It is whether we can afford to carry on working in a way that leaves so many people tired, distracted and unhappy.",
+  "word_count": 822,
   "vocabulary": [
     {
-      "word": "stagger",
-      "ipa_us": "ˈstæɡər",
-      "ipa_uk": "ˈstæɡə",
-      "translation_ru": "плестись, шататься"
+      "word": "employer",
+      "ipa_us": "ɪmˈplɔɪər",
+      "ipa_uk": "ɪmˈplɔɪə",
+      "translation_ru": "работодатель"
     },
     {
-      "word": "culprit",
-      "ipa_us": "ˈkʌlprɪt",
-      "ipa_uk": "ˈkʌlprɪt",
-      "translation_ru": "виновник"
+      "word": "sceptics",
+      "ipa_us": "ˈskɛptɪks",
+      "ipa_uk": "ˈskeptɪks",
+      "translation_ru": "скептики"
     },
     {
-      "word": "puberty",
-      "ipa_us": "ˈpjubərti",
-      "ipa_uk": "ˈpjuːbəti",
-      "translation_ru": "половое созревание"
+      "word": "radical",
+      "ipa_us": "ˈrædɪkəl",
+      "ipa_uk": "ˈrædɪkəl",
+      "translation_ru": "радикальный"
     },
     {
-      "word": "discipline",
-      "ipa_us": "ˈdɪsəplən",
-      "ipa_uk": "ˈdɪsɪplɪn",
-      "translation_ru": "дисциплина"
+      "word": "revenue",
+      "ipa_us": "ˈrɛvəˌnu",
+      "ipa_uk": "ˈrevənjuː",
+      "translation_ru": "выручка"
     },
     {
-      "word": "attendance",
-      "ipa_us": "əˈtɛndəns",
-      "ipa_uk": "əˈtendəns",
-      "translation_ru": "посещаемость"
+      "word": "overwhelming",
+      "ipa_us": "ˌoʊvərˈwɛlmɪŋ",
+      "ipa_uk": "ˌəʊvəˈwelmɪŋ",
+      "translation_ru": "ошеломляющий"
     },
     {
-      "word": "objections",
-      "ipa_us": "əbˈdʒɛkʃənz",
-      "ipa_uk": "əbˈdʒekʃənz",
-      "translation_ru": "возражения"
+      "word": "ruthless",
+      "ipa_us": "ˈruθləs",
+      "ipa_uk": "ˈruːθləs",
+      "translation_ru": "беспощадный"
     },
     {
-      "word": "generation",
-      "ipa_us": "ˌdʒɛnəˈreɪʃən",
-      "ipa_uk": "ˌdʒenəˈreɪʃən",
-      "translation_ru": "поколение"
+      "word": "burnout",
+      "ipa_us": "ˈbɜrnˌaʊt",
+      "ipa_uk": "ˈbɜːnaʊt",
+      "translation_ru": "выгорание"
     },
     {
-      "word": "alert",
-      "ipa_us": "əˈlɜrt",
-      "ipa_uk": "əˈlɜːt",
-      "translation_ru": "бодрый"
+      "word": "recruitment",
+      "ipa_us": "rɪˈkrutmənt",
+      "ipa_uk": "rɪˈkruːtmənt",
+      "translation_ru": "наём персонала"
+    },
+    {
+      "word": "commute",
+      "ipa_us": "kəˈmjut",
+      "ipa_uk": "kəˈmjuːt",
+      "translation_ru": "ездить на работу"
+    },
+    {
+      "word": "emissions",
+      "ipa_us": "ɪˈmɪʃənz",
+      "ipa_uk": "ɪˈmɪʃənz",
+      "translation_ru": "выбросы"
+    },
+    {
+      "word": "reluctant",
+      "ipa_us": "rɪˈlʌktənt",
+      "ipa_uk": "rɪˈlʌktənt",
+      "translation_ru": "неохотный"
+    },
+    {
+      "word": "privilege",
+      "ipa_us": "ˈprɪvəlɪdʒ",
+      "ipa_uk": "ˈprɪvɪlɪdʒ",
+      "translation_ru": "привилегия"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ð",
-      "examples": [
-        "them",
-        "that",
-        "the",
-        "they"
-      ],
-      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "health",
-        "healthy"
+        "think",
+        "through",
+        "thing",
+        "month"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
     },
     {
-      "sound": "w",
+      "sound": "ŋ",
       "examples": [
-        "weekday",
-        "wake",
-        "weights",
-        "wrong"
+        "thing",
+        "long",
+        "working",
+        "being"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "real",
-        "results",
-        "reporters",
-        "researchers"
+        "employer",
+        "sceptics",
+        "radical",
+        "revenue"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "take",
+        "day",
+        "same",
+        "way"
+      ],
+      "tip_ru": "Дифтонг от «э» к «и»: растяните начало и мягко завершите."
     }
   ],
   "questions": [
     {
-      "question": "What do scientists say is the real reason teenagers wake up late?",
-      "answer": "Biology, because the body clock shifts during puberty.",
+      "question": "What happened in the 2022 British trial?",
+      "answer": "Around sixty companies cut the week to four days without reducing pay; revenue stayed the same and most wanted to continue.",
       "accepted_keywords": [
-        "biology",
-        "body",
-        "clock",
-        "puberty"
+        "four",
+        "pay",
+        "revenue",
+        "continue",
+        "sixty",
+        "companies",
+        "same"
       ]
     },
     {
-      "question": "How many hours of sleep do doctors recommend?",
-      "answer": "Between eight and ten.",
+      "question": "Why can people do the same work in less time?",
+      "answer": "Much of the working week is wasted on pointless meetings and emails; people become more focused.",
       "accepted_keywords": [
-        "eight",
-        "ten",
-        "8",
-        "10"
+        "meetings",
+        "emails",
+        "wasted",
+        "focus",
+        "concentration"
       ]
     },
     {
-      "question": "What benefits were found when schools started later?",
-      "answer": "Better attendance, happier students and fewer car accidents.",
+      "question": "What are two objections to the four-day week?",
+      "answer": "It does not suit every job, and employers may squeeze five days into four; trials involved enthusiastic companies.",
       "accepted_keywords": [
-        "attendance",
-        "happier",
-        "accidents"
+        "hospital",
+        "shop",
+        "squeeze",
+        "exhausted",
+        "enthusiastic",
+        "jobs",
+        "volunteered"
       ]
     },
     {
-      "question": "What is the author's conclusion?",
-      "answer": "Schools should start later so teenagers can sleep.",
+      "question": "How might a shorter week help the environment?",
+      "answer": "Fewer people commute and offices use less electricity.",
       "accepted_keywords": [
-        "later",
-        "sleep",
-        "start"
+        "commute",
+        "cars",
+        "electricity",
+        "emissions",
+        "carbon"
       ]
     }
-  ],
-  "word_count": 328
+  ]
 }

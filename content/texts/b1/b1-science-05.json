@@ -2,107 +2,166 @@
   "id": "b1-science-05",
   "level": "B1",
   "genre": "science",
-  "title_en": "Why We Have Seasons",
-  "title_ru": "Почему бывают времена года",
-  "description_ru": "Объяснение смены времён года наклоном земной оси.",
-  "text": "Many people think that summer happens when the Earth is closer to the sun, and winter happens when it is farther away. This idea sounds logical, but it is wrong. In fact, the Earth is closest to the sun in early January, when it is winter in the Northern Hemisphere.\n\nThe real reason for the seasons is the tilt of the Earth's axis. Our planet spins around an imaginary line that goes through the North and South Poles. This line is not straight up and down. It is tilted by about twenty-three and a half degrees. As the Earth travels around the sun, which takes one year, the same tilt always points in the same direction in space.\n\nBecause of this, the Northern Hemisphere leans towards the sun for part of the year. During that time, sunlight hits the ground more directly, the days are longer, and the weather becomes warmer. Six months later, the Northern Hemisphere leans away from the sun. The light is weaker, the days are shorter, and winter arrives. At the same moment, it is summer in the Southern Hemisphere.\n\nNear the equator, the tilt makes little difference, so the temperature stays almost the same all year. If the Earth had no tilt, there would be no seasons at all, and every day would be very similar to the one before.",
-  "word_count": 226,
+  "title_en": "The Immune System Defense",
+  "title_ru": "Защита иммунной системы",
+  "description_ru": "Три линии защиты организма: барьеры, врождённый и приобретённый иммунитет, а также аллергии и здоровые привычки.",
+  "text": "Imagine a castle surrounded by walls, guarded by soldiers, and equipped with a network of messengers that can call for help within minutes. This is a good picture of your immune system. It is not one organ, but a team of cells, tissues and chemical signals spread throughout the entire body, and it works day and night to keep you healthy. Most of the time you do not notice it, in the same way that you do not notice a good security guard until something goes wrong.\n\nThe first line of defence is physical. Your skin is a waterproof barrier that few germs can cross, and it is also slightly acidic and covered with harmless bacteria that compete with dangerous ones. Inside your nose, sticky mucus traps dust and microbes, and tiny hairs sweep it away. Your eyes make tears that contain a substance able to break open bacteria, and the strong acid in your stomach destroys many germs that arrive with your food. When you sneeze or cough, you are using a reflex that expels unwanted visitors.\n\nIf a germ gets through these barriers, the second line of defence, called the innate immune system, reacts within minutes. It does not need to recognise the specific invader. Special white blood cells known as neutrophils and macrophages rush to the place of the problem and swallow harmful microbes. This is why a small cut becomes red, warm and swollen. Blood vessels widen to bring more cells to the area, and fluid leaks into the tissue. That unpleasant inflammation is actually a sign that your body is fighting back.\n\nFever is another part of the response. When your cells detect an infection, they release chemical messengers that tell the brain to raise the body's temperature, usually to about thirty-eight or thirty-nine degrees. Many bacteria and viruses multiply more slowly in the heat, while some immune cells work faster. This does not mean that every fever should be allowed to continue. A very high temperature, or one that lasts more than a few days, requires a doctor. But a mild fever is not an illness. It is a tool.\n\nThe third line of defence is the adaptive immune system, which is slower but much more precise. It relies on two main types of white blood cells, called B cells and T cells. B cells produce antibodies, tiny proteins shaped to fit a particular germ like a key in a lock. T cells have two jobs: some help to coordinate the response, and others destroy cells that have already been infected. Most importantly, after the infection is over, a few of these cells remain as memory cells. This is why you rarely catch chickenpox twice.\n\nSometimes, however, the immune system makes mistakes. In an allergy, it reacts strongly to something harmless, such as pollen, peanuts or cat hair, and this causes sneezing, itching or, in serious cases, a dangerous swelling. In autoimmune diseases, such as type 1 diabetes, the body attacks its own healthy tissue by mistake. In other cases, the system is weak, either because a person is born with a defect or because a disease, such as HIV, damages it. In all these cases, doctors try to adjust the response without removing protection.\n\nHow can we support our immune system? There is no magic food or supplement that will \"boost\" it, whatever advertisements may say. But the basics matter. Studies show that people who sleep less than six hours are more likely to catch colds, because sleep helps the body to produce protective proteins. Regular exercise, a varied diet with enough vitamins and a calm approach to stress also help. Washing your hands remains one of the simplest and most effective ways to reduce the number of germs you meet.\n\nAge changes the picture as well. Babies are born with only a basic defence, and they borrow antibodies from their mother, first through the placenta and later through breast milk. As children grow, every cold and infection adds a new entry to their immune memory, which is one reason why young children seem to be ill so often. In old age, the system gradually becomes slower, which explains why older people are more at risk from infections and why they benefit so much from protection.\n\nFinally, vaccines are an important partner of the immune system, because they train it in advance. But even without them, your body has an extraordinary ability to defend itself. If you stop to think about it, millions of cells are cooperating at this very moment, without any instructions from you, to keep you alive. Perhaps that is a good reason to treat your body with a little more gratitude, and to give it the rest it needs when it says that it is tired.",
+  "word_count": 798,
   "vocabulary": [
     {
-      "word": "logical",
-      "ipa_us": "ˈlɑːdʒɪkəl",
-      "ipa_uk": "ˈlɒdʒɪkəl",
-      "translation_ru": "логичный"
+      "word": "barrier",
+      "ipa_us": "ˈbæriər",
+      "ipa_uk": "ˈbæriə",
+      "translation_ru": "барьер"
     },
     {
-      "word": "hemisphere",
-      "ipa_us": "ˈhemɪsfɪr",
-      "ipa_uk": "ˈhemɪsfɪə",
-      "translation_ru": "полушарие"
+      "word": "mucus",
+      "ipa_us": "ˈmjuːkəs",
+      "ipa_uk": "ˈmjuːkəs",
+      "translation_ru": "слизь"
     },
     {
-      "word": "tilt",
-      "ipa_us": "tɪlt",
-      "ipa_uk": "tɪlt",
-      "translation_ru": "наклон"
+      "word": "neutrophils",
+      "ipa_us": "ˈnuːtrəfɪlz",
+      "ipa_uk": "ˈnjuːtrəfɪlz",
+      "translation_ru": "нейтрофилы"
     },
     {
-      "word": "axis",
-      "ipa_us": "ˈæksɪs",
-      "ipa_uk": "ˈæksɪs",
-      "translation_ru": "ось"
+      "word": "inflammation",
+      "ipa_us": "ˌɪnfləˈmeɪʃən",
+      "ipa_uk": "ˌɪnfləˈmeɪʃən",
+      "translation_ru": "воспаление"
     },
     {
-      "word": "imaginary",
-      "ipa_us": "ɪˈmædʒɪneri",
-      "ipa_uk": "ɪˈmædʒɪnəri",
-      "translation_ru": "воображаемый"
+      "word": "fever",
+      "ipa_us": "ˈfiːvər",
+      "ipa_uk": "ˈfiːvə",
+      "translation_ru": "лихорадка"
     },
     {
-      "word": "equator",
-      "ipa_us": "ɪˈkweɪtɚ",
-      "ipa_uk": "ɪˈkweɪtə",
-      "translation_ru": "экватор"
+      "word": "adaptive",
+      "ipa_us": "əˈdæptɪv",
+      "ipa_uk": "əˈdæptɪv",
+      "translation_ru": "приобретённый, адаптивный"
     },
     {
-      "word": "temperature",
-      "ipa_us": "ˈtemprətʃɚ",
-      "ipa_uk": "ˈtemprətʃə",
-      "translation_ru": "температура"
+      "word": "antibodies",
+      "ipa_us": "ˈæntibɑːdiz",
+      "ipa_uk": "ˈæntibɒdiz",
+      "translation_ru": "антитела"
+    },
+    {
+      "word": "allergy",
+      "ipa_us": "ˈælərdʒi",
+      "ipa_uk": "ˈælədʒi",
+      "translation_ru": "аллергия"
+    },
+    {
+      "word": "autoimmune",
+      "ipa_us": "ˌɔːtoʊɪˈmjuːn",
+      "ipa_uk": "ˌɔːtəʊɪˈmjuːn",
+      "translation_ru": "аутоиммунный"
+    },
+    {
+      "word": "pollen",
+      "ipa_us": "ˈpɑːlən",
+      "ipa_uk": "ˈpɒlən",
+      "translation_ru": "пыльца"
+    },
+    {
+      "word": "microbes",
+      "ipa_us": "ˈmaɪkroʊbz",
+      "ipa_uk": "ˈmaɪkrəʊbz",
+      "translation_ru": "микробы"
+    },
+    {
+      "word": "gratitude",
+      "ipa_us": "ˈɡrætɪtuːd",
+      "ipa_uk": "ˈɡrætɪtjuːd",
+      "translation_ru": "благодарность"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "Earth",
-        "through"
+        "adaptive",
+        "allergy",
+        "acidic",
+        "damages"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Широко откройте рот, язык низко; звук между «а» и «э», не заменяйте на «э»."
     },
     {
-      "sound": "h",
+      "sound": "ð",
       "examples": [
-        "hemisphere",
-        "happens",
-        "hits"
+        "the",
+        "that",
+        "other",
+        "them"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто запотевает зеркало; без русского «х» с трением в задней части рта."
+      "tip_ru": "Язык между зубами, но со звучанием голоса; не произносите «з» или «д»."
     },
     {
-      "sound": "r",
+      "sound": "v",
       "examples": [
-        "real",
-        "reason",
-        "around",
-        "travels"
+        "fever",
+        "viruses",
+        "vitamins",
+        "varied"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не превращайте его в «в» с округлением губ."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "inflammation",
+        "autoimmune",
+        "gratitude",
+        "allergy"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "When is the Earth closest to the sun?",
-      "answer": "In early January.",
+      "question": "What is the first line of defence?",
+      "answer": "Physical barriers such as skin, mucus, tears and stomach acid.",
       "accepted_keywords": [
-        "january"
+        "skin",
+        "barriers",
+        "barrier",
+        "mucus"
       ]
     },
     {
-      "question": "How much is the Earth's axis tilted?",
-      "answer": "About twenty-three and a half degrees.",
+      "question": "Why does the body develop a fever?",
+      "answer": "Heat slows many germs and makes some immune cells work faster.",
       "accepted_keywords": [
-        "twenty",
-        "23",
-        "degrees"
+        "slow",
+        "slows",
+        "heat",
+        "faster",
+        "germs"
       ]
     },
     {
-      "question": "Why are there almost no seasons near the equator?",
-      "answer": "The tilt makes little difference there.",
+      "question": "What do B cells produce?",
+      "answer": "Antibodies.",
       "accepted_keywords": [
-        "tilt",
-        "difference"
+        "antibodies",
+        "antibody"
+      ]
+    },
+    {
+      "question": "What actually helps the immune system?",
+      "answer": "Sleep, exercise, a varied diet, less stress and hand washing.",
+      "accepted_keywords": [
+        "sleep",
+        "exercise",
+        "diet",
+        "hands",
+        "washing"
       ]
     }
   ]

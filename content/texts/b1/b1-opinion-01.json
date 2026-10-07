@@ -2,130 +2,155 @@
   "id": "b1-opinion-01",
   "level": "B1",
   "genre": "opinion",
-  "title_en": "Paper Books Are Not Dead",
-  "title_ru": "Бумажные книги ещё живы",
-  "description_ru": "Автор объясняет, почему он предпочитает бумажные книги электронным, и признаёт плюсы экранов.",
-  "text": "Some people say that paper books are old-fashioned and that everybody will soon read on screens. I disagree, and I would like to explain why.\n\nFirst of all, I remember what I read much better when I hold a real book. I can feel how far I have travelled through the story, and I often recall the exact place on the page where I read something important. On a phone, every page looks the same, so my memory gets confused.\n\nSecond, a screen is full of temptations. When I read an e-book, a message arrives, a notification shines, and suddenly I have spent twenty minutes on videos instead of the novel. A paper book has never interrupted me. It simply waits patiently until I come back.\n\nThird, books are beautiful objects. A shelf of books makes a room feel warm and personal. If you visit someone's home, you can learn a lot about them just by looking at what they have read.\n\nOf course, I understand the advantages of e-readers. They are light, they are cheap, and you can carry a thousand stories on a long journey. If I travelled every week, I would probably use one myself.\n\nHowever, I believe the best reading happens slowly, quietly and without any buzzing devices. That is why I will always keep a few paper books beside my bed, even in the digital age.",
-  "word_count": 234,
+  "title_en": "Let Teenagers Sleep",
+  "title_ru": "Пусть подростки спят",
+  "description_ru": "Рассуждение о том, почему школьные уроки должны начинаться позже: биология подростков, аргументы «за» и «против» и возможные решения.",
+  "text": "Every school morning, millions of teenagers drag themselves out of bed while it is still dark outside. They eat breakfast with their eyes half closed, hurry to the bus stop, and then spend the first lesson of the day trying not to fall asleep. Most adults think that this is simply laziness. I disagree. I believe that schools should start later, and I think that the evidence for this idea is stronger than many people realise.\n\nFirst of all, teenagers are not lazy; their bodies really do work differently. During puberty the body clock moves, so young people naturally feel sleepy later in the evening and wake up later in the morning. Researchers have found that the hormone that makes us sleepy is released about two hours later in a teenager than in a child or an adult. As a result, a fifteen-year-old who goes to bed at eleven o'clock may not be able to fall asleep until after midnight, however hard he tries. If that student has to get up at six, he will get far less sleep than doctors recommend, which is between eight and ten hours.\n\nThe consequences of this lack of sleep are serious. Tired students find it harder to concentrate, they forget information more easily, and they are more likely to feel anxious or unhappy. In addition, drivers who are sleepy cause more accidents, and several studies have shown that the number of car crashes among young drivers fell when their schools started an hour later. Some American schools that changed their schedule have also reported that attendance improved and marks went up. I think these results are impossible to ignore.\n\nOf course, there are good arguments on the other side, and I want to be fair. Parents are the first group to complain. Many of them have to be at work by eight or nine, so they cannot easily drop their children at school at half past nine, and they worry about who will look after younger children in the morning. Teachers also have concerns, because later lessons mean a later finish. That makes it difficult for students to play sports after school, work part-time, or take care of their families before it gets dark. Bus companies say that they would need to change their timetables completely, which would cost a lot of money.\n\nI accept that these problems are real, but I do not think that they are impossible to solve. Schools could offer supervised activities in the morning for families who need them. Sports teams could train at lunchtime or use floodlights in winter. Local councils could adjust bus routes gradually instead of changing everything in one go. The cost of doing nothing is also high, because exhausted students learn less, and the money spent on their education is partly wasted. If we compare the two, a small change in the timetable looks like a bargain.\n\nAnother point is that a later start might help teachers as well. In my experience, a classroom of sleepy teenagers is extremely hard to teach. My former history teacher once admitted that he never planned important lessons for the first period, because nobody was listening anyway. If students were more alert, teachers would waste less time repeating themselves and could spend more time on creative activities. Everybody would benefit.\n\nSome people say that young people should simply go to bed earlier. I used to think the same thing, but I have changed my mind. Telling a teenager to sleep at nine in the evening is like telling an adult to fall asleep at four in the afternoon. It does not work. Naturally, phones and computers also keep students awake, and they should be switched off an hour before bedtime. Even so, the biology cannot be ignored. A well-behaved student with no phone would still feel awake at eleven and sleepy at seven.\n\nThere is also a more general lesson here. We often blame young people for problems that are really caused by the way we organise society. We have designed the school day around the needs of adults and buses instead of the needs of learners. When something is not working, it makes sense to ask whether the system is wrong before we criticise the people inside it.\n\nIn conclusion, I strongly believe that secondary schools should start no earlier than half past eight, and preferably at nine. It would not be a perfect solution, and some families would have to adapt. Nevertheless, healthier, happier and better-rested students would learn more, behave better and drive more safely. If we want teenagers to succeed, the first thing we should give them is a proper night of sleep. Surely that is not too much to ask.",
+  "word_count": 793,
   "vocabulary": [
     {
-      "word": "disagree",
-      "ipa_us": "ˌdɪsəˈɡriː",
-      "ipa_uk": "ˌdɪsəˈɡriː",
-      "translation_ru": "не соглашаться"
+      "word": "puberty",
+      "ipa_us": "ˈpjuːbərti",
+      "ipa_uk": "ˈpjuːbəti",
+      "translation_ru": "половое созревание"
     },
     {
-      "word": "recall",
-      "ipa_us": "rɪˈkɔl",
-      "ipa_uk": "rɪˈkɔːl",
-      "translation_ru": "вспоминать"
+      "word": "hormone",
+      "ipa_us": "ˈhɔːrmoʊn",
+      "ipa_uk": "ˈhɔːməʊn",
+      "translation_ru": "гормон"
     },
     {
-      "word": "confused",
-      "ipa_us": "kənˈfjuzd",
-      "ipa_uk": "kənˈfjuːzd",
-      "translation_ru": "запутавшийся"
+      "word": "concentrate",
+      "ipa_us": "ˈkɑːnsənˌtreɪt",
+      "ipa_uk": "ˈkɒnsəntreɪt",
+      "translation_ru": "сосредоточиться"
     },
     {
-      "word": "temptations",
-      "ipa_us": "tɛmpˈteɪʃənz",
-      "ipa_uk": "tempˈteɪʃənz",
-      "translation_ru": "соблазны"
+      "word": "anxious",
+      "ipa_us": "ˈæŋkʃəs",
+      "ipa_uk": "ˈæŋkʃəs",
+      "translation_ru": "тревожный"
     },
     {
-      "word": "notification",
-      "ipa_us": "ˌnoʊtəfəˈkeɪʃən",
-      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃən",
-      "translation_ru": "уведомление"
+      "word": "attendance",
+      "ipa_us": "əˈtɛndəns",
+      "ipa_uk": "əˈtendəns",
+      "translation_ru": "посещаемость"
     },
     {
-      "word": "interrupted",
-      "ipa_us": "ˌɪntəˈrʌptɪd",
-      "ipa_uk": "ˌɪntəˈrʌptɪd",
-      "translation_ru": "прерывала"
+      "word": "schedule",
+      "ipa_us": "ˈskɛdʒuːl",
+      "ipa_uk": "ˈʃedjuːl",
+      "translation_ru": "расписание"
     },
     {
-      "word": "advantages",
-      "ipa_us": "ədˈvæntɪdʒɪz",
-      "ipa_uk": "ədˈvɑːntɪdʒɪz",
-      "translation_ru": "преимущества"
+      "word": "supervised",
+      "ipa_us": "ˈsuːpərˌvaɪzd",
+      "ipa_uk": "ˈsuːpəvaɪzd",
+      "translation_ru": "под присмотром"
     },
     {
-      "word": "journey",
-      "ipa_us": "ˈdʒɜrni",
-      "ipa_uk": "ˈdʒɜːni",
-      "translation_ru": "поездка"
+      "word": "alert",
+      "ipa_us": "əˈlɜːrt",
+      "ipa_uk": "əˈlɜːt",
+      "translation_ru": "бодрый, внимательный"
     },
     {
-      "word": "buzzing",
-      "ipa_us": "ˈbʌzɪŋ",
-      "ipa_uk": "ˈbʌzɪŋ",
-      "translation_ru": "жужжащий"
+      "word": "exhausted",
+      "ipa_us": "ɪɡˈzɔːstɪd",
+      "ipa_uk": "ɪɡˈzɔːstɪd",
+      "translation_ru": "измотанный"
+    },
+    {
+      "word": "biology",
+      "ipa_us": "baɪˈɑːlədʒi",
+      "ipa_uk": "baɪˈɒlədʒi",
+      "translation_ru": "биология"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thousand",
-        "Third"
+        "think",
+        "nothing",
+        "something",
+        "everything"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "ð",
+      "sound": "ŋ",
       "examples": [
-        "that",
-        "they",
-        "them"
+        "morning",
+        "evening",
+        "working",
+        "trying"
       ],
-      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
     },
     {
-      "sound": "r",
+      "sound": "ɜː",
       "examples": [
-        "read",
-        "real",
-        "remember",
-        "travelled"
+        "first",
+        "learn",
+        "work"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Долгий нейтральный звук: губы расслаблены, язык в середине рта; что-то среднее между «ё» и «э» без «й» (work, learn)."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "biology",
+        "attendance",
+        "supervised",
+        "exhausted"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "What do some people say about paper books?",
-      "answer": "They are old-fashioned.",
+      "question": "Why do teenagers feel sleepy late in the evening?",
+      "answer": "During puberty the body clock moves, and the hormone that makes them sleepy is released later.",
       "accepted_keywords": [
-        "old-fashioned",
-        "old"
+        "body",
+        "clock",
+        "hormone",
+        "puberty",
+        "later"
       ]
     },
     {
-      "question": "Why does the writer remember books better on paper?",
-      "answer": "He remembers the place on the page.",
+      "question": "What happened in schools that started later?",
+      "answer": "Attendance improved, marks went up, and young drivers had fewer car crashes.",
       "accepted_keywords": [
-        "page",
-        "place",
-        "feel"
+        "attendance",
+        "marks",
+        "crashes",
+        "accidents",
+        "improved"
       ]
     },
     {
-      "question": "What interrupts reading on a phone?",
-      "answer": "Messages and notifications.",
+      "question": "What problems do parents and bus companies mention?",
+      "answer": "Parents must be at work early and bus companies would need new timetables.",
       "accepted_keywords": [
-        "message",
-        "notification",
-        "messages"
+        "work",
+        "parents",
+        "bus",
+        "timetables",
+        "money"
       ]
     },
     {
-      "question": "When would he use an e-reader?",
-      "answer": "If he travelled every week.",
+      "question": "What does the author suggest for families who need an early start?",
+      "answer": "Schools could offer supervised activities in the morning.",
       "accepted_keywords": [
-        "travelled",
-        "travel",
-        "week"
+        "supervised",
+        "activities",
+        "morning"
       ]
     }
   ]

@@ -2,123 +2,159 @@
   "id": "a1-travel-03",
   "level": "A1",
   "genre": "travel",
-  "title_en": "The Market in Marrakech",
-  "title_ru": "Рынок в Марракеше",
-  "description_ru": "Амира и её дядя торгуются на шумном рынке и покупают синюю чашу.",
-  "text": "Amira visits the big market in Marrakech with her uncle. It is noisy and full of colour. Sellers shout, \"Come, look, look!\" There are bright lamps, soft carpets, sweet dates and hundreds of spices. Amira loves the smell of orange and mint.\n\nShe wants a small blue bowl. The seller says, \"Forty dirhams.\" Her uncle smiles and says, \"Twenty.\" They both laugh, and finally the price is thirty. Amira is proud of her first bargain. She carries her new bowl carefully through the crowd and drinks sweet mint tea in a quiet corner.",
+  "title_en": "A Safari in Kenya",
+  "title_ru": "Сафари в Кении",
+  "description_ru": "Фотограф едет на сафари в парк Масаи-Мара: жирафы, львы, слоны и закат с леопардом.",
+  "text": "It is five o'clock in the morning, and I am standing in a jeep in Kenya. The air is cold, and the sky is pink and orange. My name is Sam. I am a photographer from Canada, and I am on my first safari in Africa. Our guide, a tall man called Joseph, sits at the front. \"Today we look for the Big Five,\" he says. \"The lion, the elephant, the buffalo, the leopard and the rhino.\"\n\nWe are in the Maasai Mara, a big national park in the south of Kenya. It is a wide, flat land with yellow grass and small trees with flat tops. In the distance, I see herds of animals as far as my eye can see. Joseph says, \"Between July and October, more than a million wildebeest come here from Tanzania. They walk for hundreds of kilometres to find fresh grass. It is the biggest animal journey on Earth.\"\n\nSoon we see our first animals. A family of giraffes eats leaves from a tree. Their necks are so long that they look like cranes. A little baby giraffe stands near its mother, and its legs are shaking. \"It is only two days old,\" whispers Joseph. Next to them, a group of zebras drinks at a small pool. Their black and white stripes shine in the morning light. I take a hundred photos before breakfast.\n\nJoseph knows every animal in this park. He can tell a lion from a long way by the way the birds fly. He also knows the names of the trees and the birds, and he tells me about each one. \"Look at that bird with the blue chest,\" he says. \"It is called a superb starling. It is the most beautiful bird in Kenya, but my wife says that is not true.\" He laughs a lot, and his laugh makes the day easier.\n\nWe stop under a tree and drink hot tea from a thermos. Suddenly, Joseph puts his finger on his lips. \"Listen,\" he whispers. From far away, we hear a deep, loud roar. My heart jumps. Joseph starts the jeep very slowly and drives behind some bushes. There, in the long grass, we see three lions. A mother lion lies in the shade, and her two cubs play with her tail. They jump on her back and bite her ears. She does not move, only closes her eyes.\n\nAt noon, it is very hot, and most animals rest. We eat sandwiches in the jeep and watch a herd of elephants cross the river. There are about fifteen of them. The baby elephant walks in the middle, and the big ones stay on the outside to protect it. The old female leads the group. \"She is the grandmother,\" says Joseph. \"She remembers where to find water, even in a dry year. The whole family follows her.\" The elephants cross and disappear in the trees.\n\nAfter the lions, we meet a huge herd of buffalo. They are big, black and heavy, with large curved horns. They look at us with angry eyes, and Joseph stops the jeep far away. \"They look slow and calm,\" he says, \"but they are very dangerous, and they can run fast. Many hunters fear them more than lions.\" We watch them for a few minutes and then drive quietly away.\n\nIn the afternoon, we visit a Maasai village. The Maasai are a famous tribe, and they have lived here for hundreds of years. They are tall and wear bright red cloth. The men jump very high, higher than I can believe, and sing together. A young woman shows me her house. It is made of mud and wood and cow dung, and it is small and dark inside. She smiles and says, \"In the evening, the whole family sleeps here.\" She sells me a bracelet made of coloured beads.\n\nOn our last evening, we drive to a hill to see the sunset. The sky becomes red, then purple, and the animals' shapes look black against it. A lonely leopard sits on a branch of a tree. I take out my camera, but my hands shake, and for a minute I only look. Joseph says quietly, \"You are lucky. Many people wait for days to see a leopard.\" Now we have four of the Big Five, and I do not need more.\n\nWhen I return home, I show my photos to my family. But I know that no picture can show the sounds, the smells and the feeling of that land. I make a promise to myself. I will go back to Kenya one day, and I will see the rhino. Perhaps I will take my son, and Joseph can teach him to listen.",
+  "word_count": 788,
   "vocabulary": [
     {
-      "word": "market",
-      "ipa_us": "ˈmɑːrkɪt",
-      "ipa_uk": "ˈmɑːkɪt",
-      "translation_ru": "рынок"
+      "word": "safari",
+      "ipa_us": "səˈfɑːri",
+      "ipa_uk": "səˈfɑːri",
+      "translation_ru": "сафари"
     },
     {
-      "word": "uncle",
-      "ipa_us": "ˈʌŋkl",
-      "ipa_uk": "ˈʌŋkl",
-      "translation_ru": "дядя"
+      "word": "jeep",
+      "ipa_us": "dʒiːp",
+      "ipa_uk": "dʒiːp",
+      "translation_ru": "джип"
     },
     {
-      "word": "carpets",
-      "ipa_us": "ˈkɑːrpɪts",
-      "ipa_uk": "ˈkɑːpɪts",
-      "translation_ru": "ковры"
+      "word": "giraffes",
+      "ipa_us": "dʒəˈræfs",
+      "ipa_uk": "dʒəˈrɑːfs",
+      "translation_ru": "жирафы"
     },
     {
-      "word": "spices",
-      "ipa_us": "ˈspaɪsɪz",
-      "ipa_uk": "ˈspaɪsɪz",
-      "translation_ru": "специи"
+      "word": "zebras",
+      "ipa_us": "ˈziːbrəz",
+      "ipa_uk": "ˈzebrəz",
+      "translation_ru": "зебры"
     },
     {
-      "word": "bowl",
-      "ipa_us": "boʊl",
-      "ipa_uk": "bəʊl",
-      "translation_ru": "чаша, миска"
+      "word": "cubs",
+      "ipa_us": "kʌbz",
+      "ipa_uk": "kʌbz",
+      "translation_ru": "детёныши"
     },
     {
-      "word": "price",
-      "ipa_us": "praɪs",
-      "ipa_uk": "praɪs",
-      "translation_ru": "цена"
+      "word": "herd",
+      "ipa_us": "hɜːrd",
+      "ipa_uk": "hɜːd",
+      "translation_ru": "стадо"
     },
     {
-      "word": "bargain",
-      "ipa_us": "ˈbɑːrɡɪn",
-      "ipa_uk": "ˈbɑːɡɪn",
-      "translation_ru": "выгодная покупка"
+      "word": "buffalo",
+      "ipa_us": "ˈbʌfəloʊ",
+      "ipa_uk": "ˈbʌfələʊ",
+      "translation_ru": "буйвол"
     },
     {
-      "word": "crowd",
-      "ipa_us": "kraʊd",
-      "ipa_uk": "kraʊd",
-      "translation_ru": "толпа"
+      "word": "leopard",
+      "ipa_us": "ˈlɛpərd",
+      "ipa_uk": "ˈlepəd",
+      "translation_ru": "леопард"
+    },
+    {
+      "word": "sunset",
+      "ipa_us": "ˈsʌnsɛt",
+      "ipa_uk": "ˈsʌnset",
+      "translation_ru": "закат"
+    },
+    {
+      "word": "tribe",
+      "ipa_us": "traɪb",
+      "ipa_uk": "traɪb",
+      "translation_ru": "племя"
+    },
+    {
+      "word": "roar",
+      "ipa_us": "rɔːr",
+      "ipa_uk": "rɔː",
+      "translation_ru": "рёв"
+    },
+    {
+      "word": "photographer",
+      "ipa_us": "fəˈtɑːɡrəfər",
+      "ipa_uk": "fəˈtɒɡrəfə",
+      "translation_ru": "фотограф"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "Marrakech",
-        "market",
-        "carpets",
-        "bright",
-        "price"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
-    },
-    {
       "sound": "ʌ",
       "examples": [
-        "uncle",
-        "Come",
-        "love",
-        "colour"
+        "cubs",
+        "jump",
+        "jumps",
+        "buffalo"
       ],
-      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
     },
     {
-      "sound": "ɪ",
+      "sound": "r",
       "examples": [
-        "with",
-        "mint",
-        "bargain"
+        "roar",
+        "red",
+        "rest",
+        "river"
       ],
-      "tip_ru": "Короткий расслабленный звук между «и» и «ы». Не растягивайте и не смягчайте согласный перед ним."
+      "tip_ru": "Кончик языка поднят, но не касается нёба и не вибрирует; губы слегка округлены."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "herd",
+        "tribe",
+        "jeep",
+        "and"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: «d» в «old» не должно звучать как «т»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "safari",
+        "giraffes",
+        "leopard",
+        "photographer"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "Who goes to the market with Amira?",
-      "answer": "Her uncle.",
+      "question": "Where is the safari?",
+      "answer": "In the Maasai Mara in Kenya.",
       "accepted_keywords": [
-        "uncle"
+        "kenya",
+        "mara",
+        "maasai"
       ]
     },
     {
-      "question": "What does Amira want?",
-      "answer": "A small blue bowl.",
+      "question": "Who is Joseph?",
+      "answer": "He is the guide.",
       "accepted_keywords": [
-        "bowl"
+        "guide"
       ]
     },
     {
-      "question": "What is the final price?",
-      "answer": "Thirty dirhams.",
+      "question": "What do the lion cubs do?",
+      "answer": "They play with their mother's tail.",
       "accepted_keywords": [
-        "thirty",
-        "30"
+        "play",
+        "tail",
+        "mother"
       ]
     },
     {
-      "question": "What does Amira drink?",
-      "answer": "Sweet mint tea.",
+      "question": "Which animal do they not see on the trip?",
+      "answer": "The rhino.",
       "accepted_keywords": [
-        "tea",
-        "mint"
+        "rhino"
       ]
     }
-  ],
-  "word_count": 93
+  ]
 }

@@ -2,121 +2,160 @@
   "id": "a1-story-05",
   "level": "A1",
   "genre": "story",
-  "title_en": "Grandpa's Garden",
-  "title_ru": "Дедушкин огород",
-  "description_ru": "Внук Бен впервые выращивает помидоры вместе с дедушкой и учится терпению.",
-  "text": "Every summer, Grandpa Leo grows tomatoes in his garden. This year, his grandson Ben helps him. They plant the seeds in the soil and give them water. Ben checks the plants every day. \"They are not growing!\" he says.\n\nGrandpa laughs. \"Be patient, Ben. Plants need time and sun.\" Three weeks later, small green leaves appear. After a month, there are red tomatoes everywhere. Ben eats one, and the juice runs down his chin. \"Best tomato ever!\" he shouts.",
+  "title_en": "The Wrong Suitcase",
+  "title_ru": "Не тот чемодан",
+  "description_ru": "В лондонском аэропорту медсестра берёт чужой чемодан и находит в нём удивительные подарки.",
+  "text": "Maria is a nurse from Italy, and today she is flying to London for a holiday. She is tired and happy. At the airport in London, she waits near the belt for her suitcase. Many bags go round and round. At last she sees a black suitcase with a yellow ribbon on the handle. \"That is mine,\" she thinks. She takes it and walks to the taxi.\n\nAt the hotel, Maria goes to her room and puts the suitcase on the bed. She opens it and stops. There are no clothes inside. There are no shoes and no books. She sees a lot of small boxes, and every box has a name on it. Her face goes pale. \"This is not my suitcase,\" she says aloud. \"I take the wrong one!\"\n\nMaria looks at the boxes more closely. Each one has a name and an address in London. On top, there is a letter. It says, \"To Mr. John Baker, with love from your daughter.\" Maria opens another box by accident. Inside, there is a pretty scarf. In another one, she finds a book of poems. They are all presents! She sits down on the bed. Somewhere, a man is crying for his lost bag.\n\nMaria does not know what to do. She calls the airport, but the line is busy. She waits an hour. She calls again, and a woman says, \"Please come to the lost bags office tomorrow morning.\" Maria is worried. She does not sleep well that night. In her dreams, she sees small boxes flying around the room.\n\nThe next morning, before she goes out, Maria makes a list of things she needs. She has no clean clothes, no toothbrush and no shampoo. She walks to a small shop near the hotel and buys a few things. A kind woman at the shop asks, \"Are you on holiday?\" Maria says yes. She does not tell her about the strange suitcase. It feels like a secret.\n\nAt eight o'clock, she is already at the office. A young man with a sad face is standing at the desk. He is shouting, \"My suitcase! It has Christmas presents for my family!\" Maria looks at the yellow ribbon in her hand. She walks to him slowly. \"Excuse me,\" she says. \"Is your name Mr. Baker?\" The man turns. \"Yes! How do you know?\" She shows him the letter and smiles. \"I think I have your suitcase.\"\n\nMr. Baker cannot believe it. He jumps up and almost hugs her. \"Thank you, thank you!\" he says. \"These presents are for my children. I live in Canada, and I only see them once a year. I make every present with my own hands.\" Maria is surprised. She opens the box with the scarf again and sees small stitches. \"You make these?\" she asks. \"Yes,\" he says, \"I am a tailor. My wife is gone, and the children are my whole life.\"\n\nNow Maria asks the woman at the desk about her own suitcase. It is there, in a corner! Another person with a black bag and a yellow ribbon is waiting for it. Mr. Baker laughs. \"Ah, I think the ribbon is my daughter's idea. She puts the same ribbon on every bag!\" Maria laughs too. Two strangers with the same bag are a funny sight.\n\nBefore she leaves, Maria goes to see the office woman again. \"Thank you for your help,\" she says. The woman smiles. \"It is a happy end,\" she says. \"Usually, nobody finds a lost bag so fast. And usually, the people are not so kind.\" Maria takes her own suitcase and checks it at once. Everything is inside, even her favourite book. She feels very glad.\n\nMr. Baker invites her for coffee. They talk for two hours about Italy, Canada and nurses and tailors. Before they say goodbye, he gives Maria a small box from his suitcase. Inside there is a soft blue scarf. \"For the kind woman who finds my bag,\" he says. Maria wears it all week in London. Every time somebody says, \"What a lovely scarf!\" she tells the story and smiles. She often thinks about Mr. Baker and his children, far away in Canada. At home in Italy, she sends him a card in December. A month later, a small parcel arrives at her door. Inside there is a white hat, and a note says, \"Happy new year from the tailor with the yellow ribbon.\"",
+  "word_count": 741,
   "vocabulary": [
     {
-      "word": "garden",
-      "ipa_us": "ˈɡɑːrdn",
-      "ipa_uk": "ˈɡɑːdn",
-      "translation_ru": "сад, огород"
+      "word": "suitcase",
+      "ipa_us": "ˈsuːtkeɪs",
+      "ipa_uk": "ˈsuːtkeɪs",
+      "translation_ru": "чемодан"
     },
     {
-      "word": "grows",
-      "ipa_us": "ɡroʊz",
-      "ipa_uk": "ɡrəʊz",
-      "translation_ru": "выращивает, растёт"
+      "word": "airport",
+      "ipa_us": "ˈɛrpɔːrt",
+      "ipa_uk": "ˈeəpɔːt",
+      "translation_ru": "аэропорт"
     },
     {
-      "word": "seeds",
-      "ipa_us": "siːdz",
-      "ipa_uk": "siːdz",
-      "translation_ru": "семена"
+      "word": "ribbon",
+      "ipa_us": "ˈrɪbən",
+      "ipa_uk": "ˈrɪbən",
+      "translation_ru": "лента"
     },
     {
-      "word": "soil",
-      "ipa_us": "sɔɪl",
-      "ipa_uk": "sɔɪl",
-      "translation_ru": "почва"
+      "word": "address",
+      "ipa_us": "ˈædrɛs",
+      "ipa_uk": "əˈdres",
+      "translation_ru": "адрес"
     },
     {
-      "word": "water",
-      "ipa_us": "ˈwɔːtɚ",
-      "ipa_uk": "ˈwɔːtə",
-      "translation_ru": "вода"
+      "word": "tailor",
+      "ipa_us": "ˈteɪlər",
+      "ipa_uk": "ˈteɪlə",
+      "translation_ru": "портной"
     },
     {
-      "word": "patient",
-      "ipa_us": "ˈpeɪʃənt",
-      "ipa_uk": "ˈpeɪʃənt",
-      "translation_ru": "терпеливый"
+      "word": "stranger",
+      "ipa_us": "ˈstreɪndʒər",
+      "ipa_uk": "ˈstreɪndʒə",
+      "translation_ru": "незнакомец"
     },
     {
-      "word": "leaves",
-      "ipa_us": "liːvz",
-      "ipa_uk": "liːvz",
-      "translation_ru": "листья"
+      "word": "nurse",
+      "ipa_us": "nɜːrs",
+      "ipa_uk": "nɜːs",
+      "translation_ru": "медсестра"
     },
     {
-      "word": "juice",
-      "ipa_us": "dʒuːs",
-      "ipa_uk": "dʒuːs",
-      "translation_ru": "сок"
+      "word": "presents",
+      "ipa_us": "ˈprɛznts",
+      "ipa_uk": "ˈpreznts",
+      "translation_ru": "подарки"
+    },
+    {
+      "word": "holiday",
+      "ipa_us": "ˈhɑːlədeɪ",
+      "ipa_uk": "ˈhɒlədeɪ",
+      "translation_ru": "отпуск"
+    },
+    {
+      "word": "worried",
+      "ipa_us": "ˈwɜːrid",
+      "ipa_uk": "ˈwʌrid",
+      "translation_ru": "обеспокоенный"
+    },
+    {
+      "word": "handle",
+      "ipa_us": "ˈhændl",
+      "ipa_uk": "ˈhændl",
+      "translation_ru": "ручка"
+    },
+    {
+      "word": "scarf",
+      "ipa_us": "skɑːrf",
+      "ipa_uk": "skɑːf",
+      "translation_ru": "шарф"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "eɪ",
       "examples": [
-        "three",
-        "month"
+        "take",
+        "face",
+        "tailor"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Двигайте язык от «э» к «и»; не произносите как чистое «э» или «эй» с резким «й»."
     },
     {
-      "sound": "ð",
+      "sound": "ɜː",
       "examples": [
-        "they",
-        "this",
-        "the"
+        "nurse",
+        "worried",
+        "her"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Долгий звук между «э» и «ё», губы не округляйте; в американском варианте добавляется «r»."
     },
     {
-      "sound": "iː",
+      "sound": "w",
       "examples": [
-        "seeds",
-        "leaves",
-        "green",
-        "eats"
+        "wrong",
+        "waits",
+        "with",
+        "wife"
       ],
-      "tip_ru": "Долгий звук «и»: растяните губы в лёгкой улыбке и держите звук дольше, чем русское «и»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hotel",
+        "holiday",
+        "hands",
+        "her"
+      ],
+      "tip_ru": "Лёгкий выдох из горла без трения; не произносите как русское «х»."
     }
   ],
   "questions": [
     {
-      "question": "What does Grandpa Leo grow?",
-      "answer": "Tomatoes.",
+      "question": "Why is Maria in London?",
+      "answer": "She is on holiday.",
       "accepted_keywords": [
-        "tomatoes",
-        "tomato"
+        "holiday",
+        "vacation"
       ]
     },
     {
-      "question": "Who helps him?",
-      "answer": "His grandson Ben.",
+      "question": "What does Maria find in the suitcase?",
+      "answer": "Small boxes with presents and names.",
       "accepted_keywords": [
-        "ben",
-        "grandson"
+        "boxes",
+        "presents",
+        "gifts",
+        "box"
       ]
     },
     {
-      "question": "How long before green leaves appear?",
-      "answer": "Three weeks.",
+      "question": "Who owns the suitcase?",
+      "answer": "Mr. Baker, a tailor from Canada.",
       "accepted_keywords": [
-        "three",
-        "weeks"
+        "baker",
+        "tailor",
+        "canada"
       ]
     },
     {
-      "question": "What colour are the tomatoes after a month?",
-      "answer": "Red.",
+      "question": "What does Mr. Baker give Maria?",
+      "answer": "A soft blue scarf.",
       "accepted_keywords": [
-        "red"
+        "scarf",
+        "blue"
       ]
     }
-  ],
-  "word_count": 79
+  ]
 }

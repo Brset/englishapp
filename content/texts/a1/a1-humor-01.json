@@ -2,126 +2,160 @@
   "id": "a1-humor-01",
   "level": "A1",
   "genre": "humor",
-  "title_en": "The Hungry Cat",
-  "title_ru": "Голодная кошка",
-  "description_ru": "Смешная сценка о кошке, которая всегда хочет есть.",
-  "text": "My cat, Max, is always hungry. At six in the morning, he sits on my head. \"Meow!\" he says. That means, \"Feed me!\"\n\nI give him a big bowl of food. He eats it in one minute. Then he looks at me with big sad eyes. \"Meow,\" he says again. That means, \"I am dying. I never eat!\"\n\nMy mother says, \"Max is fat. He needs a diet.\" Max hears the word diet and runs away.\n\nYesterday I find him in the kitchen. His head is inside a bag of cat food. I say, \"Max, what are you doing?\" He does not answer. He only eats faster.",
-  "word_count": 107,
+  "title_en": "The Parrot Who Answers the Phone",
+  "title_ru": "Попугай, который отвечает на звонки",
+  "description_ru": "Забавная история о попугае Борисе, который по телефону заказал десять пицц с сыром и рыбой.",
+  "text": "My uncle Victor has a parrot called Boris. Boris is grey with a red tail, and he is very, very clever. That is the problem. Boris does not just say \"hello\" like other parrots. He listens to everything in the house, and then he repeats it at the worst possible time. Everyone in my family is a little afraid of him. This is the story of the day Boris answers the phone.\n\nIt is Saturday morning, and Uncle Victor is in the garden. He is watering his tomatoes and singing an old song. In the kitchen, Aunt Nina is making a cake for her birthday party that evening. Boris sits on his stand near the window. He looks at the street, and he looks at the cake. Then he makes a sound exactly like Uncle Victor's phone. Ring, ring! Ring, ring! The family always jumps when Boris does this, because the sound is perfect.\n\nBut this time the phone is really ringing. It is on the table next to Boris, and the real ring comes at the same moment. Boris is confused for one second. Then he does something terrible. He pushes the green button with his beak, and the phone answers. A small voice says, \"Hello? Is this Pizza Palace?\" Boris puts his head on one side. Then he says, in Uncle Victor's deep voice, \"Yes. Yes, yes. Very good. Big pizza.\"\n\nThe man on the phone is happy. \"Wonderful!\" he says. \"What do you want?\" Boris says the first words that come to his head. \"Cheese. Cheese, cheese, cheese. And fish!\" There is a short silence. Then the man says, \"Fish on a pizza? Okay, sir. How many?\" Boris loves this game. He shouts, \"Ten! Ten! Ten!\" He is very proud of his numbers. The man writes everything on his paper, and he asks for the address.\n\nOf course, Boris knows the address, because Uncle Victor says it every time a taxi comes. He says it loudly and clearly, \"Twelve Green Street, apartment four.\" The man thanks him and says, \"Your ten pizzas arrive in thirty minutes!\" Boris says, \"Thank you, thank you. Goodbye.\" Then he pushes the red button and goes back to his stand. He looks around the room with an innocent face, as if nothing happens.\n\nThirty minutes later, Uncle Victor is sitting on the sofa with a cup of tea. The doorbell rings. He opens the door, and a young man is standing there with a tower of boxes. \"Ten pizzas with cheese and fish,\" he says. \"That is sixty-five euros, please.\" Uncle Victor looks at the boxes. He looks at the man. He looks at his tea. \"I do not order any pizza,\" he says in a weak voice. The young man shows him the paper, and it says \"Victor\" and \"Twelve Green Street\".\n\nNow all the family comes to the door. Aunt Nina is holding a spoon, and my cousins are laughing. Everyone is talking at the same time. Boris, in the living room, hears the noise and says, very clearly, \"Big pizza! Very good!\" The young man looks at the parrot and then at Uncle Victor. After a long moment, he smiles. \"Sir,\" he says, \"your parrot has an excellent voice.\"\n\nWhat can the family do? They pay for the pizzas, and they invite the neighbours. Soon the garden is full of people. They eat pizza with fish, and to everyone's surprise, it is delicious. Aunt Nina's cake stands on the table, and nobody wants it. Uncle Victor sits in his chair and says, \"I never again leave the phone near Boris.\" Everyone agrees, and everyone laughs, and Boris sits in the middle of the party with a big piece of cheese in his claw.\n\nThe next week Uncle Victor puts a new lock on the phone, and he hides it in a box in the cupboard. He feels safe. But on Monday morning, there is a new problem. The phone is quiet, but Boris is learning a new sound. He listens to the radio. In the afternoon, he starts to say, in a loud and serious voice, \"Attention, please. The train to Moscow now leaves from platform five.\" The neighbours are looking out of their windows, and Uncle Victor is looking for a smaller, quieter bird.",
+  "word_count": 717,
   "vocabulary": [
     {
-      "word": "hungry",
-      "ipa_us": "ˈhʌŋɡri",
-      "ipa_uk": "ˈhʌŋɡri",
-      "translation_ru": "голодный"
+      "word": "parrot",
+      "ipa_us": "ˈpɛrət",
+      "ipa_uk": "ˈpærət",
+      "translation_ru": "попугай"
     },
     {
-      "word": "feed",
-      "ipa_us": "fid",
-      "ipa_uk": "fiːd",
-      "translation_ru": "кормить"
+      "word": "beak",
+      "ipa_us": "bik",
+      "ipa_uk": "biːk",
+      "translation_ru": "клюв"
     },
     {
-      "word": "bowl",
-      "ipa_us": "boʊl",
-      "ipa_uk": "bəʊl",
-      "translation_ru": "миска"
+      "word": "tower",
+      "ipa_us": "ˈtaʊər",
+      "ipa_uk": "ˈtaʊə",
+      "translation_ru": "башня, стопка"
     },
     {
-      "word": "minute",
-      "ipa_us": "ˈmɪnɪt",
-      "ipa_uk": "ˈmɪnɪt",
-      "translation_ru": "минута"
+      "word": "innocent",
+      "ipa_us": "ˈɪnəsənt",
+      "ipa_uk": "ˈɪnəsənt",
+      "translation_ru": "невинный"
     },
     {
-      "word": "fat",
-      "ipa_us": "fæt",
-      "ipa_uk": "fæt",
-      "translation_ru": "толстый"
+      "word": "confused",
+      "ipa_us": "kənˈfjuzd",
+      "ipa_uk": "kənˈfjuːzd",
+      "translation_ru": "сбитый с толку"
     },
     {
-      "word": "diet",
-      "ipa_us": "ˈdaɪət",
-      "ipa_uk": "ˈdaɪət",
-      "translation_ru": "диета"
+      "word": "pizza",
+      "ipa_us": "ˈpitsə",
+      "ipa_uk": "ˈpiːtsə",
+      "translation_ru": "пицца"
     },
     {
-      "word": "kitchen",
-      "ipa_us": "ˈkɪtʃɪn",
-      "ipa_uk": "ˈkɪtʃɪn",
-      "translation_ru": "кухня"
+      "word": "platform",
+      "ipa_us": "ˈplætˌfɔrm",
+      "ipa_uk": "ˈplætfɔːm",
+      "translation_ru": "платформа"
     },
     {
-      "word": "answer",
-      "ipa_us": "ˈænsər",
-      "ipa_uk": "ˈɑːnsə",
-      "translation_ru": "отвечать"
+      "word": "silence",
+      "ipa_us": "ˈsaɪləns",
+      "ipa_uk": "ˈsaɪləns",
+      "translation_ru": "тишина"
+    },
+    {
+      "word": "delicious",
+      "ipa_us": "dɪˈlɪʃəs",
+      "ipa_uk": "dɪˈlɪʃəs",
+      "translation_ru": "очень вкусный"
+    },
+    {
+      "word": "lock",
+      "ipa_us": "lɑk",
+      "ipa_uk": "lɒk",
+      "translation_ru": "замок"
+    },
+    {
+      "word": "claw",
+      "ipa_us": "klɔ",
+      "ipa_uk": "klɔː",
+      "translation_ru": "коготь, лапа"
+    },
+    {
+      "word": "address",
+      "ipa_us": "əˈdrɛs",
+      "ipa_uk": "əˈdres",
+      "translation_ru": "адрес"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "h",
+      "sound": "aspiration",
       "examples": [
-        "hungry",
-        "head",
-        "hears"
+        "phone",
+        "parrot",
+        "pizza"
       ],
-      "tip_ru": "Просто выдохните из горла, как лёгкое «х»; без напряжения языка."
+      "tip_ru": "«p, t, k» в начале ударного слога произносятся с лёгким придыханием."
     },
     {
-      "sound": "æ",
+      "sound": "ɜː",
       "examples": [
-        "Max",
-        "fat",
-        "bag"
+        "birthday",
+        "thirty",
+        "serious"
       ],
-      "tip_ru": "Откройте рот шире, чем для «э»: звук между «э» и «а», как в слове cat."
+      "tip_ru": "Долгий звук между «ё» и «э», губы не округляйте."
     },
     {
-      "sound": "ð",
+      "sound": "ŋ",
       "examples": [
-        "Then",
-        "that"
+        "morning",
+        "ring",
+        "singing"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "with",
-        "word",
-        "what"
+        "cake",
+        "game",
+        "safe"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
     }
   ],
   "questions": [
     {
-      "question": "What is the cat's name?",
-      "answer": "Max.",
+      "question": "What is the parrot's name?",
+      "answer": "His name is Boris.",
       "accepted_keywords": [
-        "max"
+        "boris"
       ]
     },
     {
-      "question": "Where does Max sit at six in the morning?",
-      "answer": "On the writer's head.",
+      "question": "What does Boris do when the real phone rings?",
+      "answer": "He pushes the green button with his beak and answers the call.",
       "accepted_keywords": [
-        "head"
+        "button",
+        "answers",
+        "beak",
+        "green"
       ]
     },
     {
-      "question": "What does Max hear and run away?",
-      "answer": "The word diet.",
+      "question": "What does Boris order?",
+      "answer": "Ten pizzas with cheese and fish.",
       "accepted_keywords": [
-        "diet"
+        "ten",
+        "pizza",
+        "pizzas",
+        "cheese",
+        "fish"
       ]
     },
     {
-      "question": "Where is Max's head yesterday?",
-      "answer": "Inside a bag of cat food.",
+      "question": "What does Boris learn on Monday?",
+      "answer": "He learns to say a train announcement from the radio.",
       "accepted_keywords": [
-        "bag",
-        "food"
+        "train",
+        "radio",
+        "announcement",
+        "moscow"
       ]
     }
   ]

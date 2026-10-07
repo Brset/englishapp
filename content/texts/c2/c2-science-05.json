@@ -2,17 +2,29 @@
   "id": "c2-science-05",
   "level": "C2",
   "genre": "science",
-  "title_en": "The Air That Nearly Killed Everything",
-  "title_ru": "Воздух, едва не убивший жизнь",
-  "description_ru": "Великое кислородное событие: как древние бактерии отравили атмосферу кислородом и тем самым создали условия для сложной жизни.",
-  "text": "Of all the pollution crises in the history of our planet, none compares with the first. It occurred about two and a half billion years ago, long before there were fish, forests, or even a single animal, and the polluter was a microbe too small to see. The pollutant was oxygen.\n\nConsider the scale of the thing. No volcano, no asteroid, no industrial revolution has altered the air so completely, and none of them did it so patiently.\n\nIt is hard to appreciate, from a world in which a fifth of the air is oxygen, how peculiar this was. The early Earth had an atmosphere made largely of nitrogen, carbon dioxide, and methane, with scarcely a trace of free oxygen. The oceans were rich in dissolved iron, and life consisted entirely of single-celled organisms that had never needed to breathe. Then a lineage of bacteria, the ancestors of modern cyanobacteria, invented a remarkable trick. They learned to split water molecules using sunlight, harvesting the hydrogen to build their own food and discarding the oxygen as waste.\n\nFor hundreds of millions of years, nothing much seemed to happen. The oxygen they released was seized at once by every substance eager to react with it. The dissolved iron in the sea combined with oxygen to form rust, which sank to the seabed and accumulated in layers. Those layers, banded in red and grey, can still be found in ancient rocks, and they are known as banded iron formations. Remarkably, most of the iron ore we mine today comes from them. Our skyscrapers and bridges, in a sense, are built from a billion years of microbial exhaust.\n\nEventually, the great sinks filled up. Between roughly 2.4 and 2.1 billion years ago, oxygen began to accumulate in the air, an episode geologists call the Great Oxidation Event. For most living things, it was a calamity. Oxygen is a ferociously reactive gas that damages delicate molecules, and the anaerobic organisms that dominated the planet either perished or retreated into mud, deep water, and other places that the new air could not reach. Some researchers call it the oxygen catastrophe, and there is evidence it was one of the largest extinctions in history, although, since the victims were microbes, nobody left a fossil record to prove it.\n\nThe consequences did not end there. Oxygen also destroyed atmospheric methane, a powerful greenhouse gas, and this loss may have helped plunge the planet into one of its earliest and longest ice ages, the Huronian glaciation. A world that had been warmed by methane was suddenly cold, and perhaps, for a time, almost entirely frozen.\n\nYet the story has an irony that is difficult to resist. Some organisms did not merely survive the new atmosphere, they exploited it. Burning food with oxygen releases far more energy than any anaerobic process, and that surplus eventually made large, active, complex creatures possible. Every muscle in your body is working by courtesy of the disaster.\n\nThe lesson is not that disasters are secretly good. The microbes that died would hardly agree. It is simply that the planet has a long memory, and that what one era calls poison, a later era may call breath.\n\nWe often imagine that catastrophe and creativity are opposites. The history of the atmosphere suggests that they are frequently the same event, viewed from different sides, a thousand million years apart.",
-  "word_count": 562,
+  "title_en": "The Breath That Poisoned the World",
+  "title_ru": "Дыхание, отравившее мир",
+  "description_ru": "Около 2,4 миллиарда лет назад микробы-фотосинтетики наполнили атмосферу кислородом и почти уничтожили собственную биосферу. История Великого кислородного события.",
+  "text": "Of all the catastrophes in the history of life, the most consequential was caused by a polluter so small that a billion of them would fit in a thimble, and so successful that its waste product now fills a fifth of the air we breathe. It is a tale that flatters no one, least of all the creature that tells it. We are accustomed to regarding oxygen as the very essence of vitality, and yet, for much of Earth's history, it was a toxin, and the microbes that first manufactured it in quantity were, from the standpoint of their neighbours, uncouth industrialists releasing fumes into a perfectly pleasant swamp.\n\nFor the first two billion years or so, the atmosphere contained virtually no free oxygen. The air, according to the best reconstructions, was composed mostly of nitrogen and carbon dioxide, with a fair amount of methane, and the oceans were rich in dissolved iron, which gave them a greenish cast. Life existed, but it was microbial, and its metabolism ran on sulphur, hydrogen, iron, and other chemical fuels. These organisms, the anaerobes, lived without oxygen, and for many of them, it would have been lethal.\n\nThe innovators probably arrived by about 2.7 billion years ago, and perhaps earlier. These were cyanobacteria, or at least their ancestors, and they had accomplished something miraculous: oxygenic photosynthesis, which uses sunlight to split water, taking the hydrogen and releasing the oxygen as a discard. Earlier forms of photosynthesis had used less abundant substances, such as hydrogen sulphide, and so were constrained by supply. Water, however, is everywhere. The cyanobacteria had discovered an inexhaustible raw material, and their numbers soared. Their fossil traces survive as layered mounds called stromatolites, and some still grow today in the warm shallows of Shark Bay in Western Australia, looking like a collection of badly made loaves.\n\nFor a long time, little seemed to happen, and the reason is a matter of simple chemistry. The first oxygen released into the oceans was immediately seized by the dissolved iron, which rusted out of the water and settled to the sea floor as fine layers of iron oxide. These deposits, banded with alternating stripes of rust-red and grey, are known as banded iron formations, and they are the source of most of the iron ore that now builds our cities and our cars. In a sense, the planet had a vast sponge, and the oxygen had to saturate it before any could escape. The same process occurred with volcanic gases and with minerals on land.\n\nThere were, it seems, false dawns. Chemical clues in rocks a few hundred million years older than the main event hint at brief and local \"whiffs\" of oxygen, perhaps in sheltered pools of water above the cyanobacterial mats, which then faded as quickly as breath on a window. The picture is still being drawn, and its edges are blurred by the simple fact that rocks billions of years old are seldom well preserved. Geologists, who are a patient tribe, have learnt to reason from a handful of grains of sulphur and a few smears of rust.\n\nEventually, between about 2.4 and 2.2 billion years ago, the sponge was full. Oxygen began to accumulate in the atmosphere, in what geologists call the Great Oxidation Event. The evidence is subtle but compelling. Sulphur in ancient rocks older than that date carries a peculiar isotopic signature, produced by ultraviolet light reacting with gases in an oxygen-free atmosphere; after the event, the signature vanishes. Fossil soils, too, show that iron minerals were no longer washed away but stayed behind, rusting in place, and the first red beds, sandstones tinted by oxidised iron, appear in the geological record.\n\nIt would be pleasant to report that the world rejoiced. Instead, it suffered a grave crisis. Oxygen is a highly reactive element; it will tear at fragile molecules and, in the cells of organisms unprepared for it, it produces damaging by-products. Many anaerobic microbes were driven into the muddy refuges where oxygen could not follow, and a great number of lineages presumably vanished. Because microbes leave scant fossils, we cannot count the dead, but the evidence of chemical changes suggests an upheaval on a planetary scale.\n\nThe atmosphere, moreover, was affected in another way. Methane is a far more potent greenhouse gas than carbon dioxide, and it had probably helped to keep the young Earth warm, since the Sun was then roughly a sixth fainter than it is today. Oxygen destroyed methane, converting it to carbon dioxide and water. The warming blanket was thinned, and the planet may have plunged into a sequence of glaciations, known as the Huronian glaciation, whose deposits are found in what is now Canada. Some researchers consider that ice may have reached the tropics, though the details remain contested. The polluters, in other words, had cooled their own planet.\n\nAnd yet, as so often in the history of life, a disaster proved an opportunity. Some lineages did not merely tolerate oxygen but learned to exploit it. Respiration with oxygen releases far more energy from a given amount of food than any anaerobic alternative, and the cells that harnessed it gained an enormous advantage. Around that time, or somewhat later, one such cell engulfed a bacterium that was adept at the trick, and the descendant of that bacterium, the mitochondrion, now powers every complex animal, plant and fungus. Our ancestors, in short, were refugees who found the toxic air profitable.\n\nLater still, oxygen would climb to the levels required for large animals, and a layer of ozone would form in the upper atmosphere, shielding the land from ultraviolet radiation and allowing life to leave the water. But the pivotal act had occurred long before, in a world of shallow seas and tiny green cells, when something unimaginably small altered the composition of an entire planet. It is a humbling reflection that every breath we take is, in a sense, the aftermath of an ancient environmental disaster, and that we exist because a handful of microbes, with no malice and no foresight, polluted the world.",
+  "word_count": 1013,
   "vocabulary": [
     {
-      "word": "pollutant",
-      "ipa_us": "pəˈluːtənt",
-      "ipa_uk": "pəˈluːtənt",
-      "translation_ru": "загрязнитель"
+      "word": "consequential",
+      "ipa_us": "ˌkɑːnsɪˈkwɛnʃəl",
+      "ipa_uk": "ˌkɒnsɪˈkwenʃ(ə)l",
+      "translation_ru": "значимый, имеющий последствия"
+    },
+    {
+      "word": "uncouth",
+      "ipa_us": "ʌnˈkuːθ",
+      "ipa_uk": "ʌnˈkuːθ",
+      "translation_ru": "неотёсанный, грубый"
+    },
+    {
+      "word": "anaerobes",
+      "ipa_us": "ˈænəˌroʊbz",
+      "ipa_uk": "ˈænərəʊbz",
+      "translation_ru": "анаэробы"
     },
     {
       "word": "cyanobacteria",
@@ -21,114 +33,135 @@
       "translation_ru": "цианобактерии"
     },
     {
-      "word": "accumulated",
-      "ipa_us": "əˈkjuːmjəleɪtɪd",
-      "ipa_uk": "əˈkjuːmjʊleɪtɪd",
-      "translation_ru": "накопились"
+      "word": "photosynthesis",
+      "ipa_us": "ˌfoʊtoʊˈsɪnθəsɪs",
+      "ipa_uk": "ˌfəʊtəʊˈsɪnθəsɪs",
+      "translation_ru": "фотосинтез"
     },
     {
-      "word": "anaerobic",
-      "ipa_us": "ˌænəˈroʊbɪk",
-      "ipa_uk": "ˌænəˈrəʊbɪk",
-      "translation_ru": "анаэробный"
+      "word": "inexhaustible",
+      "ipa_us": "ˌɪnɪɡˈzɔːstəbəl",
+      "ipa_uk": "ˌɪnɪɡˈzɔːstɪb(ə)l",
+      "translation_ru": "неисчерпаемый"
     },
     {
-      "word": "calamity",
-      "ipa_us": "kəˈlæməti",
-      "ipa_uk": "kəˈlæməti",
-      "translation_ru": "бедствие"
+      "word": "stromatolites",
+      "ipa_us": "stroʊˈmætəˌlaɪts",
+      "ipa_uk": "strəʊˈmætəlaɪts",
+      "translation_ru": "строматолиты"
     },
     {
-      "word": "ferociously",
-      "ipa_us": "fəˈroʊʃəsli",
-      "ipa_uk": "fəˈrəʊʃəsli",
-      "translation_ru": "яростно"
+      "word": "oxidation",
+      "ipa_us": "ˌɑːksɪˈdeɪʃən",
+      "ipa_uk": "ˌɒksɪˈdeɪʃ(ə)n",
+      "translation_ru": "окисление"
     },
     {
-      "word": "glaciation",
-      "ipa_us": "ˌɡleɪʃiˈeɪʃən",
-      "ipa_uk": "ˌɡleɪsiˈeɪʃən",
-      "translation_ru": "оледенение"
+      "word": "isotopic",
+      "ipa_us": "ˌaɪsəˈtɑːpɪk",
+      "ipa_uk": "ˌaɪsəˈtɒpɪk",
+      "translation_ru": "изотопный"
     },
     {
-      "word": "surplus",
-      "ipa_us": "ˈsɜːrpləs",
-      "ipa_uk": "ˈsɜːpləs",
-      "translation_ru": "избыток"
+      "word": "glaciations",
+      "ipa_us": "ˌɡleɪʃiˈeɪʃənz",
+      "ipa_uk": "ˌɡleɪsiˈeɪʃ(ə)nz",
+      "translation_ru": "оледенения"
+    },
+    {
+      "word": "mitochondrion",
+      "ipa_us": "ˌmaɪtəˈkɑːndriən",
+      "ipa_uk": "ˌmaɪtəˈkɒndriən",
+      "translation_ru": "митохондрия"
+    },
+    {
+      "word": "pivotal",
+      "ipa_us": "ˈpɪvətəl",
+      "ipa_uk": "ˈpɪvət(ə)l",
+      "translation_ru": "ключевой"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
-      "examples": [
-        "world",
-        "water",
-        "was"
-      ],
-      "tip_ru": "w: округлите губы, как для «у», нижняя губа не касается зубов: water, world."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "dissolved",
-        "evidence",
-        "every",
-        "very"
-      ],
-      "tip_ru": "v: нижняя губа касается верхних зубов, с голосом: dissolved, evidence, every."
-    },
-    {
-      "sound": "ɜː",
-      "examples": [
-        "surplus",
-        "world",
-        "perished",
-        "burning"
-      ],
-      "tip_ru": "ɜː: долгий нейтральный звук, губы не округляйте, язык посередине: world, burning."
-    },
-    {
       "sound": "word-stress",
       "examples": [
+        "photosynthesis",
         "cyanobacteria",
-        "accumulated",
-        "anaerobic"
+        "mitochondrion"
       ],
-      "tip_ru": "Ударение: cy-a-no-bac-TE-ri-a, ac-CU-mu-la-ted, an-ae-RO-bic."
+      "tip_ru": "Ударение: pho-to-SYN-the-sis, cy-a-no-bac-TER-i-a, mi-to-CHON-dri-on. Суффикс -sis тянет ударение на слог перед ним."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "earth's",
+        "thimble",
+        "photosynthesis"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса; не заменяйте на с или ф."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "microbes",
+        "ultraviolet",
+        "life"
+      ],
+      "tip_ru": "Дифтонг: от а к ɪ, не обрывайте на а."
+    },
+    {
+      "sound": "ɒ",
+      "examples": [
+        "carbon",
+        "not",
+        "volcanic"
+      ],
+      "tip_ru": "Короткий, губы слегка округлены; не заменяйте на русское а."
     }
   ],
   "questions": [
     {
-      "question": "What was the pollutant?",
-      "answer": "Oxygen.",
-      "accepted_keywords": [
-        "oxygen"
-      ]
-    },
-    {
-      "question": "Which organisms produced it?",
-      "answer": "Cyanobacteria.",
+      "question": "Which organisms first produced oxygen in quantity?",
+      "answer": "Cyanobacteria, through oxygenic photosynthesis.",
       "accepted_keywords": [
         "cyanobacteria",
+        "photosynthesis",
         "bacteria",
         "microbes"
       ]
     },
     {
-      "question": "What do banded iron formations provide today?",
-      "answer": "Most iron ore.",
+      "question": "What happened to the first oxygen released into the oceans?",
+      "answer": "It reacted with dissolved iron, forming banded iron formations.",
       "accepted_keywords": [
         "iron",
-        "ore"
+        "rust",
+        "banded",
+        "rusted",
+        "formations"
       ]
     },
     {
-      "question": "What ice age may oxygen have triggered?",
-      "answer": "The Huronian glaciation.",
+      "question": "Why was the Great Oxidation Event a crisis?",
+      "answer": "Oxygen was toxic to anaerobes and destroyed methane, cooling the planet.",
       "accepted_keywords": [
-        "huronian",
+        "toxic",
+        "anaerobes",
+        "methane",
+        "cooling",
         "glaciation",
-        "ice"
+        "poison"
+      ]
+    },
+    {
+      "question": "What benefit did oxygen eventually bring?",
+      "answer": "More energy from respiration, leading to mitochondria and complex life.",
+      "accepted_keywords": [
+        "energy",
+        "respiration",
+        "mitochondria",
+        "complex",
+        "animals"
       ]
     }
   ]

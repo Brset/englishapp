@@ -2,136 +2,171 @@
   "id": "b2-opinion-04",
   "level": "B2",
   "genre": "opinion",
-  "title_en": "Apps Cannot Teach You to Speak",
-  "title_ru": "Приложения не научат вас говорить",
-  "description_ru": "Критический взгляд на языковые приложения: почему они хороши для разминки, но не заменяют живую речь.",
-  "text": "Language-learning apps are everywhere. Millions of people open them every morning to keep their streak alive, collect points and be told they are \"doing great\". I have used several of them myself, and I will admit that they are fun. However, after two years of daily practice I discovered that I could match pictures with words perfectly well and yet could not order a coffee in Spanish without freezing.\n\nThe problem, in my view, is that apps reward recognition rather than production. Choosing the correct answer from three options is much easier than building a sentence from nothing. In real conversation nobody gives you a multiple-choice menu. You have to find the words quickly, pronounce them clearly and, most frighteningly, listen to a stranger who speaks twice as fast as the recording in your lesson.\n\nIt is also worth mentioning that apps often teach strange sentences. I have been taught to say \"The elephant drinks milk\" and \"My horse is wearing a hat\", but never how to ask for directions or complain politely about a cold meal. Some people say that this does not matter because the aim is only to build vocabulary. Perhaps, but vocabulary that is never used is soon forgotten.\n\nThat said, I do not want to be unfair. Apps are cheap, convenient and perfect for ten minutes on a train. They have helped many beginners to overcome their fear of starting. A friend of mine told me that without his app he would never have opened a grammar book at all, and I believe him.\n\nMy conclusion is that apps should be treated as a warm-up, not as the main event. If you really want to speak, you need to speak: find a tutor, join a conversation club, or talk to yourself in the shower. Read aloud every day, record your voice and listen to the mistakes. It feels uncomfortable at first, but discomfort is where progress hides. In the end, a language is a way of talking to people, and it can only be learned the same way you learn to swim: by getting wet.",
+  "title_en": "In Defence of Being Bored",
+  "title_ru": "В защиту скуки",
+  "description_ru": "Размышление о том, почему постоянное развлечение мешает творчеству и почему детям (и взрослым) полезно иногда скучать.",
+  "text": "Last summer I made a small experiment. For one afternoon I left my phone at home, took a train to the coast and sat on a bench with nothing to read, watch or listen to. The first twenty minutes were almost painful. My hand kept reaching for a pocket that was empty, and I felt strangely guilty, as if I were wasting my time. Then something changed. I noticed the colour of the water, a man walking a very small dog, a conversation I would have missed. By the end of the afternoon I had solved a problem at work that had been bothering me for a week.\n\nThis experience is not unusual, and psychologists have studied it. When our minds are not occupied with a task, the brain does not switch off. Instead it becomes active in a different way, linking memories, imagining the future and making unexpected connections. Researchers call this the default network. It is during these quiet moments that we are most likely to have a creative idea, to understand how we really feel or to plan the next stage of our lives. The trouble is that we have almost eliminated such moments from daily life.\n\nThink about how rarely we are left alone with our thoughts. We check our phones in the queue at the supermarket, in the lift, on the toilet. Waiting for a bus used to mean staring into space, and now it means scrolling through news we will forget in five minutes. One study found that many people, when asked to sit in an empty room for a quarter of an hour, preferred to give themselves mild electric shocks rather than do nothing. That result astonished me. It suggests that boredom is not just unpleasant for us, it is almost unbearable.\n\nChildren are especially affected. Parents today are under strong pressure to keep their children busy and happy, with an endless supply of lessons, clubs and screens. A mother I know told me that she felt like a failure whenever her daughter complained that she had nothing to do. But a famous educator once said that boredom is the beginning of invention. When a child has nothing to do, she has to build a den from cushions, write a story, or stare at an ant for half an hour. These activities may look pointless, yet they are the training ground of imagination.\n\nMany great minds seem to have understood this. Writers have described how their best ideas arrived on a long walk or in the bath. It is said that a famous physicist came up with an important insight while he was riding on a tram. Another popular anecdote, which may or may not be true, claims that a scientist found the shape of a molecule after dozing in front of the fire. I would not stake my life on such stories, but they all point in the same direction: a restless mind needs gaps.\n\nNaturally, I am not suggesting that we should throw away our phones or that entertainment is a sin. I love a good film as much as anyone, and a long journey with a podcast can be a real pleasure. The problem is the constant, automatic reaching for stimulation. It trains us to expect a reward every few seconds and makes ordinary life seem dull. If a book seems too slow or a conversation too quiet, the fault may lie not with the book or the person but with a brain that has been overfed with sugar.\n\nThere is also a social cost. When people are bored together, they talk. A long car journey, a rainy day in a holiday cottage or a delayed flight can produce the best conversations of a lifetime. Now every member of the family is often looking at a different screen, and the opportunity is lost. Some families have started to introduce phone-free dinners and screen-free Sundays. They report that the first week is difficult and that afterwards, to their surprise, they do not want to go back.\n\nSo what can we do? Start small. Leave your phone in your bag on the way to work. Walk without headphones. Let a child complain that there is nothing to do, and resist the temptation to rescue her. Learn to sit in a waiting room and simply watch the people. None of this needs money or special equipment, and the rewards are immediate: a calmer mind, a longer attention span, and perhaps a good idea or two.\n\nBoredom has a bad reputation, but I have come to think of it as a kind of fallow field, which looks empty but is quietly preparing for the next harvest. If we cover every inch with entertainment, nothing will have room to grow. The next time you find yourself with nothing to do, I hope you will resist the urge to reach for your phone and let the silence do its work.",
+  "word_count": 826,
   "vocabulary": [
     {
-      "word": "streak",
-      "ipa_us": "strik",
-      "ipa_uk": "striːk",
-      "translation_ru": "серия (дней подряд)"
+      "word": "experiment",
+      "ipa_us": "ɪkˈspɛrəmənt",
+      "ipa_uk": "ɪkˈsperɪmənt",
+      "translation_ru": "эксперимент"
     },
     {
-      "word": "recognition",
-      "ipa_us": "ˌrɛkɪɡˈnɪʃən",
-      "ipa_uk": "ˌrekəɡˈnɪʃən",
-      "translation_ru": "узнавание"
+      "word": "guilty",
+      "ipa_us": "ˈɡɪlti",
+      "ipa_uk": "ˈɡɪlti",
+      "translation_ru": "виноватый"
     },
     {
-      "word": "production",
-      "ipa_us": "prəˈdʌkʃən",
-      "ipa_uk": "prəˈdʌkʃən",
-      "translation_ru": "воспроизведение, производство"
+      "word": "connections",
+      "ipa_us": "kəˈnɛkʃənz",
+      "ipa_uk": "kəˈnekʃənz",
+      "translation_ru": "связи"
     },
     {
-      "word": "pronounce",
-      "ipa_us": "prəˈnaʊns",
-      "ipa_uk": "prəˈnaʊns",
-      "translation_ru": "произносить"
+      "word": "eliminated",
+      "ipa_us": "ɪˈlɪməˌneɪtɪd",
+      "ipa_uk": "ɪˈlɪmɪneɪtɪd",
+      "translation_ru": "устранили"
     },
     {
-      "word": "vocabulary",
-      "ipa_us": "voʊˈkæbjəˌlɛri",
-      "ipa_uk": "vəˈkæbjʊləri",
-      "translation_ru": "словарный запас"
+      "word": "astonished",
+      "ipa_us": "əˈstɑnɪʃt",
+      "ipa_uk": "əˈstɒnɪʃt",
+      "translation_ru": "поразил"
     },
     {
-      "word": "convenient",
-      "ipa_us": "kənˈvinjənt",
-      "ipa_uk": "kənˈviːniənt",
-      "translation_ru": "удобный"
+      "word": "unbearable",
+      "ipa_us": "ʌnˈbɛrəbəl",
+      "ipa_uk": "ʌnˈbeərəbəl",
+      "translation_ru": "невыносимый"
     },
     {
-      "word": "overcome",
-      "ipa_us": "ˌoʊvərˈkʌm",
-      "ipa_uk": "ˌəʊvəˈkʌm",
-      "translation_ru": "преодолеть"
+      "word": "invention",
+      "ipa_us": "ɪnˈvɛnʃən",
+      "ipa_uk": "ɪnˈvenʃən",
+      "translation_ru": "изобретение"
     },
     {
-      "word": "tutor",
-      "ipa_us": "ˈtutər",
-      "ipa_uk": "ˈtjuːtə",
-      "translation_ru": "репетитор"
+      "word": "anecdote",
+      "ipa_us": "ˈænɪkˌdoʊt",
+      "ipa_uk": "ˈænɪkdəʊt",
+      "translation_ru": "анекдот, история"
+    },
+    {
+      "word": "restless",
+      "ipa_us": "ˈrɛstləs",
+      "ipa_uk": "ˈrestləs",
+      "translation_ru": "беспокойный"
+    },
+    {
+      "word": "stimulation",
+      "ipa_us": "ˌstɪmjəˈleɪʃən",
+      "ipa_uk": "ˌstɪmjʊˈleɪʃən",
+      "translation_ru": "стимуляция"
+    },
+    {
+      "word": "fallow",
+      "ipa_us": "ˈfæloʊ",
+      "ipa_uk": "ˈfæləʊ",
+      "translation_ru": "паровое (необработанное) поле"
+    },
+    {
+      "word": "harvest",
+      "ipa_us": "ˈhɑrvɪst",
+      "ipa_uk": "ˈhɑːvɪst",
+      "translation_ru": "урожай"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ð",
       "examples": [
-        "vocabulary",
-        "every",
-        "voice",
-        "never"
+        "this",
+        "that",
+        "mother",
+        "together"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+      "tip_ru": "Тот же положение языка, что для θ, но с голосом: звук гудит, не «з»."
     },
     {
       "sound": "w",
       "examples": [
-        "warm-up",
-        "wet",
-        "words",
-        "way"
+        "want",
+        "were",
+        "was",
+        "when"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "three",
-        "nothing",
-        "without"
+        "experiment",
+        "guilty",
+        "connections",
+        "eliminated"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
-      "sound": "r",
+      "sound": "ŋ",
       "examples": [
-        "recognition",
-        "really",
-        "record",
-        "progress"
+        "long",
+        "strong",
+        "during",
+        "nothing"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "What could the author do well after two years of practice?",
-      "answer": "Match pictures with words.",
+      "question": "What did the author do on the experimental afternoon?",
+      "answer": "Left the phone at home and sat on a bench by the sea with nothing to do.",
       "accepted_keywords": [
-        "match",
-        "pictures",
-        "words"
+        "phone",
+        "bench",
+        "coast",
+        "sea",
+        "home"
       ]
     },
     {
-      "question": "According to the author, what do apps reward?",
-      "answer": "Recognition rather than production.",
+      "question": "What do psychologists say the brain does when we are not busy?",
+      "answer": "It stays active, linking memories and making unexpected connections.",
       "accepted_keywords": [
-        "recognition"
+        "active",
+        "connections",
+        "creative",
+        "memories",
+        "default"
       ]
     },
     {
-      "question": "What strange sentences did the apps teach him?",
-      "answer": "The elephant drinks milk and my horse is wearing a hat.",
+      "question": "Why is boredom good for children?",
+      "answer": "It makes them invent games and use imagination.",
       "accepted_keywords": [
-        "elephant",
-        "horse"
+        "imagination",
+        "invent",
+        "invention",
+        "games",
+        "creative"
       ]
     },
     {
-      "question": "What does he advise learners to do?",
-      "answer": "Speak with a tutor or in a conversation club and read aloud.",
+      "question": "What simple steps does the author suggest?",
+      "answer": "Leave the phone in the bag, walk without headphones, let children be bored.",
       "accepted_keywords": [
-        "tutor",
-        "speak",
-        "club",
-        "aloud"
+        "phone",
+        "headphones",
+        "walk",
+        "bag",
+        "bored"
       ]
     }
-  ],
-  "word_count": 353
+  ]
 }

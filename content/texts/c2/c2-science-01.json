@@ -2,23 +2,29 @@
   "id": "c2-science-01",
   "level": "C2",
   "genre": "science",
-  "title_en": "The Animal That Pauses Death",
-  "title_ru": "Животное, которое ставит смерть на паузу",
-  "description_ru": "О тихоходках: как крошечные существа выживают в космосе, высушивании и радиации, и почему они всё же не бессмертны.",
-  "text": "Under a microscope, a tardigrade looks like a portly, eight-legged balloon that has wandered out of a children's cartoon. It measures roughly half a millimetre, ambles on stubby limbs tipped with claws, and has a mouth shaped like a tiny, reluctant trumpet. Yet this unassuming creature, nicknamed the water bear, has earned a reputation as the most resilient animal known to science, and the reputation is, with some qualifications, deserved.\n\nTardigrades live almost everywhere there is a film of water: in damp moss, in lake sediments, on Himalayan slopes, and in the deep sea. The trouble begins when the water goes. A garden pond can dry in a week, and an animal that depends on moisture would seem to be doomed. The tardigrade, however, performs a trick known as cryptobiosis, a word meaning, rather poetically, hidden life. It retracts its legs, expels most of its body water, and shrivels into a wrinkled, barrel-shaped form called a tun. In this state its metabolism falls to a tiny fraction of normal, perhaps a hundredth of a per cent, and it can wait for years. A few drops of rain are enough to restore it. Within hours, the animal unfurls and goes looking for lunch.\n\nHow it survives this is only partly understood. For a long time, researchers suspected a sugar called trehalose, which protects cells in other dried organisms such as brewer's yeast. But many tardigrades produce very little of it. In 2017, a team led by Thomas Boothby proposed that they instead make special, disordered proteins that, as the animal dries, form a glass-like matrix around the delicate machinery inside its cells, holding everything in place until the water returns.\n\nThe feats that followed are well documented. Tardigrades in the tun state have been cooled to within a few degrees of absolute zero and revived. They have endured pressures far beyond those at the bottom of the ocean. And in 2007, in an experiment aboard a European Space Agency capsule, dried specimens were exposed to the vacuum of space and to harsh solar radiation for ten days. Many revived once they were back on Earth, and some even laid eggs that hatched.\n\nRadiation is a particular puzzle, because it shreds DNA. In 2016, Japanese scientists reported that one species, Ramazzottius varieornatus, carries a protein they named Dsup, short for damage suppressor. It appears to cling to the DNA and shield it from reactive molecules. When human cells in a laboratory were engineered to produce the protein, they suffered significantly less damage from X-rays, which has stirred speculation about protecting astronauts. It is, however, early days, and speculation is cheap.\n\nIt would be a mistake to call tardigrades indestructible. Active, hydrated animals die quickly in boiling water, and nothing they have evolved would protect them from, say, a collapsing star or an unlucky boot. Their toughness is a precise biological strategy, not a superpower. They evolved it because the habitats they love, mosses and lichens, dry out constantly, and a creature that cannot move must learn to wait.\n\nThere is something quietly instructive in that. We tend to admire strength as the capacity to resist, to push back against the world. The tardigrade offers a subtler model: to stop, to conserve, to endure without struggling, and to resume only when conditions allow. Whether or not it will help us build better vaccines or safer spacecraft, it has already humbled a few assumptions about where life draws its limits.",
-  "word_count": 577,
+  "title_en": "The Patient Water Bear",
+  "title_ru": "Терпеливый водяной медведь",
+  "description_ru": "Тихоходки, микроскопические существа, которые умеют «выключать» жизнь. Как работает криптобиоз, что на самом деле показали опыты в космосе и почему они не бессмертны.",
+  "text": "In the film of a long-forgotten decade, the hero is always indestructible, and in the film of the microscopic world, he is a plump, eight-legged creature the length of a grain of salt, ambling across a bed of damp moss with the dignified clumsiness of a bear in a snowdrift. He is the tardigrade, or water bear, and he has acquired a popular reputation for immortality that he has done almost nothing to deserve and a great deal, quietly, to earn.\n\nThe animal was first described in 1773 by a German pastor, Johann August Ephraim Goeze, who called it a \"little water bear\". A few years later, the Italian naturalist Lazzaro Spallanzani, who was fond of tormenting small things in the name of science, christened the group Tardigrada, meaning \"slow steppers\". Today more than a thousand species are known. They live in lichens, in leaf litter, in the film of water around a grain of sand, and in ocean trenches. Each has four pairs of stubby legs ending in claws, a mouth designed for piercing plant cells or other tiny animals, and a body that rarely exceeds half a millimetre. Their mouths, equipped with needle-like stylets, are used to pierce the cell walls of algae and then to drink the contents with the air of a connoisseur sampling a rather modest vintage. They are, strictly speaking, neither insects nor worms, but members of a separate phylum, distant cousins of arthropods and velvet worms.\n\nWhat makes them remarkable is not their ability to endure a bad day but their ability to suspend life entirely. When the moss in which a tardigrade lives begins to dry out, the animal does not die. It retracts its legs, expels most of its water, and contracts into a shrivelled, barrel-shaped form known as a tun. In this state its metabolism falls to a tiny fraction of its normal rate, so low that it is sometimes undetectable by the instruments available. This condition is called cryptobiosis, from the Greek for \"hidden life\", and a tardigrade may remain in it for years. In 2016, Japanese researchers revived an individual from a sample of Antarctic moss that had been frozen for more than thirty years; the animal eventually recovered, and, to the delight of everyone concerned, laid eggs that hatched.\n\nFor decades, the explanation seemed obvious. Many organisms that survive drying, such as brine shrimp and certain nematodes, accumulate a sugar called trehalose, which replaces water around delicate molecules and turns the cell into a kind of glass. Tardigrades, however, produce comparatively little of it. In 2017 a team led by Thomas Boothby discovered that they use something stranger: a family of proteins that have no fixed shape. When the animal dries, these proteins appear to form a protective, glassy matrix inside its cells, holding the machinery of life in place until water returns. Remarkably, when the genes for these proteins were inserted into yeast, the yeast cells became considerably better at surviving desiccation. The tardigrade, in other words, has written a recipe that other organisms can follow.\n\nThen came the question of radiation. In 2016, Japanese scientists sequenced the genome of a species called Ramazzottius varieornatus and found a protein, which they named Dsup, for \"damage suppressor\". When human cells in a dish were engineered to produce Dsup, they suffered markedly fewer breaks in their DNA after being exposed to X-rays. The protein seems to bind to DNA and shield it, rather like a cloak thrown over a delicate sculpture during a storm. It is a spectacular result, though one should be careful: the mechanism is still debated, and the protein has not turned anyone into a superhero.\n\nThe most famous experiment took place in 2007, when a European team sent dried tardigrades into low Earth orbit aboard the FOTON-M3 capsule. For ten days, some were exposed directly to the vacuum of space and to solar ultraviolet radiation. Upon return, those shielded from the harshest ultraviolet light revived in large numbers, and a few of those that took the full blast also recovered and, rather astonishingly, reproduced. It was the first demonstration that an animal could survive the open space environment, and it ensured the tardigrade a permanent place in the popular imagination.\n\nThat popularity, as popularity does, has bred misunderstanding. Tardigrades are not indestructible, and they are certainly not eternal. A tardigrade in its active, hydrated state is quite as vulnerable as any other small animal; it can be killed by heat, by drought arriving too suddenly, or by the unglamorous attentions of a nematode. The tun is hardy, but it cannot withstand every insult, and no tardigrade has yet been found living, say, in a volcano. Nor has anyone shown that they could survive on the surface of an exoplanet. What they have is not invincibility but a very particular and elegant set of adaptations, tuned to the ordinary hazards of life in a puddle that sometimes evaporates.\n\nIt is worth pausing on that last point, because the real story is more interesting than the myth. The tardigrade did not evolve to survive the vacuum of space; space was never one of its problems. It evolved to survive the dry summer in a patch of lichen on a rock. That its tricks happen to protect it against radiation and cold is a kind of accident, what biologists call a side effect, in the way that a coat made for a wet climate may turn out to be excellent for a blizzard. Evolution is a thrifty tinkerer, not a visionary: it rarely builds anything from scratch, and it never plans for the day after tomorrow, still less for the vacuum beyond the sky.\n\nThe practical consequences, nevertheless, are significant. Researchers are investigating whether the protective proteins could stabilise vaccines without refrigeration, preserve biological samples, or even protect astronauts and crops from radiation. These are early-stage ideas, and more than a few will fail. But the humble water bear, plodding through its moss with the unhurried confidence of a creature that has been around for more than five hundred million years, has already taught us something that no engineer could have predicted: that stillness can be a strategy, and that one of life's best defences is the willingness to wait.",
+  "word_count": 1045,
   "vocabulary": [
     {
-      "word": "resilient",
-      "ipa_us": "rɪˈzɪliənt",
-      "ipa_uk": "rɪˈzɪliənt",
-      "translation_ru": "устойчивый"
+      "word": "tardigrade",
+      "ipa_us": "ˈtɑːrdɪˌɡreɪd",
+      "ipa_uk": "ˈtɑːdɪɡreɪd",
+      "translation_ru": "тихоходка"
     },
     {
-      "word": "unassuming",
-      "ipa_us": "ˌʌnəˈsuːmɪŋ",
-      "ipa_uk": "ˌʌnəˈsjuːmɪŋ",
-      "translation_ru": "скромный, непритязательный"
+      "word": "ambling",
+      "ipa_us": "ˈæmblɪŋ",
+      "ipa_uk": "ˈæmblɪŋ",
+      "translation_ru": "неторопливо шагающий"
+    },
+    {
+      "word": "phylum",
+      "ipa_us": "ˈfaɪləm",
+      "ipa_uk": "ˈfaɪləm",
+      "translation_ru": "тип (в биологической классификации)"
     },
     {
       "word": "cryptobiosis",
@@ -28,9 +34,15 @@
     },
     {
       "word": "metabolism",
-      "ipa_us": "məˈtæbəlɪzəm",
-      "ipa_uk": "məˈtæbəlɪzəm",
+      "ipa_us": "məˈtæbəˌlɪzəm",
+      "ipa_uk": "məˈtæbəlɪz(ə)m",
       "translation_ru": "обмен веществ"
+    },
+    {
+      "word": "desiccation",
+      "ipa_us": "ˌdɛsɪˈkeɪʃən",
+      "ipa_uk": "ˌdesɪˈkeɪʃ(ə)n",
+      "translation_ru": "высушивание"
     },
     {
       "word": "matrix",
@@ -39,98 +51,117 @@
       "translation_ru": "матрица, основа"
     },
     {
-      "word": "specimens",
-      "ipa_us": "ˈspesəmɪnz",
-      "ipa_uk": "ˈspesɪmɪnz",
-      "translation_ru": "экземпляры"
+      "word": "genome",
+      "ipa_us": "ˈdʒiːˌnoʊm",
+      "ipa_uk": "ˈdʒiːnəʊm",
+      "translation_ru": "геном"
     },
     {
-      "word": "shield",
-      "ipa_us": "ʃiːld",
-      "ipa_uk": "ʃiːld",
-      "translation_ru": "защищать"
+      "word": "vulnerable",
+      "ipa_us": "ˈvʌlnərəbəl",
+      "ipa_uk": "ˈvʌln(ə)rəb(ə)l",
+      "translation_ru": "уязвимый"
     },
     {
-      "word": "indestructible",
-      "ipa_us": "ˌɪndɪˈstrʌktəbl",
-      "ipa_uk": "ˌɪndɪˈstrʌktəbl",
-      "translation_ru": "неразрушимый"
+      "word": "invincibility",
+      "ipa_us": "ɪnˌvɪnsəˈbɪləti",
+      "ipa_uk": "ɪnˌvɪnsɪˈbɪlɪti",
+      "translation_ru": "непобедимость"
+    },
+    {
+      "word": "tinkerer",
+      "ipa_us": "ˈtɪŋkərər",
+      "ipa_uk": "ˈtɪŋkərə",
+      "translation_ru": "мастер-самоучка, мастеровой"
+    },
+    {
+      "word": "stabilise",
+      "ipa_us": "ˈsteɪbəˌlaɪz",
+      "ipa_uk": "ˈsteɪbɪlaɪz",
+      "translation_ru": "стабилизировать"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "thing",
-        "earth",
-        "with"
+        "cryptobiosis",
+        "desiccation",
+        "invincibility"
       ],
-      "tip_ru": "θ: язык слегка выдвинут между зубами, дыхание без голоса: earth, with."
+      "tip_ru": "Ударение в научных словах: cryp-to-bi-O-sis, des-ic-CA-tion, in-vin-ci-BIL-i-ty. Суффиксы -sis, -tion, -ity тянут ударение на предыдущий слог."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "ambling",
+        "living",
+        "thing"
+      ],
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос. Не добавляйте г."
     },
     {
       "sound": "ð",
       "examples": [
         "the",
-        "them",
-        "that",
-        "other"
+        "other",
+        "that"
       ],
-      "tip_ru": "ð: язык между зубами и голос; не превращайте в «з» или «в»: the, that."
+      "tip_ru": "Кончик языка между зубами, звук звонкий; не заменяйте на д или з."
     },
     {
-      "sound": "word-stress",
+      "sound": "æ",
       "examples": [
-        "cryptobiosis",
-        "metabolism",
-        "indestructible"
+        "claws",
+        "matrix",
+        "vulnerable"
       ],
-      "tip_ru": "Ударение: cryp-to-bi-O-sis, me-TAB-o-lism, in-de-STRUC-ti-ble; ударный слог произносится громче и длиннее."
-    },
-    {
-      "sound": "aspiration",
-      "examples": [
-        "tardigrade",
-        "protein",
-        "cells",
-        "water"
-      ],
-      "tip_ru": "p, t, k перед ударным гласным произносите с лёгким придыханием: tardigrade, protein."
+      "tip_ru": "Рот шире, чем для русского э; звук короткий и открытый."
     }
   ],
   "questions": [
     {
-      "question": "How big is a tardigrade?",
-      "answer": "About half a millimetre.",
+      "question": "What is a tun?",
+      "answer": "A shrivelled, barrel-shaped dried state of the tardigrade.",
       "accepted_keywords": [
-        "half",
-        "millimetre",
-        "millimeter"
+        "tun",
+        "barrel",
+        "shrivelled",
+        "dried",
+        "dry"
       ]
     },
     {
-      "question": "What is the dried-out state called?",
-      "answer": "A tun.",
-      "accepted_keywords": [
-        "tun"
-      ]
-    },
-    {
-      "question": "What did the 2007 experiment test?",
-      "answer": "Survival in open space.",
-      "accepted_keywords": [
-        "space",
-        "vacuum",
-        "radiation"
-      ]
-    },
-    {
-      "question": "What does the Dsup protein do?",
-      "answer": "It shields DNA from damage.",
+      "question": "What does the protein Dsup do?",
+      "answer": "It protects DNA from radiation damage.",
       "accepted_keywords": [
         "dna",
+        "radiation",
+        "protects",
         "shield",
-        "damage",
-        "protects"
+        "damage"
+      ]
+    },
+    {
+      "question": "What happened in the 2007 space experiment?",
+      "answer": "Tardigrades were exposed to space and some survived and reproduced.",
+      "accepted_keywords": [
+        "space",
+        "survived",
+        "orbit",
+        "vacuum",
+        "reproduced"
+      ]
+    },
+    {
+      "question": "Why are tardigrades not truly indestructible?",
+      "answer": "In their active state they are vulnerable to heat, drought and predators.",
+      "accepted_keywords": [
+        "heat",
+        "vulnerable",
+        "active",
+        "drought",
+        "killed"
       ]
     }
   ]

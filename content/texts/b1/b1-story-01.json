@@ -4,108 +4,164 @@
   "genre": "story",
   "title_en": "The Lost Key",
   "title_ru": "Потерянный ключ",
-  "description_ru": "Мария теряет ключ от квартиры и неожиданно знакомится с соседом.",
-  "text": "Maria has lived in the same building for three years, but she has never met her neighbour on the third floor. One rainy Thursday evening, she came home from work and found that her key was missing. She searched her bag twice, then her coat pockets, but there was nothing.\n\n\"If I call a locksmith, it will cost a fortune,\" she thought. Just then, a door opened above her, and a tall old man looked down the stairs. \"Are you having trouble?\" he asked. Maria explained the problem. \"Come upstairs,\" he said. \"I have made some tea, and you can wait here until your sister arrives with the spare key.\"\n\nHis name was Victor, and his flat was full of books and strange clocks. While they were drinking tea, he told her that he had been a watchmaker for forty years. Maria was surprised, because she had always thought he was unfriendly.\n\nAn hour later, her sister rang the bell. Before they left, Victor smiled and said, \"Next time, you don't need to wait for an emergency. If you visit me again, I will show you how a clock works.\"\n\nMaria walked down the stairs with a warm feeling. She had lost her key, but she had found something better: a new friend. On Sunday, she bought a cake and knocked on his door.",
-  "word_count": 224,
+  "description_ru": "Утром перед важной презентацией Мира не может найти ключи, и помощь приходит от неожиданных людей.",
+  "text": "On Monday morning, Mira Kovacs stood in front of her apartment door and felt her stomach drop. Her keys were not in her coat pocket. They were not in her bag either. She had a train to catch in forty minutes, a presentation to give at ten o'clock, and no way of getting back into her flat that evening if she left without finding them. \"If I had put them in the bowl last night, this would not be happening,\" she muttered, and began to search.\n\nShe looked in the kitchen, under the sofa and behind the washing machine. She even checked the fridge, because once, years ago, she had found her phone there next to the butter. Nothing. Her neighbour, old Mr Brandt, put his head out of his door and asked what all the noise was about. When she explained, he smiled kindly. \"I have lived in this building for thirty years,\" he said, \"and I have lost my keys at least a hundred times. They always turn up, usually in the last place you look, which is only logical, because you stop looking once you find them.\"\n\nMira did not laugh. She called her sister, Dana, who had a spare key but lived two hours away. Dana was in a meeting and did not pick up. Then Mira remembered that her landlord, Mr Petrov, also kept a copy, so she rang him. He answered on the seventh ring and said he was at the dentist. \"I can bring it to you after lunch,\" he mumbled, with what sounded like a mouth full of cotton. After lunch was too late for the train, but it was better than nothing, and Mira thanked him twice.\n\nAt the station she bought a coffee and tried to retrace her steps from the day before. She had gone to the market in the morning, then to the library, then to a café with her friend Lena, and finally home. If she had dropped the keys somewhere, it must have been in one of those places. She called the library first. A tired voice told her that nothing had been handed in. The café had not seen them either. Mira sat on a bench with her cup and watched the departure board change from green to red.\n\nThen her phone rang. It was Lena. \"I have just found something strange in my bag,\" she said. \"A bunch of keys with a little blue fish on the ring. They are not mine, so I think they must be yours.\" Mira closed her eyes with relief. She remembered now that she had handed her bag to Lena for a minute at the café, while she looked for her wallet, and that the keys had probably slipped across without anyone noticing. \"You have saved my day,\" she said. \"I will come and get them straight away.\"\n\nLena lived on the other side of the city, though, and the next train to Mira's meeting left in five minutes. Mira stood up, sat down and stood up again. She could go to Lena's and be late, or she could go to the presentation and be locked out. In the end she chose a third option. She asked Lena to bring the keys to Mr Brandt, who was always at home in the mornings and who would certainly enjoy having a small mission. Lena agreed, and Mira ran for her train with only seconds to spare.\n\nThe presentation went well, better than she had expected. She had worried so much about the keys that she had forgotten to be nervous, and her voice sounded calm and clear. Afterwards her manager said that she had never seen Mira so relaxed. \"Perhaps I should lose my keys more often,\" Mira joked. At lunchtime she checked her phone and found a photograph from Mr Brandt. He was standing proudly at his door, holding the keys with the blue fish above his head like a trophy.\n\nWhen she got home that evening, there was a note taped to her door. It said, \"Keys delivered, tea served, gossip exchanged. Please return the favour one day. Mr B.\" Mira laughed out loud. She knocked on his door and thanked him, and he invited her in for a biscuit. They talked for an hour about his years as a ship's engineer and the strange places he had seen. She realised that in three years of living next door, she had never actually spoken to him for longer than a minute.\n\nThat night she bought a small hook and fixed it beside her front door. She hung her keys on it and promised herself that, from now on, they would always go there. Then she stopped, smiled, and took them off again. She decided to keep them on the table instead, so that if she ever lost them again, she would have a good reason to knock on Mr Brandt's door.",
+  "word_count": 824,
   "vocabulary": [
     {
+      "word": "stomach",
+      "ipa_us": "ˈstʌmək",
+      "ipa_uk": "ˈstʌmək",
+      "translation_ru": "живот, желудок"
+    },
+    {
+      "word": "muttered",
+      "ipa_us": "ˈmʌtərd",
+      "ipa_uk": "ˈmʌtəd",
+      "translation_ru": "пробормотала"
+    },
+    {
       "word": "neighbour",
-      "ipa_us": "ˈneɪbɚ",
+      "ipa_us": "ˈneɪbər",
       "ipa_uk": "ˈneɪbə",
       "translation_ru": "сосед"
     },
     {
-      "word": "locksmith",
-      "ipa_us": "ˈlɑːksmɪθ",
-      "ipa_uk": "ˈlɒksmɪθ",
-      "translation_ru": "слесарь по замкам"
+      "word": "logical",
+      "ipa_us": "ˈlɑːdʒɪkəl",
+      "ipa_uk": "ˈlɒdʒɪkəl",
+      "translation_ru": "логичный"
     },
     {
-      "word": "fortune",
-      "ipa_us": "ˈfɔːrtʃən",
-      "ipa_uk": "ˈfɔːtʃuːn",
-      "translation_ru": "целое состояние"
+      "word": "landlord",
+      "ipa_us": "ˈlændlɔːrd",
+      "ipa_uk": "ˈlændlɔːd",
+      "translation_ru": "арендодатель"
     },
     {
-      "word": "spare",
-      "ipa_us": "sper",
-      "ipa_uk": "speə",
-      "translation_ru": "запасной"
+      "word": "retrace",
+      "ipa_us": "riˈtreɪs",
+      "ipa_uk": "riːˈtreɪs",
+      "translation_ru": "повторить маршрут"
     },
     {
-      "word": "watchmaker",
-      "ipa_us": "ˈwɑːtʃmeɪkɚ",
-      "ipa_uk": "ˈwɒtʃmeɪkə",
-      "translation_ru": "часовщик"
+      "word": "relief",
+      "ipa_us": "rɪˈliːf",
+      "ipa_uk": "rɪˈliːf",
+      "translation_ru": "облегчение"
     },
     {
-      "word": "unfriendly",
-      "ipa_us": "ʌnˈfrendli",
-      "ipa_uk": "ʌnˈfrendli",
-      "translation_ru": "недружелюбный"
+      "word": "slipped",
+      "ipa_us": "slɪpt",
+      "ipa_uk": "slɪpt",
+      "translation_ru": "соскользнули"
     },
     {
-      "word": "emergency",
-      "ipa_us": "ɪˈmɜːrdʒənsi",
-      "ipa_uk": "ɪˈmɜːdʒənsi",
-      "translation_ru": "срочный случай"
+      "word": "mission",
+      "ipa_us": "ˈmɪʃən",
+      "ipa_uk": "ˈmɪʃən",
+      "translation_ru": "миссия, задание"
+    },
+    {
+      "word": "trophy",
+      "ipa_us": "ˈtroʊfi",
+      "ipa_uk": "ˈtrəʊfi",
+      "translation_ru": "трофей, кубок"
+    },
+    {
+      "word": "gossip",
+      "ipa_us": "ˈɡɑːsəp",
+      "ipa_uk": "ˈɡɒsɪp",
+      "translation_ru": "сплетни"
+    },
+    {
+      "word": "presentation",
+      "ipa_us": "ˌprɛzənˈteɪʃən",
+      "ipa_uk": "ˌprezənˈteɪʃən",
+      "translation_ru": "презентация"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
+        "thirty",
         "three",
-        "third",
-        "Thursday",
-        "thought"
+        "thanked",
+        "think"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
       "sound": "w",
       "examples": [
-        "while",
-        "watchmaker",
-        "work",
-        "warm"
+        "was",
+        "wallet",
+        "washing",
+        "when"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "r",
+      "sound": "eɪ",
       "examples": [
-        "rainy",
-        "friend",
-        "rang"
+        "train",
+        "explained",
+        "straight",
+        "day"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не обрывайте звук."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "presentation",
+        "logical",
+        "retrace",
+        "relief"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Where was Maria's neighbour's flat?",
-      "answer": "On the third floor.",
+      "question": "Why was Mira worried on Monday morning?",
+      "answer": "She had lost her keys before an important presentation and a train.",
       "accepted_keywords": [
-        "third",
-        "floor",
-        "3rd"
+        "keys",
+        "lost",
+        "presentation",
+        "train"
       ]
     },
     {
-      "question": "What was Victor's job?",
-      "answer": "He was a watchmaker.",
+      "question": "Where were the keys in the end?",
+      "answer": "They had slipped into her friend Lena's bag at the café.",
       "accepted_keywords": [
-        "watchmaker",
-        "clocks",
-        "watches"
+        "lena",
+        "bag",
+        "cafe",
+        "café"
       ]
     },
     {
-      "question": "Who brought the spare key?",
-      "answer": "Her sister.",
+      "question": "Who delivered the keys to Mira's door?",
+      "answer": "Lena brought them to Mr Brandt, her neighbour.",
       "accepted_keywords": [
-        "sister"
+        "brandt",
+        "neighbour",
+        "lena"
+      ]
+    },
+    {
+      "question": "What did Mira learn about her neighbour?",
+      "answer": "She learned he had been a ship's engineer and that she had never really talked to him before.",
+      "accepted_keywords": [
+        "engineer",
+        "ship",
+        "talked",
+        "spoken",
+        "neighbour"
       ]
     }
   ]

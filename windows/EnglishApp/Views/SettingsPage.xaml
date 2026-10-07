@@ -6,6 +6,10 @@
             <TextBlock Text="Настройки" Style="{StaticResource TitleTextBlockStyle}" />
             <ComboBox Header="Акцент (озвучка и транскрипция)" Width="300" ItemsSource="{x:Bind ViewModel.Accents}"
                       SelectedIndex="{x:Bind ViewModel.AccentIndex, Mode=TwoWay}" />
+            <ComboBox Header="Дневная цель" Width="300" ItemsSource="{x:Bind ViewModel.Goals}"
+                      SelectedIndex="{x:Bind ViewModel.GoalIndex, Mode=TwoWay}" />
+            <ComboBox Header="Ваш уровень" Width="300" ItemsSource="{x:Bind ViewModel.LevelNames}"
+                      SelectedIndex="{x:Bind ViewModel.LevelIndex, Mode=TwoWay}" />
             <ComboBox Header="Строгость оценки" Width="300" ItemsSource="{x:Bind ViewModel.Strictnesses}"
                       SelectedIndex="{x:Bind ViewModel.StrictnessIndex, Mode=TwoWay}" />
             <ComboBox Header="Микрофон" Width="400" ItemsSource="{x:Bind ViewModel.Mics}"

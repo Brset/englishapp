@@ -4,6 +4,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -19,13 +20,14 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import app.englishpron.PronCore
 import app.englishpron.UserSettings
-import app.englishpron.data.SavedWord
+import app.englishpron.data.ALL_ACHIEVEMENTS
+import app.englishpron.data.levelFor
 
 // ---- Sound cards ----------------------------------------------------------------------------
 @Composable
 fun SoundsScreen(onOpen: (String) -> Unit, vm: SoundsViewModel = viewModel()) {
     val list by vm.list.collectAsStateWithLifecycle()
-    if (list.isEmpty()) { Empty("Карточки звуков не найдены"); return }
+    if (list.isEmpty()) { EmptyState(Icons.Filled.Hearing, "Карточки звуков не найдены", "Они появятся после обновления контента"); return }
     LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         item { Text("Артикуляция и минимальные пары для русскоговорящих", style = MaterialTheme.typography.bodyMedium) }
         items(list, key = { it.id }) { s ->
@@ -41,13 +43,14 @@ fun SoundsScreen(onOpen: (String) -> Unit, vm: SoundsViewModel = viewModel()) {
 }
 
 @Composable
-fun SoundDetailScreen(id: String, vm: SoundsViewModel = viewModel()) {
+fun SoundDetailScreen(id: String, onDrill: (String) -> Unit, vm: SoundsViewModel = viewModel()) {
     LaunchedEffect(id) { vm.open(id) }
     val card by vm.card.collectAsStateWithLifecycle()
     val c = card
-    if (c == null || c.optString("id") != id) { Empty("Загрузка…"); return }
+    if (c == null || c.optString("id") != id) { SkeletonList(3); return }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Text("/${c.optString("ipa")}/  ${c.optString("name_ru")}", style = MaterialTheme.typography.headlineSmall)
+        FilledTonalButton({ onDrill(id) }, Modifier.fillMaxWidth()) { Icon(Icons.Filled.Mic, null); Spacer(Modifier.width(6.dp)); Text("Тренировать звук") }
         c.optString("us_uk_note_ru").takeIf { it.isNotEmpty() && it != "null" }?.let { Text("US/UK: $it", style = MaterialTheme.typography.bodyMedium) }
 
         SectionTitle("Артикуляция")
@@ -122,10 +125,10 @@ fun DictionaryScreen(vm: DictionaryViewModel = viewModel()) {
         }
         if (tab == 0) {
             val w = s.due.firstOrNull()
-            if (w == null) Empty("Сейчас повторять нечего. Добавляйте слова из текстов: нажмите слово → «В словарь».")
-            else ReviewCard(w, vm)
+            if (w == null) EmptyState(Icons.Filled.Book, "Повторять нечего", "Слова со слабой оценкой добавляются сами; ещё можно нажать слово в тексте → «В словарь».")
+            else WordDrillCard(w, vm)
         } else {
-            if (s.all.isEmpty()) Empty("Словарь пуст")
+            if (s.all.isEmpty()) EmptyState(Icons.Filled.Book, "Словарь пуст", "Слова появятся после чтения текстов")
             else LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 items(s.all, key = { it.id }) { w ->
                     Card(Modifier.fillMaxWidth()) {
@@ -145,56 +148,67 @@ fun DictionaryScreen(vm: DictionaryViewModel = viewModel()) {
     }
 }
 
-@Composable
-private fun ReviewCard(w: SavedWord, vm: DictionaryViewModel) {
-    var shown by remember(w.id, w.dueAt) { mutableStateOf(false) }
-    Column(Modifier.fillMaxSize().padding(24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically)) {
-        Text(w.word, style = MaterialTheme.typography.displaySmall)
-        if (w.ipa.isNotEmpty()) Text("/${w.ipa}/", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.primary)
-        FilledTonalIconButton({ vm.speak(w.word) }) { Icon(Icons.Filled.VolumeUp, "Озвучить") }
-        if (!shown) Button({ shown = true }) { Text("Показать перевод") }
-        else {
-            Text(w.translationRu.ifEmpty { "—" }, style = MaterialTheme.typography.headlineSmall)
-            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                OutlinedButton({ vm.review(w, 0) }) { Text("Снова") }
-                OutlinedButton({ vm.review(w, 1) }) { Text("Трудно") }
-                Button({ vm.review(w, 2) }) { Text("Хорошо") }
-                FilledTonalButton({ vm.review(w, 3) }) { Text("Легко") }
-            }
-        }
-    }
-}
-
 // ---- Progress -------------------------------------------------------------------------------
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ProgressScreen(vm: ProgressViewModel = viewModel()) {
     val p by vm.state.collectAsStateWithLifecycle()
     LaunchedEffect(Unit) { vm.refresh() }
-    val s = p ?: run { Empty("Загрузка…"); return }
+    val all = p ?: run { SkeletonList(4); return }
+    val s = all.summary
+    val v = all.v2
+    val lvl = levelFor(v.xp)
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Tile("Серия", "${s.streakDays} дн.", Modifier.weight(1f))
-            Tile("Готово", "${s.textsDone}", Modifier.weight(1f))
-            Tile("Попыток", "${s.attempts}", Modifier.weight(1f))
-        }
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Tile("Слов прочитано", "${v.totalWords}", Modifier.weight(1f))
             Tile("Средний балл", s.avgScore?.let { "%.0f".format(it) } ?: "—", Modifier.weight(1f))
-            Tile("Сегодня", "%.0f мин".format(s.minutesToday), Modifier.weight(1f))
+        }
+        Text("${lvl.name} · ${v.xp} XP", style = MaterialTheme.typography.titleMedium)
+        SectionTitle("Точность во времени")
+        ElevatedCard(Modifier.fillMaxWidth()) {
+            if (v.accuracy.isEmpty()) Text("Появится после первых оценённых чтений.", Modifier.padding(16.dp), color = MaterialTheme.colorScheme.onSurfaceVariant)
+            else LineChart(v.accuracy, Modifier.padding(16.dp))
+        }
+        SectionTitle("Минуты по неделям")
+        ElevatedCard(Modifier.fillMaxWidth()) {
+            BarChart(v.weeks.mapIndexed { i, m -> (if (i == v.weeks.size - 1) "эта" else "-${v.weeks.size - 1 - i}") to m }, Modifier.padding(16.dp))
+        }
+        SectionTitle("Тексты по уровням")
+        if (v.levels.isEmpty()) Text("Нет данных.") else FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            v.levels.forEach { (level, done, total) ->
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    ProgressRing(if (total > 0) done.toFloat() / total else 0f, Modifier.size(64.dp), 7.dp) {
+                        Text("$done/$total", style = MaterialTheme.typography.labelMedium)
+                    }
+                    Text(level, style = MaterialTheme.typography.labelLarge)
+                }
+            }
         }
         SectionTitle("Сложные звуки")
         if (s.weakSounds.isEmpty()) Text("Данных пока мало — прочитайте несколько текстов.")
         s.weakSounds.forEach { (ipa, errors, avg) ->
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Text("/$ipa/", Modifier.width(70.dp), fontSize = 20.sp, fontWeight = FontWeight.Bold)
-                LinearProgressIndicator(progress = { (avg / 100).toFloat().coerceIn(0f, 1f) }, Modifier.weight(1f))
+                LinearProgressIndicator(progress = { (avg / 100).toFloat().coerceIn(0f, 1f) }, Modifier.weight(1f), color = scoreColor(avg))
                 Text("  %.0f, ошибок: $errors".format(avg), style = MaterialTheme.typography.labelMedium)
+            }
+        }
+        SectionTitle("Достижения")
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            ALL_ACHIEVEMENTS.forEach { a ->
+                val on = a.id in v.achievements
+                AssistChip(onClick = {}, label = { Text(a.title) },
+                    leadingIcon = { Icon(if (on) Icons.Filled.EmojiEvents else Icons.Filled.Lock, null, Modifier.size(18.dp)) },
+                    colors = AssistChipDefaults.assistChipColors(
+                        labelColor = if (on) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f)))
             }
         }
         SectionTitle("Последние попытки")
         if (s.recent.isEmpty()) Text("Пока пусто.")
         s.recent.forEach { (title, score) ->
             Row(Modifier.fillMaxWidth()) {
-                Text(title, Modifier.weight(1f)); Text("%.0f".format(score), fontWeight = FontWeight.Bold)
+                Text(title, Modifier.weight(1f)); Text("%.0f".format(score), fontWeight = FontWeight.Bold, color = scoreColor(score))
             }
         }
     }
@@ -224,6 +238,33 @@ fun SettingsScreen(vm: SettingsViewModel = viewModel()) {
             listOf("Мягко", "Обычно", "Строго").forEachIndexed { i, label ->
                 SegmentedButton(s.strictness == i, { vm.update(s.copy(strictness = i)) }, SegmentedButtonDefaults.itemShape(i, 3)) { Text(label) }
             }
+        }
+        SectionTitle("Чтение")
+        Text("Размер текста", style = MaterialTheme.typography.labelLarge)
+        SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
+            listOf("S", "M", "L", "XL").forEachIndexed { i, label ->
+                SegmentedButton(s.fontSize == i, { vm.update(s.copy(fontSize = i)) }, SegmentedButtonDefaults.itemShape(i, 4)) { Text(label) }
+            }
+        }
+        Text("Межстрочный интервал", style = MaterialTheme.typography.labelLarge)
+        SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
+            listOf("Плотно", "Обычно", "Свободно").forEachIndexed { i, label ->
+                SegmentedButton(s.lineSpacing == i, { vm.update(s.copy(lineSpacing = i)) }, SegmentedButtonDefaults.itemShape(i, 3)) { Text(label) }
+            }
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("Шрифт с засечками", Modifier.weight(1f)); Switch(s.serif, { vm.update(s.copy(serif = it)) })
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("Автопереход к следующему абзацу", Modifier.weight(1f)); Switch(s.autoAdvance, { vm.update(s.copy(autoAdvance = it)) })
+        }
+        Text("Образец: The quick brown fox jumps over the lazy dog.", style = s.readingStyle())
+        SectionTitle("Цели")
+        Text("Цель дня: ${s.dailyGoal} мин", style = MaterialTheme.typography.labelLarge)
+        Slider(s.dailyGoal.toFloat(), { vm.update(s.copy(dailyGoal = it.toInt())) }, valueRange = 5f..60f, steps = 10)
+        Text("Уровень", style = MaterialTheme.typography.labelLarge)
+        Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            listOf("A1", "A2", "B1", "B2", "C1", "C2").forEach { l -> FilterChip(s.level == l, { vm.update(s.copy(level = l)) }, { Text(l) }) }
         }
         SectionTitle("О приложении")
         Text("pron_core ${runCatching { PronCore.version }.getOrDefault("?")}", style = MaterialTheme.typography.bodyMedium)

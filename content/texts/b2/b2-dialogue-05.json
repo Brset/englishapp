@@ -2,139 +2,164 @@
   "id": "b2-dialogue-05",
   "level": "B2",
   "genre": "dialogue",
-  "title_en": "The Surprise Party",
-  "title_ru": "Вечеринка-сюрприз",
-  "description_ru": "Друзья планируют сюрприз ко дню рождения коллеги, но возникают неожиданные сложности.",
-  "text": "Lena: Okay, everyone, listen up. Gabriel's birthday is on Friday, and he must not suspect a thing.\n\nRavi: So what's the plan? I was told that you had booked the café on Willow Street.\n\nLena: I had, but this morning the owner called to say that the kitchen was closed because of a burst pipe. We have to find somewhere else.\n\nTara: What about my flat? It's small, but it's cosy, and nobody would expect it.\n\nLena: Brilliant. How many people are coming?\n\nRavi: About fifteen, I think. Gabriel's sister has promised to bring his old school friends.\n\nTara: Fifteen? We'll be packed like sardines! I suppose we could open the balcony door, though.\n\nLena: Fine. Now, how do we get Gabriel there without spoiling the surprise? He's very clever, and he reads people's faces like a book.\n\nRavi: I could say that I need help moving a sofa. He never says no to a friend.\n\nLena: Good, but he'll ask questions if you call him at the last minute. Tell him on Thursday, and remind him on Friday afternoon.\n\nTara: And what about the cake? Last year he said that he would never eat chocolate again.\n\nLena: He was joking. He ate half of mine! I've ordered a lemon cake from the bakery next to the station. It will be delivered at six.\n\nRavi: What if he arrives earlier than expected?\n\nLena: Then we'll improvise. Tara, you'll stand at the window and send us a message as soon as you see him.\n\nTara: Understood. Should we hide in the kitchen, or behind the sofa?\n\nLena: Behind the sofa is better, but please don't giggle. Last time somebody sneezed, and the whole plan fell apart.\n\nRavi: That was my cat's fault, I swear.\n\nLena: Whatever you say. Right, let's make this the best surprise he has ever had.",
-  "word_count": 290,
+  "title_en": "Operation Retirement Party",
+  "title_ru": "Операция «Прощальный вечер»",
+  "description_ru": "Диалог трёх коллег, которые тайно планируют прощальный праздник для любимого начальника, и обсуждают, как всё сохранить в секрете.",
+  "text": "Rosa: Thanks for staying behind, you two. Mr Hargreaves leaves on the thirtieth, and I think we have exactly five weeks to organise something that he will never forget.\nBen: Agreed. Forty years in the same company is unheard of nowadays. Somebody told me that he started as a messenger boy in the basement.\nMei: That is true. He once said that he used to carry letters up four floors because the lift was broken, and he never complained. Today he runs the whole department.\nRosa: Which is why the party cannot be a boring one with warm sandwiches and a card that everyone signs without thinking. I would like it to be a real surprise.\n\nBen: Surprise? That is risky. This office is a village. Nothing stays secret here for more than ten minutes.\nMei: Ben is right. Last year, the news about the new coffee machine leaked before it was even delivered. The person who was supposed to be a secret contact turned out to be a gossip.\nRosa: I know. That is why I suggest that only the three of us know the details, and that everyone else is told a small part of the plan. For example, the finance team could be asked to bring food, but they would not be told the reason.\nBen: Sneaky. I like it. And how will we get him to the party?\nMei: I have an idea. He has been talking for weeks about a conference that he was supposedly invited to in the spring. We could say that the conference has been moved to a hotel near the river, and that everyone has to attend.\n\nRosa: A fake conference? He would see through it in five minutes. He has been fooled by every trick in the book.\nBen: Then we make it boring enough to be convincing. Add a few slides about budgets, and a name tag, and he will not suspect a thing.\nMei: And then, when he opens the door, there will be a banner, music and about eighty people shouting surprise. Possibly some balloons as well.\nRosa: Not too many balloons. He is afraid of loud popping sounds. He once jumped on a chair when someone dropped a tray in the canteen.\nBen: Noted. No balloons. Maybe lanterns instead.\n\nMei: What about the speeches? I would not like them to be too long. He hates being praised in public.\nRosa: Then we should keep the speeches short, and make them funny. I could collect stories from former colleagues, and Ben could turn them into a slideshow.\nBen: With pleasure. I already have one photograph where he is wearing a terrible tie from 1993. It would be a crime not to show it.\nMei: Please, be gentle with him. He would be very hurt if the evening turned into a roast.\nBen: Do not worry, I will choose photographs that are affectionate rather than cruel. Mostly.\n\nRosa: Now, the budget. I have been told by the director that the company will pay for the venue and the food, but the gift has to be organised by us.\nMei: I have been asking around, and so far twenty-two people have promised to contribute. If everyone gives ten pounds, we will have enough to buy something decent.\nBen: What does he like? Apart from work, of course.\nMei: Fishing, mostly. He often talks about a river in Scotland where he used to go with his father. We could pay for a weekend there, including the permits and a small cottage.\nRosa: That is perfect. A gift that was clearly chosen with care. I am sure he would be touched.\n\nBen: One practical problem. How are we going to collect the money without anyone telling him?\nMei: I will use an envelope with a harmless label, something like Office Plants. Nobody has ever been curious about plants.\nRosa: Brilliant. And what about his wife? She would be furious if she were the last to know.\nMei: I have already spoken to her. She was thrilled, and she promised to keep him at home until six o'clock on the day, saying that she needs help with the shopping. Then she will bring him to the hotel herself.\nBen: What if he gets suspicious and asks questions?\nMei: She said that she would tell him they are going to a conference dinner. She has been married to him for thirty-five years, so I imagine she has plenty of practice in telling little lies.\n\nRosa: Then everything is settled. I will book the room, Mei will take care of the gift, and Ben will prepare the photographs. We should meet again in two weeks to check how things are going.\nBen: And in the meantime, we say nothing.\nMei: Not even to the cat. I would not be surprised if it has been bribed by the finance team already.\nRosa: Then let us call it Operation Retirement. Thank you both. If this works, we will be the heroes of the office, and if it does not, nobody will ever know that it was us.",
+  "word_count": 818,
   "vocabulary": [
     {
-      "word": "suspect",
-      "ipa_us": "səˈspɛkt",
-      "ipa_uk": "səˈspekt",
-      "translation_ru": "подозревать"
+      "word": "retirement",
+      "ipa_us": "rɪˈtaɪərmənt",
+      "ipa_uk": "rɪˈtaɪəmənt",
+      "translation_ru": "выход на пенсию"
     },
     {
-      "word": "burst",
-      "ipa_us": "bɜrst",
-      "ipa_uk": "bɜːst",
-      "translation_ru": "лопнувшая"
+      "word": "unheard of",
+      "ipa_us": "ʌnˈhɜːrd ɑːv",
+      "ipa_uk": "ʌnˈhɜːd ɒv",
+      "translation_ru": "неслыханный"
     },
     {
-      "word": "pipe",
-      "ipa_us": "paɪp",
-      "ipa_uk": "paɪp",
-      "translation_ru": "труба"
+      "word": "messenger",
+      "ipa_us": "ˈmɛsɪndʒər",
+      "ipa_uk": "ˈmesɪndʒə",
+      "translation_ru": "курьер"
     },
     {
-      "word": "cosy",
-      "ipa_us": "ˈkoʊzi",
-      "ipa_uk": "ˈkəʊzi",
-      "translation_ru": "уютный"
+      "word": "leaked",
+      "ipa_us": "liːkt",
+      "ipa_uk": "liːkt",
+      "translation_ru": "просочились, утекли"
     },
     {
-      "word": "packed",
-      "ipa_us": "pækt",
-      "ipa_uk": "pækt",
-      "translation_ru": "набиты битком"
+      "word": "gossip",
+      "ipa_us": "ˈɡɑːsɪp",
+      "ipa_uk": "ˈɡɒsɪp",
+      "translation_ru": "сплетник"
     },
     {
-      "word": "spoiling",
-      "ipa_us": "ˈspɔɪlɪŋ",
-      "ipa_uk": "ˈspɔɪlɪŋ",
-      "translation_ru": "портя"
+      "word": "sneaky",
+      "ipa_us": "ˈsniːki",
+      "ipa_uk": "ˈsniːki",
+      "translation_ru": "хитрый"
     },
     {
-      "word": "remind",
-      "ipa_us": "rɪˈmaɪnd",
-      "ipa_uk": "rɪˈmaɪnd",
-      "translation_ru": "напомнить"
+      "word": "convincing",
+      "ipa_us": "kənˈvɪnsɪŋ",
+      "ipa_uk": "kənˈvɪnsɪŋ",
+      "translation_ru": "убедительный"
     },
     {
-      "word": "improvise",
-      "ipa_us": "ˈɪmprəˌvaɪz",
-      "ipa_uk": "ˈɪmprəvaɪz",
-      "translation_ru": "импровизировать"
+      "word": "affectionate",
+      "ipa_us": "əˈfɛkʃənət",
+      "ipa_uk": "əˈfekʃənət",
+      "translation_ru": "ласковый, тёплый"
     },
     {
-      "word": "giggle",
-      "ipa_us": "ˈɡɪɡəl",
-      "ipa_uk": "ˈɡɪɡəl",
-      "translation_ru": "хихикать"
+      "word": "venue",
+      "ipa_us": "ˈvɛnjuː",
+      "ipa_uk": "ˈvenjuː",
+      "translation_ru": "место проведения"
     },
     {
-      "word": "sneezed",
-      "ipa_us": "snizd",
-      "ipa_uk": "sniːzd",
-      "translation_ru": "чихнул"
+      "word": "contribute",
+      "ipa_us": "kənˈtrɪbjuːt",
+      "ipa_uk": "kənˈtrɪbjuːt",
+      "translation_ru": "вносить вклад, скидываться"
+    },
+    {
+      "word": "permits",
+      "ipa_us": "ˈpɜːrmɪts",
+      "ipa_uk": "ˈpɜːmɪts",
+      "translation_ru": "разрешения"
+    },
+    {
+      "word": "thrilled",
+      "ipa_us": "θrɪld",
+      "ipa_uk": "θrɪld",
+      "translation_ru": "в восторге"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "θ",
       "examples": [
-        "Willow",
-        "would",
-        "what"
+        "thirtieth",
+        "think",
+        "thrilled",
+        "thank"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с»."
     },
     {
-      "sound": "v",
+      "sound": "ð",
       "examples": [
-        "very",
-        "never",
-        "delivered"
+        "the",
+        "that",
+        "they",
+        "father"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Язык между зубами, голос включён; звук звонкий, не «з» и не «д»."
     },
     {
-      "sound": "ɔɪ",
+      "sound": "h",
       "examples": [
-        "spoiling",
-        "joking"
+        "have",
+        "he",
+        "hates",
+        "hotel"
       ],
-      "tip_ru": "Начинайте с округлённого «о» и скользите к «и»; не сокращайте до простого «ой» с резким концом."
+      "tip_ru": "Лёгкий выдох из горла без русского «х»; не опускайте звук в начале слов."
     },
     {
-      "sound": "r",
+      "sound": "final-voiced",
       "examples": [
-        "right",
-        "remind",
-        "Friday"
+        "loud",
+        "told",
+        "said",
+        "card"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Сохраняйте голос до конца слова: «loud» заканчивается звонким «d», а не «т»."
     }
   ],
   "questions": [
     {
-      "question": "When is Gabriel's birthday?",
-      "answer": "On Friday.",
+      "question": "Why are the colleagues organising a party?",
+      "answer": "Mr Hargreaves is retiring after forty years.",
       "accepted_keywords": [
-        "friday"
+        "retire",
+        "retiring",
+        "retirement",
+        "hargreaves",
+        "forty"
       ]
     },
     {
-      "question": "Why can't they use the café?",
-      "answer": "The kitchen was closed because of a burst pipe.",
+      "question": "How will they get him to the party?",
+      "answer": "By telling him it is a conference at a hotel by the river.",
       "accepted_keywords": [
-        "pipe",
-        "kitchen",
-        "burst"
+        "conference",
+        "hotel"
       ]
     },
     {
-      "question": "Whose flat will the party be in?",
-      "answer": "Tara's.",
+      "question": "What will the gift be?",
+      "answer": "A weekend of fishing in Scotland.",
       "accepted_keywords": [
-        "tara"
+        "fishing",
+        "scotland",
+        "weekend"
       ]
     },
     {
-      "question": "What kind of cake has Lena ordered?",
-      "answer": "A lemon cake.",
+      "question": "What is Mr Hargreaves afraid of?",
+      "answer": "Loud popping sounds, so there will be no balloons.",
       "accepted_keywords": [
-        "lemon"
+        "loud",
+        "popping",
+        "balloons",
+        "noise"
       ]
     }
   ]

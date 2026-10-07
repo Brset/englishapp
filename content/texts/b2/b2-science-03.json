@@ -2,142 +2,162 @@
   "id": "b2-science-03",
   "level": "B2",
   "genre": "science",
-  "title_en": "How the Moon Moves the Sea",
-  "title_ru": "Как Луна двигает море",
-  "description_ru": "Почему на Земле бывают приливы и отливы и какую роль играют Луна и Солнце.",
-  "text": "Anyone who has spent a day at the seaside knows that the water level changes. In most places, the sea rises and falls twice every day. These movements are called tides, and they are caused mainly by the gravitational pull of the Moon.\n\nGravity weakens with distance. The side of the Earth that faces the Moon is about twelve thousand kilometres closer to it than the far side, so it is pulled slightly harder. This difference creates a stretching effect, known as a tidal force. The oceans, being fluid, are drawn into a bulge on the side facing the Moon. A second bulge forms on the opposite side, where the Earth is pulled away from the water more strongly than the water is pulled towards the Moon. As our planet rotates once every twenty-four hours, each coastline passes through both bulges, and that is why most coasts experience two high tides a day.\n\nBecause the Moon also moves around the Earth, a tidal cycle actually lasts about twenty-four hours and fifty minutes. This is why high tide arrives later each day.\n\nThe Sun plays a role too. Although it is far more massive than the Moon, it is about four hundred times farther away, so its tidal effect is less than half as strong. When the Sun, the Moon and the Earth are aligned, at new moon and full moon, the two effects combine, producing unusually large tides called spring tides. A week later, when the Sun and Moon pull at right angles, the tides are weaker. These are called neap tides.\n\nGeography has a powerful influence as well. In the Bay of Fundy in Canada, the funnel shape of the coast pushes the water up to sixteen metres, the highest range in the world. By contrast, the Mediterranean Sea is almost enclosed, and its tides are barely noticeable.\n\nTides are not only a curiosity. They affect navigation, fishing and the lives of countless coastal creatures. Engineers have also built power stations that generate electricity from moving water. Unlike wind or sunshine, the tides can be predicted centuries ahead.",
-  "word_count": 351,
+  "title_en": "What Happens While You Sleep",
+  "title_ru": "Что происходит, пока вы спите",
+  "description_ru": "Текст о фазах сна, внутренних часах и о том, почему мозгу необходим ночной отдых для памяти и здоровья.",
+  "text": "For many centuries, sleep was thought to be a kind of switching off, a period when the brain simply rested while the body recovered. Modern research has shown that this idea was completely wrong. During the night, the brain is remarkably active, and some of its most important work is carried out when we are unconscious. Scientists now believe that sleep is as essential to human health as food and water, and that people who are deprived of it suffer in surprising ways.\n\nA typical night is not one long block of unconscious rest. It is divided into cycles of about ninety minutes, and most adults go through four or five of them. Each cycle contains several stages. In the first, light sleep, the heartbeat slows down and the muscles relax, and it is easy to be woken by a small noise. People who are woken during this stage often insist that they were not asleep at all.\n\nNext comes deeper sleep, in which the body temperature falls and the brain waves become larger and slower. The deepest stage, which is dominant in the first half of the night, is sometimes called slow-wave sleep. During this phase, the body releases growth hormone, repairs tissues and strengthens the immune system. It is also the hardest stage to wake up from, and anyone who has been disturbed in the middle of it may feel confused and heavy for several minutes.\n\nThe most famous stage is REM sleep, named after the rapid eye movements that occur beneath the eyelids. The brain becomes almost as active as it is during the day, the heart beats faster and vivid dreams take place. At the same time, the body is temporarily paralysed, so that people do not act out what they are dreaming. This is a clever safety mechanism, and when it fails, as it does in certain rare disorders, sleepers can be seen punching and kicking in their beds.\n\nWhy do we feel sleepy at all? Two main systems are responsible. The first is a chemical called adenosine, which builds up in the brain throughout the day and creates a growing pressure to sleep. Caffeine works by blocking the receptors that detect it, so it does not remove tiredness, but merely hides it for a while. The second system is the body clock, a tiny cluster of nerve cells that follows a rhythm of roughly twenty-four hours and is influenced mainly by light.\n\nWhen darkness falls, the clock tells the brain to produce melatonin, a hormone that prepares the body for sleep. Bright light, especially the bluish light of phones and tablets, can delay this signal, so that people who use screens late at night find it harder to fall asleep. Teenagers are particularly affected, because their body clocks naturally shift later during adolescence. This is one reason why an early start at school is a constant struggle for many of them, and why some researchers have argued that lessons should begin later.\n\nSleep also plays a crucial role in memory. During the night, the brain replays the experiences of the day and decides which ones are worth keeping. Facts and skills that have been practised before bedtime are transferred into long-term storage, and in experiments, students who slept after studying remembered considerably more than those who stayed awake. Evidence from animal studies also suggests that during deep sleep, the brain flushes out waste products that accumulate while we are awake, although this research is still developing.\n\nThe consequences of poor sleep are serious. After a single bad night, people become irritable, react more slowly and find it difficult to concentrate. Over the long term, a chronic lack of sleep has been linked to heart disease, diabetes, weakened immunity and depression. Perhaps the most dangerous effect is that tired people are poor judges of their own condition. Studies have shown that drivers who have been awake for eighteen hours perform about as badly as those who have been drinking.\n\nMost adults need between seven and nine hours of sleep, although individual needs vary, and the idea that some people can function perfectly on four hours is mostly a myth. A few simple habits can help. It is advisable to go to bed and wake up at the same time every day, to keep the bedroom cool and dark, and to avoid heavy meals and caffeine in the evening. Exercise during the day also improves sleep, as long as it is not done too close to bedtime.\n\nSleep, in short, is not a luxury or a waste of time. It is the period in which the body repairs itself and the mind sorts out its memories. The next time somebody tells you that they will sleep when they are dead, you might politely point out that, according to science, the plan is not likely to be a long one.",
+  "word_count": 816,
   "vocabulary": [
     {
-      "word": "tides",
-      "ipa_us": "taɪdz",
-      "ipa_uk": "taɪdz",
-      "translation_ru": "приливы и отливы"
+      "word": "unconscious",
+      "ipa_us": "ʌnˈkɑːnʃəs",
+      "ipa_uk": "ʌnˈkɒnʃəs",
+      "translation_ru": "бессознательный"
     },
     {
-      "word": "gravitational",
-      "ipa_us": "ˌɡrævɪˈteɪʃənəl",
-      "ipa_uk": "ˌɡrævɪˈteɪʃənəl",
-      "translation_ru": "гравитационный"
+      "word": "deprived",
+      "ipa_us": "dɪˈpraɪvd",
+      "ipa_uk": "dɪˈpraɪvd",
+      "translation_ru": "лишённый"
     },
     {
-      "word": "fluid",
-      "ipa_us": "ˈfluɪd",
-      "ipa_uk": "ˈfluːɪd",
-      "translation_ru": "жидкий"
+      "word": "cycles",
+      "ipa_us": "ˈsaɪklz",
+      "ipa_uk": "ˈsaɪklz",
+      "translation_ru": "циклы"
     },
     {
-      "word": "bulge",
-      "ipa_us": "bʌldʒ",
-      "ipa_uk": "bʌldʒ",
-      "translation_ru": "выступ"
+      "word": "tissues",
+      "ipa_us": "ˈtɪʃuːz",
+      "ipa_uk": "ˈtɪʃuːz",
+      "translation_ru": "ткани"
     },
     {
-      "word": "rotates",
-      "ipa_us": "ˈroʊteɪts",
-      "ipa_uk": "rəʊˈteɪts",
-      "translation_ru": "вращается"
+      "word": "paralysed",
+      "ipa_us": "ˈpærəlaɪzd",
+      "ipa_uk": "ˈpærəlaɪzd",
+      "translation_ru": "парализован"
     },
     {
-      "word": "coastline",
-      "ipa_us": "ˈkoʊstˌlaɪn",
-      "ipa_uk": "ˈkəʊstlaɪn",
-      "translation_ru": "береговая линия"
+      "word": "adenosine",
+      "ipa_us": "əˈdɛnəsiːn",
+      "ipa_uk": "əˈdenəsiːn",
+      "translation_ru": "аденозин"
     },
     {
-      "word": "massive",
-      "ipa_us": "ˈmæsɪv",
-      "ipa_uk": "ˈmæsɪv",
-      "translation_ru": "массивный"
+      "word": "receptors",
+      "ipa_us": "rɪˈsɛptərz",
+      "ipa_uk": "rɪˈseptəz",
+      "translation_ru": "рецепторы"
     },
     {
-      "word": "aligned",
-      "ipa_us": "əˈlaɪnd",
-      "ipa_uk": "əˈlaɪnd",
-      "translation_ru": "выстроены в линию"
+      "word": "melatonin",
+      "ipa_us": "ˌmɛləˈtoʊnɪn",
+      "ipa_uk": "ˌmeləˈtəʊnɪn",
+      "translation_ru": "мелатонин"
     },
     {
-      "word": "enclosed",
-      "ipa_us": "ɪnˈkloʊzd",
-      "ipa_uk": "ɪnˈkləʊzd",
-      "translation_ru": "замкнутое"
+      "word": "adolescence",
+      "ipa_us": "ˌædəˈlɛsns",
+      "ipa_uk": "ˌædəˈlesns",
+      "translation_ru": "подростковый возраст"
     },
     {
-      "word": "predicted",
-      "ipa_us": "prɪˈdɪktɪd",
-      "ipa_uk": "prɪˈdɪktɪd",
-      "translation_ru": "предсказаны"
+      "word": "accumulate",
+      "ipa_us": "əˈkjuːmjəleɪt",
+      "ipa_uk": "əˈkjuːmjəleɪt",
+      "translation_ru": "накапливаться"
+    },
+    {
+      "word": "chronic",
+      "ipa_us": "ˈkrɑːnɪk",
+      "ipa_uk": "ˈkrɒnɪk",
+      "translation_ru": "хронический"
+    },
+    {
+      "word": "myth",
+      "ipa_us": "mɪθ",
+      "ipa_uk": "mɪθ",
+      "translation_ru": "миф"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thousand",
-        "these",
-        "both"
+        "thought",
+        "health",
+        "myth"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка слегка между зубами, без голоса; в конце слова «myth» не превращайте звук в «с»."
     },
     {
-      "sound": "ð",
+      "sound": "ɪ",
       "examples": [
-        "these",
-        "that",
-        "farther"
+        "systems",
+        "minutes",
+        "difficult"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+      "tip_ru": "Короткий расслабленный звук, не русское «и»."
     },
     {
-      "sound": "v",
+      "sound": "aɪ",
       "examples": [
-        "level",
-        "every",
-        "navigation"
+        "ninety",
+        "light",
+        "science",
+        "find"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Скользите от «а» к «и»; звук должен быть долгим."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "rises",
-        "rotates",
-        "range"
+        "unconscious",
+        "adenosine",
+        "adolescence"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Выделяйте ударный слог (un-CON-scious, a-DEN-o-sine, ad-o-LES-cence), остальные слоги ослабляйте."
     }
   ],
   "questions": [
     {
-      "question": "What mainly causes the tides?",
-      "answer": "The Moon's gravitational pull.",
+      "question": "How long is a typical sleep cycle?",
+      "answer": "About ninety minutes.",
       "accepted_keywords": [
-        "moon",
-        "gravity",
-        "gravitational"
+        "ninety",
+        "90"
       ]
     },
     {
-      "question": "How often do most coasts have high tide?",
-      "answer": "Twice a day.",
+      "question": "What happens to the body during REM sleep?",
+      "answer": "The brain is very active, dreams occur and the body is paralysed.",
       "accepted_keywords": [
-        "twice",
-        "two"
+        "paralysed",
+        "dream",
+        "dreams",
+        "eye",
+        "active"
       ]
     },
     {
-      "question": "What are unusually large tides called?",
-      "answer": "Spring tides.",
+      "question": "What does caffeine do?",
+      "answer": "It blocks the receptors that detect adenosine, hiding tiredness.",
       "accepted_keywords": [
-        "spring"
+        "blocks",
+        "receptors",
+        "adenosine",
+        "hides"
       ]
     },
     {
-      "question": "Where is the highest tidal range in the world?",
-      "answer": "The Bay of Fundy in Canada.",
+      "question": "How many hours of sleep do most adults need?",
+      "answer": "Between seven and nine hours.",
       "accepted_keywords": [
-        "fundy",
-        "canada"
+        "seven",
+        "nine",
+        "7",
+        "9"
       ]
     }
   ]

@@ -17,7 +17,11 @@ public sealed partial class ReadingPage : Page
     private static readonly Regex WordRx = new(@"[A-Za-z]+(?:['’][A-Za-z]+)*", RegexOptions.Compiled);
 
     public ReadingViewModel ViewModel { get; } = new();
-    public ReadingPage() { InitializeComponent(); }
+    public ReadingPage()
+    {
+        InitializeComponent();
+        Loaded += (_, _) => ShowCelebrationIfAny();
+    }
 
     private readonly Dictionary<Run, WordResult> _resultRuns = new();
 
@@ -27,9 +31,12 @@ public sealed partial class ReadingPage : Page
     protected override void OnNavigatedTo(NavigationEventArgs e)
     {
         AppServices.Jobs.JobFinished += OnJobFinished;
-        if (!ViewModel.Load(e.Parameter as string)) return;
+        if (!ViewModel.Load(e.Parameter as string ?? App.MainWindow.CurrentTextId)) return;
         RebuildBody();
+        DispatcherQueue.TryEnqueue(ShowCelebrationIfAny);
     }
+
+    private void OnShowLibrary(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("library");
 
     protected override void OnNavigatedFrom(NavigationEventArgs e)
     {
@@ -48,31 +55,47 @@ public sealed partial class ReadingPage : Page
     private void RebuildBody()
     {
         _resultRuns.Clear();
-        var body = ViewModel.Text!.Body;
+        if (ViewModel.Text == null) return;
+        var body = ViewModel.Text.Body;
+        var spans = new List<(int, int, Brush?, bool, WordResult?)>();
         if (ViewModel.Result is { } r)
         {
-            var spans = new List<(int, int, Brush?, bool, WordResult?)>();
             foreach (var w in r.Words)
             {
                 var color = string.IsNullOrEmpty(w.Color) ? ReviewViewModel.ColorFor(w.Score) : ReviewViewModel.ParseHex(w.Color);
                 spans.Add((w.U16Begin, w.U16End, new SolidColorBrush(color), IsOmitted(w), w));
             }
-            BuildSpans(body, spans);
         }
         else if (ViewModel.LiveMarks is { } marks)
         {
             IReadOnlyList<TokenInfo> tokens;
             try { tokens = PronAssessor.Tokenize(body); } catch (Exception) { tokens = Array.Empty<TokenInfo>(); }
-            var spans = new List<(int, int, Brush?, bool, WordResult?)>();
             for (int i = 0; i < tokens.Count && i < marks.Length; i++)
             {
                 var t = tokens[i];
                 if (marks[i] == 'r') spans.Add((t.U16Begin, t.U16End, ReadBrush, false, null));
                 else if (marks[i] == 's') spans.Add((t.U16Begin, t.U16End, SkippedBrush, true, null));
             }
-            BuildSpans(body, spans);
         }
+        foreach (var m in ViewModel.ExtraMarks)
+            spans.Add((m.Begin, m.End, m.Mark == 'r' ? ReadBrush : SkippedBrush, m.Mark == 's', null));
+        if (spans.Count > 0) BuildSpans(body, spans);
         else BuildText(body);
+    }
+
+    // ---------------- celebration ----------------
+
+    private bool _celebrating;
+
+    private async void ShowCelebrationIfAny()
+    {
+        if (_celebrating || XamlRoot == null || App.MainWindow.PendingCelebration is not { } info) return;
+        if (ViewModel.Text?.Id != info.TextId) return;
+        App.MainWindow.PendingCelebration = null;
+        _celebrating = true;
+        try { await Celebration.ShowAsync(XamlRoot, info); }
+        catch (Exception ex) { Diagnostics.LogException("celebration", ex); }
+        finally { _celebrating = false; }
     }
 
     private static bool IsOmitted(WordResult w) => w.Status is "omitted" or "missing" || string.IsNullOrEmpty(w.Recognized);
@@ -207,7 +230,7 @@ public sealed partial class ReadingPage : Page
             await ViewModel.SpeakWordAsync(w.Text);
             status.Text = ViewModel.Status;
         };
-        var mine = new Button { Content = "Моя запись", IsEnabled = w.Start != null && w.End != null && ViewModel.WavPath != null };
+        var mine = new Button { Content = "Моя запись", IsEnabled = w.Start != null && w.End != null && ViewModel.WavForWord(w) != null };
         mine.Click += (_, _) => status.Text = ViewModel.PlayMyWord(w) ? "" : "Запись этого слова недоступна.";
         var save = new Button { Content = AppServices.Repo.IsWordSaved(w.Text) ? "В словаре" : "В словарь", IsEnabled = !AppServices.Repo.IsWordSaved(w.Text) };
         save.Click += (_, _) => { ViewModel.SaveWord(w.Text); save.Content = "В словаре"; save.IsEnabled = false; };
@@ -225,6 +248,27 @@ public sealed partial class ReadingPage : Page
 
     private void OnRecord(object sender, RoutedEventArgs e)
     {
-        if (ViewModel.Text != null) App.MainWindow.NavigateTo("record", ViewModel.Text.Id);
+        if (ViewModel.Text != null) App.MainWindow.NavigateTo("record", new RecordArgs(ViewModel.Text.Id));
+    }
+
+    private void OnResume(object sender, RoutedEventArgs e)
+    {
+        if (ViewModel.Text != null && ViewModel.Position is { } pos)
+            App.MainWindow.NavigateTo("record", new RecordArgs(ViewModel.Text.Id, pos.ParagraphIndex, true));
+    }
+
+    private void OnParagraphs(object sender, RoutedEventArgs e)
+    {
+        if (ViewModel.Text != null) App.MainWindow.NavigateTo("record", new RecordArgs(ViewModel.Text.Id, 0, true));
+    }
+
+    private void OnWhole(object sender, RoutedEventArgs e)
+    {
+        if (ViewModel.Text != null) App.MainWindow.NavigateTo("record", new RecordArgs(ViewModel.Text.Id, null, false));
+    }
+
+    private void OnShadowing(object sender, RoutedEventArgs e)
+    {
+        if (ViewModel.Text != null) App.MainWindow.NavigateTo("shadowing", ViewModel.Text.Id);
     }
 }

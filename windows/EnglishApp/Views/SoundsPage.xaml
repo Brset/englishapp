@@ -22,6 +22,7 @@
         <ScrollViewer Grid.Column="1">
             <StackPanel Spacing="12">
                 <TextBlock Text="{x:Bind ViewModel.Header, Mode=OneWay}" Style="{StaticResource SubtitleTextBlockStyle}" TextWrapping="Wrap" />
+                <Button Content="Тренировать звук" Click="OnDrill" Style="{StaticResource AccentButtonStyle}" />
                 <ItemsControl ItemsSource="{x:Bind ViewModel.Details}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate x:DataType="vm:DetailLine">

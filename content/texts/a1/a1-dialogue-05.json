@@ -2,121 +2,154 @@
   "id": "a1-dialogue-05",
   "level": "A1",
   "genre": "dialogue",
-  "title_en": "A Gift for My Sister",
-  "title_ru": "Подарок для сестры",
-  "description_ru": "Рэйчел выбирает в магазине подарок и просит красиво его упаковать.",
-  "text": "Rachel: Hello. I want a gift for my sister.\nAssistant: Of course. How old is she?\nRachel: She is twenty. She loves bright colours.\nAssistant: This red scarf is very popular.\nRachel: It is lovely! Is it soft?\nAssistant: Yes, it is wool. Please feel it.\nRachel: Oh, it is really soft. How much is it?\nAssistant: It is twelve pounds.\nRachel: That is perfect. Can you wrap it?\nAssistant: Certainly. Choose a ribbon: blue, gold or green?\nRachel: Gold, please. She loves it, I am sure!",
+  "title_en": "A Monkey at the Zoo",
+  "title_ru": "Обезьяна в зоопарке",
+  "description_ru": "Школьники едут в зоопарк, где обезьяна крадёт сумку одной из девочек.",
+  "text": "Mr. Hall: Good morning, children. Today is a special day. We go to the zoo!\nKate: Hooray! Mr. Hall, can we see the penguins?\nMr. Hall: Yes, Kate, we see the penguins, the lions and the big elephants. But first, some rules. Stay with your partner, and listen to me at all times.\nLeo: Mr. Hall, can I bring my sandwich on the bus?\nMr. Hall: You can eat on the bus, Leo, but please keep your hands clean. Now, everybody, get on the bus.\nKate: Leo, you are my partner today. Don't lose me, please!\n\nKate: Look, Leo! The bus is moving. I see a horse and two cows in a field.\nLeo: I see them too. How long is the ride to the zoo?\nKate: Mr. Hall says it takes forty minutes. Do you want to play a game?\nLeo: Yes! I see something blue. Can you guess?\nKate: Is it the sky?\nLeo: No, it is your bag! Now you give me a game.\n\nMr. Hall: We are here, children. Look at the big gate. Line up in pairs, please.\nLeo: Wow, there are so many people! Where do we go first?\nMr. Hall: First, we go to the monkeys. They are very funny today. Follow me, and don't run.\nKate: Look, one monkey eats a banana. And that little one is hanging from a tree by its tail!\nLeo: He looks at me. Hello, monkey! Do you want my sandwich?\nMr. Hall: Please don't feed the animals, Leo. They have their own food.\n\nMr. Hall: Is everybody here? Let me count. Kate, Leo, Sara, Tim, Ben, Anna. Good, all twenty children are here.\nKate: Mr. Hall, I have a question. Can we have lunch at the zoo?\nMr. Hall: Yes, at twelve o'clock, near the big lake. You can sit on the grass.\nLeo: I am already hungry. It is only nine o'clock.\nMr. Hall: Leo, you ate a sandwich on the bus! Please wait.\n\nLeo: Kate, look at the sign. It says, lions, this way. Can we visit them after the penguins?\nKate: Yes, I want to see the baby lion. My brother says there is a new one.\nLeo: A baby lion! I hope it is awake.\nKate: Lions sleep twenty hours a day. Maybe we see only a big yellow ball of fur.\n\nKate: Mr. Hall, it is time for the penguins. Please, can we go now?\nMr. Hall: Yes, they are in the next building. It is cold inside, so wear your jackets.\nLeo: Oh, they are so small, and they walk like funny little men. Look, one is falling into the water!\nKate: They swim so fast! The black and white colours are beautiful. I want to take a photo.\nLeo: Kate, where is your camera? In your bag?\nKate: Oh no. My bag! I leave it on the bench near the monkeys.\n\nLeo: Don't panic, Kate. We go back and look for it. Mr. Hall, we have a problem.\nMr. Hall: What is the problem, children?\nKate: I lose my bag. It has my camera and my lunch. I leave it near the monkeys.\nMr. Hall: Okay. Stay calm. We walk back to the monkeys together. The other children wait here with Miss Ray.\nLeo: I run in front and look!\nMr. Hall: No running, Leo. We stay together.\n\nKate: Look, there is the bench. But my bag is not here! It is gone.\nLeo: Wait. Do you hear that noise? Someone is laughing near the trees.\nMr. Hall: Yes, I hear it. Let's go and see.\nKate: Oh my goodness! A monkey has my bag. He is sitting in the tree, and he is eating my sandwich!\nLeo: Ha ha ha! He likes your lunch, Kate. Look at his face.\nMr. Hall: I call the zookeeper. Don't move, children.\n\nZookeeper: Good afternoon. I hear you have a problem. Oh, this is Charlie again. He loves to steal bags.\nKate: Can you get my bag back? My camera is inside.\nZookeeper: Of course. Charlie, come here. Look, I have a banana. Give me the bag and you get the banana.\nLeo: He is giving it back! He is a clever monkey.\nKate: Thank you, sir. The camera is safe, and I still have the photos of the penguins.\n\nMr. Hall: Now children, we sit by the lake and have lunch. Sara and Tim, please give everybody some water.\nLeo: Where is my sandwich? Oh no, I have no sandwich! The monkey is not the only hungry one today.\nKate: Don't worry, Leo. The monkey only eats half of mine. I share the rest with you.\nLeo: Thank you, Kate. You are the best partner in the world.\nMr. Hall: After lunch it is time to go home. Everybody get on the bus. Kate, tell the class about your day.\nKate: I am never leaving my bag again. But it is the best day ever!",
+  "word_count": 751,
   "vocabulary": [
     {
-      "word": "gift",
-      "ipa_us": "ɡɪft",
-      "ipa_uk": "ɡɪft",
-      "translation_ru": "подарок"
+      "word": "penguins",
+      "ipa_us": "ˈpɛŋɡwɪnz",
+      "ipa_uk": "ˈpeŋɡwɪnz",
+      "translation_ru": "пингвины"
     },
     {
-      "word": "bright",
-      "ipa_us": "braɪt",
-      "ipa_uk": "braɪt",
-      "translation_ru": "яркий"
+      "word": "monkey",
+      "ipa_us": "ˈmʌŋki",
+      "ipa_uk": "ˈmʌŋki",
+      "translation_ru": "обезьяна"
     },
     {
-      "word": "scarf",
-      "ipa_us": "skɑːrf",
-      "ipa_uk": "skɑːf",
-      "translation_ru": "шарф"
+      "word": "elephants",
+      "ipa_us": "ˈɛləfənts",
+      "ipa_uk": "ˈelɪfənts",
+      "translation_ru": "слоны"
     },
     {
-      "word": "popular",
-      "ipa_us": "ˈpɑːpjələr",
-      "ipa_uk": "ˈpɒpjələ",
-      "translation_ru": "популярный"
+      "word": "camera",
+      "ipa_us": "ˈkæmrə",
+      "ipa_uk": "ˈkæmərə",
+      "translation_ru": "фотоаппарат"
     },
     {
-      "word": "lovely",
-      "ipa_us": "ˈlʌvli",
-      "ipa_uk": "ˈlʌvli",
-      "translation_ru": "прекрасный"
+      "word": "zookeeper",
+      "ipa_us": "ˈzuːkiːpər",
+      "ipa_uk": "ˈzuːkiːpə",
+      "translation_ru": "смотритель зоопарка"
     },
     {
-      "word": "soft",
-      "ipa_us": "sɔːft",
-      "ipa_uk": "sɒft",
-      "translation_ru": "мягкий"
+      "word": "partner",
+      "ipa_us": "ˈpɑːrtnər",
+      "ipa_uk": "ˈpɑːtnə",
+      "translation_ru": "партнёр"
     },
     {
-      "word": "wool",
-      "ipa_us": "wʊl",
-      "ipa_uk": "wʊl",
-      "translation_ru": "шерсть"
+      "word": "bench",
+      "ipa_us": "bɛntʃ",
+      "ipa_uk": "bentʃ",
+      "translation_ru": "скамейка"
     },
     {
-      "word": "ribbon",
-      "ipa_us": "ˈrɪbən",
-      "ipa_uk": "ˈrɪbən",
-      "translation_ru": "лента"
+      "word": "banana",
+      "ipa_us": "bəˈnænə",
+      "ipa_uk": "bəˈnɑːnə",
+      "translation_ru": "банан"
+    },
+    {
+      "word": "clever",
+      "ipa_us": "ˈklɛvər",
+      "ipa_uk": "ˈklevə",
+      "translation_ru": "умный"
+    },
+    {
+      "word": "lions",
+      "ipa_us": "ˈlaɪənz",
+      "ipa_uk": "ˈlaɪənz",
+      "translation_ru": "львы"
+    },
+    {
+      "word": "steal",
+      "ipa_us": "stiːl",
+      "ipa_uk": "stiːl",
+      "translation_ru": "красть"
+    },
+    {
+      "word": "lake",
+      "ipa_us": "leɪk",
+      "ipa_uk": "leɪk",
+      "translation_ru": "озеро"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "ŋ",
       "examples": [
-        "Rachel",
-        "red",
-        "really",
-        "ribbon"
+        "penguins",
+        "monkey",
+        "morning"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "ʌ",
+      "sound": "iː",
       "examples": [
-        "loves",
-        "lovely",
-        "much"
+        "keep",
+        "see",
+        "eat",
+        "steal"
       ],
-      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+      "tip_ru": "Долгий «и», растяните губы в улыбке; он длиннее русского «и»."
     },
     {
-      "sound": "w",
+      "sound": "v",
       "examples": [
-        "wool",
-        "want",
-        "wrap",
-        "twenty"
+        "very",
+        "have",
+        "never",
+        "move"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не заменяйте на «ф» и не произносите как русское «в»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "lion",
+        "time"
+      ],
+      "tip_ru": "Начните с «а» и плавно перейдите к «и»; звук скользящий, а не два отдельных."
     }
   ],
   "questions": [
     {
-      "question": "What does Rachel buy?",
-      "answer": "A red scarf.",
+      "question": "Where does the class go?",
+      "answer": "To the zoo.",
       "accepted_keywords": [
-        "scarf"
+        "zoo"
       ]
     },
     {
-      "question": "Who is the gift for?",
-      "answer": "Her sister.",
+      "question": "What does Kate lose?",
+      "answer": "Her bag with her camera and lunch.",
       "accepted_keywords": [
-        "sister"
+        "bag",
+        "camera"
       ]
     },
     {
-      "question": "How much is the scarf?",
-      "answer": "Twelve pounds.",
+      "question": "Who has the bag?",
+      "answer": "A monkey called Charlie.",
       "accepted_keywords": [
-        "twelve",
-        "12"
+        "monkey",
+        "charlie"
       ]
     },
     {
-      "question": "What colour is the ribbon?",
-      "answer": "Gold.",
+      "question": "How does the zookeeper get the bag back?",
+      "answer": "He gives the monkey a banana.",
       "accepted_keywords": [
-        "gold"
+        "banana"
       ]
     }
-  ],
-  "word_count": 76
+  ]
 }

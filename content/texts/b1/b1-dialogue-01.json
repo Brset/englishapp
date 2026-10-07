@@ -2,111 +2,167 @@
   "id": "b1-dialogue-01",
   "level": "B1",
   "genre": "dialogue",
-  "title_en": "Booking a Hotel Room",
-  "title_ru": "Бронирование номера",
-  "description_ru": "Турист звонит в отель и уточняет детали бронирования.",
-  "text": "Receptionist: Good morning, Riverside Hotel. How can I help you?\nVictor: Hello. I would like to book a room for next weekend, please.\nReceptionist: Certainly. Which nights do you need?\nVictor: Friday and Saturday. There will be two of us, my wife and me.\nReceptionist: I have a double room with a view of the river. It costs ninety pounds a night.\nVictor: That sounds lovely. Is breakfast included?\nReceptionist: Yes, it is. We serve it from seven until ten. If you prefer to sleep late, you can ask for a tray in your room.\nVictor: Excellent. We have never stayed in your city before, so I have a few questions. Is the hotel far from the station?\nReceptionist: Not at all. It takes about ten minutes on foot. If you take a taxi, it will cost you around five pounds.\nVictor: Good. And is there a place to park? My friend might drive us there.\nReceptionist: Yes, we have a small car park behind the hotel, but it is very popular. If you want a space, you should reserve it in advance.\nVictor: Then please reserve one for us. Do you need my credit card number?\nReceptionist: Only the last four digits for now. You can pay the rest when you arrive.\nVictor: Perfect. My name is Victor Warren. That's W-A-R-R-E-N.\nReceptionist: Thank you, Mr Warren. I have written everything down. We look forward to welcoming you on Friday.\nVictor: Thank you very much. Goodbye!",
-  "word_count": 235,
+  "title_en": "Job Interview Challenge",
+  "title_ru": "Собеседование при приёме на работу",
+  "description_ru": "Кандидат без опыта в IT проходит собеседование и отвечает на непростые вопросы о работе в команде.",
+  "text": "Sarah: Good morning, David. Please, come in and take a seat. I'm Sarah, the HR manager, and this is Tom, who leads our design team.\nDavid: Good morning. Thank you very much for inviting me. It's a pleasure to meet you both.\nTom: Likewise. We've read your application with great interest. Could you start by telling us a little about yourself?\nDavid: Of course. I've worked as a project coordinator for six years, mostly in the building industry. I've managed teams of up to twenty people, and I've just finished a project that came in two weeks early.\nSarah: That's impressive. But this job is in the software sector, and you haven't worked in technology before. Why do you want to change?\nDavid: That's a fair question. If I'm honest, I've been interested in technology for a long time. I've taught myself some programming in the evenings, and I've also completed an online course in agile management. I think that good coordination is the same in any industry.\nTom: Interesting. Let me give you a challenge, then. Imagine that your team has promised a client a new feature by Friday, but on Wednesday you discover that it will take another week. What would you do?\nDavid: First, I would tell the client immediately. I think it's much better to deliver bad news early than to hide it. Then I would ask the team what could be removed or simplified, so that we could still deliver something useful on Friday.\nSarah: And if the client refused to accept a smaller version?\nDavid: Then I would explain the options clearly. If they want everything on Friday, we would need extra people, which costs money. If they can wait, we can finish it properly. Usually people appreciate being given a choice.\nTom: That's a sensible answer. Now, tell me about a time when you made a mistake at work.\nDavid: Well, there was a project three years ago when I trusted a supplier too much. He promised that the materials would arrive on Monday, and I didn't check. They arrived five days late, and we lost a lot of time. Since then I always confirm deliveries in writing and I keep a backup plan.\nSarah: Thank you for being so open. Many candidates say that their only weakness is working too hard.\nDavid: Oh, I've definitely heard that answer before. I'd rather be honest. I also tend to over-explain things in meetings, and my colleagues have told me to be shorter.\nTom: Good to know. Can you tell us how you handle conflict inside a team?\nDavid: I try to listen to both sides before I say anything. Once, two of my engineers hadn't spoken to each other for a month. I invited them for lunch, and I asked each of them to describe the problem without blaming the other. It turned out that they had simply misunderstood an email.\nSarah: A lot of conflicts begin that way. Let me ask something different. Where do you see yourself in five years?\nDavid: Ideally, I'd like to be leading a larger team here, perhaps managing several projects at once. But I'm also willing to learn. If I had the chance to work with experienced developers, I would ask a lot of questions.\nTom: We like people who ask questions. Our company has grown quickly, and we've made some mistakes because nobody wanted to say, \"I don't understand.\"\nDavid: That sounds familiar. In my last job, there was a young engineer who was too shy to speak up, and a small error cost us thousands of euros. After that, I started a short meeting every morning where everyone could mention a worry.\nSarah: That's a good habit. Now, a practical matter. The position involves some travel, about once a month. Would that be a problem for you?\nDavid: Not at all. I've travelled a lot for work, and my family is very supportive. My wife works from home, so she is flexible, and my children are old enough to look after themselves for a few days.\nTom: Wonderful. Do you have any questions for us?\nDavid: Yes, I have three. First, how is the team organised at the moment? Second, what would success look like in my first six months? And third, what is the best part of working here?\nSarah: Those are excellent questions. The team has twelve people, and they're a friendly group. In your first six months, we would like you to improve how projects are planned, because deadlines have been a problem. As for the best part, I would say it's the freedom. We trust people to organise their own time.\nTom: I agree. And we also have a very good coffee machine, which is more important than it sounds.\nDavid: That's a strong argument. I've been waiting for a company that takes coffee seriously.\nSarah: Well, David, thank you for coming. We have two more candidates to see this week, so we'll let you know our decision on Monday.\nDavid: Thank you both. If you need any more information, I'd be happy to send examples of my previous projects.\nTom: That would be useful. Please send them by email tomorrow if you can.\nSarah: And one last thing. How did you find the interview? Honestly.\nDavid: Honestly, it was more relaxed than I expected. I was quite nervous when I walked in, but you made me feel comfortable.\nSarah: Good. That's exactly what we hoped. Have a safe journey home, and we'll speak soon.\nDavid: Thank you again. Goodbye.",
+  "word_count": 896,
   "vocabulary": [
     {
-      "word": "book",
-      "ipa_us": "bʊk",
-      "ipa_uk": "bʊk",
-      "translation_ru": "бронировать"
+      "word": "coordinator",
+      "ipa_us": "koʊˈɔːrdɪneɪtər",
+      "ipa_uk": "kəʊˈɔːdɪneɪtə",
+      "translation_ru": "координатор"
     },
     {
-      "word": "double room",
-      "ipa_us": "ˈdʌbəl ruːm",
-      "ipa_uk": "ˈdʌbəl ruːm",
-      "translation_ru": "двухместный номер"
+      "word": "agile",
+      "ipa_us": "ˈædʒaɪl",
+      "ipa_uk": "ˈædʒaɪl",
+      "translation_ru": "гибкий (методология)"
     },
     {
-      "word": "included",
-      "ipa_us": "ɪnˈkluːdɪd",
-      "ipa_uk": "ɪnˈkluːdɪd",
-      "translation_ru": "включён"
+      "word": "feature",
+      "ipa_us": "ˈfiːtʃər",
+      "ipa_uk": "ˈfiːtʃə",
+      "translation_ru": "функция, возможность"
     },
     {
-      "word": "tray",
-      "ipa_us": "treɪ",
-      "ipa_uk": "treɪ",
-      "translation_ru": "поднос"
+      "word": "supplier",
+      "ipa_us": "səˈplaɪər",
+      "ipa_uk": "səˈplaɪə",
+      "translation_ru": "поставщик"
     },
     {
-      "word": "reserve",
-      "ipa_us": "rɪˈzɜːrv",
-      "ipa_uk": "rɪˈzɜːv",
-      "translation_ru": "зарезервировать"
+      "word": "weakness",
+      "ipa_us": "ˈwiːknəs",
+      "ipa_uk": "ˈwiːknəs",
+      "translation_ru": "слабость"
     },
     {
-      "word": "in advance",
-      "ipa_us": "ɪn ədˈvæns",
-      "ipa_uk": "ɪn ədˈvɑːns",
-      "translation_ru": "заранее"
+      "word": "conflict",
+      "ipa_us": "ˈkɑːnflɪkt",
+      "ipa_uk": "ˈkɒnflɪkt",
+      "translation_ru": "конфликт"
     },
     {
-      "word": "welcoming",
-      "ipa_us": "ˈwelkəmɪŋ",
-      "ipa_uk": "ˈwelkəmɪŋ",
-      "translation_ru": "приветствуя"
+      "word": "misunderstood",
+      "ipa_us": "ˌmɪsʌndərˈstʊd",
+      "ipa_uk": "ˌmɪsʌndəˈstʊd",
+      "translation_ru": "неправильно понял"
+    },
+    {
+      "word": "deadlines",
+      "ipa_us": "ˈdɛdlaɪnz",
+      "ipa_uk": "ˈdedlaɪnz",
+      "translation_ru": "сроки"
+    },
+    {
+      "word": "candidates",
+      "ipa_us": "ˈkændɪdeɪts",
+      "ipa_uk": "ˈkændɪdeɪts",
+      "translation_ru": "кандидаты"
+    },
+    {
+      "word": "flexible",
+      "ipa_us": "ˈflɛksəbəl",
+      "ipa_uk": "ˈfleksəbəl",
+      "translation_ru": "гибкий, свободный"
+    },
+    {
+      "word": "supportive",
+      "ipa_us": "səˈpɔːrtɪv",
+      "ipa_uk": "səˈpɔːtɪv",
+      "translation_ru": "поддерживающий"
+    },
+    {
+      "word": "decision",
+      "ipa_us": "dɪˈsɪʒən",
+      "ipa_uk": "dɪˈsɪʒən",
+      "translation_ru": "решение"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "we",
-        "Warren",
-        "weekend",
-        "with"
+        "work",
+        "what",
+        "would",
+        "weakness"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
       "sound": "v",
       "examples": [
-        "Victor",
-        "view",
-        "river",
-        "very"
+        "very",
+        "have",
+        "previous",
+        "travel"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не превращайте его в «в» с округлением губ."
     },
     {
-      "sound": "ŋ",
+      "sound": "ɪ",
       "examples": [
-        "morning",
-        "welcoming",
-        "everything"
+        "interview",
+        "if",
+        "with",
+        "simplified"
       ],
-      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "coordinator",
+        "supplier",
+        "decision",
+        "candidates"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "When does Victor want the room?",
-      "answer": "Friday and Saturday next weekend.",
+      "question": "What is David's previous experience?",
+      "answer": "He has worked as a project coordinator in the building industry for six years.",
       "accepted_keywords": [
-        "friday",
-        "saturday",
-        "weekend"
+        "project",
+        "coordinator",
+        "building",
+        "construction"
       ]
     },
     {
-      "question": "How much is the room per night?",
-      "answer": "Ninety pounds.",
+      "question": "What would David do if a promised feature were going to be late?",
+      "answer": "Tell the client immediately and offer a smaller version.",
       "accepted_keywords": [
-        "ninety",
-        "90"
+        "tell",
+        "client",
+        "immediately",
+        "simplify",
+        "smaller"
       ]
     },
     {
-      "question": "How far is the hotel from the station?",
-      "answer": "About ten minutes on foot.",
+      "question": "What mistake did David describe?",
+      "answer": "He trusted a supplier too much and the materials arrived late.",
       "accepted_keywords": [
-        "ten",
-        "10",
-        "minutes"
+        "supplier",
+        "materials",
+        "late",
+        "trusted"
+      ]
+    },
+    {
+      "question": "Why does David say he is open to travel?",
+      "answer": "His wife works from home and his children can look after themselves.",
+      "accepted_keywords": [
+        "wife",
+        "family",
+        "home",
+        "children"
       ]
     }
   ]

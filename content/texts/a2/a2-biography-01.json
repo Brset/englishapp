@@ -2,115 +2,153 @@
   "id": "a2-biography-01",
   "level": "A2",
   "genre": "biography",
-  "title_en": "Albert Einstein",
-  "title_ru": "Альберт Эйнштейн",
-  "description_ru": "Короткая биография великого физика: от детства в Германии до Нобелевской премии.",
-  "text": "Albert Einstein was born in 1879 in Ulm, a city in Germany. As a boy, he was quiet and very curious. He loved music, and he played the violin for most of his life.\n\nAfter university, Einstein worked in a patent office in Bern, Switzerland. The work was not difficult, so he had time to think about big things. In 1905 he wrote several famous papers about light, time and energy. These ideas changed science for ever.\n\nIn 1921 he won the Nobel Prize in Physics. Later, life in Germany became dangerous for him, so he moved to the United States in 1933. He worked at a research institute in Princeton and lived there until he died in 1955.\n\nEinstein was clever, but he was also kind and funny. He said that imagination is more important than knowledge.",
-  "word_count": 133,
+  "title_en": "Marie Curie: A Life for Science",
+  "title_ru": "Мария Кюри: жизнь ради науки",
+  "description_ru": "Биография первой женщины, получившей Нобелевскую премию, и единственного человека, получившего её в двух разных науках.",
+  "text": "Marie Curie is one of the most famous scientists in history. She was the first woman to win a Nobel Prize, and she is still the only person who won it in two different sciences. But her life was not easy, and she worked very hard for every success.\n\nShe was born in Warsaw, Poland, on 7 November 1867. Her name was Maria Sklodowska then, and she was the youngest of five children. Her parents were both teachers, and they loved books and learning. Maria was a clever girl. She could read when she was only four years old, and at school she was always the best student in her class. Sadly, her mother died when Maria was ten, and the family had very little money.\n\nAt that time, women were not allowed to study at universities in Warsaw. Maria really wanted to continue her education, so she made a plan with her older sister, Bronya. First, Maria was going to work and pay for Bronya to study medicine in Paris. Later, Bronya was going to help her. Maria worked as a governess for a family in the countryside for several years. She taught the farmers' children to read in the evenings, even though it was against the law.\n\nIn 1891, Maria finally went to Paris. She was twenty-four years old. She studied physics and mathematics at the Sorbonne, and life there was very hard. Her French was not perfect at first, and in the beginning she could not understand everything the professors said. Her room was small and cold, and sometimes she was so poor that she ate only bread and tea. She often felt weak, but she never stopped studying. In 1893 she finished first in her physics exam, and one year later she finished second in mathematics.\n\nIn Paris she met a French scientist called Pierre Curie. He was kind and quiet, and he loved science as much as she did. They got married in 1895, and Maria became Marie Curie. They worked together in a small, old room that was colder and damper than a normal laboratory. Marie wanted to understand a new kind of invisible energy that a scientist named Henri Becquerel had found in a mineral called uranium. She gave this energy a name: radioactivity.\n\nIn 1898, the Curies made two important discoveries. They found two new elements. The first one was polonium, and Marie chose that name to remember her home country, Poland. The second one was radium. To get a very small amount of pure radium, they had to work with tons of heavy rock for four years. Marie stirred the boiling liquid with an iron stick that was almost as tall as she was. In 1903, Marie, Pierre and Henri Becquerel won the Nobel Prize in Physics.\n\nThe next years brought great sadness. In 1906, Pierre died in a street accident in Paris, when a horse carriage hit him. Marie was destroyed, but she did not give up. The university asked her to continue Pierre's work, and she became the first woman professor at the Sorbonne. She also raised her two daughters alone. In 1911 she won a second Nobel Prize, this time in Chemistry, for her work on radium and polonium.\n\nWhen the First World War began in 1914, Marie wanted to help. She knew that X-rays could show doctors where a bullet was inside a soldier's body. So she built small X-ray cars and drove them near the battlefields herself. People called them the \"little Curies\". Her older daughter, Irene, was only seventeen, but she helped her mother. Together they probably helped more than a million wounded soldiers.\n\nMarie Curie died on 4 July 1934. Doctors think that all the years near radioactive materials made her ill. At that time, nobody knew that radiation was dangerous. She often carried small tubes of radium in her pockets because she liked the pretty blue light in the dark. Today her notebooks are still radioactive, and visitors must sign a paper before they can read them.\n\nHer work changed the world. Doctors use radiation to treat cancer, and her daughter Irene also won a Nobel Prize later. Marie Curie showed that hard work, patience and curiosity can open doors that seem closed. She never became rich, because she refused to sell the secret of how to make radium. She said that science belonged to everybody. She also proved that a woman could be one of the greatest scientists of all time, in a world that did not expect it.",
+  "word_count": 748,
   "vocabulary": [
     {
-      "word": "curious",
-      "ipa_us": "ˈkjʊriəs",
-      "ipa_uk": "ˈkjʊəriəs",
-      "translation_ru": "любознательный"
+      "word": "scientist",
+      "ipa_us": "ˈsaɪəntɪst",
+      "ipa_uk": "ˈsaɪəntɪst",
+      "translation_ru": "учёный"
     },
     {
-      "word": "patent office",
-      "ipa_us": "ˈpætnt ˌɔfɪs",
-      "ipa_uk": "ˈpeɪtnt ˌɒfɪs",
-      "translation_ru": "патентное бюро"
+      "word": "governess",
+      "ipa_us": "ˈɡʌvərnəs",
+      "ipa_uk": "ˈɡʌvənəs",
+      "translation_ru": "гувернантка"
     },
     {
-      "word": "violin",
-      "ipa_us": "ˌvaɪəˈlɪn",
-      "ipa_uk": "ˌvaɪəˈlɪn",
-      "translation_ru": "скрипка"
+      "word": "laboratory",
+      "ipa_us": "ˈlæbrəˌtɔri",
+      "ipa_uk": "ləˈbɒrətri",
+      "translation_ru": "лаборатория"
     },
     {
-      "word": "energy",
-      "ipa_us": "ˈenərdʒi",
-      "ipa_uk": "ˈenədʒi",
-      "translation_ru": "энергия"
+      "word": "invisible",
+      "ipa_us": "ɪnˈvɪzəbəl",
+      "ipa_uk": "ɪnˈvɪzəbl",
+      "translation_ru": "невидимый"
     },
     {
-      "word": "dangerous",
-      "ipa_us": "ˈdeɪndʒərəs",
-      "ipa_uk": "ˈdeɪndʒərəs",
-      "translation_ru": "опасный"
+      "word": "radioactivity",
+      "ipa_us": "ˌreɪdioʊækˈtɪvəti",
+      "ipa_uk": "ˌreɪdiəʊækˈtɪvəti",
+      "translation_ru": "радиоактивность"
     },
     {
-      "word": "imagination",
-      "ipa_us": "ɪˌmædʒɪˈneɪʃn",
-      "ipa_uk": "ɪˌmædʒɪˈneɪʃn",
-      "translation_ru": "воображение"
+      "word": "element",
+      "ipa_us": "ˈɛləmənt",
+      "ipa_uk": "ˈelɪmənt",
+      "translation_ru": "элемент"
     },
     {
-      "word": "knowledge",
-      "ipa_us": "ˈnɑːlɪdʒ",
-      "ipa_uk": "ˈnɒlɪdʒ",
-      "translation_ru": "знания"
+      "word": "polonium",
+      "ipa_us": "pəˈloʊniəm",
+      "ipa_uk": "pəˈləʊniəm",
+      "translation_ru": "полоний"
     },
     {
-      "word": "research",
-      "ipa_us": "ˈriːsɜːrtʃ",
-      "ipa_uk": "rɪˈsɜːtʃ",
-      "translation_ru": "исследование"
+      "word": "radium",
+      "ipa_us": "ˈreɪdiəm",
+      "ipa_uk": "ˈreɪdiəm",
+      "translation_ru": "радий"
+    },
+    {
+      "word": "professor",
+      "ipa_us": "prəˈfɛsər",
+      "ipa_uk": "prəˈfesə",
+      "translation_ru": "профессор"
+    },
+    {
+      "word": "wounded",
+      "ipa_us": "ˈwundɪd",
+      "ipa_uk": "ˈwuːndɪd",
+      "translation_ru": "раненый"
+    },
+    {
+      "word": "patience",
+      "ipa_us": "ˈpeɪʃəns",
+      "ipa_uk": "ˈpeɪʃns",
+      "translation_ru": "терпение"
+    },
+    {
+      "word": "curiosity",
+      "ipa_us": "ˌkjʊriˈɑsəti",
+      "ipa_uk": "ˌkjʊəriˈɒsəti",
+      "translation_ru": "любопытство"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "violin",
-        "very"
-      ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
-    },
-    {
       "sound": "w",
       "examples": [
-        "was",
-        "worked"
+        "world",
+        "woman",
+        "work"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "θ",
+      "sound": "ð",
       "examples": [
-        "think",
-        "things"
+        "mother",
+        "together",
+        "other"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "radioactivity",
+        "laboratory",
+        "scientist"
+      ],
+      "tip_ru": "Выделяйте ударный слог громкостью и длиной, остальные слоги произносите слабее и короче."
     }
   ],
   "questions": [
     {
-      "question": "Where was Einstein born?",
-      "answer": "In Ulm, Germany.",
+      "question": "Why did Maria move to Paris in 1891?",
+      "answer": "She went to Paris to study physics and mathematics at the Sorbonne.",
       "accepted_keywords": [
-        "ulm",
-        "germany"
+        "study",
+        "studied",
+        "sorbonne",
+        "university",
+        "physics"
       ]
     },
     {
-      "question": "What instrument did he play?",
-      "answer": "The violin.",
+      "question": "Why did Marie name the element polonium?",
+      "answer": "She chose the name to remember her home country, Poland.",
       "accepted_keywords": [
-        "violin"
+        "poland",
+        "home",
+        "country",
+        "remember"
       ]
     },
     {
-      "question": "When did he win the Nobel Prize?",
-      "answer": "In 1921.",
+      "question": "How did Marie help during the First World War?",
+      "answer": "She built small X-ray cars and drove them near the battlefields to help wounded soldiers.",
       "accepted_keywords": [
-        "1921"
+        "x-ray",
+        "x-rays",
+        "cars",
+        "soldiers",
+        "wounded"
       ]
     },
     {
-      "question": "Where did he live until he died?",
-      "answer": "In Princeton.",
+      "question": "Why are Marie Curie's notebooks still dangerous?",
+      "answer": "They are still radioactive.",
       "accepted_keywords": [
-        "princeton"
+        "radioactive",
+        "radiation"
       ]
     }
   ]

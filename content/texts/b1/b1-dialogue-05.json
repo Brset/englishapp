@@ -2,111 +2,163 @@
   "id": "b1-dialogue-05",
   "level": "B1",
   "genre": "dialogue",
-  "title_en": "A Job Interview",
-  "title_ru": "Собеседование",
-  "description_ru": "Кандидат отвечает на вопросы менеджера на собеседовании в кафе.",
-  "text": "Manager: Good afternoon, Daniel. Please take a seat. Thank you for coming.\nDaniel: Thank you for inviting me. I'm really pleased to be here.\nManager: Let's start with your experience. Have you ever worked in a café before?\nDaniel: Yes, I have. I worked in a small coffee bar for two years while I was studying at university.\nManager: What did you enjoy most about it?\nDaniel: Talking to the customers. I have always liked meeting new people, and I think a friendly smile can change someone's day.\nManager: That's good. This job is very busy, especially at lunchtime. How do you deal with stress?\nDaniel: I try to stay calm and work step by step. If there are too many orders, I ask a colleague for help.\nManager: Excellent. Now, if we offered you the job, when could you start?\nDaniel: I could start on the first of next month. I have finished my exams, so I'm free all summer.\nManager: We need people who can work on weekends. Would that be a problem?\nDaniel: Not at all. I prefer weekends, because it is the busiest time, and the day passes quickly.\nManager: I like your attitude. We will make a decision by Friday, and I will call you either way.\nDaniel: Thank you very much. I look forward to hearing from you.",
-  "word_count": 210,
+  "title_en": "Learning a Musical Instrument",
+  "title_ru": "Обучение музыкальному инструменту",
+  "description_ru": "На первом уроке гитары преподаватель объясняет Нине, как не бросить занятия и как правильно ставить пальцы.",
+  "text": "Teacher: Welcome to your first guitar lesson, Nina. Have you ever played an instrument before?\nNina: Not really. I had piano lessons when I was seven, but I stopped after a year. My teacher was very strict, and I hated practising.\nTeacher: That's a common story. Don't worry, I'm not strict, and I'll try to make this fun. Why did you decide to learn the guitar?\nNina: Well, my brother plays in a band, and last month I went to one of his concerts. I thought, \"I want to do that.\" I'm thirty-two, so I know it's late, but I've always loved music.\nTeacher: It's never too late. I have students in their sixties who have just started. Let's begin with the basics. Please hold the guitar like this, with the body resting on your right leg.\nNina: Like this? It feels strange. My arm doesn't know where to go.\nTeacher: That's normal. Relax your shoulder. Now put the fingers of your left hand on the strings, just behind the metal bars, which we call frets.\nNina: Ouch! My fingertips hurt already, and I've only pressed for ten seconds.\nTeacher: Yes, everybody feels it. Your skin needs time to become harder. If you practise a little every day, the pain will disappear in about two weeks. Fifteen minutes a day is better than two hours once a week.\nNina: Fifteen minutes? That sounds easy.\nTeacher: It is easy to plan, but harder to do. Most people stop because they wait for the perfect moment. My advice is to keep the guitar next to your sofa, so you can pick it up while you wait for the kettle.\nNina: That's a nice idea. I'll put it by the television.\nTeacher: Good. Now let's learn your first chord. This one is called E minor. You only need two fingers. Put the second finger here, and the third finger there.\nNina: Like this? And now I strum with my right hand?\nTeacher: Exactly. Down, slowly. Listen to the sound. Does it ring clearly?\nNina: Some strings sound dead. It sounds like a box of spoons.\nTeacher: Ha! That's because one of your fingers is touching a neighbouring string. Curve your fingers a bit more, like you're holding a small ball.\nNina: Better? Oh, that's much nicer! I can hear all the notes.\nTeacher: Perfect. You've just played your first chord. Many beginners need a week to get that sound. Let's try a second chord. It's called A minor, and it's very similar.\nNina: Okay. Wait, my fingers keep slipping. How long does it take to change between them quickly?\nTeacher: Usually a few weeks. The secret is to practise changing slowly. If you rush, you will make mistakes and teach your hands the wrong movement. Speed comes later, naturally.\nNina: That's interesting. At the piano, my teacher always told me to play faster.\nNina: Does everyone learn at the same speed? I'm afraid that I will be slower than your other students.\nTeacher: Not at all. Some people learn quickly at the start, and others take longer but remember everything. I have taught hundreds of adults, and the ones who succeed are simply the ones who keep coming back.\nTeacher: Many teachers do. But I've learned that accuracy matters more. Think of it like learning a language. You wouldn't speak quickly in the beginning, would you?\nNina: No, I'd speak slowly and make mistakes. I've been learning Spanish for a year, and I understand now.\nTeacher: Exactly the same. Now, let me play a simple song with those two chords, and you can join in. Have you heard \"Knockin' on Heaven's Door\"?\nNina: Of course! I love that song. I've heard it a hundred times.\nTeacher: Then you already know the rhythm. I'll play, and you strum slowly on the beat. If you lose your place, just keep going.\nNina: Okay. One, two, three, four. Oh, this is amazing! I'm actually playing a song!\nTeacher: Wonderful! You see? In forty minutes you've learned two chords and part of a famous song. Imagine what you will be able to do in three months.\nNina: I can't believe it. My brother will be shocked.\nNina: Should I buy my own guitar now, or is it better to wait? The school's guitars are quite old.\nTeacher: If you can afford it, buy one this week. A cheap acoustic guitar is fine. I'll come with you to the shop on Saturday, if you like, and help you choose one that is comfortable.\nNina: That would be wonderful. I've never felt so excited about music.\nTeacher: Before you leave, here is your homework. Practise those two chords for ten minutes every day, and try to change between them without looking at your hand. Next week we will add a third chord.\nNina: That sounds great. And can I record my progress on my phone?\nTeacher: Absolutely. In a month you'll listen to the first recording and laugh. That is the best way to see how far you have come.\nNina: I'll start tonight. Thank you so much. See you next week!",
+  "word_count": 815,
   "vocabulary": [
     {
-      "word": "experience",
-      "ipa_us": "ɪkˈspɪriəns",
-      "ipa_uk": "ɪkˈspɪəriəns",
-      "translation_ru": "опыт"
+      "word": "instrument",
+      "ipa_us": "ˈɪnstrəmənt",
+      "ipa_uk": "ˈɪnstrəmənt",
+      "translation_ru": "инструмент"
     },
     {
-      "word": "customers",
-      "ipa_us": "ˈkʌstəmɚz",
-      "ipa_uk": "ˈkʌstəməz",
-      "translation_ru": "клиенты"
+      "word": "strict",
+      "ipa_us": "strɪkt",
+      "ipa_uk": "strɪkt",
+      "translation_ru": "строгий"
     },
     {
-      "word": "stress",
-      "ipa_us": "stres",
-      "ipa_uk": "stres",
-      "translation_ru": "стресс"
+      "word": "frets",
+      "ipa_us": "frɛts",
+      "ipa_uk": "frets",
+      "translation_ru": "лады"
     },
     {
-      "word": "colleague",
-      "ipa_us": "ˈkɑːliːɡ",
-      "ipa_uk": "ˈkɒliːɡ",
-      "translation_ru": "коллега"
+      "word": "chord",
+      "ipa_us": "kɔːrd",
+      "ipa_uk": "kɔːd",
+      "translation_ru": "аккорд"
     },
     {
-      "word": "offered",
-      "ipa_us": "ˈɔːfɚd",
-      "ipa_uk": "ˈɒfəd",
-      "translation_ru": "предложили"
+      "word": "strum",
+      "ipa_us": "strʌm",
+      "ipa_uk": "strʌm",
+      "translation_ru": "играть бренчанием"
     },
     {
-      "word": "attitude",
-      "ipa_us": "ˈætɪtuːd",
-      "ipa_uk": "ˈætɪtjuːd",
-      "translation_ru": "отношение"
+      "word": "accuracy",
+      "ipa_us": "ˈækjərəsi",
+      "ipa_uk": "ˈækjʊrəsi",
+      "translation_ru": "точность"
     },
     {
-      "word": "decision",
-      "ipa_us": "dɪˈsɪʒən",
-      "ipa_uk": "dɪˈsɪʒən",
-      "translation_ru": "решение"
+      "word": "curve",
+      "ipa_us": "kɜːrv",
+      "ipa_uk": "kɜːv",
+      "translation_ru": "изогнуть"
+    },
+    {
+      "word": "rhythm",
+      "ipa_us": "ˈrɪðəm",
+      "ipa_uk": "ˈrɪðəm",
+      "translation_ru": "ритм"
+    },
+    {
+      "word": "beginners",
+      "ipa_us": "bɪˈɡɪnərz",
+      "ipa_uk": "bɪˈɡɪnəz",
+      "translation_ru": "начинающие"
+    },
+    {
+      "word": "homework",
+      "ipa_us": "ˈhoʊmwɜːrk",
+      "ipa_uk": "ˈhəʊmwɜːk",
+      "translation_ru": "домашнее задание"
+    },
+    {
+      "word": "acoustic",
+      "ipa_us": "əˈkuːstɪk",
+      "ipa_uk": "əˈkuːstɪk",
+      "translation_ru": "акустический"
+    },
+    {
+      "word": "progress",
+      "ipa_us": "ˈprɑːɡrɛs",
+      "ipa_uk": "ˈprəʊɡres",
+      "translation_ru": "прогресс"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "ð",
       "examples": [
-        "really",
-        "start",
-        "prefer",
-        "Friday"
+        "rhythm",
+        "other",
+        "that",
+        "this"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "work",
-        "weekends",
-        "we",
-        "while"
-      ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Язык между зубами, но со звучанием голоса; не произносите «з» или «д»."
     },
     {
       "sound": "ɪ",
       "examples": [
-        "experience",
-        "if",
-        "will",
-        "busy"
+        "instrument",
+        "fingers",
+        "rhythm",
+        "it"
       ],
-      "tip_ru": "Короткий, расслабленный звук между «и» и «ы»; не растягивайте и не делайте его как русское «и»."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hear",
+        "hand",
+        "homework",
+        "heard"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»; рот расслаблен."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "instrument",
+        "accuracy",
+        "beginners",
+        "acoustic"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Where did Daniel work before?",
-      "answer": "In a small coffee bar.",
+      "question": "Why did Nina stop piano lessons as a child?",
+      "answer": "Her teacher was strict and she hated practising.",
       "accepted_keywords": [
-        "coffee",
-        "bar",
-        "café"
+        "strict",
+        "teacher",
+        "practising",
+        "practicing",
+        "hated"
       ]
     },
     {
-      "question": "How does Daniel deal with stress?",
-      "answer": "He stays calm and asks a colleague for help.",
+      "question": "How much should Nina practise each day?",
+      "answer": "About fifteen minutes.",
       "accepted_keywords": [
-        "calm",
-        "colleague",
-        "help"
+        "fifteen",
+        "15"
       ]
     },
     {
-      "question": "When will the manager decide?",
-      "answer": "By Friday.",
+      "question": "Why did her fingertips hurt?",
+      "answer": "Her skin needs time to become harder.",
       "accepted_keywords": [
-        "friday"
+        "skin",
+        "harder",
+        "time"
+      ]
+    },
+    {
+      "question": "Which two chords does Nina learn?",
+      "answer": "E minor and A minor.",
+      "accepted_keywords": [
+        "minor",
+        "e",
+        "a"
       ]
     }
   ]

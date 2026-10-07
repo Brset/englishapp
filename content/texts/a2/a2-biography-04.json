@@ -2,125 +2,157 @@
   "id": "a2-biography-04",
   "level": "A2",
   "genre": "biography",
-  "title_en": "Wolfgang Amadeus Mozart",
-  "title_ru": "Вольфганг Амадей Моцарт",
-  "description_ru": "Как маленький музыкальный вундеркинд стал одним из самых известных композиторов.",
-  "text": "Wolfgang Amadeus Mozart was born in 1756 in Salzburg, Austria. His father was a musician, and he taught Wolfgang and his older sister Nannerl to play the piano. Wolfgang was a very quick learner. He wrote his first little pieces of music when he was only five years old.\n\nWhen he was a child, he travelled around Europe with his family. He played for kings and queens in many cities. People were amazed because such a small boy played so well.\n\nWhen Mozart was a young man, he moved to Vienna. There he wrote many famous works, for example the opera The Marriage of Figaro and The Magic Flute. His music was beautiful, but he did not always have enough money.\n\nMozart died in Vienna in 1791. He was only thirty-five, but he wrote more than six hundred pieces of music.",
-  "word_count": 140,
+  "title_en": "Charlie Chaplin: The Man with Big Shoes",
+  "title_ru": "Чарли Чаплин: человек в больших ботинках",
+  "description_ru": "Биография великого комика, который прошёл путь от бедного лондонского мальчика до звезды мирового кино.",
+  "text": "Charlie Chaplin was one of the funniest and most famous actors of all time. He did not need to say a word to make millions of people laugh. With a small black moustache, a hat, a walking stick and big old shoes, he created a character called \"the Tramp\", and people loved him all over the world.\n\nCharles Spencer Chaplin was born in London on 16 April 1889. His parents were music hall performers, but his father drank too much and left the family when Charlie was very young. His mother, Hannah, sang on stage, but she lost her voice one night, and five-year-old Charlie had to go on stage in her place. He sang a popular song, and the audience threw coins at him. That was his first performance.\n\nAfter that, life became very hard. Hannah was often ill, and she did not have a job. Charlie and his older brother Sydney lived in poor houses, and sometimes they stayed in a workhouse, a place for people who had no money. They were often hungry. Charlie was sometimes so cold and hungry that he never forgot the feeling. When he was a young man, he said that this experience helped him to understand poor people.\n\nCharlie left school when he was young and worked at many small jobs. He was not lazy, and he was not ashamed of poverty. He taught himself to read well, and he practised his acting in front of a mirror every evening. He sold newspapers, and he worked as a printer's boy. But he never stopped dreaming of the stage. At the age of nineteen, he joined a famous comedy company and travelled with it to America. A film producer saw him there and offered him a job. In 1914 he made his first film, and soon he became a star.\n\nIn one of his first films, Charlie put together his famous costume. He chose trousers that were too big, a jacket that was too small, a tiny hat and huge shoes. Nobody told him to do this; he did it for fun. The Tramp was poor, but he was polite and brave, and he always tried to help someone weaker than himself. Audiences adored him. They laughed at his tricks, but they also felt sorry for him.\n\nIn the 1910s, films did not have sound, so actors told stories with their faces and bodies. Charlie was a master of this art. He could walk, fall and dance in a way that was funnier than anyone else. He also wrote, directed and even composed the music for his films. In 1919 he helped to start a new company, United Artists, so that he could control his own work. By the 1920s, he was one of the richest and best-known people in the world.\n\nHis best films are still popular today. In \"The Kid\" (1921), the Tramp takes care of a small boy. In \"The Gold Rush\" (1925), he is so hungry that he cooks and eats his own shoe. In \"Modern Times\" (1936), he is a worker who gets caught in a giant machine. Then, in \"The Great Dictator\" (1940), Charlie did something very brave. He played a cruel dictator who looked like Hitler, and he made fun of him, when many people in America were afraid to do it. At the end of the film, he made a serious speech about peace and kindness.\n\nLater, in the 1950s, Charlie had trouble in America. Some politicians did not like his ideas, and he was not allowed to come back after a trip to Europe. He moved to Switzerland with his wife Oona and their children. In 1972, he returned to Hollywood for a special prize, and the audience stood and clapped for several minutes. He looked very old and very moved, and he cried a little. It was the happiest moment of his later life. He also received a knighthood from the Queen of England in 1975, so he became Sir Charles Chaplin.\n\nCharlie Chaplin died on Christmas Day, 1977, at the age of eighty-eight. His films are older than most people's grandparents, but they are still funny. They remind us that laughter can be stronger than sadness, and that a small man with big shoes can make the whole world smile.",
+  "word_count": 711,
   "vocabulary": [
     {
-      "word": "musician",
-      "ipa_us": "mjuˈzɪʃn",
-      "ipa_uk": "mjuˈzɪʃn",
-      "translation_ru": "музыкант"
+      "word": "moustache",
+      "ipa_us": "ˈmʌˌstæʃ",
+      "ipa_uk": "məˈstɑːʃ",
+      "translation_ru": "усы"
     },
     {
-      "word": "taught",
-      "ipa_us": "tɔːt",
-      "ipa_uk": "tɔːt",
-      "translation_ru": "учил"
+      "word": "tramp",
+      "ipa_us": "træmp",
+      "ipa_uk": "træmp",
+      "translation_ru": "бродяга"
     },
     {
-      "word": "travelled",
-      "ipa_us": "ˈtrævld",
-      "ipa_uk": "ˈtrævld",
-      "translation_ru": "путешествовал"
+      "word": "performer",
+      "ipa_us": "pərˈfɔrmər",
+      "ipa_uk": "pəˈfɔːmə",
+      "translation_ru": "артист"
     },
     {
-      "word": "amazed",
-      "ipa_us": "əˈmeɪzd",
-      "ipa_uk": "əˈmeɪzd",
-      "translation_ru": "поражённый"
+      "word": "audience",
+      "ipa_us": "ˈɔdiəns",
+      "ipa_uk": "ˈɔːdiəns",
+      "translation_ru": "зрители"
     },
     {
-      "word": "opera",
-      "ipa_us": "ˈɑːprə",
-      "ipa_uk": "ˈɒprə",
-      "translation_ru": "опера"
+      "word": "workhouse",
+      "ipa_us": "ˈwɜrkˌhaʊs",
+      "ipa_uk": "ˈwɜːkhaʊs",
+      "translation_ru": "работный дом"
     },
     {
-      "word": "beautiful",
-      "ipa_us": "ˈbjuːtɪfl",
-      "ipa_uk": "ˈbjuːtɪfl",
-      "translation_ru": "красивый"
+      "word": "costume",
+      "ipa_us": "ˈkɑstˌum",
+      "ipa_uk": "ˈkɒstjuːm",
+      "translation_ru": "костюм"
     },
     {
-      "word": "enough",
-      "ipa_us": "ɪˈnʌf",
-      "ipa_uk": "ɪˈnʌf",
-      "translation_ru": "достаточно"
+      "word": "adored",
+      "ipa_us": "əˈdɔrd",
+      "ipa_uk": "əˈdɔːd",
+      "translation_ru": "обожали"
     },
     {
-      "word": "hundred",
-      "ipa_us": "ˈhʌndrəd",
-      "ipa_uk": "ˈhʌndrəd",
-      "translation_ru": "сто"
+      "word": "composed",
+      "ipa_us": "kəmˈpoʊzd",
+      "ipa_uk": "kəmˈpəʊzd",
+      "translation_ru": "сочинил (музыку)"
+    },
+    {
+      "word": "dictator",
+      "ipa_us": "ˈdɪkˌteɪtər",
+      "ipa_uk": "dɪkˈteɪtə",
+      "translation_ru": "диктатор"
+    },
+    {
+      "word": "politicians",
+      "ipa_us": "ˌpɑləˈtɪʃənz",
+      "ipa_uk": "ˌpɒləˈtɪʃnz",
+      "translation_ru": "политики"
+    },
+    {
+      "word": "knighthood",
+      "ipa_us": "ˈnaɪtˌhʊd",
+      "ipa_uk": "ˈnaɪthʊd",
+      "translation_ru": "рыцарское звание"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "aspiration",
       "examples": [
-        "very",
-        "Vienna"
+        "tramp",
+        "time",
+        "performance"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "P, t, k в начале ударного слога произносите с небольшим выдохом, как будто со струйкой воздуха."
     },
     {
       "sound": "w",
       "examples": [
-        "Wolfgang",
-        "was"
+        "world",
+        "work",
+        "wife"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "θ",
+      "sound": "final-voiced",
+      "examples": [
+        "stood",
+        "world",
+        "loved"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
+    },
+    {
+      "sound": "ð",
       "examples": [
         "father",
-        "thirty"
+        "the",
+        "other"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "ɜː",
-      "examples": [
-        "learner",
-        "thirty"
-      ],
-      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+      "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
     }
   ],
   "questions": [
     {
-      "question": "Where was Mozart born?",
-      "answer": "In Salzburg, Austria.",
+      "question": "What happened when five-year-old Charlie went on stage?",
+      "answer": "His mother lost her voice, and Charlie sang instead. The audience threw coins.",
       "accepted_keywords": [
-        "salzburg",
-        "austria"
+        "sang",
+        "sing",
+        "coins",
+        "mother",
+        "voice"
       ]
     },
     {
-      "question": "How old was he when he wrote his first music?",
-      "answer": "Five.",
+      "question": "What did the Tramp wear?",
+      "answer": "He wore big trousers, a small jacket, a tiny hat and huge shoes.",
       "accepted_keywords": [
-        "five",
-        "5"
+        "trousers",
+        "hat",
+        "shoes",
+        "jacket"
       ]
     },
     {
-      "question": "Which city did he move to?",
-      "answer": "Vienna.",
+      "question": "What was special about \"The Great Dictator\"?",
+      "answer": "Charlie played a cruel dictator who looked like Hitler and made fun of him.",
       "accepted_keywords": [
-        "vienna"
+        "dictator",
+        "hitler",
+        "funny",
+        "cruel"
       ]
     },
     {
-      "question": "How old was he when he died?",
-      "answer": "Thirty-five.",
+      "question": "When did Charlie Chaplin die?",
+      "answer": "He died on Christmas Day, 1977, at the age of eighty-eight.",
       "accepted_keywords": [
-        "thirty",
-        "35"
+        "1977",
+        "christmas",
+        "eighty-eight",
+        "88"
       ]
     }
   ]

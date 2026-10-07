@@ -10,6 +10,11 @@ public partial class SettingsViewModel : ObservableObject
     public IReadOnlyList<string> Strictnesses { get; } = new[] { "Мягкая", "Обычная", "Строгая" };
     public IReadOnlyList<string> Themes { get; } = new[] { "Как в системе", "Светлая", "Тёмная" };
     public ObservableCollection<string> Mics { get; } = new();
+    private static readonly int[] GoalValues = { 5, 10, 15, 20, 30, 45, 60 };
+    public IReadOnlyList<string> Goals { get; } = GoalValues.Select(g => $"{g} мин в день").ToList();
+    public IReadOnlyList<string> LevelNames { get; } = new[] { "A1", "A2", "B1", "B2", "C1", "C2" };
+    [ObservableProperty] private int goalIndex;
+    [ObservableProperty] private int levelIndex;
 
     [ObservableProperty] private int accentIndex;
     [ObservableProperty] private int strictnessIndex;
@@ -29,6 +34,9 @@ public partial class SettingsViewModel : ObservableObject
         foreach (var m in AudioRecorder.GetDevices()) Mics.Add(m);
         if (Mics.Count == 0) Mics.Add("Микрофон не найден");
         MicIndex = Math.Clamp(s.MicDevice, 0, Mics.Count - 1);
+        int gi = Array.IndexOf(GoalValues, s.DailyGoal);
+        GoalIndex = gi >= 0 ? gi : 1;
+        LevelIndex = Math.Max(0, Array.IndexOf(LevelNames.ToArray(), s.Level));
         _loading = false;
         _ = LoadEngineStatusAsync();
     }
@@ -48,6 +56,8 @@ public partial class SettingsViewModel : ObservableObject
         AppServices.Settings.Strictness = value;
         _ = AppServices.Engine.SetStrictnessAsync(value);
     }
+    partial void OnGoalIndexChanged(int value) { if (!_loading && value >= 0) AppServices.Settings.DailyGoal = GoalValues[value]; }
+    partial void OnLevelIndexChanged(int value) { if (!_loading && value >= 0) AppServices.Settings.Level = LevelNames[value]; }
     partial void OnMicIndexChanged(int value) { if (!_loading && value >= 0) AppServices.Settings.MicDevice = value; }
     partial void OnThemeIndexChanged(int value)
     {

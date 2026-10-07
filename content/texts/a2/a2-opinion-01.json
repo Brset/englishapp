@@ -2,126 +2,162 @@
   "id": "a2-opinion-01",
   "level": "A2",
   "genre": "opinion",
-  "title_en": "Why I Like Cats",
-  "title_ru": "Почему я люблю кошек",
-  "description_ru": "Автор объясняет, почему кошки лучше собак для занятых людей.",
-  "text": "Some people say that dogs are better pets than cats. I do not agree. I think cats are easier and more interesting, and here are my reasons.\n\nFirst, a cat is cleaner than a dog. It washes itself every day, and you do not need to walk it in the rain. I work all day, so this is very important for me. A cat is happy at home when I am away.\n\nSecond, cats are quieter. My neighbours never hear my cat, but they sometimes hear the dog from the next flat. Also, a cat is smaller, so it does not need a big house.\n\nThird, cats are clever and funny. My cat, Vera, waits for me by the window every evening. She is sometimes lazy, but she is always warm and friendly.\n\nOf course, dogs are great too. But in my opinion, a cat is the best friend for a busy person.",
-  "word_count": 153,
+  "title_en": "Too Much Homework?",
+  "title_ru": "Слишком много домашних заданий?",
+  "description_ru": "Рассуждение о том, почему детям нужно меньше домашней работы, больше сна и свободного времени.",
+  "text": "In my opinion, children should not have a lot of homework. I know that many teachers and parents disagree with me, so let me explain why I think this way. I am not saying that homework is always bad. I am saying that today most students get too much of it, and it does more harm than good.\n\nFirst, think about a normal school day. A child gets up at seven o'clock, goes to school and studies for six or seven hours. After that, he or she often has football practice, music lessons or an English class. When the child finally comes home at five or six o'clock, he is already tired. Then he has to sit down again and do two or three more hours of work. That is a very long working day, and it is longer than the working day of many adults. Nobody can learn well when they are so tired.\n\nSecond, children need free time. When I was a boy, I played outside with my friends every afternoon. We rode our bikes, built small houses from old boxes and invented games. Today, many children say they do not have time for these things. They go to bed late and wake up tired. Scientists say that sleep and play are very important for a growing brain. A child who plays and sleeps well is going to remember more at school than a child who studies until midnight.\n\nSome people say that homework teaches children to be responsible. I think this is partly true. If a student has to finish a short task every day, he learns to plan his time. But there is a big difference between twenty minutes and two hours. Twenty minutes is useful. Two hours is too much, and it only makes children hate school. Last year, my younger sister cried over a maths exercise for an hour. Our mother tried to help, but she did not remember the method, and in the end they both were angry. That is not a good way to learn anything.\n\nAnother problem is that homework is not fair. Some children have a quiet room, a computer and parents who can explain difficult topics. Other children live in a small flat with three brothers and sisters, and their parents work late. These children cannot do their homework as well, so they get lower marks. The system makes the difference between rich and poor students even bigger. If the teacher gives the work during the lesson, everybody has the same chance.\n\nOf course, there are good arguments on the other side. A teacher once told me that practice is the only way to learn a language or to solve maths problems. I agree that practice is important. You cannot become a good pianist if you play only once a week. But I think there are better ways to practise. Students can read a book they enjoy, write a short diary or talk to a friend in English. These activities are more interesting than copying twenty sentences. And when a task is interesting, you remember it for a longer time.\n\nSome countries already understand this. In Finland, the school system is famous, and Finnish students usually have less homework than students in many other countries. Their school days are also shorter. Even so, they get excellent results in international tests. This shows that more hours do not always mean better learning. Quality is more important than quantity.\n\nSo what is my suggestion? I think teachers should give a small amount of homework, maybe twenty or thirty minutes a day for younger children, and a little more for teenagers. The tasks should be useful, not boring. There should be no homework at weekends or during the holidays. Children are going to come back to school happier and fresher, and I believe they will learn faster.\n\nFinally, I want to say something to parents. You do not need to push your child to sit at the desk all evening. Ask how the day was, go for a walk together and let him or her rest. A tired, unhappy child does not learn well. A calm, curious child learns everything quickly. School should be a place where we learn to love knowledge, not to fear it.",
+  "word_count": 714,
   "vocabulary": [
     {
-      "word": "pet",
-      "ipa_us": "pet",
-      "ipa_uk": "pet",
-      "translation_ru": "домашнее животное"
+      "word": "homework",
+      "ipa_us": "ˈhoʊmˌwɜrk",
+      "ipa_uk": "ˈhəʊmwɜːk",
+      "translation_ru": "домашнее задание"
     },
     {
-      "word": "reason",
-      "ipa_us": "ˈriːzn",
-      "ipa_uk": "ˈriːzn",
-      "translation_ru": "причина"
+      "word": "disagree",
+      "ipa_us": "ˌdɪsəˈɡri",
+      "ipa_uk": "ˌdɪsəˈɡriː",
+      "translation_ru": "не соглашаться"
     },
     {
-      "word": "cleaner",
-      "ipa_us": "ˈkliːnər",
-      "ipa_uk": "ˈkliːnə",
-      "translation_ru": "чище"
+      "word": "responsible",
+      "ipa_us": "rɪˈspɑnsəbəl",
+      "ipa_uk": "rɪˈspɒnsəbl",
+      "translation_ru": "ответственный"
     },
     {
-      "word": "neighbour",
-      "ipa_us": "ˈneɪbər",
-      "ipa_uk": "ˈneɪbə",
-      "translation_ru": "сосед"
+      "word": "method",
+      "ipa_us": "ˈmɛθəd",
+      "ipa_uk": "ˈmeθəd",
+      "translation_ru": "метод"
     },
     {
-      "word": "quieter",
-      "ipa_us": "ˈkwaɪətər",
-      "ipa_uk": "ˈkwaɪətə",
-      "translation_ru": "тише"
+      "word": "exercise",
+      "ipa_us": "ˈɛksərˌsaɪz",
+      "ipa_uk": "ˈeksəsaɪz",
+      "translation_ru": "упражнение"
     },
     {
-      "word": "lazy",
-      "ipa_us": "ˈleɪzi",
-      "ipa_uk": "ˈleɪzi",
-      "translation_ru": "ленивый"
+      "word": "fair",
+      "ipa_us": "fɛr",
+      "ipa_uk": "feə",
+      "translation_ru": "справедливый"
     },
     {
-      "word": "friendly",
-      "ipa_us": "ˈfrendli",
-      "ipa_uk": "ˈfrendli",
-      "translation_ru": "дружелюбный"
+      "word": "quality",
+      "ipa_us": "ˈkwɑləti",
+      "ipa_uk": "ˈkwɒləti",
+      "translation_ru": "качество"
     },
     {
-      "word": "opinion",
-      "ipa_us": "əˈpɪnjən",
-      "ipa_uk": "əˈpɪnjən",
-      "translation_ru": "мнение"
+      "word": "quantity",
+      "ipa_us": "ˈkwɑntəti",
+      "ipa_uk": "ˈkwɒntəti",
+      "translation_ru": "количество"
+    },
+    {
+      "word": "practise",
+      "ipa_us": "ˈpræktɪs",
+      "ipa_uk": "ˈpræktɪs",
+      "translation_ru": "тренироваться"
+    },
+    {
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любознательный"
+    },
+    {
+      "word": "knowledge",
+      "ipa_us": "ˈnɑlɪdʒ",
+      "ipa_uk": "ˈnɒlɪdʒ",
+      "translation_ru": "знания"
+    },
+    {
+      "word": "suggestion",
+      "ipa_us": "səɡˈdʒɛstʃən",
+      "ipa_uk": "səˈdʒestʃən",
+      "translation_ru": "предложение"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "θ",
       "examples": [
-        "very",
-        "Vera",
-        "every"
+        "think",
+        "than",
+        "method"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "walk",
-        "window"
+        "work",
+        "why",
+        "weekends"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "θ",
+      "sound": "final-voiced",
       "examples": [
-        "that",
-        "think"
+        "child",
+        "tired",
+        "good"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
     },
     {
-      "sound": "dark-l",
+      "sound": "ð",
       "examples": [
-        "cleaner",
-        "also"
+        "there",
+        "other",
+        "with"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+      "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
     }
   ],
   "questions": [
     {
-      "question": "Which pet does the writer like more?",
-      "answer": "Cats.",
+      "question": "What is the writer's main opinion about homework?",
+      "answer": "Children should not have a lot of homework; it does more harm than good.",
       "accepted_keywords": [
-        "cat",
-        "cats"
+        "not",
+        "less",
+        "too much",
+        "harm",
+        "little"
       ]
     },
     {
-      "question": "Why is a cat easier than a dog?",
-      "answer": "You do not need to walk it.",
+      "question": "What does the writer say about free time?",
+      "answer": "Children need time to play and sleep because it is good for a growing brain.",
       "accepted_keywords": [
-        "walk",
-        "clean",
-        "cleaner"
+        "play",
+        "sleep",
+        "brain",
+        "free",
+        "rest"
       ]
     },
     {
-      "question": "What is the cat's name?",
-      "answer": "Vera.",
+      "question": "Which country does the writer give as a good example?",
+      "answer": "Finland, where students have less homework but get excellent results.",
       "accepted_keywords": [
-        "vera"
+        "finland",
+        "finnish"
       ]
     },
     {
-      "question": "Where does the cat wait every evening?",
-      "answer": "By the window.",
+      "question": "How much homework does the writer suggest for younger children?",
+      "answer": "About twenty or thirty minutes a day.",
       "accepted_keywords": [
-        "window"
+        "twenty",
+        "thirty",
+        "minutes",
+        "small"
       ]
     }
   ]

@@ -10,17 +10,20 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import kotlin.math.max
+import kotlin.math.min
 
 private const val CONTENT_ASSET = "content.db"
 private const val USER_SCHEMA_ASSET = "user_schema.sql"
 private const val PENDING_SQL = "EXISTS(SELECT 1 FROM processing_jobs j WHERE j.text_id = t.id AND j.status IN ('queued','processing'))"
-private const val LAST_SCORE_SQL = "(SELECT r.score FROM recordings r WHERE r.text_id = t.id AND r.kind = 'reading' AND r.score IS NOT NULL ORDER BY r.created_at DESC, r.id DESC LIMIT 1)"
+private const val LAST_SCORE_SQL = "(SELECT CASE WHEN r.kind = 'reading' THEN r.score ELSE (SELECT AVG(r2.score) FROM recordings r2 WHERE r2.id IN " +
+    "(SELECT MAX(id) FROM recordings WHERE text_id = t.id AND kind = 'paragraph' AND score IS NOT NULL GROUP BY paragraph_index)) END " +
+    "FROM recordings r WHERE r.text_id = t.id AND r.kind IN ('reading','paragraph') ORDER BY r.created_at DESC, r.id DESC LIMIT 1)"
 
 /**
  * user.db (read/write) with content.db ATTACHed as `content`. Non-WAL mode keeps a single
  * connection, so the ATTACH is visible to every query. All methods are blocking: call from IO.
  */
-class AppDatabase private constructor(private val db: SQLiteDatabase) {
+class AppDatabase private constructor(internal val db: SQLiteDatabase) {
 
     // ---- library -------------------------------------------------------------------------------
     fun levels(): List<String> = list("SELECT DISTINCT level FROM content.texts ORDER BY level") { it.getString(0) }
@@ -36,7 +39,7 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
             where += "t.rowid IN (SELECT rowid FROM content.texts_fts WHERE texts_fts MATCH ?)"; args += fts
         }
         val sql = "SELECT t.id, t.level, t.genre, t.title_en, t.title_ru, t.description_ru, t.word_count, " +
-            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL FROM content.texts t LEFT JOIN progress p ON p.text_id = t.id " +
+            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL, p.best_coverage FROM content.texts t LEFT JOIN progress p ON p.text_id = t.id " +
             (if (where.isEmpty()) "" else "WHERE " + where.joinToString(" AND ")) + " ORDER BY t.sort_order"
         return try { list(sql, args.toTypedArray(), ::textItem) } catch (e: android.database.sqlite.SQLiteException) { emptyList() }
     }
@@ -49,14 +52,14 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
     private fun textItem(c: Cursor) = TextItem(
         c.getString(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), c.getString(5),
         c.getInt(6), c.getString(7), if (c.isNull(8)) null else c.getDouble(8),
-        c.getInt(9) != 0, if (c.isNull(10)) null else c.getDouble(10),
+        c.getInt(9) != 0, if (c.isNull(10)) null else c.getDouble(10), if (c.isNull(11)) null else c.getDouble(11),
     )
 
     fun text(id: String): TextFull? = list(
         "SELECT t.id, t.level, t.genre, t.title_en, t.title_ru, t.description_ru, t.word_count, " +
-            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL, t.body FROM content.texts t " +
+            "COALESCE(p.status,'new'), p.best_score, $PENDING_SQL, $LAST_SCORE_SQL, p.best_coverage, t.body FROM content.texts t " +
             "LEFT JOIN progress p ON p.text_id = t.id WHERE t.id = ?", arrayOf(id)
-    ) { TextFull(textItem(it), it.getString(11)) }.firstOrNull()
+    ) { TextFull(textItem(it), it.getString(12)) }.firstOrNull()
 
     fun vocabulary(textId: String): List<VocabItem> = list(
         "SELECT word, ipa_us, ipa_uk, translation_ru FROM content.text_vocabulary WHERE text_id = ? ORDER BY position",
@@ -156,48 +159,70 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
 
     // ---- reading attempts + background processing queue ------------------------------------------
     /**
-     * Saves a finished reading (WAV already written) with its quick live result, marks the text as read
-     * right away (status 'done', completed_at / last_opened_at = now) and, if [enqueue], queues the heavy
-     * assessment. Returns the new job id (or -1).
+     * Saves a finished reading (WAV already written) with its quick live result and coverage, updates the text's
+     * best coverage / status (done at >= 90 %), the resume position, XP and daily activity, and, if [enqueue],
+     * queues the heavy assessment (one job per paragraph in paragraph mode).
      */
     fun saveReading(textId: String, kind: String, durationMs: Long, wavPath: String, audioSeconds: Double,
-                    reference: String, liveJson: String?, enqueue: Boolean): Long {
+                    reference: String, liveJson: String?, enqueue: Boolean, m: ReadingMeta): SaveOutcome {
         db.beginTransaction()
         try {
             val t = now()
-            val prev = list("SELECT status FROM progress WHERE text_id = ?", arrayOf(textId)) { it.getString(0) }.firstOrNull()
-            db.execSQL("INSERT INTO recordings(text_id, kind, file_path, duration_ms, score, scores_json, created_at) VALUES(?,?,?,?,NULL,?,?)",
-                arrayOf(textId, kind, wavPath, durationMs, liveJson, t))
-            val whole = kind == "reading"
-            val st = if (whole) "done" else "started"
+            val prev = list("SELECT status, best_coverage FROM progress WHERE text_id = ?", arrayOf(textId)) {
+                it.getString(0) to (if (it.isNull(1)) null else it.getDouble(1))
+            }.firstOrNull()
+            db.execSQL("INSERT INTO recordings(text_id, kind, file_path, duration_ms, score, scores_json, created_at, coverage_pct, " +
+                "skipped_count, duration_sec, wpm, paragraph_index, words_read, words_total) VALUES(?,?,?,?,NULL,?,?,?,?,?,?,?,?,?)",
+                arrayOf(textId, kind, wavPath, durationMs, liveJson, t, m.coverage, m.skipped, m.durationSec, m.wpm, m.paragraphIndex, m.wordsRead, m.wordsTotal))
+            val wc = list("SELECT word_count FROM content.texts WHERE id = ?", arrayOf(textId)) { it.getInt(0) }.firstOrNull() ?: m.wordsTotal
+            val textCov = when (kind) {
+                "reading" -> m.coverage
+                "paragraph" -> min(100.0, paragraphWordsRead(textId) * 100.0 / max(1, wc))
+                else -> 0.0
+            }
+            val best = max(prev?.second ?: 0.0, textCov)
+            val doneNow = best >= 90.0
+            val wasDone = prev?.first == "done"
+            db.execSQL("INSERT OR IGNORE INTO progress(text_id, status, attempts) VALUES(?, 'started', 0)", arrayOf(textId))
             db.execSQL(
-                "INSERT INTO progress(text_id, status, attempts, last_opened_at, completed_at) VALUES(?,?,1,?,?) " +
-                    "ON CONFLICT(text_id) DO UPDATE SET attempts = attempts + 1, last_opened_at = excluded.last_opened_at, " +
+                "UPDATE progress SET attempts = attempts + 1, last_opened_at = ?, best_coverage = ?, " +
                     "status = CASE WHEN ? = 1 THEN 'done' WHEN status = 'new' THEN 'started' ELSE status END, " +
-                    "completed_at = CASE WHEN ? = 1 AND completed_at IS NULL THEN excluded.last_opened_at ELSE completed_at END",
-                arrayOf(textId, st, t, if (whole) t else null, if (whole) 1 else 0, if (whole) 1 else 0))
-            val day = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
+                    "completed_at = CASE WHEN ? = 1 AND completed_at IS NULL THEN ? ELSE completed_at END WHERE text_id = ?",
+                arrayOf(t, if (kind == "sentence") prev?.second else best, if (doneNow) 1 else 0, if (doneNow) 1 else 0, t, textId))
+            when (kind) {
+                "reading" -> if (textCov >= 90.0) clearPosition(textId) else setPosition(textId, m.cursor, 0)
+                "paragraph" -> if (m.nextParagraph >= m.paragraphCount) clearPosition(textId) else setPosition(textId, 0, m.nextParagraph)
+            }
+            val newlyDone = doneNow && !wasDone
+            val minutes = durationMs / 60000.0
             db.execSQL(
                 "INSERT INTO daily_streak(day, minutes, texts_done, goal_met) VALUES(?,?,?,0) " +
                     "ON CONFLICT(day) DO UPDATE SET minutes = minutes + excluded.minutes, texts_done = texts_done + excluded.texts_done",
-                arrayOf(day, durationMs / 60000.0, if (whole && prev != "done") 1 else 0))
+                arrayOf(today(), minutes, if (newlyDone) 1 else 0))
+            db.execSQL(
+                "INSERT INTO daily_activity(date, minutes, words, xp) VALUES(?,?,?,0) " +
+                    "ON CONFLICT(date) DO UPDATE SET minutes = minutes + excluded.minutes, words = words + excluded.words",
+                arrayOf(today(), minutes, m.wordsRead))
+            addXp(m.wordsRead, "words:$textId")
             var jobId = -1L
             if (enqueue) {
-                db.execSQL("INSERT INTO processing_jobs(text_id, wav_path, audio_seconds, status, progress, created_at, reference, kind) " +
-                    "VALUES(?,?,?,'queued',0,?,?,?)", arrayOf(textId, wavPath, audioSeconds, t, reference, kind))
+                db.execSQL("INSERT INTO processing_jobs(text_id, wav_path, audio_seconds, status, progress, created_at, reference, kind, paragraph_index, paragraph_count) " +
+                    "VALUES(?,?,?,'queued',0,?,?,?,?,?)", arrayOf(textId, wavPath, audioSeconds, t, reference, kind, m.paragraphIndex, m.paragraphCount))
                 jobId = list("SELECT last_insert_rowid()") { it.getLong(0) }.first()
             }
+            val ach = checkAchievements()
             db.setTransactionSuccessful()
-            return jobId
+            return SaveOutcome(jobId, best, newlyDone, m.wordsRead, ach)
         } finally { db.endTransaction() }
     }
 
     fun activeJobs(): List<JobRow> = list(
         "SELECT j.id, j.text_id, COALESCE(t.title_en, j.text_id), j.status, j.progress, j.eta_sec, j.audio_seconds, " +
-            "j.reference, j.wav_path, j.kind FROM processing_jobs j LEFT JOIN content.texts t ON t.id = j.text_id " +
+            "j.reference, j.wav_path, j.kind, j.paragraph_index, COALESCE(j.paragraph_count,0) FROM processing_jobs j LEFT JOIN content.texts t ON t.id = j.text_id " +
             "WHERE j.status IN ('queued','processing') ORDER BY j.id"
     ) { JobRow(it.getLong(0), it.getString(1), it.getString(2), it.getString(3), it.getDouble(4),
-        if (it.isNull(5)) -1.0 else it.getDouble(5), it.getDouble(6), it.getString(7), it.getString(8), it.getString(9)) }
+        if (it.isNull(5)) -1.0 else it.getDouble(5), it.getDouble(6), it.getString(7), it.getString(8), it.getString(9),
+        if (it.isNull(10)) null else it.getInt(10), it.getInt(11)) }
 
     fun jobStatus(id: Long): String? = list("SELECT status FROM processing_jobs WHERE id = ?", arrayOf(id.toString())) { it.getString(0) }.firstOrNull()
 
@@ -228,6 +253,15 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
                 arrayOf(r.overall, resultJson, job.wavPath, job.textId))
             if (job.kind == "reading") db.execSQL(
                 "UPDATE progress SET best_score = MAX(COALESCE(best_score,0), ?) WHERE text_id = ?", arrayOf(r.overall, job.textId))
+            else if (job.kind == "paragraph") db.execSQL(
+                "UPDATE progress SET best_score = MAX(COALESCE(best_score,0), COALESCE((SELECT AVG(score) FROM recordings WHERE id IN " +
+                    "(SELECT MAX(id) FROM recordings WHERE text_id = ? AND kind = 'paragraph' AND score IS NOT NULL GROUP BY paragraph_index)), 0)) WHERE text_id = ?",
+                arrayOf(job.textId, job.textId))
+            if (r.overall >= 80 && job.kind != "sentence") {
+                val wr = list("SELECT COALESCE(words_read,0) FROM recordings WHERE file_path = ? AND text_id = ?", arrayOf(job.wavPath, job.textId)) { it.getInt(0) }.firstOrNull() ?: 0
+                addXp(max(5, wr / 4), "bonus:${job.textId}")
+            }
+            autoAddWeakWords(job.textId, r)
             for (w in r.words) for (p in w.phonemes) {
                 val s = p.score ?: continue
                 val err = if (p.substituted || s < 60) 1 else 0
@@ -237,12 +271,19 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
                         "attempts = attempts + 1, errors = errors + ?, updated_at = ?",
                     arrayOf(p.ipa, 1, err, s, now(), s, err, now()))
             }
+            checkAchievements()
             db.setTransactionSuccessful()
         } finally { db.endTransaction() }
     }
 
+    fun latestReading(textId: String): TextReading? {
+        val newest = list("SELECT kind FROM recordings WHERE text_id = ? AND kind IN ('reading','paragraph') AND file_path != '' ORDER BY created_at DESC, id DESC LIMIT 1",
+            arrayOf(textId)) { it.getString(0) }.firstOrNull() ?: return null
+        return if (newest == "paragraph") paragraphReading(textId) else latestWhole(textId)
+    }
+
     /** Latest whole-text reading: its WAV, the quick live marks and (when done) the full assessment. */
-    fun latestReading(textId: String): TextReading? = list(
+    private fun latestWhole(textId: String): TextReading? = list(
         "SELECT r.id, r.file_path, r.scores_json, (SELECT j.status FROM processing_jobs j WHERE j.wav_path = r.file_path ORDER BY j.id DESC LIMIT 1) " +
             "FROM recordings r WHERE r.text_id = ? AND r.kind = 'reading' AND r.file_path != '' ORDER BY r.created_at DESC, r.id DESC LIMIT 1",
         arrayOf(textId)
@@ -291,9 +332,9 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
         db.execSQL("INSERT OR REPLACE INTO settings(key, value) VALUES(?,?)", arrayOf(key, value))
 
     // ---- helpers -------------------------------------------------------------------------------
-    private fun now() = System.currentTimeMillis() / 1000
+    internal fun now() = System.currentTimeMillis() / 1000
 
-    private fun <T> list(sql: String, args: Array<String> = emptyArray(), map: (Cursor) -> T): List<T> {
+    internal fun <T> list(sql: String, args: Array<String> = emptyArray(), map: (Cursor) -> T): List<T> {
         db.rawQuery(sql, args).use { c ->
             val out = ArrayList<T>(c.count)
             while (c.moveToNext()) out += map(c)
@@ -313,6 +354,7 @@ class AppDatabase private constructor(private val db: SQLiteDatabase) {
             db.execSQL("ATTACH DATABASE ? AS content", arrayOf(contentFile.path))
             applyUserSchema(context, db)
             applyQueueSchema(db)
+            applyV2Schema(db)
             return AppDatabase(db)
         }
 

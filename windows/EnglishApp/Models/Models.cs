@@ -1,13 +1,24 @@
+using EnglishApp.Services;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Media;
 
 namespace EnglishApp.Models;
 
 public sealed record TextSummary(string Id, string Level, string Genre, string TitleEn, string TitleRu,
-    string DescriptionRu, int WordCount, string Status, double? BestScore)
+    string DescriptionRu, int WordCount, string Status, double? BestScore, double? BestCoverage = null)
 {
     public string StatusRu => Status switch { "done" => "Пройдено", "started" => "В процессе", _ => "Новый" };
-    public string Subtitle => $"{Level} · {Genre} · {WordCount} сл. · {StatusRu}" +
-                              (BestScore is double b ? $" · {b:0}%" : "");
+    public string Subtitle => $"{Level} · {Genre} · {WordCount} сл.";
+
+    /// <summary>Best reading coverage 0..100 (old "done" texts without stored coverage count as 100).</summary>
+    public double CoverageValue => BestCoverage ?? (Status == "done" ? 100 : 0);
+    public string CoverageLabel => $"{CoverageValue:0}%";
+    public string StatusBadgeText => CoverageValue >= 90 ? "Пройден" : CoverageValue >= 50 ? "Начат" : "";
+    public Visibility StatusBadgeVisibility => StatusBadgeText.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
+    public Brush RingBrush => CoverageValue >= 90 ? Ui.Green : CoverageValue >= 50 ? Ui.Amber : Ui.Indigo;
+    public string LastScoreText => Read?.LastScore is double s ? $"Произношение {s:0}" : "";
+    public Visibility LastScoreVisibility => LastScoreText.Length > 0 ? Visibility.Visible : Visibility.Collapsed;
+    public Brush LastScoreBrush => Ui.ScoreBrush(Read?.LastScore);
 
     /// <summary>Reading attempts summary (null when never read); filled by the library view model.</summary>
     public ReadSummary? Read { get; init; }
@@ -19,7 +30,7 @@ public sealed record TextSummary(string Id, string Level, string Genre, string T
 
 /// <summary>One recorded reading; Score is null until the background job has finished.</summary>
 public sealed record AttemptInfo(long Id, string TextId, long CreatedAt, double? Score, string WavPath,
-    string? ScoresJson, string? JobStatus)
+    string? ScoresJson, string? JobStatus, int? ParagraphIndex = null, double? Coverage = null)
 {
     public bool Pending => Score == null && (JobStatus is "queued" or "processing");
     public string? Badge => Score != null ? null : JobStatus switch
@@ -49,7 +60,8 @@ public sealed record ReadSummary(int Attempts, double? LastScore, IReadOnlyList<
 }
 
 /// <summary>A row of processing_jobs.</summary>
-public sealed record JobRow(long Id, string TextId, string WavPath, double AudioSeconds, string Status);
+public sealed record JobRow(long Id, string TextId, string WavPath, double AudioSeconds, string Status,
+    int? ParagraphIndex = null, int ParagraphTotal = 0);
 
 public sealed record TextDetail(string Id, string Level, string Genre, string TitleEn, string TitleRu,
     string DescriptionRu, string Body, int WordCount);

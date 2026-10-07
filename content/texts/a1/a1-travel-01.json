@@ -2,41 +2,12 @@
   "id": "a1-travel-01",
   "level": "A1",
   "genre": "travel",
-  "title_en": "A Day in Venice",
-  "title_ru": "День в Венеции",
-  "description_ru": "Клара гуляет по городу без машин, где улицы заменяют каналы.",
-  "text": "In Venice, there are no cars. People travel by boat or on foot. Today, Clara arrives by train and takes a water bus. The city has more than one hundred small bridges and narrow streets. She walks to the big square and sees the famous church. Pigeons fly everywhere!\n\nThen she eats ice cream near a canal. A gondolier sings an old Italian song. Clara takes many photos. Venice is expensive, but she thinks it is beautiful. In the evening, the water turns gold in the light.",
+  "title_en": "Three Days in Venice",
+  "title_ru": "Три дня в Венеции",
+  "description_ru": "Учительница из Польши и её подруга гуляют по Венеции: каналы, гондола, стекло Мурано и цветные дома Бурано.",
+  "text": "My name is Laura, and I am a teacher from Poland. This spring I have a short holiday, and I am going to Venice with my best friend, Ola. Venice is a city in the north of Italy, and it is built on water. It has no cars and no big roads. There are canals instead of streets, and there are more than four hundred bridges. I dream about this city for many years, and now I am finally here.\n\nWe arrive by train on Friday morning. The station is next to the water. When we come out, I stop and look. The canal is green and blue, and the sun shines on old pink and yellow houses. Boats of all sizes move up and down. There is no noise of traffic, only the sound of water and voices. Ola laughs and says, \"Laura, you look like a child in a sweet shop!\" She is right. I am so happy.\n\nFirst, we take a water bus. In Venice, it is called a vaporetto. It is the main kind of public transport. We stand outside at the back and take photos. The bus goes slowly along the Grand Canal, which is the biggest canal in the city. On both sides, there are beautiful palaces with big windows and stone balconies. Rich people build them many hundreds of years ago. Now many are hotels, shops and museums. A ticket for one hour costs about eight euros, which is not cheap, but the view is wonderful.\n\nOur small hotel is in a quiet street away from the crowds. The room is tiny, but it has a window with flowers. The owner, a friendly old man called Marco, gives us a map. \"Please, do not use only the map,\" he says with a smile. \"In Venice, everybody gets lost. It is part of the fun.\" He is right again. The streets are narrow and they turn and turn. Many end at a canal with no bridge. We walk in a circle and find the same bakery three times.\n\nOn Saturday, we visit Saint Mark's Square, the heart of Venice. It is a huge open place with a tall tower and a beautiful church covered in gold. Hundreds of pigeons walk between the tourists. The cafés have small orchestras, and the music is lovely, but a coffee here costs ten euros! We do not sit down. We buy a coffee in a small bar near the station and drink it standing, like the Italians. It is only one euro and it is very good. Ola says, \"The first rule of travel. Do not eat in the main square.\"\n\nIn the afternoon, we take a gondola ride. A gondola is a long black boat, and the gondolier stands at the back and uses one long oar. Ours is a young man in a striped shirt. He sings quietly and tells us stories about the houses. \"This is where the famous writer lives,\" he says. \"And that is where the old merchant hides his gold.\" The small canals are very narrow and very quiet. Sometimes we touch the walls. It is expensive, eighty euros for thirty minutes, but I feel like a queen.\n\nOn Sunday, we take a boat to the island of Murano. This island is famous for its glass. We watch a man in a factory make a small horse from hot, orange glass. His hands are quick and sure. In five minutes, the glass changes into a beautiful animal. I buy a small blue bird for my mother. Then we visit the island of Burano, where all the houses are bright colours: red, green, yellow and purple. The women sit outside and make fine lace. I take a hundred photos.\n\nSadly, Venice has a problem. The city is sinking a little, and when the tide is high, water comes into the streets. Marco tells us about it at breakfast. \"Every year it gets worse,\" he says. \"And too many tourists come. Sometimes there are more visitors than people who live here.\" So we try to be good visitors. We carry our bags quietly, we do not leave rubbish and we buy from small local shops.\n\nOn Monday morning, we say goodbye to Marco and walk to the station. I look back at the canal one more time. The water is calm and golden in the early sun. I put my hand in my pocket and feel the small glass bird. Ola takes my arm. \"Next year?\" she asks. I smile and say, \"Of course. Next year. But this time we get lost on purpose.\"",
+  "word_count": 771,
   "vocabulary": [
-    {
-      "word": "bridges",
-      "ipa_us": "ˈbrɪdʒɪz",
-      "ipa_uk": "ˈbrɪdʒɪz",
-      "translation_ru": "мосты"
-    },
-    {
-      "word": "narrow",
-      "ipa_us": "ˈneroʊ",
-      "ipa_uk": "ˈnærəʊ",
-      "translation_ru": "узкий"
-    },
-    {
-      "word": "square",
-      "ipa_us": "skwer",
-      "ipa_uk": "skweə",
-      "translation_ru": "площадь"
-    },
-    {
-      "word": "church",
-      "ipa_us": "tʃɝːtʃ",
-      "ipa_uk": "tʃɜːtʃ",
-      "translation_ru": "церковь"
-    },
-    {
-      "word": "pigeons",
-      "ipa_us": "ˈpɪdʒənz",
-      "ipa_uk": "ˈpɪdʒɪnz",
-      "translation_ru": "голуби"
-    },
     {
       "word": "canal",
       "ipa_us": "kəˈnæl",
@@ -44,78 +15,147 @@
       "translation_ru": "канал"
     },
     {
-      "word": "expensive",
-      "ipa_us": "ɪkˈspensɪv",
-      "ipa_uk": "ɪkˈspensɪv",
-      "translation_ru": "дорогой"
+      "word": "gondola",
+      "ipa_us": "ˈɡɑːndələ",
+      "ipa_uk": "ˈɡɒndələ",
+      "translation_ru": "гондола"
     },
     {
-      "word": "evening",
-      "ipa_us": "ˈiːvnɪŋ",
-      "ipa_uk": "ˈiːvnɪŋ",
-      "translation_ru": "вечер"
+      "word": "palaces",
+      "ipa_us": "ˈpælɪsɪz",
+      "ipa_uk": "ˈpælɪsɪz",
+      "translation_ru": "дворцы"
+    },
+    {
+      "word": "balconies",
+      "ipa_us": "ˈbælkəniz",
+      "ipa_uk": "ˈbælkəniz",
+      "translation_ru": "балконы"
+    },
+    {
+      "word": "lace",
+      "ipa_us": "leɪs",
+      "ipa_uk": "leɪs",
+      "translation_ru": "кружево"
+    },
+    {
+      "word": "tide",
+      "ipa_us": "taɪd",
+      "ipa_uk": "taɪd",
+      "translation_ru": "прилив"
+    },
+    {
+      "word": "sinking",
+      "ipa_us": "ˈsɪŋkɪŋ",
+      "ipa_uk": "ˈsɪŋkɪŋ",
+      "translation_ru": "тонет"
+    },
+    {
+      "word": "narrow",
+      "ipa_us": "ˈnæroʊ",
+      "ipa_uk": "ˈnærəʊ",
+      "translation_ru": "узкий"
+    },
+    {
+      "word": "bakery",
+      "ipa_us": "ˈbeɪkəri",
+      "ipa_uk": "ˈbeɪkəri",
+      "translation_ru": "пекарня"
+    },
+    {
+      "word": "rubbish",
+      "ipa_us": "ˈrʌbɪʃ",
+      "ipa_uk": "ˈrʌbɪʃ",
+      "translation_ru": "мусор"
+    },
+    {
+      "word": "gondolier",
+      "ipa_us": "ˌɡɑːndəˈlɪr",
+      "ipa_uk": "ˌɡɒndəˈlɪə",
+      "translation_ru": "гондольер"
+    },
+    {
+      "word": "merchant",
+      "ipa_us": "ˈmɜːrtʃənt",
+      "ipa_uk": "ˈmɜːtʃənt",
+      "translation_ru": "купец"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "Venice",
-        "travel",
-        "evening",
-        "everywhere"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
-    },
-    {
       "sound": "w",
       "examples": [
         "water",
-        "walks"
+        "we",
+        "window",
+        "walk"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
       "sound": "ŋ",
       "examples": [
-        "sings",
-        "song",
-        "evening",
-        "thinks"
+        "morning",
+        "sinking",
+        "long"
       ],
-      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос. В конце не добавляйте «г» или «к»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "tide",
+        "time"
+      ],
+      "tip_ru": "Начните с «а» и плавно перейдите к «и»; звук скользящий, а не два отдельных."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "canal",
+        "narrow",
+        "palaces",
+        "that"
+      ],
+      "tip_ru": "Рот открыт широко, звук между «а» и «э»; не заменяйте на «э»."
     }
   ],
   "questions": [
     {
-      "question": "Are there cars in Venice?",
-      "answer": "No.",
+      "question": "Where do Laura and Ola go on holiday?",
+      "answer": "They go to Venice in Italy.",
       "accepted_keywords": [
-        "no"
+        "venice",
+        "italy"
       ]
     },
     {
-      "question": "How does Clara arrive?",
-      "answer": "By train.",
+      "question": "How do they travel along the Grand Canal?",
+      "answer": "By water bus, a vaporetto.",
       "accepted_keywords": [
-        "train"
+        "water bus",
+        "vaporetto",
+        "bus",
+        "boat"
       ]
     },
     {
-      "question": "What does Clara eat near the canal?",
-      "answer": "Ice cream.",
+      "question": "What does Laura buy for her mother?",
+      "answer": "A small blue glass bird.",
       "accepted_keywords": [
-        "ice",
-        "cream"
+        "bird",
+        "glass"
       ]
     },
     {
-      "question": "What colour is the water in the evening?",
-      "answer": "Gold.",
+      "question": "What problem does Venice have?",
+      "answer": "Water comes into the streets, and there are too many tourists.",
       "accepted_keywords": [
-        "gold"
+        "water",
+        "tourists",
+        "sinking",
+        "tide"
       ]
     }
-  ],
-  "word_count": 87
+  ]
 }

@@ -2,71 +2,83 @@
   "id": "b2-travel-03",
   "level": "B2",
   "genre": "travel",
-  "title_en": "Slow Mornings in Kyoto",
-  "title_ru": "Неспешные утра в Киото",
-  "description_ru": "Путешественник рассказывает о храмах, чайных церемониях и тихих улочках старой столицы Японии.",
-  "text": "Kyoto was the capital of Japan for more than a thousand years, and it has somehow managed to keep its soul. Although bullet trains connect it to Tokyo in barely two hours, the old city moves at a gentler pace, and the best way to experience it is slowly.\n\nI recommend starting the day at Fushimi Inari Shrine, famous for its thousands of bright orange gates. The path winds up a forested mountain, and while the lower section is full of photographers by ten o'clock, those who arrive at dawn are rewarded with silence. Halfway up, I met an elderly priest sweeping leaves. He explained that every gate was donated by a company or a family, hoping for success, and that their names are written in black ink on the back.\n\nNext, I visited a traditional tea house in the Gion district, where I took part in a tea ceremony. The host, wearing a pale blue kimono, prepared the matcha with slow, deliberate movements. I had been told in advance that I should turn the bowl twice before drinking, and I did my best, though I suspect I looked clumsy. The tea tasted bitter at first, but the sweet cake that came with it balanced the flavour perfectly.\n\nKyoto has about seventeen hundred temples, so it is impossible to see them all. My favourite was Ryoan-ji, whose famous rock garden consists of fifteen stones placed on white gravel. Nobody knows exactly what the arrangement is supposed to represent. Some say a tiger crossing the sea; others say islands in the ocean. Sitting on the wooden veranda for half an hour, I stopped trying to solve the puzzle and simply enjoyed it.\n\nPractical advice: buy a bus pass, but also rent a bicycle, because many of the loveliest corners are found in quiet back streets. Remember to remove your shoes before entering temples and homes, and avoid speaking loudly on trains.\n\nIn the evening, I walked along the Kamo River, where couples sat on the bank and lanterns glowed in the water. I realised that I had hardly looked at my phone all day, and that Kyoto had quietly cured me of my hurry.",
-  "word_count": 362,
+  "title_en": "Autumn Leaves in Kyoto",
+  "title_ru": "Осенние листья Киото",
+  "description_ru": "Путевые заметки об осеннем Киото: храмы на рассвете, чайная церемония, традиционный ужин и правила поведения, о которых стоит знать.",
+  "text": "For roughly a thousand years, Kyoto was the capital of Japan, and it still feels like the cultural heart of the country. It has been estimated that the city contains about sixteen hundred Buddhist temples and four hundred Shinto shrines, and many of them look their best in November, when the maple leaves turn red and orange. The Japanese call the practice of admiring them momijigari, which means something like hunting for red leaves, and every autumn the whole country seems to be doing it at once.\n\nThat is the main problem. The most famous temples attract so many visitors that the paths can resemble a rush-hour train platform. I had been warned about this by a friend who lived in Osaka, and her advice was simple: get up early. She told me that, if I reached the gate of a temple at opening time, I would have the garden almost to myself. I did not entirely believe her until I stood alone beside a still pond at ten past six, watching the mist lift from the water.\n\nFushimi Inari, the shrine with thousands of bright orange gates, is a good example. By ten o'clock, the lower slopes are packed with people taking photographs of each other, and you can hardly move. But the path continues up the mountain for about two hours, and the higher you climb, the fewer people you meet. Near the top, the gates stand close together, the light falls in stripes and the only sounds are birds and your own breathing. It was the best walk of my entire trip.\n\nAnother place worth visiting is Arashiyama, on the western edge of the city. Its bamboo grove is so famous that photographs of it appear on every poster, and in the middle of the day it is hopelessly crowded. Yet if you walk a little further, past the river and up a quiet hill, you will find small temples where moss grows on the stone lanterns, and a monk in grey robes sweeps the leaves into neat piles. I watched him for ten minutes. He did not look up once, and I felt that I was being taught something about patience.\n\nThe food in Kyoto deserves its own chapter. The traditional style of cooking, known as kaiseki, was developed to accompany the tea ceremony and is now served in expensive restaurants as a series of small dishes. Each one is designed to reflect the season, and presented on plates chosen to match the colours outside. In autumn, you might be offered grilled matsutake mushrooms, a fish wrapped in a maple leaf, and sweets shaped like chestnuts. It is not cheap, but a lunch menu is often half the price of dinner.\n\nFor something more affordable, visit the covered market of Nishiki, which has been selling food for more than seven centuries. Stalls offer pickled vegetables, soft tofu, sweet omelettes on sticks and tiny fish grilled over charcoal. A word of caution: eating while walking is considered rude in Japan, and most stallholders will politely ask you to stand beside the counter until you have finished. I found it a rather pleasant rule, because it forced me to slow down and taste what I was eating.\n\nOn my third day, I took part in a tea ceremony in a small house near the old district of Gion. The hostess, a woman in her sixties, explained that every movement had a purpose, from the way the bowl is turned in the hands to the sound made when drinking the last drop. I made several mistakes, and when I bowed in the wrong direction, she laughed kindly and said that even after forty years she still learned something new every time. The tea was bitter and bright green, and the sweet that came with it made the bitterness taste like a reward.\n\nIt is worth knowing a few rules of behaviour, because they make everything smoother. Shoes are removed before entering a temple hall or a traditional house, and it is polite to carry a small bag for them. Talking loudly on a bus is frowned upon, and tipping is not expected, so do not leave coins on the table. If you are invited to stay in a ryokan, a traditional inn, you will be asked to wear a cotton robe and sleep on a mattress laid on straw mats. This sounds unusual, but I slept better than I have in most hotels.\n\nGetting around Kyoto is easier than it looks. The city is laid out in a grid, and buses and subway lines run frequently, although the buses can be crowded during the leaf season. Many visitors rent bicycles, which is a very good idea because most of the main sights lie within a few kilometres of each other. Be careful with the map, however, because the best discoveries often happen when you take a wrong turn and find yourself in an alley lined with wooden houses.\n\nOn the last evening, I returned to the pond where I had begun, and the light was completely different. The water was the colour of copper, and a single red leaf was floating on the surface, turning slowly. A man beside me, who had been silent for ten minutes, remarked quietly that it would be gone by tomorrow. I understood then why the Japanese have a name for this activity. The beauty of the autumn leaves is inseparable from the fact that they do not last.",
+  "word_count": 916,
   "vocabulary": [
     {
-      "word": "shrine",
-      "ipa_us": "ʃraɪn",
-      "ipa_uk": "ʃraɪn",
-      "translation_ru": "святилище"
+      "word": "temples",
+      "ipa_us": "ˈtɛmplz",
+      "ipa_uk": "ˈtemplz",
+      "translation_ru": "храмы"
     },
     {
-      "word": "gates",
-      "ipa_us": "ɡeɪts",
-      "ipa_uk": "ɡeɪts",
-      "translation_ru": "ворота"
+      "word": "shrines",
+      "ipa_us": "ʃraɪnz",
+      "ipa_uk": "ʃraɪnz",
+      "translation_ru": "святилища"
     },
     {
-      "word": "donated",
-      "ipa_us": "ˈdoʊneɪtɪd",
-      "ipa_uk": "dəʊˈneɪtɪd",
-      "translation_ru": "пожертвованы"
+      "word": "maple",
+      "ipa_us": "ˈmeɪpl",
+      "ipa_uk": "ˈmeɪpl",
+      "translation_ru": "клён"
     },
     {
-      "word": "deliberate",
-      "ipa_us": "dɪˈlɪbərət",
-      "ipa_uk": "dɪˈlɪbərət",
-      "translation_ru": "обдуманный"
+      "word": "admiring",
+      "ipa_us": "ədˈmaɪrɪŋ",
+      "ipa_uk": "ədˈmaɪərɪŋ",
+      "translation_ru": "любуясь"
     },
     {
-      "word": "clumsy",
-      "ipa_us": "ˈklʌmzi",
-      "ipa_uk": "ˈklʌmzi",
-      "translation_ru": "неуклюжий"
+      "word": "grove",
+      "ipa_us": "ɡroʊv",
+      "ipa_uk": "ɡrəʊv",
+      "translation_ru": "роща"
     },
     {
-      "word": "bitter",
-      "ipa_us": "ˈbɪtər",
-      "ipa_uk": "ˈbɪtə",
-      "translation_ru": "горький"
+      "word": "lanterns",
+      "ipa_us": "ˈlæntərnz",
+      "ipa_uk": "ˈlæntənz",
+      "translation_ru": "фонари"
     },
     {
-      "word": "gravel",
-      "ipa_us": "ˈɡrævəl",
-      "ipa_uk": "ˈɡrævəl",
-      "translation_ru": "гравий"
+      "word": "affordable",
+      "ipa_us": "əˈfɔːrdəbl",
+      "ipa_uk": "əˈfɔːdəbl",
+      "translation_ru": "доступный по цене"
     },
     {
-      "word": "arrangement",
-      "ipa_us": "əˈreɪndʒmənt",
-      "ipa_uk": "əˈreɪndʒmənt",
-      "translation_ru": "расположение"
+      "word": "pickled",
+      "ipa_us": "ˈpɪkld",
+      "ipa_uk": "ˈpɪkld",
+      "translation_ru": "маринованный"
     },
     {
-      "word": "veranda",
-      "ipa_us": "vəˈrændə",
-      "ipa_uk": "vəˈrændə",
-      "translation_ru": "веранда"
+      "word": "charcoal",
+      "ipa_us": "ˈtʃɑːrkoʊl",
+      "ipa_uk": "ˈtʃɑːkəʊl",
+      "translation_ru": "древесный уголь"
     },
     {
-      "word": "cured",
-      "ipa_us": "kjʊrd",
-      "ipa_uk": "kjʊəd",
-      "translation_ru": "излечил"
+      "word": "ceremony",
+      "ipa_us": "ˈsɛrəmoʊni",
+      "ipa_uk": "ˈserəməni",
+      "translation_ru": "церемония"
+    },
+    {
+      "word": "politely",
+      "ipa_us": "pəˈlaɪtli",
+      "ipa_uk": "pəˈlaɪtli",
+      "translation_ru": "вежливо"
+    },
+    {
+      "word": "inseparable",
+      "ipa_us": "ɪnˈsɛpərəbl",
+      "ipa_uk": "ɪnˈsepərəbl",
+      "translation_ru": "неотделимый"
     }
   ],
   "focus_sounds": [
@@ -74,69 +86,80 @@
       "sound": "θ",
       "examples": [
         "thousand",
-        "thousands",
+        "thing",
+        "something",
         "with"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка слегка между зубами; воздух без голоса."
     },
     {
-      "sound": "w",
+      "sound": "aɪ",
       "examples": [
-        "wooden",
-        "white",
-        "wearing"
+        "quiet",
+        "design",
+        "kind",
+        "find"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Скользите от «а» к «и»; не обрывайте на «а»."
     },
     {
       "sound": "r",
       "examples": [
-        "rewarded",
-        "rock",
-        "remember"
+        "red",
+        "rush",
+        "remarked",
+        "garden"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Язык не касается нёба; губы чуть вытянуты, без русской вибрации."
     },
     {
-      "sound": "ɔː",
+      "sound": "ɑː",
       "examples": [
-        "more",
-        "forested",
-        "walked"
+        "garden",
+        "market",
+        "charcoal",
+        "are"
       ],
-      "tip_ru": "Долгий звук с округлёнными губами и опущенной нижней челюстью; не «о» и не «ор» с раскатистым р."
+      "tip_ru": "Рот широко открыт, звук долгий и глубокий, как «а» у врача."
     }
   ],
   "questions": [
     {
-      "question": "How long was Kyoto the capital of Japan?",
-      "answer": "More than a thousand years.",
+      "question": "What does momijigari mean?",
+      "answer": "Hunting for red leaves, or admiring autumn leaves.",
       "accepted_keywords": [
-        "thousand",
-        "1000"
+        "red",
+        "leaves",
+        "autumn"
       ]
     },
     {
-      "question": "How many stones are in the rock garden at Ryoan-ji?",
-      "answer": "Fifteen.",
+      "question": "What advice did the friend from Osaka give?",
+      "answer": "To get up early and reach temples at opening time.",
       "accepted_keywords": [
-        "fifteen",
-        "15"
+        "early",
+        "opening",
+        "morning"
       ]
     },
     {
-      "question": "What should visitors remove before entering temples?",
-      "answer": "Their shoes.",
+      "question": "Why is eating while walking discouraged in Nishiki market?",
+      "answer": "It is considered rude in Japan.",
       "accepted_keywords": [
-        "shoes"
+        "rude",
+        "polite",
+        "counter"
       ]
     },
     {
-      "question": "Where did the writer walk in the evening?",
-      "answer": "Along the Kamo River.",
+      "question": "What is kaiseki?",
+      "answer": "A traditional style of cooking served as small seasonal dishes.",
       "accepted_keywords": [
-        "kamo",
-        "river"
+        "dishes",
+        "traditional",
+        "seasonal",
+        "cooking",
+        "meal"
       ]
     }
   ]

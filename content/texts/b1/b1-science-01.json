@@ -2,108 +2,165 @@
   "id": "b1-science-01",
   "level": "B1",
   "genre": "science",
-  "title_en": "Why Is the Sky Blue?",
-  "title_ru": "Почему небо голубое?",
-  "description_ru": "Объяснение, как рассеяние солнечного света в атмосфере делает небо синим, а закат красным.",
-  "text": "Every day, we look up at a blue sky, but few people have ever asked why it is blue. The answer lies in the way sunlight travels through the atmosphere.\n\nSunlight looks white, but it is really a mixture of all the colours of the rainbow. Each colour has a different wavelength. Red light has a long wavelength, while blue and violet light have much shorter ones. When sunlight enters the atmosphere, it hits tiny molecules of gas, mostly nitrogen and oxygen. These molecules scatter the light in all directions. This effect is called Rayleigh scattering, after the British scientist who described it in the nineteenth century.\n\nShort waves are scattered much more strongly than long waves. Because of this, blue light is spread across the whole sky, and it reaches our eyes from every direction. Violet light is scattered even more, but the sun gives off less of it, and our eyes are less sensitive to it. That is why we see blue, not violet.\n\nAt sunset, the situation changes. The sun is low, so its light has to travel through a much thicker layer of air. Most of the blue light is scattered away before it reaches us. The light that remains is orange and red, and this is why sunsets look so warm.\n\nIf the Earth had no atmosphere, the sky would be black, even during the day. Astronauts have seen this with their own eyes.",
-  "word_count": 239,
+  "title_en": "How Vaccines Work",
+  "title_ru": "Как работают вакцины",
+  "description_ru": "Как вакцины обучают иммунную систему, от опыта Дженнера до современных мРНК-вакцин и коллективного иммунитета.",
+  "text": "Every day, your body is attacked by millions of microscopic invaders. Most of them are defeated so quickly that you never notice. But some diseases, such as measles, polio and smallpox, are dangerous because they spread fast and can cause serious damage before the body has time to respond. Vaccines have been designed to solve exactly this problem. They teach the immune system how to recognise a dangerous germ without making you ill, so that when the real germ arrives, your body is already prepared.\n\nThe idea is much older than modern science. In 1796, an English doctor named Edward Jenner noticed that milkmaids who had caught a mild disease called cowpox seemed to be protected from smallpox, which killed and scarred millions of people. He took some fluid from a cowpox sore and put it into a small cut on the arm of a young boy. When he later exposed the boy to smallpox, the boy did not become sick. The word \"vaccine\" actually comes from the Latin word for cow, vacca. Nearly two hundred years later, in 1980, the World Health Organization announced that smallpox had been completely eradicated.\n\nTo understand how a vaccine works, it helps to know a little about the immune system. Your body is full of white blood cells, which patrol the blood and tissues. Every germ carries molecules on its surface called antigens. When white blood cells detect an unfamiliar antigen, they begin to produce proteins called antibodies, which attach to the invader and mark it for destruction. However, making the right antibodies for a new germ can take several days. During that time, the germ multiplies, and the person may become seriously ill.\n\nA vaccine gives the body a safe preview. It contains a harmless piece or version of a germ, and this is enough to start the immune response. The white blood cells recognise the antigen, produce antibodies and, most importantly, create special memory cells. These cells can survive for years, sometimes for a whole lifetime. If the real germ ever enters the body, the memory cells recognise it immediately and release a large number of antibodies within hours, instead of days. In many cases, the person has no symptoms at all.\n\nThere are several different kinds of vaccine. Some contain a weakened form of the living germ, which cannot cause the disease in healthy people but still looks familiar to the immune system. The vaccines against measles and chickenpox are made this way. Others contain a germ that has been killed, or only a small part of it, such as a single protein. A more recent type, called an mRNA vaccine, does not contain any part of the germ at all. Instead, it carries a short set of instructions that tells your cells to make one harmless protein, and the immune system learns to recognise it. The instructions are destroyed by the body within a few days.\n\nWhy do some vaccines need more than one dose? The answer is that a single introduction is often not enough to create a strong, long-lasting memory. A second dose, called a booster, reminds the immune system and makes the response stronger. Other vaccines, such as the one for influenza, need to be repeated every year, because the flu virus changes quickly. Scientists must predict which versions will be common each winter and adjust the vaccine accordingly, which is why it is not perfect, although it still reduces serious illness.\n\nVaccines protect not only the person who receives them, but also the people around them. If most of a community is immune, the germ cannot move easily from one person to another, and it eventually disappears. This effect is known as herd immunity. It is especially important for babies who are too young to be vaccinated, and for people with weak immune systems. For measles, which is extremely contagious, about ninety-five percent of the population need to be vaccinated before the community is properly protected.\n\nLike any medicine, vaccines can cause side effects. Most are mild and short: a sore arm, a slight fever or tiredness for a day or two. These are signs that the immune system is working. Serious reactions are extremely rare, and before a vaccine is approved, it is tested on thousands of volunteers and monitored for years. If doctors had not been so careful, many people would have lost their trust, and diseases that are now uncommon would have returned.\n\nToday, vaccines prevent several million deaths every year, according to the World Health Organization. Researchers are working on new ones against malaria, which kills hundreds of thousands of children annually, and even against some kinds of cancer. Whenever you roll up your sleeve for an injection, you are taking part in one of the greatest achievements in medical history, a science that began with a country doctor, a few milkmaids and a very brave boy.",
+  "word_count": 816,
   "vocabulary": [
     {
-      "word": "atmosphere",
-      "ipa_us": "ˈætməsfɪr",
-      "ipa_uk": "ˈætməsfɪə",
-      "translation_ru": "атмосфера"
+      "word": "vaccine",
+      "ipa_us": "vækˈsiːn",
+      "ipa_uk": "ˈvæksiːn",
+      "translation_ru": "вакцина"
     },
     {
-      "word": "mixture",
-      "ipa_us": "ˈmɪkstʃɚ",
-      "ipa_uk": "ˈmɪkstʃə",
-      "translation_ru": "смесь"
+      "word": "antigens",
+      "ipa_us": "ˈæntɪdʒənz",
+      "ipa_uk": "ˈæntɪdʒənz",
+      "translation_ru": "антигены"
     },
     {
-      "word": "wavelength",
-      "ipa_us": "ˈweɪvleŋθ",
-      "ipa_uk": "ˈweɪvleŋθ",
-      "translation_ru": "длина волны"
+      "word": "antibodies",
+      "ipa_us": "ˈæntibɑːdiz",
+      "ipa_uk": "ˈæntibɒdiz",
+      "translation_ru": "антитела"
     },
     {
-      "word": "molecules",
-      "ipa_us": "ˈmɑːləkjuːlz",
-      "ipa_uk": "ˈmɒlɪkjuːlz",
-      "translation_ru": "молекулы"
+      "word": "eradicated",
+      "ipa_us": "ɪˈrædɪkeɪtɪd",
+      "ipa_uk": "ɪˈrædɪkeɪtɪd",
+      "translation_ru": "искоренена"
     },
     {
-      "word": "scatter",
-      "ipa_us": "ˈskætɚ",
-      "ipa_uk": "ˈskætə",
-      "translation_ru": "рассеивать"
+      "word": "immune",
+      "ipa_us": "ɪˈmjuːn",
+      "ipa_uk": "ɪˈmjuːn",
+      "translation_ru": "иммунный"
     },
     {
-      "word": "sensitive",
-      "ipa_us": "ˈsensətɪv",
-      "ipa_uk": "ˈsensətɪv",
-      "translation_ru": "чувствительный"
+      "word": "invaders",
+      "ipa_us": "ɪnˈveɪdərz",
+      "ipa_uk": "ɪnˈveɪdəz",
+      "translation_ru": "захватчики"
     },
     {
-      "word": "astronauts",
-      "ipa_us": "ˈæstrənɔːts",
-      "ipa_uk": "ˈæstrənɔːts",
-      "translation_ru": "космонавты"
+      "word": "weakened",
+      "ipa_us": "ˈwiːkənd",
+      "ipa_uk": "ˈwiːkənd",
+      "translation_ru": "ослабленный"
+    },
+    {
+      "word": "booster",
+      "ipa_us": "ˈbuːstər",
+      "ipa_uk": "ˈbuːstə",
+      "translation_ru": "бустерная доза"
+    },
+    {
+      "word": "contagious",
+      "ipa_us": "kənˈteɪdʒəs",
+      "ipa_uk": "kənˈteɪdʒəs",
+      "translation_ru": "заразный"
+    },
+    {
+      "word": "immunity",
+      "ipa_us": "ɪˈmjuːnəti",
+      "ipa_uk": "ɪˈmjuːnəti",
+      "translation_ru": "иммунитет"
+    },
+    {
+      "word": "symptoms",
+      "ipa_us": "ˈsɪmptəmz",
+      "ipa_uk": "ˈsɪmptəmz",
+      "translation_ru": "симптомы"
+    },
+    {
+      "word": "approved",
+      "ipa_us": "əˈpruːvd",
+      "ipa_uk": "əˈpruːvd",
+      "translation_ru": "одобрена"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "through",
-        "thick",
-        "nineteenth"
-      ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "wavelength",
-        "white",
-        "when",
-        "with"
-      ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
-    },
-    {
       "sound": "v",
       "examples": [
-        "violet",
+        "vaccine",
         "very",
-        "even",
-        "travel"
+        "every",
+        "several"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не превращайте его в «в» с округлением губ."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "without",
+        "with",
+        "thousands"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте мягко; не заменяйте на «с» или «з»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "invaders",
+        "eradicated",
+        "contagious",
+        "days"
+      ],
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не обрывайте звук."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "vaccine",
+        "antibodies",
+        "immunity",
+        "approved"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What is sunlight a mixture of?",
-      "answer": "All the colours of the rainbow.",
+      "question": "Who tested the first vaccine, and when?",
+      "answer": "Edward Jenner in 1796, using cowpox against smallpox.",
       "accepted_keywords": [
-        "colours",
-        "colors",
-        "rainbow"
+        "jenner",
+        "1796",
+        "cowpox"
       ]
     },
     {
-      "question": "What is the scientific name for the scattering effect?",
-      "answer": "Rayleigh scattering.",
+      "question": "What are memory cells?",
+      "answer": "Cells that remember a germ and react quickly if it returns.",
       "accepted_keywords": [
-        "rayleigh"
+        "remember",
+        "memory",
+        "quickly",
+        "germ"
       ]
     },
     {
-      "question": "What colour is the sky without an atmosphere?",
-      "answer": "Black.",
+      "question": "What is herd immunity?",
+      "answer": "When most people are immune, a germ cannot spread easily.",
       "accepted_keywords": [
-        "black"
+        "spread",
+        "immune",
+        "community",
+        "protect"
+      ]
+    },
+    {
+      "question": "What side effects are usual after vaccination?",
+      "answer": "A sore arm, a slight fever or tiredness.",
+      "accepted_keywords": [
+        "sore",
+        "arm",
+        "fever",
+        "tired",
+        "tiredness"
       ]
     }
   ]

@@ -2,122 +2,165 @@
   "id": "c1-dialogue-01",
   "level": "C1",
   "genre": "dialogue",
-  "title_en": "The Fourteenth Is a Wish",
-  "title_ru": "Четырнадцатое — это пожелание",
-  "description_ru": "Сотрудница честно объясняет начальнику, почему срок запуска проекта нереален, и предлагает два варианта выхода.",
-  "text": "Gordon: Maya, thanks for stopping by. I wanted to talk about the Hartley launch before it gets away from us.\nMaya: I assumed as much. If this is about the fourteenth, I'd rather raise my concerns now than apologise in three weeks.\nGordon: Go on, then. I'd rather hear them.\nMaya: The fourteenth isn't a deadline so much as a wish. We're still waiting on the legal review, the translations aren't finalised, and the payment system has only been tested with a handful of dummy accounts.\nGordon: Those all sound like details to me. The client has already told their board we're launching that week.\nMaya: Then the client has made a promise on our behalf without consulting us. That's not a detail, that's a risk, and it's ours.\nGordon: You're not wrong. But if I go back and ask for another month, they'll start wondering whether we're competent.\nMaya: They'll wonder far more if the checkout fails on the first morning. Imagine the headlines. Imagine the refund requests.\nGordon: Fair point. So what are you proposing, exactly? I don't want a complaint without a plan.\nMaya: Two options. We could launch on schedule with a reduced feature set: no loyalty scheme, no second language, and a visible \"beta\" label. Or we move to the twenty-eighth and launch everything properly.\nGordon: And which would you choose, if it were your name on the contract?\nMaya: Honestly, the second. A partial launch usually gets remembered as a failed launch, whatever the label says. Fourteen days is cheap insurance.\nGordon: What if the client refuses?\nMaya: Then we show them the test results. Numbers tend to be more persuasive than opinions, and ours are not flattering.\nGordon: Hm. I'll admit I was hoping you'd tell me it was all manageable.\nMaya: I could, but I'd be lying, and you'd discover it at the worst possible moment.\nGordon: Which is exactly why I value you, irritating as it is. All right. Draft a one-page summary of the risks, with both options, and I'll take it to the client on Friday.\nMaya: I can have it by tomorrow afternoon. Would you like me to join the call?\nGordon: Perhaps for the technical questions. Leave the diplomacy to me.\nMaya: That seems a sensible division of labour. Thank you for hearing me out.\nGordon: Thank you for not letting me walk off a cliff politely. Most people would have simply nodded and let the deadline do the talking.\nMaya: I considered it for about a second. Then I remembered who would be answering the phone at midnight on the fourteenth.\nGordon: Fair enough. Let's make sure it isn't either of us.",
-  "word_count": 425,
+  "title_en": "A Result Nobody Wanted",
+  "title_ru": "Результат, которого никто не ждал",
+  "description_ru": "Аспирантка приходит к научному руководителю с провалившимся повторением эксперимента. Разговор о том, чем ценна неудача и как превратить её в главу диссертации.",
+  "text": "Lena: Dr Okafor, have you got a minute? I'd rather not wait until Thursday's meeting, because I suspect I'll lose my nerve.\nOkafor: Come in, sit down. You look as though you've been awake since Tuesday. What's happened?\nLena: The replication failed. I ran the full protocol three times, with the larger sample, and the effect simply isn't there. Not weaker, not noisy. Absent.\nOkafor: Ah. And how many times did you check the analysis before telling me?\nLena: Embarrassingly, about forty. I even had Marcus go through the code line by line. There's no bug.\n\nOkafor: Good. That's the correct reaction, and I'm sorry to say it's also the beginning of a long afternoon. Sit.\nOkafor: And your instinct is to blame yourself, I imagine, rather than the universe.\nLena: Naturally. The universe has a perfect record, and I have a pipette and a bad attitude.\nOkafor: Then let me offer a different hypothesis, which is that the universe has simply declined to cooperate with a rather fashionable idea.\n\nLena: The thing is, the whole second chapter depends on it. If the original finding doesn't hold, I don't have a chapter. I might not have a thesis.\nOkafor: Let's slow down. What you have is a clean, well-powered null result. In a sense, that's rarer than a positive one.\nLena: With respect, that sounds like something people say at funerals.\nOkafor: It does, doesn't it? But I mean it. Do you know how many labs have quietly failed to reproduce that paper and said nothing?\nLena: I didn't realise there were any.\n\nOkafor: Because nobody publishes them. Journals love a surprise, and a failure to find something is rarely a surprise. So the original result sits there, unchallenged, and a hundred students build on it like a house on sand.\nLena: So I'm the one who gets to discover the sand.\nOkafor: Precisely. Which is uncomfortable, and also, if you handle it properly, a rather significant contribution.\nLena: Dr Okafor, I appreciate the optimism, but the committee wants a story. A coherent arc. I can hardly walk in and say, \"Here are three years of nothing.\"\nOkafor: Not nothing. Think about what you've actually done. You've tested a claim that shaped a subfield, with greater rigour than anyone before you. That is the job, Lena. We pretend it's about confirming things, but science is mostly the patient business of discovering where our confidence was misplaced.\n\nLena: It doesn't feel like that at two in the morning.\nOkafor: No. It never does. May I tell you something I don't usually admit to students?\nLena: Please.\nOkafor: In my second year, I spent eighteen months chasing a protein interaction that turned out to be an artefact of the buffer I was using. A contaminant. Eighteen months. I nearly left the field.\nLena: What stopped you?\n\nOkafor: A rather blunt postdoc named Hartmann, who told me that the only people who never waste time are those who never try anything. Then he made me present the failure at group meeting, with slides.\nLena: That sounds mortifying.\nOkafor: It was. It was also the most useful talk I've ever given, because a visiting professor in the audience recognised the same artefact in his own data and spent the following month rescuing a paper of his. Failures, it turns out, are communal property, if you're brave enough to share them.\nLena: All right. Suppose I accept that this is valuable. How do I make it a chapter?\n\nOkafor: By changing the question. Instead of asking whether the effect exists, ask why the original appeared to. There must have been something in that first experiment, a quirk in the stimuli, a lucky subset, a flexible analysis, that produced the signal.\nLena: Which means going back through their methods. Politely, I assume.\nOkafor: Exceedingly politely. Remember that the original authors weren't villains. They probably did exactly what everyone did at the time. The incentives rewarded it.\nLena: And if they get defensive?\nOkafor: Then you'll have a perfect example of why we need open data. But I suspect you'll find them more generous than you expect. Most researchers would rather learn the truth in a friendly email than on a conference stage.\n\nLena: I could preregister the new analysis. Be transparent about every decision.\nOkafor: Now you're thinking like a scientist rather than a candidate. I'd go further. Write to them before you publish. Offer them the data. Make it collaborative.\nLena: That's a risk, isn't it? What if they try to block it?\nOkafor: Possibly, although I doubt it. Most editors respond well to a manuscript that is honest about its own limitations and generous about everybody else's.\nLena: I'd like to believe that.\n\nOkafor: Believe it provisionally. That's what we do. A result that survives only because nobody was allowed to look at it isn't worth protecting. And I'll back you, if it comes to that. I have tenure for a reason.\nLena: I don't know what to say.\nOkafor: Say that you'll go home, sleep for ten hours, and eat something that didn't come out of a vending machine. We'll rewrite the outline on Monday.\nLena: Thank you. Honestly. I came in here expecting to be consoled, and instead I've been given a plan.\n\nLena: What if the committee asks why I didn't see the problem earlier?\nOkafor: Then you'll explain that nobody could have seen it earlier, because the evidence didn't exist until you produced it. That is the entire point of an experiment.\nOkafor: Consolation is cheap, and it wears off by Wednesday. A plan lasts.\nLena: May I ask one more thing? Do you still think about those eighteen months?\nOkafor: Every time I'm tempted to trust a result because I want it to be true. It's a better teacher than any of my successes. Now go home, Lena, before I start being sentimental.",
+  "word_count": 938,
   "vocabulary": [
     {
-      "word": "finalised",
-      "ipa_us": "ˈfaɪnəlaɪzd",
-      "ipa_uk": "ˈfaɪnəlaɪzd",
-      "translation_ru": "доработаны, утверждены"
+      "word": "replication",
+      "ipa_us": "ˌreplɪˈkeɪʃən",
+      "ipa_uk": "ˌreplɪˈkeɪʃən",
+      "translation_ru": "воспроизведение (эксперимента)"
     },
     {
-      "word": "competent",
-      "ipa_us": "ˈkɑːmpɪtənt",
-      "ipa_uk": "ˈkɒmpɪtənt",
-      "translation_ru": "компетентный"
+      "word": "null result",
+      "ipa_us": "nʌl rɪˈzʌlt",
+      "ipa_uk": "nʌl rɪˈzʌlt",
+      "translation_ru": "отрицательный результат"
     },
     {
-      "word": "persuasive",
-      "ipa_us": "pərˈsweɪsɪv",
-      "ipa_uk": "pəˈsweɪsɪv",
-      "translation_ru": "убедительный"
+      "word": "well-powered",
+      "ipa_us": "ˌwel ˈpaʊərd",
+      "ipa_uk": "ˌwel ˈpaʊəd",
+      "translation_ru": "с достаточной статистической мощностью"
     },
     {
-      "word": "flattering",
-      "ipa_us": "ˈflætərɪŋ",
-      "ipa_uk": "ˈflætərɪŋ",
-      "translation_ru": "лестный"
+      "word": "unchallenged",
+      "ipa_us": "ʌnˈtʃælɪndʒd",
+      "ipa_uk": "ʌnˈtʃælɪndʒd",
+      "translation_ru": "неоспоренный"
     },
     {
-      "word": "manageable",
-      "ipa_us": "ˈmænɪdʒəbl",
-      "ipa_uk": "ˈmænɪdʒəbl",
-      "translation_ru": "выполнимый"
+      "word": "rigour",
+      "ipa_us": "ˈrɪɡər",
+      "ipa_uk": "ˈrɪɡə",
+      "translation_ru": "строгость, тщательность"
     },
     {
-      "word": "irritating",
-      "ipa_us": "ˈɪrɪteɪtɪŋ",
-      "ipa_uk": "ˈɪrɪteɪtɪŋ",
-      "translation_ru": "раздражающий"
+      "word": "artefact",
+      "ipa_us": "ˈɑːrtɪfækt",
+      "ipa_uk": "ˈɑːtɪfækt",
+      "translation_ru": "артефакт (ложный эффект)"
     },
     {
-      "word": "insurance",
-      "ipa_us": "ɪnˈʃʊrəns",
-      "ipa_uk": "ɪnˈʃʊərəns",
-      "translation_ru": "страховка"
+      "word": "contaminant",
+      "ipa_us": "kənˈtæmɪnənt",
+      "ipa_uk": "kənˈtæmɪnənt",
+      "translation_ru": "загрязнитель"
+    },
+    {
+      "word": "mortifying",
+      "ipa_us": "ˈmɔːrtɪfaɪɪŋ",
+      "ipa_uk": "ˈmɔːtɪfaɪɪŋ",
+      "translation_ru": "унизительный"
+    },
+    {
+      "word": "communal",
+      "ipa_us": "kəˈmjuːnl",
+      "ipa_uk": "ˈkɒmjʊnl",
+      "translation_ru": "общий, коллективный"
+    },
+    {
+      "word": "incentives",
+      "ipa_us": "ɪnˈsentɪvz",
+      "ipa_uk": "ɪnˈsentɪvz",
+      "translation_ru": "стимулы"
+    },
+    {
+      "word": "preregister",
+      "ipa_us": "ˌpriːˈredʒɪstər",
+      "ipa_uk": "ˌpriːˈredʒɪstə",
+      "translation_ru": "предварительно зарегистрировать (план)"
+    },
+    {
+      "word": "consoled",
+      "ipa_us": "kənˈsoʊld",
+      "ipa_uk": "kənˈsəʊld",
+      "translation_ru": "утешенный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "final-voiced",
-      "examples": [
-        "board",
-        "made",
-        "told"
-      ],
-      "tip_ru": "Звонкие согласные на конце не оглушайте: в board и told звук «d» остаётся звонким, а предыдущая гласная чуть длиннее."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "persuasive",
-        "competent",
-        "manageable"
+        "replication",
+        "incentives",
+        "communal"
       ],
-      "tip_ru": "Ударение: perˈsuasive, ˈcompetent, ˈmanageable. Безударные слоги сокращайте до краткого «ə»."
+      "tip_ru": "Ударение: repliˈcation, ˈincentives, comˈmunal (в американском варианте на -mu-). Слоги перед ударением редуцируйте до «ə»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "good",
+        "protocol",
+        "confidence"
+      ],
+      "tip_ru": "Конечный «d» в good, planned, rewrite-ed словах должен оставаться звонким, а не превращаться в «т»."
     },
     {
       "sound": "θ",
       "examples": [
-        "thanks",
-        "month",
+        "thesis",
+        "think",
         "three"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, звук глухой, без «с» и «ф»."
+      "tip_ru": "Для «th» (thesis, three, think) язык слегка высунут между зубами, звук глухой."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "look at it",
+        "go through",
+        "think about"
+      ],
+      "tip_ru": "Связывайте слова: look_at_it, think_about звучат слитно."
     }
   ],
   "questions": [
     {
-      "question": "What does Maya think of the fourteenth?",
-      "answer": "It is a wish rather than a real deadline.",
+      "question": "What went wrong with Lena's experiment?",
+      "answer": "The replication failed: the effect was absent even with a larger sample.",
       "accepted_keywords": [
-        "wish",
-        "unrealistic",
-        "deadline"
+        "replication",
+        "failed",
+        "effect",
+        "absent",
+        "null"
       ]
     },
     {
-      "question": "What two options does Maya offer?",
-      "answer": "Launch on time with fewer features, or move to the twenty-eighth.",
+      "question": "Why does Dr Okafor call the null result valuable?",
+      "answer": "Because few journals publish failures, so the original claim stays unchallenged.",
       "accepted_keywords": [
-        "twenty-eighth",
-        "28th",
-        "fewer",
-        "reduced",
-        "delay"
+        "publish",
+        "unchallenged",
+        "rare",
+        "sand",
+        "journals"
       ]
     },
     {
-      "question": "Which option would Maya choose?",
-      "answer": "The second one: the later date.",
+      "question": "What mistake did Dr Okafor make in his second year?",
+      "answer": "He chased a protein interaction that was an artefact of the buffer.",
       "accepted_keywords": [
-        "second",
-        "later",
-        "twenty-eighth",
-        "delay"
+        "artefact",
+        "buffer",
+        "contaminant",
+        "protein"
       ]
     },
     {
-      "question": "What will Maya prepare for Gordon?",
-      "answer": "A one-page summary of the risks.",
+      "question": "What does he advise Lena to do?",
+      "answer": "Ask why the original appeared to work, and contact the original authors collaboratively.",
       "accepted_keywords": [
-        "summary",
-        "risks",
-        "one-page"
+        "why",
+        "authors",
+        "collaborative",
+        "data",
+        "email"
       ]
     }
   ]

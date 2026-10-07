@@ -175,27 +175,49 @@ int LiveTracker::process_word(const std::vector<std::string>& hyp, size_t i, boo
 }
 
 const LiveState& LiveTracker::update(const std::vector<std::string>& hypothesis, bool final) {
-    // normalize (lowercase, strip punctuation, numbers -> words) exactly like the reference
-    std::string joined;
-    for (const auto& w : hypothesis) { joined += w; joined += ' '; }
+    // Only the last kTail raw words of the (ever growing) recognizer hypothesis are re-tokenized per call; the
+    // older prefix is stable and only its normalized word count is kept. Per-call cost is O(kTail), not O(9 min).
+    constexpr std::size_t kTail = 48, kSlack = 48;
+    if (hypothesis.size() < pre_raw_) { pre_raw_ = 0; pre_norm_ = 0; }
     TokenizeOptions opt;
     opt.skip_speaker_labels = false;
-    std::vector<std::string> all;
-    for (const Token& t : tokenize(joined, opt)) if (!t.norm.empty()) all.push_back(t.norm);
+    const auto norm_words = [&](std::size_t from, std::size_t to) {
+        std::string joined;
+        for (std::size_t k = from; k < to; ++k) { joined += hypothesis[k]; joined += ' '; }
+        std::vector<std::string> v;
+        for (const Token& t : tokenize(joined, opt)) if (!t.norm.empty()) v.push_back(t.norm);
+        return v;
+    };
+    if (hypothesis.size() > pre_raw_ + kTail + kSlack) {
+        const std::size_t to = hypothesis.size() - kTail;
+        pre_norm_ += norm_words(pre_raw_, to).size();
+        pre_raw_ = to;
+    }
+    const std::vector<std::string> tail = norm_words(pre_raw_, hypothesis.size());
+    const std::size_t off = pre_norm_;
+    const std::size_t total = off + tail.size();
 
-    const std::size_t prev_n = last_hyp_.size();
-    if (all.size() < base_) base_ = all.size();
-    std::vector<std::string> hyp(all.begin() + static_cast<std::ptrdiff_t>(base_), all.end());
+    const std::size_t prev_n = last_off_ + last_hyp_.size();
+    if (total < base_) base_ = total;
+    if (base_ < off) {  // cannot be that far behind: the stable prefix was consumed long ago
+        consumed_ = consumed_ > off - base_ ? consumed_ - (off - base_) : 0;
+        base_ = off;
+    }
+    std::vector<std::string> hyp(tail.begin() + static_cast<std::ptrdiff_t>(base_ - off), tail.end());
 
     // where to resume: the unstable last word may have been revised since the previous call
     std::size_t resume = std::min(consumed_, hyp.size());
     const std::size_t prev_eff = prev_n > base_ ? prev_n - base_ : 0;
     if (prev_eff > 0) {
         const std::size_t li = prev_eff - 1;
-        if (li < hyp.size() && hyp[li] != last_hyp_[base_ + li]) resume = std::min(resume, li);
+        const std::size_t abs_li = base_ + li;
+        if (li < hyp.size() && abs_li >= last_off_ && abs_li - last_off_ < last_hyp_.size() &&
+            hyp[li] != last_hyp_[abs_li - last_off_])
+            resume = std::min(resume, li);
         if (hyp.size() < prev_eff) resume = hyp.empty() ? 0 : hyp.size() - 1;
     }
-    last_hyp_ = all;
+    last_hyp_ = tail;
+    last_off_ = off;
 
     std::size_t i = resume;
     for (; i < hyp.size(); ++i) {
@@ -220,7 +242,7 @@ const LiveState& LiveTracker::set_cursor(int word_index) {
     cursor_ = c;
     done_ = (n == 0) || (c >= n);
     // everything the recognizer has heard so far belongs to the old position
-    base_ = last_hyp_.size();
+    base_ = last_off_ + last_hyp_.size();
     consumed_ = 0;
     last_anchor_abs_ = static_cast<long>(base_) - 1;
     publish();

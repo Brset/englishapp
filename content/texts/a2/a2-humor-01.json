@@ -2,123 +2,164 @@
   "id": "a2-humor-01",
   "level": "A2",
   "genre": "humor",
-  "title_en": "The Talking Parrot",
-  "title_ru": "Говорящий попугай",
-  "description_ru": "Смешная история о попугае, который повторял всё, что слышал дома.",
-  "text": "My uncle Victor had a parrot called Max. Max was very clever, and he could say about fifty words. The problem was that he repeated everything he heard.\n\nOne day, my aunt had a visitor at home. She was a very serious woman from the bank. My aunt wanted to make a good impression, so she put on her best dress and made a lovely cake.\n\nThe visitor sat down and started to talk about money. Suddenly, Max shouted, \"Where are my keys? Where are my keys?\" That was my uncle's voice! Everybody laughed.\n\nThen Max said, \"Not this cake again!\" The visitor looked at my aunt, and my aunt turned red.\n\nAfter that day, my aunt always covered the cage with a blanket when guests came. \"Parrots do not need to hear everything,\" she said. Max did not agree. From under the blanket, he whispered, \"Not this cake again!\"",
-  "word_count": 150,
+  "title_en": "The Easy Chocolate Cake",
+  "title_ru": "Лёгкий шоколадный торт",
+  "description_ru": "Юмористический рассказ о том, как человек, который умеет сжигать даже воду, решил испечь торт маме на день рождения.",
+  "text": "Last month, my mother had a birthday, and I decided to make her a cake. This was a bad idea from the beginning, because I am the kind of person who can burn water. But my mother always buys me a present, and I felt that it was time to do something nice for her. I found a recipe on the internet. It was called \"Easy Chocolate Cake for Beginners\". I should have been suspicious of the word \"easy\".\n\nOn Saturday morning, I went to the supermarket with a list. I bought eggs, flour, sugar, butter and chocolate. I also bought a very expensive box of little silver balls to decorate the top. At home, I put everything on the kitchen table and looked at the recipe. It said, \"Mix the dry ingredients.\" I did not know which ingredients were dry. I decided that sugar was dry, flour was dry and the chocolate was maybe a bit damp. I put everything into a big bowl.\n\nThe first problem was the eggs. The recipe said, \"Break three eggs into a cup.\" I broke the first one, and half of the shell fell into the cup. I tried to take it out with a spoon, but the shell kept running away from me. After five minutes, I used my fingers, and the egg ran down my sleeve. The second egg dropped on the floor, and my cat, Mr Whiskers, came to look at it. He is not a clever cat, but even he seemed disappointed. The third egg was perfect. I was so proud that I took a photograph.\n\nThen I turned on the oven. The recipe said 180 degrees, but I thought that a hot oven makes a faster cake. So I chose 250. While the oven was getting hot, I stirred the mixture with a wooden spoon. It was much thicker than the picture on the internet. It looked like cement. I added some milk. Then it looked like soup, so I added more flour. After a while, I had enough mixture for twelve cakes, and I had to use two bowls.\n\nI poured the mixture into a tin and put it in the oven. Then I went to the sitting room to watch television, because I was tired. \"Bake for thirty minutes,\" the recipe said, and I thought that I would only close my eyes for a moment. When I woke up, there was a strange smell in the flat. It smelled like a campfire. I ran into the kitchen, and the room was full of grey smoke. The cake was black, and it was smaller than a football. The smoke alarm was screaming, and Mr Whiskers was sitting on top of the fridge, looking at me as if I had done something terrible.\n\nI opened all the windows and waved a towel in the air. Five minutes later, my neighbour, Mrs Klein, rang the bell. She was holding a fire extinguisher, and she looked very worried. \"Is everything all right?\" she asked. \"I thought your kitchen was on fire.\" I explained that I was just baking a cake. She looked at the black thing on the table and said, \"Is that a cake, or is it a piece of coal?\" I said that it was an experimental cake. She was very polite and did not laugh for at least three seconds.\n\nI had only two hours before the party, so I had to find a plan. First, I tried to cut the burnt part away, but there was nothing left that was not burnt. Then I wanted to cover it with chocolate. I melted the rest of the chocolate in a pan, but I forgot to turn off the heat, and it became hard and bitter. In the end, I decided to go back to the supermarket. I bought a big, beautiful cake with strawberries on top. It was twice as expensive as I expected, but it was better than my cake in every possible way.\n\nAt home, I put the strawberry cake on a plate, and I threw the burnt one into the bin. I also decided to hide the evidence. I cleaned the kitchen and opened the windows again, but my flat still smelled like a factory. When my mother arrived, she took one breath and said, \"Did you cook something?\" I said, \"No, of course not. It is a new perfume.\"\n\nThe party was lovely. Everybody ate the cake and said it was delicious. My mother said that it was the best cake she had ever tasted. I smiled and said nothing. Then Mrs Klein arrived with a small gift, and she looked at the cake. \"This is much better than the coal,\" she whispered to me. I almost choked on my tea.\n\nSince then, I have learned two important lessons. First, I will never trust a recipe with the word \"easy\". Second, if you want to give someone a cake, buy one. It is cheaper than the cost of a new smoke alarm, and much better for your cat's opinion of you.",
+  "word_count": 846,
   "vocabulary": [
     {
-      "word": "parrot",
-      "ipa_us": "ˈpærət",
-      "ipa_uk": "ˈpærət",
-      "translation_ru": "попугай"
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     },
     {
-      "word": "repeated",
-      "ipa_us": "rɪˈpiːtɪd",
-      "ipa_uk": "rɪˈpiːtɪd",
-      "translation_ru": "повторял"
+      "word": "suspicious",
+      "ipa_us": "səˈspɪʃəs",
+      "ipa_uk": "səˈspɪʃəs",
+      "translation_ru": "подозрительный"
     },
     {
-      "word": "visitor",
-      "ipa_us": "ˈvɪzɪtər",
-      "ipa_uk": "ˈvɪzɪtə",
-      "translation_ru": "гость"
+      "word": "ingredients",
+      "ipa_us": "ɪnˈɡridiənts",
+      "ipa_uk": "ɪnˈɡriːdiənts",
+      "translation_ru": "ингредиенты"
     },
     {
-      "word": "serious",
-      "ipa_us": "ˈsɪriəs",
-      "ipa_uk": "ˈsɪəriəs",
-      "translation_ru": "серьёзный"
+      "word": "shell",
+      "ipa_us": "ʃɛl",
+      "ipa_uk": "ʃel",
+      "translation_ru": "скорлупа"
     },
     {
-      "word": "impression",
-      "ipa_us": "ɪmˈpreʃn",
-      "ipa_uk": "ɪmˈpreʃn",
-      "translation_ru": "впечатление"
+      "word": "disappointed",
+      "ipa_us": "ˌdɪsəˈpɔɪntɪd",
+      "ipa_uk": "ˌdɪsəˈpɔɪntɪd",
+      "translation_ru": "разочарованный"
     },
     {
-      "word": "suddenly",
-      "ipa_us": "ˈsʌdnli",
-      "ipa_uk": "ˈsʌdnli",
-      "translation_ru": "вдруг"
+      "word": "cement",
+      "ipa_us": "sɪˈmɛnt",
+      "ipa_uk": "sɪˈment",
+      "translation_ru": "цемент"
     },
     {
-      "word": "cage",
-      "ipa_us": "keɪdʒ",
-      "ipa_uk": "keɪdʒ",
-      "translation_ru": "клетка"
+      "word": "smoke",
+      "ipa_us": "smoʊk",
+      "ipa_uk": "sməʊk",
+      "translation_ru": "дым"
     },
     {
-      "word": "whispered",
-      "ipa_us": "ˈwɪspərd",
-      "ipa_uk": "ˈwɪspəd",
-      "translation_ru": "прошептал"
+      "word": "fire extinguisher",
+      "ipa_us": "ˈfaɪər ɪkˈstɪŋɡwɪʃər",
+      "ipa_uk": "ˈfaɪər ɪkˈstɪŋɡwɪʃə",
+      "translation_ru": "огнетушитель"
+    },
+    {
+      "word": "experimental",
+      "ipa_us": "ɪkˌspɛrəˈmɛntl",
+      "ipa_uk": "ɪkˌsperɪˈmentl",
+      "translation_ru": "экспериментальный"
+    },
+    {
+      "word": "bitter",
+      "ipa_us": "ˈbɪtər",
+      "ipa_uk": "ˈbɪtə",
+      "translation_ru": "горький"
+    },
+    {
+      "word": "evidence",
+      "ipa_us": "ˈɛvədəns",
+      "ipa_uk": "ˈevɪdəns",
+      "translation_ru": "улика"
+    },
+    {
+      "word": "lesson",
+      "ipa_us": "ˈlɛsən",
+      "ipa_uk": "ˈlesn",
+      "translation_ru": "урок"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ʌ",
       "examples": [
-        "Victor",
-        "very"
+        "mother",
+        "mix",
+        "wooden"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Короткий звук, похожий на «а» без напряжения, рот полуоткрыт."
     },
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "woman",
-        "where"
+        "cake",
+        "bake",
+        "table"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Дифтонг: начните с «э» и плавно скользите к «и»."
     },
     {
-      "sound": "r",
+      "sound": "əʊ",
       "examples": [
-        "parrot",
-        "repeated"
+        "oven",
+        "coal",
+        "smoke"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Дифтонг: начните с «э» и скользите к «у», губы слегка округляются."
     },
     {
-      "sound": "θ",
+      "sound": "aspiration",
       "examples": [
-        "that",
-        "everything"
+        "party",
+        "kitchen",
+        "perfect"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "P, t, k в начале ударного слога произносите с небольшим выдохом, как будто со струйкой воздуха."
     }
   ],
   "questions": [
     {
-      "question": "What was the parrot's name?",
-      "answer": "Max.",
+      "question": "What did the writer want to make?",
+      "answer": "A chocolate cake for his mother's birthday.",
       "accepted_keywords": [
-        "max"
+        "cake",
+        "chocolate",
+        "birthday"
       ]
     },
     {
-      "question": "Who visited the aunt?",
-      "answer": "A woman from the bank.",
+      "question": "What was wrong with the oven?",
+      "answer": "The writer set it to 250 degrees instead of 180.",
       "accepted_keywords": [
-        "woman",
-        "bank"
+        "250",
+        "hot",
+        "hotter",
+        "temperature",
+        "degrees"
       ]
     },
     {
-      "question": "What did Max shout first?",
-      "answer": "Where are my keys?",
+      "question": "What happened while he watched television?",
+      "answer": "He fell asleep, and the cake burned and made a lot of smoke.",
       "accepted_keywords": [
-        "keys"
+        "asleep",
+        "burned",
+        "burnt",
+        "smoke",
+        "fire"
       ]
     },
     {
-      "question": "What did the aunt put over the cage?",
-      "answer": "A blanket.",
+      "question": "What did the writer do in the end?",
+      "answer": "He bought a cake with strawberries from the supermarket.",
       "accepted_keywords": [
-        "blanket"
+        "bought",
+        "supermarket",
+        "strawberry",
+        "strawberries",
+        "shop"
       ]
     }
   ]

@@ -2,127 +2,153 @@
   "id": "b1-humor-04",
   "level": "B1",
   "genre": "humor",
-  "title_en": "The Diet Starts Tomorrow",
-  "title_ru": "Диета начинается завтра",
-  "description_ru": "Весёлый монолог о человеке, который снова и снова откладывает начало диеты.",
-  "text": "My name is Dave, and I have been starting a diet for eleven years. It always begins on Monday. Unfortunately, I have never been able to find a Monday that was suitable.\n\nLast week, I made a serious plan. I bought a book called Eat Less and Live Longer, a pair of running shoes and a basket of fresh vegetables. On Sunday evening, I stood in front of the mirror and said, \"Tomorrow, everything changes.\"\n\nOn Monday morning, I woke up full of energy. I ate a bowl of porridge without any sugar. It tasted like wet cardboard, but I was proud. At ten o'clock, my colleague Sandra arrived with a birthday cake. \"A tiny piece will not hurt,\" she said. I agreed, because it would be rude to refuse a birthday.\n\nAt lunchtime, I ate a salad. Then I ate Sandra's salad, because she did not like the tomatoes. In the afternoon, I went for a run. I managed to run for three minutes, and then I discovered a bakery. If the bakery had not been there, I would have run for much longer.\n\nBy the evening, I felt terrible about myself. So I decided that Monday had been a bad day to start. Tuesday was much better, since Tuesday has a friendlier name.\n\nTomorrow I will try again, I promise. But first, I need to finish this cake. It would be a waste to throw it away, and wasting food is bad for the planet.",
-  "word_count": 247,
+  "title_en": "Gerald the Sourdough",
+  "title_ru": "Закваска Джеральд",
+  "description_ru": "Юмористический рассказ о закваске по имени Джеральд, которая росла, как живое существо, и превратила автора в пекаря.",
+  "text": "It all started with a jar of flour and water. My neighbour Doris, who is eighty years old and makes the best bread in our street, gave me a small spoonful of sticky grey mixture and called it a sourdough starter. \"Feed it every day,\" she told me, \"and it will live for ever.\" I thanked her politely, took it home, and put it in a jar on my kitchen counter. I did not know that I was bringing a new family member into my house.\n\nAt first the starter was easy to look after. I fed it a little flour and water every morning, and I watched it make small bubbles, like a very slow fizzy drink. After three days it smelled slightly sour, a bit like old socks, and my wife said that she was not sure about it. I explained that this was normal. \"It is alive,\" I said proudly. \"It is a living thing.\" She looked at the jar for a long time and replied, \"I know. That is what worries me.\"\n\nThe next week I decided to give it a name, because everybody seemed to do this. The internet was full of people who had called their starters things like Doughy Parton and Bread Pitt, and I thought that I should join them. After some thought, I named mine Gerald. Gerald was a calm, slow and rather smelly gentleman, and I felt that he suited the name. I talked to him every morning while I fed him. My wife thought that this was strange, but she did not stop me, which is what marriage is about.\n\nI soon discovered that Gerald had a great appetite. When I forgot to feed him for two days, he grew so much that he pushed the lid off the jar and crept down the side onto the counter. I found him in the morning like a pale, bubbling monster, and I had to clean the entire kitchen. If I had known that starters could do this, I would have bought a bigger jar. That afternoon I bought three, plus a book called \"The Sourdough Handbook\", which I read in a single night.\n\nMy first loaf was a disaster. I followed the instructions carefully, but the dough would not rise, and when I finally took it out of the oven, it looked like a hockey puck. My wife tried to eat a slice and said that it tasted \"very honest\". I tapped it with a spoon, and it made a noise like a stone. Doris told me that I had not waited long enough and that real bread needs patience. \"You cannot hurry a loaf,\" she said, giving me a second spoonful of starter, just in case.\n\nThe second loaf was better, and the third was almost good. By the end of the month, I could make a decent round loaf with a golden crust and a soft inside, and I was proud. I put a photograph of it on the internet, and I received eleven likes, mostly from members of my family. Encouraged, I started to bake every weekend. I experimented with seeds, olives and even chocolate, and for a while the whole house smelled wonderful. I also produced a lot of bread. By March, our freezer was full, and we had begun giving loaves to the postman, the neighbours and the people at my wife's office.\n\nThe trouble began when Gerald grew too successful. Because I was baking so often, I had to feed him twice a day, and I could not go on holiday without finding someone to look after him. For our anniversary, my wife booked a weekend in the mountains. I spent the whole journey worrying, and I called my sister every three hours to ask whether Gerald was still alive. She told me that he was fine, but that he was \"making a noise\". When we returned home, the jar was in the middle of the table, and my sister had decorated it with a small ribbon.\n\nI have now been baking for nearly a year, and Gerald and I have developed a strong friendship. I know that he likes warm rooms and dislikes cold ones, that he works hardest in the afternoon, and that he becomes very excited when I give him rye flour. Doris says that I am now an expert, and she has asked me to teach a class at the community centre. I am nervous, but I have also decided to bring Gerald to the class. If somebody asks him a difficult question, I know that he will give a good answer. He is, after all, the oldest member of the family.",
+  "word_count": 782,
   "vocabulary": [
     {
-      "word": "diet",
-      "ipa_us": "ˈdaɪət",
-      "ipa_uk": "ˈdaɪət",
-      "translation_ru": "диета"
+      "word": "sourdough",
+      "ipa_us": "ˈsaʊərˌdoʊ",
+      "ipa_uk": "ˈsaʊədəʊ",
+      "translation_ru": "хлеб на закваске"
     },
     {
-      "word": "suitable",
-      "ipa_us": "ˈsutəbəl",
-      "ipa_uk": "ˈsuːtəbəl",
-      "translation_ru": "подходящий"
+      "word": "starter",
+      "ipa_us": "ˈstɑːrtər",
+      "ipa_uk": "ˈstɑːtə",
+      "translation_ru": "закваска"
     },
     {
-      "word": "serious",
-      "ipa_us": "ˈsɪriəs",
-      "ipa_uk": "ˈsɪəriəs",
-      "translation_ru": "серьёзный"
+      "word": "sticky",
+      "ipa_us": "ˈstɪki",
+      "ipa_uk": "ˈstɪki",
+      "translation_ru": "липкий"
     },
     {
-      "word": "porridge",
-      "ipa_us": "ˈpɔrɪdʒ",
-      "ipa_uk": "ˈpɒrɪdʒ",
-      "translation_ru": "каша"
+      "word": "bubbles",
+      "ipa_us": "ˈbʌbəlz",
+      "ipa_uk": "ˈbʌbəlz",
+      "translation_ru": "пузырьки"
     },
     {
-      "word": "cardboard",
-      "ipa_us": "ˈkɑrdˌbɔrd",
-      "ipa_uk": "ˈkɑːdbɔːd",
-      "translation_ru": "картон"
+      "word": "appetite",
+      "ipa_us": "ˈæpɪˌtaɪt",
+      "ipa_uk": "ˈæpɪtaɪt",
+      "translation_ru": "аппетит"
     },
     {
-      "word": "colleague",
-      "ipa_us": "ˈkɑliɡ",
-      "ipa_uk": "ˈkɒliːɡ",
-      "translation_ru": "коллега"
+      "word": "experimented",
+      "ipa_us": "ɪkˈspɛrəˌmɛntɪd",
+      "ipa_uk": "ɪkˈsperɪmentɪd",
+      "translation_ru": "экспериментировал"
     },
     {
-      "word": "refuse",
-      "ipa_us": "rɪˈfjuz",
-      "ipa_uk": "rɪˈfjuːz",
-      "translation_ru": "отказаться"
+      "word": "gentleman",
+      "ipa_us": "ˈdʒɛntlmən",
+      "ipa_uk": "ˈdʒentlmən",
+      "translation_ru": "джентльмен"
     },
     {
-      "word": "bakery",
-      "ipa_us": "ˈbeɪkəri",
-      "ipa_uk": "ˈbeɪkəri",
-      "translation_ru": "пекарня"
+      "word": "anniversary",
+      "ipa_us": "ˌænəˈvɜːrsəri",
+      "ipa_uk": "ˌænɪˈvɜːsəri",
+      "translation_ru": "годовщина"
     },
     {
-      "word": "terrible",
-      "ipa_us": "ˈtɛrəbəl",
-      "ipa_uk": "ˈterəbəl",
-      "translation_ru": "ужасный"
+      "word": "disaster",
+      "ipa_us": "dɪˈzæstər",
+      "ipa_uk": "dɪˈzɑːstə",
+      "translation_ru": "катастрофа"
+    },
+    {
+      "word": "decent",
+      "ipa_us": "ˈdiːsənt",
+      "ipa_uk": "ˈdiːsənt",
+      "translation_ru": "приличный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "θ",
       "examples": [
-        "Dave",
-        "never",
-        "vegetables",
-        "eleven"
+        "month",
+        "thanked",
+        "things",
+        "thought"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "w",
       "examples": [
-        "run",
-        "refuse",
-        "promise",
-        "terrible"
+        "week",
+        "wife",
+        "warm",
+        "without"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
     },
     {
-      "sound": "final-voiced",
+      "sound": "ŋ",
       "examples": [
-        "bad",
-        "food",
-        "Dave"
+        "baking",
+        "bubbling",
+        "making",
+        "worrying"
       ],
-      "tip_ru": "Не оглушайте b, d, g, v, z в конце слова: «bed» звучит не как «bet»."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "anniversary",
+        "experimented",
+        "disaster",
+        "gentleman"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "How long has Dave been starting a diet?",
-      "answer": "For eleven years.",
+      "question": "Who gave the narrator the sourdough starter?",
+      "answer": "His eighty-year-old neighbour Doris.",
       "accepted_keywords": [
-        "eleven",
-        "11"
+        "doris",
+        "neighbour"
       ]
     },
     {
-      "question": "What did Sandra bring on Monday?",
-      "answer": "A birthday cake.",
+      "question": "What did the starter do when he forgot to feed it?",
+      "answer": "It grew, pushed the lid off the jar and crept onto the counter.",
       "accepted_keywords": [
-        "cake",
-        "birthday"
+        "grew",
+        "lid",
+        "jar",
+        "counter",
+        "crept"
       ]
     },
     {
-      "question": "Why did he stop running?",
-      "answer": "He found a bakery.",
+      "question": "What was the first loaf like?",
+      "answer": "It looked like a hockey puck and sounded like a stone.",
       "accepted_keywords": [
-        "bakery"
+        "hockey",
+        "puck",
+        "stone",
+        "disaster"
       ]
     },
     {
-      "question": "Which day does he think is friendlier?",
-      "answer": "Tuesday.",
+      "question": "Why did the narrator worry on the anniversary weekend?",
+      "answer": "He called his sister every three hours to ask if Gerald was still alive.",
       "accepted_keywords": [
-        "tuesday"
+        "sister",
+        "gerald",
+        "alive",
+        "called"
       ]
     }
   ]

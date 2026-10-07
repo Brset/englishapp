@@ -2,133 +2,165 @@
   "id": "b2-biography-05",
   "level": "B2",
   "genre": "biography",
-  "title_en": "Frida Kahlo: Painting Through Pain",
-  "title_ru": "Фрида Кало: живопись сквозь боль",
-  "description_ru": "Как авария и болезнь превратили Фриду Кало в одну из самых узнаваемых художниц XX века.",
-  "text": "Frida Kahlo was born in 1907 in Coyoacán, near Mexico City, in a house that is now a museum known as the Blue House. As a child she caught polio, which left her right leg thinner than the left. She hid it with long skirts, a habit that later became part of her famous style. She planned to become a doctor, but everything changed in 1925, when the bus she was travelling on collided with a tram. She suffered terrible injuries, including a broken spine, and spent months in bed.\n\nTo pass the time, her parents set up a special easel and fixed a mirror above her bed, so she could paint. That is how she began to produce self-portraits. She later explained, \"I paint myself because I am so often alone and because I am the subject I know best.\" Her paintings, full of bright colours and symbols from Mexican folk art, often show her pain openly.\n\nIn 1929 she married the muralist Diego Rivera, who was twenty years older. Their relationship was stormy: they divorced in 1939, then remarried a year later. Frida also travelled to the United States and France, where the Louvre bought one of her paintings in 1939, the first work by a twentieth-century Mexican artist to be acquired by the museum.\n\nDuring her lifetime she was often described as \"the wife of Diego Rivera\", and she had only one solo exhibition in Mexico, in 1953. By then she was very ill, so she attended it in a four-poster bed that was carried into the gallery. She died in 1954, aged forty-seven. Today she is recognised as one of the most influential artists of the twentieth century, and her image appears on everything from posters to stamps.",
+  "title_en": "Ada Lovelace: The First Programmer?",
+  "title_ru": "Ада Лавлейс: первый программист?",
+  "description_ru": "Дочь поэта Байрона, увидевшая в машине Бэббиджа нечто большее, чем калькулятор, и написавшая первую программу задолго до появления компьютеров.",
+  "text": "In 1843 a woman in her twenties published a set of scientific notes that were longer than the article they accompanied. Hidden among them was a table of instructions for a machine that had not yet been built, and a daring prediction that such a machine might one day compose music. That woman was Augusta Ada King, Countess of Lovelace, better known simply as Ada Lovelace. Today she is often called the first computer programmer, though historians still debate the exact extent of her contribution.\n\nAda was born in London in December 1815, the only legitimate child of the poet Lord Byron. Her parents separated when she was only a few weeks old, and Byron left England forever. He never saw his daughter again, and he died in Greece when she was eight. Her mother, Annabella Milbanke, was a clever woman who loved mathematics, and Byron had nicknamed her the Princess of Parallelograms. Afraid that Ada might inherit her father's wild temper and unstable imagination, Annabella decided to give her daughter a rigorous education in science and logic.\n\nThe plan worked, although not quite in the way that her mother had intended. Ada was taught by private tutors and became a talented mathematician, but she never lost her poetic spirit. She called her approach poetical science. As a teenager she designed a flying machine, studying the anatomy of birds to work out how big the wings should be. She was also ill for long periods, and at one stage she was unable to walk for almost three years after catching measles, yet she kept studying.\n\nAt seventeen she was introduced to Charles Babbage, a brilliant and rather grumpy mathematician who was building a mechanical calculator called the Difference Engine. At a party, he showed her a part of it, and Ada was fascinated. The two became friends and wrote to each other for many years. Another important mentor was Mary Somerville, a Scottish scientist who was one of the first women to be admitted to scientific societies. Through them Ada found herself in the company of the leading thinkers of Victorian Britain.\n\nIn 1835 she married William King, who became the Earl of Lovelace three years later, and she became a countess. She had three children, but she did not intend to give up her studies. Meanwhile Babbage had designed something far more ambitious than his first machine. His Analytical Engine would be able to carry out any calculation, using punched cards like those used in weaving looms. It would have a store for numbers and a mill for processing them, which is remarkably close to the memory and processor of a modern computer. Unfortunately, he never managed to get funds to finish it.\n\nIn 1842 an Italian engineer, Luigi Menabrea, published an article in French describing the engine. Ada was asked to translate it into English. She did so, but she added her own notes, labelled A to G, which ended up being almost three times as long as the original text. In the final note she set out, step by step, a method by which the engine could calculate a series of numbers known as Bernoulli numbers. Many experts now regard this as the first published computer program, although Babbage had sketched similar ideas earlier.\n\nThe most original passages, however, were not about arithmetic. Ada realised that the machine could handle any symbols, not just numbers. If musical notes could be expressed in the same way, she wrote, the engine might compose elaborate pieces of music of any degree of complexity. It was an extraordinary insight, made more than a century before the first electronic computers appeared. She also warned that the machine had no pretensions to originate anything: it could do only whatever we know how to order it to perform. Modern researchers on artificial intelligence still argue about that sentence.\n\nThe notes were signed only with her initials, A.A.L., because it was considered improper for an aristocratic woman to publish under her own name. Later in life, she became increasingly unwell, and she also fell into debt after betting on horse races, a scheme that failed badly. She died of cancer in November 1852, at the age of thirty-six, the same age at which her father had died. At her own request, she was buried beside him, the father she had never really known.\n\nFor a hundred years her work was almost forgotten. Then, in the 1950s, her notes were republished, and computer scientists began to appreciate them. In the 1980s, the United States Department of Defense named a programming language Ada in her honour. Every October, Ada Lovelace Day celebrates women in science and technology. She never saw a working machine, and her ideas could not be tested in her lifetime, but she saw further into the future of computing than almost anyone of her generation.",
+  "word_count": 809,
   "vocabulary": [
     {
-      "word": "polio",
-      "ipa_us": "ˈpoʊlioʊ",
-      "ipa_uk": "ˈpəʊliəʊ",
-      "translation_ru": "полиомиелит"
+      "word": "countess",
+      "ipa_us": "ˈkaʊntɪs",
+      "ipa_uk": "ˈkaʊntes",
+      "translation_ru": "графиня"
     },
     {
-      "word": "collided",
-      "ipa_us": "kəˈlaɪdɪd",
-      "ipa_uk": "kəˈlaɪdɪd",
-      "translation_ru": "столкнулся"
+      "word": "legitimate",
+      "ipa_us": "lɪˈdʒɪtəmət",
+      "ipa_uk": "lɪˈdʒɪtɪmət",
+      "translation_ru": "законнорождённый"
     },
     {
-      "word": "spine",
-      "ipa_us": "spaɪn",
-      "ipa_uk": "spaɪn",
-      "translation_ru": "позвоночник"
+      "word": "temper",
+      "ipa_us": "ˈtɛmpər",
+      "ipa_uk": "ˈtempə",
+      "translation_ru": "нрав"
     },
     {
-      "word": "easel",
-      "ipa_us": "ˈizəl",
-      "ipa_uk": "ˈiːzəl",
-      "translation_ru": "мольберт"
+      "word": "rigorous",
+      "ipa_us": "ˈrɪɡərəs",
+      "ipa_uk": "ˈrɪɡərəs",
+      "translation_ru": "строгий, основательный"
     },
     {
-      "word": "self-portraits",
-      "ipa_us": "ˌsɛlfˈpɔrtrəts",
-      "ipa_uk": "ˌselfˈpɔːtreɪts",
-      "translation_ru": "автопортреты"
+      "word": "tutors",
+      "ipa_us": "ˈtutərz",
+      "ipa_uk": "ˈtjuːtəz",
+      "translation_ru": "репетиторы"
     },
     {
-      "word": "muralist",
-      "ipa_us": "ˈmjʊrələst",
-      "ipa_uk": "ˈmjʊərəlɪst",
-      "translation_ru": "художник-монументалист"
+      "word": "measles",
+      "ipa_us": "ˈmizəlz",
+      "ipa_uk": "ˈmiːzəlz",
+      "translation_ru": "корь"
     },
     {
-      "word": "exhibition",
-      "ipa_us": "ˌɛksəˈbɪʃən",
-      "ipa_uk": "ˌeksɪˈbɪʃən",
-      "translation_ru": "выставка"
+      "word": "mentor",
+      "ipa_us": "ˈmɛntɔr",
+      "ipa_uk": "ˈmentɔː",
+      "translation_ru": "наставник"
     },
     {
-      "word": "influential",
-      "ipa_us": "ˌɪnfluˈɛnʃəl",
-      "ipa_uk": "ˌɪnfluˈenʃəl",
-      "translation_ru": "влиятельный"
+      "word": "ambitious",
+      "ipa_us": "æmˈbɪʃəs",
+      "ipa_uk": "æmˈbɪʃəs",
+      "translation_ru": "амбициозный"
+    },
+    {
+      "word": "punched cards",
+      "ipa_us": "pʌntʃt kɑrdz",
+      "ipa_uk": "pʌntʃt kɑːdz",
+      "translation_ru": "перфокарты"
+    },
+    {
+      "word": "insight",
+      "ipa_us": "ˈɪnˌsaɪt",
+      "ipa_uk": "ˈɪnsaɪt",
+      "translation_ru": "озарение"
+    },
+    {
+      "word": "aristocratic",
+      "ipa_us": "əˌrɪstəˈkrætɪk",
+      "ipa_uk": "ˌærɪstəˈkrætɪk",
+      "translation_ru": "аристократический"
+    },
+    {
+      "word": "republished",
+      "ipa_us": "riˈpʌblɪʃt",
+      "ipa_uk": "ˌriːˈpʌblɪʃt",
+      "translation_ru": "переизданы"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "travelling",
-        "very",
-        "divorced",
-        "Rivera"
+        "long",
+        "king",
+        "working",
+        "being"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "was",
-        "wife",
-        "work",
-        "where"
-      ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
       "sound": "θ",
       "examples": [
-        "thinner",
-        "months",
-        "twentieth-century"
+        "three",
+        "through",
+        "thirty",
+        "mathematics"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
     },
     {
-      "sound": "dark-l",
+      "sound": "word-stress",
       "examples": [
-        "left",
-        "alone",
-        "solo"
+        "countess",
+        "legitimate",
+        "temper",
+        "rigorous"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны за верхними зубами, а задняя часть языка отодвинута назад; звук твёрдый, не «ль»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "but",
+        "other",
+        "one",
+        "mother"
+      ],
+      "tip_ru": "Короткий краткий звук между «а» и «э», рот открыт слабо; не «о»."
     }
   ],
   "questions": [
     {
-      "question": "What disease did Frida have as a child?",
-      "answer": "Polio.",
+      "question": "Who was Ada Lovelace's famous father?",
+      "answer": "The poet Lord Byron.",
       "accepted_keywords": [
-        "polio"
+        "byron",
+        "poet"
       ]
     },
     {
-      "question": "What happened to her in 1925?",
-      "answer": "Her bus collided with a tram.",
+      "question": "What was Ada's job on the Menabrea article?",
+      "answer": "She translated it from French and added long notes of her own, including a method for Bernoulli numbers.",
       "accepted_keywords": [
-        "bus",
-        "tram",
-        "accident"
+        "translated",
+        "notes",
+        "translate",
+        "bernoulli",
+        "program"
       ]
     },
     {
-      "question": "Why did her parents fix a mirror above her bed?",
-      "answer": "So she could paint self-portraits.",
+      "question": "What did she predict about the Analytical Engine?",
+      "answer": "That it might compose music, because it could handle any symbols and not just numbers.",
       "accepted_keywords": [
-        "paint",
-        "portrait",
-        "portraits"
+        "music",
+        "compose",
+        "symbols"
       ]
     },
     {
-      "question": "Which museum bought one of her paintings in 1939?",
-      "answer": "The Louvre.",
+      "question": "Why did she sign her notes with initials only?",
+      "answer": "It was considered improper for an aristocratic woman to publish under her own name.",
       "accepted_keywords": [
-        "louvre"
+        "improper",
+        "aristocratic",
+        "woman",
+        "name"
       ]
     }
-  ],
-  "word_count": 290
+  ]
 }

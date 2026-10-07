@@ -2,133 +2,163 @@
   "id": "c2-dialogue-03",
   "level": "C2",
   "genre": "dialogue",
-  "title_en": "Platform Four",
-  "title_ru": "Платформа номер четыре",
-  "description_ru": "Две давние подруги случайно встречаются на вокзале спустя двадцать лет. Одна из них успела стать политиком, и это изрядно усложняет разговор.",
-  "text": "Nadia: Tobias? Tobias Merriweather? Good heavens, it is you. You've gone grey.\nTobias: Distinguished, I believe, is the word the party uses. Nadia Kovač, as I live and breathe. Twenty years.\nNadia: Twenty-two. I counted on the train, mostly to avoid reading the paper that carried your photograph.\nTobias: Ah. The photograph. I look rather resolute in it.\nNadia: You look like a man being told his soufflé has collapsed, and being very brave about it.\nTobias: That was the expression the photographer requested. It is called \"statesmanlike concern\".\nNadia: Of course it is. Tell me, how does a boy who once set fire to the chemistry laboratory end up in charge of the Ministry of Public Works?\nTobias: Strictly speaking, I am only the Under-Secretary. And the laboratory was an accident, which, I may point out, I have never publicly denied.\nNadia: Only because nobody has asked.\nTobias: Quite. That is the beauty of the profession. One simply waits until the questions grow tired.\nNadia: You used to hate that sort of thing. You used to say politicians were just actors who had misplaced their scripts.\nTobias: I said that, did I?\nNadia: Often. Usually at the top of your voice, and usually on the roof of the library.\nTobias: The roof was structurally unsound. I felt the library deserved a witness.\nNadia: The library deserved a fire warden, and received you.\nTobias: Well. I have since discovered that the scripts are not misplaced. They are written by somebody else, at three in the morning, and handed to you in a folder.\nNadia: And you read them.\nTobias: I read them beautifully. I have a gift for sounding as if I mean it. It is, regrettably, the only gift that has never failed.\nNadia: And do you? Mean it, I mean. Even occasionally?\nTobias: Occasionally, by accident, in the middle of a sentence. It is always terribly embarrassing for everyone.\nNadia: That is the saddest thing I have ever heard a man say on Platform Four.\nTobias: It is the only place I can say it. Nobody listens on platforms. They are all too busy looking for the right train.\nNadia: And are you? Looking for the right train?\nTobias: I am looking for the four-fifteen to the capital, which is delayed, which I shall defend in Parliament on Thursday.\nNadia: Then perhaps you can spare half an hour for a coffee, and I will tell you what became of the girl who wrote your essays.\nTobias: You were the girl who wrote my essays! I had quite forgotten.\nNadia: You had not. You merely found it convenient.\nTobias: Guilty. Do I owe you anything?\nNadia: A decent apology, and the price of two coffees. I am now a bridge engineer, as it happens.\nTobias: A bridge engineer. Of course. Of course you are. You always did build the things the rest of us walked across.\nNadia: Don't be gracious. It doesn't suit a man with a motorcade.\nTobias: I shall practise being rude. I have a whole cabinet of colleagues who can give lessons.\nTobias: There is no motorcade. There is a rather tired civil servant and a briefcase.\nNadia: Then come. The cafe has terrible coffee, and a view of the tracks, and nobody has ever recognised anybody in it.\nTobias: That sounds exactly like paradise.\nNadia: Bring your folder. I will correct your grammar.\nTobias: Nadia, I am delighted to report that you are the first person in twenty years to threaten me with anything useful.",
-  "word_count": 556,
+  "title_en": "The Genuine Article",
+  "title_ru": "Подлинная вещь",
+  "description_ru": "Антиквар и покупательница торгуются за «подлинные» напольные часы. Каждый играет роль, но настоящий вопрос в том, кто кого обманывает. Лукавый диалог с ироничной развязкой.",
+  "text": "Pettifer: Ah, madam, I see you have found the Lancashire. A rare moment in any dealer's life: the instant when a customer's eye meets an object across a crowded shop and something passes between them. I will not insult it by speaking. I shall simply stand over here and be moved.\nCalloway: You may stand wherever you like, Mr. Pettifer, but you will have to be moved at a lower volume. I am interested in the grandfather clock, and I should like to know why the label says \"circa 1740\" in handwriting that looks suspiciously like it was done last Thursday.\n\nPettifer: Circa, madam, is a word of enormous elasticity. In the antiques trade it can mean anything from a century to a decade, depending on the mood of the buyer and the humidity. But I assure you, this is a genuine article. The case is oak, the dial is brass, and the movement bears the name of a maker in Wigan whose descendants, I believe, still sell clocks, though not of this quality.\nCalloway: Genuine. Let us explore that word. I notice the screws that hold the hood in place are slotted, evenly cut, with perfectly uniform threads. In 1740, I understand, screws were filed by hand and each one looked like a small, tragic accident.\n\nPettifer: Ah. A woman of observation. Those, madam, are replacements, installed by a conscientious restorer who feared for the structural integrity of the case. One must distinguish, in this trade, between authenticity and mere corrosion. A genuine antique is one that has been loved, and therefore occasionally repaired.\nCalloway: I see. And the key to the case door, which has the unmistakable sheen of something that came out of a hardware shop in Stockport last week?\n\nPettifer: A key is a key, madam. It opens a door. It does not bear witness to the century. If I were to be so rash as to produce a key from 1740, it would be corroded, and it would not open anything at all, and you would be justifiably annoyed.\nCalloway: Mr. Pettifer, you are a man of formidable resourcefulness. Let me tell you why I ask these questions. My late husband owned a clock very like this one. He told me, on his deathbed, with the grave expression of a man confessing to a crime, that he had bought it from a Mr. Pettifer in the autumn of 1998 for four thousand pounds, and that it had stopped working the following Tuesday.\n\nPettifer: Ah. Hm. That would have been my father, madam. A different Pettifer entirely. A man of impulsive character and weak ethics. I have spent a good deal of my life atoning for him.\nCalloway: Your father was, I believe, also named Reginald, and also wore a green waistcoat with a small tear under the left pocket.\n\nPettifer: Family resemblance is a powerful thing, madam. It is the reason so many of us have the same nose.\nCalloway: It is also, I observe, the reason so many of us have the same habit of lying with a perfectly straight face. My husband had it too. He told me, for thirty years, that he was a collector of fine clocks, when in truth he collected only the excuses for buying them. The shed at the bottom of our garden contains eleven, each of them wrong by a different amount, like a congregation of very old and very stubborn relatives.\n\nPettifer: Then I salute his memory, madam. He had the true collector's temperament, which is to say, an incurable optimism about the future value of things that stopped working in the past. A man like that is the backbone of my business. I should like to have known him better, and I regret that my father knew him slightly too well. Still, madam, you wound me, and with a skill I can only admire. Let me be frank, for once, as a gesture of professional goodwill. Half of what I sell is not the object at all. It is the story that comes with it. A customer who buys a clock believes he is acquiring a past, a small private heirloom with a lineage, and I merely supply the lineage. It is a kind of poetry, and you may call it fraud only if you are willing to call every novelist a liar.\nCalloway: I am willing to call every novelist a liar, Mr. Pettifer, and I shall continue to read them with enormous pleasure. But novelists, I notice, put the word \"fiction\" on the cover. Which brings me back to the label.\n\nPettifer: Madam, I have a new label coming from the printer next week, and it reads, in a tasteful italic, \"A faithful reproduction, in the manner of 1740\". I had it made after your husband's visit, in a fit of remorse. I merely have not had the courage to put it out.\nCalloway: Then you are a better man than your father, and an inferior forger. But I have no wish to embarrass you, Mr. Pettifer. I came here not for a refund, but for an offer. That clock, the one that stopped in 1998, was, as I discovered, a very fine reproduction made in a factory in Birmingham in 1962. And I have spent a year learning the difference between a copy and an original, because I enjoy it. I have been to auctions, spoken to restorers, and read three books, one of them in German. I know precisely what I am looking at.\n\nPettifer: Then, madam, you will have recognised that the piece before you is, in fact, an honest reproduction, made in Birmingham in the nineteen-sixties, which I have been offering at a perfectly fair price for a perfectly decorative object.\nCalloway: Honest. How refreshing. I wonder, then, whether we might discuss a price that reflects the honesty. Say, three hundred pounds? And a small discount, since the label was misleading, in the interest of mutual transparency.\n\nPettifer: Three hundred? Madam, it is a clock! It has a case, a face, and a pendulum! I paid two hundred and fifty for it myself, in a sale of the estate of a person of enormous wealth and indifferent taste.\nCalloway: Then three hundred leaves you a profit, and a clear conscience, which you will admit is more than my husband received. And I shall pay in cash, so that nobody need write anything down. I understand that is your preferred method of settling disputes.\n\nPettifer: Madam, I believe we have discovered, at last, the beginning of a beautiful friendship. Allow me to wrap it. And if I may be so bold, should you ever find yourself in the market for a genuine Georgian sideboard, I happen to know a man.",
+  "word_count": 1103,
   "vocabulary": [
     {
-      "word": "distinguished",
-      "ipa_us": "dɪˈstɪŋɡwɪʃt",
-      "ipa_uk": "dɪˈstɪŋɡwɪʃt",
-      "translation_ru": "респектабельный"
+      "word": "elasticity",
+      "ipa_us": "ˌiːlæˈstɪsəti",
+      "ipa_uk": "ˌiːlæˈstɪsɪti",
+      "translation_ru": "эластичность, гибкость"
     },
     {
-      "word": "resolute",
-      "ipa_us": "ˈrezəluːt",
-      "ipa_uk": "ˈrezəluːt",
-      "translation_ru": "решительный"
+      "word": "humidity",
+      "ipa_us": "hjuˈmɪdəti",
+      "ipa_uk": "hjuːˈmɪdɪti",
+      "translation_ru": "влажность"
     },
     {
-      "word": "statesmanlike",
-      "ipa_us": "ˈsteɪtsmənlaɪk",
-      "ipa_uk": "ˈsteɪtsmənlaɪk",
-      "translation_ru": "государственный, достойный политика"
+      "word": "conscientious",
+      "ipa_us": "ˌkɑːnʃiˈɛnʃəs",
+      "ipa_uk": "ˌkɒnʃiˈenʃəs",
+      "translation_ru": "добросовестный"
     },
     {
-      "word": "misplaced",
-      "ipa_us": "mɪsˈpleɪst",
-      "ipa_uk": "mɪsˈpleɪst",
-      "translation_ru": "потерянный, не на месте"
+      "word": "integrity",
+      "ipa_us": "ɪnˈtɛɡrəti",
+      "ipa_uk": "ɪnˈteɡrɪti",
+      "translation_ru": "целостность"
     },
     {
-      "word": "regrettably",
-      "ipa_us": "rɪˈɡretəbli",
-      "ipa_uk": "rɪˈɡretəbli",
-      "translation_ru": "к сожалению"
+      "word": "authenticity",
+      "ipa_us": "ˌɔːθɛnˈtɪsəti",
+      "ipa_uk": "ˌɔːθenˈtɪsɪti",
+      "translation_ru": "подлинность"
     },
     {
-      "word": "convenient",
-      "ipa_us": "kənˈviːniənt",
-      "ipa_uk": "kənˈviːniənt",
-      "translation_ru": "удобный"
+      "word": "corrosion",
+      "ipa_us": "kəˈroʊʒən",
+      "ipa_uk": "kəˈrəʊʒ(ə)n",
+      "translation_ru": "коррозия"
     },
     {
-      "word": "motorcade",
-      "ipa_us": "ˈmoʊtərkeɪd",
-      "ipa_uk": "ˈməʊtəkeɪd",
-      "translation_ru": "кортеж"
+      "word": "resourcefulness",
+      "ipa_us": "rɪˈsɔːrsfəlnəs",
+      "ipa_uk": "rɪˈsɔːsf(ʊ)lnəs",
+      "translation_ru": "находчивость"
     },
     {
-      "word": "civil servant",
-      "ipa_us": "ˈsɪvl ˈsɜːrvənt",
-      "ipa_uk": "ˈsɪvl ˈsɜːvənt",
-      "translation_ru": "госслужащий"
+      "word": "impulsive",
+      "ipa_us": "ɪmˈpʌlsɪv",
+      "ipa_uk": "ɪmˈpʌlsɪv",
+      "translation_ru": "импульсивный"
+    },
+    {
+      "word": "atoning",
+      "ipa_us": "əˈtoʊnɪŋ",
+      "ipa_uk": "əˈtəʊnɪŋ",
+      "translation_ru": "искупая вину"
+    },
+    {
+      "word": "reproduction",
+      "ipa_us": "ˌriːprəˈdʌkʃən",
+      "ipa_uk": "ˌriːprəˈdʌkʃ(ə)n",
+      "translation_ru": "репродукция, копия"
+    },
+    {
+      "word": "transparency",
+      "ipa_us": "trænˈspɛrənsi",
+      "ipa_uk": "trænˈspærənsi",
+      "translation_ru": "прозрачность, открытость"
+    },
+    {
+      "word": "indifferent",
+      "ipa_us": "ɪnˈdɪfərənt",
+      "ipa_uk": "ɪnˈdɪfr(ə)nt",
+      "translation_ru": "посредственный, безразличный"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "word-stress",
+      "examples": [
+        "authenticity",
+        "conscientious",
+        "reproduction"
+      ],
+      "tip_ru": "Ударение: au-then-TI-ci-ty, con-sci-EN-tious, re-pro-DUC-tion. Суффиксы -ity, -tion, -ious перетягивают ударение на предыдущий слог."
+    },
+    {
       "sound": "θ",
       "examples": [
-        "Thursday",
-        "thing"
+        "authenticity",
+        "three",
+        "thousand"
       ],
-      "tip_ru": "θ: язык между зубами, без голоса; не заменяйте на «с» или «ф»: Thursday, thing."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса. Не заменяйте на с или ф."
     },
     {
-      "sound": "r",
+      "sound": "ə",
       "examples": [
-        "train",
-        "regrettably",
-        "three"
+        "enormous",
+        "moment",
+        "century"
       ],
-      "tip_ru": "r: кончик языка поднят и оттянут назад, не касается нёба; не рычите: train, three."
+      "tip_ru": "Нейтральный безударный звук: расслабленный, очень короткий, самый частый звук в английском."
     },
     {
-      "sound": "eɪ",
+      "sound": "aspiration",
       "examples": [
-        "statesmanlike",
-        "grey",
-        "platform",
-        "paper"
+        "pounds",
+        "price",
+        "key"
       ],
-      "tip_ru": "eɪ: дифтонг, от «э» к «и», не обрывайте на «э»: grey, paper, platform."
-    },
-    {
-      "sound": "linking",
-      "examples": [
-        "once set",
-        "end up",
-        "set fire"
-      ],
-      "tip_ru": "Связывайте согласный конца слова с гласным начала следующего: once_set, look_at."
+      "tip_ru": "Звуки p, t, k в начале ударного слога произносятся с лёгким придыханием."
     }
   ],
   "questions": [
     {
-      "question": "Where do Nadia and Tobias meet?",
-      "answer": "On a station platform.",
+      "question": "What is the clock labelled as?",
+      "answer": "Circa 1740, a genuine antique.",
       "accepted_keywords": [
-        "platform",
-        "station"
+        "1740",
+        "genuine",
+        "antique",
+        "circa"
       ]
     },
     {
-      "question": "What is Tobias's job?",
-      "answer": "Under-Secretary at the Ministry of Public Works.",
+      "question": "What does Mrs. Calloway say about her late husband?",
+      "answer": "He bought a clock from Pettifer's father that stopped working a week later.",
       "accepted_keywords": [
-        "under-secretary",
-        "secretary",
-        "ministry",
-        "politician"
+        "husband",
+        "father",
+        "stopped",
+        "bought",
+        "clock"
       ]
     },
     {
-      "question": "What is Nadia's job now?",
-      "answer": "A bridge engineer.",
+      "question": "What is the truth about the clock?",
+      "answer": "It is a reproduction made in Birmingham in the 1960s.",
       "accepted_keywords": [
-        "engineer",
-        "bridge"
+        "reproduction",
+        "birmingham",
+        "copy",
+        "fake",
+        "1960s"
       ]
     },
     {
-      "question": "What did Nadia do for Tobias at school?",
-      "answer": "She wrote his essays.",
+      "question": "What price does she offer?",
+      "answer": "Three hundred pounds in cash.",
       "accepted_keywords": [
-        "essays",
-        "essay",
-        "wrote"
+        "three hundred",
+        "300",
+        "cash"
       ]
     }
   ]

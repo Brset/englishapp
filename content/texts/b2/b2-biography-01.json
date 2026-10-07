@@ -2,10 +2,11 @@
   "id": "b2-biography-01",
   "level": "B2",
   "genre": "biography",
-  "title_en": "Marie Curie: A Life of Curiosity",
-  "title_ru": "Мария Кюри: жизнь, полная любопытства",
-  "description_ru": "Биография первой женщины, получившей Нобелевскую премию, и единственного человека с премиями в двух разных науках.",
-  "text": "Marie Curie was born Maria Skłodowska in Warsaw in 1867, when Poland was ruled by the Russian Empire. Women were not allowed to study at university there, so she worked as a governess to save money and secretly attended an underground school known as the Flying University. In 1891 she moved to Paris, where she studied physics and mathematics at the Sorbonne. She lived in a tiny attic room, often forgetting to eat because she was so absorbed in her work.\n\nIn Paris she met Pierre Curie, a respected physicist, and they married in 1895. Together they investigated the strange rays that had recently been discovered by Henri Becquerel. Marie coined the word \"radioactivity\" and, after processing tons of ore in a leaky shed, the couple announced two new elements: polonium, named after her homeland, and radium. In 1903 the Nobel Prize in Physics was shared by the Curies and Becquerel, and Marie became the first woman ever to receive it.\n\nTragedy followed in 1906, when Pierre was killed in a street accident. Marie refused to give up. She took over his professorship, becoming the first woman to teach at the Sorbonne, and in 1911 she was awarded a second Nobel Prize, this time in Chemistry. No one had won in two different sciences before.\n\nDuring the First World War, she developed mobile X-ray units, which were nicknamed \"little Curies\". It is estimated that more than a million wounded soldiers were examined with them. Sadly, years of handling radioactive material damaged her health, and she died in 1934. Her daughter Irène later won a Nobel Prize in Chemistry as well. Even today, her notebooks are kept in lead-lined boxes because they are still radioactive. She remains a symbol of curiosity, courage and stubborn determination.",
+  "title_en": "Marie Curie: Science Against the Odds",
+  "title_ru": "Мария Кюри: наука вопреки всему",
+  "description_ru": "Жизнь первой в истории обладательницы двух Нобелевских премий в разных науках: от бедной студентки до героини войны.",
+  "text": "In the winter of 1891, a twenty-four-year-old Polish woman climbed onto a crowded train in Warsaw and set off for Paris with very little money and a great deal of determination. Her name was Maria Skłodowska, and she would later be known to the whole world as Marie Curie. Nobody could have guessed that this quiet student, who was often cold and hungry in a tiny attic room, would become the first person ever to win two Nobel Prizes in two different sciences.\n\nMaria was born in Warsaw in 1867, at a time when Poland did not exist as an independent country and the Russian authorities controlled the schools. Her father taught mathematics and physics, and he was demoted for his Polish sympathies. Women were not allowed to attend university in Warsaw, so Maria and her sister Bronisława made a bargain. Maria would work as a governess to pay for her sister's medical studies in Paris, and Bronisława would then help her in return. It was said that Maria waited for years before her turn finally came.\n\nAt the Sorbonne she studied physics and mathematics, and she was often so poor that she lived on bread, butter and tea. On one occasion she fainted in class from hunger. She finished first in physics in 1893 and second in mathematics the following year. Then she met Pierre Curie, a gifted physicist who was already respected in France. He is reported to have written that it would be a fine thing to spend their lives near each other, lost in their dreams. They married in 1895 and spent their honeymoon cycling around the French countryside.\n\nIn 1896 Henri Becquerel discovered that uranium gave off mysterious rays. Marie decided to make this puzzle the subject of her doctoral research. Working in a damp, badly heated storeroom, she measured the rays with a delicate instrument that Pierre and his brother had invented. She noticed that an ore called pitchblende was far more active than the uranium it contained. Something else, she reasoned, must be hidden inside it. She invented the word radioactivity to describe the effect, and in 1898 the couple announced two new elements: polonium, named after her homeland, and radium.\n\nProving it was exhausting. The Curies had to process tonnes of ore by hand, stirring huge boiling vats in a leaking shed where the winter wind blew through the cracks. Four years passed before Marie managed to separate a tiny amount of pure radium salt. She later described how the glowing tubes on the shelves looked like faint fairy lights in the dark. In 1903 the Nobel Prize in Physics was shared by Pierre, Marie and Becquerel. It is believed that the committee had at first intended to name only the men, and that her name was added after Pierre protested.\n\nThree years later, in April 1906, Pierre was killed when he slipped in a rainy Paris street and was run over by a horse-drawn wagon. Marie was devastated, but she refused the pension that the government offered her. Instead she took over his teaching post and became the first woman to teach at the Sorbonne. According to witnesses, her first lecture began at exactly the point where his last one had stopped, in the middle of a sentence. The room, they said, was so silent that nobody dared to cough.\n\nIn 1911 she was awarded a second Nobel Prize, this time in Chemistry, for her work on polonium and radium. The same year was a painful one. Newspapers attacked her private life and reminded readers that she was a foreigner. She was advised by one committee member not to travel to Stockholm, but she went anyway and held her head high. Her friends later said that she had never complained in public, however deeply the attacks had hurt her.\n\nWhen war broke out in 1914, Marie realised that X-ray machines could save lives at the front, yet most hospitals did not have them. She raised money, borrowed cars from wealthy supporters and equipped about twenty vehicles with X-ray apparatus. Soldiers called them the little Curies. She learned to drive, took a mechanic's course, and travelled to the battlefield with her seventeen-year-old daughter, Irène. It is estimated that more than a million wounded men were examined with these machines, and many limbs were saved because surgeons could finally see where the bullets were.\n\nMarie never fully understood the danger of her materials. She carried test tubes in her pockets and kept radium in her desk drawer, and she admired the light it gave off at night. She died in July 1934 of a blood disease that was almost certainly caused by years of radiation. Her notebooks are still radioactive today and are kept in lead-lined boxes, and visitors who wish to read them must sign a form. Her daughter Irène won a Nobel Prize of her own in 1935. In 1995 Marie's remains were moved to the Panthéon in Paris, and she became the first woman to be honoured there for her own achievements. She is often quoted as saying that nothing in life is to be feared, it is only to be understood.",
+  "word_count": 864,
   "vocabulary": [
     {
       "word": "governess",
@@ -14,34 +15,52 @@
       "translation_ru": "гувернантка"
     },
     {
-      "word": "absorbed",
-      "ipa_us": "əbˈzɔrbd",
-      "ipa_uk": "əbˈzɔːbd",
-      "translation_ru": "поглощённый"
+      "word": "determination",
+      "ipa_us": "dɪˌtɜrməˈneɪʃən",
+      "ipa_uk": "dɪˌtɜːmɪˈneɪʃən",
+      "translation_ru": "решимость"
     },
     {
-      "word": "coined",
-      "ipa_us": "kɔɪnd",
-      "ipa_uk": "kɔɪnd",
-      "translation_ru": "придумала (слово)"
+      "word": "honeymoon",
+      "ipa_us": "ˈhʌniˌmun",
+      "ipa_uk": "ˈhʌnimuːn",
+      "translation_ru": "медовый месяц"
     },
     {
-      "word": "ore",
-      "ipa_us": "ɔr",
-      "ipa_uk": "ɔː",
-      "translation_ru": "руда"
+      "word": "radioactivity",
+      "ipa_us": "ˌreɪdioʊækˈtɪvɪti",
+      "ipa_uk": "ˌreɪdiəʊækˈtɪvəti",
+      "translation_ru": "радиоактивность"
     },
     {
-      "word": "homeland",
-      "ipa_us": "ˈhoʊmlænd",
-      "ipa_uk": "ˈhəʊmlænd",
-      "translation_ru": "родина"
+      "word": "pitchblende",
+      "ipa_us": "ˈpɪtʃblɛnd",
+      "ipa_uk": "ˈpɪtʃblend",
+      "translation_ru": "урановая смоляная руда"
     },
     {
-      "word": "professorship",
-      "ipa_us": "prəˈfɛsərʃɪp",
-      "ipa_uk": "prəˈfesəʃɪp",
-      "translation_ru": "профессорская должность"
+      "word": "exhausting",
+      "ipa_us": "ɪɡˈzɔstɪŋ",
+      "ipa_uk": "ɪɡˈzɔːstɪŋ",
+      "translation_ru": "изнурительный"
+    },
+    {
+      "word": "pension",
+      "ipa_us": "ˈpɛnʃən",
+      "ipa_uk": "ˈpenʃən",
+      "translation_ru": "пенсия"
+    },
+    {
+      "word": "devastated",
+      "ipa_us": "ˈdɛvəˌsteɪtɪd",
+      "ipa_uk": "ˈdevəsteɪtɪd",
+      "translation_ru": "подавленная горем"
+    },
+    {
+      "word": "apparatus",
+      "ipa_us": "ˌæpəˈrætəs",
+      "ipa_uk": "ˌæpəˈreɪtəs",
+      "translation_ru": "оборудование"
     },
     {
       "word": "wounded",
@@ -50,73 +69,90 @@
       "translation_ru": "раненый"
     },
     {
-      "word": "determination",
-      "ipa_us": "dɪˌtɜrməˈneɪʃən",
-      "ipa_uk": "dɪˌtɜːmɪˈneɪʃən",
-      "translation_ru": "решимость"
+      "word": "remains",
+      "ipa_us": "rɪˈmeɪnz",
+      "ipa_uk": "rɪˈmeɪnz",
+      "translation_ru": "останки"
+    },
+    {
+      "word": "achievements",
+      "ipa_us": "əˈtʃivmənts",
+      "ipa_uk": "əˈtʃiːvmənts",
+      "translation_ru": "достижения"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "through",
+        "thing",
+        "mathematics"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
+    },
+    {
       "sound": "w",
       "examples": [
+        "were",
         "was",
-        "Warsaw",
-        "wounded"
+        "when",
+        "would"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "Marie",
-        "radioactivity",
-        "refused"
+        "governess",
+        "determination",
+        "honeymoon",
+        "radioactivity"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "the",
-        "that"
-      ],
-      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
       "sound": "final-voiced",
       "examples": [
-        "ruled",
-        "studied",
-        "awarded"
+        "old",
+        "world",
+        "said",
+        "had"
       ],
-      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+      "tip_ru": "Звонкие согласные на конце слов не оглушайте: «good» не «гут», «world» не «ворлт»."
     }
   ],
   "questions": [
     {
-      "question": "Where was Marie Curie born?",
-      "answer": "In Warsaw.",
+      "question": "Why did Maria Skłodowska go to Paris?",
+      "answer": "She wanted to study physics and mathematics at the Sorbonne, because women could not attend university in Warsaw.",
       "accepted_keywords": [
-        "warsaw",
-        "poland"
+        "study",
+        "sorbonne",
+        "university",
+        "physics",
+        "mathematics"
       ]
     },
     {
-      "question": "Which two new elements did the Curies announce?",
-      "answer": "Polonium and radium.",
+      "question": "Which two elements did the Curies announce in 1898?",
+      "answer": "Polonium, named after Poland, and radium.",
       "accepted_keywords": [
         "polonium",
         "radium"
       ]
     },
     {
-      "question": "What was special about her two Nobel Prizes?",
-      "answer": "They were in two different sciences, physics and chemistry.",
+      "question": "How did Marie Curie help soldiers in the First World War?",
+      "answer": "She equipped vehicles with X-ray machines, the little Curies, to examine the wounded at the front.",
       "accepted_keywords": [
-        "physics",
-        "chemistry",
-        "different"
+        "x-ray",
+        "xray",
+        "vehicles",
+        "little",
+        "wounded",
+        "cars"
       ]
     },
     {
@@ -124,9 +160,9 @@
       "answer": "Because they are still radioactive.",
       "accepted_keywords": [
         "radioactive",
-        "radiation"
+        "radiation",
+        "dangerous"
       ]
     }
-  ],
-  "word_count": 291
+  ]
 }

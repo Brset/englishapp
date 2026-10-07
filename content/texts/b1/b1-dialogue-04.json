@@ -2,112 +2,166 @@
   "id": "b1-dialogue-04",
   "level": "B1",
   "genre": "dialogue",
-  "title_en": "Returning a Jacket",
-  "title_ru": "Возврат куртки",
-  "description_ru": "Покупательница возвращает куртку в магазин и просит обмен.",
-  "text": "Customer: Excuse me, I bought this jacket here last week, but I'm afraid it doesn't fit.\nAssistant: I'm sorry to hear that. Do you have the receipt?\nCustomer: Yes, here it is. I haven't worn the jacket at all. The label is still on it.\nAssistant: Thank you. Would you like a refund, or would you prefer to exchange it for another size?\nCustomer: I would like a bigger size, if you have one. This one is a medium, and the sleeves are too short.\nAssistant: Let me check. Hmm, we have run out of large jackets in blue, but we have one in green.\nCustomer: Green is not really my colour. If you can order a blue one, I will wait.\nAssistant: It would take about five days to arrive. Alternatively, I can give you your money back today.\nCustomer: How long would a refund take?\nAssistant: The money will go back to your card in three working days.\nCustomer: I think I'll wait for the blue jacket. Will you call me when it comes?\nAssistant: Of course. Could you write your phone number here?\nCustomer: Certainly. It's the same number as on the receipt, but I have added a new last digit.\nAssistant: Thank you very much. We will call you as soon as it arrives. Is there anything else I can help you with?\nCustomer: No, that's everything. Thanks for your help!",
-  "word_count": 220,
+  "title_en": "Moving House Conversation",
+  "title_ru": "Разговор о переезде",
+  "description_ru": "Лиза собирает коробки перед переездом, а друг Марк предлагает помощь и полезные советы.",
+  "text": "Lisa: Hi, Mark! Come in. Sorry about the mess. As you can see, I haven't finished packing.\nMark: Wow, there are boxes everywhere. How long have you been working on this?\nLisa: Since Sunday. I thought it would take a day, but I've already filled thirty boxes, and I haven't even started on the kitchen.\nMark: Thirty! How can one person own so much stuff? When I moved last year, I only had eight.\nLisa: That's because you're a minimalist. I have books, plants, three sets of dishes and a bicycle that I never use. If I were more organised, I would have thrown half of it away years ago.\nMark: Well, today is a good day to start. What's the plan? When does the moving van arrive?\nLisa: On Saturday at nine in the morning. The new flat is on the other side of town, about forty minutes by car. I've already signed the contract, and I've got the keys.\nMark: Congratulations! What made you decide to move?\nLisa: Several things. The rent here has gone up twice in two years, and my neighbour upstairs practises the trumpet at night. And the new place has a balcony, which I've always wanted.\nMark: A trumpet? Really? That's terrible. Did you talk to him?\nLisa: I did. He apologised, and he stopped for a week, but then he began again. Anyway, I'm ready for a change. If the flat had been a bit cheaper, I might have stayed, but honestly, I'm excited.\nMark: Good for you. Do you need help carrying things? I have a big car and I'm free on Friday afternoon.\nLisa: That would be fantastic. I was going to ask you, but I felt awkward. Maybe you could take the plants and the small boxes, and the van can take the furniture.\nMark: No problem. Which boxes should I start with?\nLisa: Those by the door. They contain books, so be careful. They're heavier than they look.\nMark: Ouch. You're right. Have you labelled them?\nLisa: Yes, I've written the room on every box, and I've used different colours. Red is for the kitchen, blue is for the bedroom and green is for the bathroom. It was my sister's idea.\nMark: That's clever. When I moved, I forgot to label anything, and I spent two weeks looking for my toothbrush.\nLisa: Oh, I would hate that. By the way, have you got any tape? I've nearly run out.\nMark: I'll buy some on the way over on Friday. Do you need anything else? Bubble wrap, perhaps? For the glasses?\nLisa: Yes, please. I'm afraid of breaking my grandmother's tea set. It's the only thing in this flat that I really care about.\nMark: Then we'll wrap it in towels and put it in the front seat of my car. Nothing will happen to it.\nLisa: Thank you. You're a good friend. Would you like some coffee? I think the kettle is still unpacked.\nMark: Sure. Do you have milk?\nLisa: I think so. Actually, I've just remembered that I need to cancel the internet here and arrange a new connection. I keep forgetting.\nMark: Do it today. If you wait, you might have no internet for a week. It happened to my colleague, and he had to work from a café.\nLisa: Good advice. I'll call them after lunch. And I still have to change my address at the bank, the post office and the doctor's.\nMark: That's the boring part of moving. But once it's finished, you can relax and decorate.\nMark: Do you already know how you'll arrange the furniture? It's easier if you draw a plan before the van arrives.\nLisa: I've measured every room, and I've drawn a sketch on the back of an envelope. The sofa will go under the window, and the bookshelf will fit on the long wall, as long as the movers don't scratch it.\nMark: Take photographs of the empty rooms, too. If there's any dispute about the deposit, you'll have proof of what the walls looked like.\nLisa: That's smart. I'd never have thought of that.\nLisa: I can't wait. I'm thinking of painting the living room light green and putting my plants by the window.\nMark: What about the cleaning? Landlords can be strict when you hand back the keys.\nLisa: I've already booked a cleaning company for Sunday. They have promised to make the oven shine, which is something I've been avoiding for three years.\nMark: Sounds lovely. And what about your old neighbours? Will you miss anyone?\nLisa: Only Mrs Evans on the ground floor. She has watered my plants every summer and she makes the best apple cake. I've promised to visit every month.\nMark: That's a good plan. Who knows, maybe she'll give you the recipe.\nLisa: I doubt it. She says it's a family secret. Right, let's get started. Shall I put on some music?\nMark: Absolutely. But please, no trumpets.\nLisa: Ha! No trumpets. I promise.",
+  "word_count": 794,
   "vocabulary": [
     {
-      "word": "jacket",
-      "ipa_us": "ˈdʒækɪt",
-      "ipa_uk": "ˈdʒækɪt",
-      "translation_ru": "куртка"
+      "word": "packing",
+      "ipa_us": "ˈpækɪŋ",
+      "ipa_uk": "ˈpækɪŋ",
+      "translation_ru": "упаковка вещей"
     },
     {
-      "word": "receipt",
-      "ipa_us": "rɪˈsiːt",
-      "ipa_uk": "rɪˈsiːt",
-      "translation_ru": "чек"
+      "word": "minimalist",
+      "ipa_us": "ˈmɪnɪməlɪst",
+      "ipa_uk": "ˈmɪnɪməlɪst",
+      "translation_ru": "минималист"
     },
     {
-      "word": "refund",
-      "ipa_us": "ˈriːfʌnd",
-      "ipa_uk": "ˈriːfʌnd",
-      "translation_ru": "возврат денег"
+      "word": "contract",
+      "ipa_us": "ˈkɑːntrækt",
+      "ipa_uk": "ˈkɒntrækt",
+      "translation_ru": "договор"
     },
     {
-      "word": "exchange",
-      "ipa_us": "ɪksˈtʃeɪndʒ",
-      "ipa_uk": "ɪksˈtʃeɪndʒ",
-      "translation_ru": "обменять"
+      "word": "balcony",
+      "ipa_us": "ˈbælkəni",
+      "ipa_uk": "ˈbælkəni",
+      "translation_ru": "балкон"
     },
     {
-      "word": "sleeves",
-      "ipa_us": "sliːvz",
-      "ipa_uk": "sliːvz",
-      "translation_ru": "рукава"
+      "word": "labelled",
+      "ipa_us": "ˈleɪbəld",
+      "ipa_uk": "ˈleɪbəld",
+      "translation_ru": "подписанные"
     },
     {
-      "word": "alternatively",
-      "ipa_us": "ɔːlˈtɜːrnətɪvli",
-      "ipa_uk": "ɔːlˈtɜːnətɪvli",
-      "translation_ru": "в качестве альтернативы"
+      "word": "awkward",
+      "ipa_us": "ˈɔːkwərd",
+      "ipa_uk": "ˈɔːkwəd",
+      "translation_ru": "неловко"
     },
     {
-      "word": "arrive",
-      "ipa_us": "əˈraɪv",
-      "ipa_uk": "əˈraɪv",
-      "translation_ru": "прибыть"
+      "word": "connection",
+      "ipa_us": "kəˈnɛkʃən",
+      "ipa_uk": "kəˈnekʃən",
+      "translation_ru": "подключение"
+    },
+    {
+      "word": "deposit",
+      "ipa_us": "dɪˈpɑːzɪt",
+      "ipa_uk": "dɪˈpɒzɪt",
+      "translation_ru": "залог"
+    },
+    {
+      "word": "proof",
+      "ipa_us": "pruːf",
+      "ipa_uk": "pruːf",
+      "translation_ru": "доказательство"
+    },
+    {
+      "word": "measured",
+      "ipa_us": "ˈmɛʒərd",
+      "ipa_uk": "ˈmeʒəd",
+      "translation_ru": "измерила"
+    },
+    {
+      "word": "trumpet",
+      "ipa_us": "ˈtrʌmpɪt",
+      "ipa_uk": "ˈtrʌmpɪt",
+      "translation_ru": "труба (инструмент)"
+    },
+    {
+      "word": "organised",
+      "ipa_us": "ˈɔːrɡənaɪzd",
+      "ipa_uk": "ˈɔːɡənaɪzd",
+      "translation_ru": "организованный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "æ",
       "examples": [
-        "have",
-        "receipt",
-        "sleeves",
-        "arrive",
-        "five"
+        "packing",
+        "balcony",
+        "plants",
+        "hand"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Широко откройте рот, язык низко; звук между «а» и «э», не заменяйте на «э»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "trumpet",
+        "some",
+        "other",
+        "month"
+      ],
+      "tip_ru": "Короткий звук, похожий на русское «а» в безударной позиции; рот открыт умеренно."
     },
     {
       "sound": "final-voiced",
       "examples": [
-        "sleeves",
-        "card",
-        "order"
+        "good",
+        "need",
+        "friend",
+        "old"
       ],
-      "tip_ru": "Звонкие согласные в конце слова не оглушайте: say «bad», а не «бат»; сохраняйте вибрацию голоса, но не добавляйте гласную."
+      "tip_ru": "На конце слова звонкие согласные (b, d, g, v, z) остаются звонкими; не оглушайте их, как по-русски."
     },
     {
-      "sound": "dark-l",
+      "sound": "word-stress",
       "examples": [
-        "label",
-        "still",
-        "call",
-        "will"
+        "minimalist",
+        "connection",
+        "organised",
+        "deposit"
       ],
-      "tip_ru": "Кончик языка касается дёсен за верхними зубами, а спинка языка отодвинута назад; звук твёрдый, но не «ль» и не «в»."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Why does the customer return the jacket?",
-      "answer": "It doesn't fit; the sleeves are too short.",
+      "question": "Why is Lisa moving?",
+      "answer": "The rent has gone up and her neighbour plays the trumpet at night.",
       "accepted_keywords": [
-        "fit",
-        "sleeves",
-        "short",
-        "small"
+        "rent",
+        "trumpet",
+        "neighbour",
+        "balcony"
       ]
     },
     {
-      "question": "What colour does she want?",
-      "answer": "Blue.",
+      "question": "When does the moving van arrive?",
+      "answer": "On Saturday at nine in the morning.",
       "accepted_keywords": [
-        "blue"
+        "saturday",
+        "nine"
       ]
     },
     {
-      "question": "How long will the blue jacket take to arrive?",
-      "answer": "About five days.",
+      "question": "How has Lisa labelled her boxes?",
+      "answer": "With room names and colours: red, blue and green.",
       "accepted_keywords": [
-        "five",
-        "5",
-        "days"
+        "colours",
+        "colors",
+        "red",
+        "blue",
+        "green",
+        "room"
+      ]
+    },
+    {
+      "question": "What does Mark advise about the empty rooms?",
+      "answer": "To take photographs as proof for the deposit.",
+      "accepted_keywords": [
+        "photographs",
+        "photos",
+        "deposit",
+        "proof"
       ]
     }
   ]

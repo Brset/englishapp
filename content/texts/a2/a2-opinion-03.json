@@ -2,126 +2,159 @@
   "id": "a2-opinion-03",
   "level": "A2",
   "genre": "opinion",
-  "title_en": "Cycling to Work",
-  "title_ru": "На работу на велосипеде",
-  "description_ru": "Автор рассказывает, почему велосипед лучше машины в городе.",
-  "text": "Last year, I stopped driving to work and bought a bicycle. Now I think everybody in the city should try it.\n\nFirst, cycling is faster than driving. In the morning, the traffic is terrible. Cars stand in long lines for twenty minutes, but I ride past them and arrive in fifteen minutes.\n\nSecond, it is healthier. I do not have time for the gym, but every day I exercise on the way to work. I feel stronger and more awake than before.\n\nThird, it is cheaper. A bicycle does not need petrol, and parking is free. I saved a lot of money this year.\n\nOf course, cycling is not perfect. When it rains, you get wet, and in winter it is cold. Sometimes drivers are not careful, so I always wear a helmet. But I believe that the good things are more important than the bad things.",
-  "word_count": 147,
+  "title_en": "Paper Books Are Better",
+  "title_ru": "Бумажные книги лучше",
+  "description_ru": "Рассуждение о том, почему автор предпочитает бумажные книги электронным, с примерами, доводами и честными оговорками.",
+  "text": "Many of my friends think that paper books are old-fashioned. They say that e-readers and tablets are cheaper, lighter and more modern. I understand this, and I use my phone every day. But when I want to read a story, I still choose a paper book. In my opinion, paper books are better, and today I want to tell you why.\n\nLet me begin with a small story. Last summer, I went on holiday to the sea with an e-reader that my brother gave me for my birthday. I put two hundred books on it, and I felt very clever. On the first day, I sat on the beach and tried to read. The sun was so bright that I could not see the screen at all, and I had to move into the shade. Then the battery died after three days, and I had forgotten the charger at home. I spent the rest of the holiday looking at the sea. It was nice, but I really wanted to finish my book.\n\nMy old paper books never have this problem. They do not need a battery, and they work in the sun, in the rain and in the bath. If I drop a paper book, nothing happens. If I drop an e-reader, it can break, and a new one is expensive. Also, when you finish a paper book, you can give it to a friend or sell it in a shop. With an e-book, you usually cannot do this.\n\nThe second reason is about how I feel. A paper book has a smell, a weight and a sound. I like to turn the pages and see how many are left. I like to put a small piece of paper between the pages and find my place again. When I read an e-book, I do not know how long the story is. I see only a number at the bottom of the screen, and the book feels like part of my phone. A paper book feels like a real thing that belongs to me.\n\nScientists have also studied this topic. Several studies say that people remember more when they read on paper. One reason is that we can see where things are. We remember that a name was on the left page, near the top, and this helps our memory. On a screen, the words move and disappear, so it is harder to find them again. Another study says that people sleep worse when they read on a bright screen before bed, because the light keeps the brain awake. A paper book is a better partner for the evening.\n\nI should be fair, because e-books have clear advantages. They are cheaper, and some are free. You can carry a whole library in your bag, and this is very useful for travellers. You can make the letters bigger, which is a great help for older people or for people with weak eyes. If you do not know a word, you can touch it and get an explanation at once. I know a student who studies English with an e-reader, and she says it is easier than using a dictionary.\n\nStill, I think that something is lost when we move everything to the screen. A room full of books tells a story about the people who live in it. When I visit a friend, I always look at the shelves first. I see their favourite authors, the old books from their childhood and the new ones with colourful covers. A tablet shows nothing. It is a grey rectangle, and it looks the same in every house.\n\nI also want to say something about libraries and small bookshops. I love to walk between the shelves and choose a book by its cover. Sometimes I find a wonderful story by accident. In an online shop, the computer shows me only what it thinks I want. Real shops are more surprising, and I hope they will never disappear.\n\nSo, am I going to throw away my e-reader? No, I am going to keep it for travel and for long journeys. But at home I will always have a paper book on my table. For me, reading is not only information. It is a quiet and personal pleasure, and paper makes it better.",
+  "word_count": 725,
   "vocabulary": [
     {
-      "word": "bicycle",
-      "ipa_us": "ˈbaɪsɪkl",
-      "ipa_uk": "ˈbaɪsɪkl",
-      "translation_ru": "велосипед"
+      "word": "old-fashioned",
+      "ipa_us": "ˌoʊldˈfæʃənd",
+      "ipa_uk": "ˌəʊldˈfæʃnd",
+      "translation_ru": "старомодный"
     },
     {
-      "word": "traffic",
-      "ipa_us": "ˈtræfɪk",
-      "ipa_uk": "ˈtræfɪk",
-      "translation_ru": "дорожное движение"
+      "word": "e-reader",
+      "ipa_us": "ˈiˌridər",
+      "ipa_uk": "ˈiːˌriːdə",
+      "translation_ru": "электронная книга"
     },
     {
-      "word": "arrive",
-      "ipa_us": "əˈraɪv",
-      "ipa_uk": "əˈraɪv",
-      "translation_ru": "прибывать"
+      "word": "battery",
+      "ipa_us": "ˈbætəri",
+      "ipa_uk": "ˈbætəri",
+      "translation_ru": "батарея"
     },
     {
-      "word": "healthier",
-      "ipa_us": "ˈhelθiər",
-      "ipa_uk": "ˈhelθiə",
-      "translation_ru": "здоровее"
+      "word": "shade",
+      "ipa_us": "ʃeɪd",
+      "ipa_uk": "ʃeɪd",
+      "translation_ru": "тень"
     },
     {
-      "word": "exercise",
-      "ipa_us": "ˈeksərsaɪz",
-      "ipa_uk": "ˈeksəsaɪz",
-      "translation_ru": "заниматься спортом"
+      "word": "charger",
+      "ipa_us": "ˈtʃɑrdʒər",
+      "ipa_uk": "ˈtʃɑːdʒə",
+      "translation_ru": "зарядное устройство"
     },
     {
-      "word": "petrol",
-      "ipa_us": "ˈpetrəl",
-      "ipa_uk": "ˈpetrəl",
-      "translation_ru": "бензин"
+      "word": "memory",
+      "ipa_us": "ˈmɛməri",
+      "ipa_uk": "ˈmeməri",
+      "translation_ru": "память"
     },
     {
-      "word": "careful",
-      "ipa_us": "ˈkerfl",
-      "ipa_uk": "ˈkeəfl",
-      "translation_ru": "осторожный"
+      "word": "advantage",
+      "ipa_us": "ədˈvæntɪdʒ",
+      "ipa_uk": "ədˈvɑːntɪdʒ",
+      "translation_ru": "преимущество"
     },
     {
-      "word": "helmet",
-      "ipa_us": "ˈhelmət",
-      "ipa_uk": "ˈhelmət",
-      "translation_ru": "шлем"
+      "word": "dictionary",
+      "ipa_us": "ˈdɪkʃəˌnɛri",
+      "ipa_uk": "ˈdɪkʃənri",
+      "translation_ru": "словарь"
+    },
+    {
+      "word": "surprising",
+      "ipa_us": "sərˈpraɪzɪŋ",
+      "ipa_uk": "səˈpraɪzɪŋ",
+      "translation_ru": "неожиданный"
+    },
+    {
+      "word": "personal",
+      "ipa_us": "ˈpɜrsənəl",
+      "ipa_uk": "ˈpɜːsənl",
+      "translation_ru": "личный"
+    },
+    {
+      "word": "information",
+      "ipa_us": "ˌɪnfərˈmeɪʃən",
+      "ipa_uk": "ˌɪnfəˈmeɪʃn",
+      "translation_ru": "информация"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "dark-l",
       "examples": [
-        "every",
-        "drivers"
+        "still",
+        "feel",
+        "small"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "ride",
-        "terrible"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "В конце слога язык оттягивается назад, звук твёрдый. Не произносите мягкое русское «ль»."
     },
     {
       "sound": "θ",
       "examples": [
-        "think",
-        "healthier"
+        "three",
+        "things",
+        "think"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
     },
     {
-      "sound": "aɪ",
+      "sound": "æ",
       "examples": [
-        "ride",
-        "time"
+        "bag",
+        "that",
+        "small"
       ],
-      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+      "tip_ru": "Рот открыт шире, чем для русского «э», язык впереди и внизу."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "paper",
+        "tablet",
+        "pages"
+      ],
+      "tip_ru": "P, t, k в начале ударного слога произносите с небольшим выдохом, как будто со струйкой воздуха."
     }
   ],
   "questions": [
     {
-      "question": "How did the writer go to work before?",
-      "answer": "By car.",
+      "question": "What went wrong with the e-reader on holiday?",
+      "answer": "The sun was too bright to see the screen, and the battery died after three days.",
       "accepted_keywords": [
-        "car",
-        "driving"
+        "sun",
+        "bright",
+        "battery",
+        "charger",
+        "screen"
       ]
     },
     {
-      "question": "How long does the journey take by bicycle?",
-      "answer": "Fifteen minutes.",
+      "question": "What do studies say about reading on paper?",
+      "answer": "People remember more when they read on paper.",
       "accepted_keywords": [
-        "fifteen",
-        "15"
+        "remember",
+        "memory",
+        "more"
       ]
     },
     {
-      "question": "Why is cycling cheaper?",
-      "answer": "It does not need petrol and parking is free.",
+      "question": "Name one advantage of e-books.",
+      "answer": "They are cheaper, you can carry many books, you can make letters bigger or look up words quickly.",
       "accepted_keywords": [
-        "petrol",
-        "parking",
-        "free"
+        "cheaper",
+        "library",
+        "bigger",
+        "dictionary",
+        "carry",
+        "free",
+        "words"
       ]
     },
     {
-      "question": "What does the writer wear?",
-      "answer": "A helmet.",
+      "question": "Is the writer going to throw away the e-reader?",
+      "answer": "No, the writer will keep it for travel and long journeys.",
       "accepted_keywords": [
-        "helmet"
+        "no",
+        "keep",
+        "travel",
+        "journeys"
       ]
     }
   ]

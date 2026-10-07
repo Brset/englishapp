@@ -2,142 +2,163 @@
   "id": "b2-dialogue-03",
   "level": "B2",
   "genre": "dialogue",
-  "title_en": "Noisy Neighbours",
-  "title_ru": "Шумные соседи",
-  "description_ru": "Двое соседей по квартире обсуждают шум по ночам и пытаются договориться о правилах.",
-  "text": "Jon: Hey, Sasha, have you got a minute? There's something I'd like to talk about.\n\nSasha: Sure. You look serious. Is everything all right?\n\nJon: Well, to be honest, I haven't been sleeping well lately. It seems that your music is rather loud after eleven.\n\nSasha: Oh no. I had no idea. I always use headphones, or at least I thought I did.\n\nJon: Last night I could hear the bass through the wall. It went on until almost one o'clock.\n\nSasha: I'm so sorry, Jon. My friend Victor came over, and he asked me to turn the speakers on. I should have said no.\n\nJon: It's not only about the music. Yesterday I was told by the woman upstairs that someone had been dragging furniture across the floor at midnight.\n\nSasha: That was me, I'm afraid. I was rearranging my room. I didn't realise that the sound would travel so far.\n\nJon: Look, I don't want to start an argument. I just think we need some rules, like a quiet hour in the evenings.\n\nSasha: That sounds fair. How about this? After half past ten, no loud music, no vacuum cleaner and no visitors in the living room.\n\nJon: Perfect. And at weekends, maybe we could be a bit more flexible, as long as we warn each other first.\n\nSasha: Agreed. By the way, can I ask you for a favour too? You often leave dirty dishes in the sink for days. It's driving me up the wall.\n\nJon: Ouch. You're right, that's a fair point. I promise I'll wash them every evening.\n\nSasha: Then we have a deal. Shall we write the rules down and stick them on the fridge?\n\nJon: Why not? Let's even add a rule that whoever breaks them has to buy pizza for everyone.\n\nSasha: Brilliant idea. Though I suspect I'll be buying the first one!",
-  "word_count": 296,
+  "title_en": "A Room With a View, Almost",
+  "title_ru": "Номер с видом, почти",
+  "description_ru": "Диалог на стойке регистрации отеля: гость выясняет, почему забронированный номер оказался не тем, и договаривается о решении.",
+  "text": "Iris: Good evening, and welcome to the Hotel Marlowe. How may I help you?\nMr Lang: Good evening. I have a reservation in the name of Lang. I booked a double room with a sea view for four nights, and I paid in advance.\nIris: Let me check that for you. Lang, L-A-N-G. Yes, I can see your booking here. Could I have your passport, please?\nMr Lang: Of course. Here you are. I must say that I have been looking forward to this trip for months. My wife and I are celebrating our thirtieth anniversary.\nIris: Congratulations. That is wonderful news. Oh dear.\nMr Lang: Oh dear? I do not like the sound of that.\n\nIris: I am afraid there has been a slight misunderstanding. According to the system, the room that was reserved for you is on the second floor, and it faces the car park.\nMr Lang: The car park? But the confirmation email clearly said sea view. I have it on my phone, if you would like to see it.\nIris: There is no need, sir. I believe you. It seems that the website was updated last month, and some of the older bookings were not correctly transferred. I do apologise.\nMr Lang: I appreciate the apology, but I am not sure that it solves anything. What exactly can be done?\nIris: Let me see what we have available. Please bear with me for a moment.\nMr Lang: Take your time. Although, between you and me, my wife has been travelling for eleven hours, and I would not like to be the one to give her the news.\n\nIris: I have two options. The first is a room on the fifth floor with a partial sea view. You can see the water, but only if you lean slightly out of the window.\nMr Lang: Lean out of the window? That sounds like a recipe for an accident.\nIris: I admit it is not ideal. The second option is a suite on the top floor, which has a balcony and a full view of the bay. However, it was booked for tomorrow by another guest, so we could only offer it for the first two nights.\nMr Lang: And what happens on the third night?\nIris: You would be moved to a different room, which has also been confirmed with a sea view. The staff would transfer your luggage during the day, so you would not need to do anything.\nMr Lang: Hmm. Moving in the middle of an anniversary trip is not exactly romantic.\n\nIris: I understand completely, sir. Let me speak to the manager, because I think that an exception could be made. One moment.\nMr Lang: Please do. And if you could find a way to avoid the move, I would be very grateful.\nIris: Mr Dunmore says that the guest in the suite has been contacted, and that he agreed to a different room, as long as he receives a free breakfast. So the suite is yours for all four nights.\nMr Lang: That is excellent news. I must say, you have been remarkably helpful. Is there any extra charge?\nIris: None at all. In fact, the hotel would like to offer you a bottle of wine and a dinner for two in our restaurant, with our compliments.\nMr Lang: That is very generous. My wife will be delighted, though I should warn you that she is very particular about fish.\n\nIris: Then I will tell the chef. He was trained in Lisbon, and he says that his grilled sea bass has been praised by critics.\nMr Lang: Splendid. And what time is breakfast served?\nIris: From seven to ten on weekdays, and until eleven at weekends. You can also ask for it to be brought to your room, if you prefer.\nMr Lang: Room service sounds like heaven. By the way, is the wi-fi included? I have been told that some hotels in this area charge extra for it.\nIris: It is free throughout the building, and the password is on your key card. If there is any problem, just dial nine from the phone in your room.\n\nMr Lang: One more thing, and then I will let you go. Is it possible to book a table at a restaurant in the old town for Saturday? My wife read about a place that was supposed to be famous for its seafood.\nIris: I would be glad to do that. Do you remember the name?\nMr Lang: I think it was called The Anchor, or perhaps The Lantern. I really cannot recall. It was something nautical.\nIris: Both are good, but The Anchor is more famous, and it gets very crowded. If you give me a moment, I will call them now, and if there is a table, I will reserve it for eight o'clock.\nMr Lang: You are a lifesaver. I will go and fetch my wife from the lobby before she thinks I have run away.\n\nIris: Here is your key card, Mr Lang. The suite is number 501, and the lift is on your left. A porter will bring your bags in a few minutes.\nMr Lang: Thank you once again. I came here fearing the worst, and I am leaving with a better room than I paid for.\nIris: That is how it should be, sir. Please do not hesitate to call if there is anything else we can do.\nMr Lang: I certainly will. Good night, Iris, and thank you for turning a disaster into an anniversary present.\nIris: It was a pleasure. Enjoy your stay, and happy anniversary to you both.",
+  "word_count": 889,
   "vocabulary": [
     {
-      "word": "headphones",
-      "ipa_us": "ˈhɛdˌfoʊnz",
-      "ipa_uk": "ˈhedfəʊnz",
-      "translation_ru": "наушники"
+      "word": "reservation",
+      "ipa_us": "ˌrɛzərˈveɪʃn",
+      "ipa_uk": "ˌrezəˈveɪʃn",
+      "translation_ru": "бронирование"
     },
     {
-      "word": "rearranging",
-      "ipa_us": "ˌriəˈreɪndʒɪŋ",
-      "ipa_uk": "ˌriːəˈreɪndʒɪŋ",
-      "translation_ru": "переставлял"
+      "word": "anniversary",
+      "ipa_us": "ˌænɪˈvɜːrsəri",
+      "ipa_uk": "ˌænɪˈvɜːsəri",
+      "translation_ru": "годовщина"
     },
     {
-      "word": "dragging",
-      "ipa_us": "ˈdræɡɪŋ",
-      "ipa_uk": "ˈdræɡɪŋ",
-      "translation_ru": "таскал"
+      "word": "misunderstanding",
+      "ipa_us": "ˌmɪsʌndərˈstændɪŋ",
+      "ipa_uk": "ˌmɪsʌndəˈstændɪŋ",
+      "translation_ru": "недоразумение"
     },
     {
-      "word": "argument",
-      "ipa_us": "ˈɑrɡjəmənt",
-      "ipa_uk": "ˈɑːɡjʊmənt",
-      "translation_ru": "ссора"
+      "word": "confirmation",
+      "ipa_us": "ˌkɑːnfərˈmeɪʃn",
+      "ipa_uk": "ˌkɒnfəˈmeɪʃn",
+      "translation_ru": "подтверждение"
     },
     {
-      "word": "flexible",
-      "ipa_us": "ˈflɛksəbəl",
-      "ipa_uk": "ˈfleksəbəl",
-      "translation_ru": "гибкий"
+      "word": "transferred",
+      "ipa_us": "trænsˈfɜːrd",
+      "ipa_uk": "trænsˈfɜːd",
+      "translation_ru": "перенесены"
     },
     {
-      "word": "favour",
-      "ipa_us": "ˈfeɪvər",
-      "ipa_uk": "ˈfeɪvə",
-      "translation_ru": "одолжение"
+      "word": "partial",
+      "ipa_us": "ˈpɑːrʃl",
+      "ipa_uk": "ˈpɑːʃl",
+      "translation_ru": "частичный"
     },
     {
-      "word": "sink",
-      "ipa_us": "sɪŋk",
-      "ipa_uk": "sɪŋk",
-      "translation_ru": "раковина"
+      "word": "exception",
+      "ipa_us": "ɪkˈsɛpʃn",
+      "ipa_uk": "ɪkˈsepʃn",
+      "translation_ru": "исключение"
     },
     {
-      "word": "promise",
-      "ipa_us": "ˈprɑmɪs",
-      "ipa_uk": "ˈprɒmɪs",
-      "translation_ru": "обещаю"
+      "word": "remarkably",
+      "ipa_us": "rɪˈmɑːrkəbli",
+      "ipa_uk": "rɪˈmɑːkəbli",
+      "translation_ru": "на удивление"
     },
     {
-      "word": "whoever",
-      "ipa_us": "huˈɛvər",
-      "ipa_uk": "huːˈevə",
-      "translation_ru": "кто бы ни"
+      "word": "generous",
+      "ipa_us": "ˈdʒɛnərəs",
+      "ipa_uk": "ˈdʒenərəs",
+      "translation_ru": "щедрый"
     },
     {
-      "word": "suspect",
-      "ipa_us": "səˈspɛkt",
-      "ipa_uk": "səˈspekt",
-      "translation_ru": "подозреваю"
+      "word": "nautical",
+      "ipa_us": "ˈnɔːtɪkl",
+      "ipa_uk": "ˈnɔːtɪkl",
+      "translation_ru": "морской"
+    },
+    {
+      "word": "lifesaver",
+      "ipa_us": "ˈlaɪfseɪvər",
+      "ipa_uk": "ˈlaɪfseɪvə",
+      "translation_ru": "спаситель, выручалочка"
+    },
+    {
+      "word": "porter",
+      "ipa_us": "ˈpɔːrtər",
+      "ipa_uk": "ˈpɔːtə",
+      "translation_ru": "носильщик"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "eɪ",
+      "examples": [
+        "reservation",
+        "paid",
+        "afraid",
+        "stay"
+      ],
+      "tip_ru": "Плавно переходите от «э» к «и»; это долгий скользящий звук, а не короткое «э»."
+    },
+    {
       "sound": "w",
       "examples": [
-        "well",
-        "wall",
-        "weekends"
+        "would",
+        "wife",
+        "wonderful",
+        "window"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Губы сильно округлены, как для «у»; нижняя губа не касается зубов."
     },
     {
       "sound": "v",
       "examples": [
-        "Victor",
-        "vacuum",
-        "evening"
+        "view",
+        "have",
+        "very",
+        "moved"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не заменяйте на «ф»."
     },
     {
-      "sound": "h",
+      "sound": "aspiration",
       "examples": [
-        "headphones",
-        "hear",
-        "have"
+        "passport",
+        "take",
+        "time",
+        "call"
       ],
-      "tip_ru": "Просто выдохните через открытый рот, без трения, как будто согреваете руки; не заменяйте на русское «х»."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "that",
-        "the",
-        "rather"
-      ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+      "tip_ru": "Начальные «p, t, k» произносите с лёгким выдохом, как будто дуете на ладонь."
     }
   ],
   "questions": [
     {
-      "question": "What is Jon's problem?",
-      "answer": "The music is too loud at night.",
+      "question": "What was the problem with Mr Lang's room?",
+      "answer": "It faced the car park instead of the sea.",
       "accepted_keywords": [
-        "music",
-        "loud",
-        "noise"
+        "car park",
+        "sea",
+        "view"
       ]
     },
     {
-      "question": "Who is Victor?",
-      "answer": "Sasha's friend.",
+      "question": "Why did the hotel make a mistake?",
+      "answer": "The website was updated and some bookings were not transferred correctly.",
       "accepted_keywords": [
-        "friend"
+        "website",
+        "updated",
+        "transferred",
+        "system"
       ]
     },
     {
-      "question": "What time does the quiet hour start?",
-      "answer": "After half past ten.",
+      "question": "What did the hotel offer as compensation?",
+      "answer": "The top-floor suite, a bottle of wine and a dinner for two.",
       "accepted_keywords": [
-        "ten",
-        "10:30",
-        "half"
+        "suite",
+        "wine",
+        "dinner"
       ]
     },
     {
-      "question": "What does the person who breaks the rules have to do?",
-      "answer": "Buy pizza for everyone.",
+      "question": "What are Mr Lang and his wife celebrating?",
+      "answer": "Their thirtieth anniversary.",
       "accepted_keywords": [
-        "pizza"
+        "anniversary",
+        "thirtieth",
+        "30"
       ]
     }
   ]

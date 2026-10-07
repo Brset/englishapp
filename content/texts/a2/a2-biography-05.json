@@ -2,125 +2,156 @@
   "id": "a2-biography-05",
   "level": "A2",
   "genre": "biography",
-  "title_en": "Frida Kahlo",
-  "title_ru": "Фрида Кало",
-  "description_ru": "Рассказ о мексиканской художнице, которая превратила боль в яркие картины.",
-  "text": "Frida Kahlo was born in 1907 in Mexico City. She lived most of her life in a bright blue house, which is now a museum. When she was six, Frida had an illness called polio, and one of her legs became thinner than the other.\n\nAt the age of eighteen, Frida had a terrible bus accident. She was in bed for many months and could not go out. Her mother gave her paints and put a mirror above her bed. So Frida started to paint herself.\n\nLater, she married a famous painter, Diego Rivera. Frida painted about two hundred pictures, and many of them are self-portraits. She used strong colours and showed her feelings, her pain and her love for Mexico.\n\nFrida Kahlo died in 1954. Today she is one of the most famous artists in the world, and people visit her house to see her work.",
-  "word_count": 146,
+  "title_en": "Malala Yousafzai: A Pencil Stronger Than a Gun",
+  "title_ru": "Малала Юсуфзай: карандаш сильнее пистолета",
+  "description_ru": "Биография девушки из Пакистана, которая боролась за право девочек учиться и стала самым молодым лауреатом Нобелевской премии мира.",
+  "text": "Malala Yousafzai is the youngest person who ever won the Nobel Peace Prize. She was only seventeen when she received it in 2014. Her story is about a girl who wanted to go to school, and who was brave enough to say it loudly.\n\nMalala was born on 12 July 1997 in Mingora, a town in the Swat Valley in northern Pakistan. Her father, Ziauddin, was a teacher, and he ran a school for girls. He loved his daughter very much, and he gave her a special name. She was named after Malalai of Maiwand, a young Afghan woman who was a hero in the nineteenth century. In many places, parents were happier when a boy was born, but Ziauddin said that Malala was a gift. He often let her stay up late and talk about politics with his friends.\n\nMalala loved school. She was always one of the first students to arrive in the morning, and she wanted to win every prize in her class. She was a clever, curious student, and she wanted to become a doctor when she grew up. Her life was happy until 2007, when a group called the Taliban came to the Swat Valley. They made strict rules. Music, television and dancing were forbidden, and soon they said that girls must not go to school. Hundreds of schools were closed or destroyed. Many families were scared, and they stayed at home.\n\nMalala did not want to be silent. In 2009, when she was eleven years old, she began to write a blog for the BBC. She wrote under a different name, Gul Makai, because it was too dangerous to use her real one. In her blog she described her daily life, her fear and her love of learning. Many people around the world read her words, and they felt sad and angry about what was happening in Swat. Later, a journalist made a film about her, and she started to give interviews on television. People began to know her face.\n\nHer bravery made her a target. On 9 October 2012, Malala was going home from school on a bus when a man stopped it. He asked, \"Who is Malala?\" and then he shot her in the head. She was fifteen years old. The news travelled quickly across the world. Doctors in Pakistan saved her first, and then she flew to a hospital in Birmingham, England, where she had several operations.\n\nEveryone expected her to be afraid after this. But she recovered slowly, and her family moved to Birmingham. She started at a new school, and she said that the Taliban did not stop her. \"They thought that the bullets would silence us,\" she said later, \"but they failed.\" Her voice became even stronger than before. On her sixteenth birthday, in 2013, she spoke at the United Nations in New York. She said that \"one child, one teacher, one book and one pen can change the world.\"\n\nIn 2013, she wrote a book called \"I Am Malala\", and it became popular in many countries. Together with her father, she started the Malala Fund, an organisation that helps girls to go to school. In 2014, she won the Nobel Peace Prize together with Kailash Satyarthi, an Indian man who worked to protect children. At the ceremony she invited the leaders of India and Pakistan to come, and she spoke about the millions of children who still could not study. She said that the prize was not only for her, but also for all those children who wanted an education and could not get one.\n\nMalala did not stop learning, either. In 2017, she went to Oxford University, where she studied philosophy, politics and economics. She graduated in 2020. Like many students, she enjoyed tea and tried to cope with exams, and she also loved watching cricket, a very popular sport in Pakistan. She married in 2021 and lives in England, but she still travels to meet young people.\n\nToday, Malala is one of the most respected young women in the world. She is not trying to be a hero. She only wants every girl to have twelve years of free school. Her story reminds us that education is not a small thing. Malala taught the world that a pencil can be stronger than a gun.",
+  "word_count": 706,
   "vocabulary": [
     {
-      "word": "illness",
-      "ipa_us": "ˈɪlnəs",
-      "ipa_uk": "ˈɪlnəs",
-      "translation_ru": "болезнь"
+      "word": "education",
+      "ipa_us": "ˌɛdʒəˈkeɪʃən",
+      "ipa_uk": "ˌedʒuˈkeɪʃn",
+      "translation_ru": "образование"
     },
     {
-      "word": "terrible",
-      "ipa_us": "ˈterəbl",
-      "ipa_uk": "ˈterəbl",
-      "translation_ru": "ужасный"
+      "word": "strict",
+      "ipa_us": "strɪkt",
+      "ipa_uk": "strɪkt",
+      "translation_ru": "строгий"
     },
     {
-      "word": "accident",
-      "ipa_us": "ˈæksɪdənt",
-      "ipa_uk": "ˈæksɪdənt",
-      "translation_ru": "авария"
+      "word": "forbidden",
+      "ipa_us": "fərˈbɪdn",
+      "ipa_uk": "fəˈbɪdn",
+      "translation_ru": "запрещён"
     },
     {
-      "word": "mirror",
-      "ipa_us": "ˈmɪrər",
-      "ipa_uk": "ˈmɪrə",
-      "translation_ru": "зеркало"
+      "word": "blog",
+      "ipa_us": "blɑɡ",
+      "ipa_uk": "blɒɡ",
+      "translation_ru": "блог"
     },
     {
-      "word": "painter",
-      "ipa_us": "ˈpeɪntər",
-      "ipa_uk": "ˈpeɪntə",
-      "translation_ru": "художник"
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
     },
     {
-      "word": "self-portrait",
-      "ipa_us": "ˌselfˈpɔːrtrət",
-      "ipa_uk": "ˌselfˈpɔːtrət",
-      "translation_ru": "автопортрет"
+      "word": "operations",
+      "ipa_us": "ˌɑpəˈreɪʃənz",
+      "ipa_uk": "ˌɒpəˈreɪʃnz",
+      "translation_ru": "операции"
     },
     {
-      "word": "feelings",
-      "ipa_us": "ˈfiːlɪŋz",
-      "ipa_uk": "ˈfiːlɪŋz",
-      "translation_ru": "чувства"
+      "word": "recovered",
+      "ipa_us": "rɪˈkʌvərd",
+      "ipa_uk": "rɪˈkʌvəd",
+      "translation_ru": "поправилась"
     },
     {
-      "word": "museum",
-      "ipa_us": "mjuˈziːəm",
-      "ipa_uk": "mjuˈziːəm",
-      "translation_ru": "музей"
+      "word": "silence",
+      "ipa_us": "ˈsaɪləns",
+      "ipa_uk": "ˈsaɪləns",
+      "translation_ru": "заставить замолчать"
+    },
+    {
+      "word": "organisation",
+      "ipa_us": "ˌɔrɡənəˈzeɪʃən",
+      "ipa_uk": "ˌɔːɡənaɪˈzeɪʃn",
+      "translation_ru": "организация"
+    },
+    {
+      "word": "philosophy",
+      "ipa_us": "fəˈlɑsəfi",
+      "ipa_uk": "fəˈlɒsəfi",
+      "translation_ru": "философия"
+    },
+    {
+      "word": "respected",
+      "ipa_us": "rɪˈspɛktɪd",
+      "ipa_uk": "rɪˈspektɪd",
+      "translation_ru": "уважаемый"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "Frida",
-        "terrible"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
-    },
-    {
-      "sound": "dark-l",
-      "examples": [
-        "illness",
-        "called"
-      ],
-      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
-    },
-    {
-      "sound": "eɪ",
-      "examples": [
-        "painted",
-        "eighteen"
-      ],
-      "tip_ru": "Это двойной звук: начните с «э» и плавно скользите к «и»."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thinner",
-        "months"
+        "thought",
+        "thing"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "going",
+        "learning"
+      ],
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос. Не добавляйте «г» в конце."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "father",
+        "that",
+        "they"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "education",
+        "dangerous",
+        "organisation"
+      ],
+      "tip_ru": "Выделяйте ударный слог громкостью и длиной, остальные слоги произносите слабее и короче."
     }
   ],
   "questions": [
     {
-      "question": "Where was Frida born?",
-      "answer": "In Mexico City.",
+      "question": "Why was Malala named Malala?",
+      "answer": "She was named after Malalai of Maiwand, a young Afghan hero.",
       "accepted_keywords": [
-        "mexico"
+        "malalai",
+        "afghan",
+        "hero",
+        "maiwand"
       ]
     },
     {
-      "question": "What colour was her house?",
-      "answer": "Blue.",
+      "question": "What did she write for the BBC?",
+      "answer": "She wrote a blog about her life and her love of learning under the name Gul Makai.",
       "accepted_keywords": [
-        "blue"
+        "blog",
+        "gul",
+        "makai",
+        "diary"
       ]
     },
     {
-      "question": "What did she do in bed?",
-      "answer": "She painted.",
+      "question": "What happened on 9 October 2012?",
+      "answer": "A man shot her on her school bus.",
       "accepted_keywords": [
-        "paint",
-        "painted",
-        "painting"
+        "shot",
+        "bus",
+        "attack",
+        "gun",
+        "shoot"
       ]
     },
     {
-      "question": "Who was her husband?",
-      "answer": "Diego Rivera.",
+      "question": "What does the Malala Fund do?",
+      "answer": "It helps girls to go to school.",
       "accepted_keywords": [
-        "diego",
-        "rivera"
+        "girls",
+        "school",
+        "education",
+        "help"
       ]
     }
   ]

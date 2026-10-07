@@ -2,22 +2,53 @@
   "id": "b2-humor-01",
   "level": "B2",
   "genre": "humor",
-  "title_en": "The Satnav Who Knew Best",
-  "title_ru": "Навигатор, который знал лучше",
-  "description_ru": "Юмористический рассказ о семейной поездке, в которой навигатор и отец спорят о маршруте.",
-  "text": "My father has a rule: he never asks for directions. Forty years of marriage, three countries and one very embarrassing afternoon in a farmyard have not changed it. So when my mother bought him a satnav for his birthday, we all thought the problem was solved. We were wrong. The problem had simply gained a voice.\n\nLast summer we drove to my cousin's wedding, a trip that should have taken two hours. The satnav, which my mother had named Gwendolyn, spoke in a calm, polite British accent. \"In four hundred metres, turn left,\" she said. My father, who was convinced that he knew a shortcut, turned right. \"Recalculating,\" said Gwendolyn, in a tone that suggested she was already disappointed.\n\nTen minutes later, the same thing happened again. \"Turn around when possible,\" she said. \"Nonsense,\" said my father. \"She does not understand the local roads.\" I should mention that we were by then driving through a field, following a tractor that was going nowhere in particular.\n\nMy mother, who had been quiet until then, finally spoke. \"Henry,\" she said, \"you are arguing with a machine, and you are losing.\" Father insisted that he was not arguing, only offering the satnav some helpful advice. Gwendolyn, as if she had heard him, announced, \"You have missed your turning. Please make a legal U-turn.\" There was a long silence in the car. Even the dog, who was asleep on the back seat, seemed to be embarrassed.\n\nIn the end, we arrived at the church forty minutes late, just as the bride was walking in. Father, who had decided to run the last hundred metres, appeared in the doorway with a muddy shoe and a bunch of grass on his jacket. The priest looked at him, and my cousin burst out laughing.\n\nOn the way home my father was unusually thoughtful. Around nine o'clock, he finally turned down the volume. \"Perhaps,\" he said, \"we should ask someone next time.\" My mother smiled and patted his arm. \"Henry, dear,\" she said, \"that is the first sensible thing you have said all day.\" Gwendolyn, naturally, had the last word: \"You have reached your destination.\"\n\nNaturally, we have never let him forget it.",
+  "title_en": "My Satnav Has Opinions",
+  "title_ru": "У моего навигатора есть мнение",
+  "description_ru": "Юмористический рассказ о поездке на свадьбу с навигатором, который обижается, критикует и в конце концов приводит героя на ферму.",
+  "text": "I have never trusted machines that talk. This is not because I am afraid of the future, but because I once owned a lift that said \"Going up\" in a tone of deep disappointment. So when my brother's wedding invitation arrived, with directions that consisted of the words \"Just follow the signs\", I decided to be modern and rely on a satellite navigation system. This was my first mistake. My second was to let it choose the voice. I picked \"Distinguished British Gentleman\", and from that moment I was doomed.\n\nThe first hour went well. The gentleman, whom I named Reginald, announced each turning in a calm, velvety voice, and I began to feel rather smug. I sipped my coffee. I nodded along to the radio. I even waved at a lorry driver, who looked startled. Then, at a roundabout, I took the second exit instead of the third, and Reginald sighed. It was not a loud sigh, but I have been sighed at by teachers, and I know the real thing when I hear it. \"Recalculating,\" he said, as if I had personally let down the Empire.\n\nAfter that, our relationship deteriorated. Every time I ignored an instruction, the sighs grew longer. When I stopped at a service station to buy a sandwich, he said, \"You have reached your destination,\" with such heavy sarcasm that the man at the till glared at me. When I took a different road because I was fairly sure that I knew a shortcut, he went silent for ten whole minutes. I have been given the silent treatment by my mother-in-law, and it was nothing compared to this.\n\nAt about noon, I began to suspect that Reginald was getting his own back. We had left the motorway, which I had assumed was a good thing, and entered a network of lanes so narrow that the hedges scratched both sides of the car at once. \"In four hundred metres,\" he said, \"turn left.\" There was no left. There was a field, a gate and a very large cow with the expression of a bank manager. \"Turn left,\" Reginald repeated, with the patience of a man who has all day. I explained that the cow was in the way. He recalculated.\n\nI would like to say that I stood my ground, but the truth is that I did what I was told. I opened the gate, drove into the field and followed a muddy track that, according to Reginald, was a road. The cow, who had seemed calm, was joined by about thirty of her friends. They formed a half circle around the car and watched me closely, as if I were a new teacher. I smiled at them nervously, and one of them licked the wing mirror. At that point, I confess, I shouted at the dashboard.\n\nReginald, to his credit, did not shout back. \"Please proceed to the highlighted route,\" he said smoothly. There was no highlighted route. There was only mud, and the front wheel, which was slowly sinking into it. I tried to reverse, and the car made a sound like a large animal being sick. A farmer appeared at the top of the hill, leaning on a stick, and walked down to me with the unhurried air of a man who has seen this before. \"Satnav?\" he asked. I nodded. \"Third one this month,\" he said.\n\nIt took forty minutes, a tractor and a great deal of embarrassment to pull the car out. The farmer refused any payment, but he suggested, quite kindly, that I might like to buy a paper map. He also told me that the wedding I was looking for was only two miles down the proper road, and that he had heard the music from his kitchen. I thanked him, gave one of the cows an apologetic wave, and drove away with my head held high and my trousers muddy up to the knees.\n\nI arrived at the church seventeen minutes after the ceremony had finished. The guests were already standing on the lawn, drinking something fizzy, and my brother, who was wearing a flower in his buttonhole, looked at the car, which was covered with mud and strands of grass, and then at me. \"Traffic?\" he asked. I said that it had been a difficult journey, and that I would tell him about it when I had recovered. My mother, who had been waiting for the right moment, whispered that she had always said that I should buy a map.\n\nThe wedding was lovely, and I was forgiven by the end of the speeches, when somebody pointed out that I was the only person who had ever been late to a wedding because of a cow. On the drive home I switched Reginald off, and for the first time that day I felt peaceful. About twenty minutes later, I had completely lost my way, and I switched him on again. \"Recalculating,\" he said, and I could have sworn that he sounded pleased.",
+  "word_count": 838,
   "vocabulary": [
     {
-      "word": "satnav",
-      "ipa_us": "ˈsætnæv",
-      "ipa_uk": "ˈsætnæv",
-      "translation_ru": "навигатор"
+      "word": "satellite",
+      "ipa_us": "ˈsætəˌlaɪt",
+      "ipa_uk": "ˈsætəlaɪt",
+      "translation_ru": "спутниковый"
     },
     {
-      "word": "embarrassing",
-      "ipa_us": "ɪmˈbɛrəsɪŋ",
-      "ipa_uk": "ɪmˈbærəsɪŋ",
-      "translation_ru": "неловкий"
+      "word": "navigation",
+      "ipa_us": "ˌnævəˈɡeɪʃən",
+      "ipa_uk": "ˌnævɪˈɡeɪʃən",
+      "translation_ru": "навигация"
+    },
+    {
+      "word": "doomed",
+      "ipa_us": "dumd",
+      "ipa_uk": "duːmd",
+      "translation_ru": "обречён"
+    },
+    {
+      "word": "velvety",
+      "ipa_us": "ˈvɛlvɪti",
+      "ipa_uk": "ˈvelvɪti",
+      "translation_ru": "бархатистый"
+    },
+    {
+      "word": "smug",
+      "ipa_us": "smʌɡ",
+      "ipa_uk": "smʌɡ",
+      "translation_ru": "самодовольный"
+    },
+    {
+      "word": "deteriorated",
+      "ipa_us": "dɪˈtɪriəˌreɪtɪd",
+      "ipa_uk": "dɪˈtɪəriəreɪtɪd",
+      "translation_ru": "ухудшились"
+    },
+    {
+      "word": "sarcasm",
+      "ipa_us": "ˈsɑrˌkæzəm",
+      "ipa_uk": "ˈsɑːkæzəm",
+      "translation_ru": "сарказм"
     },
     {
       "word": "shortcut",
@@ -26,109 +57,112 @@
       "translation_ru": "короткий путь"
     },
     {
-      "word": "recalculating",
-      "ipa_us": "riˈkælkjəˌleɪtɪŋ",
-      "ipa_uk": "riːˈkælkjʊleɪtɪŋ",
-      "translation_ru": "пересчитываю"
+      "word": "unhurried",
+      "ipa_us": "ʌnˈhɜrid",
+      "ipa_uk": "ʌnˈhʌrid",
+      "translation_ru": "неторопливый"
     },
     {
-      "word": "disappointed",
-      "ipa_us": "ˌdɪsəˈpɔɪntɪd",
-      "ipa_uk": "ˌdɪsəˈpɔɪntɪd",
-      "translation_ru": "разочарованный"
+      "word": "embarrassment",
+      "ipa_us": "ɪmˈbɛrəsmənt",
+      "ipa_uk": "ɪmˈbærəsmənt",
+      "translation_ru": "неловкость"
     },
     {
-      "word": "tractor",
-      "ipa_us": "ˈtræktər",
-      "ipa_uk": "ˈtræktə",
-      "translation_ru": "трактор"
+      "word": "apologetic",
+      "ipa_us": "əˌpɑləˈdʒɛtɪk",
+      "ipa_uk": "əˌpɒləˈdʒetɪk",
+      "translation_ru": "извиняющийся"
     },
     {
-      "word": "nonsense",
-      "ipa_us": "ˈnɑnsɛns",
-      "ipa_uk": "ˈnɒnsəns",
-      "translation_ru": "ерунда"
-    },
-    {
-      "word": "destination",
-      "ipa_us": "ˌdɛstəˈneɪʃən",
-      "ipa_uk": "ˌdestɪˈneɪʃən",
-      "translation_ru": "пункт назначения"
+      "word": "buttonhole",
+      "ipa_us": "ˈbʌtnˌhoʊl",
+      "ipa_uk": "ˈbʌtnhəʊl",
+      "translation_ru": "петлица"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "ʌ",
+      "examples": [
+        "but",
+        "one",
+        "mother",
+        "brother"
+      ],
+      "tip_ru": "Короткий краткий звук между «а» и «э», рот открыт слабо; не «о»."
+    },
+    {
       "sound": "w",
       "examples": [
-        "wedding",
         "were",
-        "wrong",
-        "was"
+        "was",
+        "when",
+        "which"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "right",
-        "roads",
-        "rule",
-        "Recalculating"
+        "satellite",
+        "navigation",
+        "doomed",
+        "velvety"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
-      "sound": "ð",
+      "sound": "dark-l",
       "examples": [
-        "the",
-        "that",
-        "Father",
-        "there"
+        "all",
+        "well",
+        "feel",
+        "tell"
       ],
-      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
-    },
-    {
-      "sound": "æ",
-      "examples": [
-        "satnav",
-        "tractor",
-        "back",
-        "happened"
-      ],
-      "tip_ru": "Откройте рот шире, чем для «э», язык у нижних зубов; звук между «а» и «э»."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What is the father's rule?",
-      "answer": "He never asks for directions.",
+      "question": "Why did the narrator call his satnav Reginald?",
+      "answer": "He chose the voice of a Distinguished British Gentleman and gave it a name.",
       "accepted_keywords": [
-        "never",
-        "directions"
+        "voice",
+        "gentleman",
+        "british",
+        "chose"
       ]
     },
     {
-      "question": "What did the mother name the satnav?",
-      "answer": "Gwendolyn.",
+      "question": "What went wrong at noon?",
+      "answer": "The satnav led him off the motorway into narrow lanes and told him to turn left into a field of cows.",
       "accepted_keywords": [
-        "gwendolyn"
+        "field",
+        "cow",
+        "cows",
+        "lane",
+        "lanes",
+        "left"
       ]
     },
     {
-      "question": "What was the family driving through when they got lost?",
-      "answer": "A field.",
+      "question": "How was the car rescued?",
+      "answer": "A farmer pulled it out with a tractor.",
       "accepted_keywords": [
-        "field"
+        "farmer",
+        "tractor"
       ]
     },
     {
-      "question": "What did the father say at the end?",
-      "answer": "They should ask someone next time.",
+      "question": "What did the narrator do at the end of the story?",
+      "answer": "He switched the satnav on again after getting lost.",
       "accepted_keywords": [
-        "ask",
-        "someone"
+        "switched",
+        "again",
+        "lost",
+        "on"
       ]
     }
-  ],
-  "word_count": 361
+  ]
 }

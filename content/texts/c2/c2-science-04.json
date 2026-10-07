@@ -2,132 +2,166 @@
   "id": "c2-science-04",
   "level": "C2",
   "genre": "science",
-  "title_en": "The Night Shift of the Brain",
-  "title_ru": "Ночная смена мозга",
-  "description_ru": "Что происходит в мозге во время сна: гипотеза глимфатической системы, её доказательства, споры и осторожные выводы.",
-  "text": "For most of the twentieth century, sleep was a bit of an embarrassment to neuroscience. Everyone agreed it was important, since animals deprived of it deteriorate, yet no one could say with confidence what it was for. Theories abounded: memory consolidation, energy conservation, emotional housekeeping. Each was plausible, and none was decisive.\n\nThen, in 2012, a team led by the Danish neuroscientist Maiken Nedergaard, working at the University of Rochester, offered a striking answer, or at least a new question. Most of the body is cleaned by the lymphatic system, a network of vessels that carries away cellular debris. The brain, however, has no lymphatic vessels. What does it do with its rubbish? Nedergaard's group, watching living mouse brains with a special microscope, saw cerebrospinal fluid flowing along channels around blood vessels, entering the tissue and washing through the spaces between cells. They named the arrangement the glymphatic system, a pun that combines the word lymphatic with glia, the brain cells that help regulate the channels.\n\nThe experiments suggested that this flow was dramatically stronger during sleep. In a 2013 study, the space between brain cells in sleeping mice appeared to widen by roughly sixty per cent, allowing the fluid to move more freely and to clear away waste, including a protein called beta-amyloid, whose accumulation is a hallmark of Alzheimer's disease. In effect, the brain seemed to run a night shift, a cleaning crew that works while the occupants sleep.\n\nThe human evidence is less direct, and honesty demands that we say so. Mouse brains differ from ours, and it is difficult to watch fluid moving through a living human skull. Still, some intriguing results exist. In 2019, researchers at Boston University used brain scans to show that, during deep sleep, slow waves of electrical activity were followed by pulses of cerebrospinal fluid washing through the brain. In 2018, volunteers deprived of a single night's sleep showed a small rise in beta-amyloid in certain brain regions. None of this proves that poor sleep causes dementia, and a number of scientists remain sceptical of the glymphatic model altogether. A recent mouse study even suggested that some anaesthetics may reduce clearance rather than enhance it, a reminder that the science is moving.\n\nWhat can reasonably be said? The idea that sleep helps the brain clear waste is plausible, supported by animal studies, and consistent with human observations. It has not been settled, and anyone who tells you otherwise is selling either a mattress or a book. The tidy slogan that sleep washes your brain is a half-truth, as tidy slogans generally are.\n\nYet the practical advice survives the controversy, and it is worth stating plainly, since sleep is so easily sacrificed to deadlines, screens, and the vague belief that rest is a luxury. Regular, sufficient sleep is associated with better memory, mood, and long-term health, whatever the final mechanism turns out to be. If the glymphatic story proves correct, then each night's rest is a quiet act of maintenance. If it does not, we shall merely have discovered that the brain, like most good institutions, does its most important work when nobody is watching.",
-  "word_count": 523,
+  "title_en": "The Night Shift of Memory",
+  "title_ru": "Ночная смена памяти",
+  "description_ru": "Пока мы спим, мозг не отдыхает, а перебирает дневные впечатления и закрепляет нужные. Что известно о медленных волнах, гиппокампе и «проигрывании» воспоминаний.",
+  "text": "There is a persistent and rather flattering myth that sleep is the brain's holiday, a nightly shutdown during which the great organ, having exhausted itself with the cares of the day, lies down in the dark like a labourer after a double shift. The reality is almost the reverse. During some phases of sleep the brain consumes nearly as much energy as it does in waking life, and what it is doing is not idleness but a species of night-time administration, sorting, filing, and discarding the day's records with an efficiency that no human clerk could match.\n\nThe story begins, as so many stories in neuroscience do, with a catastrophe. In 1953, a young man known to the literature for fifty years by his initials, H.M., had parts of both temporal lobes removed in an attempt to cure severe epilepsy. The operation succeeded in its aim, but at a terrible price: he could no longer form new long-term memories of facts and events. He could converse perfectly well for a minute, and then, once distracted, forget that the conversation had occurred. The structure that had been removed included most of the hippocampus, a seahorse-shaped region deep in the brain, and the inference was inescapable that this region is essential to the making of new episodic memories.\n\nThe hippocampus, however, is not a permanent warehouse. It acts more like a rapid but fragile notebook, recording the sequence of events as they happen. Over days and weeks, the content is gradually transferred to the neocortex, the wrinkled outer layer, where it is woven into the existing web of knowledge. This process is known as consolidation, and a great deal of it happens while we are unconscious.\n\nSleep is not uniform. A healthy adult passes through cycles of about ninety minutes, each containing stages of light sleep, deep sleep, and a stage in which the eyes dart beneath the lids and dreams are most vivid, known as rapid eye movement, or REM, sleep. Deep sleep, also called slow-wave sleep because of the large, languid oscillations that appear on the electroencephalogram, dominates the early part of the night, while REM sleep lengthens toward the morning. The two seem to serve different purposes.\n\nIn deep sleep, three rhythms conspire. The slow oscillations, about once a second, sweep across the cortex like a tide. Riding on top of them are short bursts of activity called sleep spindles, generated in the thalamus. And, nested within the spindles, are brief, sharp pulses in the hippocampus, known as sharp-wave ripples. The three are loosely coordinated, and it is thought that this choreography allows the hippocampus to hand its contents to the cortex at moments when the cortex is most receptive.\n\nThe most direct evidence for this dialogue came in 1994, when Matthew Wilson and Bruce McNaughton recorded the activity of individual hippocampal cells in rats. While a rat ran along a track, particular cells fired at particular places, the so-called place cells. Later, as the animal slept, the same cells fired again in the same order, but compressed in time, as if a film of the day had been played back at high speed. Subsequent experiments showed that disrupting these ripples after learning impairs a rat's performance on a maze the following day, which suggests that the replay is not an idle echo but a working mechanism.\n\nIn people, the effects are subtler but real. Volunteers who learn a list of word pairs and then sleep remember more of them than those who spend the same interval awake, and the improvement tracks the amount of slow-wave sleep. Even a short nap can help. A particularly ingenious technique, known as targeted memory reactivation, was demonstrated in 2007 by a German team, who had volunteers learn the locations of card pairs while a rose scent filled the room. When the same scent was presented during slow-wave sleep, but not during REM sleep, recall the next day improved. It is an uncanny result: a smell that the sleeper never consciously noticed apparently nudged the brain to rehearse the right material.\n\nREM sleep, for its part, appears to have a different specialism. Studies in which volunteers were woken during dreaming, or deprived of REM sleep selectively, suggest that it contributes to the processing of emotional memories and to the finding of unexpected connections between pieces of information. The evidence here is less tidy than for deep sleep, and researchers continue to quarrel about how much of the work is done by REM and how much by its quieter neighbour. A fair summary is that the night is a collaboration, in which each stage contributes a little, rather as an orchestra needs both its percussion and its strings, and in which the conductor, if there is one, has declined to be interviewed.\n\nMemory is not the only chore on the night shift. According to one influential idea, the synaptic homeostasis hypothesis, waking life steadily strengthens the connections between neurons, and sleep prunes them back, sparing the important ones and dimming the rest, so that the brain does not saturate. In 2013, researchers led by Maiken Nedergaard reported that, in mice, the spaces between brain cells expand during sleep and cerebrospinal fluid flushes through them, clearing metabolic waste, including a protein associated with Alzheimer's disease. How closely this applies to humans is still being established, but the notion of the brain taking out its own rubbish is irresistible.\n\nTaken together, the findings give a certain practical urgency to the dull advice of grandmothers. A student who studies until dawn and then sits an examination without sleep is, in effect, burning the notebook before it has been copied. The sleeper, by contrast, is working with startling diligence, selecting from the day's accumulated clutter what is worth keeping, and quietly discarding the colour of the traffic light and the name of the man in the queue. Forgetting, it turns out, is not the failure of memory but part of its craftsmanship, and the night shift, unpaid and unseen, is where most of the editing is done.",
+  "word_count": 1014,
   "vocabulary": [
     {
-      "word": "neuroscience",
-      "ipa_us": "ˈnʊroʊˌsaɪəns",
-      "ipa_uk": "ˈnjʊərəʊˌsaɪəns",
-      "translation_ru": "нейронаука"
+      "word": "idleness",
+      "ipa_us": "ˈaɪdlnəs",
+      "ipa_uk": "ˈaɪd(ə)lnəs",
+      "translation_ru": "безделье"
+    },
+    {
+      "word": "discarding",
+      "ipa_us": "dɪˈskɑːrdɪŋ",
+      "ipa_uk": "dɪˈskɑːdɪŋ",
+      "translation_ru": "выбрасывание"
+    },
+    {
+      "word": "catastrophe",
+      "ipa_us": "kəˈtæstrəfi",
+      "ipa_uk": "kəˈtæstrəfi",
+      "translation_ru": "катастрофа"
+    },
+    {
+      "word": "epilepsy",
+      "ipa_us": "ˈɛpəˌlɛpsi",
+      "ipa_uk": "ˈepɪlepsi",
+      "translation_ru": "эпилепсия"
+    },
+    {
+      "word": "hippocampus",
+      "ipa_us": "ˌhɪpəˈkæmpəs",
+      "ipa_uk": "ˌhɪpəˈkæmpəs",
+      "translation_ru": "гиппокамп"
+    },
+    {
+      "word": "episodic",
+      "ipa_us": "ˌɛpəˈsɑːdɪk",
+      "ipa_uk": "ˌepɪˈsɒdɪk",
+      "translation_ru": "эпизодический"
+    },
+    {
+      "word": "neocortex",
+      "ipa_us": "ˌnioʊˈkɔːrtɛks",
+      "ipa_uk": "ˌniːəʊˈkɔːteks",
+      "translation_ru": "неокортекс"
     },
     {
       "word": "consolidation",
       "ipa_us": "kənˌsɑːləˈdeɪʃən",
-      "ipa_uk": "kənˌsɒlɪˈdeɪʃən",
-      "translation_ru": "закрепление"
+      "ipa_uk": "kənˌsɒlɪˈdeɪʃ(ə)n",
+      "translation_ru": "закрепление, консолидация"
     },
     {
-      "word": "cerebrospinal",
-      "ipa_us": "ˌserəbroʊˈspaɪnl",
-      "ipa_uk": "ˌserɪbrəʊˈspaɪnl",
-      "translation_ru": "спинномозговой"
+      "word": "languid",
+      "ipa_us": "ˈlæŋɡwɪd",
+      "ipa_uk": "ˈlæŋɡwɪd",
+      "translation_ru": "вялый, неспешный"
     },
     {
-      "word": "glymphatic",
-      "ipa_us": "ɡlɪmˈfætɪk",
-      "ipa_uk": "ɡlɪmˈfætɪk",
-      "translation_ru": "глимфатический"
+      "word": "choreography",
+      "ipa_us": "ˌkɔːriˈɑːɡrəfi",
+      "ipa_uk": "ˌkɒriˈɒɡrəfi",
+      "translation_ru": "хореография"
     },
     {
-      "word": "accumulation",
-      "ipa_us": "əˌkjuːmjəˈleɪʃən",
-      "ipa_uk": "əˌkjuːmjʊˈleɪʃən",
-      "translation_ru": "накопление"
+      "word": "uncanny",
+      "ipa_us": "ʌnˈkæni",
+      "ipa_uk": "ʌnˈkæni",
+      "translation_ru": "жутковатый, странный"
     },
     {
-      "word": "hallmark",
-      "ipa_us": "ˈhɔːlmɑːrk",
-      "ipa_uk": "ˈhɔːlmɑːk",
-      "translation_ru": "характерный признак"
-    },
-    {
-      "word": "sceptical",
-      "ipa_us": "ˈskeptɪkəl",
-      "ipa_uk": "ˈskeptɪkəl",
-      "translation_ru": "скептический"
-    },
-    {
-      "word": "plausible",
-      "ipa_us": "ˈplɔːzəbl",
-      "ipa_uk": "ˈplɔːzəbl",
-      "translation_ru": "правдоподобный"
+      "word": "craftsmanship",
+      "ipa_us": "ˈkræftsmənˌʃɪp",
+      "ipa_uk": "ˈkrɑːftsmənʃɪp",
+      "translation_ru": "мастерство"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ɪ",
-      "examples": [
-        "it",
-        "this",
-        "glymphatic"
-      ],
-      "tip_ru": "ɪ: короткий расслабленный звук, средний между «и» и «ы»; не тяните его как в слове sleep: it, this, significantly."
-    },
-    {
-      "sound": "iː",
-      "examples": [
-        "sleep",
-        "deep"
-      ],
-      "tip_ru": "iː: долгий, напряжённый звук «и», губы растянуты: sleep, deep; не сокращайте до ɪ."
-    },
-    {
-      "sound": "dark-l",
-      "examples": [
-        "cell",
-        "fluid"
-      ],
-      "tip_ru": "Конечное l произносите твёрдо: язык упирается в дёсны, задняя спинка поднята: cell, fluid."
-    },
-    {
       "sound": "word-stress",
       "examples": [
+        "hippocampus",
         "consolidation",
-        "accumulation",
-        "neuroscience"
+        "choreography"
       ],
-      "tip_ru": "Ударение на слог перед -tion: con-sol-i-DA-tion, ac-cu-mu-LA-tion."
+      "tip_ru": "Ударение: hip-po-CAM-pus, con-sol-i-DA-tion, cho-re-OG-ra-phy. Суффикс -graphy тянет ударение на -OG-."
+    },
+    {
+      "sound": "ɜː",
+      "examples": [
+        "work",
+        "learn",
+        "researchers"
+      ],
+      "tip_ru": "Долгий центральный звук без лишнего округления губ; не заменяйте на ё или э."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hippocampus",
+        "hand",
+        "high"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, трения нет; не произносите русское х."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "strengthens",
+        "morning",
+        "dreaming"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте отчётливого г."
     }
   ],
   "questions": [
     {
-      "question": "Who led the 2012 team?",
-      "answer": "Maiken Nedergaard.",
+      "question": "What happened to patient H.M. in 1953?",
+      "answer": "Parts of his temporal lobes, including the hippocampus, were removed and he could no longer form new long-term memories.",
       "accepted_keywords": [
-        "nedergaard",
-        "maiken"
+        "hippocampus",
+        "temporal",
+        "memories",
+        "removed",
+        "epilepsy"
       ]
     },
     {
-      "question": "What is the glymphatic system?",
-      "answer": "A system that clears waste from the brain via cerebrospinal fluid.",
+      "question": "What do sleep spindles and sharp-wave ripples do?",
+      "answer": "They help coordinate the transfer of memories from the hippocampus to the cortex.",
       "accepted_keywords": [
-        "waste",
-        "clears",
-        "cleaning",
-        "fluid"
+        "transfer",
+        "cortex",
+        "hippocampus",
+        "coordinate",
+        "memory"
       ]
     },
     {
-      "question": "What protein was mentioned?",
-      "answer": "Beta-amyloid.",
+      "question": "What did Wilson and McNaughton discover in rats?",
+      "answer": "Place cells replayed the day's sequence in the same order during sleep.",
       "accepted_keywords": [
-        "amyloid",
-        "beta"
+        "replay",
+        "replayed",
+        "place cells",
+        "same order",
+        "sleep"
       ]
     },
     {
-      "question": "Is the idea fully settled?",
-      "answer": "No, it is still debated.",
+      "question": "What did the German rose-scent experiment show?",
+      "answer": "A scent presented during slow-wave sleep improved recall the next day.",
       "accepted_keywords": [
-        "no",
-        "debated",
-        "sceptical",
-        "settled"
+        "scent",
+        "smell",
+        "rose",
+        "recall",
+        "improved"
       ]
     }
   ]

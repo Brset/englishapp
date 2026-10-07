@@ -2,18 +2,12 @@
   "id": "a1-biography-05",
   "level": "A1",
   "genre": "biography",
-  "title_en": "Yuri Gagarin",
-  "title_ru": "Юрий Гагарин",
-  "description_ru": "Как мальчик из деревни стал первым человеком в космосе.",
-  "text": "Yuri Gagarin was born in 1934 in a small village in Russia. His father was a carpenter, and his mother worked on a farm. Yuri was a happy boy, and he loved planes.\n\nLater he became a pilot. On 12 April 1961 he flew into space in a ship called Vostok 1. He was the first man in space. The flight was short: only one hour and forty-eight minutes.\n\nHe went around the Earth one time. From space he saw our blue planet and said, \"It is beautiful.\" Yuri died in 1968, but people all over the world remember him.",
-  "word_count": 96,
+  "title_en": "Yuri Gagarin: The First Man in Space",
+  "title_ru": "Юрий Гагарин: первый человек в космосе",
+  "description_ru": "От деревни Клушино до орбиты: детство, лётная школа и полёт 12 апреля 1961 года.",
+  "text": "Yuri Gagarin was the first man in space. On April 12, 1961, he flew around the Earth in a spaceship, and the whole world heard his name. But his life began in a very simple place. He was born on March 9, 1934, in a small village called Klushino, in Russia. His father was a carpenter, and his mother worked on a farm. Yuri had two brothers and a sister.\n\nWhen Yuri was seven, a terrible war came to his country. German soldiers took the village, and they took the family's house. For almost two years Yuri's family lived in a small hole in the ground behind the house. They were cold and hungry. The soldiers also took his older brother and sister away to work in Germany. Yuri was a little boy, but he learned to be strong and brave very early.\n\nAfter the war, the family moved to the town of Gzhatsk. Yuri went back to school. He liked maths and physics, and he loved to build things. He made little model planes from wood and paper. One day, when he was a boy, he saw a Soviet plane land in a field near his home. Yuri ran to the field and looked at the plane for a long time. At that moment he began to dream about the sky.\n\nYuri learned to work with metal in a technical school near Moscow, and then he went to study in the city of Saratov. There he did something new. He joined a flying club and learned to fly a small plane. He was twenty-one years old. He loved flying so much that he decided to become a pilot in the air force. In 1955 he began his studies at a pilot school. There he met a girl called Valentina. They got married in 1957, and later they had two daughters.\n\nIn 1960 the Soviet Union looked for the first people to fly into space. Thousands of pilots wanted this job, but only twenty men were chosen. Yuri was one of them. The training was very hard. The men sat in a machine that turned around and around very fast. They stayed alone in a silent room for many days. Yuri was good at everything, and he was always happy and friendly. He told jokes and he helped the others with their lessons. Everybody liked him.\n\nYuri was also small, only one metre fifty-seven, and this was important. The spaceship was tiny, and there was not much room inside. In the end the leaders chose Yuri to fly first. His friend German Titov was the second man in the team. Yuri said that he was very proud and a little afraid. Before the flight, he slept well, and the doctors were surprised.\n\nOn the morning of April 12, 1961, Yuri put on an orange suit and went to the rocket. The place was called Baikonur, in the middle of the steppe. Before the start he said one word, \"Poyekhali!\" It means \"Let's go!\" The rocket went up with a big noise. Yuri flew around the Earth one time, and the flight took one hour and forty-eight minutes. He looked out of the window and saw the blue planet. He said, \"The Earth is blue. It is wonderful.\"\n\nAt the end, the spaceship came back down. When it was seven kilometres above the ground, Yuri jumped out and came down with a parachute. He landed in a field near a village. A woman and her granddaughter saw a strange man in an orange suit and a big white helmet. They were afraid. Yuri said, \"Don't be afraid! I am one of you. I am a Soviet man, and I came from space!\"\n\nAfter the flight, Yuri became a hero in every country. He travelled the world, and people stood in the streets and waved to him. He kept his smile, his kind heart and his love of flying. Sadly, he died in a plane crash on March 27, 1968. He was only thirty-four years old. The town of Gzhatsk now has his name, and it is called Gagarin. In many countries you can find streets, parks and schools with the name of this smiling young man. Today we remember him every year on April 12, because on that day a man from a village first looked at our planet from space.",
+  "word_count": 722,
   "vocabulary": [
-    {
-      "word": "village",
-      "ipa_us": "ˈvɪlɪdʒ",
-      "ipa_uk": "ˈvɪlɪdʒ",
-      "translation_ru": "деревня"
-    },
     {
       "word": "carpenter",
       "ipa_us": "ˈkɑrpəntər",
@@ -21,28 +15,28 @@
       "translation_ru": "плотник"
     },
     {
-      "word": "farm",
-      "ipa_us": "fɑrm",
-      "ipa_uk": "fɑːm",
-      "translation_ru": "ферма"
+      "word": "spaceship",
+      "ipa_us": "ˈspeɪsˌʃɪp",
+      "ipa_uk": "ˈspeɪsʃɪp",
+      "translation_ru": "космический корабль"
+    },
+    {
+      "word": "parachute",
+      "ipa_us": "ˈpɛrəˌʃut",
+      "ipa_uk": "ˈpærəʃuːt",
+      "translation_ru": "парашют"
     },
     {
       "word": "pilot",
       "ipa_us": "ˈpaɪlət",
       "ipa_uk": "ˈpaɪlət",
-      "translation_ru": "лётчик"
+      "translation_ru": "лётчик, пилот"
     },
     {
-      "word": "space",
-      "ipa_us": "speɪs",
-      "ipa_uk": "speɪs",
-      "translation_ru": "космос"
-    },
-    {
-      "word": "flight",
-      "ipa_us": "flaɪt",
-      "ipa_uk": "flaɪt",
-      "translation_ru": "полёт"
+      "word": "training",
+      "ipa_us": "ˈtreɪnɪŋ",
+      "ipa_uk": "ˈtreɪnɪŋ",
+      "translation_ru": "тренировка"
     },
     {
       "word": "planet",
@@ -51,80 +45,114 @@
       "translation_ru": "планета"
     },
     {
-      "word": "beautiful",
-      "ipa_us": "ˈbjutɪfəl",
-      "ipa_uk": "ˈbjuːtɪfəl",
-      "translation_ru": "красивая"
+      "word": "rocket",
+      "ipa_us": "ˈrɑkɪt",
+      "ipa_uk": "ˈrɒkɪt",
+      "translation_ru": "ракета"
+    },
+    {
+      "word": "helmet",
+      "ipa_us": "ˈhɛlmɪt",
+      "ipa_uk": "ˈhelmɪt",
+      "translation_ru": "шлем"
+    },
+    {
+      "word": "hero",
+      "ipa_us": "ˈhɪroʊ",
+      "ipa_uk": "ˈhɪərəʊ",
+      "translation_ru": "герой"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "steppe",
+      "ipa_us": "stɛp",
+      "ipa_uk": "step",
+      "translation_ru": "степь"
+    },
+    {
+      "word": "crash",
+      "ipa_us": "kræʃ",
+      "ipa_uk": "kræʃ",
+      "translation_ru": "авария, крушение"
     }
   ],
   "focus_sounds": [
     {
       "sound": "v",
       "examples": [
+        "very",
         "village",
-        "Vostok",
-        "over"
+        "seven"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не «ф» и не «у»."
     },
     {
-      "sound": "r",
+      "sound": "h",
       "examples": [
-        "Russia",
-        "around",
-        "remember"
+        "hungry",
+        "helmet",
+        "hero"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
-    },
-    {
-      "sound": "ɜː",
-      "examples": [
-        "Earth",
-        "first",
-        "worked"
-      ],
-      "tip_ru": "Долгий центральный звук, губы не округляйте; язык расслаблен, середина рта; не «ор» и не «ер»."
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»."
     },
     {
       "sound": "æ",
       "examples": [
         "planet",
-        "planes",
-        "happy"
+        "family",
+        "landed"
       ],
-      "tip_ru": "Откройте рот шире, чем для «э»: звук между «э» и «а», как в слове cat."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "rocket",
+        "ran",
+        "ground"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не русский «р»."
     }
   ],
   "questions": [
     {
-      "question": "Where was Gagarin born?",
-      "answer": "In a small village in Russia.",
+      "question": "Where was Yuri Gagarin born?",
+      "answer": "He was born in a small village called Klushino, in Russia.",
       "accepted_keywords": [
-        "russia",
-        "village"
+        "klushino",
+        "village",
+        "russia"
       ]
     },
     {
-      "question": "What was the name of his ship?",
-      "answer": "Vostok 1.",
+      "question": "What did Yuri learn to do in a flying club?",
+      "answer": "He learned to fly a small plane.",
       "accepted_keywords": [
-        "vostok"
+        "fly",
+        "plane"
       ]
     },
     {
-      "question": "How long was the flight?",
-      "answer": "One hour and forty-eight minutes.",
+      "question": "What did Yuri say before the rocket started?",
+      "answer": "He said \"Poyekhali!\", which means \"Let's go!\"",
+      "accepted_keywords": [
+        "poyekhali",
+        "go"
+      ]
+    },
+    {
+      "question": "How long did the flight take?",
+      "answer": "It took one hour and forty-eight minutes.",
       "accepted_keywords": [
         "hour",
-        "forty",
-        "48"
-      ]
-    },
-    {
-      "question": "What did he say about the planet?",
-      "answer": "It is beautiful.",
-      "accepted_keywords": [
-        "beautiful"
+        "forty-eight",
+        "108",
+        "one"
       ]
     }
   ]

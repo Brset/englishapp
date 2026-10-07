@@ -2,120 +2,148 @@
   "id": "a2-science-05",
   "level": "A2",
   "genre": "science",
-  "title_en": "The Water Journey",
-  "title_ru": "Путешествие воды",
-  "description_ru": "Круговорот воды в природе: от моря к облакам и обратно в реки.",
-  "text": "Water never stays in one place. It is always on a long journey, and this journey has no beginning and no end.\n\nFirst, the sun warms the sea, the rivers and the lakes. Some water becomes a gas, which we call vapour, and it rises into the air. High above the ground, the air is much colder. The vapour turns into tiny drops of water and makes white clouds.\n\nSoon, the drops become bigger and heavier. They fall to the Earth as rain. In very cold places, they fall as snow. The rain runs into the streams, and the streams run into the rivers. At last, the rivers carry the water back to the sea, and the journey starts again.\n\nThe water you drink today is very old. Perhaps a dinosaur drank it millions of years ago, and perhaps it was once a cloud over your house.",
-  "word_count": 147,
+  "title_en": "How Volcanoes Work",
+  "title_ru": "Как работают вулканы",
+  "description_ru": "От Помпей до Исландии: что находится под землёй, почему происходят извержения и как учёные предупреждают людей об опасности.",
+  "text": "In the year 79, the people of the Roman town of Pompeii heard a loud noise. A tall column of ash and smoke rose from the mountain Vesuvius, and it spread across the sky like an enormous tree. Within a day, the town was covered with ash and stone. About two thousand people died in the town. For hundreds of years, nobody knew exactly where Pompeii was. Today, it is one of the most famous places in the world, and it teaches us a lot about volcanoes.\n\nTo understand a volcano, we need to look under the ground. The Earth has several layers. We live on the thin, hard outer layer, the crust. Below it is the mantle, which is much thicker and very hot. In some places, the rock in the mantle is so hot that it melts. This liquid rock is called magma. It is lighter than the solid rock around it, so it slowly rises, like a bubble in a bottle of water.\n\nThe crust of the Earth is not one piece. It is broken into big parts, called plates, and they move very slowly, about as fast as your fingernails grow. Many volcanoes appear where two plates meet. In some places, one plate goes under another one and melts. In others, two plates move away from each other, and magma comes up through the gap. There are also volcanoes in the middle of plates, for example in Hawaii, above a very hot place in the mantle.\n\nWhen magma collects under a volcano, pressure increases. The magma contains gas, and the gas wants to escape, like the bubbles in a shaken bottle of lemonade. At last, the pressure is too strong, and the volcano erupts. The magma comes out of the top, and from this moment it is called lava. Some lava flows slowly down the side of the mountain, like thick honey. Other eruptions are explosive and throw ash, hot gas and rocks high into the air.\n\nDifferent volcanoes behave in different ways. Vesuvius is dangerous because its magma is thick and sticky, so the gas cannot escape easily, and the eruption is very violent. The volcanoes in Hawaii are calmer. Their lava is thin and runs far across the land, so people can often watch it from a safe distance. Iceland is also a good example. In 2010, a volcano with a long name, Eyjafjallajökull, sent a cloud of ash into the sky, and planes could not fly over much of Europe for almost a week.\n\nThere are about fifteen hundred volcanoes on land that could erupt, and about fifty of them erupt every year. Most are far from towns. The famous Ring of Fire, a long line of volcanoes around the Pacific Ocean, has more than half of them, in countries such as Japan, Chile and Russia. In the east of Russia, on the Kamchatka peninsula, there are around thirty active volcanoes, and tourists can visit some of them in summer.\n\nVolcanoes are dangerous, but they also give us important things. Volcanic soil is rich in minerals, so farmers around Vesuvius still grow grapes and tomatoes there. In Iceland, hot water from under the ground heats the homes of most people. Volcanoes also made the first oceans and the first air, billions of years ago, because they released water vapour and gases from the inside of the planet. Without them, life on Earth probably would not exist.\n\nCan scientists predict an eruption? Not exactly, but they are getting better at it. They watch the mountain with special instruments. Before an eruption, the ground often moves and swells, small earthquakes become more frequent, and the volcano releases more gas. When the signs are serious, officials tell people to leave. Thanks to this system, many lives were saved in recent decades. In 1991, scientists watched Mount Pinatubo in the Philippines for weeks, and about sixty thousand people left the area before a huge eruption. Without the warning, the number of victims was going to be much higher.\n\nIf you ever visit a volcano, remember a few safety rules. Follow the signs, stay on the path and never go close to the edge of a crater. Listen to the local guides. In Pompeii, you can see the shapes of the people and animals who did not escape, and the sight is very emotional. But it also shows something hopeful. Today, thanks to science, a volcano is no longer a complete surprise, and we are going to learn even more in the future.",
+  "word_count": 753,
   "vocabulary": [
     {
-      "word": "journey",
-      "ipa_us": "ˈdʒɜrni",
-      "ipa_uk": "ˈdʒɜːni",
-      "translation_ru": "путешествие"
+      "word": "volcano",
+      "ipa_us": "vɑːlˈkeɪnoʊ",
+      "ipa_uk": "vɒlˈkeɪnəʊ",
+      "translation_ru": "вулкан"
     },
     {
-      "word": "vapour",
-      "ipa_us": "ˈveɪpər",
-      "ipa_uk": "ˈveɪpə",
-      "translation_ru": "пар"
+      "word": "crust",
+      "ipa_us": "krʌst",
+      "ipa_uk": "krʌst",
+      "translation_ru": "земная кора"
     },
     {
-      "word": "rises",
-      "ipa_us": "ˈraɪzɪz",
-      "ipa_uk": "ˈraɪzɪz",
-      "translation_ru": "поднимается"
+      "word": "mantle",
+      "ipa_us": "ˈmæntl",
+      "ipa_uk": "ˈmæntl",
+      "translation_ru": "мантия"
     },
     {
-      "word": "tiny",
-      "ipa_us": "ˈtaɪni",
-      "ipa_uk": "ˈtaɪni",
-      "translation_ru": "крошечный"
+      "word": "magma",
+      "ipa_us": "ˈmæɡmə",
+      "ipa_uk": "ˈmæɡmə",
+      "translation_ru": "магма"
     },
     {
-      "word": "drops",
-      "ipa_us": "drɑps",
-      "ipa_uk": "drɒps",
-      "translation_ru": "капли"
+      "word": "lava",
+      "ipa_us": "ˈlɑːvə",
+      "ipa_uk": "ˈlɑːvə",
+      "translation_ru": "лава"
     },
     {
-      "word": "clouds",
-      "ipa_us": "klaʊdz",
-      "ipa_uk": "klaʊdz",
-      "translation_ru": "облака"
+      "word": "erupt",
+      "ipa_us": "ɪˈrʌpt",
+      "ipa_uk": "ɪˈrʌpt",
+      "translation_ru": "извергаться"
     },
     {
-      "word": "heavier",
-      "ipa_us": "ˈheviər",
-      "ipa_uk": "ˈheviə",
-      "translation_ru": "тяжелее"
+      "word": "pressure",
+      "ipa_us": "ˈprɛʃər",
+      "ipa_uk": "ˈpreʃə",
+      "translation_ru": "давление"
     },
     {
-      "word": "streams",
-      "ipa_us": "striːmz",
-      "ipa_uk": "striːmz",
-      "translation_ru": "ручьи"
+      "word": "ash",
+      "ipa_us": "æʃ",
+      "ipa_uk": "æʃ",
+      "translation_ru": "пепел"
+    },
+    {
+      "word": "crater",
+      "ipa_us": "ˈkreɪtər",
+      "ipa_uk": "ˈkreɪtə",
+      "translation_ru": "кратер"
+    },
+    {
+      "word": "plates",
+      "ipa_us": "pleɪts",
+      "ipa_uk": "pleɪts",
+      "translation_ru": "плиты"
+    },
+    {
+      "word": "earthquakes",
+      "ipa_us": "ˈɜːrθkweɪks",
+      "ipa_uk": "ˈɜːθkweɪks",
+      "translation_ru": "землетрясения"
+    },
+    {
+      "word": "predict",
+      "ipa_us": "prɪˈdɪkt",
+      "ipa_uk": "prɪˈdɪkt",
+      "translation_ru": "предсказать"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "water",
-        "warms",
-        "white"
+        "plates",
+        "crater",
+        "safe"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Дифтонг: начните с «э» и плавно перейдите к короткому «и»; не превращайте его в чистое «э»."
     },
     {
-      "sound": "r",
+      "sound": "æ",
       "examples": [
-        "rivers",
-        "rises",
-        "rain",
-        "run"
+        "ash",
+        "magma",
+        "mantle"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий, между «а» и «э»."
     },
     {
       "sound": "θ",
       "examples": [
-        "the",
-        "this",
-        "Earth"
+        "earthquakes",
+        "thick",
+        "thin"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     }
   ],
   "questions": [
     {
-      "question": "What warms the sea?",
-      "answer": "The sun.",
+      "question": "What is liquid rock under the ground called?",
+      "answer": "Magma.",
       "accepted_keywords": [
-        "sun"
+        "magma"
       ]
     },
     {
-      "question": "What is water gas called?",
-      "answer": "Vapour.",
+      "question": "What happened to Pompeii in the year 79?",
+      "answer": "It was covered with ash from Vesuvius.",
       "accepted_keywords": [
-        "vapour",
-        "vapor"
+        "ash",
+        "vesuvius",
+        "covered"
       ]
     },
     {
-      "question": "What do the drops make high in the air?",
-      "answer": "Clouds.",
+      "question": "Why is Vesuvius dangerous?",
+      "answer": "Its magma is thick and sticky, so the eruption is violent.",
       "accepted_keywords": [
-        "clouds",
-        "cloud"
+        "thick",
+        "sticky",
+        "violent"
       ]
     },
     {
-      "question": "Where do rivers carry the water?",
-      "answer": "Back to the sea.",
+      "question": "How do scientists watch a volcano?",
+      "answer": "With special instruments that measure ground movement, earthquakes and gas.",
       "accepted_keywords": [
-        "sea"
+        "instruments",
+        "ground",
+        "gas",
+        "earthquakes"
       ]
     }
   ]

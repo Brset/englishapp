@@ -2,141 +2,166 @@
   "id": "b2-story-04",
   "level": "B2",
   "genre": "story",
-  "title_en": "A Very Wet Wedding",
-  "title_ru": "Очень дождливая свадьба",
-  "description_ru": "Юмористический рассказ о свадьбе на открытом воздухе, которая пошла совсем не по плану.",
-  "text": "Everyone agreed that the weather forecast had been wrong. For weeks, Priya and Tom had been assured that the second of June would be warm and dry, so they had booked a garden, hired a band and ordered two hundred white chairs. On the morning of the wedding, however, the sky turned the colour of old steel.\n\n\"It's only a shower,\" said Tom's uncle cheerfully. \"It'll blow over.\"\n\nIt did not blow over. By two o'clock the garden had been turned into a small lake, and the guests were standing under umbrellas that did not match their elegant clothes. The photographer, who had been told to capture the bride walking through the roses, was now trying to protect his camera with a plastic bag.\n\nPriya looked out of the window of the farmhouse and said, with surprising calm, that she had no intention of calling the whole thing off. \"We'll do it in the barn,\" she announced. \"If life gives you lemons, make lemonade.\"\n\nWithin half an hour, dozens of volunteers were carrying chairs, flowers and even the wedding cake across the muddy lawn. The barn, which usually housed three tractors and a very bad-tempered goat, was decorated with fairy lights. The goat, it was reported later, ate part of the bouquet.\n\nThe ceremony was short and slightly chaotic. Rain drummed on the roof so loudly that the vows could hardly be heard, and the bride's veil got stuck on a nail. When the registrar asked whether anyone objected to the marriage, the goat bleated, and everybody burst out laughing.\n\nThe dancing went on until midnight. Muddy shoes were thrown into a corner, and even the grumpiest relatives joined in. Someone remarked that it was the best wedding they had ever attended, because nobody was pretending to be perfect.\n\nYears later, Priya and Tom still tell the story at every anniversary. \"A dry wedding would have been forgotten,\" Priya likes to say. \"Ours was a once-in-a-lifetime event, and it came with a goat.\"",
-  "word_count": 337,
+  "title_en": "The Borrowed Violin",
+  "title_ru": "Одолженная скрипка",
+  "description_ru": "Рассказ о студентке-музыканте, которой перед важным конкурсом одолжили чужую скрипку, и о цене настоящего доверия.",
+  "text": "Mira Kovacs had exactly nine days to find a violin. Hers had been crushed three weeks earlier when a taxi door closed on its case, and the repairer in the city had told her, with great sympathy, that it was beyond saving. The competition was in nine days. She was twenty-two, she was broke, and she had been preparing for this single performance since she was fourteen years old.\n\nShe asked everyone she knew. Her teacher, Professor Lund, offered her a student instrument that sounded like a cat in a bucket. Her classmates were either competing themselves or too nervous to lend anything valuable. Her parents, who ran a small bakery, had already used their savings on her tuition, and Mira would have rather played a comb than ask them for more. By the fifth day she had begun to lose hope.\n\nOn the sixth day, Professor Lund rang her late in the evening. He said that an old friend of his, a retired musician named Mr Okafor, owned a violin that had not been played for years. It was said to be very fine. Mr Okafor was ready to lend it, but only on one condition: that Mira should visit him in person, and that he should decide for himself whether she deserved it. \"He is a difficult man,\" the professor warned. \"He has turned down much richer people than you.\"\n\nMira did not sleep that night. She knew very little about the old man, except that he had once played in orchestras all over Europe, and that his wife had died the previous winter. She also knew that she would have to pass an examination that nobody had described to her, which, in her experience, was the worst kind. In the morning she washed her hair twice, ironed her only good blouse and caught the early bus, with her heart beating like a drum.\n\nMr Okafor lived at the top of a narrow house that smelled of oranges and old paper. He was nearly ninety, and he received her in a chair by the window with a blanket across his knees. He did not ask about her prizes or her teachers. Instead he asked what she had had for breakfast, whether she had ever been in love and what she was afraid of. Mira, who had expected an audition, answered awkwardly, and then more honestly, and after half an hour she realised that she was talking about her father's bakery.\n\nAt last he nodded towards a case on the sofa. \"Open it,\" he said. The violin inside was dark red, almost brown, and it had been made, according to the label, in Cremona in 1862. Mira did not dare to touch it. She had never held anything so beautiful in her life. \"Play,\" said Mr Okafor, and she did, with her hands shaking, a slow movement she had practised a thousand times. When she finished, the old man was looking out of the window, and she could not tell whether he was pleased.\n\n\"It is a good violin,\" he said finally. \"But a violin does not care about competitions. It cares about whether somebody is telling the truth with it. You played like a person who is afraid of losing. Take it for nine days. Be afraid of something better.\" Then he closed his eyes, and the interview was over. She left carrying the case in both arms, like a baby, and she walked home eleven blocks rather than risk the bus.\n\nThe following week she practised for ten hours a day. She noticed that the instrument seemed to answer her in a way that her own never had, as if it remembered the hands of the people who had played it before. Twice she cried from tiredness, and once from happiness, and on the night before the competition she dreamed that Mr Okafor was sitting in the front row with his blanket, shaking his head.\n\nHe was not there, of course. He was too old to travel. But when Mira walked onto the stage and lifted the bow, she was thinking of the orange-scented room and the question about her fear, and suddenly the fear was no longer in the way. She played for eleven minutes. Afterwards, she could hardly remember a single bar, but she remembered the silence at the end, which went on for a full three seconds before the audience began to applaud.\n\nShe did not win first prize. That went to a boy from Seoul who played brilliantly and precisely, and whom Mira congratulated sincerely. She was awarded second place, and a small cheque, and the next morning she took a train to return the violin. Mr Okafor listened to the whole story without comment. Then he pushed the case back across the table. \"I am too old to play it,\" he said. \"I think you had better keep it until you are better than I was.\" Mira opened her mouth to protest, and for once in her life, she found that she had nothing to say.",
+  "word_count": 845,
   "vocabulary": [
     {
-      "word": "forecast",
-      "ipa_us": "ˈfɔrkæst",
-      "ipa_uk": "ˈfɔːkɑːst",
-      "translation_ru": "прогноз"
+      "word": "crushed",
+      "ipa_us": "krʌʃt",
+      "ipa_uk": "krʌʃt",
+      "translation_ru": "раздавлена"
     },
     {
-      "word": "assured",
-      "ipa_us": "əˈʃʊrd",
-      "ipa_uk": "əˈʃɔːd",
-      "translation_ru": "заверены"
+      "word": "sympathy",
+      "ipa_us": "ˈsɪmpəθi",
+      "ipa_uk": "ˈsɪmpəθi",
+      "translation_ru": "сочувствие"
     },
     {
-      "word": "elegant",
-      "ipa_us": "ˈɛlɪɡənt",
-      "ipa_uk": "ˈelɪɡənt",
-      "translation_ru": "элегантный"
+      "word": "competition",
+      "ipa_us": "ˌkɑːmpəˈtɪʃn",
+      "ipa_uk": "ˌkɒmpəˈtɪʃn",
+      "translation_ru": "конкурс"
     },
     {
-      "word": "photographer",
-      "ipa_us": "fəˈtɑɡrəfər",
-      "ipa_uk": "fəˈtɒɡrəfə",
-      "translation_ru": "фотограф"
+      "word": "tuition",
+      "ipa_us": "tuˈɪʃn",
+      "ipa_uk": "tjuˈɪʃn",
+      "translation_ru": "плата за обучение"
     },
     {
-      "word": "barn",
-      "ipa_us": "bɑrn",
-      "ipa_uk": "bɑːn",
-      "translation_ru": "амбар"
+      "word": "condition",
+      "ipa_us": "kənˈdɪʃn",
+      "ipa_uk": "kənˈdɪʃn",
+      "translation_ru": "условие"
     },
     {
-      "word": "chaotic",
-      "ipa_us": "keɪˈɑtɪk",
-      "ipa_uk": "keɪˈɒtɪk",
-      "translation_ru": "хаотичный"
+      "word": "audition",
+      "ipa_us": "ɔːˈdɪʃn",
+      "ipa_uk": "ɔːˈdɪʃn",
+      "translation_ru": "прослушивание"
     },
     {
-      "word": "vows",
-      "ipa_us": "vaʊz",
-      "ipa_uk": "vaʊz",
-      "translation_ru": "брачные клятвы"
+      "word": "awkwardly",
+      "ipa_us": "ˈɔːkwərdli",
+      "ipa_uk": "ˈɔːkwədli",
+      "translation_ru": "неловко"
     },
     {
-      "word": "registrar",
-      "ipa_us": "ˈrɛdʒɪˌstrɑr",
-      "ipa_uk": "ˌredʒɪˈstrɑː",
-      "translation_ru": "регистратор"
+      "word": "instrument",
+      "ipa_us": "ˈɪnstrəmənt",
+      "ipa_uk": "ˈɪnstrəmənt",
+      "translation_ru": "инструмент"
     },
     {
-      "word": "objected",
-      "ipa_us": "əbˈdʒɛktɪd",
-      "ipa_uk": "əbˈdʒektɪd",
-      "translation_ru": "возражал"
+      "word": "movement",
+      "ipa_us": "ˈmuːvmənt",
+      "ipa_uk": "ˈmuːvmənt",
+      "translation_ru": "часть (произведения)"
     },
     {
-      "word": "grumpiest",
-      "ipa_us": "ˈɡrʌmpiɪst",
-      "ipa_uk": "ˈɡrʌmpiɪst",
-      "translation_ru": "самые ворчливые"
+      "word": "applaud",
+      "ipa_us": "əˈplɔːd",
+      "ipa_uk": "əˈplɔːd",
+      "translation_ru": "аплодировать"
+    },
+    {
+      "word": "precisely",
+      "ipa_us": "prɪˈsaɪsli",
+      "ipa_uk": "prɪˈsaɪsli",
+      "translation_ru": "точно"
+    },
+    {
+      "word": "protest",
+      "ipa_us": "prəˈtɛst",
+      "ipa_uk": "prəˈtest",
+      "translation_ru": "возражать"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ɔː",
       "examples": [
-        "wedding",
-        "weather",
-        "window"
+        "audition",
+        "applaud",
+        "awkwardly",
+        "all"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Губы округлены, звук долгий и глубокий, как протяжное «о»."
     },
     {
       "sound": "v",
       "examples": [
+        "violin",
+        "have",
         "very",
-        "vows",
-        "volunteers"
+        "evening"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не произносите «ф» или «у»."
     },
     {
-      "sound": "aʊ",
+      "sound": "ʌ",
       "examples": [
-        "loudly",
-        "flowers"
+        "crushed",
+        "much",
+        "once",
+        "one"
       ],
-      "tip_ru": "Начните с «а» и плавно сдвигайтесь к короткому «у», не превращая звук в «ау» с двумя ударениями."
+      "tip_ru": "Короткий звук, близкий к русскому ударному «а»; рот открыт нешироко."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "rain",
-        "roses",
-        "registrar"
+        "competition",
+        "condition",
+        "audition"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "В словах на «-tion» ударение падает на слог перед этим окончанием."
     }
   ],
   "questions": [
     {
-      "question": "When was the wedding?",
-      "answer": "On the second of June.",
+      "question": "Why did Mira need a violin?",
+      "answer": "Her own violin had been crushed by a taxi door.",
       "accepted_keywords": [
-        "june",
-        "second"
+        "crushed",
+        "broken",
+        "taxi",
+        "door",
+        "destroyed"
       ]
     },
     {
-      "question": "Where was the ceremony held instead of the garden?",
-      "answer": "In the barn.",
+      "question": "What did Mr Okafor ask her during the visit?",
+      "answer": "About breakfast, love and what she was afraid of.",
       "accepted_keywords": [
-        "barn"
+        "breakfast",
+        "love",
+        "afraid",
+        "fear"
       ]
     },
     {
-      "question": "What did the goat do?",
-      "answer": "It ate part of the bouquet.",
+      "question": "What advice did he give about playing?",
+      "answer": "To tell the truth with the violin and not be afraid of losing.",
       "accepted_keywords": [
-        "bouquet",
-        "ate",
-        "flowers"
+        "truth",
+        "afraid",
+        "fear",
+        "losing"
       ]
     },
     {
-      "question": "Who said, \"If life gives you lemons, make lemonade\"?",
-      "answer": "Priya.",
+      "question": "What did Mr Okafor do at the end?",
+      "answer": "He let her keep the violin.",
       "accepted_keywords": [
-        "priya",
-        "bride"
+        "keep",
+        "gave",
+        "give",
+        "violin"
       ]
     }
   ]

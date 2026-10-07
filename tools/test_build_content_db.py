@@ -16,7 +16,7 @@ ROOT = b.ROOT
 
 def make_text(tid: str, level: str, genre: str, title: str) -> dict:
     words = "The quick brown fox jumps over the lazy dog near a river bank today. "
-    text = (words * 8).strip()
+    text = (words * 55).strip()  # 770 words: inside the A1 range (700-820)
     # pad/trim to a valid A1 count
     t = {
         "id": tid, "level": level, "genre": genre, "title_en": title, "title_ru": "Заголовок " + title,
@@ -52,7 +52,7 @@ class BuildTest(unittest.TestCase):
         return b.build(self.texts, self.sounds, self.schema, self.out)
 
     def test_rows_and_order(self):
-        # fixture words must pass real validation (A1 70-120)
+        # fixture words must pass real validation (A1 700-820)
         self.assertEqual(v.check(self.texts / "a1" / "a1-story-01.json"), [])
         r = self.build()
         self.assertEqual(len(r["texts"]), 3)

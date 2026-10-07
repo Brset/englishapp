@@ -2,130 +2,157 @@
   "id": "b1-opinion-05",
   "level": "B1",
   "genre": "opinion",
-  "title_en": "Should Zoos Still Exist?",
-  "title_ru": "Нужны ли зоопарки?",
-  "description_ru": "Размышление о пользе и вреде зоопарков и о том, как они могли бы измениться.",
-  "text": "When I was a child, a trip to the zoo was the best day of the year. I loved the elephants, the monkeys and especially the tiger, who always seemed to look straight at me. Now that I am an adult, I am not so sure that zoos are a good idea.\n\nOn the one hand, good zoos do important work. They have saved several species from disappearing, such as the Arabian oryx and the golden lion tamarin. They also teach children to care about nature. If a child has never seen a real giraffe, it is hard to make them worry about giraffes in the wild.\n\nOn the other hand, many animals suffer in captivity. A tiger in a small cage walks up and down all day, because it needs a territory of many kilometres. Scientists have found that animals in poor conditions often show stress and even illness. I find it difficult to enjoy a visit when the animals look bored and unhappy.\n\nSo what is the answer? In my opinion, we should not close all zoos, but we should change them. Cages should be replaced by large natural spaces, and zoos should keep only the animals they can look after properly. They should also work harder to return rare species to their natural homes.\n\nIf zoos become sanctuaries rather than shows, I will happily take my own children there. Until then, I prefer to watch wild animals on a documentary at home.",
-  "word_count": 245,
+  "title_en": "Cities for People, Not Cars",
+  "title_ru": "Города для людей, а не для машин",
+  "description_ru": "Мнение о том, что города должны отдавать больше места пешеходам и велосипедистам: примеры Копенгагена и Боготы, аргументы и решения.",
+  "text": "Imagine walking down your street in the evening. There are cars on both sides of the road, and more cars are slowly moving past you, waiting for the traffic lights to change. The air smells of exhaust fumes, and a child on a bicycle looks nervous, because the cars are so close. Now imagine the same street without most of those cars. There are trees, tables outside a café, and children playing on the pavement. I believe that the second picture is not a dream. In my opinion, our cities should be designed for people, not for cars.\n\nCars have changed our towns more than almost any other invention. In the last hundred years we have built wider roads, bigger car parks and fast ring roads, and we have often destroyed parks and old buildings to do it. The result is that many cities are noisy, polluted and dangerous. According to the World Health Organization, millions of people die every year because of dirty air, and road accidents kill more than a million. Some of these deaths are the price we have paid for convenience, but I do not think that the price is fair.\n\nThe usual reply is that cars are necessary. People have to go to work, take their children to school and buy food, and public transport is often slow or expensive. I understand this argument, and I would never say that everybody should give up their car tomorrow. For people who live far away from the centre, or who have disabilities, a car can be essential. However, if we look at the numbers, we find that a large proportion of urban journeys are shorter than five kilometres. For these trips, walking, cycling or taking a tram would be just as fast and much cheaper.\n\nSeveral cities have already shown that change is possible. In Copenhagen, about half of all people cycle to work or school, because the city has built safe, separate cycle lanes. In Paris, the mayor has turned parts of the river bank into walking areas and has reduced parking in the centre. Bogota in Colombia closes hundreds of kilometres of roads to cars every Sunday so that families can walk, run and cycle. In each of these places, people were worried at first. Shop owners feared that they would lose customers. Yet studies have shown that pedestrians and cyclists often spend more in local shops, because they pass by more slowly and visit more often.\n\nOf course, change does not happen without problems. If a city simply bans cars without offering something better, it will only make people angry. First, there must be a reliable alternative, such as frequent buses, trams and trains that run late at night. Second, the cost of using a car in the centre could be raised, as it has been in London, where drivers pay a daily charge. The money collected can be spent on improving public transport. Third, we should make cycling and walking safer by building wide pavements, good lighting and secure bicycle parking.\n\nI also think that we should consider the effect on our health and happiness. People who walk or cycle every day are fitter and often feel less stressed. Children who can play outside without fear learn to be independent, and older people are less lonely when they can easily meet neighbours in a pleasant square. If a street is quiet, people talk to one another. When I lived near a busy road, I did not know a single person in my building. Since I moved to a pedestrian area, I have made five friends.\n\nA quieter city would also sound better. Anyone who has tried to talk on a busy pavement or sleep with the window open knows how tiring constant traffic noise can be. Naturally, a city with fewer cars cannot work if people are not willing to change their habits. We have become used to jumping in the car for every little journey, even when a walk would take ten minutes. But habits can change. Twenty years ago many people smoked in restaurants, and today that seems unthinkable. I suspect that in another twenty years we will look at crowded, car-filled streets with the same surprise.\n\nTo sum up, I am not against cars, and I do not claim that they have no uses. What I would like is for them to become guests in our cities, rather than owners. If we give more space to people, with parks, bicycles, trams and wide pavements, our cities will be cleaner, safer and friendlier. It will take time and courage, but I am convinced that it will be worth it.",
+  "word_count": 779,
   "vocabulary": [
     {
-      "word": "species",
-      "ipa_us": "ˈspiʃiz",
-      "ipa_uk": "ˈspiːʃiːz",
-      "translation_ru": "вид (биологический)"
+      "word": "polluted",
+      "ipa_us": "pəˈluːtɪd",
+      "ipa_uk": "pəˈluːtɪd",
+      "translation_ru": "загрязнённый"
     },
     {
-      "word": "disappearing",
-      "ipa_us": "ˌdɪsəˈpɪrɪŋ",
-      "ipa_uk": "ˌdɪsəˈpɪərɪŋ",
-      "translation_ru": "исчезать"
+      "word": "exhaust",
+      "ipa_us": "ɪɡˈzɔːst",
+      "ipa_uk": "ɪɡˈzɔːst",
+      "translation_ru": "выхлопные газы"
     },
     {
-      "word": "wild",
-      "ipa_us": "waɪld",
-      "ipa_uk": "waɪld",
-      "translation_ru": "дикая природа"
+      "word": "pavement",
+      "ipa_us": "ˈpeɪvmənt",
+      "ipa_uk": "ˈpeɪvmənt",
+      "translation_ru": "тротуар"
     },
     {
-      "word": "captivity",
-      "ipa_us": "kæpˈtɪvəti",
-      "ipa_uk": "kæpˈtɪvəti",
-      "translation_ru": "неволя"
+      "word": "convenience",
+      "ipa_us": "kənˈviːniəns",
+      "ipa_uk": "kənˈviːniəns",
+      "translation_ru": "удобство"
     },
     {
-      "word": "territory",
-      "ipa_us": "ˈtɛrəˌtɔri",
-      "ipa_uk": "ˈterətri",
-      "translation_ru": "территория"
+      "word": "pedestrians",
+      "ipa_us": "pəˈdɛstriənz",
+      "ipa_uk": "pəˈdestriənz",
+      "translation_ru": "пешеходы"
     },
     {
-      "word": "conditions",
-      "ipa_us": "kənˈdɪʃənz",
-      "ipa_uk": "kənˈdɪʃənz",
-      "translation_ru": "условия"
+      "word": "alternative",
+      "ipa_us": "ɔːlˈtɜːrnətɪv",
+      "ipa_uk": "ɔːlˈtɜːnətɪv",
+      "translation_ru": "альтернатива"
     },
     {
-      "word": "sanctuaries",
-      "ipa_us": "ˈsæŋktʃuˌɛriz",
-      "ipa_uk": "ˈsæŋktʃuərɪz",
-      "translation_ru": "заповедники, приюты"
+      "word": "reliable",
+      "ipa_us": "rɪˈlaɪəbəl",
+      "ipa_uk": "rɪˈlaɪəbəl",
+      "translation_ru": "надёжный"
     },
     {
-      "word": "documentary",
-      "ipa_us": "ˌdɑkjəˈmɛntəri",
-      "ipa_uk": "ˌdɒkjuˈmentəri",
-      "translation_ru": "документальный фильм"
+      "word": "essential",
+      "ipa_us": "ɪˈsɛnʃəl",
+      "ipa_uk": "ɪˈsenʃəl",
+      "translation_ru": "необходимый"
     },
     {
-      "word": "rare",
-      "ipa_us": "rɛr",
-      "ipa_uk": "reə",
-      "translation_ru": "редкий"
+      "word": "unthinkable",
+      "ipa_us": "ʌnˈθɪŋkəbəl",
+      "ipa_uk": "ʌnˈθɪŋkəbəl",
+      "translation_ru": "немыслимый"
+    },
+    {
+      "word": "cyclists",
+      "ipa_us": "ˈsaɪklɪsts",
+      "ipa_uk": "ˈsaɪklɪsts",
+      "translation_ru": "велосипедисты"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ŋ",
+      "sound": "θ",
       "examples": [
-        "disappearing",
-        "sanctuaries"
+        "both",
+        "health",
+        "think",
+        "unthinkable"
       ],
-      "tip_ru": "Спинка языка прижата к нёбу, воздух идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "r",
       "examples": [
-        "rare",
-        "real",
-        "return",
-        "territory"
+        "road",
+        "river",
+        "reliable",
+        "result"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка поднят и загнут назад, не касается нёба; никакого раскатистого «р»."
     },
     {
       "sound": "w",
       "examples": [
-        "wild",
-        "worry",
-        "work",
-        "when"
+        "walking",
+        "wide",
+        "window",
+        "world"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "cycling",
+        "parking",
+        "walking",
+        "building"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
     }
   ],
   "questions": [
     {
-      "question": "What was the best day of the year for the writer as a child?",
-      "answer": "A trip to the zoo.",
+      "question": "What do many urban journeys have in common?",
+      "answer": "They are shorter than five kilometres.",
       "accepted_keywords": [
-        "zoo",
-        "trip"
-      ]
-    },
-    {
-      "question": "Name one animal that zoos have helped to save.",
-      "answer": "The Arabian oryx or the golden lion tamarin.",
-      "accepted_keywords": [
-        "oryx",
-        "tamarin"
-      ]
-    },
-    {
-      "question": "Why do tigers suffer in small cages?",
-      "answer": "They need a large territory.",
-      "accepted_keywords": [
-        "territory",
-        "space",
-        "large",
+        "five",
+        "5",
+        "shorter",
         "kilometres"
       ]
     },
     {
-      "question": "What does the writer want zoos to become?",
-      "answer": "Sanctuaries rather than shows.",
+      "question": "What have Copenhagen and Bogota done?",
+      "answer": "Copenhagen built safe cycle lanes, and Bogota closes roads to cars on Sundays.",
       "accepted_keywords": [
-        "sanctuaries",
-        "sanctuary"
+        "cycle",
+        "lanes",
+        "sunday",
+        "sundays",
+        "closes",
+        "roads"
+      ]
+    },
+    {
+      "question": "What three steps does the author suggest?",
+      "answer": "Reliable public transport, higher costs for cars in the centre, and safer walking and cycling.",
+      "accepted_keywords": [
+        "transport",
+        "cost",
+        "charge",
+        "safer",
+        "pavements",
+        "cycling"
+      ]
+    },
+    {
+      "question": "How did the author's life change after moving to a pedestrian area?",
+      "answer": "The author made five friends.",
+      "accepted_keywords": [
+        "friends",
+        "five",
+        "five friends"
       ]
     }
   ]

@@ -2,35 +2,23 @@
   "id": "a1-biography-04",
   "level": "A1",
   "genre": "biography",
-  "title_en": "Nelson Mandela",
-  "title_ru": "Нельсон Мандела",
-  "description_ru": "Человек, который провёл много лет в тюрьме, а потом стал президентом своей страны.",
-  "text": "Nelson Mandela was born in South Africa in 1918. He was a lawyer, and he wanted all people in his country to be free and equal.\n\nBut the government was unfair, and Mandela spoke against it. For this, he was in prison for twenty-seven years. It was a very long time.\n\nIn 1990 he was free. Everyone in the world was happy. In 1993 he won the Nobel Peace Prize. In 1994 he became the president of South Africa. He was a kind and wise man. Many people still love him. He died in 2013.",
-  "word_count": 91,
+  "title_en": "Nelson Mandela: A Man of Peace",
+  "title_ru": "Нельсон Мандела: человек мира",
+  "description_ru": "История борца против апартеида: 27 лет тюрьмы, освобождение и избрание первым чёрным президентом ЮАР.",
+  "text": "Nelson Mandela was a great leader and a man of peace. He was born on July 18, 1918, in a small village in South Africa. His first name was not Nelson. His parents called him Rolihlahla, and in his language this name means \"pulling the branch of a tree\", or a person who makes trouble. Later, on his first day at school, a teacher gave him the English name Nelson. All the children at school got English names then.\n\nNelson's father was an important man in the village, but he died when Nelson was only nine. After that, a local chief took the boy into his house and cared for him. Nelson went to good schools, and he studied at a university. He was a clever young man, but the chief wanted him to marry a woman he did not know. Nelson did not want this life. He ran away to the big city of Johannesburg.\n\nIn Johannesburg he worked as a guard in a gold mine, and then he found a job in a law office. He studied at night, and after some years he became a lawyer. In 1952 he opened his own office with his friend Oliver Tambo. It was the first black law office in the city. Many poor people came to them, and the two men helped them for very little money.\n\nAt that time South Africa had very unfair laws. The system was called apartheid. Black people and white people had to live in different places. They went to different schools and used different buses, and black people could not vote. Nelson thought this was wrong. He joined a group called the African National Congress, and he worked for a country where all people are equal.\n\nAt first Nelson wanted to change things in a peaceful way. But the government did not listen, and it became more and more cruel. He was arrested many times. In 1964 a judge sent him to prison for the rest of his life. In court he said that he was ready to die for his dream of a free and fair country. Then the police took him to a prison on a small island called Robben Island.\n\nHis life in prison was very hard. His cell was tiny, and he slept on the floor. He worked in a quarry in the hot sun, and the white light hurt his eyes. He could write and receive only one letter every six months. But Nelson did not give up. He studied, he read books, and he talked to the other prisoners. He taught them and he learned from them. He stayed in prison for twenty-seven years.\n\nPeople around the world asked, \"Free Nelson Mandela!\" Songs, marches and big meetings helped to keep his name alive. Finally, the government changed its mind. On February 11, 1990, Nelson walked out of prison. He was seventy-one years old. Thousands of people were waiting for him, and many of them were crying with joy. He did not feel anger. He said that he wanted to make peace, not revenge.\n\nIn 1993 he won the Nobel Peace Prize together with the president of South Africa at that time, Frederik de Klerk. The next year, all people in South Africa, black and white, voted in the same election for the first time. Nelson Mandela won. He became the first black president of his country. He wanted all South Africans to live together like one family, and he often visited people in their homes to listen to them.\n\nIn 1995 South Africa played in a big rugby game, the World Cup final. Most of the players were white. Nelson came to the stadium in a team shirt, and the crowd shouted his name. South Africa won, and many people felt like one nation. Nelson left the job of president in 1999. He died in 2013, at the age of ninety-five. People now remember him on July 18, his birthday, and they help others for sixty-seven minutes.\n\nAfter he left his job, Nelson did not rest. He started groups to help children, schools and sick people. He worked hard to fight a terrible illness called AIDS, and he talked about it openly, because many people were afraid. His people loved him and called him Madiba, the name of his family. He was always warm and funny, and he liked to wear colourful shirts. He never forgot the years in prison, but he often smiled and told jokes.",
+  "word_count": 742,
   "vocabulary": [
     {
+      "word": "prison",
+      "ipa_us": "ˈprɪzən",
+      "ipa_uk": "ˈprɪzən",
+      "translation_ru": "тюрьма"
+    },
+    {
       "word": "lawyer",
-      "ipa_us": "ˈlɔjər",
+      "ipa_us": "ˈlɔɪər",
       "ipa_uk": "ˈlɔːjə",
-      "translation_ru": "юрист"
-    },
-    {
-      "word": "free",
-      "ipa_us": "fri",
-      "ipa_uk": "friː",
-      "translation_ru": "свободный"
-    },
-    {
-      "word": "equal",
-      "ipa_us": "ˈikwəl",
-      "ipa_uk": "ˈiːkwəl",
-      "translation_ru": "равный"
-    },
-    {
-      "word": "government",
-      "ipa_us": "ˈɡʌvərmənt",
-      "ipa_uk": "ˈɡʌvənmənt",
-      "translation_ru": "правительство"
+      "translation_ru": "юрист, адвокат"
     },
     {
       "word": "unfair",
@@ -39,80 +27,128 @@
       "translation_ru": "несправедливый"
     },
     {
-      "word": "prison",
-      "ipa_us": "ˈprɪzən",
-      "ipa_uk": "ˈprɪzən",
-      "translation_ru": "тюрьма"
+      "word": "vote",
+      "ipa_us": "voʊt",
+      "ipa_uk": "vəʊt",
+      "translation_ru": "голосовать"
     },
     {
-      "word": "peace",
-      "ipa_us": "pis",
-      "ipa_uk": "piːs",
-      "translation_ru": "мир"
+      "word": "equal",
+      "ipa_us": "ˈikwəl",
+      "ipa_uk": "ˈiːkwəl",
+      "translation_ru": "равный"
     },
     {
-      "word": "wise",
-      "ipa_us": "waɪz",
-      "ipa_uk": "waɪz",
-      "translation_ru": "мудрый"
+      "word": "cell",
+      "ipa_us": "sɛl",
+      "ipa_uk": "sel",
+      "translation_ru": "камера"
+    },
+    {
+      "word": "quarry",
+      "ipa_us": "ˈkwɔri",
+      "ipa_uk": "ˈkwɒri",
+      "translation_ru": "каменоломня"
+    },
+    {
+      "word": "election",
+      "ipa_us": "ɪˈlɛkʃən",
+      "ipa_uk": "ɪˈlekʃən",
+      "translation_ru": "выборы"
+    },
+    {
+      "word": "revenge",
+      "ipa_us": "rɪˈvɛndʒ",
+      "ipa_uk": "rɪˈvendʒ",
+      "translation_ru": "месть"
+    },
+    {
+      "word": "president",
+      "ipa_us": "ˈprɛzɪdənt",
+      "ipa_uk": "ˈprezɪdənt",
+      "translation_ru": "президент"
+    },
+    {
+      "word": "peaceful",
+      "ipa_us": "ˈpisfəl",
+      "ipa_uk": "ˈpiːsfəl",
+      "translation_ru": "мирный"
+    },
+    {
+      "word": "guard",
+      "ipa_us": "ɡɑrd",
+      "ipa_uk": "ɡɑːd",
+      "translation_ru": "охранник"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "iː",
       "examples": [
-        "was",
-        "world",
-        "wise"
+        "peace",
+        "free",
+        "leader"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Долгий «и», губы растянуты в улыбку."
     },
     {
       "sound": "r",
       "examples": [
         "prison",
         "free",
-        "president"
+        "rest"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не русский «р»."
     },
     {
-      "sound": "iː",
+      "sound": "final-voiced",
       "examples": [
-        "free",
-        "peace",
-        "people"
+        "world",
+        "old",
+        "died"
       ],
-      "tip_ru": "Долгий «и» с растянутыми губами; в коротком ɪ язык ниже и расслабленнее, чем в русском «и»."
+      "tip_ru": "Звонкие согласные в конце слова не оглушаются: «dog», а не «dok»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "president",
+        "election",
+        "unfair"
+      ],
+      "tip_ru": "Выделяйте ударный слог громче и длиннее, остальные гласные ослабляйте."
     }
   ],
   "questions": [
     {
-      "question": "Where was Mandela born?",
-      "answer": "In South Africa.",
+      "question": "What does the name Rolihlahla mean?",
+      "answer": "It means pulling the branch of a tree, or a person who makes trouble.",
       "accepted_keywords": [
-        "africa"
+        "branch",
+        "trouble",
+        "tree"
       ]
     },
     {
-      "question": "How long was he in prison?",
-      "answer": "Twenty-seven years.",
+      "question": "How long did Nelson stay in prison?",
+      "answer": "He stayed in prison for twenty-seven years.",
       "accepted_keywords": [
-        "twenty",
-        "27"
+        "27",
+        "twenty-seven",
+        "twenty"
       ]
     },
     {
-      "question": "Which prize did he win in 1993?",
-      "answer": "The Nobel Peace Prize.",
+      "question": "When did Nelson walk out of prison?",
+      "answer": "On February 11, 1990.",
       "accepted_keywords": [
-        "peace",
-        "nobel"
+        "1990",
+        "february"
       ]
     },
     {
-      "question": "What was he in 1994?",
-      "answer": "The president of South Africa.",
+      "question": "What job did Nelson get in 1994?",
+      "answer": "He became the first black president of South Africa.",
       "accepted_keywords": [
         "president"
       ]

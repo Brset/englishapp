@@ -2,123 +2,165 @@
   "id": "c1-story-01",
   "level": "C1",
   "genre": "story",
-  "title_en": "The Keeper's Ledger",
-  "title_ru": "Журнал смотрителя маяка",
-  "description_ru": "Старый смотритель маяка продолжает вести записи, даже когда лампу заменяет автоматика. Молодая инженер понимает, что машины не умеют помнить.",
-  "text": "Every evening for thirty-one years, Elias Marrow climbed the one hundred and twelve steps of the Skerry Point lighthouse, wound the mechanism, and wrote a single line in his ledger. Most entries were unremarkable: wind from the north-west, visibility poor, one trawler passed at dusk. Yet he recorded them with the solemnity of a man composing scripture, because he believed that somebody, someday, would need to know exactly what the sea had been doing.\n\nWhen the authorities announced that the lamp would be automated, Elias received the news with a composure that surprised even himself. A young engineer named Priya arrived to install the new equipment, carrying a laptop and an air of faint apology. She found the old keeper polishing a brass lens that would soon be redundant.\n\n\"You needn't bother with that,\" she said gently. \"The system will run itself.\"\n\n\"I'm aware,\" Elias replied. \"But a lens that is cared for casts a cleaner beam. Call it superstition.\"\n\nOver the following week, Priya noticed that he kept to his routine regardless. Each night he climbed, wound a mechanism that no longer mattered, and made his entry. Out of curiosity, she leafed through the earliest ledgers stacked in the lamp room. Between the weather notes she discovered something unexpected: small, deliberate sketches of vessels, each labelled with a name and a date, and beside many of them a brief, unsentimental remark. Safe passage. Engine trouble, towed in. Did not return.\n\n\"Did not return,\" she read aloud. \"How many of these are there?\"\n\n\"Seven,\" said Elias. \"I know each by heart. Nobody asked me to keep count, and nobody will ever read it, which is rather the point. A record that exists only to be admired is just vanity.\"\n\nPriya said nothing for a while. Then she opened her laptop, hesitated, and closed it again. \"The new system logs everything automatically,\" she admitted. \"Tides, wind, traffic. But it can't tell you which boats mattered to somebody.\"\n\nOn her final evening, a storm rolled in from the west, far earlier than forecast. The sensors, to Priya's dismay, registered the pressure drop several minutes too late, and the automated beam flickered as the generator stumbled. Without a word, Elias seized the old lamp's crank and turned it, steadily, as he had done ten thousand times. The great lens swept the water until the backup power caught.\n\nLater, as the wind subsided, Priya found him writing in the ledger once more. Over his shoulder, she read the line: Storm, early. Beam held. A young engineer stayed to watch.\n\n\"Will you keep writing after the lamp goes dark?\" she asked.\n\nHe considered the question with characteristic gravity. \"Somebody has to,\" he said. \"Machines are excellent at measuring the sea. They are rather poor at remembering it.\"",
-  "word_count": 464,
+  "title_en": "The Phantom Street",
+  "title_ru": "Улица-призрак",
+  "description_ru": "Картограф обнаруживает на карте несуществующую улицу и узнаёт, что это подпись, защищающая фирму от плагиата. Что делать с красивой выдумкой?",
+  "text": "When Ines Calloway joined Brandt & Weir as a junior cartographer, the senior partner handed her a magnifying glass, a cup of tea she had not asked for, and a single piece of advice: \"Trust nothing you can't stand on.\" She took it for eccentricity. Only after eleven years of correcting other people's maps did she understand that it was closer to a confession.\n\nThe firm produced street atlases for half the county, and every spring Ines checked the new edition against satellite images, council records and, whenever the budget allowed, her own two feet. It was dull, meticulous work, and she was unreasonably good at it. Colleagues in the building called her the human magnet for mistakes, a title she wore with quiet pride, although it meant that she was the one invited to every meeting where something had gone wrong. She could spot a misplaced roundabout the way a musician hears a flat note, with a small physical wince.\n\nIn March, while reconciling the northern sheets, she found a street that bothered her. Lantern Row was a hundred and forty metres long, curved gently around a block of allotments, and ended in a cul-de-sac. The satellite image showed nothing there but a hedge and a sagging greenhouse. The council had no record of it. Yet it appeared in every edition of the atlas going back to 1987, drawn with the same confident line as the main roads.\n\nShe took it to Mr Weir, who was by then eighty-one and came into the office only on Thursdays. He glanced at the page, and something passed across his face that she could not quite name. \"Ah,\" he said. \"You've met Lantern Row.\" \"It doesn't exist.\" \"No,\" he agreed, \"but it has been extremely useful. Sit down, Ines.\"\n\nWhat he told her was this. In the early days, rival publishers had a habit of copying maps wholesale, changing a colour here and a typeface there, and selling them as their own. Proving theft was almost impossible, since a road is a road. So mapmakers began to plant small inventions, a fictitious lane or a village that had never been built, which served as fingerprints. If the invention turned up in a competitor's atlas, the case was settled. Lantern Row had caught two plagiarists in thirty years and had paid for the office's first computer.\n\n\"So it's a lie,\" Ines said. \"It's a signature,\" said Mr Weir, with the dignity of a man who had rehearsed the distinction. \"A harmless one. Nobody has ever been lost on a street that leads nowhere.\" She was not so sure. That weekend she drove north and parked beside the allotments, feeling faintly ridiculous. The hedge was there, and the greenhouse, and a gate she had not seen on any image. Behind it, half swallowed by brambles, stood a rusted street sign bearing two words in flaking paint. Lantern Row.\n\nSomebody had made it. Somebody had walked out here with a drill and a bucket of concrete and installed a sign for a street that had been invented in an office, as though persuading the world to catch up with the map. Ines stood there for some time. A man in a flat cap who was tending his leeks watched her with open suspicion.\n\n\"Can I help you?\" he called. \"I was just looking at the sign.\" \"Oh, that. Some surveyor put it up years ago. Tall chap, kept apologising. Said he'd feel better if it was true.\" He shrugged. \"We've got used to it. Parcels sometimes turn up addressed to it. The postman just leaves them with me.\"\n\nShe laughed, and was surprised to find her eyes stinging. On Monday she returned to the office, opened the master file, and hovered over the lane with the cursor for a long moment. The sensible, professional course was to delete it. A false street in a published atlas was, strictly speaking, an error, and her job was to eliminate errors.\n\nInstead she walked down the corridor to Mr Weir's empty office and sat in his chair. On the desk lay a copy of the first atlas, with pencil notes in the margin. Beside Lantern Row he had written, in a hand much younger than the one she knew, Not a lie if someone lives there. Someday.\n\nShe thought about that all afternoon, while the printers hummed and the light moved slowly across the carpet. Eleven years of precision had taught her that an error is a mistake nobody intended, and this had been intended with unusual tenderness. Then she did something she had never done in eleven years: she broke the rule about trusting only what she could stand on. She left the lane exactly where it was. But in the legend, in the smallest type the printers could manage, she added a line beneath the symbol for allotments: Lantern Row, a fond invention, and the pride of the allotment society.\n\nThe next edition went out in April. The reaction surprised her. Nobody complained, and two readers wrote in to say they had always wondered about that little curve of road. In June a letter arrived from the allotment society, written in green ink and smelling faintly of vinegar, thanking the firm for its recognition and enclosing a jar of pickled beetroot. Mr Weir read it twice on his Thursday visit, folded it carefully, and slipped it into his jacket pocket.\n\n\"You've changed the rules,\" he said. \"Only slightly,\" said Ines. \"I just decided that a map ought to say what it knows, and also what it hopes.\" He did not answer, but he stayed in the office until evening, which he never did, and when he left he was humming.",
+  "word_count": 955,
   "vocabulary": [
     {
-      "word": "solemnity",
-      "ipa_us": "səˈlɑːmnəti",
-      "ipa_uk": "səˈlemnəti",
-      "translation_ru": "торжественность"
+      "word": "meticulous",
+      "ipa_us": "məˈtɪkjələs",
+      "ipa_uk": "məˈtɪkjʊləs",
+      "translation_ru": "дотошный, скрупулёзный"
     },
     {
-      "word": "composure",
-      "ipa_us": "kəmˈpoʊʒər",
-      "ipa_uk": "kəmˈpəʊʒə",
-      "translation_ru": "самообладание"
+      "word": "eccentricity",
+      "ipa_us": "ˌeksenˈtrɪsəti",
+      "ipa_uk": "ˌeksenˈtrɪsəti",
+      "translation_ru": "эксцентричность"
     },
     {
-      "word": "redundant",
-      "ipa_us": "rɪˈdʌndənt",
-      "ipa_uk": "rɪˈdʌndənt",
-      "translation_ru": "ненужный, лишний"
+      "word": "reconciling",
+      "ipa_us": "ˈrekənsaɪlɪŋ",
+      "ipa_uk": "ˈrekənsaɪlɪŋ",
+      "translation_ru": "сверяя, согласуя"
     },
     {
-      "word": "unsentimental",
-      "ipa_us": "ˌʌnsentɪˈmentl",
-      "ipa_uk": "ˌʌnsentɪˈmentl",
-      "translation_ru": "лишённый сентиментальности"
+      "word": "cul-de-sac",
+      "ipa_us": "ˈkʌl də sæk",
+      "ipa_uk": "ˈkʌl də sæk",
+      "translation_ru": "тупик"
     },
     {
-      "word": "vanity",
-      "ipa_us": "ˈvænəti",
-      "ipa_uk": "ˈvænəti",
-      "translation_ru": "тщеславие"
+      "word": "plagiarists",
+      "ipa_us": "ˈpleɪdʒəˌrɪsts",
+      "ipa_uk": "ˈpleɪdʒərɪsts",
+      "translation_ru": "плагиаторы"
     },
     {
-      "word": "gravity",
-      "ipa_us": "ˈɡrævəti",
-      "ipa_uk": "ˈɡrævəti",
-      "translation_ru": "серьёзность"
+      "word": "fictitious",
+      "ipa_us": "fɪkˈtɪʃəs",
+      "ipa_uk": "fɪkˈtɪʃəs",
+      "translation_ru": "вымышленный"
     },
     {
-      "word": "subsided",
-      "ipa_us": "səbˈsaɪdɪd",
-      "ipa_uk": "səbˈsaɪdɪd",
-      "translation_ru": "утих, спал"
+      "word": "fingerprints",
+      "ipa_us": "ˈfɪŋɡərˌprɪnts",
+      "ipa_uk": "ˈfɪŋɡəprɪnts",
+      "translation_ru": "отпечатки пальцев"
+    },
+    {
+      "word": "rehearsed",
+      "ipa_us": "rɪˈhɜːrst",
+      "ipa_uk": "rɪˈhɜːst",
+      "translation_ru": "отрепетировал"
+    },
+    {
+      "word": "brambles",
+      "ipa_us": "ˈbræmbəlz",
+      "ipa_uk": "ˈbræmbəlz",
+      "translation_ru": "ежевичные заросли"
+    },
+    {
+      "word": "suspicion",
+      "ipa_us": "səˈspɪʃən",
+      "ipa_uk": "səˈspɪʃən",
+      "translation_ru": "подозрение"
+    },
+    {
+      "word": "legend",
+      "ipa_us": "ˈledʒənd",
+      "ipa_uk": "ˈledʒənd",
+      "translation_ru": "легенда (карты), условные обозначения"
+    },
+    {
+      "word": "eliminate",
+      "ipa_us": "ɪˈlɪməˌneɪt",
+      "ipa_uk": "ɪˈlɪmɪneɪt",
+      "translation_ru": "устранять"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "thirty",
-        "everything",
-        "without"
-      ],
-      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "wind",
-        "weather",
-        "west"
-      ],
-      "tip_ru": "Губы округлите и вытяните вперёд, без касания зубами нижней губы; это не русское «в»."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "automated",
-        "engineer",
-        "unsentimental"
+        "meticulous",
+        "eccentricity",
+        "fictitious"
       ],
-      "tip_ru": "В длинных словах ударение фиксировано: enɡiˈneer, ˈautomated, unsentiˈmental. Выделяйте ударный слог длиннее и громче."
+      "tip_ru": "Ударение: meˈticulous, eccenˈtricity, ficˈtitious. Первые слоги короткие и безударные, не растягивайте их."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thanking",
+        "thirty",
+        "thought"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами: thirty, thanking. Не заменяйте на «с» или «з»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "road",
+        "signature",
+        "hundred"
+      ],
+      "tip_ru": "Не оглушайте конечное «d» в road и hundred: звук остаётся звонким."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "came into",
+        "turned up",
+        "handed her"
+      ],
+      "tip_ru": "Соединяйте слова: согласный в конце одного слова переходит в гласный следующего (handed_her)."
     }
   ],
   "questions": [
     {
-      "question": "For how long has Elias kept the ledger?",
-      "answer": "For thirty-one years.",
+      "question": "Why did mapmakers invent fictitious streets?",
+      "answer": "To catch rivals who copied their maps.",
       "accepted_keywords": [
-        "thirty",
-        "31",
-        "thirty-one"
+        "copy",
+        "copied",
+        "rival",
+        "plagiar",
+        "theft",
+        "catch"
       ]
     },
     {
-      "question": "What does Priya discover in the old ledgers?",
-      "answer": "Small sketches of vessels with names, dates and remarks.",
+      "question": "What did Ines find when she visited Lantern Row?",
+      "answer": "A rusted sign for a street that did not exist, and an allotment holder who said a surveyor put it up.",
       "accepted_keywords": [
-        "sketches",
-        "drawings",
-        "vessels",
-        "boats",
-        "ships"
+        "sign",
+        "allotment",
+        "surveyor",
+        "rusted"
       ]
     },
     {
-      "question": "What goes wrong during the storm?",
-      "answer": "The sensors react too late and the generator falters, so Elias turns the old lamp by hand.",
+      "question": "What did Ines decide to do about the false street?",
+      "answer": "She kept it and added a note in the legend crediting the allotment society.",
       "accepted_keywords": [
-        "sensors",
-        "generator",
-        "power",
-        "late"
+        "kept",
+        "left",
+        "legend",
+        "note",
+        "society"
       ]
     },
     {
-      "question": "Why does Elias say he will keep writing?",
-      "answer": "Machines measure the sea well but are poor at remembering it.",
+      "question": "What did Mr Weir's pencil note in the first atlas say?",
+      "answer": "Not a lie if someone lives there. Someday.",
       "accepted_keywords": [
-        "remembering",
-        "remember",
-        "somebody",
-        "machines"
+        "lie",
+        "someone",
+        "lives",
+        "someday"
       ]
     }
   ]

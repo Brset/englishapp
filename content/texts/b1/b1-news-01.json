@@ -2,29 +2,17 @@
   "id": "b1-news-01",
   "level": "B1",
   "genre": "news",
-  "title_en": "Bridge Reopens After Two Years",
-  "title_ru": "Мост снова открыт спустя два года",
-  "description_ru": "Вымышленная новость о ремонте моста в небольшом городе и радости жителей.",
-  "text": "The old Harborview Bridge in the town of Marlow reopened yesterday after two years of repairs. Hundreds of residents gathered at the entrance to watch Mayor Helen Brightwater cut a long red ribbon.\n\nThe bridge, which was built in 1931, was closed in 2024 when engineers discovered serious cracks in its steel frame. Since then, drivers have been forced to take a twelve-kilometre detour through the hills, and many local businesses have complained about the loss of customers.\n\n\"This has been a difficult time for all of us,\" the mayor told the crowd. \"But today we have a safer, stronger bridge, and I promise it will last for another hundred years.\"\n\nThe repair project cost eleven million pounds. About half of the money came from the national government, while the rest was paid by the town council. Workers have replaced almost every metal part and have added a wide path for cyclists and walkers.\n\nBaker Tom Wilkins, whose shop stands near the bridge, said he was delighted. \"Last winter, I sold only half as many loaves as usual,\" he said. \"If the bridge had stayed closed for another year, I would have had to shut my doors.\"\n\nSchoolchildren were among the first to cross. They walked over the bridge singing a song that they had written for the occasion.\n\nEngineers say they will inspect the structure every six months. A small festival with music and food will be held on the bridge this weekend, and everybody in Marlow is invited.",
-  "word_count": 249,
+  "title_en": "Marrowby Bridge Opens Again After Two Years",
+  "title_ru": "Мост в Марроубай снова открыт после двух лет ремонта",
+  "description_ru": "Вымышленная новость: жители городка Марроубай празднуют открытие отреставрированного моста, закрытого два года.",
+  "text": "The people of Marrowby celebrated on Saturday as the old Tumbledown Bridge opened again after two years of repairs. Thousands of residents lined the banks of the River Wend to watch the ribbon being cut, and a brass band played while children waved paper flags. For many people in the small market town, the day marked the end of a long and frustrating period in which a ten-minute journey had turned into a forty-minute drive.\n\nThe bridge, which was built in 1887, was closed in the spring of two years ago, when engineers discovered deep cracks in its stone arches. Since then, residents on the north bank have had to take a long road around the hills to reach the hospital, the railway station and most of the shops. Some have said that the closure has damaged their businesses. \"We have lost almost a third of our customers,\" said Penelope Quill, who owns a bakery near the water. \"People simply did not want to make the extra journey for a loaf of bread.\"\n\nThe repair project was originally expected to cost two million pounds and take twelve months. However, workers found more damage than they had expected under the surface, and the cost rose to nearly three and a half million. Local newspapers published angry letters, and in the autumn about two hundred people marched through the town with banners that read \"Our Bridge, Our Right.\" The council leader, Desmond Harker, admitted that mistakes had been made. \"We should have asked for a more detailed survey at the beginning,\" he told reporters on Saturday. \"If we had done that, we would have saved time and money.\"\n\nDespite these difficulties, the final result has impressed almost everyone. The engineers have kept the original stones wherever possible, and they have added a new steel frame that is hidden underneath the arches. They have also built a wider pavement and a separate lane for bicycles, which did not exist before. At night, soft lamps now shine along the sides, and the stonework looks golden against the dark water. \"It is better than it was when I was a boy,\" said eighty-one-year-old Albert Fenwick, who has lived in Marrowby all his life. \"I have crossed this bridge every day for sixty years, and I have missed it more than I can say.\"\n\nThe opening day also had a few surprises. As the mayor, Josephine Thorne, stepped forward with a pair of golden scissors, a goat from a nearby farm wandered onto the bridge and refused to move. It took three volunteers and a bag of carrots to lead the animal away. The crowd cheered and laughed, and the mayor joked that the goat was the first official user of the new crossing. Later, she cut the ribbon, and a line of vintage cars drove slowly over the bridge, followed by about five hundred walkers.\n\nNot everyone was entirely happy, however. A group of local cyclists complained that the new bicycle lane is too narrow for two people riding side by side. Others have pointed out that the bridge is still closed to lorries heavier than seven tonnes, which means that some deliveries must continue to take the long route. The council has promised to look at these concerns in the coming months. \"If people have suggestions, we want to hear them,\" said Mr Harker. \"We have learned that listening is cheaper than repairing.\"\n\nShopkeepers hope that the reopening will bring customers back quickly. Ms Quill said that she was already baking extra bread and had hung a sign in her window that read \"Welcome back, neighbours.\" A café owner on the north bank, Raj Malik, said that he had taken on two more members of staff for the weekend. \"If everyone who walked over today comes back for a coffee next week, we will be fine,\" he said, smiling. Tourism officials also believe that the bridge could attract visitors, because it has recently been added to a regional list of historic sites.\n\nThe story of the bridge has also brought the community together in unexpected ways. During the closure, several local groups organised a weekly shuttle service for elderly people who could not travel easily, and students at Marrowby Secondary School ran a project to photograph the bridge's history. Their exhibition, which includes letters, drawings and a model made of matchsticks, will be shown in the town hall until the end of the month. \"We have learned a lot about our town,\" said teacher Miriam Oakes. \"The children have asked questions that none of us could answer.\"\n\nAs the sun set on Saturday, the band played one last song, and families walked slowly home across the bridge in both directions. For a town that has spent two years looking at an empty crossing, the sight of so many people on it was a moving one. \"It is only a bridge,\" said Albert Fenwick, as he leaned on the rail and looked at the water. \"But it is our bridge, and it is back.\"",
+  "word_count": 843,
   "vocabulary": [
     {
-      "word": "reopened",
-      "ipa_us": "riˈoʊpənd",
-      "ipa_uk": "riːˈəʊpənd",
-      "translation_ru": "вновь открылся"
-    },
-    {
-      "word": "residents",
-      "ipa_us": "ˈrɛzɪdənts",
-      "ipa_uk": "ˈrezɪdənts",
-      "translation_ru": "жители"
-    },
-    {
-      "word": "ribbon",
-      "ipa_us": "ˈrɪbən",
-      "ipa_uk": "ˈrɪbən",
-      "translation_ru": "лента"
+      "word": "bridge",
+      "ipa_us": "brɪdʒ",
+      "ipa_uk": "brɪdʒ",
+      "translation_ru": "мост"
     },
     {
       "word": "engineers",
@@ -33,101 +21,135 @@
       "translation_ru": "инженеры"
     },
     {
-      "word": "cracks",
-      "ipa_us": "kræks",
-      "ipa_uk": "kræks",
-      "translation_ru": "трещины"
+      "word": "frustrating",
+      "ipa_us": "ˈfrʌˌstreɪtɪŋ",
+      "ipa_uk": "frʌˈstreɪtɪŋ",
+      "translation_ru": "раздражающий"
     },
     {
-      "word": "detour",
-      "ipa_us": "ˈdiːtʊr",
-      "ipa_uk": "ˈdiːtʊə",
-      "translation_ru": "объезд"
+      "word": "residents",
+      "ipa_us": "ˈrɛzɪdənts",
+      "ipa_uk": "ˈrezɪdənts",
+      "translation_ru": "жители"
     },
     {
-      "word": "complained",
-      "ipa_us": "kəmˈpleɪnd",
-      "ipa_uk": "kəmˈpleɪnd",
-      "translation_ru": "жаловались"
+      "word": "survey",
+      "ipa_us": "ˈsɜːrveɪ",
+      "ipa_uk": "ˈsɜːveɪ",
+      "translation_ru": "обследование"
     },
     {
-      "word": "cyclists",
-      "ipa_us": "ˈsaɪklɪsts",
-      "ipa_uk": "ˈsaɪklɪsts",
-      "translation_ru": "велосипедисты"
+      "word": "vintage",
+      "ipa_us": "ˈvɪntɪdʒ",
+      "ipa_uk": "ˈvɪntɪdʒ",
+      "translation_ru": "винтажный, старинный"
     },
     {
-      "word": "inspect",
-      "ipa_us": "ɪnˈspɛkt",
-      "ipa_uk": "ɪnˈspekt",
-      "translation_ru": "осматривать"
+      "word": "historic",
+      "ipa_us": "hɪˈstɔːrɪk",
+      "ipa_uk": "hɪˈstɒrɪk",
+      "translation_ru": "исторический"
+    },
+    {
+      "word": "crossing",
+      "ipa_us": "ˈkrɔːsɪŋ",
+      "ipa_uk": "ˈkrɒsɪŋ",
+      "translation_ru": "переправа"
+    },
+    {
+      "word": "shuttle",
+      "ipa_us": "ˈʃʌtəl",
+      "ipa_uk": "ˈʃʌtəl",
+      "translation_ru": "маршрутка, челнок"
+    },
+    {
+      "word": "volunteers",
+      "ipa_us": "ˌvɑːlənˈtɪrz",
+      "ipa_uk": "ˌvɒlənˈtɪəz",
+      "translation_ru": "добровольцы"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "θ",
       "examples": [
-        "watch",
-        "walked",
-        "wide",
-        "winter"
+        "both",
+        "month",
+        "north",
+        "thousands"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "r",
       "examples": [
-        "repairs",
-        "red",
-        "reopened",
-        "residents"
+        "river",
+        "road",
+        "repair",
+        "railway"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка поднят и загнут назад, не касается нёба; никакого раскатистого «р»."
     },
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "Harborview",
-        "twelve",
-        "discovered",
-        "eleven"
+        "crossing",
+        "opening",
+        "listening",
+        "moving"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "all",
+        "council",
+        "hall",
+        "local"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "How long was the bridge closed?",
-      "answer": "Two years.",
-      "accepted_keywords": [
-        "two",
-        "2"
-      ]
-    },
-    {
-      "question": "Why was it closed?",
-      "answer": "Engineers found cracks in the steel frame.",
+      "question": "Why was the bridge closed two years ago?",
+      "answer": "Engineers found deep cracks in its stone arches.",
       "accepted_keywords": [
         "cracks",
-        "steel",
-        "frame"
+        "arches",
+        "stone",
+        "damage"
       ]
     },
     {
-      "question": "How much did the repairs cost?",
-      "answer": "Eleven million pounds.",
+      "question": "How much did the repair cost in the end?",
+      "answer": "Nearly three and a half million pounds.",
       "accepted_keywords": [
-        "eleven",
-        "11"
+        "three",
+        "million",
+        "half",
+        "3.5"
       ]
     },
     {
-      "question": "What will happen this weekend?",
-      "answer": "A festival on the bridge.",
+      "question": "What happened with the goat?",
+      "answer": "A goat wandered onto the bridge, and volunteers led it away with carrots.",
       "accepted_keywords": [
-        "festival",
-        "music",
-        "food"
+        "goat",
+        "carrots",
+        "volunteers",
+        "ribbon"
+      ]
+    },
+    {
+      "question": "What complaints did some cyclists have?",
+      "answer": "The new bicycle lane is too narrow for two people side by side.",
+      "accepted_keywords": [
+        "narrow",
+        "lane",
+        "bicycle",
+        "cyclists"
       ]
     }
   ]

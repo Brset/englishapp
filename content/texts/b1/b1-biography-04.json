@@ -2,129 +2,155 @@
   "id": "b1-biography-04",
   "level": "B1",
   "genre": "biography",
-  "title_en": "Frida Kahlo: Painting Through Pain",
-  "title_ru": "Фрида Кало: живопись сквозь боль",
-  "description_ru": "Как мексиканская художница превратила болезнь и травму в яркое и узнаваемое искусство.",
-  "text": "Frida Kahlo was born in 1907 in Mexico City, in a house that was later called the Blue House. When she was six, she caught polio, and one of her legs stayed thinner than the other. Other children laughed at her, but Frida grew up strong and curious. She wanted to become a doctor.\n\nEverything changed in 1925. At the age of eighteen, Frida was travelling on a bus when it crashed into a tram. She broke her back, her leg and several other bones, and she spent months in bed. To help her pass the time, her parents made a special easel and put a mirror above her bed. Frida started to paint herself. If she had not had the accident, she might never have become an artist.\n\nOver the years, she painted many self-portraits, because, as she explained, she was often alone, and she knew herself best. Her pictures are full of bright colours, animals, flowers and symbols from Mexican culture. In 1929 she married the famous painter Diego Rivera. Their relationship was stormy, but they supported each other's work.\n\nFrida suffered pain all her life and had many operations. Still, she kept painting until the end. She died in 1954 at the age of forty-seven. Today her paintings are loved all over the world, and the Blue House is a museum.",
-  "word_count": 222,
+  "title_en": "Nelson Mandela: From Prison to President",
+  "title_ru": "Нельсон Мандела: из тюрьмы в президенты",
+  "description_ru": "Биография Нельсона Манделы: борьба с апартеидом, 27 лет в тюрьме, Нобелевская премия мира и путь к президентству в ЮАР.",
+  "text": "Few people have spent so long in prison and then come out ready to forgive. Nelson Mandela was in jail for twenty-seven years, yet when he walked free in 1990, he did not call for revenge. Instead, he worked with his former enemies to build a new South Africa. His life is a lesson in patience, courage and the power of reconciliation.\n\nHe was born in 1918 in a small village called Mvezo, in the eastern part of the country. His first name was Rolihlahla, which in his language means \"pulling the branch of a tree\", or, in everyday speech, \"troublemaker\". He received the English name Nelson from a teacher on his first day at school, because it was the custom to give African children English names. His father, a local chief, died when Nelson was nine, and the boy was raised by the regent of the Thembu people, who treated him like a son.\n\nAs a young man he refused an arranged marriage and ran away to Johannesburg, where he worked as a night watchman at a gold mine before he found a job in a law office. He studied law at university, and in 1952 he opened the first black-owned law firm in Johannesburg with his friend Oliver Tambo. At that time the government enforced a system called apartheid, which separated people by race. Black South Africans could not vote, they had to carry special passes, and they were forced to live in poor areas. Mandela saw how unfair this was every day in court, so he joined the African National Congress and began to organise protests.\n\nAt first the protests were peaceful. After police killed sixty-nine people in a demonstration in Sharpeville in 1960, however, the government banned the movement. Mandela decided that peaceful action alone was no longer enough, and he helped to start an armed wing that attacked government buildings but tried not to hurt people. He was arrested in 1962. Two years later, at the Rivonia trial, he made a long speech. He said that he was prepared to die for the idea of a free and democratic society. The judge sentenced him to life in prison.\n\nFor eighteen of those years he lived on Robben Island, a windswept rock off the coast near Cape Town. His cell was so small that he could touch both walls. He slept on a mat on the floor, he broke stones in a quarry, and he was allowed to send and receive only one letter every six months. Even so, he did not give up, and he even completed a law degree from the University of London by post. The prisoners educated each other, and the island became known as \"Mandela University\". Mandela also learned to understand the language and history of his guards, which later helped him in negotiations.\n\nOver time, the world began to call for his release. Millions of people signed petitions, musicians held concerts for him, and many countries refused to trade with South Africa. By the late 1980s the government understood that apartheid could not continue. President F. W. de Klerk finally announced that Mandela would be freed, and on 11 February 1990 he walked out of prison holding the hand of his wife Winnie. Crowds were waiting, and the whole world was watching on television.\n\nMandela did not waste time. He negotiated with de Klerk for four difficult years, while violence threatened to destroy the talks. In 1993 the two men shared the Nobel Peace Prize. In April 1994 South Africa held its first election in which people of all races could vote. Many voters waited in lines for hours, and the ANC won. On 10 May Mandela became the country's first black president.\n\nAs president he could have punished those who had harmed him, but he chose a different path. He also gave a third of his salary to a children's charity. He created the Truth and Reconciliation Commission, where people could confess their crimes in return for forgiveness. He also wore the shirt of the national rugby team, the Springboks, at the 1995 World Cup final, a sport that most black South Africans associated with the old regime. The gesture surprised everybody, and it helped to unite the nation.\n\nAfter only one term he decided to retire, even though he could easily have stayed in power. Many leaders cling to power, but he believed that a democracy needs to change its leaders. He spent his later years fighting against AIDS and helping children. He died in December 2013, at the age of ninety-five. \"It always seems impossible until it's done,\" he once said, and his life proves that this is true.",
+  "word_count": 774,
   "vocabulary": [
     {
-      "word": "polio",
-      "ipa_us": "ˈpoʊlioʊ",
-      "ipa_uk": "ˈpəʊliəʊ",
-      "translation_ru": "полиомиелит"
+      "word": "reconciliation",
+      "ipa_us": "ˌrɛkənˌsɪliˈeɪʃən",
+      "ipa_uk": "ˌrekənˌsɪliˈeɪʃən",
+      "translation_ru": "примирение"
     },
     {
-      "word": "curious",
-      "ipa_us": "ˈkjʊriəs",
-      "ipa_uk": "ˈkjʊəriəs",
-      "translation_ru": "любопытный"
+      "word": "apartheid",
+      "ipa_us": "əˈpɑːrtˌhaɪt",
+      "ipa_uk": "əˈpɑːtheɪt",
+      "translation_ru": "апартеид"
     },
     {
-      "word": "crashed",
-      "ipa_us": "kræʃt",
-      "ipa_uk": "kræʃt",
-      "translation_ru": "врезался"
+      "word": "regent",
+      "ipa_us": "ˈriːdʒənt",
+      "ipa_uk": "ˈriːdʒənt",
+      "translation_ru": "регент"
     },
     {
-      "word": "easel",
-      "ipa_us": "ˈiːzəl",
-      "ipa_uk": "ˈiːzəl",
-      "translation_ru": "мольберт"
+      "word": "democratic",
+      "ipa_us": "ˌdɛməˈkrætɪk",
+      "ipa_uk": "ˌdeməˈkrætɪk",
+      "translation_ru": "демократический"
     },
     {
-      "word": "mirror",
-      "ipa_us": "ˈmɪrər",
-      "ipa_uk": "ˈmɪrə",
-      "translation_ru": "зеркало"
+      "word": "sentenced",
+      "ipa_us": "ˈsɛntənst",
+      "ipa_uk": "ˈsentənst",
+      "translation_ru": "приговорил"
     },
     {
-      "word": "self-portraits",
-      "ipa_us": "ˈsɛlf ˈpɔrtrəts",
-      "ipa_uk": "ˈself ˈpɔːtrɪts",
-      "translation_ru": "автопортреты"
+      "word": "quarry",
+      "ipa_us": "ˈkwɔːri",
+      "ipa_uk": "ˈkwɒri",
+      "translation_ru": "карьер"
     },
     {
-      "word": "symbols",
-      "ipa_us": "ˈsɪmbəlz",
-      "ipa_uk": "ˈsɪmbəlz",
-      "translation_ru": "символы"
+      "word": "petitions",
+      "ipa_us": "pəˈtɪʃənz",
+      "ipa_uk": "pəˈtɪʃənz",
+      "translation_ru": "петиции"
     },
     {
-      "word": "stormy",
-      "ipa_us": "ˈstɔrmi",
-      "ipa_uk": "ˈstɔːmi",
-      "translation_ru": "бурный"
+      "word": "negotiations",
+      "ipa_us": "nɪˌɡoʊʃiˈeɪʃənz",
+      "ipa_uk": "nɪˌɡəʊʃiˈeɪʃənz",
+      "translation_ru": "переговоры"
     },
     {
-      "word": "suffered",
-      "ipa_us": "ˈsʌfərd",
-      "ipa_uk": "ˈsʌfəd",
-      "translation_ru": "страдала"
+      "word": "forgiveness",
+      "ipa_us": "fərˈɡɪvnəs",
+      "ipa_uk": "fəˈɡɪvnəs",
+      "translation_ru": "прощение"
+    },
+    {
+      "word": "gesture",
+      "ipa_us": "ˈdʒɛstʃər",
+      "ipa_uk": "ˈdʒestʃə",
+      "translation_ru": "жест"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thinner",
-        "months"
+        "both",
+        "though",
+        "truth",
+        "south"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "w",
       "examples": [
-        "broke",
-        "mirror",
-        "bright",
-        "Rivera"
+        "waiting",
+        "watching",
+        "whole",
+        "world"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
     },
     {
-      "sound": "æ",
+      "sound": "ŋ",
       "examples": [
-        "crashed",
-        "accident",
-        "back",
-        "animals"
+        "fighting",
+        "holding",
+        "pulling",
+        "helping"
       ],
-      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "reconciliation",
+        "democratic",
+        "negotiations",
+        "forgiveness"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "What illness did Frida have as a child?",
-      "answer": "Polio.",
+      "question": "What did Mandela's first name Rolihlahla mean?",
+      "answer": "It means pulling the branch of a tree, or troublemaker.",
       "accepted_keywords": [
-        "polio"
+        "branch",
+        "troublemaker",
+        "tree",
+        "pulling"
       ]
     },
     {
-      "question": "What happened to her in 1925?",
-      "answer": "A bus crashed into a tram.",
+      "question": "Where did Mandela spend eighteen years of his prison time?",
+      "answer": "On Robben Island, near Cape Town.",
       "accepted_keywords": [
-        "bus",
-        "tram",
-        "accident",
-        "crashed"
+        "robben",
+        "island"
       ]
     },
     {
-      "question": "Why did she paint herself?",
-      "answer": "She was often alone and knew herself best.",
+      "question": "What happened on 11 February 1990?",
+      "answer": "Mandela walked out of prison.",
       "accepted_keywords": [
-        "alone",
-        "herself",
-        "knew"
+        "free",
+        "freed",
+        "released",
+        "prison",
+        "walked"
       ]
     },
     {
-      "question": "What is the Blue House today?",
-      "answer": "A museum.",
+      "question": "How did he try to unite the country as president?",
+      "answer": "He created the Truth and Reconciliation Commission and wore the rugby shirt of the Springboks at the 1995 World Cup final.",
       "accepted_keywords": [
-        "museum"
+        "rugby",
+        "springboks",
+        "commission",
+        "reconciliation",
+        "shirt",
+        "forgiveness"
       ]
     }
   ]

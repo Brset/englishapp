@@ -2,122 +2,159 @@
   "id": "a1-dialogue-03",
   "level": "A1",
   "genre": "dialogue",
-  "title_en": "Saturday Plans",
-  "title_ru": "Планы на субботу",
-  "description_ru": "Двое друзей договариваются сходить на новый рынок и пообедать у реки.",
-  "text": "Will: Hi, Vicky! Are you free on Saturday?\nVicky: Yes, I am. Why?\nWill: I want to visit the new market in the old town.\nVicky: Great idea! What do we buy there?\nWill: Fresh vegetables, warm bread and maybe a vase.\nVicky: A vase? Why a vase?\nWill: My window is very empty. I need some flowers.\nVicky: Ha! Okay. When do we meet?\nWill: At nine, near the train station. I bring the coffee.\nVicky: Perfect. Then we have lunch by the river.\nWill: Wonderful. See you on Saturday!",
+  "title_en": "Moving Day",
+  "title_ru": "День переезда",
+  "description_ru": "Брат и сестра упаковывают вещи, находят старую игрушку и прощаются с квартирой, где выросли.",
+  "text": "Dan: Eva, where is the big box? I cannot find the tape.\nEva: It is on the kitchen table. Dan, we have only two days to pack, and the flat is still full of things.\nDan: I know, I know. Mum and Dad's new house is lovely, but moving is hard work.\nEva: Let's start with your room. You have too many books and toys. What do we do with them?\nDan: I keep the books. Perhaps I give some old toys to the little cousins.\nEva: Good idea. I get some boxes from the garage.\n\nEva: Dan, come here! Look what I find under your bed.\nDan: What is it? Oh no, it is my old red train! I think it is lost for ten years.\nEva: It still has a little key. Do you remember? We play with it every Sunday.\nDan: Of course I remember. You always want to be the driver, and I am the passenger.\nEva: That is because I am older. And I am better at driving trains.\nDan: Ha ha, no, it is because you shout very loudly. Here, put it in the box for the cousins.\n\nDan: Wait, wait. I don't want to give away the train. It is special.\nEva: Then we keep it. Put it in the box with the books. You can take it to the new house.\nDan: Thank you, Eva. Do you feel sad about the move? This flat is our home for fifteen years.\nEva: A little. Look at the wall in the hall. It still has all our marks. Every year Dad measures us there.\nDan: You are taller than me on every line. It is not fair.\nEva: I am four years older, silly. Don't worry, you grow up one day.\n\nEva: Mum says the van arrives at nine tomorrow. Is your room ready?\nDan: Almost ready. I only have my clothes and my desk left. What about your room?\nEva: I have eight boxes, and my room is still a mess. I need your help with the heavy things.\nDan: Okay, I help you now. Which one do we take first?\nEva: The big mirror. Be careful! It is glass.\nDan: I hold this side, you hold that side. One, two, three, up! Oh, it is very heavy.\n\nDan: Eva, I find some old photos in the drawer. Look at this one. We are at the sea.\nEva: I remember! You are five years old, and you cry because a crab is on your foot.\nDan: It is not funny. It is a very big crab.\nEva: It is a very small crab, Dan. Give me the photo. I want to put it in my bag.\nDan: Okay, but I keep the one with the ice cream. That is my favourite day ever.\n\nDan: Mum, where do I put these boxes?\nMum: Put them in the hall, near the door. And please, nobody is lazy today. We have a lot to do before dinner.\nEva: Mum, what about the kitchen? We still have plates, cups and a lot of pots.\nMum: I wrap them in newspaper. Dad comes home early to help with the big table.\nDan: Can we have pizza for dinner? Nobody wants to cook tonight.\nMum: A pizza is perfect. Eva, please call the pizza place and order two big ones.\n\nDan: Look at the empty room, Eva. It looks so big without our things.\nEva: Yes. Our voices are loud here. Listen. Hello! Hello!\nDan: Hello! Hello! Ha ha. Let's say goodbye to the flat.\nEva: Goodbye, kitchen. Goodbye, balcony. Goodbye, old window with the broken handle.\nDan: Goodbye, wall with our marks. Wait, Eva, can we take the wall with us?\nEva: No, but Dad takes a photo. Then we have it forever. Come on, the van is here.\n\nDad: How is the packing going, my children? Wow, the hall is full of boxes.\nEva: We are doing fine, Dad. Dan is very slow, but he works hard.\nDan: I am not slow. I am careful. There is a difference.\nDad: Both of you are great. After the move, we go to the park and have an ice cream together.\nDan: Yes! Chocolate for me.\n\nEva: Welcome to the new house, little brother. Which room do you want?\nDan: The one with the big window at the front. I can see the tree and the garden from here!\nEva: Then it is yours. I take the small room next to it. We are neighbours now.\nDan: Look, I put the red train on the shelf. It is the first thing in my new room.\nEva: That is perfect. Maybe we play with it on Sunday, like old times.\nDan: Yes, but this time I am the driver!",
+  "word_count": 747,
   "vocabulary": [
     {
-      "word": "visit",
-      "ipa_us": "ˈvɪzɪt",
-      "ipa_uk": "ˈvɪzɪt",
-      "translation_ru": "посещать"
+      "word": "packing",
+      "ipa_us": "ˈpækɪŋ",
+      "ipa_uk": "ˈpækɪŋ",
+      "translation_ru": "упаковка вещей"
     },
     {
-      "word": "market",
-      "ipa_us": "ˈmɑːrkɪt",
-      "ipa_uk": "ˈmɑːkɪt",
-      "translation_ru": "рынок"
+      "word": "balcony",
+      "ipa_us": "ˈbælkəni",
+      "ipa_uk": "ˈbælkəni",
+      "translation_ru": "балкон"
     },
     {
-      "word": "vegetables",
-      "ipa_us": "ˈvedʒtəbəlz",
-      "ipa_uk": "ˈvedʒtəbəlz",
-      "translation_ru": "овощи"
+      "word": "mirror",
+      "ipa_us": "ˈmɪrər",
+      "ipa_uk": "ˈmɪrə",
+      "translation_ru": "зеркало"
     },
     {
-      "word": "vase",
-      "ipa_us": "veɪs",
-      "ipa_uk": "vɑːz",
-      "translation_ru": "ваза"
+      "word": "newspaper",
+      "ipa_us": "ˈnuːzpeɪpər",
+      "ipa_uk": "ˈnjuːzpeɪpə",
+      "translation_ru": "газета"
+    },
+    {
+      "word": "cousins",
+      "ipa_us": "ˈkʌzənz",
+      "ipa_uk": "ˈkʌzənz",
+      "translation_ru": "двоюродные братья"
+    },
+    {
+      "word": "neighbours",
+      "ipa_us": "ˈneɪbərz",
+      "ipa_uk": "ˈneɪbəz",
+      "translation_ru": "соседи"
     },
     {
       "word": "empty",
-      "ipa_us": "ˈempti",
+      "ipa_us": "ˈɛmpti",
       "ipa_uk": "ˈempti",
       "translation_ru": "пустой"
     },
     {
-      "word": "flowers",
-      "ipa_us": "ˈflaʊɚz",
-      "ipa_uk": "ˈflaʊəz",
-      "translation_ru": "цветы"
+      "word": "garage",
+      "ipa_us": "ɡəˈrɑːʒ",
+      "ipa_uk": "ˈɡærɑːʒ",
+      "translation_ru": "гараж"
     },
     {
-      "word": "station",
-      "ipa_us": "ˈsteɪʃn",
-      "ipa_uk": "ˈsteɪʃn",
-      "translation_ru": "станция"
+      "word": "passenger",
+      "ipa_us": "ˈpæsndʒər",
+      "ipa_uk": "ˈpæsɪndʒə",
+      "translation_ru": "пассажир"
     },
     {
-      "word": "lunch",
-      "ipa_us": "lʌntʃ",
-      "ipa_uk": "lʌntʃ",
-      "translation_ru": "обед"
+      "word": "measures",
+      "ipa_us": "ˈmɛʒərz",
+      "ipa_uk": "ˈmeʒəz",
+      "translation_ru": "измеряет"
+    },
+    {
+      "word": "crab",
+      "ipa_us": "kræb",
+      "ipa_uk": "kræb",
+      "translation_ru": "краб"
+    },
+    {
+      "word": "drawer",
+      "ipa_us": "drɔːr",
+      "ipa_uk": "drɔː",
+      "translation_ru": "ящик"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "æ",
       "examples": [
-        "Will",
-        "window",
-        "want",
-        "when"
+        "packing",
+        "crab",
+        "that",
+        "have"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "Vicky",
-        "vase",
-        "very",
-        "visit"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+      "tip_ru": "Рот открыт широко, звук между «а» и «э»; не заменяйте на «э»."
     },
     {
       "sound": "r",
       "examples": [
-        "river",
-        "fresh",
-        "great"
+        "red",
+        "room",
+        "remember"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Кончик языка поднят, но не касается нёба и не вибрирует; губы слегка округлены."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "Mum",
+        "cousins",
+        "one",
+        "Sunday"
+      ],
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "train",
+        "take",
+        "Eva",
+        "neighbours"
+      ],
+      "tip_ru": "Двигайте язык от «э» к «и»; не произносите как чистое «э» или «эй» с резким «й»."
     }
   ],
   "questions": [
     {
-      "question": "When do they meet?",
-      "answer": "At nine.",
+      "question": "What does Eva find under Dan's bed?",
+      "answer": "His old red train.",
       "accepted_keywords": [
-        "nine",
-        "9"
+        "train",
+        "red"
       ]
     },
     {
-      "question": "Where do they go on Saturday?",
-      "answer": "To the market.",
+      "question": "What do Eva and Dan see on the wall in the hall?",
+      "answer": "Marks that show how tall they are.",
       "accepted_keywords": [
-        "market"
+        "marks",
+        "tall",
+        "measure",
+        "height"
       ]
     },
     {
-      "question": "What does Will want to buy for his window?",
-      "answer": "A vase and flowers.",
+      "question": "What do they eat for dinner on moving day?",
+      "answer": "Pizza.",
       "accepted_keywords": [
-        "vase",
-        "flowers"
+        "pizza"
       ]
     },
     {
-      "question": "Where do they have lunch?",
-      "answer": "By the river.",
+      "question": "What does Dan put on the shelf in the new room?",
+      "answer": "The red train.",
       "accepted_keywords": [
-        "river"
+        "train",
+        "red"
       ]
     }
-  ],
-  "word_count": 80
+  ]
 }

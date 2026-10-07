@@ -48,13 +48,20 @@ public sealed class ProcessingQueue
         _repo = repo;
         _repo.RequeueInterruptedJobs();
         foreach (var j in _repo.GetActiveJobs())
-            Jobs.Add(new JobItem(j.Id, j.TextId, TitleOf(j.TextId), j.AudioSeconds));
+            Jobs.Add(new JobItem(j.Id, j.TextId, TitleOf(j.TextId, j.ParagraphIndex, j.ParagraphTotal), j.AudioSeconds));
         RefreshEstimates();
         Task.Run(WorkerLoop);
         if (Jobs.Count > 0) _signal.Release();
     }
 
-    private string TitleOf(string textId) => _repo.GetTextSummary(textId)?.TitleEn ?? textId;
+    private string TitleOf(string textId, int? paragraph = null, int paragraphTotal = 0)
+    {
+        var title = _repo.GetTextSummary(textId)?.TitleEn ?? textId;
+        return paragraph is int p && paragraphTotal > 0 ? $"{title} · Абзац {p + 1}/{paragraphTotal}" : title;
+    }
+
+    /// <summary>UI thread: badges unlocked by a finished assessment.</summary>
+    public event Action<IReadOnlyList<Achievement>>? BadgesUnlocked;
 
     public static string Fmt(double seconds)
     {
@@ -63,10 +70,11 @@ public sealed class ProcessingQueue
     }
 
     /// <summary>UI thread. Stores the reading, marks the text read and queues the assessment.</summary>
-    public long Enqueue(string textId, string wavPath, double audioSeconds, string? liveMarks)
+    public long Enqueue(string textId, string wavPath, double audioSeconds, string? liveMarks,
+        int? paragraphIndex = null, int paragraphTotal = 0)
     {
-        var id = _repo.AddPendingReading(textId, wavPath, audioSeconds, liveMarks);
-        Jobs.Add(new JobItem(id, textId, TitleOf(textId), audioSeconds));
+        var id = _repo.AddPendingReading(textId, wavPath, audioSeconds, liveMarks, paragraphIndex, paragraphTotal);
+        Jobs.Add(new JobItem(id, textId, TitleOf(textId, paragraphIndex, paragraphTotal), audioSeconds));
         RefreshEstimates();
         _signal.Release();
         return id;
@@ -131,6 +139,7 @@ public sealed class ProcessingQueue
     private async Task RunJob(JobRow job)
     {
         bool ok = false;
+        IReadOnlyList<Achievement>? unlocked = null;
         try
         {
             if (!_repo.StartJob(job.Id)) return;   // cancelled while waiting
@@ -150,13 +159,24 @@ public sealed class ProcessingQueue
             {
                 if (!File.Exists(job.WavPath)) throw new FileNotFoundException("Запись не найдена", job.WavPath);
                 var text = _repo.GetText(job.TextId) ?? throw new InvalidOperationException("Текст не найден в библиотеке");
-                var json = await AppServices.Engine.AssessWavProgressAsync(job.WavPath, text.Body,
+                string reference = text.Body;
+                if (job.ParagraphIndex is int pi)
+                {
+                    var paras = TextParagraphs.Split(text.Body);
+                    if (pi >= 0 && pi < paras.Count) reference = paras[pi].Text;
+                }
+                var json = await AppServices.Engine.AssessWavProgressAsync(job.WavPath, reference,
                     AppServices.Settings.Strictness, (stage, fraction, eta) => OnProgress(job.Id, fraction, eta));
                 if (_cancelRunning) throw new PronCancelledException();
                 var result = PronAssessor.ParseResult(json);
-                _repo.CompleteJob(job.Id, job.TextId, job.WavPath, json, result.Scores.Overall);
+                int total = result.Words.Count;
+                int read = result.Words.Count(w => !(w.Status is "omitted" or "missing" || string.IsNullOrEmpty(w.Recognized)));
+                bool missing = _repo.CompleteJob(job.Id, job.TextId, job.WavPath, json, result.Scores.Overall,
+                    read, total, result.Fluency.WordsPerMinute, total - read);
                 try { _repo.RecordPhonemes(result); }
                 catch (Exception ex) { Diagnostics.LogException("record phonemes", ex); }
+                try { unlocked = _repo.AfterScored(job.TextId, result, result.Scores.Overall, read, missing); }
+                catch (Exception ex) { Diagnostics.LogException("after scored", ex); }
             }
             catch (PronCancelledException) { status = "cancelled"; }
             catch (Exception ex)
@@ -183,6 +203,7 @@ public sealed class ProcessingQueue
                 if (item != null) Jobs.Remove(item);
                 RefreshEstimates();
                 JobFinished?.Invoke(job.TextId, ok);
+                if (unlocked is { Count: > 0 }) BadgesUnlocked?.Invoke(unlocked);
             });
         }
     }

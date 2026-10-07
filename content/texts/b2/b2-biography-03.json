@@ -2,134 +2,167 @@
   "id": "b2-biography-03",
   "level": "B2",
   "genre": "biography",
-  "title_en": "Ada Lovelace: The First Programmer",
-  "title_ru": "Ада Лавлейс: первая в мире программистка",
-  "description_ru": "История дочери поэта Байрона, которая увидела в вычислительной машине инструмент для музыки и символов.",
-  "text": "Augusta Ada Byron was born in London in 1815. Her father was the famous poet Lord Byron, but he left England when she was only a few weeks old, and she never really knew him. Her mother, Annabella, was determined that Ada would not inherit her father's wild temperament, so she arranged for her to be taught mathematics and science, subjects that were unusual for a girl at the time.\n\nAs a child, Ada designed a flying machine, studying the anatomy of birds to work out how wings could be built. At seventeen she met Charles Babbage, an inventor who was working on a huge mechanical calculator called the Difference Engine. Later he designed a far more ambitious machine, the Analytical Engine, which was never completed. Ada was fascinated, and the two became friends.\n\nIn 1843 she translated an article about the Analytical Engine from French into English. She added her own notes, which turned out to be three times longer than the original text. In them she explained that the machine could do more than calculate numbers: it could, in theory, manipulate symbols and even compose music, if the rules were written correctly. She also included a detailed set of instructions for calculating Bernoulli numbers, which is often described as the first computer program ever published.\n\nAda, who had married William King and become the Countess of Lovelace, did not live to see how right she was. She died of cancer in 1852, at the age of thirty-six. Her work was largely forgotten for a century, but it was rediscovered when the first modern computers appeared. In the early 1980s a programming language was named Ada in her honour, and every October people celebrate Ada Lovelace Day.",
+  "title_en": "Frida Kahlo: Painting Her Own Reality",
+  "title_ru": "Фрида Кало: рисуя собственную реальность",
+  "description_ru": "Как тяжёлая травма превратила мексиканскую девочку в художницу, чьи автопортреты знают во всём мире.",
+  "text": "Frida Kahlo once said that she never painted dreams, only her own reality. Few artists have turned their lives into art so completely. Her canvases are full of broken columns, flowering vines, monkeys, thorns and tears, and in almost all of them her dark, straight eyebrows and steady gaze look straight at the viewer. Today she is one of the most recognisable painters of the twentieth century, but for most of her life she was better known as the wife of a famous man.\n\nShe was born in 1907 in Coyoacán, a suburb of Mexico City, in a blue house that her father, a German-born photographer, had helped to build. She liked to say that she was born in 1910, the year the Mexican Revolution began, so that her life and her country would seem to start together. At the age of six she caught polio, and her right leg grew thinner than the left. Other children teased her, but her father encouraged her to play sports, swim and even box, which was most unusual for a girl at that time.\n\nShe dreamed of becoming a doctor and entered one of the best schools in the country, where she was one of only a few girls. Then, on 17 September 1925, when she was eighteen, the wooden bus in which she was travelling was hit by a tram. An iron handrail went through her body. Her spine, collarbone, ribs and pelvis were broken, and her right leg and foot were crushed. Doctors doubted that she would survive, and she spent months in bed in a plaster corset. It was during this time that her life changed direction.\n\nTo keep her from getting bored, her mother had a special easel made that could be used in bed, and a mirror was fixed above her. Frida began to paint the only model she could always find: herself. Years later she explained that she painted herself because she was so often alone, and because she was the subject she knew best. Of her roughly one hundred and forty paintings, fifty-five are self-portraits. She did not flatter herself. She painted the pain in her back and the operations that she would suffer for the rest of her life, thirty-two in all according to some accounts.\n\nIn 1928 she showed her work to Diego Rivera, the most celebrated muralist in Mexico, who was more than twenty years her senior. He was impressed and told her to keep painting. They married the following year. Her parents jokingly compared the couple to an elephant and a dove. Their marriage was stormy, with betrayals on both sides, and they divorced in 1939, only to remarry a year later. Frida remained fiercely independent, and her friends recalled that she smoked, drank tequila, swore like a sailor and sang old Mexican songs at parties.\n\nShe dressed in the traditional costumes of Tehuana women, with long skirts, embroidered blouses and flowers in her braided hair. Partly this was a matter of national pride, and partly it was practical, since the long skirts hid her damaged leg. During the 1930s she travelled with Diego to the United States, where he painted murals in Detroit and New York, but she was homesick and felt that the Americans were rather dull. In Paris, in 1939, the Louvre bought one of her paintings, The Frame, and it became the first work by a twentieth-century Mexican artist to enter the museum.\n\nThe poet André Breton declared that she was a surrealist, but Frida rejected the label. She said that she did not paint dreams, only what she saw in front of her. Her paintings, however, are packed with symbols. A deer pierced by arrows appears in one picture, while in another, a broken column replaces her spine. Her art was inspired by Mexican folk traditions, religious paintings and popular souvenirs, and she gave them a very personal voice.\n\nIn her last years her health collapsed. In 1953 her right leg was amputated below the knee because of gangrene. That same year, her first solo exhibition in Mexico was held in a gallery in the capital. Because she was too ill to stand, her bed was carried into the gallery and she lay on it, surrounded by friends and guests, and enjoyed the party. She died in July 1954, a few days after her forty-seventh birthday. Her last diary entry is said to have said that she hoped the exit would be joyful and that she would never return.\n\nThe blue house in Coyoacán is now a museum, and queues of visitors wait for hours to enter. Her face appears on bags, stamps and banknotes, and some critics complain that the fashion industry has made her into a cartoon. Yet the paintings still speak for themselves. They tell us that pain can be transformed, and that an ordinary woman, lying in bed with a mirror and a box of paints, can make something that no one else could have imagined.",
+  "word_count": 832,
   "vocabulary": [
     {
-      "word": "temperament",
-      "ipa_us": "ˈtɛmprəmənt",
-      "ipa_uk": "ˈtemp(ə)rəmənt",
-      "translation_ru": "характер, темперамент"
+      "word": "canvases",
+      "ipa_us": "ˈkænvəsɪz",
+      "ipa_uk": "ˈkænvəsɪz",
+      "translation_ru": "холсты"
     },
     {
-      "word": "inherit",
-      "ipa_us": "ɪnˈhɛrɪt",
-      "ipa_uk": "ɪnˈherɪt",
-      "translation_ru": "унаследовать"
+      "word": "vines",
+      "ipa_us": "vaɪnz",
+      "ipa_uk": "vaɪnz",
+      "translation_ru": "лозы"
     },
     {
-      "word": "anatomy",
-      "ipa_us": "əˈnætəmi",
-      "ipa_uk": "əˈnætəmi",
-      "translation_ru": "анатомия"
+      "word": "polio",
+      "ipa_us": "ˈpoʊlioʊ",
+      "ipa_uk": "ˈpəʊliəʊ",
+      "translation_ru": "полиомиелит"
     },
     {
-      "word": "ambitious",
-      "ipa_us": "æmˈbɪʃəs",
-      "ipa_uk": "æmˈbɪʃəs",
-      "translation_ru": "амбициозный"
+      "word": "pelvis",
+      "ipa_us": "ˈpɛlvɪs",
+      "ipa_uk": "ˈpelvɪs",
+      "translation_ru": "таз"
     },
     {
-      "word": "fascinated",
-      "ipa_us": "ˈfæsəˌneɪtɪd",
-      "ipa_uk": "ˈfæsɪneɪtɪd",
-      "translation_ru": "очарованный"
+      "word": "corset",
+      "ipa_us": "ˈkɔrsɪt",
+      "ipa_uk": "ˈkɔːsɪt",
+      "translation_ru": "корсет"
     },
     {
-      "word": "manipulate",
-      "ipa_us": "məˈnɪpjəˌleɪt",
-      "ipa_uk": "məˈnɪpjʊleɪt",
-      "translation_ru": "управлять, обрабатывать"
+      "word": "easel",
+      "ipa_us": "ˈizəl",
+      "ipa_uk": "ˈiːzəl",
+      "translation_ru": "мольберт"
     },
     {
-      "word": "compose",
-      "ipa_us": "kəmˈpoʊz",
-      "ipa_uk": "kəmˈpəʊz",
-      "translation_ru": "сочинять"
+      "word": "flatter",
+      "ipa_us": "ˈflætər",
+      "ipa_uk": "ˈflætə",
+      "translation_ru": "льстить"
     },
     {
-      "word": "rediscovered",
-      "ipa_us": "ˌridɪˈskʌvərd",
-      "ipa_uk": "ˌriːdɪˈskʌvəd",
-      "translation_ru": "заново открыт"
+      "word": "muralist",
+      "ipa_us": "ˈmjʊrəlɪst",
+      "ipa_uk": "ˈmjʊərəlɪst",
+      "translation_ru": "художник-монументалист"
+    },
+    {
+      "word": "embroidered",
+      "ipa_us": "ɪmˈbrɔɪdərd",
+      "ipa_uk": "ɪmˈbrɔɪdəd",
+      "translation_ru": "вышитый"
+    },
+    {
+      "word": "surrealist",
+      "ipa_us": "səˈriəlɪst",
+      "ipa_uk": "səˈrɪəlɪst",
+      "translation_ru": "сюрреалист"
+    },
+    {
+      "word": "amputated",
+      "ipa_us": "ˈæmpjəˌteɪtɪd",
+      "ipa_uk": "ˈæmpjʊteɪtɪd",
+      "translation_ru": "ампутирован"
+    },
+    {
+      "word": "gangrene",
+      "ipa_us": "ˈɡæŋɡrin",
+      "ipa_uk": "ˈɡæŋɡriːn",
+      "translation_ru": "гангрена"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "æ",
+      "sound": "ŋ",
       "examples": [
-        "anatomy",
-        "Analytical",
-        "manipulate",
-        "mathematics"
+        "long",
+        "during",
+        "something"
       ],
-      "tip_ru": "Откройте рот шире, чем для «э», язык у нижних зубов; звук между «а» и «э»."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "mathematics",
-        "thirty-six",
-        "three"
-      ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "father's",
-        "mother",
-        "the"
-      ],
-      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
       "sound": "r",
       "examples": [
-        "Byron",
-        "rules",
-        "Bernoulli",
-        "rediscovered"
+        "right",
+        "rather",
+        "from",
+        "through"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Язык не касается нёба и не вибрирует; слегка загните кончик назад, губы чуть округлены."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "canvases",
+        "vines",
+        "polio",
+        "pelvis"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "all",
+        "still",
+        "tell",
+        "full"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "Who was Ada's father?",
-      "answer": "The poet Lord Byron.",
+      "question": "What happened to Frida Kahlo in 1925?",
+      "answer": "A bus she was travelling in was hit by a tram, and she was badly injured.",
       "accepted_keywords": [
-        "byron",
-        "poet"
+        "bus",
+        "tram",
+        "accident",
+        "injured",
+        "crash"
       ]
     },
     {
-      "question": "Which inventor did Ada work with?",
-      "answer": "Charles Babbage.",
+      "question": "How did she start to paint?",
+      "answer": "She painted in bed while recovering, using a special easel and a mirror, so she painted herself.",
       "accepted_keywords": [
-        "babbage"
+        "bed",
+        "easel",
+        "mirror",
+        "recovering",
+        "herself"
       ]
     },
     {
-      "question": "What did Ada's notes say a machine could do besides calculate?",
-      "answer": "Compose music and manipulate symbols.",
+      "question": "Why did she reject the label surrealist?",
+      "answer": "She said she painted her own reality, not dreams.",
       "accepted_keywords": [
-        "music",
-        "symbols",
-        "compose"
+        "reality",
+        "dreams",
+        "own"
       ]
     },
     {
-      "question": "How old was she when she died?",
-      "answer": "Thirty-six.",
+      "question": "What happened at her exhibition in 1953?",
+      "answer": "Her bed was carried into the gallery because she was too ill to stand.",
       "accepted_keywords": [
-        "thirty-six",
-        "36",
-        "thirty"
+        "bed",
+        "gallery",
+        "ill",
+        "carried"
       ]
     }
-  ],
-  "word_count": 286
+  ]
 }

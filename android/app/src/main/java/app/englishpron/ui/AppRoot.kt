@@ -5,7 +5,12 @@ import android.content.pm.PackageManager
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.Alignment
+import android.net.Uri
+import kotlinx.coroutines.launch
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -35,9 +40,21 @@ private val tabs = listOf(
     Tab("progress", "Прогресс", Icons.Filled.BarChart),
 )
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppRoot() {
+    val app = LocalContext.current.applicationContext as EnglishApp
+    val st by app.settings.collectAsStateWithLifecycle()
+    val scope = rememberCoroutineScope()
+    when {
+        !st.loaded -> Box(Modifier.fillMaxSize(), Alignment.Center) { CircularProgressIndicator() }
+        !st.onboarded -> OnboardingScreen(st) { scope.launch { app.updateSettings(it) } }
+        else -> MainShell()
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun MainShell() {
     val nav = rememberNavController()
     val ctx = LocalContext.current
     val queue = remember { (ctx.applicationContext as EnglishApp).queue }
@@ -65,6 +82,8 @@ fun AppRoot() {
         route == "record" -> "Запись"
         route == "result" -> "Результат"
         route.startsWith("sound") -> "Звук"
+        route.startsWith("drill") -> "Тренировка звука"
+        route == "shadow" -> "Повторение за диктором"
         else -> tabs.first { it.route == route }.title
     }
 
@@ -106,18 +125,23 @@ fun AppRoot() {
     ) { pad ->
         NavHost(nav, startDestination = "home", modifier = Modifier.padding(pad)) {
             composable("home") {
-                HomeScreen(onOpenText = { nav.navigate("reading/$it") }, onDictionary = { nav.navigate("dictionary") })
+                HomeScreen(onOpenText = { nav.navigate("reading/$it") }, onDictionary = { nav.navigate("dictionary") },
+                    onDrill = { nav.navigate("drill/${Uri.encode(it)}") })
             }
             composable("library") { LibraryScreen(onOpen = { nav.navigate("reading/$it") }) }
             composable("training") { SoundsScreen(onOpen = { nav.navigate("sound/$it") }) }
             composable("sound/{id}", listOf(navArgument("id") { type = NavType.StringType })) {
-                SoundDetailScreen(it.arguments?.getString("id").orEmpty())
+                SoundDetailScreen(it.arguments?.getString("id").orEmpty(), onDrill = { id -> nav.navigate("drill/${Uri.encode(id)}") })
             }
+            composable("drill/{key}", listOf(navArgument("key") { type = NavType.StringType })) {
+                SoundDrillScreen(it.arguments?.getString("key").orEmpty())
+            }
+            composable("shadow") { ShadowScreen(practice) }
             composable("dictionary") { DictionaryScreen() }
             composable("progress") { ProgressScreen() }
             composable("settings") { SettingsScreen() }
             composable("reading/{id}", listOf(navArgument("id") { type = NavType.StringType })) {
-                ReadingScreen(practice, it.arguments?.getString("id").orEmpty(), onRecord = { nav.navigate("record") })
+                ReadingScreen(practice, it.arguments?.getString("id").orEmpty(), onRecord = { nav.navigate("record") }, onShadow = { nav.navigate("shadow") })
             }
             composable("record") {
                 // Reading saved: back to the text (it is already marked as read; the assessment runs in the queue).

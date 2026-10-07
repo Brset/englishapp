@@ -2,36 +2,12 @@
   "id": "a2-science-02",
   "level": "A2",
   "genre": "science",
-  "title_en": "The Busy Bees",
-  "title_ru": "Трудолюбивые пчёлы",
-  "description_ru": "Как живёт пчелиная семья и сколько работы нужно для одной ложки мёда.",
-  "text": "Bees are small, but they do a very important job. A bee family can have fifty thousand members, and every bee has its own work.\n\nYoung bees clean the house and take care of the babies. Older bees fly outside to find flowers. When a bee finds a good place, it returns and dances. The dance tells the other bees where to fly and how far it is.\n\nA worker bee visits hundreds of flowers every day. It drinks a sweet liquid called nectar and carries it home. In the hive, the bees change the nectar into honey. To make one small spoon of honey, twelve bees work all their lives!\n\nBees also help us in another way. When they move from flower to flower, they carry pollen, and this helps plants make fruit. Without bees, we would have fewer apples, almonds and strawberries.",
-  "word_count": 144,
+  "title_en": "How Bees Make Honey",
+  "title_ru": "Как пчёлы делают мёд",
+  "description_ru": "О жизни улья: чем занимаются матка и рабочие пчёлы, как из нектара получается мёд и что означает танец пчелы. Почему пчёл нужно защищать.",
+  "text": "A single bee is very small, but a group of bees can do amazing things. In a normal hive, there are between thirty thousand and sixty thousand bees, and almost all of them are female. They have different jobs, they talk to each other and, together, they make one of the sweetest foods in the world. Let us look at how they do it.\n\nEvery hive has one queen. She is bigger than the other bees, and her only job is to lay eggs. In summer, she can lay more than a thousand eggs every day. The workers are her daughters. In the first weeks of their lives, they stay inside and clean the hive, feed the young bees and build the wax rooms. Later they go outside and collect food. The male bees, called drones, are few, and they do not work at all.\n\nThe bees need two things from flowers. They collect pollen, a yellow powder that gives them protein, and they collect nectar, a sweet liquid that gives them energy. A worker bee flies from flower to flower and drinks the nectar with her long tongue. She keeps it in a special stomach, which is different from the stomach she uses for her own food. When this stomach is full, she flies home. A bee may visit about a hundred flowers on one trip.\n\nAt the hive, the worker passes the nectar to a younger bee. They pass it from mouth to mouth many times, and each time, special substances from the bees' bodies change the nectar a little. Then the bees put it into wax rooms. At this moment, the nectar is still more than half water. To make honey, the bees need to remove most of that water. They stand near the rooms and move their wings very fast, like small fans, and warm air makes the water leave. After a few days, the honey is thick, and the bees close each room with a thin wax cover.\n\nHow much work is this? One bee makes only about a twelfth of a teaspoon of honey in her whole life, which is about six weeks in summer. A hive needs the work of thousands of bees to produce a jar of honey. To make five hundred grams, the bees fly a distance of about twice around the Earth. When you put honey on your bread, you are eating the work of many bees.\n\nBees also have a clever way to share information. When a worker finds a good group of flowers, she returns to the hive and dances on the wall. This is called the waggle dance. She walks in a straight line and moves her body quickly from side to side, then turns back and repeats it. The direction of the line shows where the flowers are, compared with the sun. The length of the dance shows how far they are. The other bees watch and then fly directly to the right place.\n\nAn Austrian scientist, Karl von Frisch, discovered the meaning of this dance in the 1940s. He watched bees for many years and later received a Nobel Prize for the work. His discovery was important because it showed that an animal with a very small brain can send exact information to its friends. Today, scientists still study bees in laboratories and fields to learn more about how groups make good decisions.\n\nUnfortunately, bees are in danger in many countries. Farmers use strong chemicals that harm them, cities have fewer flowers than in the past, and new illnesses move quickly from hive to hive. This is a serious problem for people too, because bees visit the flowers of many fruits and vegetables, like apples, almonds and tomatoes. Without them, a lot of our food would be rarer and more expensive.\n\nWhat can we do? The answer is simple. We can plant flowers in gardens and on balconies, we can avoid strong chemicals, and we can buy honey from local farmers. Even a small box of flowers helps a hungry bee. Next time you see one on a flower, do not be afraid. She is working hard, and she is going to visit about a hundred more flowers before she goes home.",
+  "word_count": 707,
   "vocabulary": [
-    {
-      "word": "important",
-      "ipa_us": "ɪmˈpɔrtənt",
-      "ipa_uk": "ɪmˈpɔːtənt",
-      "translation_ru": "важный"
-    },
-    {
-      "word": "members",
-      "ipa_us": "ˈmembərz",
-      "ipa_uk": "ˈmembəz",
-      "translation_ru": "члены"
-    },
-    {
-      "word": "flowers",
-      "ipa_us": "ˈflaʊərz",
-      "ipa_uk": "ˈflaʊəz",
-      "translation_ru": "цветы"
-    },
-    {
-      "word": "nectar",
-      "ipa_us": "ˈnektər",
-      "ipa_uk": "ˈnektə",
-      "translation_ru": "нектар"
-    },
     {
       "word": "hive",
       "ipa_us": "haɪv",
@@ -39,88 +15,133 @@
       "translation_ru": "улей"
     },
     {
-      "word": "honey",
-      "ipa_us": "ˈhʌni",
-      "ipa_uk": "ˈhʌni",
-      "translation_ru": "мёд"
+      "word": "nectar",
+      "ipa_us": "ˈnɛktər",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
     },
     {
       "word": "pollen",
-      "ipa_us": "ˈpɑlən",
+      "ipa_us": "ˈpɑːlən",
       "ipa_uk": "ˈpɒlən",
       "translation_ru": "пыльца"
     },
     {
-      "word": "fewer",
-      "ipa_us": "ˈfjuːər",
-      "ipa_uk": "ˈfjuːə",
-      "translation_ru": "меньше"
+      "word": "queen",
+      "ipa_us": "kwiːn",
+      "ipa_uk": "kwiːn",
+      "translation_ru": "матка, королева"
+    },
+    {
+      "word": "worker",
+      "ipa_us": "ˈwɜːrkər",
+      "ipa_uk": "ˈwɜːkə",
+      "translation_ru": "рабочая пчела"
+    },
+    {
+      "word": "wax",
+      "ipa_us": "wæks",
+      "ipa_uk": "wæks",
+      "translation_ru": "воск"
+    },
+    {
+      "word": "protein",
+      "ipa_us": "ˈproʊtiːn",
+      "ipa_uk": "ˈprəʊtiːn",
+      "translation_ru": "белок"
+    },
+    {
+      "word": "drone",
+      "ipa_us": "droʊn",
+      "ipa_uk": "drəʊn",
+      "translation_ru": "трутень"
+    },
+    {
+      "word": "waggle",
+      "ipa_us": "ˈwæɡl",
+      "ipa_uk": "ˈwæɡl",
+      "translation_ru": "виляющий"
+    },
+    {
+      "word": "chemicals",
+      "ipa_us": "ˈkɛmɪklz",
+      "ipa_uk": "ˈkemɪklz",
+      "translation_ru": "химикаты"
+    },
+    {
+      "word": "scientist",
+      "ipa_us": "ˈsaɪəntɪst",
+      "ipa_uk": "ˈsaɪəntɪst",
+      "translation_ru": "учёный"
+    },
+    {
+      "word": "tongue",
+      "ipa_us": "tʌŋ",
+      "ipa_uk": "tʌŋ",
+      "translation_ru": "язык (орган)"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "very",
-        "have",
-        "visits",
-        "twelve",
-        "lives"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
-    },
-    {
       "sound": "w",
       "examples": [
-        "work",
-        "way",
-        "when",
-        "without"
+        "wax",
+        "wings",
+        "waggle"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Губы округлены и выдвинуты вперёд, зубы не касаются губ; звук короткий, как быстрое «у-а»."
     },
     {
-      "sound": "h",
+      "sound": "ɜː",
       "examples": [
-        "hive",
-        "honey",
-        "helps",
-        "hundreds",
-        "house"
+        "worker",
+        "world",
+        "learn"
       ],
-      "tip_ru": "Лёгкий выдох из горла, без русского «х»."
+      "tip_ru": "Долгий звук в центре рта, как «ё» без «й»; губы не округляйте, язык расслаблен, r не произносите резко."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "wings",
+        "tongue",
+        "long"
+      ],
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте отчётливого «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "How many bees can live in one family?",
-      "answer": "Fifty thousand.",
+      "question": "Who lays the eggs in a hive?",
+      "answer": "The queen.",
       "accepted_keywords": [
-        "fifty",
-        "thousand"
+        "queen"
       ]
     },
     {
-      "question": "What does the bee dance tell other bees?",
-      "answer": "Where to fly and how far it is.",
+      "question": "What two things do bees collect from flowers?",
+      "answer": "Pollen and nectar.",
+      "accepted_keywords": [
+        "pollen",
+        "nectar"
+      ]
+    },
+    {
+      "question": "What does the waggle dance show?",
+      "answer": "The direction and the distance of the flowers.",
+      "accepted_keywords": [
+        "direction",
+        "distance",
+        "flowers"
+      ]
+    },
+    {
+      "question": "How can people help bees?",
+      "answer": "Plant flowers and avoid strong chemicals.",
       "accepted_keywords": [
         "flowers",
-        "fly",
-        "where"
-      ]
-    },
-    {
-      "question": "What do bees make from nectar?",
-      "answer": "Honey.",
-      "accepted_keywords": [
-        "honey"
-      ]
-    },
-    {
-      "question": "What do bees carry from flower to flower?",
-      "answer": "Pollen.",
-      "accepted_keywords": [
-        "pollen"
+        "chemicals",
+        "plant"
       ]
     }
   ]

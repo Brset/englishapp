@@ -2,131 +2,156 @@
   "id": "a1-humor-04",
   "level": "A1",
   "genre": "humor",
-  "title_en": "My Alarm Clock",
-  "title_ru": "Мой будильник",
-  "description_ru": "Забавный рассказ о том, как трудно проснуться утром.",
-  "text": "I have three alarm clocks. The first clock rings at six. I turn it off. The second clock rings at ten past six. I turn it off, too.\n\nThe third clock is on the other side of the room. It rings at twenty past six. Now I must get out of bed! I walk to the clock and I stop it. Then I think, \"The floor is cold. The bed is warm.\" So I go back to bed.\n\nAt eight o'clock, I wake up. \"Oh no! I am late again!\"\n\nMy friend says, \"Buy a fourth clock.\" I say, \"No, thank you. I need a new bed. A bed without a pillow!\"",
-  "word_count": 112,
+  "title_en": "Grandpa and the Smartphone",
+  "title_ru": "Дедушка и смартфон",
+  "description_ru": "Комедия про дедушку Ивана, который осваивает смартфон, видеозвонки и голосового помощника.",
+  "text": "My grandfather Ivan is seventy-eight years old, and he is a very proud man. He does not like new machines. He says, \"I fix my own car, I read a real newspaper, and I write letters with a pen.\" For his birthday, my family gives him a smartphone. We are sure that he loves it. He puts it in a drawer and says nothing. After three weeks, he finally calls me and says, \"Come to my house. The telephone is broken.\"\n\nI go to his flat on Sunday. Grandpa is sitting at the kitchen table with the phone in front of him. He looks at it like it is a dangerous animal. \"It does not work,\" he says. \"Every time I touch it, it makes a noise.\" I look at the screen. It is full of colourful little pictures. \"Grandpa,\" I say, \"you pushed all the buttons.\" He answers, \"A man must try everything.\"\n\nI decide to give him a short lesson. I show him how to answer a call. I say, \"Touch the green circle, and then you can talk.\" He nods and says, \"Green circle. Easy.\" Then I call him from my own phone. The phone rings, and he looks at it with fear. Then he touches the red circle and the call stops. \"Grandpa, that is red!\" I say. \"Red, green,\" he says. \"They look the same to an old man.\"\n\nAfter an hour, he can answer a call, and he is very proud. He sends a message to my grandmother, who is in the next room. The message says, \"Come here, Galya.\" It takes him ten minutes, because he writes with one finger, and every letter is a big decision. Grandma reads it and laughs. \"Ivan,\" she says, \"I am sitting next to you.\" He says, \"I know. I only test the machine.\"\n\nThe next day my grandfather discovers video calls. This is a big mistake. My cousin Lena calls him from her university, and Grandpa answers. But he holds the phone very close to his face, and Lena sees only his nose. \"Grandpa, I cannot see you,\" she says. He moves the phone away, and now she sees his ceiling. Then he turns around, and she sees the cat. Finally, he puts the phone on the table, and Lena sees his hand with a sandwich in it.\n\nLena laughs so much that she cannot speak. Grandpa gets angry. \"Why is she laughing at me?\" he asks. \"It is not funny.\" But then he looks at the screen and sees himself, a serious old man with a sandwich and a surprised cat. After a moment, he laughs too, and he cannot stop. Grandma comes in with a cup of tea and says, \"Ivan, you look wonderful.\" This is the first time in his life that he enjoys a machine.\n\nNow Grandpa loves his phone. He does not leave it for one minute. Every day he sends photos of his garden to the whole family. There are about forty photos of one tomato. He also learns to use the camera, but he does not understand the front one. He takes a picture of his own face, and he says in surprise, \"Who is this old man? He looks like my father!\" My grandmother nearly falls off her chair with laughter.\n\nBut there is one more problem. Grandpa discovers the voice assistant, a woman's voice that answers questions. He talks to her very politely. \"Good morning, madam. What is the weather today?\" She answers, and he says, \"Thank you very much.\" In the evening he says, \"Good night, madam, sleep well.\" Grandma looks at him with narrowed eyes. \"Ivan,\" she says, \"who is this madam?\" He explains, but she is not completely happy.\n\nLast week I visit him again. He meets me at the door with his phone in his hand and a big smile. \"Come in, come in!\" he says. \"I have a lot of new friends on the internet.\" I am a little worried, so I ask, \"Who are they?\" He says proudly, \"Seven nice people from Brazil. They all love my tomato photo.\" Then he looks at me carefully and asks, \"Tell me, how do I send them a million roubles? They need it for a boat.\"",
+  "word_count": 713,
   "vocabulary": [
     {
-      "word": "alarm clock",
-      "ipa_us": "əˈlɑrm klɑk",
-      "ipa_uk": "əˈlɑːm klɒk",
-      "translation_ru": "будильник"
+      "word": "smartphone",
+      "ipa_us": "ˈsmɑrtˌfoʊn",
+      "ipa_uk": "ˈsmɑːtfəʊn",
+      "translation_ru": "смартфон"
     },
     {
-      "word": "rings",
-      "ipa_us": "rɪŋz",
-      "ipa_uk": "rɪŋz",
-      "translation_ru": "звонит"
+      "word": "drawer",
+      "ipa_us": "drɔr",
+      "ipa_uk": "drɔː",
+      "translation_ru": "ящик"
     },
     {
-      "word": "turn off",
-      "ipa_us": "tɜrn ɔf",
-      "ipa_uk": "tɜːn ɒf",
-      "translation_ru": "выключать"
+      "word": "screen",
+      "ipa_us": "skrin",
+      "ipa_uk": "skriːn",
+      "translation_ru": "экран"
     },
     {
-      "word": "floor",
-      "ipa_us": "flɔr",
-      "ipa_uk": "flɔː",
-      "translation_ru": "пол"
+      "word": "finger",
+      "ipa_us": "ˈfɪŋɡər",
+      "ipa_uk": "ˈfɪŋɡə",
+      "translation_ru": "палец"
     },
     {
-      "word": "cold",
-      "ipa_us": "koʊld",
-      "ipa_uk": "kəʊld",
-      "translation_ru": "холодный"
+      "word": "ceiling",
+      "ipa_us": "ˈsilɪŋ",
+      "ipa_uk": "ˈsiːlɪŋ",
+      "translation_ru": "потолок"
     },
     {
-      "word": "late",
-      "ipa_us": "leɪt",
-      "ipa_uk": "leɪt",
-      "translation_ru": "поздно"
+      "word": "sandwich",
+      "ipa_us": "ˈsænwɪtʃ",
+      "ipa_uk": "ˈsænwɪdʒ",
+      "translation_ru": "бутерброд"
     },
     {
-      "word": "pillow",
-      "ipa_us": "ˈpɪloʊ",
-      "ipa_uk": "ˈpɪləʊ",
-      "translation_ru": "подушка"
+      "word": "assistant",
+      "ipa_us": "əˈsɪstənt",
+      "ipa_uk": "əˈsɪstənt",
+      "translation_ru": "помощник"
     },
     {
-      "word": "wake up",
-      "ipa_us": "weɪk ʌp",
-      "ipa_uk": "weɪk ʌp",
-      "translation_ru": "просыпаться"
+      "word": "politely",
+      "ipa_us": "pəˈlaɪtli",
+      "ipa_uk": "pəˈlaɪtli",
+      "translation_ru": "вежливо"
+    },
+    {
+      "word": "camera",
+      "ipa_us": "ˈkæmərə",
+      "ipa_uk": "ˈkæmərə",
+      "translation_ru": "камера"
+    },
+    {
+      "word": "tomato",
+      "ipa_us": "təˈmeɪtoʊ",
+      "ipa_uk": "təˈmɑːtəʊ",
+      "translation_ru": "помидор"
+    },
+    {
+      "word": "surprised",
+      "ipa_us": "sərˈpraɪzd",
+      "ipa_uk": "səˈpraɪzd",
+      "translation_ru": "удивлённый"
+    },
+    {
+      "word": "photos",
+      "ipa_us": "ˈfoʊtoʊz",
+      "ipa_uk": "ˈfəʊtəʊz",
+      "translation_ru": "фотографии"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "three",
-        "think",
-        "thank"
+        "sandwich",
+        "camera",
+        "Grandma"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
     },
     {
-      "sound": "r",
+      "sound": "əʊ",
       "examples": [
-        "rings",
-        "room",
-        "first"
+        "phone",
+        "photos",
+        "know"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Скольжение от «э» к краткому «у» (в США ближе к «оу»)."
     },
     {
-      "sound": "dark-l",
+      "sound": "ŋ",
       "examples": [
-        "clock",
-        "cold",
-        "floor"
+        "finger",
+        "ceiling",
+        "morning"
       ],
-      "tip_ru": "В конце слога язык прижат к бугоркам за верхними зубами, звук глубокий и твёрдый."
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "walk",
-        "wake",
-        "warm"
+        "tomato",
+        "day",
+        "face"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
     }
   ],
   "questions": [
     {
-      "question": "How many alarm clocks does the writer have?",
-      "answer": "Three.",
+      "question": "Where does Grandpa put his new phone at first?",
+      "answer": "He puts it in a drawer.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "drawer"
       ]
     },
     {
-      "question": "Where is the third clock?",
-      "answer": "On the other side of the room.",
+      "question": "What does Lena see when Grandpa holds the phone close?",
+      "answer": "She sees only his nose.",
       "accepted_keywords": [
-        "room",
-        "side",
-        "other"
+        "nose"
       ]
     },
     {
-      "question": "What time does the writer wake up?",
-      "answer": "At eight o'clock.",
+      "question": "What does Grandpa say to the voice assistant?",
+      "answer": "He talks to her politely and says good night.",
       "accepted_keywords": [
-        "eight",
-        "8"
+        "politely",
+        "good",
+        "madam",
+        "night"
       ]
     },
     {
-      "question": "What does the friend say to buy?",
-      "answer": "A fourth clock.",
+      "question": "What does Grandpa ask at the end?",
+      "answer": "He asks how to send a million roubles to his new friends.",
       "accepted_keywords": [
-        "fourth",
-        "clock"
+        "money",
+        "roubles",
+        "send",
+        "million"
       ]
     }
   ]

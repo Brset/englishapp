@@ -2,141 +2,162 @@
   "id": "b2-story-03",
   "level": "B2",
   "genre": "story",
-  "title_en": "The Violin in the Attic",
-  "title_ru": "Скрипка на чердаке",
-  "description_ru": "Семья находит на чердаке старинную скрипку, и её история удивляет всех.",
-  "text": "The Whitfield family had lived in the old house for twenty years before anyone thought of cleaning the attic. It was Oliver, the youngest son, who finally volunteered. He climbed the narrow ladder with a torch in his hand and a scarf tied over his nose, because the dust was thicker than snow.\n\nBehind a pile of curtains he discovered a black wooden case. Inside, wrapped in yellow silk, lay a violin. Its strings were broken, but the wood still shone with a warm, reddish colour.\n\n\"Mum, Dad, come and see this!\" he shouted.\n\nHis father, who played the guitar badly, turned it over in his hands. He said that it looked very old and suggested taking it to an expert. The next day they visited a small workshop in the city centre, where a grey-haired craftsman examined the instrument for a long time without saying a word.\n\n\"Do you know what you have here?\" he finally asked. \"This was made in Italy around 1780. A violin like this is worth a fortune.\"\n\nThe family stared at him. Oliver's mother nearly dropped her handbag.\n\nThe craftsman explained that the maker's label was still inside, and that the violin had probably been brought to England by a travelling musician. How it ended up in their attic was a mystery. When Oliver's grandmother heard the news, however, she began to laugh. She admitted that her own father had once been a street performer, and that he had always refused to say where he had got his violin.\n\n\"He told me it was a gift from a stranger,\" she said, \"but I never believed him.\"\n\nThe family had to make a difficult decision. Selling the violin would solve their money problems, but Oliver wanted to hear it played. In the end, they paid for repairs and invited a young violinist to give a concert in the living room.\n\nWhen the first note rose into the air, nobody spoke. Oliver's grandmother wiped her eyes. After two hundred years in the dark, the old violin was singing again, and it had never sounded more beautiful.",
-  "word_count": 350,
+  "title_en": "The Man Who Sold the Weather",
+  "title_ru": "Человек, который продавал погоду",
+  "description_ru": "Юмористический рассказ о рыбацкой деревне, где прогнозы погоды покупают за деньги, и о том, что случилось, когда прогноз оказался неверным.",
+  "text": "In the fishing village of Port Alder, everybody agreed on one thing: if you wanted to know about the weather, you asked Gideon Pike. He did not own a computer or a barometer, and he had never read a single newspaper from beginning to end. What he did own was a cracked wooden chair outside the harbour office, a pipe that smelled of burnt toffee and an astonishing record of success. For thirty years, it was said, Gideon had been wrong only twice.\n\nThe fishermen paid him a pound every morning, and in return he looked at the sky, sniffed the air and announced his forecast. Some days he said, \"Dry until teatime.\" Other days he said, \"The sea is thinking about something,\" which everyone understood to mean that it was safer to stay ashore. Nobody asked him how he did it. In Port Alder, you did not ask a magician to explain his tricks, and you certainly did not argue with a man who had saved half the fleet in the great fog of 1998.\n\nThen, one March, a young woman arrived from the national weather service. Her name was Priya Nair, and she had been sent to install a small automatic station on the roof of the harbour office. She was polite, efficient and fond of numbers. When she heard about Gideon, she laughed, because she thought it was a joke. When she realised that it was not, she became rather quiet and asked if she could observe him for a week.\n\nOn Monday, Gideon predicted rain by noon. Priya's instruments predicted it too, but only after they had been running for an hour. On Tuesday, he warned of strong winds in the afternoon, and the wind arrived at exactly twenty past two. By Wednesday she was taking notes, and by Thursday she had begun to follow him around the harbour like a student. \"How do you know?\" she finally asked. Gideon gave her a long look. \"If I told you,\" he said, \"I would have to charge you more.\"\n\nPriya tried to find a pattern. She noticed that Gideon always looked first at the gulls, then at the colour of the smoke from the chimneys, and finally at the way the old fishing nets moved on their hooks. She measured, she compared, she filled three notebooks. The results were confusing. Sometimes his signs agreed with her pressure readings, and sometimes they did not, yet he was still right far more often than the computer models she had brought with her. \"It is infuriating,\" she told her mother on the phone. \"I have a degree, and he has a chair.\"\n\nOn Friday, he refused to sell a forecast at all. He sat in his chair with his arms crossed, and when the fishermen gathered round him he simply shook his head. The sky was blue, the sea was flat and the radio promised a perfect day. \"Something is wrong,\" he muttered. Most of the men laughed, because it was their living and their boats were ready, and they did not want to lose a day's pay on the strength of a bad feeling. Four boats sailed anyway.\n\nPriya watched the screen of her new station all morning. At eleven o'clock the pressure began to fall, slowly at first and then very quickly. She ran down to the harbour and shouted the news to Gideon, who was already on his feet with a loud-hailer in his hand. Within minutes, the radio was calling the four boats back, and the whole village was standing on the quay with binoculars. A line of black cloud was rising on the horizon, thick as a wall.\n\nThe boats came in one after another, battered but safe, just as the first heavy drops began to fall. The last one to arrive was captained by a man who had laughed loudest that morning. He climbed out onto the quay, dripping and silent, and put a pound coin into Gideon's hand. Then, after a moment, he added another one. \"That is for tomorrow,\" he said, \"in case you have a feeling.\"\n\nThat evening the two forecasters sat together in the pub. Priya admitted that her instruments had picked up the change only because Gideon had warned her, and Gideon admitted that, after all, he had once been helped by an old barometer in his grandfather's kitchen. His real secret, he said, was his knee. It had been broken in a fishing accident forty years ago, and it ached whenever the pressure dropped. \"It's the most accurate instrument in Port Alder,\" he said, \"and it is not for sale.\"\n\nThe station is still on the harbour office roof, and the village has learned to trust both of them. Priya's screen says what will happen in three days. Gideon's knee says what will happen in three hours. When the two of them disagree, the fishermen stay at home, drink tea and complain, which, as everybody in Port Alder knows, is also a kind of weather forecast.",
+  "word_count": 838,
   "vocabulary": [
     {
-      "word": "volunteered",
-      "ipa_us": "ˌvɑlənˈtɪrd",
-      "ipa_uk": "ˌvɒlənˈtɪəd",
-      "translation_ru": "вызвался"
+      "word": "forecast",
+      "ipa_us": "ˈfɔːrkæst",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "translation_ru": "прогноз"
     },
     {
-      "word": "narrow",
-      "ipa_us": "ˈnɛroʊ",
-      "ipa_uk": "ˈnærəʊ",
-      "translation_ru": "узкий"
+      "word": "barometer",
+      "ipa_us": "bəˈrɑːmɪtər",
+      "ipa_uk": "bəˈrɒmɪtə",
+      "translation_ru": "барометр"
     },
     {
-      "word": "wrapped",
-      "ipa_us": "ræpt",
-      "ipa_uk": "ræpt",
-      "translation_ru": "завёрнутый"
+      "word": "astonishing",
+      "ipa_us": "əˈstɑːnɪʃɪŋ",
+      "ipa_uk": "əˈstɒnɪʃɪŋ",
+      "translation_ru": "поразительный"
     },
     {
-      "word": "craftsman",
-      "ipa_us": "ˈkræftsmən",
-      "ipa_uk": "ˈkrɑːftsmən",
-      "translation_ru": "мастер"
+      "word": "harbour",
+      "ipa_us": "ˈhɑːrbər",
+      "ipa_uk": "ˈhɑːbə",
+      "translation_ru": "гавань"
     },
     {
-      "word": "examined",
-      "ipa_us": "ɪɡˈzæmɪnd",
-      "ipa_uk": "ɪɡˈzæmɪnd",
-      "translation_ru": "осмотрел"
+      "word": "efficient",
+      "ipa_us": "ɪˈfɪʃnt",
+      "ipa_uk": "ɪˈfɪʃnt",
+      "translation_ru": "эффективный"
     },
     {
-      "word": "fortune",
-      "ipa_us": "ˈfɔrtʃən",
-      "ipa_uk": "ˈfɔːtʃuːn",
-      "translation_ru": "состояние"
+      "word": "instruments",
+      "ipa_us": "ˈɪnstrəmənts",
+      "ipa_uk": "ˈɪnstrəmənts",
+      "translation_ru": "приборы"
     },
     {
-      "word": "mystery",
-      "ipa_us": "ˈmɪstəri",
-      "ipa_uk": "ˈmɪstəri",
-      "translation_ru": "загадка"
+      "word": "predicted",
+      "ipa_us": "prɪˈdɪktɪd",
+      "ipa_uk": "prɪˈdɪktɪd",
+      "translation_ru": "предсказал"
     },
     {
-      "word": "admitted",
-      "ipa_us": "ædˈmɪtɪd",
-      "ipa_uk": "ədˈmɪtɪd",
-      "translation_ru": "призналась"
+      "word": "horizon",
+      "ipa_us": "həˈraɪzn",
+      "ipa_uk": "həˈraɪzn",
+      "translation_ru": "горизонт"
     },
     {
-      "word": "performer",
-      "ipa_us": "pərˈfɔrmər",
-      "ipa_uk": "pəˈfɔːmə",
-      "translation_ru": "исполнитель"
+      "word": "battered",
+      "ipa_us": "ˈbætərd",
+      "ipa_uk": "ˈbætəd",
+      "translation_ru": "потрёпанный"
     },
     {
-      "word": "repairs",
-      "ipa_us": "rɪˈpɛrz",
-      "ipa_uk": "rɪˈpeəz",
-      "translation_ru": "ремонт"
+      "word": "quay",
+      "ipa_us": "kiː",
+      "ipa_uk": "kiː",
+      "translation_ru": "причал"
+    },
+    {
+      "word": "pressure",
+      "ipa_us": "ˈprɛʃər",
+      "ipa_uk": "ˈpreʃə",
+      "translation_ru": "давление"
+    },
+    {
+      "word": "accurate",
+      "ipa_us": "ˈækjərət",
+      "ipa_uk": "ˈækjərət",
+      "translation_ru": "точный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "h",
       "examples": [
-        "volunteered",
-        "violin",
-        "believed"
+        "harbour",
+        "heard",
+        "had",
+        "horizon"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Выдыхайте воздух из горла без трения «х»; звук мягкий, почти шёпот."
     },
     {
-      "sound": "w",
+      "sound": "æ",
       "examples": [
-        "wooden",
-        "with",
-        "warm"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "wrapped",
-        "reddish",
-        "repairs"
-      ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "the",
         "that",
-        "their"
+        "had",
+        "laughed",
+        "man"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "call",
+        "all",
+        "wall",
+        "whole"
+      ],
+      "tip_ru": "В конце слова кончик языка касается дёсен, а спинка языка отодвигается назад; звук твёрже русского «ль»."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "picked up",
+        "half the",
+        "in case"
+      ],
+      "tip_ru": "Соединяйте согласный конец слова с гласным началом следующего: «picked-up»."
     }
   ],
   "questions": [
     {
-      "question": "Who found the violin?",
-      "answer": "Oliver.",
+      "question": "How did the villagers pay for Gideon's forecasts?",
+      "answer": "They paid him a pound every morning.",
       "accepted_keywords": [
-        "oliver"
+        "pound",
+        "paid",
+        "money"
       ]
     },
     {
-      "question": "Where was the violin made?",
-      "answer": "In Italy.",
+      "question": "Why did Priya come to Port Alder?",
+      "answer": "To install an automatic weather station.",
       "accepted_keywords": [
-        "italy"
+        "station",
+        "install",
+        "weather service"
       ]
     },
     {
-      "question": "What was the grandmother's father?",
-      "answer": "A street performer.",
+      "question": "What was Gideon's real secret?",
+      "answer": "His old broken knee ached when pressure dropped.",
       "accepted_keywords": [
-        "street",
-        "performer"
+        "knee",
+        "pressure",
+        "ache"
       ]
     },
     {
-      "question": "What did the family do in the end?",
-      "answer": "They repaired it and held a concert.",
+      "question": "What happened to the four boats on Friday?",
+      "answer": "They sailed, but were called back and returned safely before the storm.",
       "accepted_keywords": [
-        "repair",
-        "repaired",
-        "concert"
+        "safe",
+        "storm",
+        "returned",
+        "back"
       ]
     }
   ]

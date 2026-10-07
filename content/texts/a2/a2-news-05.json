@@ -2,127 +2,154 @@
   "id": "a2-news-05",
   "level": "A2",
   "genre": "news",
-  "title_en": "Snow Stops Trains in Northvale",
-  "title_ru": "Снег остановил поезда в Нортвейле",
-  "description_ru": "Вымышленная новость о сильном снегопаде и работе города в непогоду.",
-  "text": "Heavy snow fell in Northvale last night, and the town woke up to a white world on Thursday morning. By seven o'clock, there was almost thirty centimetres of snow on the roads.\n\nAll trains stopped, and about half of the buses did not run. Many people stayed at home. The two schools in the town were closed, and the children were very happy.\n\nWorkers started to clear the main streets at four in the morning. \"We are working as fast as we can,\" said Mary Doyle, who leads the road team. \"But it is going to snow again this afternoon.\"\n\nThe weather office says that Friday is going to be warmer. The temperature is going to rise to three degrees, and the snow is going to start to melt.\n\nPolice ask drivers to be careful. If you do not need to travel today, please stay inside, keep warm and drink something hot.",
-  "word_count": 152,
+  "title_en": "Fenwick's First Bike Day",
+  "title_ru": "Первый велодень в Фенвике",
+  "description_ru": "Вымышленная новость: более трёхсот детей приняли участие в первом велопразднике города Фенвик.",
+  "text": "More than three hundred children from seven schools took part in the first Riverside Bike Day on Sunday. The event, which was organised by the town of Fenwick, was a big success, and it is going to become an annual tradition. The sun shone, the roads were closed to cars, and for one day the main streets belonged to bicycles.\n\nThe idea came from a primary school teacher, Rachel Bowen. She noticed that fewer and fewer children cycled to school. \"When I was young, everybody rode a bike,\" she said. \"Now the road outside my school is full of cars every morning. It is noisy, it is dangerous and the air is dirty.\" Last spring she began to talk to other teachers, and later the council joined the project. They decided to organise a day when families could cycle safely and learn about the benefits of riding a bike.\n\nThe programme started at nine o'clock with a short ride from the town hall to the river park. The children, who wore bright yellow jackets and helmets, rode in a long line, and police officers on motorcycles led the way. At the park, there were several activities. A mechanic showed children how to repair a flat tyre, and a nurse explained why helmets are important. There was also a small race on a track that was made from traffic cones. Children aged six to eight rode slowly, and the older ones tried to go faster than their friends.\n\nThe most exciting moment came in the afternoon, when the Fenwick Family Challenge began. Each team had one adult and one child, and the goal was to ride around the park, collect six colourful flags and return before the others. Some teams were very serious. A father named Daniel Cruz, who has not ridden a bicycle for fifteen years, fell into a bush in the first minute. His daughter, Lucy, laughed so much that she nearly fell off her own bike. \"Dad is slower than me,\" she said afterward, \"but he is funnier than anyone.\"\n\nIn the end, the winners were a grandmother and her grandson. Margaret Holt, who is sixty-eight, rode much faster than the other adults. \"I cycled every day when I was a girl, and I never stopped,\" she said with a grin. \"The secret is not to be afraid of hills.\" Her grandson, ten-year-old Oliver, received a golden medal made of chocolate. He ate it immediately.\n\nMany parents said that they were pleased with the day. \"My son is shy, and he usually plays computer games,\" said Helen Park. \"Today he talked to ten new friends, and he rode twelve kilometres without complaining.\" Some adults were surprised by how quiet the town was without cars. \"I could hear the birds,\" said one man. \"I did not know that we had so many.\"\n\nThe organisers hope that the event will change habits in the long term. They have already asked the council to build a new cycle path from the school area to the river. At present, there are only two short ones in the town, and both are in poor condition. The mayor, Colin Ashby, promised that he will study the plan. \"Cycling is cheaper than driving, and it is better for our health,\" he said. \"If the children want it, we are going to listen.\"\n\nLocal businesses supported the day, too. A cafe near the park gave free orange juice to every child, and a sports shop offered a discount on helmets for the whole month. One shopkeeper said that he sold more bicycle bells in a single morning than in the whole summer, and that he was going to order a lot more before next year.\n\nThere was only one small accident. A boy fell off his bike near the finish line and scratched his knee. A nurse cleaned the wound, and he got a plaster with a picture of a dinosaur. Within five minutes, he was back on the track, and he said that he was going to win next year.\n\nAt five o'clock, the children returned home tired and happy. Many of them were already planning their next trip. \"Can we do it again next weekend?\" asked one small boy. His mother only smiled. Rachel Bowen believes that this is the best result. \"If a child wants to ride again tomorrow,\" she said, \"then we have already won.\"",
+  "word_count": 736,
   "vocabulary": [
     {
-      "word": "heavy",
-      "ipa_us": "ˈhevi",
-      "ipa_uk": "ˈhevi",
-      "translation_ru": "сильный, тяжёлый"
+      "word": "organised",
+      "ipa_us": "ˈɔrɡəˌnaɪzd",
+      "ipa_uk": "ˈɔːɡənaɪzd",
+      "translation_ru": "организовал"
     },
     {
-      "word": "almost",
-      "ipa_us": "ˈɔːlmoʊst",
-      "ipa_uk": "ˈɔːlməʊst",
-      "translation_ru": "почти"
+      "word": "tradition",
+      "ipa_us": "trəˈdɪʃən",
+      "ipa_uk": "trəˈdɪʃn",
+      "translation_ru": "традиция"
     },
     {
-      "word": "centimetre",
-      "ipa_us": "ˈsentɪmiːtər",
-      "ipa_uk": "ˈsentɪmiːtə",
-      "translation_ru": "сантиметр"
+      "word": "benefits",
+      "ipa_us": "ˈbɛnəfɪts",
+      "ipa_uk": "ˈbenɪfɪts",
+      "translation_ru": "польза"
     },
     {
-      "word": "closed",
-      "ipa_us": "kloʊzd",
-      "ipa_uk": "kləʊzd",
-      "translation_ru": "закрыты"
+      "word": "helmet",
+      "ipa_us": "ˈhɛlmɪt",
+      "ipa_uk": "ˈhelmɪt",
+      "translation_ru": "шлем"
     },
     {
-      "word": "clear",
-      "ipa_us": "klɪr",
-      "ipa_uk": "klɪə",
-      "translation_ru": "расчищать"
+      "word": "mechanic",
+      "ipa_us": "məˈkænɪk",
+      "ipa_uk": "məˈkænɪk",
+      "translation_ru": "механик"
     },
     {
-      "word": "temperature",
-      "ipa_us": "ˈtemprətʃər",
-      "ipa_uk": "ˈtemprətʃə",
-      "translation_ru": "температура"
+      "word": "tyre",
+      "ipa_us": "taɪr",
+      "ipa_uk": "ˈtaɪə",
+      "translation_ru": "шина"
     },
     {
-      "word": "melt",
-      "ipa_us": "melt",
-      "ipa_uk": "melt",
-      "translation_ru": "таять"
+      "word": "challenge",
+      "ipa_us": "ˈtʃælɪndʒ",
+      "ipa_uk": "ˈtʃælɪndʒ",
+      "translation_ru": "состязание"
     },
     {
-      "word": "careful",
-      "ipa_us": "ˈkerfl",
-      "ipa_uk": "ˈkeəfl",
-      "translation_ru": "осторожный"
+      "word": "grandson",
+      "ipa_us": "ˈɡrænˌsʌn",
+      "ipa_uk": "ˈɡrænsʌn",
+      "translation_ru": "внук"
+    },
+    {
+      "word": "complaining",
+      "ipa_us": "kəmˈpleɪnɪŋ",
+      "ipa_uk": "kəmˈpleɪnɪŋ",
+      "translation_ru": "жаловаться"
+    },
+    {
+      "word": "path",
+      "ipa_us": "pæθ",
+      "ipa_uk": "pɑːθ",
+      "translation_ru": "дорожка"
+    },
+    {
+      "word": "accident",
+      "ipa_us": "ˈæksɪdənt",
+      "ipa_uk": "ˈæksɪdənt",
+      "translation_ru": "несчастный случай"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "h",
       "examples": [
-        "woke",
-        "world"
+        "helmet",
+        "happy"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Лёгкий выдох из горла без напряжения. Это не русское «х»."
     },
     {
       "sound": "θ",
       "examples": [
-        "Thursday",
-        "thirty"
+        "path",
+        "month",
+        "both"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "aɪ",
       "examples": [
-        "trains",
-        "roads"
+        "bike",
+        "ride"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
     },
     {
-      "sound": "dark-l",
+      "sound": "aspiration",
       "examples": [
-        "schools",
-        "melt"
+        "park",
+        "path",
+        "pleased"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+      "tip_ru": "P, t, k в начале ударного слога произносите с небольшим выдохом, как будто со струйкой воздуха."
     }
   ],
   "questions": [
     {
-      "question": "What fell in Northvale?",
-      "answer": "Snow.",
+      "question": "Who had the idea for Bike Day?",
+      "answer": "A primary school teacher named Rachel Bowen.",
       "accepted_keywords": [
-        "snow"
+        "rachel",
+        "bowen",
+        "teacher"
       ]
     },
     {
-      "question": "What stopped?",
-      "answer": "The trains.",
+      "question": "What did the mechanic show the children?",
+      "answer": "How to repair a flat tyre.",
       "accepted_keywords": [
-        "train",
-        "trains"
+        "tyre",
+        "repair",
+        "flat",
+        "bike"
       ]
     },
     {
-      "question": "Who is Mary Doyle?",
-      "answer": "The leader of the road team.",
+      "question": "Who won the Family Challenge?",
+      "answer": "A grandmother, Margaret Holt, and her grandson Oliver.",
       "accepted_keywords": [
-        "road",
-        "team",
-        "leads",
-        "leader"
+        "margaret",
+        "grandmother",
+        "holt",
+        "oliver",
+        "grandson"
       ]
     },
     {
-      "question": "What will the weather be like on Friday?",
-      "answer": "Warmer.",
+      "question": "What do the organisers want the council to build?",
+      "answer": "A new cycle path from the school area to the river.",
       "accepted_keywords": [
-        "warmer",
-        "warm"
+        "cycle",
+        "path",
+        "river",
+        "school"
       ]
     }
   ]

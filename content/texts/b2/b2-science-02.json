@@ -2,142 +2,161 @@
   "id": "b2-science-02",
   "level": "B2",
   "genre": "science",
-  "title_en": "The Secret Language of Bees",
-  "title_ru": "Тайный язык пчёл",
-  "description_ru": "О знаменитом танце виляния, с помощью которого пчёлы сообщают друг другу, где найти нектар.",
-  "text": "In the 1940s, an Austrian scientist named Karl von Frisch made a discovery that would later win him a Nobel Prize. By watching honeybees inside glass-walled hives, he found that they communicate with one another by dancing.\n\nWhen a forager bee finds a rich source of nectar, she returns to the hive and performs what is now called the waggle dance. She moves in a figure of eight, and in the middle of the figure she shakes her body from side to side while moving in a straight line. Other bees gather around her, touching her with their antennae to follow the movements.\n\nThe dance contains remarkably precise information. The angle of the straight run, measured against the vertical wall of the honeycomb, shows the direction of the flowers in relation to the sun. If the bee runs straight upwards, the food lies in the direction of the sun. If she runs thirty degrees to the right of vertical, the flowers are thirty degrees to the right of the sun. The length of the waggle phase indicates the distance: roughly one second of waggling means about one kilometre.\n\nAt first, many researchers were sceptical. It seemed impossible that an insect with a brain the size of a sesame seed could perform such calculations. In the 1960s and 1970s, however, experiments confirmed Frisch's theory. Scientists even built a robotic bee that could be programmed to dance, and real bees followed its instructions to reach a feeding station.\n\nBees also adapt to difficult conditions. On cloudy days, they can still detect the position of the sun through polarised light, which humans cannot see. In addition, they compensate for the movement of the sun during the day, so that a dance performed in the afternoon remains accurate.\n\nToday, researchers are concerned because pesticides and habitat loss threaten bee populations around the world. Since about one third of the food we eat depends on pollination, understanding how these insects live and work is more than a matter of curiosity. It may be essential for our own survival.",
-  "word_count": 344,
+  "title_en": "Why the Sea Rises and Falls",
+  "title_ru": "Почему море приходит и уходит",
+  "description_ru": "Объяснение приливов и отливов: роль Луны, Солнца и вращения Земли, а также почему в некоторых местах вода поднимается на несколько этажей.",
+  "text": "Anyone who has spent a day at the seaside knows that the water does not stay in one place. In the morning, the beach may be wide and dry, and by the afternoon the waves are lapping at the wall. This daily rhythm, which has been observed since ancient times, is caused by tides, and the main reason for them is the Moon. Yet the explanation is more subtle than most people imagine, and it involves some surprising ideas about gravity.\n\nGravity is a force that pulls objects towards each other, and it becomes weaker with distance. The Moon pulls on the whole Earth, but it pulls harder on the side that faces it than on the side that faces away. The solid planet cannot move much in response, but the oceans are fluid, so the water on the near side is drawn towards the Moon and forms a gentle bulge. That much is easy to accept.\n\nWhat is harder to believe is that a second bulge forms on the opposite side of the planet at the same time. The best way to understand it is to remember that the Earth and the Moon actually orbit around a common point, a little like two skaters spinning while they hold hands. The Earth's centre is pulled slightly more strongly than the water on the far side, so the water is, in effect, left behind. The result is that there are two bulges of water, one facing the Moon and one pointing away from it.\n\nAs the Earth rotates once every twenty-four hours, any coastline passes through both bulges, which means that most places experience two high tides and two low tides each day. The interval is not exactly twelve hours, however, because the Moon is moving in its orbit as well. It takes about twenty-four hours and fifty minutes for the Moon to appear in the same position in the sky, so the tides arrive, on average, about fifty minutes later each day. Fishermen and sailors have always been forced to keep this in mind.\n\nThe Sun also has an influence, although it is much weaker, in spite of its enormous size. It is so far away that its pull on the oceans is less than half of the Moon's. When the Sun, the Moon and the Earth are lined up, which happens at new moon and full moon, the two effects are combined, and the tides are unusually large. These are called spring tides, a name that has nothing to do with the season and comes from an old word meaning to jump. About a week later, when the Sun and the Moon pull at right angles, the tides are smaller, and they are known as neap tides.\n\nThe shape of the coast makes an enormous difference. In the open ocean, the tide rises by only about half a metre, and in the Mediterranean Sea, which is nearly closed, it is barely noticeable. But where the water is funnelled into a long, narrowing bay, it can be pushed to extraordinary heights. The Bay of Fundy in Canada is famous for tides of up to sixteen metres, which is roughly the height of a five-storey building. Fishing boats there are left sitting on the mud at low tide, and a few hours later they float high above the harbour wall.\n\nTides are not only a curiosity. They create rich habitats in the intertidal zone, the strip of shore that is covered and uncovered every day. Animals living there, such as crabs, mussels and barnacles, must be able to survive both underwater and in the open air, and many of them have developed shells that seal in moisture. Some species even time their breeding to the tides, so that their young are released when the water is at its highest.\n\nPeople have also learned to use the tides. For centuries, tide mills ground grain in Europe, and today a few power stations generate electricity from the flow of water in and out of estuaries. Unlike the wind or the sun, the tide is perfectly predictable, and the times of high and low water can be calculated years in advance. That reliability is also a reason why the tables published for harbours are among the oldest scientific documents still in everyday use.\n\nThere is one more curious consequence. The friction caused by the tides is slowly braking the Earth's rotation, and the energy is being transferred to the Moon, which moves away from us by about three and a half centimetres every year. Millions of years ago, days were shorter and the Moon was closer. In the very distant future, our satellite will be so far away that it will no longer be able to cause a total eclipse of the Sun. For now, however, the sea continues to rise and fall, reminding us that the Earth is part of a larger system.",
+  "word_count": 823,
   "vocabulary": [
     {
-      "word": "discovery",
-      "ipa_us": "dɪˈskʌvəri",
-      "ipa_uk": "dɪˈskʌvəri",
-      "translation_ru": "открытие"
+      "word": "tide",
+      "ipa_us": "taɪd",
+      "ipa_uk": "taɪd",
+      "translation_ru": "прилив и отлив"
     },
     {
-      "word": "forager",
-      "ipa_us": "ˈfɔrɪdʒər",
-      "ipa_uk": "ˈfɒrɪdʒə",
-      "translation_ru": "пчела-сборщица"
+      "word": "gravity",
+      "ipa_us": "ˈɡrævəti",
+      "ipa_uk": "ˈɡrævəti",
+      "translation_ru": "гравитация"
     },
     {
-      "word": "nectar",
-      "ipa_us": "ˈnɛktər",
-      "ipa_uk": "ˈnektə",
-      "translation_ru": "нектар"
+      "word": "subtle",
+      "ipa_us": "ˈsʌtl",
+      "ipa_uk": "ˈsʌtl",
+      "translation_ru": "тонкий, неочевидный"
     },
     {
-      "word": "waggle",
-      "ipa_us": "ˈwæɡəl",
-      "ipa_uk": "ˈwæɡəl",
-      "translation_ru": "виляние"
+      "word": "fluid",
+      "ipa_us": "ˈfluːɪd",
+      "ipa_uk": "ˈfluːɪd",
+      "translation_ru": "жидкий"
     },
     {
-      "word": "antennae",
-      "ipa_us": "ænˈtɛni",
-      "ipa_uk": "ænˈteniː",
-      "translation_ru": "усики"
+      "word": "bulge",
+      "ipa_us": "bʌldʒ",
+      "ipa_uk": "bʌldʒ",
+      "translation_ru": "выпуклость"
     },
     {
-      "word": "precise",
-      "ipa_us": "prɪˈsaɪs",
-      "ipa_uk": "prɪˈsaɪs",
-      "translation_ru": "точный"
+      "word": "orbit",
+      "ipa_us": "ˈɔːrbɪt",
+      "ipa_uk": "ˈɔːbɪt",
+      "translation_ru": "орбита"
     },
     {
-      "word": "vertical",
-      "ipa_us": "ˈvɜrtɪkəl",
-      "ipa_uk": "ˈvɜːtɪkəl",
-      "translation_ru": "вертикальный"
+      "word": "coastline",
+      "ipa_us": "ˈkoʊstlaɪn",
+      "ipa_uk": "ˈkəʊstlaɪn",
+      "translation_ru": "береговая линия"
     },
     {
-      "word": "sceptical",
-      "ipa_us": "ˈskɛptɪkəl",
-      "ipa_uk": "ˈskeptɪkəl",
-      "translation_ru": "скептически настроенный"
+      "word": "interval",
+      "ipa_us": "ˈɪntərvl",
+      "ipa_uk": "ˈɪntəvl",
+      "translation_ru": "промежуток"
     },
     {
-      "word": "pesticides",
-      "ipa_us": "ˈpɛstɪˌsaɪdz",
-      "ipa_uk": "ˈpestɪsaɪdz",
-      "translation_ru": "пестициды"
+      "word": "funnelled",
+      "ipa_us": "ˈfʌnld",
+      "ipa_uk": "ˈfʌnld",
+      "translation_ru": "направлена воронкой"
     },
     {
-      "word": "pollination",
-      "ipa_us": "ˌpɑləˈneɪʃən",
-      "ipa_uk": "ˌpɒləˈneɪʃən",
-      "translation_ru": "опыление"
+      "word": "habitat",
+      "ipa_us": "ˈhæbɪtæt",
+      "ipa_uk": "ˈhæbɪtæt",
+      "translation_ru": "среда обитания"
+    },
+    {
+      "word": "estuaries",
+      "ipa_us": "ˈɛstʃueriz",
+      "ipa_uk": "ˈestʃuəriz",
+      "translation_ru": "устье реки"
+    },
+    {
+      "word": "friction",
+      "ipa_us": "ˈfrɪkʃn",
+      "ipa_uk": "ˈfrɪkʃn",
+      "translation_ru": "трение"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ɔː",
       "examples": [
-        "waggle",
-        "watching",
-        "world"
+        "orbit",
+        "more",
+        "force"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Губы округлены, звук долгий и глубокий; в британском варианте «r» не произносится."
     },
     {
-      "sound": "v",
+      "sound": "ɒ",
       "examples": [
-        "vertical",
-        "von",
-        "survival"
+        "from",
+        "not",
+        "long",
+        "on"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Короткое «о» с округлёнными губами, ближе к русскому «о» в «вот»."
     },
     {
-      "sound": "θ",
+      "sound": "aɪ",
       "examples": [
-        "thirty",
-        "third",
-        "theory"
+        "tide",
+        "size",
+        "idea",
+        "high"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Скользите от «а» к «и»; звук долгий, не обрывайте на «а»."
     },
     {
-      "sound": "æ",
+      "sound": "dark-l",
       "examples": [
-        "antennae",
-        "angle",
-        "matter"
+        "wall",
+        "full",
+        "whole"
       ],
-      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий и ёмкий, не «а» и не «э»."
+      "tip_ru": "В конце слова кончик языка касается дёсен, спинка оттянута назад; звук глубже русского «ль»."
     }
   ],
   "questions": [
     {
-      "question": "Who discovered the waggle dance?",
-      "answer": "Karl von Frisch.",
+      "question": "What is the main cause of tides?",
+      "answer": "The gravity of the Moon.",
       "accepted_keywords": [
-        "frisch",
-        "karl"
+        "moon",
+        "gravity"
       ]
     },
     {
-      "question": "What does the length of the waggle phase show?",
-      "answer": "The distance to the flowers.",
+      "question": "How many high tides do most places have each day?",
+      "answer": "Two.",
       "accepted_keywords": [
-        "distance"
+        "two",
+        "2"
       ]
     },
     {
-      "question": "How can bees find the sun on cloudy days?",
-      "answer": "Through polarised light.",
+      "question": "What are spring tides?",
+      "answer": "Unusually large tides when the Sun, Moon and Earth are lined up.",
       "accepted_keywords": [
-        "polarised",
-        "polarized",
-        "light"
+        "large",
+        "lined",
+        "full",
+        "new",
+        "sun"
       ]
     },
     {
-      "question": "What share of our food depends on pollination?",
-      "answer": "About one third.",
+      "question": "Where does the Moon move each year?",
+      "answer": "It moves away from Earth by about three and a half centimetres.",
       "accepted_keywords": [
-        "third",
-        "one"
+        "away",
+        "centimetres",
+        "three",
+        "3.5"
       ]
     }
   ]

@@ -2,41 +2,17 @@
   "id": "a1-biography-03",
   "level": "A1",
   "genre": "biography",
-  "title_en": "Leonardo da Vinci",
-  "title_ru": "Леонардо да Винчи",
-  "description_ru": "Художник, изобретатель и великий любопытный человек эпохи Возрождения.",
-  "text": "Leonardo da Vinci was born in Italy in 1452. His home was near a small town called Vinci. He loved nature, and he drew birds, rivers and flowers.\n\nLeonardo was a painter. He painted the Mona Lisa, a famous picture of a woman with a quiet smile. It is now in a big museum in Paris.\n\nHe was also an inventor. He drew flying machines and boats on paper. He wrote his notes backwards, from right to left. Leonardo lived in France at the end of his life. He died in 1519.",
-  "word_count": 90,
+  "title_en": "Leonardo da Vinci: Artist and Inventor",
+  "title_ru": "Леонардо да Винчи: художник и изобретатель",
+  "description_ru": "Рассказ о гении Возрождения: Мона Лиза, Тайная вечеря, летающие машины и зеркальные записи.",
+  "text": "Leonardo da Vinci was an artist, a scientist and an inventor. People call him a genius, because he was good at so many things. He was born on April 15, 1452, in a small town called Vinci, in Italy. The name \"da Vinci\" simply means \"from Vinci\". His father worked with papers and laws in the city of Florence, and his mother was a young woman from the village.\n\nLeonardo grew up in the countryside, in his grandfather's house. He did not go to a regular school. Instead, he walked in the hills and watched everything around him. He looked at birds, rivers, trees and flowers. He asked many questions. Why is the sky blue? How do birds fly? Why does water move like that? Later he drew all these things in his notebooks. His love of nature never left him.\n\nWhen he was about fourteen, his father took him to Florence. There Leonardo became a student of a famous artist called Verrocchio. In the workshop he learned to draw, to paint and to make things from metal and stone. It is said that Leonardo painted one small angel in his teacher's picture, and it was so beautiful that Verrocchio stopped painting. The young man was now better than his teacher.\n\nIn about 1482 Leonardo went to Milan and worked for a rich duke. He did many jobs for him. He painted pictures, planned parties, made music and drew plans for new machines. In Milan he also painted The Last Supper on a wall in a church. The picture shows Jesus with his twelve friends at a long table. It took him about three years. Today thousands of people go to see it every year.\n\nLeonardo wrote thousands of pages in his notebooks. He wrote with his left hand, and he wrote from right to left, so you can read his words only in a mirror! His notebooks are full of beautiful drawings and strange ideas. He drew a flying machine with big wings, and a kind of parachute made of cloth. He drew a bridge, a boat for under the water and a car that could move without horses. Most of his machines were never built in his life, but many of the ideas were good.\n\nLeonardo also studied the human body. He wanted to know how a hand moves, how a heart works and how a baby grows in its mother. It was difficult work, and he did it very carefully. His drawings of muscles and bones are still very good today. Doctors look at them and say, \"Amazing! He saw this five hundred years ago!\" For Leonardo, art and science were never different things.\n\nHis most famous picture is the Mona Lisa. He began it in about 1503 in Florence. The picture shows a woman with a quiet face and a small smile. People often ask, \"Is she happy or sad?\" Nobody knows. Leonardo loved this picture so much that he never gave it away. He took it with him to many cities and worked on it for years. Today it hangs in a museum in Paris, and millions of visitors come to see it.\n\nIn 1516 the king of France, Francis the First, invited the old artist to France. He gave him a house near a beautiful river. They became good friends, and the king often came to talk with him. Leonardo did not paint much now, because his right hand was weak. But he still drew and thought about new ideas. He died there on May 2, 1519, at the age of sixty-seven.\n\nPeople say Leonardo was a kind and friendly man. He was tall and strong, and he played a beautiful musical instrument called the lyre. He loved animals very much. There is a story about him in the market. He often bought birds in small cages, and then he opened the cages and let the birds fly away. He also liked to work late at night, and sometimes he forgot to eat. His friends smiled and said, \"Leonardo is thinking again.\"\n\nLeonardo was a curious man all his life. He never stopped learning, and he never said, \"I know enough.\" He wrote, \"Learning never tires the mind.\" His paintings, drawings and ideas still make people around the world smile and think. When you look at a bird in the sky tomorrow, remember him. He looked at the same bird and dreamed about flying.",
+  "word_count": 734,
   "vocabulary": [
     {
-      "word": "drew",
-      "ipa_us": "druː",
-      "ipa_uk": "druː",
-      "translation_ru": "рисовал"
-    },
-    {
-      "word": "painter",
-      "ipa_us": "ˈpeɪntər",
-      "ipa_uk": "ˈpeɪntə",
-      "translation_ru": "художник"
-    },
-    {
-      "word": "picture",
-      "ipa_us": "ˈpɪktʃər",
-      "ipa_uk": "ˈpɪktʃə",
-      "translation_ru": "картина"
-    },
-    {
-      "word": "smile",
-      "ipa_us": "smaɪl",
-      "ipa_uk": "smaɪl",
-      "translation_ru": "улыбка"
-    },
-    {
-      "word": "museum",
-      "ipa_us": "mjuˈziəm",
-      "ipa_uk": "mjuˈziːəm",
-      "translation_ru": "музей"
+      "word": "genius",
+      "ipa_us": "ˈdʒinjəs",
+      "ipa_uk": "ˈdʒiːniəs",
+      "translation_ru": "гений"
     },
     {
       "word": "inventor",
@@ -45,67 +21,125 @@
       "translation_ru": "изобретатель"
     },
     {
-      "word": "machine",
-      "ipa_us": "məˈʃin",
-      "ipa_uk": "məˈʃiːn",
-      "translation_ru": "машина"
+      "word": "workshop",
+      "ipa_us": "ˈwɜrkˌʃɑp",
+      "ipa_uk": "ˈwɜːkʃɒp",
+      "translation_ru": "мастерская"
     },
     {
-      "word": "backwards",
-      "ipa_us": "ˈbækwərdz",
-      "ipa_uk": "ˈbækwədz",
-      "translation_ru": "задом наперёд"
+      "word": "angel",
+      "ipa_us": "ˈeɪndʒəl",
+      "ipa_uk": "ˈeɪndʒəl",
+      "translation_ru": "ангел"
+    },
+    {
+      "word": "duke",
+      "ipa_us": "duk",
+      "ipa_uk": "djuːk",
+      "translation_ru": "герцог"
+    },
+    {
+      "word": "parachute",
+      "ipa_us": "ˈpɛrəˌʃut",
+      "ipa_uk": "ˈpærəʃuːt",
+      "translation_ru": "парашют"
+    },
+    {
+      "word": "mirror",
+      "ipa_us": "ˈmɪrər",
+      "ipa_uk": "ˈmɪrə",
+      "translation_ru": "зеркало"
+    },
+    {
+      "word": "muscles",
+      "ipa_us": "ˈmʌsəlz",
+      "ipa_uk": "ˈmʌsəlz",
+      "translation_ru": "мышцы"
+    },
+    {
+      "word": "bones",
+      "ipa_us": "boʊnz",
+      "ipa_uk": "bəʊnz",
+      "translation_ru": "кости"
+    },
+    {
+      "word": "lyre",
+      "ipa_us": "laɪr",
+      "ipa_uk": "laɪə",
+      "translation_ru": "лира"
+    },
+    {
+      "word": "cages",
+      "ipa_us": "ˈkeɪdʒɪz",
+      "ipa_uk": "ˈkeɪdʒɪz",
+      "translation_ru": "клетки"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "Vinci",
-        "loved",
-        "rivers"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "rivers",
-        "right",
-        "drew"
-      ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
-    },
-    {
       "sound": "w",
       "examples": [
-        "was",
-        "with",
-        "wrote"
+        "work",
+        "wrote",
+        "with"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "aɪ",
+      "sound": "dark-l",
       "examples": [
-        "life",
-        "right",
-        "flying"
+        "beautiful",
+        "school",
+        "wall"
       ],
-      "tip_ru": "Начните с «а» и плавно уходите к короткому «и»; не делайте два отдельных звука."
+      "tip_ru": "«L» в конце слога твёрже и глубже русского «ль», кончик языка у дёсен."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "painted",
+        "famous",
+        "made"
+      ],
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "picture",
+        "painted",
+        "paper"
+      ],
+      "tip_ru": "«p, t, k» в начале ударного слога произносятся с лёгким придыханием."
     }
   ],
   "questions": [
     {
       "question": "Where was Leonardo born?",
-      "answer": "In Italy.",
+      "answer": "He was born in a small town called Vinci, in Italy.",
       "accepted_keywords": [
-        "italy",
-        "vinci"
+        "vinci",
+        "italy"
       ]
     },
     {
-      "question": "What famous picture did he paint?",
+      "question": "How did Leonardo write in his notebooks?",
+      "answer": "He wrote with his left hand, from right to left, so you can read it in a mirror.",
+      "accepted_keywords": [
+        "left",
+        "right",
+        "mirror",
+        "backwards"
+      ]
+    },
+    {
+      "question": "What famous picture did Leonardo never give away?",
       "answer": "The Mona Lisa.",
       "accepted_keywords": [
         "mona",
@@ -113,16 +147,8 @@
       ]
     },
     {
-      "question": "How did he write his notes?",
-      "answer": "Backwards, from right to left.",
-      "accepted_keywords": [
-        "backwards",
-        "left"
-      ]
-    },
-    {
-      "question": "Where did he live at the end of his life?",
-      "answer": "In France.",
+      "question": "Where did Leonardo die?",
+      "answer": "He died in France, in a house near a river, in 1519.",
       "accepted_keywords": [
         "france"
       ]

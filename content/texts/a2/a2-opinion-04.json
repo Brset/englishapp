@@ -2,126 +2,160 @@
   "id": "a2-opinion-04",
   "level": "A2",
   "genre": "opinion",
-  "title_en": "Is Winter Better Than Summer?",
-  "title_ru": "Зима лучше лета?",
-  "description_ru": "Необычное мнение: автор выбирает зиму и объясняет почему.",
-  "text": "Most of my friends love summer, but I prefer winter. Many people think this is strange, so let me explain.\n\nFirst, I love snow. When I was a child, we built snowmen and went sledging every weekend. Even now, a white street makes me feel happy and calm.\n\nSecond, I hate hot weather. In July, my flat is like an oven, and I cannot sleep well. In winter I can put on a warm sweater and drink hot tea. It is easier to get warm than to get cool.\n\nThird, winter has the best holidays. We have New Year, long evenings with family, and delicious food. Everyone is kinder in December.\n\nOf course, winter has problems too. The days are short, and sometimes it is very dark at four o'clock. But I walk in the snow, and I wait for the spring. In my opinion, winter is the best season.",
-  "word_count": 150,
+  "title_en": "A First Phone Is Too Early at Eight",
+  "title_ru": "Первый смартфон в восемь лет — это слишком рано",
+  "description_ru": "Рассуждение о том, в каком возрасте ребёнку стоит давать смартфон, с примерами из жизни и советами для родителей.",
+  "text": "When should a child get a first mobile phone? This question is very popular in my country, and it is often the reason for arguments in my family. My little cousin is eight years old, and she already has a smartphone. In my opinion, this is much too early. I think children should wait until they are at least twelve or thirteen.\n\nLet me start with my own experience. I got my first phone when I was fourteen. It was an old, small phone that could only make calls and send messages. I was a little embarrassed, because my classmates had better ones, but now I am very grateful. I spent my time with friends, I played football and I read many books. I could not watch videos all day, because my phone simply could not do it.\n\nToday, a smartphone is almost like a small computer. It has games, videos, social networks and thousands of applications. These things are made to be interesting, and they are very difficult to stop. Adults often use their phones too much, so imagine how hard it is for a child. My cousin plays games for three or four hours a day. When her mother asks her to stop, she gets angry and sometimes even cries. That is not healthy. Last month she forgot to do her homework three times, and she told her teacher that she was too tired. Her mother was very worried, and she took the phone away for a weekend. It was a difficult weekend for everybody in the house, but my cousin finally went outside and played with the neighbour's children.\n\nThe first danger is for health. Doctors say that children need to sleep for nine or ten hours, but many of them take their phones to bed. The light from the screen makes it harder to fall asleep. As a result, they are tired at school, and they cannot concentrate. Looking at a small screen for a long time is also bad for the eyes, and children who sit all day do not get enough exercise. A boy in my class wears glasses now, and his mother thinks the phone is the reason.\n\nThe second danger is on the internet. A young child cannot always understand what is safe and what is not. He can see violent pictures, talk to strangers or read cruel messages from other children. Bullying is easier online, because people are braver when they do not see the face of the other person. A friend of mine had a very bad experience when she was twelve. Some girls wrote unkind things about her in a group chat, and she did not want to go to school for a week. A child needs to be older and stronger to deal with this.\n\nMany parents tell me that they buy a phone because they want to know where their child is. This is a good reason. Parents worry, and a phone can help them feel calmer. Some children also need to call home after school or when the bus is late. I agree with this. But for this purpose, a simple phone is enough. It is cheaper and safer than a smartphone, and it has no internet.\n\nOf course, phones can also be useful. Modern children use them to find information, to learn languages and to make videos. My younger brother learned to draw with a free application. Phones can connect families who live far from each other. I do not want to say that technology is bad. It is a tool, and every tool is good or bad depending on how we use it.\n\nThat is why I think that parents should set clear rules. First, there should be no phones at the dinner table, and no phones in the bedroom at night. Second, there should be a time limit for games and videos. Third, parents should talk to their children about the internet and show them how to stay safe. And parents themselves should be a good example. It is hard to say \"put your phone away\" when you look at yours all evening.\n\nSome parents say that it is impossible to refuse, because every child in the class has a phone. I understand the pressure. But if several parents talk to each other and agree to wait, the children will not feel alone. In conclusion, I believe that a childhood without a smartphone is longer, calmer and happier. There is plenty of time for screens later. Right now, children need friends, books, sport and sleep more than they need another application.",
+  "word_count": 768,
   "vocabulary": [
     {
-      "word": "prefer",
-      "ipa_us": "prɪˈfɜːr",
-      "ipa_uk": "prɪˈfɜː",
-      "translation_ru": "предпочитать"
+      "word": "smartphone",
+      "ipa_us": "ˈsmɑrtˌfoʊn",
+      "ipa_uk": "ˈsmɑːtfəʊn",
+      "translation_ru": "смартфон"
     },
     {
-      "word": "strange",
-      "ipa_us": "streɪndʒ",
-      "ipa_uk": "streɪndʒ",
-      "translation_ru": "странный"
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbærəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущённый"
     },
     {
-      "word": "sledging",
-      "ipa_us": "ˈsledʒɪŋ",
-      "ipa_uk": "ˈsledʒɪŋ",
-      "translation_ru": "катание на санках"
+      "word": "grateful",
+      "ipa_us": "ˈɡreɪtfəl",
+      "ipa_uk": "ˈɡreɪtfl",
+      "translation_ru": "благодарный"
     },
     {
-      "word": "calm",
-      "ipa_us": "kɑːm",
-      "ipa_uk": "kɑːm",
-      "translation_ru": "спокойный"
+      "word": "application",
+      "ipa_us": "ˌæplɪˈkeɪʃən",
+      "ipa_uk": "ˌæplɪˈkeɪʃn",
+      "translation_ru": "приложение"
     },
     {
-      "word": "weather",
-      "ipa_us": "ˈweðər",
-      "ipa_uk": "ˈweðə",
-      "translation_ru": "погода"
+      "word": "concentrate",
+      "ipa_us": "ˈkɑnsənˌtreɪt",
+      "ipa_uk": "ˈkɒnsəntreɪt",
+      "translation_ru": "сосредоточиться"
     },
     {
-      "word": "oven",
-      "ipa_us": "ˈʌvn",
-      "ipa_uk": "ˈʌvn",
-      "translation_ru": "духовка"
+      "word": "violent",
+      "ipa_us": "ˈvaɪələnt",
+      "ipa_uk": "ˈvaɪələnt",
+      "translation_ru": "жестокий"
     },
     {
-      "word": "sweater",
-      "ipa_us": "ˈswetər",
-      "ipa_uk": "ˈswetə",
-      "translation_ru": "свитер"
+      "word": "bullying",
+      "ipa_us": "ˈbʊliɪŋ",
+      "ipa_uk": "ˈbʊliɪŋ",
+      "translation_ru": "травля"
     },
     {
-      "word": "delicious",
-      "ipa_us": "dɪˈlɪʃəs",
-      "ipa_uk": "dɪˈlɪʃəs",
-      "translation_ru": "вкусный"
+      "word": "stranger",
+      "ipa_us": "ˈstreɪndʒər",
+      "ipa_uk": "ˈstreɪndʒə",
+      "translation_ru": "незнакомец"
+    },
+    {
+      "word": "purpose",
+      "ipa_us": "ˈpɜrpəs",
+      "ipa_uk": "ˈpɜːpəs",
+      "translation_ru": "цель"
+    },
+    {
+      "word": "technology",
+      "ipa_us": "tɛkˈnɑlədʒi",
+      "ipa_uk": "tekˈnɒlədʒi",
+      "translation_ru": "технологии"
+    },
+    {
+      "word": "example",
+      "ipa_us": "ɪɡˈzæmpəl",
+      "ipa_uk": "ɪɡˈzɑːmpl",
+      "translation_ru": "пример"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "winter",
-        "weather"
+        "wait",
+        "week",
+        "when"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "θ",
+      "sound": "v",
       "examples": [
-        "think",
-        "third"
+        "violent",
+        "very",
+        "evening"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "ɜː",
-      "examples": [
-        "first",
-        "third"
-      ],
-      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий. Не заменяйте на русское «в» с округлением губ или на «w»."
     },
     {
       "sound": "ŋ",
       "examples": [
-        "sledging",
-        "drink"
+        "looking",
+        "thing"
       ],
-      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос. Не добавляйте «г» в конце."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bad",
+        "friend",
+        "tired"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
     }
   ],
   "questions": [
     {
-      "question": "Which season does the writer prefer?",
-      "answer": "Winter.",
+      "question": "How old does the writer think a child should be for a first phone?",
+      "answer": "At least twelve or thirteen years old.",
       "accepted_keywords": [
-        "winter"
+        "twelve",
+        "thirteen",
+        "12",
+        "13"
       ]
     },
     {
-      "question": "What did the writer do in snow as a child?",
-      "answer": "Built snowmen and went sledging.",
+      "question": "What was the writer's first phone like?",
+      "answer": "It was an old, small phone that could only make calls and send messages.",
       "accepted_keywords": [
-        "snowmen",
-        "sledging",
-        "snowman"
+        "old",
+        "small",
+        "calls",
+        "messages",
+        "simple"
       ]
     },
     {
-      "question": "Why is summer bad for the writer?",
-      "answer": "It is too hot.",
+      "question": "What are two dangers of smartphones for children?",
+      "answer": "Bad sleep and health problems, and unsafe things on the internet such as bullying.",
       "accepted_keywords": [
-        "hot",
-        "oven"
+        "sleep",
+        "health",
+        "internet",
+        "bullying",
+        "eyes",
+        "strangers"
       ]
     },
     {
-      "question": "Which holiday does the writer mention?",
-      "answer": "New Year.",
+      "question": "What rules does the writer suggest?",
+      "answer": "No phones at the table or in the bedroom at night, time limits and talks about internet safety.",
       "accepted_keywords": [
-        "new year",
-        "year"
+        "table",
+        "bedroom",
+        "time",
+        "limit",
+        "talk",
+        "rules"
       ]
     }
   ]

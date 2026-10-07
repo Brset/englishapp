@@ -2,125 +2,156 @@
   "id": "a1-humor-02",
   "level": "A1",
   "genre": "humor",
-  "title_en": "My Bad Cooking",
-  "title_ru": "Моя ужасная стряпня",
-  "description_ru": "Автор рассказывает о своём неудачном обеде.",
-  "text": "I want to cook dinner for my wife. I make soup. I put in carrots, potatoes and onions. Then I add salt. Maybe a little more salt. And a little more.\n\nMy wife comes home. She tastes the soup. Her face goes red, then green. \"Is it good?\" I ask. \"It is very interesting,\" she says. That is not a good sign.\n\nThen our dog tastes it. He looks at me, and he goes to the door. He wants to go out. I think he wants to call a restaurant!\n\nNow my wife cooks dinner and I wash the dishes. That is my plan, I think.",
-  "word_count": 106,
+  "title_en": "My Cat Is the Boss",
+  "title_ru": "Мой кот — начальник",
+  "description_ru": "Юмористический список «правил» кошки Пеппер, по которым живёт вся квартира: от завтрака в пять утра до ночных гонок.",
+  "text": "I have a cat called Pepper, and she is the boss of my flat. I pay for the food, I clean the floor and I wash the dishes. Pepper does nothing. But when I go out, I think she is writing a list of rules for me. Today I want to tell you about her rules, because some of them are very strange. Please be careful. If you live with a cat, you probably follow the same rules.\n\nRule one is simple. The cat always gets up first, and she wants breakfast right now. Every morning at five o'clock, Pepper jumps on my bed. She sits on my chest and looks at me. She does not say anything. She just looks. I try to ignore her, but it is very difficult to ignore a cat on your chest. Then she touches my nose with her paw, very softly. After a minute, I give up. I get up and open a tin of fish. Pepper eats three bites and walks away.\n\nRule two is about doors. In my flat, every door must be open, but only when Pepper wants it. If a door is closed, she cries in front of it like a sad princess. I open the door, and she looks at me, and she does not go in. She just stands in the doorway. Then I close it again, and she cries again. We play this game ten times every day. I do not understand it, but I think she is very happy.\n\nRule three is that all boxes belong to the cat. Every time I buy something new, the box is on the floor, and Pepper is in the box before I take my first picture. I take the phone out and put it on the table. Pepper does not look at the phone. She loves the box. Later I buy her a big, expensive bed with soft pillows. She sleeps next to it, on the cold floor, in a small shoe box. I laugh and shake my head.\n\nRule four is about my work. When I sit at the computer, Pepper decides that she must sit on the keyboard. She walks on it, and my email says \"ffffffffffdddddd\". Yesterday she sent a message to my boss. The message said \"kkkkkkk 555 mmmmm\". My boss wrote back, \"Is this a secret code?\" I answered, \"Yes, it is a message from my cat.\" I do not know if he believes me. Now I put a pillow on the keyboard, but she moves it with her nose.\n\nRule five is that the cat is always right. If I take a book from the shelf, Pepper sits on it. If I make my bed, she lies down in the middle and shows me her stomach. If I try to touch her stomach, she bites my hand, and she looks very surprised. As she says in her cat language, \"You know the rules.\" Of course, I do not know the rules. Nobody tells me. She only changes them every morning.\n\nRule six is the strangest one. At exactly eleven o'clock at night, Pepper starts to run. She runs from the bedroom to the kitchen and back. She jumps on the sofa, on the table and on my head. She makes a lot of noise, and I do not know why. Is she chasing a ghost? Does she see something I cannot see? My neighbour downstairs thinks that I do sport at night. She says, \"You are a very energetic person!\" I do not explain.\n\nSometimes I think about moving to another town, a place where cats have no power. But Pepper looks at me with her big green eyes, and I know that I never leave her. When I am sad, she sits next to me and makes a quiet sound, like a small engine. When I come home, she waits at the door. Maybe she has only one real rule, and it is a nice one: \"Love me, and I love you.\"\n\nSo the next time you see a cat, remember this. She is not your pet. You are her pet. She gives you a place to live, and she watches you from the sofa to make sure that you do your job. If she looks at you in a special way, go and open a tin of fish. It is better not to ask questions. The boss is always hungry.",
+  "word_count": 739,
   "vocabulary": [
     {
-      "word": "cook",
-      "ipa_us": "kʊk",
-      "ipa_uk": "kʊk",
-      "translation_ru": "готовить"
+      "word": "boss",
+      "ipa_us": "bɔs",
+      "ipa_uk": "bɒs",
+      "translation_ru": "начальник, хозяин"
     },
     {
-      "word": "carrot",
-      "ipa_us": "ˈkærət",
-      "ipa_uk": "ˈkærət",
-      "translation_ru": "морковь"
+      "word": "paw",
+      "ipa_us": "pɔ",
+      "ipa_uk": "pɔː",
+      "translation_ru": "лапа"
     },
     {
-      "word": "potato",
-      "ipa_us": "pəˈteɪtoʊ",
-      "ipa_uk": "pəˈteɪtəʊ",
-      "translation_ru": "картошка"
+      "word": "keyboard",
+      "ipa_us": "ˈkiˌbɔrd",
+      "ipa_uk": "ˈkiːbɔːd",
+      "translation_ru": "клавиатура"
     },
     {
-      "word": "onion",
-      "ipa_us": "ˈʌnjən",
-      "ipa_uk": "ˈʌnjən",
-      "translation_ru": "лук"
+      "word": "princess",
+      "ipa_us": "ˈprɪnsɛs",
+      "ipa_uk": "prɪnˈses",
+      "translation_ru": "принцесса"
     },
     {
-      "word": "salt",
-      "ipa_us": "sɔlt",
-      "ipa_uk": "sɔːlt",
-      "translation_ru": "соль"
+      "word": "doorway",
+      "ipa_us": "ˈdɔrˌweɪ",
+      "ipa_uk": "ˈdɔːweɪ",
+      "translation_ru": "дверной проём"
     },
     {
-      "word": "taste",
-      "ipa_us": "teɪst",
-      "ipa_uk": "teɪst",
-      "translation_ru": "пробовать"
+      "word": "energetic",
+      "ipa_us": "ˌɛnərˈdʒɛtɪk",
+      "ipa_uk": "ˌenəˈdʒetɪk",
+      "translation_ru": "энергичный"
     },
     {
-      "word": "sign",
-      "ipa_us": "saɪn",
-      "ipa_uk": "saɪn",
-      "translation_ru": "знак"
+      "word": "engine",
+      "ipa_us": "ˈɛndʒɪn",
+      "ipa_uk": "ˈendʒɪn",
+      "translation_ru": "двигатель"
     },
     {
-      "word": "restaurant",
-      "ipa_us": "ˈrɛstərɑnt",
-      "ipa_uk": "ˈrestrɒnt",
-      "translation_ru": "ресторан"
+      "word": "ignore",
+      "ipa_us": "ɪɡˈnɔr",
+      "ipa_uk": "ɪɡˈnɔː",
+      "translation_ru": "не обращать внимания"
+    },
+    {
+      "word": "ghost",
+      "ipa_us": "ɡoʊst",
+      "ipa_uk": "ɡəʊst",
+      "translation_ru": "призрак"
+    },
+    {
+      "word": "stomach",
+      "ipa_us": "ˈstʌmək",
+      "ipa_uk": "ˈstʌmək",
+      "translation_ru": "живот"
+    },
+    {
+      "word": "chest",
+      "ipa_us": "tʃɛst",
+      "ipa_uk": "tʃest",
+      "translation_ru": "грудь"
+    },
+    {
+      "word": "rules",
+      "ipa_us": "rulz",
+      "ipa_uk": "ruːlz",
+      "translation_ru": "правила"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
-      "examples": [
-        "wife",
-        "want",
-        "wash"
-      ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
-    },
-    {
       "sound": "r",
       "examples": [
-        "red",
-        "restaurant",
-        "green"
+        "rules",
+        "run",
+        "room"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не русский «р»."
     },
     {
-      "sound": "ʊ",
+      "sound": "ʌ",
       "examples": [
-        "cook",
-        "good",
-        "looks"
+        "stomach",
+        "love",
+        "some"
       ],
-      "tip_ru": "Долгий «у» с округлёнными губами; в коротком ʊ губы расслаблены."
+      "tip_ru": "Краткий звук между «а» и «э», рот открыт слабо; не «о»."
     },
     {
-      "sound": "ð",
+      "sound": "aɪ",
       "examples": [
-        "Then",
-        "the"
+        "nice",
+        "night",
+        "eyes"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Скольжение от «а» к «и»; второй элемент короткий."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "writing",
+        "moving"
+      ],
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "What does the writer cook?",
-      "answer": "Soup.",
+      "question": "What time does Pepper wake the writer?",
+      "answer": "At five o'clock.",
       "accepted_keywords": [
-        "soup"
+        "five",
+        "5"
       ]
     },
     {
-      "question": "What does the writer put in too much?",
-      "answer": "Salt.",
+      "question": "What happens when the writer buys a new thing?",
+      "answer": "Pepper sits in the box and ignores the new thing.",
       "accepted_keywords": [
-        "salt"
+        "box"
       ]
     },
     {
-      "question": "What does the wife say about the soup?",
-      "answer": "It is very interesting.",
+      "question": "What does Pepper send to the writer's boss?",
+      "answer": "A strange message from the keyboard.",
       "accepted_keywords": [
-        "interesting"
+        "message",
+        "keyboard",
+        "email"
       ]
     },
     {
-      "question": "Who cooks dinner now?",
-      "answer": "The wife.",
+      "question": "What does Pepper do at eleven o'clock at night?",
+      "answer": "She runs around the flat and jumps on the sofa and on the writer's head.",
       "accepted_keywords": [
-        "wife"
+        "run",
+        "runs",
+        "jumps",
+        "flat"
       ]
     }
   ]

@@ -2,136 +2,154 @@
   "id": "b1-opinion-04",
   "level": "B1",
   "genre": "opinion",
-  "title_en": "Working from Home: Yes, But",
-  "title_ru": "Работа из дома: да, но",
-  "description_ru": "Взвешенное мнение о плюсах и минусах удалённой работы и о том, какой формат лучше всего.",
-  "text": "Since the pandemic, millions of people have started working from home, and I have been one of them for three years. My opinion is simple: remote work is wonderful, but only if you do it the right way.\n\nLet me begin with the good things. I no longer spend two hours a day on a crowded train. I save money on lunches and clothes, and I can take a walk in the middle of the day when my head is tired. As a result, I feel healthier and I get more done.\n\nHowever, there are problems too. At home, the line between work and rest becomes very thin. Sometimes I answer emails at ten o'clock at night, and I have even caught myself checking my laptop at weekends. Also, I miss the small conversations in the office. A joke by the coffee machine can cheer you up more than a long video meeting.\n\nBecause of these problems, I believe the best solution is a mixture. If I could choose, I would work from home on three days and go to the office on two. That way I would enjoy quiet time for concentration and also keep in touch with my colleagues.\n\nEmployers should remember that trust is important. If they treat workers like adults and judge them by their results, not by their hours at a desk, everyone benefits. In the end, a job is something we do, not a place we go.",
-  "word_count": 243,
+  "title_en": "In Defence of Mistakes",
+  "title_ru": "В защиту ошибок",
+  "description_ru": "Эссе о том, почему ошибки помогают учить английский: страх молчания, пример однокурсника, баланс точности и свободы речи.",
+  "text": "When I started learning English at school, I was afraid of making mistakes. I knew that my pronunciation was not perfect, and whenever the teacher asked a question, I sat quietly and hoped that she would choose somebody else. I could read well and write tests, but I could hardly speak. It took me years to understand something that I now believe strongly: mistakes are not the enemy of learning a language. They are one of the best tools that we have.\n\nLet me begin with a simple fact. Nobody learns a language without making mistakes. Think about how small children learn their first language. A three-year-old says \"I goed to the park\" or \"two foots\", and everybody smiles. Nobody says that the child has failed. In fact, those mistakes are a good sign, because they show that the child has noticed a rule, for example that past tenses end in \"-ed\", and is trying to use it. Over time, the child hears the correct forms and quietly fixes the problem. Adult learners follow a similar path, but we are much more embarrassed.\n\nThe main problem is that fear makes us silent, and silence does not help us improve. If you never speak, you never find out what you cannot say. I once studied with a woman who had the best grammar in our group. She had read every textbook and could explain the difference between the past simple and the present perfect better than the teacher. But when we went to a café with some English tourists, she could not order a coffee. She had been so careful not to make errors that she had never practised real conversation.\n\nBy contrast, one of my classmates was always the first to speak, and he made terrible mistakes. He mixed up his tenses, he forgot articles, and he often used the wrong word. But people understood him, and when they didn't, they asked questions and he explained in a different way. After a year, his English was far more fluent than mine. Every error was a small experiment: he tried something, saw the reaction, and learned from it. That is exactly how a scientist works.\n\nOf course, I am not saying that accuracy is unimportant. If you want to take an exam, write a business email or work abroad, you need to know the rules, and you should check your writing carefully. It is also useful to have a teacher or a friend who can point out your repeated errors. If nobody corrects you, you may keep the same mistake for years, and it will become a habit that is difficult to change. I have friends who have lived in England for a decade and still say \"I am agree\", because no one ever told them.\n\nThe key is to choose the right moment. When you are speaking, the goal is communication, so you should try to keep talking, even if you are not sure about the grammar. Later, when you review the conversation, you can think about what went wrong. You can write down new phrases, ask a teacher about the grammar that confused you, and try again next time. If you stop in the middle of every sentence to correct yourself, you will never have a real conversation.\n\nMy own most useful mistake happened on my first trip abroad. At a family dinner, I wanted to say that I was very hungry, but I said, \"I am very angry.\" My hosts looked shocked, and then they started laughing. After I understood what I had said, I laughed too, and I have never confused those two words since. If I had stayed silent, I would have saved myself a little embarrassment, but I would have lost the lesson, and I would not have been invited for dinner again.\n\nIt also helps to remember that native speakers are usually much kinder than learners expect. Most of them are impressed that you are making an effort, and they know how difficult their language is. English speakers often make mistakes themselves; they mix up \"their\" and \"there\", argue about whether it is correct to say \"less\" or \"fewer\", and invent new words every year. If they are not perfect, why should we be?\n\nSo here is my advice for anyone who is learning English. Speak whenever you can, even if you are nervous. Keep a notebook where you write your favourite mistakes and the correct versions. Record yourself, listen carefully, and laugh at what you hear. Celebrate the days when you have said something unexpected, because those are the days you are growing. If you wait until you are perfect, you will wait forever. If you are brave enough to be imperfect, you will progress much faster than you think.",
+  "word_count": 799,
   "vocabulary": [
     {
-      "word": "pandemic",
-      "ipa_us": "pænˈdɛmɪk",
-      "ipa_uk": "pænˈdemɪk",
-      "translation_ru": "пандемия"
+      "word": "mistakes",
+      "ipa_us": "mɪˈsteɪks",
+      "ipa_uk": "mɪˈsteɪks",
+      "translation_ru": "ошибки"
     },
     {
-      "word": "remote",
-      "ipa_us": "rɪˈmoʊt",
-      "ipa_uk": "rɪˈməʊt",
-      "translation_ru": "удалённый"
+      "word": "pronunciation",
+      "ipa_us": "prəˌnʌnsiˈeɪʃən",
+      "ipa_uk": "prəˌnʌnsiˈeɪʃən",
+      "translation_ru": "произношение"
     },
     {
-      "word": "crowded",
-      "ipa_us": "ˈkraʊdɪd",
-      "ipa_uk": "ˈkraʊdɪd",
-      "translation_ru": "переполненный"
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbærəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущённый"
     },
     {
-      "word": "healthier",
-      "ipa_us": "ˈhɛlθiər",
-      "ipa_uk": "ˈhelθiə",
-      "translation_ru": "здоровее"
+      "word": "accuracy",
+      "ipa_us": "ˈækjərəsi",
+      "ipa_uk": "ˈækjʊrəsi",
+      "translation_ru": "точность"
     },
     {
-      "word": "laptop",
-      "ipa_us": "ˈlæpˌtɑp",
-      "ipa_uk": "ˈlæptɒp",
-      "translation_ru": "ноутбук"
+      "word": "fluent",
+      "ipa_us": "ˈfluːənt",
+      "ipa_uk": "ˈfluːənt",
+      "translation_ru": "свободно говорящий"
     },
     {
-      "word": "colleagues",
-      "ipa_us": "ˈkɑliɡz",
-      "ipa_uk": "ˈkɒliːɡz",
-      "translation_ru": "коллеги"
+      "word": "experiment",
+      "ipa_us": "ɪkˈspɛrəmənt",
+      "ipa_uk": "ɪkˈsperɪmənt",
+      "translation_ru": "эксперимент"
     },
     {
-      "word": "mixture",
-      "ipa_us": "ˈmɪkstʃər",
-      "ipa_uk": "ˈmɪkstʃə",
-      "translation_ru": "смесь, сочетание"
+      "word": "confused",
+      "ipa_us": "kənˈfjuːzd",
+      "ipa_uk": "kənˈfjuːzd",
+      "translation_ru": "перепутал, смущён"
     },
     {
-      "word": "concentration",
-      "ipa_us": "ˌkɑnsənˈtreɪʃən",
-      "ipa_uk": "ˌkɒnsənˈtreɪʃən",
-      "translation_ru": "концентрация"
+      "word": "tenses",
+      "ipa_us": "ˈtɛnsɪz",
+      "ipa_uk": "ˈtensɪz",
+      "translation_ru": "времена (глагола)"
     },
     {
-      "word": "employers",
-      "ipa_us": "ɪmˈplɔɪərz",
-      "ipa_uk": "ɪmˈplɔɪəz",
-      "translation_ru": "работодатели"
+      "word": "articles",
+      "ipa_us": "ˈɑːrtɪkəlz",
+      "ipa_uk": "ˈɑːtɪkəlz",
+      "translation_ru": "артикли"
+    },
+    {
+      "word": "grammar",
+      "ipa_us": "ˈɡræmər",
+      "ipa_uk": "ˈɡræmə",
+      "translation_ru": "грамматика"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
-      "examples": [
-        "work",
-        "wonderful",
-        "weekends",
-        "walk"
-      ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
-    },
-    {
       "sound": "θ",
       "examples": [
+        "think",
+        "something",
         "three",
-        "thin",
-        "healthier",
-        "things"
+        "path"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "ŋ",
       "examples": [
-        "remote",
-        "right",
-        "results",
-        "remember"
+        "learning",
+        "speaking",
+        "talking",
+        "making"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "w",
+      "examples": [
+        "wrong",
+        "words",
+        "wanted",
+        "woman"
+      ],
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "abroad",
+        "child",
+        "confused",
+        "friend"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: «had» — не «хат», «bed» — не «бет»."
     }
   ],
   "questions": [
     {
-      "question": "How long has the writer worked from home?",
-      "answer": "For three years.",
+      "question": "How do small children treat mistakes in their first language?",
+      "answer": "Everybody smiles, and the mistakes show that the child has noticed a rule.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "smile",
+        "rule",
+        "noticed",
+        "good",
+        "sign"
       ]
     },
     {
-      "question": "What problem does he mention about working at home?",
-      "answer": "Work and rest are mixed.",
+      "question": "Why did the author's classmate become fluent faster?",
+      "answer": "He spoke first and often, and every mistake was a small experiment.",
       "accepted_keywords": [
-        "rest",
-        "thin",
-        "emails",
-        "laptop",
-        "line"
+        "spoke",
+        "speak",
+        "experiment",
+        "first",
+        "often"
       ]
     },
     {
-      "question": "What does he miss about the office?",
-      "answer": "Small conversations with colleagues.",
+      "question": "What was the author's funny mistake abroad?",
+      "answer": "He said he was very angry instead of very hungry.",
       "accepted_keywords": [
-        "conversations",
-        "colleagues",
-        "joke",
-        "talk"
+        "angry",
+        "hungry"
       ]
     },
     {
-      "question": "What is his ideal schedule?",
-      "answer": "Three days at home and two in the office.",
+      "question": "What advice does the author give?",
+      "answer": "Speak whenever you can, keep a notebook of mistakes and record yourself.",
       "accepted_keywords": [
-        "three",
-        "two",
-        "mixture"
+        "speak",
+        "notebook",
+        "record",
+        "mistakes"
       ]
     }
   ]

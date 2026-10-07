@@ -2,71 +2,83 @@
   "id": "b2-travel-02",
   "level": "B2",
   "genre": "travel",
-  "title_en": "Driving Iceland's Ring Road",
-  "title_ru": "По кольцевой дороге Исландии",
-  "description_ru": "Путевые заметки о поездке вокруг Исландии по трассе номер один: водопады, ледники и чёрные пляжи.",
-  "text": "Route 1, better known as the Ring Road, circles the whole of Iceland and measures about 1,330 kilometres. In theory, you could drive it in a couple of days. In practice, you will keep stopping, because every few kilometres another breathtaking view appears.\n\nMost travellers set off from Reykjavik and head south. Within an hour, you reach Seljalandsfoss, a waterfall that you can actually walk behind. Be prepared to get wet, and remember to wear a waterproof jacket. Further along the coast lies Reynisfjara, a beach of black volcanic sand, where enormous basalt columns rise out of the sea. Visitors are warned never to turn their backs on the waves, as the so-called sneaker waves have caught many people by surprise.\n\nContinuing east, the road passes beneath glaciers. At Jokulsarlon, huge pieces of blue ice break away from the glacier and float slowly through a lagoon towards the Atlantic. Seals often rest on the ice, and the whole scene looks almost unreal, especially in the soft light of the evening.\n\nThe north of the country is wilder and quieter. Near Lake Myvatn, the ground steams and bubbles, and you can bathe in warm geothermal pools while snow falls around you. I was told by a local guide that Icelanders say, \"If you don't like the weather, wait five minutes.\" After two days of sunshine, rain, hail and a rainbow, I understood exactly what he meant.\n\nDriving here requires care. Many bridges have only one lane, and in winter, roads may be closed without warning because of storms. It is wise to check the weather forecast every morning and to fill the tank whenever you see a petrol station. Mobile coverage is poor in remote areas, so carry a paper map as well.\n\nAccommodation is expensive, so many travellers hire a campervan. A cheaper alternative is to book guesthouses outside the busiest season, from September to May, when the northern lights may even be visible.\n\nAfter nine days, I returned to Reykjavik with a thousand photographs and a sunburnt nose. The Ring Road had not only shown me a country, but also reminded me how small we are beside the forces of nature.",
-  "word_count": 361,
+  "title_en": "Around Iceland on Route One",
+  "title_ru": "Вокруг Исландии по Кольцевой дороге",
+  "description_ru": "Рассказ о поездке по исландской Кольцевой дороге: водопады, ледники, горячие источники и погода, которая меняется каждые десять минут.",
+  "text": "There is only one road that goes all the way around Iceland, and it is called Route One. It is about thirteen hundred kilometres long, mostly paved, and it passes within sight of waterfalls, volcanoes, glaciers and a great many sheep. Most visitors drive it in a week, although the locals will tell you that a month is not too long. I had ten days, a small rented car and a guidebook whose first page said, in capital letters, that the weather would change.\n\nIt certainly did. On the first morning in the capital, Reykjavik, it was sunny. By lunch, there was hail, and by the time I reached the south coast, a rainbow was stretched across a field of black rocks. The Icelanders have a saying that if you do not like the weather, you should wait five minutes. I learned to keep a waterproof jacket, sunglasses and a woolly hat on the passenger seat at all times, and I often used all three before breakfast.\n\nThe south coast is the most popular section, and for good reason. Seljalandsfoss is a waterfall that falls from a cliff in a single ribbon, and a path leads behind it, so that you can look at the landscape through a curtain of water. You will get wet, and you will not mind. A little further east, Skogafoss is wider and louder, and people say that a treasure chest is hidden behind it, left by a Viking settler. According to the legend, a boy once found the chest, but he was able to pull out only the ring before the rest was lost.\n\nFarther along the road, the land turns to black sand and the ocean looks angry. At Reynisfjara, enormous waves reach much further up the beach than they appear to, and visitors have been swept away by them. A sign at the entrance warns tourists never to turn their backs on the sea, and I noticed that a guide was explaining the same thing to a group of teenagers, who were clearly more interested in their phones. Nobody argued with the sea that day, and everyone went home dry.\n\nThe most unforgettable stop was a glacier lagoon in the south-east. Huge pieces of ice break off the front of a glacier and drift slowly across a lake, in shades of blue, white and grey, before floating out to the Atlantic through a short channel. On the beach nearby, the smaller pieces wash up like diamonds on the black sand. I stood there for an hour in the wind, and when a seal lifted its head out of the water, I forgot that my fingers had gone numb.\n\nThe east of the country is quieter, with long fjords and little fishing villages, and the road sometimes climbs through mountain passes where the fog is so thick that you can barely see the car in front. Here I was reminded of a lesson that every driver in Iceland has to learn. Many bridges have only one lane, and the rule is that whoever arrives first has the right of way. Gravel roads are common as well, and the rental companies insist that you should drive slowly, because stones fly up and break windscreens.\n\nIn the north, the landscape becomes almost otherworldly. Near Lake Myvatn, steam rises from cracks in the ground, pools of mud bubble and the air smells of boiled eggs, because of the sulphur. Iceland sits on the boundary between two tectonic plates, which are slowly moving apart, and the heat from below is used to warm houses and to supply much of the country's electricity. In one café, I was served bread that had been baked underground in hot soil, and I was assured that it was perfectly safe.\n\nOf course, nothing is more typical of Iceland than a hot spring. In the evenings, the locals gather in outdoor pools, which are heated by natural water and are surprisingly cheap, and talk about politics, football and the weather. There is one rule that surprises foreigners: you must shower without a swimsuit before you get in. This is taken very seriously, and a notice with a diagram is displayed in every changing room, in case anyone has doubts. I followed it carefully, and then sat in the steam while the northern lights began to flicker overhead.\n\nI returned to Reykjavik on the tenth day, tired, sunburnt and windburnt, with a camera full of photographs and a notebook full of petrol receipts. When I told a friend that I had seen four seasons in one afternoon, he laughed and said that this was nothing special. If you plan to go, choose between the summer, when the sun hardly sets, and the winter, when the nights are long and the aurora is possible. Book your car early, buy a map and fill the tank whenever you see a station. Above all, leave some time to do nothing, because the best moments cannot be scheduled.",
+  "word_count": 832,
   "vocabulary": [
     {
-      "word": "breathtaking",
-      "ipa_us": "ˈbrɛθˌteɪkɪŋ",
-      "ipa_uk": "ˈbreθˌteɪkɪŋ",
-      "translation_ru": "захватывающий дух"
+      "word": "glacier",
+      "ipa_us": "ˈɡleɪʃər",
+      "ipa_uk": "ˈɡlæsiə",
+      "translation_ru": "ледник"
     },
     {
-      "word": "waterproof",
-      "ipa_us": "ˈwɔtərˌpruf",
-      "ipa_uk": "ˈwɔːtəpruːf",
-      "translation_ru": "водонепроницаемый"
+      "word": "waterfall",
+      "ipa_us": "ˈwɔːtərfɔːl",
+      "ipa_uk": "ˈwɔːtəfɔːl",
+      "translation_ru": "водопад"
     },
     {
-      "word": "volcanic",
-      "ipa_us": "vɑlˈkænɪk",
-      "ipa_uk": "vɒlˈkænɪk",
-      "translation_ru": "вулканический"
+      "word": "rainbow",
+      "ipa_us": "ˈreɪnboʊ",
+      "ipa_uk": "ˈreɪnbəʊ",
+      "translation_ru": "радуга"
     },
     {
-      "word": "basalt",
-      "ipa_us": "bəˈsɔlt",
-      "ipa_uk": "ˈbæsɔːlt",
-      "translation_ru": "базальт"
-    },
-    {
-      "word": "glaciers",
-      "ipa_us": "ˈɡleɪʃərz",
-      "ipa_uk": "ˈɡlæsiəz",
-      "translation_ru": "ледники"
+      "word": "settler",
+      "ipa_us": "ˈsɛtlər",
+      "ipa_uk": "ˈsetlə",
+      "translation_ru": "поселенец"
     },
     {
       "word": "lagoon",
-      "ipa_us": "ləˈɡun",
+      "ipa_us": "ləˈɡuːn",
       "ipa_uk": "ləˈɡuːn",
       "translation_ru": "лагуна"
     },
     {
-      "word": "geothermal",
-      "ipa_us": "ˌdʒioʊˈθɜrməl",
-      "ipa_uk": "ˌdʒiːəʊˈθɜːməl",
-      "translation_ru": "геотермальный"
+      "word": "channel",
+      "ipa_us": "ˈtʃænl",
+      "ipa_uk": "ˈtʃænl",
+      "translation_ru": "пролив, русло"
     },
     {
-      "word": "remote",
-      "ipa_us": "rɪˈmoʊt",
-      "ipa_uk": "rɪˈməʊt",
-      "translation_ru": "отдалённый"
+      "word": "numb",
+      "ipa_us": "nʌm",
+      "ipa_uk": "nʌm",
+      "translation_ru": "онемевший"
     },
     {
-      "word": "accommodation",
-      "ipa_us": "əˌkɑməˈdeɪʃən",
-      "ipa_uk": "əˌkɒməˈdeɪʃən",
-      "translation_ru": "жильё"
+      "word": "gravel",
+      "ipa_us": "ˈɡrævl",
+      "ipa_uk": "ˈɡrævl",
+      "translation_ru": "гравий"
     },
     {
-      "word": "campervan",
-      "ipa_us": "ˈkæmpərˌvæn",
-      "ipa_uk": "ˈkæmpəvæn",
-      "translation_ru": "кемпер"
+      "word": "sulphur",
+      "ipa_us": "ˈsʌlfər",
+      "ipa_uk": "ˈsʌlfə",
+      "translation_ru": "сера"
+    },
+    {
+      "word": "tectonic",
+      "ipa_us": "tɛkˈtɑːnɪk",
+      "ipa_uk": "tekˈtɒnɪk",
+      "translation_ru": "тектонический"
+    },
+    {
+      "word": "aurora",
+      "ipa_us": "ɔːˈrɔːrə",
+      "ipa_uk": "ɔːˈrɔːrə",
+      "translation_ru": "северное сияние"
+    },
+    {
+      "word": "windburnt",
+      "ipa_us": "ˈwɪndbɜːrnt",
+      "ipa_uk": "ˈwɪndbɜːnt",
+      "translation_ru": "обветренный"
     }
   ],
   "focus_sounds": [
@@ -74,70 +86,76 @@
       "sound": "w",
       "examples": [
         "waterfall",
-        "waves",
-        "wet"
+        "weather",
+        "wind",
+        "woolly"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Губы округлены, как для «у», затем быстро раскрываются; не «в»."
     },
     {
-      "sound": "v",
+      "sound": "ð",
       "examples": [
-        "volcanic",
-        "every",
-        "evening"
+        "the",
+        "that",
+        "there",
+        "weather"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "thousand",
-        "northern",
-        "geothermal"
-      ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка между зубами, голос включён; не «з»."
     },
     {
       "sound": "r",
       "examples": [
         "road",
-        "remember",
-        "rainbow"
+        "rainbow",
+        "reached",
+        "rocks"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Язык не касается нёба и не вибрирует; губы слегка вытянуты."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "road",
+        "bridges",
+        "had",
+        "found"
+      ],
+      "tip_ru": "Не оглушайте конец слова: «road» оканчивается звонким «d», а не «т»."
     }
   ],
   "questions": [
     {
-      "question": "How long is the Ring Road?",
-      "answer": "About 1,330 kilometres.",
+      "question": "How long is Route One?",
+      "answer": "About thirteen hundred kilometres.",
       "accepted_keywords": [
-        "1330",
-        "1,330",
-        "thirteen"
+        "thirteen",
+        "1300",
+        "hundred"
       ]
     },
     {
-      "question": "What can you walk behind at Seljalandsfoss?",
-      "answer": "A waterfall.",
+      "question": "What is the rule on one-lane bridges?",
+      "answer": "Whoever arrives first has the right of way.",
       "accepted_keywords": [
-        "waterfall"
+        "first",
+        "right of way",
+        "arrives"
       ]
     },
     {
-      "question": "What colour is the sand at Reynisfjara?",
-      "answer": "Black.",
+      "question": "Why does the air smell of boiled eggs near Lake Myvatn?",
+      "answer": "Because of sulphur.",
       "accepted_keywords": [
-        "black"
+        "sulphur"
       ]
     },
     {
-      "question": "Why do many travellers hire a campervan?",
-      "answer": "Accommodation is expensive.",
+      "question": "What must you do before entering a hot pool?",
+      "answer": "Shower without a swimsuit.",
       "accepted_keywords": [
-        "expensive",
-        "accommodation",
-        "cheaper"
+        "shower",
+        "swimsuit",
+        "wash"
       ]
     }
   ]

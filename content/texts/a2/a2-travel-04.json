@@ -2,124 +2,139 @@
   "id": "a2-travel-04",
   "level": "A2",
   "genre": "travel",
-  "title_en": "A Week in Iceland",
-  "title_ru": "Неделя в Исландии",
-  "description_ru": "Путешествие по острову льда и огня: водопады, горячие источники и северное сияние.",
-  "text": "My brother and I went to Iceland in November. We rented a small car and drove around the island for a week. The days were short, but the landscape was amazing.\n\nFirst, we visited a huge waterfall. The water fell from a high rock, and a rainbow appeared in the cold air. Then we found a hot spring in the middle of nowhere. It was thirty-eight degrees, and we sat in it for an hour while the snow fell on our heads.\n\nThe best moment was on Thursday night. We drove away from the town, turned off the car lights and waited. At midnight, a green light began to move across the sky. It was the northern lights! We watched them for two hours, and neither of us said a word.\n\nIceland is expensive, and the weather changes every ten minutes. But I am already planning my next trip.",
-  "word_count": 150,
+  "title_en": "Four Days on a Bicycle",
+  "title_ru": "Четыре дня на велосипеде",
+  "description_ru": "Как путешественник арендовал велосипед в Амстердаме, чуть не упал в канал и научился ездить как местный. Каналы, музей Ван Гога и ветряные мельницы.",
+  "text": "In the Netherlands, there are more bicycles than people. That is not a joke. The country has about seventeen million inhabitants and more than twenty million bikes. So when I decided to visit Amsterdam last spring, I did not take a guidebook. I took a small bag and a plan: to rent a bicycle on the first morning and to spend four days like a local.\n\nThe bicycle shop was near the central station. The owner, a tall man with a red beard, gave me a black bike with a basket and a big bell. \"You must remember three things,\" he said. \"Keep to the right, look before you turn and never stop suddenly in the bike lane.\" He also told me to buy a good lock, because thousands of bikes disappear in the city every year. I paid ten euros for the lock and fifteen a day for the bike, and I rode away very slowly.\n\nMy first ride was a disaster. The bike lanes in Amsterdam are wide and full of people. Cyclists passed me on both sides, and some of them talked on the phone, carried umbrellas or held a coffee in one hand. A girl with two small children on the front of her bike rode faster than me. After ten minutes, I accidentally stopped in the middle of the lane, and about twenty bells rang at the same time. I jumped to the side and almost fell into a canal.\n\nI improved quickly, though. By the afternoon, I could ride through the old centre without fear, and I began to enjoy it. Amsterdam is flat, so cycling is easy, and the streets are narrow, so bicycles are faster than cars. The canals form three big half circles around the centre, and the houses beside them are tall, thin and leaning slightly forward. A local man told me that the houses were built like this on purpose, so that people could lift furniture to the upper floors with a rope.\n\nOn the second day, I visited a museum that is famous for its paintings by Van Gogh. The painter was born in the Netherlands, but he spent the last years of his short life in France. He only sold a few pictures while he was alive, and today they are worth millions. In the museum, I stood in front of a painting of yellow sunflowers for ten minutes. A guard told me that this was normal, and that the longest visitor had stayed for an hour.\n\nThen I did something completely different. I left the city and cycled for forty minutes along a quiet canal to a village in the countryside. There were green fields, white sheep and old windmills. In the Netherlands, the windmills were used for hundreds of years to pump water from the land to the sea, because a large part of the country lies below sea level. Without the pumps, much of the country would be under water. I bought fresh cheese from a farmer, a round yellow one with a red wax coat, and I ate it with bread on a bench beside the canal.\n\nThe food in Amsterdam was simple but good. I tried herring, a raw fish, which a street seller served with onions. It was salty and soft, and I did not like it, but I finished it to be polite. I liked the pancakes more. They are bigger and thinner than the American ones, and you can eat them with cheese, bacon or sweet syrup. In the evening, I had chips with mayonnaise from a paper cone, standing in the street like everyone else.\n\nOn the last day, I returned my bike, and the owner asked how I felt. \"Tired but happy,\" I said. \"And much braver.\" He smiled and told me that children in the Netherlands learn to ride at four years old, and that many people cycle until they are ninety. Nobody there thinks that a bicycle is only for sport. It is cheap, it is healthy and it is good for the air in the city. In my own town, I rarely use a bike, but I am going to change that. This summer, I plan to buy a bicycle, a bell and, of course, a very good lock.",
+  "word_count": 715,
   "vocabulary": [
     {
-      "word": "rented",
-      "ipa_us": "ˈrentɪd",
-      "ipa_uk": "ˈrentɪd",
-      "translation_ru": "арендовали"
+      "word": "bicycle",
+      "ipa_us": "ˈbaɪsɪkl",
+      "ipa_uk": "ˈbaɪsɪkl",
+      "translation_ru": "велосипед"
     },
     {
-      "word": "landscape",
-      "ipa_us": "ˈlænskeɪp",
-      "ipa_uk": "ˈlænskeɪp",
-      "translation_ru": "пейзаж"
+      "word": "basket",
+      "ipa_us": "ˈbæskɪt",
+      "ipa_uk": "ˈbɑːskɪt",
+      "translation_ru": "корзина"
     },
     {
-      "word": "amazing",
-      "ipa_us": "əˈmeɪzɪŋ",
-      "ipa_uk": "əˈmeɪzɪŋ",
-      "translation_ru": "потрясающий"
+      "word": "lock",
+      "ipa_us": "lɑːk",
+      "ipa_uk": "lɒk",
+      "translation_ru": "замок"
     },
     {
-      "word": "waterfall",
-      "ipa_us": "ˈwɔtərfɔl",
-      "ipa_uk": "ˈwɔːtəfɔːl",
-      "translation_ru": "водопад"
+      "word": "bell",
+      "ipa_us": "bɛl",
+      "ipa_uk": "bel",
+      "translation_ru": "звонок"
     },
     {
-      "word": "spring",
-      "ipa_us": "sprɪŋ",
-      "ipa_uk": "sprɪŋ",
-      "translation_ru": "источник"
+      "word": "lane",
+      "ipa_us": "leɪn",
+      "ipa_uk": "leɪn",
+      "translation_ru": "полоса движения"
     },
     {
-      "word": "degrees",
-      "ipa_us": "dɪˈɡriz",
-      "ipa_uk": "dɪˈɡriːz",
-      "translation_ru": "градусы"
+      "word": "windmill",
+      "ipa_us": "ˈwɪndmɪl",
+      "ipa_uk": "ˈwɪndmɪl",
+      "translation_ru": "ветряная мельница"
     },
     {
-      "word": "moment",
-      "ipa_us": "ˈmoʊmənt",
-      "ipa_uk": "ˈməʊmənt",
-      "translation_ru": "момент"
+      "word": "herring",
+      "ipa_us": "ˈhɛrɪŋ",
+      "ipa_uk": "ˈherɪŋ",
+      "translation_ru": "сельдь"
     },
     {
-      "word": "northern",
-      "ipa_us": "ˈnɔrðərn",
-      "ipa_uk": "ˈnɔːðən",
-      "translation_ru": "северный"
+      "word": "syrup",
+      "ipa_us": "ˈsɪrəp",
+      "ipa_uk": "ˈsɪrəp",
+      "translation_ru": "сироп"
+    },
+    {
+      "word": "countryside",
+      "ipa_us": "ˈkʌntrisaɪd",
+      "ipa_uk": "ˈkʌntrisaɪd",
+      "translation_ru": "сельская местность"
+    },
+    {
+      "word": "sunflowers",
+      "ipa_us": "ˈsʌnflaʊərz",
+      "ipa_uk": "ˈsʌnflaʊəz",
+      "translation_ru": "подсолнухи"
+    },
+    {
+      "word": "museum",
+      "ipa_us": "mjuˈziːəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "h",
+      "examples": [
+        "herring",
+        "houses",
+        "healthy"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»: рот открыт, язык расслаблен."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "bell",
+        "windmill",
+        "local"
+      ],
+      "tip_ru": "В конце слога язык поднимается к нёбу, звук твёрдый и глубокий; не смягчайте его как русское «ль»."
+    },
+    {
       "sound": "w",
       "examples": [
-        "week",
-        "was",
-        "waterfall",
-        "water",
-        "waited",
-        "went",
-        "watched"
+        "windmill",
+        "white",
+        "water"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "Thursday",
-        "northern",
-        "thirty-eight",
-        "the"
-      ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
-    },
-    {
-      "sound": "ŋ",
-      "examples": [
-        "amazing",
-        "spring",
-        "planning"
-      ],
-      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; «г» в конце не произносите."
+      "tip_ru": "Губы округлены и выдвинуты вперёд, зубы не касаются губ; звук короткий, как быстрое «у-а»."
     }
   ],
   "questions": [
     {
-      "question": "When did the brothers go to Iceland?",
-      "answer": "In November.",
+      "question": "Are there more bicycles or people in the Netherlands?",
+      "answer": "More bicycles.",
       "accepted_keywords": [
-        "november"
+        "bicycles",
+        "bikes"
       ]
     },
     {
-      "question": "What did they rent?",
-      "answer": "A small car.",
+      "question": "What rules did the shop owner give?",
+      "answer": "Keep to the right, look before you turn and do not stop suddenly.",
       "accepted_keywords": [
-        "car"
+        "right",
+        "look",
+        "stop"
       ]
     },
     {
-      "question": "What did they see at midnight?",
-      "answer": "The northern lights.",
+      "question": "Whose paintings did the writer see?",
+      "answer": "Van Gogh's.",
       "accepted_keywords": [
-        "northern",
-        "lights",
-        "green"
+        "gogh"
       ]
     },
     {
-      "question": "How long did they watch the lights?",
-      "answer": "Two hours.",
+      "question": "Did the writer like the herring?",
+      "answer": "No, he did not, but he finished it to be polite.",
       "accepted_keywords": [
-        "two"
+        "no",
+        "polite"
       ]
     }
   ]

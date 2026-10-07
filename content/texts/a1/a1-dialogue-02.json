@@ -2,122 +2,160 @@
   "id": "a1-dialogue-02",
   "level": "A1",
   "genre": "dialogue",
-  "title_en": "Lost Phone",
-  "title_ru": "Потерянный телефон",
-  "description_ru": "Гарри не может найти телефон и просит помощи у сотрудника бюро находок.",
-  "text": "Harry: Excuse me, I cannot find my phone.\nClerk: Don't worry. What colour is it?\nHarry: It is black, with a green case.\nClerk: Is there a photo on the screen?\nHarry: Yes, there is a photo of my dog.\nClerk: What is his name?\nHarry: His name is Rocky. He is very small and very fluffy.\nClerk: Wait here, please. I check the box.\nHarry: Thank you. I am really worried.\nClerk: Look! Is this your phone? Rocky is on the screen!\nHarry: Yes! That is my phone. Thank you so much!",
+  "title_en": "The First Day at the Café",
+  "title_ru": "Первый день в кафе",
+  "description_ru": "Новая сотрудница учится готовить кофе, ошибается и узнаёт главный секрет хорошей работы.",
+  "text": "Mr. Carlos: Good morning, Nina. Welcome to the Blue Cup Café. Please come in.\nNina: Good morning, Mr. Carlos. Thank you for the job. I am very happy to be here.\nMr. Carlos: We open at seven, so you have thirty minutes to learn. First, here is your apron. It is blue, like our cups.\nNina: It is nice. Thank you. What do I do first?\nMr. Carlos: First, wash your hands. Then, put the clean cups on the shelf. Always put the handles on the right.\nNina: The handles on the right. Okay, I understand.\n\nMr. Carlos: Now this is the coffee machine. It is old, but it is my best friend. Be careful. The steam is very hot.\nNina: How do I make a cappuccino?\nMr. Carlos: Watch me. First, you put the coffee in here. Then you press this button and wait. While you wait, you heat the milk with this little pipe.\nNina: That is a lot of steps. I think I forget something.\nMr. Carlos: Everybody forgets in the first week. Don't worry. Here, you try now. Make one for yourself.\nNina: Oh no! There is too much milk. It goes everywhere!\n\nMr. Carlos: Ha ha! That is okay. Take a cloth and clean the table. Then try again. Slowly this time.\nNina: Now the milk looks better. Is this correct?\nMr. Carlos: Yes, very good! Taste it. What do you think?\nNina: It is a little bitter, but it is warm and nice. I want to learn more.\nMr. Carlos: Good. It is seven o'clock. I open the door now. Our first customer is always Mr. Pine. He wants a black coffee and a small cake.\nNina: Black coffee and a small cake. I can do that.\n\nNina: Good morning, sir. What would you like today?\nMr. Pine: A black coffee, please, and a piece of apple cake. Are you new here?\nNina: Yes, it is my first day. I am a little nervous.\nMr. Pine: Don't be nervous. This is the best café in the city. Everybody is friendly, and Carlos is a good man.\nNina: Thank you. Here is your coffee. Be careful, it is hot.\nMr. Pine: It looks perfect. See you tomorrow, young lady.\n\nNina: Mr. Carlos, it is eleven o'clock, and the café is full. There are twenty people and only two of us. I am running everywhere!\nMr. Carlos: This is our busy time. Take the orders from the window table. I make the drinks.\nNina: Two teas, one orange juice and three chocolate cakes. Anything else?\nMr. Carlos: Yes, the big group at the back wants sandwiches. Ask them what they want.\nNina: Excuse me, what would you like to eat? We have cheese, ham and tomato sandwiches.\nCustomer: Five cheese sandwiches and a big bottle of water, please.\n\nMr. Carlos: Nina, one thing about our customers. Always look at their faces and say hello with a smile.\nNina: Even when they are angry?\nMr. Carlos: Yes, especially then. A smile is free, and it fixes many problems.\nNina: I try. My face is a little tired, but I try.\nMr. Carlos: Good. Now it is lunchtime. Eat a sandwich in the kitchen, and rest for ten minutes.\nNina: Thank you. I am so hungry. May I have the cheese one?\n\nNina: Mr. Carlos, I make a mistake. I give the ham sandwich to a woman and she is a vegetarian!\nMr. Carlos: Don't panic. Take it back and say sorry. Then make a new one with cheese.\nNina: I am so sorry, madam. I bring you a new sandwich right now. It is free.\nCustomer: Thank you. That is very kind. Mistakes happen. You are doing well.\nNina: Thank you, madam. I feel terrible, but I am learning.\nMr. Carlos: You see? You say sorry, you smile, and the customer is happy. That is the secret of this job.\n\nMr. Carlos: It is five o'clock. We close now. How do you feel after your first day?\nNina: I am very tired, and my feet hurt a lot, like after a long walk in the mountains. But I feel good. I like the work and I like the people.\nMr. Carlos: You are a fast learner. Tomorrow you can make the coffee for Mr. Pine yourself.\nNina: Really? Without your help?\nMr. Carlos: Yes. And one more thing. Here is a small present for your first day.\nNina: A blue cup with my name on it! Oh, Mr. Carlos, thank you so much. I love it.\nMr. Carlos: Every worker here has one. Put it on the shelf with the handle on the right. See you tomorrow at seven.",
+  "word_count": 710,
   "vocabulary": [
     {
-      "word": "excuse",
-      "ipa_us": "ɪkˈskjuːz",
-      "ipa_uk": "ɪkˈskjuːz",
-      "translation_ru": "извинять"
+      "word": "apron",
+      "ipa_us": "ˈeɪprən",
+      "ipa_uk": "ˈeɪprən",
+      "translation_ru": "фартук"
     },
     {
-      "word": "worry",
-      "ipa_us": "ˈwɝːi",
-      "ipa_uk": "ˈwʌri",
-      "translation_ru": "волноваться"
+      "word": "cappuccino",
+      "ipa_us": "ˌkæpəˈtʃiːnoʊ",
+      "ipa_uk": "ˌkæpʊˈtʃiːnəʊ",
+      "translation_ru": "капучино"
     },
     {
-      "word": "colour",
-      "ipa_us": "ˈkʌlɚ",
-      "ipa_uk": "ˈkʌlə",
-      "translation_ru": "цвет"
+      "word": "customer",
+      "ipa_us": "ˈkʌstəmər",
+      "ipa_uk": "ˈkʌstəmə",
+      "translation_ru": "клиент"
     },
     {
-      "word": "screen",
-      "ipa_us": "skriːn",
-      "ipa_uk": "skriːn",
-      "translation_ru": "экран"
+      "word": "vegetarian",
+      "ipa_us": "ˌvɛdʒəˈtɛriən",
+      "ipa_uk": "ˌvedʒəˈteəriən",
+      "translation_ru": "вегетарианец"
     },
     {
-      "word": "photo",
-      "ipa_us": "ˈfoʊtoʊ",
-      "ipa_uk": "ˈfəʊtəʊ",
-      "translation_ru": "фото"
+      "word": "mistake",
+      "ipa_us": "mɪˈsteɪk",
+      "ipa_uk": "mɪˈsteɪk",
+      "translation_ru": "ошибка"
     },
     {
-      "word": "fluffy",
-      "ipa_us": "ˈflʌfi",
-      "ipa_uk": "ˈflʌfi",
-      "translation_ru": "пушистый"
+      "word": "shelf",
+      "ipa_us": "ʃɛlf",
+      "ipa_uk": "ʃelf",
+      "translation_ru": "полка"
     },
     {
-      "word": "really",
-      "ipa_us": "ˈriːli",
-      "ipa_uk": "ˈrɪəli",
-      "translation_ru": "действительно"
+      "word": "steam",
+      "ipa_us": "stiːm",
+      "ipa_uk": "stiːm",
+      "translation_ru": "пар"
     },
     {
-      "word": "worried",
-      "ipa_us": "ˈwɝːid",
-      "ipa_uk": "ˈwʌrid",
-      "translation_ru": "обеспокоенный"
+      "word": "secret",
+      "ipa_us": "ˈsiːkrɪt",
+      "ipa_uk": "ˈsiːkrɪt",
+      "translation_ru": "секрет"
+    },
+    {
+      "word": "bitter",
+      "ipa_us": "ˈbɪtər",
+      "ipa_uk": "ˈbɪtə",
+      "translation_ru": "горький"
+    },
+    {
+      "word": "cloth",
+      "ipa_us": "klɔːθ",
+      "ipa_uk": "klɒθ",
+      "translation_ru": "тряпка"
+    },
+    {
+      "word": "machine",
+      "ipa_us": "məˈʃiːn",
+      "ipa_uk": "məˈʃiːn",
+      "translation_ru": "аппарат, машина"
+    },
+    {
+      "word": "handles",
+      "ipa_us": "ˈhændlz",
+      "ipa_uk": "ˈhændlz",
+      "translation_ru": "ручки"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "h",
+      "sound": "aspiration",
       "examples": [
-        "Harry",
-        "his",
-        "here",
-        "He"
+        "cup",
+        "coffee",
+        "take",
+        "table"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+      "tip_ru": "Звуки p, t, k в начале слога произносите с лёгким придыханием, как маленький выдох."
     },
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "Rocky",
-        "green",
-        "really",
-        "worried"
+        "thank",
+        "thirty",
+        "three",
+        "think"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
-      "sound": "w",
+      "sound": "dark-l",
       "examples": [
-        "what",
-        "wait",
-        "worry",
-        "with"
+        "milk",
+        "well",
+        "little",
+        "apple"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Задняя часть языка опущена, кончик языка касается дёсен; не смягчайте «l» как русское «ль»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "milk",
+        "this",
+        "it",
+        "is"
+      ],
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
     }
   ],
   "questions": [
     {
-      "question": "What does Harry look for?",
-      "answer": "His phone.",
+      "question": "What is the name of the café?",
+      "answer": "The Blue Cup Café.",
       "accepted_keywords": [
-        "phone"
+        "blue",
+        "cup"
       ]
     },
     {
-      "question": "What colour is the case?",
-      "answer": "Green.",
+      "question": "What does Nina do wrong with the first cappuccino?",
+      "answer": "She puts in too much milk.",
       "accepted_keywords": [
-        "green"
+        "milk",
+        "too much"
       ]
     },
     {
-      "question": "Who is on the screen?",
-      "answer": "His dog, Rocky.",
+      "question": "What does Mr. Pine order?",
+      "answer": "A black coffee and a piece of apple cake.",
       "accepted_keywords": [
-        "dog",
-        "rocky"
+        "coffee",
+        "cake",
+        "black"
       ]
     },
     {
-      "question": "Does Harry find his phone?",
-      "answer": "Yes.",
+      "question": "What present does Nina get?",
+      "answer": "A blue cup with her name on it.",
       "accepted_keywords": [
-        "yes"
+        "cup",
+        "blue"
       ]
     }
-  ],
-  "word_count": 82
+  ]
 }

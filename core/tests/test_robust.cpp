@@ -286,6 +286,42 @@ TEST_SUITE("robust") {
         CHECK(sec < 30.0);
     }
 
+    TEST_CASE("live: 1300-word reference with repeated phrases across paragraphs, long hypothesis, cheap feeds") {
+        // 13 paragraphs that all contain the same sentence; the reader goes through them in order.
+        std::string ref;
+        for (int p = 0; p < 13; ++p) {
+            ref += "Paragraph " + std::string(1, char('a' + p)) + " begins here. ";
+            for (int k = 0; k < 8; ++k) ref += "the quick brown fox jumps over the lazy dog near the river bank. ";
+            ref += "Unique" + std::string(1, char('a' + p)) + " ending words follow now.\n\n";
+        }
+        LiveTracker t(ref);
+        const auto toks = tokenize(ref);
+        REQUIRE(toks.size() > 1200);
+        std::vector<std::string> hyp;
+        double worst_ms = 0, total_ms = 0;
+        int feeds = 0;
+        for (size_t i = 0; i < toks.size(); ++i) {
+            hyp.push_back(toks[i].norm);
+            if (i % 3 == 2 || i + 1 == toks.size()) {
+                const auto t0 = std::chrono::steady_clock::now();
+                t.update(hyp, false);
+                const std::string j = live_state_json(t, "x");
+                const double ms = std::chrono::duration<double, std::milli>(std::chrono::steady_clock::now() - t0).count();
+                worst_ms = std::max(worst_ms, ms);
+                total_ms += ms;
+                ++feeds;
+                // cursor never lags/jumps: it must be within 4 words of the true position
+                const int truth = int(i) + 1;
+                CHECK(std::abs(t.state().cursor - truth) <= 4);
+                if (j.empty()) FAIL("empty json");
+            }
+        }
+        t.update(hyp, true);
+        CHECK(t.state().done);
+        MESSAGE("live 1300 words: avg " << total_ms / feeds << " ms, worst " << worst_ms << " ms per feed");
+        CHECK(total_ms / feeds < 20.0);  // ~0.6 ms in release; generous for sanitizer builds
+    }
+
     TEST_CASE("live: JSON offsets match utf16_offset for emoji / Cyrillic references") {
         const std::string ref = "\xF0\x9F\x98\x80 hello \xD0\xBF\xD1\x80\xD0\xB8\xD0\xB2\xD0\xB5\xD1\x82 world \xF0\x9F\x98\x80\xF0\x9F\x98\x80 end";
         LiveTracker t(ref);

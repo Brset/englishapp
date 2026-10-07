@@ -2,109 +2,168 @@
   "id": "b1-dialogue-03",
   "level": "B1",
   "genre": "dialogue",
-  "title_en": "Planning a Weekend",
-  "title_ru": "Планируем выходные",
-  "description_ru": "Трое друзей обсуждают, как провести выходные, если погода будет плохой.",
-  "text": "Tom: So, what are we doing this weekend? Have you checked the weather?\nNina: I have, and it isn't good. It will rain all day on Saturday.\nBen: That's a shame. I wanted to go to the lake.\nNina: We could go on Sunday instead. The forecast says it will be sunny then.\nTom: Fine, but what shall we do on Saturday? If we stay at home, we will just watch television.\nBen: Why don't we visit the new science museum? I have heard that it has a huge space exhibition.\nNina: Good idea! I have never been there, and my brother says that the planetarium is amazing.\nTom: How much are the tickets?\nBen: Twelve pounds for adults, but students pay half price. If we book online, we can skip the queue.\nTom: Great, thanks. Then let's meet at the bus stop at ten o'clock.\nNina: I think ten is too early for me. I never wake up before nine on Saturdays. How about eleven?\nBen: Eleven is fine. We can have lunch at the café there.\nTom: And on Sunday, shall we take sandwiches to the lake?\nNina: Yes, and I will bring some chocolate. If it's very sunny, we might even swim.\nBen: The water will be freezing! But I'm in.\nTom: Perfect. See you on Saturday!",
-  "word_count": 204,
+  "title_en": "Restaurant Complaint",
+  "title_ru": "Жалоба в ресторане",
+  "description_ru": "Клиентка спокойно жалуется на долгое ожидание и неправильное блюдо, а менеджер исправляет ситуацию.",
+  "text": "Waiter: Good evening, madam. Is everything all right with your meal?\nClara: Actually, no, it isn't. I'm sorry to bother you, but I've been waiting for fifty minutes, and my main course has only just arrived. And it's the wrong dish.\nWaiter: I'm very sorry to hear that. What did you order?\nClara: I ordered the grilled salmon with vegetables. This is chicken with rice. Besides, it's cold.\nWaiter: Oh dear. Let me check the order. One moment, please. I'm afraid the kitchen has made a mistake. Please accept my apologies.\nClara: Thank you. But the problem is that my husband finished his meal half an hour ago, and I've been sitting here with nothing in front of me. If I had known it would take so long, I would have gone to another restaurant.\nWaiter: I understand completely. Would you like me to ask the manager to speak to you?\nClara: Yes, please. I think that would be best.\nManager: Good evening. My name is Mr Rossi, and I'm the manager. I've just heard about your problem, and I'd like to apologise personally. Could you tell me what happened?\nClara: Of course. We arrived at seven, and we were seated immediately, which was nice. The waiter took our order at half past seven. My husband's soup came quickly, and his pasta was delicious. But mine never came, and when I asked, someone said it was \"coming soon\" twice. Now, nearly an hour later, I get the wrong dish.\nManager: I see. That is not the standard we expect. Unfortunately, one of our cooks is ill tonight, and the kitchen has been very busy. That's not an excuse, but it is the reason.\nClara: I appreciate your honesty. However, I do think someone should have told us about the delay. If the waiter had warned us, we could have ordered something quick.\nManager: You're absolutely right. We should have communicated better. I'll talk to the team tomorrow. In the meantime, what can I do to make this right?\nClara: Well, I'm not very hungry anymore. And I don't want to wait another twenty minutes.\nManager: Then I suggest that we remove the main course from your bill completely. And if you would like, I can offer you a dessert and coffee while you decide.\nClara: That's generous, thank you. What desserts do you have?\nManager: Tonight we have a lemon tart, a chocolate cake, and a very good homemade ice cream. The ice cream is made with real vanilla.\nClara: The lemon tart sounds nice. And my husband would probably like a coffee.\nClara: One more thing. Could you tell me whether the salmon is fresh? I'd like to know before I order it again next time.\nManager: Yes, it arrives every morning from a fishing village on the coast. Normally it is our most popular dish, and the cook is proud of it.\nManager: Certainly. I'll bring them myself. Is there anything else?\nClara: Actually, yes. When we came in, the table next to ours was dirty, and a waiter cleaned it with a cloth that looked very old. I don't want to be too critical, but it didn't feel very hygienic.\nManager: I'm grateful that you told me. Hygiene is extremely important to us. I'll speak to the staff about that as well.\nClara: Thank you. To be fair, the waiter who served us was polite, and the soup was excellent. I'd hate to give a bad review to a place with such good food.\nManager: That's very kind. We would like you to come back. If you visit again this month, I would be happy to give you a free starter.\nClara: That's a nice gesture. I might take you up on it. My husband has already said that the pasta was the best he has eaten this year.\nWaiter: Excuse me, madam. Here is your lemon tart, and the coffee for your husband. I'm very sorry about the earlier problem.\nClara: Thank you. It looks wonderful. And please don't worry. Everyone has a bad evening sometimes.\nWaiter: You're very understanding. If you need anything else, please call me.\nWaiter: Madam, I forgot to mention that the manager has also added a small bottle of wine to your table, with his compliments.\nClara: Oh, how kind of him! Please thank him. We haven't had a glass of wine tonight, and it will go nicely with the dessert.\nHusband: Well, I think you handled that very diplomatically. I would have just left.\nClara: If I had left, they would never have learned anything. A calm complaint is usually more useful than an angry one.\nHusband: That's true. Did you notice that the manager wrote everything down in his notebook?\nClara: I did. I think he really meant it. Now, try a piece of this tart. It's perfect.\nHusband: Mmm. It's very good. Perhaps the evening wasn't a complete disaster, after all.\nClara: Perhaps not. But next time, we're ordering the pasta.",
+  "word_count": 796,
   "vocabulary": [
     {
-      "word": "forecast",
-      "ipa_us": "ˈfɔːrkæst",
-      "ipa_uk": "ˈfɔːkɑːst",
-      "translation_ru": "прогноз"
+      "word": "complaint",
+      "ipa_us": "kəmˈpleɪnt",
+      "ipa_uk": "kəmˈpleɪnt",
+      "translation_ru": "жалоба"
     },
     {
-      "word": "shame",
-      "ipa_us": "ʃeɪm",
-      "ipa_uk": "ʃeɪm",
-      "translation_ru": "жаль"
+      "word": "apologies",
+      "ipa_us": "əˈpɑːlədʒiz",
+      "ipa_uk": "əˈpɒlədʒiz",
+      "translation_ru": "извинения"
     },
     {
-      "word": "exhibition",
-      "ipa_us": "ˌeksɪˈbɪʃən",
-      "ipa_uk": "ˌeksɪˈbɪʃən",
-      "translation_ru": "выставка"
+      "word": "manager",
+      "ipa_us": "ˈmænɪdʒər",
+      "ipa_uk": "ˈmænɪdʒə",
+      "translation_ru": "менеджер"
     },
     {
-      "word": "planetarium",
-      "ipa_us": "ˌplænɪˈteriəm",
-      "ipa_uk": "ˌplænɪˈteəriəm",
-      "translation_ru": "планетарий"
+      "word": "personally",
+      "ipa_us": "ˈpɜːrsənəli",
+      "ipa_uk": "ˈpɜːsənəli",
+      "translation_ru": "лично"
     },
     {
-      "word": "queue",
-      "ipa_us": "kjuː",
-      "ipa_uk": "kjuː",
-      "translation_ru": "очередь"
+      "word": "hygienic",
+      "ipa_us": "haɪˈdʒiːnɪk",
+      "ipa_uk": "haɪˈdʒiːnɪk",
+      "translation_ru": "гигиеничный"
     },
     {
-      "word": "skip",
-      "ipa_us": "skɪp",
-      "ipa_uk": "skɪp",
-      "translation_ru": "пропустить"
+      "word": "gesture",
+      "ipa_us": "ˈdʒɛstʃər",
+      "ipa_uk": "ˈdʒestʃə",
+      "translation_ru": "жест"
     },
     {
-      "word": "freezing",
-      "ipa_us": "ˈfriːzɪŋ",
-      "ipa_uk": "ˈfriːzɪŋ",
-      "translation_ru": "ледяной"
+      "word": "diplomatically",
+      "ipa_us": "ˌdɪpləˈmætɪkli",
+      "ipa_uk": "ˌdɪpləˈmætɪkli",
+      "translation_ru": "дипломатично"
+    },
+    {
+      "word": "communicated",
+      "ipa_us": "kəˈmjuːnɪkeɪtɪd",
+      "ipa_uk": "kəˈmjuːnɪkeɪtɪd",
+      "translation_ru": "общались, сообщали"
+    },
+    {
+      "word": "delay",
+      "ipa_us": "dɪˈleɪ",
+      "ipa_uk": "dɪˈleɪ",
+      "translation_ru": "задержка"
+    },
+    {
+      "word": "generous",
+      "ipa_us": "ˈdʒɛnərəs",
+      "ipa_uk": "ˈdʒenərəs",
+      "translation_ru": "щедрый"
+    },
+    {
+      "word": "understanding",
+      "ipa_us": "ˌʌndərˈstændɪŋ",
+      "ipa_uk": "ˌʌndəˈstændɪŋ",
+      "translation_ru": "понимающий"
+    },
+    {
+      "word": "salmon",
+      "ipa_us": "ˈsæmən",
+      "ipa_uk": "ˈsæmən",
+      "translation_ru": "лосось"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "æ",
       "examples": [
-        "weekend",
-        "weather",
-        "we",
-        "wake"
+        "salmon",
+        "manager",
+        "happened",
+        "actually"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Широко откройте рот, язык низко; звук между «а» и «э», не заменяйте на «э»."
     },
     {
-      "sound": "θ",
+      "sound": "eɪ",
       "examples": [
-        "thanks",
-        "think"
+        "waiter",
+        "delay",
+        "table",
+        "made"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не обрывайте звук."
     },
     {
-      "sound": "ð",
+      "sound": "ŋ",
       "examples": [
-        "that",
-        "then",
-        "the",
-        "brother"
+        "waiting",
+        "nothing",
+        "evening",
+        "something"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но с голосом: горло вибрирует. Не говорите «з» или «д»."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "diplomatically",
+        "hygienic",
+        "apologies",
+        "understanding"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What will the weather be like on Saturday?",
-      "answer": "It will rain all day.",
+      "question": "What was wrong with Clara's meal?",
+      "answer": "It came after fifty minutes, it was the wrong dish and it was cold.",
       "accepted_keywords": [
-        "rain",
-        "rainy"
+        "wrong",
+        "cold",
+        "late",
+        "wait",
+        "chicken"
       ]
     },
     {
-      "question": "Where do they decide to go on Saturday?",
-      "answer": "The new science museum.",
+      "question": "What was the reason for the delay?",
+      "answer": "One of the cooks was ill and the kitchen was very busy.",
       "accepted_keywords": [
-        "museum",
-        "science"
+        "cook",
+        "ill",
+        "busy",
+        "kitchen"
       ]
     },
     {
-      "question": "What will they do on Sunday?",
-      "answer": "Go to the lake and have a picnic.",
+      "question": "How did the manager compensate Clara?",
+      "answer": "He removed the main course from the bill and offered dessert and coffee.",
       "accepted_keywords": [
-        "lake",
-        "picnic",
-        "sandwiches"
+        "bill",
+        "dessert",
+        "coffee",
+        "free",
+        "remove"
+      ]
+    },
+    {
+      "question": "Why did Clara stay calm?",
+      "answer": "She believes a calm complaint is more useful than an angry one.",
+      "accepted_keywords": [
+        "calm",
+        "useful",
+        "angry",
+        "complaint"
       ]
     }
   ]

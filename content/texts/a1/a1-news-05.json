@@ -2,130 +2,158 @@
   "id": "a1-news-05",
   "level": "A1",
   "genre": "news",
-  "title_en": "Snow in September",
-  "title_ru": "Снег в сентябре",
-  "description_ru": "Необычная погодная новость в вымышленной горной деревне.",
-  "text": "It is only September, but there is snow in the village of Pine Hill! This morning people wake up and see a white world.\n\n\"It is very strange,\" says Mr Evans, who sells bread in the village shop. \"Yesterday I wore a T-shirt. Today I need a big coat!\"\n\nThe children are very happy. They do not go to school today because the road is closed. They build snowmen, throw snowballs and slide down the hill on plastic bags.\n\nBy the afternoon, the sun comes out and the snow starts to melt. Meteorologists say that it is a rare event. Tomorrow the weather is warm again.",
-  "word_count": 107,
+  "title_en": "Biscuit the Dog Rides the Bus",
+  "title_ru": "Пёс Бисквит едет на автобусе",
+  "description_ru": "Вымышленная новость: потерявшийся пёс три дня ездит на городском автобусе, пока водитель не находит его хозяев.",
+  "text": "A small brown dog called Biscuit is back home today after a very strange adventure. Three days ago, he disappears from his garden in the town of Brightwater. Today he is sleeping on his favourite blanket, and his family cannot stop smiling. The whole town is talking about this clever dog, because he finds his way home on a city bus, all alone.\n\nBiscuit belongs to the Clark family. Mr and Mrs Clark have two children, Oliver, who is nine, and Daisy, who is five. On Tuesday afternoon, Oliver is playing in the garden, and he leaves the gate open for one minute. When he comes back, the dog is gone. \"I look everywhere,\" says Oliver with tears in his eyes. \"I call his name and I run down the street. But I cannot see him.\"\n\nThe family is very worried. They put up posters on every lamp post in the town. Daisy draws a picture of Biscuit with a big red heart, and they put it on the door of the corner shop. Neighbours come to help, and about thirty people look for him in parks, gardens and even the old railway station. They walk until it is dark. Mrs Clark does not sleep that night. \"I think about Biscuit in the cold,\" she says. \"He is only a small dog.\"\n\nOn Wednesday morning, something surprising happens. A bus driver called Andy Stewart is driving his usual route, the number twelve. At the stop near the river, a small brown dog climbs on his bus. \"I think he belongs to a passenger,\" says Andy. \"He walks to the back and sits on a seat, like a real person.\" Nobody says anything. The dog looks out of the window and stays quiet for twenty minutes. At the last stop, he gets off, and Andy forgets about him.\n\nBut on Thursday, the dog is there again. He gets on the same bus at the same stop, and he sits on the same seat. This time Andy looks at him more carefully. He sees a blue collar, but there is no name on it. \"I start to worry,\" he says. \"A dog does not take the bus alone. Maybe he is lost.\" He stops his bus at the end of the line and shows the dog to the passengers. A woman says, \"I see his picture on a poster!\"\n\nShe calls the number on the poster, and soon the Clarks are running to the bus stop. When Biscuit sees Daisy, he jumps off the seat and into her arms. He barks and licks her face, and the whole family hugs him. The passengers on the bus start to clap. \"I never see anything so lovely,\" says an old man near the door. Mr Clark thanks the driver many times and offers him a box of chocolates. Andy says that he wants only a photo.\n\nWhat exactly does Biscuit do for three days? Nobody knows, but the Clarks have an idea. Their house is near the river, close to the bus stop. Maybe the dog follows an interesting smell, goes under the fence and climbs onto the bus. He is a smart dog, and he likes riding in the car. The doctor for animals says that Biscuit is thin and a little tired, but he is perfectly healthy. After a good dinner and a long sleep, he is almost the same as before.\n\nNow Biscuit is a small celebrity in Brightwater. People stop the family on the street and say, \"Is this the bus dog?\" The bus company wants to give him a free ticket for life. A local newspaper puts his picture on the front page with the title \"The Dog Who Rides the Bus.\" Daisy says that she is very proud of him, and that he is the cleverest dog in the world.\n\nThe Clarks have learned a lesson. The gate is now closed with a lock, and Biscuit wears a new collar with his name and the phone number of the family. Oliver promises that he never again leaves the gate open. \"I think it is a good idea to get a tiny map for him too,\" he jokes. And Andy Stewart, the driver? He says that he looks at every dog differently now. \"Next time,\" he laughs, \"I ask for a ticket.\"",
+  "word_count": 723,
   "vocabulary": [
     {
-      "word": "snow",
-      "ipa_us": "snoʊ",
-      "ipa_uk": "snəʊ",
-      "translation_ru": "снег"
+      "word": "adventure",
+      "ipa_us": "ədˈvɛntʃər",
+      "ipa_uk": "ədˈventʃə",
+      "translation_ru": "приключение"
     },
     {
-      "word": "strange",
-      "ipa_us": "streɪndʒ",
-      "ipa_uk": "streɪndʒ",
-      "translation_ru": "странный"
+      "word": "collar",
+      "ipa_us": "ˈkɑlər",
+      "ipa_uk": "ˈkɒlə",
+      "translation_ru": "ошейник"
     },
     {
-      "word": "bread",
-      "ipa_us": "brɛd",
-      "ipa_uk": "bred",
-      "translation_ru": "хлеб"
+      "word": "poster",
+      "ipa_us": "ˈpoʊstər",
+      "ipa_uk": "ˈpəʊstə",
+      "translation_ru": "плакат, объявление"
     },
     {
-      "word": "closed",
-      "ipa_us": "kloʊzd",
-      "ipa_uk": "kləʊzd",
-      "translation_ru": "закрыта"
+      "word": "passengers",
+      "ipa_us": "ˈpæsɪndʒərz",
+      "ipa_uk": "ˈpæsɪndʒəz",
+      "translation_ru": "пассажиры"
     },
     {
-      "word": "build",
-      "ipa_us": "bɪld",
-      "ipa_uk": "bɪld",
-      "translation_ru": "строить"
+      "word": "driver",
+      "ipa_us": "ˈdraɪvər",
+      "ipa_uk": "ˈdraɪvə",
+      "translation_ru": "водитель"
     },
     {
-      "word": "slide",
-      "ipa_us": "slaɪd",
-      "ipa_uk": "slaɪd",
-      "translation_ru": "скатываться"
+      "word": "route",
+      "ipa_us": "rut",
+      "ipa_uk": "ruːt",
+      "translation_ru": "маршрут"
     },
     {
-      "word": "melt",
-      "ipa_us": "mɛlt",
-      "ipa_uk": "melt",
-      "translation_ru": "таять"
+      "word": "worried",
+      "ipa_us": "ˈwɜrid",
+      "ipa_uk": "ˈwʌrid",
+      "translation_ru": "встревоженный"
     },
     {
-      "word": "rare",
-      "ipa_us": "rɛr",
-      "ipa_uk": "reə",
-      "translation_ru": "редкий"
+      "word": "barks",
+      "ipa_us": "bɑrks",
+      "ipa_uk": "bɑːks",
+      "translation_ru": "лает"
+    },
+    {
+      "word": "healthy",
+      "ipa_us": "ˈhɛlθi",
+      "ipa_uk": "ˈhelθi",
+      "translation_ru": "здоровый"
+    },
+    {
+      "word": "gate",
+      "ipa_us": "ɡeɪt",
+      "ipa_uk": "ɡeɪt",
+      "translation_ru": "калитка, ворота"
+    },
+    {
+      "word": "celebrity",
+      "ipa_us": "səˈlɛbrəti",
+      "ipa_uk": "səˈlebrɪti",
+      "translation_ru": "знаменитость"
+    },
+    {
+      "word": "lock",
+      "ipa_us": "lɑk",
+      "ipa_uk": "lɒk",
+      "translation_ru": "замок"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "wake",
-        "world",
-        "white"
+        "worried",
+        "when",
+        "window"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "əʊ",
+      "sound": "æ",
       "examples": [
-        "snow",
-        "snowmen",
-        "road"
+        "passengers",
+        "back",
+        "family"
       ],
-      "tip_ru": "Скользите от «ə» к «у», губы округляются в конце; не говорите чистое «о»."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
     },
     {
-      "sound": "r",
+      "sound": "ɑː",
       "examples": [
-        "strange",
-        "road",
-        "rare"
+        "barks",
+        "dark",
+        "garden"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Долгий глубокий «а», рот широко открыт."
     },
     {
-      "sound": "final-voiced",
+      "sound": "eɪ",
       "examples": [
-        "closed",
-        "bread",
-        "road"
+        "gate",
+        "day",
+        "name"
       ],
-      "tip_ru": "В конце слова не оглушайте согласный: bad звучит с «д», а не «т»; тяните гласный перед ним."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
     }
   ],
   "questions": [
     {
-      "question": "What month is it?",
-      "answer": "September.",
+      "question": "How does Biscuit get lost?",
+      "answer": "Oliver leaves the garden gate open for one minute.",
       "accepted_keywords": [
-        "september"
+        "gate",
+        "open",
+        "oliver"
       ]
     },
     {
-      "question": "Where is the snow?",
-      "answer": "In the village of Pine Hill.",
+      "question": "Which bus does Biscuit ride?",
+      "answer": "The number twelve bus.",
       "accepted_keywords": [
-        "pine",
-        "hill",
-        "village"
+        "twelve",
+        "12"
       ]
     },
     {
-      "question": "Why do the children not go to school?",
-      "answer": "The road is closed.",
+      "question": "Who finds out that the dog is lost?",
+      "answer": "The bus driver Andy Stewart and a woman on the bus who saw the poster.",
       "accepted_keywords": [
-        "road",
-        "closed"
+        "andy",
+        "driver",
+        "woman",
+        "poster"
       ]
     },
     {
-      "question": "What do the children build?",
-      "answer": "Snowmen.",
+      "question": "What does the family do after Biscuit comes home?",
+      "answer": "They close the gate with a lock and give him a new collar with his name and phone number.",
       "accepted_keywords": [
-        "snowmen",
-        "snowman"
+        "lock",
+        "collar",
+        "gate"
       ]
     }
   ]

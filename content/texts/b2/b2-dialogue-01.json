@@ -2,141 +2,164 @@
   "id": "b2-dialogue-01",
   "level": "B2",
   "genre": "dialogue",
-  "title_en": "A Faulty Laptop",
-  "title_ru": "Неисправный ноутбук",
-  "description_ru": "Покупательница возвращает в магазин сломанный ноутбук и обсуждает с продавцом варианты решения.",
-  "text": "Elena: Good afternoon. I bought this laptop here three weeks ago, and I'm afraid it has stopped working properly.\n\nMark: I'm sorry to hear that. Could you tell me what exactly is wrong with it?\n\nElena: Well, the screen keeps flickering, and yesterday it switched itself off in the middle of an important presentation. I was extremely embarrassed.\n\nMark: I can imagine. Have you tried updating the software?\n\nElena: Of course. The technician on your helpline said that the problem would be fixed after the update, but it only got worse.\n\nMark: Hmm. Do you have the receipt with you?\n\nElena: Yes, here it is. I was also told that there is a two-year guarantee.\n\nMark: That's correct. Let me check the system. It says here that the laptop was delivered on the fourth of September, so you are well within the warranty period.\n\nElena: Good. So what happens now? I'd like a refund, to be honest. I've lost my confidence in this model.\n\nMark: I understand, but I should explain that refunds are normally only given within fourteen days. After that, we can either repair the device or replace it with a new one.\n\nElena: Fourteen days? Nobody mentioned that when I bought it. The assistant simply said that I could bring it back whenever I wanted.\n\nMark: I apologise for the misunderstanding. Let me speak to my manager. Would you mind waiting for a few minutes?\n\nElena: Not at all. But I'm not leaving without a solution.\n\nMark: Thank you for your patience. Right, my manager has agreed to make an exception. We can offer you a full refund, or a better model for the same price.\n\nElena: A better model? That sounds more reasonable. Is it as light as this one?\n\nMark: It's even lighter, and the battery lasts twice as long. Shall I bring one so that you can try it?\n\nElena: Yes, please. If it works as well as you say, I'll take it.\n\nMark: Wonderful. Give me a moment, and I'll be right back.",
-  "word_count": 323,
+  "title_en": "The Interview at Greenfield Trust",
+  "title_ru": "Собеседование в фонде «Гринфилд»",
+  "description_ru": "Диалог на собеседовании: кандидатка рассказывает о своём опыте, ошибках и о том, как справляется с трудными ситуациями.",
+  "text": "Helen: Good morning, Ms Okoro, and thank you for coming in. I am Helen Bryce, the director of Greenfield Trust, and this is my colleague Samir, who manages our volunteer programme.\nNadia: Good morning. Please call me Nadia. It is a pleasure to meet you both.\nSamir: We have read your application with great interest. It says here that you have spent the last six years working for a city council. What made you decide to leave a secure job?\nNadia: That is a fair question. To be honest, I had been feeling for some time that I was sitting behind a desk while the real work was being done by other people. I was told by my manager last spring that I was too practical to be a bureaucrat, and I decided to take that as a compliment.\n\nHelen: Let us talk about a project you are proud of. Could you describe one in detail?\nNadia: Certainly. Two years ago, I was asked to organise the cleaning of a river that runs through the eastern part of the city. The budget was tiny, so I contacted local schools, and about four hundred children took part. Altogether, nearly three tonnes of rubbish were collected in a single weekend.\nSamir: That is impressive. Did everything go according to plan?\nNadia: Not at all. On the first morning, the delivery of gloves was delayed, and it started to pour with rain. I remember thinking that the whole event was going to fall flat. Then a teacher suggested we should use the waiting time to make tea for the parents, and that completely changed the mood.\n\nHelen: How did you handle the pressure?\nNadia: I try to remember that most problems look worse in the first ten minutes than they really are. A former colleague once told me that panic is only a way of paying interest on a loan you have not borrowed. Since then I always take a short walk before I react.\nSamir: That is a useful habit. And what about working in a team? Our staff are often described as strong-willed, and sometimes they disagree quite loudly.\nNadia: I am used to that. At the council, I was often the person who was asked to calm things down. I believe that people usually argue because they feel they are not being heard, so I try to listen first and talk second.\n\nHelen: Let me ask you about a weakness. Everybody has one, so please do not tell me that you work too hard.\nNadia: Then I will be honest. I find it difficult to say no. Last year I took on three projects at once because I did not want to disappoint anyone, and one of them was completed late. My director said that she was not angry, but that it had cost the team some trust.\nSamir: What did you learn from that experience?\nNadia: I learned to ask what can be postponed before I agree to anything new. Now I keep a list on my wall, and when it is full, I say that the next thing has to wait. It sounds simple, but it has saved me a great deal of stress.\n\nHelen: Our work involves a lot of fundraising. Have you ever asked strangers for money?\nNadia: Only once, and it was not a success. I stood outside a supermarket for three hours with a bucket, and a man told me that he would give me five pounds if I could make him laugh. I told him a joke about a goldfish. He gave me two pounds and said that he had been laughing at me, not with me.\nSamir: Well, two pounds is better than nothing.\nNadia: That is exactly what I said. In the end, I realised that people give more when they are told a true story, rather than when they are shown a statistic. After that, my bucket was never empty.\n\nHelen: Let me explain something about the position. The coordinator will be responsible for sixty volunteers, and about half of them are teenagers. Some of them are only here because they were told to be by their schools.\nNadia: I find that quite encouraging, actually. In my experience, the reluctant ones often turn out to be the most loyal, as long as they are given real responsibility rather than boring jobs. When I was fifteen, I was forced to join a gardening club, and I have been grateful ever since.\nSamir: Would you be comfortable working at weekends? The busiest periods are usually Saturdays and Sundays.\nNadia: Of course. I have no children, and my cat is quite independent. I would simply ask to take a day off during the week, if that is possible.\n\nHelen: That is a good answer. Do you have any questions for us?\nNadia: Yes, two. First, how is success measured here, and who decides it? Second, what is the biggest problem the trust is facing at the moment?\nSamir: Those are very good questions. Success is measured by the number of projects completed, but also by the number of volunteers who return. As for the biggest problem, we have been struggling to find enough money to keep our two part-time employees.\nNadia: Then I would like to help with that. I think I can bring both energy and a little humour, even if it only earns me two pounds at a time.\n\nHelen: Thank you, Nadia. We will be making our decision by the end of next week, and you will be contacted by email.\nNadia: Thank you very much. Whatever the result is, I have really enjoyed this conversation.\nSamir: So have we. By the way, you mentioned a goldfish joke. Would you mind telling it to us before you go?\nNadia: Only if you promise to laugh with me, and not at me.",
+  "word_count": 951,
   "vocabulary": [
     {
-      "word": "flickering",
-      "ipa_us": "ˈflɪkərɪŋ",
-      "ipa_uk": "ˈflɪkərɪŋ",
-      "translation_ru": "мерцает"
+      "word": "volunteer",
+      "ipa_us": "ˌvɑːlənˈtɪr",
+      "ipa_uk": "ˌvɒlənˈtɪə",
+      "translation_ru": "волонтёр"
     },
     {
-      "word": "embarrassed",
-      "ipa_us": "ɪmˈbɛrəst",
-      "ipa_uk": "ɪmˈbærəst",
-      "translation_ru": "смущена"
+      "word": "application",
+      "ipa_us": "ˌæplɪˈkeɪʃn",
+      "ipa_uk": "ˌæplɪˈkeɪʃn",
+      "translation_ru": "заявление, анкета"
     },
     {
-      "word": "technician",
-      "ipa_us": "tɛkˈnɪʃən",
-      "ipa_uk": "tekˈnɪʃən",
-      "translation_ru": "техник"
+      "word": "bureaucrat",
+      "ipa_us": "ˈbjʊrəkræt",
+      "ipa_uk": "ˈbjʊərəkræt",
+      "translation_ru": "бюрократ"
     },
     {
-      "word": "guarantee",
-      "ipa_us": "ˌɡɛrənˈti",
-      "ipa_uk": "ˌɡærənˈtiː",
-      "translation_ru": "гарантия"
+      "word": "compliment",
+      "ipa_us": "ˈkɑːmplɪmənt",
+      "ipa_uk": "ˈkɒmplɪmənt",
+      "translation_ru": "комплимент"
     },
     {
-      "word": "warranty",
-      "ipa_us": "ˈwɔrənti",
-      "ipa_uk": "ˈwɒrənti",
-      "translation_ru": "гарантийный срок"
+      "word": "budget",
+      "ipa_us": "ˈbʌdʒɪt",
+      "ipa_uk": "ˈbʌdʒɪt",
+      "translation_ru": "бюджет"
     },
     {
-      "word": "refund",
-      "ipa_us": "ˈriˌfʌnd",
-      "ipa_uk": "ˈriːfʌnd",
-      "translation_ru": "возврат денег"
+      "word": "delayed",
+      "ipa_us": "dɪˈleɪd",
+      "ipa_uk": "dɪˈleɪd",
+      "translation_ru": "задержана"
     },
     {
-      "word": "replace",
-      "ipa_us": "rɪˈpleɪs",
-      "ipa_uk": "rɪˈpleɪs",
-      "translation_ru": "заменить"
+      "word": "pressure",
+      "ipa_us": "ˈprɛʃər",
+      "ipa_uk": "ˈpreʃə",
+      "translation_ru": "давление"
     },
     {
-      "word": "apologise",
-      "ipa_us": "əˈpɑləˌdʒaɪz",
-      "ipa_uk": "əˈpɒlədʒaɪz",
-      "translation_ru": "извиняюсь"
+      "word": "postponed",
+      "ipa_us": "poʊstˈpoʊnd",
+      "ipa_uk": "pəˈspəʊnd",
+      "translation_ru": "отложено"
     },
     {
-      "word": "exception",
-      "ipa_us": "ɪkˈsɛpʃən",
-      "ipa_uk": "ɪkˈsepʃən",
-      "translation_ru": "исключение"
+      "word": "fundraising",
+      "ipa_us": "ˈfʌndreɪzɪŋ",
+      "ipa_uk": "ˈfʌndreɪzɪŋ",
+      "translation_ru": "сбор средств"
     },
     {
-      "word": "reasonable",
-      "ipa_us": "ˈrizənəbəl",
-      "ipa_uk": "ˈriːzənəbəl",
-      "translation_ru": "разумный"
+      "word": "reluctant",
+      "ipa_us": "rɪˈlʌktənt",
+      "ipa_uk": "rɪˈlʌktənt",
+      "translation_ru": "неохотный"
+    },
+    {
+      "word": "loyal",
+      "ipa_us": "ˈlɔɪəl",
+      "ipa_uk": "ˈlɔɪəl",
+      "translation_ru": "верный, лояльный"
+    },
+    {
+      "word": "encouraging",
+      "ipa_us": "ɪnˈkɜːrɪdʒɪŋ",
+      "ipa_uk": "ɪnˈkʌrɪdʒɪŋ",
+      "translation_ru": "обнадёживающий"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ʌ",
       "examples": [
-        "when",
-        "wanted",
-        "well"
+        "budget",
+        "much",
+        "fundraising",
+        "trust"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "three",
-        "thank"
-      ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Короткий звук, близкий к русскому ударному «а»; рот открыт нешироко."
     },
     {
       "sound": "r",
       "examples": [
-        "refund",
-        "repair",
-        "receipt"
+        "really",
+        "river",
+        "project",
+        "rubbish"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Кончик языка не касается нёба; губы слегка вытянуты, звук без вибрации."
     },
     {
-      "sound": "dark-l",
+      "sound": "eɪ",
       "examples": [
-        "well",
-        "model",
-        "helpline"
+        "delayed",
+        "rain",
+        "paying",
+        "made"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка поднята к нёбу; звук твёрдый, как в «ол», без смягчения."
+      "tip_ru": "Плавное скольжение от «э» к «и»; не сокращайте до короткого «э»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "volunteer",
+        "application",
+        "bureaucrat"
+      ],
+      "tip_ru": "Определите ударный слог (volunteer: -teer; application: -ca-) и произнесите его громче и длиннее."
     }
   ],
   "questions": [
     {
-      "question": "How long ago did Elena buy the laptop?",
-      "answer": "Three weeks ago.",
+      "question": "Where had Nadia worked for the last six years?",
+      "answer": "For a city council.",
       "accepted_keywords": [
-        "three",
-        "weeks"
+        "council",
+        "city"
       ]
     },
     {
-      "question": "What is wrong with the screen?",
-      "answer": "It keeps flickering.",
+      "question": "What project was she proud of?",
+      "answer": "Organising a river clean-up with about four hundred schoolchildren.",
       "accepted_keywords": [
-        "flickering",
-        "flicker"
+        "river",
+        "clean",
+        "cleaning",
+        "children",
+        "rubbish"
       ]
     },
     {
-      "question": "Within how many days are refunds normally given?",
-      "answer": "Fourteen days.",
+      "question": "What weakness did Nadia admit?",
+      "answer": "She finds it hard to say no and takes on too much.",
       "accepted_keywords": [
-        "fourteen",
-        "14"
+        "no",
+        "say",
+        "too much",
+        "projects"
       ]
     },
     {
-      "question": "What does Mark offer in the end?",
-      "answer": "A full refund or a better model.",
+      "question": "What is the trust's biggest problem?",
+      "answer": "Finding enough money to keep its two part-time employees.",
       "accepted_keywords": [
-        "refund",
-        "model"
+        "money",
+        "funding",
+        "employees",
+        "staff"
       ]
     }
   ]

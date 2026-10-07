@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TEXTS = ROOT / "content" / "texts"
 SCHEMA = json.loads((ROOT / "content" / "schema" / "text.schema.json").read_text(encoding="utf-8"))
 
-WORD_RANGES = {"A1": (70, 120), "A2": (120, 180), "B1": (180, 280), "B2": (280, 400), "C1": (400, 550), "C2": (500, 700)}
+WORD_RANGES = {"A1": (700, 820), "A2": (700, 850), "B1": (750, 900), "B2": (800, 1000), "C1": (900, 1150), "C2": (1000, 1300)}
 WORD_RE = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)*")
 
 

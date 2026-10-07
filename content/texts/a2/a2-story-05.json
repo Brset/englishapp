@@ -2,125 +2,146 @@
   "id": "a2-story-05",
   "level": "A2",
   "genre": "story",
-  "title_en": "The Rainy Market",
-  "title_ru": "Дождливый рынок",
-  "description_ru": "Руфь продаёт фрукты на рынке в дождливый день и придумывает необычный способ привлечь покупателей.",
-  "text": "Ruth sold fruit at a small market near the river. One Saturday, it rained heavily, and nobody wanted to buy anything. Her strawberries were red and sweet, but the street was empty.\n\nRuth was sad for an hour. Then she had a funny idea. She found some old yellow umbrellas in her van and put a strawberry on top of each one. \"Free umbrella with every kilo of fruit!\" she shouted.\n\nPeople stopped and laughed. A man took a photograph and sent it to his friends. Within twenty minutes, a long queue was waiting in the rain. Children danced around the stall, and a woman bought three kilos of strawberries and two umbrellas.\n\nBy four o'clock, Ruth had no fruit and no umbrellas. She was wet, but she was very happy. It was her best day of the year, and the rain was the reason.",
-  "word_count": 145,
+  "title_en": "The Red and Silver Bike",
+  "title_ru": "Красно-серебристый велосипед",
+  "description_ru": "Одиннадцатилетний Оливер хочет новый велосипед и сам зарабатывает на него деньги. Рассказ о настойчивости и поддержке бабушки.",
+  "text": "Oliver was eleven years old, and he wanted a new bicycle more than anything in the world. His old bike was too small, and the brakes made a terrible noise. He had a picture of the bike he wanted on his bedroom wall. It was red and silver, with fat tyres and a small bell. It cost two hundred and forty pounds, and Oliver had only thirty-two.\n\nHis parents did not have extra money that year. His father worked at a car factory, and his mother cleaned offices in the evenings. \"You can have the bike for your next birthday,\" his mother said, \"if you save some money.\" But Oliver did not want to wait for a year. In April he made a plan. He was going to earn the money himself, and he was going to buy the bike before the summer holidays.\n\nFirst, he asked the neighbours for work. Mrs Clark, who lived next door, paid him five pounds to wash her car every Saturday. An old man across the street, Mr Patel, paid him three pounds to walk his small dog. Oliver also cut grass, carried heavy bags of shopping and delivered newspapers before school. He was tired and often hungry, but every Sunday he counted his money and wrote the new total in a little blue notebook.\n\nBy the end of May, Oliver had ninety-one pounds. He was happy, but he also saw a problem. At this speed, he needed another two months, and the shop was going to sell the red bike before then. He visited the shop every Friday and looked through the window. On the third Friday, there was only one red and silver bicycle on the shelf. Oliver was sure that somebody was going to buy it very soon.\n\nHe decided to ask for help, but not from his parents. His grandmother Rose lived in a small house at the end of the village, and she was famous for her strawberry jam. Oliver had an idea. \"Grandma,\" he said, \"can I sell your jam at the school fair?\" Rose laughed so much that she nearly dropped her teacup. Then she looked at his serious face and said yes. They spent the whole weekend in her kitchen, cooking jam and writing small labels by hand.\n\nThe school fair was on a sunny Saturday in June. Oliver stood behind a table with forty jars of strawberry jam and a big sign: \"Rose's Jam. Better than shop jam!\" At first, people walked past, because it was early and nobody was hungry. Then a teacher tasted a little jam on a cracker, and her face changed. She bought three jars. After that, a long line began to grow. By two o'clock, only one jar remained, and Oliver put it in his own bag.\n\nHe counted the money in the evening. The jam made eighty pounds, which was a lot, but it was still not enough. Oliver had one hundred and seventy-one pounds, and the bike cost two hundred and forty. He sat on his bed and looked at the picture on the wall. He was very close, and it was somehow worse than being far away. Then he heard a knock on the door, and his grandmother came in with a small, old envelope in her hand.\n\n\"I have a secret,\" she said. \"Your grandfather and I saved this for you when you were born. We wanted to give it to you at eighteen, but I think you need it more now. And you worked very hard.\" Inside the envelope were seventy pounds, in old, soft notes. Oliver could not speak. Then he hugged her so tightly that she had to ask him to stop. \"But I want to pay for most of it myself,\" he said. She smiled and said that he had done exactly that.\n\nOn Monday morning, the whole family went to the shop. The red and silver bike was still there, and the shop owner gave Oliver a small discount because he came so many times. He paid with his own coins and with Grandma's old notes, and he rode out of the shop with his father walking beside him. At the end of the street, Oliver rang the bell three times. Then he turned around, and he gave his grandmother the last jar of jam, with a ribbon on the top.",
+  "word_count": 733,
   "vocabulary": [
     {
-      "word": "market",
-      "ipa_us": "ˈmɑrkɪt",
-      "ipa_uk": "ˈmɑːkɪt",
-      "translation_ru": "рынок"
+      "word": "bicycle",
+      "ipa_us": "ˈbaɪsɪkl",
+      "ipa_uk": "ˈbaɪsɪkl",
+      "translation_ru": "велосипед"
     },
     {
-      "word": "strawberries",
-      "ipa_us": "ˈstrɔˌberiz",
-      "ipa_uk": "ˈstrɔːbəriz",
+      "word": "brakes",
+      "ipa_us": "breɪks",
+      "ipa_uk": "breɪks",
+      "translation_ru": "тормоза"
+    },
+    {
+      "word": "tyres",
+      "ipa_us": "ˈtaɪərz",
+      "ipa_uk": "ˈtaɪəz",
+      "translation_ru": "шины"
+    },
+    {
+      "word": "earn",
+      "ipa_us": "ɜːrn",
+      "ipa_uk": "ɜːn",
+      "translation_ru": "зарабатывать"
+    },
+    {
+      "word": "neighbours",
+      "ipa_us": "ˈneɪbərz",
+      "ipa_uk": "ˈneɪbəz",
+      "translation_ru": "соседи"
+    },
+    {
+      "word": "deliver",
+      "ipa_us": "dɪˈlɪvər",
+      "ipa_uk": "dɪˈlɪvə",
+      "translation_ru": "доставлять"
+    },
+    {
+      "word": "jam",
+      "ipa_us": "dʒæm",
+      "ipa_uk": "dʒæm",
+      "translation_ru": "варенье, джем"
+    },
+    {
+      "word": "fair",
+      "ipa_us": "fer",
+      "ipa_uk": "feə",
+      "translation_ru": "ярмарка"
+    },
+    {
+      "word": "envelope",
+      "ipa_us": "ˈɛnvəloʊp",
+      "ipa_uk": "ˈenvələʊp",
+      "translation_ru": "конверт"
+    },
+    {
+      "word": "discount",
+      "ipa_us": "ˈdɪskaʊnt",
+      "ipa_uk": "ˈdɪskaʊnt",
+      "translation_ru": "скидка"
+    },
+    {
+      "word": "notebook",
+      "ipa_us": "ˈnoʊtbʊk",
+      "ipa_uk": "ˈnəʊtbʊk",
+      "translation_ru": "блокнот"
+    },
+    {
+      "word": "strawberry",
+      "ipa_us": "ˈstrɔːbɛri",
+      "ipa_uk": "ˈstrɔːbəri",
       "translation_ru": "клубника"
-    },
-    {
-      "word": "empty",
-      "ipa_us": "ˈempti",
-      "ipa_uk": "ˈempti",
-      "translation_ru": "пустой"
-    },
-    {
-      "word": "umbrella",
-      "ipa_us": "ʌmˈbrelə",
-      "ipa_uk": "ʌmˈbrelə",
-      "translation_ru": "зонт"
-    },
-    {
-      "word": "queue",
-      "ipa_us": "kjuː",
-      "ipa_uk": "kjuː",
-      "translation_ru": "очередь"
-    },
-    {
-      "word": "photograph",
-      "ipa_us": "ˈfoʊtəɡræf",
-      "ipa_uk": "ˈfəʊtəɡrɑːf",
-      "translation_ru": "фотография"
-    },
-    {
-      "word": "reason",
-      "ipa_us": "ˈriːzən",
-      "ipa_uk": "ˈriːzən",
-      "translation_ru": "причина"
-    },
-    {
-      "word": "heavily",
-      "ipa_us": "ˈhevɪli",
-      "ipa_uk": "ˈhevɪli",
-      "translation_ru": "сильно"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "eɪ",
       "examples": [
-        "Ruth",
-        "rained",
-        "red",
-        "river",
-        "strawberries"
+        "brakes",
+        "April",
+        "labels"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Дифтонг: начните с «э» и плавно перейдите к короткому «и»; не превращайте его в чистое «э»."
+    },
+    {
+      "sound": "ʊ",
+      "examples": [
+        "notebook",
+        "looked",
+        "put"
+      ],
+      "tip_ru": "Короткий, расслабленный «у» с лёгким округлением губ; не тяните, как в uː."
     },
     {
       "sound": "w",
       "examples": [
-        "was",
-        "wet",
         "wanted",
-        "waiting",
-        "with",
-        "woman"
+        "window",
+        "weekend"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
-    },
-    {
-      "sound": "ʌ",
-      "examples": [
-        "umbrella",
-        "umbrellas",
-        "but"
-      ],
-      "tip_ru": "Короткий гортанный звук, чуть ближе к «а», чем к «о»; рот открыт слабо."
+      "tip_ru": "Губы округлены и выдвинуты вперёд, зубы не касаются губ; звук короткий, как быстрое «у-а»."
     }
   ],
   "questions": [
     {
-      "question": "What did Ruth sell?",
-      "answer": "Fruit, strawberries.",
+      "question": "How much did the red bike cost?",
+      "answer": "Two hundred and forty pounds.",
       "accepted_keywords": [
-        "fruit",
-        "strawberries"
+        "240",
+        "forty"
       ]
     },
     {
-      "question": "What was the weather like?",
-      "answer": "It rained.",
+      "question": "What did Oliver sell at the school fair?",
+      "answer": "His grandmother's strawberry jam.",
       "accepted_keywords": [
-        "rain",
-        "rainy",
-        "rained"
+        "jam"
       ]
     },
     {
-      "question": "What did Ruth give away free?",
-      "answer": "An umbrella with every kilo of fruit.",
+      "question": "How did his grandmother help him?",
+      "answer": "She gave him seventy pounds that the family saved for him.",
       "accepted_keywords": [
-        "umbrella"
+        "seventy",
+        "70",
+        "money",
+        "envelope"
       ]
     },
     {
-      "question": "How was Ruth at the end of the day?",
-      "answer": "Very happy.",
+      "question": "What did Oliver give his grandmother at the end?",
+      "answer": "The last jar of jam.",
       "accepted_keywords": [
-        "happy"
+        "jar",
+        "jam"
       ]
     }
   ]

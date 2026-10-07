@@ -2,123 +2,145 @@
   "id": "a2-dialogue-03",
   "level": "A2",
   "genre": "dialogue",
-  "title_en": "Weekend Plans",
-  "title_ru": "Планы на выходные",
-  "description_ru": "Два друга выбирают, как провести выходные: в горах или у моря. Сравнения и разговор о будущем.",
-  "text": "Tom: What are you going to do this weekend, Wendy?\nWendy: I am not sure. The weather forecast says it will be sunny on Saturday.\nTom: Great! Why don't we go to the mountains?\nWendy: The mountains are beautiful, but the road is very long. The sea is closer.\nTom: That is true. But the beach is more crowded than the mountains.\nWendy: Hmm. Last summer, we went to the beach, and it was terrible. There were too many people.\nTom: OK, let's go to the mountains. I will bring sandwiches and fruit.\nWendy: And I will bring a map and warm jackets. It is colder in the mountains.\nTom: What time shall we leave?\nWendy: Let's leave at seven. Then we can have lunch at the top.\nTom: Seven o'clock on Saturday? That is early!\nWendy: Do not worry. I will bring you a strong coffee.",
-  "word_count": 135,
+  "title_en": "Dinner for Mum and Dad",
+  "title_ru": "Ужин для мамы и папы",
+  "description_ru": "Люси хочет произвести впечатление на родителей, но всё идёт не так: индейка вместо курицы, подгоревшая картошка. Смешной разговор на кухне.",
+  "text": "Lucy: Ben, can you hear me? I need your help in the kitchen, please.\nBen: I am coming. Why are you shouting? It is only five o'clock.\nLucy: Because my parents are arriving at seven, and I have not started the dinner.\nBen: What? You said you were going to cook the whole meal yourself.\nLucy: I know, I know. I wanted to impress them. They think I am a terrible cook.\nBen: To be fair, last Christmas you made soup that tasted like soap.\nLucy: That was an accident. I used the wrong bottle. Now please help me. What can you do?\nBen: I can chop vegetables. What are we going to make?\nLucy: I decided on roast chicken with potatoes, carrots and a green salad. For dessert, an apple cake.\nBen: That is a lot of food for two hours. Did you buy everything?\nLucy: I bought the chicken, the potatoes and the carrots. I forgot the apples.\nBen: Then I will run to the shop. Anything else?\nLucy: Cream, please. And a lemon, because I want to make a sauce.\nBen: Understood. Meanwhile, put the chicken in the oven. It needs more than an hour.\nLucy: How hot should the oven be?\nBen: Look at the packet. It usually says two hundred degrees.\nLucy: Here it is. It says one hundred and eighty. And forty-five minutes per kilogram.\nBen: How heavy is the chicken?\nLucy: Two kilograms. So it needs ninety minutes. We will have to hurry.\nBen: Right. Put it in now, and I will be back in ten minutes.\nLucy: Wait! There is something wrong. This is not a chicken. It is a turkey.\nBen: A turkey? Why did you buy a turkey?\nLucy: It was cheaper than the chicken, and the man in the shop said it was better.\nBen: How big is it, exactly?\nLucy: Look at the label. It weighs five kilograms.\nBen: Five kilograms! That needs more than three hours. We do not have time for that.\nLucy: Oh no. What are we going to do?\nBen: Let us cut it into pieces. Small pieces cook faster than a whole bird.\nLucy: That is a clever idea. But I do not have a big knife.\nBen: Use the sharp one in the drawer. Be careful.\nLucy: Ouch! I hurt my finger.\nBen: Show me. It is only a small cut. Put a plaster on it, and I will do the rest.\nLucy: Thank you. You are better at this than I am.\nBen: I watch a lot of cooking programmes. Now, get me a large dish and some oil.\nLucy: Here you are. Do you want salt and pepper too?\nBen: Yes, and some garlic. Where is it?\nLucy: I think it is in the cupboard on the left. Wait, there is a strange smell in the kitchen.\nBen: It smells like something is burning. Did you leave the bread in the toaster?\nLucy: No. Oh, the potatoes! I put them on the cooker twenty minutes ago and forgot about them.\nBen: Turn off the gas! Quickly!\nLucy: Done. The pan is black, and the potatoes look like little stones.\nBen: Do not worry. We will boil new ones. I am going to the shop now, and I will buy more potatoes.\nLucy: And the apples, the cream and the lemon.\nBen: Of course. Please do not touch anything while I am away.\nLucy: I promise. Actually, wait. Can you also buy some ice cream? Just in case the cake fails.\nBen: Good thinking. I will be back in fifteen minutes.\nLucy: Ben, hurry. It is already half past five.\nBen: I am running. Do not panic!\nLucy: I am not panicking. I am only talking to the turkey.\nBen: I am back. I bought apples, cream, a lemon, potatoes and ice cream. And a box of chocolates.\nLucy: Why chocolates?\nBen: For your mother. A guest is always happier with chocolate.\nLucy: You are a genius. Now, let us make the cake. How much flour do I need?\nBen: Two hundred grams. Mix it with sugar, eggs and butter.\nLucy: Done. Now the apples. Should I cut them small or large?\nBen: Small. And put them on the top, in a circle, so it looks nice.\nLucy: It looks like a real cake. I cannot believe it.\nBen: Put it in the oven next to the turkey pieces. We have about forty minutes.\nLucy: In the meantime, I will set the table. Where are the good plates?\nBen: In the cupboard above the fridge. And please use the clean glasses, not the ones with lipstick.\nLucy: Very funny. Ben, it is a quarter to seven. They will be here soon.\nBen: Then run upstairs and change your clothes. I will finish here.\nLucy: Thank you. I do not know what I would do without you.\nBen: You would order a pizza. Now go!\nLucy: Wait. What is that sound? Someone is ringing the doorbell.\nBen: They are early! Quick, hide the burned pan under the sink.\nLucy: Done. Welcome, Mum and Dad. Come in. Dinner is almost ready, and it smells wonderful.",
+  "word_count": 796,
   "vocabulary": [
     {
-      "word": "weekend",
-      "ipa_us": "ˈwiːkend",
-      "ipa_uk": "ˌwiːkˈend",
-      "translation_ru": "выходные"
+      "word": "chop",
+      "ipa_us": "tʃɑːp",
+      "ipa_uk": "tʃɒp",
+      "translation_ru": "нарезать"
     },
     {
-      "word": "forecast",
-      "ipa_us": "ˈfɔrkæst",
-      "ipa_uk": "ˈfɔːkɑːst",
-      "translation_ru": "прогноз"
+      "word": "roast",
+      "ipa_us": "roʊst",
+      "ipa_uk": "rəʊst",
+      "translation_ru": "жареный (в духовке)"
     },
     {
-      "word": "mountains",
-      "ipa_us": "ˈmaʊntənz",
-      "ipa_uk": "ˈmaʊntɪnz",
-      "translation_ru": "горы"
+      "word": "turkey",
+      "ipa_us": "ˈtɜːrki",
+      "ipa_uk": "ˈtɜːki",
+      "translation_ru": "индейка"
     },
     {
-      "word": "closer",
-      "ipa_us": "ˈkloʊsər",
-      "ipa_uk": "ˈkləʊsə",
-      "translation_ru": "ближе"
+      "word": "dessert",
+      "ipa_us": "dɪˈzɜːrt",
+      "ipa_uk": "dɪˈzɜːt",
+      "translation_ru": "десерт"
     },
     {
-      "word": "crowded",
-      "ipa_us": "ˈkraʊdɪd",
-      "ipa_uk": "ˈkraʊdɪd",
-      "translation_ru": "людный"
+      "word": "oven",
+      "ipa_us": "ˈʌvn",
+      "ipa_uk": "ˈʌvn",
+      "translation_ru": "духовка"
     },
     {
-      "word": "beautiful",
-      "ipa_us": "ˈbjuːtɪfəl",
-      "ipa_uk": "ˈbjuːtɪfəl",
-      "translation_ru": "красивый"
+      "word": "plaster",
+      "ipa_us": "ˈplæstər",
+      "ipa_uk": "ˈplɑːstə",
+      "translation_ru": "пластырь"
     },
     {
-      "word": "jackets",
-      "ipa_us": "ˈdʒækɪts",
-      "ipa_uk": "ˈdʒækɪts",
-      "translation_ru": "куртки"
+      "word": "garlic",
+      "ipa_us": "ˈɡɑːrlɪk",
+      "ipa_uk": "ˈɡɑːlɪk",
+      "translation_ru": "чеснок"
     },
     {
-      "word": "colder",
-      "ipa_us": "ˈkoʊldər",
-      "ipa_uk": "ˈkəʊldə",
-      "translation_ru": "холоднее"
+      "word": "burned",
+      "ipa_us": "bɜːrnd",
+      "ipa_uk": "bɜːnd",
+      "translation_ru": "подгорел(о)"
+    },
+    {
+      "word": "sauce",
+      "ipa_us": "sɔːs",
+      "ipa_uk": "sɔːs",
+      "translation_ru": "соус"
+    },
+    {
+      "word": "flour",
+      "ipa_us": "ˈflaʊər",
+      "ipa_uk": "ˈflaʊə",
+      "translation_ru": "мука"
+    },
+    {
+      "word": "panic",
+      "ipa_us": "ˈpænɪk",
+      "ipa_uk": "ˈpænɪk",
+      "translation_ru": "паниковать"
+    },
+    {
+      "word": "impress",
+      "ipa_us": "ɪmˈprɛs",
+      "ipa_uk": "ɪmˈpres",
+      "translation_ru": "произвести впечатление"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ɜː",
       "examples": [
-        "Wendy",
-        "weekend",
-        "weather",
-        "warm",
-        "what"
+        "turkey",
+        "burned",
+        "dessert"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Долгий звук в центре рта, как «ё» без «й»; губы не округляйте, язык расслаблен, r не произносите резко."
     },
     {
-      "sound": "θ",
+      "sound": "aʊ",
       "examples": [
-        "this",
-        "There",
-        "the",
-        "than",
-        "that"
+        "now",
+        "flour",
+        "hour"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Дифтонг: начните с широкого «а» и плавно сдвиньте губы к короткому «у»."
     },
     {
-      "sound": "r",
+      "sound": "ʌ",
       "examples": [
-        "road",
-        "crowded",
-        "terrible",
-        "bring"
+        "oven",
+        "butter",
+        "just"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Короткий открытый звук, близкий к ударному «а»; рот открыт средне, язык в центре."
     }
   ],
   "questions": [
     {
-      "question": "What will the weather be on Saturday?",
-      "answer": "Sunny.",
-      "accepted_keywords": [
-        "sunny"
-      ]
-    },
-    {
-      "question": "Where do they decide to go?",
-      "answer": "To the mountains.",
-      "accepted_keywords": [
-        "mountains"
-      ]
-    },
-    {
-      "question": "What will Tom bring?",
-      "answer": "Sandwiches and fruit.",
-      "accepted_keywords": [
-        "sandwiches",
-        "fruit"
-      ]
-    },
-    {
-      "question": "What time are they going to leave?",
-      "answer": "At seven.",
+      "question": "What time are Lucy's parents arriving?",
+      "answer": "At seven o'clock.",
       "accepted_keywords": [
         "seven"
+      ]
+    },
+    {
+      "question": "What did Lucy buy instead of a chicken?",
+      "answer": "A turkey.",
+      "accepted_keywords": [
+        "turkey"
+      ]
+    },
+    {
+      "question": "What burned on the cooker?",
+      "answer": "The potatoes.",
+      "accepted_keywords": [
+        "potatoes"
+      ]
+    },
+    {
+      "question": "What does Ben buy at the shop?",
+      "answer": "Apples, cream, a lemon, potatoes, ice cream and chocolates.",
+      "accepted_keywords": [
+        "apples",
+        "cream",
+        "lemon",
+        "potatoes",
+        "chocolates"
       ]
     }
   ]

@@ -9,12 +9,15 @@ data class TextItem(
     val descriptionRu: String, val wordCount: Int, val status: String = "new", val bestScore: Double? = null,
     /** A background assessment of this text is queued or running. */
     val pending: Boolean = false, val lastScore: Double? = null,
+    /** Best share of words read (0..100) over all attempts; null = never measured. */
+    val bestCoverage: Double? = null,
 )
 
 /** Row of processing_jobs (active ones carry the text title for the UI). */
 data class JobRow(
     val id: Long, val textId: String, val title: String, val status: String, val progress: Double, val etaSec: Double,
     val audioSeconds: Double, val reference: String, val wavPath: String, val kind: String,
+    val paragraphIndex: Int? = null, val paragraphCount: Int = 0,
 )
 
 /** Latest saved reading of a text: quick live marks first, full [result] once the job is done. */
@@ -57,6 +60,8 @@ data class WordResult(
     val phonemes: List<PhonemeResult>,
     /** What was heard in this word's slot ("" if omitted); start/end seconds in the recording or -1. */
     val recognized: String = "", val startSec: Double = -1.0, val endSec: Double = -1.0,
+    /** Recording this word belongs to (paragraph readings have one WAV per paragraph); "" = the text's single WAV. */
+    val wavPath: String = "",
 )
 
 data class AdviceItem(val id: String, val soundId: String, val expectedIpa: String, val actualIpa: String,

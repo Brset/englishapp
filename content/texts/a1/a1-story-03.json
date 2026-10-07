@@ -2,124 +2,162 @@
   "id": "a1-story-03",
   "level": "A1",
   "genre": "story",
-  "title_en": "The Brown Box",
-  "title_ru": "Коричневая коробка",
-  "description_ru": "Том находит у двери загадочную коробку. Что же в ней?",
-  "text": "Tom comes home at six. There is a big brown box at his door. His name is not on it. He is very curious. He shakes the box and hears a small noise: meow!\n\nTom opens the box carefully. Inside, there is a tiny grey kitten with green eyes. There is also a letter. \"Hello, Tom. Happy birthday! This is your new friend. Love, Mum.\"\n\nTom laughs. He is not alone now. The kitten looks at him and yawns. \"Welcome home, little one,\" says Tom.",
+  "title_en": "Mr. Lee and the Snowman",
+  "title_ru": "Мистер Ли и снеговик",
+  "description_ru": "Одинокий пожилой человек знакомится с маленькой девочкой, которая лепит снеговика, и находит нового друга.",
+  "text": "It is January, and it is snowing in the city of Minsk. Mr. Lee is seventy years old. He lives alone in a small flat on the third floor. His wife is not alive now, and his son lives in another country. Mr. Lee has a quiet life. He drinks tea, he reads the newspaper and he watches the street from his window. Today, the street is white and empty.\n\nMr. Lee is not happy this morning. He looks at the snow and thinks, \"I cannot go out. The ground is slippery and my legs are old.\" He makes tea and sits in his chair. The flat is very quiet. Only the clock ticks. Mr. Lee feels lonely, and he does not like this feeling. He turns on the radio, but the music is too sad. He turns it off again.\n\nSuddenly, he hears a noise outside. He goes to the window and looks down. A little girl is standing in front of the building. She wears a yellow coat and a big green hat. She is making something in the snow. Mr. Lee watches. First she makes a big ball, then a smaller ball. It is a snowman! But the girl is small, and she cannot lift the head.\n\nMr. Lee remembers his own childhood. In his country, there is a lot of snow, too. He and his brother make big snowmen every winter. His mother gives them old hats and carrots. Those days are long gone, but Mr. Lee still remembers the cold air and the happy shouting. He watches Katya and feels something warm in his chest.\n\nMr. Lee smiles. He puts on his warm coat, his scarf and his boots. He walks down the stairs slowly. The girl sees him and says, \"Hello! I am Katya. I live in the next building. Can you help me, please?\" Mr. Lee laughs. \"Of course,\" he says. \"I am Mr. Lee. A snowman needs a head, and I have strong arms. Well, not so strong, but strong enough.\"\n\nTogether they lift the head and put it on the body. Katya is very happy. \"Now he needs a face!\" she says. She runs home and comes back with a carrot, two black buttons and a red scarf. Mr. Lee puts the carrot in the middle of the face. Katya puts in the buttons for the eyes. They take a step back and look at their snowman. \"He is beautiful,\" says Mr. Lee. \"But he is cold,\" says Katya. She puts the red scarf around his neck.\n\nNow Katya is shaking with cold, too. Her hands are red. \"Come to my flat,\" says Mr. Lee. \"I have hot tea and some sweet biscuits.\" They go up the stairs together. In the flat, Katya looks around. She sees a photo on the wall. \"Who is this?\" she asks. \"That is my wife, Nina,\" says Mr. Lee. \"She loves the snow. Every winter, we make a snowman in the park.\" For a moment, his eyes are wet, but he smiles.\n\nKatya looks at the clock. \"Oh, it is already four o'clock,\" she says. \"Mama is waiting.\" She finishes her biscuit and puts on her yellow coat. \"Thank you for the tea, Mr. Lee. Your flat is very nice. But it is too quiet. You need a dog, or a bird, or a radio with better music!\" Mr. Lee laughs so hard that he has to sit down. Nobody speaks to him like this for a long time.\n\nKatya drinks her tea and tells him about her school, her cat and her best friend. Mr. Lee listens and laughs. He is not lonely now. The flat is warm and full of her words. When her mother calls, Katya says goodbye. At the door she says, \"Can I come again tomorrow? I want to make a snow dog.\" Mr. Lee says, \"Yes, please. I can bring a hat for him.\"\n\nThat evening, Mr. Lee stands at his window again. Under the street light, the snowman looks back at him with his button eyes. The red scarf moves in the wind. Mr. Lee takes the photo from the wall and holds it in his hands. \"Nina,\" he says quietly, \"today I have a new friend.\" Outside, the snow keeps falling, soft and slow. For the first time in many months, Mr. Lee is not alone.",
+  "word_count": 729,
   "vocabulary": [
     {
-      "word": "box",
-      "ipa_us": "bɑːks",
-      "ipa_uk": "bɒks",
-      "translation_ru": "коробка"
+      "word": "snowman",
+      "ipa_us": "ˈsnoʊmæn",
+      "ipa_uk": "ˈsnəʊmæn",
+      "translation_ru": "снеговик"
     },
     {
-      "word": "curious",
-      "ipa_us": "ˈkjʊriəs",
-      "ipa_uk": "ˈkjʊəriəs",
-      "translation_ru": "любопытный"
+      "word": "slippery",
+      "ipa_us": "ˈslɪpəri",
+      "ipa_uk": "ˈslɪpəri",
+      "translation_ru": "скользкий"
     },
     {
-      "word": "noise",
-      "ipa_us": "nɔɪz",
-      "ipa_uk": "nɔɪz",
-      "translation_ru": "шум"
+      "word": "lonely",
+      "ipa_us": "ˈloʊnli",
+      "ipa_uk": "ˈləʊnli",
+      "translation_ru": "одинокий"
     },
     {
-      "word": "carefully",
-      "ipa_us": "ˈkerfəli",
-      "ipa_uk": "ˈkeəfəli",
-      "translation_ru": "осторожно"
+      "word": "scarf",
+      "ipa_us": "skɑːrf",
+      "ipa_uk": "skɑːf",
+      "translation_ru": "шарф"
     },
     {
-      "word": "kitten",
-      "ipa_us": "ˈkɪtn",
-      "ipa_uk": "ˈkɪtən",
-      "translation_ru": "котёнок"
+      "word": "carrot",
+      "ipa_us": "ˈkærət",
+      "ipa_uk": "ˈkærət",
+      "translation_ru": "морковь"
     },
     {
-      "word": "letter",
-      "ipa_us": "ˈletɚ",
-      "ipa_uk": "ˈletə",
-      "translation_ru": "письмо"
+      "word": "biscuits",
+      "ipa_us": "ˈbɪskɪts",
+      "ipa_uk": "ˈbɪskɪts",
+      "translation_ru": "печенье"
     },
     {
-      "word": "birthday",
-      "ipa_us": "ˈbɝːθdeɪ",
-      "ipa_uk": "ˈbɜːθdeɪ",
-      "translation_ru": "день рождения"
+      "word": "flat",
+      "ipa_us": "flæt",
+      "ipa_uk": "flæt",
+      "translation_ru": "квартира"
+    },
+    {
+      "word": "quiet",
+      "ipa_us": "ˈkwaɪət",
+      "ipa_uk": "ˈkwaɪət",
+      "translation_ru": "тихий"
+    },
+    {
+      "word": "window",
+      "ipa_us": "ˈwɪndoʊ",
+      "ipa_uk": "ˈwɪndəʊ",
+      "translation_ru": "окно"
     },
     {
       "word": "alone",
       "ipa_us": "əˈloʊn",
       "ipa_uk": "əˈləʊn",
-      "translation_ru": "один, в одиночестве"
+      "translation_ru": "один"
+    },
+    {
+      "word": "boots",
+      "ipa_us": "buːts",
+      "ipa_uk": "buːts",
+      "translation_ru": "ботинки"
+    },
+    {
+      "word": "photo",
+      "ipa_us": "ˈfoʊtoʊ",
+      "ipa_uk": "ˈfəʊtəʊ",
+      "translation_ru": "фотография"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "h",
-      "examples": [
-        "home",
-        "his",
-        "hears",
-        "hello",
-        "happy"
-      ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "brown",
-        "grey",
-        "green",
-        "carefully"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
-    },
-    {
       "sound": "əʊ",
       "examples": [
-        "home",
-        "opens",
-        "hello",
-        "alone"
+        "snow",
+        "lonely",
+        "alone",
+        "window"
       ],
-      "tip_ru": "Начните с «э» и плавно сдвиньте губы к «у». Это один скольжящий звук, а не «о»."
+      "tip_ru": "Скольжение от «э» к «у» с округлением губ; не заменяйте на чистое «о»."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "with",
+        "lift",
+        "biscuits",
+        "big"
+      ],
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "small",
+        "wall",
+        "girl"
+      ],
+      "tip_ru": "Задняя часть языка опущена, кончик языка касается дёсен; не смягчайте «l» как русское «ль»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "alone",
+        "window",
+        "snowman",
+        "quiet"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "What time does Tom come home?",
-      "answer": "At six.",
+      "question": "Where does Mr. Lee live?",
+      "answer": "In a small flat on the third floor.",
       "accepted_keywords": [
-        "six"
+        "flat",
+        "third",
+        "floor"
       ]
     },
     {
-      "question": "What is in the box?",
-      "answer": "A kitten.",
+      "question": "What is Katya making in the snow?",
+      "answer": "A snowman.",
       "accepted_keywords": [
-        "kitten",
-        "cat"
+        "snowman",
+        "snow"
       ]
     },
     {
-      "question": "What colour are the kitten's eyes?",
-      "answer": "Green.",
+      "question": "What do they use for the face of the snowman?",
+      "answer": "A carrot and two black buttons.",
       "accepted_keywords": [
-        "green"
+        "carrot",
+        "buttons",
+        "button"
       ]
     },
     {
-      "question": "Who is the letter from?",
-      "answer": "From Mum.",
+      "question": "How does Mr. Lee feel at the end?",
+      "answer": "He is not alone or lonely now.",
       "accepted_keywords": [
-        "mum",
-        "mother"
+        "not",
+        "happy",
+        "friend",
+        "alone"
       ]
     }
-  ],
-  "word_count": 85
+  ]
 }

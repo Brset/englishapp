@@ -2,123 +2,156 @@
   "id": "a2-biography-03",
   "level": "A2",
   "genre": "biography",
-  "title_en": "Neil Armstrong",
-  "title_ru": "Нил Армстронг",
-  "description_ru": "История человека, который первым ступил на Луну.",
-  "text": "Neil Armstrong was born in 1930 in Ohio, in the United States. He loved planes as a small boy. At the age of sixteen, he got his pilot's licence, even before he could drive a car.\n\nLater, Neil became a pilot in the navy and flew many missions in the Korean War. After that, he worked as a test pilot, and then he joined NASA as an astronaut.\n\nIn July 1969, Neil flew to the Moon in a spaceship called Apollo 11. Two other men, Buzz Aldrin and Michael Collins, travelled with him. When the spaceship landed, Neil walked out first. He said, \"That's one small step for man, one giant leap for mankind.\"\n\nNeil spent about two hours outside with Buzz on the Moon. Michael stayed in the spaceship above them. Neil Armstrong died in 2012, but he is still famous all over the world.",
-  "word_count": 142,
+  "title_en": "Yuri Gagarin: The First Man in Space",
+  "title_ru": "Юрий Гагарин: первый человек в космосе",
+  "description_ru": "Биография Юрия Гагарина: от деревенского мальчика до первого человека, полетевшего в космос в 1961 году.",
+  "text": "Yuri Gagarin was the first human being in space. On 12 April 1961, he flew around the Earth in a small round spacecraft, and the whole world listened to his name. Many people know this story, but fewer people know how he lived before that famous day.\n\nYuri was born on 9 March 1934, in a small village called Klushino, west of Moscow. His father was a carpenter, and his mother worked on a farm. The family lived in a simple wooden house. When Yuri was seven, the Second World War came to his village. German soldiers took the house and the family had to live in a small hut for almost two years. His older brother and sister were taken away to work in Germany, and Yuri never forgot those hard years.\n\nAfter the war, he went back to school and became a good student. He loved mathematics and physics, and his teachers remembered him as a cheerful and friendly boy. When he was fifteen, he left his village and went to a technical school near Moscow, where he learned to make things from metal. A few years later he studied in the city of Saratov, and there he joined a flying club. In his first flight, he sat in a small plane next to an instructor, and he felt that his life was going to change.\n\nIn 1955 he joined the air force and trained as a military pilot. He was not a tall man. He was only about 1.57 metres tall, and this was a great advantage, because the space capsules were very small. In 1957, he married Valentina, a young medical worker, and later they had two daughters, Yelena and Galina. Then, in the same year, the Soviet Union sent the first satellite, Sputnik, into space. Yuri watched the news with excitement. He wanted to be part of the future.\n\nIn 1960, the country was looking for the first men to fly into space. More than three thousand pilots were considered. Doctors tested every one of them, and the tests were much harder than any normal examination. Candidates sat in spinning machines, stayed in silent rooms and went into very hot or very cold chambers. In the end, only twenty men were chosen. Yuri was one of them, and later he became the first choice for the flight. His quick mind and his warm smile helped him. The other men said he was easier to like than anyone else.\n\nThe big day arrived on 12 April 1961. Early in the morning, Yuri put on his orange spacesuit and rode to the launch place at Baikonur. Before the rocket left, he said one short word to the engineers: \"Poyekhali!\" It means \"Let's go!\" The rocket lifted off, and Yuri's ship, Vostok 1, went up higher and faster than any human had ever travelled. In only eight minutes, he was in space.\n\nYuri circled the Earth once. The whole flight lasted one hour and forty-eight minutes. He looked through the small window and saw the blue planet below him. \"The Earth is blue,\" he told the controllers. \"How wonderful. It is amazing.\" He ate a little food from a tube and wrote notes with a pencil. Then the ship came back down. At about seven kilometres above the ground, Yuri left the capsule and used a parachute. He landed in a field near the Volga River, and the first people who saw him were a woman and her granddaughter. They were afraid of the strange man in the orange suit, but he said, \"Don't be afraid! I'm a Soviet man like you.\"\n\nYuri became a hero immediately. He travelled to many countries, and crowds waited in the streets to see him. In London, he met the Queen. He was always polite and humble, and he never forgot ordinary people. But he found fame tiring. He missed flying, and he returned to training. He wanted to fly in space again, and he also studied at the Air Force Academy.\n\nSadly, he never went back to space. On 27 March 1968, Yuri died in a training flight in a jet near Moscow. He was only thirty-four years old. The whole country mourned for him.\n\nToday, people remember Yuri Gagarin every year on 12 April, which is celebrated as the International Day of Human Space Flight. His flight proved that people could live and work beyond our planet, and it opened the way for later astronauts. He was brave, and he was kind. Most important, he showed that a boy from a small village could reach the stars.",
+  "word_count": 755,
   "vocabulary": [
     {
-      "word": "pilot",
-      "ipa_us": "ˈpaɪlət",
-      "ipa_uk": "ˈpaɪlət",
-      "translation_ru": "лётчик, пилот"
+      "word": "carpenter",
+      "ipa_us": "ˈkɑrpəntər",
+      "ipa_uk": "ˈkɑːpəntə",
+      "translation_ru": "плотник"
     },
     {
-      "word": "licence",
-      "ipa_us": "ˈlaɪsns",
-      "ipa_uk": "ˈlaɪsns",
-      "translation_ru": "права, лицензия"
+      "word": "hut",
+      "ipa_us": "hʌt",
+      "ipa_uk": "hʌt",
+      "translation_ru": "хижина"
     },
     {
-      "word": "navy",
-      "ipa_us": "ˈneɪvi",
-      "ipa_uk": "ˈneɪvi",
-      "translation_ru": "военно-морской флот"
+      "word": "advantage",
+      "ipa_us": "ədˈvæntɪdʒ",
+      "ipa_uk": "ədˈvɑːntɪdʒ",
+      "translation_ru": "преимущество"
     },
     {
-      "word": "astronaut",
-      "ipa_us": "ˈæstrənɔːt",
-      "ipa_uk": "ˈæstrənɔːt",
-      "translation_ru": "астронавт"
+      "word": "satellite",
+      "ipa_us": "ˈsætəˌlaɪt",
+      "ipa_uk": "ˈsætəlaɪt",
+      "translation_ru": "спутник"
     },
     {
-      "word": "spaceship",
-      "ipa_us": "ˈspeɪsʃɪp",
-      "ipa_uk": "ˈspeɪsʃɪp",
-      "translation_ru": "космический корабль"
+      "word": "candidates",
+      "ipa_us": "ˈkændɪˌdeɪts",
+      "ipa_uk": "ˈkændɪdeɪts",
+      "translation_ru": "кандидаты"
     },
     {
-      "word": "landed",
-      "ipa_us": "ˈlændɪd",
-      "ipa_uk": "ˈlændɪd",
-      "translation_ru": "приземлился"
+      "word": "spacesuit",
+      "ipa_us": "ˈspeɪsˌsut",
+      "ipa_uk": "ˈspeɪssuːt",
+      "translation_ru": "скафандр"
     },
     {
-      "word": "giant",
-      "ipa_us": "ˈdʒaɪənt",
-      "ipa_uk": "ˈdʒaɪənt",
-      "translation_ru": "гигантский"
+      "word": "rocket",
+      "ipa_us": "ˈrɑkɪt",
+      "ipa_uk": "ˈrɒkɪt",
+      "translation_ru": "ракета"
     },
     {
-      "word": "mankind",
-      "ipa_us": "mænˈkaɪnd",
-      "ipa_uk": "mænˈkaɪnd",
-      "translation_ru": "человечество"
+      "word": "capsule",
+      "ipa_us": "ˈkæpsəl",
+      "ipa_uk": "ˈkæpsjuːl",
+      "translation_ru": "капсула"
+    },
+    {
+      "word": "parachute",
+      "ipa_us": "ˈpærəˌʃut",
+      "ipa_uk": "ˈpærəʃuːt",
+      "translation_ru": "парашют"
+    },
+    {
+      "word": "humble",
+      "ipa_us": "ˈhʌmbəl",
+      "ipa_uk": "ˈhʌmbl",
+      "translation_ru": "скромный"
+    },
+    {
+      "word": "mourned",
+      "ipa_us": "mɔrnd",
+      "ipa_uk": "mɔːnd",
+      "translation_ru": "скорбел"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "aspiration",
+      "sound": "r",
       "examples": [
-        "pilot",
-        "car"
+        "rocket",
+        "round",
+        "parachute"
       ],
-      "tip_ru": "p, t, k в начале слова произносите с лёгким придыханием, как будто выдыхаете «х»."
-    },
-    {
-      "sound": "æ",
-      "examples": [
-        "landed",
-        "man"
-      ],
-      "tip_ru": "Откройте рот шире, чем для русского «э»; звук короткий и «плоский»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "world",
-        "walked"
-      ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены. Не раскатывайте русское «р»."
     },
     {
       "sound": "θ",
       "examples": [
-        "that",
-        "them"
+        "three",
+        "thousand",
+        "thirty"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "hut",
+        "humble",
+        "brother"
+      ],
+      "tip_ru": "Короткий звук, похожий на «а» без напряжения, рот полуоткрыт."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "space",
+        "famous",
+        "came"
+      ],
+      "tip_ru": "Дифтонг: начните с «э» и плавно скользите к «и»."
     }
   ],
   "questions": [
     {
-      "question": "Where was Neil Armstrong born?",
-      "answer": "In Ohio.",
+      "question": "Where was Yuri Gagarin born?",
+      "answer": "He was born in a small village called Klushino, near Moscow.",
       "accepted_keywords": [
-        "ohio"
+        "klushino",
+        "village",
+        "moscow"
       ]
     },
     {
-      "question": "What was the name of the spaceship?",
-      "answer": "Apollo 11.",
+      "question": "Why was his height an advantage?",
+      "answer": "The space capsules were very small, and he was only about 1.57 metres tall.",
       "accepted_keywords": [
-        "apollo"
+        "small",
+        "capsule",
+        "capsules",
+        "short",
+        "tall"
       ]
     },
     {
-      "question": "Who stayed in the spaceship?",
-      "answer": "Michael Collins.",
+      "question": "What did he say before the rocket left?",
+      "answer": "He said \"Poyekhali!\", which means \"Let's go!\"",
       "accepted_keywords": [
-        "michael",
-        "collins"
+        "poyekhali",
+        "go",
+        "let's"
       ]
     },
     {
-      "question": "When did he die?",
-      "answer": "In 2012.",
+      "question": "How long did the first flight last?",
+      "answer": "It lasted one hour and forty-eight minutes.",
       "accepted_keywords": [
-        "2012"
+        "hour",
+        "forty-eight",
+        "108",
+        "minutes",
+        "once"
       ]
     }
   ]

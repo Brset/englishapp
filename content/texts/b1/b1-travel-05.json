@@ -2,106 +2,169 @@
   "id": "b1-travel-05",
   "level": "B1",
   "genre": "travel",
-  "title_en": "The Glacier Express",
-  "title_ru": "Ледниковый экспресс",
-  "description_ru": "Поездка на панорамном поезде через швейцарские Альпы.",
-  "text": "Some journeys are famous because they are fast. The Glacier Express in Switzerland is famous because it is slow. It takes about eight hours to travel less than three hundred kilometres, and that is exactly the point.\n\nThe train connects two mountain resorts, Zermatt and St. Moritz. During the trip, it crosses almost three hundred bridges and passes through ninety tunnels. The highest point of the route is the Oberalp Pass, which is more than two thousand metres above sea level. The carriages have huge windows that curve into the roof, so passengers can admire the peaks above them.\n\nI made this journey last September. I sat next to the window, and I did not look at my phone once. We passed deep valleys, wooden villages and waterfalls that seemed to fall from the sky. In the dining car, a waiter served hot soup and fresh bread while the mountains slid slowly past.\n\nA few practical tips: you must book your seat in advance, because the train is very popular. If you travel in summer, you will see green meadows, but winter offers snowy landscapes. Sit on the right side if you want the best views, and bring a warm jacket, because the windows can be cold.\n\nIf you ever have a free day in Switzerland, I strongly recommend this trip. It has taught me that the road is sometimes more beautiful than the destination.",
-  "word_count": 231,
+  "title_en": "Moroccan Markets and Culture",
+  "title_ru": "Марокканские базары и культура",
+  "description_ru": "Две недели в Марокко: площадь Джемаа-эль-Фна, лабиринты Феса, Сахара, тажин и мятный чай.",
+  "text": "The first thing that hits you in a Moroccan market is the noise. Voices, motorbikes, donkeys and the call of a seller shouting the price of oranges all blend into one extraordinary sound. The second thing is the smell, a rich mixture of spices, leather, mint and frying dough. I had read about the souks of Morocco for years, but nothing prepared me for the real experience. During two weeks in the country, I walked through ancient cities, crossed mountains and slept in the desert, and I came home with a bag full of gifts and a head full of stories.\n\nMy first stop was Marrakech, and in particular its famous square, Jemaa el-Fnaa. By day, it is a rather quiet place with orange-juice stalls and snake charmers. But at sunset, the whole square changes. Dozens of food stands appear, and smoke from the grills rises into the pink sky. Musicians, storytellers and acrobats create small circles of spectators. I sat at a long wooden table and ate grilled sausages, bread and a bowl of spicy soup called harira, while a boy of about ten tried to sell me a pair of sunglasses. I did not need them, but I admired his determination.\n\nBehind the square lies the souk, a maze of covered streets where each area specialises in a different craft. In one alley, men hammer copper lamps. In another, there are heaps of slippers in every colour, and in a third, rows of spices stand in cone-shaped pyramids. I learned quickly that haggling is part of the culture and even a kind of game. The seller begins with a very high price, and the buyer offers much less. Both smile, drink some tea and eventually agree on something in the middle. A friendly guide told me to start at a third of the first price and never to lose my sense of humour.\n\nFrom Marrakech, I took a long bus ride to Fes, which has the largest car-free urban area in the world. Its old city, Fes el-Bali, contains about nine thousand alleys, and I am sure that I walked in every one of them. Maps are useless there, since the signals disappear and the streets curve unpredictably. Fortunately, local children are happy to show you the way, and a small tip is expected. The city is also home to the Al-Qarawiyyin, founded in 859, which is often described as the oldest continuously operating university in the world.\n\nFes is also famous for its tanneries, where leather has been prepared in the same way for hundreds of years. From a balcony above, I looked down on a honeycomb of stone basins filled with red, yellow and blue dye, with workers standing in them up to their knees. The smell was strong, so the shopkeeper gave me a sprig of mint to hold under my nose. Afterwards, I bought a pair of leather slippers from the shop, which were soft and bright orange. They have lasted for a year already, and I think of Fes every time I wear them.\n\nAfter the cities, I wanted silence, so I travelled to the Sahara. We left from the small town of Merzouga on camels, and slowly walked into the dunes as the sun was setting. The sand changed colour from yellow to orange to deep red. It was cold at night, and I lay in the sand, looking at stars so numerous that they seemed unreal. Our guide, Hassan, played a drum around the fire and told us that his family has lived in the desert for generations. He said that the desert teaches patience.\n\nFood was an essential part of the journey. The traditional dish is the tagine, a stew of meat or vegetables, cooked slowly in a clay pot with a conical lid. It might contain chicken with olives and lemon, or lamb with apricots and almonds, and it is usually eaten with bread, using your right hand. Drinking sweet mint tea is a ritual of hospitality. The host pours it from a height, to create a little foam, and it is polite to accept at least three glasses. Once, I accepted five, and I did not sleep until three in the morning.\n\nBefore you travel, a few words of advice. Dress modestly, especially in smaller towns, and ask permission before photographing people. Carry small coins for tips and keep your bag close in crowded areas. Learn a few words of Arabic or French, such as \"shukran,\" which means \"thank you,\" because locals appreciate the effort. And most important of all, be patient with yourself and with the chaos. If you stay open and curious, Morocco will reward you with a generosity that you may never forget.",
+  "word_count": 793,
   "vocabulary": [
     {
-      "word": "glacier",
-      "ipa_us": "ˈɡleɪʃɚ",
-      "ipa_uk": "ˈɡlæsiə",
-      "translation_ru": "ледник"
+      "word": "souk",
+      "ipa_us": "suːk",
+      "ipa_uk": "suːk",
+      "translation_ru": "рынок (арабский)"
     },
     {
-      "word": "resorts",
-      "ipa_us": "rɪˈzɔːrts",
-      "ipa_uk": "rɪˈzɔːts",
-      "translation_ru": "курорты"
+      "word": "acrobats",
+      "ipa_us": "ˈækrəbæts",
+      "ipa_uk": "ˈækrəbæts",
+      "translation_ru": "акробаты"
     },
     {
-      "word": "tunnels",
-      "ipa_us": "ˈtʌnəlz",
-      "ipa_uk": "ˈtʌnəlz",
-      "translation_ru": "туннели"
+      "word": "haggling",
+      "ipa_us": "ˈhæɡlɪŋ",
+      "ipa_uk": "ˈhæɡlɪŋ",
+      "translation_ru": "торг"
     },
     {
-      "word": "carriages",
-      "ipa_us": "ˈkærɪdʒɪz",
-      "ipa_uk": "ˈkærɪdʒɪz",
-      "translation_ru": "вагоны"
+      "word": "maze",
+      "ipa_us": "meɪz",
+      "ipa_uk": "meɪz",
+      "translation_ru": "лабиринт"
     },
     {
-      "word": "admire",
-      "ipa_us": "ədˈmaɪɚ",
-      "ipa_uk": "ədˈmaɪə",
-      "translation_ru": "любоваться"
+      "word": "tanneries",
+      "ipa_us": "ˈtænəriz",
+      "ipa_uk": "ˈtænəriz",
+      "translation_ru": "кожевенные мастерские"
     },
     {
-      "word": "valleys",
-      "ipa_us": "ˈvæliz",
-      "ipa_uk": "ˈvæliz",
-      "translation_ru": "долины"
+      "word": "honeycomb",
+      "ipa_us": "ˈhʌniˌkoʊm",
+      "ipa_uk": "ˈhʌniˌkəʊm",
+      "translation_ru": "соты"
     },
     {
-      "word": "destination",
-      "ipa_us": "ˌdestɪˈneɪʃən",
-      "ipa_uk": "ˌdestɪˈneɪʃən",
-      "translation_ru": "пункт назначения"
+      "word": "dunes",
+      "ipa_us": "duːnz",
+      "ipa_uk": "djuːnz",
+      "translation_ru": "дюны"
+    },
+    {
+      "word": "tagine",
+      "ipa_us": "tæˈʒiːn",
+      "ipa_uk": "tæˈʒiːn",
+      "translation_ru": "тажин"
+    },
+    {
+      "word": "hospitality",
+      "ipa_us": "ˌhɑːspɪˈtæləti",
+      "ipa_uk": "ˌhɒspɪˈtæləti",
+      "translation_ru": "гостеприимство"
+    },
+    {
+      "word": "modestly",
+      "ipa_us": "ˈmɑːdɪstli",
+      "ipa_uk": "ˈmɒdɪstli",
+      "translation_ru": "скромно"
+    },
+    {
+      "word": "determination",
+      "ipa_us": "dɪˌtɜːrmɪˈneɪʃən",
+      "ipa_uk": "dɪˌtɜːmɪˈneɪʃən",
+      "translation_ru": "решимость"
+    },
+    {
+      "word": "generosity",
+      "ipa_us": "ˌdʒɛnəˈrɑːsəti",
+      "ipa_uk": "ˌdʒenəˈrɒsəti",
+      "translation_ru": "щедрость"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "h",
       "examples": [
-        "valleys",
-        "villages",
-        "travel"
+        "haggling",
+        "honeycomb",
+        "hospitality",
+        "hundreds"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "window",
-        "waterfalls",
-        "waiter",
-        "wooden"
-      ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»; рот расслаблен."
     },
     {
       "sound": "æ",
       "examples": [
-        "passengers",
-        "valleys",
-        "carriages"
+        "acrobats",
+        "camels",
+        "sand",
+        "grilled"
       ],
-      "tip_ru": "Откройте рот шире, чем для русского «э», язык низко и впереди: звук между «э» и «а»."
+      "tip_ru": "Широко откройте рот, язык низко; звук между «а» и «э», не заменяйте на «э»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "dunes",
+        "hundreds",
+        "something",
+        "much"
+      ],
+      "tip_ru": "Короткий звук, похожий на русское «а» в безударной позиции; рот открыт умеренно."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "hospitality",
+        "determination",
+        "generosity",
+        "tanneries"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "How long does the journey take?",
-      "answer": "About eight hours.",
+      "question": "What happens in Jemaa el-Fnaa at sunset?",
+      "answer": "Food stands, musicians, storytellers and acrobats appear.",
       "accepted_keywords": [
-        "eight",
-        "8"
+        "food",
+        "musicians",
+        "stands",
+        "acrobats",
+        "storytellers"
       ]
     },
     {
-      "question": "Which pass is the highest point?",
-      "answer": "The Oberalp Pass.",
+      "question": "What is Fes famous for?",
+      "answer": "Its enormous car-free old city, ancient university and tanneries.",
       "accepted_keywords": [
-        "oberalp"
+        "tanneries",
+        "university",
+        "medina",
+        "leather",
+        "alleys"
       ]
     },
     {
-      "question": "Why should passengers book in advance?",
-      "answer": "The train is very popular.",
+      "question": "How is a tagine cooked?",
+      "answer": "Slowly in a clay pot with a conical lid.",
       "accepted_keywords": [
-        "popular"
+        "clay",
+        "slowly",
+        "pot",
+        "lid"
+      ]
+    },
+    {
+      "question": "What advice is given about bargaining?",
+      "answer": "Start at a third of the first price and keep your sense of humour.",
+      "accepted_keywords": [
+        "third",
+        "humour",
+        "humor",
+        "price",
+        "start"
       ]
     }
   ]

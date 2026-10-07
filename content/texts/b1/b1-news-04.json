@@ -2,137 +2,157 @@
   "id": "b1-news-04",
   "level": "B1",
   "genre": "news",
-  "title_en": "Rooftop Garden Feeds a Neighbourhood",
-  "title_ru": "Сад на крыше кормит целый район",
-  "description_ru": "Вымышленная новость о жителях дома, которые вырастили овощи на крыше и делятся урожаем.",
-  "text": "Residents of an apartment building in the city of Eastham have turned their grey rooftop into a thriving vegetable garden. The project, called Green Roof, began last year with only six wooden boxes and a few bags of soil.\n\nToday the garden has more than sixty boxes, a small greenhouse and even three beehives. Volunteers have grown tomatoes, carrots, beans and herbs, and they give away everything that they cannot eat themselves. Last month alone, the group delivered two hundred kilograms of fresh vegetables to a nearby food bank.\n\nThe idea came from retired nurse Dorothy Cole, who is seventy-two years old. \"I used to have a big garden in the countryside,\" she said. \"When I moved here, I missed the smell of the earth. One day I looked up at the empty roof and thought, why not?\"\n\nAt first, the building's owner refused to give permission. He was worried that the weight of the soil might damage the roof. Engineers checked the structure and confirmed that it was safe, so he changed his mind.\n\nThe garden has also changed life inside the building. Neighbours who had never spoken now meet every Saturday to water the plants and share tea. \"Before the garden, I did not know anyone's name,\" said student Ahmed Rahman. \"Now I know everybody on all eight floors.\"\n\nCity officials have visited the roof and say they would like to help other buildings do the same. If the plan goes ahead, similar gardens could appear across Eastham by next summer.",
-  "word_count": 254,
+  "title_en": "Silver Surfers Club Teaches Older Residents to Go Online",
+  "title_ru": "Клуб «Серебряные сёрферы» учит пожилых жителей пользоваться интернетом",
+  "description_ru": "Вымышленная новость: в городке Хартсворт бывший учитель создала бесплатный компьютерный клуб для пожилых, и он изменил их жизнь.",
+  "text": "For most of his life, seventy-eight-year-old Bernard Pike never touched a computer. He spent forty years as a bus driver in the town of Hartsworth, and when he retired he said that he would never need one. Today, however, he is the star of a free computer club that has taught more than four hundred older people to use the internet, and he has written his own small program that lets his grandchildren draw pictures on his screen. \"I thought that I was too old,\" he said. \"I was wrong.\"\n\nThe Silver Surfers club began two years ago in a cold church hall. Its founder, a former primary school teacher called Margaret Oyelaran, noticed that many of her neighbours were feeling left behind. Banks were closing their branches, bus timetables had moved onto websites, and relatives were sending photographs that the neighbours could not open. \"A lot of older people were embarrassed,\" she said. \"They did not want to ask for help, and so they stayed at home.\" She asked the local library to lend her six old laptops, and she placed a notice in a shop window. Eleven people came to the first lesson.\n\nSince then the club has grown rapidly. It now meets three times a week in the library, and it has a waiting list of almost sixty people. The volunteers who run the lessons include students, office workers and even a few teenagers who have come after school. Some members have never used a mouse, so the first lesson is usually about clicking and typing. After that, students learn how to send emails, make video calls, shop safely online and avoid the scams that trick so many people. \"The first time my daughter appeared on the screen, I cried,\" said Doris Lindqvist, who is eighty-four. \"She lives in another country, and I had not seen her face for two years.\"\n\nThe club has also had an unexpected benefit: friendship. Many of the members live alone, and the lessons, which end with tea and cake, have become the highlight of their week. Researchers at Hartsworth University have studied the group for several months, and they have found that members report feeling less lonely and more confident than before. \"Technology can seem cold,\" said Dr Anita Rowe, who led the study, \"but if people learn it together, it can bring them closer.\"\n\nLearning has not always been easy. The most common problem, say the volunteers, is fear. Some members worry that they will break the computer by pressing the wrong key, while others are afraid of being tricked by criminals. To help them, the club has a famous rule: \"If you make a mistake, say sorry to the computer and try again.\" Bernard Pike, who is now one of the volunteer teachers, says that it works. \"I once deleted all my photographs by accident,\" he said. \"I nearly gave up, but the others laughed, helped me find them, and made me a cup of tea.\"\n\nThe council has noticed the club's success. Last month, it offered a grant of five thousand pounds so that the group can buy new laptops and pay for a bigger room. Councillor Dorothy Venn said that the programme saved the town money by helping older people to book appointments and pay bills without travelling. \"If every town had a club like this, we would have fewer lonely people and fewer missed doctors' appointments,\" she said. Other towns have already asked how they can copy it, and Ms Oyelaran has agreed to write a short guide that explains the idea.\n\nThe youngest volunteers say that they have learned just as much as the members. Fifteen-year-old Kofi Mensah, who helps on Wednesday afternoons, said that explaining things slowly had improved his own understanding. \"Older people ask very good questions,\" he said. \"They always want to know why something works, not only which button to press.\" Several of the teenagers have already decided that they would like to become teachers.\n\nNot everyone is enthusiastic. A few members believe that older people should not be pushed into using technology, and they argue that banks and public offices should still provide paper forms and face-to-face help. Ms Oyelaran agrees. \"Nobody should be forced,\" she said. \"But if somebody wants to learn, it should be easy and free.\"\n\nNext month, the club will hold its first graduation ceremony. Fourteen students will receive certificates, and Bernard Pike has promised to give a speech. He has already practised it on a video call with his grandchildren. \"I will tell them that you are never too old to learn,\" he said, smiling. \"And then I will ask them how to turn the microphone on.\"",
+  "word_count": 790,
   "vocabulary": [
     {
-      "word": "thriving",
-      "ipa_us": "ˈθraɪvɪŋ",
-      "ipa_uk": "ˈθraɪvɪŋ",
-      "translation_ru": "процветающий"
+      "word": "technology",
+      "ipa_us": "tɛkˈnɑːlədʒi",
+      "ipa_uk": "tekˈnɒlədʒi",
+      "translation_ru": "технологии"
     },
     {
-      "word": "greenhouse",
-      "ipa_us": "ˈɡrinˌhaʊs",
-      "ipa_uk": "ˈɡriːnhaʊs",
-      "translation_ru": "теплица"
+      "word": "retired",
+      "ipa_us": "rɪˈtaɪrd",
+      "ipa_uk": "rɪˈtaɪəd",
+      "translation_ru": "вышедший на пенсию"
     },
     {
-      "word": "beehives",
-      "ipa_us": "ˈbiˌhaɪvz",
-      "ipa_uk": "ˈbiːhaɪvz",
-      "translation_ru": "ульи"
+      "word": "founder",
+      "ipa_us": "ˈfaʊndər",
+      "ipa_uk": "ˈfaʊndə",
+      "translation_ru": "основатель"
     },
     {
-      "word": "volunteers",
-      "ipa_us": "ˌvɑlənˈtɪrz",
-      "ipa_uk": "ˌvɒlənˈtɪəz",
-      "translation_ru": "добровольцы"
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbærəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущённый"
     },
     {
-      "word": "delivered",
-      "ipa_us": "dɪˈlɪvərd",
-      "ipa_uk": "dɪˈlɪvəd",
-      "translation_ru": "доставили"
+      "word": "scams",
+      "ipa_us": "skæmz",
+      "ipa_uk": "skæmz",
+      "translation_ru": "мошенничества"
     },
     {
-      "word": "countryside",
-      "ipa_us": "ˈkʌntriˌsaɪd",
-      "ipa_uk": "ˈkʌntrisaɪd",
-      "translation_ru": "сельская местность"
+      "word": "confident",
+      "ipa_us": "ˈkɑːnfɪdənt",
+      "ipa_uk": "ˈkɒnfɪdənt",
+      "translation_ru": "уверенный"
     },
     {
-      "word": "permission",
-      "ipa_us": "pərˈmɪʃən",
-      "ipa_uk": "pəˈmɪʃən",
-      "translation_ru": "разрешение"
+      "word": "lonely",
+      "ipa_us": "ˈloʊnli",
+      "ipa_uk": "ˈləʊnli",
+      "translation_ru": "одинокий"
     },
     {
-      "word": "confirmed",
-      "ipa_us": "kənˈfɜrmd",
-      "ipa_uk": "kənˈfɜːmd",
-      "translation_ru": "подтвердили"
+      "word": "graduation",
+      "ipa_us": "ˌɡrædʒuˈeɪʃən",
+      "ipa_uk": "ˌɡrædʒuˈeɪʃən",
+      "translation_ru": "выпускной"
     },
     {
-      "word": "officials",
-      "ipa_us": "əˈfɪʃəlz",
-      "ipa_uk": "əˈfɪʃəlz",
-      "translation_ru": "чиновники"
+      "word": "grant",
+      "ipa_us": "ɡrænt",
+      "ipa_uk": "ɡrɑːnt",
+      "translation_ru": "грант"
+    },
+    {
+      "word": "certificates",
+      "ipa_us": "sərˈtɪfɪkəts",
+      "ipa_uk": "səˈtɪfɪkəts",
+      "translation_ru": "сертификаты"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "vegetable",
-        "volunteers",
-        "delivered",
-        "every"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thriving",
-        "three",
-        "thought",
-        "month"
+        "month",
+        "something",
+        "things",
+        "thousand"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "r",
+      "sound": "w",
       "examples": [
-        "roof",
-        "green",
-        "retired",
-        "refused"
+        "week",
+        "window",
+        "without",
+        "worry"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "clicking",
+        "learning",
+        "sending",
+        "typing"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "technology",
+        "confident",
+        "graduation",
+        "certificates"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "What is the garden called?",
-      "answer": "Green Roof.",
+      "question": "How did the Silver Surfers club begin?",
+      "answer": "A former teacher asked the library to lend six old laptops, and eleven people came to the first lesson.",
       "accepted_keywords": [
-        "green",
-        "roof"
+        "laptops",
+        "teacher",
+        "eleven",
+        "library",
+        "church"
       ]
     },
     {
-      "question": "What happens to the extra vegetables?",
-      "answer": "They are given to a food bank.",
+      "question": "What do students learn in the lessons?",
+      "answer": "They learn to send emails, make video calls, shop safely and avoid scams.",
       "accepted_keywords": [
-        "food",
-        "bank",
-        "give",
-        "given"
+        "emails",
+        "email",
+        "video",
+        "calls",
+        "shop",
+        "scams"
       ]
     },
     {
-      "question": "Why did the owner first refuse permission?",
-      "answer": "He worried the soil was too heavy for the roof.",
+      "question": "What benefit did researchers find?",
+      "answer": "Members feel less lonely and more confident.",
       "accepted_keywords": [
-        "weight",
-        "heavy",
-        "damage",
-        "roof"
+        "lonely",
+        "confident",
+        "friendship",
+        "less"
       ]
     },
     {
-      "question": "How has the garden changed life in the building?",
-      "answer": "Neighbours now meet and talk.",
+      "question": "What is the club's famous rule?",
+      "answer": "If you make a mistake, say sorry to the computer and try again.",
       "accepted_keywords": [
-        "neighbours",
-        "meet",
-        "talk",
-        "share",
-        "tea"
+        "sorry",
+        "mistake",
+        "try",
+        "again"
       ]
     }
   ]

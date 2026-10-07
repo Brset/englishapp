@@ -2,134 +2,165 @@
   "id": "b2-news-01",
   "level": "B2",
   "genre": "news",
-  "title_en": "Villagers Save Library from Flood",
-  "title_ru": "Жители спасли библиотеку от наводнения",
-  "description_ru": "Вымышленная новость о том, как жители городка спасали книги во время сильного паводка.",
-  "text": "Residents of the fictional town of Harlow Bridge spent a sleepless night on Tuesday saving thousands of books after the River Ennis burst its banks. By dawn, more than two hundred volunteers had formed a human chain stretching from the flooded library to the dry hall of the nearby church.\n\nAccording to town councillor Margaret Oakley, the water began to rise shortly after midnight, following three days of heavy rain in the hills. \"At first we thought the sandbags would be enough,\" she told reporters. \"Then someone shouted that the basement was filling up, and everybody ran.\" The rare local history collection, which is kept on the lowest floor, was reported to be at serious risk.\n\nVolunteers passed the books from hand to hand, wrapping the most valuable ones in plastic bags and blankets. A bakery owner, Victor Lindqvist, said that he had been woken by his neighbour's phone call at one o'clock. \"I put my coat on over my pyjamas and ran down the street,\" he said. \"Nobody gave us orders, but everyone knew what to do.\"\n\nBy six o'clock in the morning, around eleven thousand books had been carried to safety. Fewer than fifty were damaged beyond repair. The fire service, which arrived with pumps shortly before dawn, praised the volunteers and said that the speed of their reaction had prevented a much larger disaster.\n\nThe water has now fallen, but the library will remain closed for at least three months while the building is dried and repaired. Engineers have warned that the walls may have to be replaced. The council has promised that a temporary reading room will be opened in the church hall next week, and a fund has been set up to pay for the restoration. More than four thousand pounds had already been donated by Wednesday evening.\n\nLibrarian Helen Marsh, who has worked in the building for thirty years, said she was moved to tears. \"People often say that libraries are old-fashioned,\" she said. \"Last night proved that this one is the heart of the town.\"\n\nWeather experts say that further rain is expected at the weekend, and residents have been advised to keep their sandbags ready.",
+  "title_en": "Lost Clock Returns to Thistledown",
+  "title_ru": "Пропавшие часы вернулись в Тисслдаун",
+  "description_ru": "Вымышленная новость о том, как украденные часы с городской башни нашлись спустя сорок лет.",
+  "text": "The famous brass clock of the fictional town of Thistledown, which disappeared from the market tower forty years ago, was returned to the town on Saturday in a wooden crate marked with the words \"Fragile: Very Old\". Hundreds of residents gathered in the square to watch as the clock was lifted from a delivery van, and many of them were reported to be in tears. The mayor, Gwendolyn Fairweather, described the day as the happiest of her career.\n\nThe clock, which was built in 1887 by a local clockmaker named Josiah Penhallow, was removed from the tower in the winter of 1984. At the time, police believed that it had been stolen by a gang of metal thieves, who were thought to have sold it for scrap. The tower was left with a blank wooden face, and the townspeople, who were famously stubborn, refused to replace it. For four decades the saying \"as reliable as the Thistledown clock\" meant something that never worked.\n\nThe mystery was solved earlier this month, when an antiques dealer in a distant city contacted the town council. According to a statement issued by the council, the dealer had bought the mechanism at an auction ten years ago, but he had not been able to identify it until a customer noticed a tiny inscription on the inside of the casing. The words, which were engraved in Penhallow's careful handwriting, read: \"Made for the people of Thistledown, who are always late.\"\n\nThe dealer, Rafael Quillfeather, told reporters that he had not hesitated for a moment. \"I could have asked for a fortune,\" he said, \"but a clock belongs where people can hear it strike. I would rather be remembered as the man who sent it home than the man who made a profit.\" He added that he had polished the brass himself during the journey, and that he had talked to the clock the whole way, which he admitted was a little embarrassing.\n\nNot everyone in Thistledown was overjoyed at first. A retired baker, Winifred Larch, who was eighty-four, said that she had grown rather fond of the empty tower. \"It was a good excuse for being late,\" she said, laughing. \"Whenever my husband complained, I would point at the tower and ask him how he expected me to know the time.\" She admitted, however, that she had cried when she heard the first chime. \"I was a girl when it last rang,\" she said. \"It sounded exactly the same.\"\n\nThe clock was found to be in remarkably good condition. A specialist from the regional museum, Dr Oswin Thackeray, who was invited to examine it, said that only two of the wheels needed to be replaced, and that the pendulum, which had been wrapped in cloth, was almost perfect. He explained that the thieves had probably not realised how valuable the clock was. \"It was almost certainly saved by its own weight,\" he said. \"It was too heavy to be melted down in a hurry, so somebody put it in a barn and forgot about it.\"\n\nRepairs are expected to take a month, and the council has promised that the clock will be fitted back into the tower before the winter fair. A fund has been opened to pay for the work, and a small group of schoolchildren has already raised two hundred pounds by selling lemonade. The council has also announced that a new security system will be installed. \"We shall not lose it twice,\" said Ms Fairweather. \"If anyone tries, they will have to carry it past eight hundred suspicious grandmothers.\"\n\nMeanwhile, the question of how the clock ended up in the dealer's hands remains unanswered. The police, who reopened the investigation this week, have said that the original thieves are unlikely to be traced after so long. Several elderly residents have been interviewed, and one of them has apparently suggested that a student prank may have gone wrong in the 1980s. No evidence has been found, and Mr Quillfeather has stated that the seller at the auction was anonymous.\n\nThe scene in the square on Saturday was described by one eyewitness as something between a wedding and a football match. A brass band played, children waved paper flags, and an elderly man who had been the last person to wind the clock was lifted on to the mayor's platform and given a standing ovation. When he was asked how it felt to see it again, he replied that he had been waiting forty years to tell everyone that he had been right about the time all along.\n\nVisitors are welcome to see the clock in the town hall until the end of the month. After that, it will be returned to its tower, where it is expected to chime every hour, even at night. The residents, whose sleep may suffer, say they do not mind in the least.",
+  "word_count": 813,
   "vocabulary": [
     {
-      "word": "sleepless",
-      "ipa_us": "ˈsliplɪs",
-      "ipa_uk": "ˈsliːpləs",
-      "translation_ru": "бессонный"
+      "word": "brass",
+      "ipa_us": "bræs",
+      "ipa_uk": "brɑːs",
+      "translation_ru": "латунь"
     },
     {
-      "word": "volunteers",
-      "ipa_us": "ˌvɑlənˈtɪrz",
-      "ipa_uk": "ˌvɒlənˈtɪəz",
-      "translation_ru": "добровольцы"
+      "word": "fragile",
+      "ipa_us": "ˈfrædʒəl",
+      "ipa_uk": "ˈfrædʒaɪl",
+      "translation_ru": "хрупкий"
     },
     {
-      "word": "councillor",
-      "ipa_us": "ˈkaʊnsələr",
-      "ipa_uk": "ˈkaʊnsələ",
-      "translation_ru": "член совета"
+      "word": "clockmaker",
+      "ipa_us": "ˈklɑkˌmeɪkər",
+      "ipa_uk": "ˈklɒkˌmeɪkə",
+      "translation_ru": "часовщик"
     },
     {
-      "word": "sandbags",
-      "ipa_us": "ˈsændbæɡz",
-      "ipa_uk": "ˈsændbæɡz",
-      "translation_ru": "мешки с песком"
+      "word": "stubborn",
+      "ipa_us": "ˈstʌbərn",
+      "ipa_uk": "ˈstʌbən",
+      "translation_ru": "упрямый"
     },
     {
-      "word": "basement",
-      "ipa_us": "ˈbeɪsmənt",
-      "ipa_uk": "ˈbeɪsmənt",
-      "translation_ru": "подвал"
+      "word": "auction",
+      "ipa_us": "ˈɔkʃən",
+      "ipa_uk": "ˈɔːkʃən",
+      "translation_ru": "аукцион"
     },
     {
-      "word": "valuable",
-      "ipa_us": "ˈvæljəbəl",
-      "ipa_uk": "ˈvæljʊbəl",
-      "translation_ru": "ценный"
+      "word": "inscription",
+      "ipa_us": "ɪnˈskrɪpʃən",
+      "ipa_uk": "ɪnˈskrɪpʃən",
+      "translation_ru": "надпись"
     },
     {
-      "word": "restoration",
-      "ipa_us": "ˌrɛstəˈreɪʃən",
-      "ipa_uk": "ˌrestəˈreɪʃən",
-      "translation_ru": "восстановление"
+      "word": "engraved",
+      "ipa_us": "ɪnˈɡreɪvd",
+      "ipa_uk": "ɪnˈɡreɪvd",
+      "translation_ru": "выгравированный"
     },
     {
-      "word": "donated",
-      "ipa_us": "ˈdoʊneɪtɪd",
-      "ipa_uk": "dəʊˈneɪtɪd",
-      "translation_ru": "пожертвованы"
+      "word": "hesitated",
+      "ipa_us": "ˈhɛzɪˌteɪtɪd",
+      "ipa_uk": "ˈhezɪteɪtɪd",
+      "translation_ru": "колебался"
+    },
+    {
+      "word": "pendulum",
+      "ipa_us": "ˈpɛndʒələm",
+      "ipa_uk": "ˈpendjʊləm",
+      "translation_ru": "маятник"
+    },
+    {
+      "word": "investigation",
+      "ipa_us": "ɪnˌvɛstɪˈɡeɪʃən",
+      "ipa_uk": "ɪnˌvestɪˈɡeɪʃən",
+      "translation_ru": "расследование"
+    },
+    {
+      "word": "anonymous",
+      "ipa_us": "əˈnɑnəməs",
+      "ipa_uk": "əˈnɒnɪməs",
+      "translation_ru": "анонимный"
+    },
+    {
+      "word": "ovation",
+      "ipa_us": "oʊˈveɪʃən",
+      "ipa_uk": "əʊˈveɪʃən",
+      "translation_ru": "овация"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ð",
       "examples": [
-        "volunteers",
-        "valuable",
-        "Victor",
-        "heavy"
+        "this",
+        "that",
+        "rather",
+        "they"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+      "tip_ru": "Тот же положение языка, что для θ, но с голосом: звук гудит, не «з»."
     },
     {
       "sound": "w",
       "examples": [
-        "water",
-        "woken",
-        "walls",
-        "worked"
+        "were",
+        "was",
+        "when",
+        "which"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "thousands",
-        "three",
-        "thirty",
-        "months"
+        "brass",
+        "fragile",
+        "clockmaker",
+        "stubborn"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
-      "sound": "r",
+      "sound": "dark-l",
       "examples": [
-        "rain",
-        "River",
-        "repair",
-        "reporters"
+        "all",
+        "small",
+        "will",
+        "tell"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "Which river burst its banks?",
-      "answer": "The River Ennis.",
+      "question": "How long had the clock been missing?",
+      "answer": "Forty years.",
       "accepted_keywords": [
-        "ennis"
+        "forty",
+        "40"
       ]
     },
     {
-      "question": "How many volunteers formed the human chain?",
-      "answer": "More than two hundred.",
+      "question": "How was the clock identified?",
+      "answer": "A customer noticed a tiny inscription inside the casing.",
       "accepted_keywords": [
-        "two hundred",
-        "200",
-        "hundred"
+        "inscription",
+        "engraved",
+        "words",
+        "casing",
+        "customer"
       ]
     },
     {
-      "question": "How long will the library stay closed?",
-      "answer": "At least three months.",
+      "question": "Why was the clock probably not melted down?",
+      "answer": "It was too heavy.",
       "accepted_keywords": [
-        "three",
-        "months"
+        "heavy",
+        "weight"
       ]
     },
     {
-      "question": "Where will the temporary reading room be?",
-      "answer": "In the church hall.",
+      "question": "What did the dealer say about why he sent the clock home?",
+      "answer": "A clock belongs where people can hear it strike.",
       "accepted_keywords": [
-        "church"
+        "belongs",
+        "hear",
+        "strike",
+        "people",
+        "home"
       ]
     }
-  ],
-  "word_count": 364
+  ]
 }

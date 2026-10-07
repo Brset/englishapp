@@ -2,133 +2,165 @@
   "id": "c2-dialogue-04",
   "level": "C2",
   "genre": "dialogue",
-  "title_en": "The Mantel Clock",
-  "title_ru": "Каминные часы",
-  "description_ru": "Антиквар и покупательница торгуются из-за часов с сомнительным происхождением. Каждая реплика скрывает подвох.",
-  "text": "Fenwick: Ah, madam, you have an eye. That clock is a Regency mantel piece, circa 1815, in original working order.\nOakes: It says seven minutes past four, and it is a quarter to two.\nFenwick: It keeps its own time. Many of the finest pieces do. One must meet them halfway.\nOakes: I should prefer a clock that meets me. What is the provenance?\nFenwick: Provenance. Yes. A distinguished one. It belonged, I am told, to a lady of considerable breeding.\nOakes: Told by whom?\nFenwick: By the lady's nephew. Who, I should say, had a very honest face.\nOakes: I find that the faces of nephews are rarely the most reliable evidence. Why is the back panel screwed down with modern screws?\nFenwick: Preservation. The original fastenings were, ah, not up to the task.\nOakes: Mr. Fenwick, the screws are stamped with the name of a supermarket.\nFenwick: A supermarket with exceptional ironmongery. Now, madam, I have other buyers who are most keen. A gentleman was in only this morning.\nOakes: Was he, by any chance, your nephew?\nFenwick: I am an only child.\nOakes: A tragic fact, though it does explain the confidence.\nOakes: Of course. Let me be plain. I am a retired horologist. I spent forty years restoring clocks for the National Trust, and I can tell a Regency movement from a Tuesday afternoon in Birmingham.\nFenwick: I see. And what, in your expert opinion, is this?\nOakes: A Victorian case, with a Continental movement from about 1890, and a dial that was repainted last week.\nFenwick: Last week? Surely not.\nOakes: It is still faintly tacky, Mr. Fenwick, and it smells of enamel.\nFenwick: Perhaps the previous owner liked to keep it fresh.\nOakes: The previous owner, I suspect, was you, on Thursday, with a small brush and a radio playing.\nFenwick: It is a very old enamel.\nOakes: It is a very fresh one. However. I should like to buy it.\nFenwick: You would? That is, I mean, naturally. I would not dream of parting with it for less than four hundred pounds.\nOakes: Eighty.\nFenwick: Madam, that is an insult to the craftsman.\nOakes: The craftsman, if he exists, was probably paid forty. I shall say one hundred and twenty, on condition that you tell me where the movement really came from.\nFenwick: It came from a house clearance in Dorchester. A very sad house. Seven cats.\nOakes: And the lady of breeding?\nFenwick: Possibly one of the cats.\nOakes: I see. A dynasty of cats, then, and a clock that has outlived them all.\nOakes: That is the first honest thing you have said all afternoon. One hundred and fifty, and I shall not mention the supermarket screws.\nFenwick: Done. You drive a hard bargain, Mrs. Oakes.\nOakes: I drive a soft one, Mr. Fenwick. I could have reported you to Trading Standards.\nFenwick: I shall wrap it in my best tissue paper. May I ask why you want it? It is, frankly, a fraud.\nOakes: It is a very good fraud. Somebody put real affection into that dial. I should like to see it run.\nFenwick: Well. I suppose that is the most flattering thing anyone has said about my stock.\nOakes: Do not let it go to your head. You still owe me a receipt, a guarantee, and an apology to the cats.",
-  "word_count": 523,
+  "title_en": "Under the Varnish",
+  "title_ru": "Под лаком",
+  "description_ru": "Куратор музея и реставратор рассматривают прославленную картину и спорят, что делать с находкой под слоем лака. Напряжённый и ироничный диалог об искусстве и репутации.",
+  "text": "Ines: Tobias, you have the face of a man who has just opened a very expensive envelope and found a bill. Please tell me this is merely fatigue.\nTobias: I wish it were. Sit down, Ines, and do not touch anything. I have spent three weeks removing the varnish from The Shepherdess, and under the lower left corner, where the shadow of the tree ought to be, there is a signature. It is not the signature of the artist.\n\nInes: Not the artist. Then whose? Please do not say a pupil. Pupils are the thin end of a very long and very litigious wedge.\nTobias: Worse. It is a monogram, and the monogram belongs to a minor Flemish painter named Aldrick Verhoeven, who died in 1683 in a state of cheerful obscurity. The Shepherdess, which this museum purchased in 1952 for what was then a staggering sum, appears to have been painted by a man nobody has ever heard of.\n\nInes: Is it possible that the signature was added later? By someone with a grudge, a restorer with too much time, a vandal with a very fine brush?\nTobias: That was my first hope. I examined it under ultraviolet light, which reveals later additions as a dark, dull patch, like a bruise. This is no bruise. It sits beneath the craquelure, the network of fine cracks, which means it was there when the paint dried. The signature is old, Ines, and it is honest. It is the attribution that is the lie.\n\nInes: Be careful with that word. \"Lie\" implies intent. We prefer, in the profession, to say that an attribution has been \"revised in the light of new evidence\". It is such a tidy phrase. It sounds like a footnote with a pension.\nTobias: Call it what you like. The painting hangs in our central gallery beneath a placard that says \"Attributed to the Master of the Silver Lamb\". There are four hundred schoolchildren on the schedule next month to be told about his genius. What do I tell them? That the genius turned out to be a clerical error?\n\nInes: Spare me the rhetoric, my dear Tobias, and the schoolchildren with it, and tell me something practical instead: who knows? Have you spoken to the registrar, to the chairman, to that terrifying woman from the auction house who treats every canvas as if it were a nephew with a trust fund? In our business, a secret has the half-life of a soufflé.\nTobias: Nobody knows. I told only my assistant, and I made her swear on a jar of linseed oil. She is twenty-three, reliable, and has not slept since Thursday. I fear the secret is sitting on her chest like a small, heavy cat, and I suspect it has begun to purr.\n\nInes: You tell them nothing, for the moment. First we establish the facts. Have you tested the pigments? If the blue is a later synthetic, then the whole painting is a forgery, and Verhoeven is a red herring painted over by a ruthless nineteenth-century hand.\nTobias: I tested it on Monday. The blue is natural ultramarine, ground from lapis lazuli, the real thing, as costly in the seventeenth century as gold. The ground layer is a chalk and glue mixture consistent with the Low Countries around 1670. Everything about it is authentic. It simply is not what we said it was.\n\nInes: So we have a genuine painting by a genuine nobody. That is almost harder to confess than a fake. A fraud has a certain glamour. A mistake is merely embarrassing.\nTobias: Let me add one more complication, since misery enjoys company. Verhoeven's other known works are all in private hands, mostly in the cellars of people who bought them as a sort of upholstery. If the news breaks, every one of them will appear on the market, each with a certificate, a story, and a hungry dealer. We shall have created, in a single afternoon, the most expensive nobody in northern Europe.\n\nInes: Then we shall be responsible for his fame, and for the inevitable conference, the inevitable catalogue, and the inevitable sandwich lunch afterwards, and fame, as we know, is merely obscurity with a better publicist.\nTobias: I will say this in its favour. The painting is, if anything, better than we thought. Now that the yellowed varnish is gone, the sky is a clear, cold silver, and the shepherdess has an expression that I can only describe as sceptical. She looks at you as though you were about to sell her a sheep. The old varnish had turned her into a sentimental ornament. Verhoeven, it seems, painted a woman with opinions.\n\nInes: That is rather lovely, and I suppose we ought to be grateful. But the trustees will not share your enthusiasm for her scepticism. They will want to know why a gallery with an annual budget of three million pounds allowed a three-hundred-year-old confusion to hang unchallenged for seventy years.\nTobias: Because, Ines, we are an institution of scholars, and scholars are enormously reluctant to look closely at what they already admire. The painting has a famous name attached to it. Nobody scrapes at a famous name to see what lies beneath. It is the oldest human weakness: we prefer the label to the object.\n\nInes: Then let us become a museum that prefers the object. I shall draft a statement. We will announce the discovery ourselves, before some journalist with a long lens does it for us. We will call it a triumph of conservation, which, I might add, it is. You will be the hero, in a rather quiet, cardigan-wearing way, and you will hate every second of the dinner that follows.\nTobias: And Verhoeven?\n\nInes: Verhoeven will have the best retrospective of his life, three hundred and forty years after his funeral. I think he would find it funnier than any of us. I shall even order a modest banner for the entrance, with his name spelled correctly, which will be a novelty for him. The shepherdess, meanwhile, will remain exactly where she is, because I refuse to take her down for the sake of an apology. Come, let us go and tell the shepherdess. She does not look as though she will be surprised.",
+  "word_count": 1031,
   "vocabulary": [
     {
-      "word": "provenance",
-      "ipa_us": "ˈprɑːvənəns",
-      "ipa_uk": "ˈprɒvənəns",
-      "translation_ru": "происхождение, история владения"
+      "word": "litigious",
+      "ipa_us": "lɪˈtɪdʒəs",
+      "ipa_uk": "lɪˈtɪdʒəs",
+      "translation_ru": "сутяжный"
     },
     {
-      "word": "Regency",
-      "ipa_us": "ˈriːdʒənsi",
-      "ipa_uk": "ˈriːdʒənsi",
-      "translation_ru": "эпохи Регентства"
+      "word": "obscurity",
+      "ipa_us": "əbˈskjʊrəti",
+      "ipa_uk": "əbˈskjʊərɪti",
+      "translation_ru": "безвестность"
     },
     {
-      "word": "preservation",
-      "ipa_us": "ˌprezərˈveɪʃən",
-      "ipa_uk": "ˌprezəˈveɪʃən",
-      "translation_ru": "сохранение"
+      "word": "monogram",
+      "ipa_us": "ˈmɑːnəˌɡræm",
+      "ipa_uk": "ˈmɒnəɡræm",
+      "translation_ru": "монограмма"
     },
     {
-      "word": "ironmongery",
-      "ipa_us": "ˈaɪərnmʌŋɡəri",
-      "ipa_uk": "ˈaɪənmʌŋɡəri",
-      "translation_ru": "скобяные изделия"
+      "word": "ultraviolet",
+      "ipa_us": "ˌʌltrəˈvaɪələt",
+      "ipa_uk": "ˌʌltrəˈvaɪələt",
+      "translation_ru": "ультрафиолетовый"
     },
     {
-      "word": "horologist",
-      "ipa_us": "həˈrɑːlədʒɪst",
-      "ipa_uk": "həˈrɒlədʒɪst",
-      "translation_ru": "часовщик, знаток часов"
+      "word": "craquelure",
+      "ipa_us": "ˈkrækəˌlʊr",
+      "ipa_uk": "ˈkrækəljʊə",
+      "translation_ru": "кракелюр"
     },
     {
-      "word": "movement",
-      "ipa_us": "ˈmuːvmənt",
-      "ipa_uk": "ˈmuːvmənt",
-      "translation_ru": "часовой механизм"
+      "word": "attribution",
+      "ipa_us": "ˌætrɪˈbjuːʃən",
+      "ipa_uk": "ˌætrɪˈbjuːʃ(ə)n",
+      "translation_ru": "атрибуция"
     },
     {
-      "word": "tacky",
-      "ipa_us": "ˈtæki",
-      "ipa_uk": "ˈtæki",
-      "translation_ru": "липкий, не высохший"
+      "word": "pigments",
+      "ipa_us": "ˈpɪɡmənts",
+      "ipa_uk": "ˈpɪɡm(ə)nts",
+      "translation_ru": "пигменты"
     },
     {
-      "word": "fraud",
-      "ipa_us": "frɔːd",
-      "ipa_uk": "frɔːd",
-      "translation_ru": "подделка, мошенничество"
+      "word": "forgery",
+      "ipa_us": "ˈfɔːrdʒəri",
+      "ipa_uk": "ˈfɔːdʒəri",
+      "translation_ru": "подделка"
+    },
+    {
+      "word": "ultramarine",
+      "ipa_us": "ˌʌltrəməˈriːn",
+      "ipa_uk": "ˌʌltrəməˈriːn",
+      "translation_ru": "ультрамарин"
+    },
+    {
+      "word": "authentic",
+      "ipa_us": "ɔːˈθɛntɪk",
+      "ipa_uk": "ɔːˈθentɪk",
+      "translation_ru": "подлинный"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskɛptɪkəl",
+      "ipa_uk": "ˈskeptɪk(ə)l",
+      "translation_ru": "скептичный"
+    },
+    {
+      "word": "retrospective",
+      "ipa_us": "ˌrɛtrəˈspɛktɪv",
+      "ipa_uk": "ˌretrəˈspektɪv",
+      "translation_ru": "ретроспектива"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "aɪ",
-      "examples": [
-        "time",
-        "finest",
-        "ironmongery"
-      ],
-      "tip_ru": "aɪ: начинайте с открытого «а» и скользите к «и»; не сокращайте до «ай» с йотой: time, finest."
-    },
-    {
-      "sound": "ɒ",
-      "examples": [
-        "clock",
-        "stamped",
-        "honest"
-      ],
-      "tip_ru": "ɒ: короткий, губы слегка округлены, рот открыт; в американском варианте ближе к «а»: clock, honest."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "provenance",
-        "horologist",
-        "preservation"
+        "attribution",
+        "retrospective",
+        "ultramarine"
       ],
-      "tip_ru": "Ударение: PROV-e-nance, ho-ROL-o-gist, pres-er-VA-tion; суффиксы -tion и -ist смещают ударение."
+      "tip_ru": "Ударение: at-tri-BU-tion, ret-ro-SPEC-tive. В ultramarine вторичное ударение на ul- и главное на -RINE."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "authentic",
+        "three",
+        "thin"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса."
+    },
+    {
+      "sound": "ɪ",
+      "examples": [
+        "signature",
+        "pigments",
+        "mixture"
+      ],
+      "tip_ru": "Краткий расслабленный звук, не тяните его до русского и: pigments, а не пигменты по-русски."
     },
     {
       "sound": "dark-l",
       "examples": [
         "old",
-        "real",
-        "well"
+        "shall",
+        "silver"
       ],
-      "tip_ru": "Конечное l твёрдое: кончик языка к дёснам и задняя спинка поднята; не «ль»: old, real."
+      "tip_ru": "В конце слога l твёрдое: спинка языка оттянута назад, кончик к дёснам; не смягчайте как русское ль."
     }
   ],
   "questions": [
     {
-      "question": "What does the clock actually show?",
-      "answer": "A wrong time (seven past four).",
+      "question": "What did Tobias find under the varnish?",
+      "answer": "A signature belonging to a different, obscure painter.",
       "accepted_keywords": [
-        "four",
-        "seven",
-        "wrong"
+        "signature",
+        "monogram",
+        "verhoeven",
+        "painter"
       ]
     },
     {
-      "question": "What is Mrs. Oakes's former profession?",
-      "answer": "A horologist, restoring clocks.",
+      "question": "How did he establish that the signature was original?",
+      "answer": "It lay beneath the craquelure, so it was there when the paint dried.",
       "accepted_keywords": [
-        "horologist",
-        "restoring",
-        "clocks"
+        "craquelure",
+        "cracks",
+        "ultraviolet",
+        "beneath",
+        "old"
       ]
     },
     {
-      "question": "Where did the movement really come from?",
-      "answer": "A house clearance in Dorchester.",
+      "question": "What did the pigment tests show?",
+      "answer": "The blue was natural ultramarine and everything was authentic for the period.",
       "accepted_keywords": [
-        "dorchester",
-        "clearance"
+        "ultramarine",
+        "authentic",
+        "natural",
+        "genuine",
+        "lapis"
       ]
     },
     {
-      "question": "What price do they agree on?",
-      "answer": "One hundred and fifty pounds.",
+      "question": "What does Ines decide to do?",
+      "answer": "Announce the discovery publicly as a triumph of conservation.",
       "accepted_keywords": [
-        "hundred",
-        "150",
-        "fifty"
+        "announce",
+        "statement",
+        "triumph",
+        "conservation",
+        "publicly"
       ]
     }
   ]

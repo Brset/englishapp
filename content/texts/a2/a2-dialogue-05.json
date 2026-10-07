@@ -2,125 +2,147 @@
   "id": "a2-dialogue-05",
   "level": "A2",
   "genre": "dialogue",
-  "title_en": "Buying Shoes",
-  "title_ru": "Покупка обуви",
-  "description_ru": "Покупатель выбирает новые кроссовки и сравнивает цены. Диалог в магазине.",
-  "text": "Seller: Hello! Are you looking for something special?\nRuth: Yes, I need new shoes for running. My old ones are too small.\nSeller: What size are you?\nRuth: I am a size thirty-eight.\nSeller: Try these white ones. They are very light, and they are on sale this week.\nRuth: They are nice, but they are a bit tight.\nSeller: Then try the grey pair. They are wider and more comfortable.\nRuth: Oh, these feel perfect! How much are they?\nSeller: Seventy pounds. The white ones are cheaper, but the grey ones are better quality.\nRuth: I think I will take the grey ones. Can I pay by card?\nSeller: Of course. Would you like a bag?\nRuth: No, thank you. I am going to wear them now and run home!\nSeller: Have a lovely day, and good luck with the race!",
-  "word_count": 130,
+  "title_en": "The Laptop Repair",
+  "title_ru": "Ремонт ноутбука",
+  "description_ru": "Клиентка проливает чай на ноутбук и приносит его в мастерскую, где мастер выясняет, можно ли спасти фотографии. Разговор о ремонте и ценах.",
+  "text": "Customer: Good afternoon. I think my laptop is dead. Can you help me?\nTechnician: Of course. My name is Raj. What happened to it?\nCustomer: Yesterday evening, I spilled a cup of tea on the keyboard. Now the screen is black.\nTechnician: Oh dear. Did you turn it off immediately?\nCustomer: No. I tried to dry it with a towel and pressed the power button four times.\nTechnician: That was not the best idea, but it is a common mistake. Let me have a look.\nCustomer: How long will it take?\nTechnician: I need to open the case and clean the inside. Please wait here for about twenty minutes.\nCustomer: Of course. Is it a big problem?\nTechnician: I do not know yet. Tea is worse than water because it contains sugar. Sugar is sticky and damages the small parts.\nCustomer: That sounds terrible. How much will it cost?\nTechnician: Cleaning is forty pounds. A new keyboard is sixty pounds more. If the main board is broken, it is more expensive.\nCustomer: Hmm. Maybe I should just buy a new one. How much is your cheapest laptop?\nTechnician: Our cheapest new laptop is three hundred pounds. They are lighter and faster than most old ones.\nCustomer: Three hundred pounds is too much for me this month. I only want my old files.\nTechnician: What is on the laptop? Photographs, documents, music?\nCustomer: Mostly photographs. My daughter was born two years ago, and I have thousands of pictures of her.\nTechnician: Did you save them anywhere else?\nCustomer: No. I know it was silly. I always wanted to do it next weekend.\nTechnician: Do not worry. The hard disk is usually safe, even when the rest is damaged.\nCustomer: Really? That is a relief. So you can take the photographs out?\nTechnician: Yes, and I can also check the old laptop for other damage at the same time.\nCustomer: That is very helpful. I was afraid that you were going to say everything was lost.\nTechnician: Sometimes it is, but this is a good case. Yes, I can copy them to a small drive. It costs twenty pounds.\nCustomer: That is fine. Please do it. Photographs are more important than the laptop.\nTechnician: I understand. Let me open the case now. Would you like a coffee while you wait?\nCustomer: No, thank you. I have learned my lesson about drinks near computers.\nTechnician: That is funny. You are my third tea customer this week.\nCustomer: Really? Is it so common?\nTechnician: Very common. People work at the kitchen table, and they put a mug next to the keyboard.\nCustomer: I did exactly that. I even used my daughter's cup with a picture of a rabbit.\nTechnician: Hold on. This is interesting. The inside is cleaner than I expected.\nCustomer: Is that good?\nTechnician: Yes. The liquid went down the left side, but it did not reach the main board. The hard disk looks perfect.\nCustomer: So the laptop is not dead?\nTechnician: Not yet. I need to dry it with a special tool and clean the keyboard. Then I will test it.\nCustomer: How long does the drying take?\nTechnician: About an hour, but I want to leave it overnight to be safe. Can you come back tomorrow?\nCustomer: Yes, I can come at five o'clock after work. Do you need anything from me?\nTechnician: Your name and your phone number, please. And the password for the laptop.\nCustomer: My name is Helen Gray. The number is oh-seven-seven-oh-nine, three-three-one, six-six-two. The password is rabbit-two-thousand.\nTechnician: Thank you, Mrs Gray. I wrote it all down. One more question. Do you want me to keep the old keyboard?\nCustomer: Why would I want it?\nTechnician: Some people like to keep them. But I think you do not.\nCustomer: You are right. Throw it away. Do I need to pay anything today?\nTechnician: Only the ten pounds for the first inspection. The rest you pay tomorrow.\nCustomer: Here you are. Thank you for your help, Raj. You are very kind.\nTechnician: You are welcome. Please do not worry. In most cases, the pictures are safe.\nCustomer: I hope so. Will you call me if there is a problem?\nTechnician: Yes, I will call you tonight if I find something serious. Otherwise, I will see you tomorrow.\nCustomer: Perfect. See you at five o'clock.\nTechnician: See you then. And please buy a cup with a lid.\nCustomer: I will. Actually, I will buy a lid for every cup I own.\nTechnician: That is the best advice I can give. Have a good evening.\nCustomer: Thank you. Goodbye.",
+  "word_count": 727,
   "vocabulary": [
     {
-      "word": "shoes",
-      "ipa_us": "ʃuːz",
-      "ipa_uk": "ʃuːz",
-      "translation_ru": "обувь"
+      "word": "laptop",
+      "ipa_us": "ˈlæptɑːp",
+      "ipa_uk": "ˈlæptɒp",
+      "translation_ru": "ноутбук"
     },
     {
-      "word": "size",
-      "ipa_us": "saɪz",
-      "ipa_uk": "saɪz",
-      "translation_ru": "размер"
+      "word": "keyboard",
+      "ipa_us": "ˈkiːbɔːrd",
+      "ipa_uk": "ˈkiːbɔːd",
+      "translation_ru": "клавиатура"
     },
     {
-      "word": "tight",
-      "ipa_us": "taɪt",
-      "ipa_uk": "taɪt",
-      "translation_ru": "тесный"
+      "word": "spilled",
+      "ipa_us": "spɪld",
+      "ipa_uk": "spɪld",
+      "translation_ru": "пролил(а)"
     },
     {
-      "word": "wider",
-      "ipa_us": "ˈwaɪdər",
-      "ipa_uk": "ˈwaɪdə",
-      "translation_ru": "шире"
+      "word": "screen",
+      "ipa_us": "skriːn",
+      "ipa_uk": "skriːn",
+      "translation_ru": "экран"
     },
     {
-      "word": "comfortable",
-      "ipa_us": "ˈkʌmftərbəl",
-      "ipa_uk": "ˈkʌmftəbəl",
-      "translation_ru": "удобный"
+      "word": "damage",
+      "ipa_us": "ˈdæmɪdʒ",
+      "ipa_uk": "ˈdæmɪdʒ",
+      "translation_ru": "повреждение"
     },
     {
-      "word": "perfect",
-      "ipa_us": "ˈpɜrfɪkt",
-      "ipa_uk": "ˈpɜːfɪkt",
-      "translation_ru": "идеальный"
+      "word": "sticky",
+      "ipa_us": "ˈstɪki",
+      "ipa_uk": "ˈstɪki",
+      "translation_ru": "липкий"
     },
     {
-      "word": "cheaper",
-      "ipa_us": "ˈtʃiːpər",
-      "ipa_uk": "ˈtʃiːpə",
-      "translation_ru": "дешевле"
+      "word": "inspection",
+      "ipa_us": "ɪnˈspɛkʃn",
+      "ipa_uk": "ɪnˈspekʃn",
+      "translation_ru": "осмотр"
     },
     {
-      "word": "quality",
-      "ipa_us": "ˈkwɑləti",
-      "ipa_uk": "ˈkwɒləti",
-      "translation_ru": "качество"
+      "word": "password",
+      "ipa_us": "ˈpæswɜːrd",
+      "ipa_uk": "ˈpɑːswɜːd",
+      "translation_ru": "пароль"
+    },
+    {
+      "word": "relief",
+      "ipa_us": "rɪˈliːf",
+      "ipa_uk": "rɪˈliːf",
+      "translation_ru": "облегчение"
+    },
+    {
+      "word": "liquid",
+      "ipa_us": "ˈlɪkwɪd",
+      "ipa_uk": "ˈlɪkwɪd",
+      "translation_ru": "жидкость"
+    },
+    {
+      "word": "lesson",
+      "ipa_us": "ˈlɛsn",
+      "ipa_uk": "ˈlesn",
+      "translation_ru": "урок"
+    },
+    {
+      "word": "photographs",
+      "ipa_us": "ˈfoʊtəɡræfs",
+      "ipa_uk": "ˈfəʊtəɡrɑːfs",
+      "translation_ru": "фотографии"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "iː",
       "examples": [
-        "white",
-        "wider",
-        "week",
-        "wear"
+        "screen",
+        "keyboard",
+        "tea"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Долгий звук «и»: губы растянуты, язык высоко впереди; держите его дольше, чем русское «и»."
     },
     {
-      "sound": "r",
+      "sound": "ɪ",
       "examples": [
-        "Ruth",
-        "running",
-        "grey",
-        "perfect",
-        "pair"
+        "sticky",
+        "liquid",
+        "disk"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Короткий расслабленный звук между «и» и «ы»; не тяните его и не смягчайте предыдущую согласную."
     },
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "thirty-eight",
-        "these",
-        "thank",
-        "them",
-        "with"
+        "laptop",
+        "damage",
+        "password"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий, между «а» и «э»."
     }
   ],
   "questions": [
     {
-      "question": "What does Ruth need?",
-      "answer": "New shoes for running.",
+      "question": "What happened to the laptop?",
+      "answer": "The customer spilled tea on the keyboard.",
       "accepted_keywords": [
-        "shoes",
-        "running"
+        "tea",
+        "spilled"
       ]
     },
     {
-      "question": "What size is she?",
-      "answer": "Thirty-eight.",
+      "question": "What does the customer most want to save?",
+      "answer": "Photographs of her daughter.",
       "accepted_keywords": [
-        "thirty",
-        "38"
+        "photographs",
+        "photos",
+        "pictures",
+        "daughter"
       ]
     },
     {
-      "question": "Which shoes does she take?",
-      "answer": "The grey ones.",
+      "question": "How much is the first inspection?",
+      "answer": "Ten pounds.",
       "accepted_keywords": [
-        "grey"
+        "ten",
+        "10"
       ]
     },
     {
-      "question": "How much are the shoes?",
-      "answer": "Seventy pounds.",
+      "question": "When will she come back?",
+      "answer": "Tomorrow at five o'clock.",
       "accepted_keywords": [
-        "seventy",
-        "70"
+        "tomorrow",
+        "five"
       ]
     }
   ]

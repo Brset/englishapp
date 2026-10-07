@@ -2,121 +2,160 @@
   "id": "a1-opinion-05",
   "level": "A1",
   "genre": "opinion",
-  "title_en": "Walking Is Good for You",
-  "title_ru": "Ходить пешком полезно",
-  "description_ru": "Небольшое эссе о пользе пеших прогулок.",
-  "text": "I walk to work every day. It takes thirty minutes, and I love it. I think walking is the best exercise.\n\nFirst, it is free. I do not need a ticket or a car. I only need comfortable shoes.\n\nSecond, I see many interesting things. I see old houses, little shops and friendly neighbours. In a bus, I see only the window and my phone.\n\nThird, walking is good for my body and my head. After a walk, I feel strong and happy. I have good ideas, too.\n\nSo, why not try? Walk to the shop, to school or to your friend's house. Your legs will thank you.",
-  "word_count": 108,
+  "title_en": "Why Winter Is the Best Season",
+  "title_ru": "Почему зима — лучшее время года",
+  "description_ru": "Любовь к зиме: снег, зимние забавы, уютные вечера, еда и праздники.",
+  "text": "Most of my friends love summer, but I think winter is the best season of the year. When I say this, people look at me like I am crazy. \"It is cold and dark!\" they say. \"How can you like it?\" I understand their feelings. But I have good reasons, and I want to share them with you. Maybe, after this text, you will look at winter with new eyes.\n\nFirst, I love snow. When I wake up and see a white street outside my window, I feel like a child again. Everything is quiet and clean. The cars, the roofs and the trees are all covered with soft white snow. The city looks like a picture in a book. Even the noise is different, because snow makes the world calm. I put on my boots, and I go out to make the first marks in the snow. It is a small joy, but it is real.\n\nSecond, winter has many fun activities. In summer you can swim and lie in the sun, and that is nice. But in winter you can ski, skate, make a snowman or go down a hill on a sledge. Last January I went skating with my cousins for the first time in ten years. I fell down about twenty times, and my legs hurt for three days. But I laughed so much! Children love winter because it is a big playground, and I think adults can love it too.\n\nThird, winter is the season of warm and cosy things. In summer I cannot drink hot chocolate because it is too hot. In winter I can have it every evening. I wear a thick sweater and warm socks. I sit under a blanket with a good book and a cup of tea. Outside the wind is blowing and it is snowing, but I am inside, warm and safe. For me, this is real comfort. There is no better feeling than coming home from the cold to a warm flat.\n\nFourth, I love winter food. We eat hot soup, fresh bread, baked apples and sweet cakes with cinnamon. At my grandmother's house we always have a big pot of borscht on the stove, and the whole kitchen smells wonderful. In summer, people usually eat light salads and cold drinks, and I find them a bit boring. Winter food is rich and simple, and it brings the family to the table.\n\nFifth, winter has the best holidays. We have New Year and Christmas, and the streets are full of coloured lights. People buy trees, make cakes and wrap presents. Families come together. I love the smell of the tree and the sound of old songs on the radio. Even the dark evenings feel magic when a thousand small lights shine in the windows. In summer, the days are long, but nothing special happens. In winter, I always have something to look forward to.\n\nOf course, I know that winter has bad sides. Mornings are dark, and the roads can be icy. Sometimes I catch a cold, and then my nose is red for a week. My bus is often late, and my fingers are freezing at the stop. But I think these problems are small. A warm hat, good gloves and a thick coat can help you. As people say in my country, there is no bad weather, only bad clothes.\n\nAnd there is one more thing. I think winter is a good time to slow down. In summer we always rush, we travel, we meet people and we do a hundred things. In winter nature rests, and we can rest too. We stay at home, we read, we talk with our family and we think about the year. I believe that every person needs this quiet time. It makes us stronger for the spring.\n\nSo, if you hate winter, try this. Next time it snows, put on your warmest clothes, go outside and walk in the park for ten minutes. Take a hot drink in a flask. Look at the white trees and listen to the quiet. Then go home, take off your wet boots and sit near the heater. I think you will smile. Winter is not an enemy. It is a friend that visits us once a year.",
+  "word_count": 714,
   "vocabulary": [
     {
-      "word": "exercise",
-      "ipa_us": "ˈɛksərsaɪz",
-      "ipa_uk": "ˈeksəsaɪz",
-      "translation_ru": "упражнение"
+      "word": "snow",
+      "ipa_us": "snoʊ",
+      "ipa_uk": "snəʊ",
+      "translation_ru": "снег"
     },
     {
-      "word": "free",
-      "ipa_us": "fri",
-      "ipa_uk": "friː",
-      "translation_ru": "бесплатный"
+      "word": "cosy",
+      "ipa_us": "ˈkoʊzi",
+      "ipa_uk": "ˈkəʊzi",
+      "translation_ru": "уютный"
     },
     {
-      "word": "ticket",
-      "ipa_us": "ˈtɪkɪt",
-      "ipa_uk": "ˈtɪkɪt",
-      "translation_ru": "билет"
+      "word": "blanket",
+      "ipa_us": "ˈblæŋkɪt",
+      "ipa_uk": "ˈblæŋkɪt",
+      "translation_ru": "плед, одеяло"
     },
     {
-      "word": "comfortable",
-      "ipa_us": "ˈkʌmftərbəl",
-      "ipa_uk": "ˈkʌmftəbəl",
-      "translation_ru": "удобный"
+      "word": "cinnamon",
+      "ipa_us": "ˈsɪnəmən",
+      "ipa_uk": "ˈsɪnəmən",
+      "translation_ru": "корица"
     },
     {
-      "word": "shoes",
-      "ipa_us": "ʃuz",
-      "ipa_uk": "ʃuːz",
-      "translation_ru": "обувь"
+      "word": "season",
+      "ipa_us": "ˈsizən",
+      "ipa_uk": "ˈsiːzən",
+      "translation_ru": "время года"
     },
     {
-      "word": "neighbour",
-      "ipa_us": "ˈneɪbər",
-      "ipa_uk": "ˈneɪbə",
-      "translation_ru": "сосед"
+      "word": "sledge",
+      "ipa_us": "slɛdʒ",
+      "ipa_uk": "sledʒ",
+      "translation_ru": "санки"
     },
     {
-      "word": "body",
-      "ipa_us": "ˈbɑdi",
-      "ipa_uk": "ˈbɒdi",
-      "translation_ru": "тело"
+      "word": "skating",
+      "ipa_us": "ˈskeɪtɪŋ",
+      "ipa_uk": "ˈskeɪtɪŋ",
+      "translation_ru": "катание на коньках"
     },
     {
-      "word": "legs",
-      "ipa_us": "lɛɡz",
-      "ipa_uk": "leɡz",
-      "translation_ru": "ноги"
+      "word": "icy",
+      "ipa_us": "ˈaɪsi",
+      "ipa_uk": "ˈaɪsi",
+      "translation_ru": "скользкий, обледенелый"
+    },
+    {
+      "word": "heater",
+      "ipa_us": "ˈhitər",
+      "ipa_uk": "ˈhiːtə",
+      "translation_ru": "обогреватель"
+    },
+    {
+      "word": "flask",
+      "ipa_us": "flæsk",
+      "ipa_uk": "flɑːsk",
+      "translation_ru": "термос"
+    },
+    {
+      "word": "comfort",
+      "ipa_us": "ˈkʌmfərt",
+      "ipa_uk": "ˈkʌmfət",
+      "translation_ru": "комфорт, уют"
+    },
+    {
+      "word": "snowman",
+      "ipa_us": "ˈsnoʊˌmæn",
+      "ipa_uk": "ˈsnəʊmæn",
+      "translation_ru": "снеговик"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "əʊ",
       "examples": [
-        "thirty",
-        "think",
-        "thank"
+        "snow",
+        "cosy",
+        "cold"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Скольжение от «э» к краткому «у» (в США ближе к «оу»)."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "season",
+        "heater",
+        "street"
+      ],
+      "tip_ru": "Долгий «и», губы растянуты в улыбку."
     },
     {
       "sound": "w",
       "examples": [
-        "walk",
-        "work",
-        "window"
+        "winter",
+        "warm",
+        "wind"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "final-voiced",
+      "sound": "θ",
       "examples": [
-        "shoes",
-        "legs",
-        "ideas"
+        "thick",
+        "think",
+        "thousand"
       ],
-      "tip_ru": "В конце слова не оглушайте согласный: bad звучит с «д», а не «т»; тяните гласный перед ним."
+      "tip_ru": "Кончик языка между зубами, струя воздуха без голоса; не «с» и не «ф»."
     }
   ],
   "questions": [
     {
-      "question": "How does the writer go to work?",
-      "answer": "On foot / walking.",
+      "question": "Why does the writer love snow?",
+      "answer": "Everything looks quiet, clean and white, like a picture in a book.",
+      "accepted_keywords": [
+        "quiet",
+        "clean",
+        "white",
+        "picture"
+      ]
+    },
+    {
+      "question": "What can you do in winter?",
+      "answer": "You can ski, skate, make a snowman or go down a hill on a sledge.",
+      "accepted_keywords": [
+        "ski",
+        "skate",
+        "snowman",
+        "sledge"
+      ]
+    },
+    {
+      "question": "What is the writer's favourite winter drink?",
+      "answer": "Hot chocolate and tea.",
+      "accepted_keywords": [
+        "chocolate",
+        "tea"
+      ]
+    },
+    {
+      "question": "What does the writer suggest to people who hate winter?",
+      "answer": "Go outside in warm clothes and walk in the park for ten minutes.",
       "accepted_keywords": [
         "walk",
-        "walks",
-        "foot"
-      ]
-    },
-    {
-      "question": "How long does it take?",
-      "answer": "Thirty minutes.",
-      "accepted_keywords": [
-        "thirty",
-        "30"
-      ]
-    },
-    {
-      "question": "What does the writer need for walking?",
-      "answer": "Comfortable shoes.",
-      "accepted_keywords": [
-        "shoes"
-      ]
-    },
-    {
-      "question": "What does the writer see in a bus?",
-      "answer": "Only the window and the phone.",
-      "accepted_keywords": [
-        "window",
-        "phone"
+        "park",
+        "outside",
+        "ten"
       ]
     }
   ]

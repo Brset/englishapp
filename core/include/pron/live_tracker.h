@@ -60,7 +60,10 @@ private:
     size_t base_ = 0;       // hypothesis words before this index belong to the time before set_cursor()
     long last_anchor_abs_ = -1;  // absolute index (in the full hypothesis) of the last matched word
     size_t consumed_ = 0;   // normalized hypothesis words (>= base_) already processed
-    std::vector<std::string> last_hyp_;  // normalized hypothesis of the previous update
+    std::vector<std::string> last_hyp_;  // normalized TAIL of the previous hypothesis (absolute index = last_off_ + i)
+    std::size_t last_off_ = 0;           // normalized words before last_hyp_[0]
+    std::size_t pre_raw_ = 0;            // raw hypothesis words already folded into pre_norm_ (stable prefix)
+    std::size_t pre_norm_ = 0;           // normalized word count of that prefix
 };
 
 // State JSON as documented in pron_live.h ("partial" = raw recognizer text).

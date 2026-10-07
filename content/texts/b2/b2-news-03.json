@@ -2,132 +2,169 @@
   "id": "b2-news-03",
   "level": "B2",
   "genre": "news",
-  "title_en": "Giant Pumpkin Breaks Local Record",
-  "title_ru": "Гигантская тыква побила местный рекорд",
-  "description_ru": "Вымышленная новость о фермере, вырастившем рекордную тыкву, и странном способе её доставки.",
-  "text": "A retired bus driver from the fictional village of Ashworth Green has smashed the county record for growing pumpkins, producing a monster that weighs 612 kilograms. Gerald Thistlewood, sixty-eight, said he could hardly believe it when the scales were finally checked at the annual Harvest Show on Saturday.\n\n\"I have been growing pumpkins for twenty years, and my best until now was about four hundred kilos,\" he told the crowd. \"This year I changed everything. I gave her a bed of horse manure, watered her every morning and even played her classical music in the evenings.\" He said his wife, Joan, had been sceptical. \"She said I was talking to a vegetable, and she was right, but it worked.\"\n\nMoving the giant fruit to the show was not easy. According to organisers, a crane had to be borrowed from a nearby building site, and the pumpkin was carried to the village green on the back of a farm trailer, escorted by two police officers on bicycles. Children ran alongside, cheering, and some neighbours were seen taking photographs from their windows.\n\nJudges praised the pumpkin's perfect shape and its bright orange colour. \"It is the heaviest we have ever seen at this show,\" said head judge Priscilla Wren. \"Our scales were so old that we were afraid they might collapse.\" A local engineer was called in to check them, and the result was confirmed.\n\nMr Thistlewood has already received several offers for his prize. A bakery in the neighbouring town wants to turn it into three hundred pies, and a primary school has asked to borrow it for a week to use in science lessons. However, the grower says he is not yet ready to part with it. \"She will sit by my front gate until Halloween,\" he said. \"After that, we shall see. Perhaps I will carve a face, or perhaps I will make a very large soup.\"\n\nNext year, he is already planning to aim even higher. His wife, he admitted, has asked him to grow smaller vegetables, or at least keep them out of the kitchen.",
+  "title_en": "Smart Kettle Recall Boils Over",
+  "title_ru": "Отзыв умных чайников вызвал бурю",
+  "description_ru": "Вымышленная новость о компании, чьи чайники начали своевольно включаться по ночам, и о реакции покупателей.",
+  "text": "A fictional kitchen-gadget company, Brewmaster Home Technologies, announced on Monday that it was recalling more than two hundred thousand of its popular Whistler Smart Kettles after customers reported that the devices had been switching themselves on in the middle of the night. The company's chief executive, Bartholomew Strand, apologised at a press conference and said that the problem had been traced to a software update, which had been released in early September.\n\nThe first complaints appeared online about six weeks ago, when a customer from the town of Merrowby posted a video showing her kettle boiling at three o'clock in the morning. \"I'd never been so frightened of a teapot,\" she wrote. Within days, hundreds of similar posts had been shared. Some customers said that their kettles had begun to whistle tunes, while others claimed that the devices had sent alarming messages to their phones, such as \"Water is ready. Why aren't you?\"\n\nAccording to the company's engineers, the fault was caused by a mistake in the code which controlled the kettle's alarm function. The kettle, which was designed to prepare a morning cup of tea at a time chosen by the owner, had been confusing the time zone with the temperature setting. As a result, in some cases it believed that it was always six o'clock in the morning, somewhere in the world. \"It is a small error with big consequences,\" Mr Strand told reporters.\n\nConsumer groups have been less forgiving. A spokesperson for the Association of Careful Shoppers, Ingrid Valentine, said that the firm had been warned about the problem in August and had failed to act. \"Customers were told to switch their kettles off at the wall,\" she said. \"That is hardly a smart solution. If your kettle has to be unplugged to be safe, it was probably not very clever in the first place.\" She called for stricter rules on devices that are connected to the internet.\n\nNo injuries have been reported, although the fire service said that it had been called to eleven kitchens in the past month. In most cases the kettles had been boiling dry, and several worktops were scorched. One householder, a retired sea captain named Horace Pennyfeather, told a local newspaper that he had been woken by the smell of burning plastic. \"I have survived storms off Cape Horn,\" he said, \"but I did not expect to be attacked by my own breakfast.\"\n\nOwners have been advised to stop using the affected models immediately and to return them to the shop where they were bought. A full refund is being offered, and customers who do not have a receipt can claim a replacement by entering the serial number on a special website. The company has also promised a free toaster to anyone who sends a photograph of a damaged worktop, although some critics have pointed out that this may not be the most comforting offer.\n\nThe recall has also raised awkward questions for retailers. The chain store Hobson & Daughters, which sold about a third of the kettles, said that it had removed them from the shelves on Sunday evening, and that staff had been told to explain the situation politely to every customer who came in. One assistant, who asked not to be named, said that a man had walked in carrying his kettle in a cardboard box and whispering, as if it might hear him. 'He asked me whether it was safe to say the word tea,' she said.\n\nLawyers have already begun to take an interest. A firm in the capital has announced that it is preparing a group claim on behalf of customers whose worktops were damaged, and it has invited anyone who suffered a loss to contact its office. Its senior partner said that the law was clear: a product must do what it promises, and an appliance that decides for itself when to boil is not doing so. Brewmaster has said that it will cooperate fully with any inquiry.\n\nShares in Brewmaster fell by nearly twelve per cent on Monday, before recovering slightly in the afternoon. Analysts believe that the cost of the recall could reach several million pounds. A technology expert at a leading university, Professor Linus Abernathy-Cole, said that the case was a warning for the whole industry. \"Companies are rushing to connect everything to the internet,\" he said, \"but a device that can be updated can also be broken by an update. There is a good reason why my grandmother's kettle, which is made of tin, has lasted sixty years.\"\n\nMeanwhile, the internet has responded in the way that it usually does. A cartoon showing a kettle plotting with a toaster has been shared more than a million times, and a group of fans has started a petition to keep the midnight kettle as a limited edition. A local theatre company has even announced a one-man comedy show called Boiling Point. Mr Strand, who was asked whether he found any of this amusing, said that he would prefer to wait until the water had cooled.\n\nThe company has said that a corrected version of the software will be tested for three months before any new models are put on sale. Until then, the advice to customers remains simple: if your kettle starts making tea by itself, do not drink it, and do not thank it either.",
+  "word_count": 896,
   "vocabulary": [
     {
-      "word": "smashed",
-      "ipa_us": "smæʃt",
-      "ipa_uk": "smæʃt",
-      "translation_ru": "побил (рекорд)"
+      "word": "recall",
+      "ipa_us": "ˈriːkɔl",
+      "ipa_uk": "ˈriːkɔːl",
+      "translation_ru": "отзыв (продукции)"
     },
     {
-      "word": "scales",
-      "ipa_us": "skeɪlz",
-      "ipa_uk": "skeɪlz",
-      "translation_ru": "весы"
+      "word": "gadget",
+      "ipa_us": "ˈɡædʒɪt",
+      "ipa_uk": "ˈɡædʒɪt",
+      "translation_ru": "гаджет"
     },
     {
-      "word": "manure",
-      "ipa_us": "məˈnʊr",
-      "ipa_uk": "məˈnjʊə",
-      "translation_ru": "навоз"
+      "word": "executive",
+      "ipa_us": "ɪɡˈzɛkjətɪv",
+      "ipa_uk": "ɪɡˈzekjʊtɪv",
+      "translation_ru": "руководитель"
     },
     {
-      "word": "sceptical",
-      "ipa_us": "ˈskɛptɪkəl",
-      "ipa_uk": "ˈskeptɪkəl",
-      "translation_ru": "скептически настроенная"
+      "word": "traced",
+      "ipa_us": "treɪst",
+      "ipa_uk": "treɪst",
+      "translation_ru": "прослежена"
     },
     {
-      "word": "crane",
-      "ipa_us": "kreɪn",
-      "ipa_uk": "kreɪn",
-      "translation_ru": "кран"
+      "word": "consequences",
+      "ipa_us": "ˈkɑnsəˌkwɛnsəz",
+      "ipa_uk": "ˈkɒnsɪkwənsɪz",
+      "translation_ru": "последствия"
     },
     {
-      "word": "escorted",
-      "ipa_us": "ɪˈskɔrtɪd",
-      "ipa_uk": "ɪˈskɔːtɪd",
-      "translation_ru": "сопровождаемая"
+      "word": "scorched",
+      "ipa_us": "skɔrtʃt",
+      "ipa_uk": "skɔːtʃt",
+      "translation_ru": "обгоревшие"
     },
     {
-      "word": "collapse",
-      "ipa_us": "kəˈlæps",
-      "ipa_uk": "kəˈlæps",
-      "translation_ru": "развалиться"
+      "word": "refund",
+      "ipa_us": "ˈriˌfʌnd",
+      "ipa_uk": "ˈriːfʌnd",
+      "translation_ru": "возврат денег"
     },
     {
-      "word": "carve",
-      "ipa_us": "kɑrv",
-      "ipa_uk": "kɑːv",
-      "translation_ru": "вырезать"
+      "word": "receipt",
+      "ipa_us": "rɪˈsit",
+      "ipa_uk": "rɪˈsiːt",
+      "translation_ru": "чек"
+    },
+    {
+      "word": "serial number",
+      "ipa_us": "ˈsɪriəl ˈnʌmbər",
+      "ipa_uk": "ˈsɪəriəl ˈnʌmbə",
+      "translation_ru": "серийный номер"
+    },
+    {
+      "word": "analysts",
+      "ipa_us": "ˈænəlɪsts",
+      "ipa_uk": "ˈænəlɪsts",
+      "translation_ru": "аналитики"
+    },
+    {
+      "word": "petition",
+      "ipa_us": "pəˈtɪʃən",
+      "ipa_uk": "pəˈtɪʃən",
+      "translation_ru": "петиция"
+    },
+    {
+      "word": "amusing",
+      "ipa_us": "əˈmjuzɪŋ",
+      "ipa_uk": "əˈmjuːzɪŋ",
+      "translation_ru": "забавный"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "wife",
-        "watered",
-        "weighs",
-        "week"
+        "were",
+        "was",
+        "when",
+        "which"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "v",
+      "sound": "aspiration",
       "examples": [
-        "village",
-        "vegetable",
-        "very",
-        "even"
+        "time",
+        "place",
+        "put",
+        "came"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+      "tip_ru": "Перед ударной гласной p, t, k произносите с лёгким придыханием, как маленький выдох."
     },
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "Thistlewood",
-        "three",
+        "recall",
+        "gadget",
+        "executive",
+        "traced"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "evening",
+        "being",
         "everything"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "record",
-        "retired",
-        "right",
-        "growing"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "How much does the pumpkin weigh?",
-      "answer": "612 kilograms.",
+      "question": "Why was the kettle recalled?",
+      "answer": "The kettles switched themselves on at night because of a software update.",
       "accepted_keywords": [
-        "612",
-        "six hundred"
+        "software",
+        "update",
+        "switched",
+        "night",
+        "themselves"
       ]
     },
     {
-      "question": "What music did Mr Thistlewood play for the pumpkin?",
-      "answer": "Classical music.",
+      "question": "What caused the fault, according to the engineers?",
+      "answer": "A mistake in the code confused the time zone with the temperature setting.",
       "accepted_keywords": [
-        "classical"
+        "code",
+        "mistake",
+        "time",
+        "zone",
+        "temperature"
       ]
     },
     {
-      "question": "How was the pumpkin transported to the show?",
-      "answer": "On a farm trailer, lifted with a crane.",
+      "question": "What are customers offered?",
+      "answer": "A full refund or a replacement, and a free toaster for a photograph of damage.",
       "accepted_keywords": [
-        "trailer",
-        "crane"
+        "refund",
+        "replacement",
+        "toaster"
       ]
     },
     {
-      "question": "What does he plan to do with it until Halloween?",
-      "answer": "Keep it by his front gate.",
+      "question": "What lesson does the expert draw?",
+      "answer": "A device that can be updated can also be broken by an update.",
       "accepted_keywords": [
-        "gate"
+        "update",
+        "updated",
+        "broken",
+        "internet",
+        "warning"
       ]
     }
-  ],
-  "word_count": 348
+  ]
 }

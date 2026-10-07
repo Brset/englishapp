@@ -2,126 +2,151 @@
   "id": "a2-news-03",
   "level": "A2",
   "genre": "news",
-  "title_en": "New Library Opens in Rivertown",
-  "title_ru": "В Риверстауне открылась новая библиотека",
-  "description_ru": "Вымышленная новость об открытии современной библиотеки с кафе и игровой комнатой.",
-  "text": "A new library opened in Rivertown on Saturday. More than two hundred people came to the opening, and many of them waited outside for an hour.\n\nThe new building is much bigger than the old one. It has three floors, a quiet room for students and a large children's area with soft chairs. There is also a small cafe, where visitors can drink coffee and read the newspaper.\n\nThe head librarian, Ahmed Reed, said the old library was too small and too dark. \"Now people have a modern and warm place to study and meet,\" he said. \"We also have fifty computers, and they are free to use.\"\n\nAn eight-year-old boy, Ben, was the first visitor. He chose a book about dinosaurs and sat down on the floor. \"This place is better than my school library,\" he said.\n\nThe library is open every day from eight in the morning until nine in the evening.",
-  "word_count": 156,
+  "title_en": "Biscuit the Bus-Riding Dog",
+  "title_ru": "Бисквит, пёс-пассажир автобуса",
+  "description_ru": "Вымышленная новость: пропавшая собака проехала сорок километров на автобусе и вернулась к семье.",
+  "text": "A brown and white dog named Biscuit surprised a whole town last week when he travelled forty kilometres by himself and arrived home safely. The dog, who is four years old, disappeared from his family's garden in the village of Larkfield on Tuesday. Three days later, a bus driver found him asleep on a seat of the number 14 bus in the city of Denmoor.\n\nBiscuit belongs to the Alvarez family. Maria Alvarez, who is a nurse, says that she cannot understand how it happened. \"I let him into the garden at eight o'clock in the morning,\" she told our reporter. \"Ten minutes later, he was gone. The gate was closed, so I think he jumped over the fence.\" The family searched the village for hours. They put up photographs on lampposts, and the children walked through the fields and called his name until it was dark.\n\nThe next two days were very sad. Maria's son, Tomas, who is nine, could not eat or sleep. \"Biscuit is my best friend,\" he said. \"I was afraid that he was cold and hungry.\" On Thursday evening, a stranger in Denmoor read a message about the missing dog on the internet and told the family that he had seen a similar dog near the railway station. Nobody believed that Biscuit could be so far away. After all, there was no road between the village and the city that a small dog could follow.\n\nThe real story is much more surprising. According to the bus company, Biscuit got on a bus at the village stop on Tuesday afternoon. Bus driver Raymond Tilley remembers him clearly. \"He walked in behind an old lady with a shopping bag,\" Mr Tilley said. \"I thought that he was her dog. He sat down quietly and looked out of the window like a normal passenger.\" The old lady had in fact never seen him before. When the bus arrived in the city, Biscuit stayed on board and travelled all day from one end of the route to the other.\n\nWhy did he like the bus? Biscuit's family has an idea. Every morning, Tomas takes the same bus to school, and Biscuit usually walks with him to the stop and waits there. The dog probably learned that the bus is a place where people go away and come back. Perhaps on Tuesday he decided to find out for himself. \"He is a very curious dog,\" said Maria. \"He is also a bit greedy. Maybe somebody gave him a sandwich.\"\n\nOther drivers noticed the dog, too. A woman on the number 14 bus said that he looked \"calm and happy\" and that he put his head on her knee. A student shared a piece of cheese with him. Nobody phoned the police, because everyone thought that his owner was sitting nearby. Only on Thursday evening did Mr Tilley check the dog's collar and find a telephone number. He called the family at once. \"I have driven buses for thirty years,\" he said, \"and I have never had a passenger like him.\"\n\nThe Alvarez family drove to Denmoor that night, and the reunion was very emotional. Biscuit jumped on Tomas and licked his face for several minutes. Maria said that she cried with joy. The bus company gave the dog an honorary ticket, a card with his name and a picture of a bus. \"He is now the only dog in the country with a free pass,\" joked a spokesperson.\n\nVets say that dogs can sometimes travel long distances to find their owners, but they are not usually good at reading timetables. Dr Priya Nair, a local vet, says that Biscuit was lucky. \"The road was busy, and he could have had an accident. I recommend that every owner puts a name tag on their dog and registers a microchip.\"\n\nThe story has already made Biscuit a small celebrity. Hundreds of people have written to the village shop to send him greetings, and a local artist is going to paint a picture of him on a bus. The bus company even plans to put his photograph on the side of the number 14 bus with the words \"Our most loyal passenger\".\n\nAs for Biscuit, he is back at home, and he is healthy. He has eaten two large dinners and slept for twelve hours. The family has built the fence higher, and Tomas is going to teach him to stay in the garden. But he is not sure it will work. \"When he hears the sound of a bus,\" Tomas said, \"he still looks very interested.\"",
+  "word_count": 761,
   "vocabulary": [
     {
-      "word": "opening",
-      "ipa_us": "ˈoʊpnɪŋ",
-      "ipa_uk": "ˈəʊpnɪŋ",
-      "translation_ru": "открытие"
+      "word": "disappeared",
+      "ipa_us": "ˌdɪsəˈpɪrd",
+      "ipa_uk": "ˌdɪsəˈpɪəd",
+      "translation_ru": "пропал"
     },
     {
-      "word": "building",
-      "ipa_us": "ˈbɪldɪŋ",
-      "ipa_uk": "ˈbɪldɪŋ",
-      "translation_ru": "здание"
+      "word": "safely",
+      "ipa_us": "ˈseɪfli",
+      "ipa_uk": "ˈseɪfli",
+      "translation_ru": "благополучно"
     },
     {
-      "word": "floor",
-      "ipa_us": "flɔːr",
-      "ipa_uk": "flɔː",
-      "translation_ru": "этаж, пол"
+      "word": "fence",
+      "ipa_us": "fɛns",
+      "ipa_uk": "fens",
+      "translation_ru": "забор"
     },
     {
-      "word": "area",
-      "ipa_us": "ˈeriə",
-      "ipa_uk": "ˈeəriə",
-      "translation_ru": "зона"
+      "word": "passenger",
+      "ipa_us": "ˈpæsɪndʒər",
+      "ipa_uk": "ˈpæsɪndʒə",
+      "translation_ru": "пассажир"
     },
     {
-      "word": "visitor",
-      "ipa_us": "ˈvɪzɪtər",
-      "ipa_uk": "ˈvɪzɪtə",
-      "translation_ru": "посетитель"
+      "word": "route",
+      "ipa_us": "rut",
+      "ipa_uk": "ruːt",
+      "translation_ru": "маршрут"
     },
     {
-      "word": "librarian",
-      "ipa_us": "laɪˈbreriən",
-      "ipa_uk": "laɪˈbreəriən",
-      "translation_ru": "библиотекарь"
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любопытный"
     },
     {
-      "word": "modern",
-      "ipa_us": "ˈmɑːdərn",
-      "ipa_uk": "ˈmɒdn",
-      "translation_ru": "современный"
+      "word": "collar",
+      "ipa_us": "ˈkɑlər",
+      "ipa_uk": "ˈkɒlə",
+      "translation_ru": "ошейник"
     },
     {
-      "word": "dinosaur",
-      "ipa_us": "ˈdaɪnəsɔːr",
-      "ipa_uk": "ˈdaɪnəsɔː",
-      "translation_ru": "динозавр"
+      "word": "reunion",
+      "ipa_us": "riˈjunjən",
+      "ipa_uk": "riːˈjuːniən",
+      "translation_ru": "воссоединение"
+    },
+    {
+      "word": "celebrity",
+      "ipa_us": "səˈlɛbrəti",
+      "ipa_uk": "səˈlebrəti",
+      "translation_ru": "знаменитость"
+    },
+    {
+      "word": "microchip",
+      "ipa_us": "ˈmaɪkroʊˌtʃɪp",
+      "ipa_uk": "ˈmaɪkrəʊtʃɪp",
+      "translation_ru": "микрочип"
+    },
+    {
+      "word": "timetable",
+      "ipa_us": "ˈtaɪmˌteɪbəl",
+      "ipa_uk": "ˈtaɪmˌteɪbl",
+      "translation_ru": "расписание"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "aspiration",
       "examples": [
-        "visitors",
-        "every"
+        "police",
+        "telephone"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "P, t, k в начале ударного слога произносите с небольшим выдохом, как будто со струйкой воздуха."
+    },
+    {
+      "sound": "ə",
+      "examples": [
+        "about",
+        "family"
+      ],
+      "tip_ru": "Самый слабый безударный гласный. Произносите его коротко и расслабленно."
     },
     {
       "sound": "w",
       "examples": [
-        "waited",
-        "warm"
+        "when",
+        "with",
+        "window"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "θ",
+      "sound": "dark-l",
       "examples": [
-        "three",
-        "than"
+        "all",
+        "still",
+        "cold"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "ŋ",
-      "examples": [
-        "building",
-        "morning"
-      ],
-      "tip_ru": "Задняя часть языка касается нёба, воздух идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "В конце слога язык оттягивается назад, звук твёрдый. Не произносите мягкое русское «ль»."
     }
   ],
   "questions": [
     {
-      "question": "Where did the new library open?",
-      "answer": "In Rivertown.",
+      "question": "How far did Biscuit travel?",
+      "answer": "About forty kilometres.",
       "accepted_keywords": [
-        "rivertown"
+        "forty",
+        "40",
+        "kilometres"
       ]
     },
     {
-      "question": "How many floors does it have?",
-      "answer": "Three.",
+      "question": "Who found Biscuit?",
+      "answer": "A bus driver named Raymond Tilley found him asleep on the bus.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "bus driver",
+        "driver",
+        "tilley",
+        "raymond"
       ]
     },
     {
-      "question": "Who is the head librarian?",
-      "answer": "Ahmed Reed.",
+      "question": "Why did nobody call the police?",
+      "answer": "Everyone thought that his owner was sitting nearby.",
       "accepted_keywords": [
-        "ahmed",
-        "reed"
+        "owner",
+        "thought",
+        "nearby"
       ]
     },
     {
-      "question": "What did Ben choose?",
-      "answer": "A book about dinosaurs.",
+      "question": "What did the bus company give Biscuit?",
+      "answer": "An honorary ticket, a card with his name and a picture of a bus.",
       "accepted_keywords": [
-        "dinosaur",
-        "dinosaurs",
-        "book"
+        "ticket",
+        "card",
+        "pass"
       ]
     }
   ]

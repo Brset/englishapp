@@ -2,145 +2,162 @@
   "id": "b2-travel-05",
   "level": "B2",
   "genre": "travel",
-  "title_en": "Getting Lost in Marrakech",
-  "title_ru": "Заблудиться в Марракеше",
-  "description_ru": "Впечатления от старой медины Марракеша: рынки, торговля, запахи и советы туристам.",
-  "text": "The first thing that hits you in Marrakech is the noise. Motorbikes buzz through impossibly narrow lanes, merchants call out prices in four languages, and somewhere a snake charmer is playing a flute. The second thing is the smell: cinnamon, leather, orange blossom and grilled meat all mixed together in the warm air.\n\nThe old city, or medina, was founded in the eleventh century and is surrounded by pink walls that glow orange at sunset. Inside, hundreds of alleys twist and turn in no logical order. Every guidebook warns that you will get lost, and every guidebook is right. My advice is not to fight it. Some of my best discoveries were made when I had no idea where I was.\n\nThe heart of the medina is the square of Jemaa el-Fnaa. During the day it is fairly quiet, with orange juice sellers and a few street performers. After sunset, however, it is transformed into an enormous open-air restaurant. Dozens of food stalls appear as if by magic, and the smoke from their grills rises into the night sky. I tried a bowl of harira, a thick tomato and lentil soup, and a plate of grilled sausages that I was assured were not too spicy. They were.\n\nShopping in the souks is an adventure in itself. Bargaining is expected, and it can be great fun if you remain good-humoured. A seller once asked me for four hundred dirhams for a small leather bag. I smiled, offered a hundred, and walked away. He chased after me, and we finally agreed on a hundred and fifty, and a glass of mint tea, which he insisted on pouring himself.\n\nTo escape the crowds, visit the Majorelle Garden, a calm oasis of blue walls and cactuses created by the French painter Jacques Majorelle in the 1920s. Later it was restored by the fashion designer Yves Saint Laurent.\n\nTourists are advised to dress modestly, to drink plenty of water and to ignore anyone who offers to show you the way for free. They never mean it.",
-  "word_count": 344,
+  "title_en": "Four Seasons in One Day: Torres del Paine",
+  "title_ru": "Четыре сезона за один день: Торрес-дель-Пайне",
+  "description_ru": "Пеший поход в Патагонии: ветер, ледники, горные приюты и советы тем, кто решит пройти знаменитый маршрут «W».",
+  "text": "In the far south of Chile, where the continent narrows and breaks up into islands, there is a national park that hikers dream about. It is called Torres del Paine, which means the Towers of Paine, after three granite peaks that rise almost vertically from the plain. The park is famous for a trail known as the W, because of its shape on the map, and it is the kind of walk that can be described as both the best and the hardest week of your life.\n\nThe W takes four or five days to complete, and it covers about eighty kilometres. Nobody sleeps in a tent unless they want to. Instead, walkers stay in mountain huts, called refugios, where a bunk and a hot dinner are provided, and many of them even have a bar. The huts are extremely popular, and they have to be booked months in advance, so my first piece of advice is to plan early. I had spent the winter in front of my computer, anxiously refreshing a booking page.\n\nWe started on the east side, where a boat takes you across a turquoise lake. The colour of the water is caused by fine particles of rock, known as glacial flour, which are carried down from the ice and scatter the sunlight. The water is so cold that a short swim would be a very bad idea. Our guide, a woman called Camila, who had been working in the park for eleven years, told us that the weather would be the most important character in the story. She was entirely right.\n\nOn the first day, the sun was warm, and I took off my jacket. By noon, clouds had gathered, and an hour later it began to snow sideways. Then the sun came out again, and we walked through a rainbow. Camila laughed and said that this was normal. The Patagonian wind is legendary, and gusts of more than a hundred kilometres per hour have been recorded. On the exposed ridges, we were told to walk with our trekking poles planted firmly, and I once saw a man's hat fly away across the valley and never return.\n\nThe second day brought us to a view of the Grey Glacier, a vast river of ice more than six kilometres wide. We saw it first from a cliff above the lake, where the wind was so strong that we could only talk by shouting. Enormous blue icebergs, which had broken off from the glacier, floated in the water below us. In the evening, we sat in the hut with a cup of hot chocolate and listened to the ice cracking and groaning in the dark, a sound like thunder rolling slowly across the water.\n\nThe third day was the longest and the most beautiful. We followed the French Valley, a steep amphitheatre of granite walls, where hanging glaciers occasionally release a thunderous avalanche. Every twenty minutes or so, a deep rumble echoed through the valley, and everyone stopped to watch the white cloud drift down the rock. I realised that I had been holding my breath. It is a rare thing to feel so small and so happy at the same time.\n\nOn the last day, we woke at four in the morning to climb to the base of the Towers. It is a hard walk, mostly uphill, with the final part over loose rocks, and it is done in the dark with torches so as to arrive for sunrise. When the sky began to turn pink, the three granite spires started to glow a brilliant orange, as if somebody had switched on a lamp inside the mountain. Nobody spoke. A young man next to me wiped his eyes and pretended it was the wind.\n\nHere are a few practical tips. The weather can change every ten minutes, so dress in layers and always carry a waterproof jacket, warm gloves and a hat. Good boots are essential, and it is a mistake to wear them for the first time on the trail. A wide-brimmed hat helps against the sun, which is stronger than you expect because of the thin ozone layer over this part of the world. Bring cash for the huts and for the boat, and remember that there is almost no mobile signal.\n\nIt is also important to respect the park. Visitors are required to carry out all their rubbish, and fires are strictly forbidden, because a careless campfire destroyed a large area of forest in 2011. I was impressed to see that the rule was followed by everybody, and nobody left so much as a sweet wrapper. Walking back along the lake on the final afternoon, I felt tired, bruised and thoroughly content. If you ask whether the trip was worth the effort, I will give you the answer that Camila gave me: the wind is free, and it is the best thing in Patagonia.",
+  "word_count": 821,
   "vocabulary": [
     {
-      "word": "merchants",
-      "ipa_us": "ˈmɜrtʃənts",
-      "ipa_uk": "ˈmɜːtʃənts",
-      "translation_ru": "торговцы"
+      "word": "granite",
+      "ipa_us": "ˈɡrænɪt",
+      "ipa_uk": "ˈɡrænɪt",
+      "translation_ru": "гранит"
     },
     {
-      "word": "cinnamon",
-      "ipa_us": "ˈsɪnəmən",
-      "ipa_uk": "ˈsɪnəmən",
-      "translation_ru": "корица"
+      "word": "trail",
+      "ipa_us": "treɪl",
+      "ipa_uk": "treɪl",
+      "translation_ru": "тропа"
     },
     {
-      "word": "leather",
-      "ipa_us": "ˈlɛðər",
-      "ipa_uk": "ˈleðə",
-      "translation_ru": "кожа"
+      "word": "refugios",
+      "ipa_us": "rɪˈfuːɡioʊz",
+      "ipa_uk": "rɪˈfuːɡiəʊz",
+      "translation_ru": "горные приюты"
     },
     {
-      "word": "medina",
-      "ipa_us": "məˈdinə",
-      "ipa_uk": "meˈdiːnə",
-      "translation_ru": "медина"
+      "word": "turquoise",
+      "ipa_us": "ˈtɜːrkwɔɪz",
+      "ipa_uk": "ˈtɜːkwɔɪz",
+      "translation_ru": "бирюзовый"
     },
     {
-      "word": "logical",
-      "ipa_us": "ˈlɑdʒɪkəl",
-      "ipa_uk": "ˈlɒdʒɪkəl",
-      "translation_ru": "логичный"
+      "word": "particles",
+      "ipa_us": "ˈpɑːrtɪklz",
+      "ipa_uk": "ˈpɑːtɪklz",
+      "translation_ru": "частицы"
     },
     {
-      "word": "transformed",
-      "ipa_us": "trænsˈfɔrmd",
-      "ipa_uk": "trænsˈfɔːmd",
-      "translation_ru": "преображена"
+      "word": "gusts",
+      "ipa_us": "ɡʌsts",
+      "ipa_uk": "ɡʌsts",
+      "translation_ru": "порывы ветра"
     },
     {
-      "word": "lentil",
-      "ipa_us": "ˈlɛntəl",
-      "ipa_uk": "ˈlentɪl",
-      "translation_ru": "чечевица"
+      "word": "icebergs",
+      "ipa_us": "ˈaɪsbɜːrɡz",
+      "ipa_uk": "ˈaɪsbɜːɡz",
+      "translation_ru": "айсберги"
     },
     {
-      "word": "bargaining",
-      "ipa_us": "ˈbɑrɡənɪŋ",
-      "ipa_uk": "ˈbɑːɡɪnɪŋ",
-      "translation_ru": "торг"
+      "word": "amphitheatre",
+      "ipa_us": "ˈæmfɪθiːətər",
+      "ipa_uk": "ˈæmfɪθɪətə",
+      "translation_ru": "амфитеатр"
     },
     {
-      "word": "oasis",
-      "ipa_us": "oʊˈeɪsɪs",
-      "ipa_uk": "əʊˈeɪsɪs",
-      "translation_ru": "оазис"
+      "word": "avalanche",
+      "ipa_us": "ˈævəlæntʃ",
+      "ipa_uk": "ˈævəlɑːntʃ",
+      "translation_ru": "лавина"
     },
     {
-      "word": "modestly",
-      "ipa_us": "ˈmɑdɪstli",
-      "ipa_uk": "ˈmɒdɪstli",
-      "translation_ru": "скромно"
+      "word": "spires",
+      "ipa_us": "ˈspaɪərz",
+      "ipa_uk": "ˈspaɪəz",
+      "translation_ru": "шпили"
+    },
+    {
+      "word": "waterproof",
+      "ipa_us": "ˈwɔːtərpruːf",
+      "ipa_uk": "ˈwɔːtəpruːf",
+      "translation_ru": "водонепроницаемый"
+    },
+    {
+      "word": "essential",
+      "ipa_us": "ɪˈsɛnʃl",
+      "ipa_uk": "ɪˈsenʃl",
+      "translation_ru": "необходимый"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ð",
-      "examples": [
-        "the",
-        "that",
-        "leather"
-      ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
-    },
-    {
       "sound": "w",
       "examples": [
-        "walls",
-        "warm",
-        "where"
+        "wind",
+        "weather",
+        "walk",
+        "warm"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "v",
+      "sound": "θ",
       "examples": [
-        "every",
-        "visit",
-        "advised"
+        "three",
+        "thunder",
+        "thin",
+        "thoroughly"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Кончик языка слегка между зубами; без голоса, лёгкий выдох."
     },
     {
-      "sound": "r",
+      "sound": "ʌ",
       "examples": [
-        "restaurant",
-        "remain",
-        "restored"
+        "gusts",
+        "thunderous",
+        "much",
+        "up"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Короткий звук, близкий к русскому «а»; губы не округляйте."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "avalanche",
+        "essential",
+        "amphitheatre"
+      ],
+      "tip_ru": "Определите ударный слог (AV-a-lanche, es-SEN-tial, AM-phi-the-a-tre) и произнесите его громче и длиннее."
     }
   ],
   "questions": [
     {
-      "question": "When was the medina founded?",
-      "answer": "In the eleventh century.",
+      "question": "Why is the trail called the W?",
+      "answer": "Because of its shape on the map.",
       "accepted_keywords": [
-        "eleventh",
-        "11th"
+        "shape",
+        "map",
+        "w"
       ]
     },
     {
-      "question": "What is harira?",
-      "answer": "A thick tomato and lentil soup.",
+      "question": "Where do walkers sleep on the W trek?",
+      "answer": "In mountain huts called refugios.",
       "accepted_keywords": [
-        "soup",
-        "tomato",
-        "lentil"
+        "huts",
+        "refugios",
+        "refugio"
       ]
     },
     {
-      "question": "How much did the bag finally cost?",
-      "answer": "A hundred and fifty dirhams.",
+      "question": "What causes the turquoise colour of the lake?",
+      "answer": "Fine particles of rock called glacial flour.",
       "accepted_keywords": [
-        "150",
-        "hundred",
-        "fifty"
+        "rock",
+        "flour",
+        "particles",
+        "glacial"
       ]
     },
     {
-      "question": "Who created the Majorelle Garden?",
-      "answer": "The French painter Jacques Majorelle.",
+      "question": "Why do hikers climb to the Towers before dawn?",
+      "answer": "To arrive for sunrise, when the peaks glow orange.",
       "accepted_keywords": [
-        "majorelle",
-        "painter",
-        "jacques"
+        "sunrise",
+        "orange",
+        "glow"
       ]
     }
   ]

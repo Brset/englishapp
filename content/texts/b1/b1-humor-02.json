@@ -2,130 +2,154 @@
   "id": "b1-humor-02",
   "level": "B1",
   "genre": "humor",
-  "title_en": "The Cat and the Robot Vacuum",
-  "title_ru": "Кот и робот-пылесос",
-  "description_ru": "Забавная история о коте, который объявил войну новому пылесосу, а потом нашёл ему неожиданное применение.",
-  "text": "When Nina bought a robot vacuum cleaner, she expected a quiet life. She did not expect a war.\n\nHer cat, Mr Whiskers, had ruled the apartment for six years. He slept where he wanted, ate when he wanted and ignored everyone who disagreed. On the first morning, the little round machine rolled out of the corner and began to hum. Mr Whiskers sat up, stared at it for a long time, and hissed.\n\nThe robot did not care. It simply bumped gently into his tail and carried on cleaning. The cat jumped onto the sofa and watched from above like an angry king.\n\nFor three days, he tried everything. He attacked the robot from behind. He hid under the table and jumped out. He even sat in its path and refused to move, but the machine politely turned around and went the other way. \"It has no respect,\" Nina heard him complain, in his own way.\n\nOn the fourth day, something changed. Nina found the robot slowly driving around the kitchen with Mr Whiskers sitting calmly on top, like a captain on a ship. His eyes were half closed and his tail swung happily from side to side.\n\n\"If you cannot beat them, join them,\" said Nina, taking a photo.\n\nNow every afternoon the cat enjoys a free ride around the apartment. He has even started to meow at the front door whenever the battery runs low. Apparently, he has become very responsible about it.",
-  "word_count": 245,
+  "title_en": "My New Year Fitness Plan",
+  "title_ru": "Мой новогодний план по фитнесу",
+  "description_ru": "Юмористический рассказ о первых месяцах занятий спортом: бег, зал, гибкая Бренда и фитнес-часы, которые всё замечают.",
+  "text": "On the first of January I made a promise to myself. I would get fit. I had eaten so many chocolates over the holidays that my favourite jeans had begun to make noises, and my doctor had politely suggested that I should \"move a little more\". So I bought a pair of running shoes, a bright orange T-shirt and a fitness watch that promised to count my steps, measure my heart and tell me when to breathe. I felt like an athlete before I had even left the house.\n\nThe first morning was difficult. The alarm rang at six o'clock, and it was still dark and freezing outside. I told myself that the weather was probably too bad for a first run. After ten minutes of thinking about it, I got up anyway, put on my new clothes and stepped outside. The cold air hit me like a wet towel. I started to jog slowly down the road, and after about two hundred metres my watch buzzed. \"Great job!\" it said. \"You have completed two percent of your daily goal.\" I felt both proud and slightly insulted.\n\nBy the end of the street I had discovered that running is far more tiring than it looks on television. My legs were heavy, my chest was burning and a very old man in a dressing gown overtook me with his dog. \"Good morning,\" he said cheerfully, and I could only wave. I finally stopped at a bench, where I sat down and pretended to admire the view. The watch told me that I had run for eight minutes and burned the same number of calories as a small biscuit. I decided that the machine was not on my side.\n\nDuring the second week, I joined a gym. A friendly young man in a tight shirt showed me around, and I nodded as if I understood the machines. They looked like medieval torture devices with screens on them. He recommended that I begin with the exercise bike, and I climbed onto it with great confidence. Unfortunately, I pressed the wrong button, and the bike began a programme called \"Mountain Challenge\". The pedals became so heavy that I could hardly move, and the screen showed a little cartoon cyclist who was passing my little cartoon cyclist. I nearly cried.\n\nThe worst moment was the exercise class. A cheerful woman called Brenda invited me to join her \"gentle stretching group\", and I thought that it sounded relaxing. It was not. Brenda was about seventy years old, and she could bend in ways that I had not known were possible for the human body. When she asked us to touch our toes, I could reach my knees, and when she asked us to sit on the floor with our legs crossed, I could not stand up again. Brenda had to help me, and two ladies in the front row clapped.\n\nEven so, I did not give up. If I had stopped then, I would have wasted the money that I had paid for the membership. So I kept going, three times a week, and slowly things began to change. After a month I could run for fifteen minutes without stopping. After six weeks I could stretch to my ankles, and Brenda told me that I was \"a lovely mover\", which I did not believe. I also learned some useful rules about the gym. For example, it is never a good idea to look at yourself in the mirror while you are lifting weights, because you will be shocked by the colour of your face.\n\nMy diet changed too, although not as much as I had planned. I began to eat more vegetables, and I replaced my afternoon biscuits with an apple. However, I discovered that a cake is much easier to carry than a salad, and on Fridays I still bought a small chocolate muffin as a reward. My watch has noticed this, and it has started to send me messages like \"Are you sure?\" and \"Think of your goals.\" Last week it sent me a notification that said, \"You have been inactive for three hours.\" I was at my sister's wedding, and I had been dancing.\n\nThree months have now passed, and I am happy to report some success. I can run five kilometres without stopping, my jeans have stopped making noises, and I have lost several kilos. The old man in the dressing gown still overtakes me, but now I overtake him on the way back. Last Sunday I even entered a small charity race, and I finished in the middle of the group, ahead of a man dressed as a banana. I will not claim that I love exercise, but I have learned to enjoy the moment when it ends, and that is a good start.",
+  "word_count": 804,
   "vocabulary": [
     {
-      "word": "expected",
-      "ipa_us": "ɪkˈspɛktɪd",
-      "ipa_uk": "ɪkˈspektɪd",
-      "translation_ru": "ожидала"
+      "word": "athlete",
+      "ipa_us": "ˈæθˌliːt",
+      "ipa_uk": "ˈæθliːt",
+      "translation_ru": "спортсмен"
     },
     {
-      "word": "ruled",
-      "ipa_us": "ruld",
-      "ipa_uk": "ruːld",
-      "translation_ru": "правил"
+      "word": "insulted",
+      "ipa_us": "ɪnˈsʌltɪd",
+      "ipa_uk": "ɪnˈsʌltɪd",
+      "translation_ru": "оскорблённый"
     },
     {
-      "word": "ignored",
-      "ipa_us": "ɪɡˈnɔrd",
-      "ipa_uk": "ɪɡˈnɔːd",
-      "translation_ru": "игнорировал"
+      "word": "overtook",
+      "ipa_us": "ˌoʊvərˈtʊk",
+      "ipa_uk": "ˌəʊvəˈtʊk",
+      "translation_ru": "обогнал"
     },
     {
-      "word": "stared",
-      "ipa_us": "stɛrd",
-      "ipa_uk": "steəd",
-      "translation_ru": "пристально смотрел"
+      "word": "medieval",
+      "ipa_us": "ˌmɪdiˈivəl",
+      "ipa_uk": "ˌmedˈiːvəl",
+      "translation_ru": "средневековый"
     },
     {
-      "word": "hissed",
-      "ipa_us": "hɪst",
-      "ipa_uk": "hɪst",
-      "translation_ru": "зашипел"
+      "word": "torture",
+      "ipa_us": "ˈtɔːrtʃər",
+      "ipa_uk": "ˈtɔːtʃə",
+      "translation_ru": "пытка"
     },
     {
-      "word": "politely",
-      "ipa_us": "pəˈlaɪtli",
-      "ipa_uk": "pəˈlaɪtli",
-      "translation_ru": "вежливо"
+      "word": "confidence",
+      "ipa_us": "ˈkɑːnfɪdəns",
+      "ipa_uk": "ˈkɒnfɪdəns",
+      "translation_ru": "уверенность"
     },
     {
-      "word": "respect",
-      "ipa_us": "rɪˈspɛkt",
-      "ipa_uk": "rɪˈspekt",
-      "translation_ru": "уважение"
+      "word": "membership",
+      "ipa_us": "ˈmɛmbərˌʃɪp",
+      "ipa_uk": "ˈmembəʃɪp",
+      "translation_ru": "членство, абонемент"
     },
     {
-      "word": "captain",
-      "ipa_us": "ˈkæptɪn",
-      "ipa_uk": "ˈkæptɪn",
-      "translation_ru": "капитан"
+      "word": "notification",
+      "ipa_us": "ˌnoʊtɪfɪˈkeɪʃən",
+      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃən",
+      "translation_ru": "уведомление"
     },
     {
-      "word": "responsible",
-      "ipa_us": "rɪˈspɑnsəbəl",
-      "ipa_uk": "rɪˈspɒnsəbəl",
-      "translation_ru": "ответственный"
+      "word": "charity",
+      "ipa_us": "ˈtʃærəti",
+      "ipa_uk": "ˈtʃærəti",
+      "translation_ru": "благотворительность"
+    },
+    {
+      "word": "stretching",
+      "ipa_us": "ˈstrɛtʃɪŋ",
+      "ipa_uk": "ˈstretʃɪŋ",
+      "translation_ru": "растяжка"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "robot",
-        "round",
-        "respect",
-        "refused"
+        "both",
+        "month",
+        "things",
+        "thinking"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "ð",
+      "sound": "ŋ",
       "examples": [
-        "the other way",
-        "other"
+        "running",
+        "stretching",
+        "lifting",
+        "dancing"
       ],
-      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
     },
     {
-      "sound": "h",
+      "sound": "w",
       "examples": [
-        "hissed",
-        "hid",
-        "happily",
-        "half"
+        "watch",
+        "week",
+        "without",
+        "worst"
       ],
-      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "cheerful",
+        "goal",
+        "towel",
+        "useful"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What was the cat's name?",
-      "answer": "Mr Whiskers.",
+      "question": "What did the fitness watch say after the first run?",
+      "answer": "It said he had completed two percent of his daily goal.",
       "accepted_keywords": [
-        "whiskers"
+        "two",
+        "percent",
+        "goal",
+        "great"
       ]
     },
     {
-      "question": "How did the cat first react to the robot?",
-      "answer": "He hissed at it.",
+      "question": "What went wrong on the exercise bike?",
+      "answer": "He pressed the wrong button and started a programme called Mountain Challenge.",
       "accepted_keywords": [
-        "hissed",
-        "angry",
-        "stared"
+        "button",
+        "mountain",
+        "challenge",
+        "heavy"
       ]
     },
     {
-      "question": "What did the cat do on the fourth day?",
-      "answer": "He rode on top of the robot.",
+      "question": "Why did the narrator stay at the gym?",
+      "answer": "He did not want to waste the money for the membership.",
       "accepted_keywords": [
-        "rode",
-        "top",
-        "ride",
-        "sat"
+        "money",
+        "membership",
+        "waste"
       ]
     },
     {
-      "question": "What does the cat do when the battery is low?",
-      "answer": "He meows at the front door.",
+      "question": "What was the result after three months?",
+      "answer": "He could run five kilometres and finished a charity race ahead of a man dressed as a banana.",
       "accepted_keywords": [
-        "meow",
-        "door"
+        "five",
+        "kilometres",
+        "race",
+        "banana",
+        "charity"
       ]
     }
   ]

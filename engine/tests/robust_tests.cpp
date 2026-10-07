@@ -110,6 +110,17 @@ static double since(Clock::time_point t) { return std::chrono::duration<double>(
 
 static std::string take(char* s) { std::string o = s ? s : ""; std::free(s); return o; }
 
+static long peak_rss_mb() {
+    std::FILE* f = std::fopen("/proc/self/status", "r");
+    if (!f) return 0;
+    char line[256];
+    long kb = 0;
+    while (std::fgets(line, sizeof line, f))
+        if (std::strncmp(line, "VmHWM:", 6) == 0) { kb = std::atol(line + 6); break; }
+    std::fclose(f);
+    return kb / 1024;
+}
+
 // Linear resample of mono float audio.
 static std::vector<float> resample(const std::vector<float>& x, int from, int to) {
     if (from == to) return x;
@@ -468,6 +479,77 @@ int main(int argc, char** argv) {
         }
         CHECK(pron_live_start(e, nullptr) == nullptr);
         pron_live_free(nullptr);
+    }
+
+    // ---- long reading (~6 min, ~900 words): time, peak RSS, live-feed cost with a long hypothesis ----------------
+    {
+        const char* sentences[] = {
+            "Learning to speak a new language takes patience, and a little practice every single day.",
+            "When you read aloud, try to listen carefully to the sounds that you make.",
+            "The morning train left the quiet station while the rain fell softly on the old roof.",
+            "She opened the window, looked at the garden, and thought about everything that had happened.",
+            "Nobody knew exactly where the river began, but everyone agreed that it was beautiful.",
+            "He carried the heavy basket across the bridge and stopped to rest near the market.",
+            "Good teachers explain difficult ideas with simple words and plenty of friendly examples.",
+            "The children laughed, the dog barked, and the afternoon slipped quietly away.",
+        };
+        std::vector<float> longa;
+        std::string ref;
+        int lsr = 0;
+        std::vector<std::vector<float>> audios;
+        for (const char* sn : sentences) {
+            size_t cnt = 0; int r = 0;
+            float* w = pron_engine_tts(e, sn, "us", 1.0f, &cnt, &r);
+            CHECK(w && cnt > 0);
+            audios.emplace_back(w ? std::vector<float>(w, w + cnt) : std::vector<float>());
+            if (w) pron_engine_free_audio(w);
+            lsr = r;
+        }
+        const std::vector<float> gap(size_t(lsr * 0.35), 0.0f);
+        for (int k = 0; double(longa.size()) / lsr < 360.0; ++k) {
+            const size_t i = size_t(k) % 8;
+            longa.insert(longa.end(), audios[i].begin(), audios[i].end());
+            longa.insert(longa.end(), gap.begin(), gap.end());
+            ref += sentences[i];
+            ref += (k % 6 == 5) ? "\n\n" : " ";
+        }
+        const double sec = double(longa.size()) / lsr;
+        int words = 0;
+        for (char c : ref) if (c == ' ' || c == '\n') ++words;
+        std::printf("long reading: %.0f s audio, ~%d words\n", sec, words);
+        const long rss0 = peak_rss_mb();
+        const auto t0 = std::chrono::steady_clock::now();
+        const std::string j = assess(longa, lsr, ref);
+        const double took = std::chrono::duration<double>(std::chrono::steady_clock::now() - t0).count();
+        const long rss = peak_rss_mb();
+        std::printf("long assess: %.1f s, peak RSS %ld MB (was %ld MB before)\n", took, rss, rss0);
+        CHECK(valid_json(j));
+        CHECK(!j.empty());
+        CHECK(rss - rss0 < 400);  // the whole test process peaks higher than a single app run (earlier sections)
+
+        if (live) {
+            pron_live* lv = pron_live_start(e, ref.c_str());
+            CHECK(lv != nullptr);
+            if (lv) {
+                const std::vector<float> x = resample(longa, lsr, 16000);
+                const size_t chunk = 1600;  // 100 ms
+                double worst = 0, tot = 0, tail_tot = 0; int nf = 0, tail_n = 0;
+                for (size_t off = 0; off < x.size(); off += chunk) {
+                    const auto f0 = std::chrono::steady_clock::now();
+                    const std::string lj = take(pron_live_feed_f32(lv, x.data() + off, std::min(chunk, x.size() - off), 16000));
+                    const double ms = std::chrono::duration<double, std::milli>(std::chrono::steady_clock::now() - f0).count();
+                    CHECK(!lj.empty());
+                    worst = std::max(worst, ms); tot += ms; ++nf;
+                    if (off > x.size() / 2) { tail_tot += ms; ++tail_n; }
+                }
+                const std::string fin = take(pron_live_finish(lv));
+                CHECK(valid_json(fin));
+                CHECK(has(fin, "\"done\":true"));
+                std::printf("long live: %d feeds, avg %.2f ms, 2nd-half avg %.2f ms, worst %.1f ms\n", nf, tot / nf,
+                            tail_n ? tail_tot / tail_n : 0.0, worst);
+                pron_live_free(lv);
+            }
+        }
     }
 
     // ---- destroy while idle, after use ----------------------------------------------------------------------------

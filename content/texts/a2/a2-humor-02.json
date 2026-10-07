@@ -2,125 +2,153 @@
   "id": "a2-humor-02",
   "level": "A2",
   "genre": "humor",
-  "title_en": "Grandma's New Phone",
-  "title_ru": "Новый телефон бабушки",
-  "description_ru": "Весёлый рассказ о бабушке, которая впервые пользуется смартфоном.",
-  "text": "Last week, my grandma Rose got her first smartphone. She is seventy-two, and she was very excited. \"Now I am modern!\" she said.\n\nOn the first day, she called me nine times. \"Tom, the phone is dark. Is it broken?\" I said, \"Grandma, push the button.\" \"Oh,\" she said. \"Now it is bright. Thank you.\"\n\nOn the second day, she sent me a photo. It was a picture of her left ear. \"I wanted to take a picture of the flowers,\" she wrote. \"But the flowers are behind me.\"\n\nOn the third day, she found a game with birds. She played all afternoon and shouted, \"Take that, you silly green pig!\" My grandfather came into the room and asked, \"Who are you talking to?\"\n\nNow Grandma says she is better at games than me. The sad thing is that she is right.",
-  "word_count": 143,
+  "title_en": "My First Day on Skis",
+  "title_ru": "Мой первый день на лыжах",
+  "description_ru": "Юмористический рассказ о человеке, которого друзья уговорили поехать на лыжный курорт, и о его падениях.",
+  "text": "I have never been good at sports. At school, I was always the last person to be chosen for the football team, and once I scored a goal for the other side. So when my friends invited me on a skiing holiday in the mountains, I should have said no. Unfortunately, I did not. My friend Daniel said, \"Skiing is easy. You just slide down the hill.\" I believed him. That was my first mistake.\n\nOn the first morning, we went to the ski shop. The man who worked there looked at my feet and brought me a pair of boots. They were heavy, hard and very uncomfortable. When I put them on, I could not walk normally. I moved like a robot, and every step made a loud noise. Then he gave me two long skis and two sticks. \"Don't worry,\" he said with a kind smile. \"Everybody falls on the first day.\" I did not know that he meant it as a warning.\n\nWe took a lift to the top of the small hill, which was called the \"baby slope\". I saw a group of children who were about four years old. They were skiing perfectly, and one of them was going backwards. I felt a little embarrassed. Daniel told me to bend my knees, point my skis together and look ahead. I did everything he said, and then I started to move. For about three seconds, I was the happiest man in the world. Then I realised that I did not know how to stop.\n\nI went down the hill faster and faster, and my arms were going around like a windmill. People shouted, \"Move! Move!\" and they jumped out of the way. I tried to turn left, but my skis turned right. I tried to turn right, and they went left. In the end, I crashed into a big pile of snow, and I lay there for a minute, looking at the sky. A little girl skied over to me and asked in a serious voice, \"Are you dead?\" I said that I was not sure.\n\nAfter a coffee, I felt a little braver, and I decided to try again. This time, a ski instructor named Katya came to help me. She was patient and calm, and she spoke English with a nice accent. \"Do not look at your feet,\" she said. \"Look where you want to go.\" I looked at a tree, and I went straight into it. I was not hurt, because the snow was soft, but the tree dropped a large pile of snow on my head. Katya tried not to laugh, but I could see that her shoulders were shaking.\n\nBy the afternoon, I was a little better. I could turn, and I could stop, but only when I fell down. Daniel said that I was making progress. \"You are fewer times on the ground than this morning,\" he said. I was so happy that I decided to try the lift to a higher slope. This was my second mistake. At the top, the mountain looked much steeper than it did from the bottom. I could see tiny houses and tiny people far below. I wanted to take off my skis and walk down, but my boots would not let me.\n\nI pushed myself forward, closed my eyes and screamed. It was the longest minute of my life. I went down the hill sideways, backwards and sometimes upside down. I lost one ski, one stick and my hat. At the bottom, I stopped in front of a cafe, and a waiter looked at me from the window and raised his thumb. Everybody inside clapped. I think that they had been watching me from the beginning.\n\nThat evening, my whole body hurt. I could not lift my arms, and I could not sit down without making a noise. We had dinner in the hotel, and Daniel showed everybody a video that he had recorded. I am not going to describe it, because I have tried to forget it. But I will say that the video was much funnier than a comedy film. Even the waiter was crying with laughter.\n\nOn the last day, I did not ski at all. I sat in the cafe with a hot chocolate and watched the other people through the window. I decided that this was the best part of the holiday. The mountains were beautiful, the chocolate was good and nobody asked me to slide down anything. Next year, my friends want to go snowboarding. I told them that I am going to stay at home.",
+  "word_count": 769,
   "vocabulary": [
     {
-      "word": "smartphone",
-      "ipa_us": "ˈsmɑːrtfoʊn",
-      "ipa_uk": "ˈsmɑːtfəʊn",
-      "translation_ru": "смартфон"
+      "word": "skiing",
+      "ipa_us": "ˈskiɪŋ",
+      "ipa_uk": "ˈskiːɪŋ",
+      "translation_ru": "катание на лыжах"
     },
     {
-      "word": "excited",
-      "ipa_us": "ɪkˈsaɪtɪd",
-      "ipa_uk": "ɪkˈsaɪtɪd",
-      "translation_ru": "взволнованный"
+      "word": "slope",
+      "ipa_us": "sloʊp",
+      "ipa_uk": "sləʊp",
+      "translation_ru": "склон"
     },
     {
-      "word": "broken",
-      "ipa_us": "ˈbroʊkən",
-      "ipa_uk": "ˈbrəʊkən",
-      "translation_ru": "сломанный"
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbærəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущённый"
     },
     {
-      "word": "button",
-      "ipa_us": "ˈbʌtn",
-      "ipa_uk": "ˈbʌtn",
-      "translation_ru": "кнопка"
+      "word": "windmill",
+      "ipa_us": "ˈwɪndˌmɪl",
+      "ipa_uk": "ˈwɪndmɪl",
+      "translation_ru": "ветряная мельница"
     },
     {
-      "word": "bright",
-      "ipa_us": "braɪt",
-      "ipa_uk": "braɪt",
-      "translation_ru": "яркий"
+      "word": "instructor",
+      "ipa_us": "ɪnˈstrʌktər",
+      "ipa_uk": "ɪnˈstrʌktə",
+      "translation_ru": "инструктор"
     },
     {
-      "word": "photo",
-      "ipa_us": "ˈfoʊtoʊ",
-      "ipa_uk": "ˈfəʊtəʊ",
-      "translation_ru": "фото"
+      "word": "patient",
+      "ipa_us": "ˈpeɪʃənt",
+      "ipa_uk": "ˈpeɪʃnt",
+      "translation_ru": "терпеливый"
     },
     {
-      "word": "silly",
-      "ipa_us": "ˈsɪli",
-      "ipa_uk": "ˈsɪli",
-      "translation_ru": "глупый"
+      "word": "progress",
+      "ipa_us": "ˈprɑɡrɛs",
+      "ipa_uk": "ˈprəʊɡres",
+      "translation_ru": "прогресс"
     },
     {
-      "word": "grandfather",
-      "ipa_us": "ˈɡrænfɑːðər",
-      "ipa_uk": "ˈɡrænfɑːðə",
-      "translation_ru": "дедушка"
+      "word": "steeper",
+      "ipa_us": "ˈstipər",
+      "ipa_uk": "ˈstiːpə",
+      "translation_ru": "круче"
+    },
+    {
+      "word": "sideways",
+      "ipa_us": "ˈsaɪdˌweɪz",
+      "ipa_uk": "ˈsaɪdweɪz",
+      "translation_ru": "боком"
+    },
+    {
+      "word": "snowboarding",
+      "ipa_us": "ˈsnoʊˌbɔrdɪŋ",
+      "ipa_uk": "ˈsnəʊbɔːdɪŋ",
+      "translation_ru": "сноубординг"
+    },
+    {
+      "word": "lift",
+      "ipa_us": "lɪft",
+      "ipa_uk": "lɪft",
+      "translation_ru": "подъёмник"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "r",
       "examples": [
-        "thank",
-        "third"
+        "robot",
+        "right",
+        "around"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены. Не раскатывайте русское «р»."
     },
     {
-      "sound": "v",
+      "sound": "w",
       "examples": [
-        "seventy",
-        "very"
+        "windmill",
+        "when",
+        "with"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "aɪ",
+      "sound": "ŋ",
       "examples": [
-        "bright",
-        "right"
+        "skiing",
+        "morning",
+        "going"
       ],
-      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос. Не добавляйте «г» в конце."
     },
     {
-      "sound": "əʊ",
+      "sound": "final-voiced",
       "examples": [
-        "phone",
-        "photo"
+        "head",
+        "slide",
+        "afternoon"
       ],
-      "tip_ru": "Начните со звука «э» (ə) и плавно переходите к «у» с округлёнными губами."
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
     }
   ],
   "questions": [
     {
-      "question": "What did Grandma get?",
-      "answer": "A smartphone.",
+      "question": "Why did the writer agree to go skiing?",
+      "answer": "His friend Daniel said that skiing is easy.",
       "accepted_keywords": [
-        "smartphone",
-        "phone"
+        "daniel",
+        "easy",
+        "friend"
       ]
     },
     {
-      "question": "How old is she?",
-      "answer": "Seventy-two.",
+      "question": "What did the writer not know how to do?",
+      "answer": "He did not know how to stop.",
       "accepted_keywords": [
-        "seventy",
-        "72"
+        "stop",
+        "stopping"
       ]
     },
     {
-      "question": "What was in the photo?",
-      "answer": "Her ear.",
+      "question": "What happened when he looked at the tree?",
+      "answer": "He went straight into it, and snow fell on his head.",
       "accepted_keywords": [
-        "ear"
+        "tree",
+        "snow",
+        "crashed",
+        "head"
       ]
     },
     {
-      "question": "What game did she play?",
-      "answer": "A game with birds.",
+      "question": "What did he do on the last day?",
+      "answer": "He did not ski; he sat in the cafe with a hot chocolate.",
       "accepted_keywords": [
-        "bird",
-        "birds"
+        "cafe",
+        "chocolate",
+        "sat",
+        "not ski"
       ]
     }
   ]

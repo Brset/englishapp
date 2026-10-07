@@ -2,112 +2,166 @@
   "id": "b1-travel-03",
   "level": "B1",
   "genre": "travel",
-  "title_en": "Venice Without Cars",
-  "title_ru": "Венеция без машин",
-  "description_ru": "Как передвигаться по Венеции, где нет автомобилей, и что стоит увидеть.",
-  "text": "Venice is a city that looks like nothing else. It is built on more than a hundred small islands, which are connected by about four hundred bridges. There are no cars, no buses and no motorbikes. If you want to travel, you must walk or use the water.\n\nThe best way to see the city is to take a vaporetto, which is a public water bus. Line number one goes along the Grand Canal, the main street of Venice, and passes dozens of old palaces. A ticket is expensive, but you can buy a pass for the whole day. If you prefer something romantic, you can take a gondola, though the price is high, so it is better to share it with friends.\n\nYou will certainly get lost in the narrow streets, but don't worry. Getting lost is part of the fun. Every corner has a surprise: a tiny square, a hidden church or a bakery with warm cakes. When you are tired, sit down in a small café and order a coffee. Avoid the restaurants near the main square, because they are often overpriced.\n\nVenice has a problem, however. The city is slowly sinking, and high water floods the streets several times a year. If you visit in autumn or winter, bring waterproof boots. Whatever the season, Venice will stay in your memory forever.",
-  "word_count": 225,
+  "title_en": "Discovering Peru's Ancient Mysteries",
+  "title_ru": "Открытие древних тайн Перу",
+  "description_ru": "Путешествие по следам инков: Куско, Священная долина, Мачу-Пикчу, линии Наски и озеро Титикака.",
+  "text": "I have wanted to visit Peru since I was a child, when I found a picture of a lost city among clouds in a library book. Last year, I finally went, and I spent three weeks following the traces of the Incas, one of the most remarkable civilisations in history. They had no iron tools, no wheels for transport and no written alphabet, yet they built an empire that stretched for four thousand kilometres along the Andes. In Peru, the evidence of their genius is everywhere, and so are the mysteries they left behind.\n\nMy journey began in Cusco, the old capital of the Inca empire, at an altitude of 3,400 metres. On the first day, I walked slowly and drank a lot of coca tea, which locals use to ease the effects of altitude. The city is a fascinating mixture. When Spanish soldiers arrived in the sixteenth century, they built churches and houses on top of Inca walls, and many of those walls are still there. The stones fit together so precisely that you cannot slide a knife blade between them. Earthquakes have destroyed Spanish buildings, but the Inca foundations have often survived.\n\nFrom Cusco, I went into the Sacred Valley, a fertile region where the Incas grew corn and potatoes on steep terraces. At a site called Moray, I saw something that looks like a giant amphitheatre sunk into the ground. The circular terraces are at different depths, and the temperature between the top and the bottom can differ by several degrees. Researchers believe that the Incas used it as a kind of agricultural laboratory, testing which crops grew best at different heights. This was farming science, five hundred years ago.\n\nThen came the highlight of the journey: Machu Picchu. I chose to walk the Inca Trail, a path of about forty-three kilometres, which takes four days. We passed through cloud forests, over mountain passes higher than four thousand metres, and through ruins that tourists on the train never see. On the last morning, we woke at three o'clock and walked in the dark to a stone gateway, the Sun Gate. As the sunrise lit the clouds, the lost city slowly appeared below us, with its terraces and temples. A woman next to me began to cry, and I think I understood why.\n\nMachu Picchu was probably built around 1450, as a royal estate for the emperor Pachacuti. It was abandoned about a hundred years later, and the Spanish never found it, which is why it survived. In 1911, an American explorer, Hiram Bingham, brought it to the attention of the wider world, although local farmers had always known about it. Even now, experts debate its exact purpose. Was it a religious centre, a summer palace, or an observatory? The stones, which are cut to catch the sun at the solstice, suggest that the answer may be all three.\n\nAfter the mountains, I travelled south to the desert, to see the Nazca Lines. These are enormous drawings on the ground, made between about 500 BC and 500 AD, which show a monkey, a spider, a hummingbird and many geometric shapes. They are so large that you can only recognise them from the air, so I took a small plane. The pilot tilted the wings so that we could see each figure. Why did the Nazca people make them? Some scholars think they were part of religious ceremonies, others that they marked sources of water. Nobody knows for certain, and that is part of the charm.\n\nMy last stop was Lake Titicaca, the highest navigable lake in the world, shared between Peru and Bolivia. I stayed for two nights with a family on Amantani Island, where there are no cars and electricity is limited. We ate soup made from quinoa and potatoes, and in the evening we wore traditional clothes and danced at a village party. The sky was so clear that I could see the Milky Way, and the mother of the family told me the names of the constellations in Quechua, the language of the Incas, which she still speaks every day.\n\nI also made time for a cooking lesson in the Sacred Valley, where a young chef taught us to prepare a potato dish that has been eaten here for thousands of years. Peru has several thousand varieties of potato, in colours from purple to yellow, and the Incas even knew how to freeze-dry them in the cold mountain air.\n\nIf you are thinking of going, plan carefully. Machu Picchu limits the number of daily visitors, and permits for the Inca Trail often sell out months in advance, so book early. Give yourself two or three days in Cusco to get used to the altitude. Bring layers, because mornings are freezing and afternoons can be hot. And take time to eat. Peruvian food, from fresh ceviche to roasted guinea pig, is among the best in the world. I came home with a full notebook and a long list of reasons to go back.",
+  "word_count": 834,
   "vocabulary": [
     {
-      "word": "islands",
-      "ipa_us": "ˈaɪləndz",
-      "ipa_uk": "ˈaɪləndz",
-      "translation_ru": "острова"
+      "word": "civilisations",
+      "ipa_us": "ˌsɪvələˈzeɪʃənz",
+      "ipa_uk": "ˌsɪvəlaɪˈzeɪʃənz",
+      "translation_ru": "цивилизации"
     },
     {
-      "word": "bridges",
-      "ipa_us": "ˈbrɪdʒɪz",
-      "ipa_uk": "ˈbrɪdʒɪz",
-      "translation_ru": "мосты"
+      "word": "empire",
+      "ipa_us": "ˈɛmpaɪər",
+      "ipa_uk": "ˈempaɪə",
+      "translation_ru": "империя"
     },
     {
-      "word": "vaporetto",
-      "ipa_us": "ˌvɑːpəˈretoʊ",
-      "ipa_uk": "ˌvɑːpəˈretəʊ",
-      "translation_ru": "вапоретто, водный автобус"
+      "word": "terraces",
+      "ipa_us": "ˈtɛrəsɪz",
+      "ipa_uk": "ˈterəsɪz",
+      "translation_ru": "террасы"
     },
     {
-      "word": "gondola",
-      "ipa_us": "ˈɡɑːndələ",
-      "ipa_uk": "ˈɡɒndələ",
-      "translation_ru": "гондола"
+      "word": "precisely",
+      "ipa_us": "prɪˈsaɪsli",
+      "ipa_uk": "prɪˈsaɪsli",
+      "translation_ru": "точно"
     },
     {
-      "word": "narrow",
-      "ipa_us": "ˈnæroʊ",
-      "ipa_uk": "ˈnærəʊ",
-      "translation_ru": "узкий"
+      "word": "amphitheatre",
+      "ipa_us": "ˈæmfɪˌθiːətər",
+      "ipa_uk": "ˈæmfɪˌθɪətə",
+      "translation_ru": "амфитеатр"
     },
     {
-      "word": "overpriced",
-      "ipa_us": "ˌoʊvɚˈpraɪst",
-      "ipa_uk": "ˌəʊvəˈpraɪst",
-      "translation_ru": "слишком дорогой"
+      "word": "laboratory",
+      "ipa_us": "ˈlæbrətɔːri",
+      "ipa_uk": "ləˈbɒrətri",
+      "translation_ru": "лаборатория"
     },
     {
-      "word": "waterproof",
-      "ipa_us": "ˈwɔːtɚpruːf",
-      "ipa_uk": "ˈwɔːtəpruːf",
-      "translation_ru": "водонепроницаемый"
+      "word": "altitude",
+      "ipa_us": "ˈæltɪtuːd",
+      "ipa_uk": "ˈæltɪtjuːd",
+      "translation_ru": "высота"
+    },
+    {
+      "word": "ruins",
+      "ipa_us": "ˈruːɪnz",
+      "ipa_uk": "ˈruːɪnz",
+      "translation_ru": "руины"
+    },
+    {
+      "word": "solstice",
+      "ipa_us": "ˈsɑːlstɪs",
+      "ipa_uk": "ˈsɒlstɪs",
+      "translation_ru": "солнцестояние"
+    },
+    {
+      "word": "geometric",
+      "ipa_us": "ˌdʒiːəˈmɛtrɪk",
+      "ipa_uk": "ˌdʒiːəˈmetrɪk",
+      "translation_ru": "геометрический"
+    },
+    {
+      "word": "navigable",
+      "ipa_us": "ˈnævɪɡəbəl",
+      "ipa_uk": "ˈnævɪɡəbl",
+      "translation_ru": "судоходный"
+    },
+    {
+      "word": "constellations",
+      "ipa_us": "ˌkɑːnstəˈleɪʃənz",
+      "ipa_uk": "ˌkɒnstəˈleɪʃənz",
+      "translation_ru": "созвездия"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "θ",
       "examples": [
-        "Venice",
-        "vaporetto",
-        "visit",
-        "travel"
+        "through",
+        "three",
+        "thousands",
+        "earthquakes"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
-      "sound": "w",
+      "sound": "aɪ",
       "examples": [
-        "walk",
-        "water",
-        "worry",
-        "waterproof"
+        "time",
+        "island",
+        "like",
+        "highest"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Начните с «а» и скользите к «и», как в русском «ай»."
     },
     {
-      "sound": "r",
+      "sound": "eɪ",
       "examples": [
-        "romantic",
-        "restaurants",
-        "prefer",
-        "bridges"
+        "stayed",
+        "plan",
+        "gate",
+        "made"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не обрывайте звук."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "civilisation",
+        "laboratory",
+        "precisely",
+        "constellations"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "How many bridges does Venice have?",
-      "answer": "About four hundred.",
+      "question": "What was Cusco's role in the Inca empire?",
+      "answer": "It was the old capital.",
       "accepted_keywords": [
+        "capital",
+        "cusco"
+      ]
+    },
+    {
+      "question": "What did the Incas probably do at Moray?",
+      "answer": "They used the terraces as an agricultural laboratory.",
+      "accepted_keywords": [
+        "crops",
+        "farming",
+        "laboratory",
+        "terraces",
+        "agricultural"
+      ]
+    },
+    {
+      "question": "How long is the Inca Trail?",
+      "answer": "About forty-three kilometres and it takes four days.",
+      "accepted_keywords": [
+        "forty-three",
+        "43",
         "four",
-        "400",
-        "hundred"
+        "days"
       ]
     },
     {
-      "question": "What is a vaporetto?",
-      "answer": "A public water bus.",
+      "question": "Why can the Nazca Lines only be recognised from the air?",
+      "answer": "They are enormous drawings on the ground.",
       "accepted_keywords": [
-        "water",
-        "bus"
-      ]
-    },
-    {
-      "question": "What problem does Venice have?",
-      "answer": "It is slowly sinking and floods.",
-      "accepted_keywords": [
-        "sinking",
-        "floods",
-        "water"
+        "large",
+        "enormous",
+        "huge",
+        "drawings",
+        "big"
       ]
     }
   ]

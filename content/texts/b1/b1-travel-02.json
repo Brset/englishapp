@@ -2,110 +2,165 @@
   "id": "b1-travel-02",
   "level": "B1",
   "genre": "travel",
-  "title_en": "Lake Baikal in Winter",
-  "title_ru": "Байкал зимой",
-  "description_ru": "Что можно увидеть и сделать на самом глубоком озере мира зимой.",
-  "text": "Lake Baikal in Siberia is the deepest lake in the world. It is more than sixteen hundred metres deep, and it contains about one fifth of all the fresh water on the planet that is not frozen. It is also very old: scientists believe that it has existed for around twenty-five million years.\n\nMost tourists come in summer, but winter is the best time for adventure. From January to March, the whole surface of the lake is covered with thick ice, which can be more than a metre deep. It is strong enough for trucks to drive across it. The ice is also remarkably clear, so you can look straight down and see cracks, bubbles and even stones on the bottom.\n\nLast February, I travelled to Baikal with two friends. We stayed in a small wooden house in the village of Listvyanka. During the day, we skated on the ice, took photographs and rode in a hovercraft, which moves above the surface on a cushion of air. In the evening, we drank hot tea and ate smoked fish, a local speciality.\n\nThe cold is serious. The temperature can fall to minus thirty degrees, so you must wear warm layers, good boots and a hat. If you forget your gloves, your hands will freeze in minutes. But I promise that the silence and the blue ice are worth every shiver.",
-  "word_count": 230,
+  "title_en": "Trekking Through the Himalayas",
+  "title_ru": "Треккинг по Гималаям",
+  "description_ru": "Рассказ о двенадцатидневном походе к базовому лагерю Эвереста и о том, почему в горах нельзя спешить.",
+  "text": "Our guide Pemba looked at the group of eight tired travellers and smiled. \"Remember,\" he said, \"in the mountains, we walk like old men.\" He meant that we should go slowly, and he repeated this every morning for twelve days. At first, I thought he was joking. By the sixth day, when I was struggling to climb a gentle slope at four thousand metres, I understood that he was the wisest person I had ever met. This is the story of my trek to Everest Base Camp, in the Himalayas of Nepal.\n\nThe adventure began with a short and slightly frightening flight from Kathmandu to Lukla, a village with one of the most dangerous-looking airports in the world. The runway is only about five hundred metres long, and it ends at a mountain wall. The little plane bounced onto the ground and stopped within seconds, and the passengers applauded. From Lukla, there are no roads, so everything, from food to furniture, is carried by porters, mules and yaks. We stepped aside many times to let animals pass, their bells ringing in the cold air.\n\nThe path follows the Dudh Koshi river, which means \"milk river\" because of its pale, cloudy water. Each day, we walked for five or six hours, crossing high suspension bridges covered with colourful prayer flags. My legs shook on the first one, which swung above a deep valley, but by the third bridge I hardly noticed. Our first major stop was Namche Bazaar, a busy town built in the shape of an amphitheatre on a hillside, at about 3,440 metres. It has bakeries, bookshops and even a pub, and we spent two nights there to rest.\n\nThat rest was not a luxury. It was medical advice. At high altitude, the air contains the same percentage of oxygen as at sea level, but there is less pressure, so each breath delivers less. The body needs several days to adapt, by producing more red blood cells. If you climb too fast, you can suffer from altitude sickness, which begins with headaches and nausea and can become dangerous. The rule that guides use is \"climb high, sleep low.\" On our rest day, we hiked up to a viewpoint and returned to Namche to sleep, and this helped our bodies to adjust.\n\nWe slept in teahouses, which are simple guesthouses run by local families. The rooms were basic, with thin walls and wooden beds, but the dining room was always warm, thanks to a stove burning dried yak dung. In the evenings, we played cards, wrote diaries and drank endless cups of ginger tea. The most popular dish was dal bhat, a plate of rice and lentils, which comes with unlimited refills. Pemba told us that porters eat it twice a day, and that the saying is: \"Dal bhat power, twenty-four hour.\"\n\nAt Tengboche, we visited a Buddhist monastery surrounded by mountains. We arrived at the hour of prayer, and we sat quietly at the back while the monks sang and played long horns. The sound was deep and strange, and it made the hair rise on my arms. Outside, the clouds opened for a moment, and we saw Ama Dablam, a sharp and graceful peak that is sometimes called the most beautiful mountain in the Himalayas. Even Pemba, who has seen it hundreds of times, stopped to look.\n\nBeyond four thousand metres, the landscape became rocky and bare, and every step demanded effort. I had a headache for two days, and I drank so much water that I woke up several times each night. One member of our group, a cheerful engineer from Canada, felt ill and had to descend for a day, but he returned to us later, after he had recovered. We reached Gorak Shep, the last settlement, and the next morning we walked to Base Camp, which stands at 5,364 metres.\n\nEverest itself is not visible from Base Camp, because it is hidden behind other mountains, but the ice, the colourful tents of climbers and the enormous Khumbu Glacier were more than enough. We took photographs, and then we sat in silence, too tired and too happy to speak. The next day, before sunrise, we climbed to Kala Patthar, a small hill at 5,545 metres, and watched the first light touch the summit of Everest. It was one of the most beautiful moments of my life.\n\nIf you are planning a similar trip, remember a few things. Train for several months before you go, with hills and long walks. Pack warm layers, sturdy boots and a good sleeping bag. Do not rush, even if you feel strong. Respect local customs, for example by walking clockwise around prayer walls. And always listen to your guide, because Pemba was right: in the mountains, the slow traveller is the one who reaches the top.",
+  "word_count": 804,
   "vocabulary": [
     {
-      "word": "deepest",
-      "ipa_us": "ˈdiːpɪst",
-      "ipa_uk": "ˈdiːpɪst",
-      "translation_ru": "самый глубокий"
+      "word": "trek",
+      "ipa_us": "trɛk",
+      "ipa_uk": "trek",
+      "translation_ru": "поход"
     },
     {
-      "word": "frozen",
-      "ipa_us": "ˈfroʊzən",
-      "ipa_uk": "ˈfrəʊzən",
-      "translation_ru": "замёрзший"
+      "word": "porters",
+      "ipa_us": "ˈpɔːrtərz",
+      "ipa_uk": "ˈpɔːtəz",
+      "translation_ru": "носильщики"
     },
     {
-      "word": "surface",
-      "ipa_us": "ˈsɜːrfɪs",
-      "ipa_uk": "ˈsɜːfɪs",
-      "translation_ru": "поверхность"
+      "word": "suspension",
+      "ipa_us": "səˈspɛnʃən",
+      "ipa_uk": "səˈspenʃən",
+      "translation_ru": "подвесной"
     },
     {
-      "word": "remarkably",
-      "ipa_us": "rɪˈmɑːrkəbli",
-      "ipa_uk": "rɪˈmɑːkəbli",
-      "translation_ru": "удивительно"
+      "word": "altitude",
+      "ipa_us": "ˈæltɪtuːd",
+      "ipa_uk": "ˈæltɪtjuːd",
+      "translation_ru": "высота"
     },
     {
-      "word": "hovercraft",
-      "ipa_us": "ˈhʌvɚkræft",
-      "ipa_uk": "ˈhɒvəkrɑːft",
-      "translation_ru": "судно на воздушной подушке"
+      "word": "oxygen",
+      "ipa_us": "ˈɑːksɪdʒən",
+      "ipa_uk": "ˈɒksɪdʒən",
+      "translation_ru": "кислород"
     },
     {
-      "word": "speciality",
-      "ipa_us": "ˌspeʃiˈæləti",
-      "ipa_uk": "ˌspeʃiˈæləti",
-      "translation_ru": "фирменное блюдо"
+      "word": "nausea",
+      "ipa_us": "ˈnɔːziə",
+      "ipa_uk": "ˈnɔːziə",
+      "translation_ru": "тошнота"
     },
     {
-      "word": "shiver",
-      "ipa_us": "ˈʃɪvɚ",
-      "ipa_uk": "ˈʃɪvə",
-      "translation_ru": "дрожь"
+      "word": "teahouses",
+      "ipa_us": "ˈtiːhaʊzɪz",
+      "ipa_uk": "ˈtiːhaʊzɪz",
+      "translation_ru": "чайные домики"
+    },
+    {
+      "word": "monastery",
+      "ipa_us": "ˈmɑːnəsteri",
+      "ipa_uk": "ˈmɒnəstri",
+      "translation_ru": "монастырь"
+    },
+    {
+      "word": "glacier",
+      "ipa_us": "ˈɡleɪʃər",
+      "ipa_uk": "ˈɡlæsiə",
+      "translation_ru": "ледник"
+    },
+    {
+      "word": "summit",
+      "ipa_us": "ˈsʌmɪt",
+      "ipa_uk": "ˈsʌmɪt",
+      "translation_ru": "вершина"
+    },
+    {
+      "word": "sturdy",
+      "ipa_us": "ˈstɜːrdi",
+      "ipa_uk": "ˈstɜːdi",
+      "translation_ru": "прочный"
+    },
+    {
+      "word": "adapt",
+      "ipa_us": "əˈdæpt",
+      "ipa_uk": "əˈdæpt",
+      "translation_ru": "приспособиться"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ɜː",
       "examples": [
-        "thick",
-        "thirty"
+        "sturdy",
+        "world",
+        "first",
+        "burning"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Долгий звук между «э» и «ё», губы нейтральны; без «р» в британском варианте."
     },
     {
-      "sound": "r",
+      "sound": "aʊ",
       "examples": [
-        "remarkably",
-        "travelled",
-        "frozen",
-        "friends"
+        "mountain",
+        "around",
+        "about",
+        "sound"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Скольжение от «а» к «у», как в «ау»."
     },
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "very",
-        "village",
-        "travelled",
-        "over",
-        "drive"
+        "morning",
+        "walking",
+        "everything",
+        "things"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "altitude",
+        "monastery",
+        "oxygen",
+        "suspension"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "How deep is Lake Baikal?",
-      "answer": "More than sixteen hundred metres.",
+      "question": "Where did the trek begin?",
+      "answer": "In Lukla, after a flight from Kathmandu.",
       "accepted_keywords": [
-        "sixteen",
-        "1600",
-        "hundred"
+        "lukla",
+        "kathmandu",
+        "flight"
       ]
     },
     {
-      "question": "What can trucks do in winter?",
-      "answer": "Drive across the ice.",
+      "question": "Why did the group stay two nights in Namche Bazaar?",
+      "answer": "To rest and let their bodies adapt to the altitude.",
       "accepted_keywords": [
-        "drive",
-        "ice"
+        "rest",
+        "adapt",
+        "altitude",
+        "acclimatise"
       ]
     },
     {
-      "question": "What did the travellers eat?",
-      "answer": "Smoked fish.",
+      "question": "What do guides say about altitude?",
+      "answer": "Climb high, sleep low.",
       "accepted_keywords": [
-        "fish",
-        "smoked"
+        "climb",
+        "sleep",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "question": "How high is Everest Base Camp?",
+      "answer": "About 5,364 metres.",
+      "accepted_keywords": [
+        "5,364",
+        "5364",
+        "metres",
+        "meters"
       ]
     }
   ]

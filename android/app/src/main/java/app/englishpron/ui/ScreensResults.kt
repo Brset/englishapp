@@ -83,7 +83,8 @@ fun Legend(c: Color, label: String) = Row(verticalAlignment = Alignment.CenterVe
 
 /**
  * The text body with per-word marks: the full assessment colours every word by score band (tap = details);
- * until it is ready the quick live marks are shown (read / skipped). Returns null when there is nothing to mark.
+ * words without a full result yet (still queued, other paragraphs) show the quick live marks (read / skipped).
+ * Returns null when there is nothing to mark.
  */
 fun markedBody(
     body: String, reading: TextReading?, selected: WordResult?,
@@ -91,35 +92,44 @@ fun markedBody(
 ): AnnotatedString? {
     val r = reading ?: return null
     val result = r.result
-    if (result != null) return buildAnnotatedString {
-        var last = 0
-        for (w in result.words.sortedBy { it.u16Begin }) {
-            if (w.u16Begin < last || w.u16End < w.u16Begin || w.u16End > body.length) continue
-            append(body.substring(last, w.u16Begin))
-            val c = parseColor(w.colorHex)
-            withLink(LinkAnnotation.Clickable("w${w.index}") { onScored(w) }) {
-                withStyle(SpanStyle(background = c.copy(alpha = if (w.index == selected?.index) 0.7f else 0.3f), fontWeight = FontWeight.Medium)) {
-                    append(body.substring(w.u16Begin, w.u16End))
-                }
-            }
-            last = w.u16End
+    val live = r.live
+    if (result == null && live == null) return null
+    class Mark(val b: Int, val e: Int, val scored: WordResult?, val state: WordState?, val idx: Int)
+    val marks = ArrayList<Mark>()
+    val covered = BooleanArray(body.length + 1)
+    result?.words?.forEach { w ->
+        if (w.u16Begin >= 0 && w.u16End >= w.u16Begin && w.u16End <= body.length) {
+            marks += Mark(w.u16Begin, w.u16End, w, null, w.index)
+            for (k in w.u16Begin until w.u16End) covered[k] = true
         }
-        append(body.substring(last))
     }
-    val live = r.live ?: return null
+    live?.words?.forEach { w ->
+        if (w.u16Begin >= 0 && w.u16End >= w.u16Begin && w.u16End <= body.length && !covered[w.u16Begin]) marks += Mark(w.u16Begin, w.u16End, null, w.state, w.index)
+    }
+    marks.sortBy { it.b }
     return buildAnnotatedString {
         var last = 0
-        for (w in live.words.sortedBy { it.u16Begin }) {
-            if (w.u16Begin < last || w.u16End < w.u16Begin || w.u16End > body.length) continue
-            append(body.substring(last, w.u16Begin))
-            val word = body.substring(w.u16Begin, w.u16End)
-            val style = when (w.state) {
-                WordState.READ -> SpanStyle(background = Green.copy(alpha = 0.18f))
-                WordState.SKIPPED -> SpanStyle(color = Orange, textDecoration = TextDecoration.Underline)
-                else -> SpanStyle()
+        for (m in marks) {
+            if (m.b < last) continue
+            append(body.substring(last, m.b))
+            val sc = m.scored
+            if (sc != null) {
+                val c = parseColor(sc.colorHex)
+                withLink(LinkAnnotation.Clickable("w${m.idx}") { onScored(sc) }) {
+                    withStyle(SpanStyle(background = c.copy(alpha = if (sc.index == selected?.index) 0.7f else 0.3f), fontWeight = FontWeight.Medium)) {
+                        append(body.substring(m.b, m.e))
+                    }
+                }
+            } else {
+                val word = body.substring(m.b, m.e)
+                val style = when (m.state) {
+                    WordState.READ -> SpanStyle(background = Green.copy(alpha = 0.18f))
+                    WordState.SKIPPED -> SpanStyle(color = Orange, textDecoration = TextDecoration.Underline)
+                    else -> SpanStyle()
+                }
+                withLink(LinkAnnotation.Clickable("l${m.idx}") { onPlain(word) }) { withStyle(style) { append(word) } }
             }
-            withLink(LinkAnnotation.Clickable("l${w.index}") { onPlain(word) }) { withStyle(style) { append(word) } }
-            last = w.u16End
+            last = m.e
         }
         append(body.substring(last))
     }
@@ -127,10 +137,17 @@ fun markedBody(
 
 /** Status / score card above the text. */
 @Composable
-fun ReadingStatusCard(reading: TextReading, job: JobUi?) {
+fun ReadingStatusCard(reading: TextReading, job: JobUi?, coverage: Double? = null) {
     val r = reading.result
     when {
-        r != null -> ScoreCard(r)
+        r != null -> Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            ScoreCard(r, coverage)
+            if (reading.pending) Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                if (job != null && job.running && job.progress > 0f) LinearProgressIndicator(progress = { job.progress }, Modifier.fillMaxWidth())
+                else LinearProgressIndicator(Modifier.fillMaxWidth())
+                Text("Остальные абзацы ещё считаются: " + (job?.let { it.label + " · " + jobLine(it) } ?: "в очереди"), style = MaterialTheme.typography.bodySmall)
+            }
+        }
         reading.pending -> Card(Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.secondaryContainer)) {
             Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text("Оценка готовится…", fontWeight = FontWeight.Medium)
@@ -148,7 +165,7 @@ fun ReadingStatusCard(reading: TextReading, job: JobUi?) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ScoreCard(r: AssessmentUi) {
+private fun ScoreCard(r: AssessmentUi, coverage: Double?) {
     Card(Modifier.fillMaxWidth()) {
         Column(Modifier.padding(16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
             Text("%.0f".format(r.overall), fontSize = 48.sp, fontWeight = FontWeight.Bold)
@@ -156,6 +173,7 @@ private fun ScoreCard(r: AssessmentUi) {
             Spacer(Modifier.height(8.dp))
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround) {
                 Mini("Точность", r.accuracy); Mini("Полнота", r.completeness); Mini("Беглость", r.fluency)
+                if (coverage != null) Mini("Покрытие %", coverage)
             }
             if (r.wpm > 0) Text("Темп: %.0f слов/мин, длинных пауз: ${r.longPauses}".format(r.wpm), style = MaterialTheme.typography.labelMedium)
             if (!r.phonemeLevel) Text("Оценка отдельных звуков недоступна: фонемная модель не подключена.",
@@ -292,7 +310,7 @@ fun ProcessingSheet(jobs: List<JobUi>, onCancel: (Long) -> Unit, onDismiss: () -
                 if (i == 0 && j.running) {
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                         Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(j.title, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
+                            Text(j.label, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
                             IconButton({ onCancel(j.id) }) { Icon(Icons.Filled.Close, "Отменить") }
                         }
                         if (j.progress > 0f) LinearProgressIndicator(progress = { j.progress }, Modifier.fillMaxWidth())
@@ -304,7 +322,7 @@ fun ProcessingSheet(jobs: List<JobUi>, onCancel: (Long) -> Unit, onDismiss: () -
                     if (i == 0) SectionTitle("В очереди")
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
-                            Text(j.title, style = MaterialTheme.typography.bodyLarge)
+                            Text(j.label, style = MaterialTheme.typography.bodyLarge)
                             Text(jobLine(j), style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                         IconButton({ onCancel(j.id) }) { Icon(Icons.Filled.Close, "Отменить") }

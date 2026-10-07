@@ -24,18 +24,52 @@
                    Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
         <ListView Grid.Row="3" ItemsSource="{x:Bind ViewModel.Items}" IsItemClickEnabled="True"
                   SelectionMode="None" ItemClick="OnItemClick">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                    <Setter Property="Padding" Value="0" />
+                    <Setter Property="Margin" Value="0,0,0,8" />
+                </Style>
+            </ListView.ItemContainerStyle>
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="m:TextSummary">
-                    <StackPanel Padding="0,8" Spacing="2">
-                        <TextBlock Text="{x:Bind TitleEn}" Style="{StaticResource BodyStrongTextBlockStyle}" />
-                        <TextBlock Text="{x:Bind TitleRu}" />
-                        <TextBlock Text="{x:Bind Subtitle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
-                        <TextBlock Text="{x:Bind ScoreLine}" Visibility="{x:Bind ScoreVisibility}" />
-                        <TextBlock Text="{x:Bind BadgeText}" Visibility="{x:Bind BadgeVisibility}"
-                                   Foreground="{ThemeResource SystemFillColorCautionBrush}" />
-                    </StackPanel>
+                    <Border Style="{StaticResource CardStyle}" Padding="16">
+                        <Grid ColumnSpacing="16">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid Width="60" Height="60" VerticalAlignment="Center">
+                                <ProgressRing IsActive="True" IsIndeterminate="False" Minimum="0" Maximum="100" Width="60" Height="60"
+                                              Value="{x:Bind CoverageValue}" Foreground="{x:Bind RingBrush}" />
+                                <TextBlock Text="{x:Bind CoverageLabel}" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                           Style="{StaticResource CaptionTextBlockStyle}" />
+                            </Grid>
+                            <StackPanel Grid.Column="1" Spacing="2">
+                                <StackPanel Orientation="Horizontal" Spacing="10">
+                                    <TextBlock Text="{x:Bind TitleEn}" Style="{StaticResource BodyStrongTextBlockStyle}" VerticalAlignment="Center" />
+                                    <Border CornerRadius="10" Padding="8,1" Background="{x:Bind RingBrush}"
+                                            Visibility="{x:Bind StatusBadgeVisibility}" VerticalAlignment="Center">
+                                        <TextBlock Text="{x:Bind StatusBadgeText}" Foreground="White" Style="{StaticResource CaptionTextBlockStyle}" />
+                                    </Border>
+                                </StackPanel>
+                                <TextBlock Text="{x:Bind TitleRu}" />
+                                <TextBlock Text="{x:Bind Subtitle}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                                <TextBlock Text="{x:Bind LastScoreText}" Visibility="{x:Bind LastScoreVisibility}"
+                                           Foreground="{x:Bind LastScoreBrush}" FontWeight="SemiBold" />
+                                <TextBlock Text="{x:Bind BadgeText}" Visibility="{x:Bind BadgeVisibility}"
+                                           Foreground="{ThemeResource SystemFillColorCautionBrush}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        <StackPanel Grid.Row="3" Spacing="10" HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Visibility="{x:Bind ViewModel.IsEmpty, Mode=OneWay}">
+            <FontIcon Glyph="&#xE721;" FontSize="48" Foreground="{ThemeResource TextFillColorTertiaryBrush}" />
+            <TextBlock Text="{x:Bind ViewModel.EmptyText, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                       TextWrapping="Wrap" MaxWidth="420" TextAlignment="Center" />
+        </StackPanel>
     </Grid>
 </Page>

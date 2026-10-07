@@ -2,134 +2,164 @@
   "id": "c2-dialogue-01",
   "level": "C2",
   "genre": "dialogue",
-  "title_en": "The Unfinished Canvas",
-  "title_ru": "Незаконченный холст",
-  "description_ru": "Язвительная критикесса и художник спорят в галерее о том, где заканчивается искусство и начинается недосмотр уборщика. Остроумный диалог с неожиданной развязкой.",
-  "text": "Imogen: Mr. Varga, I have walked round this room three times, and I am still unable to decide whether the exhibition has begun.\nLucian: That is the finest review I have ever received, and you haven't even written it yet.\nImogen: Don't flatter yourself. It was a complaint. There is a stepladder in the middle of the floor, a bucket of grey paint, and a canvas that appears to be, at best, a primer.\nLucian: The canvas is the centrepiece. It is called \"Before\".\nImogen: Before what, precisely?\nLucian: Before anyone tells it what it is. Every other painting in this city arrives already burdened with meaning. Mine is blessedly unemployed.\nImogen: How restful for it. And the stepladder?\nLucian: Ah. The stepladder is a comment on aspiration.\nImogen: It is a stepladder, Mr. Varga. It has a price sticker on it from a hardware shop.\nLucian: Which is precisely the commentary. Aspiration, I'm afraid, is always on sale.\nImogen: I will grant you the sticker has a certain brutal eloquence. But I must ask you directly. Is any of this finished?\nLucian: Finished is a word invented by people who wanted to go home.\nImogen: Then permit me to put it differently. If I were to take the bucket, and add a stroke of paint to your canvas, would that be vandalism or collaboration?\nLucian: That would depend entirely on the stroke.\nImogen: And if it were a very bad stroke?\nLucian: Then it would be collaboration. Vandals, in my experience, have excellent technique.\nImogen: You are insufferable.\nLucian: I am also, according to the catalogue, \"a vital voice of his generation\". I wrote that myself, but the typesetter was very moved.\nImogen: Tell me honestly, off the record. Do you actually believe in any of this?\nLucian: Off the record, I believe in the stepladder. I bought it on Tuesday because I needed to reach a high shelf, and by Wednesday I had begun to feel it was looking at me.\nImogen: Looking at you.\nLucian: Reproachfully. As if it had expected, on the whole, to be used for something nobler than a shelf.\nImogen: So the entire exhibition is a bout of guilt towards a piece of hardware.\nLucian: When you put it like that, it sounds rather less profound.\nImogen: It sounds a great deal more honest. I might even like it.\nLucian: Please do not like it. I have a reputation for being misunderstood, and I have invested heavily in it.\nImogen: Very well. I shall write that the artist is a charlatan of unusual sincerity.\nLucian: Splendid. May I quote you on the poster?\nImogen: You may not. But I do have one more question, and I should like a straight answer.\nLucian: I shall do my best, which is rarely straight.\nImogen: The grey paint. Is it part of the piece, or did a cleaner simply leave it there?\nLucian: Heavens. I assumed it was yours.\nImogen: Mine?\nLucian: Someone must have brought it. I certainly did not order a bucket.\nImogen: Then we have a mystery on our hands, Mr. Varga. Either the gallery has been visited by an anonymous genius, or by a very diligent, very tired decorator.\nLucian: Do you know, I think I prefer the genius. Shall we leave it where it stands and let the public decide?\nImogen: The public, I regret to say, will walk round the room three times and ask whether the exhibition has begun.\nLucian: Then at last, Miss Fairley, we agree. It is the finest review I have ever received.\nImogen: Goodnight, Mr. Varga. And do move that ladder before somebody sues you.",
-  "word_count": 571,
+  "title_en": "A Footnote Too Far",
+  "title_ru": "Сноска, которая зашла слишком далеко",
+  "description_ru": "Двое профессоров на факультетском приёме спорят о единственной сноске в чужой книге. Остроумный академический диалог, где каждая вежливость скрывает укол.",
+  "text": "Imogen: Professor Hartley! I had hoped to find you near the sherry, since it is the only place in this building where scholars are reliably honest. Tell me, have you finished my book yet?\nHartley: My dear Imogen, I have read it twice. Once for pleasure, which took an afternoon, and once for the footnotes, which took a fortnight and a medicinal brandy. I must say, it is a remarkable achievement. Rarely has so much confidence been supported by so little evidence.\n\nImogen: How generous. I assume you refer to footnote two hundred and eleven, which you have apparently been brooding over since the launch, like a hen on a suspicious egg.\nHartley: Brooding is such an unflattering word. I prefer to say that I have been contemplating it with sustained and affectionate suspicion. You claim that the Lisbon manuscript was copied by a single hand. Anyone who has held the thing knows there are at least two. The second scribe has a distinctive habit of crossing his sevens.\n\nImogen: Which proves nothing. Scribes cross their sevens for the same reason people sneeze: because it is in the air. You are confusing a quirk with a fingerprint. In any case, the man who catalogued it in 1904 describes it as the work of one scribe, and he was a fellow of considerable distinction.\nHartley: He was a fellow of considerable myopia. He also described a fifteenth-century laundry list as a lost treatise on virtue, and wrote three hundred pages about it. I do not doubt his sincerity; I merely question his eyesight, his judgement, and his attachment to reality.\n\nImogen: And yet you cite him in your own work. I distinctly remember page forty of your monograph, in which he is called, and I quote, \"an incomparable authority\".\nHartley: Ah. Yes. That was a courtesy. One adopts a certain tone when one is attacking somebody else's grandfather. It is a form of social lubrication, rather like the sherry. You, of all people, ought to appreciate the nuance. After all, your acknowledgements thank six people who, I happen to know, did not read the manuscript, and one who is deceased.\n\nImogen: He was a close friend, and he would have enjoyed it. But let us not wander into obituary. Here is my position, simply stated. The ink in both sections is identical, the ruling pattern is identical, and the sheep from which the parchment came lived, if you will forgive the phrase, within a few miles of one another. Whatever second scribe you imagine, he was apparently a very dutiful ghost.\nHartley: How wonderfully circumstantial. I have always admired your ability to build a cathedral out of a single pebble. The ink, as it happens, was ordinary iron gall, which every monastery in Portugal brewed by the barrel. It is no more distinctive than tea. As for the sheep, I am willing to concede that they were neighbours, but sheep, as a rule, do not testify.\n\nImogen: You say \"ordinary\" as though it were a verdict. Ordinariness is precisely what makes evidence reliable, Professor. Nobody forges a laundry list, and nobody plots to deceive posterity with a recipe for ink. If I had wanted to flatter my argument, I would have chosen a more exciting manuscript, with a dragon in the margin and a scandal on every page.\nHartley: I should have thought the absence of a dragon was the single most suspicious feature of the whole enterprise. In my experience, a manuscript with no dragon has simply been robbed by someone who disliked dragons. But I accept the rebuke. I will confess that I have spent forty years being right about small things, and it has left me with a terrible appetite for being right about large ones.\n\nImogen: Then let me offer you a wager, since you appear to enjoy living dangerously in a cardigan. If I can show you, within a month, a third document written by this supposed first scribe, containing the same crossed sevens, will you concede that your second hand is a mirage?\nHartley: A third document? You have been hoarding evidence, like a squirrel with a grudge. Very well. If you produce it, I shall withdraw the review, publish a retraction, and stand you a dinner at that terrible Italian place near the station. If you fail, you will rewrite the footnote, in public, in your most contrite handwriting.\n\nImogen: Agreed. And I shall order the most expensive thing on the menu, in a spirit of scholarly rigour. Incidentally, Professor, I should mention that I found the document last Tuesday, in the basement of the cathedral library, under a box of Victorian hymn sheets. I merely wanted to savour the moment before I told you.\nHartley: You found it last Tuesday, and you let me finish an entire glass of sherry while I made that wager? That is the most underhanded thing I have ever heard, and I have sat through three faculty appointments. May I see it?\n\nImogen: Of course. It is in my bag. I carry it everywhere, the way other people carry pictures of their grandchildren. I have shown it to the porter, two undergraduates, and, in a moment of weakness, a pigeon. The sevens, you will observe, are crossed with a flourish, and they are, I regret to say, identical.\nHartley: Then I must offer my congratulations, and my sincere and wounded admiration. I will go home, withdraw the review, and cry quietly into a biscuit. Though I do have one small observation, for the sake of the record, and in the spirit of the new friendship you have just so cruelly forced on me.\n\nImogen: Please. I would expect nothing less.\nHartley: In your third document, the seven at the bottom of the second page is crossed from right to left. In the Lisbon manuscript, every one is crossed from left to right. It is a very small difference. I hope you will forgive me for noticing. I have, as you know, a tragic aptitude for footnotes.\n\nImogen: Professor Hartley, I shall see you at dinner. Bring a pencil, since ink has always been your weakness, and a very large appetite. I intend to enjoy every minute of your hospitality, and every course of your defeat.",
+  "word_count": 1026,
   "vocabulary": [
     {
-      "word": "burdened",
-      "ipa_us": "ˈbɜːrdnd",
-      "ipa_uk": "ˈbɜːdnd",
-      "translation_ru": "отягощённый"
+      "word": "brooding",
+      "ipa_us": "ˈbruːdɪŋ",
+      "ipa_uk": "ˈbruːdɪŋ",
+      "translation_ru": "вынашивая мысль, высиживая"
     },
     {
-      "word": "aspiration",
-      "ipa_us": "ˌæspəˈreɪʃən",
-      "ipa_uk": "ˌæspəˈreɪʃən",
-      "translation_ru": "стремление"
+      "word": "fortnight",
+      "ipa_us": "ˈfɔːrtˌnaɪt",
+      "ipa_uk": "ˈfɔːtnaɪt",
+      "translation_ru": "две недели"
     },
     {
-      "word": "brutal",
-      "ipa_us": "ˈbruːtl",
-      "ipa_uk": "ˈbruːtl",
-      "translation_ru": "жестокий, резкий"
+      "word": "myopia",
+      "ipa_us": "maɪˈoʊpiə",
+      "ipa_uk": "maɪˈəʊpiə",
+      "translation_ru": "близорукость"
     },
     {
-      "word": "eloquence",
-      "ipa_us": "ˈeləkwəns",
-      "ipa_uk": "ˈeləkwəns",
-      "translation_ru": "красноречие"
+      "word": "treatise",
+      "ipa_us": "ˈtriːtɪs",
+      "ipa_uk": "ˈtriːtɪs",
+      "translation_ru": "трактат"
     },
     {
-      "word": "vandalism",
-      "ipa_us": "ˈvændəlɪzəm",
-      "ipa_uk": "ˈvændəlɪzəm",
-      "translation_ru": "вандализм"
+      "word": "monograph",
+      "ipa_us": "ˈmɑːnəˌɡræf",
+      "ipa_uk": "ˈmɒnəɡrɑːf",
+      "translation_ru": "монография"
     },
     {
-      "word": "insufferable",
-      "ipa_us": "ɪnˈsʌfərəbl",
-      "ipa_uk": "ɪnˈsʌfərəbl",
-      "translation_ru": "невыносимый"
+      "word": "lubrication",
+      "ipa_us": "ˌluːbrɪˈkeɪʃən",
+      "ipa_uk": "ˌluːbrɪˈkeɪʃ(ə)n",
+      "translation_ru": "смазка"
     },
     {
-      "word": "reproachfully",
-      "ipa_us": "rɪˈproʊtʃfəli",
-      "ipa_uk": "rɪˈprəʊtʃfəli",
-      "translation_ru": "с упрёком"
+      "word": "circumstantial",
+      "ipa_us": "ˌsɜːrkəmˈstænʃəl",
+      "ipa_uk": "ˌsɜːkəmˈstænʃ(ə)l",
+      "translation_ru": "косвенный"
     },
     {
-      "word": "charlatan",
-      "ipa_us": "ˈʃɑːrlətən",
-      "ipa_uk": "ˈʃɑːlətən",
-      "translation_ru": "шарлатан"
+      "word": "concede",
+      "ipa_us": "kənˈsiːd",
+      "ipa_uk": "kənˈsiːd",
+      "translation_ru": "уступить, признать"
     },
     {
-      "word": "diligent",
-      "ipa_us": "ˈdɪlɪdʒənt",
-      "ipa_uk": "ˈdɪlɪdʒənt",
-      "translation_ru": "усердный"
+      "word": "mirage",
+      "ipa_us": "məˈrɑːʒ",
+      "ipa_uk": "ˈmɪrɑːʒ",
+      "translation_ru": "мираж"
+    },
+    {
+      "word": "retraction",
+      "ipa_us": "rɪˈtrækʃən",
+      "ipa_uk": "rɪˈtrækʃ(ə)n",
+      "translation_ru": "опровержение, отзыв заявления"
+    },
+    {
+      "word": "contrite",
+      "ipa_us": "kənˈtraɪt",
+      "ipa_uk": "kənˈtraɪt",
+      "translation_ru": "кающийся"
+    },
+    {
+      "word": "aptitude",
+      "ipa_us": "ˈæptəˌtuːd",
+      "ipa_uk": "ˈæptɪtjuːd",
+      "translation_ru": "склонность, способность"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ð",
-      "examples": [
-        "the",
-        "that",
-        "there",
-        "other"
-      ],
-      "tip_ru": "ð: кончик языка между зубами, голос включён: the, that, there; не говорите «зэ» или «дэ»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "walked",
-        "whether",
-        "wrote"
-      ],
-      "tip_ru": "w: губы вперёд, как для «у», без касания зубов; не заменяйте на v: whether, walked."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "aspiration",
-        "vandalism",
-        "eloquence"
+        "circumstantial",
+        "retraction",
+        "monograph"
       ],
-      "tip_ru": "Ударение: as-pi-RA-tion, VAN-dal-ism, EL-o-quence; безударные гласные сводите к ə."
+      "tip_ru": "В circumstantial ударение на -STAN-; в retraction на -TRAC-. Подчёркивайте ударный слог длиннее и громче."
     },
     {
-      "sound": "final-voiced",
+      "sound": "æ",
       "examples": [
-        "bad",
-        "stroke",
-        "stepladder"
+        "manuscript",
+        "scholars",
+        "aptitude"
       ],
-      "tip_ru": "Конечные звонкие не оглушайте: bad, ladder; голос не пропадает до конца слова."
+      "tip_ru": "Звук ближе к э, рот открыт шире, чем для русского э. Не заменяйте на а."
+    },
+    {
+      "sound": "ɒ",
+      "examples": [
+        "monograph",
+        "not",
+        "hoarding"
+      ],
+      "tip_ru": "Короткий, губы слегка округлены."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "found it",
+        "most underhanded",
+        "as it happens"
+      ],
+      "tip_ru": "Слитное произношение: found_it звучит как foun-dit. Не делайте паузу между словами."
     }
   ],
   "questions": [
     {
-      "question": "What is the canvas called?",
-      "answer": "Before.",
+      "question": "What does Professor Hartley question in Imogen's book?",
+      "answer": "Footnote two hundred and eleven, about the Lisbon manuscript.",
       "accepted_keywords": [
-        "before"
+        "footnote",
+        "lisbon",
+        "manuscript",
+        "scribe"
       ]
     },
     {
-      "question": "What does the stepladder comment on, according to Lucian?",
-      "answer": "Aspiration.",
+      "question": "What is the wager they make?",
+      "answer": "If Imogen shows a third document with the same crossed sevens, Hartley will retract his review and buy dinner.",
       "accepted_keywords": [
-        "aspiration"
+        "third",
+        "document",
+        "dinner",
+        "retract",
+        "sevens"
       ]
     },
     {
-      "question": "Why did Lucian really buy the stepladder?",
-      "answer": "To reach a high shelf.",
+      "question": "When did Imogen find the document?",
+      "answer": "Last Tuesday, in the basement of the cathedral library.",
       "accepted_keywords": [
-        "shelf"
+        "tuesday",
+        "basement",
+        "cathedral",
+        "library"
       ]
     },
     {
-      "question": "What is the mystery at the end?",
-      "answer": "Who left the bucket of grey paint.",
+      "question": "What small difference does Hartley notice at the end?",
+      "answer": "The seven in the new document is crossed in the opposite direction.",
       "accepted_keywords": [
-        "paint",
-        "bucket"
+        "seven",
+        "direction",
+        "right",
+        "left",
+        "crossed"
       ]
     }
   ]

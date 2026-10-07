@@ -2,123 +2,155 @@
   "id": "a2-humor-04",
   "level": "A2",
   "genre": "humor",
-  "title_en": "The Forgetful Professor",
-  "title_ru": "Рассеянный профессор",
-  "description_ru": "Анекдотическая история о профессоре, который постоянно что-то забывает.",
-  "text": "Professor Brown was a very clever man, but he forgot everything. He forgot his keys, his umbrella and even his students' names.\n\nOne morning, he left home in a hurry. At the bus stop, he looked for his glasses, but he could not find them. \"I cannot read the bus number,\" he said to a young woman. \"Can you help me?\"\n\nThe woman smiled and said, \"Professor, your glasses are on your head.\"\n\n\"Thank you,\" said the professor. On the bus, he looked for his ticket. He searched his pockets for ten minutes. Finally, the driver said, \"Sir, the ticket is in your mouth.\"\n\nAt the university, the students waited in the classroom. The professor came in and asked, \"Where is the professor today?\" Everybody laughed.\n\nThat evening, he wrote a note and put it on the door: \"Do not forget to remember!\"",
-  "word_count": 143,
+  "title_en": "The War with My Alarm Clock",
+  "title_ru": "Моя война с будильником",
+  "description_ru": "Юмористический рассказ о человеке, который ненавидит утро и пробует всё новые способы просыпаться вовремя.",
+  "text": "I am not a morning person. In fact, I think that morning is a mistake. The world should start at eleven o'clock, with a warm drink and a long, silent walk to the kitchen. Unfortunately, my job starts at eight, and for years I have been fighting a war with my alarm clock. I want to tell you about the funniest battle in this war.\n\nIt began last winter, when I realised that I was late for work three times in one week. My boss, Mrs Gray, is a kind woman, but she has a very cold look. She said, \"If this happens again, we are going to have a serious conversation.\" I went home and made a plan. I decided to buy the loudest alarm clock in the shop. I wanted something that could wake up a whole street.\n\nThe shop assistant showed me a clock with two big bells on the top. \"This one is used by people who sleep like stones,\" he said. It cost fifteen pounds, and it looked like something from a hundred years ago. I put it next to my bed and set it for six thirty. That night I went to sleep with a smile. I felt like a person who had solved all of his problems.\n\nAt six thirty, the clock exploded with noise. It sounded like a fire engine inside my head. I jumped out of bed and hit the clock, and it flew across the room and landed under the wardrobe. It kept ringing there. I could not reach it, so I lay on the floor with my arm under the wardrobe for five minutes. Then the clock stopped, and I felt very proud. But I had also woken up my neighbours. When I went outside, the old man from the next flat was standing in front of his door in his pyjamas. \"Was that an earthquake?\" he asked.\n\nThe next morning, I was so tired that I fell asleep again at breakfast. I decided that the clock was too loud, and the problem was not the sound, but my brain. It learned to ignore the noise. So I tried a new idea. I put the clock on the other side of the room, so that I had to get out of bed to switch it off. It worked for two days. On the third day, I got up, turned off the clock, and went straight back to bed. I do not remember doing this. I only remember waking up at ten o'clock with a terrible headache.\n\nMy sister, who is a very organised person, told me to use my phone. \"There are many applications for people like you,\" she said. I found one that is called \"Wake Up Challenge\". To turn off the alarm, you have to solve a difficult maths problem. I was sure that it would help. But at six thirty in the morning, my brain does not know how to add seven and eight. I looked at the phone for ten minutes, and the alarm was ringing all the time. In the end, I threw the phone onto the sofa, and it kept screaming from there.\n\nI tried other things, too. I bought a clock that jumps off the table and runs around the room. It was funny for the first day, but then it ran under the bed and I could not find it. I tried a light that gets brighter slowly, like the sun. I woke up, but I was angry that the sun was fake. I even asked my neighbour to knock on my door at seven o'clock. He did it twice, and then he asked me to pay him.\n\nFinally, my sister gave me the best advice. \"Go to bed earlier,\" she said. At first, I laughed. Going to bed earlier is a great idea in theory, but in the evening I always find something more interesting to do. I watch a film, read a book or look at the internet. \"Just try for one week,\" she begged. So I did. I turned off my computer at ten o'clock and was asleep by half past ten.\n\nThe next morning, a miracle happened. I woke up before the alarm, and I felt good. I made breakfast, looked out of the window and arrived at work ten minutes early. Mrs Gray was surprised and gave me a cup of coffee. Now I use a simple, quiet clock, and I go to bed early. Only one thing has not changed. I still believe that morning is a mistake.",
+  "word_count": 763,
   "vocabulary": [
     {
-      "word": "professor",
-      "ipa_us": "prəˈfesər",
-      "ipa_uk": "prəˈfesə",
-      "translation_ru": "профессор"
+      "word": "alarm clock",
+      "ipa_us": "əˈlɑrm klɑk",
+      "ipa_uk": "əˈlɑːm klɒk",
+      "translation_ru": "будильник"
     },
     {
-      "word": "forgot",
-      "ipa_us": "fərˈɡɑːt",
-      "ipa_uk": "fəˈɡɒt",
-      "translation_ru": "забыл"
+      "word": "battle",
+      "ipa_us": "ˈbætl",
+      "ipa_uk": "ˈbætl",
+      "translation_ru": "битва"
     },
     {
-      "word": "umbrella",
-      "ipa_us": "ʌmˈbrelə",
-      "ipa_uk": "ʌmˈbrelə",
-      "translation_ru": "зонт"
+      "word": "serious",
+      "ipa_us": "ˈsɪriəs",
+      "ipa_uk": "ˈsɪəriəs",
+      "translation_ru": "серьёзный"
     },
     {
-      "word": "hurry",
-      "ipa_us": "ˈhɜːri",
-      "ipa_uk": "ˈhʌri",
-      "translation_ru": "спешка"
+      "word": "exploded",
+      "ipa_us": "ɪkˈsploʊdɪd",
+      "ipa_uk": "ɪkˈspləʊdɪd",
+      "translation_ru": "взорвался"
     },
     {
-      "word": "glasses",
-      "ipa_us": "ˈɡlæsɪz",
-      "ipa_uk": "ˈɡlɑːsɪz",
-      "translation_ru": "очки"
+      "word": "pyjamas",
+      "ipa_us": "pəˈdʒɑməz",
+      "ipa_uk": "pəˈdʒɑːməz",
+      "translation_ru": "пижама"
     },
     {
-      "word": "ticket",
-      "ipa_us": "ˈtɪkɪt",
-      "ipa_uk": "ˈtɪkɪt",
-      "translation_ru": "билет"
+      "word": "earthquake",
+      "ipa_us": "ˈɜrθˌkweɪk",
+      "ipa_uk": "ˈɜːθkweɪk",
+      "translation_ru": "землетрясение"
     },
     {
-      "word": "searched",
-      "ipa_us": "sɜːrtʃt",
-      "ipa_uk": "sɜːtʃt",
-      "translation_ru": "искал"
+      "word": "ignore",
+      "ipa_us": "ɪɡˈnɔr",
+      "ipa_uk": "ɪɡˈnɔː",
+      "translation_ru": "игнорировать"
     },
     {
-      "word": "classroom",
-      "ipa_us": "ˈklæsruːm",
-      "ipa_uk": "ˈklɑːsruːm",
-      "translation_ru": "класс"
+      "word": "headache",
+      "ipa_us": "ˈhɛdˌeɪk",
+      "ipa_uk": "ˈhedeɪk",
+      "translation_ru": "головная боль"
+    },
+    {
+      "word": "organised",
+      "ipa_us": "ˈɔrɡəˌnaɪzd",
+      "ipa_uk": "ˈɔːɡənaɪzd",
+      "translation_ru": "организованный"
+    },
+    {
+      "word": "theory",
+      "ipa_us": "ˈθiəri",
+      "ipa_uk": "ˈθɪəri",
+      "translation_ru": "теория"
+    },
+    {
+      "word": "miracle",
+      "ipa_us": "ˈmɪrɪkəl",
+      "ipa_uk": "ˈmɪrəkl",
+      "translation_ru": "чудо"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "ɜː",
       "examples": [
-        "read",
-        "remember"
+        "work",
+        "earthquake",
+        "learned"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Долгий звук между «э» и «ё», губы нейтральны, язык не двигается."
     },
     {
       "sound": "θ",
       "examples": [
-        "thank",
-        "them"
+        "three",
+        "earthquake"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
     },
     {
-      "sound": "w",
+      "sound": "h",
       "examples": [
-        "woman",
-        "waited"
+        "hit",
+        "headache",
+        "half"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Лёгкий выдох из горла без напряжения. Это не русское «х»."
     },
     {
-      "sound": "ɜː",
+      "sound": "aɪ",
       "examples": [
-        "searched",
-        "Sir"
+        "time",
+        "bright",
+        "five"
       ],
-      "tip_ru": "Долгий звук между «э» и «ё», губы расслаблены, язык в центре рта."
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
     }
   ],
   "questions": [
     {
-      "question": "What was the professor's name?",
-      "answer": "Professor Brown.",
+      "question": "Why did the writer buy a loud alarm clock?",
+      "answer": "He was late for work three times in one week and his boss warned him.",
       "accepted_keywords": [
-        "brown"
+        "late",
+        "boss",
+        "work"
       ]
     },
     {
-      "question": "Where were his glasses?",
-      "answer": "On his head.",
+      "question": "What happened with the first alarm clock?",
+      "answer": "It was so loud that it woke the neighbours, and the old man asked about an earthquake.",
       "accepted_keywords": [
-        "head"
+        "loud",
+        "neighbours",
+        "earthquake",
+        "neighbour",
+        "woke"
       ]
     },
     {
-      "question": "Where was his ticket?",
-      "answer": "In his mouth.",
+      "question": "What was the problem with the maths application?",
+      "answer": "At 6:30 his brain could not solve the problem, so the alarm kept ringing.",
       "accepted_keywords": [
-        "mouth"
+        "maths",
+        "brain",
+        "problem",
+        "ringing"
       ]
     },
     {
-      "question": "What did he write on the note?",
-      "answer": "Do not forget to remember.",
+      "question": "What finally worked?",
+      "answer": "He went to bed earlier.",
       "accepted_keywords": [
-        "forget",
-        "remember"
+        "bed",
+        "earlier",
+        "early",
+        "sleep"
       ]
     }
   ]

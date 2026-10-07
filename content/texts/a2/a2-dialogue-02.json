@@ -2,124 +2,145 @@
   "id": "a2-dialogue-02",
   "level": "A2",
   "genre": "dialogue",
-  "title_en": "The Lost Wallet",
-  "title_ru": "Потерянный кошелёк",
-  "description_ru": "Девушка теряет кошелёк и обращается в бюро находок. Диалог о описании предметов и о времени.",
-  "text": "Clerk: Hello. Can I help you?\nRita: Yes, please. I lost my wallet yesterday evening.\nClerk: I am sorry to hear that. Where were you?\nRita: I was on the number thirteen bus, and then I walked to the park.\nClerk: What does your wallet look like?\nRita: It is small and brown. It has a red ribbon on it.\nClerk: Was there any money inside?\nRita: Yes, about twenty euros, and my library card.\nClerk: Wait a moment. I will check the shelf.\nRita: Thank you. It was a present from my grandmother, so it is very important to me.\nClerk: Is this your wallet?\nRita: Yes, that is it! You are wonderful! Where did you find it?\nClerk: A bus driver found it under a seat this morning.\nRita: I am going to buy him some chocolate.",
-  "word_count": 125,
+  "title_en": "Looking for a Flat",
+  "title_ru": "В поисках квартиры",
+  "description_ru": "Сэм смотрит две квартиры с агентом, сравнивает цену, этаж и вид и подписывает договор. Лексика аренды жилья.",
+  "text": "Helen: Good morning, Mr Parker. I am Helen Hill from Brightside Homes. Did you have trouble finding the building?\nSam: Good morning. No, it was easy. I took the bus, and the stop is right in front of the door.\nHelen: Excellent. That is one of the advantages of this street. Shall we see the first flat?\nSam: Yes, please. How many rooms does it have?\nHelen: It has two bedrooms, a living room, a small kitchen and a bathroom. It is on the third floor.\nSam: Is there a lift?\nHelen: I am afraid not. But the stairs are wide and clean, and the neighbours are friendly.\nSam: Hmm. I carry a lot of heavy boxes for my work. Stairs could be a problem.\nHelen: I understand. Let us look at the flat first. Please come in.\nSam: Oh, this is lovely. The living room is bigger than I expected.\nHelen: Yes, and look at the window. In the afternoon you get a lot of sun.\nSam: The kitchen is quite small, though. Where would I put a table?\nHelen: You can put a small table in the living room, near the window. Many people do that.\nSam: And how much is the rent?\nHelen: It is nine hundred pounds a month, and the bills are not included.\nSam: That is more expensive than I wanted. My limit is eight hundred.\nHelen: Then I recommend the second flat. It is in the same area, but it is cheaper.\nSam: Is it as nice as this one?\nHelen: It is smaller, but it has a balcony and a lift. And you can have a dog.\nSam: I do not have a dog yet, but my sister wants me to adopt one. Can we go there now?\nHelen: Of course. It is ten minutes away. We can walk, or I can drive you.\nSam: Let us walk. I want to see the neighbourhood.\nHelen: Good idea. On the left you can see the park, and the supermarket is at the end of the road.\nSam: That is very convenient. What about noise? I need to sleep early.\nHelen: This street is quiet at night. The busy road is on the other side of the park.\nSam: Excellent. Is the school nearby? My sister's children visit me often.\nHelen: Yes, there is a primary school behind the supermarket. Here we are. Number forty-one.\nSam: It looks older than the first building.\nHelen: It is older, but the owner painted it last year. Now please come up.\nSam: Oh, the lift is very small.\nHelen: It is small, but it works perfectly. We are on the fifth floor. Here is the door.\nSam: The hall is dark. I do not like dark halls.\nHelen: Wait until you see the living room. Here you are.\nSam: Wow. The view is amazing. I can see the whole river.\nHelen: This is the best feature of the flat. And the balcony is large enough for two chairs and some plants.\nSam: The bedroom is smaller than in the first flat, but I only need a bed and a desk.\nHelen: Exactly. And the kitchen is newer. The owner bought a new cooker and a fridge in March.\nSam: That is a big advantage. How much is the rent?\nHelen: Seven hundred and fifty pounds, and the heating is included.\nSam: That is much better. Why is it so cheap?\nHelen: The owner is moving abroad, and he wants a reliable tenant. He does not care about the money.\nSam: I see. Are there any problems with the building?\nHelen: Only one. The washing machine in the basement is old, and it makes a loud noise.\nSam: I can live with that. I wash my clothes once a week.\nHelen: Good. Would you like to take a few more photos?\nSam: Yes, please. My sister wants to see the view. Can I send them to her now?\nHelen: Of course. While you do that, I will check the contract.\nSam: Thank you. Oh, she answered already. She says it is the most beautiful flat she has ever seen.\nHelen: Then I think you have made your decision.\nSam: Almost. I have one more question. When can I move in?\nHelen: The flat is empty now, so you can move in next week if you sign today.\nSam: That is very fast. I need to give notice at my old flat first.\nHelen: How long is your notice?\nSam: One month. But my landlord is a kind man. Maybe he will let me leave in two weeks.\nHelen: Then we can start the contract on the first of next month. Is that acceptable?\nSam: Yes, that sounds fair. What documents do you need from me?\nHelen: I need your passport, a copy of your job contract and a deposit of one month's rent.\nSam: I have the passport and the contract with me. The deposit I can pay by card.\nHelen: Perfect. You are well prepared, Mr Parker.\nSam: My sister helped me. She said that a good tenant is always ready.\nHelen: She is right. Please sign here and here. And then I will give you the keys.\nSam: Already? That is great. Thank you very much, Miss Hill.\nHelen: You are welcome. Congratulations on your new home. Do not forget to adopt that dog.\nSam: Maybe next year. First I need to buy some chairs for the balcony.",
+  "word_count": 849,
   "vocabulary": [
     {
-      "word": "wallet",
-      "ipa_us": "ˈwɑlɪt",
-      "ipa_uk": "ˈwɒlɪt",
-      "translation_ru": "кошелёк"
+      "word": "rent",
+      "ipa_us": "rɛnt",
+      "ipa_uk": "rent",
+      "translation_ru": "арендная плата"
     },
     {
-      "word": "yesterday",
-      "ipa_us": "ˈjestərdeɪ",
-      "ipa_uk": "ˈjestədeɪ",
-      "translation_ru": "вчера"
+      "word": "tenant",
+      "ipa_us": "ˈtɛnənt",
+      "ipa_uk": "ˈtenənt",
+      "translation_ru": "арендатор"
     },
     {
-      "word": "thirteen",
-      "ipa_us": "ˌθɜrˈtiːn",
-      "ipa_uk": "ˌθɜːˈtiːn",
-      "translation_ru": "тринадцать"
+      "word": "deposit",
+      "ipa_us": "dɪˈpɑːzɪt",
+      "ipa_uk": "dɪˈpɒzɪt",
+      "translation_ru": "залог"
     },
     {
-      "word": "ribbon",
-      "ipa_us": "ˈrɪbən",
-      "ipa_uk": "ˈrɪbən",
-      "translation_ru": "лента"
+      "word": "balcony",
+      "ipa_us": "ˈbælkəni",
+      "ipa_uk": "ˈbælkəni",
+      "translation_ru": "балкон"
     },
     {
-      "word": "library",
-      "ipa_us": "ˈlaɪbreri",
-      "ipa_uk": "ˈlaɪbrəri",
-      "translation_ru": "библиотека"
+      "word": "lift",
+      "ipa_us": "lɪft",
+      "ipa_uk": "lɪft",
+      "translation_ru": "лифт"
     },
     {
-      "word": "shelf",
-      "ipa_us": "ʃelf",
-      "ipa_uk": "ʃelf",
-      "translation_ru": "полка"
+      "word": "contract",
+      "ipa_us": "ˈkɑːntrækt",
+      "ipa_uk": "ˈkɒntrækt",
+      "translation_ru": "договор"
     },
     {
-      "word": "present",
-      "ipa_us": "ˈprezənt",
-      "ipa_uk": "ˈprezənt",
-      "translation_ru": "подарок"
+      "word": "neighbourhood",
+      "ipa_us": "ˈneɪbərhʊd",
+      "ipa_uk": "ˈneɪbəhʊd",
+      "translation_ru": "район"
     },
     {
-      "word": "seat",
-      "ipa_us": "siːt",
-      "ipa_uk": "siːt",
-      "translation_ru": "сиденье"
+      "word": "convenient",
+      "ipa_us": "kənˈviːniənt",
+      "ipa_uk": "kənˈviːniənt",
+      "translation_ru": "удобный"
+    },
+    {
+      "word": "reliable",
+      "ipa_us": "rɪˈlaɪəbl",
+      "ipa_uk": "rɪˈlaɪəbl",
+      "translation_ru": "надёжный"
+    },
+    {
+      "word": "heating",
+      "ipa_us": "ˈhiːtɪŋ",
+      "ipa_uk": "ˈhiːtɪŋ",
+      "translation_ru": "отопление"
+    },
+    {
+      "word": "basement",
+      "ipa_us": "ˈbeɪsmənt",
+      "ipa_uk": "ˈbeɪsmənt",
+      "translation_ru": "подвал"
+    },
+    {
+      "word": "landlord",
+      "ipa_us": "ˈlændlɔːrd",
+      "ipa_uk": "ˈlændlɔːd",
+      "translation_ru": "хозяин жилья"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "v",
       "examples": [
-        "thirteen",
-        "thank",
-        "Thank"
+        "view",
+        "very",
+        "convenient"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
     },
     {
-      "sound": "r",
+      "sound": "dark-l",
       "examples": [
-        "Rita",
-        "red",
-        "ribbon",
-        "library",
-        "driver",
-        "present"
+        "hall",
+        "small",
+        "old"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "В конце слога язык поднимается к нёбу, звук твёрдый и глубокий; не смягчайте его как русское «ль»."
     },
     {
-      "sound": "w",
+      "sound": "h",
       "examples": [
-        "wallet",
-        "was",
-        "where",
-        "walked",
-        "wonderful"
+        "help",
+        "here",
+        "have"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Лёгкий выдох из горла, без русского «х»: рот открыт, язык расслаблен."
     }
   ],
   "questions": [
     {
-      "question": "What did Rita lose?",
-      "answer": "Her wallet.",
+      "question": "Why is the first flat a problem for Sam?",
+      "answer": "It is on the third floor and has no lift.",
       "accepted_keywords": [
-        "wallet"
+        "lift",
+        "floor",
+        "stairs"
       ]
     },
     {
-      "question": "What colour is the wallet?",
-      "answer": "Brown.",
+      "question": "How much is the rent for the second flat?",
+      "answer": "Seven hundred and fifty pounds.",
       "accepted_keywords": [
-        "brown"
+        "750",
+        "seven"
       ]
     },
     {
-      "question": "Who gave her the wallet?",
-      "answer": "Her grandmother.",
+      "question": "What can Sam see from the second flat?",
+      "answer": "The whole river.",
       "accepted_keywords": [
-        "grandmother",
-        "grandma"
+        "river"
       ]
     },
     {
-      "question": "Who found it?",
-      "answer": "A bus driver.",
+      "question": "What must Sam pay when he signs?",
+      "answer": "A deposit of one month's rent.",
       "accepted_keywords": [
-        "bus",
-        "driver"
+        "deposit",
+        "month"
       ]
     }
   ]

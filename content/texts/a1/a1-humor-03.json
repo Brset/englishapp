@@ -2,118 +2,159 @@
   "id": "a1-humor-03",
   "level": "A1",
   "genre": "humor",
-  "title_en": "The Tired Teacher",
-  "title_ru": "Усталый учитель",
-  "description_ru": "Урок в школе, на котором ученики дают смешные ответы.",
-  "text": "Mr Ray is a teacher. He loves his job, but today he is very tired.\n\n\"Class, who can tell me a word with the letter A?\" he asks.\n\nTim puts up his hand. \"Banana!\" he says.\n\n\"Good. But where is the A in banana?\"\n\n\"At the end, sir!\" says Tim, and he smiles.\n\nMr Ray closes his eyes. Then he asks another question. \"How many days are there in a week?\"\n\nSara says, \"Seven.\"\n\n\"Right. And name them.\"\n\nSara thinks for a long time. \"Mr Ray, it is too difficult. I only know that the last one is the weekend!\"",
-  "word_count": 100,
+  "title_en": "The Alarm Clock War",
+  "title_ru": "Война с будильником",
+  "description_ru": "Смешная история человека, который никак не может встать утром, и его семи попыток победить будильник.",
+  "text": "I hate waking up early. My brain does not work before ten o'clock, and my body agrees with it. The problem is that my job starts at eight. So every night I fight a war against the morning, and my weapon is an alarm clock. This war is long and difficult. Here is the story of how I am losing it.\n\nOn Monday I use my phone. I put it next to my bed and set the alarm for seven. At seven o'clock a nice little song starts to play. It is so quiet and so sweet that I think it is a part of my dream. I turn around and sleep again. When I open my eyes, it is nine fifteen. My boss is not happy. He says, \"You are late.\" I say, \"My alarm is too nice.\" He does not laugh.\n\nOn Tuesday I buy a loud alarm clock. It is old and metal, with two bells on the top, and it sounds like a fire. The next morning I jump out of bed with fear, and my heart is beating very fast. I am awake! I am a winner! I turn the clock off, and I am so happy that I lie down again, just for one second. Two hours later, my neighbour is knocking on the wall. He says that my clock is crying, and it is nine o'clock.\n\nOn Wednesday I make a new plan. I put the alarm clock across the room, on the shelf near the window. Now I must stand up and walk to turn it off. At seven o'clock the bells start. I get up, I cross the room, and I stop the noise. I am very proud of myself. Then I look at my bed. It is warm and soft, and it says, \"Come back.\" I am not a strong person. I go back to bed and sleep until nine.\n\nOn Thursday I ask my sister for help. She is a morning person, and she wakes up at six every day without any machine. It is a mystery to me. She says, \"I call you at seven, and I do not stop until you speak.\" That sounds perfect. At seven she calls, and I answer in a sleepy voice, \"Yes, I am up.\" She says, \"Good.\" Then I put the phone on the pillow, and I sleep again. My sister is not stupid. She calls five more times, and I do not hear any of them.\n\nOn Friday I am desperate. I go to the shop and ask for a special clock. The shop assistant shows me a clock that runs away. It has little wheels, and when the alarm starts, it drives around the room and hides. You must find it to stop the noise. I buy it, and I am excited. The next morning, the clock starts to run at seven. I chase it around the flat. It goes under the sofa, behind the door and into the kitchen. After ten minutes, I am awake, tired, and a little angry, and the clock is sitting in my shoe.\n\nAt first I think this is the best thing in the world. I am on time, and I even have time for breakfast. But on Saturday and Sunday I do not need to go to work, and the clock does not know. At seven o'clock it starts to run again. It crashes into my bed, it falls from the table, and it cries all over the flat. I want to sleep, and the little machine laughs at me. I put it in the freezer, and I finally sleep until noon. It is a terrible thing to do, but I am happy.\n\nNow it is Monday again, and I need a new idea. My friend Dan says, \"Go to bed earlier.\" I look at him as if he is crazy. Go to bed earlier? It is a ridiculous idea. At ten o'clock in the evening, I am awake and full of energy. I watch films, I eat cheese, and I answer messages. I am a night person, and I cannot change.\n\nSo this morning I do something new. I do not use any alarm at all. Instead, I ask the sun for help. I open the curtains before I sleep, and now the light comes in at six thirty. It works! I wake up, I see the sun, and I feel fine. Then I notice that it is raining and the sky is dark. The sun is on holiday, and I am late again. Maybe I should look for a job that starts at noon.",
+  "word_count": 774,
   "vocabulary": [
     {
-      "word": "teacher",
-      "ipa_us": "ˈtitʃər",
-      "ipa_uk": "ˈtiːtʃə",
-      "translation_ru": "учитель"
+      "word": "alarm",
+      "ipa_us": "əˈlɑrm",
+      "ipa_uk": "əˈlɑːm",
+      "translation_ru": "будильник, сигнал"
     },
     {
-      "word": "tired",
-      "ipa_us": "ˈtaɪərd",
-      "ipa_uk": "ˈtaɪəd",
-      "translation_ru": "уставший"
+      "word": "mystery",
+      "ipa_us": "ˈmɪstəri",
+      "ipa_uk": "ˈmɪstəri",
+      "translation_ru": "загадка"
     },
     {
-      "word": "letter",
-      "ipa_us": "ˈlɛtər",
-      "ipa_uk": "ˈletə",
-      "translation_ru": "буква"
+      "word": "curtains",
+      "ipa_us": "ˈkɜrtənz",
+      "ipa_uk": "ˈkɜːtənz",
+      "translation_ru": "шторы"
     },
     {
-      "word": "hand",
-      "ipa_us": "hænd",
-      "ipa_uk": "hænd",
-      "translation_ru": "рука"
+      "word": "desperate",
+      "ipa_us": "ˈdɛspərət",
+      "ipa_uk": "ˈdespərət",
+      "translation_ru": "отчаявшийся"
     },
     {
-      "word": "banana",
-      "ipa_us": "bəˈnænə",
-      "ipa_uk": "bəˈnɑːnə",
-      "translation_ru": "банан"
+      "word": "ridiculous",
+      "ipa_us": "rɪˈdɪkjələs",
+      "ipa_uk": "rɪˈdɪkjələs",
+      "translation_ru": "нелепый"
     },
     {
-      "word": "question",
-      "ipa_us": "ˈkwɛstʃən",
-      "ipa_uk": "ˈkwestʃən",
-      "translation_ru": "вопрос"
+      "word": "chase",
+      "ipa_us": "tʃeɪs",
+      "ipa_uk": "tʃeɪs",
+      "translation_ru": "гнаться"
     },
     {
-      "word": "difficult",
-      "ipa_us": "ˈdɪfɪkəlt",
-      "ipa_uk": "ˈdɪfɪkəlt",
-      "translation_ru": "трудный"
+      "word": "freezer",
+      "ipa_us": "ˈfrizər",
+      "ipa_uk": "ˈfriːzə",
+      "translation_ru": "морозилка"
     },
     {
-      "word": "weekend",
-      "ipa_us": "ˈwikˌɛnd",
-      "ipa_uk": "ˌwiːkˈend",
-      "translation_ru": "выходные"
+      "word": "weapon",
+      "ipa_us": "ˈwɛpən",
+      "ipa_uk": "ˈwepən",
+      "translation_ru": "оружие"
+    },
+    {
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbər",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
+    },
+    {
+      "word": "pillow",
+      "ipa_us": "ˈpɪloʊ",
+      "ipa_uk": "ˈpɪləʊ",
+      "translation_ru": "подушка"
+    },
+    {
+      "word": "shelf",
+      "ipa_us": "ʃɛlf",
+      "ipa_uk": "ʃelf",
+      "translation_ru": "полка"
+    },
+    {
+      "word": "energy",
+      "ipa_us": "ˈɛnərdʒi",
+      "ipa_uk": "ˈenədʒi",
+      "translation_ru": "энергия"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "week",
-        "where",
-        "weekend"
+        "weapon",
+        "work",
+        "winner"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "ð",
+      "sound": "ɜː",
       "examples": [
-        "them",
-        "the",
-        "there"
+        "curtains",
+        "early",
+        "turn"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Долгий звук между «ё» и «э», губы не округляйте."
     },
     {
-      "sound": "iː",
+      "sound": "eɪ",
       "examples": [
-        "teacher",
-        "week",
-        "weekend"
+        "chase",
+        "wake",
+        "late"
       ],
-      "tip_ru": "Долгий «и» с растянутыми губами; в коротком ɪ язык ниже и расслабленнее, чем в русском «и»."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "room",
+        "run",
+        "ridiculous"
+      ],
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не русский «р»."
     }
   ],
   "questions": [
     {
-      "question": "What is Mr Ray's job?",
-      "answer": "He is a teacher.",
+      "question": "What time does the writer's job start?",
+      "answer": "At eight o'clock.",
       "accepted_keywords": [
-        "teacher"
+        "eight",
+        "8"
       ]
     },
     {
-      "question": "What word does Tim say?",
-      "answer": "Banana.",
+      "question": "What happens with the metal alarm clock?",
+      "answer": "The writer turns it off and sleeps again, and the neighbour knocks on the wall.",
       "accepted_keywords": [
-        "banana"
+        "sleeps",
+        "neighbour",
+        "wall",
+        "lies"
       ]
     },
     {
-      "question": "How many days are in a week?",
-      "answer": "Seven.",
+      "question": "What is special about the clock from the shop?",
+      "answer": "It runs away and hides when the alarm starts.",
       "accepted_keywords": [
-        "seven",
-        "7"
+        "runs",
+        "hides",
+        "wheels",
+        "away"
       ]
     },
     {
-      "question": "What does Sara know about the last day?",
-      "answer": "It is the weekend.",
+      "question": "What is the writer's last idea?",
+      "answer": "To open the curtains and let the sun wake him.",
       "accepted_keywords": [
-        "weekend"
+        "curtains",
+        "sun",
+        "light"
       ]
     }
   ]

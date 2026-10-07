@@ -2,144 +2,161 @@
   "id": "b2-science-01",
   "level": "B2",
   "genre": "science",
-  "title_en": "Why Is the Sky Blue?",
-  "title_ru": "Почему небо голубое?",
-  "description_ru": "Объяснение рассеяния Рэлея: почему днём небо голубое, а на закате красное.",
-  "text": "Every child eventually asks the same question: why is the sky blue? The answer, which was first explained scientifically in the nineteenth century, involves the way sunlight travels through the atmosphere.\n\nSunlight looks white, but it is actually a mixture of all the colours of the rainbow. Each colour has a different wavelength. Red light has a long wavelength, while blue and violet light have much shorter ones. When sunlight enters the atmosphere, it collides with billions of tiny gas molecules, mostly nitrogen and oxygen. These molecules are far smaller than the wavelength of visible light, and they scatter short wavelengths much more strongly than long ones.\n\nThis effect is known as Rayleigh scattering, after the British physicist Lord Rayleigh, who described it mathematically in 1871. The amount of scattering is inversely proportional to the fourth power of the wavelength. In simple terms, blue light is scattered about five times more than red light. As a result, blue light is thrown in all directions across the sky, and wherever we look, some of it reaches our eyes.\n\nViolet light is scattered even more than blue, so why isn't the sky violet? There are several reasons. First, the sun emits less violet light than blue. Second, part of the violet light is absorbed high in the atmosphere. Finally, our eyes are more sensitive to blue than to violet. The combination of these three factors makes the sky appear blue.\n\nThe same principle explains the colours of sunrise and sunset. When the sun is low on the horizon, its light has to travel through a much thicker layer of air. Most of the blue light is scattered away before it reaches us, so only the longer wavelengths, orange and red, are left. If the air contains dust or smoke, the sunset may be even more spectacular.\n\nIt is often said that the sky is blue because it reflects the ocean. This is a common myth. In fact, the opposite is closer to the truth, because the sea looks blue partly because it reflects the sky, although water also absorbs red light.\n\nOn other planets, the sky can be quite different. On Mars, for example, fine dust in the thin atmosphere makes the daytime sky look butterscotch, while sunsets appear bluish.",
-  "word_count": 377,
+  "title_en": "How Vaccines Teach the Body",
+  "title_ru": "Как вакцины обучают организм",
+  "description_ru": "Научно-популярный текст о том, как иммунная система запоминает возбудителей и почему вакцины работают без болезни.",
+  "text": "Every day, your body is attacked by thousands of organisms that would like to use it as a home. Most of them are stopped before you notice anything. The reason is the immune system, a complex network of cells, tissues and chemicals that has been described, not unfairly, as an army with its own police force, its own factories and its own memory. Vaccines work by taking advantage of that memory, and understanding how they do it explains why they are among the most successful medical inventions in history.\n\nThe story begins in 1796, when an English doctor named Edward Jenner noticed that milkmaids who had caught cowpox, a mild disease, seemed to be protected from smallpox, which killed millions of people. He tested his idea by infecting a boy with cowpox material and later exposing him to smallpox. The boy did not fall ill. Jenner did not know why, because bacteria and viruses had not yet been discovered, but his method was so successful that it was named after the Latin word for cow, vacca.\n\nTo understand the science, it helps to know what the immune system looks for. Every germ carries molecules on its surface that are called antigens. When an antigen enters the body, white blood cells recognise it as foreign. Some of these cells, called B cells, produce antibodies, which are small proteins shaped to fit a particular antigen, much as a key fits a lock. Antibodies attach themselves to the invader and mark it for destruction, or stop it from entering human cells.\n\nOther cells, known as T cells, play a different role. Some of them attack infected cells directly, while others coordinate the response and tell the rest of the army what to do. The difficulty is that this process is slow the first time. It may take a week or more to produce enough antibodies, and during that period a dangerous virus can multiply rapidly. By the time the defence is ready, the person may already be seriously ill.\n\nThis is where memory comes in. After an infection, a small number of B and T cells survive as memory cells, and they can remain in the body for years or even for life. If the same germ returns, these cells recognise it at once and launch a much faster and stronger attack, often within hours. In most cases, the person never feels sick. A vaccine is simply a way of creating this memory without the illness that normally produces it.\n\nThere are several ways of doing this. The oldest method uses a weakened form of a germ, which can still trigger a response but cannot cause serious disease. Another uses a germ that has been killed, or only a harmless piece of it, such as a protein from its surface. More recently, scientists have developed vaccines that contain a set of instructions written in messenger RNA. The instructions are delivered into a few of the body's cells, which temporarily produce a single harmless protein. The immune system sees it, learns to recognise it and builds memory, while the instructions themselves break down within days.\n\nMany people worry that a vaccine can overload the immune system. In fact, the opposite is true. A baby's body meets an enormous number of antigens every day simply by breathing, eating and crawling on the floor, and the antigens in vaccines are only a tiny fraction of that. A sore arm, a slight fever or tiredness are common reactions, and they are usually a sign that the immune system is doing exactly what it was designed to do.\n\nVaccines also protect people who have not been vaccinated. When a large proportion of a community is immune, the germ has difficulty finding new victims, and outbreaks fade away. This effect is called herd immunity, and it is especially important for those who cannot be vaccinated, such as newborn babies or patients with weak immune systems. The percentage needed depends on how contagious the disease is. For measles, which spreads extremely easily, about ninety-five per cent of people must be immune to stop it from circulating.\n\nThe results have been remarkable. In 1980, the World Health Organization declared that smallpox had been eradicated, the first and so far the only human disease to be completely wiped out. Polio, which once paralysed hundreds of thousands of children every year, has been reduced by more than ninety-nine per cent since the 1980s. Nevertheless, protection is not perfect, and some germs, such as influenza, change so quickly that new vaccines have to be designed every year.\n\nIn the end, a vaccine is not magic. It is a lesson. It shows the immune system a picture of the enemy before the real battle begins, and the body, being an excellent student, remembers. That simple idea, which began with a country doctor and a few milkmaids, continues to save an estimated several million lives every year.",
+  "word_count": 821,
   "vocabulary": [
     {
-      "word": "atmosphere",
-      "ipa_us": "ˈætməsˌfɪr",
-      "ipa_uk": "ˈætməsfɪə",
-      "translation_ru": "атмосфера"
+      "word": "immune system",
+      "ipa_us": "ɪˈmjuːn ˈsɪstəm",
+      "ipa_uk": "ɪˈmjuːn ˈsɪstəm",
+      "translation_ru": "иммунная система"
     },
     {
-      "word": "wavelength",
-      "ipa_us": "ˈweɪvˌlɛŋθ",
-      "ipa_uk": "ˈweɪvleŋθ",
-      "translation_ru": "длина волны"
+      "word": "antigen",
+      "ipa_us": "ˈæntɪdʒən",
+      "ipa_uk": "ˈæntɪdʒən",
+      "translation_ru": "антиген"
     },
     {
-      "word": "molecules",
-      "ipa_us": "ˈmɑləˌkjulz",
-      "ipa_uk": "ˈmɒlɪkjuːlz",
-      "translation_ru": "молекулы"
+      "word": "antibodies",
+      "ipa_us": "ˈæntibɑːdiz",
+      "ipa_uk": "ˈæntibɒdiz",
+      "translation_ru": "антитела"
     },
     {
-      "word": "scatter",
-      "ipa_us": "ˈskætər",
-      "ipa_uk": "ˈskætə",
-      "translation_ru": "рассеивать"
+      "word": "invader",
+      "ipa_us": "ɪnˈveɪdər",
+      "ipa_uk": "ɪnˈveɪdə",
+      "translation_ru": "захватчик"
     },
     {
-      "word": "physicist",
-      "ipa_us": "ˈfɪzɪsɪst",
-      "ipa_uk": "ˈfɪzɪsɪst",
-      "translation_ru": "физик"
+      "word": "multiply",
+      "ipa_us": "ˈmʌltɪplaɪ",
+      "ipa_uk": "ˈmʌltɪplaɪ",
+      "translation_ru": "размножаться"
     },
     {
-      "word": "inversely",
-      "ipa_us": "ɪnˈvɜrsli",
-      "ipa_uk": "ɪnˈvɜːsli",
-      "translation_ru": "обратно"
+      "word": "memory cells",
+      "ipa_us": "ˈmɛməri sɛlz",
+      "ipa_uk": "ˈmeməri selz",
+      "translation_ru": "клетки памяти"
     },
     {
-      "word": "absorbed",
-      "ipa_us": "əbˈzɔrbd",
-      "ipa_uk": "əbˈzɔːbd",
-      "translation_ru": "поглощён"
+      "word": "weakened",
+      "ipa_us": "ˈwiːkənd",
+      "ipa_uk": "ˈwiːkənd",
+      "translation_ru": "ослабленный"
     },
     {
-      "word": "sensitive",
-      "ipa_us": "ˈsɛnsɪtɪv",
-      "ipa_uk": "ˈsensɪtɪv",
-      "translation_ru": "чувствительный"
+      "word": "harmless",
+      "ipa_us": "ˈhɑːrmləs",
+      "ipa_uk": "ˈhɑːmləs",
+      "translation_ru": "безвредный"
     },
     {
-      "word": "horizon",
-      "ipa_us": "həˈraɪzən",
-      "ipa_uk": "həˈraɪzən",
-      "translation_ru": "горизонт"
+      "word": "fraction",
+      "ipa_us": "ˈfrækʃn",
+      "ipa_uk": "ˈfrækʃn",
+      "translation_ru": "доля"
     },
     {
-      "word": "myth",
-      "ipa_us": "mɪθ",
-      "ipa_uk": "mɪθ",
-      "translation_ru": "миф"
+      "word": "contagious",
+      "ipa_us": "kənˈteɪdʒəs",
+      "ipa_uk": "kənˈteɪdʒəs",
+      "translation_ru": "заразный"
+    },
+    {
+      "word": "eradicated",
+      "ipa_us": "ɪˈrædɪkeɪtɪd",
+      "ipa_uk": "ɪˈrædɪkeɪtɪd",
+      "translation_ru": "искоренена"
+    },
+    {
+      "word": "paralysed",
+      "ipa_us": "ˈpærəlaɪzd",
+      "ipa_uk": "ˈpærəlaɪzd",
+      "translation_ru": "парализовала"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "æ",
+      "examples": [
+        "antigen",
+        "antibodies",
+        "attack",
+        "fraction"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
       "sound": "θ",
       "examples": [
-        "wavelength",
-        "three",
-        "myth",
-        "thicker"
+        "thousands",
+        "with",
+        "Health"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка слегка между зубами; воздух идёт без голоса."
     },
     {
-      "sound": "w",
+      "sound": "ð",
       "examples": [
-        "wavelength",
-        "which",
-        "wherever"
+        "the",
+        "that",
+        "them",
+        "other"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Язык между зубами, голос включён; не «з» и не «д»."
     },
     {
-      "sound": "v",
+      "sound": "word-stress",
       "examples": [
-        "visible",
-        "violet",
-        "every"
+        "antibodies",
+        "contagious",
+        "eradicated"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "red",
-        "rainbow",
-        "reflects"
-      ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Найдите ударный слог (an-ti-bod-ies: первый; con-ta-gious: второй; e-rad-i-cat-ed: второй) и выделите его."
     }
   ],
   "questions": [
     {
-      "question": "Which colour of light has a long wavelength?",
-      "answer": "Red.",
+      "question": "Who first used cowpox to protect against smallpox?",
+      "answer": "Edward Jenner, an English doctor, in 1796.",
       "accepted_keywords": [
-        "red"
+        "jenner",
+        "edward",
+        "doctor"
       ]
     },
     {
-      "question": "Who described Rayleigh scattering mathematically?",
-      "answer": "Lord Rayleigh.",
+      "question": "What are antibodies?",
+      "answer": "Small proteins shaped to fit antigens and mark invaders for destruction.",
       "accepted_keywords": [
-        "rayleigh"
+        "proteins",
+        "protein",
+        "antigen",
+        "invader",
+        "fit"
       ]
     },
     {
-      "question": "Why isn't the sky violet?",
-      "answer": "The sun emits less violet, it is absorbed, and our eyes are less sensitive to it.",
+      "question": "What is herd immunity?",
+      "answer": "When most of a community is immune, so the germ cannot spread easily.",
       "accepted_keywords": [
-        "sensitive",
-        "absorbed",
-        "less",
-        "eyes"
+        "community",
+        "immune",
+        "spread",
+        "protect"
       ]
     },
     {
-      "question": "What colour is the daytime sky on Mars?",
-      "answer": "Butterscotch.",
+      "question": "Which disease has been completely eradicated?",
+      "answer": "Smallpox.",
       "accepted_keywords": [
-        "butterscotch",
-        "brown",
-        "yellow"
+        "smallpox"
       ]
     }
   ]

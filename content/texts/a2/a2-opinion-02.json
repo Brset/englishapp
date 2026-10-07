@@ -2,127 +2,160 @@
   "id": "a2-opinion-02",
   "level": "A2",
   "genre": "opinion",
-  "title_en": "Paper Books or Phones?",
-  "title_ru": "Бумажные книги или телефон?",
-  "description_ru": "Размышление о том, что приятнее читать: бумажную книгу или текст на экране.",
-  "text": "I love reading, but I do not like reading on my phone. I prefer paper books, and I want to tell you why.\n\nFirst, a book does not hurt my eyes. When I read on a screen for an hour, my eyes feel tired and dry. With a book I can read for three hours and feel fine.\n\nSecond, a phone is full of messages. Every few minutes it makes a noise, and I stop reading. A book is quiet. It does not send me news or videos, so I can think about the story.\n\nAlso, I like the smell of a new book and the feel of the pages. I can write notes in it, and I can lend it to a friend.\n\nOf course, phones have good points. You can carry hundreds of books in your pocket, and it is cheaper. But for me, a real book is still better. What do you think?",
-  "word_count": 156,
+  "title_en": "Why I Prefer the Countryside",
+  "title_ru": "Почему я выбираю деревню",
+  "description_ru": "Личное мнение автора, который переехал из большого города в деревню и считает, что там жить лучше.",
+  "text": "Some people love big cities, and others cannot live without nature. I have lived in both places, and I am sure about my opinion: the countryside is a better place to live than a big city. Of course, not everybody is going to agree, but let me give you my reasons.\n\nI grew up in a large city with more than three million people. Our flat was on the ninth floor of an old block, and from the window I could see other blocks, grey roads and a lot of cars. Every morning, I took a crowded bus to school. It was hot in summer and cold in winter, and sometimes I had to stand for forty minutes. The air was dirty, and the streets were so noisy that I could not hear the birds. At that time I thought that this was normal.\n\nFour years ago my family moved to a small village about sixty kilometres from the city. My father found a new job there, and my mother wanted a quieter life. I was angry, because I was going to leave all my friends. I was sure that I would be bored in a place where there was only one shop. I was wrong. After a few weeks, I began to notice things that I never saw in the city.\n\nThe first difference is the air and the silence. In the village, I wake up to the sound of birds, not horns. The air is cleaner, and I can see thousands of stars at night. In the city, the lights are so bright that you can see only the moon. Doctors say that clean air and quiet places are better for our health. I really feel less tired now, and I get ill less often than before.\n\nThe second difference is space. Our house in the village is much bigger than our old flat, and it has a garden. My mother grows tomatoes, potatoes and flowers, and in summer we eat vegetables that are fresher and tastier than anything from a supermarket. We also have two dogs and several chickens. My little brother likes to run around and play outside with other children. In the city, he could play only in a small, crowded yard.\n\nAnother important point is the cost of living. Everything in the city is more expensive. Rent is higher, food costs more and even a cup of coffee can cost twice as much. In the village, we pay less for a larger home. People also help each other. When our car broke down last winter, three neighbours came with tools and fixed it in an hour. In my old building, I did not even know the name of the man next door.\n\nI know that the countryside has some disadvantages, and I want to be fair. There are fewer jobs, and many young people leave to find work. The nearest cinema is thirty kilometres away. The internet is slower, and the bus comes only three times a day. If you are ill, the hospital is farther away. These problems are real, and I do not want to say that they are not important. For some people, the city is the best choice, especially for those who work in business, art or technology.\n\nBut I believe that many problems of the village are becoming smaller. More people now work from home, so they can live anywhere. Roads are better than before, and new fast internet cables are reaching small places. I work online two days a week, and I do not feel isolated. When I want to see a film or visit a museum, I take the train to the city on Saturday. Then I come home, and I always feel happy to leave the noise behind.\n\nMy friends from the city sometimes visit us in summer. At first they say that the village is boring, but after two days, they relax. They swim in the river, walk in the forest and sleep more deeply than ever. Before they leave, they usually say, \"I could live here.\" I smile because I know the feeling.\n\nIn the end, a good life does not need many things. It needs fresh air, time, good neighbours and a place to think. For me, the countryside gives all of these things. I may visit the city, but I am not going to live there again.",
+  "word_count": 735,
   "vocabulary": [
     {
-      "word": "prefer",
-      "ipa_us": "prɪˈfɜːr",
-      "ipa_uk": "prɪˈfɜː",
-      "translation_ru": "предпочитать"
+      "word": "countryside",
+      "ipa_us": "ˈkʌntriˌsaɪd",
+      "ipa_uk": "ˈkʌntrisaɪd",
+      "translation_ru": "сельская местность"
     },
     {
-      "word": "tired",
-      "ipa_us": "ˈtaɪərd",
-      "ipa_uk": "ˈtaɪəd",
-      "translation_ru": "усталый"
+      "word": "crowded",
+      "ipa_us": "ˈkraʊdɪd",
+      "ipa_uk": "ˈkraʊdɪd",
+      "translation_ru": "переполненный"
     },
     {
-      "word": "message",
-      "ipa_us": "ˈmesɪdʒ",
-      "ipa_uk": "ˈmesɪdʒ",
-      "translation_ru": "сообщение"
+      "word": "silence",
+      "ipa_us": "ˈsaɪləns",
+      "ipa_uk": "ˈsaɪləns",
+      "translation_ru": "тишина"
     },
     {
-      "word": "quiet",
-      "ipa_us": "ˈkwaɪət",
-      "ipa_uk": "ˈkwaɪət",
-      "translation_ru": "тихий"
+      "word": "space",
+      "ipa_us": "speɪs",
+      "ipa_uk": "speɪs",
+      "translation_ru": "простор, место"
     },
     {
-      "word": "pages",
-      "ipa_us": "ˈpeɪdʒɪz",
-      "ipa_uk": "ˈpeɪdʒɪz",
-      "translation_ru": "страницы"
+      "word": "garden",
+      "ipa_us": "ˈɡɑrdn",
+      "ipa_uk": "ˈɡɑːdn",
+      "translation_ru": "сад"
     },
     {
-      "word": "lend",
-      "ipa_us": "lend",
-      "ipa_uk": "lend",
-      "translation_ru": "одолжить"
+      "word": "expensive",
+      "ipa_us": "ɪkˈspɛnsɪv",
+      "ipa_uk": "ɪkˈspensɪv",
+      "translation_ru": "дорогой"
     },
     {
-      "word": "pocket",
-      "ipa_us": "ˈpɑːkɪt",
-      "ipa_uk": "ˈpɒkɪt",
-      "translation_ru": "карман"
+      "word": "neighbour",
+      "ipa_us": "ˈneɪbər",
+      "ipa_uk": "ˈneɪbə",
+      "translation_ru": "сосед"
     },
     {
-      "word": "cheaper",
-      "ipa_us": "ˈtʃiːpər",
-      "ipa_uk": "ˈtʃiːpə",
-      "translation_ru": "дешевле"
+      "word": "disadvantage",
+      "ipa_us": "ˌdɪsədˈvæntɪdʒ",
+      "ipa_uk": "ˌdɪsədˈvɑːntɪdʒ",
+      "translation_ru": "недостаток"
+    },
+    {
+      "word": "isolated",
+      "ipa_us": "ˈaɪsəˌleɪtɪd",
+      "ipa_uk": "ˈaɪsəleɪtɪd",
+      "translation_ru": "изолированный"
+    },
+    {
+      "word": "noisy",
+      "ipa_us": "ˈnɔɪzi",
+      "ipa_uk": "ˈnɔɪzi",
+      "translation_ru": "шумный"
+    },
+    {
+      "word": "relax",
+      "ipa_us": "rɪˈlæks",
+      "ipa_uk": "rɪˈlæks",
+      "translation_ru": "расслабляться"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ŋ",
       "examples": [
-        "three",
-        "think"
+        "morning",
+        "living"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос. Не добавляйте «г» в конце."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "other",
+        "neighbours"
+      ],
+      "tip_ru": "Язык между зубами, как для θ, но с голосом. Не заменяйте на «з» или «д»."
     },
     {
       "sound": "r",
       "examples": [
-        "read",
-        "real"
+        "rent",
+        "river",
+        "crowded"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены. Не раскатывайте русское «р»."
     },
     {
-      "sound": "iː",
+      "sound": "aɪ",
       "examples": [
-        "read",
-        "feel"
+        "night",
+        "time",
+        "quiet"
       ],
-      "tip_ru": "Долгий «и»: растяните звук, губы в улыбке; не путайте с коротким ɪ."
-    },
-    {
-      "sound": "aspiration",
-      "examples": [
-        "paper",
-        "phone"
-      ],
-      "tip_ru": "p, t, k в начале слова произносите с лёгким придыханием, как будто выдыхаете «х»."
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
     }
   ],
   "questions": [
     {
-      "question": "What does the writer prefer?",
-      "answer": "Paper books.",
+      "question": "Where did the writer grow up?",
+      "answer": "In a large city with more than three million people.",
       "accepted_keywords": [
-        "paper",
-        "book",
-        "books"
+        "city",
+        "large",
+        "three million"
       ]
     },
     {
-      "question": "What happens when the phone makes a noise?",
-      "answer": "The writer stops reading.",
+      "question": "Why did the family move to the village?",
+      "answer": "The father found a new job there and the mother wanted a quieter life.",
       "accepted_keywords": [
-        "stop",
-        "stops"
+        "job",
+        "father",
+        "quieter",
+        "quiet",
+        "mother"
       ]
     },
     {
-      "question": "What can you do with a book and a friend?",
-      "answer": "Lend it.",
+      "question": "Name one advantage of the countryside.",
+      "answer": "Cleaner air, more space, a garden, lower cost of living or friendly neighbours.",
       "accepted_keywords": [
-        "lend"
-      ]
-    },
-    {
-      "question": "Why is a phone good?",
-      "answer": "You can carry many books and it is cheaper.",
-      "accepted_keywords": [
-        "carry",
+        "air",
+        "space",
+        "garden",
         "cheaper",
-        "books"
+        "neighbours",
+        "silence",
+        "quiet",
+        "stars"
+      ]
+    },
+    {
+      "question": "What disadvantages does the writer mention?",
+      "answer": "There are fewer jobs, the cinema and hospital are far away, the internet is slower and buses are rare.",
+      "accepted_keywords": [
+        "jobs",
+        "cinema",
+        "internet",
+        "bus",
+        "hospital"
       ]
     }
   ]

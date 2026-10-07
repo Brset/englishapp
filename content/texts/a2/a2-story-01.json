@@ -2,124 +2,140 @@
   "id": "a2-story-01",
   "level": "A2",
   "genre": "story",
-  "title_en": "The Red Bicycle",
-  "title_ru": "Красный велосипед",
-  "description_ru": "Виктор находит старый велосипед и чинит его вместе с сестрой. Неожиданный финал связан с маленькой собакой.",
-  "text": "Last summer, Victor found an old red bicycle behind his grandmother's garage. It was dirty and the wheels were very slow, but he loved it at once. \"I am going to repair it,\" he told his sister Vera.\n\nEvery weekend, they worked together. They washed the frame, bought new tires and painted the seat black. Vera was better with the tools, but Victor was stronger, so they made a good team.\n\nAfter three weeks, the bicycle was ready. Victor rode it through the village, past the river and the old white church. The wind was warm and the road was long. Then he heard a strange noise behind him. A small brown dog was running after the bicycle! The dog followed him all the way home. Now the dog lives with Victor's family, and every Sunday the three of them go for a ride.",
-  "word_count": 144,
+  "title_en": "The Violin on the Tram",
+  "title_ru": "Скрипка в трамвае",
+  "description_ru": "Уличная музыкантка находит в трамвае чужую скрипку и решает, что с ней делать. История о честности и неожиданной награде.",
+  "text": "Last spring, Nina played the violin on a busy street in Prague. She was nineteen, and she played for money because she wanted to study music in Vienna. Every morning she took her old violin to the same corner near the river. People walked past, and some of them stopped to listen. On a good day she earned thirty euros. On a bad day she earned only a sandwich and a smile.\n\nOne Tuesday evening, Nina was going home on the tram. It was cold and raining, and the tram was almost empty. She was tired, so she sat down and closed her eyes. When she opened them, she saw a black case on the seat opposite. Nobody was sitting near it. She waited for two stops, but nobody came back for it. In the end she picked it up. It was heavier than she expected.\n\nAt home, she opened the case on her kitchen table. Inside was a beautiful violin. It was much darker and more shiny than hers, and the wood looked very old. There was a small label inside the instrument, but the writing was too faint to read. Nina touched the strings carefully. Then she played one slow note. The sound was warm and deep, and it filled the whole flat. She almost cried. It was the best violin she ever heard.\n\nShe did not sleep well that night. In the morning she looked for a name or a phone number in the case, but she found only some old music and a photograph of a smiling old man. On the back, someone wrote: \"For Tomas, with love, 1974.\" Nina sat on her bed and thought for a long time. She could keep the violin. Nobody knew that she had it. With a violin like that, she could make three times more money, and maybe she could go to Vienna this year.\n\nBut she could not stop looking at the photograph. The old man looked kind, and she imagined that he was very sad now. So she made a decision. She wrote a note and took it to the tram station. The note said: \"I found a black violin case on tram number nine. Please call this number if it is yours.\" She added her phone number and put the note on the notice board. Then she went to her corner by the river and played her own violin, and for the first time in months, she did not feel poor.\n\nTwo days passed, and the phone did not ring. Nina began to feel worried and, if she was honest, a little bit happy. Then, on Friday afternoon, a woman called. Her voice was shaky and fast. She said that her grandfather Tomas was eighty-two years old and that he had played that violin for sixty years. He left it on the tram by mistake, and he had not eaten or slept since. \"He thinks it is gone forever,\" the woman said. \"Please, can we meet today?\"\n\nThey met in a small cafe near the station. Tomas was a thin man with white hair and large, careful hands. When Nina gave him the case, he did not say anything. He opened it very slowly and touched the wood with two fingers, like a person greeting an old friend. Then his eyes became wet, and he laughed. \"I am sorry,\" he said. \"I am a silly old man. This violin is the only thing I have from my wife. She bought it for me when we were young and poor.\"\n\nNina felt her own eyes get hot. She was happy that she had done the right thing, and she was a little ashamed that she had thought about keeping it. She told Tomas the truth. She said that she was a street musician, and that the sound of the violin was the most beautiful she ever heard. He listened carefully. Then he smiled and asked her to play something for him on her own violin, right there in the cafe.\n\nShe played a simple folk song that her mother taught her. When she finished, the other customers clapped. Tomas did not clap. He put his head on one side and said, \"You are good, but your violin is tired. And your left hand is too tight.\" He showed her how to relax her fingers, and after ten minutes, her playing was already softer and warmer. They talked for two hours, and he told her stories about concerts in cold cities and trains that arrived late.\n\nThe next week, Nina received a letter. It was from Tomas. Inside was a ticket for a concert, a short note and the address of a famous music teacher in Vienna. The note said: \"I taught her twenty years ago. Tell her that Tomas sent you. And do not forget to relax your hand.\" Nina read it three times. She was going to Vienna in September, after all, and she was going to take her own old violin, which she loved a little more than before.",
+  "word_count": 844,
   "vocabulary": [
     {
-      "word": "bicycle",
-      "ipa_us": "ˈbaɪsɪkəl",
-      "ipa_uk": "ˈbaɪsɪkəl",
-      "translation_ru": "велосипед"
+      "word": "violin",
+      "ipa_us": "vaɪˈoʊlɪn",
+      "ipa_uk": "ˌvaɪəˈlɪn",
+      "translation_ru": "скрипка"
     },
     {
-      "word": "repair",
-      "ipa_us": "rɪˈper",
-      "ipa_uk": "rɪˈpeə",
-      "translation_ru": "чинить"
+      "word": "instrument",
+      "ipa_us": "ˈɪnstrəmənt",
+      "ipa_uk": "ˈɪnstrəmənt",
+      "translation_ru": "инструмент"
     },
     {
-      "word": "wheels",
-      "ipa_us": "wiːlz",
-      "ipa_uk": "wiːlz",
-      "translation_ru": "колёса"
+      "word": "faint",
+      "ipa_us": "feɪnt",
+      "ipa_uk": "feɪnt",
+      "translation_ru": "слабый, еле заметный"
     },
     {
-      "word": "weekend",
-      "ipa_us": "ˈwiːkend",
-      "ipa_uk": "ˌwiːkˈend",
-      "translation_ru": "выходные"
+      "word": "strings",
+      "ipa_us": "strɪŋz",
+      "ipa_uk": "strɪŋz",
+      "translation_ru": "струны"
     },
     {
-      "word": "village",
-      "ipa_us": "ˈvɪlɪdʒ",
-      "ipa_uk": "ˈvɪlɪdʒ",
-      "translation_ru": "деревня"
+      "word": "decision",
+      "ipa_us": "dɪˈsɪʒn",
+      "ipa_uk": "dɪˈsɪʒn",
+      "translation_ru": "решение"
     },
     {
-      "word": "river",
-      "ipa_us": "ˈrɪvər",
-      "ipa_uk": "ˈrɪvə",
-      "translation_ru": "река"
+      "word": "honest",
+      "ipa_us": "ˈɑːnɪst",
+      "ipa_uk": "ˈɒnɪst",
+      "translation_ru": "честный"
     },
     {
-      "word": "stronger",
-      "ipa_us": "ˈstrɔːŋɡər",
-      "ipa_uk": "ˈstrɒŋɡə",
-      "translation_ru": "сильнее"
+      "word": "shaky",
+      "ipa_us": "ˈʃeɪki",
+      "ipa_uk": "ˈʃeɪki",
+      "translation_ru": "дрожащий"
     },
     {
-      "word": "strange",
-      "ipa_us": "streɪndʒ",
-      "ipa_uk": "streɪndʒ",
-      "translation_ru": "странный"
+      "word": "ashamed",
+      "ipa_us": "əˈʃeɪmd",
+      "ipa_uk": "əˈʃeɪmd",
+      "translation_ru": "пристыженный"
+    },
+    {
+      "word": "relax",
+      "ipa_us": "rɪˈlæks",
+      "ipa_uk": "rɪˈlæks",
+      "translation_ru": "расслаблять(ся)"
+    },
+    {
+      "word": "concert",
+      "ipa_us": "ˈkɑːnsərt",
+      "ipa_uk": "ˈkɒnsət",
+      "translation_ru": "концерт"
+    },
+    {
+      "word": "folk",
+      "ipa_us": "foʊk",
+      "ipa_uk": "fəʊk",
+      "translation_ru": "народный"
     }
   ],
   "focus_sounds": [
     {
       "sound": "v",
       "examples": [
-        "Victor",
-        "very",
-        "village",
-        "river",
-        "Vera"
+        "violin",
+        "voice",
+        "very"
       ],
       "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
     },
     {
       "sound": "w",
       "examples": [
-        "wheels",
-        "weekend",
-        "worked",
-        "warm",
-        "white"
+        "wanted",
+        "wood",
+        "warm"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Губы округлены и выдвинуты вперёд, зубы не касаются губ; звук короткий, как быстрое «у-а»."
     },
     {
-      "sound": "r",
+      "sound": "ŋ",
       "examples": [
-        "river",
-        "repair",
-        "road",
-        "ride"
+        "strings",
+        "morning",
+        "evening"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте отчётливого «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "What did Victor find?",
-      "answer": "He found an old red bicycle.",
+      "question": "Where did Nina find the violin?",
+      "answer": "On the tram, on a seat.",
       "accepted_keywords": [
-        "bicycle",
-        "bike"
+        "tram"
       ]
     },
     {
-      "question": "Who helped Victor?",
-      "answer": "His sister Vera.",
+      "question": "Why did Nina play on the street?",
+      "answer": "She wanted money to study music in Vienna.",
       "accepted_keywords": [
-        "vera",
-        "sister"
+        "vienna",
+        "study",
+        "money"
       ]
     },
     {
-      "question": "How long did they work?",
-      "answer": "Three weeks.",
+      "question": "Who was the owner of the violin?",
+      "answer": "An old man called Tomas.",
       "accepted_keywords": [
-        "three"
+        "tomas"
       ]
     },
     {
-      "question": "Who followed Victor home?",
-      "answer": "A small brown dog.",
+      "question": "What did Tomas send Nina at the end?",
+      "answer": "A letter with a concert ticket and the address of a music teacher in Vienna.",
       "accepted_keywords": [
-        "dog"
+        "letter",
+        "ticket",
+        "address",
+        "teacher"
       ]
     }
   ]

@@ -2,126 +2,163 @@
   "id": "a2-news-01",
   "level": "A2",
   "genre": "news",
-  "title_en": "Free Buses in Millbrook",
-  "title_ru": "Бесплатные автобусы в Миллбруке",
-  "description_ru": "Вымышленная новость: в небольшом городе автобусы стали бесплатными.",
-  "text": "The town of Millbrook has some good news for its citizens. From next Monday, all city buses are going to be free for everyone.\n\nThe mayor, Helen Frost, told reporters about the plan on Tuesday. \"Our streets are full of cars, and the air is dirty,\" she said. \"We want more people to use the bus. It is cheaper for them, and it is better for the town.\"\n\nLast year, about six thousand people took the bus every day. The mayor hopes that number is going to double in the next twelve months.\n\nNot everyone is happy. Some drivers say that the buses are going to be too crowded. A local shop owner, Victor Hale, said, \"I like the idea, but the buses must come more often.\"\n\nThe town is going to buy five new buses in the spring. The first free ride starts at six o'clock on Monday morning.",
-  "word_count": 150,
+  "title_en": "Giant Pumpkin Wins Millbrook Show",
+  "title_ru": "Гигантская тыква победила на ярмарке в Миллбруке",
+  "description_ru": "Вымышленная новость: пенсионер вырастил рекордную тыкву весом 412 килограммов, и весь город гордится им.",
+  "text": "A small farming town called Millbrook has a new world champion. On Saturday, a retired bus driver named Harold Pennick won the Giant Vegetable Show with a pumpkin that weighed 412 kilograms. It is the heaviest pumpkin that anyone in the country has ever grown, and the people of Millbrook are very proud.\n\nThe show takes place every September in the village hall, and this year more than two thousand visitors came. Many of them travelled from other towns to see the huge vegetables. There were long carrots, enormous onions and cabbages as big as car tyres. But when the judges arrived at Harold's table, everybody stopped talking. The pumpkin was orange, round and almost as tall as a small child. It took six strong men and a special truck to bring it into the hall.\n\n\"I could not believe my eyes,\" said Dorothy Wren, the head judge. \"I have been doing this job for twenty-two years, and I have never seen anything bigger. When we put it on the scale, the numbers kept going up and up. Then we all started to clap.\" The old record was 389 kilograms, and Harold broke it by more than twenty kilograms.\n\nHarold is seventy years old, and he began growing vegetables only five years ago, after he stopped driving buses. He says that his secret is patience. \"A pumpkin is like a baby,\" he explained with a smile. \"You have to feed it, give it water and talk to it every day.\" Harold admits that he spoke to his pumpkin for about an hour each morning. He told it stories about his life, and he sometimes played quiet music on a small radio. His neighbours thought he was a little crazy, but now they are asking him for advice.\n\nThe preparation was not easy. Last spring, Harold planted the seed in a special mixture of soil and horse manure. He covered the young plant with a plastic tent to protect it from the cold. In June, he found that the pumpkin was growing about fifteen kilograms every week. He built a roof over it, because he was afraid of heavy rain and hungry birds. In August, a storm nearly destroyed his garden, and Harold slept outside in a chair for three nights to guard the plant. \"My wife said that I was more worried about the pumpkin than about her,\" he laughed.\n\nThe pumpkin, which Harold named Big Bertha, is now the most popular visitor in town. On Sunday morning, hundreds of people stood in a line outside the hall to take photographs with it. Children climbed on a small ladder to touch it, and the local baker offered to make the biggest pumpkin pie in history. The mayor, Gerald Foxley, said that the town is going to hold a special party next week. \"Millbrook has always been a quiet place,\" he said. \"Now we are famous, and it is much better than I expected.\"\n\nHarold won a golden cup, a certificate and a prize of two thousand pounds. He says that he is not going to spend the money on himself. Instead, he plans to buy new books for the school library and to give some to the village hall, where the roof leaks. \"I have everything I need,\" he said. \"I only wanted to prove that an old man can still do something amazing.\"\n\nNot everybody was happy about the result, however. A farmer from the neighbouring village, Walter Dunn, finished in second place with a pumpkin of 380 kilograms. He said that he was pleased for his rival but also a little jealous. \"Next year I am going to grow a bigger one,\" he promised. \"I have already ordered better seeds.\" Harold only smiled and said that he was ready for the challenge.\n\nExperts say that giant vegetable growing is becoming more popular. Dr Helen Marsh, who teaches plant science at a university, explained that a giant pumpkin can grow more than a kilogram every hour in the best conditions. \"It is one of the fastest-growing things on Earth,\" she said. \"Growers need good soil, plenty of water and a lot of luck with the weather.\"\n\nWhat will happen to Big Bertha now? Harold has some ideas. The seeds are the most valuable part, and many growers want to buy them. He will keep some for himself, and he will give a few to local schools so that children can try to grow their own giants. The rest of the pumpkin, he says, will become soup for the whole town at the party next Saturday. \"That is the best end for a champion,\" he said. \"And it is going to be a very big pot.\"",
+  "word_count": 785,
   "vocabulary": [
     {
-      "word": "citizen",
-      "ipa_us": "ˈsɪtɪzn",
-      "ipa_uk": "ˈsɪtɪzn",
-      "translation_ru": "житель, гражданин"
+      "word": "champion",
+      "ipa_us": "ˈtʃæmpiən",
+      "ipa_uk": "ˈtʃæmpiən",
+      "translation_ru": "чемпион"
     },
     {
-      "word": "mayor",
-      "ipa_us": "ˈmeɪər",
-      "ipa_uk": "meə",
-      "translation_ru": "мэр"
+      "word": "pumpkin",
+      "ipa_us": "ˈpʌmpkɪn",
+      "ipa_uk": "ˈpʌmpkɪn",
+      "translation_ru": "тыква"
     },
     {
-      "word": "reporter",
-      "ipa_us": "rɪˈpɔːrtər",
-      "ipa_uk": "rɪˈpɔːtə",
-      "translation_ru": "репортёр"
+      "word": "enormous",
+      "ipa_us": "ɪˈnɔrməs",
+      "ipa_uk": "ɪˈnɔːməs",
+      "translation_ru": "огромный"
     },
     {
-      "word": "dirty",
-      "ipa_us": "ˈdɜːrti",
-      "ipa_uk": "ˈdɜːti",
-      "translation_ru": "грязный"
+      "word": "judge",
+      "ipa_us": "dʒʌdʒ",
+      "ipa_uk": "dʒʌdʒ",
+      "translation_ru": "судья"
     },
     {
-      "word": "cheaper",
-      "ipa_us": "ˈtʃiːpər",
-      "ipa_uk": "ˈtʃiːpə",
-      "translation_ru": "дешевле"
+      "word": "scale",
+      "ipa_us": "skeɪl",
+      "ipa_uk": "skeɪl",
+      "translation_ru": "весы"
     },
     {
-      "word": "double",
-      "ipa_us": "ˈdʌbl",
-      "ipa_uk": "ˈdʌbl",
-      "translation_ru": "удвоиться"
+      "word": "record",
+      "ipa_us": "ˈrɛkərd",
+      "ipa_uk": "ˈrekɔːd",
+      "translation_ru": "рекорд"
     },
     {
-      "word": "crowded",
-      "ipa_us": "ˈkraʊdɪd",
-      "ipa_uk": "ˈkraʊdɪd",
-      "translation_ru": "переполненный"
+      "word": "patience",
+      "ipa_us": "ˈpeɪʃəns",
+      "ipa_uk": "ˈpeɪʃns",
+      "translation_ru": "терпение"
     },
     {
-      "word": "local",
-      "ipa_us": "ˈloʊkl",
-      "ipa_uk": "ˈləʊkl",
-      "translation_ru": "местный"
+      "word": "protect",
+      "ipa_us": "prəˈtɛkt",
+      "ipa_uk": "prəˈtekt",
+      "translation_ru": "защищать"
+    },
+    {
+      "word": "jealous",
+      "ipa_us": "ˈdʒɛləs",
+      "ipa_uk": "ˈdʒeləs",
+      "translation_ru": "завидующий"
+    },
+    {
+      "word": "rival",
+      "ipa_us": "ˈraɪvəl",
+      "ipa_uk": "ˈraɪvl",
+      "translation_ru": "соперник"
+    },
+    {
+      "word": "challenge",
+      "ipa_us": "ˈtʃælɪndʒ",
+      "ipa_uk": "ˈtʃælɪndʒ",
+      "translation_ru": "вызов"
+    },
+    {
+      "word": "valuable",
+      "ipa_us": "ˈvæljəbəl",
+      "ipa_uk": "ˈvæljuəbl",
+      "translation_ru": "ценный"
     }
   ],
   "focus_sounds": [
     {
       "sound": "v",
       "examples": [
-        "Victor",
-        "every"
+        "vegetables",
+        "very",
+        "valuable"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий. Не заменяйте на русское «в» с округлением губ или на «w»."
     },
     {
-      "sound": "r",
+      "sound": "w",
       "examples": [
-        "reporters",
-        "free"
+        "weighed",
+        "world",
+        "with"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
       "sound": "θ",
       "examples": [
         "thousand",
-        "them"
+        "three"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса. Не заменяйте звук на «с» или «ф»."
     },
     {
-      "sound": "dark-l",
+      "sound": "ɪ",
       "examples": [
-        "Millbrook",
-        "local"
+        "village",
+        "pumpkin",
+        "big"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны, а задняя часть языка оттянута назад; звук твёрже русского «л»."
+      "tip_ru": "Короткий расслабленный звук между «и» и «э». Не растягивайте."
     }
   ],
   "questions": [
     {
-      "question": "What is going to be free?",
-      "answer": "City buses.",
+      "question": "How heavy was Harold's pumpkin?",
+      "answer": "It weighed 412 kilograms.",
       "accepted_keywords": [
-        "bus",
-        "buses"
+        "412",
+        "kilograms",
+        "heavy",
+        "four hundred"
       ]
     },
     {
-      "question": "Who is the mayor?",
-      "answer": "Helen Frost.",
+      "question": "What was Harold's secret?",
+      "answer": "Patience: he fed it, gave it water and talked to it every day.",
       "accepted_keywords": [
-        "helen",
-        "frost"
+        "patience",
+        "talked",
+        "talk",
+        "water",
+        "feed"
       ]
     },
     {
-      "question": "How many new buses is the town going to buy?",
-      "answer": "Five.",
+      "question": "What happened in August?",
+      "answer": "A storm nearly destroyed his garden, so he slept outside for three nights to guard the plant.",
       "accepted_keywords": [
-        "five",
-        "5"
+        "storm",
+        "slept",
+        "outside",
+        "guard",
+        "three"
       ]
     },
     {
-      "question": "When does the first free ride start?",
-      "answer": "Monday at six o'clock.",
+      "question": "What will happen to the pumpkin after the show?",
+      "answer": "Some seeds will go to schools, and the rest will become soup for the whole town.",
       "accepted_keywords": [
-        "monday",
-        "six"
+        "soup",
+        "seeds",
+        "party",
+        "town"
       ]
     }
   ]

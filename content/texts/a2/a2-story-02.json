@@ -2,122 +2,145 @@
   "id": "a2-story-02",
   "level": "A2",
   "genre": "story",
-  "title_en": "The Birthday Dinner",
-  "title_ru": "Праздничный ужин",
-  "description_ru": "Том хочет приготовить ужин для мамы, но всё идёт не по плану. Тёплая история о заботе.",
-  "text": "Tom wanted to make a special dinner for his mother's birthday. He was nervous because he never cooked anything difficult. He bought chicken, rice, vegetables and a small chocolate cake.\n\nAt five o'clock, he started to cook. First, he burned the rice. Then he dropped three eggs on the floor. The kitchen smelled terrible, and Tom was almost ready to cry.\n\nSuddenly, his mother came home early. She looked at the kitchen and laughed. \"Thank you, Tom,\" she said. \"This is the best surprise of my life.\" Together they cleaned the floor and cooked new rice. The chicken was a little dry, and the vegetables were too salty, but nobody cared.\n\nAfter dinner, they ate the cake and talked for three hours. Tom decided that next year he was going to try something easier. Maybe soup!",
-  "word_count": 136,
+  "title_en": "Biscuit the Bakery Cat",
+  "title_ru": "Кот из пекарни Бисквит",
+  "description_ru": "Из пекарни пропадает любимый кот, и двое детей отправляются на поиски. Детективная история с тёплым сюрпризом в конце.",
+  "text": "Mrs Kowalski had a small bakery on Green Street. It was a warm, noisy little shop, and the smell of fresh bread reached the corner of the road every morning at six o'clock. Her customers loved her cakes, but they loved something else even more. They loved Biscuit, the bakery cat. Biscuit was big, orange and very lazy. He slept all day in the window, between the apple pies and the cheese rolls, and he never caught a single mouse.\n\nOne cold Monday in November, Mrs Kowalski opened the shop and found a problem. Biscuit was not in the window. His small blanket was there, but the cat was gone. She looked under the tables and behind the big ovens. She called his name and shook a bag of his favourite fish snacks. Nothing happened. By eight o'clock she was very worried, and she was serving customers with a sad face.\n\n\"He is probably sleeping somewhere warm,\" said Mr Davies, an old customer who came every day for a brown loaf. \"Cats do that.\" But Mrs Kowalski did not feel better. Biscuit never left the shop. He was too fat to climb walls, and he was afraid of the rain. She put a sign on the door: \"Our cat is missing. Please help us.\" Then she went back to her ovens, because the bread did not bake itself.\n\nBy lunchtime, the news was everywhere. A girl called Sofia, who was nine years old, ran into the shop after school. She said that she was going to organise a search. \"I have a notebook,\" she said, \"and my brother has a bicycle. We can look in every garden on the street.\" Mrs Kowalski laughed and gave her a free cookie. She did not believe that two children could find a cat, but she was grateful that someone wanted to try.\n\nThat afternoon, Sofia and her brother Leo visited fifteen houses. They asked questions and wrote everything in the notebook. A woman at number twelve saw an orange shape on her wall at five o'clock in the morning. A man at number twenty said that his dog barked at something strange near the old garage. Sofia drew a small map and put red crosses on it. \"He is going north,\" she said. \"Cats walk in straight lines when they are hungry.\"\n\nAt six o'clock, the children came back to the bakery and showed the map to Mrs Kowalski. All the crosses were on the road to the railway bridge, and at the end of it stood the old fish shop, which closed two years ago. \"That is strange,\" she said. \"Why does Biscuit want to go there?\" Sofia looked at her seriously. \"Maybe he is looking for something,\" she said. \"Maybe he remembers the smell of fish.\"\n\nThey walked to the empty fish shop together. It was dark and quiet, and the door was a little open. Mrs Kowalski called his name again, and this time they heard a small, sad sound from behind the counter. Leo turned on his torch. There, in an old wooden box, sat Biscuit. And next to him, on a pile of newspapers, lay four tiny kittens with their eyes still closed.\n\nNobody spoke for a moment. Then Mrs Kowalski started laughing so hard that she needed to hold the door. \"Biscuit is a mother!\" she said. \"All these years I called him a boy!\" The cat looked at her proudly, as if he wanted to say that he did not care about the name. He had picked the quietest and warmest place in the street, and he had been right.\n\nIt was too cold for the kittens to stay there, so Leo and Sofia carried the box carefully to the bakery. Mr Davies, who heard the news, arrived with a big blanket and a bottle of warm milk. Soon half of the street was in the shop, and everyone wanted to see the new family. Mrs Kowalski put the box next to the oven, where it was warm. She renamed the cat Biscuit the Second, and then she changed her mind and kept the old name.\n\nIn January, the kittens were old enough to play in the window with their mother. The sign on the door changed too. It said: \"Cats for sale? No! But free cakes for children who find things.\" Sofia came every Saturday, and every Saturday she ate a cookie and drew a new map. Biscuit watched her from the window, with one kitten asleep on his back, and, as usual, he did absolutely nothing.",
+  "word_count": 762,
   "vocabulary": [
     {
-      "word": "birthday",
-      "ipa_us": "ˈbɜrθdeɪ",
-      "ipa_uk": "ˈbɜːθdeɪ",
-      "translation_ru": "день рождения"
+      "word": "bakery",
+      "ipa_us": "ˈbeɪkəri",
+      "ipa_uk": "ˈbeɪkəri",
+      "translation_ru": "пекарня"
     },
     {
-      "word": "nervous",
-      "ipa_us": "ˈnɜrvəs",
-      "ipa_uk": "ˈnɜːvəs",
-      "translation_ru": "нервничающий"
+      "word": "customer",
+      "ipa_us": "ˈkʌstəmər",
+      "ipa_uk": "ˈkʌstəmə",
+      "translation_ru": "покупатель"
     },
     {
-      "word": "vegetables",
-      "ipa_us": "ˈvedʒtəbəlz",
-      "ipa_uk": "ˈvedʒtəbəlz",
-      "translation_ru": "овощи"
+      "word": "missing",
+      "ipa_us": "ˈmɪsɪŋ",
+      "ipa_uk": "ˈmɪsɪŋ",
+      "translation_ru": "пропавший"
     },
     {
-      "word": "burned",
-      "ipa_us": "bɜrnd",
-      "ipa_uk": "bɜːnd",
-      "translation_ru": "сжёг"
+      "word": "worried",
+      "ipa_us": "ˈwɜːrid",
+      "ipa_uk": "ˈwʌrid",
+      "translation_ru": "встревоженный"
     },
     {
-      "word": "terrible",
-      "ipa_us": "ˈterəbəl",
-      "ipa_uk": "ˈterəbəl",
-      "translation_ru": "ужасный"
+      "word": "organise",
+      "ipa_us": "ˈɔːrɡənaɪz",
+      "ipa_uk": "ˈɔːɡənaɪz",
+      "translation_ru": "организовать"
     },
     {
-      "word": "suddenly",
-      "ipa_us": "ˈsʌdənli",
-      "ipa_uk": "ˈsʌdənli",
-      "translation_ru": "вдруг"
+      "word": "grateful",
+      "ipa_us": "ˈɡreɪtfl",
+      "ipa_uk": "ˈɡreɪtfl",
+      "translation_ru": "благодарный"
     },
     {
-      "word": "surprise",
-      "ipa_us": "sərˈpraɪz",
-      "ipa_uk": "səˈpraɪz",
-      "translation_ru": "сюрприз"
+      "word": "counter",
+      "ipa_us": "ˈkaʊntər",
+      "ipa_uk": "ˈkaʊntə",
+      "translation_ru": "прилавок"
     },
     {
-      "word": "easier",
-      "ipa_us": "ˈiːziər",
-      "ipa_uk": "ˈiːziə",
-      "translation_ru": "легче"
+      "word": "kitten",
+      "ipa_us": "ˈkɪtn",
+      "ipa_uk": "ˈkɪtn",
+      "translation_ru": "котёнок"
+    },
+    {
+      "word": "blanket",
+      "ipa_us": "ˈblæŋkɪt",
+      "ipa_uk": "ˈblæŋkɪt",
+      "translation_ru": "одеяло"
+    },
+    {
+      "word": "proudly",
+      "ipa_us": "ˈpraʊdli",
+      "ipa_uk": "ˈpraʊdli",
+      "translation_ru": "гордо"
+    },
+    {
+      "word": "torch",
+      "ipa_us": "tɔːrtʃ",
+      "ipa_uk": "tɔːtʃ",
+      "translation_ru": "фонарик"
+    },
+    {
+      "word": "railway",
+      "ipa_us": "ˈreɪlweɪ",
+      "ipa_uk": "ˈreɪlweɪ",
+      "translation_ru": "железная дорога"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "birthday",
-        "three",
-        "thank",
-        "Thank"
+        "cat",
+        "map",
+        "back"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий, между «а» и «э»."
     },
     {
-      "sound": "v",
+      "sound": "eɪ",
       "examples": [
-        "vegetables",
-        "nervous",
-        "never"
+        "bakery",
+        "bake",
+        "railway"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+      "tip_ru": "Дифтонг: начните с «э» и плавно перейдите к короткому «и»; не превращайте его в чистое «э»."
     },
     {
-      "sound": "r",
+      "sound": "ʌ",
       "examples": [
-        "rice",
-        "terrible",
-        "surprise",
-        "first"
+        "lunchtime",
+        "nothing",
+        "mother"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Короткий открытый звук, близкий к ударному «а»; рот открыт средне, язык в центре."
     }
   ],
   "questions": [
     {
-      "question": "Why was Tom nervous?",
-      "answer": "He never cooked anything difficult.",
+      "question": "What was the name of the bakery cat?",
+      "answer": "Biscuit.",
       "accepted_keywords": [
-        "cooked",
-        "difficult",
-        "cook"
+        "biscuit"
       ]
     },
     {
-      "question": "What did Tom burn?",
-      "answer": "The rice.",
+      "question": "What did Sofia use to search for the cat?",
+      "answer": "A notebook and a map.",
       "accepted_keywords": [
-        "rice"
+        "notebook",
+        "map"
       ]
     },
     {
-      "question": "When did his mother come home?",
-      "answer": "Early.",
+      "question": "Where did they find Biscuit?",
+      "answer": "In the old fish shop near the railway bridge.",
       "accepted_keywords": [
-        "early"
+        "fish",
+        "shop"
       ]
     },
     {
-      "question": "What is Tom going to try next year?",
-      "answer": "Something easier, maybe soup.",
+      "question": "What was the surprise?",
+      "answer": "Biscuit was a mother and had four kittens.",
       "accepted_keywords": [
-        "soup",
-        "easier"
+        "kittens",
+        "mother",
+        "four"
       ]
     }
   ]

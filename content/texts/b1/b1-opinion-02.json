@@ -2,130 +2,155 @@
   "id": "b1-opinion-02",
   "level": "B1",
   "genre": "opinion",
-  "title_en": "Cities Need Fewer Cars",
-  "title_ru": "Городам нужно меньше машин",
-  "description_ru": "Рассуждение о том, как центр города без автомобилей может стать чище, тише и приятнее.",
-  "text": "I have lived in the centre of a big city for ten years, and I am convinced that we need fewer cars in our streets. I do not say we should ban every vehicle tomorrow, but I think the city centre should belong to people first.\n\nLet me give you three reasons. Firstly, traffic makes the air dirty. Every morning, my window is covered in grey dust, and children in my neighbourhood cough more often than they should. Secondly, cars are noisy. If you have ever tried to talk to a friend on a busy road, you know how tiring the sound can be. Finally, cars take up an enormous amount of space. A single parking place could be a bench, a tree or a small garden.\n\nSome people argue that shops will lose customers if drivers cannot park outside. However, several European cities have already closed their central streets to traffic, and the shops there are doing better than before. People walk slowly, look in the windows and stay longer for a coffee.\n\nOf course, I understand that not everyone can leave the car at home. Older people and workers who carry heavy tools need special help. That is why the city must provide reliable buses, safe bicycle lanes and cheaper trains. If public transport were fast and comfortable, many drivers would choose it voluntarily.\n\nIn my view, a quiet, green centre is not a dream. It is a practical choice that we can make together.",
-  "word_count": 247,
+  "title_en": "Why I Prefer Working from Home",
+  "title_ru": "Почему я предпочитаю работать из дома",
+  "description_ru": "Личное мнение о плюсах и минусах удалённой работы: время, концентрация, гибкость, одиночество и золотая середина.",
+  "text": "Three years ago I worked in an office in the middle of a busy city. I spent nearly two hours a day on a crowded train, I ate the same sandwich at the same desk, and I often went home feeling that I had done very little real work. Then my company allowed everybody to work from home, and my life changed. Since then I have tried both ways of working, and I have come to a clear opinion: remote work is better for most people, although it is not perfect.\n\nThe first and most obvious benefit is time. When I was commuting, I lost about ten hours a week sitting on trains and walking between stations. That is more than a full working day. Now I use that time to sleep a little longer, cook a proper breakfast, or go for a walk before I start. I have also saved a lot of money. I no longer buy a monthly train ticket, I rarely eat in restaurants at lunchtime, and I have not bought new work shoes for two years.\n\nThe second benefit is concentration. Many people believe that offices are good for teamwork, but anyone who has worked in an open-plan room knows that they are also full of interruptions. Somebody is always having a phone call, discussing last night's football match, or asking a \"quick question\" that takes half an hour. At home, I can close the door and switch off my notifications for a few hours, and I get more done in a morning than I used to in a whole day. Several studies agree with me. One large experiment found that employees who worked from home were more productive and less likely to leave their jobs.\n\nAnother advantage is flexibility. A parent can collect a child from school and then finish a report in the evening. A person who feels ill can rest without infecting the whole department. Employers can also hire talented people who live in different cities or even different countries, so they do not have to choose from a small group of people who live nearby. For small towns, this could be very good news, because young people would not need to move away to find interesting jobs.\n\nOn the other hand, I do not want to pretend that working from home is easy. The biggest problem, in my opinion, is loneliness. In an office you meet people naturally, and you share jokes and news without planning it. At home, whole days can pass without a single conversation, and some of my friends have told me that they feel isolated. There is also the problem of boundaries. When your kitchen table is your desk, it is very difficult to stop working. I have caught myself answering emails at ten o'clock at night, simply because my laptop was lying there.\n\nYoung employees may suffer most. If I had started my career at home, I would never have learned how my colleagues solve problems, and I would have missed the informal advice that experienced workers give in the corridor. Managers also say that it is harder to train new people through a screen. These are serious points, and I think companies should take them seriously.\n\nSo what is the solution? I think the best answer is a mixture. Companies could ask people to come to the office two or three days a week, so that teams meet in person to plan, celebrate and solve difficult problems. For the rest of the week, employees could work wherever they feel most productive. Workers also need to make an effort. They should keep a regular schedule, dress as if they are going out, take proper breaks, and meet friends in the evenings so that they do not become isolated.\n\nSome bosses worry that people who work at home are not really working, but I think this attitude is outdated. Good managers judge results, not the number of hours that someone sits in a chair. If an employee finishes an excellent project in four hours, why should anyone care whether it happened in a tower block or in a garden? Trust is the key, and companies that show it are usually rewarded with loyal staff.\n\nThere is one more thing to consider. People who have long journeys to work, or who live in expensive cities, may be able to move somewhere cheaper if they do not have to commute every day. In short, the office is no longer the only place where good work can be done. If we continue to give people choice, treat them like adults, and look after their social needs, working from home could make life better for millions of people. I certainly would not go back to my old routine.",
+  "word_count": 798,
   "vocabulary": [
     {
-      "word": "convinced",
-      "ipa_us": "kənˈvɪnst",
-      "ipa_uk": "kənˈvɪnst",
-      "translation_ru": "убеждён"
+      "word": "commuting",
+      "ipa_us": "kəˈmjuːtɪŋ",
+      "ipa_uk": "kəˈmjuːtɪŋ",
+      "translation_ru": "поездки на работу"
     },
     {
-      "word": "vehicle",
-      "ipa_us": "ˈviːəkəl",
-      "ipa_uk": "ˈviːɪkəl",
-      "translation_ru": "транспортное средство"
+      "word": "concentration",
+      "ipa_us": "ˌkɑːnsənˈtreɪʃən",
+      "ipa_uk": "ˌkɒnsənˈtreɪʃən",
+      "translation_ru": "сосредоточенность"
     },
     {
-      "word": "traffic",
-      "ipa_us": "ˈtræfɪk",
-      "ipa_uk": "ˈtræfɪk",
-      "translation_ru": "транспорт, движение"
+      "word": "productive",
+      "ipa_us": "prəˈdʌktɪv",
+      "ipa_uk": "prəˈdʌktɪv",
+      "translation_ru": "продуктивный"
     },
     {
-      "word": "neighbourhood",
-      "ipa_us": "ˈneɪbərˌhʊd",
-      "ipa_uk": "ˈneɪbəhʊd",
-      "translation_ru": "район"
+      "word": "interruptions",
+      "ipa_us": "ˌɪntəˈrʌpʃənz",
+      "ipa_uk": "ˌɪntəˈrʌpʃənz",
+      "translation_ru": "перебивания, помехи"
     },
     {
-      "word": "enormous",
-      "ipa_us": "ɪˈnɔrməs",
-      "ipa_uk": "ɪˈnɔːməs",
-      "translation_ru": "огромный"
+      "word": "flexibility",
+      "ipa_us": "ˌflɛksəˈbɪləti",
+      "ipa_uk": "ˌfleksəˈbɪləti",
+      "translation_ru": "гибкость"
     },
     {
-      "word": "customers",
-      "ipa_us": "ˈkʌstəmərz",
-      "ipa_uk": "ˈkʌstəməz",
-      "translation_ru": "покупатели"
+      "word": "isolated",
+      "ipa_us": "ˈaɪsəˌleɪtɪd",
+      "ipa_uk": "ˈaɪsəleɪtɪd",
+      "translation_ru": "изолированный"
     },
     {
-      "word": "reliable",
-      "ipa_us": "rɪˈlaɪəbəl",
-      "ipa_uk": "rɪˈlaɪəbəl",
-      "translation_ru": "надёжный"
+      "word": "boundaries",
+      "ipa_us": "ˈbaʊndriz",
+      "ipa_uk": "ˈbaʊndəriz",
+      "translation_ru": "границы"
     },
     {
-      "word": "voluntarily",
-      "ipa_us": "ˌvɑlənˈtɛrəli",
-      "ipa_uk": "ˈvɒləntrəli",
-      "translation_ru": "добровольно"
+      "word": "informal",
+      "ipa_us": "ɪnˈfɔːrməl",
+      "ipa_uk": "ɪnˈfɔːməl",
+      "translation_ru": "неформальный"
     },
     {
-      "word": "practical",
-      "ipa_us": "ˈpræktɪkəl",
-      "ipa_uk": "ˈpræktɪkəl",
-      "translation_ru": "практичный"
+      "word": "outdated",
+      "ipa_us": "ˌaʊtˈdeɪtɪd",
+      "ipa_uk": "ˌaʊtˈdeɪtɪd",
+      "translation_ru": "устаревший"
+    },
+    {
+      "word": "loyal",
+      "ipa_us": "ˈlɔɪəl",
+      "ipa_uk": "ˈlɔɪəl",
+      "translation_ru": "лояльный, преданный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "vehicle",
-        "every",
-        "have",
-        "voluntarily"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
-    },
-    {
       "sound": "θ",
       "examples": [
+        "think",
+        "thing",
         "three",
-        "think"
+        "both"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "ð",
+      "sound": "w",
       "examples": [
-        "they",
-        "there",
-        "the city"
+        "week",
+        "without",
+        "work",
+        "whole"
       ],
-      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "walking",
+        "evening",
+        "morning",
+        "working"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "concentration",
+        "productive",
+        "flexibility",
+        "interruptions"
+      ],
+      "tip_ru": "Ударный слог длиннее, громче и выше по тону; остальные слоги сокращаются, особенно в длинных словах."
     }
   ],
   "questions": [
     {
-      "question": "How long has the writer lived in the city centre?",
-      "answer": "For ten years.",
+      "question": "How much time did the author lose commuting every week?",
+      "answer": "About ten hours.",
       "accepted_keywords": [
         "ten",
-        "10"
+        "10",
+        "hours"
       ]
     },
     {
-      "question": "Name one problem caused by cars.",
-      "answer": "Dirty air, noise or lack of space.",
+      "question": "Why is concentration better at home?",
+      "answer": "There are fewer interruptions, and the author can close the door and switch off notifications.",
       "accepted_keywords": [
-        "air",
-        "noise",
-        "noisy",
-        "space",
-        "dirty"
+        "interruptions",
+        "door",
+        "notifications",
+        "quiet"
       ]
     },
     {
-      "question": "What happened to shops in cities that closed streets to traffic?",
-      "answer": "They did better.",
+      "question": "What are the main problems of working from home?",
+      "answer": "Loneliness and the lack of boundaries between work and home.",
       "accepted_keywords": [
-        "better"
+        "loneliness",
+        "lonely",
+        "boundaries",
+        "isolated",
+        "stop"
       ]
     },
     {
-      "question": "What should the city provide for people who leave their cars?",
-      "answer": "Reliable buses, bicycle lanes and cheaper trains.",
+      "question": "What solution does the author suggest?",
+      "answer": "A mixture: two or three days in the office and the rest of the week at home.",
       "accepted_keywords": [
-        "buses",
-        "bicycle",
-        "trains"
+        "mixture",
+        "two",
+        "three",
+        "days",
+        "office"
       ]
     }
   ]

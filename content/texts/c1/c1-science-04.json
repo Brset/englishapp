@@ -2,134 +2,161 @@
   "id": "c1-science-04",
   "level": "C1",
   "genre": "science",
-  "title_en": "Listening to Spacetime",
-  "title_ru": "Прислушиваясь к пространству-времени",
-  "description_ru": "Рассказ о первом обнаружении гравитационных волн: как устроен детектор LIGO и почему этот способ наблюдения изменил астрономию.",
-  "text": "On the fourteenth of September 2015, two detectors in the United States, one in Louisiana and one in Washington State, registered a tiny disturbance lasting a fraction of a second. The signal, later named GW150914, was the first direct detection of gravitational waves, ripples in the fabric of spacetime that Albert Einstein had predicted a century earlier. The event that produced them was a collision between two black holes, roughly thirty-six and twenty-nine times the mass of the Sun, more than a billion light years away.\n\nAccording to general relativity, mass and energy curve spacetime, and an accelerating mass sends out waves in that curvature, much as a boat sends ripples across a pond. Most of the time these waves are impossibly faint. Even a violent cosmic event such as the merger of black holes stretches and squeezes the distance between objects on Earth by less than the width of a proton. Einstein himself doubted that we would ever be able to measure them.\n\nThe instruments that succeeded, known collectively as LIGO, are L-shaped and four kilometres on each side. A laser beam is split in two, sent down both arms, reflected by mirrors, and recombined. If the arms are exactly the same length, the light waves cancel out and the detector stays dark. A passing gravitational wave, however, stretches one arm very slightly while it shortens the other, and a trace of light appears. Achieving the necessary sensitivity took decades of engineering: the mirrors hang on slender glass fibres, and the whole apparatus sits in one of the largest vacuums ever created, shielded from vibrations as slight as distant traffic or ocean waves.\n\nBecause the two detectors lie thousands of kilometres apart, the signal reached them a few milliseconds apart, which allowed astronomers to estimate roughly the direction it came from. With additional detectors in Europe and Japan, the position can now be narrowed considerably, and the data have revealed a whole population of black holes that we had never seen.\n\nPerhaps the most significant consequence is a change in how we observe the universe. For millennia, astronomy relied entirely on light. Gravitational waves are a different kind of messenger, passing through matter essentially unimpeded, and carrying information about events that no telescope could ever see. In 2017, detectors recorded the merger of two neutron stars. Within seconds a burst of gamma rays was detected, and within hours conventional telescopes around the world turned to watch the afterglow. That one collision helped explain where much of the universe's gold is forged. Listening, it turns out, has opened a window as profound as looking ever did.",
-  "word_count": 437,
+  "title_en": "The Chemistry of a Golden Crust",
+  "title_ru": "Химия золотистой корочки",
+  "description_ru": "Почему мясо, хлеб и кофе приобретают вкус и цвет при нагреве? О реакции Майяра, её отличии от карамелизации, акриламиде и пользе сухой сковороды.",
+  "text": "Place a pale steak in a hot pan and something remarkable happens within a minute. The surface darkens, the kitchen fills with a savoury, almost sweet smell, and a food that was merely raw becomes irresistible. The same transformation turns dough into a golden loaf, coffee beans into something worth drinking, and malted barley into the amber of a good beer. Cooks call it browning. Chemists call it the Maillard reaction, after the French physician Louis-Camille Maillard, who first described it in 1912 while investigating how amino acids behave when heated with sugars.\n\nAt its simplest, the reaction begins when a reducing sugar, such as glucose, meets the amino group of an amino acid or protein. They combine, rearrange, and then break apart into hundreds of different molecules, many of which react again with one another. The process is less a single reaction than a sprawling cascade. Among its products are small, volatile compounds responsible for aroma, such as those that smell of roasted nuts, toast or cooked meat, and large, dark pigments called melanoidins, which give crust and roast their colour. The exact mixture depends on which sugars and amino acids are present, which is one reason that seared beef, baked bread and roasted coffee taste so different despite sharing the same underlying chemistry.\n\nThe reaction is often confused with caramelisation, but the two are distinct. Caramelisation involves sugar alone, which breaks down at high temperatures, about 170 degrees Celsius for ordinary sucrose, to produce its characteristic bittersweet flavour. The Maillard reaction needs protein as well as sugar, and it starts at lower temperatures, typically becoming rapid above about 140 degrees. That is why a seared steak, which contains very little sugar, still browns beautifully. It has plenty of protein and enough natural sugars to do the job.\n\nTemperature explains many of the first rules of good cooking. Water boils at 100 degrees at sea level, and as long as liquid water remains on the surface of food, the surface cannot rise much above that temperature. This is the reason a wet piece of meat tends to grey and steam rather than brown. Patting the steak dry, using a very hot pan, and avoiding overcrowding all serve the same purpose: removing moisture so that the surface can pass the threshold at which browning begins. Salting a steak well in advance also helps, since the salt draws water out and, after some time, much of it is reabsorbed, leaving the surface drier.\n\nRoasting coffee shows the whole drama in miniature. Green beans, which taste grassy and faintly bitter, are heated in a drum, and as the temperature climbs past about 150 degrees the Maillard reaction takes hold, throughout the bean, producing hundreds of aromatic compounds. Near 195 degrees, trapped water vapour and gases split the bean with an audible crack, a signal familiar to every roaster. A few minutes more and the sugars begin to caramelise and then to burn. The difference between a rich medium roast and a bitter, ashy one can be less than two minutes, which is why the craft depends so heavily on timing and a trained nose.\n\nAcidity matters too. The reaction proceeds faster in alkaline conditions, which explains a classic trick of the baker. German pretzels are dipped in a dilute solution of lye before baking, producing their deep mahogany crust and distinctive flavour. A home cook can achieve a gentler version by baking sodium bicarbonate on the surface of the pretzel dough, or by adding a little to the water in which onions are cooked, which speeds up their browning dramatically. Conversely, a squeeze of lemon juice slows the reaction down, which is useful when you want a pale, delicate sauce.\n\nModern chefs exploit this separation of tasks. In the technique known as sous-vide, meat is cooked slowly in a water bath at a precise temperature, so that the inside is perfectly tender, and only afterwards seared for a few seconds in a blazing pan to build flavour on the surface. Each stage does a different job, and neither could do both. Time and temperature interact in subtle ways, and that matters well beyond the kitchen. In 2002, Swedish researchers analysing the browning of foods found, to their alarm, that the same chemistry can produce a compound called acrylamide, which forms when the amino acid asparagine reacts with sugars at high temperatures, mostly in starchy foods such as chips, crisps and toast. Acrylamide is classified as probably carcinogenic to humans, on the basis of animal experiments, although the evidence for a risk from ordinary dietary exposure is much less clear. Food agencies in Europe and elsewhere now recommend a pragmatic approach: aim for golden rather than dark brown, which reduces the quantity formed.\n\nThe reaction has consequences in biology as well. Inside the body, similar glycation reactions occur slowly at body temperature, binding sugars to proteins. Measuring one such product, glycated haemoglobin, gives doctors a convenient average of a diabetic patient's blood sugar over the previous two or three months. Some researchers also suspect that the accumulation of these products in tissues contributes to ageing, although this idea is still being tested.\n\nIt is humbling to find that a simple craving for crust is governed by such intricate chemistry. Few other processes in the kitchen deliver so much for so little effort. Yet once you know what lies beneath it, dry the surface, mind the heat, and be patient, and the pan becomes less a place of luck and more a small, reliable laboratory.",
+  "word_count": 916,
   "vocabulary": [
     {
-      "word": "spacetime",
-      "ipa_us": "ˈspeɪstaɪm",
-      "ipa_uk": "ˈspeɪstaɪm",
-      "translation_ru": "пространство-время"
+      "word": "browning",
+      "ipa_us": "ˈbraʊnɪŋ",
+      "ipa_uk": "ˈbraʊnɪŋ",
+      "translation_ru": "подрумянивание, побурение"
     },
     {
-      "word": "merger",
-      "ipa_us": "ˈmɝːdʒər",
-      "ipa_uk": "ˈmɜːdʒə",
-      "translation_ru": "слияние"
+      "word": "reducing sugar",
+      "ipa_us": "rɪˈduːsɪŋ ˈʃʊɡər",
+      "ipa_uk": "rɪˈdjuːsɪŋ ˈʃʊɡə",
+      "translation_ru": "редуцирующий сахар"
     },
     {
-      "word": "proton",
-      "ipa_us": "ˈproʊtɑːn",
-      "ipa_uk": "ˈprəʊtɒn",
-      "translation_ru": "протон"
+      "word": "sprawling",
+      "ipa_us": "ˈsprɔːlɪŋ",
+      "ipa_uk": "ˈsprɔːlɪŋ",
+      "translation_ru": "разветвлённый, разросшийся"
     },
     {
-      "word": "sensitivity",
-      "ipa_us": "ˌsensəˈtɪvəti",
-      "ipa_uk": "ˌsensɪˈtɪvəti",
-      "translation_ru": "чувствительность"
+      "word": "volatile",
+      "ipa_us": "ˈvɑːlətl",
+      "ipa_uk": "ˈvɒlətaɪl",
+      "translation_ru": "летучий"
     },
     {
-      "word": "vacuums",
-      "ipa_us": "ˈvækjuːmz",
-      "ipa_uk": "ˈvækjuːmz",
-      "translation_ru": "вакуумы"
+      "word": "melanoidins",
+      "ipa_us": "ˌmelənˈɔɪdɪnz",
+      "ipa_uk": "ˌmelənˈɔɪdɪnz",
+      "translation_ru": "меланоидины"
     },
     {
-      "word": "unimpeded",
-      "ipa_us": "ˌʌnɪmˈpiːdɪd",
-      "ipa_uk": "ˌʌnɪmˈpiːdɪd",
-      "translation_ru": "беспрепятственно"
+      "word": "caramelisation",
+      "ipa_us": "ˌkærəməlɪˈzeɪʃən",
+      "ipa_uk": "ˌkærəməlaɪˈzeɪʃən",
+      "translation_ru": "карамелизация"
     },
     {
-      "word": "afterglow",
-      "ipa_us": "ˈæftərɡloʊ",
-      "ipa_uk": "ˈɑːftəɡləʊ",
-      "translation_ru": "послесвечение"
+      "word": "threshold",
+      "ipa_us": "ˈθreʃhoʊld",
+      "ipa_uk": "ˈθreʃhəʊld",
+      "translation_ru": "порог"
     },
     {
-      "word": "profound",
-      "ipa_us": "prəˈfaʊnd",
-      "ipa_uk": "prəˈfaʊnd",
-      "translation_ru": "глубокий"
+      "word": "alkaline",
+      "ipa_us": "ˈælkəlaɪn",
+      "ipa_uk": "ˈælkəlaɪn",
+      "translation_ru": "щелочной"
+    },
+    {
+      "word": "carcinogenic",
+      "ipa_us": "ˌkɑːrsɪnəˈdʒenɪk",
+      "ipa_uk": "ˌkɑːsɪnəˈdʒenɪk",
+      "translation_ru": "канцерогенный"
+    },
+    {
+      "word": "pragmatic",
+      "ipa_us": "præɡˈmætɪk",
+      "ipa_uk": "præɡˈmætɪk",
+      "translation_ru": "прагматичный"
+    },
+    {
+      "word": "glycation",
+      "ipa_us": "ɡlaɪˈkeɪʃən",
+      "ipa_uk": "ɡlaɪˈkeɪʃən",
+      "translation_ru": "гликирование"
+    },
+    {
+      "word": "intricate",
+      "ipa_us": "ˈɪntrɪkət",
+      "ipa_uk": "ˈɪntrɪkət",
+      "translation_ru": "сложный, тонкий"
     }
   ],
   "focus_sounds": [
     {
       "sound": "word-stress",
       "examples": [
-        "sensitivity",
-        "unimpeded",
-        "astronomers"
+        "caramelisation",
+        "carcinogenic",
+        "pragmatic"
       ],
-      "tip_ru": "Ударение: ˌsensiˈtivity, ˌunimˈpeded, asˈtronomers. Главное ударение падает на предпоследний слог перед -ity."
-    },
-    {
-      "sound": "ɜː",
-      "examples": [
-        "merger",
-        "first",
-        "Earth"
-      ],
-      "tip_ru": "Долгий нейтральный звук: губы расслаблены, язык в центре; не произносите «ер» с русским «р»."
+      "tip_ru": "Ударение: caramelisation — на -sa-/-zа-, carcinoˈgenic, pragˈmatic. Слова на -ic ударение ставят на слог перед суффиксом."
     },
     {
       "sound": "θ",
       "examples": [
-        "thirty",
-        "thousands",
-        "through"
+        "threshold",
+        "three",
+        "throughout"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, звук глухой; не «с», «т» или «ф»."
+      "tip_ru": "Начало threshold: «θr» — язык между зубами, затем r. Не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ɔɪ",
+      "examples": [
+        "melanoidins",
+        "avoiding",
+        "boils"
+      ],
+      "tip_ru": "Дифтонг «ɔɪ»: сначала «о», затем быстро «и»: boils, avoiding."
     },
     {
       "sound": "aʊ",
       "examples": [
-        "profound",
-        "around",
-        "down"
+        "browning",
+        "brown",
+        "pound"
       ],
-      "tip_ru": "Дифтонг: от открытого «а» к «у», губы округляются в конце; не заканчивайте на «в»."
+      "tip_ru": "Дифтонг «aʊ»: от широкого «а» к «у»; губы округляются к концу: browning, brown."
     }
   ],
   "questions": [
     {
-      "question": "What did the detectors register in September 2015?",
-      "answer": "Gravitational waves from the collision of two black holes.",
+      "question": "Who first described the Maillard reaction, and when?",
+      "answer": "The French physician Louis-Camille Maillard in 1912.",
       "accepted_keywords": [
-        "gravitational",
-        "black",
-        "collision",
-        "waves"
+        "maillard",
+        "1912",
+        "french"
       ]
     },
     {
-      "question": "How long are the arms of LIGO?",
-      "answer": "Four kilometres.",
+      "question": "What is the difference between caramelisation and the Maillard reaction?",
+      "answer": "Caramelisation involves sugar alone at higher temperatures; Maillard needs protein and sugar.",
       "accepted_keywords": [
-        "four",
-        "4"
+        "sugar",
+        "protein",
+        "alone",
+        "amino"
       ]
     },
     {
-      "question": "Why are there two detectors far apart?",
-      "answer": "The signal arrives at slightly different times, which shows its direction.",
+      "question": "Why should you dry a steak before cooking?",
+      "answer": "Water on the surface keeps it near 100 degrees, so it steams instead of browning.",
       "accepted_keywords": [
-        "direction",
-        "time",
-        "milliseconds"
+        "water",
+        "steam",
+        "moisture",
+        "100",
+        "boil"
       ]
     },
     {
-      "question": "What happened in 2017?",
-      "answer": "Detectors recorded the merger of two neutron stars.",
+      "question": "What risk can browning starchy foods create?",
+      "answer": "The formation of acrylamide, which is classed as probably carcinogenic.",
       "accepted_keywords": [
-        "neutron",
-        "stars",
-        "merger"
+        "acrylamide",
+        "carcinogenic",
+        "cancer"
       ]
     }
   ]

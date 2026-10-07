@@ -4,10 +4,22 @@
   "genre": "biography",
   "title_en": "Alan Turing: The Imitation Game",
   "title_ru": "Алан Тьюринг: игра в имитацию",
-  "description_ru": "Жизнь математика, взломавшего Enigma и заложившего основы информатики, и несправедливость, которой отплатила ему страна.",
-  "text": "Alan Mathison Turing was born in Maida Vale, London, in June 1912, and by the age of ten had decided that the world was a puzzle designed for his personal amusement. At Sherborne School his headmaster despaired of his untidy handwriting and obsession with science; his friend Christopher Morcom, the first great intellectual passion of his life, died of tuberculosis in 1930, and Turing's grief seems to have hardened into a resolve to understand the nature of mind itself.\n\nAt King's College, Cambridge, he elected a fellow at only twenty-two. In 1936 he published \"On Computable Numbers,\" a paper that answered a famous question in mathematical logic by imagining a hypothetical device: a machine that reads symbols on an infinite tape and follows a table of rules. The Turing machine, as it came to be known, was a thought experiment, yet it defined, with astonishing precision, what it means for anything to be computable. Every modern computer is, in essence, its descendant.\n\nThen history intervened. In September 1939, the day after Britain declared war, Turing reported to Bletchley Park, a Victorian mansion in Buckinghamshire where codebreakers laboured to read German messages encrypted by the Enigma machine. Building on the earlier work of Polish mathematicians, Turing devised an electromechanical device, the Bombe, that tested possible settings at a speed no human could hope to match. As head of Hut 8, he concentrated on naval Enigma, the cipher used by the U-boats that were strangling Britain's Atlantic supply lines. Historians have estimated that the intelligence gleaned may have shortened the war by as much as two years and saved millions of lives.\n\nColleagues remembered a shy, shambling genius, who cycled to work wearing a gas mask to alleviate his hay fever, and who chained his tin mug to a radiator so that nobody would steal it. He also counted his bicycle chain's slipping revolutions so as to repair it just before it failed. He was an outstanding runner, whose marathon time of two hours and forty-six minutes was fast enough to be considered for the Olympic team in 1948.\n\nAfter the war, Turing turned to the construction of electronic computers, first in London and then at Manchester. In 1950 he published \"Computing Machinery and Intelligence,\" a paper that opens with the audacious question: \"Can machines think?\" He proposed replacing it with an \"imitation game,\" in which a judge converses by text with a hidden human and a hidden machine, and tries to tell them apart. Today we call it the Turing test, and the debate it started has rarely been more heated.\n\nBritain repaid its debt shamefully. In 1952, after reporting a burglary, Turing admitted to a relationship with another man, and was prosecuted for \"gross indecency,\" as homosexual acts were then a crime. To avoid prison he accepted a course of hormone injections, a form of chemical castration. His security clearance was revoked. On 7 June 1954, his housekeeper found him dead at home, a half-eaten apple beside his bed, and a coroner recorded a verdict of suicide by cyanide poisoning, although some biographers have questioned it.\n\nRedress arrived late. In 2009 Prime Minister Gordon Brown issued a public apology for the \"appalling\" treatment, and in 2013 Queen Elizabeth II granted a royal pardon. In 2021 his portrait appeared on the fifty-pound note, beside a quotation that seems both his epitaph and his challenge: \"This is only a foretaste of what is to come, and only the shadow of what is going to be.\" He was forty-one.",
-  "word_count": 579,
+  "description_ru": "Биография Алана Тьюринга: математик, заложивший основы информатики, взломщик «Энигмы» и жертва несправедливого закона.",
+  "text": "Alan Mathison Turing was born in Maida Vale, London, on the twenty-third of June 1912, the second son of a father in the Indian Civil Service and a mother who was the daughter of a railway engineer. His parents spent much of his infancy in India, and Alan and his brother were boarded with a retired army couple on the coast of Sussex, an arrangement that taught the boy self-sufficiency and, perhaps, a certain wary detachment. Even as a toddler he was conspicuously odd. He taught himself to read in three weeks, and at school was already preoccupied with numbers, chemistry and the private study of Einstein.\n\nSchool, as it happens, was not especially kind to him. At Sherborne, a traditional establishment that prized Latin, rugby and conformity, his handwriting was a disgrace, his essays were slapdash and his headmaster feared that he would become a mere scientific specialist, \"a problem for any school\". Yet he flourished in one friendship. Christopher Morcom, a slightly older and enormously gifted pupil with whom he shared a passion for astronomy, died of bovine tuberculosis in 1930, and Turing's grief was so profound that it coloured his thinking about mind and matter for the rest of his life.\n\nAt King's College, Cambridge, where he read mathematics, his talent flowered. He was elected a fellow at only twenty-two, on the strength of a dissertation on probability theory. Then, in 1936, he published a paper entitled On Computable Numbers, which tackled a famous problem posed by the German mathematician David Hilbert: whether there exists a definite procedure for deciding the truth of any mathematical statement. To answer the question, Turing imagined a machine, a hypothetical device that reads and writes symbols on an endless strip of tape according to a table of rules. It was nothing more than a thought experiment, but it contained the whole logic of the modern computer.\n\nHis conclusion was that no such universal procedure exists. Certain questions are, in a precise sense, undecidable. Yet the same paper revealed, almost incidentally, that a single machine could be built to imitate any other, if supplied with the appropriate instructions. This universal machine is the ancestor of every laptop, phone and server. Turing then spent two years at Princeton, studying under Alonzo Church, and returned to England in 1938, prudently, since war was approaching, and he had by then secretly begun to build an electromechanical multiplier for fun.\n\nWhen war was declared in September 1939, he reported to Bletchley Park, a Victorian mansion in Buckinghamshire where the Government Code and Cypher School had assembled a strange assortment of mathematicians, chess champions, linguists and crossword enthusiasts. Their adversary was Enigma, the cipher machine used by the German forces, whose settings changed every day and whose possible configurations numbered in the millions of millions. Turing took charge of Hut 8, which was responsible for the naval Enigma, the most secure and the most lethal, since it directed the U-boats that were strangling Atlantic convoys.\n\nBuilding on the earlier work of Polish cryptologists, he designed a far more powerful electromechanical device, known as the Bombe, which rapidly tested possible settings by exploiting a weakness in the way messages were composed. Operators, it transpired, were lazy; they began messages with predictable phrases, such as a weather report, and never allowed a letter to be encrypted as itself. These cribs, as they were called, provided the foothold. Alongside his colleague Gordon Welchman, and with the help of the women operators, whose patient labour kept the machines running, Turing helped to read the German naval traffic, and the historian Harry Hinsley later estimated that the work shortened the war by at least two years.\n\nColleagues remembered him as shy, eccentric and fiercely focused. He cycled to work wearing a gas mask to alleviate his hay fever, chained his tea mug to the radiator to prevent theft, and, when he feared that Britain might be invaded, melted down his savings to buy two silver ingots, which he buried in the woods and then could not find. After the war he was awarded the Order of the British Empire, though the nature of his achievement was a state secret, and neither his family nor the public knew of it for decades.\n\nIn peacetime he turned to building a stored-program computer, first at the National Physical Laboratory and then at the University of Manchester, and he pondered a question that appeared preposterous at the time: could a machine think? In 1950 he proposed to replace this vague question with a practical test, the imitation game, in which a human judge converses by text with a hidden interlocutor, and tries to determine whether it is a person or a machine. If the judge cannot tell, Turing argued, we should have no grounds for denying that the machine thinks. The idea is now known as the Turing test. He was also a runner of nearly Olympic calibre, and in 1947 he ran a marathon in two hours and forty-six minutes.\n\nHis last project was biological. In 1952 he published a paper explaining how patterns, the stripes of a tiger or the spots of a leopard, might arise from the chemical interaction of two diffusing substances, an insight that founded the mathematical study of morphogenesis and has since been vindicated in the laboratory. That same year, however, he reported a burglary at his house and, in the course of the inquiry, admitted to a relationship with another man. Homosexual acts were then a criminal offence, and he was convicted of gross indecency.\n\nOffered the choice between prison and a course of hormonal injections, intended to suppress his desire, Turing chose the injections, which caused him physical and psychological distress. His security clearance was revoked, and he was barred from the very codebreaking work he had helped to create. On the seventh of June 1954, his housekeeper found him dead in his bed, beside a half-eaten apple; the coroner concluded that he had died of cyanide poisoning, and recorded a verdict of suicide, though his mother always maintained that it was an accident.\n\nBritain's atonement was slow. In 2009 the prime minister, Gordon Brown, apologised publicly for the appalling way in which he had been treated, and in 2013 Queen Elizabeth granted him a posthumous pardon. Four years later, a law pardoning thousands of other men convicted under the same statutes was named in his honour. The most prestigious prize in computer science bears his name, and his face now appears on the fifty-pound note, a belated and rather inadequate apology from the nation he saved.",
+  "word_count": 1095,
   "vocabulary": [
+    {
+      "word": "conspicuously",
+      "ipa_us": "kənˈspɪkjuəsli",
+      "ipa_uk": "kənˈspɪkjuəsli",
+      "translation_ru": "заметно, броско"
+    },
+    {
+      "word": "slapdash",
+      "ipa_us": "ˈslæpˌdæʃ",
+      "ipa_uk": "ˈslæpdæʃ",
+      "translation_ru": "небрежный"
+    },
     {
       "word": "hypothetical",
       "ipa_us": "ˌhaɪpəˈθɛtɪkəl",
@@ -15,116 +27,133 @@
       "translation_ru": "гипотетический"
     },
     {
-      "word": "encrypted",
-      "ipa_us": "ɪnˈkrɪptɪd",
-      "ipa_uk": "ɪnˈkrɪptɪd",
-      "translation_ru": "зашифрованный"
+      "word": "undecidable",
+      "ipa_us": "ˌʌndɪˈsaɪdəbəl",
+      "ipa_uk": "ˌʌndɪˈsaɪdəbəl",
+      "translation_ru": "неразрешимый"
     },
     {
-      "word": "shambling",
-      "ipa_us": "ˈʃæmblɪŋ",
-      "ipa_uk": "ˈʃæmblɪŋ",
-      "translation_ru": "неуклюжий"
+      "word": "prudently",
+      "ipa_us": "ˈprudəntli",
+      "ipa_uk": "ˈpruːdəntli",
+      "translation_ru": "благоразумно"
+    },
+    {
+      "word": "adversary",
+      "ipa_us": "ˈædvərˌsɛri",
+      "ipa_uk": "ˈædvəsəri",
+      "translation_ru": "противник"
+    },
+    {
+      "word": "cipher",
+      "ipa_us": "ˈsaɪfər",
+      "ipa_uk": "ˈsaɪfə",
+      "translation_ru": "шифр"
+    },
+    {
+      "word": "lethal",
+      "ipa_us": "ˈliθəl",
+      "ipa_uk": "ˈliːθəl",
+      "translation_ru": "смертоносный"
     },
     {
       "word": "alleviate",
       "ipa_us": "əˈliviˌeɪt",
       "ipa_uk": "əˈliːvieɪt",
-      "translation_ru": "облегчать"
+      "translation_ru": "облегчить"
     },
     {
-      "word": "audacious",
-      "ipa_us": "ɔˈdeɪʃəs",
-      "ipa_uk": "ɔːˈdeɪʃəs",
-      "translation_ru": "дерзкий"
+      "word": "preposterous",
+      "ipa_us": "prɪˈpɑstərəs",
+      "ipa_uk": "prɪˈpɒstərəs",
+      "translation_ru": "нелепый"
     },
     {
-      "word": "redress",
-      "ipa_us": "rɪˈdrɛs",
-      "ipa_uk": "rɪˈdres",
-      "translation_ru": "возмещение, исправление несправедливости"
+      "word": "interlocutor",
+      "ipa_us": "ˌɪntərˈlɑkjətər",
+      "ipa_uk": "ˌɪntəˈlɒkjʊtə",
+      "translation_ru": "собеседник"
     },
     {
-      "word": "epitaph",
-      "ipa_us": "ˈɛpəˌtæf",
-      "ipa_uk": "ˈepɪtɑːf",
-      "translation_ru": "эпитафия"
-    },
-    {
-      "word": "foretaste",
-      "ipa_us": "ˈfɔrˌteɪst",
-      "ipa_uk": "ˈfɔːteɪst",
-      "translation_ru": "предвкушение"
+      "word": "atonement",
+      "ipa_us": "əˈtoʊnmənt",
+      "ipa_uk": "əˈtəʊnmənt",
+      "translation_ru": "искупление"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "Maida Vale",
+        "three",
         "thought",
-        "think",
-        "mathematical"
+        "theory",
+        "thinks"
       ],
-      "tip_ru": "Кончик языка слегка высунут между зубами, звук глухой, без голоса."
+      "tip_ru": "Кончик языка слегка просунут между зубами, голос выключен; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "ɔː",
+      "sound": "ɜː",
       "examples": [
-        "war",
-        "mansion",
-        "thought"
+        "work",
+        "first",
+        "turned",
+        "determine"
       ],
-      "tip_ru": "Губы округлены, звук долгий и глубокий: ближе к длинному «о», чем к «а»."
+      "tip_ru": "Долгий нейтральный гласный: губы не округлены, язык в центре рта; не «ё» и не «о»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "private",
+        "tiger",
+        "idea",
+        "might"
+      ],
+      "tip_ru": "Дифтонг: начинайте с широкого «а» и плавно уходите к «и»; второй элемент короткий."
     },
     {
       "sound": "linking",
       "examples": [
+        "Turing test",
         "half-eaten apple",
-        "first in"
+        "an endless strip"
       ],
-      "tip_ru": "Соединяйте согласный в конце слова с гласным в начале следующего: half-eaten, a-pple без пауз."
-    },
-    {
-      "sound": "aspiration",
-      "examples": [
-        "computable",
-        "Cambridge",
-        "test"
-      ],
-      "tip_ru": "p, t, k в начале ударных слогов произносите с отчётливым придыханием."
+      "tip_ru": "В связной речи согласный в конце слова переходит на гласный следующего слова: half-eaten произносится как «ха-фи:тн»."
     }
   ],
   "questions": [
     {
-      "question": "What did Turing's 1936 paper introduce?",
-      "answer": "The Turing machine, a theoretical computing device.",
+      "question": "Where did Turing work during the Second World War?",
+      "answer": "At Bletchley Park, breaking German ciphers.",
       "accepted_keywords": [
-        "turing machine",
-        "machine"
+        "bletchley",
+        "park",
+        "enigma",
+        "ciphers"
       ]
     },
     {
-      "question": "Where did Turing work during the war?",
-      "answer": "Bletchley Park.",
+      "question": "What was the name of the machine he designed to test Enigma settings?",
+      "answer": "The Bombe.",
       "accepted_keywords": [
-        "bletchley"
+        "bombe"
       ]
     },
     {
-      "question": "What was the imitation game?",
-      "answer": "A test in which a judge tries to tell a human from a machine.",
+      "question": "What is the imitation game also known as?",
+      "answer": "The Turing test.",
       "accepted_keywords": [
-        "test",
-        "machine",
-        "judge",
-        "human"
+        "turing",
+        "test"
       ]
     },
     {
-      "question": "What happened in 2013?",
-      "answer": "He received a royal pardon.",
+      "question": "When did Britain grant him a posthumous pardon?",
+      "answer": "In 2013.",
       "accepted_keywords": [
+        "2013",
+        "queen",
         "pardon"
       ]
     }

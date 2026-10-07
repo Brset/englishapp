@@ -2,129 +2,166 @@
   "id": "c2-science-03",
   "level": "C2",
   "genre": "science",
-  "title_en": "A Chirp from Across the Cosmos",
-  "title_ru": "Чирп из глубин космоса",
-  "description_ru": "Как LIGO впервые услышал слияние чёрных дыр и почему это стало настоящей революцией в астрономии.",
-  "text": "On the morning of the fourteenth of September 2015, in two laboratories separated by nearly three thousand kilometres, a pair of instruments registered something that no human being had ever perceived. It lasted about a fifth of a second. It rose in pitch and strength, like a bird's chirp, and then vanished. When physicists eventually plotted it, they found a shape that matched, almost to the last wiggle, the prediction of Einstein's general relativity. They were listening to two black holes colliding, roughly 1.3 billion years ago.\n\nEinstein had predicted such ripples in 1916. A heavy object that accelerates, he reasoned, should disturb the fabric of space and time, sending out waves that stretch and squeeze everything they pass through, much as a stone sends circles across a pond. The trouble was scale. Even the most violent events in the universe produce waves that are, by the time they reach us, almost unimaginably faint. Einstein himself doubted they could ever be measured.\n\nThe two observatories of LIGO, the Laser Interferometer Gravitational-Wave Observatory, were built to prove him wrong. Each is shaped like a giant letter L, with two arms four kilometres long. A laser beam is split, sent down both arms, reflected by mirrors, and recombined. If the arms stay exactly the same length, the light cancels itself out. If a gravitational wave passes, one arm is stretched very slightly while the other is squeezed, and a flicker of light escapes. The change in length that LIGO can detect is smaller than a thousandth of the width of a proton. It is rather like noticing a change in the distance to the nearest star the size of a human hair.\n\nThe signal, labelled GW150914, reached the Livingston detector in Louisiana seven milliseconds before it reached Hanford in Washington State, which told researchers roughly where in the sky to look. Analysis showed that the source was a pair of black holes, about twenty-nine and thirty-six times the mass of the Sun, spiralling together faster and faster before merging into a single hole of about sixty-two solar masses. The sums do not quite add up, and the discrepancy is the point. About three solar masses had been converted into pure energy, in the form of gravitational waves, in a fraction of a second. For that instant, the collision outshone all the stars in the observable universe combined, although not a single photon of light was seen.\n\nThe announcement came in February 2016, and in 2017 the Nobel Prize in Physics went to Rainer Weiss, Barry Barish, and Kip Thorne for their leadership of the project. Since then detectors have heard dozens of mergers, including neutron stars, whose 2017 collision was also seen by telescopes, producing gold and platinum in an enormous cosmic forge.\n\nIt is worth pausing on the sheer improbability of it all: a tiny shudder, born hundreds of millions of years before the first animal crawled ashore, crossing the universe in near silence only to be caught by two patient machines in the American countryside.\n\nWhat makes this achievement remarkable is not only the engineering but the change in kind. For all of history we have looked at the universe. We have now begun to listen to it, and the universe, it turns out, has been talking all along.",
-  "word_count": 547,
+  "title_en": "The Moon's Slow Theft",
+  "title_ru": "Медленная кража Луны",
+  "description_ru": "Приливы замедляют вращение Земли и отодвигают Луну. Как физика трения океана удлиняет наши сутки и что об этом говорят кораллы и лазеры, направленные на Луну.",
+  "text": "The Moon is a petty thief, and its victim, the Earth, has been too busy rotating to complain. Every century, the length of the day increases by an average of about two milliseconds, a quantity too small to disturb a single breakfast, yet over geological time sufficient to have transformed the planet. The culprit is the tide, and the tide, contrary to the impression of anyone who has been splashed by it at a seaside resort, is a subtle and mathematical affair.\n\nBegin with gravity, which weakens with distance. The Moon pulls on the side of the Earth nearest to it a little more strongly than on the centre of the planet, and on the far side a little less. The difference, which physicists call the tidal force, stretches the Earth along the line joining the two bodies. The solid rock yields by a few tens of centimetres, a motion that nobody notices, but the oceans, being free to flow, pile up into two broad bulges: one on the side facing the Moon, and, perhaps counter-intuitively, another on the opposite side, where the planet is effectively pulled away from the water. As the Earth rotates beneath these bulges, a coastline passes through two high tides and two low tides in a little over a day.\n\nThe Sun also raises tides, but, being so much farther away, its effect is less than half that of the Moon. When Sun, Earth and Moon line up at new and full moon, the two effects reinforce each other and produce the large spring tides, a name that has nothing to do with the season and everything to do with the verb \"to leap\". At the quarters, when the pull of the Sun is at right angles to the Moon's, they partly cancel, and the result is the weaker neap tide. The actual heights are shaped by geography. In the open ocean the tidal range is little more than a metre, whereas in a funnel-shaped inlet such as the Bay of Fundy in Canada, water resonates like a pendulum and the difference between high and low can exceed fifteen metres.\n\nNow comes the theft. The Earth does not rotate in perfect obedience to the Moon. The planet spins once in about twenty-four hours, whereas the Moon takes about twenty-seven days to circle it, and so the tidal bulges are dragged forward, slightly ahead of the line joining the two bodies, by friction between the water and the sea floor and by the flexing of the rock. The bulge nearer the Moon, therefore, sits just ahead of it, and exerts a small forward tug on it, like a hand pulling a child along a pavement. The Moon is accelerated into a slightly higher orbit. Meanwhile, the same gravitational embrace pulls backward on the bulge, acting as a brake on the Earth's rotation.\n\nThe accounting is strict. Angular momentum, the quantity that measures how much rotation a system has, must be conserved, and so what the Earth loses, the Moon gains. Energy, in contrast, is not conserved in any useful form: most of it is dissipated as heat in the shallow seas, which is why the Earth's tides are, in a way, a very slow and very large engine for warming the Irish Sea.\n\nThe evidence is wonderfully tangible. When the Apollo astronauts left mirror-like reflectors on the lunar surface between 1969 and 1971, they unwittingly provided the means to measure the Moon's distance to within millimetres. By timing how long a laser pulse takes to travel from an observatory to the reflector and back, scientists have shown that the Moon is receding at about 3.8 centimetres each year, roughly the rate at which fingernails grow. The Moon, in short, is being slowly and politely repossessed by the cosmos.\n\nAn older witness lies in the rocks and in the corals. Certain corals deposit fine daily growth rings, grouped into annual bands, as trees do. In the 1960s, the palaeontologist John Wells counted these rings in fossil corals of the Devonian period, about four hundred million years old, and found roughly four hundred of them in a year. Since the length of the year has not changed appreciably, the days must have been shorter, perhaps twenty-two hours long. Later studies of tidal deposits and other fossils have broadly supported the conclusion, though the rate of slowing has not been constant, since it depends on how the continents happen to arrange the oceans.\n\nNot that the planet is a faithful clock even over short intervals. Day by day, the rotation fluctuates by fractions of a millisecond, nudged by the winds, by the movement of molten iron in the core, and by the shifting of ice and water. Since 1972, timekeepers have inserted twenty-seven leap seconds into civil time to keep the clocks in step with the sky, and in recent years the Earth has, to the bafflement of many, spun slightly faster rather than slower. The long-term trend remains clear, but it is hidden beneath a good deal of noise, like a slow tide beneath a choppy sea.\n\nWill the process continue indefinitely? In principle, the Earth's day and the Moon's month would eventually become equal, with the same face of the planet turned permanently toward the Moon, as the Moon already shows only one face to us. But the timescale is staggering, many billions of years, longer than the Sun can be expected to remain a stable star. Long before then, the swelling Sun will have altered everything, and the question will be moot. Humanity's more immediate worry is that the oceans themselves are changing, and with them the details of how the tide dissipates its energy.\n\nThere is, nonetheless, something pleasingly humbling in the arrangement. The silvery disc that we associate with romance and lunacy is, physically, a debtor sipping from the planet's rotation. Each night it takes a little more, and it repays us only with the music of the surf. It is quite possibly the slowest burglary in the solar system, and also the most generous, for without it, we should have no tides, no tidal pools, and perhaps no creatures bold enough to crawl out of them.",
+  "word_count": 1037,
   "vocabulary": [
     {
-      "word": "perceived",
-      "ipa_us": "pərˈsiːvd",
-      "ipa_uk": "pəˈsiːvd",
-      "translation_ru": "воспринял"
+      "word": "petty",
+      "ipa_us": "ˈpɛti",
+      "ipa_uk": "ˈpeti",
+      "translation_ru": "мелкий"
     },
     {
-      "word": "fabric",
-      "ipa_us": "ˈfæbrɪk",
-      "ipa_uk": "ˈfæbrɪk",
-      "translation_ru": "ткань (пространства-времени)"
+      "word": "culprit",
+      "ipa_us": "ˈkʌlprɪt",
+      "ipa_uk": "ˈkʌlprɪt",
+      "translation_ru": "виновник"
     },
     {
-      "word": "interferometer",
-      "ipa_us": "ˌɪntərfəˈrɑːmɪtər",
-      "ipa_uk": "ˌɪntəfəˈrɒmɪtə",
-      "translation_ru": "интерферометр"
+      "word": "subtle",
+      "ipa_us": "ˈsʌtəl",
+      "ipa_uk": "ˈsʌt(ə)l",
+      "translation_ru": "тонкий, едва уловимый"
     },
     {
-      "word": "proton",
-      "ipa_us": "ˈproʊtɑːn",
-      "ipa_uk": "ˈprəʊtɒn",
-      "translation_ru": "протон"
+      "word": "counter-intuitively",
+      "ipa_us": "ˌkaʊntər ɪnˈtuːɪtɪvli",
+      "ipa_uk": "ˌkaʊntər ɪnˈtjuːɪtɪvli",
+      "translation_ru": "вопреки интуиции"
     },
     {
-      "word": "discrepancy",
-      "ipa_us": "dɪˈskrepənsi",
-      "ipa_uk": "dɪˈskrepənsi",
-      "translation_ru": "расхождение"
+      "word": "resonates",
+      "ipa_us": "ˈrɛzəˌneɪts",
+      "ipa_uk": "ˈrezəneɪts",
+      "translation_ru": "резонирует"
     },
     {
-      "word": "spiralling",
-      "ipa_us": "ˈspaɪrəlɪŋ",
-      "ipa_uk": "ˈspaɪrəlɪŋ",
-      "translation_ru": "движущиеся по спирали"
+      "word": "obedience",
+      "ipa_us": "oʊˈbiːdiəns",
+      "ipa_uk": "əˈbiːdiəns",
+      "translation_ru": "послушание"
     },
     {
-      "word": "neutron",
-      "ipa_us": "ˈnuːtrɑːn",
-      "ipa_uk": "ˈnjuːtrɒn",
-      "translation_ru": "нейтрон"
+      "word": "dissipated",
+      "ipa_us": "ˈdɪsəˌpeɪtɪd",
+      "ipa_uk": "ˈdɪsɪpeɪtɪd",
+      "translation_ru": "рассеянный"
     },
     {
-      "word": "observatories",
-      "ipa_us": "əbˈzɜːrvətɔːriz",
-      "ipa_uk": "əbˈzɜːvətriz",
-      "translation_ru": "обсерватории"
+      "word": "tangible",
+      "ipa_us": "ˈtændʒəbəl",
+      "ipa_uk": "ˈtændʒɪb(ə)l",
+      "translation_ru": "осязаемый"
+    },
+    {
+      "word": "receding",
+      "ipa_us": "rɪˈsiːdɪŋ",
+      "ipa_uk": "rɪˈsiːdɪŋ",
+      "translation_ru": "удаляющийся"
+    },
+    {
+      "word": "palaeontologist",
+      "ipa_us": "ˌpeɪlioʊnˈtɑːlədʒɪst",
+      "ipa_uk": "ˌpælɪɒnˈtɒlədʒɪst",
+      "translation_ru": "палеонтолог"
+    },
+    {
+      "word": "moot",
+      "ipa_us": "muːt",
+      "ipa_uk": "muːt",
+      "translation_ru": "спорный, не имеющий значения"
+    },
+    {
+      "word": "lunacy",
+      "ipa_us": "ˈluːnəsi",
+      "ipa_uk": "ˈluːnəsi",
+      "translation_ru": "безумие"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "thousand",
-        "three",
-        "with"
-      ],
-      "tip_ru": "θ: кончик языка слегка высунут между зубами, голоса нет: thousand, three."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "wave",
-        "width",
-        "where",
-        "was"
-      ],
-      "tip_ru": "w: губы вытянуты вперёд, как для «у», и быстро раскрываются; не касайтесь зубов: wave, width."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "observatories",
-        "universe",
-        "have"
-      ],
-      "tip_ru": "v: нижняя губа к верхним зубам, голос звучит; в конце слова не оглушайте: have, universe."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "interferometer",
-        "observatories",
-        "discrepancy"
+        "palaeontologist",
+        "counter-intuitively",
+        "gravitational"
       ],
-      "tip_ru": "Ударение: in-ter-fe-ROM-e-ter, ob-SERV-a-to-ries, dis-CREP-an-cy; в британском observatories ударный слог тот же."
+      "tip_ru": "Ударение: pa-lae-on-TOL-o-gist; в -ologist ударение на -TOL-. Длинные слова произносите ритмично."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "that",
+        "there"
+      ],
+      "tip_ru": "Кончик языка между зубами, звук звонкий, не заменяйте на д или з."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "tide",
+        "night",
+        "fine"
+      ],
+      "tip_ru": "Дифтонг от а к ɪ, не обрывайте его."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "culprit",
+        "subtle",
+        "sun"
+      ],
+      "tip_ru": "Краткий звук, между а и ы; рот расслаблен, губы не округлены."
     }
   ],
   "questions": [
     {
-      "question": "What was the signal called?",
-      "answer": "GW150914.",
+      "question": "By how much does the day lengthen per century?",
+      "answer": "About two milliseconds.",
       "accepted_keywords": [
-        "gw150914",
-        "gravitational"
+        "two",
+        "milliseconds",
+        "2"
       ]
     },
     {
-      "question": "How long are LIGO's arms?",
-      "answer": "Four kilometres.",
+      "question": "Why are there two tidal bulges?",
+      "answer": "The Moon pulls the near side more and the far side less, stretching the Earth.",
       "accepted_keywords": [
-        "four",
-        "4"
+        "moon",
+        "gravity",
+        "stretch",
+        "near",
+        "far",
+        "pull"
       ]
     },
     {
-      "question": "What collided?",
-      "answer": "Two black holes.",
+      "question": "How do we measure the Moon's recession?",
+      "answer": "With laser pulses reflected from mirrors left by Apollo astronauts.",
       "accepted_keywords": [
-        "black"
+        "laser",
+        "reflector",
+        "apollo",
+        "mirror",
+        "mirrors"
       ]
     },
     {
-      "question": "Who predicted gravitational waves?",
-      "answer": "Einstein.",
+      "question": "What did fossil corals reveal?",
+      "answer": "Devonian years had about four hundred days, so days were shorter.",
       "accepted_keywords": [
-        "einstein"
+        "four hundred",
+        "400",
+        "days",
+        "shorter",
+        "rings",
+        "devonian"
       ]
     }
   ]

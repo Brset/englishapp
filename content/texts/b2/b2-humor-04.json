@@ -2,132 +2,168 @@
   "id": "b2-humor-04",
   "level": "B2",
   "genre": "humor",
-  "title_en": "My House Is Smarter Than Me",
-  "title_ru": "Мой дом умнее меня",
-  "description_ru": "Шуточный рассказ о человеке, чей умный дом начал им командовать.",
-  "text": "Last winter, my brother persuaded me to turn my house into a smart home. \"It will change your life,\" he said. He was right, though not in the way he meant.\n\nThe first week was wonderful. I could switch on the lights by clapping, ask the speaker for the weather, and tell the oven to heat itself while I was still on the train. I felt like a character in a science-fiction film. I even gave the system a name, Jarvis, because it seemed polite to be friendly with something that controlled my heating.\n\nThen Jarvis began to learn my habits, and that was where the problems started. One evening I came home late, tired and hungry, and the lights dimmed automatically. \"It looks like you are getting sleepy,\" said a calm voice. \"Shall I play relaxing music?\" I said that I would rather have dinner. \"According to your records,\" said Jarvis, \"you have eaten pizza four times this week. May I suggest a salad?\" I was being criticised by my own ceiling.\n\nIt got worse. The fridge started sending me notifications. \"The milk expires tomorrow,\" it wrote, and then, a few hours later, \"Reminder: the milk is still here.\" The vacuum cleaner, which had been programmed to clean at noon, got stuck under the sofa and sat there crying for help in a high, electronic voice. When my neighbour came round to complain about the noise, he found me lying on the floor, trying to free it with a wooden spoon.\n\nThe final straw was last Saturday. I invited friends for dinner, and in front of everyone Jarvis announced, \"Warning: you have left the oven on for two hours.\" I replied that I was cooking a roast. \"In that case,\" he said, \"the smoke alarm is about to agree with me.\" It did.\n\nI have now decided to take back control. Yesterday I covered the speaker with a tea towel and went to bed without saying goodnight. This morning, the coffee machine refused to start. On its tiny screen, it had written, \"You ignored Jarvis. Now you pay.\" I made tea instead. It is much safer, and the kettle has never judged me.",
+  "title_en": "Flat-Pack Furniture and Me",
+  "title_ru": "Мебель из коробки и я",
+  "description_ru": "Комическая история сборки шкафа по инструкции без слов, в которой остаются лишние детали и растёт семейное напряжение.",
+  "text": "There is a particular silence that falls over a living room when a man opens a flat-pack wardrobe box and looks inside. It is the silence of someone who has just realised that the next six hours of his life have been decided by a Swedish company he has never met. I knew that silence well. I had assembled bookcases, desks and, on one memorable occasion, a bed that became a different bed after I turned it over. So when my wife asked me to build a wardrobe for the spare room, I said, with the confidence of a man who has not yet read the instructions, \"It'll take an hour.\"\n\nThe instructions were an interesting document. They contained no words, only drawings of a small, bald man who seemed to have been placed in the middle of a terrible mistake. In the first picture he looked at a plank with a puzzled expression. In the second he was surrounded by identical screws. In the third, a second man appeared, and both of them were smiling, which I found suspicious, because nobody has ever smiled during a task like this. I decided that the drawings were not to be trusted.\n\nI began by sorting the parts into piles. There were thirty-four wooden panels, two hundred and six screws of nine different types, a bag of mysterious wooden pegs, and a small metal tool, which was shaped like a hook and which I immediately lost. My wife, who was passing with a cup of tea, asked whether I wanted help. I replied, with great dignity, that I had everything under control. She said she would be in the next room, which was, I realised later, the sound of a woman who had seen this before.\n\nFor the first two hours, everything went surprisingly well. The sides were fitted to the base, the base was fitted to the back, and the whole structure was gradually rising from the floor like a ship being built. I even felt a little proud. Then I noticed that the back panel, which was supposed to be nailed on at the end, was already attached to the inside, and that it was upside down. The drawings did not explain this. The small bald man simply continued smiling.\n\nAt that point, I did what every experienced furniture builder does, and I decided to ignore the problem. The back panel, I told myself, would not really be seen. Unfortunately, that was the moment when I discovered that the doors would no longer fit. I tried to force them. I tried to persuade them. At one stage I spoke to them quietly and rationally, as one speaks to a horse. They stayed exactly where they were, and a small piece of wood fell off with a tired little click.\n\nI took out the instructions again and, after an hour of study, understood that one picture, which I had taken to be a decoration, was in fact a warning. It showed the small man with a hammer, a large cross and a lightning bolt. Evidently, I had been supposed to attach the hinges before the sides were fixed together. There was nothing to be done. I took everything apart, and my wife, who had returned with a second cup of tea, observed that it was very brave of me to start again.\n\nThe second attempt took four hours. By the end, the wardrobe was standing in the middle of the room, and it looked remarkably like a wardrobe. It had doors, shelves and a place for a rail, and it only leaned slightly to the left. There was just one problem. In the middle of the carpet, in a neat little pile, I had found seven screws, three pegs, a metal bracket and a mysterious plastic cap, which had apparently been intended for something. I decided that it was a spare parts kit. I put them in a drawer and shut it quickly.\n\nMy wife approached the finished wardrobe, opened the door and nodded slowly. Then she gave it a gentle push, and the whole thing swayed like a tree in the wind. I explained that it was designed to flex, so that it would not break in an earthquake. She said we live in Birmingham. I replied that one could never be too careful. She said that she would put her clothes in it anyway, and that if it fell on her, I would be the first to know, which I took to be a joke.\n\nIt has now been two years. The wardrobe still stands, although it is held by a small wooden wedge and a piece of folded cardboard, and the door sometimes opens by itself, particularly when guests are staying. I have learned several important things from this experience. One is that no instruction is ever really clear. Another is that every flat-pack has extra screws, and that these are not a problem but a mystery to be treasured. And the third, which I would like to share with other husbands, is that when your wife offers to help, you should say yes.",
+  "word_count": 859,
   "vocabulary": [
     {
-      "word": "persuaded",
-      "ipa_us": "pərˈsweɪdɪd",
-      "ipa_uk": "pəˈsweɪdɪd",
-      "translation_ru": "убедил"
+      "word": "flat-pack",
+      "ipa_us": "ˈflæt ˌpæk",
+      "ipa_uk": "ˈflæt ˌpæk",
+      "translation_ru": "мебель в разобранном виде"
     },
     {
-      "word": "clapping",
-      "ipa_us": "ˈklæpɪŋ",
-      "ipa_uk": "ˈklæpɪŋ",
-      "translation_ru": "хлопая в ладоши"
+      "word": "wardrobe",
+      "ipa_us": "ˈwɔrˌdroʊb",
+      "ipa_uk": "ˈwɔːdrəʊb",
+      "translation_ru": "шкаф"
     },
     {
-      "word": "heating",
-      "ipa_us": "ˈhitɪŋ",
-      "ipa_uk": "ˈhiːtɪŋ",
-      "translation_ru": "отопление"
+      "word": "assembled",
+      "ipa_us": "əˈsɛmbəld",
+      "ipa_uk": "əˈsembəld",
+      "translation_ru": "собрал"
     },
     {
-      "word": "dimmed",
-      "ipa_us": "dɪmd",
-      "ipa_uk": "dɪmd",
-      "translation_ru": "потускнели"
+      "word": "bald",
+      "ipa_us": "bɔld",
+      "ipa_uk": "bɔːld",
+      "translation_ru": "лысый"
     },
     {
-      "word": "criticised",
-      "ipa_us": "ˈkrɪtəˌsaɪzd",
-      "ipa_uk": "ˈkrɪtɪsaɪzd",
-      "translation_ru": "критикуемый"
+      "word": "puzzled",
+      "ipa_us": "ˈpʌzəld",
+      "ipa_uk": "ˈpʌzəld",
+      "translation_ru": "озадаченный"
     },
     {
-      "word": "notifications",
-      "ipa_us": "ˌnoʊtəfəˈkeɪʃənz",
-      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃənz",
-      "translation_ru": "уведомления"
+      "word": "dignity",
+      "ipa_us": "ˈdɪɡnəti",
+      "ipa_uk": "ˈdɪɡnəti",
+      "translation_ru": "достоинство"
     },
     {
-      "word": "expires",
-      "ipa_us": "ɪkˈspaɪərz",
-      "ipa_uk": "ɪkˈspaɪəz",
-      "translation_ru": "истекает (срок годности)"
+      "word": "structure",
+      "ipa_us": "ˈstrʌktʃər",
+      "ipa_uk": "ˈstrʌktʃə",
+      "translation_ru": "конструкция"
     },
     {
-      "word": "vacuum cleaner",
-      "ipa_us": "ˈvækjuːm ˌklinər",
-      "ipa_uk": "ˈvækjuːm ˌkliːnə",
-      "translation_ru": "пылесос"
+      "word": "rationally",
+      "ipa_us": "ˈræʃənəli",
+      "ipa_uk": "ˈræʃənəli",
+      "translation_ru": "рассудительно"
+    },
+    {
+      "word": "hinges",
+      "ipa_us": "ˈhɪndʒɪz",
+      "ipa_uk": "ˈhɪndʒɪz",
+      "translation_ru": "петли"
+    },
+    {
+      "word": "bracket",
+      "ipa_us": "ˈbrækɪt",
+      "ipa_uk": "ˈbrækɪt",
+      "translation_ru": "кронштейн"
+    },
+    {
+      "word": "swayed",
+      "ipa_us": "sweɪd",
+      "ipa_uk": "sweɪd",
+      "translation_ru": "качнулся"
+    },
+    {
+      "word": "wedge",
+      "ipa_us": "wɛdʒ",
+      "ipa_uk": "wedʒ",
+      "translation_ru": "клин"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "vacuum",
-        "voice",
-        "evening",
-        "even"
-      ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
-    },
-    {
       "sound": "w",
       "examples": [
-        "wonderful",
-        "week",
-        "wooden",
-        "warning"
+        "were",
+        "was",
+        "when",
+        "which"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "ɪ",
+      "sound": "æ",
       "examples": [
-        "dinner",
-        "system",
-        "switch",
-        "milk"
+        "back",
+        "man",
+        "that",
+        "had"
       ],
-      "tip_ru": "Короткий и расслабленный звук, ближе к «и» в слове «ищу»; не тяните и не смягчайте согласную."
+      "tip_ru": "Рот открыт шире, чем для русского «э»; звук короткий и «плоский»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "flat-pack",
+        "wardrobe",
+        "assembled",
+        "bald"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
       "sound": "dark-l",
       "examples": [
-        "milk",
-        "tell",
+        "well",
+        "small",
         "still",
-        "kettle"
+        "little"
       ],
-      "tip_ru": "Кончик языка упирается в дёсны за верхними зубами, а задняя часть языка отодвинута назад; звук твёрдый, не «ль»."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "Who persuaded the narrator to get a smart home?",
-      "answer": "His brother.",
+      "question": "What did the instructions contain?",
+      "answer": "Only drawings of a small bald man, no words.",
       "accepted_keywords": [
-        "brother"
+        "drawings",
+        "pictures",
+        "bald",
+        "man",
+        "no words"
       ]
     },
     {
-      "question": "What is the smart system called?",
-      "answer": "Jarvis.",
+      "question": "What mistake did the narrator discover after two hours?",
+      "answer": "The back panel was attached upside down.",
       "accepted_keywords": [
-        "jarvis"
+        "back",
+        "panel",
+        "upside",
+        "down"
       ]
     },
     {
-      "question": "What did the vacuum cleaner do?",
-      "answer": "It got stuck under the sofa and called for help.",
+      "question": "What did he find left over?",
+      "answer": "Seven screws, three pegs, a bracket and a plastic cap.",
       "accepted_keywords": [
-        "stuck",
-        "sofa"
+        "screws",
+        "pegs",
+        "bracket",
+        "cap",
+        "spare"
       ]
     },
     {
-      "question": "What does the narrator drink instead of coffee at the end?",
-      "answer": "Tea.",
+      "question": "What lesson does he share at the end?",
+      "answer": "When your wife offers help, say yes.",
       "accepted_keywords": [
-        "tea"
+        "help",
+        "yes",
+        "wife"
       ]
     }
-  ],
-  "word_count": 365
+  ]
 }

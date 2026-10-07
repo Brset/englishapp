@@ -2,128 +2,146 @@
   "id": "a2-travel-01",
   "level": "A2",
   "genre": "travel",
-  "title_en": "A Weekend in Venice",
-  "title_ru": "Выходные в Венеции",
-  "description_ru": "Рассказ о поездке в город на воде: где ходить, на чём ехать и что попробовать.",
-  "text": "Last April, my friend Vera and I spent a weekend in Venice. We arrived by train, and then we took a water bus to our hotel. In Venice, there are no cars, so the city is very quiet.\n\nOn Saturday, we walked through the narrow streets and crossed more than twenty bridges. We were lost many times, but that was the best part. Every corner had a beautiful view of the water and the old houses.\n\nIn the afternoon, we visited a small workshop and watched a man make glass. He was very friendly and gave us a tiny glass bird. In the evening, we ate fresh fish and drank sweet white wine.\n\nOn Sunday, we got up early and went to the main square before the crowds arrived. Venice was empty and golden in the morning light. Venice is more expensive than other Italian cities, but I think it is worth every euro.",
-  "word_count": 154,
+  "title_en": "Four Days in Lisbon",
+  "title_ru": "Четыре дня в Лиссабоне",
+  "description_ru": "Рассказ о поездке в Лиссабон: трамвай номер 28, пирожные паштел-де-ната, музыка фаду и Синтра. С подробностями о еде и достопримечательностях.",
+  "text": "Last October, my friend Lena and I spent four days in Lisbon. We found a cheap flight, and we booked a small apartment in the old part of the city, called Alfama. I expected a beautiful place, but I did not expect so many hills. On the first afternoon, we climbed up a narrow street with our heavy suitcases, and I was sure that we had made a terrible mistake.\n\nThe mistake disappeared when we opened the window. Below us, there were red roofs, small white churches and the wide blue river. A woman on the next balcony was hanging out her washing and singing. Lena took forty photographs in five minutes. Then we went out to find something to eat, because we were both very hungry. A man in a tiny restaurant recommended grilled sardines, and they were fresh, salty and delicious. A big plate with salad and potatoes cost only nine euros.\n\nThe next morning, we took the famous yellow tram number twenty-eight. It is much older than the modern buses, and it is also much slower. The tram goes up and down impossible streets, and sometimes it passes so close to the houses that you can almost touch the walls. It was crowded, and I stood for half an hour, holding a pole and smiling at a small boy who stared at my hat. At the top of the hill, we left the tram and walked to a viewpoint, where we sat on a wall and watched the city wake up.\n\nFor lunch, we tried the most popular sweet in Portugal, a small pastry called pastel de nata. It is a little cup of crisp pastry with a soft, yellow cream inside. The best ones are warm, and people eat them with cinnamon and a cup of strong coffee. We went to a famous bakery in Belém, where a long line was waiting at the door. After twenty minutes, we got a box of six. We ate four of them immediately, standing in the street, and we saved the last two for the evening. Of course, we did not.\n\nIn the afternoon, we visited a huge stone tower near the river. It was built in the sixteenth century to protect the city, and later people used it as a prison. Today, anyone can climb to the top. The stairs are narrow, and they feel endless, but the view of the water and the bridge is worth the effort. Close to the tower, there is a monument to the explorers of the past, the sailors who left Portugal in small wooden ships and sailed to India and Brazil. Lena said she was too afraid of water to be an explorer. I agreed.\n\nIn the evening, we looked for a place to hear fado, the traditional music of Lisbon. Fado songs are slow and sad, and they are usually about love, the sea and missing someone. We found a small restaurant with only ten tables. A woman in a black dress stood in the middle of the room, and the lights went down. She did not use a microphone. She sang for ten minutes, with her eyes closed, and nobody in the room moved or even touched a glass. When she finished, Lena was crying, and so was the waiter.\n\nOn the third day, we took a short train to Sintra, a town in the hills with palaces and old forests. It was colder and wetter than Lisbon, and a thick mist covered the mountain. One palace was bright red and yellow, like a toy, and another was hidden in the trees. We got lost twice and walked about twelve kilometres. In the end, my feet hurt so much that I bought new shoes in the first shop I saw. They were ugly, but I wore them all the way back.\n\nOn our last morning, we went to a market and bought presents for our families. I chose a blue-and-white tile, some tinned fish and a small bottle of sweet cherry drink. Lena bought a guitar-shaped magnet and a very big bag of oranges, which was a silly idea, because she had to carry them to the airport. We said goodbye to the woman on the next balcony, who waved and shouted something that we did not understand.\n\nLisbon is not a perfect city. The streets are steep, the pavements are uneven and the trams are always full. But it is warm, friendly and unhurried, and it is cheaper than many other European capitals. Our plane left at six o'clock, and I looked out of the window at the red roofs, as long as I could. I am going to go back next year, and this time I am going to bring lighter suitcases and better shoes.",
+  "word_count": 803,
   "vocabulary": [
     {
-      "word": "arrived",
-      "ipa_us": "əˈraɪvd",
-      "ipa_uk": "əˈraɪvd",
-      "translation_ru": "прибыли"
+      "word": "apartment",
+      "ipa_us": "əˈpɑːrtmənt",
+      "ipa_uk": "əˈpɑːtmənt",
+      "translation_ru": "квартира"
     },
     {
-      "word": "narrow",
-      "ipa_us": "ˈnæroʊ",
-      "ipa_uk": "ˈnærəʊ",
-      "translation_ru": "узкий"
+      "word": "sardines",
+      "ipa_us": "sɑːrˈdiːnz",
+      "ipa_uk": "sɑːˈdiːnz",
+      "translation_ru": "сардины"
     },
     {
-      "word": "bridges",
-      "ipa_us": "ˈbrɪdʒɪz",
-      "ipa_uk": "ˈbrɪdʒɪz",
-      "translation_ru": "мосты"
+      "word": "tram",
+      "ipa_us": "træm",
+      "ipa_uk": "træm",
+      "translation_ru": "трамвай"
     },
     {
-      "word": "corner",
-      "ipa_us": "ˈkɔrnər",
-      "ipa_uk": "ˈkɔːnə",
-      "translation_ru": "угол"
+      "word": "viewpoint",
+      "ipa_us": "ˈvjuːpɔɪnt",
+      "ipa_uk": "ˈvjuːpɔɪnt",
+      "translation_ru": "смотровая площадка"
     },
     {
-      "word": "workshop",
-      "ipa_us": "ˈwɜrkʃɑp",
-      "ipa_uk": "ˈwɜːkʃɒp",
-      "translation_ru": "мастерская"
+      "word": "pastry",
+      "ipa_us": "ˈpeɪstri",
+      "ipa_uk": "ˈpeɪstri",
+      "translation_ru": "выпечка"
     },
     {
-      "word": "glass",
-      "ipa_us": "ɡlæs",
-      "ipa_uk": "ɡlɑːs",
-      "translation_ru": "стекло"
+      "word": "cinnamon",
+      "ipa_us": "ˈsɪnəmən",
+      "ipa_uk": "ˈsɪnəmən",
+      "translation_ru": "корица"
     },
     {
-      "word": "square",
-      "ipa_us": "skwer",
-      "ipa_uk": "skweə",
-      "translation_ru": "площадь"
+      "word": "explorers",
+      "ipa_us": "ɪkˈsplɔːrərz",
+      "ipa_uk": "ɪkˈsplɔːrəz",
+      "translation_ru": "исследователи"
     },
     {
-      "word": "expensive",
-      "ipa_us": "ɪkˈspensɪv",
-      "ipa_uk": "ɪkˈspensɪv",
-      "translation_ru": "дорогой"
+      "word": "microphone",
+      "ipa_us": "ˈmaɪkrəfoʊn",
+      "ipa_uk": "ˈmaɪkrəfəʊn",
+      "translation_ru": "микрофон"
+    },
+    {
+      "word": "mist",
+      "ipa_us": "mɪst",
+      "ipa_uk": "mɪst",
+      "translation_ru": "дымка, туман"
+    },
+    {
+      "word": "palace",
+      "ipa_us": "ˈpæləs",
+      "ipa_uk": "ˈpæləs",
+      "translation_ru": "дворец"
+    },
+    {
+      "word": "steep",
+      "ipa_us": "stiːp",
+      "ipa_uk": "stiːp",
+      "translation_ru": "крутой"
+    },
+    {
+      "word": "uneven",
+      "ipa_us": "ʌnˈiːvn",
+      "ipa_uk": "ʌnˈiːvn",
+      "translation_ru": "неровный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "Venice",
-        "Vera",
-        "very",
-        "view",
-        "visited"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "weekend",
-        "water",
-        "walked",
-        "was",
-        "watched",
-        "white",
-        "wine"
-      ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
-    },
-    {
       "sound": "r",
       "examples": [
-        "train",
-        "arrived",
-        "bridges",
-        "every"
+        "red",
+        "river",
+        "roofs"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Язык не касается нёба и не вибрирует; кончик слегка загнут назад, губы чуть округлены."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "tram",
+        "sad",
+        "back"
+      ],
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий, между «а» и «э»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "nine",
+        "time",
+        "inside"
+      ],
+      "tip_ru": "Дифтонг: широкое «а» плавно переходит в короткое «и»; второй элемент слабее первого."
     }
   ],
   "questions": [
     {
-      "question": "Where did the writer spend the weekend?",
-      "answer": "In Venice.",
+      "question": "Which tram did they take?",
+      "answer": "Number twenty-eight.",
       "accepted_keywords": [
-        "venice"
+        "twenty-eight",
+        "28"
       ]
     },
     {
-      "question": "How did they travel to the hotel?",
-      "answer": "By water bus.",
+      "question": "What is a pastel de nata?",
+      "answer": "A small pastry with soft yellow cream.",
       "accepted_keywords": [
-        "water",
-        "bus",
-        "boat"
+        "pastry",
+        "cream"
       ]
     },
     {
-      "question": "What did the man make in the workshop?",
-      "answer": "Glass.",
+      "question": "What is fado?",
+      "answer": "Slow, sad traditional music of Lisbon.",
       "accepted_keywords": [
-        "glass"
+        "music",
+        "sad",
+        "traditional",
+        "song"
       ]
     },
     {
-      "question": "Why was Sunday morning special?",
-      "answer": "Venice was empty and golden.",
+      "question": "Where did they go on the third day?",
+      "answer": "To Sintra.",
       "accepted_keywords": [
-        "empty",
-        "golden",
-        "quiet"
+        "sintra"
       ]
     }
   ]

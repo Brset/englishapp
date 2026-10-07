@@ -2,141 +2,162 @@
   "id": "b2-travel-04",
   "level": "B2",
   "genre": "travel",
-  "title_en": "By Train Through the Highlands",
-  "title_ru": "На поезде по Шотландскому нагорью",
-  "description_ru": "Описание железнодорожного путешествия по Шотландии от Глазго до Маллейга с видами озёр и гор.",
-  "text": "If someone had told me a year ago that I would spend my holiday on a train, I would have laughed. Yet last September I found myself on the West Highland Line, which many people consider one of the most beautiful railway journeys in the world.\n\nThe trip begins in Glasgow, where I boarded a small, slightly old-fashioned train at nine o'clock. Within an hour, the grey city had disappeared, and we were running beside Loch Lomond, a lake so calm that the mountains were reflected perfectly in its surface. A friendly guard walked through the carriage with a trolley and asked if anyone wanted tea. \"You'll need it,\" he said. \"The best part is still ahead.\"\n\nHe was right. After the small town of Crianlarich, the line climbs slowly to Rannoch Moor, a vast, empty wilderness of lakes, bogs and heather. It is claimed that this landscape is one of the last true wildernesses in Europe. The railway was built across it in the 1890s on a floating bed of tree roots and brushwood, because the ground was too soft to support the track. Engineers described the project as nearly impossible, and it took years to complete.\n\nThe highlight of the journey, for many passengers, is the Glenfinnan Viaduct. This curved stone bridge, with twenty-one arches, became world famous when it appeared in the Harry Potter films. On certain days, a steam train crosses it at eleven in the morning, and photographers gather on the hillside long before it arrives. I had to stand on tiptoe to see anything at all, but the moment was worth the effort.\n\nThe final stop is Mallaig, a working fishing port. I ate the freshest fish and chips of my life on the quay, while ferries left for the Isle of Skye. A seal watched me from the harbour wall, clearly hoping for a share.\n\nPractical tip: reserve a window seat in advance, especially in summer. Take warm clothes, because the weather changes quickly, and bring binoculars. With luck, you may spot red deer or even a golden eagle from the carriage window.",
-  "word_count": 350,
+  "title_en": "Marrakech and the High Atlas",
+  "title_ru": "Марракеш и Высокий Атлас",
+  "description_ru": "Рассказ о путешествии из шумного Марракеша в тишину гор Атласа: торговля на рынке, мятный чай и берберские деревни.",
+  "text": "The first thing that strikes you in Marrakech is the noise. Within minutes of leaving the airport, you are surrounded by horns, motorbikes, donkey carts, church bells and the calls of men selling everything from oranges to second-hand telephones. The second thing is the colour. The old city, known as the medina, is surrounded by walls of a deep rose-pink clay, so that at sunset the entire town seems to glow as if it were lit from the inside.\n\nInside the walls, the medina is a labyrinth of narrow alleys, and it is almost impossible not to get lost. My guidebook said that the best approach is to accept this fact on the first day and enjoy it. I followed that advice, wandered through a covered market where leather slippers hung from the ceiling like fruit, and ended up in a courtyard full of dyers, who hang long ribbons of bright wool to dry in the sun. A boy of about twelve offered to show me the way out for ten dirhams, and I gladly paid.\n\nHaggling is part of the culture, and many tourists find it uncomfortable. The trick is to treat it as a game and not as a battle. I was advised by a shopkeeper, who sold me a brass lamp, to start at about a third of the first price, to smile at all times and to be ready to walk away. Walking away, he admitted, is the strongest move in the game, because the seller will often call you back with a better offer. I paid fewer dirhams than I had planned, and we parted as friends.\n\nAt the centre of the medina lies the famous square of Jemaa el-Fna, which changes personality as the day advances. In the morning it is almost empty, apart from a few orange juice stalls and a snake charmer waiting for customers. By evening, it fills with smoke from dozens of food stands, drummers, storytellers and acrobats, and the air smells of grilled meat and spices. The best way to experience it is from a rooftop café at dusk, with a glass of mint tea, because from above the chaos becomes a kind of theatre.\n\nSpeaking of tea, it is the national drink, and the ritual of serving it is taken very seriously. Fresh mint and a great deal of sugar are added to green tea, and the host pours it from a height into small glasses, so that a layer of foam forms on the top. Refusing a glass would be considered impolite. I was told by my host that the first glass is gentle like life, the second is strong like love and the third is bitter like death, which is a lovely proverb and, as it turned out, a good reason to stop at two.\n\nAfter three days of noise, I was ready for something quieter, so I hired a driver and headed south to the High Atlas mountains. The journey takes only about an hour, but the contrast is dramatic. The road climbs through dry red hills and then through green valleys where walnut trees grow beside the rivers, and suddenly the air becomes cool and clean. The snow-covered peaks appear from nowhere, as if they were painted on the sky.\n\nMy destination was Imlil, a small village at the foot of Mount Toubkal, which, at four thousand one hundred and sixty-seven metres, is the highest peak in North Africa. I did not intend to climb it, because it takes two days and a certain amount of fitness. Instead, I booked a guide to take me on a day walk to a Berber village, where the houses are built of mud brick and look like part of the mountain itself. We crossed streams on stepping stones, and my guide, a cheerful man named Hassan, pointed out wild thyme and told me that his grandmother used it as medicine.\n\nIn the village, we were invited into a family home for lunch. We sat on cushions around a low table, and a huge dish of chicken with lemons and olives was set in the middle. Nobody used a fork. The grandmother explained, through Hassan, that bread is the best spoon, and that it is rude to take food from the side of the dish that belongs to someone else. When I admired the view from the roof, she replied that she had seen it every day for seventy years and still had not become tired of it.\n\nBack in Marrakech, I finished my trip with a visit to a hammam, a traditional steam bath. I was scrubbed, rinsed and massaged with such determination that I felt like a new person, or at least like a very clean old one. It is worth remembering that Moroccans are generally hospitable, but that it is respectful to dress modestly, to ask before taking photographs of people and to avoid eating or drinking in public during the month of Ramadan.\n\nOn the final morning, I stood on the roof of my riad, a traditional house built around a courtyard, and looked at the mountains in the distance, now covered with fresh snow. Below me, the city was starting its noise again. I realised that Marrakech had given me two journeys in one: a loud one and a silent one. The strange thing is that I was already missing both of them.",
+  "word_count": 905,
   "vocabulary": [
     {
-      "word": "Highland",
-      "ipa_us": "ˈhaɪləndz",
-      "ipa_uk": "ˈhaɪləndz",
-      "translation_ru": "Хайленд (нагорье)"
+      "word": "medina",
+      "ipa_us": "məˈdiːnə",
+      "ipa_uk": "məˈdiːnə",
+      "translation_ru": "старый город"
     },
     {
-      "word": "carriage",
-      "ipa_us": "ˈkærɪdʒ",
-      "ipa_uk": "ˈkærɪdʒ",
-      "translation_ru": "вагон"
+      "word": "labyrinth",
+      "ipa_us": "ˈlæbərɪnθ",
+      "ipa_uk": "ˈlæbərɪnθ",
+      "translation_ru": "лабиринт"
     },
     {
-      "word": "trolley",
-      "ipa_us": "ˈtrɑli",
-      "ipa_uk": "ˈtrɒli",
-      "translation_ru": "тележка"
+      "word": "dyers",
+      "ipa_us": "ˈdaɪərz",
+      "ipa_uk": "ˈdaɪəz",
+      "translation_ru": "красильщики"
     },
     {
-      "word": "wilderness",
-      "ipa_us": "ˈwɪldərnəs",
-      "ipa_uk": "ˈwɪldənəs",
-      "translation_ru": "дикая местность"
+      "word": "haggling",
+      "ipa_us": "ˈhæɡlɪŋ",
+      "ipa_uk": "ˈhæɡlɪŋ",
+      "translation_ru": "торг"
     },
     {
-      "word": "heather",
-      "ipa_us": "ˈhɛðər",
-      "ipa_uk": "ˈheðə",
-      "translation_ru": "вереск"
+      "word": "acrobats",
+      "ipa_us": "ˈækrəbæts",
+      "ipa_uk": "ˈækrəbæts",
+      "translation_ru": "акробаты"
     },
     {
-      "word": "brushwood",
-      "ipa_us": "ˈbrʌʃˌwʊd",
-      "ipa_uk": "ˈbrʌʃwʊd",
-      "translation_ru": "хворост"
+      "word": "proverb",
+      "ipa_us": "ˈprɑːvɜːrb",
+      "ipa_uk": "ˈprɒvɜːb",
+      "translation_ru": "пословица"
     },
     {
-      "word": "viaduct",
-      "ipa_us": "ˈvaɪəˌdʌkt",
-      "ipa_uk": "ˈvaɪədʌkt",
-      "translation_ru": "виадук"
+      "word": "contrast",
+      "ipa_us": "ˈkɑːntræst",
+      "ipa_uk": "ˈkɒntrɑːst",
+      "translation_ru": "контраст"
     },
     {
-      "word": "arches",
-      "ipa_us": "ˈɑrtʃɪz",
-      "ipa_uk": "ˈɑːtʃɪz",
-      "translation_ru": "арки"
+      "word": "thyme",
+      "ipa_us": "taɪm",
+      "ipa_uk": "taɪm",
+      "translation_ru": "чабрец"
     },
     {
-      "word": "quay",
-      "ipa_us": "ki",
-      "ipa_uk": "kiː",
-      "translation_ru": "причал"
+      "word": "hospitable",
+      "ipa_us": "hɑːˈspɪtəbl",
+      "ipa_uk": "hɒˈspɪtəbl",
+      "translation_ru": "гостеприимный"
     },
     {
-      "word": "binoculars",
-      "ipa_us": "bɪˈnɑkjələrz",
-      "ipa_uk": "bɪˈnɒkjʊləz",
-      "translation_ru": "бинокль"
+      "word": "modestly",
+      "ipa_us": "ˈmɑːdɪstli",
+      "ipa_uk": "ˈmɒdɪstli",
+      "translation_ru": "скромно"
+    },
+    {
+      "word": "riad",
+      "ipa_us": "riˈɑːd",
+      "ipa_uk": "riˈæd",
+      "translation_ru": "традиционный дом с двориком"
+    },
+    {
+      "word": "determination",
+      "ipa_us": "dɪˌtɜːrmɪˈneɪʃn",
+      "ipa_uk": "dɪˌtɜːmɪˈneɪʃn",
+      "translation_ru": "решимость"
     }
   ],
   "focus_sounds": [
+    {
+      "sound": "h",
+      "examples": [
+        "haggling",
+        "high",
+        "host",
+        "hill"
+      ],
+      "tip_ru": "Лёгкий выдох из горла, как при согревании рук; не русское жёсткое «х»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "customers",
+        "cushions",
+        "uncomfortable",
+        "sun"
+      ],
+      "tip_ru": "Короткий звук, близкий к русскому «а»; рот открыт слегка."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "day",
+        "game",
+        "paid",
+        "painted"
+      ],
+      "tip_ru": "Плавное скольжение от «э» к «и»; не короткое «э»."
+    },
     {
       "sound": "ð",
       "examples": [
         "the",
         "that",
-        "heather"
+        "they",
+        "other"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: слово the звучит как «зэ» с межзубным звуком, а не «з»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "West",
-        "world",
-        "window"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "railway",
-        "Rannoch",
-        "reserve"
-      ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
-    },
-    {
-      "sound": "ʌ",
-      "examples": [
-        "brushwood",
-        "luck"
-      ],
-      "tip_ru": "Короткий, глубокий звук, похожий на «а» в безударном положении; не «о» и не «а» с широко открытым ртом."
+      "tip_ru": "Язык между зубами, голос включён; не «з» и не «д»."
     }
   ],
   "questions": [
     {
-      "question": "Where does the journey begin?",
-      "answer": "In Glasgow.",
+      "question": "Why is the old city of Marrakech pink?",
+      "answer": "It is surrounded by walls of rose-pink clay.",
       "accepted_keywords": [
-        "glasgow"
+        "clay",
+        "walls",
+        "rose",
+        "pink"
       ]
     },
     {
-      "question": "What lake does the train run beside?",
-      "answer": "Loch Lomond.",
+      "question": "What advice did the shopkeeper give about haggling?",
+      "answer": "Start at a third of the price, smile and be ready to walk away.",
       "accepted_keywords": [
-        "lomond",
-        "loch"
+        "third",
+        "smile",
+        "walk away",
+        "price"
       ]
     },
     {
-      "question": "Why is the Glenfinnan Viaduct famous?",
-      "answer": "It appeared in the Harry Potter films.",
+      "question": "What is Mount Toubkal?",
+      "answer": "The highest peak in North Africa.",
       "accepted_keywords": [
-        "harry",
-        "potter",
-        "films"
+        "highest",
+        "peak",
+        "north africa"
       ]
     },
     {
-      "question": "What is Mallaig?",
-      "answer": "A working fishing port.",
+      "question": "What did the grandmother say bread is?",
+      "answer": "The best spoon.",
       "accepted_keywords": [
-        "port",
-        "fishing"
+        "spoon"
       ]
     }
   ]

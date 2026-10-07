@@ -2,123 +2,165 @@
   "id": "a1-science-04",
   "level": "A1",
   "genre": "science",
-  "title_en": "How a Rainbow Appears",
-  "title_ru": "Как появляется радуга",
-  "description_ru": "Почему после дождя при солнце на небе видна радуга.",
-  "text": "A rainbow appears when the sun shines and it rains at the same time. Sunlight looks white, but it has many colours inside. Raindrops work like tiny glass balls. They bend the light, and the colours separate.\n\nYou see red at the top, then orange, yellow, green, blue and violet. To see a rainbow, the sun must be behind you, and the rain must be in front of you. Sometimes you can see two rainbows. The second one is fainter, and its colours are in the opposite order.",
+  "title_en": "Inside a Volcano",
+  "title_ru": "Внутри вулкана",
+  "description_ru": "Что находится внутри Земли, почему вулканы извергаются, чем они опасны и чем полезны.",
+  "text": "Deep under our feet, the Earth is very hot. It is so hot that rock becomes liquid. Sometimes this hot liquid rock finds a way to the top, and then we have a volcano. A volcano is a mountain with a hole at the top. When it wakes up, it can shoot fire, smoke and hot rock into the sky. It is beautiful, but it is also very dangerous.\n\nTo understand volcanoes, we must first look inside our planet. The Earth has four parts. The outside part is the crust. It is thin and cold, and we live on it. Under the crust is the mantle. It is thick and very hot. In the middle there is a core, and it is as hot as the surface of the sun. The crust is not one piece. It is made of big flat parts, called plates. The plates move very slowly, only a few centimetres in a year.\n\nMost volcanoes are in places where two plates meet. One plate goes under another one and goes down into the hot mantle. There, the rock melts. The hot liquid rock is lighter than the solid rock around it, so it goes up. It collects in a big space under the volcano. This space is called a magma chamber. Under the ground, we call the liquid rock magma. When it comes out of the volcano, we call it lava.\n\nThere are three kinds of volcanoes. A shield volcano is wide and low, like a big plate. Its lava is thin and runs far. A cone volcano is tall and steep, and it has a perfect shape. It makes big and dangerous explosions. The third kind is a dome volcano, which has thick, sticky lava that makes a hill. Each volcano has its own character, and scientists give them names. Some are famous all over the world.\n\nWhy does a volcano erupt? Think about a bottle of fizzy drink. If you shake the bottle and open it, the drink shoots out. In a volcano, there is gas in the magma. When the magma goes up, the gas wants to escape. The pressure gets bigger and bigger. At last, the volcano cannot hold it, and it erupts. Some volcanoes erupt slowly, and the lava runs down like a hot red river. Other volcanoes explode with a terrible noise.\n\nOne famous volcano is Vesuvius, in Italy. In the year 79, it erupted and covered the Roman town of Pompeii with ash. People ran away, but many stayed too long. The ash was so deep that the town stayed hidden for more than sixteen hundred years. When scientists dug it out, they found houses, shops, paintings and even bread in an oven. Today, millions of tourists visit Pompeii every year.\n\nVolcanoes are not only bad. After an eruption, the ash and lava break down and make very good soil. Farmers around volcanoes grow grapes, coffee and vegetables there. Volcanoes also give us heat. In Iceland, people use hot water from under the ground to warm their houses and swimming pools. Some countries even make electricity from it. And volcanoes can make new land. The island of Hawaii is the top of a giant volcano that grows in the sea. Volcanoes also exist under the sea. In fact, most of the world's volcanoes are in the ocean, and nobody sees them. When one erupts under the water, the lava cools very fast and makes a strange shape, like a pillow. Near these volcanoes, the water is hot and full of minerals. Strange animals live there, like white crabs and long red worms. They do not need sunlight. They live from the heat of the Earth.\n\nCan scientists tell us when a volcano will erupt? Not exactly, but they can watch the signs. Before an eruption, the ground shakes in small earthquakes. The mountain gets a little bigger. The volcano sends out more gas. Scientists measure these things with special machines. When they see danger, they warn people early, and people can leave their homes. This saves thousands of lives every year.\n\nThere are about fifteen hundred active volcanoes in the world, and about fifty erupt every year. Most are far from people. If you ever visit a volcano, listen to the guides and stay on the path. A volcano is like a sleeping giant. It is wonderful to see, but you must respect it.\n\nOther planets have volcanoes too. On Mars, there is a volcano called Olympus Mons. It is the biggest volcano that we know in the whole solar system. It is three times taller than Mount Everest. Scientists think it is not active now, but it was active in the past. On Io, one of the moons of Jupiter, many volcanoes are erupting at this moment.",
+  "word_count": 798,
   "vocabulary": [
     {
-      "word": "rainbow",
-      "ipa_us": "ˈreɪnboʊ",
-      "ipa_uk": "ˈreɪnbəʊ",
-      "translation_ru": "радуга"
+      "word": "volcano",
+      "ipa_us": "vɑːlˈkeɪnoʊ",
+      "ipa_uk": "vɒlˈkeɪnəʊ",
+      "translation_ru": "вулкан"
     },
     {
-      "word": "sunlight",
-      "ipa_us": "ˈsʌnlaɪt",
-      "ipa_uk": "ˈsʌnlaɪt",
-      "translation_ru": "солнечный свет"
+      "word": "lava",
+      "ipa_us": "ˈlɑːvə",
+      "ipa_uk": "ˈlɑːvə",
+      "translation_ru": "лава"
     },
     {
-      "word": "raindrops",
-      "ipa_us": "ˈreɪndrɑːps",
-      "ipa_uk": "ˈreɪndrɒps",
-      "translation_ru": "капли дождя"
+      "word": "magma",
+      "ipa_us": "ˈmæɡmə",
+      "ipa_uk": "ˈmæɡmə",
+      "translation_ru": "магма"
     },
     {
-      "word": "tiny",
-      "ipa_us": "ˈtaɪni",
-      "ipa_uk": "ˈtaɪni",
-      "translation_ru": "крошечный"
+      "word": "crust",
+      "ipa_us": "krʌst",
+      "ipa_uk": "krʌst",
+      "translation_ru": "земная кора"
     },
     {
-      "word": "bend",
-      "ipa_us": "bend",
-      "ipa_uk": "bend",
-      "translation_ru": "преломлять, гнуть"
+      "word": "mantle",
+      "ipa_us": "ˈmæntl",
+      "ipa_uk": "ˈmæntl",
+      "translation_ru": "мантия"
     },
     {
-      "word": "violet",
-      "ipa_us": "ˈvaɪələt",
-      "ipa_uk": "ˈvaɪələt",
-      "translation_ru": "фиолетовый"
+      "word": "erupt",
+      "ipa_us": "ɪˈrʌpt",
+      "ipa_uk": "ɪˈrʌpt",
+      "translation_ru": "извергаться"
     },
     {
-      "word": "behind",
-      "ipa_us": "bɪˈhaɪnd",
-      "ipa_uk": "bɪˈhaɪnd",
-      "translation_ru": "позади"
+      "word": "ash",
+      "ipa_us": "æʃ",
+      "ipa_uk": "æʃ",
+      "translation_ru": "пепел"
     },
     {
-      "word": "opposite",
-      "ipa_us": "ˈɑːpəzɪt",
-      "ipa_uk": "ˈɒpəzɪt",
-      "translation_ru": "противоположный"
+      "word": "plates",
+      "ipa_us": "pleɪts",
+      "ipa_uk": "pleɪts",
+      "translation_ru": "плиты"
+    },
+    {
+      "word": "pressure",
+      "ipa_us": "ˈprɛʃər",
+      "ipa_uk": "ˈpreʃə",
+      "translation_ru": "давление"
+    },
+    {
+      "word": "earthquakes",
+      "ipa_us": "ˈɜːrθkweɪks",
+      "ipa_uk": "ˈɜːθkweɪks",
+      "translation_ru": "землетрясения"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "soil",
+      "ipa_us": "sɔɪl",
+      "ipa_uk": "sɔɪl",
+      "translation_ru": "почва"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "rainbow",
-        "rain",
-        "red",
-        "green"
+        "earth",
+        "thin",
+        "thick",
+        "three"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
-      "sound": "aɪ",
+      "sound": "æ",
       "examples": [
-        "shines",
-        "white",
-        "light",
-        "violet"
+        "magma",
+        "ash",
+        "that",
+        "lava"
       ],
-      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+      "tip_ru": "Рот открыт широко, звук между «а» и «э»; не заменяйте на «э»."
     },
     {
-      "sound": "eɪ",
+      "sound": "ʌ",
       "examples": [
-        "rainbow",
-        "rain",
-        "raindrops",
-        "same"
+        "crust",
+        "volcano",
+        "some"
       ],
-      "tip_ru": "Начните с «э» и плавно скользите к «и». Звук двойной, а не короткое «е»."
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "volcano",
+        "dangerous",
+        "pressure",
+        "earthquakes"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "When does a rainbow appear?",
-      "answer": "When the sun shines and it rains.",
+      "question": "What is lava?",
+      "answer": "Hot liquid rock that comes out of a volcano.",
       "accepted_keywords": [
-        "sun",
-        "rain"
+        "rock",
+        "hot",
+        "liquid"
       ]
     },
     {
-      "question": "What colour is sunlight?",
-      "answer": "White.",
+      "question": "What happened to Pompeii?",
+      "answer": "It was covered with ash from Vesuvius.",
       "accepted_keywords": [
-        "white"
+        "ash",
+        "vesuvius",
+        "covered",
+        "volcano"
       ]
     },
     {
-      "question": "What colour is at the top?",
-      "answer": "Red.",
+      "question": "How are volcanoes good for farmers?",
+      "answer": "The ash and lava make good soil.",
       "accepted_keywords": [
-        "red"
+        "soil",
+        "ash",
+        "grow",
+        "farm"
       ]
     },
     {
-      "question": "How many rainbows can you sometimes see?",
-      "answer": "Two.",
+      "question": "How do scientists know that a volcano may erupt?",
+      "answer": "The ground shakes and the volcano sends out gas.",
       "accepted_keywords": [
-        "two",
-        "2"
+        "shake",
+        "earthquake",
+        "ground",
+        "gas"
       ]
     }
-  ],
-  "word_count": 88
+  ]
 }

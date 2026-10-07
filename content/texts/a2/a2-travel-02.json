@@ -2,126 +2,146 @@
   "id": "a2-travel-02",
   "level": "A2",
   "genre": "travel",
-  "title_en": "The Mountain Train",
-  "title_ru": "Горный поезд",
-  "description_ru": "Поездка на поезде по горам Швейцарии: виды, погода и сыр.",
-  "text": "Last winter, I took a famous train through the mountains of Switzerland. The journey was nine hours long, and it was the most beautiful trip of my life.\n\nThe train was slow, but that was good, because we had time to look out of the big windows. We crossed high bridges, passed dark forests and went through long tunnels. Outside, everything was white. Small wooden houses stood in the snow, and thin smoke rose from their chimneys.\n\nAt lunchtime, I walked to the restaurant car and ordered a hot cheese dish. It was delicious, and it was much cheaper than the food at the airport. A young couple from Brazil sat at my table, and we talked about our countries.\n\nWhen the train arrived at the last station, the sun was already going down. The mountains turned pink, and I took one hundred photographs. I am going to go again next year.",
-  "word_count": 152,
+  "title_en": "Across Russia by Train",
+  "title_ru": "Через всю Россию на поезде",
+  "description_ru": "Путешествие по Транссибирской магистрали от Москвы до Владивостока: попутчики, самовар, Урал и озеро Байкал.",
+  "text": "For many years, I dreamed about the Trans-Siberian Railway. It is the longest railway in the world, and it connects Moscow with Vladivostok, a port on the Pacific Ocean. The journey is nearly nine thousand three hundred kilometres, and a direct train takes about a week. Last summer, I finally had enough holiday days and some money. I bought a ticket in second class, packed a small bag and took a taxi to the station.\n\nThe train was long and green, and a woman in a blue uniform stood at the door of each carriage. She was called a provodnitsa, and she took care of the passengers. Mine was named Galina. She checked my ticket, showed me my compartment and told me where to find the hot water. Every carriage had a big metal samovar at one end, and it gave free boiling water all day. I quickly learned that this is the most important thing on a long train.\n\nIn my compartment, there were four beds, two on each side, and a small table by the window. My neighbours were an old man called Viktor, who was travelling to see his daughter, and two students going to a summer camp. In the first hour, we were all quiet and shy. In the second hour, Viktor opened a bag and took out boiled eggs, cucumbers, black bread and a piece of smoked fish. \"Eat,\" he said, \"the road is long.\" After that, we were friends.\n\nThe first day passed slowly. We went through forests, small villages and wide fields, and we stopped at stations for ten or fifteen minutes. On the platforms, local women sold hot potatoes, pies and dried fish. I bought a bag of berries and a pie with cabbage, and I almost missed the train when it started to move. Galina laughed and said that I was the third person to run this week. \"Do not worry,\" she said. \"The train never leaves anyone behind. It only pretends.\"\n\nOn the second evening, we crossed the Ural Mountains. There is a small white monument near the line that marks the border between Europe and Asia. The train does not stop there, but everyone looks out of the window, and for a minute the whole carriage was silent. I took a photograph, though it was too dark and too fast. After that, the landscape changed. The land became wider and flatter, and the forests became larger, until it seemed that there were no people in the world.\n\nThe longest part of the trip was Siberia. For three days, I watched birch trees and rivers, and I read two books. I also learned to play a card game from the students, and I lost twelve times in a row. We talked about everything: music, politics, food and our families. Viktor told stories about the army and about his mother's cooking. One night, the train stopped for an hour in the middle of nowhere, and we all looked at an enormous sky full of stars.\n\nOn the fifth day, we reached Lake Baikal. It is the deepest lake on the Earth, and it holds about one fifth of all the fresh water on the surface of the planet. The railway runs along the shore for many kilometres, and the water was clear and blue, with high green hills behind it. I wanted to stay, so I got off at a small town and spent two nights in a wooden guesthouse. I swam in the cold water for exactly one minute, and I ate a smoked fish called omul, which is the local speciality.\n\nThen I caught another train, and two days later, I arrived in Vladivostok. My legs felt strange on solid ground, and I could still feel the movement of the carriage for hours. In the station, there was a small stone with the number nine thousand two hundred eighty-nine, the kilometres from Moscow. I stood next to it and smiled, and a stranger took my photograph.\n\nPeople often ask me whether the trip was boring. It was not. It was slower than a plane and cheaper than a hotel, and it gave me time to think. I met people who I will never forget, and I saw that my country is much bigger than any map suggests. Next year, I am going to travel in the other direction, and Viktor has already invited me to dinner.",
+  "word_count": 739,
   "vocabulary": [
     {
-      "word": "famous",
-      "ipa_us": "ˈfeɪməs",
-      "ipa_uk": "ˈfeɪməs",
-      "translation_ru": "знаменитый"
+      "word": "railway",
+      "ipa_us": "ˈreɪlweɪ",
+      "ipa_uk": "ˈreɪlweɪ",
+      "translation_ru": "железная дорога"
     },
     {
-      "word": "journey",
-      "ipa_us": "ˈdʒɜrni",
-      "ipa_uk": "ˈdʒɜːni",
-      "translation_ru": "путешествие"
+      "word": "carriage",
+      "ipa_us": "ˈkærɪdʒ",
+      "ipa_uk": "ˈkærɪdʒ",
+      "translation_ru": "вагон"
     },
     {
-      "word": "windows",
-      "ipa_us": "ˈwɪndoʊz",
-      "ipa_uk": "ˈwɪndəʊz",
-      "translation_ru": "окна"
+      "word": "compartment",
+      "ipa_us": "kəmˈpɑːrtmənt",
+      "ipa_uk": "kəmˈpɑːtmənt",
+      "translation_ru": "купе"
     },
     {
-      "word": "tunnels",
-      "ipa_us": "ˈtʌnəlz",
-      "ipa_uk": "ˈtʌnəlz",
-      "translation_ru": "туннели"
+      "word": "samovar",
+      "ipa_us": "ˈsæməvɑːr",
+      "ipa_uk": "ˈsæməvɑː",
+      "translation_ru": "самовар"
     },
     {
-      "word": "wooden",
-      "ipa_us": "ˈwʊdən",
-      "ipa_uk": "ˈwʊdən",
-      "translation_ru": "деревянный"
+      "word": "platform",
+      "ipa_us": "ˈplætfɔːrm",
+      "ipa_uk": "ˈplætfɔːm",
+      "translation_ru": "платформа"
     },
     {
-      "word": "chimneys",
-      "ipa_us": "ˈtʃɪmniz",
-      "ipa_uk": "ˈtʃɪmniz",
-      "translation_ru": "дымоходы"
+      "word": "border",
+      "ipa_us": "ˈbɔːrdər",
+      "ipa_uk": "ˈbɔːdə",
+      "translation_ru": "граница"
     },
     {
-      "word": "delicious",
-      "ipa_us": "dɪˈlɪʃəs",
-      "ipa_uk": "dɪˈlɪʃəs",
-      "translation_ru": "вкусный"
+      "word": "monument",
+      "ipa_us": "ˈmɑːnjumənt",
+      "ipa_uk": "ˈmɒnjʊmənt",
+      "translation_ru": "памятник"
     },
     {
-      "word": "station",
-      "ipa_us": "ˈsteɪʃən",
-      "ipa_uk": "ˈsteɪʃən",
-      "translation_ru": "станция"
+      "word": "landscape",
+      "ipa_us": "ˈlændskeɪp",
+      "ipa_uk": "ˈlændskeɪp",
+      "translation_ru": "пейзаж"
+    },
+    {
+      "word": "birch",
+      "ipa_us": "bɜːrtʃ",
+      "ipa_uk": "bɜːtʃ",
+      "translation_ru": "берёза"
+    },
+    {
+      "word": "guesthouse",
+      "ipa_us": "ˈɡɛsthaʊs",
+      "ipa_uk": "ˈɡesthaʊs",
+      "translation_ru": "гостевой дом"
+    },
+    {
+      "word": "speciality",
+      "ipa_us": "ˌspɛʃiˈæləti",
+      "ipa_uk": "ˌspeʃiˈæləti",
+      "translation_ru": "фирменное блюдо"
+    },
+    {
+      "word": "stranger",
+      "ipa_us": "ˈstreɪndʒər",
+      "ipa_uk": "ˈstreɪndʒə",
+      "translation_ru": "незнакомец"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "winter",
-        "windows",
-        "white",
-        "wooden",
-        "was",
-        "walked"
+        "railway",
+        "station",
+        "stranger"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Дифтонг: начните с «э» и плавно перейдите к короткому «и»; не превращайте его в чистое «э»."
     },
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "the",
-        "through",
-        "thin",
-        "that"
+        "carriage",
+        "platform",
+        "passenger"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт шире, чем для русского «э»; язык низко и впереди, звук короткий, между «а» и «э»."
     },
     {
-      "sound": "r",
+      "sound": "ɔː",
       "examples": [
-        "train",
-        "crossed",
-        "restaurant",
-        "ordered",
-        "Brazil"
+        "border",
+        "forests",
+        "four"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Долгий звук «о» с округлёнными губами; рот открыт больше, чем для русского «о», и звук тянется."
     }
   ],
   "questions": [
     {
-      "question": "How long was the journey?",
-      "answer": "Nine hours.",
+      "question": "Which two cities does the railway connect?",
+      "answer": "Moscow and Vladivostok.",
       "accepted_keywords": [
-        "nine",
-        "9"
+        "moscow",
+        "vladivostok"
       ]
     },
     {
-      "question": "What was the weather outside?",
-      "answer": "Snowy, everything was white.",
+      "question": "Who took care of the passengers in the carriage?",
+      "answer": "The provodnitsa, Galina.",
       "accepted_keywords": [
-        "snow",
-        "white"
+        "galina",
+        "provodnitsa"
       ]
     },
     {
-      "question": "What did the writer eat?",
-      "answer": "A hot cheese dish.",
+      "question": "What food did Viktor share?",
+      "answer": "Boiled eggs, cucumbers, black bread and smoked fish.",
       "accepted_keywords": [
-        "cheese"
+        "eggs",
+        "bread",
+        "fish",
+        "cucumbers"
       ]
     },
     {
-      "question": "How many photographs did the writer take?",
-      "answer": "One hundred.",
+      "question": "Which lake did the writer visit?",
+      "answer": "Lake Baikal.",
       "accepted_keywords": [
-        "hundred",
-        "100"
+        "baikal"
       ]
     }
   ]

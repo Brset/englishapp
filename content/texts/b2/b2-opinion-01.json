@@ -2,132 +2,172 @@
   "id": "b2-opinion-01",
   "level": "B2",
   "genre": "opinion",
-  "title_en": "In Defence of Paper Books",
-  "title_ru": "В защиту бумажных книг",
-  "description_ru": "Личное мнение автора о том, почему он вернулся от электронной книги к бумажной, с аргументами за и против.",
-  "text": "Last month my daughter gave me an e-reader for my birthday. It is light, it holds a thousand books, and the screen is easy on the eyes. Everyone told me I would love it. Yet after three weeks I went back to paper, and I think I know why.\n\nFirst, a book is more than words. It is said that we remember where on the page we read something, and I believe it. With a paper book I can recall that a quotation was near the bottom of a left-hand page, about a third of the way through. On a screen, the text simply flows away like water, and nothing stays in my memory. Researchers have also reported that readers of printed texts sometimes understand long, complicated arguments better, although the evidence is not completely clear.\n\nSecond, there are no distractions. My e-reader was supposed to be used only for reading, but it kept reminding me that I could check the weather, download another novel, or adjust the font. A paper book never interrupts you. It does not need charging, and it will not break if you drop it in the bath, which, I admit, I have done more than once.\n\nOf course, the other side has strong arguments. Digital books are cheaper, they are better for the environment when you travel, and they are perfect for people with poor eyesight, who can make the letters as large as they like. My grandfather, for instance, reads three novels a week now that he can enlarge the print.\n\nSo I am not saying that e-readers should be banned. That would be ridiculous. What I am saying is that we should not throw the baby out with the bathwater. A shelf of well-worn books tells a story about its owner, and no cloud storage can ever replace the smell of an old library. In my opinion, the future of reading should have room for both, but I will keep choosing paper whenever I have the choice.",
+  "title_en": "Why Schools Should Lock Away Phones",
+  "title_ru": "Почему школам стоит убирать телефоны",
+  "description_ru": "Эссе-рассуждение в пользу запрета смартфонов на уроках: аргументы, возражения и компромиссное решение.",
+  "text": "When I was a teacher, I used to think that banning mobile phones in classrooms was a lost cause. Every ban I had seen seemed to end the same way: students hid their phones under desks, teachers wasted energy playing detective, and everyone went home annoyed. But after watching what has happened in schools that have introduced a strict rule, I have changed my mind. In my opinion, phones should be locked away for the whole school day, and the evidence for this is stronger than most people admit.\n\nLet me start with attention. Researchers who study learning keep repeating the same simple point: the brain cannot do two demanding things at once. It only switches rapidly between them, and every switch costs time and energy. One experiment, which has often been quoted, found that students whose phones were merely lying on the desk, face down and silent, scored lower on a memory test than those whose phones had been left in another room. The phone did not have to buzz to be a distraction. Simply knowing it was there was enough to take the edge off their concentration.\n\nSupporters of phones in class reply that teachers can make good use of them. Students can look up words, take photographs of the board and use educational apps. That is true, and I do not deny it. But the same device that contains a dictionary also contains games, videos, group chats and a hundred other temptations, all of which have been designed by very clever people to be as hard to resist as possible. Asking a fourteen-year-old to ignore them is like asking someone on a diet to guard a bakery. If a school needs a screen, it can provide a tablet that has been set up for learning and nothing else.\n\nThe second argument concerns the break times. Several head teachers have reported that, after a ban was introduced, the playground suddenly became noisy again. Children ran, argued, invented games and, rather inconveniently for the staff, fell over. One head teacher told a newspaper that the lunch hall, which used to be quiet because everybody was staring at a screen, had turned into a chaotic place full of conversation. She added that she had never been so happy to hear so much noise. Learning to talk face to face, to read a friend's expression and to cope with an awkward silence is not a luxury. It is a skill, and like any skill it needs practice.\n\nThe third argument is about fairness. Not every family can afford the latest model, and a classroom in which phones are everywhere can quickly become a place where status is measured in cameras and screen sizes. Bullying has also moved online, and it follows children into lessons. When messages and photographs can be sent in seconds, a humiliating moment in the corridor can be seen by hundreds of classmates before the next bell has rung. A phone-free school cannot end cruelty, but it can at least reduce the audience.\n\nOf course, the critics have some fair points. Parents often say that they want to be able to contact their children in an emergency. This is understandable, and the solution is simple: the school office can pass on urgent messages, as it did for generations before mobile phones existed. Others claim that a ban simply teaches children to rebel, and that it would be better to teach them to use technology responsibly. I agree that digital literacy matters. But self-control is not taught by leaving temptation on the desk. We do not teach children to cross the road by throwing them into the traffic.\n\nWhat does the evidence from real schools show? In several countries where a ban has been introduced, teachers say that lessons start more quickly and that fewer arguments take place. A study of schools in England reported that test results improved, particularly for the weakest students, who seemed to benefit most from fewer distractions. Not every study has found such dramatic effects, and I would be cautious about promising miracles. Still, even a modest improvement is hard to ignore, given that the policy costs almost nothing.\n\nThe way a ban is introduced also matters. Rules that are imposed without explanation tend to be resented. The best results seem to come when students, parents and teachers discuss the reasons together, and when the rule is applied consistently to everyone, including the adults. A teacher who checks messages in the middle of a lesson cannot expect much sympathy when he confiscates a pupil's phone. Simple storage, such as a locked pouch or a box at the classroom door, also works better than relying on willpower.\n\nI do not believe that phones are evil, and I use mine all day long. My point is that school is one of the few places left where young people are asked to concentrate on something difficult for an hour at a time, and where they can be bored without being rescued. Those are valuable experiences, and they are being squeezed out of modern life. A school phone ban is not a war against technology. It is a modest attempt to protect time and attention, two things that, once lost, are very hard to get back.",
+  "word_count": 882,
   "vocabulary": [
     {
-      "word": "distractions",
-      "ipa_us": "dɪˈstrækʃənz",
-      "ipa_uk": "dɪˈstrækʃənz",
-      "translation_ru": "отвлекающие факторы"
-    },
-    {
-      "word": "quotation",
-      "ipa_us": "kwoʊˈteɪʃən",
-      "ipa_uk": "kwəʊˈteɪʃən",
-      "translation_ru": "цитата"
+      "word": "classroom",
+      "ipa_us": "ˈklæsˌrum",
+      "ipa_uk": "ˈklɑːsruːm",
+      "translation_ru": "класс (аудитория)"
     },
     {
       "word": "evidence",
-      "ipa_us": "ˈɛvədəns",
+      "ipa_us": "ˈɛvɪdəns",
       "ipa_uk": "ˈevɪdəns",
       "translation_ru": "доказательства"
     },
     {
-      "word": "adjust",
-      "ipa_us": "əˈdʒʌst",
-      "ipa_uk": "əˈdʒʌst",
-      "translation_ru": "настроить"
+      "word": "demanding",
+      "ipa_us": "dɪˈmændɪŋ",
+      "ipa_uk": "dɪˈmɑːndɪŋ",
+      "translation_ru": "требовательный, трудный"
     },
     {
-      "word": "enlarge",
-      "ipa_us": "ɪnˈlɑrdʒ",
-      "ipa_uk": "ɪnˈlɑːdʒ",
-      "translation_ru": "увеличить"
+      "word": "concentration",
+      "ipa_us": "ˌkɑnsənˈtreɪʃən",
+      "ipa_uk": "ˌkɒnsənˈtreɪʃən",
+      "translation_ru": "концентрация"
     },
     {
-      "word": "ridiculous",
-      "ipa_us": "rɪˈdɪkjələs",
-      "ipa_uk": "rɪˈdɪkjʊləs",
-      "translation_ru": "нелепый"
+      "word": "temptations",
+      "ipa_us": "tɛmpˈteɪʃənz",
+      "ipa_uk": "tempˈteɪʃənz",
+      "translation_ru": "соблазны"
     },
     {
-      "word": "well-worn",
-      "ipa_us": "ˌwɛlˈwɔrn",
-      "ipa_uk": "ˌwelˈwɔːn",
-      "translation_ru": "потрёпанный"
+      "word": "inconveniently",
+      "ipa_us": "ˌɪnkənˈvinjəntli",
+      "ipa_uk": "ˌɪnkənˈviːniəntli",
+      "translation_ru": "некстати"
     },
     {
-      "word": "replace",
-      "ipa_us": "rɪˈpleɪs",
-      "ipa_uk": "rɪˈpleɪs",
-      "translation_ru": "заменить"
+      "word": "humiliating",
+      "ipa_us": "hjuˈmɪliˌeɪtɪŋ",
+      "ipa_uk": "hjuːˈmɪlieɪtɪŋ",
+      "translation_ru": "унизительный"
+    },
+    {
+      "word": "emergency",
+      "ipa_us": "ɪˈmɜrdʒənsi",
+      "ipa_uk": "ɪˈmɜːdʒənsi",
+      "translation_ru": "чрезвычайная ситуация"
+    },
+    {
+      "word": "literacy",
+      "ipa_us": "ˈlɪtərəsi",
+      "ipa_uk": "ˈlɪtərəsi",
+      "translation_ru": "грамотность"
+    },
+    {
+      "word": "cautious",
+      "ipa_us": "ˈkɔʃəs",
+      "ipa_uk": "ˈkɔːʃəs",
+      "translation_ru": "осторожный"
+    },
+    {
+      "word": "consistently",
+      "ipa_us": "kənˈsɪstəntli",
+      "ipa_uk": "kənˈsɪstəntli",
+      "translation_ru": "последовательно"
+    },
+    {
+      "word": "confiscates",
+      "ipa_us": "ˈkɑnfɪˌskeɪts",
+      "ipa_uk": "ˈkɒnfɪskeɪts",
+      "translation_ru": "конфискует"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thousand",
-        "three",
-        "think"
+        "think",
+        "things",
+        "nothing",
+        "something"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
     },
     {
-      "sound": "w",
+      "sound": "ŋ",
       "examples": [
-        "weeks",
-        "water",
-        "would"
+        "long",
+        "young",
+        "being",
+        "nothing"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "reading",
-        "remember",
-        "researchers"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
-    },
-    {
-      "sound": "v",
-      "examples": [
+        "classroom",
         "evidence",
-        "novel",
-        "never"
+        "demanding",
+        "concentration"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "time",
+        "place",
+        "people",
+        "take"
+      ],
+      "tip_ru": "Перед ударной гласной p, t, k произносите с лёгким придыханием, как маленький выдох."
     }
   ],
   "questions": [
     {
-      "question": "What did the author's daughter give him?",
-      "answer": "An e-reader.",
+      "question": "What did the memory experiment show?",
+      "answer": "Students whose phones were on the desk, even silent, did worse than those whose phones were in another room.",
       "accepted_keywords": [
-        "e-reader",
-        "reader"
+        "worse",
+        "lower",
+        "desk",
+        "memory",
+        "phone"
       ]
     },
     {
-      "question": "Why does he say paper books have no distractions?",
-      "answer": "They do not remind you of other things like the weather or downloads.",
+      "question": "What are the author's three main arguments?",
+      "answer": "Attention, face-to-face contact at break times, and fairness and less bullying.",
       "accepted_keywords": [
-        "interrupt",
-        "interrupts",
-        "weather",
-        "distractions"
+        "attention",
+        "fairness",
+        "bullying",
+        "break",
+        "talk"
       ]
     },
     {
-      "question": "Who benefits from enlarging the print?",
-      "answer": "People with poor eyesight, such as his grandfather.",
+      "question": "How does the author answer parents who want to reach their children?",
+      "answer": "The school office can pass on urgent messages.",
       "accepted_keywords": [
-        "grandfather",
-        "eyesight"
+        "office",
+        "school",
+        "messages",
+        "urgent"
       ]
     },
     {
-      "question": "What does he choose in the end?",
-      "answer": "Paper books.",
+      "question": "What makes a ban work better?",
+      "answer": "Explaining the reasons, applying it to everyone including adults, and using simple storage like locked pouches.",
       "accepted_keywords": [
-        "paper"
+        "explain",
+        "discuss",
+        "everyone",
+        "adults",
+        "pouch",
+        "storage",
+        "consistently"
       ]
     }
-  ],
-  "word_count": 339
+  ]
 }

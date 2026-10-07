@@ -2,119 +2,154 @@
   "id": "a1-biography-02",
   "level": "A1",
   "genre": "biography",
-  "title_en": "Marie Curie",
-  "title_ru": "Мария Кюри",
-  "description_ru": "Жизнь женщины, которая дважды получила Нобелевскую премию за работу с радиоактивностью.",
-  "text": "Marie Curie was born in Warsaw, in Poland, in 1867. She was a very clever girl, but she was poor. She moved to Paris and studied science there.\n\nIn Paris she met Pierre Curie. They married and worked together in a small, cold room. They studied a new thing in nature: radioactivity.\n\nMarie won two Nobel Prizes. She was the first woman to win one. Her first prize was in physics, and her second prize was in chemistry. She worked hard all her life, and she died in 1934.",
-  "word_count": 87,
+  "title_en": "Albert Einstein: The Curious Mind",
+  "title_ru": "Альберт Эйнштейн: любопытный ум",
+  "description_ru": "Жизнь самого знаменитого физика: компас в детстве, работа в бюро в Берне, 1905 год и Нобелевская премия.",
+  "text": "Albert Einstein is probably the most famous scientist in history. Many people know his name, his wild grey hair and his kind face. But he was not always a famous man. He was born on March 14, 1879, in the town of Ulm, in Germany. His father, Hermann, had a small business, and his mother, Pauline, played the piano very well. When Albert was one year old, the family moved to the big city of Munich.\n\nAlbert was a quiet and thoughtful child. Some people say he started to talk late, and he did not like noisy games with other boys. When he was five, he was ill in bed, and his father gave him a small compass. Albert watched the needle for a long time. It always pointed north, and nobody touched it! He thought, \"Something invisible makes it move.\" That day he started to ask questions about the world, and he never stopped.\n\nHis mother taught him to play the violin when he was six. At first he did not like it, but later he loved music very much. He played the violin all his life, and he often said that music helped him to think. He also read many books about science and maths. At twelve he got a book about geometry, and he called it his holy little book. He learned everything in it in one summer.\n\nSchool was not easy for Albert. He did not like his strict teachers in Germany, because they wanted students to repeat words, not to think. At sixteen he went to Switzerland and wanted to enter a university in Zurich. He was younger than the other students, and he did not pass the first exam. But his maths and physics marks were excellent. He studied for a year at a school in a small town, and then he entered the university.\n\nAfter university Albert could not find a good job as a teacher. In 1902 he started to work in an office in Bern, in Switzerland. His job was to look at the ideas of other people and decide if they were good. The work was easy, so he had a lot of free time. He often hid his own papers in a drawer and worked on them in the office. In 1903 he married Mileva Maric, a friend from university. They had two sons.\n\nThe year 1905 was the most amazing year in his life. In only one year, this young man in a small office wrote four important papers. They changed physics for ever. In one paper he showed that light is made of tiny pieces. In another one he talked about time and space, and he said that time is not the same for everybody. He also wrote a famous short idea about energy, E equals m c squared. Many people could not understand it, but it was true.\n\nSoon the world listened to him. Albert became a professor and worked in several cities. In 1915 he finished his big idea about gravity. In 1919 scientists watched the sun during an eclipse, and they saw that his idea was right. The next morning newspapers around the world wrote about Einstein. In 1921 he won the Nobel Prize in Physics. People loved him. They came to hear him speak, and they shouted his name in the street.\n\nIn 1933 life in Germany became dangerous, because Adolf Hitler was now the leader, and Albert was Jewish. He left Europe and went to the United States. He lived in a quiet town called Princeton and worked at a university there. He also liked to sail his small boat on a lake, and he was not a very good sailor! He walked to work every day, and children often stopped him to ask about their homework. He always helped them.\n\nAlbert was a gentle man, and he cared about peace. He did not like wars, and he spoke about this many times. In 1952 Israel asked him to be its president, but he said no. He said that he knew science better than people. He liked simple things: old clothes, long walks and a pipe, and he often did not wear socks. He died on April 18, 1955, at the age of seventy-six. Today we still use his ideas in many things, for example in satellites and in the maps on our phones. His curious mind is a good example for all of us.",
+  "word_count": 732,
   "vocabulary": [
     {
-      "word": "clever",
-      "ipa_us": "ˈklɛvər",
-      "ipa_uk": "ˈklevə",
-      "translation_ru": "умный"
+      "word": "compass",
+      "ipa_us": "ˈkʌmpəs",
+      "ipa_uk": "ˈkʌmpəs",
+      "translation_ru": "компас"
     },
     {
-      "word": "poor",
-      "ipa_us": "pʊr",
-      "ipa_uk": "pɔː",
-      "translation_ru": "бедный"
+      "word": "invisible",
+      "ipa_us": "ɪnˈvɪzəbəl",
+      "ipa_uk": "ɪnˈvɪzɪbəl",
+      "translation_ru": "невидимый"
     },
     {
-      "word": "moved",
-      "ipa_us": "muvd",
-      "ipa_uk": "muːvd",
-      "translation_ru": "переехала"
+      "word": "violin",
+      "ipa_us": "ˌvaɪəˈlɪn",
+      "ipa_uk": "ˌvaɪəˈlɪn",
+      "translation_ru": "скрипка"
     },
     {
-      "word": "studied",
-      "ipa_us": "ˈstʌdid",
-      "ipa_uk": "ˈstʌdid",
-      "translation_ru": "училась"
+      "word": "geometry",
+      "ipa_us": "dʒiˈɑmətri",
+      "ipa_uk": "dʒiˈɒmɪtri",
+      "translation_ru": "геометрия"
     },
     {
-      "word": "married",
-      "ipa_us": "ˈmɛrid",
-      "ipa_uk": "ˈmærid",
-      "translation_ru": "поженились"
+      "word": "strict",
+      "ipa_us": "strɪkt",
+      "ipa_uk": "strɪkt",
+      "translation_ru": "строгий"
     },
     {
-      "word": "nature",
-      "ipa_us": "ˈneɪtʃər",
-      "ipa_uk": "ˈneɪtʃə",
-      "translation_ru": "природа"
+      "word": "excellent",
+      "ipa_us": "ˈɛksələnt",
+      "ipa_uk": "ˈeksələnt",
+      "translation_ru": "отличный"
     },
     {
-      "word": "chemistry",
-      "ipa_us": "ˈkɛmɪstri",
-      "ipa_uk": "ˈkemɪstri",
-      "translation_ru": "химия"
+      "word": "energy",
+      "ipa_us": "ˈɛnərdʒi",
+      "ipa_uk": "ˈenədʒi",
+      "translation_ru": "энергия"
     },
     {
-      "word": "together",
-      "ipa_us": "təˈɡɛðər",
-      "ipa_uk": "təˈɡeðə",
-      "translation_ru": "вместе"
+      "word": "gravity",
+      "ipa_us": "ˈɡrævəti",
+      "ipa_uk": "ˈɡrævɪti",
+      "translation_ru": "гравитация"
+    },
+    {
+      "word": "eclipse",
+      "ipa_us": "ɪˈklɪps",
+      "ipa_uk": "ɪˈklɪps",
+      "translation_ru": "затмение"
+    },
+    {
+      "word": "newspapers",
+      "ipa_us": "ˈnuzˌpeɪpərz",
+      "ipa_uk": "ˈnjuːzˌpeɪpəz",
+      "translation_ru": "газеты"
+    },
+    {
+      "word": "gentle",
+      "ipa_us": "ˈdʒɛntəl",
+      "ipa_uk": "ˈdʒentəl",
+      "translation_ru": "мягкий, добрый"
+    },
+    {
+      "word": "curious",
+      "ipa_us": "ˈkjʊriəs",
+      "ipa_uk": "ˈkjʊəriəs",
+      "translation_ru": "любопытный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "θ",
       "examples": [
-        "was",
-        "Warsaw",
-        "woman"
+        "think",
+        "thoughtful"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Кончик языка между зубами, струя воздуха без голоса; не «с» и не «ф»."
     },
     {
-      "sound": "r",
+      "sound": "aɪ",
       "examples": [
-        "room",
-        "radioactivity",
-        "first"
+        "violin",
+        "time",
+        "light"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Скольжение от «а» к «и»; второй элемент короткий."
     },
     {
-      "sound": "ð",
+      "sound": "ɜː",
       "examples": [
-        "they",
-        "together"
+        "world",
+        "learned",
+        "Germany"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Долгий звук между «ё» и «э», губы не округляйте."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "young",
+        "long"
+      ],
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "Where was Marie Curie born?",
-      "answer": "In Warsaw, in Poland.",
+      "question": "What did Albert's father give him when he was five?",
+      "answer": "He gave him a small compass.",
       "accepted_keywords": [
-        "warsaw",
-        "poland"
+        "compass"
       ]
     },
     {
-      "question": "Where did she move to study?",
-      "answer": "To Paris.",
+      "question": "What instrument did Albert play all his life?",
+      "answer": "He played the violin.",
       "accepted_keywords": [
-        "paris"
+        "violin"
       ]
     },
     {
-      "question": "How many Nobel Prizes did she win?",
-      "answer": "Two.",
+      "question": "Where did Albert work in 1902?",
+      "answer": "He worked in an office in Bern, in Switzerland.",
       "accepted_keywords": [
-        "two",
-        "2"
+        "office",
+        "bern",
+        "switzerland"
       ]
     },
     {
-      "question": "Which year did she die?",
-      "answer": "In 1934.",
+      "question": "Why did Albert go to the United States?",
+      "answer": "Life in Germany became dangerous, because Hitler was the leader and Albert was Jewish.",
       "accepted_keywords": [
-        "1934",
-        "nineteen"
+        "germany",
+        "dangerous",
+        "hitler",
+        "jewish"
       ]
     }
   ]

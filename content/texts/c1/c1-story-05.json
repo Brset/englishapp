@@ -2,117 +2,158 @@
   "id": "c1-story-05",
   "level": "C1",
   "genre": "story",
-  "title_en": "Dr Frost at 02:40",
-  "title_ru": "Доктор Фрост в 02:40",
-  "description_ru": "Метеоролог в одиночестве на горной станции пытается объяснить загадочный порыв ветра, который фиксируется каждую ночь.",
-  "text": "Dr Imre Kovacs had chosen the station on Mount Halvard precisely because it was lonely. For eight months, he would be the only human being within ninety kilometres, tasked with maintaining a cluster of instruments that measured wind, pressure, and the slow chemistry of the upper air. He had packed forty books, a chess set, and no expectations of company.\n\nFor the first weeks, solitude agreed with him. He rose before dawn, calibrated the sensors, and logged the data with the satisfaction of a man whose work was both necessary and unobserved. The radio link to the valley crackled twice a day, and he kept those exchanges brisk. In the evenings he played chess against himself and, with some irritation, lost more often than he won. Nobody else was there to witness it.\n\nThen, in the fifth week, an anomaly appeared in the readings. Every night at precisely 02:40, the anemometer on the northern mast recorded a single sharp gust, even on windless nights. Imre assumed a fault, replaced the sensor, and found that the gust persisted. He checked the wiring, the software, and finally the mast itself, climbing in a freezing pre-dawn gale with numb, clumsy fingers. Nothing was wrong.\n\nBy the seventh week, the mystery had consumed him. He set up a camera, trained on the mast, and waited. At 02:40, in the infrared glow, a snowy owl alighted on the crossbar, shook out its feathers with an almost theatrical shudder, and remained there for exactly one minute before drifting off. Its landing had been triggering the sensor each night.\n\nHe laughed aloud, the sound startling in the silent room. Then, to his own bemusement, he found his eyes stinging. For weeks, he realised, he had been convinced that nothing in this place knew he was there. And all that time, a creature had been keeping an appointment with his instruments, as faithful as any colleague.\n\nHe began to leave a small ledge near the mast, and then, absurdly, a name for the owl: Dr Frost. He logged its arrivals in a separate column, not because science required it, but because the record felt incomplete without it. When the supply flight finally came in spring, the pilot asked what he had learned from eight months alone.\n\nImre thought about the data, the pressure curves, the carefully calibrated numbers. \"That an anomaly,\" he said slowly, \"is just something you haven't yet been introduced to.\"\n\nThe pilot laughed, assuming it was a joke. Imre let him.",
-  "word_count": 415,
+  "title_en": "The Last Customer",
+  "title_ru": "Последний клиент",
+  "description_ru": "В последний день работы часовой мастерской в неё заходит женщина с исправными часами, которые просто остановились. Мастер понимает, что чинить нужно не механизм.",
+  "text": "On the last day before the shop closed for good, Anselm Duret sold nothing, repaired nothing, and answered the telephone only once, to tell a salesman that he was already retired in every sense that mattered. The building had been sold to a company that intended to turn it into a juice bar. He had received the news with his customary stoicism, which is to say that he had gone quiet for a week and then bought an expensive pair of shoes.\n\nDuret and Daughter had stood on the corner of Rue des Tanneurs for sixty-three years. The daughter was long gone, to Montreal and then to a series of other lives, but the sign remained, and so did the clocks. Hundreds of them hung in the window and along the walls, every one of them set to a slightly different minute, so that at any hour the shop seemed to be quietly arguing with itself. Customers used to say that it was impossible to be late there, since whatever time you arrived, some clock was always willing to agree with you. Duret had considered this the finest compliment the establishment ever received.\n\nAt ten to five, the doorbell chimed. A woman in a grey raincoat came in, shaking water from an umbrella. She might have been forty or sixty; there was something about her face that refused to commit. In her hand she held a small wristwatch with a cracked glass and a strap worn pale at the buckle. \"I'm afraid we're closing,\" said Duret. \"Permanently, in fact. Today.\" \"Then I'm in time,\" she said, and set the watch on the counter. \"It stopped last Thursday. I'd like it to start again, if that's not too much trouble.\"\n\nHe sighed, because courtesy had been trained into him so thoroughly that it survived even despair, and fitted his loupe into his eye. The movement was a Swiss calibre from the nineteen-fifties, plain and honest, the sort of mechanism built by people who expected it to outlive them. He opened the case back. The balance wheel was perfect. The mainspring was fine. Every jewel and every tooth was exactly where it ought to be.\n\n\"There's nothing wrong with it,\" he said. \"I know.\" He looked up. She was gazing at the wall of clocks with an expression he could not quite read, fond and guilty at once, like someone watching a house she used to live in.\n\n\"It was my father's,\" she said. \"He wore it every day, for forty years. When he died, I put it in a drawer, because I couldn't bear the ticking. It seemed so cheerful about it, so absolutely uninterrupted. Last week I took it out and wound it, and it ran for three days, and then it stopped, and I haven't been able to think about anything else.\" She smiled, with some effort. \"I thought perhaps you could tell me why.\"\n\nDuret was not a sentimental man. In sixty years he had learned that most stopped watches had perfectly mundane explanations, dust, a dried drop of oil, a customer who had dropped them on a tiled floor and was ashamed to say so. He examined this one for a long time, turning it under the lamp, while a hundred clocks around them ticked out their disagreement, and the rain tapped at the window like an impatient customer who had somewhere else to be. Eventually he found the cause, and it was not a defect.\n\n\"Madame,\" he said. \"Look here.\" He pointed with a tweezer to a tiny worn patch on the winding crown. \"This has been turned the same number of times every morning for four decades, always at roughly the same hour, always by the same hand. The metal remembers. The watch is accustomed to being wound by someone who loves it. It stopped because it was waiting.\" She stared at him. \"That's absurd.\" \"It is completely absurd,\" he agreed. \"I am a craftsman, not a poet. But I have had this mechanism open on my bench for ten minutes, and I assure you that the only thing wrong with it is that it has not yet been told.\" \"Told what?\" \"I don't know. Whatever you need to say to it.\" He pushed the watch gently across the counter. \"Wind it yourself, every morning, for a month. If it still stops, bring it back to whoever takes over this shop, and I will personally haunt him.\"\n\nThe woman laughed, and then, to her evident surprise, she wept, briefly and without drama, as if a window had been opened in a stuffy room. Duret found a clean handkerchief and a chair, and the two of them sat in the dusk for some time without saying anything much, while the clocks went on disagreeing around them.\n\nWhen she left, he did not turn the sign to Closed immediately. Instead he walked down the shop, from clock to clock, winding each of them for the last time, an old, deliberate ritual. At the grandfather clock by the door, which had stopped in 1994 and which no customer had ever asked him to repair, he paused. Then he opened the glass case, reached in, and gave the key a single, gentle turn.\n\nFor a moment, nothing. Then a soft, wooden tick, hesitant as a first word after a long silence, and then another, and then a steady, patient rhythm that filled the quiet shop like warm water. Duret smiled. The juice bar, he thought, was going to have a very peculiar atmosphere.",
+  "word_count": 925,
   "vocabulary": [
     {
-      "word": "solitude",
-      "ipa_us": "ˈsɑːlətuːd",
-      "ipa_uk": "ˈsɒlɪtjuːd",
-      "translation_ru": "уединение"
+      "word": "stoicism",
+      "ipa_us": "ˈstoʊɪsɪzəm",
+      "ipa_uk": "ˈstəʊɪsɪzəm",
+      "translation_ru": "стоицизм, невозмутимость"
     },
     {
-      "word": "calibrated",
-      "ipa_us": "ˈkæləbreɪtɪd",
-      "ipa_uk": "ˈkælɪbreɪtɪd",
-      "translation_ru": "откалибровал"
+      "word": "customary",
+      "ipa_us": "ˈkʌstəˌmeri",
+      "ipa_uk": "ˈkʌstəməri",
+      "translation_ru": "привычный, обычный"
     },
     {
-      "word": "anomaly",
-      "ipa_us": "əˈnɑːməli",
-      "ipa_uk": "əˈnɒməli",
-      "translation_ru": "аномалия"
+      "word": "loupe",
+      "ipa_us": "luːp",
+      "ipa_uk": "luːp",
+      "translation_ru": "часовая лупа"
     },
     {
-      "word": "anemometer",
-      "ipa_us": "ˌænəˈmɑːmɪtər",
-      "ipa_uk": "ˌænɪˈmɒmɪtə",
-      "translation_ru": "анемометр"
+      "word": "calibre",
+      "ipa_us": "ˈkælɪbər",
+      "ipa_uk": "ˈkælɪbə",
+      "translation_ru": "калибр (часового механизма)"
     },
     {
-      "word": "persisted",
-      "ipa_us": "pərˈsɪstɪd",
-      "ipa_uk": "pəˈsɪstɪd",
-      "translation_ru": "продолжался, упорствовал"
+      "word": "mainspring",
+      "ipa_us": "ˈmeɪnˌsprɪŋ",
+      "ipa_uk": "ˈmeɪnsprɪŋ",
+      "translation_ru": "заводная пружина"
     },
     {
-      "word": "bemusement",
-      "ipa_us": "bɪˈmjuːzmənt",
-      "ipa_uk": "bɪˈmjuːzmənt",
-      "translation_ru": "недоумение"
+      "word": "courtesy",
+      "ipa_us": "ˈkɜːrtəsi",
+      "ipa_uk": "ˈkɜːtəsi",
+      "translation_ru": "вежливость"
     },
     {
-      "word": "theatrical",
-      "ipa_us": "θiˈætrɪkl",
-      "ipa_uk": "θiˈætrɪkl",
-      "translation_ru": "театральный"
+      "word": "sentimental",
+      "ipa_us": "ˌsentɪˈmentl",
+      "ipa_uk": "ˌsentɪˈmentl",
+      "translation_ru": "сентиментальный"
+    },
+    {
+      "word": "mundane",
+      "ipa_us": "mʌnˈdeɪn",
+      "ipa_uk": "mʌnˈdeɪn",
+      "translation_ru": "будничный, прозаический"
+    },
+    {
+      "word": "defect",
+      "ipa_us": "ˈdiːfekt",
+      "ipa_uk": "ˈdiːfekt",
+      "translation_ru": "дефект"
+    },
+    {
+      "word": "accustomed",
+      "ipa_us": "əˈkʌstəmd",
+      "ipa_uk": "əˈkʌstəmd",
+      "translation_ru": "привыкший"
+    },
+    {
+      "word": "ritual",
+      "ipa_us": "ˈrɪtʃuəl",
+      "ipa_uk": "ˈrɪtʃuəl",
+      "translation_ru": "ритуал"
+    },
+    {
+      "word": "peculiar",
+      "ipa_us": "pɪˈkjuːliər",
+      "ipa_uk": "pɪˈkjuːliə",
+      "translation_ru": "странный, своеобразный"
     }
   ],
   "focus_sounds": [
     {
       "sound": "word-stress",
       "examples": [
-        "anemometer",
-        "anomaly",
-        "calibrated"
+        "customary",
+        "sentimental",
+        "accustomed"
       ],
-      "tip_ru": "Ударение: aneˈmometer, aˈnomaly, ˈcalibrated. Первый слог в anomaly безударный и очень краткий."
+      "tip_ru": "Ударение: ˈcustomary, sentiˈmental, acˈcustomed. Не путайте: ударение в customary на первый слог."
     },
     {
-      "sound": "θ",
+      "sound": "ʌ",
       "examples": [
-        "theatrical",
-        "thought",
-        "months"
+        "customary",
+        "accustomed",
+        "stuffy"
       ],
-      "tip_ru": "Язык между зубами, без голоса. В theatrical сразу за θ идёт ударный слог: θiˈætrɪkl."
+      "tip_ru": "Звук «ʌ» короткий и открытый, как нечто среднее между «а» и «ъ»: customary, stuffy."
     },
     {
-      "sound": "æ",
+      "sound": "final-voiced",
       "examples": [
-        "anomaly",
-        "crackled",
-        "landing"
+        "hand",
+        "wound",
+        "closed"
       ],
-      "tip_ru": "Рот открыт шире, чем для русского «э», язык низко и впереди: звук между «а» и «э»."
+      "tip_ru": "В конце слов hand, wound, closed не оглушайте «d»: звук должен быть звонким."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "wound it",
+        "took it out",
+        "pushed the watch"
+      ],
+      "tip_ru": "Связывайте слова: took_it_out звучит как «тукитаут»."
     }
   ],
   "questions": [
     {
-      "question": "How long will Imre stay at the station?",
-      "answer": "Eight months.",
+      "question": "Why was Duret's shop closing?",
+      "answer": "The building was sold to become a juice bar.",
       "accepted_keywords": [
-        "eight",
-        "8"
+        "sold",
+        "juice"
       ]
     },
     {
-      "question": "What triggers the nightly gust in the data?",
-      "answer": "A snowy owl landing on the mast.",
+      "question": "What was wrong with the woman's watch?",
+      "answer": "Nothing was mechanically wrong; it had stopped as if waiting to be wound by her father.",
       "accepted_keywords": [
-        "owl",
-        "bird"
+        "nothing",
+        "waiting",
+        "wound",
+        "not a defect"
       ]
     },
     {
-      "question": "At what time does it happen?",
-      "answer": "At 02:40.",
+      "question": "What did Duret advise her to do?",
+      "answer": "To wind it herself every morning for a month.",
       "accepted_keywords": [
-        "02:40",
-        "2:40",
-        "night",
-        "forty"
+        "wind",
+        "every morning",
+        "month"
       ]
     },
     {
-      "question": "What name does Imre give the animal?",
-      "answer": "Dr Frost.",
+      "question": "What did he do before he left?",
+      "answer": "He wound all the clocks, including the grandfather clock that had stopped in 1994.",
       "accepted_keywords": [
-        "frost",
-        "doctor"
+        "wound",
+        "clocks",
+        "grandfather"
       ]
     }
   ]

@@ -4,51 +4,75 @@
   "genre": "biography",
   "title_en": "Ada Lovelace and the Poetry of Numbers",
   "title_ru": "Ада Лавлейс и поэзия чисел",
-  "description_ru": "История дочери Байрона, которая увидела в вычислительной машине гораздо больше, чем калькулятор.",
-  "text": "Augusta Ada Byron was born in London in December 1815, the only legitimate child of the poet Lord Byron. Her father left England a few weeks after her birth and never saw her again, and her mother, Annabella Milbanke, was determined that the girl would not inherit his volatile temperament. Annabella, who had a genuine gift for mathematics herself, filled her daughter's childhood with rigorous lessons in arithmetic, geometry and music, hoping that logic would keep imagination in check.\n\nThe plan only half worked. Ada grew up to be a mathematician, but she never lost her poetic streak. As a teenager she sketched elaborate designs for a flying machine, studying the anatomy of birds to calculate the wings she would need. At seventeen she was introduced to Charles Babbage, an eccentric inventor who was building a mechanical calculator called the Difference Engine. She was fascinated, and the two formed a lasting friendship based on mutual admiration and endless correspondence. She continued her studies under Mary Somerville, one of the few women of the age admitted to scientific circles, and in 1835 she married William King, who later became the Earl of Lovelace.\n\nBabbage's grander project was the Analytical Engine, a design for a machine that could be given instructions on punched cards, much as the looms of the period were guided by cards to weave complicated patterns. It was never completed, but its design contained the essential features of a modern computer. In 1842 an Italian engineer published a paper describing the machine, and Ada undertook to translate it into English. She then added her own notes, which ended up three times longer than the original article.\n\nThose notes made her reputation. In the last and most famous of them she set out a detailed method by which the engine could calculate a sequence of Bernoulli numbers. Many historians regard it as the first published computer program, although scholars still argue about how much of the work was hers rather than Babbage's. What is beyond dispute is her imaginative leap. Where others saw a glorified calculator, Ada realised that if numbers could stand for other things, such as musical notes, the machine might compose elaborate pieces of music. She called her approach \"poetical science\".\n\nShe was also remarkably cautious. She insisted that the engine had no pretensions to originate anything and could only do whatever we know how to order it to perform, a remark that artificial intelligence researchers still quote today.\n\nAda's later years were troubled by illness and gambling debts. She died of cancer in November 1852, aged just thirty-six, and was buried beside the father she had never known. A century later her work was rediscovered, and in 1980 the United States Department of Defense named a programming language Ada in her honour.",
-  "word_count": 462,
+  "description_ru": "История дочери Байрона, увидевшей в аналитической машине Бэббиджа нечто большее, чем калькулятор, и написавшей первую в истории программу.",
+  "text": "Few children have inherited a heavier reputation than Augusta Ada Byron. She was born in London in December 1815, the only legitimate child of Lord Byron, the most celebrated and scandalous poet in Europe, and of Annabella Milbanke, a clever, formidable and rather rigid woman whom Byron nicknamed the Princess of Parallelograms. The marriage collapsed within a year. Byron left England when Ada was only a few weeks old, never to return, and he died in Greece when she was eight.\n\nAnnabella was determined that her daughter should not turn out like her father. Fearing the madness she believed to be hereditary in the Byron line, she decided that the best antidote to poetry was mathematics, and she arranged for Ada to be taught by private tutors, which was an extraordinary privilege for a girl of the 1820s. The plan was only partly successful. Ada became a genuine mathematician, but she never lost her father's imagination. Indeed, she would later describe her own approach as \"poetical science\", a phrase that sounds like a contradiction until one understands what she did with it.\n\nAs a teenager she showed a restless inventiveness. At twelve she designed a flying machine, studying the anatomy of birds and calculating the wing proportions she would need; she even considered using steam power. A long illness at fourteen left her bedridden for months, and she used the time to continue her studies. At seventeen she was presented at court, but the rituals of London society interested her much less than the conversations she had with scientists.\n\nOne of those scientists was Mary Somerville, a Scottish polymath whose textbooks were widely admired and who became Ada's friend and mentor. In June 1833 Somerville introduced her to Charles Babbage, a restless, sharp-tongued mathematician who was building a machine that could calculate and print tables of numbers. Babbage showed the young woman a working portion of his Difference Engine, a gleaming assembly of brass gears, and she was transfixed. Most visitors admired it as a curiosity. Ada, according to a witness, understood how it worked and appreciated its beauty.\n\nIn 1835 she married William King, who in 1838 became the Earl of Lovelace, and she thereby became the Countess of Lovelace. She bore three children, managed large households and, with her husband's consent, continued to study, once even asking the eminent logician Augustus De Morgan to supervise her lessons. Her letters to him reveal a mind at war with itself, hungry for abstraction and impatient with her own mistakes.\n\nBy then Babbage had conceived something far more ambitious than the Difference Engine: the Analytical Engine, a general-purpose machine that would take instructions from punched cards, much as the Jacquard loom used cards to weave elaborate patterns into silk. It would have a memory, which Babbage called the store, and a processing unit, which he called the mill. It was never completed, partly because the funding and the precision engineering that it required were beyond what Victorian Britain was prepared to supply.\n\nIn 1842 an Italian engineer, Luigi Menabrea, published a description of the engine in French, and Ada undertook to translate it. Babbage suggested that she add some notes of her own. What she produced, signed only with her initials, A.A.L., ran to nearly three times the length of the original article. Her notes, labelled A to G, are the reason that we remember her.\n\nIn them she made a distinction that Babbage himself had never articulated so clearly. The engine, she argued, was not merely a calculating device. Because it operated on symbols according to rules, it could in principle manipulate anything that could be represented by symbols. It might, she suggested, compose elaborate pieces of music of any degree of complexity, if the relations between musical notes could be expressed in the language of abstract science. \"The Analytical Engine,\" she wrote, \"weaves algebraical patterns just as the Jacquard loom weaves flowers and leaves.\"\n\nNote G contains the passage for which she is best known: a detailed, step-by-step table showing how the engine could calculate a sequence called the Bernoulli numbers. Historians still argue about how much of the mathematics was her own, as Babbage had drafted some earlier programs, but the careful organisation of the operations, and the identification of an error in one of Babbage's own formulas, show her command of the subject. The same note includes a sober caution that remains relevant to debates about artificial intelligence: the engine, she wrote, had no pretensions to originate anything, and could do only whatever we know how to order it to perform.\n\nAda's later years were not easy. She became entangled in expensive gambling on horse races, convinced that mathematics could outwit the bookmakers, and ended up deeply in debt. In 1851 she was diagnosed with cancer, and after months of painful treatment she died in November 1852, aged only thirty-six, the same age at which her father had died. At her request she was buried beside him in a village church in Nottinghamshire.\n\nFor a century she was largely forgotten. Then, as electronic computers appeared, historians rediscovered her notes and recognised that she had grasped, earlier than anyone, what a programmable machine could become. In 1980 the United States Department of Defense named a programming language Ada in her honour, and every October scientists celebrate Ada Lovelace Day. The poet's daughter, it seems, found a way to write verse after all, though her medium was logic.",
+  "word_count": 908,
   "vocabulary": [
     {
       "word": "legitimate",
-      "ipa_us": "lɪˈdʒɪtəmət",
+      "ipa_us": "lɪˈdʒɪtɪmət",
       "ipa_uk": "lɪˈdʒɪtɪmət",
       "translation_ru": "законнорождённый"
     },
     {
-      "word": "volatile",
-      "ipa_us": "ˈvɑːlətl",
-      "ipa_uk": "ˈvɒlətaɪl",
-      "translation_ru": "переменчивый"
+      "word": "formidable",
+      "ipa_us": "ˈfɔːrmɪdəbəl",
+      "ipa_uk": "ˈfɔːmɪdəbəl",
+      "translation_ru": "внушительная, грозная"
     },
     {
-      "word": "rigorous",
-      "ipa_us": "ˈrɪɡərəs",
-      "ipa_uk": "ˈrɪɡərəs",
-      "translation_ru": "строгий, тщательный"
+      "word": "hereditary",
+      "ipa_us": "həˈredɪteri",
+      "ipa_uk": "həˈredɪtri",
+      "translation_ru": "наследственный"
     },
     {
-      "word": "eccentric",
-      "ipa_us": "ɪkˈsentrɪk",
-      "ipa_uk": "ɪkˈsentrɪk",
-      "translation_ru": "эксцентричный"
+      "word": "antidote",
+      "ipa_us": "ˈæntɪdoʊt",
+      "ipa_uk": "ˈæntɪdəʊt",
+      "translation_ru": "противоядие"
     },
     {
-      "word": "punched",
-      "ipa_us": "pʌntʃt",
-      "ipa_uk": "pʌntʃt",
-      "translation_ru": "перфорированный"
+      "word": "polymath",
+      "ipa_us": "ˈpɑːlimæθ",
+      "ipa_uk": "ˈpɒlimæθ",
+      "translation_ru": "человек энциклопедических знаний"
     },
     {
-      "word": "sequence",
-      "ipa_us": "ˈsiːkwəns",
-      "ipa_uk": "ˈsiːkwəns",
-      "translation_ru": "последовательность"
+      "word": "transfixed",
+      "ipa_us": "trænsˈfɪkst",
+      "ipa_uk": "trænsˈfɪkst",
+      "translation_ru": "заворожённая"
     },
     {
-      "word": "glorified",
-      "ipa_us": "ˈɡlɔːrɪfaɪd",
-      "ipa_uk": "ˈɡlɔːrɪfaɪd",
-      "translation_ru": "возвеличенный, раздутый"
+      "word": "eminent",
+      "ipa_us": "ˈemɪnənt",
+      "ipa_uk": "ˈemɪnənt",
+      "translation_ru": "выдающийся"
+    },
+    {
+      "word": "abstraction",
+      "ipa_us": "æbˈstrækʃən",
+      "ipa_uk": "æbˈstrækʃən",
+      "translation_ru": "абстракция"
+    },
+    {
+      "word": "articulated",
+      "ipa_us": "ɑːrˈtɪkjuleɪtɪd",
+      "ipa_uk": "ɑːˈtɪkjuleɪtɪd",
+      "translation_ru": "чётко выразил"
+    },
+    {
+      "word": "manipulate",
+      "ipa_us": "məˈnɪpjuleɪt",
+      "ipa_uk": "məˈnɪpjuleɪt",
+      "translation_ru": "оперировать, манипулировать"
+    },
+    {
+      "word": "sober",
+      "ipa_us": "ˈsoʊbər",
+      "ipa_uk": "ˈsəʊbə",
+      "translation_ru": "трезвый, серьёзный"
     },
     {
       "word": "pretensions",
@@ -57,84 +81,95 @@
       "translation_ru": "претензии"
     },
     {
-      "word": "originate",
-      "ipa_us": "əˈrɪdʒəneɪt",
-      "ipa_uk": "əˈrɪdʒɪneɪt",
-      "translation_ru": "порождать"
+      "word": "outwit",
+      "ipa_us": "aʊtˈwɪt",
+      "ipa_uk": "aʊtˈwɪt",
+      "translation_ru": "перехитрить"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "rigorous",
-        "arithmetic",
-        "remarkably"
+        "mathematics",
+        "mathematician",
+        "months",
+        "thirty-six"
       ],
-      "tip_ru": "Язык не касается нёба: кончик поднят и оттянут назад, губы слегка округлены. Не раскатывайте р."
+      "tip_ru": "Язык слегка прикусите между зубами: mathematics, months. Без голоса."
     },
     {
-      "sound": "word-stress",
+      "sound": "w",
       "examples": [
-        "mathematician",
-        "eccentric",
-        "imaginative"
+        "weaves",
+        "wrote",
+        "were",
+        "which"
       ],
-      "tip_ru": "Ударение в mathematician падает на -ti-: mathemaTIcian. Запоминайте ударный слог вместе со словом."
+      "tip_ru": "Губы округлены вперёд, как для у, затем быстро раскрываются: weaves. Не заменяйте на в."
     },
     {
       "sound": "v",
       "examples": [
-        "volatile",
-        "inventor"
+        "Victorian",
+        "very",
+        "over"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий. Не оглушайте в ф."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте в ф."
     },
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "three",
+        "mathematics",
         "mathematician",
-        "thirty-six"
+        "abstraction"
       ],
-      "tip_ru": "Кончик языка между зубами, без голоса. Не заменяйте на с или ф."
+      "tip_ru": "mathemaTIcian, abSTRACtion: ударение на слоге перед суффиксом -ian, -tion."
     }
   ],
   "questions": [
     {
-      "question": "Why did Ada's mother stress mathematics?",
-      "answer": "To keep her from inheriting her father's volatile, poetic temperament.",
+      "question": "Why did Ada's mother want her to study mathematics?",
+      "answer": "To keep her from becoming a poet like her father.",
       "accepted_keywords": [
-        "temperament",
-        "poetic",
+        "poet",
+        "father",
+        "madness",
         "byron",
-        "logic"
+        "poetry"
       ]
     },
     {
       "question": "What was the Analytical Engine?",
-      "answer": "A design for a machine controlled by punched cards, a forerunner of the computer.",
+      "answer": "A general-purpose machine designed by Babbage that took instructions from punched cards.",
       "accepted_keywords": [
-        "machine",
+        "babbage",
         "punched",
-        "computer",
-        "cards"
+        "cards",
+        "machine",
+        "general"
       ]
     },
     {
-      "question": "What did Ada add to the translated paper?",
-      "answer": "Her own notes, three times longer than the article.",
+      "question": "What did Ada's Note G contain?",
+      "answer": "A step-by-step table for calculating Bernoulli numbers.",
       "accepted_keywords": [
-        "notes"
+        "bernoulli",
+        "table",
+        "program",
+        "algorithm",
+        "numbers"
       ]
     },
     {
-      "question": "What imaginative idea did she have about numbers?",
-      "answer": "That they could stand for things like music.",
+      "question": "What did she warn about the engine?",
+      "answer": "That it had no pretensions to originate anything.",
       "accepted_keywords": [
-        "music",
-        "notes",
-        "compose"
+        "originate",
+        "originality",
+        "nothing",
+        "pretensions",
+        "order"
       ]
     }
   ]

@@ -2,28 +2,41 @@
   "id": "b2-opinion-03",
   "level": "B2",
   "genre": "opinion",
-  "title_en": "Cars Out of the City Centre",
-  "title_ru": "Автомобили вон из центра города",
-  "description_ru": "Рассуждение о том, почему центры городов стоит закрыть для личного транспорта, на примере Осло и Копенгагена.",
-  "text": "If you have ever tried to cross a busy city centre during the rush hour, you will know the feeling: noise, exhaust fumes and an endless river of cars moving slower than a person could walk. I believe that the time has come for cities to close their centres to private cars, and I want to explain why this is not as radical as it sounds.\n\nConsider what has already happened in cities such as Oslo and Copenhagen. Oslo removed hundreds of parking spaces from its centre and replaced them with bike lanes, benches and small parks. It was predicted that shops would lose customers and go out of business. The opposite happened: more people walked past the windows, and many owners said that trade had improved. Pedestrians, it turns out, spend more time in an area than drivers do, and they notice what is on sale.\n\nThe health benefits are equally clear. Traffic is a major source of air pollution, which has been linked to asthma and heart disease. Fewer cars also mean fewer accidents and a much quieter environment, which is good for everyone, particularly children and the elderly.\n\nOpponents argue that people with disabilities, delivery drivers and residents would suffer. That is a serious concern, but it can be addressed with permits, special lanes and electric delivery vans. Nobody is suggesting that ambulances should be stopped at the border. Others complain that public transport is not good enough. That is true in many places, and it is exactly why the money saved from road maintenance should be invested in trams, buses and trains.\n\nThere is also a more emotional argument. A city is not just a place to travel through; it is a place to live. When a street becomes a square with cafés and street musicians, it begins to feel like a community rather than a car park.\n\nChange is never easy, and the first months are usually met with anger. But once people get used to it, hardly anyone wants to go back. It is time to take the plunge.",
+  "title_en": "Cities Should Say Goodbye to Cars",
+  "title_ru": "Городам пора попрощаться с автомобилями",
+  "description_ru": "Провокационное мнение о том, почему центры городов нужно отдать пешеходам, велосипедистам и общественному транспорту.",
+  "text": "Every morning I walk along a street that is, strictly speaking, a car park with a road running through the middle of it. Vehicles are parked bumper to bumper on both sides, and the narrow strip that remains is filled with traffic that moves slower than a brisk walker. Nobody seems to be enjoying it. The drivers are stressed, the pedestrians are squeezed on to tiny pavements, and the air tastes of exhaust. I have come to the conclusion that our cities were designed around a mistake, and that it is time to correct it.\n\nThe mistake was to assume that the car would solve the problem of getting around. For a while it did. In the middle of the last century, planners in many countries tore down old neighbourhoods to build wide roads, convinced that they were creating the city of the future. What they did not foresee was that new roads attract new traffic. Researchers call this induced demand: when you add lanes, more people decide to drive, and within a few years the congestion is as bad as it was before. Trying to cure traffic jams by building more roads, as one engineer put it, is like loosening your belt to cure obesity.\n\nA better approach is already being tried in a number of cities. Paris has been converting parking spaces into bike lanes and gardens, and its mayor has promised that most streets will eventually be cycle-friendly. Copenhagen, where around half of the residents cycle to work or school, is regularly quoted as a model. In Madrid, the central district has been closed to most traffic, and shopkeepers, who had feared the worst, were reported to be doing better than before. People on foot, it turns out, spend more time in shops than people in cars, who simply drive past.\n\nThe health argument is overwhelming. Air pollution from traffic is blamed for millions of early deaths worldwide each year, and children who grow up beside busy roads are more likely to suffer from asthma. Road accidents kill over a million people every year. Meanwhile, a society that has stopped walking is paying for it with heart disease and depression. A city where a child can safely cycle to school is not only a pleasant place to live, it is a cheaper place to run a health service.\n\nThen there is the matter of space. A car, which spends about ninety-five per cent of its life standing still, needs room to park at home, at work and in the supermarket. A single bus carrying fifty people takes up as little room as three cars, while a tram or an underground train takes up almost none. If we gave back even a third of the land used by roads and car parks, we could build homes, parks, markets and playgrounds. Think what a difference it would make if the place outside your window were a garden instead of a row of metal boxes.\n\nOf course, the objections come thick and fast. The first is that people need their cars. Some do: the disabled, tradespeople carrying tools, families in remote villages. Nobody is proposing to forbid ambulances or delivery vans. I am talking about the centres of big cities, where public transport exists and where the majority of short journeys could be made on foot or by bike. Another objection is that a ban would destroy businesses. The evidence from cities that have tried it suggests the opposite, though the transition has to be planned carefully, with decent buses and trams ready before the cars are taken away.\n\nA more serious point is fairness. Poorer residents often live farthest from the centre, where public transport is thin, and they may feel that the new rules have been written by wealthy people who can afford to live within walking distance of everything. This is a real danger. The answer is not to stop reform, but to invest in cheap and frequent services in the suburbs, and to make sure that the money raised from charges on cars is spent on improving them. A fair policy listens to those who are worst affected.\n\nPeople also say that change is impossible because drivers will never accept it. History suggests otherwise. When Britain banned smoking in pubs, many predicted that landlords would go bankrupt and that the public would rebel. Within a few months, almost everyone took it for granted, and today it seems strange that anyone ever smoked at a dinner table. I believe that we shall look back at our cars in city centres in the same way, with a mixture of embarrassment and disbelief.\n\nNone of this will happen tomorrow. But every parking space turned into a bench, every road narrowed for a cycle lane and every school street closed at drop-off time is a step towards a city that belongs to its people. I would rather walk through a quiet, leafy square than sit in a queue of idling engines. Wouldn't you?",
+  "word_count": 836,
   "vocabulary": [
     {
-      "word": "exhaust fumes",
-      "ipa_us": "ɪɡˈzɔst fjumz",
-      "ipa_uk": "ɪɡˈzɔːst fjuːmz",
-      "translation_ru": "выхлопные газы"
+      "word": "brisk",
+      "ipa_us": "brɪsk",
+      "ipa_uk": "brɪsk",
+      "translation_ru": "быстрый, бодрый"
     },
     {
-      "word": "radical",
-      "ipa_us": "ˈrædɪkəl",
-      "ipa_uk": "ˈrædɪkəl",
-      "translation_ru": "радикальный"
+      "word": "exhaust",
+      "ipa_us": "ɪɡˈzɔst",
+      "ipa_uk": "ɪɡˈzɔːst",
+      "translation_ru": "выхлоп"
     },
     {
-      "word": "pedestrians",
-      "ipa_us": "pəˈdɛstriənz",
-      "ipa_uk": "pəˈdestriənz",
-      "translation_ru": "пешеходы"
+      "word": "induced demand",
+      "ipa_us": "ɪnˈdust dɪˈmænd",
+      "ipa_uk": "ɪnˈdjuːst dɪˈmɑːnd",
+      "translation_ru": "индуцированный спрос"
+    },
+    {
+      "word": "congestion",
+      "ipa_us": "kənˈdʒɛstʃən",
+      "ipa_uk": "kənˈdʒestʃən",
+      "translation_ru": "пробки, перегруженность"
+    },
+    {
+      "word": "obesity",
+      "ipa_us": "oʊˈbisəti",
+      "ipa_uk": "əʊˈbiːsəti",
+      "translation_ru": "ожирение"
     },
     {
       "word": "pollution",
@@ -32,106 +45,126 @@
       "translation_ru": "загрязнение"
     },
     {
-      "word": "permits",
-      "ipa_us": "ˈpɜrmɪts",
-      "ipa_uk": "ˈpɜːmɪts",
-      "translation_ru": "разрешения, пропуска"
+      "word": "asthma",
+      "ipa_us": "ˈæzmə",
+      "ipa_uk": "ˈæsmə",
+      "translation_ru": "астма"
     },
     {
-      "word": "maintenance",
-      "ipa_us": "ˈmeɪntənəns",
-      "ipa_uk": "ˈmeɪntənəns",
-      "translation_ru": "обслуживание"
+      "word": "remote",
+      "ipa_us": "rɪˈmoʊt",
+      "ipa_uk": "rɪˈməʊt",
+      "translation_ru": "отдалённый"
     },
     {
-      "word": "invested",
-      "ipa_us": "ɪnˈvɛstɪd",
-      "ipa_uk": "ɪnˈvestɪd",
-      "translation_ru": "вложены"
+      "word": "transition",
+      "ipa_us": "trænˈzɪʃən",
+      "ipa_uk": "trænˈzɪʃən",
+      "translation_ru": "переход"
     },
     {
-      "word": "community",
-      "ipa_us": "kəˈmjunəti",
-      "ipa_uk": "kəˈmjuːnəti",
-      "translation_ru": "сообщество"
+      "word": "bankrupt",
+      "ipa_us": "ˈbæŋkrʌpt",
+      "ipa_uk": "ˈbæŋkrʌpt",
+      "translation_ru": "разорённый"
+    },
+    {
+      "word": "embarrassment",
+      "ipa_us": "ɪmˈbɛrəsmənt",
+      "ipa_uk": "ɪmˈbærəsmənt",
+      "translation_ru": "неловкость"
+    },
+    {
+      "word": "disbelief",
+      "ipa_us": "ˌdɪsbɪˈlif",
+      "ipa_uk": "ˌdɪsbɪˈliːf",
+      "translation_ru": "недоверие"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "rush",
-        "river",
-        "radical",
-        "road"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "private",
-        "vans",
-        "invested"
-      ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "walk",
-        "windows",
-        "wants"
-      ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
-    },
-    {
       "sound": "ð",
       "examples": [
+        "this",
         "that",
-        "the",
-        "there",
+        "though",
         "rather"
       ],
-      "tip_ru": "Язык так же между зубами, но голос включён; не говорите «з» или «д»."
+      "tip_ru": "Тот же положение языка, что для θ, но с голосом: звук гудит, не «з»."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "around",
+        "rather",
+        "from",
+        "problem"
+      ],
+      "tip_ru": "Язык не касается нёба и не вибрирует; слегка загните кончик назад, губы чуть округлены."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "brisk",
+        "exhaust",
+        "congestion",
+        "obesity"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "bad",
+        "old",
+        "had",
+        "did"
+      ],
+      "tip_ru": "Звонкие согласные на конце слов не оглушайте: «good» не «гут», «world» не «ворлт»."
     }
   ],
   "questions": [
     {
-      "question": "Which two cities does the author mention?",
-      "answer": "Oslo and Copenhagen.",
+      "question": "What is induced demand?",
+      "answer": "When new roads are built, more people drive and congestion returns.",
       "accepted_keywords": [
-        "oslo",
-        "copenhagen"
+        "roads",
+        "more",
+        "traffic",
+        "congestion",
+        "drive"
       ]
     },
     {
-      "question": "What happened to shops after Oslo removed parking spaces?",
-      "answer": "Trade improved.",
+      "question": "What example did the author give from Madrid?",
+      "answer": "The central district was closed to most traffic and shopkeepers did better than expected.",
       "accepted_keywords": [
-        "improved",
-        "trade",
-        "better"
+        "shopkeepers",
+        "closed",
+        "traffic",
+        "better",
+        "shops"
       ]
     },
     {
-      "question": "What diseases are linked to air pollution?",
-      "answer": "Asthma and heart disease.",
+      "question": "Why does the author worry about fairness?",
+      "answer": "Poorer residents live far from the centre where public transport is thin.",
       "accepted_keywords": [
-        "asthma",
-        "heart"
+        "poorer",
+        "poor",
+        "suburbs",
+        "transport",
+        "centre"
       ]
     },
     {
-      "question": "How does the author suggest solving the problems of delivery drivers and disabled people?",
-      "answer": "With permits, special lanes and electric vans.",
+      "question": "What example shows that people can accept big changes?",
+      "answer": "The smoking ban in British pubs.",
       "accepted_keywords": [
-        "permits",
-        "lanes",
-        "electric",
-        "vans"
+        "smoking",
+        "pubs",
+        "ban"
       ]
     }
-  ],
-  "word_count": 346
+  ]
 }

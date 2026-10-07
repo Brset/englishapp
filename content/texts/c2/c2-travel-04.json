@@ -2,135 +2,165 @@
   "id": "c2-travel-04",
   "level": "C2",
   "genre": "travel",
-  "title_en": "Four Seasons in an Afternoon",
-  "title_ru": "Четыре времени года за один день",
-  "description_ru": "Фарерские острова: переменчивая погода, травяные крыши, подводные тоннели и тишина, в которой слышно, как растёт трава.",
-  "text": "Nobody visits the Faroe Islands for the weather, and everyone leaves talking about it. Eighteen volcanic rocks, flung into the North Atlantic roughly halfway between Scotland and Iceland, they are home to about fifty-four thousand people and a considerably larger number of sheep, a fact the sheep appear to understand and exploit. The weather there does not so much change as perform. Over the course of a single walk I have been sunburned, rained on horizontally, wrapped in fog thick enough to chew, and, finally, rewarded with a rainbow so theatrical that I felt it should have been introduced by a trumpet.\n\nThe Faroese have a saying that if you do not like the weather, you should wait five minutes. They also have, I noticed, an admirable collection of hats.\n\nI arrived by plane at Vágar and drove, with one eye on the road and the other on the scenery, towards the village of Gásadalur, which for centuries was reachable only by a mountain footpath. The postman used to walk it every week. In 2004, a tunnel opened, and the village was suddenly connected to the rest of the world, though it still has only about a dozen residents. At the edge of the village, a waterfall called Múlafossur leaps directly off a cliff into the ocean, and I stood at the lip of it with a stunned expression and several layers of wet wool, trying to remember the last time anything had looked so unreasonably dramatic.\n\nThe islands are stitched together by an impressive network of tunnels, some of them beneath the sea. One, opened in 2020, includes an underwater roundabout, lit like a nightclub in shifting blues, in which you circle, with a mixture of delight and mild terror, hundreds of metres under the waves. A Faroese friend, asked about it, shrugged and said that the alternative was a ferry in February.\n\nIn the capital, Tórshavn, which with around twenty thousand inhabitants is one of the smallest in the world, I wandered through the old quarter of Tinganes, where turf-roofed cottages, painted black and red, crouch against the wind with the grassy rooftops waving like uncombed hair. The roofs are not a quaint affectation. Grass and birch bark, laid over timber, make a snug, durable layer of insulation, and it is not unusual to see a goat grazing contentedly on somebody's house.\n\nHospitality here is generous and unadorned. In a farmhouse above the fjord, I was fed a Sunday lunch of lamb and potatoes, then offered, with exaggerated courtesy, a piece of ræst, a fermented meat that smells like a sock in a cellar and tastes, to my surprise, rather wonderful. My hosts watched my face as closely as a jury. I think I passed.\n\nWhat lingers, though, is the quiet. Away from the villages, there are no trees, no traffic, hardly a sound but the wind, the sea, and an occasional bird, and the silence is so complete that it takes on a texture. I sat on a slope above the cliffs at Mykines, among puffins that regarded me with the offended dignity of clergymen interrupted at lunch, and understood why the Faroese are in no hurry. When the weather is the main event, one learns to be patient, and to carry a hat.",
-  "word_count": 552,
+  "title_en": "Four Seasons Before Lunch",
+  "title_ru": "Четыре времени года до обеда",
+  "description_ru": "Остров Скай в погоду, которая меняется каждые десять минут: паромы, туман, виски и местные жители, для которых дождь является не бедствием, а темой беседы.",
+  "text": "The weather on the Isle of Skye does not so much change as hold a rolling debate with itself. In the space of a single morning I experienced bright sunshine, horizontal rain, a hailstorm of startling malice, a fog thick enough to lean upon, and a rainbow of such operatic perfection that a nearby sheep looked up, apparently embarrassed on its behalf. The locals, unmoved, call this \"a mixed day\", and regard a visitor's pained surprise with the indulgent tolerance one extends to a child who has just discovered that fire is hot.\n\nI reached the island, in the first place, by a ferry from the mainland, in the old-fashioned way, since the bridge, though elegant, is rather too convenient to count as an adventure. The little boat left Mallaig under a lowering sky and threaded between rocky islets, past a seal that watched our progress with the heavy-lidded boredom of a retired colonel, and set me down at Armadale under a rain so soft and so determined that it seemed less a precipitation than a form of attention. The ferryman wished me a good stay and added, with grave courtesy, that tomorrow's sailing might not take place. \"The wind,\" he explained, as one might refer to a difficult relative.\n\nThat, I discovered, is the first principle of Hebridean travel: all plans are provisional, and the sea has the casting vote. A ferry may be cancelled at short notice on account of swell, and whole villages arrange their lives around the sailing notices, which are consulted with a gravity normally reserved for the news of the death of kings. I found it, to my own surprise, liberating. A person who cannot control the schedule is relieved of the burden of impatience, and by the second day I was drifting about the island with the benign lethargy of a cow in clover.\n\nThe landscape defies the schoolroom notion that a mountain ought to be a pleasant triangle. The Cuillin, the great jagged ridge at the island's heart, are a tumult of black gabbro, an igneous rock so coarse and so grippy that climbers hail it as the best scrambling stone in Britain, and so magnetic that a compass held on the summit ridge wanders drunkenly. The peaks rise straight out of the sea, with names that sound like incantations in Gaelic, and they spend half their time in cloud, which they resent. To glimpse them clear is regarded by the islanders as a sort of minor miracle, and visitors who have done so are discernible in the pub by their smug, radiant expressions.\n\nI did what one is supposed to do, which is to say that I walked, in a waterproof jacket the price of a small boat, to the Fairy Pools, a sequence of crystalline basins and tumbling falls beneath the mountains, where the water is so clear and so blue that it looks like a drawing of itself. A few brave souls were swimming, uttering at intervals the high, indignant cries of the freshly frozen. I contented myself with paddling, with the result that I lost all sensation below the knee, and gained the satisfaction of having been, however briefly, a person who had been in the water.\n\nFurther north, I found the Old Man of Storr, a pinnacle of basalt a good fifty metres tall, standing at the head of a field of fallen rocks like a monolithic headmaster addressing a disorderly assembly. The hillside around it has been shaped by landslips, great slabs of lava sliding slowly down over softer rock, and the result is a landscape so strange that it has appeared, appropriately, in several films about other planets. I climbed to it through drizzle, and as I arrived the cloud tore open, the sun poured through, and the whole slope lit up in sudden greens and golds. A man beside me, panting, said \"Ah, now, that makes up for it\", and I understood the entire theology of the island.\n\nThere is, naturally, whisky. At the distillery at Carbost, on the shore of Loch Harport, I was taken in hand by a guide with a voice like warm gravel, who explained with immense solemnity that the spirit is made from malted barley, water and yeast, and aged in oak casks, and that the peat smoke used to dry the barley gives it the smoky, briny, faintly medicinal flavour that divides drinkers into devotees and the deceived. I am, I discovered, a devotee. The first sip tasted like a bonfire on a beach, and the second like a conversation with a stranger who turns out to be a friend. The guide observed my expression and nodded. \"It takes people that way,\" he said. \"Like the weather.\"\n\nI should mention the midges. They are not a nuisance so much as an institution: tiny, voracious flies that emerge on still, damp evenings in summer and settle upon the exposed skin in clouds, with a coordinated enthusiasm that suggests a military operation. The natives are philosophical about them. One woman told me that the only effective remedy was to leave the island, and that she had tried this twice and come back both times, which tells you everything about Skye, and a little about the remedy.\n\nOn my last day, the ferry was, as threatened, cancelled. I spent the morning in a small café overlooking the harbour, drinking tea and watching the sea throw itself against the breakwater with the ill grace of a toddler denied a biscuit, while an old fisherman at the next table read a newspaper, glanced out of the window, and said, to nobody in particular, \"It'll clear by two.\" It did. At two o'clock, with a ludicrous theatrical flourish, the cloud rolled back, the sea turned the colour of a sapphire, and the boat, rather sheepishly, sailed. I stood on the deck and watched the island withdraw, shouldering its mountains into the mist, and I thought that nobody who has been rained upon so generously, and consoled so lavishly, can ever quite complain about the weather again.",
+  "word_count": 1014,
   "vocabulary": [
     {
-      "word": "volcanic",
-      "ipa_us": "vɑːlˈkænɪk",
-      "ipa_uk": "vɒlˈkænɪk",
-      "translation_ru": "вулканический"
+      "word": "malice",
+      "ipa_us": "ˈmælɪs",
+      "ipa_uk": "ˈmælɪs",
+      "translation_ru": "злоба, злой умысел"
     },
     {
-      "word": "theatrical",
-      "ipa_us": "θiˈætrɪkl",
-      "ipa_uk": "θiˈætrɪkl",
-      "translation_ru": "театральный"
+      "word": "precipitation",
+      "ipa_us": "prɪˌsɪpɪˈteɪʃən",
+      "ipa_uk": "prɪˌsɪpɪˈteɪʃ(ə)n",
+      "translation_ru": "осадки"
     },
     {
-      "word": "exploit",
-      "ipa_us": "ɪkˈsplɔɪt",
-      "ipa_uk": "ɪkˈsplɔɪt",
-      "translation_ru": "использовать в своих интересах"
+      "word": "provisional",
+      "ipa_us": "prəˈvɪʒənəl",
+      "ipa_uk": "prəˈvɪʒ(ə)n(ə)l",
+      "translation_ru": "временный, предварительный"
     },
     {
-      "word": "affectation",
-      "ipa_us": "ˌæfekˈteɪʃən",
-      "ipa_uk": "ˌæfekˈteɪʃən",
-      "translation_ru": "манерность, притворство"
+      "word": "lethargy",
+      "ipa_us": "ˈlɛθərdʒi",
+      "ipa_uk": "ˈleθədʒi",
+      "translation_ru": "вялость"
     },
     {
-      "word": "insulation",
-      "ipa_us": "ˌɪnsəˈleɪʃən",
-      "ipa_uk": "ˌɪnsjʊˈleɪʃən",
-      "translation_ru": "изоляция, утепление"
+      "word": "igneous",
+      "ipa_us": "ˈɪɡniəs",
+      "ipa_uk": "ˈɪɡniəs",
+      "translation_ru": "магматический"
     },
     {
-      "word": "unadorned",
-      "ipa_us": "ˌʌnəˈdɔːrnd",
-      "ipa_uk": "ˌʌnəˈdɔːnd",
-      "translation_ru": "безыскусный"
+      "word": "incantations",
+      "ipa_us": "ˌɪnkænˈteɪʃənz",
+      "ipa_uk": "ˌɪnkænˈteɪʃ(ə)nz",
+      "translation_ru": "заклинания"
     },
     {
-      "word": "fermented",
-      "ipa_us": "fərˈmentɪd",
-      "ipa_uk": "fəˈmentɪd",
-      "translation_ru": "ферментированный"
+      "word": "discernible",
+      "ipa_us": "dɪˈsɜːrnəbəl",
+      "ipa_uk": "dɪˈsɜːnɪb(ə)l",
+      "translation_ru": "различимый"
     },
     {
-      "word": "clergymen",
-      "ipa_us": "ˈklɜːrdʒimən",
-      "ipa_uk": "ˈklɜːdʒimən",
-      "translation_ru": "священнослужители"
+      "word": "monolithic",
+      "ipa_us": "ˌmɑːnəˈlɪθɪk",
+      "ipa_uk": "ˌmɒnəˈlɪθɪk",
+      "translation_ru": "монолитный"
+    },
+    {
+      "word": "devotees",
+      "ipa_us": "ˌdɛvəˈtiːz",
+      "ipa_uk": "ˌdevəʊˈtiːz",
+      "translation_ru": "поклонники"
+    },
+    {
+      "word": "voracious",
+      "ipa_us": "vɔːˈreɪʃəs",
+      "ipa_uk": "vəˈreɪʃəs",
+      "translation_ru": "прожорливый"
+    },
+    {
+      "word": "breakwater",
+      "ipa_us": "ˈbreɪkˌwɔːtər",
+      "ipa_uk": "ˈbreɪkˌwɔːtə",
+      "translation_ru": "волнолом"
+    },
+    {
+      "word": "sheepishly",
+      "ipa_us": "ˈʃiːpɪʃli",
+      "ipa_uk": "ˈʃiːpɪʃli",
+      "translation_ru": "смущённо"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "word-stress",
       "examples": [
-        "weather",
-        "through",
-        "thick",
-        "theatrical"
+        "provisional",
+        "incantations",
+        "discernible"
       ],
-      "tip_ru": "θ: кончик языка слегка высунут между зубами, без голоса: thick, theatrical."
+      "tip_ru": "Ударение: pro-VI-sion-al, in-can-TA-tion, dis-CERN-i-ble. Не ставьте ударение на первый слог по аналогии с русским."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "rain",
+        "grave",
+        "breakwater"
+      ],
+      "tip_ru": "Долгий дифтонг: от э к ɪ; не заменяйте на русское э."
     },
     {
       "sound": "ð",
       "examples": [
         "the",
-        "that",
-        "other",
-        "rather"
+        "weather",
+        "that"
       ],
-      "tip_ru": "ð: тот же язык между зубами, но с голосом; не «з» и не «д»: the, that, rather."
+      "tip_ru": "Кончик языка между зубами, звук звонкий, не заменяйте на д или з."
     },
     {
-      "sound": "w",
+      "sound": "v",
       "examples": [
-        "wind",
-        "wool",
-        "wet",
-        "waves"
+        "very",
+        "voice",
+        "visitors"
       ],
-      "tip_ru": "w: губы вытянуты, как для «у», быстро раскрываются; не касайтесь зубов: wind, wool."
-    },
-    {
-      "sound": "ʌ",
-      "examples": [
-        "sunburned",
-        "hundreds",
-        "tunnel",
-        "one"
-      ],
-      "tip_ru": "ʌ: короткий открытый звук, средний между «а» и «ы»: sunburned, tunnel."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий. Не заменяйте на w и не оглушайте на ф."
     }
   ],
   "questions": [
     {
-      "question": "Where are the Faroe Islands?",
-      "answer": "In the North Atlantic between Scotland and Iceland.",
+      "question": "What is the weather like on Skye?",
+      "answer": "It changes constantly, with sun, rain, hail and fog in a morning.",
       "accepted_keywords": [
-        "atlantic",
-        "iceland",
-        "scotland"
+        "changes",
+        "changing",
+        "rain",
+        "fog",
+        "mixed",
+        "hail"
       ]
     },
     {
-      "question": "What is unusual about the 2020 tunnel?",
-      "answer": "It has an underwater roundabout.",
+      "question": "How did the writer reach Skye?",
+      "answer": "By ferry from Mallaig to Armadale.",
       "accepted_keywords": [
-        "roundabout"
+        "ferry",
+        "mallaig",
+        "armadale",
+        "boat"
       ]
     },
     {
-      "question": "What grows on the roofs of the cottages?",
-      "answer": "Grass.",
+      "question": "What is special about the Old Man of Storr?",
+      "answer": "It is a tall basalt pinnacle among fallen rocks.",
       "accepted_keywords": [
-        "grass",
-        "turf"
+        "pinnacle",
+        "basalt",
+        "rock",
+        "tall"
       ]
     },
     {
-      "question": "What is ræst?",
-      "answer": "Fermented meat.",
+      "question": "What happens on the writer's last day?",
+      "answer": "The ferry is cancelled in the morning, but the weather clears and it sails.",
       "accepted_keywords": [
-        "fermented",
-        "meat",
-        "lamb"
+        "cancelled",
+        "clear",
+        "cleared",
+        "sailed",
+        "ferry"
       ]
     }
   ]

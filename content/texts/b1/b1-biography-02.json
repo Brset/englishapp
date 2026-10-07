@@ -2,129 +2,155 @@
   "id": "b1-biography-02",
   "level": "B1",
   "genre": "biography",
-  "title_en": "Nelson Mandela: From Prison to President",
-  "title_ru": "Нельсон Мандела: из тюрьмы в президенты",
-  "description_ru": "Жизнь человека, который четверть века провёл в заключении, а затем возглавил свою страну.",
-  "text": "Nelson Mandela was born in 1918 in a small village in South Africa. His family wanted him to get a good education, and he later studied law. In Johannesburg he opened one of the first law offices run by Black South Africans.\n\nAt that time, the government of South Africa had a system called apartheid. It kept people apart because of the colour of their skin and gave Black people far fewer rights. Mandela believed this was wrong, so he joined the African National Congress and began to protest. In 1964 a court sentenced him to life in prison.\n\nMandela spent twenty-seven years behind bars, most of them on Robben Island. He worked in a stone quarry, slept on a thin mat and could receive only a few visitors every year. Even so, he never lost hope, and he often said that education was the most powerful weapon you can use to change the world.\n\nPeople around the world demanded his freedom, and he was released in 1990. Instead of seeking revenge, he worked with his former enemies to build a peaceful country. In 1993 he won the Nobel Peace Prize, and in 1994 he became the first Black president of South Africa. He left office after just one term and died in 2013, aged ninety-five.",
-  "word_count": 212,
+  "title_en": "Yuri Gagarin: The First in Space",
+  "title_ru": "Юрий Гагарин: первый в космосе",
+  "description_ru": "Биография Юрия Гагарина: детство в деревне Клушино, учёба, обучение лётчика, полёт 12 апреля 1961 года и жизнь после космоса.",
+  "text": "On the morning of 12 April 1961, a twenty-seven-year-old pilot climbed into a small metal capsule and waited for the countdown. A few minutes later, Yuri Gagarin became the first human being to travel into space. His flight lasted only 108 minutes, but it changed history. Before that day, nobody knew for certain whether a person could survive in space at all. Gagarin proved that it was possible, and he did it with a smile.\n\nYuri Alekseyevich Gagarin was born in 1934 in the village of Klushino, west of Moscow, into a simple farming family. His father worked as a carpenter and his mother worked on a collective farm. Life was difficult enough, but the Second World War made it far worse. German soldiers occupied the village when Yuri was seven, and the family had to live in a small mud hut for almost two years. His older brother and sister were taken away to work in Germany, and they did not return until the war was over.\n\nAfter the war the family moved to the town of Gzhatsk, which is now called Gagarin in his honour. Yuri was a bright and cheerful boy who liked mathematics and physics. When he finished school, he trained as a metalworker in a vocational college near Moscow and then went to a technical school in Saratov. It was there that he joined a local flying club. He had never been in a plane before, but he fell in love with flying at once, and he spent every free evening at the airfield.\n\nIn 1955 he joined the air force and learned to fly military jets. He was small, only about one metre fifty-seven, but this turned out to be an advantage. When the Soviet space programme began looking for men to fly into orbit, it needed pilots who could fit inside a very small spacecraft. Thousands of candidates were examined, and in the end twenty were chosen. Gagarin was not the strongest or the cleverest, but he was calm, friendly and quick to learn, and the other trainees liked him. He also loved basketball, ice hockey and chess, and he often made his colleagues laugh with jokes during the most tiring tests.\n\nThe training was exhausting. The candidates were spun in giant centrifuges, locked in silent rooms for days, and tested in aircraft that fell steeply to create weightlessness. Gagarin never complained. Eventually the chief designer, Sergei Korolev, decided that he was the right person for the first flight, partly because he had the best temperament and partly because he came from an ordinary family, which would make him popular with the public.\n\nThe launch took place at the Baikonur site in Kazakhstan. Before leaving, Gagarin is said to have shouted \"Poyekhali!\", which means \"Let's go!\". The rocket carried his spacecraft, Vostok 1, once around the Earth. During the flight he described what he saw through the window. \"The Earth is blue,\" he reported. \"How wonderful. It is amazing.\" Because the capsule was controlled mostly from the ground, he could do little more than observe, but he also ate, drank and wrote notes while he was weightless.\n\nThe return was far more dangerous than the launch. The capsule was not designed to land with a pilot inside, so Gagarin ejected at about seven kilometres above the ground and came down by parachute. He landed in a field near the Volga River, where a farmer's wife and her granddaughter stared at him in his bright orange suit. \"Don't be afraid,\" he told them. \"I am a Soviet citizen like you, and I have come down from space.\"\n\nWithin hours Gagarin became the most famous person on the planet. He travelled to dozens of countries, met kings and presidents, and was welcomed by huge crowds wherever he went. Although he enjoyed the attention, he was not satisfied with a life of parades. He wanted to fly again, and he returned to study at the Zhukovsky Air Force Academy, where he trained to take part in a second space mission.\n\nSadly, that mission never happened. On 27 March 1968, Gagarin was killed when his training jet crashed near the town of Kirzhach. He was only thirty-four. Experts have investigated the accident for decades, and several theories exist, but the exact cause is still discussed today. His ashes were placed in the Kremlin wall.\n\nToday April 12 is celebrated every year as Cosmonautics Day in Russia, and since 2011 it has also been the International Day of Human Space Flight. Gagarin's story shows that a boy from a poor village can reach the stars if he has courage, discipline and a great deal of luck.",
+  "word_count": 773,
   "vocabulary": [
     {
-      "word": "education",
-      "ipa_us": "ˌɛdʒəˈkeɪʃən",
-      "ipa_uk": "ˌedʒuˈkeɪʃən",
-      "translation_ru": "образование"
+      "word": "orbit",
+      "ipa_us": "ˈɔːrbɪt",
+      "ipa_uk": "ˈɔːbɪt",
+      "translation_ru": "орбита"
     },
     {
-      "word": "apartheid",
-      "ipa_us": "əˈpɑrtaɪt",
-      "ipa_uk": "əˈpɑːtheɪt",
-      "translation_ru": "апартеид"
+      "word": "capsule",
+      "ipa_us": "ˈkæpsəl",
+      "ipa_uk": "ˈkæpsjuːl",
+      "translation_ru": "капсула"
     },
     {
-      "word": "protest",
-      "ipa_us": "prəˈtɛst",
-      "ipa_uk": "prəˈtest",
-      "translation_ru": "протестовать"
+      "word": "carpenter",
+      "ipa_us": "ˈkɑːrpəntər",
+      "ipa_uk": "ˈkɑːpɪntə",
+      "translation_ru": "плотник"
     },
     {
-      "word": "sentenced",
-      "ipa_us": "ˈsɛntənst",
-      "ipa_uk": "ˈsentənst",
-      "translation_ru": "приговорил"
+      "word": "occupied",
+      "ipa_us": "ˈɑːkjəˌpaɪd",
+      "ipa_uk": "ˈɒkjʊpaɪd",
+      "translation_ru": "оккупировали"
     },
     {
-      "word": "quarry",
-      "ipa_us": "ˈkwɔri",
-      "ipa_uk": "ˈkwɒri",
-      "translation_ru": "каменоломня"
+      "word": "candidates",
+      "ipa_us": "ˈkændɪˌdeɪts",
+      "ipa_uk": "ˈkændɪdəts",
+      "translation_ru": "кандидаты"
     },
     {
-      "word": "weapon",
-      "ipa_us": "ˈwɛpən",
-      "ipa_uk": "ˈwepən",
-      "translation_ru": "оружие"
+      "word": "centrifuges",
+      "ipa_us": "ˈsɛntrəˌfjuːdʒɪz",
+      "ipa_uk": "ˈsentrɪfjuːdʒɪz",
+      "translation_ru": "центрифуги"
     },
     {
-      "word": "released",
-      "ipa_us": "rɪˈliːst",
-      "ipa_uk": "rɪˈliːst",
-      "translation_ru": "освобождён"
+      "word": "temperament",
+      "ipa_us": "ˈtɛmprəmənt",
+      "ipa_uk": "ˈtemprəmənt",
+      "translation_ru": "темперамент"
     },
     {
-      "word": "revenge",
-      "ipa_us": "rɪˈvɛndʒ",
-      "ipa_uk": "rɪˈvendʒ",
-      "translation_ru": "месть"
+      "word": "parachute",
+      "ipa_us": "ˈpærəˌʃuːt",
+      "ipa_uk": "ˈpærəʃuːt",
+      "translation_ru": "парашют"
     },
     {
-      "word": "peaceful",
-      "ipa_us": "ˈpiːsfəl",
-      "ipa_uk": "ˈpiːsfəl",
-      "translation_ru": "мирный"
+      "word": "ejected",
+      "ipa_us": "ɪˈdʒɛktɪd",
+      "ipa_uk": "ɪˈdʒektɪd",
+      "translation_ru": "катапультировался"
+    },
+    {
+      "word": "cosmonautics",
+      "ipa_us": "ˌkɑːzməˈnɔːtɪks",
+      "ipa_uk": "ˌkɒzməˈnɔːtɪks",
+      "translation_ru": "космонавтика"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "θ",
       "examples": [
-        "wanted",
-        "world",
-        "weapon",
-        "was"
+        "thousands",
+        "through",
+        "earth"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "flying",
+        "training",
+        "morning",
+        "evening"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
     },
     {
       "sound": "r",
       "examples": [
-        "prison",
-        "Robben",
-        "president",
-        "revenge"
+        "rocket",
+        "river",
+        "return",
+        "reach"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка поднят и загнут назад, не касается нёба; никакого раскатистого «р»."
     },
     {
-      "sound": "ð",
+      "sound": "dark-l",
       "examples": [
-        "that",
-        "with",
-        "the first"
+        "wall",
+        "metal",
+        "local",
+        "all"
       ],
-      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "When was Mandela born?",
-      "answer": "In 1918.",
+      "question": "How long did Gagarin's flight last?",
+      "answer": "It lasted 108 minutes.",
       "accepted_keywords": [
-        "1918",
-        "nineteen"
+        "108",
+        "minutes",
+        "hundred"
       ]
     },
     {
-      "question": "How long did he spend in prison?",
-      "answer": "Twenty-seven years.",
+      "question": "What did Gagarin do before he became a pilot in the air force?",
+      "answer": "He trained as a metalworker and studied at a technical school, where he joined a flying club.",
       "accepted_keywords": [
-        "twenty",
-        "27"
+        "metalworker",
+        "technical",
+        "school",
+        "flying",
+        "club",
+        "saratov"
       ]
     },
     {
-      "question": "What prize did he win in 1993?",
-      "answer": "The Nobel Peace Prize.",
+      "question": "How did Gagarin come back to Earth?",
+      "answer": "He ejected from the capsule and landed by parachute.",
       "accepted_keywords": [
-        "nobel",
-        "peace"
+        "parachute",
+        "ejected",
+        "ejects"
       ]
     },
     {
-      "question": "How many terms did he serve as president?",
-      "answer": "One term.",
+      "question": "How did Gagarin die?",
+      "answer": "He was killed in a training jet crash in 1968.",
       "accepted_keywords": [
-        "one",
-        "1"
+        "crash",
+        "crashed",
+        "jet",
+        "training",
+        "1968",
+        "killed"
       ]
     }
   ]

@@ -2,139 +2,172 @@
   "id": "b2-opinion-05",
   "level": "B2",
   "genre": "opinion",
-  "title_en": "Why We Need a Four-Day Week",
-  "title_ru": "Почему нужна четырёхдневная рабочая неделя",
-  "description_ru": "Разбор опыта компаний, перешедших на четырёхдневку, с аргументами сторонников и критиков.",
-  "text": "Imagine finishing work on Thursday afternoon and having three full days to yourself. For a growing number of employees, this is no longer a daydream. Several companies in Britain, Iceland and Japan have tested a four-day working week, with no reduction in pay, and the results have surprised even the sceptics.\n\nIn a large British trial, around sixty companies took part for six months. Most of them reported that productivity stayed the same or even rose, and a majority decided to continue afterwards. Employees said that they felt less stressed, slept better and were more motivated. Many companies also noticed that fewer people resigned, which saved a great deal of money on recruitment.\n\nWhy does it work? Mainly because a shorter week forces everyone to cut the waste. Meetings are shortened, pointless emails are skipped and people concentrate harder when they know that the weekend is longer. As one manager put it, \"We stopped pretending to be busy.\"\n\nOf course, the idea is not perfect for every job. Hospitals, shops and restaurants cannot simply close for an extra day, and nurses have already complained that they are overworked. Critics also argue that staff might squeeze five days of work into four long ones, which would leave them exhausted. They have a point, and it shows that the model has to be adapted carefully to each workplace.\n\nSome employers worry that clients will be unhappy if the office is closed on Fridays. In practice, however, most companies solved this by rotating schedules. Customers hardly noticed.\n\nI would go further and say that the old five-day week is a habit inherited from the factories of the nineteenth century, when machines needed to be watched by humans. Today, much of our work is done by thinking, and thinking does not improve after the eighth hour. Giving people more time to rest, to see their families and to learn new skills is not a luxury. It is an investment. If it is introduced sensibly, I am convinced that everyone will benefit, including the boss.",
+  "title_en": "Paper Books Deserve a Future",
+  "title_ru": "У бумажных книг есть будущее",
+  "description_ru": "Личное мнение о том, почему в эпоху электронных читалок и аудиокниг печатная книга остаётся незаменимой.",
+  "text": "Every few years, someone announces that the paper book is about to die. When the first e-readers appeared, journalists predicted that libraries would turn into museums and that children would never again know the smell of a new volume. More than a decade later, the e-reader has become a common sight on trains and beaches, but the paper book has refused to lie down. In many countries, printed books still account for the majority of sales. I do not think this is just nostalgia. I believe that there are good reasons why we should hold on to them.\n\nLet me begin by admitting that e-readers are wonderful in many ways. Thousands of titles fit into a device that is lighter than a paperback. The type can be enlarged for people with poor eyesight, and a dictionary is only a tap away. I took one on a long journey last winter and was delighted not to have to choose between novels. If I were a student carrying six heavy textbooks, or a traveller with a strict weight limit, I would probably never go back. So this is not an argument against technology, but a defence of an old one.\n\nThe first reason is memory. A number of studies have suggested that people remember what they read on paper slightly better than what they read on a screen, particularly for long, complicated texts. One explanation is that a printed book has a physical shape. We know that an exciting scene was on the left-hand page, about a third of the way through, with a coffee stain in the corner. This sense of location helps the mind to organise what it has read. On a screen, the text just flows past, and every page looks exactly like every other.\n\nThe second reason is concentration. A tablet or a phone is a machine that was built to interrupt us. Even if you are reading a novel on it, the temptation of a message, a news alert or a quick look at the weather is only a swipe away. A paper book cannot send notifications. It asks for one thing only, which is your attention, and in return it offers a quiet corner of the world. A friend of mine, who works in advertising, told me that she had not finished a novel for years until she started leaving her phone in another room and picking up a paperback.\n\nThen there is the question of ownership. When you buy a printed book, it is yours. You can lend it, give it away, sell it second-hand or leave it on a bench for a stranger to find. When you buy an electronic one, you often only buy a licence, and the company that sold it can, in theory, withdraw it or change the conditions. Some readers had an unpleasant surprise years ago when copies of a novel were deleted remotely from their devices. Ironically, the book in question was a story about a government that controlled what people were allowed to read.\n\nA bookshelf is also a kind of autobiography. Visitors to my flat usually drift towards it, and a few minutes of browsing tell them more about me than an hour of conversation. The battered copies are the ones I have loved. The unread ones, which are many, are a gentle reproach. In my parents' house, my father's notes in the margins of his old textbooks are a way of hearing his voice. No digital file can offer that kind of intimacy, and a shelf of glowing icons does not carry the same weight.\n\nIt would be unfair to ignore the critics, who point out that paper is expensive, heavy and bad for the environment. Producing books does use trees, water and energy, and it is wasteful to print more copies than will be sold. Still, a book that is read by ten people, passed round a family and then donated to a charity shop has a much smaller footprint than a device that must be manufactured with rare metals and replaced every few years. The most environmentally friendly book is the one that already exists, and libraries make it possible for hundreds of people to share a single copy.\n\nLibraries and bookshops, I should add, are the real heart of the matter. A bookshop is a place where you discover things you were not looking for. An algorithm may suggest more of what you have already enjoyed, but a shopkeeper will put a strange little novel into your hands and say that she thinks you will like it. This kind of accident is the source of many a lifelong passion. If paper books vanished, I suspect that the shops, and with them a certain kind of curiosity, would disappear too.\n\nThe future, I suspect, will not be a contest between paper and screen. Many readers already use both: an e-reader on a business trip, a paperback in the bath, an audiobook while cooking. That seems a healthy and sensible balance. But I hope that the printed book will always stay on the table, because it offers something that is increasingly rare: an object that does one thing, does it well and asks for nothing except that you turn the page.",
+  "word_count": 882,
   "vocabulary": [
     {
-      "word": "employees",
-      "ipa_us": "ɪmˈplɔɪiz",
-      "ipa_uk": "ɪmˈplɔɪiːz",
-      "translation_ru": "сотрудники"
+      "word": "e-readers",
+      "ipa_us": "ˈi ˌridərz",
+      "ipa_uk": "ˈiː ˌriːdəz",
+      "translation_ru": "электронные книги"
     },
     {
-      "word": "reduction",
-      "ipa_us": "rɪˈdʌkʃən",
-      "ipa_uk": "rɪˈdʌkʃən",
-      "translation_ru": "сокращение"
+      "word": "nostalgia",
+      "ipa_us": "nɑˈstældʒə",
+      "ipa_uk": "nɒˈstældʒə",
+      "translation_ru": "ностальгия"
     },
     {
-      "word": "sceptics",
-      "ipa_us": "ˈskɛptɪks",
-      "ipa_uk": "ˈskeptɪks",
-      "translation_ru": "скептики"
+      "word": "paperback",
+      "ipa_us": "ˈpeɪpərˌbæk",
+      "ipa_uk": "ˈpeɪpəbæk",
+      "translation_ru": "книга в мягкой обложке"
     },
     {
-      "word": "productivity",
-      "ipa_us": "ˌproʊdʌkˈtɪvəti",
-      "ipa_uk": "ˌprɒdʌkˈtɪvəti",
-      "translation_ru": "производительность"
+      "word": "complicated",
+      "ipa_us": "ˈkɑmplɪˌkeɪtɪd",
+      "ipa_uk": "ˈkɒmplɪkeɪtɪd",
+      "translation_ru": "сложный"
     },
     {
-      "word": "resigned",
-      "ipa_us": "rɪˈzaɪnd",
-      "ipa_uk": "rɪˈzaɪnd",
-      "translation_ru": "уволились"
+      "word": "notifications",
+      "ipa_us": "ˌnoʊtɪfɪˈkeɪʃənz",
+      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃənz",
+      "translation_ru": "уведомления"
     },
     {
-      "word": "recruitment",
-      "ipa_us": "rɪˈkrutmənt",
-      "ipa_uk": "rɪˈkruːtmənt",
-      "translation_ru": "набор персонала"
+      "word": "ownership",
+      "ipa_us": "ˈoʊnərˌʃɪp",
+      "ipa_uk": "ˈəʊnəʃɪp",
+      "translation_ru": "владение"
     },
     {
-      "word": "exhausted",
-      "ipa_us": "ɪɡˈzɔstɪd",
-      "ipa_uk": "ɪɡˈzɔːstɪd",
-      "translation_ru": "измотанные"
+      "word": "licence",
+      "ipa_us": "ˈlaɪsəns",
+      "ipa_uk": "ˈlaɪsəns",
+      "translation_ru": "лицензия"
     },
     {
-      "word": "inherited",
-      "ipa_us": "ɪnˈhɛrətɪd",
-      "ipa_uk": "ɪnˈherɪtɪd",
-      "translation_ru": "унаследованная"
+      "word": "remotely",
+      "ipa_us": "rɪˈmoʊtli",
+      "ipa_uk": "rɪˈməʊtli",
+      "translation_ru": "дистанционно"
+    },
+    {
+      "word": "intimacy",
+      "ipa_us": "ˈɪntəməsi",
+      "ipa_uk": "ˈɪntɪməsi",
+      "translation_ru": "близость"
+    },
+    {
+      "word": "reproach",
+      "ipa_us": "rɪˈproʊtʃ",
+      "ipa_uk": "rɪˈprəʊtʃ",
+      "translation_ru": "упрёк"
+    },
+    {
+      "word": "footprint",
+      "ipa_us": "ˈfʊtˌprɪnt",
+      "ipa_uk": "ˈfʊtprɪnt",
+      "translation_ru": "след (экологический)"
+    },
+    {
+      "word": "algorithm",
+      "ipa_us": "ˈælɡəˌrɪðəm",
+      "ipa_uk": "ˈælɡərɪðəm",
+      "translation_ru": "алгоритм"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ð",
       "examples": [
-        "Thursday",
-        "three",
-        "thinking",
-        "months"
+        "this",
+        "that",
+        "other",
+        "they"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Тот же положение языка, что для θ, но с голосом: звук гудит, не «з»."
     },
     {
-      "sound": "w",
+      "sound": "v",
       "examples": [
-        "week",
-        "work",
-        "working",
-        "with"
+        "voice",
+        "never",
+        "have",
+        "give"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не «w» и не глухое «ф»."
     },
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "reduction",
-        "results",
-        "resigned",
-        "recruitment"
+        "e-readers",
+        "nostalgia",
+        "paperback",
+        "complicated"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
-      "sound": "final-voiced",
+      "sound": "dark-l",
       "examples": [
-        "closed",
-        "solved",
-        "resigned",
-        "introduced"
+        "well",
+        "still",
+        "will",
+        "world"
       ],
-      "tip_ru": "Не оглушайте звонкий согласный в конце слова: bed звучит как «бэд», а не «бэт»."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "Which countries have tested a four-day week?",
-      "answer": "Britain, Iceland and Japan.",
+      "question": "What is the first reason the author gives for preferring paper?",
+      "answer": "People remember paper texts slightly better because a book has a physical shape and location.",
       "accepted_keywords": [
-        "britain",
-        "iceland",
-        "japan"
+        "memory",
+        "remember",
+        "shape",
+        "physical",
+        "location"
       ]
     },
     {
-      "question": "How long did the British trial last?",
-      "answer": "Six months.",
+      "question": "Why is a paper book better for concentration?",
+      "answer": "It cannot send notifications or messages.",
       "accepted_keywords": [
-        "six",
-        "6"
+        "notifications",
+        "messages",
+        "interrupt",
+        "alerts",
+        "attention"
       ]
     },
     {
-      "question": "What happened to productivity in most companies?",
-      "answer": "It stayed the same or rose.",
+      "question": "What is the problem with owning electronic books?",
+      "answer": "You only buy a licence and the company can withdraw the book.",
       "accepted_keywords": [
-        "same",
-        "rose",
-        "stayed",
-        "increased"
+        "licence",
+        "license",
+        "withdraw",
+        "delete",
+        "deleted",
+        "ownership"
       ]
     },
     {
-      "question": "Which workplaces cannot easily close for an extra day?",
-      "answer": "Hospitals, shops and restaurants.",
+      "question": "What does the author think the future will look like?",
+      "answer": "Readers will use both paper and screens.",
       "accepted_keywords": [
-        "hospitals",
-        "shops",
-        "restaurants"
+        "both",
+        "paper",
+        "screens",
+        "balance",
+        "mix"
       ]
     }
-  ],
-  "word_count": 342
+  ]
 }

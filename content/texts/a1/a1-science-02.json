@@ -2,58 +2,83 @@
   "id": "a1-science-02",
   "level": "A1",
   "genre": "science",
-  "title_en": "Three Forms of Water",
-  "title_ru": "Три состояния воды",
-  "description_ru": "Как вода превращается в лёд, жидкость и пар и путешествует по кругу.",
-  "text": "Water is special because it has three forms. When water is cold, it becomes ice. Ice is hard, and you can see it in a freezer. When water is warm, it is a liquid. We drink it, and we wash with it.\n\nWhen water is very hot, it turns into steam. Steam is a gas, and you cannot see it well. In the sky, water goes up, becomes clouds and comes back as rain. This journey never stops. Water travels around our world again and again.",
+  "title_en": "The Journey of a Water Drop",
+  "title_ru": "Путешествие капли воды",
+  "description_ru": "Капля воды проходит весь круговорот: испаряется, становится облаком, дождём, ручьём и возвращается в океан.",
+  "text": "Water is everywhere on our planet. It is in the sea, in the rivers, in the clouds and even in our bodies. But the water never stays in one place. It moves in a big circle, and the circle never stops. Scientists call it the water cycle. Today we follow one small drop of water and learn about its long journey.\n\nOur drop lives in the Pacific Ocean. It is blue, cold and very salty there. The sun shines on the sea all day, and the top of the water becomes warm. Our drop feels hot and begins to change. It becomes a gas that we cannot see. This gas is called water vapour. Scientists call the change evaporation. The drop leaves the salt behind. Now it is fresh and light. The warm air goes up, and our drop goes up with it. Higher in the sky, the air is very cold. At ten thousand metres, it is minus fifty degrees. Our drop is cold now, and it changes again. It becomes a tiny drop of water again, and it meets millions of other drops. Together they make a cloud. We call this change condensation. You can see condensation at home. When you take a cold glass out of the fridge, small drops of water appear on the outside.\n\nAir has a lot of water in it, even when the sky is clear. On a hot day, the air near the sea is full of vapour. We cannot see it, but we can feel it. The air feels sticky and heavy. In the desert, the air has very little vapour, so it feels dry. Scientists measure the water in the air, and they call it humidity. When the humidity is high, we feel hotter than the thermometer says.\n\nNow the wind pushes the cloud over the sea and over the land. Our cloud meets a big mountain and must go higher. The air is colder, and the cloud gets heavy and dark. The drops in the cloud join together and become bigger and bigger. At last, they are too heavy to stay in the sky. They fall down as rain. If the air is very cold, they fall as snow. This is called precipitation.\n\nOur drop falls on top of the mountain, where it is winter. It lands on the snow and stays there for many months. The mountain is white and silent. In spring, the sun gets stronger, and the snow starts to melt. Our drop becomes liquid again. It runs down the mountain with thousands of other drops and makes a small stream. The stream is clear and cold. Plants drink some of the drops. Animals drink some, too.\n\nClouds come in many shapes. Some clouds are small, white and soft, like cotton. We see them on sunny days, and they do not bring rain. Other clouds are big, grey and flat. They cover the whole sky and bring a long, quiet rain. The biggest clouds are tall and dark, and they bring storms with thunder and lightning. A big storm cloud can be ten kilometres high. It is full of ice and water.\n\nThe stream joins a bigger stream, and then a river. The river goes through a town. People take some of the water to their homes. They drink it, wash with it and cook with it. A little of our drop goes through a farm and helps the corn to grow. Another part goes into the ground and stays there for many years. We call this water groundwater. People make wells to get it.\n\nBut our drop is lucky. It stays in the river and keeps moving. The river becomes wider and slower. Finally, after weeks of travel, it reaches the ocean again. The drop is home. It is again in the same blue sea, but now it is a little older and wiser. The next sunny day, the cycle starts again. The sun warms the water, and our drop goes up into the sky.\n\nThe sea is not the only place for this journey. Trees and plants also take part. A tree drinks water from the ground with its roots. The water goes up through the trunk to the leaves. Then it leaves the tree as vapour through small holes in the leaves. A big tree gives out a hundred litres of water in one day. That is why a forest is often wet and cool, and why forests help to make rain.\n\nThis journey is very, very old. The water you drink today is the same water that dinosaurs drink millions of years ago. There is no new water on Earth. We have only the same water, again and again. That is why we must keep our rivers and seas clean, and why we must not waste a single drop.",
+  "word_count": 807,
   "vocabulary": [
     {
-      "word": "forms",
-      "ipa_us": "fɔːrmz",
-      "ipa_uk": "fɔːmz",
-      "translation_ru": "формы, состояния"
+      "word": "evaporation",
+      "ipa_us": "ɪˌvæpəˈreɪʃn",
+      "ipa_uk": "ɪˌvæpəˈreɪʃn",
+      "translation_ru": "испарение"
     },
     {
-      "word": "ice",
-      "ipa_us": "aɪs",
-      "ipa_uk": "aɪs",
-      "translation_ru": "лёд"
-    },
-    {
-      "word": "freezer",
-      "ipa_us": "ˈfriːzɚ",
-      "ipa_uk": "ˈfriːzə",
-      "translation_ru": "морозильник"
-    },
-    {
-      "word": "liquid",
-      "ipa_us": "ˈlɪkwɪd",
-      "ipa_uk": "ˈlɪkwɪd",
-      "translation_ru": "жидкость"
-    },
-    {
-      "word": "steam",
-      "ipa_us": "stiːm",
-      "ipa_uk": "stiːm",
+      "word": "vapour",
+      "ipa_us": "ˈveɪpər",
+      "ipa_uk": "ˈveɪpə",
       "translation_ru": "пар"
     },
     {
-      "word": "clouds",
-      "ipa_us": "klaʊdz",
-      "ipa_uk": "klaʊdz",
-      "translation_ru": "облака"
+      "word": "condensation",
+      "ipa_us": "ˌkɑːndɛnˈseɪʃn",
+      "ipa_uk": "ˌkɒndenˈseɪʃn",
+      "translation_ru": "конденсация"
     },
     {
-      "word": "journey",
-      "ipa_us": "ˈdʒɝːni",
-      "ipa_uk": "ˈdʒɜːni",
-      "translation_ru": "путь, путешествие"
+      "word": "precipitation",
+      "ipa_us": "prɪˌsɪpɪˈteɪʃn",
+      "ipa_uk": "prɪˌsɪpɪˈteɪʃn",
+      "translation_ru": "осадки"
     },
     {
-      "word": "travels",
-      "ipa_us": "ˈtrævəlz",
-      "ipa_uk": "ˈtrævəlz",
-      "translation_ru": "путешествует"
+      "word": "cloud",
+      "ipa_us": "klaʊd",
+      "ipa_uk": "klaʊd",
+      "translation_ru": "облако"
+    },
+    {
+      "word": "stream",
+      "ipa_us": "striːm",
+      "ipa_uk": "striːm",
+      "translation_ru": "ручей"
+    },
+    {
+      "word": "groundwater",
+      "ipa_us": "ˈɡraʊndwɔːtər",
+      "ipa_uk": "ˈɡraʊndwɔːtə",
+      "translation_ru": "грунтовые воды"
+    },
+    {
+      "word": "melt",
+      "ipa_us": "mɛlt",
+      "ipa_uk": "melt",
+      "translation_ru": "таять"
+    },
+    {
+      "word": "ocean",
+      "ipa_us": "ˈoʊʃn",
+      "ipa_uk": "ˈəʊʃn",
+      "translation_ru": "океан"
+    },
+    {
+      "word": "salty",
+      "ipa_us": "ˈsɔːlti",
+      "ipa_uk": "ˈsɔːlti",
+      "translation_ru": "солёный"
+    },
+    {
+      "word": "planet",
+      "ipa_us": "ˈplænɪt",
+      "ipa_uk": "ˈplænɪt",
+      "translation_ru": "планета"
+    },
+    {
+      "word": "scientists",
+      "ipa_us": "ˈsaɪəntɪsts",
+      "ipa_uk": "ˈsaɪəntɪsts",
+      "translation_ru": "учёные"
     }
   ],
   "focus_sounds": [
@@ -61,60 +86,76 @@
       "sound": "w",
       "examples": [
         "water",
-        "warm",
-        "wash",
-        "world"
+        "where",
+        "wind",
+        "with"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "the",
+        "this",
+        "that",
+        "there"
+      ],
+      "tip_ru": "Язык между зубами, голос включён; не заменяйте на «з» или «д»."
     },
     {
       "sound": "θ",
       "examples": [
-        "three",
-        "with"
+        "thousand",
+        "thousands",
+        "earth"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
-      "sound": "v",
+      "sound": "word-stress",
       "examples": [
-        "very",
-        "travels",
-        "never"
+        "evaporation",
+        "condensation",
+        "precipitation",
+        "groundwater"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "How many forms does water have?",
-      "answer": "Three.",
+      "question": "Where does the drop of water start its journey?",
+      "answer": "In the Pacific Ocean.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "ocean",
+        "pacific",
+        "sea"
       ]
     },
     {
-      "question": "What does cold water become?",
-      "answer": "Ice.",
+      "question": "What is a cloud made of?",
+      "answer": "Millions of tiny drops of water.",
       "accepted_keywords": [
-        "ice"
+        "drops",
+        "water"
       ]
     },
     {
-      "question": "What is steam?",
-      "answer": "A gas.",
+      "question": "What happens to the snow in spring?",
+      "answer": "It melts and makes a stream.",
       "accepted_keywords": [
-        "gas"
+        "melt",
+        "stream",
+        "water"
       ]
     },
     {
-      "question": "What comes back from the clouds?",
-      "answer": "Rain.",
+      "question": "Where does the drop go at the end?",
+      "answer": "It goes back to the ocean.",
       "accepted_keywords": [
-        "rain"
+        "ocean",
+        "sea"
       ]
     }
-  ],
-  "word_count": 86
+  ]
 }

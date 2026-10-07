@@ -2,122 +2,162 @@
   "id": "a1-science-05",
   "level": "A1",
   "genre": "science",
-  "title_en": "Your Strong Heart",
-  "title_ru": "Ваше сильное сердце",
-  "description_ru": "Что делает сердце, как оно качает кровь и как о нём заботиться.",
-  "text": "Your heart is a strong muscle, and it is about the size of your fist. It sits in the middle of your chest, a little to the left. The heart works day and night. It pushes blood around your body through long tubes. Blood carries air from your lungs to every part of you.\n\nAt rest, your heart beats about seventy times in a minute. When you run, it beats faster. You can feel it with your hand on your neck or your wrist. Sleep well, eat healthy food and move every day to help your heart.",
+  "title_en": "Emperor Penguins",
+  "title_ru": "Императорские пингвины",
+  "description_ru": "Как императорские пингвины растят птенцов в суровой зиме Антарктиды и что им угрожает сегодня.",
+  "text": "Antarctica is the coldest place on Earth. The wind is strong, the ice is thick and the temperature is sometimes minus sixty degrees. Almost no animal lives here in winter. But one bird stays. It is the emperor penguin, the biggest penguin in the world. It is about one metre tall, and it cannot fly. But it swims very well, and it has an amazing life.\n\nEmperor penguins are made for the cold. They have thick fat and four layers of small, hard feathers. The feathers keep out the wind and the water. Even their feet have a special system. The blood in their feet is cold, so they do not lose much heat to the ice. Emperor penguins can also dive deeper than any other bird. They go down more than five hundred metres and stay under the water for twenty minutes to catch fish and squid.\n\nIn March, the Antarctic autumn begins, and the emperor penguins leave the sea. They walk for many days across the ice, sometimes more than a hundred kilometres. Thousands of penguins go the same way, one behind another. They are going to a place where they were born. They walk because the ice near the sea is not safe in winter. Their feet are tired, and sometimes they slide on their stomachs. This is faster and easier.\n\nAt the breeding place, the penguins find a partner. The male and the female sing to each other. Every penguin has its own voice, and the partners find each other in a crowd of thousands. In May, the female lays one single egg. Then something surprising happens. She gives the egg to the male, very carefully, and she walks back to the sea. She is very hungry, because she does not eat for two months.\n\nThe father now has a very hard job. He puts the egg on his feet and covers it with a warm flap of skin. He must not let it touch the ice, because the baby inside will die in a minute. All the fathers stand in a big group, very close together. They take turns to be on the outside, where the wind is cold, and then go inside, where it is warm. They do not eat for about four months. Each father loses nearly half of his weight.\n\nWhile the fathers wait, the weather is terrible. The winds blow at a hundred and fifty kilometres an hour. It is dark for weeks, because the sun does not rise in the Antarctic winter. The penguins make a big, tight group which scientists call a huddle. Up to five thousand penguins stand shoulder to shoulder. Inside the huddle, the temperature is almost as warm as a summer day in a city. Not one penguin stays outside for long.\n\nIn July, the egg hatches. A tiny grey chick comes out. It is soft and hungry, and the father feeds it with a milk made in his body. Just then, the mothers come back from the sea. They are fat and full of fish, and they feed the chicks from their stomachs. Every mother finds her family by their special songs. Now the fathers can go to the sea at last and eat.\n\nFor the next months, the parents take turns. One stays with the chick, and the other goes to fish. The trip to the sea is long, and the way back is hard. In the spring, the chick grows its dark feathers and the ice begins to break. In December, the young penguins are ready to swim. They jump into the water for the first time. They do not look back.\n\nThe sea is dangerous for a young penguin. There are leopard seals and orcas under the ice. They watch the penguins and wait. The penguins know this, so they stand at the edge of the ice for a long time. Nobody wants to jump first. Finally, one brave penguin jumps, and then all the others follow. It is a famous and funny sight.\n\nToday, scientists worry about the emperor penguins. The ice is melting because the Earth is getting warmer. When the ice breaks too early, the chicks fall into the water before they are ready. Scientists use satellites to count the penguins from space. They also try to learn how to help. We all can help, too. If we save energy and make less pollution, we protect the home of these brave birds.",
+  "word_count": 743,
   "vocabulary": [
     {
-      "word": "heart",
-      "ipa_us": "hɑːrt",
-      "ipa_uk": "hɑːt",
-      "translation_ru": "сердце"
+      "word": "penguin",
+      "ipa_us": "ˈpɛŋɡwɪn",
+      "ipa_uk": "ˈpeŋɡwɪn",
+      "translation_ru": "пингвин"
     },
     {
-      "word": "muscle",
-      "ipa_us": "ˈmʌsl",
-      "ipa_uk": "ˈmʌsl",
-      "translation_ru": "мышца"
+      "word": "Antarctica",
+      "ipa_us": "æntˈɑːrktɪkə",
+      "ipa_uk": "ænˈtɑːktɪkə",
+      "translation_ru": "Антарктида"
     },
     {
-      "word": "fist",
-      "ipa_us": "fɪst",
-      "ipa_uk": "fɪst",
-      "translation_ru": "кулак"
+      "word": "chick",
+      "ipa_us": "tʃɪk",
+      "ipa_uk": "tʃɪk",
+      "translation_ru": "птенец"
     },
     {
-      "word": "chest",
-      "ipa_us": "tʃest",
-      "ipa_uk": "tʃest",
-      "translation_ru": "грудь"
+      "word": "feathers",
+      "ipa_us": "ˈfɛðərz",
+      "ipa_uk": "ˈfeðəz",
+      "translation_ru": "перья"
     },
     {
-      "word": "blood",
-      "ipa_us": "blʌd",
-      "ipa_uk": "blʌd",
-      "translation_ru": "кровь"
+      "word": "huddle",
+      "ipa_us": "ˈhʌdl",
+      "ipa_uk": "ˈhʌdl",
+      "translation_ru": "тесная группа"
     },
     {
-      "word": "lungs",
-      "ipa_us": "lʌŋz",
-      "ipa_uk": "lʌŋz",
-      "translation_ru": "лёгкие"
+      "word": "hatches",
+      "ipa_us": "ˈhætʃɪz",
+      "ipa_uk": "ˈhætʃɪz",
+      "translation_ru": "вылупляется"
     },
     {
-      "word": "beats",
-      "ipa_us": "biːts",
-      "ipa_uk": "biːts",
-      "translation_ru": "бьётся"
+      "word": "breeding",
+      "ipa_us": "ˈbriːdɪŋ",
+      "ipa_uk": "ˈbriːdɪŋ",
+      "translation_ru": "размножение"
     },
     {
-      "word": "wrist",
-      "ipa_us": "rɪst",
-      "ipa_uk": "rɪst",
-      "translation_ru": "запястье"
+      "word": "satellites",
+      "ipa_us": "ˈsætəlaɪts",
+      "ipa_uk": "ˈsætəlaɪts",
+      "translation_ru": "спутники"
+    },
+    {
+      "word": "melting",
+      "ipa_us": "ˈmɛltɪŋ",
+      "ipa_uk": "ˈmeltɪŋ",
+      "translation_ru": "таяние"
+    },
+    {
+      "word": "protect",
+      "ipa_us": "prəˈtɛkt",
+      "ipa_uk": "prəˈtekt",
+      "translation_ru": "защищать"
+    },
+    {
+      "word": "female",
+      "ipa_us": "ˈfiːmeɪl",
+      "ipa_uk": "ˈfiːmeɪl",
+      "translation_ru": "самка"
+    },
+    {
+      "word": "partner",
+      "ipa_us": "ˈpɑːrtnər",
+      "ipa_uk": "ˈpɑːtnə",
+      "translation_ru": "партнёр"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "h",
+      "sound": "ð",
       "examples": [
-        "heart",
-        "hand",
-        "healthy",
-        "help"
+        "the",
+        "father",
+        "they",
+        "other"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+      "tip_ru": "Язык между зубами, голос включён; не заменяйте на «з» или «д»."
     },
     {
-      "sound": "ɑː",
+      "sound": "ŋ",
       "examples": [
-        "heart",
-        "part"
+        "sing",
+        "long"
       ],
-      "tip_ru": "Долгий глубокий «а»: рот открыт широко, язык лежит низко. Тяните звук, в американском варианте добавляется «r»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
       "sound": "ʌ",
       "examples": [
-        "blood",
-        "lungs",
-        "run",
-        "muscle"
+        "huddle",
+        "months",
+        "mother",
+        "mothers"
       ],
-      "tip_ru": "Короткий открытый звук между «а» и «э», рот расслаблен, губы не округляйте. Это не «о» и не «у»."
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
+    },
+    {
+      "sound": "h",
+      "examples": [
+        "hungry",
+        "hatches",
+        "huddle",
+        "hard"
+      ],
+      "tip_ru": "Лёгкий выдох из горла без трения; не произносите как русское «х»."
     }
   ],
   "questions": [
     {
-      "question": "What is the heart?",
-      "answer": "A strong muscle.",
+      "question": "Where do emperor penguins live?",
+      "answer": "In Antarctica.",
       "accepted_keywords": [
-        "muscle"
+        "antarctica",
+        "ice",
+        "cold"
       ]
     },
     {
-      "question": "Where is the heart?",
-      "answer": "In the middle of the chest.",
+      "question": "What does the father penguin do with the egg?",
+      "answer": "He keeps it on his feet to keep it warm.",
       "accepted_keywords": [
-        "chest",
-        "middle"
+        "feet",
+        "warm",
+        "egg"
       ]
     },
     {
-      "question": "What does blood carry?",
-      "answer": "Air from the lungs.",
+      "question": "How long does the father not eat?",
+      "answer": "For about four months.",
       "accepted_keywords": [
-        "air",
-        "lungs"
+        "four",
+        "months",
+        "4"
       ]
     },
     {
-      "question": "How many times does the heart beat in a minute?",
-      "answer": "About seventy.",
+      "question": "Why do scientists worry today?",
+      "answer": "The ice is melting because the Earth is getting warmer.",
       "accepted_keywords": [
-        "seventy",
-        "70"
+        "ice",
+        "melting",
+        "warm",
+        "warmer"
       ]
     }
-  ],
-  "word_count": 97
+  ]
 }

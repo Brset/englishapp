@@ -2,110 +2,164 @@
   "id": "b1-story-04",
   "level": "B1",
   "genre": "story",
-  "title_en": "The Wrong Suitcase",
-  "title_ru": "Не тот чемодан",
-  "description_ru": "В аэропорту Анна берёт чужой чемодан, и это приводит к необычной встрече.",
-  "text": "When Anna arrived in Lisbon, she picked up a black suitcase from the luggage belt and went straight to her hotel. It was only when she opened it that she realised something was wrong. Instead of her clothes, there were a tuba, three yellow shirts and a map covered in red circles.\n\n\"This isn't mine,\" she said to herself. She looked for a name, and she found a small label with an email address. She wrote a message at once: \"I think I have taken your suitcase. Could you meet me at the airport?\"\n\nThe answer came in ten minutes. \"Yes! I have been looking for it for two hours. I'm in a brass band, and the concert starts tonight!\" Anna hurried to the airport, where a worried young man was waiting with her small blue suitcase in his hand.\n\nHis name was Paulo. \"If you had arrived later, we would have played without a tuba,\" he joked. He was so grateful that he invited her to the concert. Anna had planned to spend the evening in bed, but she changed her mind.\n\nThe music was loud, cheerful and slightly out of tune. Afterwards, Paulo introduced her to the whole band. \"Every traveller should make one mistake like this,\" Anna laughed. She has never forgotten that evening, and she still keeps a yellow shirt in her wardrobe.",
-  "word_count": 227,
+  "title_en": "The Second Chance",
+  "title_ru": "Второй шанс",
+  "description_ru": "После увольнения в пятьдесят три года Оливер находит новое призвание в преподавании.",
+  "text": "Oliver Grant was fifty-three years old when the company told him that his job no longer existed. He had worked in the same warehouse office for twenty-six years, ordering parts, filling in forms and drinking the same weak tea at the same desk. The manager who delivered the news was half his age, and he kept looking at his shoes. \"It is nothing personal,\" the young man said. Oliver nodded, collected his mug and a photograph of his daughter, and walked out into a grey afternoon with a small box under his arm.\n\nFor several weeks he did very little. He slept late, watched television and told his wife, Helen, that he was \"thinking about options.\" In reality he was thinking about nothing at all. Every morning he opened his laptop, looked at job websites and closed it again, because every advertisement seemed to ask for someone younger, faster and more comfortable with technology. \"I have never had to apply for a job,\" he admitted to his daughter, Emma, on the phone. \"I do not even know how to begin.\"\n\nEmma, who lived in another city, did not lecture him. Instead, she sent him a link to a free workshop at the local library called \"Starting Again at Any Age.\" Oliver nearly ignored it. If he had been in a better mood, he might have laughed at the title. But the following Thursday, bored and a little ashamed, he put on a clean shirt and went. There were twelve people in the room, of all ages, and a tall woman called Ms Adeyemi who asked them to introduce themselves by saying one thing they were good at.\n\nWhen it was Oliver's turn, he said, \"Nothing, really.\" The room went quiet. Ms Adeyemi tilted her head. \"That cannot be true,\" she said. \"You have organised the supply of a hundred and fifty products for twenty-six years. Has anything ever arrived late because of you?\" Oliver thought about it. \"Once,\" he said, \"in 2009.\" Several people laughed, and for the first time in weeks he felt something warm in his chest. It was not exactly confidence, but it was a long way from shame.\n\nOver the next month he went to every session. He learned how to write a short, honest summary of his experience, how to use a professional networking website, and how to answer the question, \"Where do you see yourself in five years?\" He discovered that he was not the only one who felt invisible. A woman called Priya, who had been a nurse for thirty years, was retraining as a software tester. A young man named Jake had left university without a degree and was afraid of ever being taken seriously.\n\nIt was Priya who suggested that Oliver should consider teaching. \"You talk about logistics like other people talk about football,\" she told him over coffee. At first he thought she was joking. But the idea stayed with him, and he contacted the local college. They had been looking for a part-time instructor for their evening course in supply management, and they had not been able to find anyone with real industry experience. The interview was short. The head of the department asked three questions and then said, \"When can you start?\"\n\nThere was one more obstacle. Helen worried about the pay, which was much lower than his old salary, and for a week the two of them argued quietly at the kitchen table. In the end they sat down with a calculator and a pot of tea, and Oliver explained that he would also take small consulting jobs for local shops. Helen agreed, as long as he promised to stop wearing his old tie, which she had always hated.\n\nHis first class had fifteen students and one very nervous teacher. Oliver spent two nights writing his notes, and he still dropped the papers on the floor when he walked in. But as he began to describe a real problem, a shipment of oranges that had gone missing in 1998, the students leaned forward and started to ask questions. By the end of the evening, he had forgotten to be afraid. A girl at the back said that it was the first lecture that had not made her sleepy.\n\nEmma came to visit in the spring and sat at the back of one of his lectures without telling him. Afterwards she waited by the door with her arms folded, pretending to be a stern inspector. \"I have never seen you so happy at work,\" she said. Oliver, who had always found it hard to say what he felt, took her hand and told her that she had been right about the library. Then he blushed and suggested they go for dinner.\n\nToday Oliver teaches three evenings a week, and he also gives workshops at the library, sitting at the same table where Ms Adeyemi once asked him what he was good at. He tells new participants that losing his job was the worst thing that had ever happened to him, and also, strangely, the best. \"If it had not happened,\" he says, \"I would still be at that desk, drinking weak tea, and I would never have known that I had something to give.\"",
+  "word_count": 878,
   "vocabulary": [
     {
-      "word": "suitcase",
-      "ipa_us": "ˈsuːtkeɪs",
-      "ipa_uk": "ˈsuːtkeɪs",
-      "translation_ru": "чемодан"
+      "word": "warehouse",
+      "ipa_us": "ˈwɛrhaʊs",
+      "ipa_uk": "ˈweəhaʊs",
+      "translation_ru": "склад"
     },
     {
-      "word": "luggage",
-      "ipa_us": "ˈlʌɡɪdʒ",
-      "ipa_uk": "ˈlʌɡɪdʒ",
-      "translation_ru": "багаж"
+      "word": "ashamed",
+      "ipa_us": "əˈʃeɪmd",
+      "ipa_uk": "əˈʃeɪmd",
+      "translation_ru": "пристыженный"
     },
     {
-      "word": "realised",
-      "ipa_us": "ˈriːəlaɪzd",
-      "ipa_uk": "ˈrɪəlaɪzd",
-      "translation_ru": "осознала"
+      "word": "workshop",
+      "ipa_us": "ˈwɜːrkʃɑːp",
+      "ipa_uk": "ˈwɜːkʃɒp",
+      "translation_ru": "семинар, мастерская"
     },
     {
-      "word": "label",
-      "ipa_us": "ˈleɪbəl",
-      "ipa_uk": "ˈleɪbəl",
-      "translation_ru": "бирка"
+      "word": "confidence",
+      "ipa_us": "ˈkɑːnfɪdəns",
+      "ipa_uk": "ˈkɒnfɪdəns",
+      "translation_ru": "уверенность"
     },
     {
-      "word": "grateful",
-      "ipa_us": "ˈɡreɪtfəl",
-      "ipa_uk": "ˈɡreɪtfəl",
-      "translation_ru": "благодарный"
+      "word": "logistics",
+      "ipa_us": "ləˈdʒɪstɪks",
+      "ipa_uk": "ləˈdʒɪstɪks",
+      "translation_ru": "логистика"
     },
     {
-      "word": "cheerful",
-      "ipa_us": "ˈtʃɪrfəl",
-      "ipa_uk": "ˈtʃɪəfəl",
-      "translation_ru": "весёлый"
+      "word": "retraining",
+      "ipa_us": "riːˈtreɪnɪŋ",
+      "ipa_uk": "riːˈtreɪnɪŋ",
+      "translation_ru": "переобучение"
     },
     {
-      "word": "wardrobe",
-      "ipa_us": "ˈwɔːrdroʊb",
-      "ipa_uk": "ˈwɔːdrəʊb",
-      "translation_ru": "шкаф для одежды"
+      "word": "instructor",
+      "ipa_us": "ɪnˈstrʌktər",
+      "ipa_uk": "ɪnˈstrʌktə",
+      "translation_ru": "преподаватель"
+    },
+    {
+      "word": "shipment",
+      "ipa_us": "ˈʃɪpmənt",
+      "ipa_uk": "ˈʃɪpmənt",
+      "translation_ru": "партия груза"
+    },
+    {
+      "word": "invisible",
+      "ipa_us": "ɪnˈvɪzəbəl",
+      "ipa_uk": "ɪnˈvɪzəbəl",
+      "translation_ru": "невидимый"
+    },
+    {
+      "word": "consulting",
+      "ipa_us": "kənˈsʌltɪŋ",
+      "ipa_uk": "kənˈsʌltɪŋ",
+      "translation_ru": "консультационный"
+    },
+    {
+      "word": "obstacle",
+      "ipa_us": "ˈɑːbstəkəl",
+      "ipa_uk": "ˈɒbstəkəl",
+      "translation_ru": "препятствие"
+    },
+    {
+      "word": "nervous",
+      "ipa_us": "ˈnɜːrvəs",
+      "ipa_uk": "ˈnɜːvəs",
+      "translation_ru": "нервничающий"
     }
   ],
   "focus_sounds": [
     {
       "sound": "w",
       "examples": [
-        "when",
-        "was",
-        "would",
-        "wardrobe"
+        "work",
+        "weeks",
+        "warehouse",
+        "when"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "r",
+      "sound": "ɪ",
       "examples": [
-        "red",
-        "grateful",
-        "arrived",
-        "brass"
+        "little",
+        "thinking",
+        "six",
+        "city"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
     },
     {
-      "sound": "dark-l",
+      "sound": "v",
       "examples": [
-        "label",
-        "small",
-        "whole"
+        "very",
+        "never",
+        "nervous",
+        "invisible"
       ],
-      "tip_ru": "Кончик языка касается дёсен за верхними зубами, а спинка языка отодвинута назад; звук твёрдый, но не «ль» и не «в»."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не превращайте его в «в» с округлением губ."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "confidence",
+        "logistics",
+        "instructor",
+        "obstacle"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Where did Anna arrive?",
-      "answer": "In Lisbon.",
+      "question": "Why did Oliver lose his job?",
+      "answer": "The company said his job no longer existed.",
       "accepted_keywords": [
-        "lisbon"
+        "job",
+        "existed",
+        "company",
+        "lost"
       ]
     },
     {
-      "question": "What was inside the wrong suitcase?",
-      "answer": "A tuba, three yellow shirts and a map.",
+      "question": "What did Emma send her father?",
+      "answer": "A link to a free library workshop called Starting Again at Any Age.",
       "accepted_keywords": [
-        "tuba",
-        "shirts",
-        "map"
+        "workshop",
+        "library",
+        "link"
       ]
     },
     {
-      "question": "Why was Paulo grateful?",
-      "answer": "Anna returned his suitcase with the tuba for the concert.",
+      "question": "What did Priya suggest to Oliver?",
+      "answer": "That he should consider teaching.",
       "accepted_keywords": [
-        "suitcase",
-        "tuba",
-        "returned"
+        "teaching",
+        "teach",
+        "teacher"
+      ]
+    },
+    {
+      "question": "How did Oliver feel about losing his job in the end?",
+      "answer": "He said it was the worst and also the best thing that happened to him.",
+      "accepted_keywords": [
+        "best",
+        "worst",
+        "strange",
+        "strangely"
       ]
     }
   ]

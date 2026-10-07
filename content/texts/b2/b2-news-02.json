@@ -2,132 +2,167 @@
   "id": "b2-news-02",
   "level": "B2",
   "genre": "news",
-  "title_en": "Driverless Bus Begins Trial in Lindford",
-  "title_ru": "В Линдфорде начались испытания беспилотного автобуса",
-  "description_ru": "Вымышленная новость о первом беспилотном автобусе в маленьком городе и реакции пассажиров.",
-  "text": "A driverless bus began carrying passengers in the fictional city of Lindford on Monday, becoming the first vehicle of its kind to run on public roads in the region. The six-month trial, which was announced by the city council last spring, will be closely watched by transport planners across the country.\n\nThe electric minibus, nicknamed \"Bertie\" by local schoolchildren, follows a three-kilometre route between the railway station and the university campus. It can carry twelve passengers and reaches a top speed of thirty kilometres an hour. Although no driver is needed, a safety assistant is required by law to sit at the front and take control if anything goes wrong.\n\nOn its first morning, more than three hundred people queued to ride. Retired teacher Dorothy Fenwick, who was the first passenger, said the journey was \"smoother than my nephew's driving\". Others were less impressed. One student complained that the bus stopped suddenly when a pigeon landed in the road, and several passengers admitted that they felt nervous at first.\n\nThe project's manager, Dr Samir Haddad, explained that the vehicle is guided by cameras and sensors that scan the street in every direction. \"It does not get tired, it does not text, and it never loses its temper,\" he said. \"But it is cautious, so sometimes it will stop when a human would simply carry on.\" He added that the data collected over the next six months would be used to improve the software.\n\nNot everyone is convinced. A taxi drivers' association has argued that the trial is a threat to jobs, and has asked the council to publish its plans for the future. A spokesperson for the council replied that no drivers would be replaced during the trial and that new roles, such as remote operators, were expected to be created.\n\nThe bus will run every fifteen minutes from seven in the morning until eight in the evening, and tickets are free until the end of the month. If the trial is judged a success, two more routes could be introduced next year.",
+  "title_en": "Rescue on Mount Corrigan",
+  "title_ru": "Спасательная операция на горе Корриган",
+  "description_ru": "Вымышленная новость о группе туристов, застигнутых метелью, и ночи, проведённой в снежной пещере.",
+  "text": "Six hikers who were missing for almost thirty hours on the fictional Mount Corrigan were found alive and well on Sunday morning, after one of the largest mountain rescue operations in the history of the region. The group, which consisted of four adults and two teenagers, had been caught in a sudden snowstorm on Friday afternoon. According to the rescue team, they survived the night by digging a shelter in the snow and sharing a single flask of tea.\n\nThe hikers had set out from the village of Lower Ashby at eight o'clock on Friday morning. The weather forecast, which had been checked by the group leader, a schoolteacher named Priya Hargreave, had promised clear skies until the evening. By two o'clock, however, the temperature had fallen sharply and a thick cloud had rolled in over the ridge. Ms Hargreave later told reporters that visibility had dropped to a few metres within ten minutes, and that she had realised at once that they would not be able to follow the path.\n\nInstead of pressing on, the group decided to stay together and look for shelter. A fifteen-year-old member of the party, Callum Birtwhistle, who had been studying survival skills at school, suggested digging a snow hole. \"I'd only read about it,\" he said, \"but I remembered that you have to make the entrance lower than the sleeping platform, so the warm air stays inside.\" Using two small shovels and a cooking pot, the hikers dug for nearly three hours, taking turns to rest.\n\nBack in the village, the alarm was raised at seven o'clock that evening, when the group failed to return. Volunteers from the Ashby Mountain Rescue Team, who were already on call because of the weather, set out within the hour. The search was hampered by winds that were said to have reached eighty kilometres an hour, and helicopters were grounded until the following morning. Team leader Desmond Okonjo-Reid said that the volunteers had searched through the night with torches, calling out the names of the missing.\n\nInside the snow hole, meanwhile, the hikers were fighting to stay warm. They huddled together, wrapped in spare clothes and foil blankets, and took turns to clear the entrance whenever it was blocked by drifting snow. Ms Hargreave said that the teenagers had been the bravest of all. \"They never complained,\" she said. \"At about three in the morning, one of them started singing, and soon we were all singing, badly, which kept us awake.\" The party had agreed that nobody should fall asleep for more than twenty minutes.\n\nAt first light on Sunday the wind dropped, and a helicopter spotted a small orange flag that the hikers had planted on top of their shelter. A rescue crew was lowered to the ridge, and the six were reached shortly after nine o'clock. Doctors at the regional hospital examined them and reported that two adults had mild frostbite on their fingers and that one teenager was suffering from exhaustion, but that no one was seriously hurt. All six were allowed to go home the same afternoon.\n\nMr Okonjo-Reid praised the group for the decisions they had taken. \"People often make the mistake of walking on in the hope of reaching safety,\" he said. \"This group stayed put, kept calm, and made themselves easy to find. That is exactly what we recommend, and it is almost certainly the reason they are alive today.\" He added that the rescue team would like to remind walkers to carry spare food, a torch and a whistle, and to leave details of their route with someone at home.\n\nThe rescue also drew attention to the equipment the group carried. Besides the flask of tea, they had two foil blankets, a head torch, a small first-aid kit and a bag of chocolate biscuits, which the party shared out in tiny pieces. A paramedic who met them on the ridge said that the biscuits had probably made a real difference, because the body burns food to produce heat. He added that the hikers had also swapped wet gloves for dry socks, a trick that he described as unusual but extremely clever.\n\nThe incident has prompted a debate about the safety of the popular mountain, which attracts more than fifty thousand visitors every year. A local councillor, Eleanor Whitcombe-Jones, has suggested that warning signs should be installed at the start of the main paths, and that a weather station should be built near the summit. Others disagree. A farmer who has lived at the foot of the mountain for sixty years said that signs would not help people who ignored the sky. \"The mountain doesn't care what the notice says,\" he remarked.\n\nCallum, whose hands were wrapped in thick bandages, was celebrated as a hero in his village on Sunday evening. When asked by a reporter whether he would ever return to the mountain, he thought for a moment and replied that he certainly would, but that next time he would pack a bigger flask of tea. The headteacher of his school has said that survival skills will remain on the curriculum.",
+  "word_count": 858,
   "vocabulary": [
     {
-      "word": "driverless",
-      "ipa_us": "ˈdraɪvərləs",
-      "ipa_uk": "ˈdraɪvələs",
-      "translation_ru": "беспилотный"
+      "word": "hikers",
+      "ipa_us": "ˈhaɪkərz",
+      "ipa_uk": "ˈhaɪkəz",
+      "translation_ru": "пешие туристы"
     },
     {
-      "word": "vehicle",
-      "ipa_us": "ˈviɪkəl",
-      "ipa_uk": "ˈviːəkəl",
-      "translation_ru": "транспортное средство"
+      "word": "rescue",
+      "ipa_us": "ˈrɛskju",
+      "ipa_uk": "ˈreskjuː",
+      "translation_ru": "спасение"
     },
     {
-      "word": "campus",
-      "ipa_us": "ˈkæmpəs",
-      "ipa_uk": "ˈkæmpəs",
-      "translation_ru": "кампус"
+      "word": "shelter",
+      "ipa_us": "ˈʃɛltər",
+      "ipa_uk": "ˈʃeltə",
+      "translation_ru": "укрытие"
     },
     {
-      "word": "assistant",
-      "ipa_us": "əˈsɪstənt",
-      "ipa_uk": "əˈsɪstənt",
-      "translation_ru": "помощник"
+      "word": "visibility",
+      "ipa_us": "ˌvɪzəˈbɪləti",
+      "ipa_uk": "ˌvɪzəˈbɪləti",
+      "translation_ru": "видимость"
     },
     {
-      "word": "nervous",
-      "ipa_us": "ˈnɜrvəs",
-      "ipa_uk": "ˈnɜːvəs",
-      "translation_ru": "нервничающий"
+      "word": "ridge",
+      "ipa_us": "rɪdʒ",
+      "ipa_uk": "rɪdʒ",
+      "translation_ru": "гребень, хребет"
     },
     {
-      "word": "sensors",
-      "ipa_us": "ˈsɛnsərz",
-      "ipa_uk": "ˈsensəz",
-      "translation_ru": "датчики"
+      "word": "hampered",
+      "ipa_us": "ˈhæmpərd",
+      "ipa_uk": "ˈhæmpəd",
+      "translation_ru": "затруднён"
     },
     {
-      "word": "cautious",
-      "ipa_us": "ˈkɔʃəs",
-      "ipa_uk": "ˈkɔːʃəs",
-      "translation_ru": "осторожный"
+      "word": "huddled",
+      "ipa_us": "ˈhʌdəld",
+      "ipa_uk": "ˈhʌdəld",
+      "translation_ru": "сбились в кучу"
     },
     {
-      "word": "threat",
-      "ipa_us": "θrɛt",
-      "ipa_uk": "θret",
-      "translation_ru": "угроза"
+      "word": "drifting",
+      "ipa_us": "ˈdrɪftɪŋ",
+      "ipa_uk": "ˈdrɪftɪŋ",
+      "translation_ru": "наметаемый (ветром)"
+    },
+    {
+      "word": "frostbite",
+      "ipa_us": "ˈfrɔstˌbaɪt",
+      "ipa_uk": "ˈfrɒstbaɪt",
+      "translation_ru": "обморожение"
+    },
+    {
+      "word": "exhaustion",
+      "ipa_us": "ɪɡˈzɔstʃən",
+      "ipa_uk": "ɪɡˈzɔːstʃən",
+      "translation_ru": "истощение"
+    },
+    {
+      "word": "summit",
+      "ipa_us": "ˈsʌmɪt",
+      "ipa_uk": "ˈsʌmɪt",
+      "translation_ru": "вершина"
+    },
+    {
+      "word": "curriculum",
+      "ipa_us": "kəˈrɪkjələm",
+      "ipa_uk": "kəˈrɪkjʊləm",
+      "translation_ru": "учебная программа"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ʌ",
       "examples": [
-        "driverless",
-        "vehicle",
-        "nervous",
-        "every"
+        "but",
+        "one"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
-    },
-    {
-      "sound": "θ",
-      "examples": [
-        "three",
-        "thirty",
-        "threat",
-        "month"
-      ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "route",
-        "railway",
-        "retired",
-        "replaced"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "Короткий краткий звук между «а» и «э», рот открыт слабо; не «о»."
     },
     {
       "sound": "w",
       "examples": [
-        "when",
+        "were",
         "was",
-        "would"
+        "when",
+        "which"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "hikers",
+        "rescue",
+        "shelter",
+        "visibility"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "morning",
+        "evening"
+      ],
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "What is the nickname of the bus?",
-      "answer": "Bertie.",
+      "question": "How did the hikers survive the night?",
+      "answer": "They dug a snow hole and kept warm together, taking turns to clear the entrance.",
       "accepted_keywords": [
-        "bertie"
+        "snow",
+        "shelter",
+        "hole",
+        "dug",
+        "together",
+        "warm"
       ]
     },
     {
-      "question": "How many passengers can it carry?",
-      "answer": "Twelve.",
+      "question": "Who suggested digging the shelter?",
+      "answer": "Callum, a fifteen-year-old, who had studied survival skills.",
       "accepted_keywords": [
-        "twelve",
-        "12"
+        "callum",
+        "teenager",
+        "fifteen",
+        "boy"
       ]
     },
     {
-      "question": "Why did the bus stop suddenly for one student?",
-      "answer": "A pigeon landed in the road.",
+      "question": "What does the rescue leader advise people to do in a storm?",
+      "answer": "Stay put, stay calm, and make themselves easy to find.",
       "accepted_keywords": [
-        "pigeon"
+        "stay",
+        "calm",
+        "find",
+        "put",
+        "together"
       ]
     },
     {
-      "question": "How long will the trial last?",
-      "answer": "Six months.",
+      "question": "What did the farmer say about warning signs?",
+      "answer": "The mountain does not care what the notice says; signs do not help people who ignore the sky.",
       "accepted_keywords": [
-        "six",
-        "6"
+        "signs",
+        "notice",
+        "ignore",
+        "care",
+        "sky"
       ]
     }
-  ],
-  "word_count": 345
+  ]
 }

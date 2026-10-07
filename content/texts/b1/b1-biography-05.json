@@ -2,132 +2,160 @@
   "id": "b1-biography-05",
   "level": "B1",
   "genre": "biography",
-  "title_en": "Ada Lovelace: The First Programmer",
-  "title_ru": "Ада Лавлейс: первый программист",
-  "description_ru": "История дочери поэта Байрона, которая написала первую в истории компьютерную программу ещё до появления компьютеров.",
-  "text": "Ada Lovelace was born in London in 1815. Her father was Lord Byron, a famous poet, but she hardly ever saw him because her parents separated soon after she was born. Her mother was afraid that Ada would become as wild as her father, so she made sure the girl studied mathematics and science instead of poetry.\n\nAs a teenager, Ada was clever and imaginative. She even tried to design a flying machine with wings. At the age of seventeen, she met Charles Babbage, an inventor who was building a huge mechanical calculator. He called it the Analytical Engine. The machine was never finished, yet Ada understood its power better than almost anyone.\n\nIn 1843 she translated an article about the engine from French into English. She added her own notes, which were three times longer than the article. In them, she explained how the machine could follow a list of instructions to solve a problem. Many historians believe this was the world's first computer program. She also predicted that machines might one day create music or art, an idea that seemed extraordinary at the time.\n\nAda died in 1852, when she was only thirty-six. Although she lived a short life, she saw the future more clearly than her friends did. If you use a computer today, you can thank her vision.",
-  "word_count": 220,
+  "title_en": "Stephen Hawking: Looking at the Stars",
+  "title_ru": "Стивен Хокинг: взгляд на звёзды",
+  "description_ru": "Биография Стивена Хокинга: учёба, тяжёлая болезнь, открытие излучения чёрных дыр, книга «Краткая история времени» и чувство юмора.",
+  "text": "Stephen Hawking was one of the most famous scientists of the twentieth century, but he did not look like a typical genius. For most of his adult life he sat in a wheelchair and spoke through a computer. Even so, he explained black holes, the beginning of the universe and the nature of time to millions of ordinary people, and he did it with a wonderful sense of humour.\n\nHe was born on 8 January 1942 in Oxford, exactly three hundred years after the death of Galileo. He liked to mention this coincidence in interviews. His parents were both educated, and the house was full of books, although it was also rather untidy. At school Stephen was not an outstanding student at first. He was nicknamed \"Einstein\" by his classmates as a joke, because his marks were so ordinary. Nevertheless, he loved taking things apart to see how they worked, and with a friend he built a simple computer out of old clock parts.\n\nHe wanted to study mathematics at Oxford, but his father hoped that he would choose medicine. In the end he studied physics, since the university did not offer a mathematics course at his college. Hawking later admitted that he did very little work there. He estimated that he studied for about one hour a day, and he spent much of his time rowing and playing games. He still finished with a good enough degree to continue his studies at Cambridge.\n\nAt Cambridge, at the age of twenty-one, Hawking began to notice that his body was not working properly. He fell down stairs, he found it difficult to tie his shoes, and his speech became unclear. Doctors told him that he had a serious illness of the nerves, called motor neurone disease, and they believed that he would live for only two more years. He was deeply depressed. He later said that the news had a surprising effect, however. If life was going to be short, he thought, every day mattered, and he began to work much harder than before.\n\nIn 1965 he married Jane Wilde, and they had three children. His career grew quickly. He worked with the mathematician Roger Penrose to show that the universe probably started from a single point called a singularity. In 1974 he made his most important discovery. Using ideas from quantum physics, he showed that black holes are not completely black. They slowly send out a faint glow, which is now called Hawking radiation, and over very long periods they can even disappear. Scientists were astonished.\n\nIn 1979 he was appointed Lucasian Professor of Mathematics at Cambridge, a post that Isaac Newton had once held. By then he could hardly speak, and he depended on his students and family to understand him. In 1985 he caught pneumonia and needed an operation that took away his voice altogether. A computer expert designed a speech synthesiser for him, and he controlled it at first with a small movement of his hand and later with a muscle in his cheek. The robotic American voice became his trademark, and he refused to change it, even when better ones were available.\n\nHawking wanted to share his ideas, so in 1988 he published \"A Brief History of Time\". The publisher warned him that every equation would halve the number of readers, so he included only one, the famous E = mc squared. The book was a huge success. It stayed on the bestseller lists in Britain for more than four years and has sold over ten million copies, although many people admit that they have not finished it. He also appeared in television programmes, and he even played himself in \"The Simpsons\" and \"Star Trek\".\n\nHe also had a playful side. He enjoyed friendly bets with his colleagues. In 1975 he bet his friend Kip Thorne that a star system called Cygnus X-1 was not a black hole, and when the evidence proved him wrong, he paid with a subscription to a magazine of Thorne's choice. In 2009 he held a party for time travellers, but he only sent out the invitations after the party had finished. Nobody came, which he took as proof that time travel is impossible.\n\nHawking never stopped being curious or funny. In 2007 he experienced weightlessness on a special aircraft, and he said it was one of the best moments of his life. He also warned that people should look after the planet, and he insisted that science must be explained simply. When he died on 14 March 2018, at the age of seventy-six, he was buried near Isaac Newton in Westminster Abbey. His message to young people was simple: \"Look up at the stars and not down at your feet.\"",
+  "word_count": 779,
   "vocabulary": [
     {
-      "word": "poet",
-      "ipa_us": "ˈpoʊət",
-      "ipa_uk": "ˈpəʊɪt",
-      "translation_ru": "поэт"
+      "word": "universe",
+      "ipa_us": "ˈjuːnəˌvɜːrs",
+      "ipa_uk": "ˈjuːnɪvɜːs",
+      "translation_ru": "вселенная"
     },
     {
-      "word": "separated",
-      "ipa_us": "ˈsɛpəreɪtɪd",
-      "ipa_uk": "ˈsepəreɪtɪd",
-      "translation_ru": "расстались"
+      "word": "genius",
+      "ipa_us": "ˈdʒiːnjəs",
+      "ipa_uk": "ˈdʒiːniəs",
+      "translation_ru": "гений"
     },
     {
-      "word": "imaginative",
-      "ipa_us": "ɪˈmædʒənətɪv",
-      "ipa_uk": "ɪˈmædʒɪnətɪv",
-      "translation_ru": "с богатым воображением"
+      "word": "wheelchair",
+      "ipa_us": "ˈwilˌtʃɛr",
+      "ipa_uk": "ˈwiːltʃeə",
+      "translation_ru": "инвалидная коляска"
     },
     {
-      "word": "inventor",
-      "ipa_us": "ɪnˈvɛntər",
-      "ipa_uk": "ɪnˈventə",
-      "translation_ru": "изобретатель"
+      "word": "coincidence",
+      "ipa_us": "koʊˈɪnsɪdəns",
+      "ipa_uk": "kəʊˈɪnsɪdəns",
+      "translation_ru": "совпадение"
     },
     {
-      "word": "calculator",
-      "ipa_us": "ˈkælkjəleɪtər",
-      "ipa_uk": "ˈkælkjuleɪtə",
-      "translation_ru": "калькулятор"
+      "word": "pneumonia",
+      "ipa_us": "nuːˈmoʊniə",
+      "ipa_uk": "njuːˈməʊniə",
+      "translation_ru": "пневмония"
     },
     {
-      "word": "instructions",
-      "ipa_us": "ɪnˈstrʌkʃənz",
-      "ipa_uk": "ɪnˈstrʌkʃənz",
-      "translation_ru": "инструкции"
+      "word": "singularity",
+      "ipa_us": "ˌsɪŋɡjəˈlɛrəti",
+      "ipa_uk": "ˌsɪŋɡjʊˈlærəti",
+      "translation_ru": "сингулярность"
     },
     {
-      "word": "predicted",
-      "ipa_us": "prɪˈdɪktɪd",
-      "ipa_uk": "prɪˈdɪktɪd",
-      "translation_ru": "предсказала"
+      "word": "synthesiser",
+      "ipa_us": "ˈsɪnθəˌsaɪzər",
+      "ipa_uk": "ˈsɪnθəsaɪzə",
+      "translation_ru": "синтезатор речи"
     },
     {
-      "word": "extraordinary",
-      "ipa_us": "ɪkˈstrɔrdəˌnɛri",
-      "ipa_uk": "ɪkˈstrɔːdnri",
-      "translation_ru": "необыкновенный"
+      "word": "equation",
+      "ipa_us": "ɪˈkweɪʒən",
+      "ipa_uk": "ɪˈkweɪʒən",
+      "translation_ru": "уравнение"
     },
     {
-      "word": "vision",
-      "ipa_us": "ˈvɪʒən",
-      "ipa_uk": "ˈvɪʒən",
-      "translation_ru": "видение, дальновидность"
+      "word": "astonished",
+      "ipa_us": "əˈstɑːnɪʃt",
+      "ipa_uk": "əˈstɒnɪʃt",
+      "translation_ru": "поражены"
+    },
+    {
+      "word": "trademark",
+      "ipa_us": "ˈtreɪdˌmɑːrk",
+      "ipa_uk": "ˈtreɪdmɑːk",
+      "translation_ru": "фирменный знак"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "mathematics",
-        "thirty-six",
-        "thank",
+        "both",
+        "death",
+        "thought",
         "three"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "vision",
-        "inventor",
-        "seventeen",
-        "never"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "wild",
-        "world",
-        "wings",
-        "was"
+        "wheelchair",
+        "weightlessness",
+        "wonderful",
+        "worked"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "beginning",
+        "playing",
+        "rowing",
+        "working"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "small",
+        "still",
+        "wonderful",
+        "full"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "Who was Ada Lovelace's father?",
-      "answer": "Lord Byron, a poet.",
+      "question": "What did doctors tell Hawking when he was twenty-one?",
+      "answer": "He had motor neurone disease and would live only about two more years.",
       "accepted_keywords": [
-        "byron",
-        "poet"
+        "two",
+        "years",
+        "illness",
+        "disease",
+        "neurone",
+        "nerves"
       ]
     },
     {
-      "question": "Who was Charles Babbage?",
-      "answer": "An inventor who built a mechanical calculator.",
+      "question": "What is Hawking radiation?",
+      "answer": "The faint glow that black holes slowly send out, so they are not completely black.",
       "accepted_keywords": [
-        "inventor",
-        "calculator",
-        "engine"
+        "glow",
+        "black",
+        "holes",
+        "faint",
+        "radiation"
       ]
     },
     {
-      "question": "What did Ada do in 1843?",
-      "answer": "She translated an article and added her own notes.",
+      "question": "Why did the book include only one equation?",
+      "answer": "The publisher warned that every equation would halve the number of readers.",
       "accepted_keywords": [
-        "translated",
-        "article",
-        "notes"
+        "publisher",
+        "readers",
+        "halve",
+        "warned",
+        "equation"
       ]
     },
     {
-      "question": "What did she predict about machines?",
-      "answer": "They might create music or art.",
+      "question": "What happened at the party for time travellers?",
+      "answer": "Nobody came, because he sent the invitations after the party.",
       "accepted_keywords": [
-        "music",
-        "art"
+        "nobody",
+        "invitations",
+        "after",
+        "came",
+        "time",
+        "travellers"
       ]
     }
   ]

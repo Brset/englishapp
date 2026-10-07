@@ -2,41 +2,17 @@
   "id": "a1-news-02",
   "level": "A1",
   "genre": "news",
-  "title_en": "New Library Robot",
-  "title_ru": "Новый робот в библиотеке",
-  "description_ru": "Забавная новость о роботе-помощнике в городской библиотеке.",
-  "text": "Today there is a new worker in the library of Rivertown. His name is Robo Bob, and he is a robot!\n\nRobo Bob is one metre tall. He has big blue eyes and a friendly voice. He helps children to find books. He also says, \"Please be quiet,\" in a very soft voice.\n\nThe children love him. \"He is so funny,\" says eight-year-old Rita. \"He knows every book in the room!\"\n\nThe librarian, Mr Brown, is happy. \"Bob never gets tired,\" he says. \"But he cannot drink tea with me.\" The library is open from nine to six, Monday to Saturday.",
-  "word_count": 103,
+  "title_en": "A Robot Helper at Oakfield Library",
+  "title_ru": "Робот-помощник в библиотеке Оукфилда",
+  "description_ru": "Вымышленная новость о роботе Пенни, который ищет книги, читает детям сказки и удивляет скептиков.",
+  "text": "A new helper starts work this week at Oakfield Library, and it is not a person. It is a small white robot called Penny. She is about one metre tall, with round blue eyes and a soft, friendly voice. Penny can find books, answer questions and even tell stories to children. Library visitors are very excited, and many come only to say hello to her.\n\nThe idea comes from the head librarian, Mrs Alice Moore. \"Our library is big, and the shelves are very high,\" she says. \"Some people, especially old people and children, cannot find the book they need. I want somebody to help them quickly. So we buy Penny with the money from our yearly book sale.\" The robot arrives in a large box, and Mrs Moore spends two days learning how to use her.\n\nHere is how Penny works. A visitor says the name of a book, and Penny looks it up on her screen. Then she says, \"Follow me, please,\" and drives to the right shelf on her little wheels. She stops and points with her arm. \"Here it is,\" she says. She can also tell you if the book is out or when it returns. If you ask her about the weather, she says, \"I do not know. I am a library robot. But I think it is a good day to read.\"\n\nThe children love Penny most. Every afternoon at four o'clock, she sits in the children's corner, and about twenty kids sit on the floor around her. She reads them a story in many voices. She is a dragon, a princess and a very tired old bear. \"She is better than my teacher!\" says Tim, who is seven. His friend Sara does not agree. \"No,\" she says. \"But she is funnier than my brother.\"\n\nSome people are not so sure about the new helper. They say that a library must be a quiet place, and a talking robot is not quiet. Mrs Moore answers that Penny speaks very softly, and she has a special quiet mode. Mr George Fisher, who is eighty years old, visits the library every day. \"I do not trust machines,\" he says. \"They do not understand people.\" On the first morning he asks Penny a difficult question. \"Where can I find a book about old trains?\" he says, with his arms folded. Penny finds three books in five seconds. Mr Fisher looks at the books and then at the robot. \"Not bad,\" he says quietly.\n\nPenny is not perfect, of course. On Tuesday she tells a woman that the cookery books are in the garden. Mrs Moore says that the robot sometimes confuses the words \"garden\" and \"cooking\". Later that day, Penny drives into a table, and a pile of papers falls on the floor. Two children run to help her. \"Sorry,\" she says. \"I am still learning.\" Everybody laughs, and the children clap for her.\n\nThe library workers say that Penny does not take their jobs. Instead, she gives them more time for important things. They now have time to talk to visitors, to run reading clubs and to help people with computers. \"Penny does the walking and I do the talking,\" says librarian Jack Wood. \"It is a good team.\" He adds that Penny never gets tired, but she does need to charge her battery every night.\n\nMore people come to the library than before. The number of visitors is up by thirty per cent since Monday. Some of them are schoolchildren who do not usually read. Others are tourists who want a photo with the robot. A group of teenagers asks her to tell them a joke. She says, \"Why is the library so quiet? Because all the books are taking a rest.\" They give her a round of applause.\n\nMrs Moore is happy with the new helper and hopes that she can stay for many years. The library plans to teach Penny to speak two more languages, Spanish and Polish, because many families in Oakfield come from those countries. There is also a plan to give her a name badge and a small blue hat. Mr Fisher, the old man who does not trust machines, says that he will bring her a present. It is a small book about trains.",
+  "word_count": 715,
   "vocabulary": [
-    {
-      "word": "library",
-      "ipa_us": "ˈlaɪˌbrɛri",
-      "ipa_uk": "ˈlaɪbrəri",
-      "translation_ru": "библиотека"
-    },
     {
       "word": "robot",
       "ipa_us": "ˈroʊˌbɑt",
       "ipa_uk": "ˈrəʊbɒt",
       "translation_ru": "робот"
-    },
-    {
-      "word": "metre",
-      "ipa_us": "ˈmitər",
-      "ipa_uk": "ˈmiːtə",
-      "translation_ru": "метр"
-    },
-    {
-      "word": "friendly",
-      "ipa_us": "ˈfrɛndli",
-      "ipa_uk": "ˈfrendli",
-      "translation_ru": "дружелюбный"
-    },
-    {
-      "word": "voice",
-      "ipa_us": "vɔɪs",
-      "ipa_uk": "vɔɪs",
-      "translation_ru": "голос"
     },
     {
       "word": "librarian",
@@ -45,78 +21,136 @@
       "translation_ru": "библиотекарь"
     },
     {
-      "word": "tired",
-      "ipa_us": "ˈtaɪərd",
-      "ipa_uk": "ˈtaɪəd",
-      "translation_ru": "уставший"
+      "word": "shelves",
+      "ipa_us": "ʃɛlvz",
+      "ipa_uk": "ʃelvz",
+      "translation_ru": "полки"
     },
     {
-      "word": "quiet",
-      "ipa_us": "ˈkwaɪət",
-      "ipa_uk": "ˈkwaɪət",
-      "translation_ru": "тихий"
+      "word": "screen",
+      "ipa_us": "skrin",
+      "ipa_uk": "skriːn",
+      "translation_ru": "экран"
+    },
+    {
+      "word": "battery",
+      "ipa_us": "ˈbætəri",
+      "ipa_uk": "ˈbætəri",
+      "translation_ru": "аккумулятор"
+    },
+    {
+      "word": "visitors",
+      "ipa_us": "ˈvɪzɪtərz",
+      "ipa_uk": "ˈvɪzɪtəz",
+      "translation_ru": "посетители"
+    },
+    {
+      "word": "applause",
+      "ipa_us": "əˈplɔz",
+      "ipa_uk": "əˈplɔːz",
+      "translation_ru": "аплодисменты"
+    },
+    {
+      "word": "confuses",
+      "ipa_us": "kənˈfjuzɪz",
+      "ipa_uk": "kənˈfjuːzɪz",
+      "translation_ru": "путает"
+    },
+    {
+      "word": "wheels",
+      "ipa_us": "wilz",
+      "ipa_uk": "wiːlz",
+      "translation_ru": "колёса"
+    },
+    {
+      "word": "voice",
+      "ipa_us": "vɔɪs",
+      "ipa_uk": "vɔɪs",
+      "translation_ru": "голос"
+    },
+    {
+      "word": "tourists",
+      "ipa_us": "ˈtʊrɪsts",
+      "ipa_uk": "ˈtʊərɪsts",
+      "translation_ru": "туристы"
+    },
+    {
+      "word": "languages",
+      "ipa_us": "ˈlæŋɡwɪdʒɪz",
+      "ipa_uk": "ˈlæŋɡwɪdʒɪz",
+      "translation_ru": "языки"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "əʊ",
       "examples": [
         "robot",
-        "Rita",
-        "library"
+        "hello",
+        "know"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Скольжение от «э» к краткому «у» (в США ближе к «оу»)."
     },
     {
-      "sound": "v",
+      "sound": "aɪ",
       "examples": [
-        "voice",
-        "every",
-        "love"
+        "librarian",
+        "quiet",
+        "time"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+      "tip_ru": "Скольжение от «а» к «и»; второй элемент короткий."
     },
     {
       "sound": "w",
       "examples": [
-        "worker",
-        "quiet"
+        "wheels",
+        "work",
+        "with"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "languages",
+        "morning",
+        "thing"
+      ],
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
       "question": "What is the robot's name?",
-      "answer": "Robo Bob.",
+      "answer": "Her name is Penny.",
       "accepted_keywords": [
-        "bob",
-        "robo"
+        "penny"
       ]
     },
     {
-      "question": "How tall is he?",
-      "answer": "One metre.",
+      "question": "What does Penny do for children?",
+      "answer": "She reads them stories in many voices every afternoon.",
       "accepted_keywords": [
-        "metre",
-        "one"
+        "stories",
+        "story",
+        "reads",
+        "reading"
       ]
     },
     {
-      "question": "What does he help children to do?",
-      "answer": "To find books.",
+      "question": "What does Mr Fisher think about machines at first?",
+      "answer": "He does not trust them.",
       "accepted_keywords": [
-        "books",
-        "find"
+        "trust",
+        "not"
       ]
     },
     {
-      "question": "Who is Rita?",
-      "answer": "A child / an eight-year-old girl.",
+      "question": "Which languages will Penny learn?",
+      "answer": "Spanish and Polish.",
       "accepted_keywords": [
-        "child",
-        "girl",
-        "eight"
+        "spanish",
+        "polish"
       ]
     }
   ]

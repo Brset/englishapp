@@ -2,122 +2,147 @@
   "id": "a2-travel-05",
   "level": "A2",
   "genre": "travel",
-  "title_en": "The Market in Marrakesh",
-  "title_ru": "Рынок в Марракеше",
-  "description_ru": "Первый день на шумном восточном рынке: запахи, торг и мятный чай.",
-  "text": "On my first day in Marrakesh, I visited the big market in the old city. It was hot, loud and full of colours. Sellers shouted, motorbikes drove between the stalls, and the air smelled of spices and fresh bread.\n\nI wanted to buy a small carpet for my flat. A seller in a blue shirt showed me twenty different carpets. The first price was three hundred euros, which was far too high. \"In this country, we always bargain,\" he said with a smile. I laughed and offered fifty.\n\nAfter half an hour, we agreed on eighty euros. We were both happy. Then he invited me to sit down and gave me a glass of sweet mint tea.\n\nI walked home with my new carpet under my arm. It was not the cheapest carpet in the market, but I learned something important about travelling. Always smile, never hurry, and be ready to say no.",
-  "word_count": 153,
+  "title_en": "Twelve Days in Japan",
+  "title_ru": "Двенадцать дней в Японии",
+  "description_ru": "Первая поездка в Японию: вежливость, поезда точно по расписанию, лапша в крошечном ресторане, Киото и традиционная гостиница.",
+  "text": "I travelled to Japan for the first time in November, and it was very different from my expectations. I imagined a country of neon lights and robots, and in Tokyo I found some of that. But I also found quiet gardens, wooden temples and a polite, careful way of life that I loved. I spent twelve days there, and I changed my opinion about many things.\n\nMy first surprise came at the airport. I wanted to take a train into the city, but the ticket machine was in Japanese, and the map looked like a bowl of noodles. A young man in a uniform saw me and walked over without a word. He pressed the right buttons, took my money, gave me the ticket and then bowed. I tried to thank him, and he bowed again. Later, I learned that people in Japan help strangers all the time, and that nobody expects a tip.\n\nTokyo is the biggest city I ever visited. About fourteen million people live in the city itself, and more than thirty million in the whole region. I expected chaos, but the trains were always on time, to the minute. At the busiest stations, hundreds of people moved in orderly lines, and nobody pushed or shouted. In the train, almost everybody was silent. They read, slept or looked at their phones, and they did not talk on the phone, because it is considered impolite.\n\nOne evening, I walked through a district full of lights, where giant screens covered the walls of the buildings. It was loud, bright and crowded. I crossed a famous street junction, where up to three thousand people cross at the same time when the lights change. Then I went down a small side street and found a tiny restaurant with only six seats. The cook, an old woman, made one dish, a bowl of hot noodles in soup. It cost less than five euros, and it was the best meal of my trip.\n\nAfter four days, I took the fast train to Kyoto. The train, called Shinkansen, travels at about three hundred kilometres an hour, but inside, it is so smooth that my coffee did not move. The journey took about two hours and a quarter. Kyoto was the capital of Japan for more than a thousand years, and today it has about sixteen hundred temples. It is slower, quieter and more traditional than Tokyo, and in November the leaves on the trees turn red and gold.\n\nMy favourite place was a temple on a hill, with a famous wooden terrace. I climbed up early in the morning, when the crowds had not arrived yet, and the mist was still in the valley. A monk in grey clothes was cleaning the steps with a long broom. We did not speak, but he nodded and I nodded back. At another place, I walked through a path of thousands of orange gates. They go all the way up a mountain, and each of them carries the name of the person or company that paid for it.\n\nIn Kyoto, I also stayed one night in a traditional inn. The room had straw mats on the floor, a low table and paper doors. Before dinner, I put on a cotton robe and took a hot bath with other guests, as is the custom. It was strange at first, but it was also deeply relaxing. Dinner arrived in many small dishes, and each one looked like a little picture. I did not recognise half of the food, but I ate it all. At night, I slept on a thin mattress on the floor, and my back felt better than ever.\n\nOn my last day, I tried to buy a gift in a department store, and a shop assistant spent twenty minutes wrapping a small box in beautiful paper. She did it with such care that I felt embarrassed, and I said that it was not necessary. She smiled and answered in careful English that, in Japan, the wrapping is part of the gift. I thought about that on the plane home. This country showed me that small things, such as a bow, a clean street or a perfect box, can make life a little more beautiful. I am going to go again, and next time, I will learn at least fifty words of Japanese.",
+  "word_count": 726,
   "vocabulary": [
     {
-      "word": "market",
-      "ipa_us": "ˈmɑrkɪt",
-      "ipa_uk": "ˈmɑːkɪt",
-      "translation_ru": "рынок"
+      "word": "neon",
+      "ipa_us": "ˈniːɑːn",
+      "ipa_uk": "ˈniːɒn",
+      "translation_ru": "неоновый"
     },
     {
-      "word": "spices",
-      "ipa_us": "ˈspaɪsɪz",
-      "ipa_uk": "ˈspaɪsɪz",
-      "translation_ru": "специи"
+      "word": "polite",
+      "ipa_us": "pəˈlaɪt",
+      "ipa_uk": "pəˈlaɪt",
+      "translation_ru": "вежливый"
     },
     {
-      "word": "carpet",
-      "ipa_us": "ˈkɑrpɪt",
-      "ipa_uk": "ˈkɑːpɪt",
-      "translation_ru": "ковёр"
+      "word": "junction",
+      "ipa_us": "ˈdʒʌŋkʃn",
+      "ipa_uk": "ˈdʒʌŋkʃn",
+      "translation_ru": "перекрёсток"
     },
     {
-      "word": "bargain",
-      "ipa_us": "ˈbɑrɡən",
-      "ipa_uk": "ˈbɑːɡɪn",
-      "translation_ru": "торговаться"
+      "word": "noodles",
+      "ipa_us": "ˈnuːdlz",
+      "ipa_uk": "ˈnuːdlz",
+      "translation_ru": "лапша"
     },
     {
-      "word": "offered",
-      "ipa_us": "ˈɔfərd",
-      "ipa_uk": "ˈɒfəd",
-      "translation_ru": "предложил"
+      "word": "temple",
+      "ipa_us": "ˈtɛmpl",
+      "ipa_uk": "ˈtempl",
+      "translation_ru": "храм"
     },
     {
-      "word": "agreed",
-      "ipa_us": "əˈɡriːd",
-      "ipa_uk": "əˈɡriːd",
-      "translation_ru": "договорились"
+      "word": "terrace",
+      "ipa_us": "ˈtɛrəs",
+      "ipa_uk": "ˈterəs",
+      "translation_ru": "терраса"
     },
     {
-      "word": "invited",
-      "ipa_us": "ɪnˈvaɪtɪd",
-      "ipa_uk": "ɪnˈvaɪtɪd",
-      "translation_ru": "пригласил"
+      "word": "monk",
+      "ipa_us": "mʌŋk",
+      "ipa_uk": "mʌŋk",
+      "translation_ru": "монах"
     },
     {
-      "word": "hurry",
-      "ipa_us": "ˈhɜri",
-      "ipa_uk": "ˈhʌri",
-      "translation_ru": "торопиться"
+      "word": "robe",
+      "ipa_us": "roʊb",
+      "ipa_uk": "rəʊb",
+      "translation_ru": "халат"
+    },
+    {
+      "word": "custom",
+      "ipa_us": "ˈkʌstəm",
+      "ipa_uk": "ˈkʌstəm",
+      "translation_ru": "обычай"
+    },
+    {
+      "word": "mattress",
+      "ipa_us": "ˈmætrəs",
+      "ipa_uk": "ˈmætrəs",
+      "translation_ru": "матрас"
+    },
+    {
+      "word": "wrapping",
+      "ipa_us": "ˈræpɪŋ",
+      "ipa_uk": "ˈræpɪŋ",
+      "translation_ru": "упаковка"
+    },
+    {
+      "word": "embarrassed",
+      "ipa_us": "ɪmˈbærəst",
+      "ipa_uk": "ɪmˈbærəst",
+      "translation_ru": "смущённый"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "visited",
-        "fresh",
-        "different",
-        "invited"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
-    },
-    {
       "sound": "r",
       "examples": [
-        "carpet",
-        "price",
-        "first",
-        "bargain"
+        "robe",
+        "wrapping",
+        "red"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Язык не касается нёба и не вибрирует; кончик слегка загнут назад, губы чуть округлены."
     },
     {
-      "sound": "w",
+      "sound": "aʊ",
       "examples": [
-        "wanted",
-        "was",
-        "with",
-        "walked"
+        "bowed",
+        "crowds",
+        "found"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Дифтонг: начните с широкого «а» и плавно сдвиньте губы к короткому «у»."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "monk",
+        "junction",
+        "custom"
+      ],
+      "tip_ru": "Короткий открытый звук, близкий к ударному «а»; рот открыт средне, язык в центре."
     }
   ],
   "questions": [
     {
-      "question": "Which city did the writer visit?",
-      "answer": "Marrakesh.",
+      "question": "How did the young man at the airport help?",
+      "answer": "He bought the ticket with the machine and bowed.",
       "accepted_keywords": [
-        "marrakesh"
+        "ticket",
+        "machine",
+        "bowed",
+        "bow"
       ]
     },
     {
-      "question": "What did the writer want to buy?",
-      "answer": "A small carpet.",
+      "question": "How fast does the Shinkansen travel?",
+      "answer": "About three hundred kilometres an hour.",
       "accepted_keywords": [
-        "carpet"
+        "three",
+        "300",
+        "hundred"
       ]
     },
     {
-      "question": "What was the final price?",
-      "answer": "Eighty euros.",
+      "question": "What was the best meal of the trip?",
+      "answer": "A bowl of hot noodles in a tiny restaurant.",
       "accepted_keywords": [
-        "eighty",
-        "80"
+        "noodles"
       ]
     },
     {
-      "question": "What drink did the seller give?",
-      "answer": "Sweet mint tea.",
+      "question": "Why was the wrapping important?",
+      "answer": "In Japan, the wrapping is part of the gift.",
       "accepted_keywords": [
-        "tea",
-        "mint"
+        "part",
+        "gift"
       ]
     }
   ]

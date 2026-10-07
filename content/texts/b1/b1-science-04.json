@@ -2,108 +2,165 @@
   "id": "b1-science-04",
   "level": "B1",
   "genre": "science",
-  "title_en": "Sleep and Memory",
-  "title_ru": "Сон и память",
-  "description_ru": "Почему сон помогает мозгу запоминать информацию и что происходит, если спать мало.",
-  "text": "Many students believe that studying all night before an exam is a good idea. However, scientists have discovered that sleep is just as important for learning as study itself.\n\nWhen we sleep, our brains are not resting. In fact, some areas are very active. During the night, we pass through several cycles of sleep, and each cycle lasts about ninety minutes. In deep sleep, the brain replays the events of the day and moves important information from short-term memory to long-term memory. During another stage, called REM sleep, we dream, and the brain connects new ideas with old ones.\n\nResearchers have tested this in many experiments. In one famous study, two groups of people learned a list of words. One group slept for eight hours, and the other stayed awake. The next day, the people who had slept remembered far more words.\n\nLack of sleep causes problems, too. If you sleep less than six hours a night, you will find it harder to concentrate, and you may become irritable. Over many years, poor sleep can also increase the risk of serious illnesses.\n\nMost adults need between seven and nine hours of sleep. So, if you have an important test tomorrow, review your notes this evening, and then go to bed on time. Your brain will do the rest of the work while you are asleep.",
-  "word_count": 227,
+  "title_en": "Renewable Energy Technologies",
+  "title_ru": "Технологии возобновляемой энергии",
+  "description_ru": "Обзор солнечной, ветровой, гидро- и геотермальной энергии и способов хранить электричество.",
+  "text": "For most of the last two hundred years, the energy that powers our homes, factories and cars has come from burning coal, oil and natural gas. These fuels are convenient, but they are limited, and they release carbon dioxide that is warming the planet. Renewable energy is different. It comes from sources that are naturally replaced, such as sunlight, wind, flowing water and heat from inside the Earth. In the last two decades, these technologies have developed so quickly that they now compete with fossil fuels on price in many countries.\n\nSolar power is probably the best-known example. A solar panel contains cells made mostly of silicon, which is one of the most common elements in the Earth's crust. When sunlight hits the cell, it knocks electrons loose, and this creates an electric current. This process is called the photovoltaic effect. In 2010, solar electricity was several times more expensive than coal power. Since then, the cost has fallen by roughly ninety percent, because factories produce panels in huge numbers and the technology has improved. Today, solar panels appear on roofs, in deserts and even on floating platforms on lakes.\n\nWind power works in a very different way. Large turbines have blades that catch the moving air and turn a generator, much like an old windmill. Modern turbines are enormous. Some have blades longer than a football pitch, and a single one can supply electricity to thousands of homes. Wind farms work best in open, windy places, such as hillsides and the sea. Denmark has been a pioneer, and in some years more than half of its electricity has come from wind. Offshore wind is especially promising, because the wind is stronger and steadier over water.\n\nHydropower, which uses falling water to turn turbines, is the oldest and largest source of renewable electricity. It provides roughly sixteen percent of the electricity in the world. Big dams can produce electricity day and night, and they can store water for later use, which makes them very reliable. However, they also change rivers, flood valleys and sometimes force people to leave their homes. For this reason, engineers increasingly build smaller projects, which cause less damage to the environment.\n\nGeothermal energy uses the heat that exists deep underground. In places where hot rock lies close to the surface, such as Iceland, engineers drill wells and bring up steam or hot water. The steam turns turbines, and the leftover hot water can be piped to heat buildings. Iceland has used this resource so successfully that almost all of its homes are heated by geothermal water, and about a quarter of its electricity comes from underground heat. The technology is limited to certain regions, but new drilling methods may allow it to spread.\n\nThe biggest challenge for renewable energy is that the sun does not always shine and the wind does not always blow. This problem is called intermittency. If a country depended only on solar panels, it would have no power at night. There are several solutions. One is to build a better electricity grid, so that power can travel long distances from places with sun or wind to places without. Another is to combine different sources, because wind is often stronger in winter, when the sun is weak. A third solution is storage.\n\nBatteries are the most visible form of storage. Lithium-ion batteries, similar to those in phones and electric cars, can now be installed in huge containers next to solar farms. They store energy at noon and release it in the evening, when people return from work. Their price has dropped by about ninety percent since 2010. Other methods include pumping water uphill when electricity is cheap and releasing it when demand rises, and producing hydrogen, which can be stored for months and used in industry.\n\nEnergy is also becoming more personal. In many countries, families can now install panels on their own roofs and sell any extra electricity back to the grid. In parts of Africa and Asia, where villages have never been connected to a national network, small solar systems with a battery allow children to study after dark and shops to keep medicine cold. For these communities, renewable energy is not a distant idea about climate. It is the first reliable light they have ever had.\n\nExperts do not claim that the transition will be easy. It requires new power lines, new materials such as lithium and copper, and careful planning to protect workers in traditional industries. But the direction is clear. Every year, renewable sources produce a bigger share of the world's electricity, and in several countries they already provide most of it. If this trend continues, then children who are born today may grow up in a world where clean power is simply normal.",
+  "word_count": 796,
   "vocabulary": [
     {
-      "word": "exam",
-      "ipa_us": "ɪɡˈzæm",
-      "ipa_uk": "ɪɡˈzæm",
-      "translation_ru": "экзамен"
+      "word": "renewable",
+      "ipa_us": "rɪˈnuːəbəl",
+      "ipa_uk": "rɪˈnjuːəbəl",
+      "translation_ru": "возобновляемый"
     },
     {
-      "word": "memory",
-      "ipa_us": "ˈmeməri",
-      "ipa_uk": "ˈmeməri",
-      "translation_ru": "память"
+      "word": "photovoltaic",
+      "ipa_us": "ˌfoʊtoʊvɑːlˈteɪɪk",
+      "ipa_uk": "ˌfəʊtəʊvɒlˈteɪɪk",
+      "translation_ru": "фотоэлектрический"
     },
     {
-      "word": "several",
-      "ipa_us": "ˈsevrəl",
-      "ipa_uk": "ˈsevrəl",
-      "translation_ru": "несколько"
+      "word": "turbines",
+      "ipa_us": "ˈtɜːrbaɪnz",
+      "ipa_uk": "ˈtɜːbaɪnz",
+      "translation_ru": "турбины"
     },
     {
-      "word": "cycle",
-      "ipa_us": "ˈsaɪkəl",
-      "ipa_uk": "ˈsaɪkəl",
-      "translation_ru": "цикл"
+      "word": "generator",
+      "ipa_us": "ˈdʒɛnəreɪtər",
+      "ipa_uk": "ˈdʒenəreɪtə",
+      "translation_ru": "генератор"
     },
     {
-      "word": "researchers",
-      "ipa_us": "ˈriːsɜːrtʃɚz",
-      "ipa_uk": "rɪˈsɜːtʃəz",
-      "translation_ru": "исследователи"
+      "word": "offshore",
+      "ipa_us": "ˌɔːfˈʃɔːr",
+      "ipa_uk": "ˌɒfˈʃɔː",
+      "translation_ru": "морской, шельфовый"
     },
     {
-      "word": "concentrate",
-      "ipa_us": "ˈkɑːnsəntreɪt",
-      "ipa_uk": "ˈkɒnsəntreɪt",
-      "translation_ru": "сосредоточиться"
+      "word": "hydropower",
+      "ipa_us": "ˈhaɪdroʊpaʊər",
+      "ipa_uk": "ˈhaɪdrəʊpaʊə",
+      "translation_ru": "гидроэнергия"
     },
     {
-      "word": "irritable",
-      "ipa_us": "ˈɪrɪtəbəl",
-      "ipa_uk": "ˈɪrɪtəbəl",
-      "translation_ru": "раздражительный"
+      "word": "geothermal",
+      "ipa_us": "ˌdʒiːoʊˈθɜːrməl",
+      "ipa_uk": "ˌdʒiːəʊˈθɜːməl",
+      "translation_ru": "геотермальный"
+    },
+    {
+      "word": "intermittency",
+      "ipa_us": "ˌɪntərˈmɪtənsi",
+      "ipa_uk": "ˌɪntəˈmɪtənsi",
+      "translation_ru": "прерывистость"
+    },
+    {
+      "word": "grid",
+      "ipa_us": "ɡrɪd",
+      "ipa_uk": "ɡrɪd",
+      "translation_ru": "электросеть"
+    },
+    {
+      "word": "storage",
+      "ipa_us": "ˈstɔːrɪdʒ",
+      "ipa_uk": "ˈstɔːrɪdʒ",
+      "translation_ru": "хранение"
+    },
+    {
+      "word": "lithium",
+      "ipa_us": "ˈlɪθiəm",
+      "ipa_uk": "ˈlɪθiəm",
+      "translation_ru": "литий"
+    },
+    {
+      "word": "transition",
+      "ipa_us": "trænˈzɪʃən",
+      "ipa_uk": "trænˈzɪʃən",
+      "translation_ru": "переход"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "θ",
+      "examples": [
+        "geothermal",
+        "lithium",
+        "thousands",
+        "earth"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, выдыхайте мягко; не заменяйте на «с» или «з»."
+    },
+    {
       "sound": "ɜː",
       "examples": [
-        "learned",
-        "researchers",
-        "words"
+        "turbines",
+        "earth",
+        "world",
+        "work"
       ],
-      "tip_ru": "Долгий нейтральный звук, как «ё» без смягчения; губы не округляйте, язык в центре."
+      "tip_ru": "Долгий звук между «э» и «ё», губы нейтральны; без «р» в британском варианте."
     },
     {
-      "sound": "w",
+      "sound": "ɪ",
       "examples": [
-        "work",
-        "while",
-        "words"
+        "silicon",
+        "wind",
+        "grid",
+        "intermittency"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
     },
     {
-      "sound": "ʌ",
+      "sound": "word-stress",
       "examples": [
-        "study",
-        "students",
-        "another"
+        "renewable",
+        "photovoltaic",
+        "generator",
+        "transition"
       ],
-      "tip_ru": "Короткий звук между «а» и «э», рот открыт умеренно, язык в центре."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "How long does one sleep cycle last?",
-      "answer": "About ninety minutes.",
+      "question": "How does a solar cell produce electricity?",
+      "answer": "Sunlight knocks electrons loose and creates an electric current.",
       "accepted_keywords": [
-        "ninety",
-        "90"
+        "electrons",
+        "sunlight",
+        "current",
+        "photovoltaic"
       ]
     },
     {
-      "question": "What does the brain do in deep sleep?",
-      "answer": "It moves information to long-term memory.",
+      "question": "Which country uses geothermal heat for most of its homes?",
+      "answer": "Iceland.",
       "accepted_keywords": [
-        "memory",
-        "information",
-        "long-term"
+        "iceland"
       ]
     },
     {
-      "question": "How many hours of sleep do most adults need?",
-      "answer": "Seven to nine hours.",
+      "question": "What is intermittency?",
+      "answer": "The problem that the sun does not always shine and the wind does not always blow.",
       "accepted_keywords": [
-        "seven",
-        "nine"
+        "sun",
+        "wind",
+        "shine",
+        "blow",
+        "always"
+      ]
+    },
+    {
+      "question": "Name one way to store renewable energy.",
+      "answer": "Batteries, pumped water or hydrogen.",
+      "accepted_keywords": [
+        "batteries",
+        "battery",
+        "hydrogen",
+        "water",
+        "pumping"
       ]
     }
   ]

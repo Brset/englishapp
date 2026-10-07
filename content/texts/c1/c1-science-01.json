@@ -2,119 +2,166 @@
   "id": "c1-science-01",
   "level": "C1",
   "genre": "science",
-  "title_en": "A Mind With Eight Arms",
-  "title_ru": "Разум с восемью руками",
-  "description_ru": "Осьминоги обладают сложным интеллектом, который развился независимо от нашего. Текст объясняет устройство их нервной системы и цену этой гибкости.",
-  "text": "An octopus has roughly five hundred million neurons, a number comparable to that of a dog, yet only about a third of them sit in its brain. The remainder are distributed through its eight arms, each of which can taste, touch, and make rudimentary decisions without waiting for instructions from the centre. It is a nervous system organised less like a monarchy than like a federation.\n\nThis arrangement evolved along a path entirely separate from our own. The last common ancestor of humans and octopuses was a flatworm-like creature that lived more than five hundred million years ago, which means that intelligence has arisen at least twice, by independent routes. Octopuses are therefore often described as the closest thing we have to an encounter with an alien mind.\n\nTheir abilities are striking. In laboratory experiments, octopuses have unscrewed jars from the inside, navigated mazes, and learned to solve problems by watching other individuals. Aquarium keepers have long complained of escape artists that slip through impossibly narrow gaps, and in a well-known case in New Zealand an octopus named Inky is reported to have climbed out of its tank, crossed the floor, and disappeared down a drainpipe to the sea. Some species also use tools: the veined octopus has been observed carrying coconut shells across the seabed, later assembling them into a portable shelter.\n\nTheir skin is equally remarkable. Millions of pigment-containing cells, called chromatophores, can expand or contract within a fraction of a second, allowing the animal to change colour and pattern with extraordinary speed. Curiously, octopuses are thought to be colour-blind in the conventional sense, possessing only a single type of light-sensitive pigment in their eyes. How they match their surroundings so precisely remains an active question; one hypothesis suggests that their skin itself may detect light.\n\nWhy, then, did such sophisticated cognition evolve in animals that, in many species, live for only one or two years? Many researchers point to the demands of a soft-bodied lifestyle. With no shell, no spines, and no armour, an octopus survives by outwitting predators and prey alike, and a flexible mind is its principal defence. Yet the price is steep. Most species die shortly after reproducing, and females of some kinds stop eating entirely while guarding their eggs.\n\nThis brevity is, perhaps, the saddest fact about the animal. A creature capable of recognising individual human faces, of playing, and of remembering lessons vanishes before it can pass any of its knowledge on to the next generation. Whatever an octopus learns, it learns alone, and takes with it.",
-  "word_count": 431,
+  "title_en": "Memory Is Rewritten Every Time",
+  "title_ru": "Память переписывается при каждом воспоминании",
+  "description_ru": "Нейробиологи выяснили, что воспоминание не лежит в архиве нетронутым, а перестраивается при каждом вызове. Что это значит для свидетелей, травм и нашего прошлого?",
+  "text": "Most of us imagine memory as a kind of archive: an experience happens, the brain files it away, and years later we retrieve the original, slightly dusty but intact. The metaphor is comforting and almost entirely wrong. A growing body of evidence suggests that every time you recall something, you do not simply read it out. You rebuild it, and in the process you may change it.\n\nThe first hints came from the psychologist Elizabeth Loftus, whose experiments in the 1970s showed how fragile eyewitness testimony can be. Volunteers watched a film of a traffic accident and were then asked how fast the cars were going when they \"smashed into\" each other. Others heard the verb \"hit\" instead. The first group guessed higher speeds, and a week later many of them confidently reported seeing broken glass, although there had been none. A single word in a question had quietly altered what they believed they had seen.\n\nSuch studies were persuasive, but they described behaviour, not mechanism. The biological explanation arrived in 2000, when the neuroscientist Karim Nader and his colleagues trained rats to fear a tone by pairing it with a mild electric shock. The memory was stored in the usual way, and over several hours it was consolidated, which means that the brain stabilised it by manufacturing new proteins at the connections between neurons. Once consolidation was complete, the memory was considered fixed. Nader's team challenged that assumption by playing the tone again, which reactivated the memory, and then injecting a drug into the amygdala that blocks protein synthesis.\n\nIt helps to understand how consolidation works in the first place. Much of what we learned about it comes from a single patient, Henry Molaison, who in 1953 had parts of both temporal lobes removed in an attempt to control severe epilepsy. Afterwards he could recall his childhood but could not form new lasting memories, which showed that the hippocampus is essential for laying them down. Later work indicated that during deep sleep the hippocampus replays recent activity, gradually training the cortex to hold the memory without it. A thousand small rehearsals each night, in other words, turn a fleeting impression into a lasting one.\n\nThe result was striking. Rats that received the drug straight after the reminder lost their fear of the tone, while rats that received it six hours later did not. The reactivated memory, it seemed, had become unstable. For a short period, estimated at a few hours, it had to be stored all over again, and if that process was interrupted, the memory weakened. Similar effects have since been reported in other species, from sea slugs to honeybees, which suggests that the mechanism is ancient. The phenomenon was named reconsolidation, and it overturned a century of assumptions about how the brain keeps its past.\n\nWhy would evolution produce such a fragile system? One plausible answer is that memory exists to guide future behaviour, not to preserve a perfect record. If a place that was once dangerous has become safe, it is useful for the old memory to be updated by new information. Reconsolidation provides a window in which that revision can occur. Every act of remembering becomes, in effect, an act of editing, and the version we retrieve is always slightly more recent than the one we stored.\n\nThe idea has obvious clinical appeal. If traumatic memories can be reopened and modified, perhaps their emotional force can be reduced without erasing the facts. Several small trials have used the beta-blocker propranolol, which dampens the body's stress response, while patients recall a traumatic event. Some found that the emotional intensity of the memory diminished afterwards. Others failed to reproduce the effect, and researchers remain divided. It is worth stressing that the evidence in humans is far weaker than in rodents, and that the timing, dose and type of memory all seem to matter.\n\nThere is also a cautionary side. Because recollection is reconstructive, confidence is a poor indicator of accuracy. People can describe false memories in rich, sensory detail and sincerely believe them. In one famous study, Loftus and a colleague persuaded about a quarter of their participants that they had been lost in a shopping centre as children, an event that never occurred. Courts have therefore become more cautious about relying on a single, confident witness, and many police forces now interview witnesses with neutral, open questions rather than leading ones.\n\nI once thought, like most people, that vivid memories must be the accurate ones, and the research is a gentle rebuke to that intuition. None of this means that memory is useless. Most of what we remember about our lives is broadly reliable, particularly the gist of events, and repeated, well-rehearsed knowledge is remarkably robust. But it does mean that the feeling of vividness is not a guarantee of truth. A memory is less like a photograph than like a story we retell, and each retelling is shaped by what we know, feel and expect at the moment of telling.\n\nEvery careful study in this field has pointed the same way. Perhaps the most humbling implication is personal. The recollection you treasure most, the one you have replayed on a hundred evenings, has probably travelled the furthest from the original. That need not be a loss. It suggests that the past is not sealed behind glass but remains, in a small and quite literal sense, alive, and that the person doing the remembering has a hand in what it becomes.",
+  "word_count": 915,
   "vocabulary": [
     {
-      "word": "rudimentary",
-      "ipa_us": "ˌruːdɪˈmentri",
-      "ipa_uk": "ˌruːdɪˈmentri",
-      "translation_ru": "элементарный, зачаточный"
+      "word": "archive",
+      "ipa_us": "ˈɑːrkaɪv",
+      "ipa_uk": "ˈɑːkaɪv",
+      "translation_ru": "архив"
     },
     {
-      "word": "federation",
-      "ipa_us": "ˌfedəˈreɪʃn",
-      "ipa_uk": "ˌfedəˈreɪʃn",
-      "translation_ru": "федерация"
+      "word": "testimony",
+      "ipa_us": "ˈtestəmoʊni",
+      "ipa_uk": "ˈtestɪməni",
+      "translation_ru": "свидетельские показания"
     },
     {
-      "word": "chromatophores",
-      "ipa_us": "ˈkroʊmətəfɔːrz",
-      "ipa_uk": "ˈkrəʊmətəfɔːz",
-      "translation_ru": "хроматофоры"
+      "word": "fragile",
+      "ipa_us": "ˈfrædʒəl",
+      "ipa_uk": "ˈfrædʒaɪl",
+      "translation_ru": "хрупкий"
     },
     {
-      "word": "hypothesis",
-      "ipa_us": "haɪˈpɑːθəsɪs",
-      "ipa_uk": "haɪˈpɒθəsɪs",
-      "translation_ru": "гипотеза"
+      "word": "consolidated",
+      "ipa_us": "kənˈsɑːlɪdeɪtɪd",
+      "ipa_uk": "kənˈsɒlɪdeɪtɪd",
+      "translation_ru": "закреплена, упрочена"
     },
     {
-      "word": "cognition",
-      "ipa_us": "kɑːɡˈnɪʃn",
-      "ipa_uk": "kɒɡˈnɪʃn",
-      "translation_ru": "познание, мышление"
+      "word": "amygdala",
+      "ipa_us": "əˈmɪɡdələ",
+      "ipa_uk": "əˈmɪɡdələ",
+      "translation_ru": "миндалевидное тело"
     },
     {
-      "word": "outwitting",
-      "ipa_us": "aʊtˈwɪtɪŋ",
-      "ipa_uk": "aʊtˈwɪtɪŋ",
-      "translation_ru": "перехитрив"
+      "word": "reactivated",
+      "ipa_us": "riˈæktɪveɪtɪd",
+      "ipa_uk": "riˈæktɪveɪtɪd",
+      "translation_ru": "повторно активированный"
     },
     {
-      "word": "brevity",
-      "ipa_us": "ˈbrevəti",
-      "ipa_uk": "ˈbrevəti",
-      "translation_ru": "краткость"
+      "word": "reconsolidation",
+      "ipa_us": "ˌriːkənˌsɑːlɪˈdeɪʃən",
+      "ipa_uk": "ˌriːkənˌsɒlɪˈdeɪʃən",
+      "translation_ru": "реконсолидация (памяти)"
+    },
+    {
+      "word": "plausible",
+      "ipa_us": "ˈplɔːzəbəl",
+      "ipa_uk": "ˈplɔːzəbəl",
+      "translation_ru": "правдоподобный"
+    },
+    {
+      "word": "traumatic",
+      "ipa_us": "trɔːˈmætɪk",
+      "ipa_uk": "trɔːˈmætɪk",
+      "translation_ru": "травматический"
+    },
+    {
+      "word": "cautionary",
+      "ipa_us": "ˈkɔːʃəneri",
+      "ipa_uk": "ˈkɔːʃənəri",
+      "translation_ru": "предостерегающий"
+    },
+    {
+      "word": "reconstructive",
+      "ipa_us": "ˌriːkənˈstrʌktɪv",
+      "ipa_uk": "ˌriːkənˈstrʌktɪv",
+      "translation_ru": "реконструктивный"
+    },
+    {
+      "word": "humbling",
+      "ipa_us": "ˈhʌmblɪŋ",
+      "ipa_uk": "ˈhʌmblɪŋ",
+      "translation_ru": "смиряющий, заставляющий скромнее оценивать себя"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "hypothesis",
-        "third",
-        "thought"
-      ],
-      "tip_ru": "Кончик языка слегка между зубами, звук глухой; не заменяйте на «с» или «т»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "without",
-        "waiting",
-        "watching"
-      ],
-      "tip_ru": "Губы вытянуты и округлены, как для «у», затем быстро раскрываются; не касайтесь зубами губы."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "hypothesis",
-        "cognition",
-        "rudimentary"
+        "reconsolidation",
+        "consolidated",
+        "reconstructive"
       ],
-      "tip_ru": "Ударение: hyˈpothesis, cogˈnition, ˌrudiˈmentary. Ударный слог произносите громче и длиннее, остальные редуцируйте."
+      "tip_ru": "Ударение: reconsoliˈdation (главное на -da-), conˈsolidated, reconˈstructive. Приставка re- безударна."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "humbling",
+        "study",
+        "blocks"
+      ],
+      "tip_ru": "Звук «ʌ» — короткий, открытый, как «а» в слове «мама» без напряжения: humbling, study."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thousand",
+        "synthesis",
+        "thought"
+      ],
+      "tip_ru": "«θ» — язык между зубами, воздух проходит без голоса: synthesis, thought."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "named",
+        "stored",
+        "tone"
+      ],
+      "tip_ru": "Конечные звонкие (named, stored) не оглушайте, звук «d» должен звучать."
     }
   ],
   "questions": [
     {
-      "question": "How many neurons does an octopus have?",
-      "answer": "About five hundred million.",
+      "question": "How does the article describe the ordinary view of memory?",
+      "answer": "As an archive in which experiences are filed and later retrieved intact.",
       "accepted_keywords": [
-        "five hundred",
-        "500",
-        "million"
+        "archive",
+        "file",
+        "filed",
+        "stored",
+        "intact"
       ]
     },
     {
-      "question": "Where is most of the octopus's nervous system?",
-      "answer": "In its arms.",
+      "question": "What did Karim Nader's experiment on rats show?",
+      "answer": "After a reminder, blocking protein synthesis weakened the fear memory, showing reconsolidation.",
       "accepted_keywords": [
-        "arms"
+        "fear",
+        "protein",
+        "reactivated",
+        "weakened",
+        "reconsolidation"
       ]
     },
     {
-      "question": "What do chromatophores do?",
-      "answer": "They change the colour and pattern of the skin.",
+      "question": "Why might reconsolidation be useful?",
+      "answer": "It lets old memories be updated with new information.",
       "accepted_keywords": [
-        "colour",
-        "color",
-        "pattern",
-        "skin"
+        "update",
+        "updated",
+        "revision",
+        "new information",
+        "edited"
       ]
     },
     {
-      "question": "Why is the octopus's short lifespan sad?",
-      "answer": "It dies before passing its knowledge to the next generation.",
+      "question": "Why are courts cautious about confident witnesses?",
+      "answer": "Because confidence is a poor indicator of accuracy and false memories can feel real.",
       "accepted_keywords": [
-        "knowledge",
-        "generation",
-        "lessons",
-        "alone"
+        "false",
+        "confidence",
+        "accuracy",
+        "cautious",
+        "unreliable"
       ]
     }
   ]

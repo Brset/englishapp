@@ -2,131 +2,156 @@
   "id": "b1-humor-05",
   "level": "B1",
   "genre": "humor",
-  "title_en": "The Parrot Who Knew Too Much",
-  "title_ru": "Попугай, который знал слишком много",
-  "description_ru": "Комичная история о говорящем попугае, который пересказывает семейные секреты в самый неподходящий момент.",
-  "text": "Aunt Rosa owned a green parrot called Captain. He was clever, loud and extremely good at listening. Unfortunately, he was also very good at repeating everything he had heard.\n\nFor years, this was not a problem, because Rosa lived alone. But last spring, she invited her whole family for dinner, and she wanted everything to be perfect. She cooked all morning, polished the glasses and told the parrot, \"Please behave tonight.\"\n\nThe first guests arrived at six. Uncle Henry came in with a large bunch of flowers and a wide smile. \"What a lovely surprise,\" said Rosa. \"Not a lovely surprise,\" said the parrot in a perfect copy of Henry's voice. \"I hate her soup!\"\n\nThere was a terrible silence. Henry went red. \"I may have said something like that once,\" he muttered, \"but it was a long time ago.\"\n\nRosa hurried to the kitchen to bring the main course. While she was away, the parrot continued. He imitated cousin Lily's phone call about her secret boyfriend, and he repeated the story of how little Tom had broken the neighbour's window with a football.\n\nBy the time dessert arrived, nobody was speaking. Then the doorbell rang, and the parrot shouted, \"Who is it? I am not at home!\"\n\nEverybody burst out laughing, even Rosa. \"Captain,\" she said, wiping her eyes, \"you have just told the truth for the first time this evening.\"\n\nSince then, the family always eats dinner in the garden, and Captain stays in his cage with a blanket over it.",
-  "word_count": 253,
+  "title_en": "The Perfect Camping Weekend",
+  "title_ru": "Идеальные выходные в палатке",
+  "description_ru": "Юмористический рассказ о походе с друзьями: неудачная палатка, мокрые спички, дождь в полночь и спасительный фермер.",
+  "text": "My friend Dave once told me that camping is \"the perfect way to relax and enjoy nature\". I have thought about this sentence many times since, usually at three o'clock in the morning, while lying in a wet sleeping bag and listening to the rain on a tent that I did not know how to put up. If I had understood what I was agreeing to, I would have stayed at home. Instead, I said yes, and last June I found myself in a field in the middle of nowhere with three friends and a bag of sausages.\n\nThe trip began badly. We drove for four hours, and when we arrived, it was already starting to get dark. Dave, who had promised that he was an expert, opened the bag that contained the tent and stared at it for a long time. \"It is different from the one I borrowed last time,\" he said slowly. There were poles, ropes, small metal pegs and a big piece of green cloth that smelled like a damp dog. We tried for an hour to understand the instructions, and in the end we built something that looked like a collapsed circus.\n\nOur second problem was the fire. Everyone knows that camping means sitting around a fire, singing songs and eating food. My friend Sasha had brought a small box of matches, and we collected sticks from the nearby trees. Unfortunately, the sticks were wet, and the matches were wetter. We tried to burn paper, then a few leaves, and finally a packet of biscuits, which did produce a small flame but also a terrible smell. After forty minutes, we gave up and ate our sausages cold, which was not as good as the pictures suggested.\n\nBy ten o'clock we were exhausted, and we crawled into the tent. I discovered that a sleeping bag is a kind of plastic bag with a zip, and that the ground, which looks soft in the daytime, becomes as hard as a table at night. Dave started snoring almost at once, and Sasha, who was lying next to him, kept hitting him with a shoe. I could not sleep. Every little noise seemed enormous: a leaf, a branch, something that I was sure was a bear. When I mentioned this, Dave woke up and told me that there were no bears in this country. \"Then what is that?\" I asked. \"Probably a cow,\" he said, and went back to sleep.\n\nThe rain started at midnight. At first it was gentle, but soon it was loud and heavy, and I noticed a small, cold drop falling on my nose. Then another. Because Dave had put the tent too close to a hill, a river of water began to run underneath us, and my sleeping bag slowly turned into a sponge. By two o'clock we were all sitting up, wrapped in blankets and holding torches. Sasha said that if somebody had told her that this was a holiday, she would have asked for her money back. We laughed so hard that we forgot to be cold.\n\nAt dawn the rain stopped, and we came out of the tent to discover a beautiful morning. The sun was rising over the hills, the grass was shining and a family of ducks was walking across the field. For a moment I understood what Dave had meant. It was truly lovely. Then I noticed that the ducks were walking on my shoe, which I had left outside, and that one of them was trying to eat my sock. It was very hard to feel peaceful while chasing a bird across a field in my pyjamas.\n\nBreakfast was a success, mainly because the farmer who owned the field arrived with a basket of eggs and bread. He looked at our collapsed tent, shook his head and offered to cook for us on his own stove. \"You are the third group this month,\" he said kindly. \"The last people tried to build a fire in the bathroom.\" We sat at his kitchen table and ate eggs, toast and bacon, and I have never enjoyed a meal so much. Nothing tastes better than food that someone else has made after a night in the rain.\n\nWe drove home in the afternoon, tired, dirty and happy. I have not forgiven Dave, but I admit that it was the best weekend I have had for years. Already, he has suggested another trip for the autumn. This time, he says, he will buy a new tent, a proper stove and a book about survival. I told him that I would think about it. If it rains again, I have decided, I will be the one who stays in the farmer's kitchen.",
+  "word_count": 790,
   "vocabulary": [
     {
-      "word": "parrot",
-      "ipa_us": "ˈpærət",
-      "ipa_uk": "ˈpærət",
-      "translation_ru": "попугай"
+      "word": "camping",
+      "ipa_us": "ˈkæmpɪŋ",
+      "ipa_uk": "ˈkæmpɪŋ",
+      "translation_ru": "кемпинг, поход с палаткой"
     },
     {
-      "word": "extremely",
-      "ipa_us": "ɪkˈstrimli",
-      "ipa_uk": "ɪkˈstriːmli",
-      "translation_ru": "крайне"
+      "word": "expert",
+      "ipa_us": "ˈɛkspɜːrt",
+      "ipa_uk": "ˈekspɜːt",
+      "translation_ru": "эксперт"
     },
     {
-      "word": "repeating",
-      "ipa_us": "rɪˈpitɪŋ",
-      "ipa_uk": "rɪˈpiːtɪŋ",
-      "translation_ru": "повторяющий"
+      "word": "collapsed",
+      "ipa_us": "kəˈlæpst",
+      "ipa_uk": "kəˈlæpst",
+      "translation_ru": "рухнувший, обвалившийся"
     },
     {
-      "word": "behave",
-      "ipa_us": "bɪˈheɪv",
-      "ipa_uk": "bɪˈheɪv",
-      "translation_ru": "вести себя хорошо"
+      "word": "exhausted",
+      "ipa_us": "ɪɡˈzɔːstɪd",
+      "ipa_uk": "ɪɡˈzɔːstɪd",
+      "translation_ru": "измотанный"
     },
     {
-      "word": "imitated",
-      "ipa_us": "ˈɪməˌteɪtɪd",
-      "ipa_uk": "ˈɪmɪteɪtɪd",
-      "translation_ru": "передразнивал"
+      "word": "enormous",
+      "ipa_us": "ɪˈnɔːrməs",
+      "ipa_uk": "ɪˈnɔːməs",
+      "translation_ru": "огромный"
     },
     {
-      "word": "boyfriend",
-      "ipa_us": "ˈbɔɪˌfrɛnd",
-      "ipa_uk": "ˈbɔɪfrend",
-      "translation_ru": "парень (возлюбленный)"
+      "word": "torches",
+      "ipa_us": "ˈtɔːrtʃɪz",
+      "ipa_uk": "ˈtɔːtʃɪz",
+      "translation_ru": "фонарики"
     },
     {
-      "word": "neighbour",
-      "ipa_us": "ˈneɪbər",
-      "ipa_uk": "ˈneɪbə",
-      "translation_ru": "сосед"
+      "word": "sponge",
+      "ipa_us": "spʌndʒ",
+      "ipa_uk": "spʌndʒ",
+      "translation_ru": "губка"
     },
     {
-      "word": "dessert",
-      "ipa_us": "dɪˈzɜrt",
-      "ipa_uk": "dɪˈzɜːt",
-      "translation_ru": "десерт"
+      "word": "peaceful",
+      "ipa_us": "ˈpiːsfəl",
+      "ipa_uk": "ˈpiːsfəl",
+      "translation_ru": "спокойный"
     },
     {
-      "word": "silence",
-      "ipa_us": "ˈsaɪləns",
-      "ipa_uk": "ˈsaɪləns",
-      "translation_ru": "тишина"
+      "word": "survival",
+      "ipa_us": "sərˈvaɪvəl",
+      "ipa_uk": "səˈvaɪvəl",
+      "translation_ru": "выживание"
+    },
+    {
+      "word": "sausages",
+      "ipa_us": "ˈsɔːsɪdʒɪz",
+      "ipa_uk": "ˈsɒsɪdʒɪz",
+      "translation_ru": "сосиски"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "Rosa",
-        "parrot",
-        "repeating",
-        "red"
+        "nothing",
+        "something",
+        "thought",
+        "cloth"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "very",
-        "everything",
-        "lovely",
-        "voice"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "wanted",
-        "window",
-        "whole",
-        "while"
+        "wet",
+        "went",
+        "woke",
+        "wrapped"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "camping",
+        "snoring",
+        "sleeping",
+        "singing"
+      ],
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "hill",
+        "peaceful",
+        "small",
+        "smell"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What was the parrot's name?",
-      "answer": "Captain.",
+      "question": "What was wrong with the tent?",
+      "answer": "Dave could not understand how to build it, and it ended up like a collapsed circus.",
       "accepted_keywords": [
-        "captain"
+        "tent",
+        "collapsed",
+        "instructions",
+        "circus",
+        "build"
       ]
     },
     {
-      "question": "Why did Rosa tell the parrot to behave?",
-      "answer": "Her family was coming for dinner.",
+      "question": "Why could they not cook the sausages?",
+      "answer": "The sticks and the matches were wet, so they could not make a fire.",
       "accepted_keywords": [
-        "family",
-        "dinner",
-        "guests"
+        "wet",
+        "matches",
+        "fire",
+        "sticks"
       ]
     },
     {
-      "question": "What did the parrot say about the soup?",
-      "answer": "That he hated it, in Henry's voice.",
+      "question": "What kept the narrator awake at night?",
+      "answer": "Strange noises, then the rain and the water under the tent.",
       "accepted_keywords": [
-        "hate",
-        "hated",
-        "soup",
-        "henry"
+        "noises",
+        "rain",
+        "water",
+        "noise",
+        "bear"
       ]
     },
     {
-      "question": "Where does the family eat dinner now?",
-      "answer": "In the garden.",
+      "question": "Who saved their breakfast?",
+      "answer": "The farmer brought eggs and bread and cooked in his kitchen.",
       "accepted_keywords": [
-        "garden"
+        "farmer",
+        "eggs",
+        "bread",
+        "kitchen"
       ]
     }
   ]

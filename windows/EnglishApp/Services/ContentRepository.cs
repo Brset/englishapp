@@ -10,7 +10,7 @@ namespace EnglishApp.Services;
 /// Opens user.db (read/write), ATTACHes content.db read-only as "content" and applies user_schema.sql
 /// on first run. All access is synchronous on one connection and serialized by a lock.
 /// </summary>
-public sealed class ContentRepository : IDisposable
+public sealed partial class ContentRepository : IDisposable
 {
     private readonly SqliteConnection _c;
     private readonly object _lock = new();
@@ -34,6 +34,7 @@ public sealed class ContentRepository : IDisposable
         }
 
         Exec(JobsSchema);
+        EnsureV2Schema();
 
         try
         {
@@ -121,10 +122,10 @@ public sealed class ContentRepository : IDisposable
 
     private const string TextSelect =
         "SELECT t.id,t.level,t.genre,t.title_en,t.title_ru,t.description_ru,t.word_count," +
-        "COALESCE(p.status,'new'),p.best_score FROM content.texts t LEFT JOIN progress p ON p.text_id=t.id ";
+        "COALESCE(p.status,'new'),p.best_score,p.best_coverage FROM content.texts t LEFT JOIN progress p ON p.text_id=t.id ";
 
     private static TextSummary MapText(SqliteDataReader r) => new(S(r, 0), S(r, 1), S(r, 2), S(r, 3), S(r, 4), S(r, 5),
-        r.GetInt32(6), S(r, 7), r.IsDBNull(8) ? null : r.GetDouble(8));
+        r.GetInt32(6), S(r, 7), r.IsDBNull(8) ? null : r.GetDouble(8), r.IsDBNull(9) ? null : r.GetDouble(9));
 
     public IReadOnlyList<string> GetGenres() =>
         Query("SELECT DISTINCT genre FROM content.texts ORDER BY genre", r => r.GetString(0));
@@ -277,8 +278,8 @@ public sealed class ContentRepository : IDisposable
                 acc[p.Ipa] = (a.n + 1, a.err + (s < 60 ? 1 : 0), a.sum + s);
             }
         foreach (var (ipa, a) in acc)
-            Exec("INSERT INTO phoneme_stats(phoneme,attempts,errors,avg_score,updated_at) VALUES($p,$n,$e,$avg,$t) " +
-                 "ON CONFLICT(phoneme) DO UPDATE SET " +
+            Exec("INSERT INTO phoneme_stats(phoneme,attempts,errors,avg_score,updated_at,recent_avg) VALUES($p,$n,$e,$avg,$t,$avg) " +
+                 "ON CONFLICT(phoneme) DO UPDATE SET recent_avg=COALESCE(recent_avg,avg_score,$avg)*0.6+$avg*0.4, " +
                  "avg_score=(COALESCE(avg_score,0)*attempts+$sum)/(attempts+$n), attempts=attempts+$n, errors=errors+$e, updated_at=$t",
                 ("$p", ipa), ("$n", a.n), ("$e", a.err), ("$avg", a.sum / a.n), ("$sum", a.sum), ("$t", Now));
     }
@@ -359,32 +360,45 @@ public sealed class ContentRepository : IDisposable
     /// Called when a reading ends: stores the recording (live marks only, no score yet), marks the text read
     /// (progress/streak) and enqueues the heavy assessment. Returns the job id.
     /// </summary>
-    public long AddPendingReading(string textId, string wavPath, double audioSeconds, string? liveMarks)
+    public long AddPendingReading(string textId, string wavPath, double audioSeconds, string? liveMarks,
+        int? paragraphIndex = null, int paragraphTotal = 0)
     {
         long jobId;
         string? liveJson = liveMarks == null ? null : System.Text.Json.JsonSerializer.Serialize(new { live = liveMarks });
+        int? wordsTotal = liveMarks?.Length;
+        int? wordsRead = liveMarks?.Count(ch => ch == 'r');
+        int? skipped = liveMarks?.Count(ch => ch == 's');
+        double? coverage = wordsTotal is int wt && wt > 0 ? 100.0 * (wordsRead ?? 0) / wt : null;
+        double? wpm = wordsRead is int wr && audioSeconds > 1 ? wr / (audioSeconds / 60.0) : null;
         lock (_lock)
         {
             using var tx = _c.BeginTransaction();
             using (var cmd = _c.CreateCommand())
             {
                 cmd.Transaction = tx;
-                cmd.CommandText = "INSERT INTO recordings(text_id,kind,file_path,duration_ms,score,scores_json,created_at) " +
-                                  "VALUES($t,'reading',$f,$d,NULL,$j,$c)";
+                cmd.CommandText = "INSERT INTO recordings(text_id,kind,file_path,duration_ms,score,scores_json,created_at," +
+                                  "coverage_pct,skipped_count,duration_sec,wpm,paragraph_index,words_read,words_total) " +
+                                  "VALUES($t,'reading',$f,$d,NULL,$j,$c,$cp,$sk,$ds,$wpm,$pi,$wr,$wt)";
                 cmd.Parameters.AddWithValue("$t", textId);
                 cmd.Parameters.AddWithValue("$f", wavPath);
                 cmd.Parameters.AddWithValue("$d", (int)(audioSeconds * 1000));
                 cmd.Parameters.AddWithValue("$j", (object?)liveJson ?? DBNull.Value);
                 cmd.Parameters.AddWithValue("$c", Now);
+                cmd.Parameters.AddWithValue("$cp", (object?)coverage ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$sk", (object?)skipped ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$ds", audioSeconds);
+                cmd.Parameters.AddWithValue("$wpm", (object?)wpm ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$pi", (object?)paragraphIndex ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$wr", (object?)wordsRead ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$wt", (object?)wordsTotal ?? DBNull.Value);
                 cmd.ExecuteNonQuery();
             }
             using (var cmd = _c.CreateCommand())
             {
                 cmd.Transaction = tx;
                 cmd.CommandText =
-                    "INSERT INTO progress(text_id,status,attempts,last_opened_at,completed_at) VALUES($t,'done',1,$n,$n) " +
-                    "ON CONFLICT(text_id) DO UPDATE SET attempts=attempts+1, last_opened_at=$n, status='done', " +
-                    "completed_at=COALESCE(completed_at,$n)";
+                    "INSERT INTO progress(text_id,status,attempts,last_opened_at) VALUES($t,'started',1,$n) " +
+                    "ON CONFLICT(text_id) DO UPDATE SET attempts=attempts+1, last_opened_at=$n";
                 cmd.Parameters.AddWithValue("$t", textId);
                 cmd.Parameters.AddWithValue("$n", Now);
                 cmd.ExecuteNonQuery();
@@ -392,33 +406,28 @@ public sealed class ContentRepository : IDisposable
             using (var cmd = _c.CreateCommand())
             {
                 cmd.Transaction = tx;
-                cmd.CommandText =
-                    "INSERT INTO daily_streak(day,minutes,texts_done,goal_met) VALUES($d,$m,1,0) " +
-                    "ON CONFLICT(day) DO UPDATE SET minutes=minutes+$m, texts_done=texts_done+1";
-                cmd.Parameters.AddWithValue("$d", Today);
-                cmd.Parameters.AddWithValue("$m", audioSeconds / 60.0);
-                cmd.ExecuteNonQuery();
-            }
-            using (var cmd = _c.CreateCommand())
-            {
-                cmd.Transaction = tx;
-                cmd.CommandText = "INSERT INTO processing_jobs(text_id,wav_path,audio_seconds,status,created_at) " +
-                                  "VALUES($t,$f,$a,'queued',$c); SELECT last_insert_rowid()";
+                cmd.CommandText = "INSERT INTO processing_jobs(text_id,wav_path,audio_seconds,status,created_at,paragraph_index,paragraph_total) " +
+                                  "VALUES($t,$f,$a,'queued',$c,$pi,$pt); SELECT last_insert_rowid()";
                 cmd.Parameters.AddWithValue("$t", textId);
                 cmd.Parameters.AddWithValue("$f", wavPath);
                 cmd.Parameters.AddWithValue("$a", audioSeconds);
                 cmd.Parameters.AddWithValue("$c", Now);
+                cmd.Parameters.AddWithValue("$pi", (object?)paragraphIndex ?? DBNull.Value);
+                cmd.Parameters.AddWithValue("$pt", paragraphTotal);
                 jobId = Convert.ToInt64(cmd.ExecuteScalar(), CultureInfo.InvariantCulture);
             }
             tx.Commit();
         }
+        AddActivity(audioSeconds / 60.0, wordsRead ?? 0, paragraphIndex == null);
+        UpdateTextCoverage(textId);
         return jobId;
     }
 
     private static JobRow MapJob(SqliteDataReader r) =>
-        new(r.GetInt64(0), S(r, 1), S(r, 2), r.GetDouble(3), S(r, 4));
+        new(r.GetInt64(0), S(r, 1), S(r, 2), r.GetDouble(3), S(r, 4),
+            r.IsDBNull(5) ? null : r.GetInt32(5), r.IsDBNull(6) ? 0 : r.GetInt32(6));
 
-    private const string JobSelect = "SELECT id,text_id,wav_path,audio_seconds,status FROM processing_jobs ";
+    private const string JobSelect = "SELECT id,text_id,wav_path,audio_seconds,status,paragraph_index,paragraph_total FROM processing_jobs ";
 
     /// <summary>Jobs interrupted by an app exit go back to the queue.</summary>
     public void RequeueInterruptedJobs() =>
@@ -442,10 +451,14 @@ public sealed class ContentRepository : IDisposable
             ("$p", fraction), ("$e", etaSec < 0 ? (object?)null : etaSec), ("$id", id));
 
     /// <summary>Stores the result: job done, recording scored, best score updated.</summary>
-    public void CompleteJob(long id, string textId, string wavPath, string resultJson, double score)
+    public bool CompleteJob(long id, string textId, string wavPath, string resultJson, double score,
+        int wordsRead = 0, int wordsTotal = 0, double wpm = 0, int skipped = 0)
     {
+        bool coverageWasMissing;
         lock (_lock)
         {
+            coverageWasMissing = ScalarLong("SELECT count(*) FROM recordings WHERE file_path=$f AND kind='reading' AND words_read IS NULL",
+                ("$f", wavPath)) > 0;
             using var tx = _c.BeginTransaction();
             void Run(string sql, params (string, object?)[] args)
             {
@@ -461,8 +474,15 @@ public sealed class ContentRepository : IDisposable
                 ("$s", score), ("$j", resultJson), ("$f", wavPath));
             Run("UPDATE progress SET best_score=MAX(COALESCE(best_score,0),$s) WHERE text_id=$t",
                 ("$s", score), ("$t", textId));
+            Run("UPDATE recordings SET words_read=COALESCE(words_read,$wr), words_total=COALESCE(words_total,$wt), " +
+                "coverage_pct=COALESCE(coverage_pct,$cp), wpm=COALESCE(wpm,$wpm), skipped_count=COALESCE(skipped_count,$sk) " +
+                "WHERE file_path=$f AND kind='reading'",
+                ("$wr", wordsRead), ("$wt", wordsTotal), ("$cp", wordsTotal > 0 ? 100.0 * wordsRead / wordsTotal : 0.0),
+                ("$wpm", wpm), ("$sk", skipped), ("$f", wavPath));
             tx.Commit();
         }
+        UpdateTextCoverage(textId);
+        return coverageWasMissing;
     }
 
     /// <summary>status: failed | cancelled. Only queued/processing jobs are touched; returns false otherwise.</summary>
@@ -472,11 +492,13 @@ public sealed class ContentRepository : IDisposable
 
     private List<AttemptInfo> QueryAttempts(string? textId) =>
         Query("SELECT r.id,r.text_id,r.created_at,r.score,r.file_path,r.scores_json," +
-              "(SELECT j.status FROM processing_jobs j WHERE j.wav_path=r.file_path ORDER BY j.id DESC LIMIT 1) " +
+              "(SELECT j.status FROM processing_jobs j WHERE j.wav_path=r.file_path ORDER BY j.id DESC LIMIT 1), " +
+              "r.paragraph_index,r.coverage_pct " +
               "FROM recordings r WHERE r.kind='reading' " + (textId == null ? "" : "AND r.text_id=$t ") +
               "ORDER BY r.created_at, r.id",
             r => new AttemptInfo(r.GetInt64(0), S(r, 1), r.GetInt64(2), r.IsDBNull(3) ? null : r.GetDouble(3), S(r, 4),
-                r.IsDBNull(5) ? null : r.GetString(5), r.IsDBNull(6) ? null : r.GetString(6)),
+                r.IsDBNull(5) ? null : r.GetString(5), r.IsDBNull(6) ? null : r.GetString(6),
+                r.IsDBNull(7) ? null : r.GetInt32(7), r.IsDBNull(8) ? null : r.GetDouble(8)),
             textId == null ? Array.Empty<(string, object?)>() : new (string, object?)[] { ("$t", textId) });
 
     /// <summary>Reading attempts of a text, newest first.</summary>
@@ -511,10 +533,23 @@ public sealed class ContentRepository : IDisposable
             var last = list[^1];
             var scores = list.Where(a => a.Score != null).Select(a => a.Score!.Value).ToList();
             var marks = ParseLiveMarks(last.ScoresJson);
-            result[g.Key] = new ReadSummary(list.Count, scores.Count > 0 ? scores[^1] : null,
+            result[g.Key] = new ReadSummary(list.Count, LatestScore(list) ?? (scores.Count > 0 ? scores[^1] : null),
                 scores.Skip(Math.Max(0, scores.Count - 6)).ToList(), last.Badge, marks?.Count(ch => ch == 's') ?? 0);
         }
         return result;
+    }
+
+    /// <summary>Score of the latest reading: a whole-text attempt, or the mean of the newest scored paragraph attempts.</summary>
+    private static double? LatestScore(List<AttemptInfo> oldestFirst)
+    {
+        var seen = new Dictionary<int, double>();
+        for (int i = oldestFirst.Count - 1; i >= 0; i--)
+        {
+            var a = oldestFirst[i];
+            if (a.ParagraphIndex == null) { if (seen.Count == 0) return a.Score; break; }
+            if (!seen.ContainsKey(a.ParagraphIndex.Value) && a.Score != null) seen[a.ParagraphIndex.Value] = a.Score.Value;
+        }
+        return seen.Count > 0 ? seen.Values.Average() : null;
     }
 
     public void Dispose() { lock (_lock) _c.Dispose(); }

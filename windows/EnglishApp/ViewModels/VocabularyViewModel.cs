@@ -14,6 +14,7 @@ public partial class VocabularyViewModel : ObservableObject
     [ObservableProperty] private SavedWord? current;
     [ObservableProperty] private bool isRevealed;
     [ObservableProperty] private string dueText = "";
+    [ObservableProperty] private bool noWords;
 
     public bool HasCurrent => Current != null;
     public bool ShowReveal => HasCurrent && !IsRevealed;
@@ -25,6 +26,7 @@ public partial class VocabularyViewModel : ObservableObject
         Words.Clear();
         foreach (var w in AppServices.Repo.GetSavedWords()) Words.Add(w);
         _due = AppServices.Repo.GetDueWords().ToList();
+        NoWords = Words.Count == 0;
         NextCard();
     }
 
@@ -53,6 +55,7 @@ public partial class VocabularyViewModel : ObservableObject
     {
         AppServices.Repo.DeleteWord(w.Id);
         Words.Remove(w);
+        NoWords = Words.Count == 0;
         _due.RemoveAll(d => d.Id == w.Id);
         if (Current?.Id == w.Id) NextCard();
     }

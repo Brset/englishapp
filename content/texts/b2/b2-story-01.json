@@ -2,140 +2,164 @@
   "id": "b2-story-01",
   "level": "B2",
   "genre": "story",
-  "title_en": "The Lighthouse Keeper's Letter",
-  "title_ru": "Письмо смотрителя маяка",
-  "description_ru": "Рассказ о девушке, которая находит старое письмо на заброшенном маяке и узнаёт тайну своей семьи.",
-  "text": "When Clara inherited her grandfather's lighthouse, she expected dust, damp walls and a few broken chairs. She did not expect to find a letter. It was hidden behind a loose brick at the top of the spiral staircase, and it had clearly been waiting there for a very long time.\n\nThe envelope was addressed to \"Whoever keeps the light after me.\" Clara hesitated, then opened it carefully. Inside, her grandfather explained that he had never been the hero the village believed him to be. According to the story everyone told, he had saved a fishing boat during the great storm of 1974. In reality, he wrote, the boat had been rescued by a young woman named Margaret, who had rowed out alone while he was sleeping at his post.\n\n\"I took the credit because I was ashamed,\" the letter said. \"I have regretted it every day since.\"\n\nClara read the page twice. Then she sat down on the cold steps and laughed, because the village had always said that her grandfather was as honest as the day is long. It seemed that nobody is perfect, not even legends.\n\nThe next morning she walked down to the harbour and asked the oldest fisherman whether he had ever heard of Margaret. He scratched his beard and told her that Margaret Hale had died three years earlier, but that her daughter still lived above the bakery.\n\nThe daughter, a cheerful woman with flour on her sleeves, listened without interrupting. When Clara had finished, she said that her mother had always refused to talk about that night. \"She used to say that the sea does not care who gets the praise,\" she added.\n\nClara decided to put things right. Within a month, a small bronze plaque had been fixed beside the lighthouse door. It was officially unveiled on a windy Saturday, and the whole village came to watch. The plaque said that Margaret Hale had saved four lives on that stormy night.\n\nAfterwards, Clara climbed the staircase one last time. She placed her grandfather's letter back behind the brick, and beside it she left a note of her own. It read simply, \"The truth came out in the end.\"",
-  "word_count": 364,
+  "title_en": "The Watch That Stopped at Ten Past Four",
+  "title_ru": "Часы, остановившиеся в десять минут пятого",
+  "description_ru": "Рассказ о молодой мастерице, которая чинит старые карманные часы и находит внутри записку из прошлого.",
+  "text": "When Elena Marsh took a job at Hollis & Son, the oldest clock repair shop in the town of Brandwick, she was told that the work would be slow, quiet and badly paid. \"You won't get rich here,\" Mr Hollis warned her on the first morning, \"but you will learn patience.\" He was a thin man of seventy with spectacles on a chain, and he spoke as if every word cost him money. Elena, who was twenty-three and had just left a noisy advertising agency, thought that patience was exactly what she needed.\n\nFor the first month she was not allowed to touch a single clock. Instead she swept the floor, sorted tiny screws into tin boxes and listened to the ticking that filled every corner of the shop. There were hundreds of clocks, and none of them agreed with each other. Mr Hollis said that this was deliberate. \"A shop where all the clocks show the same time is a shop where nobody is thinking,\" he explained. Elena suspected that he was joking, but his face gave nothing away.\n\nThen, one rainy Tuesday, a boy of about ten came in carrying a shoebox. Inside was a pocket watch, its glass cracked and its hands frozen at ten past four. The boy said that it had belonged to his great-grandmother and that his mother had been planning to sell it. \"She says we need the money more than we need the watch,\" he muttered. \"But I think it's worth fixing first.\" Mr Hollis looked at the watch for a long moment, then handed it to Elena. \"Well,\" he said, \"you had better find out what is wrong with it.\"\n\nIt took her three evenings to open the case, because the screws had been sealed with an old kind of wax that had hardened over the decades. Inside, the mechanism was filthy but undamaged, except for one thing. A folded scrap of paper had been jammed between two gears. Elena eased it out with tweezers. The paper was brittle and brown, and the writing on it had been made with a pencil, in a careful, slanting hand. It said, \"For Anna, who will want to know the time she was born.\"\n\nElena showed the note to Mr Hollis, who read it twice and took off his spectacles. He told her that watches were often given as gifts at births and weddings, and that people sometimes hid messages inside them, hoping that they would be discovered by a future repairer. \"It is rare, though,\" he added. \"In forty years I have found only two.\" He suggested that the boy's family should be told at once, but Elena had a better idea. She wanted to repair the watch first, so that it could be returned working, with the message beside it.\n\nThe repair was harder than she had expected. One spring had snapped, a wheel was worn almost smooth, and no replacement parts existed for a watch of that age. Mr Hollis refused to help directly. Instead he left books open on the bench and hummed quietly whenever she made a mistake, which was often. Twice Elena nearly gave up. On the second occasion she threw her tools down and said that the whole thing was a waste of time. \"Perhaps,\" Mr Hollis replied calmly, \"but you will be wasting it with more skill tomorrow than you did today.\"\n\nIn the end she made the missing wheel herself, cutting each tooth by hand under a magnifying lamp. When she finally wound the crown, the watch gave a small, uncertain tick, then another, and then settled into a steady rhythm. Elena realised that she had been holding her breath. She looked up and saw that Mr Hollis was smiling, which she had never seen him do, and that the smile made him look about thirty years younger.\n\nThe boy came back on Saturday with his mother, a tired woman in a work uniform who clearly believed that she was about to hear a price she could not afford. Elena explained what had been found and handed over the note. The mother read it in silence. Then she said that Anna had been her grandmother, born at ten past four on a winter afternoon, and that the family had always claimed the watch had stopped at the very minute of the birth. \"I suppose it was this little piece of paper that stopped it,\" she said slowly, and she began to laugh and cry at the same time.\n\nShe did not sell the watch. She did not pay a penny either, because Mr Hollis announced that it was the shop's policy never to charge for the first repair of any apprentice. Elena, who knew perfectly well that no such policy existed, said nothing. That evening the old man locked the door, turned the sign to \"Closed\" and, for the first time, asked her what she wanted to be paid. She named a figure. He raised it. \"Patience,\" he said, \"is not the same as poverty.\" Outside, all the clocks of Brandwick struck six, and every one of them was slightly wrong.",
+  "word_count": 857,
   "vocabulary": [
     {
-      "word": "inherited",
-      "ipa_us": "ɪnˈhɛrɪtɪd",
-      "ipa_uk": "ɪnˈherɪtɪd",
-      "translation_ru": "унаследовала"
+      "word": "apprentice",
+      "ipa_us": "əˈprɛntɪs",
+      "ipa_uk": "əˈprentɪs",
+      "translation_ru": "ученик, подмастерье"
     },
     {
-      "word": "hesitated",
-      "ipa_us": "ˈhɛzɪteɪtɪd",
-      "ipa_uk": "ˈhezɪteɪtɪd",
-      "translation_ru": "заколебалась"
+      "word": "patience",
+      "ipa_us": "ˈpeɪʃəns",
+      "ipa_uk": "ˈpeɪʃns",
+      "translation_ru": "терпение"
     },
     {
-      "word": "rescued",
-      "ipa_us": "ˈrɛskjud",
-      "ipa_uk": "ˈreskjuːd",
-      "translation_ru": "спасена"
+      "word": "deliberate",
+      "ipa_us": "dɪˈlɪbərət",
+      "ipa_uk": "dɪˈlɪbərət",
+      "translation_ru": "намеренный"
     },
     {
-      "word": "ashamed",
-      "ipa_us": "əˈʃeɪmd",
-      "ipa_uk": "əˈʃeɪmd",
-      "translation_ru": "пристыженный"
+      "word": "spectacles",
+      "ipa_us": "ˈspɛktəkəlz",
+      "ipa_uk": "ˈspektəklz",
+      "translation_ru": "очки"
     },
     {
-      "word": "regretted",
-      "ipa_us": "rɪˈɡrɛtɪd",
-      "ipa_uk": "rɪˈɡretɪd",
-      "translation_ru": "сожалел"
+      "word": "brittle",
+      "ipa_us": "ˈbrɪtl",
+      "ipa_uk": "ˈbrɪtl",
+      "translation_ru": "хрупкий"
     },
     {
-      "word": "harbour",
-      "ipa_us": "ˈhɑrbər",
-      "ipa_uk": "ˈhɑːbə",
-      "translation_ru": "гавань"
+      "word": "tweezers",
+      "ipa_us": "ˈtwiːzərz",
+      "ipa_uk": "ˈtwiːzəz",
+      "translation_ru": "пинцет"
     },
     {
-      "word": "interrupting",
-      "ipa_us": "ˌɪntəˈrʌptɪŋ",
-      "ipa_uk": "ˌɪntəˈrʌptɪŋ",
-      "translation_ru": "перебивая"
+      "word": "mechanism",
+      "ipa_us": "ˈmɛkənɪzəm",
+      "ipa_uk": "ˈmekənɪzəm",
+      "translation_ru": "механизм"
     },
     {
-      "word": "plaque",
-      "ipa_us": "plæk",
-      "ipa_uk": "plæk",
-      "translation_ru": "мемориальная табличка"
+      "word": "discovered",
+      "ipa_us": "dɪˈskʌvərd",
+      "ipa_uk": "dɪˈskʌvəd",
+      "translation_ru": "обнаружены"
     },
     {
-      "word": "unveiled",
-      "ipa_us": "ʌnˈveɪld",
-      "ipa_uk": "ʌnˈveɪld",
-      "translation_ru": "торжественно открыта"
+      "word": "replacement",
+      "ipa_us": "rɪˈpleɪsmənt",
+      "ipa_uk": "rɪˈpleɪsmənt",
+      "translation_ru": "замена"
     },
     {
-      "word": "credit",
-      "ipa_us": "ˈkrɛdɪt",
-      "ipa_uk": "ˈkredɪt",
-      "translation_ru": "заслуга"
+      "word": "magnifying",
+      "ipa_us": "ˈmæɡnɪfaɪɪŋ",
+      "ipa_uk": "ˈmæɡnɪfaɪɪŋ",
+      "translation_ru": "увеличивающий"
+    },
+    {
+      "word": "steady",
+      "ipa_us": "ˈstɛdi",
+      "ipa_uk": "ˈstedi",
+      "translation_ru": "ровный, устойчивый"
+    },
+    {
+      "word": "policy",
+      "ipa_us": "ˈpɑːləsi",
+      "ipa_uk": "ˈpɒləsi",
+      "translation_ru": "правило, политика"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "rescued",
-        "regretted",
-        "harbour"
+        "thin",
+        "thought",
+        "three",
+        "with"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
     },
     {
       "sound": "w",
       "examples": [
-        "whoever",
-        "waiting",
-        "windy"
+        "was",
+        "watch",
+        "warned",
+        "wanted"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "θ",
+      "sound": "ɪ",
       "examples": [
-        "the truth",
-        "three",
-        "month"
+        "spectacles",
+        "brittle",
+        "little"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
     },
     {
-      "sound": "v",
+      "sound": "word-stress",
       "examples": [
-        "village",
-        "never",
-        "unveiled"
+        "apprentice",
+        "mechanism",
+        "deliberate"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What did Clara find behind the brick?",
-      "answer": "A letter from her grandfather.",
+      "question": "Why had Elena left her previous job?",
+      "answer": "She had left a noisy advertising agency and wanted patience.",
       "accepted_keywords": [
-        "letter"
+        "advertising",
+        "agency",
+        "noisy",
+        "patience"
       ]
     },
     {
-      "question": "Who really rescued the fishing boat?",
-      "answer": "A young woman named Margaret.",
+      "question": "What was found inside the pocket watch?",
+      "answer": "A folded note for Anna that was jammed in the gears.",
       "accepted_keywords": [
-        "margaret",
-        "woman"
+        "note",
+        "paper",
+        "message",
+        "anna"
       ]
     },
     {
-      "question": "Where did Margaret's daughter live?",
-      "answer": "Above the bakery.",
+      "question": "What did Elena have to make herself?",
+      "answer": "A missing wheel for the watch.",
       "accepted_keywords": [
-        "bakery"
+        "wheel",
+        "gear",
+        "missing"
       ]
     },
     {
-      "question": "What was fixed beside the lighthouse door?",
-      "answer": "A bronze plaque.",
+      "question": "What did Mr Hollis do for Elena at the end?",
+      "answer": "He raised her pay.",
       "accepted_keywords": [
-        "plaque",
-        "bronze"
+        "pay",
+        "paid",
+        "raised",
+        "salary",
+        "figure"
       ]
     }
   ]

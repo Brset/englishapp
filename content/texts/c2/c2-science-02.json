@@ -2,12 +2,18 @@
   "id": "c2-science-02",
   "level": "C2",
   "genre": "science",
-  "title_en": "The Wood Wide Web",
-  "title_ru": "Лесная паутина",
-  "description_ru": "Как грибы соединяют корни деревьев в подземную сеть, что показали опыты Сюзанны Симард и почему учёные до сих пор спорят о её роли.",
-  "text": "Beneath the soil of any forest lies a landscape more crowded than the one above it. Threads of fungi, many of them finer than a human hair, thread through the dirt in their millions of kilometres, and a great number of them are attached to the roots of trees. The arrangement is called a mycorrhiza, from the Greek for fungus and root, and it is among the oldest and most successful partnerships on Earth. Roughly nine out of every ten species of land plant form some version of it.\n\nThe bargain is an elegant one. A tree captures sunlight and builds sugars, which it cannot eat all at once. A fungus has no leaves at all but excels at foraging, reaching with its slender filaments into places no root can enter, and extracting phosphorus, nitrogen, and water. The tree pays the fungus in sugar; the fungus pays the tree in minerals. Neither is acting out of kindness. Each is a pragmatist who has discovered that cooperation, on balance, beats isolation.\n\nThe idea that this partnership might also connect the trees to one another gained fame in 1997, when a Canadian ecologist named Suzanne Simard published a study in the journal Nature. Working in British Columbia, her team planted seedlings of paper birch and Douglas fir, then labelled the carbon in some of them with a radioactive tracer. Within days, traces of the tracer turned up in neighbouring seedlings of the other species. Carbon, it seemed, had travelled between trees, presumably through a shared fungal network. Journalists, never ones to waste a good phrase, christened it the wood wide web.\n\nThe story that grew from it was irresistible. Older \"mother trees\" were said to nurture their young, to warn neighbours of insect attacks, and even to send sugar to the shaded seedlings that struggled beneath them. Documentaries wept over the generosity of the forest.\n\nScience, fortunately, is not sentimental. In recent years, several researchers have examined the evidence with a cooler eye. A review published in 2023 by Justine Karst and her colleagues found that some of the most popular claims rested on surprisingly thin foundations. Few studies, they argued, had shown that the carbon transferred through the fungi actually improved a seedling's survival in a natural forest, and the notion of mother trees consciously feeding their offspring had been repeated far more often than it had been tested. Simard and others have replied that the field is difficult, that fungal networks are hard to observe without destroying them, and that the effect is real even if its scale is debated.\n\nIt is possible both camps are partly right. Nobody seriously doubts that fungi link plants, or that nutrients move through the links. The open questions are how much moves, in which directions, and with what consequences for the trees. A fungus is not a charitable water pipe. It is an organism with its own appetites, and it may well be steering the flow to its own advantage.\n\nFor the curious visitor, this is the pleasure of the subject. The forest is neither the tender community of the documentaries nor the cold marketplace of the sceptics, but something stranger: a negotiation, conducted in the dark, in a language of chemistry that we are only beginning to read.",
-  "word_count": 544,
+  "title_en": "The Quarrelsome Marketplace Underground",
+  "title_ru": "Шумный подземный рынок",
+  "description_ru": "Грибы и корни деревьев обмениваются сахаром и минералами под землёй. Что мы знаем наверняка о микоризе, а что в «лесном интернете» остаётся предметом научного спора.",
+  "text": "Beneath a patch of forest no larger than a tennis court, a teaspoon of healthy soil can contain hundreds of metres, and sometimes several kilometres, of fungal threads, so fine that none is visible to the naked eye, so numerous that in rich woodland soil they would, laid end to end, outrun the longest measuring tape ever made. This is the dark half of the woodland, a subterranean economy of astonishing complexity, and for most of the last century botanists who walked through the forest gave it about as much attention as a tourist gives the plumbing of a cathedral.\n\nThe central fact is both simple and strange. Roughly nine in ten species of land plants form a partnership with fungi, called a mycorrhiza, from the Greek for \"fungus root\". The fungal threads, known as hyphae, are far thinner than any root and can slip into spaces in the soil that roots cannot reach. They absorb phosphorus, nitrogen and water, and pass a portion to the plant. In return, the plant, which alone can capture the energy of sunlight, hands over sugars, in some trees up to a fifth of all the carbon it fixes. It is a bargain concluded in the dark and sustained by mutual need, the sort of arrangement that diplomats call enduring and cynics call a protection racket.\n\nThe partnership is ancient. Fossils of early land plants, roughly four hundred and fifty million years old, show fungal structures inside their tissues, and many biologists suspect that the first plants could scarcely have colonised dry land without such help, since they had no true roots. There are two principal kinds. The arbuscular type, which is the most widespread, penetrates the root cells and forms tiny branching structures resembling miniature trees. The ectomycorrhizal type, characteristic of oaks, beeches and pines, wraps the root tips in a sleeve and stays outside the cells. The mushrooms that appear in autumn beneath a birch, incidentally, are merely the fruiting bodies of such a fungus, as an apple is to an orchard.\n\nSome plants have taken the arrangement to a parasitic extreme. Orchid seeds are so tiny that they carry no food reserves at all, and they will not germinate unless a fungus feeds them. A few species, like the ghostly white ghost pipe of North American forests, never produce chlorophyll and live entirely at the expense of fungi, which in turn are connected to the roots of green trees. They are, in effect, thieves who steal from a thief.\n\nIt was this last observation that, in the late 1990s, helped to inspire a more dramatic idea. The Canadian ecologist Suzanne Simard and her colleagues planted birch and Douglas fir seedlings and labelled the carbon in one with a radioactive isotope and in the other with a stable one. They found that carbon moved between the two species through the soil, and in greater amounts, in some cases, toward shaded seedlings. A headline coined the phrase \"wood wide web\", and the public imagination did the rest. Trees, it was said, were talking to one another, sharing food with their young and warning their neighbours of insect attack, with mother trees presiding over the whole forest like benevolent matriarchs.\n\nIt is a lovely story, and there is a great deal of truth in its foundations. The original paper appeared in the journal Nature in 1997, and it had the rare distinction of being both rigorous and quotable, a combination that science rewards with fame and then punishes with scrutiny. Few findings in ecology have travelled so far from their footnotes, onto film screens, into novels, and, it is said, into the conversation of people who have never met a fungus socially. Carbon and nutrients certainly can move through hyphal networks. Seedlings connected to mature trees by fungus often fare better than isolated ones. Experiments have also suggested that plants attacked by insects may release chemical signals that nearby connected plants detect, whether through the soil, the air, or both. Yet in recent years a number of researchers have urged caution. A review published in 2023 examined the evidence and found that some of the most popular claims, including that mother trees deliberately nurture their offspring, rest on very few direct field studies. Many of the experiments were performed in greenhouses; many measured the movement of carbon, but not whether it made any difference to the receiving tree's survival.\n\nThis is not a scandal; it is merely science working as it ought to. The truth is probably less sentimental and more intriguing than the legend. A fungal network is not a postal service dedicated to the welfare of trees. It is a living organism with its own appetites, and it is likely to move resources according to its own advantage. Carbon that flows from a large tree to a small one may be a gift, but it may equally be a fungus investing in a future customer. What looks to us like altruism may be a market, with all the opportunism that implies.\n\nThe practical stakes are considerable. Forests managed on the assumption that every tree is a lone competitor may be harmed by the removal of the old trees that anchor a fungal community. Studies show that clear-cutting often reduces the diversity of mycorrhizal fungi in the soil, and that seedlings planted in disturbed ground can struggle without their partners. Farmers, meanwhile, have long noticed that heavy ploughing and a generous use of phosphate fertiliser tend to discourage the fungi that would otherwise help their crops, and a few are now experimenting with gentler methods.\n\nWhat the debate reveals, in the end, is how much remains to be learned about the ground beneath our feet. For a long time we looked at the forest and saw only the trees, as one might look at a city and see only its monuments. The fungi were there all along, trading and bargaining and quarrelling in the dark. We do not yet know how generous they are, or how much they care for the trees they serve. But we do know that the forest is not a collection of individuals, and that its most important conversations take place out of sight.",
+  "word_count": 1034,
   "vocabulary": [
+    {
+      "word": "subterranean",
+      "ipa_us": "ˌsʌbtəˈreɪniən",
+      "ipa_uk": "ˌsʌbtəˈreɪniən",
+      "translation_ru": "подземный"
+    },
     {
       "word": "mycorrhiza",
       "ipa_us": "ˌmaɪkəˈraɪzə",
@@ -15,121 +21,146 @@
       "translation_ru": "микориза"
     },
     {
-      "word": "foraging",
-      "ipa_us": "ˈfɔːrɪdʒɪŋ",
-      "ipa_uk": "ˈfɒrɪdʒɪŋ",
-      "translation_ru": "поиск пищи"
+      "word": "hyphae",
+      "ipa_us": "ˈhaɪfiː",
+      "ipa_uk": "ˈhaɪfiː",
+      "translation_ru": "гифы (нити гриба)"
     },
     {
-      "word": "filaments",
-      "ipa_us": "ˈfɪləmənts",
-      "ipa_uk": "ˈfɪləmənts",
-      "translation_ru": "нити"
+      "word": "phosphorus",
+      "ipa_us": "ˈfɑːsfərəs",
+      "ipa_uk": "ˈfɒsf(ə)rəs",
+      "translation_ru": "фосфор"
     },
     {
-      "word": "pragmatist",
-      "ipa_us": "ˈprægmətɪst",
-      "ipa_uk": "ˈprægmətɪst",
-      "translation_ru": "прагматик"
+      "word": "cynics",
+      "ipa_us": "ˈsɪnɪks",
+      "ipa_uk": "ˈsɪnɪks",
+      "translation_ru": "циники"
     },
     {
-      "word": "seedlings",
-      "ipa_us": "ˈsiːdlɪŋz",
-      "ipa_uk": "ˈsiːdlɪŋz",
-      "translation_ru": "сеянцы, проростки"
+      "word": "colonised",
+      "ipa_us": "ˈkɑːləˌnaɪzd",
+      "ipa_uk": "ˈkɒləˌnaɪzd",
+      "translation_ru": "колонизировали"
     },
     {
-      "word": "tracer",
-      "ipa_us": "ˈtreɪsər",
-      "ipa_uk": "ˈtreɪsə",
-      "translation_ru": "меченый атом, индикатор"
+      "word": "arbuscular",
+      "ipa_us": "ɑːrˈbʌskjələr",
+      "ipa_uk": "ɑːˈbʌskjʊlə",
+      "translation_ru": "арбускулярный"
     },
     {
-      "word": "christened",
-      "ipa_us": "ˈkrɪsnd",
-      "ipa_uk": "ˈkrɪsnd",
-      "translation_ru": "окрестили, назвали"
+      "word": "chlorophyll",
+      "ipa_us": "ˈklɔːrəˌfɪl",
+      "ipa_uk": "ˈklɒrəfɪl",
+      "translation_ru": "хлорофилл"
     },
     {
-      "word": "sentimental",
-      "ipa_us": "ˌsentɪˈmentl",
-      "ipa_uk": "ˌsentɪˈmentl",
-      "translation_ru": "сентиментальный"
+      "word": "isotope",
+      "ipa_us": "ˈaɪsəˌtoʊp",
+      "ipa_uk": "ˈaɪsətəʊp",
+      "translation_ru": "изотоп"
+    },
+    {
+      "word": "matriarchs",
+      "ipa_us": "ˈmeɪtriˌɑːrks",
+      "ipa_uk": "ˈmeɪtriɑːks",
+      "translation_ru": "матриархи"
+    },
+    {
+      "word": "altruism",
+      "ipa_us": "ˈæltruˌɪzəm",
+      "ipa_uk": "ˈæltruɪz(ə)m",
+      "translation_ru": "альтруизм"
+    },
+    {
+      "word": "opportunism",
+      "ipa_us": "ˌɑːpərˈtuːnɪzəm",
+      "ipa_uk": "ˌɒpəˈtjuːnɪz(ə)m",
+      "translation_ru": "оппортунизм"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "word-stress",
       "examples": [
-        "forest",
-        "roots",
-        "carbon",
-        "research"
+        "mycorrhiza",
+        "opportunism",
+        "subterranean"
       ],
-      "tip_ru": "r: кончик языка поднят и не касается нёба, губы чуть округлены: forest, roots."
+      "tip_ru": "Ударение: my-cor-RHI-za, op-por-TU-nism, sub-ter-RA-ne-an. В длинных словах ударный слог обычно второй или третий."
     },
     {
       "sound": "θ",
       "examples": [
-        "thread",
-        "earth",
-        "thin"
+        "thin",
+        "thieves",
+        "through"
       ],
-      "tip_ru": "θ: кончик языка между зубами, без голоса: thread, thin."
+      "tip_ru": "Кончик языка между зубами, воздух без голоса. Не заменяйте на с или ф."
     },
     {
-      "sound": "ŋ",
+      "sound": "aɪ",
       "examples": [
-        "foraging",
-        "reaching"
+        "fine",
+        "isotope",
+        "hyphae"
       ],
-      "tip_ru": "ŋ: задняя спинка языка к мягкому нёбу, звук идёт через нос; не добавляйте «г»: building, reaching."
+      "tip_ru": "Дифтонг от а к ɪ; не обрывайте на а."
     },
     {
-      "sound": "word-stress",
+      "sound": "final-voiced",
       "examples": [
-        "mycorrhiza",
-        "sentimental",
-        "pragmatist"
+        "food",
+        "seed",
+        "and"
       ],
-      "tip_ru": "Ударение: my-co-RRHI-za, sen-ti-MEN-tal, PRAG-ma-tist."
+      "tip_ru": "Звонкие d, b, g в конце слова не оглушаются: food, а не фуТ."
     }
   ],
   "questions": [
     {
       "question": "What is a mycorrhiza?",
-      "answer": "A partnership between a fungus and plant roots.",
+      "answer": "A partnership between a fungus and the roots of a plant.",
       "accepted_keywords": [
         "fungus",
-        "fungi",
+        "partnership",
         "roots",
-        "partnership"
+        "plant",
+        "fungal"
       ]
     },
     {
-      "question": "What does the tree give the fungus?",
-      "answer": "Sugar.",
+      "question": "What does the plant give the fungus in exchange?",
+      "answer": "Sugars, that is, carbon.",
       "accepted_keywords": [
         "sugar",
-        "sugars"
+        "sugars",
+        "carbon"
       ]
     },
     {
-      "question": "What did journalists call the network?",
-      "answer": "The wood wide web.",
+      "question": "What did Suzanne Simard's experiment show?",
+      "answer": "Carbon moved between birch and Douglas fir seedlings through the soil.",
       "accepted_keywords": [
-        "wood",
-        "web"
+        "carbon",
+        "birch",
+        "fir",
+        "moved",
+        "soil"
       ]
     },
     {
-      "question": "What did the 2023 review say about the popular claims?",
-      "answer": "They rested on thin evidence.",
+      "question": "Why do some researchers urge caution about the wood wide web?",
+      "answer": "Many claims rest on few direct field studies and it is unclear the transfers help trees survive.",
       "accepted_keywords": [
-        "thin",
+        "few",
+        "studies",
+        "claims",
         "evidence",
-        "overstated",
-        "tested"
+        "greenhouse",
+        "survival"
       ]
     }
   ]

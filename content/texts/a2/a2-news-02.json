@@ -2,36 +2,12 @@
   "id": "a2-news-02",
   "level": "A2",
   "genre": "news",
-  "title_en": "Lost Dog Found After Three Days",
-  "title_ru": "Потерявшаяся собака нашлась через три дня",
-  "description_ru": "Вымышленная новость о собаке, которая вернулась домой с неожиданной помощью.",
-  "text": "A small brown dog called Biscuit came home yesterday after three days in the forest near Oakton.\n\nBiscuit ran away on Friday when his owner, Tom Wilson, opened the garden gate. Tom looked everywhere. He walked through the park, he called the dog's name, and he put signs on trees.\n\nOn Sunday evening, a girl named Lucy Green found the dog. She was riding her bike near the river when she heard a strange noise. Biscuit was sitting under a bridge, cold and wet but not hurt. Lucy gave him half of her sandwich and then took him to the police station.\n\nThe police called Tom, and he arrived in ten minutes. \"I was so worried,\" he said. \"I cried when I saw him.\"\n\nToday, Biscuit is eating a big dinner and sleeping on the sofa. Tom says he is never going to open that gate again.",
-  "word_count": 147,
+  "title_en": "The Old Bridge Opens Again",
+  "title_ru": "Старый мост снова открыт",
+  "description_ru": "Вымышленная новость: после восьми месяцев ремонта в городе Эшфорд-Грин открыли старый каменный мост.",
+  "text": "After eight months of work, the old stone bridge in the town of Ashford Green opened again on Monday morning. Hundreds of people came to watch the ceremony, and many of them were smiling. The bridge, which is almost two hundred years old, crosses the River Lenn, and it is the only direct road between the two parts of the town.\n\nThe story began last winter. In February, heavy rain made the river much higher and faster than usual, and an inspector found large cracks in the stone. The council closed the bridge immediately, because it was too dangerous for cars and buses. For the next eight months, people had to drive eleven kilometres around the town to reach the other side. A journey that normally took five minutes suddenly took half an hour.\n\nThe closed bridge made life difficult for everyone. Children could not walk to school with their friends. Elderly people had to take two buses to go to the doctor. Shopkeepers on Market Street lost many customers, because people went to the big supermarket near the motorway instead. \"It was the worst winter for my business,\" said Linda Okafor, who owns a small bakery. \"On some days, I sold only ten loaves of bread. Usually I sell more than a hundred.\"\n\nThe repair work was harder than the engineers expected. First, they had to build a temporary wall in the water and pump out the river. Then they removed more than four hundred damaged stones and replaced them with new ones that were cut in a local quarry. They wanted to keep the old look of the bridge, so each stone was cut by hand. The engineer in charge, Peter Halloran, said that the work was like a big puzzle. \"Some stones were broken in the middle, and some had moved by ten centimetres,\" he explained. \"We worked in rain, snow and wind.\"\n\nIn June, there was another problem. A family of swans built a nest in the middle of the work area, and the workers were not allowed to disturb them. For three weeks, the engineers worked on the other side of the bridge. Local children visited the nest every day and gave the swans names. When the baby swans were born, the whole town celebrated. \"It was the cutest delay in history,\" said Mr Halloran with a laugh.\n\nThe total cost of the repair was about one million pounds, and the council paid for most of it. Some residents were not happy about the price. A man called Frank Dobbs wrote a letter to the newspaper and said that the money was too much for a small town. But most people think that it was worth it. \"A bridge is not only stone,\" said the mayor, Susan Marlow, at the ceremony. \"It joins neighbours, schools and families. Today we are one town again.\"\n\nAt ten o'clock, the mayor cut a red ribbon, and the school band played a cheerful song. The first vehicle to cross was a red bus full of children, and the passengers waved from the windows. Behind it came a line of cars, bicycles and people on foot. Some elderly residents stopped in the middle of the bridge and looked at the river, and a few of them cried. \"My grandfather helped to repair this bridge in 1952,\" said one old woman. \"I am glad that it is going to stand for another hundred years.\"\n\nSome of the older residents remembered the bridge in a different time. In the past, it was a meeting place where people sold fruit and fish on Saturdays. The mayor said that she would like to bring back the weekend market next spring, and several stallholders have already asked for a place.\n\nThe council also made some changes. The bridge is now a little wider, so a pavement can be built for pedestrians. There are new lights, and the river wall is higher, which should protect the town from future floods. Engineers say that the bridge is stronger than it was before, and they will check it every year.\n\nFor the shopkeepers, the reopening is the best news in months. Linda Okafor says that she is going to make a special cake for the occasion. \"It will be in the shape of a bridge,\" she said. \"And the first customer gets a free slice.\" By lunchtime, there was already a line outside her door. Ashford Green is back in business, and the swans, it seems, are very happy too.",
+  "word_count": 751,
   "vocabulary": [
-    {
-      "word": "forest",
-      "ipa_us": "ˈfɔːrɪst",
-      "ipa_uk": "ˈfɒrɪst",
-      "translation_ru": "лес"
-    },
-    {
-      "word": "owner",
-      "ipa_us": "ˈoʊnər",
-      "ipa_uk": "ˈəʊnə",
-      "translation_ru": "владелец"
-    },
-    {
-      "word": "gate",
-      "ipa_us": "ɡeɪt",
-      "ipa_uk": "ɡeɪt",
-      "translation_ru": "калитка"
-    },
-    {
-      "word": "sign",
-      "ipa_us": "saɪn",
-      "ipa_uk": "saɪn",
-      "translation_ru": "объявление, знак"
-    },
     {
       "word": "bridge",
       "ipa_us": "brɪdʒ",
@@ -39,86 +15,144 @@
       "translation_ru": "мост"
     },
     {
-      "word": "hurt",
-      "ipa_us": "hɜːrt",
-      "ipa_uk": "hɜːt",
-      "translation_ru": "ранен"
+      "word": "ceremony",
+      "ipa_us": "ˈsɛrəˌmoʊni",
+      "ipa_uk": "ˈserəməni",
+      "translation_ru": "церемония"
     },
     {
-      "word": "worried",
-      "ipa_us": "ˈwɜːrid",
-      "ipa_uk": "ˈwʌrid",
-      "translation_ru": "обеспокоенный"
+      "word": "inspector",
+      "ipa_us": "ɪnˈspɛktər",
+      "ipa_uk": "ɪnˈspektə",
+      "translation_ru": "инспектор"
     },
     {
-      "word": "sofa",
-      "ipa_us": "ˈsoʊfə",
-      "ipa_uk": "ˈsəʊfə",
-      "translation_ru": "диван"
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "customers",
+      "ipa_us": "ˈkʌstəmərz",
+      "ipa_uk": "ˈkʌstəməz",
+      "translation_ru": "покупатели"
+    },
+    {
+      "word": "engineers",
+      "ipa_us": "ˌɛndʒəˈnɪrz",
+      "ipa_uk": "ˌendʒɪˈnɪəz",
+      "translation_ru": "инженеры"
+    },
+    {
+      "word": "temporary",
+      "ipa_us": "ˈtɛmpəˌrɛri",
+      "ipa_uk": "ˈtemprəri",
+      "translation_ru": "временный"
+    },
+    {
+      "word": "quarry",
+      "ipa_us": "ˈkwɔri",
+      "ipa_uk": "ˈkwɒri",
+      "translation_ru": "карьер"
+    },
+    {
+      "word": "swans",
+      "ipa_us": "swɑnz",
+      "ipa_uk": "swɒnz",
+      "translation_ru": "лебеди"
+    },
+    {
+      "word": "residents",
+      "ipa_us": "ˈrɛzɪdənts",
+      "ipa_uk": "ˈrezɪdənts",
+      "translation_ru": "жители"
+    },
+    {
+      "word": "pedestrians",
+      "ipa_us": "pəˈdɛstriənz",
+      "ipa_uk": "pəˈdestriənz",
+      "translation_ru": "пешеходы"
+    },
+    {
+      "word": "flood",
+      "ipa_us": "flʌd",
+      "ipa_uk": "flʌd",
+      "translation_ru": "наводнение"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "dark-l",
       "examples": [
-        "three",
-        "through"
+        "wall",
+        "will"
       ],
-      "tip_ru": "Поставьте кончик языка между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "В конце слога язык оттягивается назад, звук твёрдый. Не произносите мягкое русское «ль»."
     },
     {
       "sound": "w",
       "examples": [
-        "Wilson",
-        "was"
+        "wall",
+        "wind",
+        "weekend"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "r",
+      "sound": "ʌ",
       "examples": [
-        "river",
-        "riding"
+        "months",
+        "customers",
+        "flood"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
+      "tip_ru": "Короткий звук, похожий на «а» без напряжения, рот полуоткрыт."
     },
     {
       "sound": "final-voiced",
       "examples": [
-        "dog",
-        "cried"
+        "closed",
+        "old",
+        "river"
       ],
-      "tip_ru": "Не оглушайте звонкий согласный в конце слова: в «bed», «dog» звучит d, g, а не т, к."
+      "tip_ru": "Звонкие согласные в конце слова (b, d, g, v, z) не оглушайте: say «bed», а не «bet»."
     }
   ],
   "questions": [
     {
-      "question": "What is the dog's name?",
-      "answer": "Biscuit.",
+      "question": "Why did the council close the bridge?",
+      "answer": "Heavy rain made the river higher and the stone cracked, so it was too dangerous.",
       "accepted_keywords": [
-        "biscuit"
+        "rain",
+        "cracks",
+        "dangerous",
+        "river",
+        "stone"
       ]
     },
     {
-      "question": "Who found the dog?",
-      "answer": "A girl named Lucy.",
+      "question": "How long did the repair take?",
+      "answer": "About eight months.",
       "accepted_keywords": [
-        "lucy",
-        "girl"
+        "eight",
+        "months"
       ]
     },
     {
-      "question": "Where was the dog?",
-      "answer": "Under a bridge.",
+      "question": "Why was there a delay in June?",
+      "answer": "A family of swans built a nest in the work area, and the workers could not disturb them.",
       "accepted_keywords": [
+        "swans",
+        "nest",
+        "birds"
+      ]
+    },
+    {
+      "question": "What will the bakery owner make?",
+      "answer": "A special cake in the shape of a bridge.",
+      "accepted_keywords": [
+        "cake",
         "bridge"
-      ]
-    },
-    {
-      "question": "What did Lucy give the dog?",
-      "answer": "Half of her sandwich.",
-      "accepted_keywords": [
-        "sandwich"
       ]
     }
   ]

@@ -2,135 +2,163 @@
   "id": "b2-humor-05",
   "level": "B2",
   "genre": "humor",
-  "title_en": "The Meeting That Could Have Been an Email",
-  "title_ru": "Совещание, которое могло быть письмом",
-  "description_ru": "Ироничный рассказ о бесконечном рабочем совещании, где никто не решает главного вопроса.",
-  "text": "At nine o'clock on Tuesday, I received a calendar invitation titled \"Quick Sync\". It was scheduled for ninety minutes. Anyone who has worked in an office knows that \"quick\" is a word with a very flexible meaning, rather like \"I will be there in five minutes\".\n\nEleven of us gathered in a room with no windows. Our manager, Gordon, opened the meeting by saying that we would be discussing \"the future of the stationery cupboard\". For a moment I thought I had misheard. Apparently, someone had been taking the good pens, and it was now a matter of company policy.\n\nThe first twenty minutes were spent finding the right projector cable. Then Gordon asked whether everyone could see his screen, and a voice from the laptop on the table said, \"We cannot hear you.\" This was our colleague Barbara, who was joining online from a train and was, by her own admission, \"somewhere near Birmingham\". Every few seconds she disappeared into a tunnel, and returned half a sentence later.\n\nBy half past ten, we had made a list of reasons why pens vanish. Theories included theft, aliens and \"natural wastage\". A man called Trevor, who had not spoken all week, suddenly said that he had a spreadsheet, and showed us a chart with seventeen colours. Nobody understood it. Everyone nodded thoughtfully, because that is what people do.\n\nAt eleven, Gordon summarised the discussion. \"So, to sum up,\" he said, \"we need to schedule another meeting.\" There was a silence. I could see a dozen faces reaching the same conclusion at the same time. Then Barbara's voice, crackling from the laptop, said, \"Could this not have been an email?\" It was the wisest sentence of the morning.\n\nIn the end, we agreed that Gordon would send a short message about the pens. He did, and it was very clear. Unfortunately, it was sent to everyone except the person who had been taking them, who, I have since learned, was Gordon himself.",
+  "title_en": "The Fish That Got Away",
+  "title_ru": "Рыба, которая ушла",
+  "description_ru": "Комический рассказ внука о дедушке-рыбаке, чьи истории растут быстрее, чем рыба на крючке.",
+  "text": "My grandfather fished for sixty years, and in all that time he caught, by his own account, roughly three thousand enormous fish, none of which anybody else ever saw. This was always explained very simply. He had thrown them back. A man of his experience, he said, had no need to prove anything to a scale. The only evidence of his success was a very old photograph above the fireplace, which showed him standing proudly on a pier, holding a fish the size of a sardine.\n\nThe fish in his stories grew steadily over the years. When I was five, the biggest trout he had ever caught weighed about a kilo. When I was ten, it was about five. By the time I was fifteen, this famous trout had become the size of a small dog, and my grandmother, who sat in the corner knitting, would say \"Mm\" at exactly the right moments. I realised, much later, that the \"Mm\" was a very advanced form of conversation, and that she had been practising it for fifty years.\n\nThe legend reached its peak one summer when I was twelve, and my grandfather announced that he would take me fishing at last. We left at five in the morning, which seemed to me a criminal hour, carrying two rods, a bucket, a flask of tea and a sandwich, which he said was the most important piece of equipment. He explained, as we walked to the lake, that fishing was not about catching fish. It was about patience, peace and the relationship between a man and the water. I found out later that this speech is always given when you are not catching anything.\n\nWe sat on a wooden jetty for four hours. The sun rose, a duck passed, and a very slow cloud drifted across the sky. My grandfather told me about the day in 1974 when he had fought a pike for an hour and a half, and the pike had finally broken the line out of respect. I asked how big it was. He held his arms wide apart, then a little wider, and then, after thinking for a moment, he stepped back to make more room. A passing jogger looked at him with some concern.\n\nThen, without warning, my float disappeared. I stared at it. The rod bent like a bow, the line began to sing, and something extremely powerful pulled my arms towards the water. \"Don't panic!\" shouted my grandfather, who was panicking a great deal. He grabbed the rod, which made it worse, and for several minutes the two of us were wrestling with an invisible monster, falling over the bucket, spilling the tea and shouting contradictory instructions. It was, I believe, the happiest moment of his life.\n\nAfter a long and noisy struggle, we pulled the creature on to the jetty. It was an old boot. It was full of water and weeds, and it looked as though it had been resting at the bottom of the lake since 1974. We looked at it in silence. A small frog jumped out and stared at us with contempt. I was prepared to laugh, but my grandfather raised a finger and said, very quietly, \"That, my boy, is the one that got away. Don't tell your grandmother.\"\n\nWe went home. My grandfather carried the boot with great dignity, wrapped in newspaper, and said that it would be a splendid flower pot. All the way back, he rehearsed the story under his breath, and I heard the boot grow into a monstrous fish, then a net, then a shipwreck. By the time we reached the front gate, he had a story that involved a storm, a rescue and a duck who had stayed to watch. I admired it, honestly, in the way that you admire a bridge built by a clever engineer.\n\nAt dinner, my grandmother asked how the fishing had gone. My grandfather cleared his throat, looked at me and began a story about a giant that had escaped, a hundred metres of broken line and the greatest battle he had fought for years. She listened carefully, with her hands folded on the table, and said \"Mm\". Then she got up, went to the cupboard and took out a small, perfect, silver-grey fish, which she had bought that morning at the market. She put it on a plate in front of him, and said that she had thought he might need it.\n\nI laughed so much that I nearly choked. My grandfather stared at the fish for a long time, and then, to my surprise, he began to laugh as well, until tears were running down his cheeks. He said that she was the cleverest woman in the country. He ate the fish, which was delicious, and he never again mentioned the boot. The flower pot, however, is still on the windowsill. It has a geranium in it, and a small label in my grandfather's handwriting that says: \"Caught 1986. Biggest ever.\"",
+  "word_count": 832,
   "vocabulary": [
     {
-      "word": "invitation",
-      "ipa_us": "ˌɪnvəˈteɪʃən",
-      "ipa_uk": "ˌɪnvɪˈteɪʃən",
-      "translation_ru": "приглашение"
+      "word": "pier",
+      "ipa_us": "pɪr",
+      "ipa_uk": "pɪə",
+      "translation_ru": "пирс"
     },
     {
-      "word": "flexible",
-      "ipa_us": "ˈflɛksəbəl",
-      "ipa_uk": "ˈfleksəbəl",
-      "translation_ru": "гибкий"
+      "word": "sardine",
+      "ipa_us": "sɑrˈdin",
+      "ipa_uk": "sɑːˈdiːn",
+      "translation_ru": "сардина"
     },
     {
-      "word": "stationery",
-      "ipa_us": "ˈsteɪʃəˌnɛri",
-      "ipa_uk": "ˈsteɪʃənəri",
-      "translation_ru": "канцелярские товары"
+      "word": "trout",
+      "ipa_us": "traʊt",
+      "ipa_uk": "traʊt",
+      "translation_ru": "форель"
     },
     {
-      "word": "policy",
-      "ipa_us": "ˈpɑləsi",
-      "ipa_uk": "ˈpɒləsi",
-      "translation_ru": "политика, правило"
+      "word": "knitting",
+      "ipa_us": "ˈnɪtɪŋ",
+      "ipa_uk": "ˈnɪtɪŋ",
+      "translation_ru": "вязание"
     },
     {
-      "word": "projector",
-      "ipa_us": "prəˈdʒɛktər",
-      "ipa_uk": "prəˈdʒektə",
-      "translation_ru": "проектор"
+      "word": "legend",
+      "ipa_us": "ˈlɛdʒənd",
+      "ipa_uk": "ˈledʒənd",
+      "translation_ru": "легенда"
     },
     {
-      "word": "vanish",
-      "ipa_us": "ˈvænɪʃ",
-      "ipa_uk": "ˈvænɪʃ",
-      "translation_ru": "исчезать"
+      "word": "jetty",
+      "ipa_us": "ˈdʒɛti",
+      "ipa_uk": "ˈdʒeti",
+      "translation_ru": "мостки, причал"
     },
     {
-      "word": "spreadsheet",
-      "ipa_us": "ˈsprɛdˌʃit",
-      "ipa_uk": "ˈspredʃiːt",
-      "translation_ru": "электронная таблица"
+      "word": "patience",
+      "ipa_us": "ˈpeɪʃəns",
+      "ipa_uk": "ˈpeɪʃəns",
+      "translation_ru": "терпение"
     },
     {
-      "word": "summarised",
-      "ipa_us": "ˈsʌməˌraɪzd",
-      "ipa_uk": "ˈsʌməraɪzd",
-      "translation_ru": "подвёл итог"
+      "word": "pike",
+      "ipa_us": "paɪk",
+      "ipa_uk": "paɪk",
+      "translation_ru": "щука"
+    },
+    {
+      "word": "wrestling",
+      "ipa_us": "ˈrɛslɪŋ",
+      "ipa_uk": "ˈreslɪŋ",
+      "translation_ru": "борясь"
+    },
+    {
+      "word": "contradictory",
+      "ipa_us": "ˌkɑntrəˈdɪktəri",
+      "ipa_uk": "ˌkɒntrəˈdɪktəri",
+      "translation_ru": "противоречивый"
+    },
+    {
+      "word": "contempt",
+      "ipa_us": "kənˈtɛmpt",
+      "ipa_uk": "kənˈtempt",
+      "translation_ru": "презрение"
+    },
+    {
+      "word": "geranium",
+      "ipa_us": "dʒəˈreɪniəm",
+      "ipa_uk": "dʒəˈreɪniəm",
+      "translation_ru": "герань"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
-      "examples": [
-        "worked",
-        "windows",
-        "week",
-        "wisest"
-      ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "vanish",
-        "voice",
-        "eleven",
-        "everyone"
-      ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, голос включён; не оглушайте в «ф»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "right",
-        "room",
-        "reasons",
-        "received"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "theories",
-        "thoughtfully",
-        "Birmingham"
+        "thought",
+        "three",
+        "thousand",
+        "anything"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "time",
+        "like",
+        "life",
+        "right"
+      ],
+      "tip_ru": "Скользите от широкого «а» к «и»; не обрывайте звук на половине."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "pier",
+        "sardine",
+        "trout",
+        "knitting"
+      ],
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "long",
+        "morning",
+        "sing",
+        "something"
+      ],
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "How long was the 'quick' meeting scheduled for?",
-      "answer": "Ninety minutes.",
+      "question": "What was the only evidence of the grandfather's fishing success?",
+      "answer": "An old photograph of him holding a fish the size of a sardine.",
       "accepted_keywords": [
-        "ninety",
-        "90"
+        "photograph",
+        "photo",
+        "sardine"
       ]
     },
     {
-      "question": "What was the meeting about?",
-      "answer": "The stationery cupboard and missing pens.",
+      "question": "What did the narrator and his grandfather catch?",
+      "answer": "An old boot.",
       "accepted_keywords": [
-        "pens",
-        "stationery",
-        "cupboard"
+        "boot"
       ]
     },
     {
-      "question": "Where was Barbara joining from?",
-      "answer": "A train near Birmingham.",
+      "question": "How did the grandmother react to his story?",
+      "answer": "She said Mm and then gave him a fish she had bought at the market.",
       "accepted_keywords": [
-        "train",
-        "birmingham"
+        "fish",
+        "market",
+        "bought",
+        "mm"
       ]
     },
     {
-      "question": "Who had been taking the pens?",
-      "answer": "Gordon, the manager.",
+      "question": "Where is the boot now?",
+      "answer": "It is a flower pot on the windowsill with a geranium.",
       "accepted_keywords": [
-        "gordon",
-        "manager"
+        "flower",
+        "pot",
+        "windowsill",
+        "geranium"
       ]
     }
-  ],
-  "word_count": 330
+  ]
 }

@@ -4,134 +4,171 @@
   "genre": "opinion",
   "title_en": "The Tyranny of Optimisation",
   "title_ru": "Тирания оптимизации",
-  "description_ru": "Рассуждение о том, как стремление всё измерять и улучшать лишает жизнь спонтанности.",
-  "text": "A friend of mine recently confessed that she had stopped enjoying her evening walks. The reason, she explained, was that her watch now monitored them. It counted her steps, graded her pace, noted that she had burned fewer calories than on Tuesday, and issued a polite reminder that she was falling short of her weekly goal. The walk had ceased to be a walk; it had become a performance review conducted by a bracelet.\n\nHer experience is hardly unusual. We live in an age of optimisation, in which almost every area of life has acquired its own metrics and its own army of applications. We track our sleep, our heart rate, our reading speed, our spending and our mood. There are programs to optimise our mornings, our friendships and even our meditation, a practice whose original purpose was presumably to escape the endless urge to improve.\n\nI am not hostile to measurement as such. Data can be illuminating, and a diabetic who monitors her blood sugar is doing something sensible. My objection is to the quiet shift in what we regard as worth doing. Whatever can be counted tends to be treated as important, and whatever cannot be counted slips out of view. Steps are easy to measure; the pleasure of strolling aimlessly through an unfamiliar street is not. Words typed per minute are simple to compare; the slow, inefficient mulling over of a difficult sentence is not. Gradually, we begin to value the first kind of thing at the expense of the second.\n\nThere is also a psychological cost. When an activity becomes a means to a measurable end, the activity itself loses its intrinsic appeal. Researchers have shown that children who are rewarded for drawing often lose interest in drawing once the rewards stop. The lesson applies to adults, too. If I read only to reach a target of fifty books a year, I will inevitably choose shorter books, skim the difficult ones and finish with a number rather than an education.\n\nFurthermore, optimisation is a treadmill. The standard is never fixed, because there is always a more efficient routine, a smarter schedule, a better version of oneself waiting just out of reach. Satisfaction becomes a moving target, and contentment is permanently deferred.\n\nWhat is the alternative? Not, I think, a rebellion against all organisation, which would be both impractical and tiresome. It is more modest: to reserve some corners of life for pursuits that are deliberately pointless. Take a walk without your watch. Cook a meal without timing it. Have a conversation that is not designed to lead anywhere.\n\nEfficiency is an excellent servant but a dreadful master. The best moments of life are rarely efficient, and most of them are impossible to put on a graph.",
-  "word_count": 460,
+  "description_ru": "Размышление о том, как погоня за эффективностью во всём, от сна до отдыха, лишает жизнь радости и случайности.",
+  "text": "A friend of mine, whom I shall call Daniel because he would be mortified to be identified, recently told me that he had stopped enjoying his Sundays. This surprised me, because Daniel is the kind of person who appears to have his life under control. He wakes at the same hour every morning, tracks his sleep with a ring on his finger, logs every kilometre he runs and reads thirty pages of a self-improvement book before breakfast. The trouble, he explained, was that on Sundays he felt obliged to relax efficiently. \"If I'm going to rest,\" he said, with an entirely straight face, \"I want to make sure that I'm doing it properly.\"\n\nIt was a funny remark, and I laughed, but it stayed with me for days. Daniel had stumbled upon something that I now consider one of the defining pathologies of our time: the belief that every part of life, however private or pleasurable, should be measured, improved and made more productive. We optimise our diets, our commutes, our friendships and our hobbies. We read summaries instead of books because they save time, listen to podcasts at double speed and schedule \"quality time\" with our children as though it were a meeting. And in the process, I fear, we are squeezing out the very things that make the effort worthwhile.\n\nLet me be careful here, because I am not an enemy of efficiency. Good systems are a blessing. I am grateful for the engineers who optimised the supply chain that delivers antibiotics to my local pharmacy, and I would not wish to return to a world without timetables, checklists or sensible budgets. When the goal is clear, the means are mechanical and the stakes are high, optimisation is exactly what we need. Nobody wants a surgeon who improvises.\n\nThe difficulty arises when we carry that logic into domains where the goal is not clear, or where the process itself is the goal. A walk is not a failed attempt to reach the shops. A conversation with an old friend is not a defective method of exchanging information. A holiday is not an inefficient way of recharging one's productivity, and yet we routinely justify rest by its benefits to work, as if leisure were a kind of maintenance contract for the self. Once we do this, we have quietly accepted that the purpose of a human life is output.\n\nThere is an economic phrase for what goes wrong, which is Goodhart's law: when a measure becomes a target, it ceases to be a good measure. The ring on Daniel's finger gives him a score for his sleep every morning, and he told me, rather shamefacedly, that a low score now makes him anxious, and the anxiety makes the next night worse. He has become an unwilling expert in the insomnia produced by monitoring insomnia. The metric, which was meant to serve him, has quietly become his master.\n\nThe same pattern can be found everywhere. Teachers, pressed to raise test scores, teach to the test and drain the pleasure from learning. Hospitals, pressed to reduce waiting times, discharge patients prematurely. Social media platforms, designed to maximise engagement, optimise so successfully for our attention that they leave us feeling hollow. In each case, a narrow number has replaced a broad purpose, and the people involved, who are generally conscientious and intelligent, find themselves complicit in a result that none of them wanted.\n\nWhat is lost, above all, is slack. A system with no spare capacity may be brilliant on paper, but it cannot absorb a surprise, whether a train strike or a sudden illness. The same is true of a life. The unscheduled hour is where we notice a neighbour in distress, where we wander into a bookshop and discover the author who will change our thinking, or where we drift into a conversation that lasts until midnight. Serendipity cannot be put in a calendar, and a diary that is full to the margins has no room for the unexpected.\n\nI am also troubled by what perpetual optimisation does to our attitude to failure. If everything must be done in the best possible way, then every mistake becomes a personal indictment. I notice this in younger colleagues, who often seem afraid to try anything without first reading five guides on the correct method. Yet most of the things we eventually do well, from cooking to writing to parenting, we learn by doing them badly, and with a certain amount of cheerful waste. Amateurs are not only people who lack skill; the word, after all, comes from the Latin for \"lover\".\n\nSo what is the remedy? I do not suggest that we should burn our calendars or flush our fitness trackers down the toilet. I propose a modest discipline of exemptions: a few activities that we deliberately refuse to improve. Choose a hobby at which you will never be good and keep it that way. Take a route home that is longer, for no reason at all. Read a book slowly, or abandon it halfway without guilt. Let one meal per week be thoroughly mediocre and enjoyed anyway.\n\nWhen I told Daniel all this, he listened politely and then asked me, in all sincerity, whether I had a framework for it. I confess that I laughed again, and so did he, and for a moment I thought I saw something loosen in his shoulders. A fortnight later he sent me a photograph of a lopsided clay bowl that he had made at a pottery class. It was, he admitted, spectacularly bad. He had never looked happier.",
+  "word_count": 935,
   "vocabulary": [
     {
-      "word": "optimisation",
-      "ipa_us": "ˌɑːptɪmaɪˈzeɪʃən",
-      "ipa_uk": "ˌɒptɪmaɪˈzeɪʃən",
-      "translation_ru": "оптимизация"
+      "word": "mortified",
+      "ipa_us": "ˈmɔːrtɪfaɪd",
+      "ipa_uk": "ˈmɔːtɪfaɪd",
+      "translation_ru": "пристыжённый, сгорающий от стыда"
     },
     {
-      "word": "metrics",
-      "ipa_us": "ˈmetrɪks",
-      "ipa_uk": "ˈmetrɪks",
-      "translation_ru": "показатели"
+      "word": "pathologies",
+      "ipa_us": "pəˈθɑːlədʒiz",
+      "ipa_uk": "pəˈθɒlədʒiz",
+      "translation_ru": "болезненные явления, патологии"
     },
     {
-      "word": "illuminating",
-      "ipa_us": "ɪˈluːmɪneɪtɪŋ",
-      "ipa_uk": "ɪˈluːmɪneɪtɪŋ",
-      "translation_ru": "поучительный, проясняющий"
+      "word": "optimise",
+      "ipa_us": "ˈɑːptɪmaɪz",
+      "ipa_uk": "ˈɒptɪmaɪz",
+      "translation_ru": "оптимизировать"
     },
     {
-      "word": "mulling",
-      "ipa_us": "ˈmʌlɪŋ",
-      "ipa_uk": "ˈmʌlɪŋ",
-      "translation_ru": "обдумывая"
+      "word": "improvises",
+      "ipa_us": "ˈɪmprəvaɪzɪz",
+      "ipa_uk": "ˈɪmprəvaɪzɪz",
+      "translation_ru": "импровизирует"
     },
     {
-      "word": "intrinsic",
-      "ipa_us": "ɪnˈtrɪnzɪk",
-      "ipa_uk": "ɪnˈtrɪnzɪk",
-      "translation_ru": "внутренний, присущий"
+      "word": "shamefacedly",
+      "ipa_us": "ˈʃeɪmfeɪstli",
+      "ipa_uk": "ˈʃeɪmfeɪstli",
+      "translation_ru": "пристыжённо"
     },
     {
-      "word": "treadmill",
-      "ipa_us": "ˈtredmɪl",
-      "ipa_uk": "ˈtredmɪl",
-      "translation_ru": "беговая дорожка; бег по кругу"
+      "word": "insomnia",
+      "ipa_us": "ɪnˈsɑːmniə",
+      "ipa_uk": "ɪnˈsɒmniə",
+      "translation_ru": "бессонница"
     },
     {
-      "word": "deferred",
-      "ipa_us": "dɪˈfɜːrd",
-      "ipa_uk": "dɪˈfɜːd",
-      "translation_ru": "отложенный"
+      "word": "hollow",
+      "ipa_us": "ˈhɑːloʊ",
+      "ipa_uk": "ˈhɒləʊ",
+      "translation_ru": "пустой, опустошённый"
     },
     {
-      "word": "aimlessly",
-      "ipa_us": "ˈeɪmləsli",
-      "ipa_uk": "ˈeɪmləsli",
-      "translation_ru": "бесцельно"
+      "word": "conscientious",
+      "ipa_us": "ˌkɑːnʃiˈenʃəs",
+      "ipa_uk": "ˌkɒnʃiˈenʃəs",
+      "translation_ru": "добросовестный"
+    },
+    {
+      "word": "complicit",
+      "ipa_us": "kəmˈplɪsɪt",
+      "ipa_uk": "kəmˈplɪsɪt",
+      "translation_ru": "причастный, соучастный"
+    },
+    {
+      "word": "indictment",
+      "ipa_us": "ɪnˈdaɪtmənt",
+      "ipa_uk": "ɪnˈdaɪtmənt",
+      "translation_ru": "обвинение"
+    },
+    {
+      "word": "exemptions",
+      "ipa_us": "ɪɡˈzempʃənz",
+      "ipa_uk": "ɪɡˈzempʃənz",
+      "translation_ru": "исключения, освобождения"
+    },
+    {
+      "word": "mediocre",
+      "ipa_us": "ˌmiːdiˈoʊkər",
+      "ipa_uk": "ˌmiːdiˈəʊkə",
+      "translation_ru": "посредственный"
+    },
+    {
+      "word": "lopsided",
+      "ipa_us": "ˈlɑːpsaɪdɪd",
+      "ipa_uk": "ˌlɒpˈsaɪdɪd",
+      "translation_ru": "кособокий"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ð",
       "examples": [
-        "something",
-        "worth",
-        "without"
+        "that",
+        "the",
+        "though",
+        "rather"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса; не подменяйте звуками с и т."
+      "tip_ru": "Кончик языка между зубами, голос включён: that, the. Не заменяйте на з или д."
     },
     {
       "sound": "r",
       "examples": [
-        "reason",
-        "rewarded",
-        "routine"
+        "rest",
+        "breakfast",
+        "routinely",
+        "remedy"
       ],
-      "tip_ru": "Язык не касается нёба. Кончик чуть загнут назад, губы слегка вытянуты."
+      "tip_ru": "Язык поднят, но не касается нёба; губы чуть вытянуты. Нет раскатистого русского р."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "life",
+        "finger",
+        "time",
+        "quiet"
+      ],
+      "tip_ru": "Скользящий звук от а к и: life, time. Не обрывайте на а."
     },
     {
       "sound": "word-stress",
       "examples": [
         "optimisation",
-        "psychological",
-        "efficient"
+        "efficiency",
+        "serendipity"
       ],
-      "tip_ru": "В optimisation ударение на -sa-: optimiSAtion; psychoLOgical — на -lo-. Ударный слог длиннее и громче."
-    },
-    {
-      "sound": "ŋ",
-      "examples": [
-        "evening",
-        "something",
-        "strolling"
-      ],
-      "tip_ru": "Не произносите отчётливое г после n: evening, something — задняя часть языка к нёбу, звук носовой."
+      "tip_ru": "optimiSAtion, efFIciency: ударение стоит перед суффиксами -ation и -ency, а не на первом слоге."
     }
   ],
   "questions": [
     {
-      "question": "Why did the writer's friend stop enjoying walks?",
-      "answer": "Her watch monitored and graded them, making them feel like a performance review.",
+      "question": "What did Daniel say about relaxing on Sundays?",
+      "answer": "He wanted to relax efficiently, to do it properly.",
       "accepted_keywords": [
-        "watch",
-        "monitored",
-        "review",
-        "graded"
+        "efficiently",
+        "properly",
+        "relax",
+        "rest"
       ]
     },
     {
-      "question": "What happens to children rewarded for drawing?",
-      "answer": "They often lose interest in drawing when rewards stop.",
+      "question": "What is Goodhart's law?",
+      "answer": "When a measure becomes a target, it stops being a good measure.",
       "accepted_keywords": [
-        "interest",
-        "lose"
+        "measure",
+        "target",
+        "metric"
       ]
     },
     {
-      "question": "Why does the writer call optimisation a treadmill?",
-      "answer": "The standard keeps moving, so satisfaction is always deferred.",
+      "question": "What does the writer say is lost in a fully optimised life?",
+      "answer": "Slack, spare time and the unexpected.",
       "accepted_keywords": [
-        "standard",
-        "moving",
-        "satisfaction",
-        "never"
+        "slack",
+        "spare",
+        "unexpected",
+        "serendipity",
+        "surprise",
+        "room"
       ]
     },
     {
-      "question": "What does the writer recommend?",
-      "answer": "Keeping some pursuits deliberately pointless.",
+      "question": "What does the writer suggest as a remedy?",
+      "answer": "Keeping some activities that we deliberately refuse to improve.",
       "accepted_keywords": [
-        "pointless",
-        "walk",
-        "without",
-        "watch"
+        "exemptions",
+        "hobby",
+        "improve",
+        "refuse",
+        "activities"
       ]
     }
   ]

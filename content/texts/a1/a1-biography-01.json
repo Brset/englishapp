@@ -2,41 +2,17 @@
   "id": "a1-biography-01",
   "level": "A1",
   "genre": "biography",
-  "title_en": "Albert Einstein",
-  "title_ru": "Альберт Эйнштейн",
-  "description_ru": "Короткая биография великого физика: от тихого мальчика со скрипкой до Нобелевской премии.",
-  "text": "Albert Einstein was born in Germany in 1879. He was a quiet boy, but he loved maths and music. He played the violin every day.\n\nLater he worked in Switzerland. He was a clerk in an office in Bern, and he wrote about time, light and energy. In 1921 he won the Nobel Prize in Physics.\n\nThen he lived in the United States, in a small town called Princeton. He walked to work and he liked to sail. Einstein died in 1955. People still think about his ideas today.",
-  "word_count": 86,
+  "title_en": "Marie Curie: A Life of Discovery",
+  "title_ru": "Мария Кюри: жизнь, полная открытий",
+  "description_ru": "Биография великой учёной: от бедной девочки из Варшавы до двух Нобелевских премий и открытия радия.",
+  "text": "Marie Curie was one of the most famous scientists in the world. She was born in Warsaw, in Poland, in 1867. At that time her name was Maria Sklodowska. She was the youngest of five children. Her parents were teachers, and they loved books. Her father taught maths and physics, and he often showed his children small science tools at home.\n\nMaria was a very good student. She read a lot and she remembered everything. But her life was not easy. Her oldest sister died when Maria was a small child, and her mother died when Maria was ten. After that, the family had little money. Maria was sad, but she kept studying. She finished school with the best marks in her class. In those years women could not study at the university in Warsaw. Maria was angry about this, but she did not give up. She joined a secret school where young people learned science at night. She also worked as a teacher in a rich family's house. She saved her money, because she had a big dream. She wanted to study in Paris.\n\nHer sister Bronya went to Paris first and studied medicine. Then, in 1891, Maria followed her. She was twenty-four years old. She started to study at the Sorbonne, a famous university, and she began to use the French name Marie. Her life in Paris was hard. She lived in a tiny room on the top floor. It was very cold in winter, and she often had only bread and tea for dinner. But she was happy, because she was learning every day.\n\nMarie worked harder than anyone. She studied in the library until the lights went out, and then she went home and read more. In 1893 she finished first in her physics exam. A year later she finished second in her maths exam. Her teachers were surprised by this quiet young woman from Poland. She was poor, tired and often hungry, but she never thought about stopping.\n\nIn Paris Marie met a scientist called Pierre Curie. He loved science, just like her. They talked about their work for hours, and soon they fell in love. They got married in 1895. They did not have a big party. Marie wore a simple dark dress, and they went on their honeymoon by bicycle. Later they had two daughters, Irene and Eve.\n\nMarie and Pierre worked together in a small, old shed. It was cold in winter and hot in summer, and it had a bad roof. But they worked there for years. Marie studied strange rays that come from a metal called uranium. She called this power radioactivity. In 1898 the Curies found two new elements. They named the first one polonium, after Poland, the country Marie loved. They named the second one radium.\n\nTheir work was very hard. To find radium, Marie needed tons of a heavy brown rock. She put the rock into big pots and stirred it with a long iron stick for hours and hours. Her hands hurt, and her eyes were red from the smoke. It took almost four years to get a tiny amount of radium, about one small spoon. At night the Curies often went back to the shed. The radium glowed with a soft blue light in the dark. Marie loved this beautiful light.\n\nIn 1903 Marie and Pierre won the Nobel Prize in Physics. Marie was the first woman to win a Nobel Prize. But three years later, a terrible thing happened. Pierre died in an accident on a street in Paris. Marie was very sad, but she did not stop working. She took Pierre's job at the Sorbonne and became the first woman professor at the university. In 1911 she won a second Nobel Prize, this time in Chemistry. No one before her won two Nobel Prizes in two different sciences. When the First World War started, Marie wanted to help. She made small X-ray cars, and she drove them near the front line. Doctors used the machines to see inside the bodies of hurt soldiers. These cars saved many lives. Her daughter Irene helped her.\n\nMarie worked with radioactive materials for many years, and nobody knew that they were dangerous. She became ill, and she died in 1934. Her daughter Irene also became a scientist and won a Nobel Prize in 1935. Today, hospitals use radium and X-rays to help sick people. Marie's notebooks are still radioactive, and people keep them in special boxes. Her story shows us something important. Hard work and a brave heart can change the world.",
+  "word_count": 759,
   "vocabulary": [
     {
-      "word": "born",
-      "ipa_us": "bɔrn",
-      "ipa_uk": "bɔːn",
-      "translation_ru": "рождённый"
-    },
-    {
-      "word": "violin",
-      "ipa_us": "ˌvaɪəˈlɪn",
-      "ipa_uk": "ˌvaɪəˈlɪn",
-      "translation_ru": "скрипка"
-    },
-    {
-      "word": "clerk",
-      "ipa_us": "klɜrk",
-      "ipa_uk": "klɑːk",
-      "translation_ru": "служащий"
-    },
-    {
-      "word": "energy",
-      "ipa_us": "ˈɛnərdʒi",
-      "ipa_uk": "ˈenədʒi",
-      "translation_ru": "энергия"
-    },
-    {
-      "word": "prize",
-      "ipa_us": "praɪz",
-      "ipa_uk": "praɪz",
-      "translation_ru": "премия"
+      "word": "scientist",
+      "ipa_us": "ˈsaɪəntɪst",
+      "ipa_uk": "ˈsaɪəntɪst",
+      "translation_ru": "учёный"
     },
     {
       "word": "physics",
@@ -45,76 +21,137 @@
       "translation_ru": "физика"
     },
     {
-      "word": "sail",
-      "ipa_us": "seɪl",
-      "ipa_uk": "seɪl",
-      "translation_ru": "ходить под парусом"
+      "word": "university",
+      "ipa_us": "ˌjunəˈvɜrsəti",
+      "ipa_uk": "ˌjuːnɪˈvɜːsɪti",
+      "translation_ru": "университет"
     },
     {
-      "word": "idea",
-      "ipa_us": "aɪˈdiə",
-      "ipa_uk": "aɪˈdɪə",
-      "translation_ru": "идея"
+      "word": "prize",
+      "ipa_us": "praɪz",
+      "ipa_uk": "praɪz",
+      "translation_ru": "премия, приз"
+    },
+    {
+      "word": "radium",
+      "ipa_us": "ˈreɪdiəm",
+      "ipa_uk": "ˈreɪdiəm",
+      "translation_ru": "радий"
+    },
+    {
+      "word": "uranium",
+      "ipa_us": "jʊˈreɪniəm",
+      "ipa_uk": "jʊˈreɪniəm",
+      "translation_ru": "уран"
+    },
+    {
+      "word": "shed",
+      "ipa_us": "ʃɛd",
+      "ipa_uk": "ʃed",
+      "translation_ru": "сарай"
+    },
+    {
+      "word": "professor",
+      "ipa_us": "prəˈfɛsər",
+      "ipa_uk": "prəˈfesə",
+      "translation_ru": "профессор"
+    },
+    {
+      "word": "soldiers",
+      "ipa_us": "ˈsoʊldʒərz",
+      "ipa_uk": "ˈsəʊldʒəz",
+      "translation_ru": "солдаты"
+    },
+    {
+      "word": "chemistry",
+      "ipa_us": "ˈkɛməstri",
+      "ipa_uk": "ˈkemɪstri",
+      "translation_ru": "химия"
+    },
+    {
+      "word": "brave",
+      "ipa_us": "breɪv",
+      "ipa_uk": "breɪv",
+      "translation_ru": "смелый"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "θ",
       "examples": [
-        "was",
-        "worked",
-        "walked"
+        "three",
+        "thing"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Кончик языка между зубами, струя воздуха без голоса; не «с» и не «ф»."
     },
     {
-      "sound": "v",
+      "sound": "ɜː",
       "examples": [
-        "violin",
-        "every",
-        "lived"
+        "work",
+        "world"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+      "tip_ru": "Долгий звук между «ё» и «э», губы не округляйте."
     },
     {
-      "sound": "ð",
+      "sound": "eɪ",
       "examples": [
-        "Then",
-        "the"
+        "named",
+        "brave",
+        "radium"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "scientist",
+        "university",
+        "professor"
+      ],
+      "tip_ru": "Выделяйте ударный слог громче и длиннее, остальные гласные ослабляйте."
     }
   ],
   "questions": [
     {
-      "question": "Where was Einstein born?",
-      "answer": "In Germany.",
+      "question": "Where was Marie Curie born?",
+      "answer": "She was born in Warsaw, in Poland.",
       "accepted_keywords": [
-        "germany"
+        "warsaw",
+        "poland"
       ]
     },
     {
-      "question": "What did he play every day?",
-      "answer": "The violin.",
+      "question": "Why did Marie go to Paris?",
+      "answer": "She wanted to study at the Sorbonne, because women could not study at the university in Warsaw.",
       "accepted_keywords": [
-        "violin"
+        "study",
+        "university",
+        "sorbonne",
+        "women"
       ]
     },
     {
-      "question": "Which prize did he win in 1921?",
-      "answer": "The Nobel Prize in Physics.",
+      "question": "What two new elements did the Curies find?",
+      "answer": "They found polonium and radium.",
       "accepted_keywords": [
-        "nobel",
-        "physics"
+        "polonium",
+        "radium"
       ]
     },
     {
-      "question": "Where did he live later?",
-      "answer": "In Princeton, in the United States.",
+      "question": "How did Marie help during the First World War?",
+      "answer": "She made small X-ray cars that helped doctors to see inside the bodies of hurt soldiers.",
       "accepted_keywords": [
-        "princeton",
-        "america",
-        "states"
+        "x-ray",
+        "cars",
+        "doctors",
+        "soldiers"
       ]
     }
   ]

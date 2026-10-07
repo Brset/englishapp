@@ -2,135 +2,169 @@
   "id": "b2-news-05",
   "level": "B2",
   "genre": "news",
-  "title_en": "Schoolchildren Invent Rain-Powered Charger",
-  "title_ru": "Школьники изобрели зарядку, работающую от дождя",
-  "description_ru": "Вымышленная новость о школьной команде, выигравшей научный конкурс.",
-  "text": "A team of four teenagers from the fictional Millbrook Academy has won first prize at the National Young Inventors' Fair with a device that charges a mobile phone using nothing but falling raindrops. The judges described the invention as \"clever, practical and surprisingly elegant\".\n\nThe gadget, which the students named the Drizzle Cell, uses a thin plastic film that produces a tiny electric charge each time a drop hits it. Although the amount of electricity from each drop is very small, hundreds of them every minute are enough to fill a phone battery in about four hours of steady rain. \"It is not going to replace your wall socket,\" admitted team leader Priya Nandakumar, aged sixteen. \"But in places where storms knock out the power, it could be a real lifeline.\"\n\nThe idea came during an unusually wet October, when the group's science teacher, Mr Okonkwo, asked them to think about problems that could be solved with ordinary weather. After three failed prototypes and a flooded classroom, they discovered that a particular type of film, normally used in food packaging, worked best.\n\nThe prize includes five thousand pounds and a place on a summer programme at a leading engineering university. A well-known electronics company has also contacted the school and is said to be considering an offer to develop the idea further. The students, however, say they want to keep the design open, so anyone can build a version for free.\n\n\"We do not want to make a fortune,\" said fifteen-year-old Tomas Reyes, the group's youngest member. \"We want people in villages with no electricity to be able to call their families.\" Their headteacher, Mrs Gallagher, said she was extremely proud. \"Whenever someone claims that young people are only interested in their phones,\" she said, \"I will tell them about this team.\"\n\nMeanwhile, the weather forecast for the weekend promises heavy rain. The students say that they are delighted, and that their phones will be fully charged by Monday.",
+  "title_en": "Robotics Prize for Millbrook School",
+  "title_ru": "Школа Миллбрук получила премию по робототехнике",
+  "description_ru": "Вымышленная новость о школьной команде, чей робот для уборки пляжей победил на национальном конкурсе.",
+  "text": "A team of teenagers from the fictional Millbrook Comprehensive School has won the National Young Engineers Award, beating more than four hundred entries with a solar-powered robot that collects plastic litter from beaches. The prize, which includes a trophy and a grant of fifteen thousand pounds, was presented on Friday at a ceremony in the capital by the Minister for Science, Dame Cordelia Ashworth-Finch.\n\nThe robot, nicknamed Gulliver by its creators, looks like a small, rather bad-tempered crab. It moves on caterpillar tracks, which allow it to cross soft sand, and it uses a camera to identify bottles, bags and other rubbish. A mechanical arm is then used to pick up the item and place it in a basket on the robot's back. When the basket is full, Gulliver rolls back to a collection point and waits to be emptied. According to the team, it can clean an area the size of a tennis court in about forty minutes.\n\nThe idea began a year ago, when the science teacher, Mr Tobias Greenhalgh, asked his pupils to think about a problem in their own community. A group of fourteen- and fifteen-year-olds decided to tackle the litter on Saltmarsh Bay, a beach near the school that had become a popular place for picnics. \"We were fed up with walking through other people's crisp packets,\" said the team's captain, Amara Okonkwo-Lyle, who is fifteen. \"Everybody complained, but nobody did anything. We figured that if the adults wouldn't, we would.\"\n\nThe first prototype was less than impressive. It was built from the wheels of an old pushchair and a bucket, and it was reported to have driven straight into the sea on its first test. The second version sank into the sand and got stuck. It was not until the fifth attempt that the robot managed to pick up a single plastic bottle. \"We cheered as if we had landed on the moon,\" said team member Rohan Fernsby, who wrote most of the software. \"Then we looked at the rest of the beach and realised that we had about nine thousand bottles to go.\"\n\nThe project has not been without its difficulties. Money was short, so the students collected parts from scrapyards and persuaded a local electrician to donate a set of solar panels. Their computer room, which is also used as a storage cupboard, was reported to be so cold in winter that they worked in their coats. One of the judges, a professor of mechanical engineering, said that it was precisely this resourcefulness which had impressed the panel. \"They didn't wait for ideal conditions,\" she remarked. \"They built something that works.\"\n\nSince the summer, Gulliver has been tested on three different beaches, and the team estimate that it has collected over two hundred kilograms of rubbish. Some of the items were surprising: a garden gnome, a left-handed glove and a kettle, which was thought to have been thrown overboard from a passing boat. The students have also been sorting the litter and recording what they find. They plan to give the results to the local council, which has promised to use them in a campaign against single-use plastic.\n\nNot everybody is convinced that robots are the answer. An environmental campaigner, Fenella Ridgeway, said that she welcomed the students' enthusiasm but that the real solution lay in producing less waste in the first place. \"A robot can pick up a bottle,\" she said, \"but it is much better if the bottle is never dropped.\" Miss Okonkwo-Lyle agreed. She said that the team had always seen the robot as a way of drawing attention to the problem and not as a way of solving it on its own.\n\nThe team's success has already changed life at the school. The number of pupils signing up for the engineering club has tripled, and a waiting list has been created for the next term. Girls make up more than half of the new members, which Mr Greenhalgh said was a pleasant surprise. A parent who volunteered to help with the wiring said that her son, who used to spend every evening on his games console, now spends it in the workshop, covered in oil and happier than ever.\n\nSeveral companies have already contacted the school. One manufacturer of outdoor equipment has offered to help the students to build a larger version, which could be used by coastal towns. The team has said that it intends to publish the design online, free of charge, so that other schools can copy and improve it. Mr Greenhalgh, who was observed wiping his eyes during the ceremony, said that he had been a teacher for twenty-six years and had never been prouder.\n\nAfter the ceremony, the students were asked what they would do with the prize money. They said that they would buy a better camera and a new set of wheels. Then, after a brief discussion, they added that they would also like a bigger bus, because Gulliver, who had travelled to the capital in the back of a minibus, was starting to complain.",
+  "word_count": 854,
   "vocabulary": [
     {
-      "word": "inventors",
-      "ipa_us": "ɪnˈvɛntərz",
-      "ipa_uk": "ɪnˈventəz",
-      "translation_ru": "изобретатели"
+      "word": "comprehensive",
+      "ipa_us": "ˌkɑmprɪˈhɛnsɪv",
+      "ipa_uk": "ˌkɒmprɪˈhensɪv",
+      "translation_ru": "общеобразовательная (школа)"
     },
     {
-      "word": "elegant",
-      "ipa_us": "ˈɛləɡənt",
-      "ipa_uk": "ˈelɪɡənt",
-      "translation_ru": "элегантный"
+      "word": "litter",
+      "ipa_us": "ˈlɪtər",
+      "ipa_uk": "ˈlɪtə",
+      "translation_ru": "мусор"
     },
     {
-      "word": "gadget",
-      "ipa_us": "ˈɡædʒɪt",
-      "ipa_uk": "ˈɡædʒɪt",
-      "translation_ru": "устройство"
+      "word": "caterpillar",
+      "ipa_us": "ˈkætərˌpɪlər",
+      "ipa_uk": "ˈkætəpɪlə",
+      "translation_ru": "гусеница (трак)"
     },
     {
-      "word": "raindrops",
-      "ipa_us": "ˈreɪnˌdrɑps",
-      "ipa_uk": "ˈreɪndrɒps",
-      "translation_ru": "капли дождя"
+      "word": "prototype",
+      "ipa_us": "ˈproʊtəˌtaɪp",
+      "ipa_uk": "ˈprəʊtətaɪp",
+      "translation_ru": "прототип"
     },
     {
-      "word": "lifeline",
-      "ipa_us": "ˈlaɪfˌlaɪn",
-      "ipa_uk": "ˈlaɪflaɪn",
-      "translation_ru": "спасательная нить"
+      "word": "pushchair",
+      "ipa_us": "ˈpʊʃˌtʃɛr",
+      "ipa_uk": "ˈpʊʃtʃeə",
+      "translation_ru": "детская коляска"
     },
     {
-      "word": "prototypes",
-      "ipa_us": "ˈproʊtəˌtaɪps",
-      "ipa_uk": "ˈprəʊtətaɪps",
-      "translation_ru": "прототипы"
+      "word": "scrapyards",
+      "ipa_us": "ˈskræpˌjɑrdz",
+      "ipa_uk": "ˈskræpjɑːdz",
+      "translation_ru": "свалки металлолома"
     },
     {
-      "word": "packaging",
-      "ipa_us": "ˈpækɪdʒɪŋ",
-      "ipa_uk": "ˈpækɪdʒɪŋ",
-      "translation_ru": "упаковка"
+      "word": "resourcefulness",
+      "ipa_us": "rɪˈsɔrsfəlnəs",
+      "ipa_uk": "rɪˈsɔːsfəlnəs",
+      "translation_ru": "находчивость"
     },
     {
-      "word": "fortune",
-      "ipa_us": "ˈfɔrtʃən",
-      "ipa_uk": "ˈfɔːtʃuːn",
-      "translation_ru": "состояние, богатство"
+      "word": "overboard",
+      "ipa_us": "ˈoʊvərˌbɔrd",
+      "ipa_uk": "ˈəʊvəbɔːd",
+      "translation_ru": "за борт"
+    },
+    {
+      "word": "campaigner",
+      "ipa_us": "kæmˈpeɪnər",
+      "ipa_uk": "kæmˈpeɪnə",
+      "translation_ru": "активист"
+    },
+    {
+      "word": "enthusiasm",
+      "ipa_us": "ɪnˈθuziˌæzəm",
+      "ipa_uk": "ɪnˈθjuːziæzəm",
+      "translation_ru": "энтузиазм"
+    },
+    {
+      "word": "manufacturer",
+      "ipa_us": "ˌmænjəˈfæktʃərər",
+      "ipa_uk": "ˌmænjʊˈfæktʃərə",
+      "translation_ru": "производитель"
+    },
+    {
+      "word": "observed",
+      "ipa_us": "əbˈzɜrvd",
+      "ipa_uk": "əbˈzɜːvd",
+      "translation_ru": "замечен"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "rain",
-        "raindrops",
-        "real",
-        "prize"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thin",
+        "thought",
         "three",
         "think",
-        "thousand"
+        "through"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
     },
     {
-      "sound": "w",
+      "sound": "r",
       "examples": [
-        "wet",
-        "weather",
-        "worked",
-        "wall"
+        "rather",
+        "wrote",
+        "from",
+        "problem"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Язык не касается нёба и не вибрирует; слегка загните кончик назад, губы чуть округлены."
     },
     {
-      "sound": "ŋ",
+      "sound": "word-stress",
       "examples": [
-        "falling",
-        "packaging",
-        "nothing"
+        "comprehensive",
+        "litter",
+        "caterpillar",
+        "prototype"
       ],
-      "tip_ru": "Задняя часть языка касается мягкого нёба, воздух идёт через нос; не добавляйте «г» после звука."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "but",
+        "some",
+        "other",
+        "much"
+      ],
+      "tip_ru": "Короткий краткий звук между «а» и «э», рот открыт слабо; не «о»."
     }
   ],
   "questions": [
     {
-      "question": "What is the invention called?",
-      "answer": "The Drizzle Cell.",
+      "question": "What does the robot Gulliver do?",
+      "answer": "It collects plastic litter from beaches using a camera and a mechanical arm.",
       "accepted_keywords": [
-        "drizzle"
+        "litter",
+        "rubbish",
+        "plastic",
+        "collects",
+        "beach",
+        "beaches"
       ]
     },
     {
-      "question": "How long does it take to charge a phone?",
-      "answer": "About four hours of steady rain.",
+      "question": "What went wrong with the early prototypes?",
+      "answer": "The first drove into the sea, the second got stuck in the sand.",
       "accepted_keywords": [
-        "four",
-        "4"
+        "sea",
+        "sand",
+        "stuck",
+        "sank"
       ]
     },
     {
-      "question": "What is the prize money?",
-      "answer": "Five thousand pounds.",
+      "question": "Why did the judges like the project?",
+      "answer": "The students were resourceful and built something that works.",
       "accepted_keywords": [
-        "five",
-        "thousand",
-        "5000"
+        "resourceful",
+        "resourcefulness",
+        "works",
+        "built"
       ]
     },
     {
-      "question": "Why do the students want to keep the design open?",
-      "answer": "So people without electricity can build one for free.",
+      "question": "What does the campaigner say is the real solution?",
+      "answer": "Producing less waste in the first place.",
       "accepted_keywords": [
-        "free",
-        "electricity",
-        "open"
+        "less",
+        "waste",
+        "produce",
+        "dropped"
       ]
     }
-  ],
-  "word_count": 332
+  ]
 }

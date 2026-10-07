@@ -3,139 +3,167 @@
   "level": "C1",
   "genre": "news",
   "title_en": "Researchers Unveil Battery That Recycles Itself",
-  "title_ru": "Учёные представили самовосстанавливающуюся батарею",
-  "description_ru": "Вымышленная научная новость о батарее нового типа и осторожных реакциях экспертов.",
-  "text": "A team of scientists at the Kestrel Institute of Materials in Norland has announced the development of a rechargeable battery that can partly repair itself, a breakthrough that its creators say could extend the life of electric vehicles and household storage units by a factor of three.\n\nThe device, described on Tuesday in a paper in the journal Applied Energy Systems, relies on a flexible polymer layer inside each cell. In conventional lithium batteries, repeated charging gradually produces microscopic metallic spikes, known as dendrites, which can pierce the internal separator, reduce capacity and, in rare cases, cause dangerous short circuits. The new polymer, by contrast, responds to heat by softening slightly, allowing the damaged surfaces to knit back together. According to the researchers, a brief warming cycle, which the battery can trigger automatically overnight, restores up to ninety per cent of its lost capacity.\n\n\"We drew inspiration from the way human skin heals,\" said Dr Annika Rosdahl, who led the project. \"A scratch is not a catastrophe; the body simply gets on with the repair. We asked ourselves why a battery should be any different.\"\n\nThe announcement has aroused considerable excitement in an industry preoccupied with durability. At present, the cost of replacing a car battery, which typically accounts for a third of the price of an electric vehicle, remains a major deterrent for prospective buyers. Longer-lasting cells could also reduce the mountains of waste produced when old batteries are discarded, and decrease demand for scarce materials such as cobalt, whose extraction is notorious for its environmental and human costs.\n\nIndependent specialists, however, have urged caution. Professor Tobias Wren of Halvering University, who was not involved in the study, described the results as \"genuinely promising but strictly laboratory-scale\". The prototype cells, he pointed out, have been tested for only eight hundred charging cycles, a fraction of the lifespan required for commercial use. \"Manufacturing this technology cheaply and reliably, at a scale of millions of units, is an entirely different challenge,\" he said. \"History is littered with laboratory marvels that never survived contact with a factory floor.\"\n\nThe Kestrel Institute has acknowledged these concerns. A spokesperson confirmed that the team is currently negotiating with two manufacturers and expects to begin pilot production within eighteen months, although no contracts have yet been signed. The researchers also plan to test the batteries in extreme conditions, including temperatures well below freezing, which are known to impair the performance of conventional cells.\n\nShares in several battery companies rose modestly after the announcement, though analysts attributed this more to general optimism about the sector than to the specifics of the research. For now, the self-repairing battery remains a promising idea. Whether it becomes a product will depend on the unglamorous work that follows every great discovery: patient testing, careful engineering and a great deal of money.",
-  "word_count": 473,
+  "title_ru": "Учёные представили аккумулятор, который перерабатывает сам себя",
+  "description_ru": "Вымышленная новость о научном прорыве в Университете Аллерби: батарея, способная восстанавливать свои материалы, и осторожные оценки экспертов.",
+  "text": "ALLERBY - A team of materials scientists at Allerby University has unveiled a prototype battery that repairs its own electrodes and can be dismantled into reusable components without specialist equipment, a development its creators hope will ease the growing mountain of electronic waste.\n\nThe announcement, made at a packed press conference on Thursday, drew attention not only because of the claims being made but also because of the modesty of the people making them. \"We are not promising a miracle,\" said Professor Imelda Kovac, who leads the research group. \"What we have shown is that a battery can be designed from the beginning with its own afterlife in mind. That has rarely been attempted.\"\n\nConventional lithium-ion batteries are notoriously difficult to recycle. Their layers of metal, plastic and chemical paste are bonded together so tightly that separating them requires crushing, heating or dissolving in acid, processes that consume energy and often destroy much of the material they are intended to recover. As a result, only a fraction of the cells discarded each year are recycled, and many end up in landfill, where they pose a fire hazard.\n\nThe Allerby design takes a radically different approach. Its electrodes are held together by a polymer binder that dissolves in warm water containing a mild, food-grade additive. Once the binder has dissolved, the active materials settle at the bottom of the container and can be filtered, washed and pressed into new electrodes. In laboratory tests, the team recovered more than ninety-four per cent of the metals from a prototype cell after thirty minutes of gentle soaking, with no harmful emissions.\n\nThe second feature is more surprising. Over repeated charging cycles, batteries lose capacity because microscopic cracks form in their electrodes, and lithium becomes trapped in places where it can no longer be used. The Allerby team embedded tiny capsules of a healing compound within the electrode material. When a crack appears, the capsules rupture and release a gel that fills the gap and restores the electrical pathway. \"It is rather like a scab forming over a graze,\" explained Dr Rafael Ibarra, the postdoctoral researcher who devised the capsules. \"The battery does not know it is being clever. It simply responds to damage.\"\n\nAccording to the results published in a peer-reviewed journal this week, a prototype cell retained eighty-eight per cent of its original capacity after two thousand charge cycles, compared with about seventy per cent for a comparable commercial cell. That would translate into several additional years of life for a typical smartphone or, more significantly, for the batteries that power electric vehicles and store energy from wind turbines.\n\nThe reaction from the industry has been positive but guarded. Gareth Lindqvist, a technology analyst who follows the battery sector, told reporters that the achievement was real, yet he cautioned against excessive excitement. \"Laboratory cells and factory cells are very different animals,\" he said. \"A prototype the size of a coin can behave beautifully, and then you try to make it the size of a car battery and discover a dozen new problems. I have seen promising ideas disappear on the journey from the bench to the production line.\"\n\nCost is the other obvious hurdle. The self-healing capsules, which are currently made by hand in small quantities, are estimated to add about thirty per cent to the price of each cell. Professor Kovac acknowledged the figure but argued that it should be set against the savings on materials and disposal. \"If a battery lasts twice as long and can be returned to the manufacturer for almost complete recovery of its contents, the economics change,\" she said. \"The question is whether manufacturers can take the long view.\"\n\nEnvironmental campaigners have greeted the research with enthusiasm tempered by suspicion. Marta Seliger, of the group Circle Earth, said that technology alone would not solve the problem of electronic waste. \"A battery that can be recycled is only useful if somebody actually recycles it,\" she said. \"We need rules that make manufacturers responsible for collecting their products, and we need consumers who are willing to return them.\" She also reminded the audience that the mining of lithium and cobalt has serious human and environmental costs, and that making batteries last longer is, in her words, \"the greenest recycling of all\".\n\nThe Allerby team has already attracted interest from two manufacturers, though Professor Kovac declined to name them. A larger pilot production run, funded by a government innovation grant of six million pounds, is scheduled to begin next spring at a facility on the edge of the city. If the trials go well, the first products containing the new cells could reach the market within five years.\n\nFor now, the prototype sits on a table in the laboratory, a modest grey cylinder about the size of a thermos flask, humming quietly as it charges and discharges through the night. Asked what she hoped it would achieve, Professor Kovac smiled. \"I hope,\" she said, \"that one day nobody will find it remarkable that a battery can be taken apart.\"\n\nHer colleagues were less restrained. Dr Ibarra, when pressed, confessed that he had been keeping the first cell on his desk at home for luck. \"I wanted to see whether it would make it through the weekend,\" he said. \"It did. Then it made it through the next one. At that point, I started to believe.\"\n\nThe university has filed patent applications covering both the binder and the capsule design.",
+  "word_count": 914,
   "vocabulary": [
     {
-      "word": "rechargeable",
-      "ipa_us": "ˌriːˈtʃɑːrdʒəbl",
-      "ipa_uk": "ˌriːˈtʃɑːdʒəbl",
-      "translation_ru": "перезаряжаемый"
+      "word": "prototype",
+      "ipa_us": "ˈproʊtətaɪp",
+      "ipa_uk": "ˈprəʊtətaɪp",
+      "translation_ru": "опытный образец"
     },
     {
-      "word": "polymer",
-      "ipa_us": "ˈpɑːlɪmər",
-      "ipa_uk": "ˈpɒlɪmə",
-      "translation_ru": "полимер"
+      "word": "electrodes",
+      "ipa_us": "ɪˈlektroʊdz",
+      "ipa_uk": "ɪˈlektrəʊdz",
+      "translation_ru": "электроды"
     },
     {
-      "word": "dendrites",
-      "ipa_us": "ˈdendraɪts",
-      "ipa_uk": "ˈdendraɪts",
-      "translation_ru": "дендриты"
+      "word": "dismantled",
+      "ipa_us": "dɪsˈmæntld",
+      "ipa_uk": "dɪsˈmæntld",
+      "translation_ru": "разобран"
     },
     {
-      "word": "pierce",
-      "ipa_us": "pɪrs",
-      "ipa_uk": "pɪəs",
-      "translation_ru": "прокалывать"
+      "word": "notoriously",
+      "ipa_us": "noʊˈtɔːriəsli",
+      "ipa_uk": "nəʊˈtɔːriəsli",
+      "translation_ru": "печально известно"
     },
     {
-      "word": "preoccupied",
-      "ipa_us": "priˈɑːkjupaɪd",
-      "ipa_uk": "priˈɒkjupaɪd",
-      "translation_ru": "озабоченный"
+      "word": "binder",
+      "ipa_us": "ˈbaɪndər",
+      "ipa_uk": "ˈbaɪndə",
+      "translation_ru": "связующее вещество"
     },
     {
-      "word": "deterrent",
-      "ipa_us": "dɪˈtɜːrənt",
-      "ipa_uk": "dɪˈterənt",
-      "translation_ru": "сдерживающий фактор"
+      "word": "embedded",
+      "ipa_us": "ɪmˈbedɪd",
+      "ipa_uk": "ɪmˈbedɪd",
+      "translation_ru": "встроили"
     },
     {
-      "word": "prospective",
-      "ipa_us": "prəˈspektɪv",
-      "ipa_uk": "prəˈspektɪv",
-      "translation_ru": "потенциальный"
+      "word": "rupture",
+      "ipa_us": "ˈrʌptʃər",
+      "ipa_uk": "ˈrʌptʃə",
+      "translation_ru": "лопаться"
     },
     {
-      "word": "notorious",
-      "ipa_us": "noʊˈtɔːriəs",
-      "ipa_uk": "nəʊˈtɔːriəs",
-      "translation_ru": "печально известный"
+      "word": "peer-reviewed",
+      "ipa_us": "ˌpɪr rɪˈvjuːd",
+      "ipa_uk": "ˌpɪə rɪˈvjuːd",
+      "translation_ru": "рецензируемый"
     },
     {
-      "word": "unglamorous",
-      "ipa_us": "ʌnˈɡlæmərəs",
-      "ipa_uk": "ʌnˈɡlæmərəs",
-      "translation_ru": "непритязательный, скучный"
+      "word": "guarded",
+      "ipa_us": "ˈɡɑːrdɪd",
+      "ipa_uk": "ˈɡɑːdɪd",
+      "translation_ru": "осторожный, сдержанный"
+    },
+    {
+      "word": "hurdle",
+      "ipa_us": "ˈhɜːrdl",
+      "ipa_uk": "ˈhɜːdl",
+      "translation_ru": "препятствие"
+    },
+    {
+      "word": "tempered",
+      "ipa_us": "ˈtempərd",
+      "ipa_uk": "ˈtempəd",
+      "translation_ru": "смягчённый"
+    },
+    {
+      "word": "restrained",
+      "ipa_us": "rɪˈstreɪnd",
+      "ipa_uk": "rɪˈstreɪnd",
+      "translation_ru": "сдержанный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "word-stress",
-      "examples": [
-        "development",
-        "technology",
-        "manufacturing"
-      ],
-      "tip_ru": "В technology ударение на втором слоге: tecHNOlogy; в manufacturing — на -fac-: manuFACturing."
-    },
-    {
-      "sound": "ʌ",
-      "examples": [
-        "discovery",
-        "money",
-        "months"
-      ],
-      "tip_ru": "Короткий звук между а и ы, рот расслаблен, язык в центре. Не заменяйте на о."
-    },
-    {
       "sound": "ə",
       "examples": [
-        "battery",
-        "polymer",
-        "conventional"
+        "capacity",
+        "additive",
+        "modesty",
+        "cylinder"
       ],
-      "tip_ru": "Безударный нейтральный звук: рот и язык расслаблены, звук очень краткий и неясный."
+      "tip_ru": "В безударных слогах звук редуцируется до нейтрального: capAcity, modEsty."
     },
     {
-      "sound": "aspiration",
+      "sound": "θ",
       "examples": [
-        "technology",
-        "capacity",
-        "pilot"
+        "thirty",
+        "thermos",
+        "with",
+        "through"
       ],
-      "tip_ru": "После p, t, k в начале ударного слога слышен короткий выдох: pilot — «пхайлот»."
+      "tip_ru": "Кончик языка касается верхних зубов, воздух проходит без голоса: thirty, through."
+    },
+    {
+      "sound": "r",
+      "examples": [
+        "recycled",
+        "research",
+        "rupture",
+        "restrained"
+      ],
+      "tip_ru": "Язык поднят и не касается нёба, губы слегка вытянуты, без вибрации."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "electrodes",
+        "economics",
+        "manufacturers"
+      ],
+      "tip_ru": "elecTRODes, ecoNOmics, manuFACturers: ударение на втором-третьем слоге, а не на первом."
     }
   ],
   "questions": [
     {
-      "question": "What can the new battery do?",
-      "answer": "Partly repair itself.",
+      "question": "What can the new battery do that ordinary batteries cannot?",
+      "answer": "Repair its own electrodes and be dismantled easily for recycling.",
       "accepted_keywords": [
         "repair",
         "heal",
+        "dismantle",
+        "recycle",
         "itself"
       ]
     },
     {
-      "question": "What inspired the researchers?",
-      "answer": "The way human skin heals.",
+      "question": "How is the binder dissolved?",
+      "answer": "In warm water with a mild additive.",
       "accepted_keywords": [
-        "skin",
-        "heals",
-        "heal"
+        "warm",
+        "water",
+        "additive",
+        "dissolve"
       ]
     },
     {
-      "question": "Why is Professor Wren cautious?",
-      "answer": "Only tested for 800 cycles in laboratory scale.",
+      "question": "What was the analyst's warning?",
+      "answer": "Prototypes often fail when scaled up to production.",
       "accepted_keywords": [
-        "laboratory",
-        "cycles",
         "scale",
-        "tested"
+        "production",
+        "prototype",
+        "size",
+        "problems"
       ]
     },
     {
-      "question": "When is pilot production expected?",
-      "answer": "Within eighteen months.",
+      "question": "What extra cost do the self-healing capsules add?",
+      "answer": "About thirty per cent to the price of a cell.",
       "accepted_keywords": [
-        "eighteen",
-        "months"
+        "thirty",
+        "30",
+        "per cent",
+        "percent",
+        "price"
       ]
     }
   ]

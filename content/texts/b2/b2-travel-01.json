@@ -2,144 +2,163 @@
   "id": "b2-travel-01",
   "level": "B2",
   "genre": "travel",
-  "title_en": "A Day in Venice",
-  "title_ru": "Один день в Венеции",
-  "description_ru": "Рассказ о том, как лучше всего провести день в Венеции и как избежать толп туристов.",
-  "text": "Venice is a city that is often described as a floating dream, and for once the description is not an exaggeration. Built on more than a hundred small islands in a lagoon, it has no cars, no motorbikes and hardly any straight streets. Instead, there are canals, bridges and narrow alleys where even the best map can let you down.\n\nThe secret to enjoying Venice is to wake up early. By nine o'clock, St Mark's Square is packed with tour groups, but at seven it is almost empty, and the pigeons seem to belong entirely to you. The basilica, which is decorated with golden mosaics, opens its doors at half past nine. If you book a ticket online, you can skip the long queue.\n\nAfter the morning rush, it is worth leaving the main sights behind. Take a vaporetto, one of the public water buses, to the island of Burano, which is famous for its brightly painted houses. It is said that the fishermen painted their homes in vivid colours so that they could find them in the fog. Nowadays, the island is also known for its delicate handmade lace.\n\nBack in the main city, lunch should be taken in a bacaro, a small traditional bar. There you can try cicchetti, which are little snacks served on bread, usually with fish, cheese or vegetables. Local people eat them standing up, with a small glass of wine, and the whole meal rarely costs more than fifteen euros.\n\nIn the afternoon, simply get lost. Wander through the Dorsoduro district, where students sit on the steps beside the water, and cross the wooden bridge near the Accademia for a famous view of the Grand Canal. A gondola ride is expensive, around eighty euros for half an hour, so many visitors prefer the traghetto, a cheap ferry that crosses the canal in two minutes.\n\nFinally, remember that Venice is a fragile place. Floods are becoming more frequent, and about thirty million tourists visit the city every year. Respect the local residents, carry your rubbish with you, and consider staying overnight, because the evening, when the day trippers have gone, is when the city is truly enchanting.",
-  "word_count": 362,
+  "title_en": "Seven Hills of Lisbon",
+  "title_ru": "Семь холмов Лиссабона",
+  "description_ru": "Путевой очерк о Лиссабоне: трамваи, смотровые площадки, пирожные и фаду в городе, построенном на холмах.",
+  "text": "Lisbon is a city that makes your legs ache and your heart happy. It is built on seven hills, and almost every street seems to go either steeply up or sharply down, so the first piece of advice any local will give you is to wear comfortable shoes. The second piece of advice is to forget the idea of a quick visit. A city like this cannot be rushed, and the people who try to see it in a single day usually go home exhausted and slightly disappointed.\n\nThe best place to begin is Alfama, the oldest district, which survived the great earthquake of 1755 because it was built on firm rock. The earthquake, followed by a tsunami and fires, destroyed much of the lower town, and the rebuilding was carried out according to a new grid plan, which is why the streets of the Baixa district are straight and the streets of Alfama are twisted like a bowl of spaghetti. Getting lost there is not a risk but a pleasure, and nobody will blame you for it.\n\nEveryone talks about Tram 28, and it deserves its reputation, but it also deserves a warning. The little yellow carriages, which were built in the 1930s, rattle through the narrowest streets of the old town, and in summer the queue at the first stop can be longer than the journey itself. I was told by my hotel receptionist to board near the end of the line, where it is quieter, and the advice turned out to be excellent. We found seats at once, and the driver even waved at a pigeon.\n\nLisbon has a tradition of viewpoints, called miradouros, and visiting several of them is the best way to understand the shape of the city. From the terrace of Santa Luzia, you look down at the red roofs and the blue strip of the river, while an old man in a cap sells small glasses of ginjinha, a sweet cherry liqueur. If you are travelling with children, you might choose lemonade instead, although the children, I noticed, were more interested in the pigeons.\n\nAnother detail that visitors notice quickly is the tiles. Almost every building seems to be covered with azulejos, painted ceramic tiles in blue, yellow and green, which were introduced by the Moors and later adapted by Portuguese artists. Some of them show saints, ships and battles, while others are simple geometric patterns. There is even a museum devoted to them, where one panel, showing the whole city before the earthquake, is more than twenty metres long. It is worth spending an hour there, especially on a rainy day.\n\nThe streets are also decorated with another handmade art. The pavements in many parts of the city are made of small pieces of limestone and basalt, laid by hand into patterns of waves and stars. They look beautiful, but when they are wet, they become as slippery as ice, so walk carefully. I saw a man in a business suit slide gracefully for three metres, recover his balance and walk on without a flicker of embarrassment, as if he had planned it.\n\nNo visit would be complete without food. The most famous treat is the pastel de nata, a small custard tart with a crisp, flaky crust and a burnt top. A bakery in the western district of Belem has been making them since 1837, according to a recipe that is said to be known by only a few people. The tarts are served warm, with cinnamon and sugar on the side, and a single tart is never enough. For a proper meal, try grilled sardines in June, when they are at their best, or a bowl of caldo verde, a green soup made with kale and potato.\n\nIn the evening, the city changes character. Small restaurants in Alfama and the neighbouring district of Mouraria offer fado, a type of music that is full of longing and nostalgia, usually sung by a single voice with Portuguese guitar. The Portuguese word saudade, which is often translated as a feeling of missing something that is gone, is said to describe the mood. When the singer begins, the waiters stop moving, the glasses stop clinking and everyone is expected to be silent. Even if you do not understand a single word, it is difficult to remain unmoved.\n\nIf you have a few days to spare, take a short train ride to Sintra, a hillside town about forty minutes away. Its palaces, which were built for kings and aristocrats, look like illustrations from a fairy tale, and the forest around them is so damp and green that it feels like another country. Go early, because the crowds arrive by ten, and bring a jacket, since the weather in the hills can be several degrees cooler than in the city.\n\nOn my last evening, I climbed to a small terrace near my hotel and watched the sun go down behind the river. A group of students were playing guitar, and a woman was selling grilled chestnuts from a little cart. Nobody was in a hurry. I realised that I had been walking uphill for five days and had hardly noticed it, because every hill had a reward at the top. That, I think, is the real secret of Lisbon.",
+  "word_count": 880,
   "vocabulary": [
     {
-      "word": "lagoon",
-      "ipa_us": "ləˈɡun",
-      "ipa_uk": "ləˈɡuːn",
-      "translation_ru": "лагуна"
+      "word": "steeply",
+      "ipa_us": "ˈstiːpli",
+      "ipa_uk": "ˈstiːpli",
+      "translation_ru": "круто"
     },
     {
-      "word": "canals",
-      "ipa_us": "kəˈnælz",
-      "ipa_uk": "kəˈnælz",
-      "translation_ru": "каналы"
+      "word": "earthquake",
+      "ipa_us": "ˈɜːrθkweɪk",
+      "ipa_uk": "ˈɜːθkweɪk",
+      "translation_ru": "землетрясение"
     },
     {
-      "word": "alleys",
-      "ipa_us": "ˈæliz",
-      "ipa_uk": "ˈæliz",
-      "translation_ru": "переулки"
+      "word": "district",
+      "ipa_us": "ˈdɪstrɪkt",
+      "ipa_uk": "ˈdɪstrɪkt",
+      "translation_ru": "район"
     },
     {
-      "word": "basilica",
-      "ipa_us": "bəˈsɪlɪkə",
-      "ipa_uk": "bəˈzɪlɪkə",
-      "translation_ru": "базилика"
+      "word": "reputation",
+      "ipa_us": "ˌrɛpjuˈteɪʃn",
+      "ipa_uk": "ˌrepjuˈteɪʃn",
+      "translation_ru": "репутация"
     },
     {
-      "word": "mosaics",
-      "ipa_us": "moʊˈzeɪɪks",
-      "ipa_uk": "məʊˈzeɪɪks",
-      "translation_ru": "мозаики"
+      "word": "viewpoints",
+      "ipa_us": "ˈvjuːpɔɪnts",
+      "ipa_uk": "ˈvjuːpɔɪnts",
+      "translation_ru": "смотровые площадки"
     },
     {
-      "word": "queue",
-      "ipa_us": "kju",
-      "ipa_uk": "kjuː",
-      "translation_ru": "очередь"
+      "word": "liqueur",
+      "ipa_us": "lɪˈkɜːr",
+      "ipa_uk": "lɪˈkjʊə",
+      "translation_ru": "ликёр"
     },
     {
-      "word": "vivid",
-      "ipa_us": "ˈvɪvɪd",
-      "ipa_uk": "ˈvɪvɪd",
-      "translation_ru": "яркий"
+      "word": "ceramic",
+      "ipa_us": "səˈræmɪk",
+      "ipa_uk": "səˈræmɪk",
+      "translation_ru": "керамический"
     },
     {
-      "word": "delicate",
-      "ipa_us": "ˈdɛlɪkət",
-      "ipa_uk": "ˈdelɪkət",
-      "translation_ru": "тонкий"
+      "word": "slippery",
+      "ipa_us": "ˈslɪpəri",
+      "ipa_uk": "ˈslɪpəri",
+      "translation_ru": "скользкий"
     },
     {
-      "word": "fragile",
-      "ipa_us": "ˈfrædʒəl",
-      "ipa_uk": "ˈfrædʒaɪl",
-      "translation_ru": "хрупкий"
+      "word": "custard",
+      "ipa_us": "ˈkʌstərd",
+      "ipa_uk": "ˈkʌstəd",
+      "translation_ru": "заварной крем"
     },
     {
-      "word": "enchanting",
-      "ipa_us": "ɪnˈtʃæntɪŋ",
-      "ipa_uk": "ɪnˈtʃɑːntɪŋ",
-      "translation_ru": "очаровательный"
+      "word": "nostalgia",
+      "ipa_us": "nɑːˈstældʒə",
+      "ipa_uk": "nɒˈstældʒə",
+      "translation_ru": "ностальгия"
+    },
+    {
+      "word": "longing",
+      "ipa_us": "ˈlɔːŋɪŋ",
+      "ipa_uk": "ˈlɒŋɪŋ",
+      "translation_ru": "тоска"
+    },
+    {
+      "word": "aristocrats",
+      "ipa_us": "əˈrɪstəkræts",
+      "ipa_uk": "ˈærɪstəkræts",
+      "translation_ru": "аристократы"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "Venice",
-        "vivid",
-        "vegetables"
+        "longing",
+        "something",
+        "walking",
+        "sing"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "wake",
-        "water",
-        "wine"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Язык касается мягкого нёба, воздух идёт через нос; не добавляйте «г» после «н»."
     },
     {
       "sound": "θ",
       "examples": [
-        "thirty",
-        "through"
+        "earthquake",
+        "thin",
+        "with",
+        "three"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка слегка между зубами; без голоса, как лёгкий выдох."
     },
     {
-      "sound": "r",
+      "sound": "ɔɪ",
       "examples": [
-        "rarely",
-        "rush",
-        "rubbish"
+        "viewpoints",
+        "voice",
+        "points"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Скользите от «о» к «и»; звук один слог."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "pastel",
+        "tart",
+        "tram",
+        "tile"
+      ],
+      "tip_ru": "Произносите начальные «p, t, k» с лёгким выдохом, как будто дуете на свечу."
     }
   ],
   "questions": [
     {
-      "question": "Why should visitors wake up early?",
-      "answer": "St Mark's Square is almost empty at seven.",
+      "question": "Why did Alfama survive the 1755 earthquake?",
+      "answer": "It was built on firm rock.",
       "accepted_keywords": [
-        "empty",
-        "crowds",
-        "packed",
-        "early"
+        "rock",
+        "firm"
       ]
     },
     {
-      "question": "What is Burano famous for?",
-      "answer": "Brightly painted houses and lace.",
+      "question": "What advice did the receptionist give about Tram 28?",
+      "answer": "To board near the end of the line where it is quieter.",
       "accepted_keywords": [
-        "houses",
-        "lace",
-        "painted"
+        "end",
+        "quieter",
+        "line",
+        "board"
       ]
     },
     {
-      "question": "What are cicchetti?",
-      "answer": "Little snacks served on bread.",
+      "question": "What is a pastel de nata?",
+      "answer": "A small custard tart.",
       "accepted_keywords": [
-        "snacks",
-        "bread"
+        "custard",
+        "tart",
+        "pastry"
       ]
     },
     {
-      "question": "How much is a gondola ride for half an hour?",
-      "answer": "Around eighty euros.",
+      "question": "What is fado?",
+      "answer": "A type of music full of longing, sung with Portuguese guitar.",
       "accepted_keywords": [
-        "eighty",
-        "80"
+        "music",
+        "song",
+        "singing",
+        "longing",
+        "saudade"
       ]
     }
   ]

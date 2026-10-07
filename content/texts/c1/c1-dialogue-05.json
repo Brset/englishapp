@@ -2,117 +2,165 @@
   "id": "c1-dialogue-05",
   "level": "C1",
   "genre": "dialogue",
-  "title_en": "Three Days at the Desk",
-  "title_ru": "Три дня в офисе",
-  "description_ru": "Двое друзей спорят о том, оправдан ли возврат в офис и как на самом деле рождаются хорошие идеи и доверие в команде.",
-  "text": "Sam: So, you've finally been summoned back to the office, I hear.\nIngrid: Three days a week, starting in January. Apparently \"collaboration\" has been suffering.\nSam: Has it?\nIngrid: Not that I've noticed. We ship the same amount of work, we've simply stopped pretending that standing next to a printer counts as teamwork.\nSam: Come on, there's something to be said for being in the same room. I've had better ideas in five minutes at a whiteboard than in five days of messages.\nIngrid: Ideas, perhaps. But think about what it costs. I spend two hours commuting, I eat a sandwich at my desk, and by the time I'm home I've nothing left for the people I actually love.\nSam: That's a fair point, but you're describing a bad commute, not a bad office.\nIngrid: Isn't it the same, for most people? Cities are expensive and offices are central. Few can live next door to work.\nSam: True. Though I'd argue that remote work has its own hidden costs. When I started in my first job, I learned most of what I know by overhearing senior colleagues. You can't overhear a video call.\nIngrid: Now that is a genuine concern. Juniors do lose out. But couldn't companies fix that with deliberate mentoring, rather than hauling everyone back to their desks?\nSam: They could, but deliberate is the operative word. Hallway wisdom is free; mentoring takes time and money.\nIngrid: And trust, which is the real issue, isn't it? A manager who insists on seeing people sitting down is a manager who measures presence instead of results.\nSam: Ouch. Though I'll concede that some of my managers did exactly that.\nIngrid: There you are. Honestly, I'd happily come in one day a week for the pleasure of lunch with colleagues. Three is simply arbitrary.\nSam: Seriously, though, is there any version of the policy you'd accept?\nIngrid: Two days, chosen by the team, and no pretending that the calendar is a measure of loyalty.\nSam: So the problem isn't the office, it's the rulebook.\nIngrid: Exactly. Rules designed to calm the anxious rather than to help the productive.\nSam: Well, if you do resign in protest, I'm keeping your spare chair. It's the only comfortable one on our floor.\nIngrid: Take it. I'll be working from a very nice café, thinking of you.\nSam: Just promise me you'll still come to the Friday quiz. Nobody else knows anything about geography.\nIngrid: Deal. Though that might be the strongest argument for the office I have heard all week.",
-  "word_count": 404,
+  "title_en": "Night Shift Handover",
+  "title_ru": "Передача ночной смены",
+  "description_ru": "Две медсестры обсуждают пожилую пациентку с ночной спутанностью сознания и спорят, нужно ли седативное. Профессиональный разговор о мягкой заботе.",
+  "text": "Rosa: Right, Idris, you're late, which means I'm allowed to be curt. Sit down, take the coffee, and listen, because tonight's handover is longer than usual.\nIdris: Traffic on the ring road. I'm listening. Start with the easy ones.\nRosa: Bed one, post-operative hip, comfortable, mobilising with the physio at ten. Bed two, pneumonia, improving, oxygen weaned down to two litres. Bed three is Mrs Abara, and I'd like to talk about her properly.\nIdris: Beds four and five?\n\nRosa: Four is a quiet gentleman for discharge tomorrow, his paperwork is done, and his taxi is booked for noon. Five is a young woman, appendectomy yesterday, in a lot of pain and rather embarrassed about it. Check her analgesia early, because she won't ask.\nIdris: Why wouldn't she ask?\nRosa: She says she doesn't want to be a nuisance. I told her that pain is the one thing on this ward that has no right to be polite.\nIdris: The lady who keeps trying to leave?\n\nRosa: Eighty-six, admitted on Sunday with a urinary infection and acute confusion. The infection is settling on antibiotics, but she's still disorientated at night. She thinks it's nineteen sixty-eight and that she has to collect her children from school.\nIdris: That's the third patient this month with that story.\nRosa: Sundowning. It happens when the light fades and the ward gets noisy. The point is, at two this morning she pulled out her cannula and walked as far as the lift in her nightgown. The security guard found her.\n\nIdris: Was she hurt?\nRosa: Not at all, though she was furious with the guard. She told him she'd report him to the headmistress.\nIdris: I hope he apologised.\nRosa: He did, handsomely, and then he sat with her for twenty minutes and listened to a long story about a cardigan. But here's where it becomes difficult. Dr Ferrand wants to prescribe a sedative tonight to keep her settled.\n\nIdris: And you disagree.\nRosa: I'm uneasy about it. At her age, sedatives can deepen confusion, raise the risk of falls, and make her chest infection worse. I'd like us to try other measures first, and I've already put it in the notes.\nIdris: What other measures?\nRosa: Her daughter, Chidinma, came in this evening and stayed until nine. She said her mother is always calmer when she hears her own language, so I've arranged for a recording of hymns in Igbo, and a lamp that stays on low. We've moved her to the bed nearest the nurses' station, where somebody can see her from the desk.\n\nIdris: Sensible, and kinder than a tablet. But Rosa, if she goes wandering again and breaks a hip, I'm the one explaining that we ignored the doctor's advice.\nRosa: We're not ignoring it. I've asked Dr Ferrand to review her at midnight, and if the non-drug approach hasn't worked by then, I'll agree to a very low dose. I simply want to try the gentler route first.\nIdris: Did he accept that?\n\nRosa: Grudgingly. He said, and I quote, \"Nurses and their hymns.\"\nIdris: Charming. Well, I'm inclined to agree with you, but I can't pretend I won't be nervous. Who's on tonight besides me?\nRosa: Gareth, who is dependable but hates the night bell, and the new agency nurse, Pilar, who is very capable and slightly frightened of you.\nIdris: Of me? I'm the soul of gentleness.\n\nRosa: You once told a trainee that her handwriting was an act of aggression.\nIdris: It was illegible, that's all. Anyway, what else? Anything I should dread?\nRosa: Bed six is a man called Mr Lyle, who is waiting for a bed on cardiology. His potassium was a little low this afternoon, we've replaced it, and the blood test needs repeating at ten. Don't forget it, because it's easy to forget when you're being summoned to the other end of the ward.\nIdris: Ten o'clock, potassium. Written on my hand, in fact.\n\nRosa: Also, the sluice door is jammed again, and the facilities team swears they'll fix it by Friday, which they have been swearing since August.\nIdris: Some mysteries are permanent. Anything on the family side?\nRosa: Mr Lyle's wife rang three times and is slightly anxious about everything. I recommend patience and a kind voice. She isn't difficult, she's frightened, and there is a difference.\nIdris: There always is. That's usually the entire job, isn't it?\n\nRosa: It is, and I resisted the idea for years, convinced that skill meant speed. Nobody warns you about that at nursing school. They give you a hundred pages on pharmacology and a single paragraph on how to sit beside someone who is scared.\nIdris: I'd like to write that paragraph, and make it compulsory reading, with an examination at the end.\nRosa: You should. Right, I think that's everything. Oh, one more thing. If Mrs Abara wakes at three and asks about her children, don't correct her. Don't tell her it's twenty twenty-five. Just ask her their names.\nIdris: And let her tell me about them.\n\nRosa: Exactly. They arrive, in her mind, perfectly safe. You may as well let them.\nIdris: Rosa, what did she do for a living, before all this?\nRosa: Taught maths, for forty years, in a school you'd have been afraid of. Her daughter says she once made a bishop cry over long division.\n\nIdris: Then I'll treat her with the respect she's due.\nRosa: Do. And with a bit of fear.\nIdris: Go home, Rosa. You look exhausted.\nRosa: I am. But I'm leaving her in good hands. Ring me if the sedative question comes up again, and I'll be awake, or at least I'll pretend to be.",
+  "word_count": 912,
   "vocabulary": [
     {
-      "word": "collaboration",
-      "ipa_us": "kəˌlæbəˈreɪʃn",
-      "ipa_uk": "kəˌlæbəˈreɪʃn",
-      "translation_ru": "сотрудничество"
+      "word": "handover",
+      "ipa_us": "ˈhændˌoʊvər",
+      "ipa_uk": "ˈhændˌəʊvə",
+      "translation_ru": "передача смены"
     },
     {
-      "word": "commuting",
-      "ipa_us": "kəˈmjuːtɪŋ",
-      "ipa_uk": "kəˈmjuːtɪŋ",
-      "translation_ru": "поездки на работу"
+      "word": "curt",
+      "ipa_us": "kɜːrt",
+      "ipa_uk": "kɜːt",
+      "translation_ru": "резкий, отрывистый"
     },
     {
-      "word": "overhearing",
-      "ipa_us": "ˌoʊvərˈhɪrɪŋ",
-      "ipa_uk": "ˌəʊvəˈhɪərɪŋ",
-      "translation_ru": "подслушивая, невзначай слыша"
+      "word": "post-operative",
+      "ipa_us": "ˌpoʊstˈɑːpərətɪv",
+      "ipa_uk": "ˌpəʊstˈɒpərətɪv",
+      "translation_ru": "послеоперационный"
     },
     {
-      "word": "deliberate",
-      "ipa_us": "dɪˈlɪbərət",
-      "ipa_uk": "dɪˈlɪbərət",
-      "translation_ru": "целенаправленный"
+      "word": "mobilising",
+      "ipa_us": "ˈmoʊbəlaɪzɪŋ",
+      "ipa_uk": "ˈməʊbɪlaɪzɪŋ",
+      "translation_ru": "двигаясь, начиная ходить"
     },
     {
-      "word": "arbitrary",
-      "ipa_us": "ˈɑːrbətreri",
-      "ipa_uk": "ˈɑːbɪtrəri",
-      "translation_ru": "произвольный"
+      "word": "disorientated",
+      "ipa_us": "dɪsˈɔːriənteɪtɪd",
+      "ipa_uk": "dɪsˈɔːriənteɪtɪd",
+      "translation_ru": "дезориентированный"
     },
     {
-      "word": "hauling",
-      "ipa_us": "ˈhɔːlɪŋ",
-      "ipa_uk": "ˈhɔːlɪŋ",
-      "translation_ru": "тащить"
+      "word": "cannula",
+      "ipa_us": "ˈkænjələ",
+      "ipa_uk": "ˈkænjʊlə",
+      "translation_ru": "канюля (катетер)"
     },
     {
-      "word": "concede",
-      "ipa_us": "kənˈsiːd",
-      "ipa_uk": "kənˈsiːd",
-      "translation_ru": "признавать"
+      "word": "sedative",
+      "ipa_us": "ˈsedətɪv",
+      "ipa_uk": "ˈsedətɪv",
+      "translation_ru": "успокоительное"
+    },
+    {
+      "word": "grudgingly",
+      "ipa_us": "ˈɡrʌdʒɪŋli",
+      "ipa_uk": "ˈɡrʌdʒɪŋli",
+      "translation_ru": "неохотно"
+    },
+    {
+      "word": "illegible",
+      "ipa_us": "ɪˈledʒəbəl",
+      "ipa_uk": "ɪˈledʒəbəl",
+      "translation_ru": "неразборчивый"
+    },
+    {
+      "word": "potassium",
+      "ipa_us": "pəˈtæsiəm",
+      "ipa_uk": "pəˈtæsiəm",
+      "translation_ru": "калий"
+    },
+    {
+      "word": "sluice",
+      "ipa_us": "sluːs",
+      "ipa_uk": "sluːs",
+      "translation_ru": "помещение для отходов, сливной отсек"
+    },
+    {
+      "word": "pharmacology",
+      "ipa_us": "ˌfɑːrməˈkɑːlədʒi",
+      "ipa_uk": "ˌfɑːməˈkɒlədʒi",
+      "translation_ru": "фармакология"
     }
   ],
   "focus_sounds": [
     {
       "sound": "word-stress",
       "examples": [
-        "collaboration",
-        "arbitrary",
-        "deliberate"
+        "pharmacology",
+        "potassium",
+        "disorientated"
       ],
-      "tip_ru": "Ударение: collaboˈration (на предпоследнем слоге), ˈarbitrary (на первом), у прилагательного deˈliberate ударение на втором слоге."
+      "tip_ru": "Ударение: pharmaˈcology, poˈtassium, disˈorientated. Слоги перед ударным сокращайте до «ə»."
     },
     {
-      "sound": "θ",
+      "sound": "ŋ",
       "examples": [
-        "think",
-        "three",
-        "thinking"
+        "morning",
+        "wandering",
+        "handwriting"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, звук глухой; не «с» и не «ф»."
+      "tip_ru": "-ing произносите с носовым «ŋ»: wandering, morning; задняя часть языка касается мягкого нёба, «г» не слышно."
     },
     {
-      "sound": "w",
+      "sound": "eɪ",
       "examples": [
-        "whiteboard",
-        "wisdom",
-        "work"
+        "patience",
+        "safe",
+        "pain"
       ],
-      "tip_ru": "Губы вытянуты вперёд и округлены, зубы не касаются губы; это не «в»."
+      "tip_ru": "Дифтонг «eɪ»: сначала «е», потом плавно «и»: patience, safe, а не краткое «э»."
+    },
+    {
+      "sound": "linking",
+      "examples": [
+        "pulled out",
+        "asks about",
+        "handover is"
+      ],
+      "tip_ru": "Связывайте слова: pulled_out, ask_about; конечный согласный переходит в начало следующего слова."
     }
   ],
   "questions": [
     {
-      "question": "How many days a week will Ingrid have to be in the office?",
-      "answer": "Three.",
+      "question": "What is Mrs Abara's problem at night?",
+      "answer": "She is disorientated and thinks she must collect her children from school.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "confused",
+        "disorientated",
+        "children",
+        "school",
+        "sundowning"
       ]
     },
     {
-      "question": "What is Sam's argument for the office?",
-      "answer": "Better ideas come faster at a whiteboard, and juniors learn by overhearing colleagues.",
+      "question": "Why does Rosa object to the sedative?",
+      "answer": "It can deepen confusion, increase the risk of falls and worsen her chest infection.",
       "accepted_keywords": [
-        "ideas",
-        "overhearing",
-        "learn",
-        "whiteboard"
+        "confusion",
+        "falls",
+        "risk",
+        "chest",
+        "infection"
       ]
     },
     {
-      "question": "What does Ingrid think the real issue is?",
-      "answer": "Trust: managers measuring presence instead of results.",
+      "question": "What alternatives has Rosa organised?",
+      "answer": "Hymns in Igbo, a low lamp, and a bed near the nurses' station.",
       "accepted_keywords": [
-        "trust",
-        "presence"
+        "hymns",
+        "lamp",
+        "bed",
+        "station",
+        "recording"
       ]
     },
     {
-      "question": "What would Ingrid be happy with?",
-      "answer": "Coming in one day a week.",
+      "question": "What should Idris do if Mrs Abara asks about her children?",
+      "answer": "Not correct her but ask their names and let her talk.",
       "accepted_keywords": [
-        "one",
-        "day"
+        "names",
+        "ask",
+        "talk",
+        "correct"
       ]
     }
   ]

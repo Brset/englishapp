@@ -2,28 +2,35 @@
   "id": "b2-biography-02",
   "level": "B2",
   "genre": "biography",
-  "title_en": "Alan Turing: The Man Who Cracked Enigma",
-  "title_ru": "Алан Тьюринг: человек, взломавший Энигму",
-  "description_ru": "Жизнь математика, чьи идеи легли в основу информатики и помогли выиграть войну.",
-  "text": "Alan Turing was born in London in 1912 and showed an unusual talent for numbers from childhood. At school he was considered odd, but he found a close friend in Christopher Morcom, whose early death deeply affected him. He went on to study mathematics at King's College, Cambridge, and in 1936 he published a paper describing an imaginary device that is now called the Turing machine. The idea is regarded as the foundation of modern computer science.\n\nWhen war broke out in 1939, Turing joined the codebreakers at Bletchley Park, a country house north of London. The German navy used a machine called Enigma to scramble its messages, and every day the settings were changed. Turing helped to design an electromechanical machine, the Bombe, which could find those settings far faster than people could. Historians believe that the work done at Bletchley shortened the war and saved countless lives, although it was kept secret for decades.\n\nAfter the war, Turing worked on early computers in Manchester and wondered whether machines could ever think. In 1950 he proposed a test, now known as the Turing test: if a person cannot tell whether they are talking to a human or a machine, the machine could be said to be intelligent. The question still sparks debate today.\n\nHis personal life brought tragedy. In 1952 he was prosecuted for homosexual acts, which were then illegal in Britain, and he was forced to accept hormone treatment. He died in 1954 at the age of forty-one. In 2009 the British government issued a public apology, and in 2013 he was granted a royal pardon. Since 2021, his portrait has appeared on the fifty-pound note, a reminder that he was a genius whom his country treated shamefully.",
+  "title_en": "Alan Turing: The Man Who Thought About Thinking",
+  "title_ru": "Алан Тьюринг: человек, который думал о мышлении",
+  "description_ru": "Судьба математика, взломавшего «Энигму» и придумавшего идею современного компьютера, и несправедливость, с которой с ним обошлись.",
+  "text": "On a quiet morning in 1939, a thin young mathematician with untidy hair reported for duty at a Victorian country house called Bletchley Park, north of London. He was twenty-seven years old, he was known to be shy, and he had already written a paper that would change the world. His name was Alan Turing. Over the next six years he would help to break some of the most secret codes of the Second World War, and afterwards he would ask a question that we are still trying to answer: can a machine think?\n\nTuring was born in London in 1912, while his father was working for the British administration in India. He spent much of his childhood with foster families in England. At Sherborne School his teachers were not impressed by a boy who covered his exercise books with ink and whose handwriting was described as the worst they had ever seen. But one friend, Christopher Morcom, shared his love of science, and his early death from tuberculosis in 1930 is said to have strengthened Turing's determination to make the most of his own mind.\n\nAt King's College, Cambridge, he became a fellow at the age of twenty-two. In 1936 he published a paper about what mathematicians can and cannot calculate. To explain his ideas, he imagined a simple machine that moved along a paper tape, reading and writing symbols according to a table of rules. This imaginary device, now called the Turing machine, turned out to be a perfect model of every computer that has been built since. He then spent two years at Princeton University in the United States, where he earned his doctorate.\n\nWhen Britain declared war on Germany, Turing was recruited by the Government Code and Cypher School. The German navy used a machine called Enigma to scramble its messages, and the settings were changed every day. Polish mathematicians had already found ways to attack the system, and Turing built on their work. He designed an electromechanical machine known as the bombe, which could test thousands of possible settings at great speed. Led by Turing, the team in Hut 8 concentrated on the naval messages, which were the hardest of all.\n\nThe results were dramatic. Once the codes were broken, the Allies could read the orders sent to German submarines and steer their convoys away from danger. Historians generally agree that this intelligence saved countless lives and shortened the war, and some estimate that it did so by as much as two years. Yet the work was kept secret for decades. Turing's neighbours, and even his own family, were never told what he had done. Colleagues remembered him as a cheerful, eccentric man who chained his tea mug to a radiator so that nobody would steal it and who cycled to work wearing a gas mask to cure his hay fever.\n\nAfter the war, Turing moved to the National Physical Laboratory, where he drew up one of the first designs for a stored-program computer, and later to the University of Manchester. In 1950 he published a famous essay in which he suggested replacing the vague question of whether machines can think with a practical test. If a person, talking to a hidden partner through a keyboard, could not tell whether it was a human or a machine, then the machine should be considered intelligent. We now call this the Turing test. He also turned to biology, and proposed that the spots on a leopard and the stripes on a zebra could be explained by chemical reactions.\n\nTuring was also a gifted runner. He often ran long distances to clear his head, and it is reported that he once ran a marathon in a time that came close to the standard of the Olympic team. But in 1952 his private life brought him into conflict with the law. Homosexual acts were then a crime in Britain, and he was prosecuted after a burglary at his house. He was given a choice between prison and a hormone treatment, and he accepted the treatment. His security clearance was taken away, and he was no longer allowed to work for the government.\n\nAlan Turing died in June 1954, at the age of forty-one. The coroner decided that he had taken his own life, although some friends and relatives, including his mother, always believed that it had been an accident. For many years his name was hardly mentioned in public. Then, slowly, the truth emerged. In 2009 the prime minister, Gordon Brown, publicly apologised for the way Turing had been treated, calling it appalling. In 2013 he was granted a royal pardon, and in 2017 a law was passed that pardoned thousands of other men who had been convicted of similar offences.\n\nToday his portrait appears on the fifty-pound note, which was issued on his birthday in 2021. The most important award in computer science is named after him, and his ideas lie behind every phone and laptop. It is a bitter irony that a country which owed him so much once punished him so harshly. As one of his colleagues remarked, we shall never know how much more he might have given us.",
+  "word_count": 857,
   "vocabulary": [
     {
-      "word": "device",
-      "ipa_us": "dɪˈvaɪs",
-      "ipa_uk": "dɪˈvaɪs",
-      "translation_ru": "устройство"
+      "word": "mathematician",
+      "ipa_us": "ˌmæθəməˈtɪʃən",
+      "ipa_uk": "ˌmæθəməˈtɪʃən",
+      "translation_ru": "математик"
     },
     {
-      "word": "foundation",
-      "ipa_us": "faʊnˈdeɪʃən",
-      "ipa_uk": "faʊnˈdeɪʃən",
-      "translation_ru": "основа"
+      "word": "foster",
+      "ipa_us": "ˈfɔstər",
+      "ipa_uk": "ˈfɒstə",
+      "translation_ru": "приёмный"
     },
     {
-      "word": "codebreakers",
-      "ipa_us": "ˈkoʊdˌbreɪkərz",
-      "ipa_uk": "ˈkəʊdˌbreɪkəz",
-      "translation_ru": "взломщики шифров"
+      "word": "tuberculosis",
+      "ipa_us": "tuˌbɜrkjəˈloʊsɪs",
+      "ipa_uk": "tjuːˌbɜːkjʊˈləʊsɪs",
+      "translation_ru": "туберкулёз"
+    },
+    {
+      "word": "imaginary",
+      "ipa_us": "ɪˈmædʒɪˌnɛri",
+      "ipa_uk": "ɪˈmædʒɪnəri",
+      "translation_ru": "воображаемый"
     },
     {
       "word": "scramble",
@@ -32,28 +39,46 @@
       "translation_ru": "шифровать, перемешивать"
     },
     {
+      "word": "convoys",
+      "ipa_us": "ˈkɑnvɔɪz",
+      "ipa_uk": "ˈkɒnvɔɪz",
+      "translation_ru": "конвои"
+    },
+    {
+      "word": "eccentric",
+      "ipa_us": "ɪkˈsɛntrɪk",
+      "ipa_uk": "ɪkˈsentrɪk",
+      "translation_ru": "эксцентричный"
+    },
+    {
       "word": "prosecuted",
-      "ipa_us": "ˈprɑːsɪˌkjuːtɪd",
+      "ipa_us": "ˈprɑsɪˌkjutɪd",
       "ipa_uk": "ˈprɒsɪkjuːtɪd",
       "translation_ru": "привлечён к суду"
     },
     {
+      "word": "coroner",
+      "ipa_us": "ˈkɔrənər",
+      "ipa_uk": "ˈkɒrənə",
+      "translation_ru": "коронер"
+    },
+    {
+      "word": "appalling",
+      "ipa_us": "əˈpɔlɪŋ",
+      "ipa_uk": "əˈpɔːlɪŋ",
+      "translation_ru": "ужасающий"
+    },
+    {
       "word": "pardon",
-      "ipa_us": "ˈpɑrdən",
-      "ipa_uk": "ˈpɑːdən",
+      "ipa_us": "ˈpɑrdn",
+      "ipa_uk": "ˈpɑːdn",
       "translation_ru": "помилование"
     },
     {
-      "word": "apology",
-      "ipa_us": "əˈpɑlədʒi",
-      "ipa_uk": "əˈpɒlədʒi",
-      "translation_ru": "извинение"
-    },
-    {
-      "word": "genius",
-      "ipa_us": "ˈdʒinjəs",
-      "ipa_uk": "ˈdʒiːniəs",
-      "translation_ru": "гений"
+      "word": "irony",
+      "ipa_us": "ˈaɪrəni",
+      "ipa_uk": "ˈaɪrəni",
+      "translation_ru": "ирония"
     }
   ],
   "focus_sounds": [
@@ -61,73 +86,89 @@
       "sound": "θ",
       "examples": [
         "think",
-        "mathematics",
-        "death"
+        "through",
+        "death",
+        "truth"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух без голоса: не «с» и не «ф»."
     },
     {
-      "sound": "w",
+      "sound": "ŋ",
       "examples": [
-        "war",
-        "was",
-        "whether",
-        "which"
+        "long",
+        "morning",
+        "young",
+        "working"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "ə",
+      "sound": "aspiration",
       "examples": [
-        "machine",
-        "modern",
-        "apology"
+        "time",
+        "came",
+        "could",
+        "tell"
       ],
-      "tip_ru": "Безударный слабый звук: расслабьте язык и губы; не произносите гласную полностью."
+      "tip_ru": "Перед ударной гласной p, t, k произносите с лёгким придыханием, как маленький выдох."
     },
     {
       "sound": "word-stress",
       "examples": [
-        "mathematics",
-        "intelligent",
-        "electromechanical"
+        "mathematician",
+        "foster",
+        "tuberculosis",
+        "imaginary"
       ],
-      "tip_ru": "Выделите ударный слог громкостью и длиной, остальные слоги сделайте короткими и слабыми."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     }
   ],
   "questions": [
     {
-      "question": "Where did Turing work during the Second World War?",
-      "answer": "At Bletchley Park.",
+      "question": "What was the Turing machine?",
+      "answer": "An imaginary machine that read and wrote symbols on a paper tape according to rules; a model of every computer.",
       "accepted_keywords": [
-        "bletchley"
+        "imaginary",
+        "symbols",
+        "tape",
+        "model",
+        "computer",
+        "simple"
       ]
     },
     {
-      "question": "What did the Bombe machine do?",
-      "answer": "It found the settings of the Enigma machine.",
+      "question": "What was Turing's task at Bletchley Park?",
+      "answer": "He worked on breaking the German naval Enigma codes and built the bombe.",
       "accepted_keywords": [
         "enigma",
-        "settings"
+        "codes",
+        "bombe",
+        "naval",
+        "german"
       ]
     },
     {
       "question": "What does the Turing test check?",
-      "answer": "Whether a machine can seem intelligent to a human.",
+      "answer": "Whether a person talking to a hidden partner can tell if it is a human or a machine.",
       "accepted_keywords": [
+        "human",
         "machine",
+        "hidden",
         "intelligent",
         "think"
       ]
     },
     {
-      "question": "When did the British government apologise to him?",
-      "answer": "In 2009.",
+      "question": "How has Britain tried to put right the way Turing was treated?",
+      "answer": "The prime minister apologised in 2009, he received a royal pardon in 2013, and his face is on the fifty-pound note.",
       "accepted_keywords": [
-        "2009",
-        "two thousand"
+        "apologised",
+        "apology",
+        "pardon",
+        "note",
+        "law",
+        "fifty"
       ]
     }
-  ],
-  "word_count": 283
+  ]
 }

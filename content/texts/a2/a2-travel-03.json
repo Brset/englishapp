@@ -2,122 +2,141 @@
   "id": "a2-travel-03",
   "level": "A2",
   "genre": "travel",
-  "title_en": "Rainy Edinburgh",
-  "title_ru": "Дождливый Эдинбург",
-  "description_ru": "Короткая поездка в шотландский город, где дождь не помешал хорошему отдыху.",
-  "text": "Edinburgh is the capital of Scotland, and it is famous for its castle, its history and its weather. When we arrived, it was raining, and it rained for three days. But we did not mind.\n\nOn the first morning, we climbed up to the castle. It was windy and cold, but the view of the city was wonderful. In the afternoon, we went into a museum to get warm. We saw old swords, strange maps and a very big clock.\n\nIn the evening, we had dinner in a traditional pub. I tried a Scottish soup, and my brother ordered a plate of fish and potatoes. A man with a guitar played sad songs, and everybody sang together.\n\nOn the last day, the sun finally came out. We walked up a big hill behind the city, and we could see the sea. Edinburgh in the sun was even better than Edinburgh in the rain.",
-  "word_count": 153,
+  "title_en": "Lost in Venice",
+  "title_ru": "Заблудиться в Венеции",
+  "description_ru": "Город без машин, где нет прямых улиц: водные автобусы, площадь Святого Марка и проблема наводнений. Путевые заметки с практическими советами.",
+  "text": "Venice is a city without cars, and that is the first thing that surprised me. When I arrived by train on a grey Saturday morning, I walked out of the station and stopped. There was no road, no taxi and no noise of engines. In front of me was a wide canal, and on the water, there were boats of every kind. A man in a striped shirt stood in a long black boat and sang to himself. I knew at once that this trip would be different from all my other trips.\n\nVenice stands on more than a hundred small islands in a lagoon, and about four hundred bridges connect them. The first people moved there in the fifth century, because they wanted to escape from enemies, and they built their houses on wooden poles pushed deep into the mud. Many of those poles are still there today. The city became very rich in the Middle Ages because its ships carried silk, spices and glass between Europe and Asia.\n\nI did not have a map, and I made a classic mistake. I tried to walk to my hotel in a straight line, but in Venice there are no straight lines. The streets are narrow, they turn suddenly and many of them end at the water. After an hour, I was completely lost. A small old woman with a shopping bag saw my face and pointed. \"Left, right, then left again,\" she said in slow English. I followed her instructions, and I arrived at my hotel exactly forty minutes later, and I was happy to be alive.\n\nThe best way to see the city is on the water. On the second day, I bought a ticket for the vaporetto, a public water bus that goes along the Grand Canal. It is cheaper and more practical than a gondola, which costs about ninety euros for thirty minutes. On the boat, I stood at the front and looked at the palaces. Their pink and white walls come straight out of the water, and each of them is different. A guide on the boat explained that many of them are now hotels or museums, and that only a few families still live in them.\n\nIn the afternoon, I went to St Mark's Square, the biggest open space in the city. It is surrounded by old buildings and filled with pigeons, tourists and small orchestras. In the middle stands a tall bell tower, and next to it the golden church, which looks both Eastern and Western. The square was crowded, and a cup of coffee in one of the old cafes cost eight euros. I paid it, because the view was worth more than the coffee, and because I wanted to sit down.\n\nLate in the day, a local man told me about the city's biggest problem. Venice is slowly sinking, and the sea is rising, so in autumn and winter, the water sometimes covers the streets. This is called acqua alta, which means high water. In 2019, the flood was one of the worst in fifty years. The city has built a system of gates at the entrance to the lagoon to protect it, and they began to work a few years ago. But the future of Venice is still not certain.\n\nThere is another problem: too many visitors. Venice has fewer than sixty thousand people in the old part, but millions of tourists come every year. To help the city, I tried to follow a few simple rules. I walked early in the morning, when the streets are empty, and I ate in small restaurants far from the main sights. I also bought some glass from a workshop on the island of Murano, where artists have made it for more than seven hundred years.\n\nOn my last evening, I took a small ferry across the water and watched the sunset from the other side. The light turned the buildings pink, then orange, and finally grey. The bells began to ring in many churches, one after another. I felt calm and a little sad. Venice is expensive, crowded and confusing, but it is also unlike any other place that I know. I am going to return, and next time I will bring a map, a good pair of shoes and a lot of patience.",
+  "word_count": 720,
   "vocabulary": [
     {
-      "word": "capital",
-      "ipa_us": "ˈkæpɪtəl",
-      "ipa_uk": "ˈkæpɪtəl",
-      "translation_ru": "столица"
+      "word": "canal",
+      "ipa_us": "kəˈnæl",
+      "ipa_uk": "kəˈnæl",
+      "translation_ru": "канал"
     },
     {
-      "word": "castle",
-      "ipa_us": "ˈkæsəl",
-      "ipa_uk": "ˈkɑːsəl",
-      "translation_ru": "замок"
+      "word": "lagoon",
+      "ipa_us": "ləˈɡuːn",
+      "ipa_uk": "ləˈɡuːn",
+      "translation_ru": "лагуна"
     },
     {
-      "word": "windy",
-      "ipa_us": "ˈwɪndi",
-      "ipa_uk": "ˈwɪndi",
-      "translation_ru": "ветреный"
+      "word": "gondola",
+      "ipa_us": "ˈɡɑːndələ",
+      "ipa_uk": "ˈɡɒndələ",
+      "translation_ru": "гондола"
     },
     {
-      "word": "museum",
-      "ipa_us": "mjuˈziːəm",
-      "ipa_uk": "mjuˈziːəm",
-      "translation_ru": "музей"
+      "word": "vaporetto",
+      "ipa_us": "ˌvæpəˈrɛtoʊ",
+      "ipa_uk": "ˌvæpəˈretəʊ",
+      "translation_ru": "вапоретто (водный автобус)"
     },
     {
-      "word": "swords",
-      "ipa_us": "sɔrdz",
-      "ipa_uk": "sɔːdz",
-      "translation_ru": "мечи"
+      "word": "pigeons",
+      "ipa_us": "ˈpɪdʒɪnz",
+      "ipa_uk": "ˈpɪdʒɪnz",
+      "translation_ru": "голуби"
     },
     {
-      "word": "traditional",
-      "ipa_us": "trəˈdɪʃənəl",
-      "ipa_uk": "trəˈdɪʃənəl",
-      "translation_ru": "традиционный"
+      "word": "sinking",
+      "ipa_us": "ˈsɪŋkɪŋ",
+      "ipa_uk": "ˈsɪŋkɪŋ",
+      "translation_ru": "тонущий"
     },
     {
-      "word": "guitar",
-      "ipa_us": "ɡɪˈtɑr",
-      "ipa_uk": "ɡɪˈtɑː",
-      "translation_ru": "гитара"
+      "word": "flood",
+      "ipa_us": "flʌd",
+      "ipa_uk": "flʌd",
+      "translation_ru": "наводнение"
     },
     {
-      "word": "finally",
-      "ipa_us": "ˈfaɪnəli",
-      "ipa_uk": "ˈfaɪnəli",
-      "translation_ru": "наконец"
+      "word": "tourists",
+      "ipa_us": "ˈtʊrɪsts",
+      "ipa_uk": "ˈtʊərɪsts",
+      "translation_ru": "туристы"
+    },
+    {
+      "word": "workshop",
+      "ipa_us": "ˈwɜːrkʃɑːp",
+      "ipa_uk": "ˈwɜːkʃɒp",
+      "translation_ru": "мастерская"
+    },
+    {
+      "word": "instructions",
+      "ipa_us": "ɪnˈstrʌkʃnz",
+      "ipa_uk": "ɪnˈstrʌkʃnz",
+      "translation_ru": "указания"
+    },
+    {
+      "word": "ferry",
+      "ipa_us": "ˈfɛri",
+      "ipa_uk": "ˈferi",
+      "translation_ru": "паром"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ʊ",
       "examples": [
-        "three",
-        "the",
-        "with",
-        "together"
+        "good",
+        "looked",
+        "wooden"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Короткий, расслабленный «у» с лёгким округлением губ; не тяните, как в uː."
     },
     {
-      "sound": "r",
+      "sound": "ʌ",
       "examples": [
-        "rained",
-        "brother",
-        "ordered",
-        "rain"
+        "flood",
+        "once",
+        "some"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Короткий открытый звук, близкий к ударному «а»; рот открыт средне, язык в центре."
     },
     {
-      "sound": "w",
+      "sound": "ŋ",
       "examples": [
-        "weather",
-        "windy",
-        "wonderful",
-        "walked",
-        "was"
+        "sinking",
+        "morning",
+        "evening"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте отчётливого «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "Where is Edinburgh?",
-      "answer": "In Scotland.",
+      "question": "Why is Venice different from other cities?",
+      "answer": "It has no cars, only boats and walking.",
       "accepted_keywords": [
-        "scotland"
+        "cars",
+        "boats"
       ]
     },
     {
-      "question": "How long did it rain?",
-      "answer": "Three days.",
+      "question": "How did an old woman help the writer?",
+      "answer": "She gave directions: left, right, then left again.",
       "accepted_keywords": [
-        "three"
+        "directions",
+        "left",
+        "right"
       ]
     },
     {
-      "question": "What did the man with the guitar play?",
-      "answer": "Sad songs.",
+      "question": "What is acqua alta?",
+      "answer": "High water, when the sea covers the streets.",
       "accepted_keywords": [
-        "sad",
-        "songs"
+        "high",
+        "water",
+        "flood"
       ]
     },
     {
-      "question": "What could they see from the hill?",
-      "answer": "The sea.",
+      "question": "How much does a gondola ride cost?",
+      "answer": "About ninety euros for thirty minutes.",
       "accepted_keywords": [
-        "sea"
+        "ninety",
+        "90"
       ]
     }
   ]

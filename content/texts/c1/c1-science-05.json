@@ -2,129 +2,160 @@
   "id": "c1-science-05",
   "level": "C1",
   "genre": "science",
-  "title_en": "The Ocean's Conveyor Belt",
-  "title_ru": "Океанский конвейер",
-  "description_ru": "Тёплые и холодные океанские течения образуют гигантскую систему, которая смягчает климат Европы. Текст объясняет, как она работает и чем рискует.",
-  "text": "Often called the ocean's conveyor belt, the thermohaline circulation is a vast system of currents driven by differences in the temperature and salinity, and therefore the density, of seawater. Its best-known component in the Atlantic is the Atlantic Meridional Overturning Circulation, or AMOC, which carries warm surface water northward from the tropics and returns cold, deep water southward.\n\nThe mechanism begins near the equator, where intense sunshine heats the surface and evaporation leaves the remaining water saltier. This warm, salty water drifts north, passing the Caribbean and joining the Gulf Stream. As it travels, it releases heat to the atmosphere, which is one reason why north-western Europe enjoys a milder climate than other regions at similar latitudes. By the time the water reaches the seas around Greenland and Iceland, it has cooled so much that, being both cold and salty, it becomes dense enough to sink, plunging more than a kilometre into the abyss. Once there, it creeps southward along the ocean floor, a journey that can take centuries.\n\nThis sinking is the engine of the whole system, and that is why scientists watch it closely. Fresh water is less dense than salt water, so if the North Atlantic receives large amounts of melting ice from Greenland or additional rainfall, the surface layer could become too buoyant to sink. The circulation would then slow down. Measurements from an array of instruments moored across the Atlantic at around twenty-six degrees north have recorded year-to-year fluctuations, and some reconstructions based on sediments and temperature patterns suggest that the AMOC has weakened over the past century. Direct observations, however, cover only about two decades, which is a short window for judging a system whose natural variability is poorly understood.\n\nWhat would happen if it weakened substantially? Climate models point to cooler conditions in parts of north-western Europe, shifts in rainfall patterns in the tropics, and a faster rise in sea level along the east coast of North America. They differ, though, on how likely an abrupt collapse is during this century. The most recent assessments consider a complete shutdown unlikely before 2100, but not impossible, and they emphasise that the uncertainty itself is a reason for caution.\n\nThe geological record offers a sobering precedent. About twelve thousand years ago, as the last ice age was ending, a sudden influx of meltwater is thought by many researchers to have disrupted the circulation, plunging parts of the Northern Hemisphere back into near-glacial cold for roughly a thousand years. The episode is known as the Younger Dryas. It is no forecast of what will occur now, but it demonstrates that the ocean's slow machinery can, under pressure, change gear remarkably fast.",
-  "word_count": 451,
+  "title_en": "Why the Sun Shines",
+  "title_ru": "Почему светит Солнце",
+  "description_ru": "Классическая физика утверждает, что Солнце не должно гореть. Квантовое туннелирование объясняет, как протоны всё же сливаются и почему звезда светит миллиарды лет.",
+  "text": "By every classical calculation, the Sun should not shine. At its centre, the temperature is about fifteen million kelvin, which sounds extreme, yet it is not nearly extreme enough. The reason is that the Sun is powered by the fusion of hydrogen nuclei, which are single protons, and protons carry positive electric charge. Two of them repel each other with a force that grows ferociously as they approach, and to bring them close enough for the strong nuclear force to bind them together, a proton would need to be moving astonishingly fast, which means a temperature of roughly ten billion degrees. The Sun's core falls short by a factor of several hundred.\n\nFor decades this was an embarrassment. By the 1920s astronomers such as Arthur Eddington had argued that nuclear reactions must be the Sun's energy source, and Eddington famously told a sceptic that he was welcome to go and find a hotter place. But the sums did not add up. The solution came from an unexpected direction, namely the quantum theory that physicists had been developing to understand atoms.\n\nIn quantum mechanics, a particle is not a tiny billiard ball with a definite location. It is described by a wave function, which spreads over a region of space and gives the probability of finding the particle at any given spot. When such a wave meets a barrier, it does not stop abruptly. Its amplitude decays rapidly inside the barrier, but if the barrier is thin enough, a small remainder emerges on the other side. That means there is a real, though usually tiny, probability that the particle will appear beyond the wall without ever having had the energy to climb over it. This is called quantum tunnelling.\n\nIt is worth pausing on how strange this is. Tunnelling is not a trick of clever engineering; it is a direct consequence of the same equations that explain the colours of atoms, the stability of matter and the working of every transistor in your phone. The idea was first applied to the nucleus in 1928 by the Russian-born physicist George Gamow, who used it to explain why certain radioactive atoms emit alpha particles. The following year Robert Atkinson and Fritz Houtermans realised that the same effect could allow protons in stars to fuse at temperatures far below the classical requirement. Later, Hans Bethe worked out the detailed sequence of reactions, work for which he received the Nobel Prize in Physics in 1967.\n\nThe numbers are humbling. Any individual proton in the Sun's core collides with others billions of times each second, yet the chance that a given collision results in fusion is vanishingly small. A typical proton waits, on average, for something like ten billion years before it finally succeeds, which is roughly the whole lifetime of the Sun. The star shines not because fusion is likely for any one proton, but because the core contains such an immense number of them, around ten to the power of fifty-seven, that a colossal quantity of fusions occurs every second.\n\nThe principal chain of reactions, known as the proton-proton chain, is also slow for another reason. The first step requires one proton to turn into a neutron, forming a deuterium nucleus, and that depends on the weak nuclear force, which is truly feeble. This bottleneck acts as a natural governor. If the first step were easy, the Sun would burn through its hydrogen in a flash. Instead, it releases energy at a gentle and astonishingly steady rate, about as much per cubic metre as a compost heap, and has done so for nearly five billion years.\n\nEach second, the Sun fuses roughly six hundred million tonnes of hydrogen into helium, and in doing so converts about four million tonnes of matter into energy, in accordance with Einstein's famous equation. The energy emerges first as gamma rays, but these are absorbed and re-emitted countless times on their journey outwards, a random walk that takes tens of thousands of years or more before light finally reaches the surface. By contrast, the ghostly neutrinos produced in the same reactions fly straight out of the Sun and reach Earth in about eight minutes. Detecting them was one of the great triumphs of experimental physics, and the first measurements, made deep underground in the late 1960s, confirmed that the Sun really does run on fusion. They also found only about a third of the expected number, a puzzle that took three more decades to solve, when physicists showed that neutrinos change their identity on the way, a phenomenon called oscillation.\n\nNot every star follows the same recipe. In stars appreciably heavier than the Sun, whose cores are hotter, a different sequence called the carbon-nitrogen-oxygen cycle dominates, using those heavier nuclei as catalysts. It is far more sensitive to temperature, so such stars burn their fuel furiously and live for a few hundred million years at most, and the heaviest for only a few million, a blink compared with the Sun's ten billion. Even in our own star it contributes about one per cent of the output, a quiet reminder that the universe runs several engines at once.\n\nSo the sunlight on your face owes its existence to a strange loophole in the laws of the very small. The Sun is, in a sense, a machine for exploiting improbability on a staggering scale. Without quantum mechanics, the sky would be dark, and nobody would be around to wonder why.",
+  "word_count": 913,
   "vocabulary": [
     {
-      "word": "thermohaline",
-      "ipa_us": "ˌθɝːmoʊˈheɪlaɪn",
-      "ipa_uk": "ˌθɜːməʊˈheɪlaɪn",
-      "translation_ru": "термохалинный"
+      "word": "classical",
+      "ipa_us": "ˈklæsɪkəl",
+      "ipa_uk": "ˈklæsɪkəl",
+      "translation_ru": "классический"
     },
     {
-      "word": "salinity",
-      "ipa_us": "səˈlɪnəti",
-      "ipa_uk": "səˈlɪnəti",
-      "translation_ru": "солёность"
+      "word": "kelvin",
+      "ipa_us": "ˈkelvɪn",
+      "ipa_uk": "ˈkelvɪn",
+      "translation_ru": "кельвин"
     },
     {
-      "word": "meridional",
-      "ipa_us": "məˈrɪdiənl",
-      "ipa_uk": "məˈrɪdiənl",
-      "translation_ru": "меридиональный"
+      "word": "fusion",
+      "ipa_us": "ˈfjuːʒən",
+      "ipa_uk": "ˈfjuːʒən",
+      "translation_ru": "слияние (ядерный синтез)"
     },
     {
-      "word": "buoyant",
-      "ipa_us": "ˈbɔɪənt",
-      "ipa_uk": "ˈbɔɪənt",
-      "translation_ru": "плавучий"
+      "word": "ferociously",
+      "ipa_us": "fəˈroʊʃəsli",
+      "ipa_uk": "fəˈrəʊʃəsli",
+      "translation_ru": "яростно, стремительно"
     },
     {
-      "word": "fluctuations",
-      "ipa_us": "ˌflʌktʃuˈeɪʃnz",
-      "ipa_uk": "ˌflʌktʃuˈeɪʃnz",
-      "translation_ru": "колебания"
+      "word": "embarrassment",
+      "ipa_us": "ɪmˈbærəsmənt",
+      "ipa_uk": "ɪmˈbærəsmənt",
+      "translation_ru": "неловкость, затруднение"
     },
     {
-      "word": "abrupt",
-      "ipa_us": "əˈbrʌpt",
-      "ipa_uk": "əˈbrʌpt",
-      "translation_ru": "резкий"
+      "word": "amplitude",
+      "ipa_us": "ˈæmplɪtuːd",
+      "ipa_uk": "ˈæmplɪtjuːd",
+      "translation_ru": "амплитуда"
     },
     {
-      "word": "precedent",
-      "ipa_us": "ˈpresɪdənt",
-      "ipa_uk": "ˈpresɪdənt",
-      "translation_ru": "прецедент"
+      "word": "tunnelling",
+      "ipa_us": "ˈtʌnəlɪŋ",
+      "ipa_uk": "ˈtʌnəlɪŋ",
+      "translation_ru": "туннелирование"
     },
     {
-      "word": "influx",
-      "ipa_us": "ˈɪnflʌks",
-      "ipa_uk": "ˈɪnflʌks",
-      "translation_ru": "приток"
+      "word": "vanishingly",
+      "ipa_us": "ˈvænɪʃɪŋli",
+      "ipa_uk": "ˈvænɪʃɪŋli",
+      "translation_ru": "исчезающе (мал)"
+    },
+    {
+      "word": "colossal",
+      "ipa_us": "kəˈlɑːsəl",
+      "ipa_uk": "kəˈlɒsəl",
+      "translation_ru": "колоссальный"
+    },
+    {
+      "word": "bottleneck",
+      "ipa_us": "ˈbɑːtlnek",
+      "ipa_uk": "ˈbɒtlnek",
+      "translation_ru": "узкое место"
+    },
+    {
+      "word": "neutrinos",
+      "ipa_us": "nuːˈtriːnoʊz",
+      "ipa_uk": "njuːˈtriːnəʊz",
+      "translation_ru": "нейтрино"
+    },
+    {
+      "word": "improbability",
+      "ipa_us": "ɪmˌprɑːbəˈbɪləti",
+      "ipa_uk": "ɪmˌprɒbəˈbɪləti",
+      "translation_ru": "маловероятность"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
-      "examples": [
-        "thermohaline",
-        "north",
-        "thousand"
-      ],
-      "tip_ru": "Кончик языка слегка между зубами, звук глухой; в north язык остаётся между зубами в конце слова."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "other",
-        "than",
-        "though"
-      ],
-      "tip_ru": "Кончик языка между зубами, но звук звонкий: голосовые связки работают; не «з» и не «д»."
-    },
-    {
       "sound": "word-stress",
       "examples": [
-        "salinity",
-        "meridional",
-        "fluctuations"
+        "improbability",
+        "embarrassment",
+        "amplitude"
       ],
-      "tip_ru": "Ударение: saˈlinity, meˈridional, fluctuˈations. Ударный слог выделяйте высотой и длиной."
+      "tip_ru": "Ударение: improbaˈbility, emˈbarrassment, ˈamplitude. В improbability главное ударение на -bil-."
+    },
+    {
+      "sound": "θ",
+      "examples": [
+        "thin",
+        "thousand",
+        "earth"
+      ],
+      "tip_ru": "Звук «θ» в thin, thousand: кончик языка слегка между зубами; воздух идёт без голоса."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "sun",
+        "hundred",
+        "number"
+      ],
+      "tip_ru": "Звук «ʌ» (sun, hundred) — короткий и нейтральный, ближе к «а» в слове «сам», но без напряжения губ."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "around",
+        "wave",
+        "second"
+      ],
+      "tip_ru": "Конечные звонкие (wave, around) сохраняйте звонкими: на конце слова «v» и «d» не оглушайте."
     }
   ],
   "questions": [
     {
-      "question": "What drives the thermohaline circulation?",
-      "answer": "Differences in temperature and salinity, which change water density.",
+      "question": "Why does classical physics say the Sun should not shine?",
+      "answer": "Protons repel each other, so fusion would need billions of degrees, far hotter than the Sun's core.",
       "accepted_keywords": [
+        "repel",
+        "charge",
         "temperature",
-        "salinity",
-        "density"
+        "billions",
+        "hotter"
       ]
     },
     {
-      "question": "Why does Europe have a milder climate?",
-      "answer": "Warm water releases heat to the atmosphere as it flows north.",
+      "question": "What is quantum tunnelling?",
+      "answer": "A particle can appear on the far side of a barrier it does not have the energy to climb.",
       "accepted_keywords": [
-        "heat",
-        "warm",
-        "gulf",
-        "water"
+        "barrier",
+        "wall",
+        "probability",
+        "appear",
+        "tunnel"
       ]
     },
     {
-      "question": "What could slow the circulation?",
-      "answer": "Fresh meltwater and rainfall making the surface water too buoyant to sink.",
+      "question": "Who first applied tunnelling to the nucleus?",
+      "answer": "George Gamow, in 1928.",
       "accepted_keywords": [
-        "meltwater",
-        "ice",
-        "fresh",
-        "rainfall",
-        "melting"
+        "gamow",
+        "1928"
       ]
     },
     {
-      "question": "What was the Younger Dryas?",
-      "answer": "A cold episode about twelve thousand years ago linked to meltwater disrupting the circulation.",
+      "question": "How long do neutrinos take to reach Earth?",
+      "answer": "About eight minutes.",
       "accepted_keywords": [
-        "cold",
-        "twelve",
-        "episode",
-        "ice"
+        "eight",
+        "8"
       ]
     }
   ]

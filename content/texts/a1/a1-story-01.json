@@ -2,128 +2,158 @@
   "id": "a1-story-01",
   "level": "A1",
   "genre": "story",
-  "title_en": "The Red Umbrella",
-  "title_ru": "Красный зонт",
-  "description_ru": "Маленькая история о девочке, которая помогла замёрзшему котёнку в дождливый день.",
-  "text": "Vera lives in a small village near the river. Today it is rainy, and Vera has a red umbrella. She walks to the market with her grandmother. They want fresh vegetables and three warm apples.\n\nOn the way, Vera sees a wet little cat under a tree. The cat is very thin, and it is shivering. Vera gives the cat her red umbrella.\n\nHer grandmother smiles. \"That is kind,\" she says. Now the cat is dry and happy. Vera is wet, but she is happy too.",
+  "title_en": "Buddy the Lost Dog",
+  "title_ru": "Потерявшийся пёс Бадди",
+  "description_ru": "Мальчик находит потерявшуюся собаку, ищет её хозяев и неожиданно получает награду.",
+  "text": "Tom is ten years old. He lives in a small town with his mother and his little sister, Mia. Every day after school, Tom walks home along Mill Street. He likes this street because it is quiet and green. There are old trees on both sides, and a baker's shop on the corner. The shop always smells of warm bread.\n\nOn Monday, Tom is walking home when he hears a small sound. It comes from behind a big blue box near the baker's shop. Tom looks and sees a dog. It is a small brown dog with white feet and one black ear. The dog is wet and cold. It looks at Tom with sad eyes.\n\n\"Hello,\" says Tom. \"Are you lost?\" The dog does not answer, of course, but it comes a little closer. Tom looks for a name on its neck. There is a red collar, but there is no name. There is only a small silver star. Tom takes some bread from his bag and gives it to the dog. The dog eats it very fast. \"You are hungry,\" says Tom. \"Come with me.\" The dog follows him all the way home. Tom's mother is in the kitchen. She sees the dog and says, \"Tom, whose dog is this?\" Tom says, \"I don't know. I think it is lost. Can it stay with us tonight? Please?\" His mother is not happy, but she looks at the dog's sad eyes. \"Only one night,\" she says.\n\nMia is very excited. She gives the dog a bowl of water and an old blanket. She calls it Star, because of the silver star on its collar. That night, Star sleeps next to Tom's bed. Tom cannot sleep for a long time. He thinks about the dog's family. Maybe a child is crying for this dog right now.\n\nThe next morning, Tom makes a plan. He takes a piece of paper and a pen and writes, \"FOUND. Small brown dog. White feet. Black ear. Please call Tom.\" He writes his phone number at the bottom. After school, he and Mia walk down Mill Street and put the paper on every tree. Star walks with them and wags its tail.\n\nTwo days go by. Nobody calls. Tom is sad and happy at the same time. He wants to find the dog's family, but he also loves Star very much. Star plays with Mia in the garden. It runs after balls and sleeps on the sofa. Even Tom's mother laughs when Star jumps on her lap. At night, Tom hears Star walk to the window and look at the street. He knows the dog is waiting for someone. Tom sits next to him and says, \"I am sorry, Star. I am trying.\"\n\nOn Thursday evening, the phone rings. Tom runs to answer it. A woman's voice says, \"Hello? I see your paper on a tree. Is the dog's name Buddy? He has a black ear?\" Tom's heart is heavy. \"Yes,\" he says. \"I have a small brown dog. Is there a star on his collar?\" The woman starts to cry. \"Yes! My grandfather gave Buddy that star. We are looking for him everywhere!\"\n\nHalf an hour later, an old man and a young woman arrive at Tom's door. The dog sees them and goes crazy. He jumps, he barks and he runs in circles. The old man kneels down and hugs him. \"Buddy, my good boy,\" he says. His hands shake. \"I am very old now, and my legs are weak. The gate is open and Buddy goes out. I look for three days.\"\n\nThe old man looks at Tom and smiles. \"Thank you, young man. You are very kind.\" He opens his bag and gives Tom a big box from the baker's shop. Inside, there is a round chocolate cake. Tom says, \"You don't need to do this.\" But the old man says, \"Please. Take it.\" Tom and Mia stand at the door and wave goodbye. Tom is sad, but he feels good too. His mother puts her hand on his shoulder. \"You do the right thing,\" she says. On Saturday, the old man comes again. This time he brings a puppy, a little brown brother for Buddy. \"This one needs a home,\" he says. \"Do you want him?\" Tom looks at his mother, and she smiles. \"Yes, please,\" says Tom, \"and we can all walk on Mill Street together.\"",
+  "word_count": 737,
   "vocabulary": [
     {
-      "word": "village",
-      "ipa_us": "ˈvɪlɪdʒ",
-      "ipa_uk": "ˈvɪlɪdʒ",
-      "translation_ru": "деревня"
+      "word": "collar",
+      "ipa_us": "ˈkɑːlər",
+      "ipa_uk": "ˈkɒlə",
+      "translation_ru": "ошейник"
     },
     {
-      "word": "river",
-      "ipa_us": "ˈrɪvɚ",
-      "ipa_uk": "ˈrɪvə",
-      "translation_ru": "река"
+      "word": "hungry",
+      "ipa_us": "ˈhʌŋɡri",
+      "ipa_uk": "ˈhʌŋɡri",
+      "translation_ru": "голодный"
     },
     {
-      "word": "umbrella",
-      "ipa_us": "ʌmˈbrelə",
-      "ipa_uk": "ʌmˈbrelə",
-      "translation_ru": "зонт"
+      "word": "blanket",
+      "ipa_us": "ˈblæŋkɪt",
+      "ipa_uk": "ˈblæŋkɪt",
+      "translation_ru": "одеяло"
     },
     {
-      "word": "vegetables",
-      "ipa_us": "ˈvedʒtəbəlz",
-      "ipa_uk": "ˈvedʒtəbəlz",
-      "translation_ru": "овощи"
+      "word": "excited",
+      "ipa_us": "ɪkˈsaɪtɪd",
+      "ipa_uk": "ɪkˈsaɪtɪd",
+      "translation_ru": "взволнованный"
     },
     {
-      "word": "grandmother",
-      "ipa_us": "ˈɡrænˌmʌðɚ",
-      "ipa_uk": "ˈɡrænˌmʌðə",
-      "translation_ru": "бабушка"
+      "word": "wags",
+      "ipa_us": "wæɡz",
+      "ipa_uk": "wæɡz",
+      "translation_ru": "виляет"
     },
     {
-      "word": "thin",
-      "ipa_us": "θɪn",
-      "ipa_uk": "θɪn",
-      "translation_ru": "худой"
+      "word": "kneels",
+      "ipa_us": "niːlz",
+      "ipa_uk": "niːlz",
+      "translation_ru": "становится на колени"
     },
     {
-      "word": "shivering",
-      "ipa_us": "ˈʃɪvɚɪŋ",
-      "ipa_uk": "ˈʃɪvərɪŋ",
-      "translation_ru": "дрожащий"
+      "word": "puppy",
+      "ipa_us": "ˈpʌpi",
+      "ipa_uk": "ˈpʌpi",
+      "translation_ru": "щенок"
     },
     {
-      "word": "wet",
-      "ipa_us": "wet",
-      "ipa_uk": "wet",
-      "translation_ru": "мокрый"
+      "word": "gate",
+      "ipa_us": "ɡeɪt",
+      "ipa_uk": "ɡeɪt",
+      "translation_ru": "калитка"
+    },
+    {
+      "word": "shoulder",
+      "ipa_us": "ˈʃoʊldər",
+      "ipa_uk": "ˈʃəʊldə",
+      "translation_ru": "плечо"
+    },
+    {
+      "word": "chocolate",
+      "ipa_us": "ˈtʃɔːklət",
+      "ipa_uk": "ˈtʃɒklət",
+      "translation_ru": "шоколадный"
+    },
+    {
+      "word": "lost",
+      "ipa_us": "lɔːst",
+      "ipa_uk": "lɒst",
+      "translation_ru": "потерянный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ð",
       "examples": [
-        "Vera",
-        "village",
-        "vegetables"
+        "the",
+        "this",
+        "with",
+        "that"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+      "tip_ru": "Язык между зубами, голос включён; не заменяйте на «з» или «д»."
     },
     {
       "sound": "w",
       "examples": [
-        "walks",
+        "white",
         "wet",
-        "warm"
+        "walks",
+        "with"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "three",
-        "thin"
+        "sad",
+        "black",
+        "hands",
+        "that"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт широко, звук между «а» и «э»; не заменяйте на «э»."
     },
     {
-      "sound": "r",
+      "sound": "final-voiced",
       "examples": [
-        "red",
-        "river",
-        "rainy"
+        "old",
+        "cold",
+        "bed",
+        "and"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: «d» в «old» не должно звучать как «т»."
     }
   ],
   "questions": [
     {
-      "question": "Where does Vera live?",
-      "answer": "In a small village near the river.",
+      "question": "What does the dog have on its neck?",
+      "answer": "A red collar with a small silver star.",
       "accepted_keywords": [
-        "village",
-        "river"
+        "collar",
+        "star",
+        "red",
+        "silver"
       ]
     },
     {
-      "question": "What colour is the umbrella?",
-      "answer": "It is red.",
+      "question": "What does Tom do to find the dog's family?",
+      "answer": "He writes a paper and puts it on the trees on Mill Street.",
       "accepted_keywords": [
-        "red"
+        "paper",
+        "trees",
+        "write",
+        "wrote",
+        "note",
+        "phone"
       ]
     },
     {
-      "question": "What does Vera see under the tree?",
-      "answer": "A wet little cat.",
+      "question": "What is the dog's real name?",
+      "answer": "His name is Buddy.",
       "accepted_keywords": [
-        "cat"
+        "buddy"
       ]
     },
     {
-      "question": "Who goes to the market with Vera?",
-      "answer": "Her grandmother.",
+      "question": "What does the old man bring on Saturday?",
+      "answer": "A puppy for Tom.",
       "accepted_keywords": [
-        "grandmother",
-        "grandma"
+        "puppy",
+        "dog"
       ]
     }
-  ],
-  "word_count": 86
+  ]
 }

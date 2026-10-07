@@ -11,6 +11,8 @@ public sealed partial class VocabularyPage : Page
     public VocabularyPage() { InitializeComponent(); }
     protected override void OnNavigatedTo(NavigationEventArgs e) => ViewModel.Load();
 
+    private void OnDrill(object sender, RoutedEventArgs e) => App.MainWindow.NavigateTo("worddrill");
+
     private void OnDelete(object sender, RoutedEventArgs e)
     {
         if (sender is Button { Tag: long id } && ViewModel.Words.FirstOrDefault(w => w.Id == id) is { } w) ViewModel.Delete(w);

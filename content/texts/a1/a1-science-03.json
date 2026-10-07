@@ -2,121 +2,162 @@
   "id": "a1-science-03",
   "level": "A1",
   "genre": "science",
-  "title_en": "Busy Bees",
-  "title_ru": "Занятые пчёлы",
-  "description_ru": "Как живут пчёлы в улье и почему они важны для людей.",
-  "text": "Bees are small insects with a big job. They live together in a hive, and one hive has about fifty thousand bees. Every bee has work to do. Some bees clean the home. Some look after the babies. Others fly to flowers and drink sweet liquid called nectar.\n\nThey carry yellow powder from flower to flower. This helps new flowers and fruit to grow. The bees also make honey from nectar. Without bees, we have much less food. So please, be kind to bees!",
+  "title_en": "What Happens When We Sleep",
+  "title_ru": "Что происходит, когда мы спим",
+  "description_ru": "Ночь спящего человека: стадии сна, сны, работа мозга и советы для хорошего отдыха.",
+  "text": "Every night, you close your eyes and fall asleep. You do not know what happens next, because you are not awake. But your body is very busy! While you sleep, your brain and body do important work. Scientists study sleep because it is so important for our health. Let us look at one night of a sleeping person. At ten o'clock, Tom goes to bed. He turns off the light and closes his eyes. For about fifteen minutes, he lies still and thinks about his day. His heart goes slower, and his body gets cooler. Soon he falls asleep. This is the first stage of sleep. It is light sleep. If a loud noise comes now, Tom wakes up very easily.\n\nBefore bed, the body gets ready for sleep. In the evening, when it gets dark, the brain makes a chemical called melatonin. This chemical tells the body that it is time to rest. You feel a little tired, and your eyes get heavy. When it is light again in the morning, the brain stops making melatonin, and you wake up. This is the body clock. Every person has one. It works like a small invisible watch inside you.\n\nAfter a few minutes, Tom enters the second stage. His breathing is slow and deep. His muscles relax, and his body does not move. Then comes the third stage, which is deep sleep. It is very hard to wake a person in deep sleep. During this stage, the body does a lot of repair work. It fixes small injuries, builds new muscles and makes the body stronger. Children grow most when they are in deep sleep.\n\nAbout ninety minutes later, something strange happens. Tom's eyes move quickly under his eyelids. His breathing becomes faster, and his heart beats faster, too. This stage is called REM sleep. The letters mean rapid eye movement. In REM sleep, we have most of our dreams. Tom dreams that he is flying over a green forest. His body does not move, because the brain keeps the muscles quiet. It protects Tom from running around his bedroom!\n\nDreams are very interesting. Most people have four or five dreams every night, but they forget almost all of them. Some dreams are happy, and some are scary. People often dream about school, about falling or about flying. Scientists do not know exactly why we dream. Maybe the brain is sorting the events of the day. Maybe it is practising how to solve problems. Blind people dream too, and their dreams have sounds and smells.\n\nThe night has four or five such cycles. Each cycle lasts about ninety minutes. Early in the night, there is a lot of deep sleep. Later, there is more dreaming. At six in the morning, Tom is in his last cycle, and his sleep is light again. The body prepares to wake up. His temperature goes up, and his body makes a chemical that gives him energy. At seven, the alarm rings, and he opens his eyes.\n\nHow much sleep do we need? It depends on our age. A baby needs fourteen hours a day. A child needs about ten hours. A teenager needs nine, and an adult needs seven or eight hours. Many people sleep less than they should. They feel tired and angry. They forget things, and they make more mistakes. A tired person cannot learn well, and he catches colds more easily.\n\nSleep also helps the brain. In the night, the brain cleans itself, like a kitchen after a big dinner. It takes out bad chemicals and makes memories strong. If you study something in the evening and then sleep well, you remember it better the next day. That is why many students do better in exams after a good night.\n\nAnimals also need sleep. A cat sleeps for fifteen hours a day, and a koala sleeps for twenty. Giraffes sleep only for about two hours. Dolphins sleep with half of the brain at a time, so they can keep swimming and breathing. Some birds even sleep while they fly! Every animal has its own way of resting, but no animal can live without it.\n\nSo, how can you sleep better? Here are some simple rules. Go to bed at the same time every night. Do not drink coffee in the evening. Turn off your phone an hour before bed, because the light from the screen tells your brain to stay awake. Keep your room dark, quiet and cool. Then close your eyes, and let your wonderful body do its night work.",
+  "word_count": 760,
   "vocabulary": [
     {
-      "word": "insects",
-      "ipa_us": "ˈɪnsekts",
-      "ipa_uk": "ˈɪnsekts",
-      "translation_ru": "насекомые"
+      "word": "brain",
+      "ipa_us": "breɪn",
+      "ipa_uk": "breɪn",
+      "translation_ru": "мозг"
     },
     {
-      "word": "hive",
-      "ipa_us": "haɪv",
-      "ipa_uk": "haɪv",
-      "translation_ru": "улей"
+      "word": "muscles",
+      "ipa_us": "ˈmʌslz",
+      "ipa_uk": "ˈmʌslz",
+      "translation_ru": "мышцы"
     },
     {
-      "word": "nectar",
-      "ipa_us": "ˈnektɚ",
-      "ipa_uk": "ˈnektə",
-      "translation_ru": "нектар"
+      "word": "dream",
+      "ipa_us": "driːm",
+      "ipa_uk": "driːm",
+      "translation_ru": "видеть сон"
     },
     {
-      "word": "carry",
-      "ipa_us": "ˈkeri",
-      "ipa_uk": "ˈkæri",
-      "translation_ru": "переносить"
+      "word": "breathing",
+      "ipa_us": "ˈbriːðɪŋ",
+      "ipa_uk": "ˈbriːðɪŋ",
+      "translation_ru": "дыхание"
     },
     {
-      "word": "powder",
-      "ipa_us": "ˈpaʊdɚ",
-      "ipa_uk": "ˈpaʊdə",
-      "translation_ru": "пыльца, порошок"
+      "word": "repair",
+      "ipa_us": "rɪˈpɛr",
+      "ipa_uk": "rɪˈpeə",
+      "translation_ru": "ремонт, восстановление"
     },
     {
-      "word": "fruit",
-      "ipa_us": "fruːt",
-      "ipa_uk": "fruːt",
-      "translation_ru": "фрукты"
+      "word": "temperature",
+      "ipa_us": "ˈtɛmprətʃər",
+      "ipa_uk": "ˈtemprətʃə",
+      "translation_ru": "температура"
     },
     {
-      "word": "honey",
-      "ipa_us": "ˈhʌni",
-      "ipa_uk": "ˈhʌni",
-      "translation_ru": "мёд"
+      "word": "alarm",
+      "ipa_us": "əˈlɑːrm",
+      "ipa_uk": "əˈlɑːm",
+      "translation_ru": "будильник"
     },
     {
-      "word": "kind",
-      "ipa_us": "kaɪnd",
-      "ipa_uk": "kaɪnd",
-      "translation_ru": "добрый"
+      "word": "memories",
+      "ipa_us": "ˈmɛməriz",
+      "ipa_uk": "ˈmeməriz",
+      "translation_ru": "воспоминания"
+    },
+    {
+      "word": "chemical",
+      "ipa_us": "ˈkɛmɪkl",
+      "ipa_uk": "ˈkemɪkl",
+      "translation_ru": "химическое вещество"
+    },
+    {
+      "word": "health",
+      "ipa_us": "hɛlθ",
+      "ipa_uk": "helθ",
+      "translation_ru": "здоровье"
+    },
+    {
+      "word": "relax",
+      "ipa_us": "rɪˈlæks",
+      "ipa_uk": "rɪˈlæks",
+      "translation_ru": "расслабляться"
+    },
+    {
+      "word": "eyelids",
+      "ipa_us": "ˈaɪlɪdz",
+      "ipa_uk": "ˈaɪlɪdz",
+      "translation_ru": "веки"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "h",
+      "sound": "θ",
       "examples": [
-        "hive",
-        "honey",
-        "helps",
-        "home"
+        "health",
+        "thinks",
+        "with"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "brain",
+        "day",
+        "wake",
+        "later"
+      ],
+      "tip_ru": "Двигайте язык от «э» к «и»; не произносите как чистое «э» или «эй» с резким «й»."
     },
     {
       "sound": "iː",
       "examples": [
-        "bees",
-        "clean",
-        "sweet",
-        "please"
+        "sleep",
+        "deep",
+        "dream",
+        "easily"
       ],
-      "tip_ru": "Долгий звук «и»: растяните губы в лёгкой улыбке и держите звук дольше, чем русское «и»."
+      "tip_ru": "Долгий «и», растяните губы в улыбке; он длиннее русского «и»."
     },
     {
-      "sound": "aɪ",
+      "sound": "word-stress",
       "examples": [
-        "hive",
-        "fly",
-        "kind"
+        "alarm",
+        "repair",
+        "relax",
+        "temperature"
       ],
-      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "Where do bees live?",
-      "answer": "In a hive.",
+      "question": "What does the body do in deep sleep?",
+      "answer": "It repairs itself and builds new muscles.",
       "accepted_keywords": [
-        "hive"
+        "repair",
+        "fix",
+        "muscles",
+        "grow"
       ]
     },
     {
-      "question": "What do bees drink from flowers?",
-      "answer": "Nectar.",
+      "question": "In which stage do we have most dreams?",
+      "answer": "In REM sleep.",
       "accepted_keywords": [
-        "nectar"
+        "rem"
       ]
     },
     {
-      "question": "What do bees make?",
-      "answer": "Honey.",
+      "question": "How many hours of sleep does an adult need?",
+      "answer": "Seven or eight hours.",
       "accepted_keywords": [
-        "honey"
+        "seven",
+        "eight",
+        "7",
+        "8"
       ]
     },
     {
-      "question": "What helps new flowers grow?",
-      "answer": "Yellow powder from bees.",
+      "question": "Why must we turn off the phone before bed?",
+      "answer": "The light of the screen tells the brain to stay awake.",
       "accepted_keywords": [
-        "powder",
-        "bees"
+        "light",
+        "screen",
+        "awake"
       ]
     }
-  ],
-  "word_count": 84
+  ]
 }

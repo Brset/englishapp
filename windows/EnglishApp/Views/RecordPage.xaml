@@ -5,28 +5,78 @@
         <KeyboardAccelerator Key="Space" Invoked="OnSpace" />
         <KeyboardAccelerator Key="R" Invoked="OnReplay" />
     </Page.KeyboardAccelerators>
-    <Grid Padding="32" RowSpacing="12">
+    <Grid Padding="32,24,32,24" RowSpacing="10">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <StackPanel>
-            <TextBlock Text="Запись" Style="{StaticResource TitleTextBlockStyle}" />
-            <TextBlock Text="{x:Bind ViewModel.Title, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
-            <TextBlock Text="Пробел: начать/остановить запись · R: прослушать образец"
-                       Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+
+        <Grid ColumnSpacing="16">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <TextBlock Text="Запись" Style="{StaticResource TitleTextBlockStyle}" />
+                <TextBlock Text="{x:Bind ViewModel.Title, Mode=OneWay}" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                <TextBlock Text="Пробел: начать/остановить · R: образец"
+                           Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="14" VerticalAlignment="Top">
+                <ToggleSwitch Header="По абзацам" OnContent="Да" OffContent="Нет" IsTabStop="False"
+                              IsOn="{x:Bind ViewModel.IsParagraphMode, Mode=TwoWay}"
+                              IsEnabled="{x:Bind ViewModel.CanChangeMode, Mode=OneWay}" />
+                <ToggleSwitch Header="Автопереход" OnContent="Да" OffContent="Нет" IsTabStop="False"
+                              IsOn="{x:Bind ViewModel.AutoAdvance, Mode=TwoWay}"
+                              Visibility="{x:Bind ViewModel.IsParagraphMode, Mode=OneWay}" />
+                <ComboBox Header="Шрифт" Width="80" IsTabStop="False" ItemsSource="{x:Bind ViewModel.Typo.FontSizeNames}"
+                          SelectedIndex="{x:Bind ViewModel.Typo.FontSizeIndex, Mode=TwoWay}" />
+                <ComboBox Header="Интервал" Width="120" IsTabStop="False" ItemsSource="{x:Bind ViewModel.Typo.LineSpacingNames}"
+                          SelectedIndex="{x:Bind ViewModel.Typo.LineSpacingIndex, Mode=TwoWay}" />
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Spacing="6">
+            <Grid ColumnSpacing="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="{x:Bind ViewModel.CoverageText, Mode=OneWay}" Style="{StaticResource SubtitleTextBlockStyle}"
+                           Foreground="{ThemeResource AccentTextFillColorPrimaryBrush}" />
+                <TextBlock Grid.Column="1" Text="{x:Bind ViewModel.ParaLabel, Mode=OneWay}" VerticalAlignment="Center"
+                           Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            </Grid>
+            <ProgressBar Minimum="0" Maximum="100" Height="6" Value="{x:Bind ViewModel.CoveragePct, Mode=OneWay}" />
         </StackPanel>
-        <ScrollViewer Grid.Row="1" x:Name="Scroller" SizeChanged="OnScrollerSizeChanged">
-            <RichTextBlock x:Name="Body" FontSize="20" LineHeight="32" TextWrapping="Wrap" MaxWidth="900"
-                           HorizontalAlignment="Left" Tapped="OnBodyTapped" />
+
+        <ScrollViewer Grid.Row="2" x:Name="Scroller" SizeChanged="OnScrollerSizeChanged">
+            <RichTextBlock x:Name="Body" TextWrapping="Wrap" MaxWidth="900" HorizontalAlignment="Left" Tapped="OnBodyTapped"
+                           FontSize="{x:Bind ViewModel.Typo.BodyFontSize, Mode=OneWay}"
+                           LineHeight="{x:Bind ViewModel.Typo.BodyLineHeight, Mode=OneWay}" />
         </ScrollViewer>
-        <StackPanel Grid.Row="2" Spacing="10">
-            <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.Level, Mode=OneWay}" Height="10" />
+        <StackPanel Grid.Row="2" Spacing="12" HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Visibility="{x:Bind ViewModel.NoText, Mode=OneWay}">
+            <FontIcon Glyph="&#xE736;" FontSize="48" Foreground="{ThemeResource TextFillColorTertiaryBrush}" />
+            <TextBlock Text="Сначала выберите текст" Style="{StaticResource SubtitleTextBlockStyle}" HorizontalAlignment="Center" />
+            <TextBlock Text="Откройте библиотеку и нажмите на текст, который хотите прочитать вслух."
+                       Foreground="{ThemeResource TextFillColorSecondaryBrush}" HorizontalAlignment="Center" />
+            <Button Content="Открыть библиотеку" Click="OnShowLibrary" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Spacing="10">
+            <ProgressBar Minimum="0" Maximum="100" Value="{x:Bind ViewModel.Level, Mode=OneWay}" Height="8" />
             <StackPanel Orientation="Horizontal" Spacing="12">
                 <Button Content="{x:Bind ViewModel.ButtonText, Mode=OneWay}" Command="{x:Bind ViewModel.ToggleCommand}"
                         Style="{StaticResource AccentButtonStyle}" IsTabStop="False"
                         IsEnabled="{x:Bind ViewModel.HasText, Mode=OneWay}" />
+                <Button Content="Назад" Command="{x:Bind ViewModel.PrevCommand}" IsTabStop="False"
+                        Visibility="{x:Bind ViewModel.IsParagraphMode, Mode=OneWay}" />
+                <Button Content="Дальше" Command="{x:Bind ViewModel.NextCommand}" IsTabStop="False"
+                        Visibility="{x:Bind ViewModel.IsParagraphMode, Mode=OneWay}" />
+                <Button Content="Завершить" Command="{x:Bind ViewModel.FinishCommand}" IsTabStop="False" />
                 <Button Content="Образец (R)" Command="{x:Bind ViewModel.ReplayReferenceCommand}" IsTabStop="False" />
                 <TextBlock Text="{x:Bind ViewModel.Elapsed, Mode=OneWay}" VerticalAlignment="Center" FontSize="20" />
                 <ProgressRing IsActive="{x:Bind ViewModel.IsBusy, Mode=OneWay}" Width="24" Height="24" />

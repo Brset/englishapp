@@ -2,121 +2,158 @@
   "id": "a1-story-04",
   "level": "A1",
   "genre": "story",
-  "title_en": "The Last Bus",
-  "title_ru": "Последний автобус",
-  "description_ru": "Поздним вечером Нина ждёт автобус, который не приходит. Но помощь рядом.",
-  "text": "It is late, and Nina is at the bus stop. The street is quiet and dark. She looks at her watch. The last bus is not here.\n\nSuddenly, a small yellow car stops. A friendly old man opens the window. \"Do you need a ride?\" he asks. Nina is not sure. Then she sees a sign on the car: TAXI. She laughs and says yes.\n\n\"Where do you want to go?\"\n\"To Green Street, please,\" she says.\n\nThe man smiles, and they drive through the night.",
+  "title_en": "The Guitar in the Square",
+  "title_ru": "Гитара на площади",
+  "description_ru": "Уличный музыкант из Мадрида мечтает о большой сцене, и ему помогает маленький мальчик под красным зонтом.",
+  "text": "Pablo is a street musician in Madrid. Every morning, he takes his old guitar and walks to the square near the big church. He sits on the same stone step, opens his guitar case and starts to play. People walk past him on their way to work. Some of them stop for a minute and put a coin in his case. Most people do not look at him at all.\n\nPablo is thirty years old, and he has a dream. He wants to play in a real concert hall, with lights and a big crowd. But nobody knows his name. He has no manager and no money. At night, he sleeps in a small room above a restaurant. The room is cold, but the owner, Mrs. Garcia, is kind. She often gives him soup and says, \"One day, Pablo, they will hear you.\"\n\nPablo's guitar is very old. His grandfather gives it to him when he is only eight years old. There is a small crack on the side, and one string is always out of tune. But Pablo loves it. When he plays, he thinks about his grandfather's garden in the south, with the orange trees and the warm evenings. His fingers know every song by heart. That is why he never stops playing, even on cold days.\n\nOne rainy Saturday, the square is almost empty. Pablo plays a slow, sad song, but only a pigeon listens. Then he sees a little boy. The boy is about six years old and he stands under a red umbrella. He does not move. He looks at Pablo's hands and listens with big eyes. When the song ends, the boy puts a shiny coin into the case. \"Again, please,\" he says.\n\nPablo plays the song again, and again. The boy's mother arrives and says, \"Diego, come on. We are late.\" But Diego does not want to go. \"He plays so nicely, Mama,\" he says. The woman listens for a minute. Then she says, \"You are right, my son. This is lovely music.\" She gives Pablo a card. \"I work at the city radio,\" she says. \"Can you come to the studio on Monday?\"\n\nPablo cannot sleep on Sunday night. He thinks, \"What if they do not like me? What if I am too nervous?\" On Monday morning he washes his face, puts on his best shirt and takes his guitar. At the studio, a man with a large microphone says, \"You have ten minutes.\" Pablo's hands are shaking. He closes his eyes and sees the little boy under the red umbrella. Then he begins to play.\n\nThe ten minutes become twenty. The people in the studio stop talking. When Pablo finishes, there is a long silence. Then the man smiles and says, \"Can you play on the radio on Friday? We have a show about new artists.\" Pablo cannot speak. He just nods. Outside, he sits on a bench and laughs and cries at the same time.\n\nOn Friday, thousands of people hear his music. Mrs. Garcia turns up the radio in her restaurant. All the customers stop eating and listen. \"That is our Pablo!\" she says proudly. By the evening, the phone in the studio is ringing and ringing. A theatre in the south wants him for a small concert. A school wants him for a music class. Suddenly, people know his name.\n\nAfter the radio show, Pablo goes back to the square. A lot of people are waiting for him now. A woman asks, \"Are you the guitar man from the radio?\" He nods, and she claps. An old man buys his small CD and asks him to sign it. Pablo does not know how to sign his name, so he writes it very slowly. His hands are shaking again, but this time he is happy.\n\nMonths later, Pablo plays in a beautiful hall with warm lights. The seats are full. In the first row, a small boy sits with his mother, and Pablo sees him. After the concert, he gives the boy a present. It is a small wooden guitar. \"This is for you, Diego,\" he says. \"You are the first person who really hears me.\" The boy holds the guitar and smiles. Pablo looks at the crowd and thinks of the rainy square. Now he understands. Every great concert starts with one person who listens.",
+  "word_count": 727,
   "vocabulary": [
     {
-      "word": "quiet",
-      "ipa_us": "ˈkwaɪət",
-      "ipa_uk": "ˈkwaɪət",
-      "translation_ru": "тихий"
+      "word": "musician",
+      "ipa_us": "mjuˈzɪʃn",
+      "ipa_uk": "mjuˈzɪʃn",
+      "translation_ru": "музыкант"
     },
     {
-      "word": "dark",
-      "ipa_us": "dɑːrk",
-      "ipa_uk": "dɑːk",
-      "translation_ru": "тёмный"
+      "word": "guitar",
+      "ipa_us": "ɡɪˈtɑːr",
+      "ipa_uk": "ɡɪˈtɑː",
+      "translation_ru": "гитара"
     },
     {
-      "word": "watch",
-      "ipa_us": "wɑːtʃ",
-      "ipa_uk": "wɒtʃ",
-      "translation_ru": "наручные часы"
+      "word": "square",
+      "ipa_us": "skwɛr",
+      "ipa_uk": "skweə",
+      "translation_ru": "площадь"
     },
     {
-      "word": "suddenly",
-      "ipa_us": "ˈsʌdənli",
-      "ipa_uk": "ˈsʌdənli",
-      "translation_ru": "вдруг"
+      "word": "coin",
+      "ipa_us": "kɔɪn",
+      "ipa_uk": "kɔɪn",
+      "translation_ru": "монета"
     },
     {
-      "word": "window",
-      "ipa_us": "ˈwɪndoʊ",
-      "ipa_uk": "ˈwɪndəʊ",
-      "translation_ru": "окно"
+      "word": "umbrella",
+      "ipa_us": "ʌmˈbrɛlə",
+      "ipa_uk": "ʌmˈbrelə",
+      "translation_ru": "зонт"
     },
     {
-      "word": "friendly",
-      "ipa_us": "ˈfrendli",
-      "ipa_uk": "ˈfrendli",
-      "translation_ru": "дружелюбный"
+      "word": "studio",
+      "ipa_us": "ˈstuːdioʊ",
+      "ipa_uk": "ˈstjuːdiəʊ",
+      "translation_ru": "студия"
     },
     {
-      "word": "ride",
-      "ipa_us": "raɪd",
-      "ipa_uk": "raɪd",
-      "translation_ru": "поездка"
+      "word": "microphone",
+      "ipa_us": "ˈmaɪkrəfoʊn",
+      "ipa_uk": "ˈmaɪkrəfəʊn",
+      "translation_ru": "микрофон"
     },
     {
-      "word": "sign",
-      "ipa_us": "saɪn",
-      "ipa_uk": "saɪn",
-      "translation_ru": "знак, табличка"
+      "word": "nervous",
+      "ipa_us": "ˈnɜːrvəs",
+      "ipa_uk": "ˈnɜːvəs",
+      "translation_ru": "нервный"
+    },
+    {
+      "word": "concert",
+      "ipa_us": "ˈkɑːnsərt",
+      "ipa_uk": "ˈkɒnsət",
+      "translation_ru": "концерт"
+    },
+    {
+      "word": "crowd",
+      "ipa_us": "kraʊd",
+      "ipa_uk": "kraʊd",
+      "translation_ru": "толпа"
+    },
+    {
+      "word": "pigeon",
+      "ipa_us": "ˈpɪdʒɪn",
+      "ipa_uk": "ˈpɪdʒɪn",
+      "translation_ru": "голубь"
+    },
+    {
+      "word": "silence",
+      "ipa_us": "ˈsaɪləns",
+      "ipa_uk": "ˈsaɪləns",
+      "translation_ru": "тишина"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ɔɪ",
       "examples": [
-        "watch",
-        "window",
-        "want",
-        "where"
+        "coin",
+        "boy"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Скольжение от «о» к «и»; оба элемента произносите в одном слоге."
     },
     {
-      "sound": "ð",
+      "sound": "aspiration",
       "examples": [
-        "the",
-        "then",
-        "they"
+        "Pablo",
+        "play",
+        "people",
+        "time"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Звуки p, t, k в начале слога произносите с лёгким придыханием, как маленький выдох."
     },
     {
       "sound": "r",
       "examples": [
-        "street",
-        "green",
-        "ride"
+        "red",
+        "rainy",
+        "radio",
+        "right"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Кончик языка поднят, но не касается нёба и не вибрирует; губы слегка округлены."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "guitar",
+        "musician",
+        "umbrella",
+        "microphone"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "Where is Nina?",
-      "answer": "At the bus stop.",
+      "question": "Where does Pablo play his guitar?",
+      "answer": "On a stone step in a square in Madrid.",
       "accepted_keywords": [
-        "bus",
-        "stop"
-      ]
-    },
-    {
-      "question": "What colour is the car?",
-      "answer": "Yellow.",
-      "accepted_keywords": [
-        "yellow"
-      ]
-    },
-    {
-      "question": "What is the sign on the car?",
-      "answer": "Taxi.",
-      "accepted_keywords": [
-        "taxi"
-      ]
-    },
-    {
-      "question": "Where does Nina want to go?",
-      "answer": "To Green Street.",
-      "accepted_keywords": [
-        "green",
+        "square",
+        "madrid",
+        "step",
         "street"
       ]
+    },
+    {
+      "question": "Who listens to Pablo on the rainy Saturday?",
+      "answer": "A little boy with a red umbrella.",
+      "accepted_keywords": [
+        "boy",
+        "diego",
+        "umbrella"
+      ]
+    },
+    {
+      "question": "Where does the boy's mother work?",
+      "answer": "At the city radio.",
+      "accepted_keywords": [
+        "radio"
+      ]
+    },
+    {
+      "question": "What present does Pablo give to the boy?",
+      "answer": "A small wooden guitar.",
+      "accepted_keywords": [
+        "guitar"
+      ]
     }
-  ],
-  "word_count": 86
+  ]
 }

@@ -2,141 +2,161 @@
   "id": "b2-science-04",
   "level": "B2",
   "genre": "science",
-  "title_en": "Sleep and Memory",
-  "title_ru": "Сон и память",
-  "description_ru": "О том, как сон помогает мозгу закреплять воспоминания, и почему недосып вредит учёбе.",
-  "text": "For centuries, sleep was considered a passive state in which the brain simply switched off. Modern research has shown that this idea was completely wrong. While we sleep, the brain is extremely busy, and one of its most important tasks is the organisation of memories.\n\nA typical night consists of four or five cycles, each lasting around ninety minutes. Every cycle includes light sleep, deep sleep and rapid eye movement sleep, usually abbreviated to REM. Each stage appears to serve a different purpose.\n\nDuring deep sleep, the brain replays the events of the day. Scientists studying rats found that the same patterns of neural activity that occurred while the animals were learning a maze were repeated, at a faster speed, as they slept. It is believed that this process transfers information from the hippocampus, a small structure that stores new experiences temporarily, to the cortex, where long-term memories are kept.\n\nREM sleep, which is the stage when most vivid dreams occur, seems to be more important for emotional memories and creative thinking. In one famous experiment, volunteers who had been allowed to dream solved a difficult puzzle far more often than those who had stayed awake.\n\nThe consequences of sleep deprivation are serious. Students who regularly sleep for fewer than six hours remember considerably less of what they have studied. Studies also suggest that a single sleepless night can reduce the ability to form new memories by about forty percent. Furthermore, tired people tend to make riskier decisions and react more slowly, which explains why drowsy driving is so dangerous.\n\nHow can we sleep better? Experts usually recommend keeping a regular schedule, avoiding caffeine in the late afternoon and switching off bright screens before bedtime. A cool, dark room also helps.\n\nSo the next time someone tells you to burn the midnight oil before an exam, you might reply that a good night's sleep is the better strategy. After all, a rested brain does not merely remember more. It also understands more.",
-  "word_count": 333,
+  "title_en": "The Language of the Honeybee",
+  "title_ru": "Язык медоносной пчелы",
+  "description_ru": "О том, как пчёлы сообщают друг другу, где найти нектар, и как целая семья принимает общие решения.",
+  "text": "In 1973, an Austrian scientist named Karl von Frisch shared a Nobel Prize for a discovery that had taken him almost forty years. He had proved that honeybees possess a form of symbolic communication, one of the very few known in the animal kingdom outside our own species. The bees do not use sounds or words. They use a dance, and its meaning is so precise that a human observer can read it and find the flowers the bees have been visiting.\n\nA honeybee colony is a remarkable society. In summer, a single hive may contain fifty thousand workers, all of them daughters of one queen. Different workers are given different jobs, and these change during their lives. Young bees clean the cells and feed the larvae, middle-aged bees build wax and guard the entrance, and the oldest ones, which are generally about three weeks old, become foragers who fly out to collect nectar and pollen.\n\nFinding food is not easy. Flowers are scattered over an area of several square kilometres, and they bloom and fade according to the weather. Each morning, scout bees leave the hive without any information, and some of them return with nectar from a promising patch. What happens next is the extraordinary part. Inside the dark hive, the successful forager climbs onto the vertical surface of the honeycomb and begins to dance.\n\nThe most informative version is called the waggle dance. The bee walks forward in a straight line while shaking her body rapidly from side to side, then circles back to the starting point and repeats the movement, alternating between the left and the right loops. The straight section, known as the waggle run, carries the message. Its duration tells the others how far away the flowers are. The longer the run, the greater the distance, with roughly one second corresponding to about a kilometre.\n\nThe direction is communicated in an equally ingenious way. Because the hive is dark and the dance takes place on a vertical wall, the bee cannot point towards the flowers. Instead, she uses gravity as a reference. If she waggles straight upward, the food is in the direction of the sun. If she waggles at an angle of forty degrees to the right of vertical, the flowers lie forty degrees to the right of the sun. Remarkably, the bees even correct the angle as the sun moves across the sky.\n\nThe audience stays close to the dancer, touching her with their antennae, and they pick up the odour of the flowers that clings to her body. Then they fly out and search, using the dance as a map and the smell as a clue. It is worth remembering that these insects have brains smaller than a sesame seed. Their ability to carry out this task shows that complicated behaviour does not require a large brain, only a well-organised system.\n\nNot every dance is a waggle dance. When the food is very close, within perhaps fifty metres, a forager performs a simpler round dance, which tells the audience only that flowers are nearby and invites them to search in every direction. The change to the waggle dance happens gradually as the distance grows, and some scientists suspect that the round dance is the older form from which the more precise language evolved.\n\nThe dance also helps a colony make decisions. In late spring, when a hive becomes overcrowded, about half of the bees leave with the old queen and form a swarm, which hangs from a branch while scouts look for a new home. Each scout returns and dances for the site she has found, and the better the site, the longer and more energetic her performance. Gradually, other scouts visit the sites that are most strongly advertised and then dance for them too.\n\nEventually, one site attracts so many supporters that a kind of quorum is reached, and the whole swarm takes off together. The biologist Thomas Seeley, who studied this process in detail, observed that the bees make the right choice, in the sense of choosing the best cavity, in the great majority of cases. There is no leader, and no individual understands the whole situation. The wisdom comes from the group, and it has been described as a democracy without politicians.\n\nAll this matters beyond curiosity. Honeybees, together with wild bees and other insects, pollinate many of the crops that people depend on, and it is estimated that roughly a third of the food we eat benefits from their work. In recent years, colonies have been weakened by disease, pesticides and the loss of wild flowers, and scientists are using the dance as a tool to study where bees find food and what damage has been done to their environment.\n\nVon Frisch once said that the life of bees was like a magic well: the more you draw from it, the more it fills with water. Eighty years after his early experiments, researchers are still discovering new details, and each one confirms that a creature the size of a fingertip can teach us a great deal about information, cooperation and the way a society can think.",
+  "word_count": 860,
   "vocabulary": [
     {
-      "word": "passive",
-      "ipa_us": "ˈpæsɪv",
-      "ipa_uk": "ˈpæsɪv",
-      "translation_ru": "пассивный"
+      "word": "symbolic",
+      "ipa_us": "sɪmˈbɑːlɪk",
+      "ipa_uk": "sɪmˈbɒlɪk",
+      "translation_ru": "символический"
     },
     {
-      "word": "organisation",
-      "ipa_us": "ˌɔrɡənəˈzeɪʃən",
-      "ipa_uk": "ˌɔːɡənaɪˈzeɪʃən",
-      "translation_ru": "организация"
+      "word": "colony",
+      "ipa_us": "ˈkɑːləni",
+      "ipa_uk": "ˈkɒləni",
+      "translation_ru": "колония, семья"
     },
     {
-      "word": "abbreviated",
-      "ipa_us": "əˈbrivieɪtɪd",
-      "ipa_uk": "əˈbriːvieɪtɪd",
-      "translation_ru": "сокращённо называется"
+      "word": "foragers",
+      "ipa_us": "ˈfɔːrɪdʒərz",
+      "ipa_uk": "ˈfɒrɪdʒəz",
+      "translation_ru": "фуражиры, сборщицы"
     },
     {
-      "word": "neural",
-      "ipa_us": "ˈnʊrəl",
-      "ipa_uk": "ˈnjʊərəl",
-      "translation_ru": "нейронный"
+      "word": "nectar",
+      "ipa_us": "ˈnɛktər",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
     },
     {
-      "word": "maze",
-      "ipa_us": "meɪz",
-      "ipa_uk": "meɪz",
-      "translation_ru": "лабиринт"
+      "word": "scattered",
+      "ipa_us": "ˈskætərd",
+      "ipa_uk": "ˈskætəd",
+      "translation_ru": "разбросаны"
     },
     {
-      "word": "hippocampus",
-      "ipa_us": "ˌhɪpəˈkæmpəs",
-      "ipa_uk": "ˌhɪpəˈkæmpəs",
-      "translation_ru": "гиппокамп"
+      "word": "vertical",
+      "ipa_us": "ˈvɜːrtɪkl",
+      "ipa_uk": "ˈvɜːtɪkl",
+      "translation_ru": "вертикальный"
     },
     {
-      "word": "vivid",
-      "ipa_us": "ˈvɪvɪd",
-      "ipa_uk": "ˈvɪvɪd",
-      "translation_ru": "яркий"
+      "word": "ingenious",
+      "ipa_us": "ɪnˈdʒiːniəs",
+      "ipa_uk": "ɪnˈdʒiːniəs",
+      "translation_ru": "изобретательный"
     },
     {
-      "word": "deprivation",
-      "ipa_us": "ˌdɛprɪˈveɪʃən",
-      "ipa_uk": "ˌdeprɪˈveɪʃən",
-      "translation_ru": "лишение"
+      "word": "antennae",
+      "ipa_us": "ænˈtɛni",
+      "ipa_uk": "ænˈteni",
+      "translation_ru": "усики, антенны"
     },
     {
-      "word": "drowsy",
-      "ipa_us": "ˈdraʊzi",
-      "ipa_uk": "ˈdraʊzi",
-      "translation_ru": "сонный"
+      "word": "swarm",
+      "ipa_us": "swɔːrm",
+      "ipa_uk": "swɔːm",
+      "translation_ru": "рой"
     },
     {
-      "word": "strategy",
-      "ipa_us": "ˈstrætədʒi",
-      "ipa_uk": "ˈstrætədʒi",
-      "translation_ru": "стратегия"
+      "word": "quorum",
+      "ipa_us": "ˈkwɔːrəm",
+      "ipa_uk": "ˈkwɔːrəm",
+      "translation_ru": "кворум"
+    },
+    {
+      "word": "pollinate",
+      "ipa_us": "ˈpɑːləneɪt",
+      "ipa_uk": "ˈpɒləneɪt",
+      "translation_ru": "опылять"
+    },
+    {
+      "word": "pesticides",
+      "ipa_us": "ˈpɛstɪsaɪdz",
+      "ipa_uk": "ˈpestɪsaɪdz",
+      "translation_ru": "пестициды"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "vivid",
-        "every",
-        "deprivation"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
       "sound": "w",
       "examples": [
-        "while",
-        "awake",
-        "was"
+        "waggle",
+        "worker",
+        "weather",
+        "wall"
       ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Губы округлены, как для «у», затем быстро раскрываются; зубы не касаются губы."
     },
     {
-      "sound": "ð",
+      "sound": "v",
       "examples": [
-        "than",
-        "those",
-        "they"
+        "vertical",
+        "very",
+        "moves",
+        "have"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но добавьте голос: the, they, those звучат с межзубным звуком, а не «з»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; это не «ф» и не «у»."
     },
     {
-      "sound": "eɪ",
+      "sound": "ɜː",
       "examples": [
-        "maze",
-        "brain",
-        "day"
+        "workers",
+        "vertical",
+        "observer"
       ],
-      "tip_ru": "Двигайтесь от «э» к «и» плавно, как один долгий звук; не заканчивайте на чистом «э»."
+      "tip_ru": "Долгий звук с нейтральным положением языка, губы не округлены; в американском варианте звучит «r»."
+    },
+    {
+      "sound": "ŋ",
+      "examples": [
+        "long",
+        "strongly",
+        "morning"
+      ],
+      "tip_ru": "Язык у мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
     }
   ],
   "questions": [
     {
-      "question": "How long does each sleep cycle last?",
-      "answer": "About ninety minutes.",
+      "question": "What prize did Karl von Frisch share in 1973?",
+      "answer": "A Nobel Prize.",
       "accepted_keywords": [
-        "ninety",
-        "90"
+        "nobel"
       ]
     },
     {
-      "question": "Which stage is more important for emotional memories?",
-      "answer": "REM sleep.",
+      "question": "What does the length of the waggle run tell the other bees?",
+      "answer": "How far away the flowers are.",
       "accepted_keywords": [
-        "rem"
+        "distance",
+        "far",
+        "away"
       ]
     },
     {
-      "question": "Where do new memories move to from the hippocampus?",
-      "answer": "To the cortex.",
+      "question": "How do bees show direction on a vertical wall?",
+      "answer": "They use the angle from vertical to represent the angle from the sun.",
       "accepted_keywords": [
-        "cortex"
+        "angle",
+        "sun",
+        "vertical",
+        "gravity"
       ]
     },
     {
-      "question": "What do experts recommend before bedtime?",
-      "answer": "Switching off bright screens.",
+      "question": "How does a swarm choose a new home?",
+      "answer": "Scouts dance for sites, and the best-advertised one reaches a quorum.",
       "accepted_keywords": [
-        "screens",
-        "switch",
-        "off"
+        "scouts",
+        "dance",
+        "quorum",
+        "sites",
+        "vote"
       ]
     }
   ]

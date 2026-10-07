@@ -2,119 +2,160 @@
   "id": "a1-opinion-01",
   "level": "A1",
   "genre": "opinion",
-  "title_en": "I Love Rainy Days",
-  "title_ru": "Я люблю дождливые дни",
-  "description_ru": "Короткое мнение о том, чем хороша дождливая погода.",
-  "text": "Many people think rainy days are bad. I think they are great! I love the rain.\n\nFirst, the world is quiet when it rains. I hear the water on the window, and I feel calm. Second, I can stay at home. I make hot tea, wear warm socks and read a good book.\n\nThird, rain is good for the trees and the flowers. The streets are clean and the air is fresh. Of course, I need an umbrella and boots. But I do not mind. For me, a rainy day is a gift. What do you think about rain?",
-  "word_count": 99,
+  "title_en": "Why I Love Walking",
+  "title_ru": "Почему я люблю ходить пешком",
+  "description_ru": "Личное мнение о том, как ежедневная прогулка помогает здоровью, настроению и знакомству с родным городом.",
+  "text": "I think walking is the best way to start a day. Every morning I walk to work, and it takes me forty minutes. My friends say, \"Forty minutes? Why don't you take the bus?\" I smile and answer, \"Because my walk is my favourite time of the day.\" In this text I want to tell you why I think everybody should walk more.\n\nFirst, walking is good for your body. You do not need a gym, special shoes or a lot of money. You only need your legs. When I walk fast, my heart works harder and I feel warm. After a week of walking, I sleep better at night. My back does not hurt, and I have more energy. Doctors say that thirty minutes of walking every day is very good for our health. I believe them, because I can feel it.\n\nSecond, walking is good for your mind. When I sit in a car or a bus, I look at my phone. I read messages, I check the news, and my head is full of noise. When I walk, I put my phone in my pocket. I look at the street, the trees and the sky. I think about my plans for the day. Sometimes I find answers to my problems. Many writers and scientists say that they get their best ideas on a walk. I am not a famous writer, but I have the same experience.\n\nThird, when you walk, you see your city in a new way. In a car you drive past everything very fast. On foot, you notice small things. On my street there is a little bakery, and every morning I smell hot bread. There is an old man who sits in front of his house and reads a newspaper. He always says \"Good morning\" to me. There is a black cat on a wall, and she looks at me like a queen. I know these people and animals now, and my street feels like my home.\n\nOf course, walking is not always easy. In winter it is dark and cold in the morning. In spring it often rains. Some days I am tired and I want to stay in bed. On these days I make a deal with myself. I say, \"Walk for just ten minutes. If you hate it, you can go home.\" I never go home. After ten minutes I feel fine, and I am happy that I got up.\n\nSome people say that they have no time to walk. I understand that, but I do not agree. You can find time in small places. Get off the bus one stop early. Take the stairs and not the lift. Walk to the shop when you need milk, and leave the car at home. Call a friend and talk while you walk. If you walk with a friend, you spend time together and you exercise. That is a very good deal.\n\nWalking is also good for the planet. A walker makes no noise and no smoke. Our cities are full of cars, and the air is often dirty. Imagine a city where more people go on foot. The streets are quiet, the air is clean, and children can play outside. I know this is a dream, but every person who walks makes a small difference. If one hundred people walk instead of drive, that is already something.\n\nI also think that walking makes us kinder. People on foot look at each other. They smile, they say hello, and they stop to help. In a car we are alone in a metal box, and we often get angry at other drivers. On the street we feel like members of one big family. Last week a woman dropped her bag, and three people ran to help her. That never happens on a motorway.\n\nSo here is my advice. Tomorrow, leave your house ten minutes early. Put your phone in your pocket and walk to the next street, then to the next one. Look around you. Breathe. Listen to the birds. I promise that you will feel better. And if you do not like it, you can take the bus tomorrow. But I think you will walk again. I do, every single day, and I am happier because of it.",
+  "word_count": 716,
   "vocabulary": [
     {
-      "word": "rain",
-      "ipa_us": "reɪn",
-      "ipa_uk": "reɪn",
-      "translation_ru": "дождь"
+      "word": "health",
+      "ipa_us": "hɛlθ",
+      "ipa_uk": "helθ",
+      "translation_ru": "здоровье"
     },
     {
-      "word": "quiet",
-      "ipa_us": "ˈkwaɪət",
-      "ipa_uk": "ˈkwaɪət",
-      "translation_ru": "тихий"
+      "word": "energy",
+      "ipa_us": "ˈɛnərdʒi",
+      "ipa_uk": "ˈenədʒi",
+      "translation_ru": "энергия"
     },
     {
-      "word": "window",
-      "ipa_us": "ˈwɪndoʊ",
-      "ipa_uk": "ˈwɪndəʊ",
-      "translation_ru": "окно"
+      "word": "gym",
+      "ipa_us": "dʒɪm",
+      "ipa_uk": "dʒɪm",
+      "translation_ru": "спортзал"
     },
     {
-      "word": "calm",
-      "ipa_us": "kɑm",
-      "ipa_uk": "kɑːm",
-      "translation_ru": "спокойный"
+      "word": "mind",
+      "ipa_us": "maɪnd",
+      "ipa_uk": "maɪnd",
+      "translation_ru": "ум, мысли"
     },
     {
-      "word": "warm",
-      "ipa_us": "wɔrm",
-      "ipa_uk": "wɔːm",
-      "translation_ru": "тёплый"
+      "word": "notice",
+      "ipa_us": "ˈnoʊtɪs",
+      "ipa_uk": "ˈnəʊtɪs",
+      "translation_ru": "замечать"
     },
     {
-      "word": "fresh",
-      "ipa_us": "frɛʃ",
-      "ipa_uk": "freʃ",
-      "translation_ru": "свежий"
+      "word": "bakery",
+      "ipa_us": "ˈbeɪkəri",
+      "ipa_uk": "ˈbeɪkəri",
+      "translation_ru": "пекарня"
     },
     {
-      "word": "umbrella",
-      "ipa_us": "ʌmˈbrɛlə",
-      "ipa_uk": "ʌmˈbrelə",
-      "translation_ru": "зонт"
+      "word": "pocket",
+      "ipa_us": "ˈpɑkɪt",
+      "ipa_uk": "ˈpɒkɪt",
+      "translation_ru": "карман"
     },
     {
-      "word": "gift",
-      "ipa_us": "ɡɪft",
-      "ipa_uk": "ɡɪft",
-      "translation_ru": "подарок"
+      "word": "exercise",
+      "ipa_us": "ˈɛksərˌsaɪz",
+      "ipa_uk": "ˈeksəsaɪz",
+      "translation_ru": "заниматься спортом"
+    },
+    {
+      "word": "advice",
+      "ipa_us": "ədˈvaɪs",
+      "ipa_uk": "ədˈvaɪs",
+      "translation_ru": "совет"
+    },
+    {
+      "word": "promise",
+      "ipa_us": "ˈprɑmɪs",
+      "ipa_uk": "ˈprɒmɪs",
+      "translation_ru": "обещать"
+    },
+    {
+      "word": "stairs",
+      "ipa_us": "stɛrz",
+      "ipa_uk": "steəz",
+      "translation_ru": "лестница"
+    },
+    {
+      "word": "breathe",
+      "ipa_us": "brið",
+      "ipa_uk": "briːð",
+      "translation_ru": "дышать"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "rain",
-        "great",
-        "fresh"
+        "think",
+        "thirty",
+        "health"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Кончик языка между зубами, струя воздуха без голоса; не «с» и не «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "world",
-        "water",
-        "window"
+        "walk",
+        "work",
+        "warm"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     },
     {
-      "sound": "θ",
+      "sound": "aɪ",
       "examples": [
-        "think",
-        "Third"
+        "time",
+        "mind",
+        "fine"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Скольжение от «а» к «и»; второй элемент короткий."
+    },
+    {
+      "sound": "ð",
+      "examples": [
+        "other",
+        "they",
+        "with"
+      ],
+      "tip_ru": "Язык между зубами, но с голосом; не «з» и не «д»."
     }
   ],
   "questions": [
     {
-      "question": "What does the writer love?",
-      "answer": "Rainy days.",
+      "question": "How long does the writer walk to work?",
+      "answer": "He or she walks for forty minutes.",
       "accepted_keywords": [
-        "rain",
-        "rainy"
+        "forty",
+        "40"
       ]
     },
     {
-      "question": "What does the writer drink at home?",
-      "answer": "Hot tea.",
+      "question": "Why does the writer put the phone in the pocket?",
+      "answer": "To look at the street, the trees and the sky and to think.",
       "accepted_keywords": [
-        "tea"
-      ]
-    },
-    {
-      "question": "Why is rain good for trees?",
-      "answer": "It is good for them / rain helps them.",
-      "accepted_keywords": [
+        "look",
+        "think",
+        "street",
         "trees",
-        "good"
+        "sky"
       ]
     },
     {
-      "question": "What does the writer need in the rain?",
-      "answer": "An umbrella and boots.",
+      "question": "What can you do if you have no time to walk?",
+      "answer": "Get off the bus one stop early, take the stairs, or walk to the shop.",
       "accepted_keywords": [
-        "umbrella",
-        "boots"
+        "stop",
+        "stairs",
+        "shop",
+        "bus"
+      ]
+    },
+    {
+      "question": "What does the writer ask the reader to do tomorrow?",
+      "answer": "Leave the house ten minutes early and walk.",
+      "accepted_keywords": [
+        "walk",
+        "early",
+        "ten"
       ]
     }
   ]

@@ -2,118 +2,159 @@
   "id": "a1-travel-02",
   "level": "A1",
   "genre": "travel",
-  "title_en": "The Mountain Train",
-  "title_ru": "Горный поезд",
-  "description_ru": "Марек едет на старом красном поезде по долинам Норвегии.",
-  "text": "Marek takes the famous mountain train in Norway. The train is old and red, and it climbs slowly through a wide green valley. Outside the window, he sees high white mountains, deep blue water and many waterfalls. The air is fresh and cold.\n\nAt one stop, everybody gets out for thirty minutes. Marek takes a photo and drinks hot chocolate. A girl next to him says, \"This is my third time here, and I still love it.\" Marek agrees. He sits down, and the train goes on. He does not want the trip to end.",
+  "title_en": "Father and Daughter in Japan",
+  "title_ru": "Отец и дочь в Японии",
+  "description_ru": "Поездка в Японию: токийские перекрёстки, суши, скоростной поезд и тихий Киото.",
+  "text": "My name is Ken, and I live in Sydney, Australia. This autumn I take a trip to Japan with my daughter, Emi. She is sixteen, and she loves Japanese cartoons and music. For a long time she says, \"Dad, please, I want to see Japan.\" Now we are on a plane, and we are very excited. In ten days, we plan to see two famous cities, Tokyo and Kyoto, and to travel between them on a fast train.\n\nTokyo is a huge city. More than thirteen million people live here. When we arrive, we see crowds everywhere, but everything is clean and quiet. People do not shout or push. They stand in neat lines to wait for the train. At the station, we buy a card called a Suica. We touch the card on a small machine and go through the gate. It is very easy, and the trains are always on time. If a train is one minute late, the driver says sorry.\n\nAt the hotel, the room is very small, but it is perfect. The bed is on the floor, and the bath is deep and hot. In the morning, a small breakfast arrives with rice, fish and a bowl of soup. Emi is surprised. \"Soup for breakfast?\" she asks. I say, \"When in Japan, do as the Japanese do.\" She tries it and likes it.\n\nOn our first day, we visit Shibuya, the busiest crossing in the world. When the light goes green, hundreds of people cross from all sides. It looks like a big, slow dance. Emi takes a video and laughs. We also see a statue of a dog called Hachiko. This dog waits for his owner at the station every day, even after the man dies. People love this story, and many bring flowers to the statue. Emi cries a little, and I have to find a tissue.\n\nThe food in Japan is a big adventure for me. At night, we eat in a very small restaurant, with only eight seats. The cook stands in front of us and makes sushi. We watch him work. He puts a small piece of fish on a ball of rice, and he gives it to us at once. The fish is so fresh that it almost melts. I try octopus for the first time. Emi laughs at my face, but I like it. We pay about twenty dollars each, and we are full and happy.\n\nAfter four days in Tokyo, we take the famous bullet train, the Shinkansen, to Kyoto. It goes at three hundred kilometres an hour. Inside, the train is very quiet and clean, and a kind woman pushes a small cart with snacks and hot coffee, and the seats are wide and soft. We buy a boxed lunch at the station, called a bento. It has rice, fish, vegetables and a tiny sweet cake. Through the window, we see green fields, small villages and, far away, a beautiful white mountain. It is Mount Fuji, with snow on its top. Emi shouts, \"Dad, look!\" and takes ten photos in a minute.\n\nKyoto is very different from Tokyo. It is quiet and old, with wooden houses and narrow streets. For a thousand years, it was the capital of Japan. There are more than a thousand temples in the city. We visit one called Kinkaku-ji, the Golden Temple. It stands next to a lake, and it shines in the sun like a piece of the sun itself. The water shows the same picture upside down. We stand for a long time, and nobody speaks.\n\nIn the evening, we walk in the old district of Gion. We see a young woman in a beautiful silk dress, with white make-up and flowers in her hair. She is a geisha in training. She walks quickly with small steps and goes into a tea house. Our guide says that we must not follow her or take pictures too close. We must be polite. In Japan, people think carefully about the feelings of others. I like this very much.\n\nOn our last day, we try to make tea in a Japanese tea ceremony. A kind old woman teaches us. We kneel on a soft mat and she shows us how to move the whisk. It looks easy, but my tea is thick and green and looks like grass. She smiles politely and drinks it. \"Very interesting,\" she says. Emi can't stop laughing. On the plane home, she puts her head on my shoulder and says, \"Thank you, Dad. This is the best trip of my life.\" I look out of the window and agree.",
+  "word_count": 774,
   "vocabulary": [
     {
-      "word": "mountain",
-      "ipa_us": "ˈmaʊntn",
-      "ipa_uk": "ˈmaʊntɪn",
-      "translation_ru": "гора"
+      "word": "crossing",
+      "ipa_us": "ˈkrɔːsɪŋ",
+      "ipa_uk": "ˈkrɒsɪŋ",
+      "translation_ru": "перекрёсток"
     },
     {
-      "word": "climbs",
-      "ipa_us": "klaɪmz",
-      "ipa_uk": "klaɪmz",
-      "translation_ru": "поднимается"
+      "word": "statue",
+      "ipa_us": "ˈstætʃuː",
+      "ipa_uk": "ˈstætʃuː",
+      "translation_ru": "статуя"
     },
     {
-      "word": "valley",
-      "ipa_us": "ˈvæli",
-      "ipa_uk": "ˈvæli",
-      "translation_ru": "долина"
+      "word": "sushi",
+      "ipa_us": "ˈsuːʃi",
+      "ipa_uk": "ˈsuːʃi",
+      "translation_ru": "суши"
     },
     {
-      "word": "waterfalls",
-      "ipa_us": "ˈwɔːtɚfɔːlz",
-      "ipa_uk": "ˈwɔːtəfɔːlz",
-      "translation_ru": "водопады"
+      "word": "octopus",
+      "ipa_us": "ˈɑːktəpʊs",
+      "ipa_uk": "ˈɒktəpəs",
+      "translation_ru": "осьминог"
     },
     {
-      "word": "fresh",
-      "ipa_us": "freʃ",
-      "ipa_uk": "freʃ",
-      "translation_ru": "свежий"
+      "word": "temple",
+      "ipa_us": "ˈtɛmpl",
+      "ipa_uk": "ˈtempl",
+      "translation_ru": "храм"
     },
     {
-      "word": "chocolate",
-      "ipa_us": "ˈtʃɑːklət",
-      "ipa_uk": "ˈtʃɒklət",
-      "translation_ru": "шоколад"
+      "word": "silk",
+      "ipa_us": "sɪlk",
+      "ipa_uk": "sɪlk",
+      "translation_ru": "шёлк"
     },
     {
-      "word": "third",
-      "ipa_us": "θɝːd",
-      "ipa_uk": "θɜːd",
-      "translation_ru": "третий"
+      "word": "whisk",
+      "ipa_us": "wɪsk",
+      "ipa_uk": "wɪsk",
+      "translation_ru": "венчик"
     },
     {
-      "word": "trip",
-      "ipa_us": "trɪp",
-      "ipa_uk": "trɪp",
-      "translation_ru": "поездка"
+      "word": "polite",
+      "ipa_us": "pəˈlaɪt",
+      "ipa_uk": "pəˈlaɪt",
+      "translation_ru": "вежливый"
+    },
+    {
+      "word": "bento",
+      "ipa_us": "ˈbɛntoʊ",
+      "ipa_uk": "ˈbentəʊ",
+      "translation_ru": "бэнто (обед в коробке)"
+    },
+    {
+      "word": "geisha",
+      "ipa_us": "ˈɡeɪʃə",
+      "ipa_uk": "ˈɡeɪʃə",
+      "translation_ru": "гейша"
+    },
+    {
+      "word": "kneel",
+      "ipa_us": "niːl",
+      "ipa_uk": "niːl",
+      "translation_ru": "становиться на колени"
+    },
+    {
+      "word": "tissue",
+      "ipa_us": "ˈtɪʃuː",
+      "ipa_uk": "ˈtɪʃuː",
+      "translation_ru": "салфетка"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "iː",
       "examples": [
-        "thirty",
-        "third"
+        "sushi",
+        "eat",
+        "three",
+        "see"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Долгий «и», растяните губы в улыбке; он длиннее русского «и»."
     },
     {
-      "sound": "ð",
+      "sound": "r",
       "examples": [
-        "this",
-        "the"
+        "rice",
+        "Kyoto"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Кончик языка поднят, но не касается нёба и не вибрирует; губы слегка округлены."
     },
     {
       "sound": "w",
       "examples": [
-        "wide",
-        "window",
+        "we",
+        "with",
         "white",
-        "want"
+        "wide"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "octopus",
+        "polite",
+        "temple",
+        "crossing"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "Where is the train?",
-      "answer": "In Norway.",
+      "question": "Who travels to Japan?",
+      "answer": "Ken and his daughter Emi.",
       "accepted_keywords": [
-        "norway"
+        "ken",
+        "emi",
+        "father",
+        "daughter"
       ]
     },
     {
-      "question": "What colour is the train?",
-      "answer": "Red.",
+      "question": "What fast train do they take to Kyoto?",
+      "answer": "The bullet train, the Shinkansen.",
       "accepted_keywords": [
-        "red"
+        "shinkansen",
+        "bullet"
       ]
     },
     {
-      "question": "What does Marek drink?",
-      "answer": "Hot chocolate.",
+      "question": "What mountain do they see from the train?",
+      "answer": "Mount Fuji.",
       "accepted_keywords": [
-        "chocolate"
+        "fuji"
       ]
     },
     {
-      "question": "How long is the stop?",
-      "answer": "Thirty minutes.",
+      "question": "What is wrong with Ken's tea at the tea ceremony?",
+      "answer": "It is thick and green, and looks like grass.",
       "accepted_keywords": [
-        "thirty",
-        "30"
+        "thick",
+        "grass",
+        "green"
       ]
     }
-  ],
-  "word_count": 95
+  ]
 }

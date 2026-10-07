@@ -2,141 +2,163 @@
   "id": "b2-science-05",
   "level": "B2",
   "genre": "science",
-  "title_en": "Inside a Vaccine",
-  "title_ru": "Как работает вакцина",
-  "description_ru": "Простое объяснение того, как вакцины учат иммунную систему защищаться от болезней.",
-  "text": "Vaccines are widely regarded as one of the greatest achievements in the history of medicine. According to the World Health Organization, they prevent between three and five million deaths every year. But how do they actually work?\n\nTo understand vaccines, we first need to look at the immune system. When a harmful germ, such as a virus or a bacterium, enters the body, specialised white blood cells recognise it as foreign. They produce antibodies, which are proteins that attach themselves to the invader and help to destroy it. The trouble is that this process takes several days the first time. By then, the germ may already have caused serious damage.\n\nHowever, the immune system has a remarkable feature: it remembers. After the infection has been defeated, some of the cells remain in the body for years, sometimes for life. If the same germ returns, these memory cells recognise it immediately and respond within hours, usually before any symptoms appear.\n\nA vaccine exploits this ability. It contains a harmless version of the germ, or a small part of it, which is unable to cause the disease. The body reacts as if it were facing a real threat, builds antibodies and stores the information for later. In other words, a vaccine is a kind of training exercise.\n\nDifferent technologies are used. Traditional vaccines contain weakened or inactivated viruses. Others include only a single protein from the surface of the germ. Newer vaccines carry genetic instructions, called messenger RNA, which temporarily teach our own cells to make a harmless protein that the immune system can learn to recognise.\n\nThe first vaccine was developed in 1796 by Edward Jenner, an English doctor who noticed that milkmaids who had caught cowpox rarely suffered from smallpox. His experiment was risky by modern standards, but it led, eventually, to the complete eradication of smallpox in 1980.\n\nWhen most people in a community are vaccinated, the disease has difficulty spreading. This is known as herd immunity, and it protects those who cannot be vaccinated, such as newborn babies.\n\nSide effects are usually mild, for example a sore arm or a slight fever, and they show that the body is responding exactly as it should.",
-  "word_count": 364,
+  "title_en": "How Your Phone Knows Where You Are",
+  "title_ru": "Как телефон узнаёт, где вы находитесь",
+  "description_ru": "Как работает спутниковая навигация: радиосигналы, атомные часы и поправки теории относительности, без которых карта ошибалась бы на километры.",
+  "text": "When a map on your phone shows a blue dot that moves as you walk down the street, it seems like a simple trick. In reality, that dot depends on one of the most sophisticated systems ever built, involving dozens of satellites, clocks that lose less than a second in millions of years and, surprisingly, Albert Einstein. The technology is known as the Global Positioning System, or GPS, and understanding it requires only a few key ideas.\n\nThe system was developed by the United States military during the 1970s and 1980s and was fully operational in the mid-1990s. At first, civilians were allowed to use it only with deliberately reduced accuracy, but this restriction was removed in 2000, and an industry worth billions was born. Today, GPS is one of several satellite navigation systems. Europe operates Galileo, Russia has GLONASS and China runs BeiDou, and most modern phones can combine signals from all of them.\n\nAt any moment, about thirty working GPS satellites are circling the Earth at a height of roughly twenty thousand kilometres. Each one completes two orbits per day, and they are arranged so that at least four are visible from almost any point on the planet. The satellites do not receive anything from your phone. They simply broadcast a continuous radio signal, which contains two pieces of information: where the satellite is, and exactly what time the signal was sent.\n\nThe ground also plays a part. Control stations scattered around the world monitor every satellite, measure its exact position and clock error, and send corrections up to it several times a day. Without this constant supervision, small mistakes in the orbits would slowly accumulate, and the position of your blue dot would drift by metres, then by tens of metres. It is a reminder that even the most automatic technology depends on a great many people working quietly in the background.\n\nYour phone listens to these signals and measures how long each one took to arrive. Because radio waves travel at the speed of light, which is about three hundred thousand kilometres per second, the delay can be converted into a distance. If a signal took about seventy milliseconds, the satellite is about twenty thousand kilometres away. A single distance, however, places you only somewhere on the surface of an enormous imaginary sphere around the satellite.\n\nA second satellite gives a second sphere, and the two spheres intersect in a circle. A third sphere narrows it down to just two points, one of which is usually in space and can be ignored. This method is called trilateration, and it is different from triangulation, which uses angles rather than distances. In theory, three satellites are enough, but in practice a fourth is needed, and the reason is a matter of timing.\n\nThe difficulty is that light is extremely fast. In one millionth of a second, a radio signal travels about three hundred metres, so to find your position within a few metres, the phone must measure time with an accuracy of a few billionths of a second. The satellites carry atomic clocks, which are astonishingly precise, but a phone cannot afford one. Instead, it uses the fourth satellite to correct its own cheap clock, treating the time error as one more unknown to be calculated.\n\nNow comes the part that involves Einstein. According to his theory of special relativity, a moving clock runs slightly slower, and the satellites travel at about fourteen thousand kilometres per hour, so their clocks lose roughly seven millionths of a second each day. General relativity predicts the opposite effect: clocks run faster where gravity is weaker, and at that altitude, the satellite clocks gain about forty-five millionths of a second per day.\n\nThe net result is that the clocks in orbit run about thirty-eight microseconds per day faster than clocks on the ground. This may sound trivial, but if it were ignored, the position errors would grow by about ten kilometres every day, and the system would be useless within hours. To prevent this, engineers set the satellite clocks to tick slightly slower before launch, so that they match time on Earth once they are in orbit. In this way, GPS has become a daily test of relativity.\n\nThere are other complications. The signal slows down when it passes through the atmosphere, and it can bounce off tall buildings, which is why your dot sometimes jumps to the wrong street in a city centre. Modern phones reduce such problems by combining satellite data with information from mobile masts, wireless networks and motion sensors. The typical accuracy of a phone outdoors is about five metres, and specialised equipment can reach a few centimetres.\n\nThe next time your phone helps you find a restaurant, it may be worth remembering what lies behind the blue dot: a constellation of satellites, a few billionths of a second, and a physicist who, more than a hundred years ago, claimed that time itself is not the same for everybody. It is rare for an abstract idea to become so practical that millions of people rely on it every day without even noticing.",
+  "word_count": 856,
   "vocabulary": [
     {
-      "word": "achievements",
-      "ipa_us": "əˈtʃivmənts",
-      "ipa_uk": "əˈtʃiːvmənts",
-      "translation_ru": "достижения"
+      "word": "sophisticated",
+      "ipa_us": "səˈfɪstɪkeɪtɪd",
+      "ipa_uk": "səˈfɪstɪkeɪtɪd",
+      "translation_ru": "сложный, изощрённый"
     },
     {
-      "word": "immune system",
-      "ipa_us": "ɪˈmjun ˈsɪstəm",
-      "ipa_uk": "ɪˈmjuːn ˈsɪstəm",
-      "translation_ru": "иммунная система"
+      "word": "satellites",
+      "ipa_us": "ˈsætəlaɪts",
+      "ipa_uk": "ˈsætəlaɪts",
+      "translation_ru": "спутники"
     },
     {
-      "word": "bacterium",
-      "ipa_us": "bækˈtɪriəm",
-      "ipa_uk": "bækˈtɪəriəm",
-      "translation_ru": "бактерия"
+      "word": "operational",
+      "ipa_us": "ˌɑːpəˈreɪʃnəl",
+      "ipa_uk": "ˌɒpəˈreɪʃnəl",
+      "translation_ru": "действующий"
     },
     {
-      "word": "antibodies",
-      "ipa_us": "ˈæntiˌbɑdiz",
-      "ipa_uk": "ˈæntiˌbɒdiz",
-      "translation_ru": "антитела"
+      "word": "restriction",
+      "ipa_us": "rɪˈstrɪkʃn",
+      "ipa_uk": "rɪˈstrɪkʃn",
+      "translation_ru": "ограничение"
     },
     {
-      "word": "defeated",
-      "ipa_us": "dɪˈfitɪd",
-      "ipa_uk": "dɪˈfiːtɪd",
-      "translation_ru": "побеждена"
+      "word": "broadcast",
+      "ipa_us": "ˈbrɔːdkæst",
+      "ipa_uk": "ˈbrɔːdkɑːst",
+      "translation_ru": "передавать"
     },
     {
-      "word": "exploits",
-      "ipa_us": "ɪkˈsplɔɪts",
-      "ipa_uk": "ɪkˈsplɔɪts",
-      "translation_ru": "использует"
+      "word": "sphere",
+      "ipa_us": "sfɪr",
+      "ipa_uk": "sfɪə",
+      "translation_ru": "сфера"
     },
     {
-      "word": "weakened",
-      "ipa_us": "ˈwikənd",
-      "ipa_uk": "ˈwiːkənd",
-      "translation_ru": "ослабленный"
+      "word": "trilateration",
+      "ipa_us": "ˌtraɪlætəˈreɪʃn",
+      "ipa_uk": "ˌtraɪlætəˈreɪʃn",
+      "translation_ru": "трилатерация"
     },
     {
-      "word": "genetic",
-      "ipa_us": "dʒəˈnɛtɪk",
-      "ipa_uk": "dʒəˈnetɪk",
-      "translation_ru": "генетический"
+      "word": "precise",
+      "ipa_us": "prɪˈsaɪs",
+      "ipa_uk": "prɪˈsaɪs",
+      "translation_ru": "точный"
     },
     {
-      "word": "eradication",
-      "ipa_us": "ɪˌrædɪˈkeɪʃən",
-      "ipa_uk": "ɪˌrædɪˈkeɪʃən",
-      "translation_ru": "искоренение"
+      "word": "relativity",
+      "ipa_us": "ˌrɛləˈtɪvəti",
+      "ipa_uk": "ˌreləˈtɪvəti",
+      "translation_ru": "относительность"
     },
     {
-      "word": "herd immunity",
-      "ipa_us": "hɜrd ɪˈmjunəti",
-      "ipa_uk": "hɜːd ɪˈmjuːnɪti",
-      "translation_ru": "коллективный иммунитет"
+      "word": "altitude",
+      "ipa_us": "ˈæltɪtuːd",
+      "ipa_uk": "ˈæltɪtjuːd",
+      "translation_ru": "высота"
+    },
+    {
+      "word": "atmosphere",
+      "ipa_us": "ˈætməsfɪr",
+      "ipa_uk": "ˈætməsfɪə",
+      "translation_ru": "атмосфера"
+    },
+    {
+      "word": "constellation",
+      "ipa_us": "ˌkɑːnstəˈleɪʃn",
+      "ipa_uk": "ˌkɒnstəˈleɪʃn",
+      "translation_ru": "созвездие, группировка"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "vaccines",
-        "virus",
-        "every"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "widely",
-        "white",
-        "weakened"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
-    },
-    {
       "sound": "θ",
       "examples": [
         "three",
-        "health"
+        "thousand",
+        "theory",
+        "thirty"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
+      "tip_ru": "Кончик языка слегка между зубами, без голоса; не заменяйте на «с» или «ф»."
     },
     {
-      "sound": "ɪ",
+      "sound": "ð",
       "examples": [
-        "infection",
-        "system",
-        "symptoms"
+        "the",
+        "that",
+        "these",
+        "other"
       ],
-      "tip_ru": "Короткий, расслабленный гласный, ближе к русскому «ы»-«и»; не растягивайте его, как «ии»."
+      "tip_ru": "Язык между зубами, голос включён; звук не «з» и не «д»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "satellites",
+        "that",
+        "travel",
+        "atmosphere"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "operational",
+        "relativity",
+        "constellation"
+      ],
+      "tip_ru": "Ударение стоит на слоге перед «-tion» и «-ity»: oper-A-tional, rela-TI-vity, constel-LA-tion."
     }
   ],
   "questions": [
     {
-      "question": "Who developed the first vaccine?",
-      "answer": "Edward Jenner.",
+      "question": "How many satellites are needed to find your position in practice?",
+      "answer": "Four.",
       "accepted_keywords": [
-        "jenner",
-        "edward"
+        "four",
+        "4"
       ]
     },
     {
-      "question": "What are antibodies?",
-      "answer": "Proteins that attach to germs and help destroy them.",
+      "question": "What is trilateration?",
+      "answer": "Finding a position using distances from several known points, not angles.",
       "accepted_keywords": [
-        "proteins",
-        "protein"
+        "distances",
+        "distance",
+        "satellites"
       ]
     },
     {
-      "question": "Which disease was completely eradicated in 1980?",
-      "answer": "Smallpox.",
+      "question": "Why do GPS satellite clocks need relativity corrections?",
+      "answer": "They run about thirty-eight microseconds per day faster than clocks on Earth.",
       "accepted_keywords": [
-        "smallpox"
+        "faster",
+        "thirty-eight",
+        "38",
+        "time",
+        "clock",
+        "clocks"
       ]
     },
     {
-      "question": "What is herd immunity?",
-      "answer": "When most people are vaccinated, so a disease cannot spread easily.",
+      "question": "Why does your location dot sometimes jump in a city?",
+      "answer": "Signals bounce off tall buildings.",
       "accepted_keywords": [
-        "vaccinated",
-        "most",
-        "community"
+        "buildings",
+        "bounce",
+        "tall"
       ]
     }
   ]

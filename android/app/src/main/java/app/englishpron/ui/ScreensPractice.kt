@@ -4,6 +4,8 @@ import android.Manifest
 import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -25,6 +27,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
+import kotlin.math.roundToInt
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import app.englishpron.data.WordResult
 import app.englishpron.data.parseColor
@@ -46,7 +49,7 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
                 if (ContextCompat.checkSelfPermission(ctx, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) vm.startRecording(onResult)
                 else launcher.launch(Manifest.permission.RECORD_AUDIO)
             }
-            RecStatus.RECORDING -> vm.stopAndSave(onResult)
+            RecStatus.RECORDING -> vm.stopAndSave(onDone = onResult)
             RecStatus.PROCESSING -> {}
         }
     }
@@ -54,36 +57,55 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
         onDispose { if ((ctx as? android.app.Activity)?.isChangingConfigurations != true) vm.cancelRecording() }
     }
     if (s.text == null) { Empty("Сначала выберите текст в библиотеке"); return }
+    val settings by vm.settings.collectAsStateWithLifecycle()
+    val style = settings.readingStyle()
+    val idle = s.status == RecStatus.IDLE
+    val pct = s.coveragePct()
+    val anim by animateFloatAsState((pct / 100.0).toFloat().coerceIn(0f, 1f), tween(400), label = "coverage")
+    val lastPar = s.paragraphs.size - 1
 
-    Column(Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.fillMaxSize().padding(horizontal = 16.dp, vertical = 8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
         SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
-            SegmentedButton(s.mode == RecordMode.WHOLE, { vm.setMode(RecordMode.WHOLE) }, SegmentedButtonDefaults.itemShape(0, 2),
-                enabled = s.status == RecStatus.IDLE) { Text("Весь текст") }
-            SegmentedButton(s.mode == RecordMode.SENTENCE, { vm.setMode(RecordMode.SENTENCE) }, SegmentedButtonDefaults.itemShape(1, 2),
-                enabled = s.status == RecStatus.IDLE) { Text("По предложениям") }
-        }
-        if (s.mode == RecordMode.SENTENCE) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                IconButton({ vm.setSentence(s.sentenceIdx - 1) }, enabled = s.sentenceIdx > 0 && s.status == RecStatus.IDLE) {
-                    Icon(Icons.Filled.ChevronLeft, "Предыдущее")
-                }
-                Text("Предложение ${s.sentenceIdx + 1} из ${s.sentences.size}", Modifier.weight(1f), style = MaterialTheme.typography.labelLarge)
-                IconButton({ vm.setSentence(s.sentenceIdx + 1) }, enabled = s.sentenceIdx < s.sentences.size - 1 && s.status == RecStatus.IDLE) {
-                    Icon(Icons.Filled.ChevronRight, "Следующее")
-                }
+            val modes = listOf(RecordMode.PARAGRAPH to "Абзацы", RecordMode.WHOLE to "Весь текст", RecordMode.SENTENCE to "Предложения")
+            modes.forEachIndexed { i, (m, label) ->
+                SegmentedButton(s.mode == m, { vm.setMode(m) }, SegmentedButtonDefaults.itemShape(i, modes.size),
+                    enabled = idle && (m != RecordMode.PARAGRAPH || s.paragraphs.size > 1)) { Text(label) }
             }
         }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text("Прочитано ${pct.roundToInt()}%", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold,
+                color = scoreColor(if (pct >= 90) 100.0 else if (pct >= 50) 70.0 else 40.0))
+            Spacer(Modifier.weight(1f))
+            if (s.mode == RecordMode.PARAGRAPH) {
+                IconButton({ vm.setParagraph(s.paragraphIdx - 1) }, enabled = s.paragraphIdx > 0 && idle) { Icon(Icons.Filled.ChevronLeft, "Предыдущий абзац") }
+                Text("Абзац ${s.paragraphIdx + 1}/${s.paragraphs.size}", style = MaterialTheme.typography.labelLarge)
+                IconButton({ vm.setParagraph(s.paragraphIdx + 1) }, enabled = s.paragraphIdx < lastPar && idle) { Icon(Icons.Filled.ChevronRight, "Следующий абзац") }
+            }
+            if (s.mode == RecordMode.SENTENCE) {
+                IconButton({ vm.setSentence(s.sentenceIdx - 1) }, enabled = s.sentenceIdx > 0 && idle) { Icon(Icons.Filled.ChevronLeft, "Предыдущее") }
+                Text("Предл. ${s.sentenceIdx + 1}/${s.sentences.size}", style = MaterialTheme.typography.labelLarge)
+                IconButton({ vm.setSentence(s.sentenceIdx + 1) }, enabled = s.sentenceIdx < s.sentences.size - 1 && idle) { Icon(Icons.Filled.ChevronRight, "Следующее") }
+            }
+        }
+        LinearProgressIndicator(progress = { anim }, Modifier.fillMaxWidth().height(4.dp).clip(RoundedCornerShape(2.dp)))
         Card(Modifier.weight(1f).fillMaxWidth()) {
-            LiveReadingText(s.referenceNow, if (s.status == RecStatus.IDLE) null else s.live,
-                onTapWord = { vm.liveSetCursor(it) }, modifier = Modifier.fillMaxSize())
+            if (s.mode == RecordMode.PARAGRAPH) {
+                ParagraphReadingText(s.paragraphs, s.paragraphIdx, if (idle) null else s.live,
+                    s.paragraphReads.filter { it.value > 0 }.keys, idle, style,
+                    onTapWord = { vm.liveSetCursor(it) }, onSelect = { vm.setParagraph(it) }, modifier = Modifier.fillMaxSize())
+            } else {
+                LiveReadingText(s.referenceNow, if (idle) null else s.live, onTapWord = { vm.liveSetCursor(it) },
+                    modifier = Modifier.fillMaxSize(), style = style)
+            }
         }
         if (s.status == RecStatus.RECORDING && s.liveUnavailable)
             Text("Подсветка по ходу чтения недоступна (нет модели) - читайте, оценка будет готова позже.",
                 style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         if (s.status == RecStatus.RECORDING && s.live?.done == true)
-            Text("Текст дочитан - запись остановится сама после паузы.", style = MaterialTheme.typography.bodySmall,
+            Text(if (s.mode == RecordMode.PARAGRAPH && settings.autoAdvance && s.paragraphIdx < lastPar) "Абзац дочитан - перейду к следующему после паузы."
+                else "Текст дочитан - запись остановится сама после паузы.", style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.primary)
-        LinearProgressIndicator(progress = { level }, Modifier.fillMaxWidth().height(10.dp).clip(RoundedCornerShape(5.dp)))
+        LinearProgressIndicator(progress = { level }, Modifier.fillMaxWidth().height(8.dp).clip(RoundedCornerShape(4.dp)))
         s.error?.let { Text(it, color = MaterialTheme.colorScheme.error) }
         if (s.permissionDenied) Text("Нужен доступ к микрофону (Настройки Android → Приложения → разрешения).", color = MaterialTheme.colorScheme.error)
         Text(
@@ -95,10 +117,14 @@ fun RecordScreen(vm: PracticeViewModel, onResult: () -> Unit) {
         )
         Box(Modifier.fillMaxWidth(), Alignment.Center) {
             if (s.status == RecStatus.PROCESSING) CircularProgressIndicator()
-            else LargeFloatingActionButton(onClick = ::toggle,
-                containerColor = if (s.status == RecStatus.RECORDING) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary) {
-                Icon(if (s.status == RecStatus.RECORDING) Icons.Filled.Stop else Icons.Filled.Mic,
-                    if (s.status == RecStatus.RECORDING) "Стоп" else "Запись", Modifier.size(36.dp))
+            else Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                LargeFloatingActionButton(onClick = ::toggle,
+                    containerColor = if (s.status == RecStatus.RECORDING) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary) {
+                    Icon(if (s.status == RecStatus.RECORDING) Icons.Filled.Stop else Icons.Filled.Mic,
+                        if (s.status == RecStatus.RECORDING) "Стоп" else "Запись", Modifier.size(36.dp))
+                }
+                if (s.mode == RecordMode.PARAGRAPH && s.paragraphIdx < lastPar)
+                    FilledTonalButton({ vm.nextParagraph(onResult) }) { Text("Дальше"); Spacer(Modifier.width(4.dp)); Icon(Icons.Filled.SkipNext, null) }
             }
         }
     }

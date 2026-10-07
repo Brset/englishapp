@@ -2,140 +2,152 @@
   "id": "b1-news-05",
   "level": "B1",
   "genre": "news",
-  "title_en": "Heatwave Brings Record Temperatures",
-  "title_ru": "Жара принесла рекордные температуры",
-  "description_ru": "Вымышленный выпуск новостей о сильной жаре в северной стране и советах метеорологов.",
-  "text": "Northern Valdia has recorded its hottest day in history, as temperatures reached thirty-nine degrees in the capital, Lorenburg. Weather experts say the heatwave will continue for at least another four days.\n\nMeteorologist Dr Karen Osei explained that a mass of warm air from the south has been sitting over the region since last Monday. \"We have never seen such high temperatures so early in the summer,\" she told reporters. \"Unless a cold front arrives, the heat will become even more dangerous.\"\n\nHospitals have reported a rise in the number of patients with heat exhaustion, especially among elderly people. The health ministry has advised everyone to drink plenty of water, stay in the shade during the afternoon, and avoid exercise outdoors. Parents have been told never to leave children or pets in a parked car.\n\nMeanwhile, life in the capital has slowed down. Many shops now open at dawn and close at noon, and the city has set up fifty cooling centres in libraries and schools. At the central swimming pool, queues stretched around the block, and ice cream sellers say they have never been so busy.\n\nFarmers are worried too. If the rain does not return soon, they warn, the wheat harvest could be much smaller than expected, and food prices may rise.\n\nForecasters say that relief may come on Friday, when thunderstorms are expected to move in from the west. Until then, residents are asked to look after their neighbours.",
-  "word_count": 242,
+  "title_en": "Baker Bakes a Forty-Metre Loaf for Town Festival",
+  "title_ru": "Пекарь испёк батон длиной сорок метров к празднику города",
+  "description_ru": "Вымышленная новость: семья пекаря из приморского городка Галлбей печёт гигантский хлеб для фестиваля и собирает деньги для спасателей.",
+  "text": "The baker of a small seaside town has broken a local record by baking a loaf of bread that is more than forty metres long. Oswin Plumtree, who owns Plumtree and Daughters in the town of Gullbay, started work at midnight on Friday and finished at dawn on Saturday. By midday, hundreds of people had gathered on the harbour wall to see the enormous loaf and to taste a slice. \"I wanted to do something special for the town festival,\" Mr Plumtree said, covered in flour. \"I did not think that it would actually work.\"\n\nThe idea began as a joke. Last winter, Mr Plumtree was talking to his three daughters about the festival, which has been held every summer for two hundred years, when his youngest, nine-year-old Poppy, asked why the town had never made the biggest loaf in the country. He laughed, but the next morning he discovered that she had drawn a plan on the kitchen table. The family spent several months studying how to make dough that would not collapse, and they also asked the council for permission to use the old fish market as a temporary bakery, since no oven in town was large enough.\n\nBuilding the oven was the biggest problem. Mr Plumtree and a team of local volunteers made a long brick tunnel in the market, and they filled it with coal to heat it. A retired shipbuilder, Harriet Boon, designed a wooden tray that could carry the dough, and twelve strong volunteers lifted it into place. The first attempt, a month before the festival, was a failure: the loaf burned on the outside and stayed raw in the middle. \"It looked like a very long black rock,\" Poppy said. \"We could have used it to build a wall.\"\n\nAfter that, the family changed the recipe and lowered the temperature. They also decided to bake the loaf in four sections and join them with a special sticky dough. If this had not worked, they would have had to start all over again. On Friday night, about thirty people arrived at the market with sleeping bags and flasks of tea. They took turns mixing, shaping and watching the oven. By three o'clock in the morning, the smell of warm bread had reached the whole town, and several neighbours came in their pyjamas to see what was happening.\n\nThe result was a golden loaf with a perfect crust. Measuring it took twenty minutes, and the official judge, a surveyor named Cuthbert Gale, confirmed that it was forty-three metres and twelve centimetres long. That is almost twice as long as the previous local record, which was set by a pastry chef in 1994. \"I have measured bridges, fields and roads,\" said Mr Gale, \"but this is the first time I have measured something I wanted to eat.\"\n\nThe festival organisers cut the loaf into thousands of slices and offered them with butter, cheese and jam. Visitors made a long line along the harbour, and many came back for a second helping. The money collected from the sale of the slices, which cost one pound each, will be given to the town's lifeboat station, which needs a new engine. By the end of the afternoon, about three thousand pounds had been raised. \"People have been very generous,\" said lifeboat volunteer Barnaby Cole. \"It is fantastic to think that bread could help save lives.\"\n\nNot everyone agreed that the project was sensible. A neighbour complained that the smoke from the temporary oven had kept him awake, and a local councillor asked whether so much flour could have been used to feed families in need. Mr Plumtree took the criticism calmly. He explained that he had given the leftover bread to the town food bank and a local school, and that no loaf had been wasted. \"I am a baker,\" he said. \"It would break my heart to throw bread away.\"\n\nThe record has also had a surprising effect on local businesses. Hotels in Gullbay say that they have received dozens of new bookings since the photographs appeared online, and a postcard seller has already printed a picture of the giant loaf. The fishmonger next door, whose old market was used for the project, has asked whether the oven could stay there as a tourist attraction. \"If it brings people to the harbour, I will happily smell bread all day,\" he joked.\n\nThe family is already planning to send documents to a national record organisation. Whether or not the loaf is officially recognised, the people of Gullbay seem delighted. On Saturday evening the harbour was full of music, laughter and the smell of fresh bread. Poppy Plumtree, who is already thinking about next year, has one more idea. \"This time,\" she said, \"I want to make the world's biggest sandwich.\"",
+  "word_count": 803,
   "vocabulary": [
     {
-      "word": "recorded",
-      "ipa_us": "rɪˈkɔrdɪd",
-      "ipa_uk": "rɪˈkɔːdɪd",
-      "translation_ru": "зафиксировала"
+      "word": "festival",
+      "ipa_us": "ˈfɛstəvəl",
+      "ipa_uk": "ˈfestɪvəl",
+      "translation_ru": "фестиваль, праздник"
     },
     {
-      "word": "heatwave",
-      "ipa_us": "ˈhitˌweɪv",
-      "ipa_uk": "ˈhiːtweɪv",
-      "translation_ru": "волна жары"
+      "word": "enormous",
+      "ipa_us": "ɪˈnɔːrməs",
+      "ipa_uk": "ɪˈnɔːməs",
+      "translation_ru": "огромный"
     },
     {
-      "word": "meteorologist",
-      "ipa_us": "ˌmitiəˈrɑlədʒɪst",
-      "ipa_uk": "ˌmiːtiəˈrɒlədʒɪst",
-      "translation_ru": "метеоролог"
+      "word": "dough",
+      "ipa_us": "doʊ",
+      "ipa_uk": "dəʊ",
+      "translation_ru": "тесто"
     },
     {
-      "word": "dangerous",
-      "ipa_us": "ˈdeɪndʒərəs",
-      "ipa_uk": "ˈdeɪndʒərəs",
-      "translation_ru": "опасный"
+      "word": "crust",
+      "ipa_us": "krʌst",
+      "ipa_uk": "krʌst",
+      "translation_ru": "корочка"
     },
     {
-      "word": "exhaustion",
-      "ipa_us": "ɪɡˈzɔstʃən",
-      "ipa_uk": "ɪɡˈzɔːstʃən",
-      "translation_ru": "истощение"
+      "word": "collapse",
+      "ipa_us": "kəˈlæps",
+      "ipa_uk": "kəˈlæps",
+      "translation_ru": "осесть, рухнуть"
     },
     {
-      "word": "elderly",
-      "ipa_us": "ˈɛldərli",
-      "ipa_uk": "ˈeldəli",
-      "translation_ru": "пожилой"
+      "word": "temperature",
+      "ipa_us": "ˈtɛmprətʃər",
+      "ipa_uk": "ˈtemprətʃə",
+      "translation_ru": "температура"
     },
     {
-      "word": "shade",
-      "ipa_us": "ʃeɪd",
-      "ipa_uk": "ʃeɪd",
-      "translation_ru": "тень"
+      "word": "surveyor",
+      "ipa_us": "sərˈveɪər",
+      "ipa_uk": "səˈveɪə",
+      "translation_ru": "землемер, замерщик"
     },
     {
-      "word": "harvest",
-      "ipa_us": "ˈhɑrvɪst",
-      "ipa_uk": "ˈhɑːvɪst",
-      "translation_ru": "урожай"
+      "word": "generous",
+      "ipa_us": "ˈdʒɛnərəs",
+      "ipa_uk": "ˈdʒenərəs",
+      "translation_ru": "щедрый"
     },
     {
-      "word": "thunderstorms",
-      "ipa_us": "ˈθʌndərˌstɔrmz",
-      "ipa_uk": "ˈθʌndəstɔːmz",
-      "translation_ru": "грозы"
+      "word": "lifeboat",
+      "ipa_us": "ˈlaɪfˌboʊt",
+      "ipa_uk": "ˈlaɪfbəʊt",
+      "translation_ru": "спасательная шлюпка"
+    },
+    {
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thirty-nine",
-        "thunderstorms"
+        "thousands",
+        "thinking",
+        "month",
+        "something"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
-    },
-    {
-      "sound": "ð",
-      "examples": [
-        "weather",
-        "Northern"
-      ],
-      "tip_ru": "Язык так же между зубами, но включите голос, как в «this»; не произносите д или з."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "weather",
         "warm",
-        "water",
-        "wheat"
+        "wooden",
+        "whole",
+        "wanted"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
     },
     {
-      "sound": "h",
+      "sound": "ŋ",
       "examples": [
-        "hottest",
-        "heatwave",
-        "hospitals",
-        "harvest"
+        "baking",
+        "mixing",
+        "measuring",
+        "shaping"
       ],
-      "tip_ru": "Лёгкий выдох из горла, без русского «х» и без трения языка."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "festival",
+        "tunnel",
+        "wall",
+        "full"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What record did Northern Valdia set?",
-      "answer": "Its hottest day in history.",
+      "question": "How long was the record loaf?",
+      "answer": "Forty-three metres and twelve centimetres.",
       "accepted_keywords": [
-        "hottest",
-        "hot",
-        "heat",
-        "temperature"
+        "forty-three",
+        "43",
+        "forty",
+        "metres"
       ]
     },
     {
-      "question": "How hot was it in the capital?",
-      "answer": "Thirty-nine degrees.",
+      "question": "Whose idea was it?",
+      "answer": "It began as a joke from nine-year-old Poppy, the baker's youngest daughter.",
       "accepted_keywords": [
-        "thirty",
-        "39"
+        "poppy",
+        "daughter",
+        "joke"
       ]
     },
     {
-      "question": "Who is most at risk from the heat?",
-      "answer": "Elderly people.",
+      "question": "What went wrong with the first attempt?",
+      "answer": "The loaf burned on the outside and stayed raw in the middle.",
       "accepted_keywords": [
-        "elderly",
-        "old",
-        "older"
+        "burned",
+        "raw",
+        "middle",
+        "outside"
       ]
     },
     {
-      "question": "When might relief arrive?",
-      "answer": "On Friday, with thunderstorms.",
+      "question": "Where will the money from the slices go?",
+      "answer": "To the town's lifeboat station for a new engine.",
       "accepted_keywords": [
-        "friday",
-        "thunderstorms",
-        "storms"
+        "lifeboat",
+        "engine",
+        "station"
       ]
     }
   ]

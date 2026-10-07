@@ -2,124 +2,165 @@
   "id": "a1-dialogue-04",
   "level": "A1",
   "genre": "dialogue",
-  "title_en": "At the Doctor",
-  "title_ru": "У врача",
-  "description_ru": "Мистер Браун плохо себя чувствует. Врач даёт простые советы.",
-  "text": "Doctor: Good morning, Mr Brown. How are you today?\nMr Brown: Not very well. My head hurts, and my throat is sore.\nDoctor: Do you have a fever?\nMr Brown: I think so. I feel hot and then cold.\nDoctor: Open your mouth, please. Say \"ah\".\nMr Brown: Ahh.\nDoctor: Your throat is red. You need rest, warm drinks and lots of sleep.\nMr Brown: Can I go to work tomorrow?\nDoctor: No, not this week. Stay at home for three days.\nMr Brown: Thank you, doctor. I drink tea with honey.\nDoctor: Good idea. Get well soon!",
+  "title_en": "Grandma's Rice",
+  "title_ru": "Бабушкин рис",
+  "description_ru": "Юноша впервые готовит ужин для друзей, а бабушка подсказывает ему рецепт по телефону.",
+  "text": "Omar: Hello, Grandma? It is Omar. Are you busy?\nFatima: Hello, my dear boy! No, I am not busy. I am watching a little television. How are you?\nOmar: I am fine, but I have a problem. Tomorrow my friends come to my flat for dinner, and I want to cook rice with chicken. Your rice with chicken!\nFatima: Ah, my special dish! That is wonderful. But you never cook, Omar. Remember the eggs last month?\nOmar: Please, Grandma, don't remind me. This time I do it well. Can you teach me on the phone?\nFatima: Of course. Go to the kitchen and take a pen. We start with the shopping list.\n\nFatima: You need one kilo of chicken, two cups of rice, three onions, some tomatoes, garlic and a lot of spices.\nOmar: Wait, wait, I write it down. One kilo of chicken, two cups of rice. What spices?\nFatima: Salt, black pepper and a little yellow powder called turmeric. It makes the rice golden and beautiful.\nOmar: Tur-me-ric. Okay. I buy everything at the market tomorrow morning.\nFatima: Good. Buy fresh chicken, not frozen. And call me again when you are ready to cook.\nOmar: I promise. Thank you, Grandma. I love you.\n\nOmar: Grandma, I am in the kitchen now. I have the chicken, the rice, the onions and the spices. What do I do first?\nFatima: First wash your hands. Then cut the onions in small pieces. Don't cry!\nOmar: Too late, my eyes are already wet. Ow! Okay, the onions are ready.\nFatima: Now put some oil in a big pot. Wait until it is hot, and then add the onions. Stir them until they are brown.\nOmar: It smells good already. What next?\nFatima: Add the chicken and the spices. Stir for ten minutes, and then add the tomatoes.\n\nOmar: Grandma, there is a problem. The chicken is sticking to the pot, and there is smoke!\nFatima: Turn down the fire, quickly! And add a little water. Not too much.\nOmar: Okay. The smoke is going away. Phew. That is better.\nFatima: You see, a good cook is calm. Now wash the rice in a bowl until the water is clear.\nOmar: It takes a long time. Why do I need to wash it?\nFatima: Because clean rice is fluffy, not sticky. Then put it in the pot with two cups of water and close the lid. Don't open it for twenty minutes.\n\nOmar: Grandma, while the chicken cooks, tell me. Where do you learn this recipe?\nFatima: From my own grandmother, in a small village by the sea. We cook on a wood fire, and the whole house smells of spices.\nOmar: Do you miss that place?\nFatima: Every day. But when you cook my recipe, the village comes back to me. That makes me happy.\nOmar: Then I promise to cook it often, and one day to take you there.\n\nOmar: Twenty minutes is a long time. My friends arrive in half an hour! Grandma, are you still there?\nFatima: Yes, my dear. While you wait, set the table and put some flowers in a glass. A beautiful table makes the food taste better.\nOmar: I have no flowers, but I have a green plant.\nFatima: That is fine. Put it in the middle. And light a candle if you have one.\nOmar: I do. Oh, the doorbell is ringing. My friends are early!\nFatima: Open the lid and look. If the water is gone, the rice is ready.\n\nOmar: The rice is perfect! It is golden, and it smells wonderful. Grandma, I did it!\nFatima: I am so proud of you. Now put the chicken on top and bring it to the table. Good luck, my dear.\nFriend: Omar, what is that smell? It is amazing!\nOmar: It is my grandmother's recipe. Please sit down, everybody. Dinner is ready.\nFriend: This is the best rice I ever eat. Who cooks it?\nOmar: I do, with a little help from a very special person.\n\nOmar: Hello, Grandma. Everybody loves the dinner. My friends want to learn your recipe.\nFatima: That makes me so happy. Why don't you all come here on Sunday? I teach all of you.\nOmar: Really? We love to come. I bring the dessert.\nFatima: No, no, you only bring yourselves. And Omar, no more eggs, please.\nOmar: No more eggs, I promise. Thank you for everything, Grandma. I love you.\nFatima: I love you too, my dear. Sleep well.",
+  "word_count": 706,
   "vocabulary": [
     {
-      "word": "throat",
-      "ipa_us": "θroʊt",
-      "ipa_uk": "θrəʊt",
-      "translation_ru": "горло"
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     },
     {
-      "word": "sore",
-      "ipa_us": "sɔːr",
-      "ipa_uk": "sɔː",
-      "translation_ru": "больной (о горле)"
+      "word": "spices",
+      "ipa_us": "ˈspaɪsɪz",
+      "ipa_uk": "ˈspaɪsɪz",
+      "translation_ru": "специи"
     },
     {
-      "word": "fever",
-      "ipa_us": "ˈfiːvɚ",
-      "ipa_uk": "ˈfiːvə",
-      "translation_ru": "температура, жар"
+      "word": "onions",
+      "ipa_us": "ˈʌnjənz",
+      "ipa_uk": "ˈʌnjənz",
+      "translation_ru": "лук"
     },
     {
-      "word": "mouth",
-      "ipa_us": "maʊθ",
-      "ipa_uk": "maʊθ",
-      "translation_ru": "рот"
+      "word": "turmeric",
+      "ipa_us": "ˈtɜːrmərɪk",
+      "ipa_uk": "ˈtɜːmərɪk",
+      "translation_ru": "куркума"
     },
     {
-      "word": "rest",
-      "ipa_us": "rest",
-      "ipa_uk": "rest",
-      "translation_ru": "отдых"
+      "word": "stir",
+      "ipa_us": "stɜːr",
+      "ipa_uk": "stɜː",
+      "translation_ru": "помешивать"
     },
     {
-      "word": "sleep",
-      "ipa_us": "sliːp",
-      "ipa_uk": "sliːp",
-      "translation_ru": "сон"
+      "word": "lid",
+      "ipa_us": "lɪd",
+      "ipa_uk": "lɪd",
+      "translation_ru": "крышка"
     },
     {
-      "word": "honey",
-      "ipa_us": "ˈhʌni",
-      "ipa_uk": "ˈhʌni",
-      "translation_ru": "мёд"
+      "word": "smoke",
+      "ipa_us": "smoʊk",
+      "ipa_uk": "sməʊk",
+      "translation_ru": "дым"
     },
     {
-      "word": "tomorrow",
-      "ipa_us": "təˈmɑːroʊ",
-      "ipa_uk": "təˈmɒrəʊ",
-      "translation_ru": "завтра"
+      "word": "fluffy",
+      "ipa_us": "ˈflʌfi",
+      "ipa_uk": "ˈflʌfi",
+      "translation_ru": "рассыпчатый"
+    },
+    {
+      "word": "golden",
+      "ipa_us": "ˈɡoʊldən",
+      "ipa_uk": "ˈɡəʊldən",
+      "translation_ru": "золотистый"
+    },
+    {
+      "word": "promise",
+      "ipa_us": "ˈprɑːmɪs",
+      "ipa_uk": "ˈprɒmɪs",
+      "translation_ru": "обещать"
+    },
+    {
+      "word": "dessert",
+      "ipa_us": "dɪˈzɜːrt",
+      "ipa_uk": "dɪˈzɜːt",
+      "translation_ru": "десерт"
+    },
+    {
+      "word": "kilo",
+      "ipa_us": "ˈkiːloʊ",
+      "ipa_uk": "ˈkiːləʊ",
+      "translation_ru": "килограмм"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ɜː",
       "examples": [
-        "throat",
-        "three",
-        "Thank",
-        "think"
+        "turmeric",
+        "first",
+        "learn",
+        "turn"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Долгий звук между «э» и «ё», губы не округляйте; в американском варианте добавляется «r»."
     },
     {
-      "sound": "h",
+      "sound": "ʌ",
       "examples": [
-        "head",
-        "hurts",
-        "honey",
-        "home"
+        "onions",
+        "much",
+        "love",
+        "some"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
     },
     {
-      "sound": "ð",
+      "sound": "əʊ",
       "examples": [
-        "this",
-        "then",
-        "the"
+        "oh",
+        "golden",
+        "smoke",
+        "hello"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Скольжение от «э» к «у» с округлением губ; не заменяйте на чистое «о»."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "food",
+        "good",
+        "and"
+      ],
+      "tip_ru": "Звонкие согласные в конце слова не оглушайте: «d» в «old» не должно звучать как «т»."
     }
   ],
   "questions": [
     {
-      "question": "What hurts Mr Brown?",
-      "answer": "His head and his throat.",
+      "question": "What does Omar want to cook?",
+      "answer": "Rice with chicken.",
       "accepted_keywords": [
-        "head",
-        "throat"
+        "rice",
+        "chicken"
       ]
     },
     {
-      "question": "Does he have a fever?",
-      "answer": "Yes, he thinks so.",
+      "question": "Who teaches Omar by phone?",
+      "answer": "His grandmother, Fatima.",
       "accepted_keywords": [
-        "yes",
-        "fever"
+        "grandma",
+        "grandmother",
+        "fatima"
       ]
     },
     {
-      "question": "How many days does he stay at home?",
-      "answer": "Three days.",
+      "question": "What problem happens with the chicken?",
+      "answer": "It sticks to the pot and there is smoke.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "smoke",
+        "stick",
+        "sticking",
+        "pot"
       ]
     },
     {
-      "question": "What does he drink?",
-      "answer": "Tea with honey.",
+      "question": "What do the friends think of the dinner?",
+      "answer": "They love it.",
       "accepted_keywords": [
-        "tea",
-        "honey"
+        "love",
+        "great",
+        "best",
+        "amazing",
+        "good",
+        "delicious"
       ]
     }
-  ],
-  "word_count": 82
+  ]
 }

@@ -25,7 +25,12 @@ import java.util.concurrent.ConcurrentHashMap
 data class JobUi(
     val id: Long, val textId: String, val title: String, val running: Boolean,
     val progress: Float, val etaSec: Double, val estimateSec: Double, val audioSeconds: Double, val stage: String,
-)
+    /** 1-based paragraph number and paragraph count for a paragraph job (null otherwise). */
+    val paragraph: Int? = null, val paragraphCount: Int = 0,
+) {
+    /** Title with "Абзац 3/8" for paragraph jobs. */
+    val label: String get() = if (paragraph != null && paragraphCount > 0) "$title · Абзац $paragraph/$paragraphCount" else title
+}
 
 fun formatMmSs(sec: Double): String {
     val s = Math.round(sec.coerceAtLeast(0.0)).toInt()
@@ -106,7 +111,8 @@ class ProcessingQueue(private val app: EnglishApp) {
             val running = j.id == rid
             JobUi(j.id, j.textId, j.title, running,
                 if (running) runFraction else 0f, if (running) runEta else -1.0,
-                estimates[j.id] ?: -1.0, j.audioSeconds, if (running) runStage else "")
+                estimates[j.id] ?: -1.0, j.audioSeconds, if (running) runStage else "",
+                j.paragraphIndex?.let { it + 1 }, j.paragraphCount)
         }.sortedByDescending { it.running }
     }
 

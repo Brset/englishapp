@@ -2,119 +2,155 @@
   "id": "a1-news-03",
   "level": "A1",
   "genre": "news",
-  "title_en": "Big Pumpkin Wins Prize",
-  "title_ru": "Огромная тыква получила приз",
-  "description_ru": "Новость с городской ярмарки: самая большая тыква.",
-  "text": "There is a big surprise at the Oakfield Fair this weekend. Farmer Tom Baker has a giant pumpkin. It is as big as a small car!\n\nThe pumpkin is one hundred and fifty kilos. Tom grows it in his garden. Every day he gives it water, and every night he puts a blanket on it. \"It is like a baby,\" he laughs.\n\nThe judges look at all the vegetables. Then they smile and say, \"Tom's pumpkin is the winner!\" Tom gets a golden cup and one hundred dollars.\n\nWhat does he want to do with the pumpkin now? \"I want to make a very, very big soup,\" says Tom.",
-  "word_count": 109,
+  "title_en": "Big Snow in Riverton",
+  "title_ru": "Большой снегопад в Ривертоне",
+  "description_ru": "Вымышленная новость: город засыпан снегом, школы закрыты, а дети строят самого высокого снеговика.",
+  "text": "Heavy snow falls in the town of Riverton overnight, and today nobody is going to school or work. About forty centimetres of snow cover the streets, the cars and the roofs. It is the biggest snowfall in the town for twenty years. The mayor says that everyone must stay at home if possible, but he adds that children are free to have fun.\n\nResidents wake up this morning to a quiet, white world. \"I open the curtains at six o'clock and I cannot believe my eyes,\" says Helen Price, a nurse who lives near the river. \"My car is gone! I can see only a big white hill.\" She laughs and says that she needs two hours to dig it out. She must get to the hospital by noon, because sick people still need her. A friendly neighbour with a big jeep takes her there. Many neighbours help each other, and the whole street is full of people with shovels.\n\nPublic transport is stopping. Buses stay in the garage, and only a few trains are running between the towns. Riverton Station is almost empty, and a tired worker is drinking tea behind the window. \"Nobody comes today,\" he says. \"I only hear the wind.\" Roads outside the town are closed. Tractors from local farms are helping to clean them, and the drivers wave to people as they go past.\n\nThe children, however, are having the best day of their lives. In Castle Park there are more than two hundred of them. They are building snowmen, throwing snowballs and sliding down the hill on plastic bags and trays. Ten-year-old Jack Turner is wearing three jackets and two hats. \"This is amazing!\" he shouts. \"I never see so much snow in my life. I do not want it to stop.\" His little sister is lying on her back and making a snow angel.\n\nOne group of children has a very big plan. They want to build the tallest snowman in Riverton. They begin at nine o'clock, and about thirty children and several parents are helping. First they make a huge ball for the body, and then a smaller one for the middle. It is hard work. \"We need a ladder,\" says Mr Ali, a father who is holding a rope. Somebody brings an old ladder, and they put the head on top. The snowman is now three metres tall.\n\nThe children give him a carrot nose, two big stones for eyes and a red scarf. A little girl called Emma brings an old hat from her grandfather. Another boy puts a broom in his hand. \"He needs a name,\" says Emma. After a long talk, the children choose \"Mister Frost\". Local people come to take photos, and a man from the radio asks the children some questions. \"He is the king of the park,\" says Emma.\n\nShops in the town are closed, but a few brave owners open their doors. The Corner Cafe is full of people in wet boots. The owner, Rosa Perez, is making hot chocolate as fast as she can. \"I think I make three hundred cups since this morning,\" she says. \"I give free drinks to the children.\" Next door, the baker is selling his bread to people who cannot go to the big supermarket. There is a long line, but nobody is angry.\n\nThe weather office says that more snow is coming tonight. It will be colder, and the roads can be icy. They ask people to be careful and to drive only if they must. Schools will stay closed tomorrow, and the town hopes to open them on Thursday. The news makes the children very happy, and their parents a little worried. Several people are already buying more food and wood for their fires.\n\nIn the evening, the sky is clear, and the park is almost empty. Mister Frost stands alone in the middle of the white field, with his red scarf and his old hat. The lights on the road are shining on him. A woman walking her dog stops and takes a picture. \"He looks so happy,\" she says. Tomorrow the children are planning to give him a wife, and they already have a name for her. It is Missis Snow.",
+  "word_count": 709,
   "vocabulary": [
     {
-      "word": "surprise",
-      "ipa_us": "sərˈpraɪz",
-      "ipa_uk": "səˈpraɪz",
-      "translation_ru": "сюрприз"
+      "word": "snowfall",
+      "ipa_us": "ˈsnoʊˌfɔl",
+      "ipa_uk": "ˈsnəʊfɔːl",
+      "translation_ru": "снегопад"
     },
     {
-      "word": "farmer",
-      "ipa_us": "ˈfɑrmər",
-      "ipa_uk": "ˈfɑːmə",
-      "translation_ru": "фермер"
+      "word": "shovels",
+      "ipa_us": "ˈʃʌvəlz",
+      "ipa_uk": "ˈʃʌvəlz",
+      "translation_ru": "лопаты"
     },
     {
-      "word": "giant",
-      "ipa_us": "ˈdʒaɪənt",
-      "ipa_uk": "ˈdʒaɪənt",
-      "translation_ru": "гигантский"
+      "word": "residents",
+      "ipa_us": "ˈrɛzɪdənts",
+      "ipa_uk": "ˈrezɪdənts",
+      "translation_ru": "жители"
     },
     {
-      "word": "pumpkin",
-      "ipa_us": "ˈpʌmpkɪn",
-      "ipa_uk": "ˈpʌmpkɪn",
-      "translation_ru": "тыква"
+      "word": "transport",
+      "ipa_us": "ˈtrænspɔrt",
+      "ipa_uk": "ˈtrænspɔːt",
+      "translation_ru": "транспорт"
     },
     {
-      "word": "blanket",
-      "ipa_us": "ˈblæŋkɪt",
-      "ipa_uk": "ˈblæŋkɪt",
-      "translation_ru": "одеяло"
+      "word": "tractors",
+      "ipa_us": "ˈtræktərz",
+      "ipa_uk": "ˈtræktəz",
+      "translation_ru": "тракторы"
     },
     {
-      "word": "judge",
-      "ipa_us": "dʒʌdʒ",
-      "ipa_uk": "dʒʌdʒ",
-      "translation_ru": "судья"
+      "word": "snowballs",
+      "ipa_us": "ˈsnoʊˌbɔlz",
+      "ipa_uk": "ˈsnəʊbɔːlz",
+      "translation_ru": "снежки"
     },
     {
-      "word": "vegetable",
-      "ipa_us": "ˈvɛdʒtəbəl",
-      "ipa_uk": "ˈvedʒtəbəl",
-      "translation_ru": "овощ"
+      "word": "ladder",
+      "ipa_us": "ˈlædər",
+      "ipa_uk": "ˈlædə",
+      "translation_ru": "лестница, стремянка"
     },
     {
-      "word": "winner",
-      "ipa_us": "ˈwɪnər",
-      "ipa_uk": "ˈwɪnə",
-      "translation_ru": "победитель"
+      "word": "scarf",
+      "ipa_us": "skɑrf",
+      "ipa_uk": "skɑːf",
+      "translation_ru": "шарф"
+    },
+    {
+      "word": "garage",
+      "ipa_us": "ɡəˈrɑʒ",
+      "ipa_uk": "ˈɡærɑːʒ",
+      "translation_ru": "гараж"
+    },
+    {
+      "word": "weather",
+      "ipa_us": "ˈwɛðər",
+      "ipa_uk": "ˈweðə",
+      "translation_ru": "погода"
+    },
+    {
+      "word": "closed",
+      "ipa_us": "kloʊzd",
+      "ipa_uk": "kləʊzd",
+      "translation_ru": "закрытый"
+    },
+    {
+      "word": "snowman",
+      "ipa_us": "ˈsnoʊˌmæn",
+      "ipa_uk": "ˈsnəʊmæn",
+      "translation_ru": "снеговик"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "ð",
+      "examples": [
+        "weather",
+        "they",
+        "other"
+      ],
+      "tip_ru": "Язык между зубами, но с голосом; не «з» и не «д»."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "ladder",
+        "tractors",
+        "snowballs"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
+      "sound": "əʊ",
+      "examples": [
+        "snow",
+        "closed",
+        "home"
+      ],
+      "tip_ru": "Скольжение от «э» к краткому «у» (в США ближе к «оу»)."
+    },
+    {
       "sound": "w",
       "examples": [
-        "weekend",
-        "water",
-        "winner"
+        "wind",
+        "window",
+        "world"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "every",
-        "vegetables",
-        "very"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
-    },
-    {
-      "sound": "ʌ",
-      "examples": [
-        "pumpkin",
-        "judges",
-        "one"
-      ],
-      "tip_ru": "Короткий «а», рот открыт средне, губы не округляйте; не «о» и не русское «а»."
+      "tip_ru": "Губы округлены вперёд, без касания зубами; не путайте с «в»."
     }
   ],
   "questions": [
     {
-      "question": "What is big at the fair?",
-      "answer": "A pumpkin.",
+      "question": "How much snow falls in Riverton?",
+      "answer": "About forty centimetres.",
       "accepted_keywords": [
-        "pumpkin"
+        "forty",
+        "40"
       ]
     },
     {
-      "question": "How much is the pumpkin?",
-      "answer": "One hundred and fifty kilos.",
+      "question": "What are the children building in the park?",
+      "answer": "The tallest snowman in Riverton.",
       "accepted_keywords": [
-        "hundred",
-        "150",
-        "fifty"
+        "snowman",
+        "tallest"
       ]
     },
     {
-      "question": "What does Tom put on it at night?",
-      "answer": "A blanket.",
+      "question": "What is the snowman's name?",
+      "answer": "Mister Frost.",
       "accepted_keywords": [
-        "blanket"
+        "frost",
+        "mister"
       ]
     },
     {
-      "question": "What does Tom want to make?",
-      "answer": "A very big soup.",
+      "question": "What does Rosa Perez give to the children?",
+      "answer": "Free hot chocolate.",
       "accepted_keywords": [
-        "soup"
+        "chocolate",
+        "hot",
+        "drinks"
       ]
     }
   ]

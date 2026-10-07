@@ -2,133 +2,156 @@
   "id": "b1-opinion-03",
   "level": "B1",
   "genre": "opinion",
-  "title_en": "Why Everyone Should Learn to Cook",
-  "title_ru": "Почему каждый должен уметь готовить",
-  "description_ru": "Короткое эссе о том, что кулинария должна быть школьным предметом, и о пользе домашней еды.",
-  "text": "Last month, my friend Victor admitted that at the age of thirty he had never cooked a real meal. He lives on sandwiches, frozen pizza and takeaway food. When I heard this, I realised that schools have missed something important. In my opinion, cooking should be a normal school subject, just like maths or geography.\n\nThe first benefit is health. People who cook at home usually eat more vegetables and less sugar, because they know exactly what is in their food. A ready meal from a shop often contains much more salt than we would ever add ourselves.\n\nThe second benefit is money. Although some ingredients look expensive, a simple pot of soup costs far less than a lunch in a restaurant. If Victor had learned to cook ten years ago, he would have saved a small fortune by now.\n\nFinally, cooking is a wonderful skill for life. It teaches patience, planning and creativity. It is also a very friendly activity. When you invite people for dinner, you give them more than food. You give them your time and your attention.\n\nSome people say they are too busy to cook. I understand, but a good meal does not have to take hours. Pasta with tomatoes, an omelette or a vegetable curry can be ready in twenty minutes.\n\nSo if you have never tried, why not begin this week? Buy fresh vegetables, find a simple recipe, and enjoy the smell of your own kitchen. I promise you will be proud of the result.",
-  "word_count": 252,
+  "title_en": "Why I Still Buy Paper Books",
+  "title_ru": "Почему я всё ещё покупаю бумажные книги",
+  "description_ru": "Автор объясняет, почему любит бумажные книги, хотя пользуется и электронной: память, отвлекающие факторы, книжные магазины и компромисс.",
+  "text": "I own an e-reader, and I like it. It is light, it holds hundreds of books, and I can read on it in bed without a lamp. I bought it for a long holiday two years ago, and I used it every day. Nevertheless, when I get home, I still go to the bookshop and buy paper books. Many of my friends find this strange. \"It is the twenty-first century,\" they say. \"Why do you carry such heavy things?\" In this essay, I want to explain why I believe that paper books are still worth the trouble.\n\nThe first reason is that paper is simply nicer to read. I know that this sounds old-fashioned, but science partly agrees with me. Several studies have found that people who read on paper often remember more of the story than people who read the same text on a screen. One idea is that a physical book gives your brain more clues. You know that an important event happened on the left page, about a third of the way through, and you can see how much is still to come. On a screen, every page looks the same, and the text seems to slide away.\n\nAnother reason is that screens are distracting. When I read on my tablet, I am only one touch away from messages, news and videos. I have lost count of the times that I opened an e-book and ended up checking the weather instead. A paper book cannot send me a notification. It does not need charging, and it works on a plane, on a beach or during a power cut. If I drop it in the bath, I will be annoyed, but I will not need to buy a new one.\n\nBooks are also objects that you can share, and I think that is important. I have lent novels to friends, borrowed some from my grandmother, and found notes written in the margins of second-hand copies. Once, I discovered a pressed flower inside an old edition of a poetry collection, and I wondered for days who had left it there. You cannot lend an e-book so easily, and you certainly cannot find a mysterious flower in one. A shelf full of books also tells a story about a person. When I visit someone's home, I always look at the books first.\n\nReading in print has one more advantage for me: it slows me down. I turn the pages, I notice the cover, and I am less tempted to hurry to the end. Finally, I think that the shops matter. If everybody switched to e-books, bookshops would close, and our towns would lose some of their personality. A small bookshop is a place where you can talk to someone who knows what you might enjoy, where you can discover an author that you have never heard of, and where you can spend an hour without being asked to buy anything. Online shops are efficient, but their suggestions are based on what you have already bought, so they rarely surprise you.\n\nOf course, I do not want to be unfair to e-books. They have several real advantages. For people with poor eyesight, they allow the type to be made bigger. Students can carry a whole library instead of a heavy bag. Readers in remote areas, or in countries without good bookshops, can download almost anything in seconds. E-books are often cheaper, and they use less paper, which is better for forests. If you travel often, they are a wonderful invention. I would not give up my e-reader, and I think it would be silly to claim that one type of book is perfect for all situations.\n\nI also notice that the two formats are not really enemies. When e-books first appeared, many people predicted that printed books would disappear within a few years. That has not happened. Sales of paper books have remained surprisingly stable, and in some countries they have even grown. It seems that many readers, like me, enjoy using both: an e-reader for travelling and a real book for the sofa.\n\nSo my advice is simple. If you have only ever read on a screen, try a paper book for a month and see whether you notice a difference. If you read mainly on paper, consider an e-reader for your next trip. Either way, the most important thing is to read, and to enjoy it. As long as people keep turning pages, whether real or virtual, stories will survive. Personally, though, I will keep buying paper books, and I will keep complaining about the weight of my suitcase.",
+  "word_count": 783,
   "vocabulary": [
     {
-      "word": "admitted",
-      "ipa_us": "ədˈmɪtɪd",
-      "ipa_uk": "ədˈmɪtɪd",
-      "translation_ru": "признался"
+      "word": "e-reader",
+      "ipa_us": "ˈiː ˌriːdər",
+      "ipa_uk": "ˈiː ˌriːdə",
+      "translation_ru": "электронная книга"
     },
     {
-      "word": "realised",
-      "ipa_us": "ˈriəˌlaɪzd",
-      "ipa_uk": "ˈrɪəlaɪzd",
-      "translation_ru": "осознал"
+      "word": "distracting",
+      "ipa_us": "dɪˈstræktɪŋ",
+      "ipa_uk": "dɪˈstræktɪŋ",
+      "translation_ru": "отвлекающий"
     },
     {
-      "word": "subject",
-      "ipa_us": "ˈsʌbdʒɪkt",
-      "ipa_uk": "ˈsʌbdʒɪkt",
-      "translation_ru": "предмет (школьный)"
+      "word": "margins",
+      "ipa_us": "ˈmɑːrdʒɪnz",
+      "ipa_uk": "ˈmɑːdʒɪnz",
+      "translation_ru": "поля (страницы)"
     },
     {
-      "word": "benefit",
-      "ipa_us": "ˈbɛnəfɪt",
-      "ipa_uk": "ˈbenɪfɪt",
-      "translation_ru": "польза"
+      "word": "pressed",
+      "ipa_us": "prɛst",
+      "ipa_uk": "prest",
+      "translation_ru": "засушенный, прижатый"
     },
     {
-      "word": "vegetables",
-      "ipa_us": "ˈvɛdʒtəbəlz",
-      "ipa_uk": "ˈvedʒtəbəlz",
-      "translation_ru": "овощи"
+      "word": "personality",
+      "ipa_us": "ˌpɜːrsəˈnæləti",
+      "ipa_uk": "ˌpɜːsəˈnæləti",
+      "translation_ru": "характер, индивидуальность"
     },
     {
-      "word": "ingredients",
-      "ipa_us": "ɪnˈɡridiənts",
-      "ipa_uk": "ɪnˈɡriːdiənts",
-      "translation_ru": "ингредиенты"
+      "word": "efficient",
+      "ipa_us": "ɪˈfɪʃənt",
+      "ipa_uk": "ɪˈfɪʃənt",
+      "translation_ru": "эффективный"
     },
     {
-      "word": "fortune",
-      "ipa_us": "ˈfɔrtʃən",
-      "ipa_uk": "ˈfɔːtʃuːn",
-      "translation_ru": "состояние (деньги)"
+      "word": "remote",
+      "ipa_us": "rɪˈmoʊt",
+      "ipa_uk": "rɪˈməʊt",
+      "translation_ru": "отдалённый"
     },
     {
-      "word": "patience",
-      "ipa_us": "ˈpeɪʃəns",
-      "ipa_uk": "ˈpeɪʃəns",
-      "translation_ru": "терпение"
+      "word": "stable",
+      "ipa_us": "ˈsteɪbəl",
+      "ipa_uk": "ˈsteɪbəl",
+      "translation_ru": "стабильный"
     },
     {
-      "word": "recipe",
-      "ipa_us": "ˈrɛsəpi",
-      "ipa_uk": "ˈresɪpi",
-      "translation_ru": "рецепт"
+      "word": "notification",
+      "ipa_us": "ˌnoʊtɪfɪˈkeɪʃən",
+      "ipa_uk": "ˌnəʊtɪfɪˈkeɪʃən",
+      "translation_ru": "уведомление"
+    },
+    {
+      "word": "eyesight",
+      "ipa_us": "ˈaɪˌsaɪt",
+      "ipa_uk": "ˈaɪsaɪt",
+      "translation_ru": "зрение"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "Victor",
-        "vegetables",
-        "very",
-        "ever"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
-    },
-    {
       "sound": "θ",
       "examples": [
-        "thirty",
+        "both",
         "month",
-        "something"
+        "think",
+        "though"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "r",
       "examples": [
-        "real",
-        "restaurant",
-        "recipe",
-        "promise"
+        "read",
+        "reader",
+        "reason",
+        "remote"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, не вибрирует; губы чуть округлены."
+      "tip_ru": "Кончик языка поднят и загнут назад, не касается нёба; никакого раскатистого «р»."
+    },
+    {
+      "sound": "aɪ",
+      "examples": [
+        "eyesight",
+        "my",
+        "like"
+      ],
+      "tip_ru": "Начинайте с широкого «а» и плавно уходите к «и»; звук долгий, двойной."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "full",
+        "real",
+        "small",
+        "still"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "What had Victor never done?",
-      "answer": "Cooked a real meal.",
+      "question": "Why do studies suggest that paper is better for remembering?",
+      "answer": "A physical book gives the brain more clues, such as where an event happened in the book.",
       "accepted_keywords": [
-        "cooked",
-        "cook",
-        "meal"
+        "clues",
+        "left",
+        "page",
+        "remember",
+        "physical"
       ]
     },
     {
-      "question": "What is the first benefit of cooking?",
-      "answer": "Health.",
+      "question": "Why are screens distracting?",
+      "answer": "They are one touch away from messages, news and videos.",
       "accepted_keywords": [
-        "health",
-        "healthy"
+        "messages",
+        "news",
+        "videos",
+        "touch",
+        "notification"
       ]
     },
     {
-      "question": "Why is homemade soup good for your money?",
-      "answer": "It costs less than a restaurant lunch.",
+      "question": "What does the author like about bookshops?",
+      "answer": "You can talk to someone who knows books and discover new authors.",
       "accepted_keywords": [
-        "less",
-        "cheaper",
-        "cost",
-        "money"
+        "talk",
+        "discover",
+        "authors",
+        "personality",
+        "recommend"
       ]
     },
     {
-      "question": "How long can a simple meal take?",
-      "answer": "Twenty minutes.",
+      "question": "What is the author's advice at the end?",
+      "answer": "Try both formats; the important thing is to read.",
       "accepted_keywords": [
-        "twenty",
-        "20",
-        "minutes"
+        "both",
+        "read",
+        "try",
+        "enjoy"
       ]
     }
   ]

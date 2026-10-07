@@ -4,15 +4,27 @@
   "genre": "science",
   "title_en": "Why Is the Sky Blue?",
   "title_ru": "Почему небо голубое?",
-  "description_ru": "Простое объяснение того, почему мы видим голубое небо днём и красный закат вечером.",
-  "text": "Every day, we look up and see a blue sky. But why is it blue? The answer is in the light from the sun.\n\nSunlight looks white, but it really has many colours inside it, like a rainbow. When the light travels through the air, it hits very small pieces of gas. Blue light moves in short waves, so it bounces around more than red light. This means blue light comes to our eyes from every part of the sky.\n\nIn the evening, the sun is lower, and its light has to travel through more air. The blue light goes away in other directions, and only the red and orange light arrives. That is why a sunset can be so red.\n\nOn other planets, the sky has different colours. On Mars, for example, the daytime sky is a pale brown. So the colour of the sky depends on the air around a planet.",
-  "word_count": 153,
+  "description_ru": "Простое объяснение, почему днём небо голубое, а на закате красное, и как это связано со светом и воздухом. В конце несложный опыт для дома.",
+  "text": "Look up on a clear day, and you see a blue sky. Look again at sunset, and the same sky is orange and red. Many children ask why, and the answer is not simple. But it is not too difficult either. To understand it, we need to know three things about light, air and the way they meet.\n\nFirst, light from the sun looks white, but it is really a mixture of many colours. You can see these colours in a rainbow: red, orange, yellow, green, blue and violet. Each colour travels as a wave. Red light has long waves, and blue light has short waves. This small difference is the key to the whole story. It explains why the sky changes colour during the day.\n\nSecond, the air around the Earth is not empty. It is full of tiny pieces of gas, mostly nitrogen and oxygen. These pieces are far too small to see. When sunlight enters the air, it hits them, and the light goes in many different directions. Scientists call this scattering. The important point is that short waves scatter much more than long waves. Blue light scatters about five or six times more than red light.\n\nNow we can answer the first question. During the day, the sun is high in the sky, and its light travels a short way through the air. The blue light scatters all over the sky, so wherever you look, some blue light comes into your eyes. That is why the sky looks blue. The red light mostly goes straight through, so it does not reach your eyes from the sides.\n\nYou may ask a clever question here. Violet light has even shorter waves than blue light, so why is the sky not violet? There are two reasons. The sun sends out less violet light than blue light, and the upper part of the air takes some of it away. Also, our eyes are not very sensitive to violet. We see blue much more easily. So the sky is a mixture of colours, but blue is the strongest one for our eyes.\n\nAt sunset, the situation is different. The sun is very low, close to the horizon, and its light has to travel through much more air before it reaches you. On this long journey, most of the blue light scatters away in other directions. Only the long waves, the red and orange ones, are left. They come directly to your eyes, and the sky looks warm and golden. This is also why the sun itself looks redder when it is near the horizon.\n\nThe same idea explains other things. Dust, smoke and small drops of water make the effect stronger, so sunsets after a forest fire or a volcano often look more dramatic than normal. Clouds look white because their drops are much bigger than the pieces of gas in the air. Big drops scatter all colours of light in the same way, and a mixture of all colours looks white. Heavy rain clouds look grey or dark because they are so thick that little light passes through them.\n\nOther planets have different skies. On Mars, the air is very thin and full of fine red dust. During the day, the Martian sky looks pale orange or brown, but at sunset it becomes blue near the sun. It is the opposite of our sky. One day, when people visit Mars, they are going to see a sunset that looks completely strange to them, and they will understand something about light that we only learn from books.\n\nYou can try a simple experiment at home. Fill a clear glass with water and add a few drops of milk. Switch off the room light and shine a torch through the glass from the side. The water looks a little blue, and the light at the other end looks orange. The milk makes tiny pieces in the water, and they scatter the light the same way as the air does. It is a small model of the sky in your kitchen.\n\nSo the next time you see a red sunset, remember that you are really watching a long journey. The light left the sun about eight minutes ago, crossed millions of kilometres of empty space, and then travelled through the air of the Earth. Along the way, the blue light left the road, and the red light stayed. The beautiful colour above you is simply what remains.",
+  "word_count": 744,
   "vocabulary": [
     {
-      "word": "sunlight",
-      "ipa_us": "ˈsʌnlaɪt",
-      "ipa_uk": "ˈsʌnlaɪt",
-      "translation_ru": "солнечный свет"
+      "word": "scatter",
+      "ipa_us": "ˈskætər",
+      "ipa_uk": "ˈskætə",
+      "translation_ru": "рассеивать"
+    },
+    {
+      "word": "wave",
+      "ipa_us": "weɪv",
+      "ipa_uk": "weɪv",
+      "translation_ru": "волна"
+    },
+    {
+      "word": "mixture",
+      "ipa_us": "ˈmɪkstʃər",
+      "ipa_uk": "ˈmɪkstʃə",
+      "translation_ru": "смесь"
     },
     {
       "word": "rainbow",
@@ -21,110 +33,110 @@
       "translation_ru": "радуга"
     },
     {
-      "word": "travels",
-      "ipa_us": "ˈtrævəlz",
-      "ipa_uk": "ˈtrævəlz",
-      "translation_ru": "путешествует"
+      "word": "violet",
+      "ipa_us": "ˈvaɪələt",
+      "ipa_uk": "ˈvaɪələt",
+      "translation_ru": "фиолетовый"
     },
     {
-      "word": "waves",
-      "ipa_us": "weɪvz",
-      "ipa_uk": "weɪvz",
-      "translation_ru": "волны"
+      "word": "horizon",
+      "ipa_us": "həˈraɪzn",
+      "ipa_uk": "həˈraɪzn",
+      "translation_ru": "горизонт"
     },
     {
-      "word": "bounces",
-      "ipa_us": "ˈbaʊnsɪz",
-      "ipa_uk": "ˈbaʊnsɪz",
-      "translation_ru": "отскакивает"
+      "word": "sensitive",
+      "ipa_us": "ˈsɛnsətɪv",
+      "ipa_uk": "ˈsensətɪv",
+      "translation_ru": "чувствительный"
     },
     {
-      "word": "sunset",
-      "ipa_us": "ˈsʌnset",
-      "ipa_uk": "ˈsʌnset",
-      "translation_ru": "закат"
+      "word": "experiment",
+      "ipa_us": "ɪkˈspɛrɪmənt",
+      "ipa_uk": "ɪkˈsperɪmənt",
+      "translation_ru": "опыт, эксперимент"
     },
     {
-      "word": "planets",
-      "ipa_us": "ˈplænɪts",
-      "ipa_uk": "ˈplænɪts",
-      "translation_ru": "планеты"
+      "word": "dust",
+      "ipa_us": "dʌst",
+      "ipa_uk": "dʌst",
+      "translation_ru": "пыль"
     },
     {
-      "word": "depends",
-      "ipa_us": "dɪˈpendz",
-      "ipa_uk": "dɪˈpendz",
-      "translation_ru": "зависит"
+      "word": "planet",
+      "ipa_us": "ˈplænɪt",
+      "ipa_uk": "ˈplænɪt",
+      "translation_ru": "планета"
+    },
+    {
+      "word": "gas",
+      "ipa_us": "ɡæs",
+      "ipa_uk": "ɡæs",
+      "translation_ru": "газ"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "w",
       "examples": [
-        "the",
-        "through",
-        "other",
-        "that",
-        "this"
+        "wave",
+        "white",
+        "water"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Губы округлены и выдвинуты вперёд, зубы не касаются губ; звук короткий, как быстрое «у-а»."
     },
     {
       "sound": "v",
       "examples": [
-        "every",
-        "travels",
+        "violet",
         "very",
-        "evening"
+        "travels"
       ],
       "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
     },
     {
-      "sound": "r",
+      "sound": "θ",
       "examples": [
-        "red",
-        "rainbow",
-        "travel",
         "through",
-        "orange",
-        "around"
+        "thin",
+        "three"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     }
   ],
   "questions": [
     {
-      "question": "Why does the sky look blue?",
-      "answer": "Blue light bounces around more in the air.",
+      "question": "Which colour scatters more in the air, blue or red?",
+      "answer": "Blue.",
+      "accepted_keywords": [
+        "blue"
+      ]
+    },
+    {
+      "question": "Why is the sky not violet?",
+      "answer": "The sun sends less violet light, and our eyes are less sensitive to it.",
+      "accepted_keywords": [
+        "less",
+        "eyes",
+        "sensitive"
+      ]
+    },
+    {
+      "question": "Why is the sunset red?",
+      "answer": "The light travels through more air, and the blue light scatters away.",
       "accepted_keywords": [
         "blue",
-        "light",
-        "bounces",
-        "waves"
+        "scatters",
+        "air"
       ]
     },
     {
-      "question": "What colour is a sunset?",
-      "answer": "Red and orange.",
+      "question": "What does the experiment at home use?",
+      "answer": "A glass of water, some milk and a torch.",
       "accepted_keywords": [
-        "red",
-        "orange"
-      ]
-    },
-    {
-      "question": "What does sunlight have inside it?",
-      "answer": "Many colours.",
-      "accepted_keywords": [
-        "colours",
-        "colors",
-        "rainbow"
-      ]
-    },
-    {
-      "question": "What colour is the daytime sky on Mars?",
-      "answer": "Pale brown.",
-      "accepted_keywords": [
-        "brown"
+        "milk",
+        "water",
+        "torch"
       ]
     }
   ]

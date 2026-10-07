@@ -2,125 +2,157 @@
   "id": "a2-biography-02",
   "level": "A2",
   "genre": "biography",
-  "title_en": "Marie Curie",
-  "title_ru": "Мария Кюри",
-  "description_ru": "Жизнь учёной, которая первой получила две Нобелевские премии.",
-  "text": "Marie Curie was born in Warsaw, Poland, in 1867. Her name then was Maria Sklodowska. Her family was not rich, and women could not study at university in Poland. So she worked as a teacher for several years and saved money.\n\nIn 1891 Maria moved to Paris and studied science. She worked very hard, and sometimes she had little food. In Paris she met Pierre Curie, a scientist, and they got married in 1895.\n\nTogether, Marie and Pierre discovered two new elements. They called them polonium and radium. In 1903 they won the Nobel Prize in Physics. Marie was the first woman to win this prize. Later, in 1911, she won a second Nobel Prize, this time in Chemistry.\n\nDuring the First World War, Marie helped doctors with special X-ray cars. She died in 1934, but people still remember her.",
-  "word_count": 135,
+  "title_en": "Amelia Earhart: The Sky Belongs to Everyone",
+  "title_ru": "Амелия Эрхарт: небо принадлежит всем",
+  "description_ru": "Биография американской лётчицы, которая первой из женщин пересекла Атлантику в одиночку и исчезла во время кругосветного перелёта.",
+  "text": "Amelia Earhart was an American pilot who became a hero around the world. In the 1920s and 1930s, flying was new and dangerous, and very few women did it. Amelia did not care what other people said. She wanted to fly, and she was going to do it her own way.\n\nShe was born on 24 July 1897 in Atchison, Kansas. As a child, she was not like the other girls. She climbed trees, played outside with her sister Muriel and collected insects in the garden. One day she built a roller coaster from wood and a box, and she rode down it in front of the neighbours. The ride ended badly, but Amelia laughed. \"It's just like flying,\" she said. Her mother never told her to be quiet and sit still, and that helped Amelia to grow up brave.\n\nIn 1918, during the First World War, she worked as a nurse's helper in a hospital in Toronto, Canada. She took care of wounded soldiers, and in her free time she watched the pilots at a nearby flying field. She was fascinated by them, and she asked them hundreds of questions.\n\nHer family moved many times, because her father moved from one job to another. Amelia was still a young woman when she saw a plane for the first time at a fair. She was not very impressed. It was made of wire and rusty metal, and she thought it looked ugly. But in December 1920, in California, a pilot took her on a ten-minute flight. She later said that as soon as she left the ground, she knew she had to fly.\n\nHer teacher, a woman called Neta Snook, was one of the first female pilots in America. Flying lessons were expensive, so Amelia worked at many different jobs to pay for them. She drove a truck, worked in an office and even took photographs. In 1921 she bought her first plane, a small yellow one, and she called it \"The Canary\". It was louder and slower than modern planes, but she loved it. In 1922 she flew it higher than any other woman had flown before, to about 14,000 feet.\n\nIn 1928, Amelia became famous. A group of people planned a flight across the Atlantic Ocean, and they wanted a woman to go with two male pilots. They chose Amelia. She was only a passenger on that flight, and she did not touch the controls. When the plane landed in Wales, newspapers all over America printed her photograph. She said she felt like \"a sack of potatoes\", but the public loved her smile and her courage.\n\nAmelia decided to prove that she was a real pilot. On 20 May 1932, she took off from Newfoundland alone. The weather was terrible. Ice covered the wings, and a fire started in the engine. After almost fifteen hours, she landed in a field in Northern Ireland, near a surprised farmer. He asked her, \"Have you flown far?\" She answered, \"From America.\" She was the first woman to fly alone across the Atlantic.\n\nShe did not stop there. She cut her hair short, wore a leather jacket and a scarf, and soon many women copied her style. She even designed her own line of practical clothes for active women. In 1935 she became the first person to fly alone from Hawaii to California. She also wrote books, gave talks and helped other women to become pilots. She believed that women could do the same jobs as men. She married a publisher, George Putnam, in 1931, but she told him before the wedding that she was going to keep her freedom.\n\nIn 1937, Amelia decided to make her biggest journey. She was going to fly around the whole world. She and her navigator, Fred Noonan, started in June in a twin-engine plane, and they flew east. After about 22,000 miles, they had only 7,000 miles left. On 2 July 1937, they took off from Lae, in New Guinea, and flew toward tiny Howland Island in the Pacific Ocean.\n\nThey never arrived. The radio messages became weaker, and then they stopped. The American navy searched the ocean for more than two weeks, but they found nothing. Nobody knows exactly what happened to Amelia and Fred, and people still discuss it today. Amelia Earhart was only thirty-nine when she disappeared. Her mystery is famous, but her real gift was something simpler. She showed millions of girls that a dream is possible, and that the sky belongs to everyone.",
+  "word_count": 739,
   "vocabulary": [
     {
-      "word": "rich",
-      "ipa_us": "rɪtʃ",
-      "ipa_uk": "rɪtʃ",
-      "translation_ru": "богатый"
+      "word": "pilot",
+      "ipa_us": "ˈpaɪlət",
+      "ipa_uk": "ˈpaɪlət",
+      "translation_ru": "лётчик"
     },
     {
-      "word": "saved",
-      "ipa_us": "seɪvd",
-      "ipa_uk": "seɪvd",
-      "translation_ru": "копила, откладывала"
+      "word": "roller coaster",
+      "ipa_us": "ˈroʊlər ˌkoʊstər",
+      "ipa_uk": "ˈrəʊlə ˌkəʊstə",
+      "translation_ru": "американские горки"
     },
     {
-      "word": "scientist",
-      "ipa_us": "ˈsaɪəntɪst",
-      "ipa_uk": "ˈsaɪəntɪst",
-      "translation_ru": "учёный"
+      "word": "impressed",
+      "ipa_us": "ɪmˈprɛst",
+      "ipa_uk": "ɪmˈprest",
+      "translation_ru": "впечатлённый"
     },
     {
-      "word": "discovered",
-      "ipa_us": "dɪˈskʌvərd",
-      "ipa_uk": "dɪˈskʌvəd",
-      "translation_ru": "открыли"
+      "word": "expensive",
+      "ipa_us": "ɪkˈspɛnsɪv",
+      "ipa_uk": "ɪkˈspensɪv",
+      "translation_ru": "дорогой"
     },
     {
-      "word": "element",
-      "ipa_us": "ˈelɪmənt",
-      "ipa_uk": "ˈelɪmənt",
-      "translation_ru": "(химический) элемент"
+      "word": "passenger",
+      "ipa_us": "ˈpæsɪndʒər",
+      "ipa_uk": "ˈpæsɪndʒə",
+      "translation_ru": "пассажир"
     },
     {
-      "word": "prize",
-      "ipa_us": "praɪz",
-      "ipa_uk": "praɪz",
-      "translation_ru": "премия"
+      "word": "controls",
+      "ipa_us": "kənˈtroʊlz",
+      "ipa_uk": "kənˈtrəʊlz",
+      "translation_ru": "органы управления"
     },
     {
-      "word": "chemistry",
-      "ipa_us": "ˈkemɪstri",
-      "ipa_uk": "ˈkemɪstri",
-      "translation_ru": "химия"
+      "word": "courage",
+      "ipa_us": "ˈkɜrɪdʒ",
+      "ipa_uk": "ˈkʌrɪdʒ",
+      "translation_ru": "смелость"
     },
     {
-      "word": "remember",
-      "ipa_us": "rɪˈmembər",
-      "ipa_uk": "rɪˈmembə",
-      "translation_ru": "помнить"
+      "word": "engine",
+      "ipa_us": "ˈɛndʒɪn",
+      "ipa_uk": "ˈendʒɪn",
+      "translation_ru": "двигатель"
+    },
+    {
+      "word": "navigator",
+      "ipa_us": "ˈnævəˌɡeɪtər",
+      "ipa_uk": "ˈnævɪɡeɪtə",
+      "translation_ru": "штурман"
+    },
+    {
+      "word": "publisher",
+      "ipa_us": "ˈpʌblɪʃər",
+      "ipa_uk": "ˈpʌblɪʃə",
+      "translation_ru": "издатель"
+    },
+    {
+      "word": "disappeared",
+      "ipa_us": "ˌdɪsəˈpɪrd",
+      "ipa_uk": "ˌdɪsəˈpɪəd",
+      "translation_ru": "исчезла"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "rich",
-        "remember"
-      ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы чуть округлены."
-    },
-    {
       "sound": "w",
       "examples": [
-        "Warsaw",
-        "woman"
+        "wanted",
+        "world",
+        "wings"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро переходите к гласному; зубов не касайтесь."
+      "tip_ru": "Губы округлите и вытяните вперёд, зубы не касаются губы. Это не русское «в»."
     },
     {
-      "sound": "v",
+      "sound": "r",
       "examples": [
-        "university",
-        "several"
+        "roller",
+        "ride",
+        "radio"
       ],
-      "tip_ru": "Нижняя губа слегка касается верхних зубов, звук звонкий; не превращайте «v» в русское «в» двумя губами."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены. Не раскатывайте русское «р»."
     },
     {
       "sound": "aɪ",
       "examples": [
-        "prize",
-        "time"
+        "flying",
+        "flight",
+        "pilot"
       ],
-      "tip_ru": "Начните с «а» и плавно уйдите к короткому «и»; не говорите просто «ай» с твёрдым «й»."
+      "tip_ru": "Дифтонг: начните с «а» и скользите к «и». Не обрывайте звук."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "expensive",
+        "passenger",
+        "navigator"
+      ],
+      "tip_ru": "Выделяйте ударный слог громкостью и длиной, остальные слоги произносите слабее и короче."
     }
   ],
   "questions": [
     {
-      "question": "Where was Marie Curie born?",
-      "answer": "In Warsaw, Poland.",
+      "question": "What did Amelia build as a child?",
+      "answer": "She built a roller coaster from wood and a box.",
       "accepted_keywords": [
-        "warsaw",
-        "poland"
+        "roller",
+        "coaster",
+        "wood",
+        "box"
       ]
     },
     {
-      "question": "When did she move to Paris?",
-      "answer": "In 1891.",
+      "question": "What happened on her 1928 Atlantic flight?",
+      "answer": "She was only a passenger, but she became famous after landing in Wales.",
       "accepted_keywords": [
-        "1891"
+        "passenger",
+        "famous",
+        "wales"
       ]
     },
     {
-      "question": "What two elements did the Curies discover?",
-      "answer": "Polonium and radium.",
+      "question": "What did she do on 20 May 1932?",
+      "answer": "She flew alone across the Atlantic Ocean and landed in Northern Ireland.",
       "accepted_keywords": [
-        "polonium",
-        "radium"
+        "alone",
+        "atlantic",
+        "ireland",
+        "across"
       ]
     },
     {
-      "question": "In which two subjects did Marie win a Nobel Prize?",
-      "answer": "Physics and chemistry.",
+      "question": "What happened in July 1937?",
+      "answer": "Her plane disappeared over the Pacific Ocean on the flight around the world.",
       "accepted_keywords": [
-        "physics",
-        "chemistry"
+        "disappeared",
+        "disappear",
+        "pacific",
+        "lost",
+        "missing",
+        "never"
       ]
     }
   ]

@@ -2,140 +2,163 @@
   "id": "b2-story-02",
   "level": "B2",
   "genre": "story",
-  "title_en": "The Missed Train",
-  "title_ru": "Опоздавший поезд",
-  "description_ru": "Мужчина опаздывает на важное собеседование, но неожиданная встреча на вокзале меняет его планы.",
-  "text": "Daniel had been told three times not to be late. The interview was at ten o'clock in Manchester, the job was exactly what he wanted, and the train was supposed to leave at 7:42. But when he finally reached the platform, breathless and red in the face, he saw the last carriage disappearing around the bend.\n\n\"You must be joking,\" he muttered.\n\nA woman standing nearby, holding a cup of coffee, gave him a sympathetic look. \"It was announced ten minutes ago that this one was leaving early,\" she said. \"Apparently the driver wanted to beat the rain.\"\n\nDaniel checked the timetable. The next train would not arrive until nine, which meant he would be late. He sat on a bench and put his head in his hands. The woman sat beside him and asked what was wrong. He explained everything, and she listened carefully.\n\n\"Where exactly is the interview?\" she asked. When he told her the address, she smiled. \"That's on my way. I'm driving there in five minutes, and I was going to offer someone a lift anyway. My brother cancelled on me this morning.\"\n\nDaniel could hardly believe his luck. At first he wondered whether it was safe to accept, but she showed him her work badge and called her colleague to confirm that she was really who she claimed to be. Ten minutes later they were on the motorway, and the rain had started to fall.\n\nThey talked the whole way. She told him that she worked for the same company, in a different department, and that she had been to many interviews herself. \"The secret,\" she said, \"is to stay calm and to say what you really think.\"\n\nThey arrived with twenty minutes to spare. Daniel thanked her warmly and walked into the building feeling surprisingly confident.\n\nHe got the job. On his first day, he discovered that the woman from the platform was the manager of his new team. She grinned at him across the room and said, \"Better late than never, isn't it?\"",
-  "word_count": 339,
+  "title_en": "Compartment Six",
+  "title_ru": "Купе номер шесть",
+  "description_ru": "Рассказ о ночном поезде, случайной попутчице и торте, который нужно доставить во что бы то ни стало.",
+  "text": "The night train from Warsaw to Vienna was almost empty, and Daniel Reeves, who had spent eleven hours in meetings, was grateful for it. He found his compartment, threw his bag onto the upper bunk and was just about to close the door when a small woman in a green coat appeared in the corridor. She was carrying a large white cardboard box with both arms, as if it contained something alive. \"Excuse me,\" she said in careful English, \"I think this is my compartment too.\"\n\nHer name was Halina, and she was seventy-four. She explained that she was travelling to Vienna to see her daughter, whom she had not met for nineteen years. The two women had quarrelled over something that neither of them could now remember clearly, and the silence had grown heavier with every birthday that was missed. \"It is stupid,\" Halina said, \"to lose so many years because of a few words.\" Daniel, who had not spoken to his own brother since the spring, found that he had nothing clever to say.\n\nThe box, she told him, contained a cake. It was a poppy-seed roll, the kind that her daughter used to ask for every Christmas. Halina had baked it herself at four o'clock that morning, and she had been guarding it ever since. At the station a porter had tried to take it away to the luggage van, and she had refused so fiercely that he had given up. \"I was not going to let a stranger carry my apology,\" she said.\n\nAround midnight the train stopped at the border, and two officials in thick jackets knocked on the door. They asked to see passports, and then one of them noticed the box. He wanted to know whether it contained any food. Halina answered that it contained nothing but love and sugar. The official did not smile, but the other one, who was younger, whispered something, and the box was waved through. Daniel suspected that it had been the smell of the poppy seeds that had decided the matter.\n\nBack in the compartment, Halina turned out to be an excellent talker. In her working life she had been a translator in a publishing house, and she had learned, she said, that every language has a word for something the others cannot say. In Polish, for example, it was possible to be homesick for a person who was still alive. Daniel, who spoke only English and a little bad French, wrote the idea down on the back of his ticket, and she watched him with the satisfaction of a teacher whose pupil has finally started to listen.\n\nAfter the train started moving again, neither of them could sleep. Halina took out a thermos of tea and offered him a cup. She asked what had brought him to Warsaw, and he admitted that he had come for a contract that he did not really want. He had been told by his manager that it would be good for his career. \"And is that important to you?\" she asked. He thought about it for a long time. The wheels went on clicking beneath them, and the dark fields slid past the window.\n\n\"When I was young,\" Halina said at last, \"I believed that people should be punished for their mistakes. Now I think that most of us are simply tired and frightened. It is very easy to wait for the other person to speak first. It is much harder to be the one who knocks on the door.\" She looked at the box on her knees. \"Of course, it may be that she will not even open it.\"\n\nAt six o'clock in the morning the train pulled into Vienna under a pale, cold sky. Daniel carried her suitcase onto the platform, because she would not let anybody touch the cake. A tall woman with grey in her hair was standing near the clock, her hands deep in her pockets. She did not move when she saw them. Halina stopped too. For a moment the two of them simply looked at each other, and Daniel felt that he ought not to be watching.\n\nThen the daughter took one step forward, and another, and then she was running. Halina nearly dropped the box. Somebody laughed, and somebody else began to clap, and Daniel realised that the clapping was coming from the two sleepy officials who had changed trains with them. He picked up the suitcase and walked quietly away, giving them the privacy they deserved.\n\nOn the way out of the station he took out his phone and looked at his brother's number for a while. It was seven o'clock, far too early to call anybody. He called anyway. The phone rang four times, and Daniel could hear his own heart in his ears. Then a sleepy voice said, \"Do you know what time it is?\" and Daniel, smiling for the first time in months, answered that he did, and that he was sorry, and that he was bringing a cake.",
+  "word_count": 843,
   "vocabulary": [
     {
+      "word": "compartment",
+      "ipa_us": "kəmˈpɑːrtmənt",
+      "ipa_uk": "kəmˈpɑːtmənt",
+      "translation_ru": "купе"
+    },
+    {
+      "word": "quarrelled",
+      "ipa_us": "ˈkwɔːrəld",
+      "ipa_uk": "ˈkwɒrəld",
+      "translation_ru": "поссорились"
+    },
+    {
+      "word": "poppy-seed",
+      "ipa_us": "ˈpɑːpi siːd",
+      "ipa_uk": "ˈpɒpi siːd",
+      "translation_ru": "маковый"
+    },
+    {
+      "word": "apology",
+      "ipa_us": "əˈpɑːlədʒi",
+      "ipa_uk": "əˈpɒlədʒi",
+      "translation_ru": "извинение"
+    },
+    {
+      "word": "border",
+      "ipa_us": "ˈbɔːrdər",
+      "ipa_uk": "ˈbɔːdə",
+      "translation_ru": "граница"
+    },
+    {
+      "word": "official",
+      "ipa_us": "əˈfɪʃl",
+      "ipa_uk": "əˈfɪʃl",
+      "translation_ru": "сотрудник, чиновник"
+    },
+    {
+      "word": "suspected",
+      "ipa_us": "səˈspɛktɪd",
+      "ipa_uk": "səˈspektɪd",
+      "translation_ru": "заподозрил, предположил"
+    },
+    {
+      "word": "contract",
+      "ipa_us": "ˈkɑːntrækt",
+      "ipa_uk": "ˈkɒntrækt",
+      "translation_ru": "контракт"
+    },
+    {
+      "word": "punished",
+      "ipa_us": "ˈpʌnɪʃt",
+      "ipa_uk": "ˈpʌnɪʃt",
+      "translation_ru": "наказаны"
+    },
+    {
       "word": "platform",
-      "ipa_us": "ˈplætfɔrm",
+      "ipa_us": "ˈplætfɔːrm",
       "ipa_uk": "ˈplætfɔːm",
       "translation_ru": "платформа"
     },
     {
-      "word": "breathless",
-      "ipa_us": "ˈbrɛθləs",
-      "ipa_uk": "ˈbreθləs",
-      "translation_ru": "запыхавшийся"
+      "word": "privacy",
+      "ipa_us": "ˈpraɪvəsi",
+      "ipa_uk": "ˈprɪvəsi",
+      "translation_ru": "уединение"
     },
     {
-      "word": "sympathetic",
-      "ipa_us": "ˌsɪmpəˈθɛtɪk",
-      "ipa_uk": "ˌsɪmpəˈθetɪk",
-      "translation_ru": "сочувствующий"
-    },
-    {
-      "word": "announced",
-      "ipa_us": "əˈnaʊnst",
-      "ipa_uk": "əˈnaʊnst",
-      "translation_ru": "объявлено"
-    },
-    {
-      "word": "timetable",
-      "ipa_us": "ˈtaɪmˌteɪbəl",
-      "ipa_uk": "ˈtaɪmˌteɪbəl",
-      "translation_ru": "расписание"
-    },
-    {
-      "word": "lift",
-      "ipa_us": "lɪft",
-      "ipa_uk": "lɪft",
-      "translation_ru": "подвезти"
-    },
-    {
-      "word": "colleague",
-      "ipa_us": "ˈkɑliɡ",
-      "ipa_uk": "ˈkɒliːɡ",
-      "translation_ru": "коллега"
-    },
-    {
-      "word": "confirm",
-      "ipa_us": "kənˈfɜrm",
-      "ipa_uk": "kənˈfɜːm",
-      "translation_ru": "подтвердить"
-    },
-    {
-      "word": "motorway",
-      "ipa_us": "ˈmoʊtərˌweɪ",
-      "ipa_uk": "ˈməʊtəweɪ",
-      "translation_ru": "автомагистраль"
-    },
-    {
-      "word": "confident",
-      "ipa_us": "ˈkɑnfɪdənt",
-      "ipa_uk": "ˈkɒnfɪdənt",
-      "translation_ru": "уверенный"
+      "word": "luggage",
+      "ipa_us": "ˈlʌɡɪdʒ",
+      "ipa_uk": "ˈlʌɡɪdʒ",
+      "translation_ru": "багаж"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ð",
       "examples": [
-        "three",
-        "breathless",
-        "thanked"
+        "that",
+        "they",
+        "the",
+        "other"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "was supposed",
-        "where",
-        "wondered",
-        "work"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
+      "tip_ru": "Кончик языка между зубами и включите голос; не произносите «з» или «д»."
     },
     {
       "sound": "r",
       "examples": [
-        "rain",
-        "driver",
-        "really"
+        "brother",
+        "train",
+        "tired",
+        "frightened"
       ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Язык не касается нёба и не вибрирует; губы слегка округлены, без русского «р»."
     },
     {
-      "sound": "v",
+      "sound": "final-voiced",
       "examples": [
-        "driver",
-        "discovered",
-        "motorway"
+        "bag",
+        "had",
+        "old",
+        "told"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
+      "tip_ru": "Не оглушайте конечный звонкий звук: в «bag» и «old» голос сохраняется до конца слова."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "train",
+        "carried",
+        "took",
+        "tea"
+      ],
+      "tip_ru": "После начального «p, t, k» добавляйте лёгкий выдох, как будто дуете на свечу."
     }
   ],
   "questions": [
     {
-      "question": "Where was the interview?",
-      "answer": "In Manchester.",
+      "question": "Where was Halina travelling and why?",
+      "answer": "To Vienna, to see her daughter after nineteen years.",
       "accepted_keywords": [
-        "manchester"
+        "vienna",
+        "daughter"
       ]
     },
     {
-      "question": "Why did Daniel miss the train?",
-      "answer": "It left early.",
+      "question": "What did the box contain?",
+      "answer": "A poppy-seed cake that she had baked herself.",
       "accepted_keywords": [
-        "early",
-        "left"
+        "cake",
+        "poppy"
       ]
     },
     {
-      "question": "Who offered Daniel a lift?",
-      "answer": "A woman from the platform.",
+      "question": "Why was Daniel in Warsaw?",
+      "answer": "He had gone for a contract that he did not really want.",
       "accepted_keywords": [
-        "woman"
+        "contract",
+        "meetings",
+        "work",
+        "business"
       ]
     },
     {
-      "question": "Who was the woman on his first day?",
-      "answer": "The manager of his new team.",
+      "question": "What did Daniel do at the end of the story?",
+      "answer": "He phoned his brother to apologise.",
       "accepted_keywords": [
-        "manager"
+        "phone",
+        "called",
+        "brother",
+        "phoned",
+        "apolog"
       ]
     }
   ]

@@ -2,121 +2,160 @@
   "id": "a1-science-01",
   "level": "A1",
   "genre": "science",
-  "title_en": "The Moon",
-  "title_ru": "Луна",
-  "description_ru": "Простые факты о Луне: что это, как далеко она и почему там можно прыгать высоко.",
-  "text": "The Moon is our closest neighbour in space. It is not a star, and it has no light of its own. We see it because the sun shines on it. The Moon is very far away, but it moves around our planet in about one month.\n\nThe Moon has no air and no water, so nothing lives there. Its surface is grey and full of big holes. These holes are called craters. On the Moon, you feel much lighter, and you can jump very high!",
+  "title_en": "One Day in a Beehive",
+  "title_ru": "Один день в пчелином улье",
+  "description_ru": "Рассказ о том, как пчела по имени Белла собирает нектар и как в улье появляется мёд.",
+  "text": "A bee is a very small animal, but it does a very big job. In one beehive, there are about fifty thousand bees. They live together like a big family. Every bee has a job, and every bee works hard. Together they make something sweet and golden. It is honey. Let us follow one bee, called Bella, for one day in summer.\n\nBella is a worker bee. All worker bees are girls. When Bella is young, she stays inside the hive. She cleans the small rooms and feeds the baby bees. The baby bees are very small and white, and they sleep in little wax rooms. After three weeks, Bella is ready for a new job. She goes outside and looks for flowers.\n\nThe queen bee is the most important bee in the hive. She is bigger than the workers, and she lives for about four years. Her only job is to lay eggs. In summer, she lays up to two thousand eggs every day. The workers take care of her. They feed her, clean her and carry her food.\n\nBella flies out of the hive early in the morning. The sun is warm, and the air is full of the smell of flowers. She flies very fast. Her wings move two hundred times in one second. That is why we hear a buzzing sound. Bella flies two or three kilometres from her home. She looks for yellow, blue and purple flowers, because bees see these colours very well.\n\nSoon Bella finds a field of flowers. She lands on a big yellow flower and puts her long tongue inside. She drinks a sweet liquid called nectar. She keeps the nectar in a special stomach. Bella also collects pollen. Pollen is a fine yellow powder. It sticks to her legs and her hairy body. When she flies to the next flower, some pollen falls there. This is very important, because the flowers need pollen to make seeds and fruit. Without bees, we have fewer apples, almonds and strawberries.\n\nBees do not only make honey. They also make wax in their bodies. Small pieces of wax come out of their stomachs. The bees chew them and build the small rooms. Each room has six sides. This shape is very strong, and it is the best shape for saving space. Many builders and scientists study the bees' rooms because they are so clever. Bella visits about a hundred flowers on one trip. Then she flies back to the hive. At the door, a guard bee smells her to check that she is a friend. Inside, Bella does a strange little dance. She walks in a circle and shakes her body. It is not a party. The dance is a message. It tells the other bees where the good flowers are. The direction of the dance shows the direction of the flowers, and a longer dance shows a longer way.\n\nNow the other bees take the nectar from Bella. They chew it and pass it from bee to bee. Slowly, the nectar changes and becomes thicker. Then the bees put it into small wax rooms. They move their wings to blow warm air over it, and the water in the nectar goes away. When the honey is ready, they close the room with a thin cover of wax. The honey stays there until winter, when there are no flowers.\n\nHow much honey does one bee make? Very little. Bella makes only one small spoon of honey in her whole life, and she lives only for about six weeks. The bees in one hive make about thirty kilograms of honey in a good year. Beekeepers take only some of it. They leave enough honey for the bees, so the family can survive the cold months.\n\nBees also protect their home. A bee has a small sting at the end of its body. If a bee is afraid, it can sting an animal or a person. But the sting is the end of the bee's life. So bees do not sting easily. They sting only when they think the hive is in danger. If you stay calm and quiet near a bee, it usually flies away. Never hit a bee. Just walk slowly.\n\nIn winter, the bees stay inside and make a big warm ball. They shake their bodies to make heat, and the queen bee stays in the middle. They eat their honey and wait for spring. When the sun comes back, the flowers wake up and the bees fly out again. So the next time you eat honey on your bread, remember Bella. Many bees and many long trips make that sweet spoon. Please be kind to bees, and never be afraid. They only want flowers.",
+  "word_count": 792,
   "vocabulary": [
     {
-      "word": "neighbour",
-      "ipa_us": "ˈneɪbɚ",
-      "ipa_uk": "ˈneɪbə",
-      "translation_ru": "сосед"
+      "word": "beehive",
+      "ipa_us": "ˈbiːhaɪv",
+      "ipa_uk": "ˈbiːhaɪv",
+      "translation_ru": "улей"
     },
     {
-      "word": "space",
-      "ipa_us": "speɪs",
-      "ipa_uk": "speɪs",
-      "translation_ru": "космос"
+      "word": "honey",
+      "ipa_us": "ˈhʌni",
+      "ipa_uk": "ˈhʌni",
+      "translation_ru": "мёд"
     },
     {
-      "word": "star",
-      "ipa_us": "stɑːr",
-      "ipa_uk": "stɑː",
-      "translation_ru": "звезда"
+      "word": "nectar",
+      "ipa_us": "ˈnɛktər",
+      "ipa_uk": "ˈnektə",
+      "translation_ru": "нектар"
     },
     {
-      "word": "planet",
-      "ipa_us": "ˈplænɪt",
-      "ipa_uk": "ˈplænɪt",
-      "translation_ru": "планета"
+      "word": "pollen",
+      "ipa_us": "ˈpɑːlən",
+      "ipa_uk": "ˈpɒlən",
+      "translation_ru": "пыльца"
     },
     {
-      "word": "month",
-      "ipa_us": "mʌnθ",
-      "ipa_uk": "mʌnθ",
-      "translation_ru": "месяц"
+      "word": "wax",
+      "ipa_us": "wæks",
+      "ipa_uk": "wæks",
+      "translation_ru": "воск"
     },
     {
-      "word": "surface",
-      "ipa_us": "ˈsɝːfɪs",
-      "ipa_uk": "ˈsɜːfɪs",
-      "translation_ru": "поверхность"
+      "word": "buzzing",
+      "ipa_us": "ˈbʌzɪŋ",
+      "ipa_uk": "ˈbʌzɪŋ",
+      "translation_ru": "жужжание"
     },
     {
-      "word": "craters",
-      "ipa_us": "ˈkreɪtɚz",
-      "ipa_uk": "ˈkreɪtəz",
-      "translation_ru": "кратеры"
+      "word": "queen",
+      "ipa_us": "kwiːn",
+      "ipa_uk": "kwiːn",
+      "translation_ru": "королева, матка"
     },
     {
-      "word": "lighter",
-      "ipa_us": "ˈlaɪtɚ",
-      "ipa_uk": "ˈlaɪtə",
-      "translation_ru": "легче"
+      "word": "sting",
+      "ipa_us": "stɪŋ",
+      "ipa_uk": "stɪŋ",
+      "translation_ru": "жало"
+    },
+    {
+      "word": "beekeepers",
+      "ipa_us": "ˈbiːkiːpərz",
+      "ipa_uk": "ˈbiːkiːpəz",
+      "translation_ru": "пчеловоды"
+    },
+    {
+      "word": "survive",
+      "ipa_us": "sərˈvaɪv",
+      "ipa_uk": "səˈvaɪv",
+      "translation_ru": "пережить"
+    },
+    {
+      "word": "worker",
+      "ipa_us": "ˈwɜːrkər",
+      "ipa_uk": "ˈwɜːkə",
+      "translation_ru": "рабочая"
+    },
+    {
+      "word": "guard",
+      "ipa_us": "ɡɑːrd",
+      "ipa_uk": "ɡɑːd",
+      "translation_ru": "страж"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "w",
       "examples": [
-        "month",
-        "nothing"
+        "wax",
+        "wings",
+        "weeks",
+        "wait"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса. Не заменяйте на «с» или «ф»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "ð",
+      "sound": "ŋ",
       "examples": [
-        "the",
-        "these",
-        "there"
+        "buzzing",
+        "sting",
+        "long",
+        "young"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "aɪ",
+      "sound": "ʌ",
       "examples": [
-        "light",
-        "shines",
-        "high"
+        "honey",
+        "buzzing",
+        "young",
+        "summer"
       ],
-      "tip_ru": "Начните с широкого «а» и плавно уйдите к «и». Не заканчивайте резким «й»."
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
+    },
+    {
+      "sound": "v",
+      "examples": [
+        "very",
+        "live",
+        "have",
+        "survive"
+      ],
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не заменяйте на «ф» и не произносите как русское «в»."
     }
   ],
   "questions": [
     {
-      "question": "Is the Moon a star?",
-      "answer": "No, it is not.",
+      "question": "What do bees make?",
+      "answer": "They make honey.",
       "accepted_keywords": [
-        "no",
-        "not"
+        "honey"
       ]
     },
     {
-      "question": "Why do we see the Moon?",
-      "answer": "The sun shines on it.",
+      "question": "What does Bella drink from flowers?",
+      "answer": "A sweet liquid called nectar.",
       "accepted_keywords": [
-        "sun",
-        "shines"
+        "nectar"
       ]
     },
     {
-      "question": "How long does the Moon take to go around the planet?",
-      "answer": "About one month.",
+      "question": "What does the dance of a bee tell the other bees?",
+      "answer": "It shows where the good flowers are.",
       "accepted_keywords": [
-        "month",
-        "one"
+        "flowers",
+        "where",
+        "direction"
       ]
     },
     {
-      "question": "What are the holes called?",
-      "answer": "Craters.",
+      "question": "Why do the bees need honey in winter?",
+      "answer": "There are no flowers, so they eat their honey.",
       "accepted_keywords": [
-        "craters",
-        "crater"
+        "eat",
+        "food",
+        "flowers",
+        "winter"
       ]
     }
-  ],
-  "word_count": 85
+  ]
 }

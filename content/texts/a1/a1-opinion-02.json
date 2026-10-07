@@ -2,122 +2,160 @@
   "id": "a1-opinion-02",
   "level": "A1",
   "genre": "opinion",
-  "title_en": "Cats or Dogs?",
-  "title_ru": "Кошки или собаки?",
-  "description_ru": "Автор объясняет, почему он выбирает собаку.",
-  "text": "I like both cats and dogs, but I think dogs are better. Here are my reasons.\n\nFirst, a dog is a true friend. When I come home, my dog is happy. He jumps, he runs and he smiles at me. A cat often says, \"Oh, it is you,\" and goes to sleep.\n\nSecond, a dog needs a walk, so I go outside every day. I meet people and I get exercise. That is good for me.\n\nThird, my dog is funny. He chases his tail and he loves the park.\n\nMy friend Kate loves cats. She says cats are clean and quiet. Maybe she is right too!",
-  "word_count": 107,
+  "title_en": "Books Are Better Than Films",
+  "title_ru": "Книги лучше фильмов",
+  "description_ru": "Рассуждение о том, почему чтение даёт больше, чем кино: воображение, тишина, новые слова и экономия денег.",
+  "text": "I love films, but I love books more. People often ask me, \"Why do you read so much? You can just watch the film!\" I always answer, \"A book gives me much more than a film.\" Here are my reasons. Maybe you agree with me, maybe you do not. Either way, I hope you will think about your next evening.\n\nMy first reason is that a book is a world in your head. When I read a story, I make the pictures myself. I decide how the hero looks. I hear her voice, I see her house, and I feel the weather in her town. My hero is different from your hero. A film gives us one picture, and it is the same for everybody. A book gives each of us our own film. I think this is magic.\n\nMy second reason is time. A book is long, and it can say many things. A film is usually two hours. The writer has no time to tell the whole story, so the film leaves things out. When I see a film after I read the book, I often say, \"Where is my favourite scene?\" In a book you can stay with the people for a week. You learn about their family, their past and their secrets. In the end you feel that you know them like friends.\n\nThird, a book is quiet, and it helps me relax. In the evening I turn off the TV and the phone. I make a cup of tea, I sit in my chair, and I open my book. The room is quiet. For an hour I forget my work, my bills and my problems. I fall asleep much faster after reading than after a film. I do not need a big screen. I need only a lamp and a few pages.\n\nFourth, books help me learn. When I read, I meet new words every day. My English is better because I read English books, even short and easy ones. My friend Anna says that she learned grammar from stories, not from lessons. I think she is right. You see a word again and again, and soon it is yours. Books also teach me about people and countries I do not know. Last month I read about a girl in India, and now I know how she goes to school, what she eats and what she dreams about. I travel in my chair and it costs me nothing.\n\nOf course, I understand why people love films. A good film is exciting. It has music, beautiful places and actors with wonderful faces. I cry at sad films, and I laugh at funny ones. Sometimes a film makes me read the book. Last year I saw a film about a boy and a tiger on a boat. I loved it so much that I went to a shop and bought the book the next day. The book was even better!\n\nSome people say they have no time to read. I think this is a problem of habit. Start with ten minutes a day. Read on the bus, or before you sleep, or at breakfast. Choose a book you really like, not a book you must read. If it is boring, put it away and take another one. Nobody gives you a test. Reading should be fun. A good book is like a good friend, and you do not have to finish it in one night. After one month you will see that ten minutes become thirty.\n\nBooks are also cheaper than most things. You can borrow them from a library, and you pay nothing at all. You can buy a used book for the price of a coffee. And a book never needs a battery. You can take it to the beach, to the park or on a long trip. If it falls in the water, you dry it, and it is still a book. Try to do this with a cinema!\n\nSo, my answer to \"Book or film?\" is easy. Watch your favourite films on Friday night with your family. But read a book every day. Your head will be full of new pictures, and your English will be better. Tonight, put your phone away and take a book from the shelf. Open the first page. I think you will not stop.",
+  "word_count": 726,
   "vocabulary": [
     {
-      "word": "both",
-      "ipa_us": "boʊθ",
-      "ipa_uk": "bəʊθ",
-      "translation_ru": "оба"
+      "word": "scene",
+      "ipa_us": "sin",
+      "ipa_uk": "siːn",
+      "translation_ru": "сцена, эпизод"
     },
     {
-      "word": "reason",
-      "ipa_us": "ˈrizən",
-      "ipa_uk": "ˈriːzən",
-      "translation_ru": "причина"
+      "word": "secrets",
+      "ipa_us": "ˈsikrɪts",
+      "ipa_uk": "ˈsiːkrɪts",
+      "translation_ru": "секреты"
     },
     {
-      "word": "friend",
-      "ipa_us": "frɛnd",
-      "ipa_uk": "frend",
-      "translation_ru": "друг"
+      "word": "relax",
+      "ipa_us": "rɪˈlæks",
+      "ipa_uk": "rɪˈlæks",
+      "translation_ru": "расслабляться"
     },
     {
-      "word": "jump",
-      "ipa_us": "dʒʌmp",
-      "ipa_uk": "dʒʌmp",
-      "translation_ru": "прыгать"
+      "word": "grammar",
+      "ipa_us": "ˈɡræmər",
+      "ipa_uk": "ˈɡræmə",
+      "translation_ru": "грамматика"
     },
     {
-      "word": "walk",
-      "ipa_us": "wɔk",
-      "ipa_uk": "wɔːk",
-      "translation_ru": "прогулка"
+      "word": "exciting",
+      "ipa_us": "ɪkˈsaɪtɪŋ",
+      "ipa_uk": "ɪkˈsaɪtɪŋ",
+      "translation_ru": "захватывающий"
     },
     {
-      "word": "exercise",
-      "ipa_us": "ˈɛksərsaɪz",
-      "ipa_uk": "ˈeksəsaɪz",
-      "translation_ru": "упражнения"
+      "word": "library",
+      "ipa_us": "ˈlaɪˌbrɛri",
+      "ipa_uk": "ˈlaɪbrəri",
+      "translation_ru": "библиотека"
     },
     {
-      "word": "funny",
-      "ipa_us": "ˈfʌni",
-      "ipa_uk": "ˈfʌni",
-      "translation_ru": "смешной"
+      "word": "battery",
+      "ipa_us": "ˈbætəri",
+      "ipa_uk": "ˈbætəri",
+      "translation_ru": "батарейка"
     },
     {
-      "word": "chase",
-      "ipa_us": "tʃeɪs",
-      "ipa_uk": "tʃeɪs",
-      "translation_ru": "гоняться"
+      "word": "shelf",
+      "ipa_us": "ʃɛlf",
+      "ipa_uk": "ʃelf",
+      "translation_ru": "полка"
+    },
+    {
+      "word": "habit",
+      "ipa_us": "ˈhæbɪt",
+      "ipa_uk": "ˈhæbɪt",
+      "translation_ru": "привычка"
+    },
+    {
+      "word": "borrow",
+      "ipa_us": "ˈbɑroʊ",
+      "ipa_uk": "ˈbɒrəʊ",
+      "translation_ru": "брать взаймы"
+    },
+    {
+      "word": "tiger",
+      "ipa_us": "ˈtaɪɡər",
+      "ipa_uk": "ˈtaɪɡə",
+      "translation_ru": "тигр"
+    },
+    {
+      "word": "magic",
+      "ipa_us": "ˈmædʒɪk",
+      "ipa_uk": "ˈmædʒɪk",
+      "translation_ru": "магия, волшебство"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "æ",
       "examples": [
-        "both",
-        "think",
-        "Third"
+        "grammar",
+        "magic",
+        "habit"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
     },
     {
       "sound": "r",
       "examples": [
-        "reasons",
-        "right",
-        "friend"
+        "read",
+        "really",
+        "library"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не русский «р»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "film",
+        "tell",
+        "all"
+      ],
+      "tip_ru": "«L» в конце слога твёрже и глубже русского «ль», кончик языка у дёсен."
     },
     {
       "sound": "ʌ",
       "examples": [
-        "jumps",
-        "funny",
-        "loves"
+        "much",
+        "love",
+        "one"
       ],
-      "tip_ru": "Короткий «а», рот открыт средне, губы не округляйте; не «о» и не русское «а»."
+      "tip_ru": "Краткий звук между «а» и «э», рот открыт слабо; не «о»."
     }
   ],
   "questions": [
     {
-      "question": "Which animal does the writer like better?",
-      "answer": "Dogs.",
+      "question": "What does a book give each reader?",
+      "answer": "Their own film in their head, with their own pictures.",
       "accepted_keywords": [
-        "dog",
-        "dogs"
+        "own",
+        "pictures",
+        "film",
+        "head"
       ]
     },
     {
-      "question": "What does the dog do when the writer comes home?",
-      "answer": "He jumps, runs and smiles.",
+      "question": "Why does the writer fall asleep faster after reading?",
+      "answer": "A book is quiet and helps the writer to relax.",
       "accepted_keywords": [
-        "jumps",
-        "runs",
-        "happy",
-        "smiles"
+        "quiet",
+        "relax"
       ]
     },
     {
-      "question": "Why does the writer go outside every day?",
-      "answer": "The dog needs a walk.",
+      "question": "How can a person start to read more?",
+      "answer": "Start with ten minutes a day and choose a book you like.",
       "accepted_keywords": [
-        "walk",
-        "dog"
+        "ten",
+        "minutes",
+        "choose",
+        "like"
       ]
     },
     {
-      "question": "Who loves cats?",
-      "answer": "Kate.",
+      "question": "What is cheaper than a cinema?",
+      "answer": "Books are cheaper, because you can borrow them from a library.",
       "accepted_keywords": [
-        "kate"
+        "library",
+        "borrow",
+        "books",
+        "free"
       ]
     }
   ]

@@ -2,107 +2,166 @@
   "id": "b1-story-03",
   "level": "B1",
   "genre": "story",
-  "title_en": "The Tomato Competition",
-  "title_ru": "Конкурс помидоров",
-  "description_ru": "Хелен хочет выиграть конкурс садоводов, но победа оказывается не главным.",
-  "text": "Every summer, the village of Little Marsh holds a garden competition, and every summer a man called Mr Brown wins first prize for his enormous tomatoes. This year, Helen has decided that she will beat him.\n\nShe has been working in her garden since March. She has read three books about soil, and she has even bought a special lamp to protect the young plants from frost. \"If the weather stays warm, I will win,\" she told her husband. \"And if it rains too much, I will be very unhappy.\"\n\nIn July, the plants grew taller than she was, and the tomatoes turned a beautiful deep red. But on the night before the competition, a strong wind blew through the village. In the morning, Helen found that half of her plants had fallen over.\n\nShe was nearly in tears when she saw Mr Brown at her gate. \"My garden is a disaster, too,\" he said. \"The wind has destroyed my best tomatoes.\" Together, they picked every fruit that was still good and carried them to the village hall.\n\nThe judges tasted everything and decided that nobody should win alone. They gave the prize to both gardens. Helen shook Mr Brown's hand and laughed. \"Next year, I'm going to beat him properly,\" she said. \"I'm looking forward to it,\" he answered.",
-  "word_count": 220,
+  "title_en": "The Restaurant Dream",
+  "title_ru": "Мечта о ресторане",
+  "description_ru": "Бухгалтер Даниэла решается открыть маленький ресторан и узнаёт, что мечта требует упорства.",
+  "text": "For ten years, Daniela Reyes had cooked dinner for her family every night and listened to the same compliment: \"You should open a restaurant.\" She had always laughed and changed the subject. She worked as an accountant at a furniture company, with a steady salary, a pension plan and a desk by the window. Dreaming was something she did on holiday, between the second and third glass of wine. But on her forty-second birthday, her son Mateo gave her a present that changed everything. It was an envelope with a photograph of a small, empty shop on Almond Street, and a note that said, \"Just go and look.\"\n\nShe did not go for a week. Then, on a rainy Saturday, she walked past the shop and stopped. It had been a bakery once, and there was still a faded sign above the door. Through the dusty window she could see a long wooden counter, four small tables and a tiled floor in black and white. A man in a raincoat appeared beside her and asked if she was interested. He was the landlord, Mr Okafor, and he offered to show her inside. \"The kitchen is old,\" he warned, \"but the ovens are excellent. They have been here for forty years.\"\n\nDaniela walked slowly around the room, touching the counter and the walls. She could almost smell fresh bread. She asked how much the rent was, and when he told her, she nearly laughed again. It was a lot of money. However, as she was leaving, Mr Okafor said something that stayed with her. \"In my experience, people who ask about the rent usually walk away. The ones who ask about the ovens are the ones who stay.\" She had not asked about the ovens. She went back inside and asked.\n\nThat night she made a list. On one side she wrote everything that could go wrong: no customers, no savings, no sleep. On the other side she wrote only one thing: \"If I do not try, I will always wonder.\" Her husband, Luis, read the list over her shoulder and put his hand on her arm. \"We have never done anything this crazy,\" he said. \"Let's do it carefully.\" Together they worked out a budget and decided that she would keep her job for six more months while they prepared.\n\nThe preparations were exhausting. On weekends the whole family painted the walls a warm yellow. Mateo built a menu board from old planks, and her mother, who had not been told about the plan until the last minute, arrived with a box of recipes written in tiny handwriting. Daniela tested every dish on friends and neighbours, noting down what they liked and what they left on the plate. She learned that nobody wanted a menu with thirty items. They wanted five dishes, cooked really well.\n\nThe opening day was a catastrophe. A pipe burst in the kitchen at seven in the morning, the delivery of vegetables arrived at noon, and the first customers had to wait nearly an hour for their soup. Daniela stood in the doorway, with flour on her face, and wanted to cry. Then an elderly woman at the corner table raised her spoon and said, loudly, \"It was worth the wait.\" Others began to nod. By the end of the evening, every table had been full twice, and a young man had asked whether they delivered.\n\nMeanwhile, the neighbourhood began to change around her. The florist next door started leaving fresh flowers on her tables, and the butcher offered her a better price if she mentioned his name on the menu. A local newspaper sent a reporter, who ate three bowls of soup and wrote half a page about the \"yellow restaurant that smells like a grandmother's kitchen.\" Daniela cut out the article, although she was too embarrassed to show it to anyone except Luis, who framed it at once.\n\nThe first year was difficult, and Daniela has never worked so hard. She has burned her hands, argued with suppliers and worried about the electricity bill. Yet she has also discovered that she loves the moment when a stranger takes a first bite and goes quiet. She has hired two young cooks, and she has learned to say no to ideas that would make the restaurant too complicated. Her tomato soup, which she makes from her grandmother's recipe, is now famous in the neighbourhood.\n\nNot everything has gone smoothly, of course. In March, a critic visited on the busiest night of the month and wrote that the bread was cold. Daniela was furious for two days. Then she decided that if one person had noticed, others might have noticed too, and she bought a small warming drawer. The next review was kind. She keeps both of them pinned in the kitchen, because she believes that every mistake teaches something.\n\nOn the first anniversary, Mr Okafor came in for lunch and ordered the soup. When he had finished, he asked to see the kitchen and nodded at the old ovens. \"I knew you would stay,\" he said. Daniela smiled and offered him a slice of cake. Outside, the faded bakery sign had been replaced by a new one, hand-painted by Mateo. It said simply \"Daniela's,\" and underneath, in smaller letters, \"Just come and taste.\"",
+  "word_count": 889,
   "vocabulary": [
     {
-      "word": "enormous",
-      "ipa_us": "ɪˈnɔːrməs",
-      "ipa_uk": "ɪˈnɔːməs",
-      "translation_ru": "огромный"
+      "word": "accountant",
+      "ipa_us": "əˈkaʊntənt",
+      "ipa_uk": "əˈkaʊntənt",
+      "translation_ru": "бухгалтер"
     },
     {
-      "word": "soil",
-      "ipa_us": "sɔɪl",
-      "ipa_uk": "sɔɪl",
-      "translation_ru": "почва"
+      "word": "landlord",
+      "ipa_us": "ˈlændlɔːrd",
+      "ipa_uk": "ˈlændlɔːd",
+      "translation_ru": "владелец помещения"
     },
     {
-      "word": "frost",
-      "ipa_us": "frɔːst",
-      "ipa_uk": "frɒst",
-      "translation_ru": "заморозок"
+      "word": "budget",
+      "ipa_us": "ˈbʌdʒɪt",
+      "ipa_uk": "ˈbʌdʒɪt",
+      "translation_ru": "бюджет"
     },
     {
-      "word": "gate",
-      "ipa_us": "ɡeɪt",
-      "ipa_uk": "ɡeɪt",
-      "translation_ru": "калитка"
+      "word": "exhausting",
+      "ipa_us": "ɪɡˈzɔːstɪŋ",
+      "ipa_uk": "ɪɡˈzɔːstɪŋ",
+      "translation_ru": "изматывающий"
     },
     {
-      "word": "disaster",
-      "ipa_us": "dɪˈzæstɚ",
-      "ipa_uk": "dɪˈzɑːstə",
-      "translation_ru": "бедствие"
+      "word": "catastrophe",
+      "ipa_us": "kəˈtæstrəfi",
+      "ipa_uk": "kəˈtæstrəfi",
+      "translation_ru": "катастрофа"
     },
     {
-      "word": "destroyed",
-      "ipa_us": "dɪˈstrɔɪd",
-      "ipa_uk": "dɪˈstrɔɪd",
-      "translation_ru": "уничтожил"
+      "word": "anniversary",
+      "ipa_us": "ˌænəˈvɜːrsəri",
+      "ipa_uk": "ˌænɪˈvɜːsəri",
+      "translation_ru": "годовщина"
     },
     {
-      "word": "judges",
-      "ipa_us": "ˈdʒʌdʒɪz",
-      "ipa_uk": "ˈdʒʌdʒɪz",
-      "translation_ru": "судьи"
+      "word": "supplier",
+      "ipa_us": "səˈplaɪər",
+      "ipa_uk": "səˈplaɪə",
+      "translation_ru": "поставщик"
+    },
+    {
+      "word": "pension",
+      "ipa_us": "ˈpɛnʃən",
+      "ipa_uk": "ˈpenʃən",
+      "translation_ru": "пенсия"
+    },
+    {
+      "word": "faded",
+      "ipa_us": "ˈfeɪdɪd",
+      "ipa_uk": "ˈfeɪdɪd",
+      "translation_ru": "выцветший"
+    },
+    {
+      "word": "neighbourhood",
+      "ipa_us": "ˈneɪbərhʊd",
+      "ipa_uk": "ˈneɪbəhʊd",
+      "translation_ru": "район, округа"
+    },
+    {
+      "word": "critic",
+      "ipa_us": "ˈkrɪtɪk",
+      "ipa_uk": "ˈkrɪtɪk",
+      "translation_ru": "критик"
+    },
+    {
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
+      "sound": "eɪ",
       "examples": [
-        "Brown",
-        "frost",
-        "tomatoes",
-        "read"
+        "faded",
+        "bakery",
+        "change",
+        "table"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует; губы слегка округлены. Это не русское «р»."
+      "tip_ru": "Начните с «э» и плавно скользите к «и»; не обрывайте звук."
     },
     {
-      "sound": "θ",
+      "sound": "ʊ",
       "examples": [
-        "three",
-        "both"
+        "wooden",
+        "cooked",
+        "should",
+        "put"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Короткий, расслабленный «у» с почти не округлёнными губами."
     },
     {
-      "sound": "ɔɪ",
+      "sound": "ʌ",
       "examples": [
-        "soil",
-        "destroyed"
+        "counter",
+        "once",
+        "mother",
+        "months"
       ],
-      "tip_ru": "Начните с округлённого «о» и плавно перейдите к короткому «и»."
+      "tip_ru": "Короткий звук, похожий на русское «а» в безударной позиции; рот открыт умеренно."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "accountant",
+        "catastrophe",
+        "anniversary",
+        "supplier"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What does Mr Brown usually win?",
-      "answer": "First prize for his tomatoes.",
+      "question": "What present did Daniela's son give her?",
+      "answer": "A photograph of an empty shop with a note saying 'Just go and look'.",
       "accepted_keywords": [
-        "prize",
-        "tomatoes",
-        "first"
+        "photograph",
+        "shop",
+        "note",
+        "envelope"
       ]
     },
     {
-      "question": "What happened the night before the competition?",
-      "answer": "A strong wind blew down many of Helen's plants.",
+      "question": "Why did Daniela decide to try?",
+      "answer": "She did not want to wonder for the rest of her life what could have happened.",
       "accepted_keywords": [
-        "wind"
+        "wonder",
+        "always",
+        "try",
+        "regret"
       ]
     },
     {
-      "question": "Who won in the end?",
-      "answer": "Both gardens shared the prize.",
+      "question": "What went wrong on the opening day?",
+      "answer": "A pipe burst and the first customers had to wait nearly an hour.",
       "accepted_keywords": [
-        "both",
-        "helen",
-        "brown"
+        "pipe",
+        "burst",
+        "wait",
+        "soup"
+      ]
+    },
+    {
+      "question": "What is the restaurant famous for now?",
+      "answer": "Its tomato soup made from her grandmother's recipe.",
+      "accepted_keywords": [
+        "soup",
+        "tomato",
+        "recipe",
+        "grandmother"
       ]
     }
   ]

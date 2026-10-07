@@ -2,122 +2,161 @@
   "id": "a1-story-02",
   "level": "A1",
   "genre": "story",
-  "title_en": "The Singing Fisherman",
-  "title_ru": "Поющий рыбак",
-  "description_ru": "Рыбак Виктор очень громко поёт на озере, и это приводит к неожиданному повороту.",
-  "text": "Every morning, Victor takes his small boat to the lake. He is a fisherman, and he sings very loudly. The fish hear his songs and swim away! Victor does not catch many fish. His wife is not angry. She says, \"Your voice is terrible, but I love it.\"\n\nOne day, a famous teacher walks by the lake. She hears Victor and stops. \"You have a strong voice,\" she says. \"Come and sing in my school.\" Now Victor sings in a big hall, and the fish are very happy.",
+  "title_en": "The Blue Bicycle",
+  "title_ru": "Синий велосипед",
+  "description_ru": "Девочка копит деньги на красный велосипед, но делает выбор в пользу семьи и получает неожиданный подарок.",
+  "text": "Anna is twelve years old and she lives in a village near the mountains. Her house is small, and her family is not rich. Anna has one big wish. She wants a bicycle. Every day she sees the village boys and girls ride to school on fast, bright bikes. Anna walks. It takes her forty minutes, and in winter her feet are always cold.\n\nOne day, Anna sees a red bicycle in the window of Mr. Brown's shop. It is old, but it is beautiful. It has a small silver bell and a brown seat. Anna goes inside and asks, \"How much is the red bicycle?\" Mr. Brown looks at her over his glasses. \"Eighty dollars,\" he says. Anna's heart falls. She has only six dollars in her box at home.\n\nThat evening, Anna tells her father about the bicycle. He listens and says, \"We cannot buy it now, Anna. But you can work and save money. Ask Mrs. Green. She needs help on her farm this summer.\" The next morning, Anna walks to the farm. Mrs. Green is a tall woman with strong hands. \"Can you get up at six?\" she asks. \"Yes,\" says Anna. \"Then you can start tomorrow.\"\n\nThe work is hard. Anna feeds the chickens, picks apples and carries water to the cows. Her arms hurt and her back hurts too. At lunch, she sits under a tree and eats bread and cheese. She is very tired, but she also feels proud. Every Friday, Mrs. Green gives her ten dollars. Anna puts the money in her box and counts it. Ten, twenty, thirty. Slowly, the box gets heavy.\n\nAnna has a good friend at school. Her name is Lena, and she has a bike of her own. At break time, Lena sees Anna's red hands and asks, \"Why are you so tired?\" Anna tells her about the red bicycle and the farm. Lena says, \"I want to help you.\" After school, she comes to the farm and picks apples with Anna for an hour. It is fun to work with a friend. They sing songs and eat the sweetest apples. Mrs. Green watches them and laughs.\n\nIn July, something bad happens. Anna's little brother, Peter, is sick and her mother needs money for a doctor. Anna sits on her bed and looks at her box. She has sixty-two dollars now. The bicycle is almost hers. But she hears her mother crying in the kitchen. Anna takes the box, walks into the kitchen and puts it on the table. \"This is for Peter,\" she says. Her mother holds her tight and cannot speak.\n\nThe doctor helps Peter, and in two weeks he is well again. But Anna has no money and the summer is almost over. She is sad, but she does not stop working. She tells Mrs. Green, \"I want to work more, please.\" Mrs. Green watches her for a moment. Then she smiles. \"You are a good girl, Anna. I know about Peter. Come with me.\"\n\nMrs. Green takes Anna to the barn. Behind some old boxes, there is a bicycle. It is blue and a little dusty. \"This was my daughter's,\" says Mrs. Green. \"She is a grown woman now, and nobody rides it. Please take it. You work very hard, and you have a kind heart.\" Anna cannot believe her eyes. She touches the seat and the bell. It works! Ring, ring.\n\nThat night, Anna cannot stop smiling. She calls Lena on the phone and tells her everything. \"Tomorrow we ride together!\" says Lena. In the morning, Anna cleans the blue bicycle with a wet cloth. It shines in the sun. She puts a little oil on the chain and checks the wheels. Her father helps her and says, \"Now you have a very good bicycle, and I have a very proud daughter.\"\n\nOn the first day of school, Anna rides down the village road. The wind is in her hair and she is laughing. She passes the shop and sees Mr. Brown in the window. He waves at her. At the gate, her friends clap and shout. Anna still thinks about the red bicycle sometimes. But she loves her blue one more. It is a gift from a friend, and she learns a big lesson. Good people always help each other.",
+  "word_count": 720,
   "vocabulary": [
     {
-      "word": "fisherman",
-      "ipa_us": "ˈfɪʃɚmən",
-      "ipa_uk": "ˈfɪʃəmən",
-      "translation_ru": "рыбак"
+      "word": "bicycle",
+      "ipa_us": "ˈbaɪsɪkl",
+      "ipa_uk": "ˈbaɪsɪkl",
+      "translation_ru": "велосипед"
     },
     {
-      "word": "lake",
-      "ipa_us": "leɪk",
-      "ipa_uk": "leɪk",
-      "translation_ru": "озеро"
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
     },
     {
-      "word": "boat",
-      "ipa_us": "boʊt",
-      "ipa_uk": "bəʊt",
-      "translation_ru": "лодка"
+      "word": "silver",
+      "ipa_us": "ˈsɪlvər",
+      "ipa_uk": "ˈsɪlvə",
+      "translation_ru": "серебряный"
     },
     {
-      "word": "loudly",
-      "ipa_us": "ˈlaʊdli",
-      "ipa_uk": "ˈlaʊdli",
-      "translation_ru": "громко"
+      "word": "farm",
+      "ipa_us": "fɑːrm",
+      "ipa_uk": "fɑːm",
+      "translation_ru": "ферма"
     },
     {
-      "word": "voice",
-      "ipa_us": "vɔɪs",
-      "ipa_uk": "vɔɪs",
-      "translation_ru": "голос"
+      "word": "chickens",
+      "ipa_us": "ˈtʃɪkɪnz",
+      "ipa_uk": "ˈtʃɪkɪnz",
+      "translation_ru": "куры"
     },
     {
-      "word": "terrible",
-      "ipa_us": "ˈterəbəl",
-      "ipa_uk": "ˈterəbəl",
-      "translation_ru": "ужасный"
+      "word": "proud",
+      "ipa_us": "praʊd",
+      "ipa_uk": "praʊd",
+      "translation_ru": "гордый"
     },
     {
-      "word": "teacher",
-      "ipa_us": "ˈtiːtʃɚ",
-      "ipa_uk": "ˈtiːtʃə",
-      "translation_ru": "учитель"
+      "word": "doctor",
+      "ipa_us": "ˈdɑːktər",
+      "ipa_uk": "ˈdɒktə",
+      "translation_ru": "врач"
     },
     {
-      "word": "famous",
-      "ipa_us": "ˈfeɪməs",
-      "ipa_uk": "ˈfeɪməs",
-      "translation_ru": "известный"
+      "word": "barn",
+      "ipa_us": "bɑːrn",
+      "ipa_uk": "bɑːn",
+      "translation_ru": "амбар"
+    },
+    {
+      "word": "dusty",
+      "ipa_us": "ˈdʌsti",
+      "ipa_uk": "ˈdʌsti",
+      "translation_ru": "пыльный"
+    },
+    {
+      "word": "lesson",
+      "ipa_us": "ˈlɛsn",
+      "ipa_uk": "ˈlesn",
+      "translation_ru": "урок"
+    },
+    {
+      "word": "apples",
+      "ipa_us": "ˈæplz",
+      "ipa_uk": "ˈæplz",
+      "translation_ru": "яблоки"
+    },
+    {
+      "word": "summer",
+      "ipa_us": "ˈsʌmər",
+      "ipa_uk": "ˈsʌmə",
+      "translation_ru": "лето"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "ŋ",
-      "examples": [
-        "morning",
-        "sings",
-        "strong"
-      ],
-      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос. В конце не добавляйте «г» или «к»."
-    },
-    {
       "sound": "v",
       "examples": [
-        "Victor",
-        "voice",
-        "very"
+        "village",
+        "very",
+        "over",
+        "every"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён. Не оглушайте звук до «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не заменяйте на «ф» и не произносите как русское «в»."
     },
     {
-      "sound": "ɪ",
+      "sound": "w",
       "examples": [
-        "fish",
-        "swim",
-        "big"
+        "work",
+        "wish",
+        "walks",
+        "winter"
       ],
-      "tip_ru": "Короткий расслабленный звук между «и» и «ы». Не растягивайте и не смягчайте согласный перед ним."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
+    },
+    {
+      "sound": "aʊ",
+      "examples": [
+        "proud",
+        "house",
+        "how"
+      ],
+      "tip_ru": "Начните с «а» и плавно перейдите к «у»; губы округляются к концу."
+    },
+    {
+      "sound": "ʌ",
+      "examples": [
+        "summer",
+        "mother",
+        "brother",
+        "dusty"
+      ],
+      "tip_ru": "Короткий звук, похожий на «а», рот открыт не широко; не заменяйте на «о»."
     }
   ],
   "questions": [
     {
-      "question": "What does Victor do every morning?",
-      "answer": "He takes his boat to the lake.",
+      "question": "How much is the red bicycle?",
+      "answer": "It is eighty dollars.",
       "accepted_keywords": [
-        "boat",
-        "lake",
-        "fish"
+        "eighty",
+        "80"
       ]
     },
     {
-      "question": "What happens to the fish?",
-      "answer": "They swim away.",
+      "question": "Where does Anna work in the summer?",
+      "answer": "She works on Mrs. Green's farm.",
       "accepted_keywords": [
-        "swim",
-        "away"
+        "farm",
+        "green"
       ]
     },
     {
-      "question": "What does Victor's wife say about his voice?",
-      "answer": "It is terrible, but she loves it.",
+      "question": "Why does Anna give her money to her mother?",
+      "answer": "Her little brother Peter is sick and needs a doctor.",
       "accepted_keywords": [
-        "terrible",
-        "love"
+        "peter",
+        "brother",
+        "sick",
+        "doctor"
       ]
     },
     {
-      "question": "Who hears Victor by the lake?",
-      "answer": "A famous teacher.",
+      "question": "What does Mrs. Green give Anna?",
+      "answer": "An old blue bicycle that was her daughter's.",
       "accepted_keywords": [
-        "teacher"
+        "bicycle",
+        "blue",
+        "bike"
       ]
     }
-  ],
-  "word_count": 88
+  ]
 }

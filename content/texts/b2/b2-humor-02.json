@@ -2,135 +2,163 @@
   "id": "b2-humor-02",
   "level": "B2",
   "genre": "humor",
-  "title_en": "Monday Is Not a Diet Day",
-  "title_ru": "Понедельник не подходит для диеты",
-  "description_ru": "Самоироничный монолог человека, который каждую неделю начинает новую жизнь с понедельника.",
-  "text": "I have decided to start a diet. This is not new information. I have decided to start a diet roughly every Monday since 2011, and so far the main thing I have lost is my enthusiasm.\n\nThis Monday, however, was going to be different. I woke up early, did ten minutes of stretching, which my back described as \"an act of violence\", and prepared a healthy breakfast of oatmeal and blueberries. It looked like something a rabbit would refuse to eat. I sat down, took a deep breath and told myself, \"You can do this.\" Then my phone buzzed. It was a message from my colleague Dave: \"Someone brought doughnuts to the office.\"\n\nNow, I want to be clear that I am a strong person. I have survived three job interviews, two house moves and a four-hour wedding speech by my uncle. But a box of doughnuts is a different kind of challenge. I told myself that I would only look at them. Looking is not eating. Everyone knows that.\n\nBy ten o'clock, I had looked at them four times. By eleven, I had learned that the chocolate ones were gone, which made the others suddenly seem much more precious. By noon, I had eaten one, and I explained to Dave that it did not count, because it was a small one and I had been standing up. \"Standing calories do not exist,\" I said. Dave, who has apparently been reading scientific research, said that he had never heard of this.\n\nAt lunchtime I ordered a salad, and then, in a moment of weakness, added a side of chips. The waiter looked at me with the sympathy of a man who has seen it all before. \"Would you like a salad with your chips, sir?\" he asked.\n\nIn the evening, I made a new plan. Diets, I realised, should never begin on Monday, because Monday is the most stressful day of the week. Tuesday is not much better. Wednesday is too close to the weekend, and Thursday is too close to Friday.\n\nSo I have decided to start on the first day of next month. It is a very good plan. It is also exactly what I said last month.",
+  "title_en": "The Great Fridge War",
+  "title_ru": "Великая война за холодильник",
+  "description_ru": "Комический рассказ об офисной кухне, где пропавший йогурт перерос в настоящий конфликт отделов.",
+  "text": "It began, as all great wars do, with a yogurt. On a grey Tuesday in March, a mild-mannered accountant named Gerald opened the fridge on the third floor, reached for his strawberry yogurt and found only a spoon, which had been left in the empty pot like a flag planted on conquered ground. Gerald stood perfectly still. Then he went back to his desk and wrote an email with the subject line \"Whoever you are\", which, as everyone who works in an office knows, is the first shot of any serious conflict.\n\nThe email was sent to the entire floor. In it, Gerald stated that he was not an angry man, that he had worked at the company for eleven years, and that he had never before felt the need to put his name on his lunch. He added, in a paragraph that was later widely quoted, that a person who steals a yogurt is a person who is capable of anything. Within an hour, he had received fourteen replies, and none of them was an apology. Two of them were from people who wanted to know whether the yogurt had really been strawberry.\n\nBy Wednesday, the fridge had been divided into territories. The marketing department, who had always considered themselves to be creative, covered their shelf with drawings of skulls and little notices that said \"Hands off\". The sales team, who were louder, stuck up a laminated sign that read \"This is a Safe Space for Sandwiches\". The people from IT, who never said much, installed a small camera above the milk, and nobody could tell whether it was real. Somebody had labelled a lettuce in capital letters. Somebody else had labelled a single grape.\n\nOn Thursday, the situation escalated. A rumour, which was probably started by a man from accounts, spread that the thief was Brenda from reception. Brenda, who had been at the company for twenty-three years and who brought in homemade cakes every Friday, was understandably upset. She replied to the whole floor, saying that she had never touched a yogurt in her life, and that she preferred her desserts to have a bit more character. The cakes did not appear on Friday, and the mood in the building darkened considerably.\n\nThe management, of course, tried to remain neutral. A memo was sent out, which was signed by someone from Human Resources and entitled \"Shared Refrigeration: A Community Responsibility\". It contained eleven rules, one of which was that all food must be clearly named, dated and, in the case of anything with a strong smell, apologised to in writing. Employees were reminded that the fridge would be emptied every Friday at five o'clock. This was taken, correctly, as a declaration of war on everybody.\n\nFriday at five o'clock was chaos. A small crowd had gathered round the fridge, each person guarding a carrier bag as if it contained the crown jewels. A man from logistics was seen smuggling out half a roast chicken in his coat. The cleaner, a calm woman named Dolores who had seen far worse in her time, opened the door, looked inside and calmly threw away a cheese that had been growing a beard since January. There was a gasp. A voice shouted, \"That was an experiment!\" It was never established whose.\n\nIt was Dolores, in the end, who solved the mystery. On Monday morning, as she was mopping the floor, she noticed a small empty pot in the pocket of a coat which had been hung on the back of a chair. The coat, according to witnesses, belonged to Gerald himself. It appeared that he had eaten the yogurt on the Monday, at about eleven o'clock, during a particularly dull meeting, and had completely forgotten. The spoon, which had so insulted him, had been put back by his own hand.\n\nDolores showed him the pot and said nothing. This, he later explained, was the worst part of all. For several minutes he stared at it. Then he began to laugh, in the quiet, hopeless way of a man who has accused an innocent receptionist of theft, and who is about to be forgiven by nobody. He walked down to reception with a large box of cakes from the bakery on the corner, and he apologised to Brenda in front of the whole floor, using words that were later described by those present as \"extremely long\".\n\nPeace was restored. The skulls were taken down, the camera turned out to be a smoke alarm and the lettuce was eaten at last, by a vegetarian called Hugo, who said that it had been waiting long enough. A new sign was put on the fridge door. It was written by Gerald himself, and it said, in large friendly letters: \"If you borrow my yogurt, please tell me. I might have eaten it already.\"",
+  "word_count": 810,
   "vocabulary": [
     {
-      "word": "enthusiasm",
-      "ipa_us": "ɪnˈθuziˌæzəm",
-      "ipa_uk": "ɪnˈθjuːziæzəm",
-      "translation_ru": "энтузиазм"
+      "word": "yogurt",
+      "ipa_us": "ˈjoʊɡərt",
+      "ipa_uk": "ˈjɒɡət",
+      "translation_ru": "йогурт"
     },
     {
-      "word": "stretching",
-      "ipa_us": "ˈstrɛtʃɪŋ",
-      "ipa_uk": "ˈstretʃɪŋ",
-      "translation_ru": "растяжка"
+      "word": "conquered",
+      "ipa_us": "ˈkɑŋkərd",
+      "ipa_uk": "ˈkɒŋkəd",
+      "translation_ru": "завоёванный"
     },
     {
-      "word": "blueberries",
-      "ipa_us": "ˈbluˌbɛriz",
-      "ipa_uk": "ˈbluːbəriz",
-      "translation_ru": "голубика, черника"
+      "word": "accountant",
+      "ipa_us": "əˈkaʊntənt",
+      "ipa_uk": "əˈkaʊntənt",
+      "translation_ru": "бухгалтер"
     },
     {
-      "word": "colleague",
-      "ipa_us": "ˈkɑliɡ",
-      "ipa_uk": "ˈkɒliːɡ",
-      "translation_ru": "коллега"
+      "word": "territories",
+      "ipa_us": "ˈtɛrəˌtɔriz",
+      "ipa_uk": "ˈterɪtriz",
+      "translation_ru": "территории"
     },
     {
-      "word": "doughnuts",
-      "ipa_us": "ˈdoʊnʌts",
-      "ipa_uk": "ˈdəʊnʌts",
-      "translation_ru": "пончики"
+      "word": "laminated",
+      "ipa_us": "ˈlæməˌneɪtɪd",
+      "ipa_uk": "ˈlæmɪneɪtɪd",
+      "translation_ru": "заламинированный"
     },
     {
-      "word": "precious",
-      "ipa_us": "ˈprɛʃəs",
-      "ipa_uk": "ˈpreʃəs",
-      "translation_ru": "драгоценный"
+      "word": "escalated",
+      "ipa_us": "ˈɛskəˌleɪtɪd",
+      "ipa_uk": "ˈeskəleɪtɪd",
+      "translation_ru": "обострилась"
     },
     {
-      "word": "weakness",
-      "ipa_us": "ˈwiknəs",
-      "ipa_uk": "ˈwiːknəs",
-      "translation_ru": "слабость"
+      "word": "rumour",
+      "ipa_us": "ˈrumər",
+      "ipa_uk": "ˈruːmə",
+      "translation_ru": "слух"
     },
     {
-      "word": "sympathy",
-      "ipa_us": "ˈsɪmpəθi",
-      "ipa_uk": "ˈsɪmpəθi",
-      "translation_ru": "сочувствие"
+      "word": "memo",
+      "ipa_us": "ˈmɛmoʊ",
+      "ipa_uk": "ˈmeməʊ",
+      "translation_ru": "служебная записка"
+    },
+    {
+      "word": "neutral",
+      "ipa_us": "ˈnutrəl",
+      "ipa_uk": "ˈnjuːtrəl",
+      "translation_ru": "нейтральный"
+    },
+    {
+      "word": "smuggling",
+      "ipa_us": "ˈsmʌɡlɪŋ",
+      "ipa_uk": "ˈsmʌɡlɪŋ",
+      "translation_ru": "тайно выносить"
+    },
+    {
+      "word": "mopping",
+      "ipa_us": "ˈmɑpɪŋ",
+      "ipa_uk": "ˈmɒpɪŋ",
+      "translation_ru": "мыть пол"
+    },
+    {
+      "word": "hopeless",
+      "ipa_us": "ˈhoʊpləs",
+      "ipa_uk": "ˈhəʊpləs",
+      "translation_ru": "безнадёжный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ʌ",
       "examples": [
-        "month",
-        "enthusiasm",
-        "Thursday",
-        "three"
+        "much",
+        "one"
       ],
-      "tip_ru": "Кончик языка слегка просунут между зубами, воздух проходит без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Короткий краткий звук между «а» и «э», рот открыт слабо; не «о»."
     },
     {
-      "sound": "w",
+      "sound": "ŋ",
       "examples": [
-        "week",
-        "wedding",
-        "waiter",
-        "weakness"
+        "long",
+        "strong",
+        "morning",
+        "during"
       ],
-      "tip_ru": "Губы округлите и вытяните вперёд, зубы нижней губы не касаются; это не русское «в»."
+      "tip_ru": "Задняя часть языка к мягкому нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "iː",
+      "sound": "word-stress",
       "examples": [
-        "eat",
-        "seen",
-        "week"
+        "yogurt",
+        "conquered",
+        "accountant",
+        "territories"
       ],
-      "tip_ru": "Долгий звук: растяните его, улыбнувшись; sheep длиннее и напряжённее, чем ship."
+      "tip_ru": "Ударение ставьте на нужный слог: ударный слог длиннее, громче и выше по тону, остальные сокращаются."
     },
     {
-      "sound": "r",
+      "sound": "dark-l",
       "examples": [
-        "rabbit",
-        "realised",
-        "research",
-        "refuse"
+        "all",
+        "small",
+        "still",
+        "tell"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу и не касается его, губы чуть округлены; не раскатывайте русское «р»."
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "How often does the narrator start a diet?",
-      "answer": "Roughly every Monday since 2011.",
+      "question": "What started the fridge war?",
+      "answer": "Gerald's strawberry yogurt disappeared.",
       "accepted_keywords": [
-        "monday",
-        "every",
-        "week"
+        "yogurt",
+        "gerald",
+        "strawberry"
       ]
     },
     {
-      "question": "What did he have for breakfast?",
-      "answer": "Oatmeal and blueberries.",
+      "question": "Who was wrongly suspected?",
+      "answer": "Brenda from reception.",
       "accepted_keywords": [
-        "oatmeal",
-        "blueberries"
+        "brenda",
+        "reception"
       ]
     },
     {
-      "question": "Why did he say the doughnut did not count?",
-      "answer": "It was small and he ate it standing up.",
+      "question": "Who solved the mystery and how?",
+      "answer": "Dolores the cleaner found the empty pot in Gerald's coat pocket.",
       "accepted_keywords": [
-        "small",
-        "standing"
+        "dolores",
+        "cleaner",
+        "pot",
+        "coat",
+        "pocket"
       ]
     },
     {
-      "question": "When does he plan to start his diet next?",
-      "answer": "On the first day of next month.",
+      "question": "How did Gerald make peace?",
+      "answer": "He apologised to Brenda with a box of cakes and put up a friendly sign.",
       "accepted_keywords": [
-        "month",
-        "first"
+        "apologised",
+        "cakes",
+        "sign",
+        "brenda"
       ]
     }
-  ],
-  "word_count": 370
+  ]
 }

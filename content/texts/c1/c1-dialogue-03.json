@@ -2,120 +2,162 @@
   "id": "c1-dialogue-03",
   "level": "C1",
   "genre": "dialogue",
-  "title_en": "The Chestnut Tree",
-  "title_ru": "Каштан за забором",
-  "description_ru": "Две соседки спорят из-за старого дерева, но находят достойный компромисс, учитывающий память и безопасность.",
-  "text": "Mrs Alder: Good morning, Mr Patel. I wonder if you have a moment. It concerns the chestnut tree.\nRohan: Of course, Mrs Alder. Is something wrong?\nMrs Alder: Not wrong, exactly. But its branches now hang over my greenhouse, and the council's letter says you intend to have it felled.\nRohan: Ah. I did apply, yes. I'm sorry you heard it from a letter rather than from me.\nMrs Alder: I confess that did sting a little. That tree was here before either of us.\nRohan: It was, and I'm fond of it too. The trouble is the roots. The surveyor says they've begun lifting the foundations at the back of my house. There's a crack above the kitchen window you could slip a coin into.\nMrs Alder: Good heavens. I had no idea it was that serious.\nRohan: Neither did I until March. The repair estimate is nearly twelve thousand pounds, and the insurers won't pay while the tree remains.\nMrs Alder: I see. Has anyone suggested pruning the roots, rather than removing the whole thing?\nRohan: The surveyor mentioned it, but he thinks it would destabilise the tree and make it dangerous in a gale. Which would be worse for both of us.\nMrs Alder: Hm. My late husband planted a little oak behind it in 1987, and I'd hate for that to be damaged during any felling.\nRohan: I wasn't aware of that. I'll make certain the contractors work around it. In fact, if you like, I could pay for a replacement tree in the front garden, something with gentler roots.\nMrs Alder: That's a generous offer. What did you have in mind?\nRohan: A rowan, perhaps. Birds adore them, and the berries are lovely in autumn.\nMrs Alder: My husband would have approved. Though I'd like to choose the spot myself, if I may.\nRohan: Naturally. Shall we say we'll walk the garden together this Saturday and mark it out?\nMrs Alder: One more thing. If any branches fall during the work, my greenhouse will need a new pane or two.\nRohan: Send me the bill and consider it settled. I would also hate to lose your tomatoes.\nMrs Alder: You drive a gentle bargain for a man with a cracked kitchen.\nMrs Alder: I'd like that. And Mr Patel, next time, please knock on my door before the council writes to me.\nRohan: You have my word. I'll even bring the biscuits.\nMrs Alder: Ginger, if you've any sense.\nRohan: Ginger it is. And thank you for being so reasonable about this. I expected a much harder conversation.\nMrs Alder: So did I, to be honest. But it is difficult to stay cross with someone who admits he should have knocked first.",
-  "word_count": 419,
+  "title_en": "The Unexpected Question",
+  "title_ru": "Неожиданный вопрос",
+  "description_ru": "На собеседовании на должность куратора музея соискателю задают неудобные вопросы о спорных экспонатах, бюджете и сопротивлении системы.",
+  "text": "Dr Whitcombe: Thank you for coming, Mr Lindqvist, and for applying for the post of curator. Do sit. I'm Dr Whitcombe, this is Ms Adeyemi from our education team, and you've already met the very patient gentleman at reception.\nSam: I have, and he gave me excellent advice. He said the panel always asks the same three questions, and that I should ignore my prepared answers.\nMs Adeyemi: Did he really? I shall have a word. In that case, we'll have to be inventive. Let's start with something different. If you could remove one object from our collection, which would it be?\n\nSam: Remove it, as in destroy it, or as in return it somewhere?\nDr Whitcombe: Interesting that you ask. Either. Choose.\nSam: Then I'd choose the bronze figure in Gallery Four, the one labelled \"Court Official, probably nineteenth century.\" Your own file notes admit that its provenance is uncertain. I'd want to find out whether it was taken legitimately, and if it wasn't, I'd arrange its return. It might leave a gap on the plinth, but a gap with an honest label is more truthful than a beautiful object with a doubtful past.\n\nMs Adeyemi: That's rather bold for a first answer. Dr Whitcombe has spent six years defending that figure.\nDr Whitcombe: I have. And I'd prefer you didn't look quite so pleased with yourself.\nSam: I'm sorry. I wasn't aware of the history. I wouldn't have put it so bluntly.\n\nDr Whitcombe: No, no, please. I asked, and you answered. The remarkable thing is that nobody else on the shortlist even noticed the label. Let's go on. Tell me about a time an exhibition you worked on went badly.\nSam: Last year, at the maritime museum, we mounted a show on shipwrecks. We were very proud of it. Dramatic lighting, recorded wind, a fog machine. And then a woman in her seventies stopped in front of the case containing a child's shoe, which had been recovered from a wreck, and began to cry. Her grandmother's family had been aboard.\nMs Adeyemi: How did you respond?\n\nSam: At the time, badly. I told a colleague we should put up a warning sign. He said that would be patronising, and I said it would be considerate, and we argued for ten minutes while she stood there. Eventually, a young volunteer simply went and sat beside her, and asked about her grandmother. Within an hour, she was telling stories to a small crowd of strangers.\nDr Whitcombe: And what did you learn from that?\nSam: That we had designed the exhibition around the objects, and forgotten the visitors who might arrive with objects of their own. Afterwards we added a quiet room with a notebook, and invited people to write down their own family stories. We now have more than four hundred entries, and I consider it the best thing we ever made.\n\nDr Whitcombe: Did the museum change anything permanent as a result, or was it a one-off gesture?\nSam: Both, honestly. The director resisted at first, because she feared the notebook would become a place for complaints. For the first month it was almost empty. Then a schoolboy wrote three lines about his father's fishing boat, and after that people queued to write.\n\nMs Adeyemi: That's a lovely answer, if you'll forgive the word. But let me be sceptical. Museums are under enormous financial pressure. We can't all build quiet rooms with notebooks. What would you cut?\nSam: I'd cut the fog machine, for a start. Joking aside, I'd rather have fewer, better-researched exhibitions than a constant churn of spectacle. Visitors can sense when something has been made to impress them, rather than to speak to them. But I'd also be honest that this has a cost. Fewer blockbusters usually means fewer tickets.\nMs Adeyemi: And the staff? Cutting spectacle tends to make designers nervous.\n\nSam: It should make them excited, if you frame it correctly. A restrained exhibition is far harder to design than a noisy one, because there's nowhere to hide. I'd involve the designers at the very beginning, not hand them a finished script and ask them to decorate it.\nDr Whitcombe: So how would you pay for it?\nSam: Partly through partnerships with schools and universities, who have the researchers and the need for real objects. And partly by being candid with funders. In my experience, they respond much better to \"here's what we've learned\" than to \"here's a glossy report about how well everything went.\"\n\nMs Adeyemi: Hmm. Funders do like glossy reports.\nSam: They do, but they also like not being deceived, and eventually they notice the difference.\nDr Whitcombe: Let me ask you the final question, and it is a little personal. This is a large institution, with very strong opinions and a certain amount of inertia. You would be the youngest member of the senior team. What happens the first time somebody senior tells you that an idea of yours is impractical?\n\nSam: I'd ask them to explain why, and I'd listen. If they're right, I'd say so. If they're wrong, I'd ask what evidence would change their mind, and I'd go and get it. And if I still failed, I'd wait. I've found that institutions are slower than people but, over time, rather more reasonable.\nMs Adeyemi: That's either very wise or very diplomatic.\nSam: I'm hoping the two are not mutually exclusive.\n\nDr Whitcombe: Thank you, Mr Lindqvist. We'll be in touch by Friday. Oh, and one last thing. About the bronze figure.\nSam: Yes?\nDr Whitcombe: I've been looking at that file again this week, in spite of myself. Don't tell Ms Adeyemi, but I think you may be right.",
+  "word_count": 907,
   "vocabulary": [
     {
-      "word": "felled",
-      "ipa_us": "feld",
-      "ipa_uk": "feld",
-      "translation_ru": "срубленный"
+      "word": "curator",
+      "ipa_us": "kjʊˈreɪtər",
+      "ipa_uk": "kjʊˈreɪtə",
+      "translation_ru": "куратор"
     },
     {
-      "word": "foundations",
-      "ipa_us": "faʊnˈdeɪʃnz",
-      "ipa_uk": "faʊnˈdeɪʃnz",
-      "translation_ru": "фундамент"
+      "word": "inventive",
+      "ipa_us": "ɪnˈventɪv",
+      "ipa_uk": "ɪnˈventɪv",
+      "translation_ru": "изобретательный"
     },
     {
-      "word": "surveyor",
-      "ipa_us": "sərˈveɪər",
-      "ipa_uk": "səˈveɪə",
-      "translation_ru": "оценщик, землемер"
+      "word": "provenance",
+      "ipa_us": "ˈprɑːvənəns",
+      "ipa_uk": "ˈprɒvənəns",
+      "translation_ru": "происхождение, история владения"
     },
     {
-      "word": "destabilise",
-      "ipa_us": "diːˈsteɪbəlaɪz",
-      "ipa_uk": "diːˈsteɪbəlaɪz",
-      "translation_ru": "дестабилизировать"
+      "word": "legitimately",
+      "ipa_us": "lɪˈdʒɪtəmətli",
+      "ipa_uk": "lɪˈdʒɪtɪmətli",
+      "translation_ru": "законно"
     },
     {
-      "word": "pruning",
-      "ipa_us": "ˈpruːnɪŋ",
-      "ipa_uk": "ˈpruːnɪŋ",
-      "translation_ru": "обрезка"
+      "word": "plinth",
+      "ipa_us": "plɪnθ",
+      "ipa_uk": "plɪnθ",
+      "translation_ru": "постамент"
     },
     {
-      "word": "contractors",
-      "ipa_us": "ˈkɑːntræktərz",
-      "ipa_uk": "kənˈtræktəz",
-      "translation_ru": "подрядчики"
+      "word": "patronising",
+      "ipa_us": "ˈpeɪtrənaɪzɪŋ",
+      "ipa_uk": "ˈpætrənaɪzɪŋ",
+      "translation_ru": "снисходительный"
     },
     {
-      "word": "gale",
-      "ipa_us": "ɡeɪl",
-      "ipa_uk": "ɡeɪl",
-      "translation_ru": "штормовой ветер"
+      "word": "considerate",
+      "ipa_us": "kənˈsɪdərət",
+      "ipa_uk": "kənˈsɪdərət",
+      "translation_ru": "внимательный к другим"
+    },
+    {
+      "word": "sceptical",
+      "ipa_us": "ˈskeptɪkəl",
+      "ipa_uk": "ˈskeptɪkəl",
+      "translation_ru": "скептический"
+    },
+    {
+      "word": "spectacle",
+      "ipa_us": "ˈspektəkəl",
+      "ipa_uk": "ˈspektəkəl",
+      "translation_ru": "зрелище"
+    },
+    {
+      "word": "candid",
+      "ipa_us": "ˈkændɪd",
+      "ipa_uk": "ˈkændɪd",
+      "translation_ru": "откровенный"
+    },
+    {
+      "word": "inertia",
+      "ipa_us": "ɪˈnɜːrʃə",
+      "ipa_uk": "ɪˈnɜːʃə",
+      "translation_ru": "инерция, косность"
+    },
+    {
+      "word": "mutually exclusive",
+      "ipa_us": "ˈmjuːtʃuəli ɪkˈskluːsɪv",
+      "ipa_uk": "ˈmjuːtʃuəli ɪkˈskluːsɪv",
+      "translation_ru": "взаимоисключающие"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "eɪ",
+      "sound": "word-stress",
       "examples": [
-        "gale",
-        "planted",
-        "Saturday"
+        "provenance",
+        "legitimately",
+        "inertia"
       ],
-      "tip_ru": "Это дифтонг: начните с «э» и плавно перейдите к краткому «и». Не произносите чистое русское «э»."
+      "tip_ru": "Ударение: ˈprovenance, leˈgitimately, inˈertia. В legitimately второй слог ударный, остальные коротко."
     },
     {
-      "sound": "aʊ",
+      "sound": "θ",
       "examples": [
-        "foundations",
-        "house",
-        "council"
+        "plinth",
+        "thank",
+        "with"
       ],
-      "tip_ru": "Дифтонг: начните с открытого «а» и скользните к «у», не заканчивайте на «в»."
+      "tip_ru": "В конце слова plinth сочетание «nθ»: язык между зубами, глухо; не заканчивайте на «т»."
     },
     {
-      "sound": "əʊ",
+      "sound": "ə",
       "examples": [
-        "oak",
-        "over",
-        "no"
+        "museum",
+        "collection",
+        "visitors"
       ],
-      "tip_ru": "Дифтонг: от нейтрального «э» к «у», губы округляются к концу, не русское чистое «о»."
+      "tip_ru": "Безударные слоги сокращайте до «ə»: museum, collection, visitors звучат с очень краткой серединой."
+    },
+    {
+      "sound": "aspiration",
+      "examples": [
+        "colleague",
+        "case",
+        "patronising"
+      ],
+      "tip_ru": "В начале ударного слога p, t, k придыхательные: colleague, patronising."
     }
   ],
   "questions": [
     {
-      "question": "What does Rohan plan to do with the chestnut tree?",
-      "answer": "Have it cut down.",
+      "question": "Which object would Sam remove from the collection?",
+      "answer": "The bronze figure in Gallery Four, because its provenance is doubtful.",
       "accepted_keywords": [
-        "felled",
-        "cut",
-        "remove",
-        "removed",
-        "down"
+        "bronze",
+        "figure",
+        "provenance",
+        "gallery"
       ]
     },
     {
-      "question": "Why does he want to do it?",
-      "answer": "The roots are damaging the foundations of his house.",
+      "question": "What went wrong in the shipwreck exhibition?",
+      "answer": "A visitor cried at a child's shoe from a wreck her family had been on, and the staff were unprepared.",
       "accepted_keywords": [
-        "roots",
-        "foundations",
-        "crack",
-        "damage",
-        "damaging"
+        "shoe",
+        "cry",
+        "cried",
+        "woman",
+        "wreck"
       ]
     },
     {
-      "question": "What did Mrs Alder's husband plant?",
-      "answer": "A little oak tree.",
+      "question": "What did Sam's museum add afterwards?",
+      "answer": "A quiet room with a notebook where visitors write family stories.",
       "accepted_keywords": [
-        "oak"
+        "quiet",
+        "notebook",
+        "room",
+        "stories"
       ]
     },
     {
-      "question": "What replacement does Rohan offer?",
-      "answer": "A rowan tree in the front garden.",
+      "question": "What does Dr Whitcombe admit at the end?",
+      "answer": "That Sam may be right about the bronze figure.",
       "accepted_keywords": [
-        "rowan",
-        "tree"
+        "right",
+        "bronze",
+        "figure"
       ]
     }
   ]

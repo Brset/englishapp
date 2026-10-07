@@ -2,133 +2,153 @@
   "id": "b1-news-03",
   "level": "B1",
   "genre": "news",
-  "title_en": "Local Swimmer Crosses the Bay",
-  "title_ru": "Местная пловчиха переплыла залив",
-  "description_ru": "Вымышленная новость о женщине, которая поставила личный рекорд и собрала деньги для больницы.",
-  "text": "A thirty-four-year-old teacher from the seaside town of Westbay has swum across Silver Bay in just under five hours. Maria Vega, who only learned to swim at the age of twenty-five, raised more than eight thousand pounds for the local children's hospital.\n\nThe bay is nearly sixteen kilometres wide, and the water is cold even in summer. Maria began her swim at six o'clock in the morning, accompanied by a small boat with her coach and two volunteers. Thousands of people watched from the beach and along the cliffs, waving flags and cheering.\n\n\"The first hour was easy,\" Maria said afterwards, wrapped in a warm towel. \"The second hour was harder. By the third hour, I was thinking about nothing but a hot cup of tea. If my friends had not been shouting my name from the boat, I might have given up.\"\n\nAt one point, a group of dolphins appeared next to her, which the swimmer described as \"a very kind surprise\". Her coach, Peter Lund, said the animals stayed for about ten minutes.\n\nWhen she finally reached the other side, the crowd rushed to hug her. Mayor Clara Fisher announced that the town would celebrate with a party on the beach next Saturday.\n\nAsked about her next challenge, Maria laughed. \"I have promised my family a long holiday first,\" she said. \"Then I may think about crossing the whole channel. But I need a very large breakfast before I decide.\"\n\nDoctors at the hospital say the money will buy new equipment for the children's ward.",
-  "word_count": 261,
+  "title_en": "Oldmere Villagers Clean Up After Worst Flood in Thirty Years",
+  "title_ru": "Жители Олдмира убирают последствия самого сильного наводнения за тридцать лет",
+  "description_ru": "Вымышленная новость: после сильного наводнения в деревне Олдмир жители и добровольцы вместе спасают людей и восстанавливают дома.",
+  "text": "Volunteers in the village of Oldmere have been working day and night since Tuesday to clean up after the worst flood in thirty years. Heavy rain fell on the hills above the village for almost three days, and on Monday night the River Lark rose above its banks. By morning, more than a hundred homes were surrounded by brown water, and the main street looked like a canal. Fortunately, nobody has been seriously hurt, and the rescue effort has been described by local officials as \"extraordinary\".\n\nThe first warnings came late on Monday, when a farmer named Colin Haddock noticed that the water in his field was rising faster than usual. He telephoned his neighbours, and within an hour the whole village was awake. People carried furniture upstairs, moved cars to higher ground and filled sandbags with sand from the old school playground. \"It was dark, it was cold, and it was still raining,\" said Haddock. \"But nobody complained. We just got on with it.\"\n\nThe village hall soon became a shelter. Around two hundred residents spent the night on camp beds and blankets, and a group of women brought sandwiches and hot drinks from their own kitchens. The teacher of the village school, Fiona Ashdown, organised games for the children so that their parents could help with the rescue. \"I told them that it was an adventure,\" she said. \"Some of them still think so.\" Meanwhile, a team of firefighters used small boats to reach elderly people who were trapped in their upstairs rooms. One of them, ninety-year-old Edith Plumley, refused to leave until she had found her cat, which was eventually discovered asleep in a wardrobe.\n\nWhen the rain finally stopped on Tuesday, the damage became clear. Many houses had water up to the windows, and dozens of families lost carpets, furniture and electrical equipment. A small bakery on Church Lane lost its ovens, and the village shop had to throw away all of its frozen food. The council has estimated that the repairs will cost at least four million pounds. However, the sense of shock has already given way to determination, and the recovery has begun.\n\nMore than three hundred volunteers have arrived from nearby towns, bringing shovels, buckets and portable pumps. Students from a college in the city of Brackenford travelled forty kilometres by bus to help, and a local building company lent two diggers for free. A man who asked to remain anonymous delivered a lorry full of dry clothes. \"I have never seen anything like it,\" said the mayor, Gerald Whitcombe, who spent the whole of Wednesday carrying wet carpets out of homes. \"Some of these people have lost everything, and yet they still turn up to help their neighbours.\"\n\nThe emergency services have also praised the village for its preparation. A local first-aid group had practised a flood drill only last spring, and its members knew exactly where to take people who needed medical care. \"If they had not rehearsed, the night could have ended very differently,\" said fire officer Stanley Rudd. \"They have set an example for every village in the county.\"\n\nAn online campaign has also raised nearly two hundred thousand pounds in four days. The money will be shared between families who cannot afford to repair their homes, and it will also pay for a new warning system. At present, the village has only a single siren, which was installed in the 1960s and failed on Monday night. Experts say that if a modern alarm had been working, people would have had several more hours to prepare. \"We have to learn from this,\" said environmental scientist Dr Naomi Frost. \"Floods are becoming more frequent, and communities need better protection.\"\n\nSome residents have asked why the flood barriers were not higher. The council has replied that the barriers were designed after the last flood and were built to the national standard, but it has promised to examine the plans again. In the meantime, villagers are drying out their houses with heaters borrowed from friends. Many are still sleeping in the village hall or with relatives, and it may take several months before life returns to normal.\n\nOn Thursday evening, the village held a simple meal outside the church, with long tables and plates of hot soup donated by a restaurant in Brackenford. People who had not spoken to each other for years sat side by side and laughed. Edith Plumley arrived with her cat in a basket and received a round of applause. \"The water took our belongings,\" said Colin Haddock, raising a cup of tea, \"but it did not take our village.\"",
+  "word_count": 775,
   "vocabulary": [
     {
-      "word": "seaside",
-      "ipa_us": "ˈsiˌsaɪd",
-      "ipa_uk": "ˈsiːsaɪd",
-      "translation_ru": "приморский"
+      "word": "flood",
+      "ipa_us": "flʌd",
+      "ipa_uk": "flʌd",
+      "translation_ru": "наводнение"
     },
     {
-      "word": "raised",
-      "ipa_us": "reɪzd",
-      "ipa_uk": "reɪzd",
-      "translation_ru": "собрала (деньги)"
+      "word": "rescue",
+      "ipa_us": "ˈrɛskjuː",
+      "ipa_uk": "ˈreskjuː",
+      "translation_ru": "спасение"
     },
     {
-      "word": "accompanied",
-      "ipa_us": "əˈkʌmpənid",
-      "ipa_uk": "əˈkʌmpənid",
-      "translation_ru": "в сопровождении"
+      "word": "shelter",
+      "ipa_us": "ˈʃɛltər",
+      "ipa_uk": "ˈʃeltə",
+      "translation_ru": "убежище"
     },
     {
-      "word": "volunteers",
-      "ipa_us": "ˌvɑlənˈtɪrz",
-      "ipa_uk": "ˌvɒlənˈtɪəz",
-      "translation_ru": "добровольцы"
+      "word": "trapped",
+      "ipa_us": "træpt",
+      "ipa_uk": "træpt",
+      "translation_ru": "в ловушке"
     },
     {
-      "word": "cliffs",
-      "ipa_us": "klɪfs",
-      "ipa_uk": "klɪfs",
-      "translation_ru": "скалы"
+      "word": "determination",
+      "ipa_us": "dɪˌtɜːrməˈneɪʃən",
+      "ipa_uk": "dɪˌtɜːmɪˈneɪʃən",
+      "translation_ru": "решимость"
     },
     {
-      "word": "wrapped",
-      "ipa_us": "ræpt",
-      "ipa_uk": "ræpt",
-      "translation_ru": "закутанная"
+      "word": "anonymous",
+      "ipa_us": "əˈnɑːnəməs",
+      "ipa_uk": "əˈnɒnɪməs",
+      "translation_ru": "анонимный"
     },
     {
-      "word": "dolphins",
-      "ipa_us": "ˈdɑlfɪnz",
-      "ipa_uk": "ˈdɒlfɪnz",
-      "translation_ru": "дельфины"
+      "word": "siren",
+      "ipa_us": "ˈsaɪrən",
+      "ipa_uk": "ˈsaɪərən",
+      "translation_ru": "сирена"
     },
     {
-      "word": "challenge",
-      "ipa_us": "ˈtʃæləndʒ",
-      "ipa_uk": "ˈtʃælɪndʒ",
-      "translation_ru": "вызов, задача"
+      "word": "frequent",
+      "ipa_us": "ˈfriːkwənt",
+      "ipa_uk": "ˈfriːkwənt",
+      "translation_ru": "частый"
     },
     {
-      "word": "equipment",
-      "ipa_us": "ɪˈkwɪpmənt",
-      "ipa_uk": "ɪˈkwɪpmənt",
-      "translation_ru": "оборудование"
+      "word": "barriers",
+      "ipa_us": "ˈbæriərz",
+      "ipa_uk": "ˈbæriəz",
+      "translation_ru": "заграждения"
+    },
+    {
+      "word": "extraordinary",
+      "ipa_us": "ɪkˈstrɔːrdəˌnɛri",
+      "ipa_uk": "ɪkˈstrɔːdənri",
+      "translation_ru": "необыкновенный"
     }
   ],
   "focus_sounds": [
     {
       "sound": "θ",
       "examples": [
-        "thirty-four",
-        "thousands",
-        "third",
-        "thinking"
+        "think",
+        "thousand",
+        "three",
+        "everything"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на с или ф."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     },
     {
       "sound": "w",
       "examples": [
-        "Westbay",
         "water",
-        "warm",
-        "wrapped"
+        "wet",
+        "whole",
+        "worst"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, не касаясь зубами нижней губы; это не русское «в»."
+      "tip_ru": "Губы округлены и вытянуты вперёд, зубов не касаются; это не русское «в»."
     },
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "Vega",
-        "volunteers",
-        "very",
-        "have"
+        "raining",
+        "rising",
+        "building",
+        "carrying"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук до ф."
+      "tip_ru": "Спинка языка прижата к нёбу, звук идёт через нос; в конце -ing не добавляйте «г»."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "hall",
+        "all",
+        "local",
+        "small"
+      ],
+      "tip_ru": "В конце слова и перед согласной «l» твёрдое: кончик языка вверху, спинка оттянута назад."
     }
   ],
   "questions": [
     {
-      "question": "How did Maria cross the bay?",
-      "answer": "She swam.",
+      "question": "Who noticed the danger first?",
+      "answer": "A farmer named Colin Haddock noticed that the water in his field was rising.",
       "accepted_keywords": [
-        "swam",
-        "swim",
-        "swimming"
+        "farmer",
+        "colin",
+        "haddock",
+        "field"
       ]
     },
     {
-      "question": "How much money did she raise?",
-      "answer": "More than eight thousand pounds.",
+      "question": "Where did two hundred residents spend the night?",
+      "answer": "In the village hall.",
       "accepted_keywords": [
-        "eight",
-        "8000",
-        "thousand"
+        "hall",
+        "village"
       ]
     },
     {
-      "question": "What animals appeared next to her?",
-      "answer": "Dolphins.",
+      "question": "Why was the old siren a problem?",
+      "answer": "It was installed in the 1960s and failed on Monday night.",
       "accepted_keywords": [
-        "dolphins",
-        "dolphin"
+        "failed",
+        "1960s",
+        "old",
+        "siren"
       ]
     },
     {
-      "question": "What will the town do next Saturday?",
-      "answer": "Hold a party on the beach.",
+      "question": "What happened at the meal on Thursday?",
+      "answer": "People ate soup outside the church together, and Edith Plumley arrived with her cat.",
       "accepted_keywords": [
-        "party",
-        "beach",
-        "celebrate"
+        "soup",
+        "church",
+        "meal",
+        "together",
+        "cat"
       ]
     }
   ]

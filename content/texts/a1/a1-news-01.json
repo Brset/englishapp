@@ -2,119 +2,161 @@
   "id": "a1-news-01",
   "level": "A1",
   "genre": "news",
-  "title_en": "Missing Dog Comes Home",
-  "title_ru": "Пропавшая собака вернулась домой",
-  "description_ru": "Лёгкая новость о собаке, которую искал весь городок.",
-  "text": "A small dog called Biscuit is home again. The dog was lost in the town of Willow Creek for three days.\n\nBiscuit's owner is Mrs Green. She is seventy years old and she lives on Mill Road. On Monday, Biscuit ran out of the garden. Mrs Green was very sad.\n\nMany neighbours helped. They walked through the streets and looked in every park. On Thursday morning, a boy named Victor found Biscuit near the old bridge. The dog was wet and hungry, but happy.\n\n\"I am so thankful,\" says Mrs Green. \"This is the best week of my life!\" Now Biscuit sleeps on a warm sofa.",
-  "word_count": 106,
+  "title_en": "Ducks Stop the Traffic in Millbrook",
+  "title_ru": "Утки остановили движение в Миллбруке",
+  "description_ru": "Вымышленная новость: мама-утка с девятью утятами переходит оживлённую улицу, и весь город ждёт.",
+  "text": "Traffic stops in the centre of Millbrook this morning for an unusual reason. A mother duck and her nine little ducklings are crossing Station Road, and no one wants to hurry them. Cars, buses and even a big yellow lorry wait quietly. People get out of their cars to take photos. By eight o'clock, a crowd of about fifty people is standing on the pavement and watching.\n\nThe ducks come from the small pond in Willow Park, where many families walk and feed birds on Sundays. Every spring they walk to the river on the other side of the town, and this year they choose the busiest road. \"We see the mother duck at about seven thirty,\" says Peter Lamb, who sells newspapers at the corner. \"She stands at the edge of the road and looks left and right, just like a person. Then she starts to walk. The little ones follow her in a perfect line.\"\n\nThe first person to help is a local bus driver, Maria Stone. She stops her bus in the middle of the road and puts on the warning lights. Then she gets out and holds up her hand to the other drivers. \"I have two children,\" she says with a smile. \"I know that small ones walk very slowly. I do not want to frighten them.\" Other drivers copy her, and soon there are more than twenty cars in a long, quiet line.\n\nThe ducklings are not in a hurry. One of them stops to look at a leaf, and another sits down in the middle of the road for a rest. The mother duck makes a loud sound and returns to find them. A little girl in the crowd starts to laugh. Her name is Lucy Brown, and she is six years old. \"They are so small and fluffy!\" she says. \"I want to take one home, but my mum says no.\"\n\nAfter ten minutes, a young police officer arrives. His name is Daniel Reed, and he looks worried at first. He thinks that there is a big accident. But when he sees the ducks, he smiles and puts away his notebook. Then he walks slowly in front of the family and shows them the way. \"This is the best part of my job,\" he says. \"Usually I stop people from doing wrong things. Today I help a duck family.\"\n\nAt last the ducks reach the other side. They go through a hole in a garden fence and walk down the hill towards the river. The crowd claps and cheers. The drivers sound their horns happily, and the bus driver bows. One of the ducklings turns round and looks back at the people. \"I think he says thank you,\" says Mr Lamb.\n\nThe story quickly goes around the town. Many people write about it on the internet, and a photo of the ducks is now on the front page of the Millbrook Weekly. Shop owners near the road are making small paper ducks for the windows. A baker on Church Street is selling duck-shaped biscuits for one pound each. \"They sell very fast,\" says the baker, Sally Green. \"I make two hundred this morning and I have only ten left.\"\n\nThe town council has a new plan because of the ducks. Many people ask if there is a danger for the birds, and the council wants to make the road safer for them. Workers are already talking about it. Next week workers will put up a special sign at the road. It will show a duck family and say \"Slow down. Ducks crossing.\" The mayor, Mr Henry Hall, says that the sign is a small price for a happy town. \"Millbrook is a friendly place,\" he says. \"We want visitors to see that we care about animals and about each other.\"\n\nAnd what about the ducks? A boy named Ben Carter is sure that he can see them from his bedroom window on the river bank. \"They are swimming in the water now,\" he says. \"The mother is teaching the babies to find food.\" The people of Millbrook hope that the family will come back in the autumn. Next time, Mr Lamb says, he is bringing a big bag of bread for them.",
+  "word_count": 711,
   "vocabulary": [
     {
-      "word": "lost",
-      "ipa_us": "lɔst",
-      "ipa_uk": "lɒst",
-      "translation_ru": "потерянный"
+      "word": "ducklings",
+      "ipa_us": "ˈdʌklɪŋz",
+      "ipa_uk": "ˈdʌklɪŋz",
+      "translation_ru": "утята"
     },
     {
-      "word": "owner",
-      "ipa_us": "ˈoʊnər",
-      "ipa_uk": "ˈəʊnə",
-      "translation_ru": "хозяин"
+      "word": "pavement",
+      "ipa_us": "ˈpeɪvmənt",
+      "ipa_uk": "ˈpeɪvmənt",
+      "translation_ru": "тротуар"
     },
     {
-      "word": "garden",
-      "ipa_us": "ˈɡɑrdn",
-      "ipa_uk": "ˈɡɑːdn",
-      "translation_ru": "сад"
+      "word": "crowd",
+      "ipa_us": "kraʊd",
+      "ipa_uk": "kraʊd",
+      "translation_ru": "толпа"
     },
     {
-      "word": "neighbour",
-      "ipa_us": "ˈneɪbər",
-      "ipa_uk": "ˈneɪbə",
-      "translation_ru": "сосед"
+      "word": "warning",
+      "ipa_us": "ˈwɔrnɪŋ",
+      "ipa_uk": "ˈwɔːnɪŋ",
+      "translation_ru": "предупреждающий"
     },
     {
-      "word": "bridge",
-      "ipa_us": "brɪdʒ",
-      "ipa_uk": "brɪdʒ",
-      "translation_ru": "мост"
+      "word": "frighten",
+      "ipa_us": "ˈfraɪtən",
+      "ipa_uk": "ˈfraɪtən",
+      "translation_ru": "пугать"
     },
     {
-      "word": "wet",
-      "ipa_us": "wɛt",
-      "ipa_uk": "wet",
-      "translation_ru": "мокрый"
+      "word": "fluffy",
+      "ipa_us": "ˈflʌfi",
+      "ipa_uk": "ˈflʌfi",
+      "translation_ru": "пушистый"
     },
     {
-      "word": "hungry",
-      "ipa_us": "ˈhʌŋɡri",
-      "ipa_uk": "ˈhʌŋɡri",
-      "translation_ru": "голодный"
+      "word": "accident",
+      "ipa_us": "ˈæksɪdənt",
+      "ipa_uk": "ˈæksɪdənt",
+      "translation_ru": "авария, несчастный случай"
     },
     {
-      "word": "thankful",
-      "ipa_us": "ˈθæŋkfəl",
-      "ipa_uk": "ˈθæŋkfəl",
-      "translation_ru": "благодарный"
+      "word": "council",
+      "ipa_us": "ˈkaʊnsəl",
+      "ipa_uk": "ˈkaʊnsəl",
+      "translation_ru": "совет (городской)"
+    },
+    {
+      "word": "mayor",
+      "ipa_us": "ˈmeɪər",
+      "ipa_uk": "meə",
+      "translation_ru": "мэр"
+    },
+    {
+      "word": "pond",
+      "ipa_us": "pɑnd",
+      "ipa_uk": "pɒnd",
+      "translation_ru": "пруд"
+    },
+    {
+      "word": "sign",
+      "ipa_us": "saɪn",
+      "ipa_uk": "saɪn",
+      "translation_ru": "знак"
+    },
+    {
+      "word": "officer",
+      "ipa_us": "ˈɔfɪsər",
+      "ipa_uk": "ˈɒfɪsə",
+      "translation_ru": "офицер, полицейский"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ʌ",
       "examples": [
-        "three",
-        "through",
-        "Thursday"
+        "ducks",
+        "fluffy",
+        "bus"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Краткий звук между «а» и «э», рот открыт слабо; не «о»."
     },
     {
-      "sound": "w",
+      "sound": "aʊ",
       "examples": [
-        "Willow",
-        "was",
-        "week"
+        "crowd",
+        "down",
+        "around"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Скольжение от «а» к краткому «у»."
     },
     {
-      "sound": "v",
+      "sound": "dark-l",
       "examples": [
-        "Victor",
-        "every",
-        "lives"
+        "little",
+        "people",
+        "all"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+      "tip_ru": "«L» в конце слога твёрже и глубже русского «ль», кончик языка у дёсен."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "pavement",
+        "make",
+        "wait"
+      ],
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
     }
   ],
   "questions": [
     {
-      "question": "What is the dog's name?",
-      "answer": "Biscuit.",
+      "question": "Who is crossing Station Road?",
+      "answer": "A mother duck and her nine ducklings.",
       "accepted_keywords": [
-        "biscuit"
+        "duck",
+        "ducks",
+        "ducklings",
+        "nine"
       ]
     },
     {
-      "question": "How many days was the dog lost?",
-      "answer": "Three days.",
+      "question": "What does the bus driver Maria Stone do?",
+      "answer": "She stops her bus, puts on the warning lights and holds up her hand.",
       "accepted_keywords": [
-        "three",
-        "3"
+        "stops",
+        "bus",
+        "lights",
+        "hand"
       ]
     },
     {
-      "question": "Who found the dog?",
-      "answer": "A boy named Victor.",
+      "question": "What does the police officer do?",
+      "answer": "He walks slowly in front of the ducks and shows them the way.",
       "accepted_keywords": [
-        "victor",
-        "boy"
+        "walks",
+        "front",
+        "shows",
+        "way"
       ]
     },
     {
-      "question": "Where did he find the dog?",
-      "answer": "Near the old bridge.",
+      "question": "What will the town council put near the road?",
+      "answer": "A special sign: Slow down. Ducks crossing.",
       "accepted_keywords": [
-        "bridge"
+        "sign",
+        "duck",
+        "ducks"
       ]
     }
   ]

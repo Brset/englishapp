@@ -2,124 +2,161 @@
   "id": "a1-travel-05",
   "level": "A1",
   "genre": "travel",
-  "title_en": "Hot Water in Iceland",
-  "title_ru": "Горячий источник в Исландии",
-  "description_ru": "Фрейя греется в тёплой воде и видит северное сияние.",
-  "text": "Freya is on holiday in Iceland. The weather is cold and windy, but she is very happy. Today she visits a hot spring. The water is warm and blue, and white steam rises over it. Outside, it is minus five degrees.\n\nFreya sits in the water and looks at the mountains. A man next to her says, \"Look up! The sky is green!\" She sees soft green lights dancing above her. They are the northern lights. Freya forgets the cold. She stays in the water for two hours, and she doesn't want to leave.",
+  "title_en": "Spices of Marrakech",
+  "title_ru": "Пряности Марракеша",
+  "description_ru": "Повар из Испании приезжает в Марракеш: рынок, торг, урок готовки тажина и ужин на крыше.",
+  "text": "My name is Rosa, and I am a cook from Spain. Last month, I visit Marrakech, a famous city in Morocco, for a food holiday. I want to learn about the spices and the traditional dishes. I take a small plane from Madrid, and in two hours I land in a different world. The sun is bright, the sky is deep blue and the walls of the city are red like the sand.\n\nMy hotel is called a riad. It is a traditional Moroccan house with a garden inside. In the middle, there is a small fountain and an orange tree. The rooms are around the garden, and their doors are painted blue. Outside, the street is narrow, loud and busy, but inside the riad, it is quiet and cool. A young woman called Fatima welcomes me with sweet mint tea and small cakes. She pours the tea from high above the glass, and it makes a lot of bubbles.\n\nIn the afternoon, I walk to the big square of Marrakech, Jemaa el-Fnaa. It is the heart of the city. In the daytime, it is full of men who sell orange juice, snake charmers and monkeys in funny hats. At night, it changes. Hundreds of food stalls open, and the air fills with white smoke and the smell of grilled meat. Musicians play drums, and storytellers talk to big crowds. I eat spicy sausages and soup with beans. I pay very little, and I am very happy.\n\nIn the evening, I sit with Fatima in the garden and ask her about the food of her family. She says, \"My grandmother makes couscous every Friday. The whole family eats together from one big plate. It is a time to be together and to talk.\" I like the idea very much. In Spain, we also love long dinners, and I think that food connects people all over the world.\n\nNext, I enter the souks, the old markets. They are a big maze of narrow streets with thousands of small shops. There are shops for lamps, carpets, shoes, leather bags and spices. The sellers shout, \"Madame! Come, look, special price!\" The first price is always too high, so I must bargain. A seller wants three hundred dirhams for a small lamp. I say, \"One hundred.\" He laughs and says, \"Two hundred and fifty.\" We talk for ten minutes, and in the end I pay one hundred and twenty. We both smile, and he gives me tea.\n\nOn the third day, I go to a cooking class. My teacher is a lady called Khadija, and she takes us to the market first. We buy fresh vegetables, lemons, olives and a whole chicken. She shows us the spices. There are red, yellow, orange and brown powders in big baskets. \"This is cumin, this is ginger, and this is saffron, the most expensive spice in the world,\" she says. We smell each of them. I love the smell of cinnamon the most.\n\nBack in the kitchen, we learn to make a tagine. A tagine is both a dish and a pot. The pot has a flat bottom and a tall, round lid like a hat. We put chicken, onions, lemons and olives in the pot, and we add spices and a little water. Then we cook it slowly for an hour. Khadija says, \"Slow food is good food. Do not hurry.\" While we wait, we make bread and a sweet salad of oranges with cinnamon. The kitchen smells wonderful.\n\nAt last we sit down and eat together on the roof. The sun goes down, and the sky turns pink. The chicken is soft and sweet and a little sour from the lemons. I eat with my hands and a piece of bread, as the Moroccans do. Khadija watches me and smiles. \"You eat like a Moroccan,\" she says. \"Now you must cook like one.\" I promise to try, and I write the recipe in my notebook with a big heart.\n\nOne more thing surprises me. In the souks, nobody is in a hurry. People sit in the doorways of their shops, drink tea and talk to their neighbours for hours. If you stop and say hello, they always ask, \"Where are you from? Do you like our city?\" At first, I want to see everything quickly. But slowly the city teaches me the same lesson as Khadija. Do not hurry. Good things take time.\n\nOn my last morning, I buy a small tagine pot and a bag of spices for my family. Fatima gives me a hug at the door of the riad. \"Come back soon, Rosa,\" she says. Back in Madrid, I cook a Moroccan dinner for my friends. The kitchen fills with the smell of cinnamon, and for one evening, Marrakech is with us.",
+  "word_count": 801,
   "vocabulary": [
     {
-      "word": "holiday",
-      "ipa_us": "ˈhɑːlədeɪ",
-      "ipa_uk": "ˈhɒlədeɪ",
-      "translation_ru": "отпуск"
+      "word": "riad",
+      "ipa_us": "riˈæd",
+      "ipa_uk": "riˈæd",
+      "translation_ru": "риад (традиционный дом)"
     },
     {
-      "word": "weather",
-      "ipa_us": "ˈweðɚ",
-      "ipa_uk": "ˈweðə",
-      "translation_ru": "погода"
+      "word": "souks",
+      "ipa_us": "suːks",
+      "ipa_uk": "suːks",
+      "translation_ru": "восточные рынки"
     },
     {
-      "word": "windy",
-      "ipa_us": "ˈwɪndi",
-      "ipa_uk": "ˈwɪndi",
-      "translation_ru": "ветреный"
+      "word": "spices",
+      "ipa_us": "ˈspaɪsɪz",
+      "ipa_uk": "ˈspaɪsɪz",
+      "translation_ru": "специи"
     },
     {
-      "word": "spring",
-      "ipa_us": "sprɪŋ",
-      "ipa_uk": "sprɪŋ",
-      "translation_ru": "источник, весна"
+      "word": "bargain",
+      "ipa_us": "ˈbɑːrɡən",
+      "ipa_uk": "ˈbɑːɡən",
+      "translation_ru": "торговаться"
     },
     {
-      "word": "steam",
-      "ipa_us": "stiːm",
-      "ipa_uk": "stiːm",
-      "translation_ru": "пар"
+      "word": "tagine",
+      "ipa_us": "tæˈdʒiːn",
+      "ipa_uk": "tæˈdʒiːn",
+      "translation_ru": "тажин"
     },
     {
-      "word": "degrees",
-      "ipa_us": "dɪˈɡriːz",
-      "ipa_uk": "dɪˈɡriːz",
-      "translation_ru": "градусы"
+      "word": "cinnamon",
+      "ipa_us": "ˈsɪnəmən",
+      "ipa_uk": "ˈsɪnəmən",
+      "translation_ru": "корица"
     },
     {
-      "word": "northern lights",
-      "ipa_us": "ˈnɔːrðɚn laɪts",
-      "ipa_uk": "ˈnɔːðən laɪts",
-      "translation_ru": "северное сияние"
+      "word": "saffron",
+      "ipa_us": "ˈsæfrən",
+      "ipa_uk": "ˈsæfrən",
+      "translation_ru": "шафран"
     },
     {
-      "word": "forgets",
-      "ipa_us": "fɚˈɡets",
-      "ipa_uk": "fəˈɡets",
-      "translation_ru": "забывает"
+      "word": "fountain",
+      "ipa_us": "ˈfaʊntn",
+      "ipa_uk": "ˈfaʊntən",
+      "translation_ru": "фонтан"
+    },
+    {
+      "word": "maze",
+      "ipa_us": "meɪz",
+      "ipa_uk": "meɪz",
+      "translation_ru": "лабиринт"
+    },
+    {
+      "word": "couscous",
+      "ipa_us": "ˈkuːskuːs",
+      "ipa_uk": "ˈkuːskuːs",
+      "translation_ru": "кускус"
+    },
+    {
+      "word": "stalls",
+      "ipa_us": "stɔːlz",
+      "ipa_uk": "stɔːlz",
+      "translation_ru": "лотки"
+    },
+    {
+      "word": "lamp",
+      "ipa_us": "læmp",
+      "ipa_uk": "læmp",
+      "translation_ru": "лампа"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "aɪ",
       "examples": [
-        "weather",
-        "windy",
-        "water",
-        "warm",
-        "white"
+        "spices",
+        "sky",
+        "night",
+        "price"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Начните с «а» и плавно перейдите к «и»; звук скользящий, а не два отдельных."
+    },
+    {
+      "sound": "dark-l",
+      "examples": [
+        "small",
+        "smell",
+        "all",
+        "old"
+      ],
+      "tip_ru": "Задняя часть языка опущена, кончик языка касается дёсен; не смягчайте «l» как русское «ль»."
     },
     {
       "sound": "r",
       "examples": [
-        "Freya",
-        "green",
-        "degrees",
-        "northern"
+        "red",
+        "Rosa",
+        "roof",
+        "round"
       ],
-      "tip_ru": "Кончик языка поднят к нёбу, но не касается его и не вибрирует. Губы чуть округлены, звук не раскатистый."
+      "tip_ru": "Кончик языка поднят, но не касается нёба и не вибрирует; губы слегка округлены."
     },
     {
-      "sound": "ð",
+      "sound": "word-stress",
       "examples": [
-        "weather",
-        "northern",
-        "the",
-        "they"
+        "cinnamon",
+        "tagine",
+        "saffron",
+        "fountain"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги произносите короче и слабее."
     }
   ],
   "questions": [
     {
-      "question": "Where is Freya?",
-      "answer": "In Iceland.",
+      "question": "What is Rosa's job?",
+      "answer": "She is a cook.",
       "accepted_keywords": [
-        "iceland"
+        "cook",
+        "chef"
       ]
     },
     {
-      "question": "What is the weather like?",
-      "answer": "Cold and windy.",
+      "question": "Where does Rosa stay in Marrakech?",
+      "answer": "In a riad, a traditional house with a garden.",
       "accepted_keywords": [
-        "cold",
-        "windy"
+        "riad",
+        "house",
+        "garden"
       ]
     },
     {
-      "question": "What colour is the sky?",
-      "answer": "Green.",
+      "question": "What does Rosa learn to cook?",
+      "answer": "A tagine with chicken.",
       "accepted_keywords": [
-        "green"
+        "tagine",
+        "chicken"
       ]
     },
     {
-      "question": "How long does she stay in the water?",
-      "answer": "Two hours.",
+      "question": "What does Rosa buy on the last morning?",
+      "answer": "A small tagine pot and spices.",
       "accepted_keywords": [
-        "two",
-        "hours"
+        "tagine",
+        "pot",
+        "spices"
       ]
     }
-  ],
-  "word_count": 94
+  ]
 }

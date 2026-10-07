@@ -2,121 +2,145 @@
   "id": "a2-dialogue-01",
   "level": "A2",
   "genre": "dialogue",
-  "title_en": "At the Cafe",
-  "title_ru": "В кафе",
-  "description_ru": "Двое друзей заказывают завтрак и обсуждают планы на день. Полезные фразы для заказа еды.",
-  "text": "Waiter: Good morning! What would you like to drink?\nVera: I would like a large coffee with milk, please.\nVictor: And I want a glass of water and a cup of tea.\nWaiter: Certainly. Would you like something to eat?\nVera: Yes, I am very hungry. What is the soup today?\nWaiter: It is vegetable soup with fresh bread. It is better than the chicken soup.\nVera: Then I will have the vegetable soup, please.\nVictor: I think I will try the cheese sandwich. Is it big?\nWaiter: It is bigger than a plate, so be careful!\nVictor: Wonderful! After breakfast, we are going to walk to the river.\nVera: Good idea. The weather is warm, and the water looks lovely.\nWaiter: Here is your coffee, and your tea will be ready in two minutes.\nVictor: Thank you very much.",
-  "word_count": 127,
+  "title_en": "Planning a Surprise Party",
+  "title_ru": "Готовим сюрприз-вечеринку",
+  "description_ru": "Двое друзей планируют сюрприз ко дню рождения Анны: место, еду, музыку и стулья. Полезные фразы для планов и сравнений.",
+  "text": "Mia: Tom, I have a big problem. Anna's birthday is on Saturday, and I have no plan.\nTom: Relax, Mia. She is turning thirty, so we need something special. What did she say she wanted?\nMia: She said she wanted a quiet evening. But I think that means she wants a surprise.\nTom: That is a strange rule, but you know her better than I do. Where are we going to have the party?\nMia: My flat is too small. There are only two chairs in the living room.\nTom: Then use my garden. It is bigger than your flat, and the weather forecast says it will be sunny.\nMia: Perfect. How are we going to get her there without telling her?\nTom: I have an idea. I will ask her to help me move a table on Saturday afternoon.\nMia: Will she believe that? You never move anything.\nTom: That is why it is a good story. She will laugh and come anyway.\nMia: OK. Now, food. I am going to make a big chocolate cake. It is her favourite.\nTom: Please do not use your grandmother's recipe again. Last time the cake was harder than a stone.\nMia: That was not my fault. The oven was too hot. This time I am going to buy a cake at the bakery.\nTom: That is much safer. And I will make sandwiches and a big salad.\nMia: Tom, you cannot cook. Last month you burned a boiled egg.\nTom: It was a small accident. Honestly, I have improved. I watched twelve videos on the internet.\nMia: Fine. But I will check the sandwiches before anyone eats them.\nTom: Deal. How many people are coming?\nMia: I invited twenty-two. Seventeen said yes, and three did not answer.\nTom: Who are the three?\nMia: Her cousin Peter, her old teacher and the man from the bookshop.\nTom: The man from the bookshop? Why did you invite him?\nMia: Because Anna talks about him all the time. I think she likes him.\nTom: Mia, that is a dangerous idea. What if he brings his girlfriend?\nMia: Then we will smile and offer her a sandwich. Now, what about music?\nTom: I will bring my speaker and make a list of songs from the nineties.\nMia: Anna was born in the nineties, but she hates those songs.\nTom: Then I will choose songs from the last ten years. They are more modern, and everyone knows them.\nMia: Good. And decorations. I bought thirty balloons and a long banner.\nTom: What does the banner say?\nMia: It says \"Happy Birthday, Anna!\" in big gold letters. The shop assistant helped me choose the colour.\nTom: Gold is better than pink. Anna says that pink is for little children.\nMia: I know. By the way, I also bought a present. It is a small camera.\nTom: A camera? That is expensive. I only bought her a book.\nMia: Do not worry. We can write both our names on the card.\nTom: That is kind. Thank you. I will pay you half of the price.\nMia: Great. Now, let me check the list. Garden, cake, sandwiches, music, balloons, camera. What did I forget?\nTom: Chairs. Twenty people need more than two chairs.\nMia: You are right. Can your neighbour lend us some?\nTom: Mr Evans has fifteen folding chairs in his garage. I will ask him tomorrow.\nMia: Excellent. And please tell him it is a secret.\nTom: He talks a lot, so I will say it is a business meeting.\nMia: A business meeting with balloons? Nobody will believe you.\nTom: Then I will say it is a very strange meeting.\nMia: OK. Let us meet again on Friday and prepare everything. What time is good for you?\nTom: After work, at six o'clock. I will bring pizza.\nMia: Wonderful. Oh no, wait. I just got a message from Anna.\nTom: What does she say?\nMia: She says, \"Tom asked me to help him move a table on Saturday. Is it true?\"\nTom: What? How does she know already?\nMia: I do not know. Maybe you told her yesterday and forgot.\nTom: Oh. I think I did mention it at lunch. I am sorry.\nMia: It is not a problem. Please answer her right now.\nTom: What should I say?\nMia: Say that the table is very heavy and you need her strong arms.\nTom: She will love that. I will write it at once.\nMia: Good. Now we really must hurry. Saturday is only three days away.\nTom: I will stay calm. This party will be the best she ever had.\nMia: I hope so. Last year her party was a disaster, and it rained all day.\nTom: This year we have a garden, gold balloons and chairs from Mr Evans. What could go wrong?\nMia: Please do not say that. Every time you say it, something goes wrong.\nTom: You are too serious. Come on, give me the list. I will take care of the music.\nMia: Fine. And I will take care of the food, apart from the sandwiches.\nTom: You are very funny today. Do you want a coffee?\nMia: Yes, please. A large one, with extra sugar.\nTom: Of course. A planner like you needs energy.",
+  "word_count": 819,
   "vocabulary": [
     {
-      "word": "coffee",
-      "ipa_us": "ˈkɔfi",
-      "ipa_uk": "ˈkɒfi",
-      "translation_ru": "кофе"
+      "word": "surprise",
+      "ipa_us": "sərˈpraɪz",
+      "ipa_uk": "səˈpraɪz",
+      "translation_ru": "сюрприз"
     },
     {
-      "word": "water",
-      "ipa_us": "ˈwɔtər",
-      "ipa_uk": "ˈwɔːtə",
-      "translation_ru": "вода"
+      "word": "forecast",
+      "ipa_us": "ˈfɔːrkæst",
+      "ipa_uk": "ˈfɔːkɑːst",
+      "translation_ru": "прогноз"
     },
     {
-      "word": "hungry",
-      "ipa_us": "ˈhʌŋɡri",
-      "ipa_uk": "ˈhʌŋɡri",
-      "translation_ru": "голодный"
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     },
     {
-      "word": "vegetable",
-      "ipa_us": "ˈvedʒtəbəl",
-      "ipa_uk": "ˈvedʒtəbəl",
-      "translation_ru": "овощной"
+      "word": "balloons",
+      "ipa_us": "bəˈluːnz",
+      "ipa_uk": "bəˈluːnz",
+      "translation_ru": "воздушные шары"
     },
     {
-      "word": "sandwich",
-      "ipa_us": "ˈsænwɪtʃ",
-      "ipa_uk": "ˈsænwɪdʒ",
-      "translation_ru": "сэндвич"
+      "word": "banner",
+      "ipa_us": "ˈbænər",
+      "ipa_uk": "ˈbænə",
+      "translation_ru": "баннер, растяжка"
     },
     {
-      "word": "bigger",
-      "ipa_us": "ˈbɪɡər",
-      "ipa_uk": "ˈbɪɡə",
-      "translation_ru": "больше"
+      "word": "decorations",
+      "ipa_us": "ˌdɛkəˈreɪʃnz",
+      "ipa_uk": "ˌdekəˈreɪʃnz",
+      "translation_ru": "украшения"
     },
     {
-      "word": "careful",
-      "ipa_us": "ˈkerfəl",
-      "ipa_uk": "ˈkeəfəl",
-      "translation_ru": "осторожный"
+      "word": "invited",
+      "ipa_us": "ɪnˈvaɪtɪd",
+      "ipa_uk": "ɪnˈvaɪtɪd",
+      "translation_ru": "пригласил(и)"
     },
     {
-      "word": "wonderful",
-      "ipa_us": "ˈwʌndərfəl",
-      "ipa_uk": "ˈwʌndəfəl",
-      "translation_ru": "чудесный"
+      "word": "camera",
+      "ipa_us": "ˈkæmərə",
+      "ipa_uk": "ˈkæmərə",
+      "translation_ru": "фотоаппарат"
+    },
+    {
+      "word": "folding",
+      "ipa_us": "ˈfoʊldɪŋ",
+      "ipa_uk": "ˈfəʊldɪŋ",
+      "translation_ru": "складной"
+    },
+    {
+      "word": "accident",
+      "ipa_us": "ˈæksɪdənt",
+      "ipa_uk": "ˈæksɪdənt",
+      "translation_ru": "несчастный случай"
+    },
+    {
+      "word": "improved",
+      "ipa_us": "ɪmˈpruːvd",
+      "ipa_uk": "ɪmˈpruːvd",
+      "translation_ru": "улучшился"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "ŋ",
       "examples": [
-        "Victor",
-        "very",
-        "vegetable",
-        "lovely"
+        "something",
+        "evening",
+        "folding"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не округляйте губы, как для w."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте отчётливого «г» в конце."
     },
     {
-      "sound": "w",
+      "sound": "uː",
       "examples": [
-        "would",
-        "water",
-        "warm",
-        "walk",
-        "wonderful"
+        "balloons",
+        "food",
+        "too"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте; зубы не касаются губы, не «в»."
+      "tip_ru": "Долгий звук «у» с округлёнными губами; не делайте его коротким и не добавляйте «ю»."
     },
     {
       "sound": "θ",
       "examples": [
-        "Thank",
+        "thirty",
         "think",
-        "than"
+        "thank"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Кончик языка слегка между зубами, воздух проходит без голоса; не заменяйте на «с» или «ф»."
     }
   ],
   "questions": [
     {
-      "question": "What does Vera drink?",
-      "answer": "Coffee with milk.",
+      "question": "Whose birthday is on Saturday?",
+      "answer": "Anna's.",
       "accepted_keywords": [
-        "coffee"
+        "anna"
       ]
     },
     {
-      "question": "What soup is there today?",
-      "answer": "Vegetable soup.",
+      "question": "Where will they have the party?",
+      "answer": "In Tom's garden.",
       "accepted_keywords": [
-        "vegetable"
+        "garden",
+        "tom"
       ]
     },
     {
-      "question": "What does Victor want to eat?",
-      "answer": "A cheese sandwich.",
+      "question": "What will Mia buy instead of making a cake?",
+      "answer": "A cake from the bakery.",
       "accepted_keywords": [
-        "sandwich",
-        "cheese"
+        "bakery",
+        "buy"
       ]
     },
     {
-      "question": "Where are they going to walk?",
-      "answer": "To the river.",
+      "question": "What problem did Tom create?",
+      "answer": "He told Anna about moving a table, so she asked about it.",
       "accepted_keywords": [
-        "river"
+        "table",
+        "told",
+        "anna"
       ]
     }
   ]

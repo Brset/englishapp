@@ -2,130 +2,163 @@
   "id": "a1-news-04",
   "level": "A1",
   "genre": "news",
-  "title_en": "Free Bike Day in Lakeside",
-  "title_ru": "День бесплатных велосипедов",
-  "description_ru": "Городок предлагает велосипеды всем бесплатно на один день.",
-  "text": "Good news for Lakeside! This Saturday is Free Bike Day. The town gives bikes to everyone, and you pay nothing.\n\nThere are two hundred bikes in the main square. They are red, blue and yellow. You take a bike, put on a helmet and ride around the lake. The path is flat and six kilometres long.\n\n\"We want people to leave their cars at home,\" says Mayor Jane Hill. \"The air is cleaner, and bike rides are fun.\"\n\nThere is also a small party at the lake. There is music, hot dogs and juice for children. The weather is sunny, so bring your friends and family!",
-  "word_count": 106,
+  "title_en": "Molly's Bake Sale Builds a Playground",
+  "title_ru": "Выпечка Молли построит площадку",
+  "description_ru": "Вымышленная новость: школьница организует ярмарку выпечки, и деревня собирает рекордную сумму на новую детскую площадку.",
+  "text": "The small village of Greenhill has a new playground, and the story of how it happens is a happy one. Last Saturday, more than four hundred people come to a big bake sale in the village hall. They buy cakes, biscuits and bread, and in one day they give the village a record sum of money. It is nearly six thousand pounds. Now the old playground, which is broken and dangerous, will finally become a safe and beautiful place.\n\nThe idea starts with an eleven-year-old girl called Molly Baker. Last winter she falls from an old swing and hurts her arm. The doctor says that the playground is not safe, and the village council says that it has no money to fix it. Molly is not happy. She writes a letter to the head of the council and says, \"I think the children of Greenhill need a good place to play. Please help us.\" The council answers kindly, but they say that there is no money.\n\nSo Molly decides to find the money herself. She talks to her mother, who loves baking, and her grandmother, who bakes the best apple pie in the village. \"Why don't we sell cakes?\" she asks. Her mother says that it is a good idea. Soon the whole family is working in the kitchen. They make fifty small cakes, and they sell them at the school gate on Monday. In two hours they have forty-two pounds. It is a small start, but Molly is delighted.\n\nOther people hear about her plan. A local baker, Mr Joe Hill, offers to give bread and cakes for free. The school teacher, Miss Ruth Wells, asks the children to make posters. An old farmer called Mr Tom Gray brings two hundred eggs and a large bag of flour. Neighbours who never speak to one another are now meeting in the street and talking about recipes. \"I did not know that my next-door neighbour bakes,\" says Mrs Linda Park. \"Her chocolate cake is wonderful!\"\n\nOn Saturday morning, the village hall is full of the smell of fresh bread and sugar. There are more than one hundred cakes on the tables. There are apple pies, lemon cakes, carrot cakes and a very big chocolate cake in the shape of a swing. A line of people stands outside the door before nine o'clock. Some of them come from other villages, because the news is on the radio. A man from the next town drives forty minutes to buy a pie.\n\nBy lunchtime, nearly all the cakes are gone. The children run around with trays, and the older people sit at tables and drink tea. Somebody plays the guitar, and a few couples start to dance. At two o'clock the head of the council, Mrs Susan Reid, stands on a chair and counts the money with Molly. The room goes quiet. Then Mrs Reid shouts, \"Five thousand, nine hundred and eighty pounds!\" Everybody cheers, and Molly cries a little.\n\nThe council is so impressed that it promises to add another four thousand pounds. With the new money, the village can build a new playground with swings, a slide and a small climbing wall. There will also be a bench for parents and a small garden with flowers. Work starts next month, and the workers hope to finish by the summer. Molly will be the first to cut the ribbon on the opening day.\n\n\"I never think that so many people come,\" says Molly, with flour on her nose. \"I only want to fix one swing. Now we have a whole new park.\" She says that the best part of the day was seeing everybody together. Her grandmother is standing next to her and smiling proudly. \"My little girl is a clever one,\" she says. \"She starts with a cake, and now she changes the whole village.\"\n\nThe people of Greenhill already have a new plan. They want to hold a bake sale every year, and the money will go to another project for the village. Maybe next year it is a new roof for the church or a library for the children. But first, say the villagers, they want to see the children playing on the new swings. And Molly? She says that she is going to rest, and then she will start to think about her next idea.",
+  "word_count": 730,
   "vocabulary": [
     {
-      "word": "bikes",
-      "ipa_us": "baɪks",
-      "ipa_uk": "baɪks",
-      "translation_ru": "велосипеды"
+      "word": "playground",
+      "ipa_us": "ˈpleɪˌɡraʊnd",
+      "ipa_uk": "ˈpleɪɡraʊnd",
+      "translation_ru": "детская площадка"
     },
     {
-      "word": "square",
-      "ipa_us": "skwɛr",
-      "ipa_uk": "skweə",
-      "translation_ru": "площадь"
+      "word": "swing",
+      "ipa_us": "swɪŋ",
+      "ipa_uk": "swɪŋ",
+      "translation_ru": "качели"
     },
     {
-      "word": "helmet",
-      "ipa_us": "ˈhɛlmɪt",
-      "ipa_uk": "ˈhelmɪt",
-      "translation_ru": "шлем"
+      "word": "council",
+      "ipa_us": "ˈkaʊnsəl",
+      "ipa_uk": "ˈkaʊnsəl",
+      "translation_ru": "совет"
     },
     {
-      "word": "ride",
-      "ipa_us": "raɪd",
-      "ipa_uk": "raɪd",
-      "translation_ru": "ехать"
+      "word": "recipes",
+      "ipa_us": "ˈrɛsəpiz",
+      "ipa_uk": "ˈresəpiz",
+      "translation_ru": "рецепты"
     },
     {
-      "word": "lake",
-      "ipa_us": "leɪk",
-      "ipa_uk": "leɪk",
-      "translation_ru": "озеро"
+      "word": "flour",
+      "ipa_us": "ˈflaʊər",
+      "ipa_uk": "ˈflaʊə",
+      "translation_ru": "мука"
     },
     {
-      "word": "path",
-      "ipa_us": "pæθ",
-      "ipa_uk": "pɑːθ",
-      "translation_ru": "дорожка"
+      "word": "delighted",
+      "ipa_us": "dɪˈlaɪtɪd",
+      "ipa_uk": "dɪˈlaɪtɪd",
+      "translation_ru": "в восторге"
     },
     {
-      "word": "mayor",
-      "ipa_us": "ˈmeɪər",
-      "ipa_uk": "meə",
-      "translation_ru": "мэр"
+      "word": "ribbon",
+      "ipa_us": "ˈrɪbən",
+      "ipa_uk": "ˈrɪbən",
+      "translation_ru": "лента"
     },
     {
-      "word": "juice",
-      "ipa_us": "dʒus",
-      "ipa_uk": "dʒuːs",
-      "translation_ru": "сок"
+      "word": "climbing",
+      "ipa_us": "ˈklaɪmɪŋ",
+      "ipa_uk": "ˈklaɪmɪŋ",
+      "translation_ru": "лазание"
+    },
+    {
+      "word": "dangerous",
+      "ipa_us": "ˈdeɪndʒərəs",
+      "ipa_uk": "ˈdeɪndʒərəs",
+      "translation_ru": "опасный"
+    },
+    {
+      "word": "village",
+      "ipa_us": "ˈvɪlɪdʒ",
+      "ipa_uk": "ˈvɪlɪdʒ",
+      "translation_ru": "деревня"
+    },
+    {
+      "word": "impressed",
+      "ipa_us": "ɪmˈprɛst",
+      "ipa_uk": "ɪmˈprest",
+      "translation_ru": "впечатлённый"
+    },
+    {
+      "word": "bench",
+      "ipa_us": "bɛntʃ",
+      "ipa_uk": "bentʃ",
+      "translation_ru": "скамейка"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "eɪ",
       "examples": [
-        "path",
-        "nothing"
+        "playground",
+        "bake",
+        "grandmother"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух; не заменяйте на «с» или «ф»."
+      "tip_ru": "Скольжение от «э» к «и»; не обрывайте на «э»."
     },
     {
-      "sound": "r",
+      "sound": "aɪ",
       "examples": [
-        "red",
-        "ride",
-        "around"
+        "climbing",
+        "delighted",
+        "time"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Скольжение от «а» к «и»; второй элемент короткий."
     },
     {
-      "sound": "æ",
+      "sound": "ŋ",
       "examples": [
-        "Saturday",
-        "path",
-        "flat"
+        "swing",
+        "climbing",
+        "morning"
       ],
-      "tip_ru": "Откройте рот шире, чем для «э»: звук между «э» и «а», как в слове cat."
+      "tip_ru": "Спинка языка к нёбу, звук идёт через нос; не добавляйте «г» в конце."
     },
     {
-      "sound": "dark-l",
+      "sound": "v",
       "examples": [
-        "lake",
-        "helmet",
-        "Hill"
+        "village",
+        "very",
+        "every"
       ],
-      "tip_ru": "В конце слога язык прижат к бугоркам за верхними зубами, звук глубокий и твёрдый."
+      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не «ф» и не «у»."
     }
   ],
   "questions": [
     {
-      "question": "What day is Free Bike Day?",
-      "answer": "Saturday.",
+      "question": "Why does Molly want a new playground?",
+      "answer": "She falls from an old swing and hurts her arm, and the playground is not safe.",
       "accepted_keywords": [
-        "saturday"
+        "swing",
+        "hurts",
+        "arm",
+        "safe",
+        "dangerous"
       ]
     },
     {
-      "question": "How many bikes are in the square?",
-      "answer": "Two hundred.",
-      "accepted_keywords": [
-        "two",
-        "200",
-        "hundred"
-      ]
-    },
-    {
-      "question": "How long is the path?",
-      "answer": "Six kilometres.",
+      "question": "How much money does the bake sale make?",
+      "answer": "Nearly six thousand pounds.",
       "accepted_keywords": [
         "six",
-        "6"
+        "thousand",
+        "5980",
+        "5,980"
       ]
     },
     {
-      "question": "Who says people should leave their cars at home?",
-      "answer": "Mayor Jane Hill.",
+      "question": "What does the council promise?",
+      "answer": "To add another four thousand pounds.",
       "accepted_keywords": [
-        "jane",
-        "hill",
-        "mayor"
+        "four",
+        "thousand",
+        "add"
+      ]
+    },
+    {
+      "question": "What will the new playground have?",
+      "answer": "Swings, a slide, a climbing wall, a bench and a small garden.",
+      "accepted_keywords": [
+        "swings",
+        "slide",
+        "climbing",
+        "bench",
+        "garden"
       ]
     }
   ]

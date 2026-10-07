@@ -2,109 +2,166 @@
   "id": "b1-travel-04",
   "level": "B1",
   "genre": "travel",
-  "title_en": "Cycling in the Netherlands",
-  "title_ru": "На велосипеде по Нидерландам",
-  "description_ru": "Почему Нидерланды удобны для велопутешествий и что нужно знать новичку.",
-  "text": "The Netherlands is a country where bicycles are more popular than cars. There are about twenty-three million bicycles for around seventeen million people, so there are more bikes than people. If you have never cycled abroad, this is the perfect place to start.\n\nThe land is almost completely flat, so you do not need to be an athlete. There are also thousands of kilometres of separate cycle paths, with their own traffic lights and signs. Even in big cities like Amsterdam, you can cross the whole centre without meeting a single car.\n\nLast May, my brother and I spent a week cycling from Amsterdam to Rotterdam. We rented bikes for ten euros a day and followed the signs with numbers. On the way, we passed fields of tulips, old windmills and quiet villages. Every afternoon, we stopped at a small café for coffee and a slice of apple pie.\n\nHowever, the wind can be a problem. When it blows against you, even a flat road feels like a mountain. Also, remember that cyclists have priority, so be ready to ring your bell and watch the traffic. Finally, lock your bike every time you leave it, because bicycle theft is common.\n\nIf you decide to try it, you will probably fall in love with this simple, healthy way to travel.",
-  "word_count": 220,
+  "title_en": "Iceland's Natural Wonders",
+  "title_ru": "Природные чудеса Исландии",
+  "description_ru": "Поездка по Исландии: Золотое кольцо, водопады, чёрные пляжи, ледники и горячие источники.",
+  "text": "Iceland is a small country with a big personality. It lies just below the Arctic Circle, with only about four hundred thousand inhabitants, and yet it contains volcanoes, glaciers, waterfalls, hot springs and black beaches, all within a few hours of each other. The island sits on the boundary of two tectonic plates, which are slowly moving apart, and this is the secret of its dramatic landscape. During a week-long road trip last summer, I saw more natural wonders than I have in the rest of my life put together.\n\nMy trip began with the Golden Circle, the classic route from Reykjavik. The first stop was Thingvellir National Park, where you can literally walk between two continents. A deep valley marks the place where the North American and Eurasian plates are separating by about two centimetres each year. It is also historically important, because Iceland's parliament first met here in the year 930, which makes it one of the oldest in the world. I stood on the rocky ridge where the first lawmakers once gathered, and I tried to imagine them arguing in the wind.\n\nNext came Geysir, the hot spring that gave its name to all geysers. The original one is rarely active now, but its neighbour, Strokkur, erupts every five to ten minutes, shooting a column of boiling water about twenty metres into the air. Everyone stands in a circle with their phones ready, and the moment the water begins to bubble, there is a collective gasp. I missed the first eruption because I was looking at my camera, and I learned a lesson: put the phone down and watch with your own eyes.\n\nOnly a few minutes by car is Gullfoss, a powerful waterfall that drops in two stages into a narrow canyon. The spray rises like smoke, and on sunny days there are rainbows. In the early twentieth century, a foreign company wanted to use the waterfall to produce electricity. The farmer's daughter, Sigridur Tomasdottir, protested so strongly that the plan was cancelled, and today she is remembered as the first environmental activist in Iceland. Because of her, you can still hear Gullfoss from a hundred metres away.\n\nAlong the south coast, we drove past Seljalandsfoss, a waterfall which you can walk behind, if you do not mind getting wet, and Skogafoss, whose wide curtain of water is about sixty metres high. Then we reached Reynisfjara, a beach of black volcanic sand with tall basalt columns that look like organ pipes. The sea is spectacular here, but also dangerous. Sudden waves, called sneaker waves, can reach far up the beach, and several visitors have been swept away. The signs say clearly: never turn your back on the ocean.\n\nThe south of Iceland also has glaciers, which cover roughly ten percent of the country. Vatnajokull is the largest in Europe by volume. I joined a guided walk on the ice, with crampons on my boots and a helmet on my head. Our guide showed us deep blue crevasses and explained that the colour comes from the ice absorbing red light. Afterwards, we took a boat on a lagoon full of floating icebergs, some as large as houses, which have broken off the glacier and slowly drift toward the sea.\n\nAfter so much cold, nothing felt better than a hot spring. The Blue Lagoon is the most famous, but it is expensive and crowded, so I followed the advice of a local and went to a small geothermal pool in the countryside. The water was thirty-nine degrees, and the air was five. I sat for an hour with a hot drink in my hand, watching steam drift across the valley. Icelanders have a saying that nothing is truly bad if you can sit in a hot pool afterwards, and I have started to agree.\n\nOne evening, near the village of Vik, we stayed in a farmhouse where the owner served us fish that her husband had caught that morning. She told us that Icelanders believe in hidden people, called huldufolk, who live inside rocks. Roads have sometimes been built around large stones, just in case. She laughed when I asked if she believed it, and then she said, \"Perhaps not, but why take the risk?\"\n\nA few practical tips for visitors. The weather changes quickly, so dress in layers and carry a waterproof jacket, even in July. In summer, the sun barely sets, which is wonderful for travelling but can make it hard to sleep, so bring an eye mask. In winter, the days are short, but you have a chance to see the northern lights. Petrol and food are expensive, so many travellers camp or buy groceries. Above all, respect the land. Stay on marked paths, because the moss grows slowly and takes decades to recover.",
+  "word_count": 800,
   "vocabulary": [
     {
-      "word": "bicycles",
-      "ipa_us": "ˈbaɪsɪkəlz",
-      "ipa_uk": "ˈbaɪsɪkəlz",
-      "translation_ru": "велосипеды"
+      "word": "tectonic",
+      "ipa_us": "tɛkˈtɑːnɪk",
+      "ipa_uk": "tekˈtɒnɪk",
+      "translation_ru": "тектонический"
     },
     {
-      "word": "abroad",
-      "ipa_us": "əˈbrɔːd",
-      "ipa_uk": "əˈbrɔːd",
-      "translation_ru": "за границей"
+      "word": "inhabitants",
+      "ipa_us": "ɪnˈhæbɪtənts",
+      "ipa_uk": "ɪnˈhæbɪtənts",
+      "translation_ru": "жители"
     },
     {
-      "word": "athlete",
-      "ipa_us": "ˈæθliːt",
-      "ipa_uk": "ˈæθliːt",
-      "translation_ru": "спортсмен"
+      "word": "waterfall",
+      "ipa_us": "ˈwɔːtərfɔːl",
+      "ipa_uk": "ˈwɔːtəfɔːl",
+      "translation_ru": "водопад"
     },
     {
-      "word": "tulips",
-      "ipa_us": "ˈtuːlɪps",
-      "ipa_uk": "ˈtjuːlɪps",
-      "translation_ru": "тюльпаны"
+      "word": "eruption",
+      "ipa_us": "ɪˈrʌpʃən",
+      "ipa_uk": "ɪˈrʌpʃən",
+      "translation_ru": "извержение"
     },
     {
-      "word": "windmills",
-      "ipa_us": "ˈwɪndmɪlz",
-      "ipa_uk": "ˈwɪndmɪlz",
-      "translation_ru": "ветряные мельницы"
+      "word": "canyon",
+      "ipa_us": "ˈkænjən",
+      "ipa_uk": "ˈkænjən",
+      "translation_ru": "каньон"
     },
     {
-      "word": "priority",
-      "ipa_us": "praɪˈɔːrəti",
-      "ipa_uk": "praɪˈɒrəti",
-      "translation_ru": "приоритет, право проезда"
+      "word": "activist",
+      "ipa_us": "ˈæktɪvɪst",
+      "ipa_uk": "ˈæktɪvɪst",
+      "translation_ru": "активист"
     },
     {
-      "word": "theft",
-      "ipa_us": "θeft",
-      "ipa_uk": "θeft",
-      "translation_ru": "кража"
+      "word": "volcanic",
+      "ipa_us": "vɑːlˈkænɪk",
+      "ipa_uk": "vɒlˈkænɪk",
+      "translation_ru": "вулканический"
+    },
+    {
+      "word": "crevasses",
+      "ipa_us": "krɪˈvæsɪz",
+      "ipa_uk": "krɪˈvæsɪz",
+      "translation_ru": "трещины во льду"
+    },
+    {
+      "word": "lagoon",
+      "ipa_us": "ləˈɡuːn",
+      "ipa_uk": "ləˈɡuːn",
+      "translation_ru": "лагуна"
+    },
+    {
+      "word": "geothermal",
+      "ipa_us": "ˌdʒiːoʊˈθɜːrməl",
+      "ipa_uk": "ˌdʒiːəʊˈθɜːməl",
+      "translation_ru": "геотермальный"
+    },
+    {
+      "word": "waterproof",
+      "ipa_us": "ˈwɔːtərpruːf",
+      "ipa_uk": "ˈwɔːtəpruːf",
+      "translation_ru": "водонепроницаемый"
+    },
+    {
+      "word": "recover",
+      "ipa_us": "rɪˈkʌvər",
+      "ipa_uk": "rɪˈkʌvə",
+      "translation_ru": "восстановиться"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "v",
       "examples": [
-        "athlete",
-        "theft",
-        "thousands"
+        "volcanoes",
+        "every",
+        "visitors",
+        "valley"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «ф»."
+      "tip_ru": "Верхние зубы касаются нижней губы, звук звонкий; не превращайте его в «в» с округлением губ."
     },
     {
       "sound": "w",
       "examples": [
-        "with",
+        "water",
+        "waterfall",
         "wind",
-        "windmills",
-        "week",
-        "watch"
+        "weather"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "ð",
+      "sound": "ʌ",
       "examples": [
-        "the",
-        "other",
-        "brother"
+        "country",
+        "just",
+        "summer",
+        "other"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но с голосом: горло вибрирует. Не говорите «з» или «д»."
+      "tip_ru": "Короткий звук, похожий на русское «а» в безударной позиции; рот открыт умеренно."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "tectonic",
+        "eruption",
+        "volcanic",
+        "recover"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Which country is the text about?",
-      "answer": "The Netherlands.",
+      "question": "Why is Thingvellir important?",
+      "answer": "Two tectonic plates are separating there, and Iceland's parliament first met there.",
       "accepted_keywords": [
-        "netherlands",
-        "holland"
+        "plates",
+        "parliament",
+        "tectonic",
+        "930"
       ]
     },
     {
-      "question": "How much did the bikes cost per day?",
-      "answer": "Ten euros.",
+      "question": "How often does Strokkur erupt?",
+      "answer": "Every five to ten minutes.",
       "accepted_keywords": [
+        "five",
         "ten",
-        "10",
-        "euros"
+        "minutes"
       ]
     },
     {
-      "question": "What can be a problem for cyclists?",
-      "answer": "The wind.",
+      "question": "Who saved Gullfoss from a power project?",
+      "answer": "Sigridur Tomasdottir, a farmer's daughter.",
       "accepted_keywords": [
-        "wind"
+        "sigridur",
+        "tomasdottir",
+        "farmer",
+        "daughter"
+      ]
+    },
+    {
+      "question": "What danger is there at Reynisfjara beach?",
+      "answer": "Sudden sneaker waves can sweep visitors away.",
+      "accepted_keywords": [
+        "waves",
+        "sneaker",
+        "sudden",
+        "sea",
+        "ocean"
       ]
     }
   ]

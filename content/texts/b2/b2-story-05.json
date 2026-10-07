@@ -2,143 +2,165 @@
   "id": "b2-story-05",
   "level": "B2",
   "genre": "story",
-  "title_en": "The Last Bus Home",
-  "title_ru": "Последний автобус домой",
-  "description_ru": "Поздним вечером студентка едет домой на последнем автобусе и знакомится с необычным водителем.",
-  "text": "It was almost midnight when Nina left the university library. Her exam was in the morning, her head was full of formulas, and the street outside was empty. She hurried to the stop, because the last bus to Elm Road was due at ten past twelve, and after that there would be nothing until dawn.\n\nThe bus arrived exactly on time. Its windows glowed yellow in the dark, and the driver, an elderly man with a silver moustache, greeted her as if she were an old friend.\n\n\"Long day?\" he asked.\n\n\"Very long,\" Nina sighed, dropping into a seat near the front. \"I have been studying since breakfast.\"\n\nThe driver nodded. He told her that he had worked on this route for thirty-one years and had seen thousands of tired students. \"Every one of them thinks the exam will be a disaster,\" he said, \"and almost every one of them passes.\"\n\nNina smiled for the first time that evening. As the bus rolled through the sleeping town, he pointed out things she had never noticed in all her years of travelling: a clock tower with a crooked hand, a bakery where the ovens were switched on at three in the morning, and a tree that was said to be older than the city itself.\n\nAt one stop, a young man got on carrying a huge cardboard box. The driver asked him politely what was inside. The man admitted that it was a birthday cake for his sister, and that he had been told to deliver it before midnight. He was already twelve minutes late.\n\n\"Then we shall take a small detour,\" the driver announced. \"Hold on tight, everybody.\"\n\nFor the next ten minutes the old bus went faster than Nina had thought possible. The cake was delivered with two minutes to spare, and the whole bus cheered when the sister waved from her doorway.\n\nWhen Nina finally reached her stop, the driver wished her luck. She slept soundly that night. The following afternoon, she wrote an excellent exam, and she was sure the driver had been right.",
-  "word_count": 348,
+  "title_en": "The Election on Skerry Island",
+  "title_ru": "Выборы на острове Скерри",
+  "description_ru": "Весёлая история о крошечном острове, где мэра выбирали голосованием, закончившимся вничью, и о неожиданном решении проблемы.",
+  "text": "Skerry Island has a population of one hundred and twelve people, three hundred sheep and a single traffic light, which has not worked since 2009. Nobody minds. The ferry comes twice a week, the shop sells everything from fishing hooks to birthday cards, and the mayor, according to a tradition older than anyone can remember, is chosen every four years by a public vote in the village hall.\n\nThis year, however, there were two candidates, and neither would give way. The first was Brenda Walsh, a retired headteacher who ran the island's library and had very firm opinions about punctuation. The second was Alfie Doyle, a fisherman with a booming laugh, who promised that, if elected, he would finally repair the road to the lighthouse. Brenda promised a new roof for the school. People liked them both, which was the whole problem.\n\nOn the day of the vote, the hall was packed. The ballot papers were folded and dropped into a biscuit tin, which had served as the ballot box since 1974, and the counting was carried out by the island's only doctor and the vicar, who were generally trusted to be impartial. The counting took twenty minutes. When it was over, the doctor cleared his throat and announced that the result was fifty-six votes for Brenda and fifty-six for Alfie. There was a stunned silence, and then everybody began talking at once.\n\nMeanwhile, rumours were spreading. It was said that Brenda had bribed the voters with lemon cake, and that Alfie had promised free fish to anyone who supported him. Both stories were untrue, although the lemon cake was real, and so were the fish. The post office clerk, who knew everything that happened on the island, said that it had been the most exciting campaign since a goat had eaten the mayor's hat in 1987. People had argued in the shop, in the pub and even in the church porch, and several friendships were reported to have cooled.\n\nThe rules, it turned out, said nothing about a tie. The vicar suggested a second vote, but it was pointed out that three voters had already left to catch the ferry. Somebody proposed tossing a coin, which Brenda rejected on the grounds that important decisions should not be left to chance. Alfie, for his part, objected to a debate, because he said that Brenda would win it by using long words. For an hour the argument went round in circles, and the tea went cold.\n\nIt was a ten-year-old girl called Maisie who finally broke the deadlock. She stood on a chair at the back of the hall and said, in a voice that was surprisingly clear, that the island had two jobs to fill, not one. It needed somebody to talk to the government, and somebody to talk to the sheep. Brenda was clearly better at the first, and Alfie, whom the sheep followed everywhere, was clearly better at the second. Why not make them both mayor?\n\nFor a moment nobody said a word. Then the doctor, who was a man of science, observed that nothing in the rules forbade it. The vicar, who was a man of compromise, said it sounded like a miracle. Brenda frowned and said she would need to see the plan in writing. Alfie laughed so loudly that the windows shook, and held out his hand. After a pause that lasted about as long as a deep breath, Brenda took it.\n\nNews of the agreement travelled quickly. By the time the ferry left that evening, a rumour was already circulating on the mainland that Skerry Island had invented a new form of government, and a reporter from the regional radio station telephoned the post office to ask whether it was true. \"We have not invented anything,\" the clerk replied. \"We just could not decide.\"\n\nIt was agreed that the two mayors would divide the work according to their talents. Brenda would deal with letters, budgets and meetings on the mainland, while Alfie would be in charge of roads, boats and anything that had four legs. They would share the mayor's office, which was in fact a cupboard behind the post office, and they would share the salary, which was exactly fifty pounds a month. The ballot tin was solemnly returned to the shelf, where it still sits, dented and proud.\n\nWithin a year, the double mayoralty had become something of a legend. Journalists came on the ferry to interview them, and a television crew filmed Alfie mending the road with a borrowed tractor while Brenda corrected the spelling on the crew's microphones. The school got its roof, partly because of a charity that read about the story, and the lighthouse road was finished in time for the summer.\n\nThe traffic light, however, remains broken. At the next meeting, someone proposed repairing it, and the two mayors, for the first time, voted differently. Brenda said it was a waste of money. Alfie said it was a matter of pride. The result was fifty-six to fifty-six, and, as everybody on Skerry Island will tell you, that is exactly why they have two mayors. Nobody has ever been so well governed, or so confused, and nobody would have it any other way.",
+  "word_count": 878,
   "vocabulary": [
     {
-      "word": "formulas",
-      "ipa_us": "ˈfɔrmjələz",
-      "ipa_uk": "ˈfɔːmjʊləz",
-      "translation_ru": "формулы"
+      "word": "population",
+      "ipa_us": "ˌpɑːpjuˈleɪʃn",
+      "ipa_uk": "ˌpɒpjuˈleɪʃn",
+      "translation_ru": "население"
     },
     {
-      "word": "dawn",
-      "ipa_us": "dɔn",
-      "ipa_uk": "dɔːn",
-      "translation_ru": "рассвет"
+      "word": "candidate",
+      "ipa_us": "ˈkændɪdeɪt",
+      "ipa_uk": "ˈkændɪdət",
+      "translation_ru": "кандидат"
     },
     {
-      "word": "greeted",
-      "ipa_us": "ˈɡritɪd",
-      "ipa_uk": "ˈɡriːtɪd",
-      "translation_ru": "приветствовал"
+      "word": "punctuation",
+      "ipa_us": "ˌpʌŋktʃuˈeɪʃn",
+      "ipa_uk": "ˌpʌŋktʃuˈeɪʃn",
+      "translation_ru": "пунктуация"
     },
     {
-      "word": "elderly",
-      "ipa_us": "ˈɛldərli",
-      "ipa_uk": "ˈeldəli",
-      "translation_ru": "пожилой"
+      "word": "ballot",
+      "ipa_us": "ˈbælət",
+      "ipa_uk": "ˈbælət",
+      "translation_ru": "бюллетень"
     },
     {
-      "word": "disaster",
-      "ipa_us": "dɪˈzæstər",
-      "ipa_uk": "dɪˈzɑːstə",
-      "translation_ru": "катастрофа"
+      "word": "impartial",
+      "ipa_us": "ɪmˈpɑːrʃl",
+      "ipa_uk": "ɪmˈpɑːʃl",
+      "translation_ru": "беспристрастный"
     },
     {
-      "word": "crooked",
-      "ipa_us": "ˈkrʊkɪd",
-      "ipa_uk": "ˈkrʊkɪd",
-      "translation_ru": "кривой"
+      "word": "stunned",
+      "ipa_us": "stʌnd",
+      "ipa_uk": "stʌnd",
+      "translation_ru": "ошеломлённый"
     },
     {
-      "word": "politely",
-      "ipa_us": "pəˈlaɪtli",
-      "ipa_uk": "pəˈlaɪtli",
-      "translation_ru": "вежливо"
+      "word": "deadlock",
+      "ipa_us": "ˈdɛdlɑːk",
+      "ipa_uk": "ˈdedlɒk",
+      "translation_ru": "тупик"
     },
     {
-      "word": "deliver",
-      "ipa_us": "dɪˈlɪvər",
-      "ipa_uk": "dɪˈlɪvə",
-      "translation_ru": "доставить"
+      "word": "compromise",
+      "ipa_us": "ˈkɑːmprəmaɪz",
+      "ipa_uk": "ˈkɒmprəmaɪz",
+      "translation_ru": "компромисс"
     },
     {
-      "word": "detour",
-      "ipa_us": "ˈdiˌtʊr",
-      "ipa_uk": "ˈdiːtʊə",
-      "translation_ru": "объезд"
+      "word": "forbade",
+      "ipa_us": "fərˈbæd",
+      "ipa_uk": "fəˈbæd",
+      "translation_ru": "запрещало"
     },
     {
-      "word": "soundly",
-      "ipa_us": "ˈsaʊndli",
-      "ipa_uk": "ˈsaʊndli",
-      "translation_ru": "крепко (спать)"
+      "word": "salary",
+      "ipa_us": "ˈsæləri",
+      "ipa_uk": "ˈsæləri",
+      "translation_ru": "зарплата"
+    },
+    {
+      "word": "solemnly",
+      "ipa_us": "ˈsɑːləmli",
+      "ipa_uk": "ˈsɒləmli",
+      "translation_ru": "торжественно"
+    },
+    {
+      "word": "charity",
+      "ipa_us": "ˈtʃærəti",
+      "ipa_uk": "ˈtʃærəti",
+      "translation_ru": "благотворительная организация"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "r",
-      "examples": [
-        "road",
-        "driver",
-        "route"
-      ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
-    },
-    {
-      "sound": "w",
-      "examples": [
-        "was",
-        "would",
-        "windows"
-      ],
-      "tip_ru": "Округлите губы вперёд, как для «у», и быстро раскройте их; зубы не касаются губы, иначе получится «в»."
-    },
-    {
-      "sound": "v",
-      "examples": [
-        "very",
-        "driver",
-        "deliver"
-      ],
-      "tip_ru": "Верхние зубы касаются нижней губы, голос включён; не оглушайте звук в конце слова."
-    },
-    {
       "sound": "ŋ",
       "examples": [
-        "morning",
-        "studying",
-        "travelling"
+        "nothing",
+        "talking",
+        "something",
+        "everything"
       ],
-      "tip_ru": "Спинку языка прижмите к мягкому нёбу, звук носовой; не добавляйте «г» в конце: morning, а не «морнинг-г»."
+      "tip_ru": "Спинка языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "æ",
+      "examples": [
+        "candidate",
+        "that",
+        "had",
+        "laughed"
+      ],
+      "tip_ru": "Рот открыт шире, чем для «э»; звук между «а» и «э»."
+    },
+    {
+      "sound": "eɪ",
+      "examples": [
+        "mayor",
+        "papers",
+        "day",
+        "debate"
+      ],
+      "tip_ru": "Двигайтесь от «э» к «и» плавно; это дифтонг, не короткий звук."
+    },
+    {
+      "sound": "final-voiced",
+      "examples": [
+        "had",
+        "hand",
+        "road",
+        "voted"
+      ],
+      "tip_ru": "Не оглушайте конец слова: «had» заканчивается звонким «d», а не «т»."
     }
   ],
   "questions": [
     {
-      "question": "What time was the last bus due?",
-      "answer": "At ten past twelve.",
+      "question": "How many votes did each candidate get?",
+      "answer": "Fifty-six each.",
       "accepted_keywords": [
-        "twelve",
-        "midnight"
+        "fifty",
+        "56",
+        "fifty-six",
+        "tie",
+        "equal"
       ]
     },
     {
-      "question": "How long had the driver worked on the route?",
-      "answer": "Thirty-one years.",
+      "question": "Who solved the problem?",
+      "answer": "A ten-year-old girl called Maisie.",
       "accepted_keywords": [
-        "thirty",
-        "31"
+        "maisie",
+        "girl",
+        "child"
       ]
     },
     {
-      "question": "What was inside the cardboard box?",
-      "answer": "A birthday cake.",
+      "question": "How did the two mayors divide the work?",
+      "answer": "Brenda handled letters and meetings, Alfie roads, boats and animals.",
       "accepted_keywords": [
-        "cake",
-        "birthday"
+        "letters",
+        "roads",
+        "boats",
+        "animals",
+        "meetings"
       ]
     },
     {
-      "question": "How did Nina do in her exam?",
-      "answer": "She wrote an excellent exam.",
+      "question": "What do the mayors still disagree about?",
+      "answer": "Whether to repair the traffic light.",
       "accepted_keywords": [
-        "excellent",
-        "well",
-        "good"
+        "traffic",
+        "light"
       ]
     }
   ]

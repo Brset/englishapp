@@ -2,106 +2,164 @@
   "id": "b1-story-02",
   "level": "B1",
   "genre": "story",
-  "title_en": "The Last Train",
-  "title_ru": "Последний поезд",
-  "description_ru": "Опоздав на последний поезд, Томас встречает на платформе уличного музыканта.",
-  "text": "Thomas has missed many trains in his life, but he had never missed the last one before. It was almost midnight, and the station was nearly empty. He sat down on a cold bench and looked at his phone. The battery was dead.\n\n\"Rough night?\" said a voice. A young woman with a violin case was sitting at the other end of the platform. Her name was Vera, and she played in the street every evening. \"The next train leaves at five in the morning,\" she told him. \"If you want, you can stay here with me. It's safer than walking home.\"\n\nThomas was tired and hungry, but he agreed. Vera opened her case, took out the violin and began to play a slow, quiet song. The music filled the empty station. A guard who was passing by stopped to listen, and then he smiled and gave them two cups of hot coffee.\n\nThey talked for hours. Vera had travelled to eleven countries with her violin, and she had never stayed in one place for more than a year. Thomas had never left his town.\n\nWhen the first train finally arrived, the sky was turning pink. \"If I ever find myself in your city again,\" Vera said, \"I will play for you.\" Thomas laughed. For the first time, he wanted to buy a ticket to somewhere new.",
-  "word_count": 227,
+  "title_en": "The Language Student",
+  "title_ru": "Ученик языка",
+  "description_ru": "Тома, всегда плохо учивший языки, начинает изучать итальянский ради бабушки своей девушки.",
+  "text": "Tomas had never been good at languages. At school he had struggled with German, failed his French exam twice, and decided that his brain simply did not work that way. So nobody was more surprised than he was when, at the age of thirty-four, he signed up for an evening course in Italian. His girlfriend, Sofia, had told him that her family came from a village near Naples, and that her grandmother, who spoke no English at all, was looking forward to meeting him in the summer.\n\nThe first lesson was a disaster. The teacher, a cheerful woman called Signora Bellini, spoke only Italian from the very first minute. Tomas understood nothing except his own name. While the other students nodded and smiled, he stared at the whiteboard and felt like a man trying to read a map in the dark. On the way home he told Sofia that he was going to quit. \"If you stop now, you will never meet my grandmother properly,\" she replied. \"And she makes the best lasagne in the world.\"\n\nThat was enough to keep him going, at least for another week. He bought a notebook and wrote ten new words every day, sticking little yellow notes on the objects around his flat. Soon the fridge was called il frigorifero, the window was la finestra, and the cat, who was not impressed, was il gatto. He listened to Italian songs on the bus and tried to sing along, although he mostly made up the words. His colleagues at the office began to ask why he was humming so much.\n\nBy the end of the second month, something had changed. Tomas could order a coffee, ask for directions and say that he was thirty-four years old. He still made terrible mistakes, and Signora Bellini corrected him gently every time. \"Not 'I am thirty-four years,' Tomas, but 'I have thirty-four years,'\" she explained. \"In Italian we have our age, we do not are it.\" Tomas wrote this down and underlined it twice. He had discovered that mistakes were not a sign of failure. They were simply a map of the places he had not yet visited.\n\nThe real test came in July, when he and Sofia took a flight to Naples. At the airport her uncle Giuseppe was waiting, a large man with a moustache and a voice like a trumpet. He spoke so quickly that Tomas caught only one word in ten. He smiled politely and answered \"Sì, sì,\" which turned out to be a bad idea, because Giuseppe had asked whether he wanted to sleep in the garage. Sofia laughed until she cried and rescued him just in time.\n\nThe grandmother, Nonna Rosa, was very small and very serious. She looked at Tomas for a long time and then said something in a dialect that even Sofia found difficult. Tomas did not understand a word of it. Instead of pretending, he took a deep breath and said, in his best Italian, \"Mi dispiace, non ho capito. Può parlare più lentamente?\" which means, \"I am sorry, I did not understand. Can you speak more slowly?\" Nonna Rosa's face broke into a wide smile. She repeated the sentence slowly, three times, and then patted his cheek.\n\nOver the next ten days he learned more than he had in two months of classes. He argued about football with the neighbours, bought tomatoes at the market, and helped Nonna Rosa make fresh pasta, although he was not allowed to touch the sauce. When he said something wrong, people laughed, but never unkindly, and they always told him the right way to say it. He began to see that fluency was not about perfect grammar. It was about being brave enough to open your mouth.\n\nOn the last evening, the whole family gathered for dinner, and Nonna Rosa asked him to say a few words. His heart was beating fast, but he stood up, held his glass and spoke for almost two minutes. He thanked everyone, he apologised for his mistakes, and he promised that he would come back next year. When he finished, there was silence, and then the whole table began to applaud. Nonna Rosa wiped her eyes and told him, in slow, clear Italian, that he had been a very good student.\n\nBack at home, Tomas still has the yellow notes on his fridge. Signora Bellini has put him in the intermediate class, and he has started reading a short novel. He tells everyone who will listen that anyone can learn a language, as long as they are willing to sound a little silly. And every Sunday he calls Nonna Rosa, who now corrects his grammar over the phone.",
+  "word_count": 787,
   "vocabulary": [
     {
-      "word": "platform",
-      "ipa_us": "ˈplætfɔːrm",
-      "ipa_uk": "ˈplætfɔːm",
-      "translation_ru": "платформа"
+      "word": "struggled",
+      "ipa_us": "ˈstrʌɡəld",
+      "ipa_uk": "ˈstrʌɡəld",
+      "translation_ru": "с трудом справлялся"
     },
     {
-      "word": "battery",
-      "ipa_us": "ˈbætɚi",
-      "ipa_uk": "ˈbætəri",
-      "translation_ru": "батарея, аккумулятор"
+      "word": "disaster",
+      "ipa_us": "dɪˈzæstər",
+      "ipa_uk": "dɪˈzɑːstə",
+      "translation_ru": "катастрофа"
     },
     {
-      "word": "violin",
-      "ipa_us": "ˌvaɪəˈlɪn",
-      "ipa_uk": "ˌvaɪəˈlɪn",
-      "translation_ru": "скрипка"
+      "word": "whiteboard",
+      "ipa_us": "ˈwaɪtbɔːrd",
+      "ipa_uk": "ˈwaɪtbɔːd",
+      "translation_ru": "маркерная доска"
     },
     {
-      "word": "guard",
-      "ipa_us": "ɡɑːrd",
-      "ipa_uk": "ɡɑːd",
-      "translation_ru": "охранник, проводник"
+      "word": "intermediate",
+      "ipa_us": "ˌɪntərˈmiːdiət",
+      "ipa_uk": "ˌɪntəˈmiːdiət",
+      "translation_ru": "средний уровень"
     },
     {
-      "word": "safer",
-      "ipa_us": "ˈseɪfɚ",
-      "ipa_uk": "ˈseɪfə",
-      "translation_ru": "безопаснее"
+      "word": "fluency",
+      "ipa_us": "ˈfluːənsi",
+      "ipa_uk": "ˈfluːənsi",
+      "translation_ru": "беглость"
     },
     {
-      "word": "agreed",
-      "ipa_us": "əˈɡriːd",
-      "ipa_uk": "əˈɡriːd",
-      "translation_ru": "согласился"
+      "word": "brave",
+      "ipa_us": "breɪv",
+      "ipa_uk": "breɪv",
+      "translation_ru": "смелый"
     },
     {
-      "word": "ticket",
-      "ipa_us": "ˈtɪkɪt",
-      "ipa_uk": "ˈtɪkɪt",
-      "translation_ru": "билет"
+      "word": "applaud",
+      "ipa_us": "əˈplɔːd",
+      "ipa_uk": "əˈplɔːd",
+      "translation_ru": "аплодировать"
+    },
+    {
+      "word": "dialect",
+      "ipa_us": "ˈdaɪəlɛkt",
+      "ipa_uk": "ˈdaɪəlekt",
+      "translation_ru": "диалект"
+    },
+    {
+      "word": "moustache",
+      "ipa_us": "ˈmʌstæʃ",
+      "ipa_uk": "məˈstɑːʃ",
+      "translation_ru": "усы"
+    },
+    {
+      "word": "grammar",
+      "ipa_us": "ˈɡræmər",
+      "ipa_uk": "ˈɡræmə",
+      "translation_ru": "грамматика"
+    },
+    {
+      "word": "apologised",
+      "ipa_us": "əˈpɑːlədʒaɪzd",
+      "ipa_uk": "əˈpɒlədʒaɪzd",
+      "translation_ru": "извинился"
+    },
+    {
+      "word": "rescued",
+      "ipa_us": "ˈrɛskjuːd",
+      "ipa_uk": "ˈreskjuːd",
+      "translation_ru": "спас"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
+      "sound": "æ",
       "examples": [
-        "Vera",
-        "violin",
-        "every",
-        "eleven"
+        "grammar",
+        "lasagne",
+        "wrote",
+        "mistakes"
       ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
+      "tip_ru": "Широко откройте рот, язык низко; звук между «а» и «э», не заменяйте на «э»."
     },
     {
-      "sound": "w",
+      "sound": "aɪ",
       "examples": [
-        "was",
-        "with",
-        "walking"
+        "time",
+        "like",
+        "smile",
+        "why"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Начните с «а» и скользите к «и», как в русском «ай»."
     },
     {
-      "sound": "iː",
+      "sound": "ŋ",
       "examples": [
-        "street",
+        "humming",
+        "nothing",
         "evening",
-        "agreed"
+        "something"
       ],
-      "tip_ru": "Долгий звук: растяните губы в улыбке и держите его дольше обычного русского «и»."
+      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "intermediate",
+        "disaster",
+        "apologised",
+        "dialect"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "Why could Thomas not use his phone?",
-      "answer": "The battery was dead.",
+      "question": "Why did Tomas start learning Italian?",
+      "answer": "His girlfriend's grandmother spoke no English and wanted to meet him.",
       "accepted_keywords": [
-        "battery",
-        "dead"
+        "sofia",
+        "grandmother",
+        "girlfriend",
+        "nonna"
       ]
     },
     {
-      "question": "What does Vera play?",
-      "answer": "The violin.",
+      "question": "How did Tomas learn new words at home?",
+      "answer": "He stuck yellow notes on objects in his flat.",
       "accepted_keywords": [
-        "violin"
+        "notes",
+        "yellow",
+        "stuck",
+        "fridge"
       ]
     },
     {
-      "question": "What did the guard give them?",
-      "answer": "Two cups of hot coffee.",
+      "question": "What mistake did Tomas make at the airport?",
+      "answer": "He said yes to a question about sleeping in the garage.",
       "accepted_keywords": [
-        "coffee"
+        "garage",
+        "yes",
+        "sleep"
+      ]
+    },
+    {
+      "question": "What did Tomas say to Nonna Rosa that made her smile?",
+      "answer": "He politely said he did not understand and asked her to speak more slowly.",
+      "accepted_keywords": [
+        "slowly",
+        "understand",
+        "sorry"
       ]
     }
   ]

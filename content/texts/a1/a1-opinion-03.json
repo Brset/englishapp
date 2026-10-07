@@ -2,129 +2,159 @@
   "id": "a1-opinion-03",
   "level": "A1",
   "genre": "opinion",
-  "title_en": "Summer Is the Best Season",
-  "title_ru": "Лето — лучшее время года",
-  "description_ru": "Почему автору больше всего нравится лето.",
-  "text": "My favourite season is summer. I think it is the best time of the year.\n\nIn summer the days are long and the weather is warm. The sun is bright, and I wear a T-shirt and sandals. I do not need a heavy coat. That is wonderful!\n\nI also love summer food. I eat fresh strawberries, cold watermelon and sweet ice cream. Every weekend, my family goes to the river. We swim, play games and have a picnic.\n\nSome people say summer is too hot. I understand, but I like it. When it is very hot, I drink cold water and sit under a tree. Summer makes me happy.",
-  "word_count": 110,
+  "title_en": "Everyone Should Learn to Cook",
+  "title_ru": "Каждому стоит научиться готовить",
+  "description_ru": "Аргументы в пользу домашней кухни: деньги, здоровье, отдых и общение за общим столом.",
+  "text": "I believe that everybody should learn to cook. I do not mean that you must be a chef or make fancy dishes with ten steps. I mean simple food that you make with your own hands, like soup, eggs, pasta or a good salad. In my opinion, cooking is one of the most useful things a person can learn. Let me tell you why.\n\nFirst, cooking saves money. When I was a student, I ate in cafes and bought ready meals every day. At the end of the month I had no money. Then my friend showed me how to make a big pot of soup. It cost me three euros, and I ate it for four days! Now I buy vegetables, rice and chicken, and I make my own lunch. I save about one hundred euros every month. That is a lot for a young person. With that money I bought a good bicycle, and I do not feel guilty about it.\n\nSecond, home food is healthier. When you cook, you know what is in your plate. You put in the vegetables, and you decide how much salt and oil to use. Ready meals and fast food often have too much sugar, salt and fat. I do not say that you can never eat a burger. I eat one sometimes, and I love it. But I think that a home meal must be your normal food, and the burger is a small treat.\n\nThird, cooking is a good way to relax. After a long day at work, I put on some music and cut an onion. It sounds strange, but it helps me. My hands are busy and my head is quiet. The kitchen smells good. I stir the pot, and I forget my problems for half an hour. Many of my friends do not believe me, but they all say the same after they try it. \"It is fun!\" they tell me.\n\nFourth, food brings people together. I love to cook for my family and friends. On Sunday my sister and her kids come to my flat, and we make pizza. The children put the cheese on top, and they get flour on their noses. We laugh a lot. Then we all sit at one table and eat together. These moments are more important to me than any expensive restaurant. A shared meal says, \"I care about you.\"\n\nSome people say, \"I cannot cook. I always burn everything.\" I understand this, because I burned a lot of food too. My first pasta was like glue. My first cake was black outside and raw inside. My cat did not want it. But I did not stop. I learned a little bit every week. The secret is to start with easy dishes and to follow a good recipe. You can find thousands of free videos online. Watch, try, and do not be afraid of mistakes. Every mistake is a lesson.\n\nOther people say, \"I have no time.\" I know the feeling. But many good meals take only fifteen minutes. You can make an omelette in five minutes. You can boil pasta while you cut a tomato. On Sunday you can cook a big meal and keep it in the fridge for the week. Planning helps a lot. Make a short list before you go to the shop, and you will not forget anything.\n\nCooking is also a skill for life. One day you will live alone, or you will travel, or you will have your own family. If you can cook, you are free. You do not need to wait for somebody to give you dinner. You can feed yourself and others. I think that parents should teach their children to cook when they are young. A ten-year-old can already make a sandwich and wash vegetables.\n\nSo my advice is simple. This week, choose one easy recipe. Go to the shop and buy the things you need. Cook the meal slowly and enjoy the smell. Invite a friend to eat with you, and ask what he or she thinks. I am sure that you will feel proud. And if the food is not perfect, do not worry. You can try again tomorrow. Good cooks are made in the kitchen, not born there.",
+  "word_count": 714,
   "vocabulary": [
     {
-      "word": "season",
-      "ipa_us": "ˈsizən",
-      "ipa_uk": "ˈsiːzən",
-      "translation_ru": "время года"
+      "word": "chef",
+      "ipa_us": "ʃɛf",
+      "ipa_uk": "ʃef",
+      "translation_ru": "повар, шеф-повар"
     },
     {
-      "word": "weather",
-      "ipa_us": "ˈwɛðər",
-      "ipa_uk": "ˈweðə",
-      "translation_ru": "погода"
+      "word": "recipe",
+      "ipa_us": "ˈrɛsəpi",
+      "ipa_uk": "ˈresəpi",
+      "translation_ru": "рецепт"
     },
     {
-      "word": "bright",
-      "ipa_us": "braɪt",
-      "ipa_uk": "braɪt",
-      "translation_ru": "яркий"
+      "word": "sugar",
+      "ipa_us": "ˈʃʊɡər",
+      "ipa_uk": "ˈʃʊɡə",
+      "translation_ru": "сахар"
     },
     {
-      "word": "sandals",
-      "ipa_us": "ˈsændəlz",
-      "ipa_uk": "ˈsændəlz",
-      "translation_ru": "сандалии"
+      "word": "onion",
+      "ipa_us": "ˈʌnjən",
+      "ipa_uk": "ˈʌnjən",
+      "translation_ru": "лук"
     },
     {
-      "word": "heavy",
-      "ipa_us": "ˈhɛvi",
-      "ipa_uk": "ˈhevi",
-      "translation_ru": "тяжёлый"
+      "word": "flour",
+      "ipa_us": "ˈflaʊər",
+      "ipa_uk": "ˈflaʊə",
+      "translation_ru": "мука"
     },
     {
-      "word": "strawberries",
-      "ipa_us": "ˈstrɔˌbɛriz",
-      "ipa_uk": "ˈstrɔːbəriz",
-      "translation_ru": "клубника"
+      "word": "omelette",
+      "ipa_us": "ˈɑmlət",
+      "ipa_uk": "ˈɒmlɪt",
+      "translation_ru": "омлет"
     },
     {
-      "word": "swim",
-      "ipa_us": "swɪm",
-      "ipa_uk": "swɪm",
-      "translation_ru": "плавать"
+      "word": "fridge",
+      "ipa_us": "frɪdʒ",
+      "ipa_uk": "frɪdʒ",
+      "translation_ru": "холодильник"
     },
     {
-      "word": "picnic",
-      "ipa_us": "ˈpɪknɪk",
-      "ipa_uk": "ˈpɪknɪk",
-      "translation_ru": "пикник"
+      "word": "glue",
+      "ipa_us": "ɡlu",
+      "ipa_uk": "ɡluː",
+      "translation_ru": "клей"
+    },
+    {
+      "word": "raw",
+      "ipa_us": "rɔ",
+      "ipa_uk": "rɔː",
+      "translation_ru": "сырой"
+    },
+    {
+      "word": "mistakes",
+      "ipa_us": "mɪˈsteɪks",
+      "ipa_uk": "mɪˈsteɪks",
+      "translation_ru": "ошибки"
+    },
+    {
+      "word": "salad",
+      "ipa_us": "ˈsæləd",
+      "ipa_uk": "ˈsæləd",
+      "translation_ru": "салат"
+    },
+    {
+      "word": "burger",
+      "ipa_us": "ˈbɜrɡər",
+      "ipa_uk": "ˈbɜːɡə",
+      "translation_ru": "бургер"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "w",
+      "sound": "ʌ",
       "examples": [
-        "weather",
-        "warm",
-        "watermelon"
+        "onion",
+        "some",
+        "much"
       ],
-      "tip_ru": "Округлите и вытяните губы вперёд, как для «у», потом быстро раскройте; не произносите «в»."
+      "tip_ru": "Краткий звук между «а» и «э», рот открыт слабо; не «о»."
     },
     {
-      "sound": "v",
+      "sound": "ɔɪ",
       "examples": [
-        "every",
-        "heavy",
-        "river"
+        "oil",
+        "enjoy",
+        "boil"
       ],
-      "tip_ru": "Верхние зубы касаются нижней губы, добавьте голос; не путайте с «w» и не оглушайте в «ф»."
+      "tip_ru": "Скольжение от «о» к «и»."
     },
     {
-      "sound": "ð",
+      "sound": "aʊ",
       "examples": [
-        "weather",
-        "the"
+        "flour",
+        "about",
+        "out"
       ],
-      "tip_ru": "Язык между зубами, как в θ, но с голосом; не говорите «з» или «д»."
+      "tip_ru": "Скольжение от «а» к краткому «у»."
     },
     {
-      "sound": "r",
+      "sound": "ɜː",
       "examples": [
-        "river",
-        "strawberries",
-        "bright"
+        "burger",
+        "learn",
+        "first"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы слегка округлены; не раскатывайте «р»."
+      "tip_ru": "Долгий звук между «ё» и «э», губы не округляйте."
     }
   ],
   "questions": [
     {
-      "question": "What is the writer's favourite season?",
-      "answer": "Summer.",
+      "question": "How does cooking save money?",
+      "answer": "A big pot of soup costs little and the writer eats it for four days.",
       "accepted_keywords": [
-        "summer"
+        "soup",
+        "cheap",
+        "save",
+        "pot"
       ]
     },
     {
-      "question": "What does the writer wear in summer?",
-      "answer": "A T-shirt and sandals.",
+      "question": "Why is home food healthier?",
+      "answer": "You know what is in your plate and you decide how much salt and oil to use.",
       "accepted_keywords": [
-        "shirt",
-        "t-shirt",
-        "sandals"
+        "salt",
+        "oil",
+        "know",
+        "plate"
       ]
     },
     {
-      "question": "Where does the family go every weekend?",
-      "answer": "To the river.",
+      "question": "What happened to the writer's first cake?",
+      "answer": "It was black outside and raw inside.",
       "accepted_keywords": [
-        "river"
+        "black",
+        "raw"
       ]
     },
     {
-      "question": "What does the writer do when it is very hot?",
-      "answer": "Drinks cold water and sits under a tree.",
+      "question": "What does the writer advise to do this week?",
+      "answer": "Choose one easy recipe and cook it.",
       "accepted_keywords": [
-        "water",
-        "tree",
-        "drink"
+        "recipe",
+        "easy",
+        "cook"
       ]
     }
   ]

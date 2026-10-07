@@ -2,106 +2,169 @@
   "id": "b1-travel-01",
   "level": "B1",
   "genre": "travel",
-  "title_en": "A Weekend in Edinburgh",
-  "title_ru": "Выходные в Эдинбурге",
-  "description_ru": "Маршрут по Эдинбургу на два дня: замок, Королевская миля и вид с холма.",
-  "text": "Edinburgh is one of the most beautiful cities in Britain, and two days are enough to see its best parts. I have visited it twice, and I would happily go again.\n\nStart your first morning at Edinburgh Castle. It stands on top of an extinct volcano, and from its walls you can see the whole city. If you arrive early, you will avoid the long queues. After that, walk down the Royal Mile, a famous street that connects the castle with the royal palace. It is full of small shops, old pubs and street musicians. Try a bowl of Scottish porridge or some warm shortbread in one of the cafés.\n\nOn the second day, climb Arthur's Seat. This hill is the remains of another ancient volcano, and the walk to the top takes about an hour. The path can be steep, so wear strong shoes. The view is worth the effort. On a clear day, you can see the sea, the bridges and the green hills in the distance.\n\nIn the afternoon, you could visit the National Museum, which is free. It has everything from dinosaur bones to modern technology.\n\nThe weather in Scotland changes quickly, so take a raincoat even if the sky is blue. Also, be careful with the cobbled streets, because they can be slippery. If you follow this plan, you will go home with wonderful memories.",
-  "word_count": 231,
+  "title_en": "Exploring Tokyo's Hidden Neighbourhoods",
+  "title_ru": "Исследование скрытых районов Токио",
+  "description_ru": "Четыре тихих района Токио, где можно увидеть другую сторону города, и практические советы для путешественников.",
+  "text": "When most people think of Tokyo, they imagine glowing screens, crowded crossings and skyscrapers that seem to touch the clouds. All of that is real, and it is worth seeing. But I have visited Tokyo three times now, and the moments I remember best happened far from the famous crossings, in quiet neighbourhoods where life moves at the speed of a bicycle. If you have already seen the main sights, or if you simply prefer calm streets to crowds, here are four places that have shown me another side of the city.\n\nLet us begin with Yanaka, in the north-east. Much of Tokyo was destroyed by earthquakes and bombing in the twentieth century, but Yanaka escaped most of the damage, and it still has the feeling of an older Japan. Narrow lanes run between low wooden houses, and tiny temples hide behind garden walls. The area is also known for its cats. You will see them sleeping on roofs, on cars and in shop doorways, and there are cat-shaped cakes and souvenirs everywhere. At the end of the main shopping street, Yanaka Ginza, I bought a freshly fried croquette for about a hundred yen, and I ate it standing in the sun with an old man who told me, in slow English, about his grandson.\n\nNext is Shimokitazawa, which many locals call \"Shimokita.\" It is a short train ride from Shibuya, but it feels like a different country. The streets are too narrow for cars, and they are lined with second-hand clothes shops, small theatres, record stores and cafés with only six seats. Young musicians and actors have lived here for decades, because the rents were once cheap, and the area still has a creative, slightly untidy energy. I spent an entire afternoon looking for a vintage jacket, and I did not find one, but I did discover a curry restaurant where the cook has been making the same recipe for twenty years.\n\nMy third suggestion is Kagurazaka, which is perhaps the most surprising. It is an old geisha district, with stone-paved lanes that curve up a hill and hidden restaurants behind wooden gates. Because many French people have lived nearby, the area also has bakeries and bistros, so you can eat a croissant in the morning and a plate of traditional Japanese food in the evening. If you walk quietly in the late afternoon, you may hear the sound of a shamisen from a window. I once lost my way there for half an hour, and I was happier lost than I have ever been with a map.\n\nThe fourth place is Kiyosumi-Shirakawa, in the east of the city, which has become famous for coffee. Several years ago, a coffee roaster from California opened a branch in an old warehouse, and many small cafés followed. Today you can walk from one to another along a quiet canal, tasting different beans. Close by is a beautiful garden with a pond, rocks and large stones that were collected from all over Japan. Entry costs only a few hundred yen, and on weekday mornings it is almost empty. I sat on a bench for an hour and watched turtles climb onto the rocks.\n\nGetting around is easier than you might expect. Tokyo's train and metro system is enormous, but the signs are in English, and the stations are numbered and colour-coded. I recommend buying a rechargeable card, which you can use on every train, on buses and even in vending machines. Trains are extremely punctual, so if you arrive at a platform two minutes late, you have probably missed yours. Avoid the rush hours between half past seven and nine in the morning, unless you are curious to experience a carriage so full that the staff gently push people inside.\n\nThere are a few customs worth knowing before you go. Remove your shoes when you enter a home, a temple building or some restaurants, and look for a small step or a row of slippers as a clue. Do not eat or drink while walking in most places, as it is considered impolite, and keep your voice low on trains. Tipping is not expected, and trying to tip can actually cause confusion. Finally, carry a small bag for your rubbish, because public bins are surprisingly rare, even though the streets are spotless.\n\nOf course, food is a major reason to visit. Try a convenience-store egg sandwich at least once, because it is better than it sounds. Look for small restaurants with a handful of seats and a menu that is mainly pictures, and be brave enough to point at something. If you have time, join a cooking class and learn how to prepare miso soup. By the end of my last trip, I had eaten ramen for breakfast, which my Japanese friends considered completely normal.\n\nIf I could give only one piece of advice, it would be this: leave some hours in your schedule with no plan at all. The most rewarding discoveries in Tokyo are often accidental, like a bakery found around a corner or a conversation with a stranger beside a shrine. The city is huge, with fourteen million people, yet its best treasures are small. Go slowly, walk a lot, and let the city surprise you.",
+  "word_count": 886,
   "vocabulary": [
     {
-      "word": "extinct",
-      "ipa_us": "ɪkˈstɪŋkt",
-      "ipa_uk": "ɪkˈstɪŋkt",
-      "translation_ru": "потухший"
+      "word": "neighbourhood",
+      "ipa_us": "ˈneɪbərhʊd",
+      "ipa_uk": "ˈneɪbəhʊd",
+      "translation_ru": "район"
     },
     {
-      "word": "volcano",
-      "ipa_us": "vɑːlˈkeɪnoʊ",
-      "ipa_uk": "vɒlˈkeɪnəʊ",
-      "translation_ru": "вулкан"
+      "word": "souvenirs",
+      "ipa_us": "ˌsuːvəˈnɪrz",
+      "ipa_uk": "ˌsuːvəˈnɪəz",
+      "translation_ru": "сувениры"
     },
     {
-      "word": "queues",
-      "ipa_us": "kjuːz",
-      "ipa_uk": "kjuːz",
-      "translation_ru": "очереди"
+      "word": "croquette",
+      "ipa_us": "kroʊˈkɛt",
+      "ipa_uk": "krəʊˈket",
+      "translation_ru": "крокета"
     },
     {
-      "word": "porridge",
-      "ipa_us": "ˈpɔːrɪdʒ",
-      "ipa_uk": "ˈpɒrɪdʒ",
-      "translation_ru": "овсяная каша"
+      "word": "vintage",
+      "ipa_us": "ˈvɪntɪdʒ",
+      "ipa_uk": "ˈvɪntɪdʒ",
+      "translation_ru": "винтажный"
     },
     {
-      "word": "steep",
-      "ipa_us": "stiːp",
-      "ipa_uk": "stiːp",
-      "translation_ru": "крутой"
+      "word": "district",
+      "ipa_us": "ˈdɪstrɪkt",
+      "ipa_uk": "ˈdɪstrɪkt",
+      "translation_ru": "район, округ"
     },
     {
-      "word": "distance",
-      "ipa_us": "ˈdɪstəns",
-      "ipa_uk": "ˈdɪstəns",
-      "translation_ru": "даль"
+      "word": "roaster",
+      "ipa_us": "ˈroʊstər",
+      "ipa_uk": "ˈrəʊstə",
+      "translation_ru": "обжарщик"
     },
     {
-      "word": "slippery",
-      "ipa_us": "ˈslɪpɚi",
-      "ipa_uk": "ˈslɪpəri",
-      "translation_ru": "скользкий"
+      "word": "canal",
+      "ipa_us": "kəˈnæl",
+      "ipa_uk": "kəˈnæl",
+      "translation_ru": "канал"
+    },
+    {
+      "word": "punctual",
+      "ipa_us": "ˈpʌŋktʃuəl",
+      "ipa_uk": "ˈpʌŋktʃuəl",
+      "translation_ru": "пунктуальный"
+    },
+    {
+      "word": "impolite",
+      "ipa_us": "ˌɪmpəˈlaɪt",
+      "ipa_uk": "ˌɪmpəˈlaɪt",
+      "translation_ru": "невежливый"
+    },
+    {
+      "word": "spotless",
+      "ipa_us": "ˈspɑːtləs",
+      "ipa_uk": "ˈspɒtləs",
+      "translation_ru": "безупречно чистый"
+    },
+    {
+      "word": "convenience",
+      "ipa_us": "kənˈviːniəns",
+      "ipa_uk": "kənˈviːniəns",
+      "translation_ru": "удобство"
+    },
+    {
+      "word": "rewarding",
+      "ipa_us": "rɪˈwɔːrdɪŋ",
+      "ipa_uk": "rɪˈwɔːdɪŋ",
+      "translation_ru": "приносящий удовлетворение"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "v",
-      "examples": [
-        "visited",
-        "volcano",
-        "view",
-        "have"
-      ],
-      "tip_ru": "Верхние зубы слегка касаются нижней губы, звук звонкий; не оглушайте его в «ф»."
-    },
-    {
       "sound": "w",
       "examples": [
+        "wooden",
+        "where",
         "walk",
-        "wear",
-        "weather",
-        "wonderful"
+        "with"
       ],
-      "tip_ru": "Округлите губы в трубочку и быстро раздвиньте их; зубы не касаются нижней губы, иначе получится «в»."
+      "tip_ru": "Округлите губы, как для «у», и резко раскройте; нижняя губа не касается зубов."
     },
     {
-      "sound": "ŋ",
+      "sound": "ɪ",
       "examples": [
-        "morning",
-        "everything"
+        "vintage",
+        "district",
+        "with",
+        "visited"
       ],
-      "tip_ru": "Задняя часть языка касается мягкого нёба, звук идёт через нос; не добавляйте «г» в конце."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
+    },
+    {
+      "sound": "iː",
+      "examples": [
+        "street",
+        "streets",
+        "feeling",
+        "speed"
+      ],
+      "tip_ru": "Долгий «и», губы растянуты в улыбке; держите звук дольше, чем русское «и»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "neighbourhood",
+        "souvenirs",
+        "punctual",
+        "convenience"
+      ],
+      "tip_ru": "Выделяйте ударный слог длиннее и громче, остальные слоги редуцируйте."
     }
   ],
   "questions": [
     {
-      "question": "What does Edinburgh Castle stand on?",
-      "answer": "An extinct volcano.",
+      "question": "Why is Yanaka special?",
+      "answer": "It escaped most of the wartime damage and still feels like older Japan.",
       "accepted_keywords": [
-        "volcano"
+        "old",
+        "older",
+        "escaped",
+        "cats",
+        "wooden"
       ]
     },
     {
-      "question": "How long does the walk up Arthur's Seat take?",
-      "answer": "About an hour.",
+      "question": "What is Shimokitazawa known for?",
+      "answer": "Second-hand clothes shops, small theatres, record stores and cafés.",
       "accepted_keywords": [
-        "hour"
+        "clothes",
+        "theatres",
+        "records",
+        "vintage",
+        "cafés",
+        "cafes"
       ]
     },
     {
-      "question": "Which museum is free?",
-      "answer": "The National Museum.",
+      "question": "What advice is given about trains?",
+      "answer": "Avoid rush hours and buy a rechargeable card.",
       "accepted_keywords": [
-        "national",
-        "museum"
+        "card",
+        "rush",
+        "avoid",
+        "punctual"
+      ]
+    },
+    {
+      "question": "What does the author recommend leaving in your schedule?",
+      "answer": "Some hours with no plan at all.",
+      "accepted_keywords": [
+        "hours",
+        "plan",
+        "time",
+        "free"
       ]
     }
   ]

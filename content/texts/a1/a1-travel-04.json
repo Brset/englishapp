@@ -2,120 +2,164 @@
   "id": "a1-travel-04",
   "level": "A1",
   "genre": "travel",
-  "title_en": "First Time in Tokyo",
-  "title_ru": "Первый раз в Токио",
-  "description_ru": "Кен знакомится с Токио: автоматы с едой, тихие поезда и лапша.",
-  "text": "Ken is in Tokyo for the first time. Everything is new and exciting. In the street, he sees machines that sell hot coffee, cold drinks and even umbrellas. At the station, thousands of people walk quickly but quietly. Nobody talks on the train.\n\nKen is hungry, so he goes into a small restaurant. The chef gives him a bowl of hot noodles. Ken does not know how to use chopsticks. A kind woman shows him. \"Like this,\" she says. Ken tries again, and he smiles. The noodles are delicious!",
+  "title_en": "A Week in Egypt",
+  "title_ru": "Неделя в Египте",
+  "description_ru": "Две подруги из Берлина едут в Каир: пирамиды Гизы, верблюды, музей и лодка по Нилу.",
+  "text": "My name is Hana, and I am a student of history in Berlin. All my life, I dream about Egypt, and this winter, my dream comes true. My friend Pia and I fly to Cairo for one week. When we step out of the plane, the air is warm and dry. A driver holds a sign with our names, and in half an hour we are in the middle of a big, noisy, exciting city.\n\nCairo is one of the biggest cities in Africa. About twenty million people live here and in the area around it. The streets are full of cars, bikes and small yellow taxis. Everybody uses the horn all the time, but nobody seems angry. The smell of food is in the air: bread, spices and sweet tea. Our driver, a cheerful man called Ahmed, says, \"Welcome to Cairo. Here the day never sleeps.\"\n\nOn the second morning, we go to see the most famous place in Egypt, the Pyramids of Giza. We see them first from far away, and they look small and gold in the haze. As we come near, they grow bigger and bigger. The largest one is called the Great Pyramid. It is almost one hundred and fifty metres tall. About four thousand five hundred years ago, thousands of workers build it for a king, called Khufu. It is made of more than two million stone blocks. Each block weighs as much as a small car.\n\nBefore we go inside, Ahmed gives us some good advice. \"Drink a lot of water,\" he says. \"The sun is very strong, even in winter. And do not buy anything from the first man who talks to you.\" Pia and I laugh, but we follow his advice. We have water bottles, hats and sunglasses. Everybody around us has the same things, and we look like a big group of tourists, all ready for a desert war.\n\nOur guide tells us how the pyramid works. It is a tomb for the king. The Egyptians believe that the king lives after death, so they put food, jewels and furniture in the tomb. We climb into a small, narrow tunnel and walk bent over to the middle of the pyramid. It is hot and dark, and the air is heavy. In the middle there is an empty room with a big stone box. Pia whispers, \"Imagine, this is the oldest of the Seven Wonders, and it is still here.\"\n\nOutside, a camel man says, \"Ride a camel, miss?\" Pia says yes at once. I am a little afraid. A camel is very tall, and when it stands up, I almost fall off. But soon I feel comfortable, and we walk slowly through the sand. The camel's name is Michael Jackson, says the boy who leads us. We laugh so hard that we nearly fall again. From the top of the camel, the pyramids look wonderful in the sunset, and the sand is red.\n\nThe next day, we go to the Egyptian Museum. We see the gold mask of the young king Tutankhamun. It is over three thousand years old, and it still shines. We see mummies, too. The Egyptians make a mummy to keep a body safe forever. They remove the insides, dry the body with salt and wrap it in long strips of cloth. Pia does not like it and goes outside, but I stand for an hour and look. I think about the people who live and love so long ago.\n\nOn the fifth day, we take a boat on the river Nile. It is the longest river in the world, and without it, there is no Egypt. Along its banks, the land is green with palm trees and fields. A few kilometres away, there is only yellow desert. Our boat is a small wooden sailboat called a felucca. The captain makes us hot tea with mint. The wind is soft, and the water is golden in the evening light. Children on the bank wave to us and shout, \"Hello! Welcome to Egypt!\"\n\nOn the last night, we eat dinner on a roof near the market. We have rice, lamb and a sweet cake with honey. Pia says, \"I want to come again next year.\" I look at the stars over the old city and agree. Egypt is a land with a very long memory, and in just seven days, it opens a small door for us into the past.",
+  "word_count": 742,
   "vocabulary": [
     {
-      "word": "machines",
-      "ipa_us": "məˈʃiːnz",
-      "ipa_uk": "məˈʃiːnz",
-      "translation_ru": "автоматы, машины"
+      "word": "pyramids",
+      "ipa_us": "ˈpɪrəmɪdz",
+      "ipa_uk": "ˈpɪrəmɪdz",
+      "translation_ru": "пирамиды"
     },
     {
-      "word": "thousands",
-      "ipa_us": "ˈθaʊzndz",
-      "ipa_uk": "ˈθaʊzndz",
-      "translation_ru": "тысячи"
+      "word": "tomb",
+      "ipa_us": "tuːm",
+      "ipa_uk": "tuːm",
+      "translation_ru": "гробница"
     },
     {
-      "word": "quietly",
-      "ipa_us": "ˈkwaɪətli",
-      "ipa_uk": "ˈkwaɪətli",
-      "translation_ru": "тихо"
+      "word": "camel",
+      "ipa_us": "ˈkæml",
+      "ipa_uk": "ˈkæml",
+      "translation_ru": "верблюд"
     },
     {
-      "word": "hungry",
-      "ipa_us": "ˈhʌŋɡri",
-      "ipa_uk": "ˈhʌŋɡri",
-      "translation_ru": "голодный"
+      "word": "mummies",
+      "ipa_us": "ˈmʌmiz",
+      "ipa_uk": "ˈmʌmiz",
+      "translation_ru": "мумии"
     },
     {
-      "word": "chef",
-      "ipa_us": "ʃef",
-      "ipa_uk": "ʃef",
-      "translation_ru": "повар"
+      "word": "museum",
+      "ipa_us": "mjuˈziːəm",
+      "ipa_uk": "mjuˈziːəm",
+      "translation_ru": "музей"
     },
     {
-      "word": "noodles",
-      "ipa_us": "ˈnuːdlz",
-      "ipa_uk": "ˈnuːdlz",
-      "translation_ru": "лапша"
+      "word": "desert",
+      "ipa_us": "ˈdɛzərt",
+      "ipa_uk": "ˈdezət",
+      "translation_ru": "пустыня"
     },
     {
-      "word": "chopsticks",
-      "ipa_us": "ˈtʃɑːpstɪks",
-      "ipa_uk": "ˈtʃɒpstɪks",
-      "translation_ru": "палочки для еды"
+      "word": "tunnel",
+      "ipa_us": "ˈtʌnl",
+      "ipa_uk": "ˈtʌnl",
+      "translation_ru": "туннель"
     },
     {
-      "word": "delicious",
-      "ipa_us": "dɪˈlɪʃəs",
-      "ipa_uk": "dɪˈlɪʃəs",
-      "translation_ru": "очень вкусный"
+      "word": "guide",
+      "ipa_us": "ɡaɪd",
+      "ipa_uk": "ɡaɪd",
+      "translation_ru": "гид"
+    },
+    {
+      "word": "felucca",
+      "ipa_us": "fəˈlʌkə",
+      "ipa_uk": "fɪˈlʌkə",
+      "translation_ru": "фелюка"
+    },
+    {
+      "word": "haze",
+      "ipa_us": "heɪz",
+      "ipa_uk": "heɪz",
+      "translation_ru": "дымка"
+    },
+    {
+      "word": "jewels",
+      "ipa_us": "ˈdʒuːəlz",
+      "ipa_uk": "ˈdʒuːəlz",
+      "translation_ru": "драгоценности"
+    },
+    {
+      "word": "weighs",
+      "ipa_us": "weɪz",
+      "ipa_uk": "weɪz",
+      "translation_ru": "весит"
     }
   ],
   "focus_sounds": [
     {
+      "sound": "θ",
+      "examples": [
+        "three",
+        "thousand",
+        "thousands",
+        "think"
+      ],
+      "tip_ru": "Кончик языка слегка между зубами, воздух выдыхайте мягко; не заменяйте на «с» или «з»."
+    },
+    {
       "sound": "h",
       "examples": [
+        "Hana",
+        "heavy",
         "hot",
-        "he",
-        "him",
-        "hungry",
-        "how"
+        "horn"
       ],
-      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки. Не произносите русское шумное «х»."
+      "tip_ru": "Лёгкий выдох из горла без трения; не произносите как русское «х»."
     },
     {
-      "sound": "w",
+      "sound": "uː",
       "examples": [
-        "walk",
-        "woman"
+        "tomb",
+        "food",
+        "two",
+        "soon"
       ],
-      "tip_ru": "Округлите губы, как для «у», и быстро раскройте их. Зубы нижней губы не касаются, это не русское «в»."
+      "tip_ru": "Долгий «у» с округлёнными губами; длиннее и напряжённее, чем русское «у»."
     },
     {
-      "sound": "ð",
+      "sound": "ɪ",
       "examples": [
-        "the",
-        "this"
+        "pyramids",
+        "big",
+        "in",
+        "with"
       ],
-      "tip_ru": "Язык между зубами, как для θ, но включите голос: должно слегка «жужжать». Не говорите «з» или «д»."
+      "tip_ru": "Короткий звук между «и» и «ы»; не растягивайте его как «ии»."
     }
   ],
   "questions": [
     {
-      "question": "Where is Ken?",
-      "answer": "In Tokyo.",
+      "question": "Why do Hana and Pia go to Cairo?",
+      "answer": "They are on a trip to see Egypt.",
       "accepted_keywords": [
-        "tokyo"
+        "holiday",
+        "trip",
+        "egypt",
+        "see"
       ]
     },
     {
-      "question": "What do machines in the street sell?",
-      "answer": "Coffee, drinks and umbrellas.",
+      "question": "Who built the Great Pyramid?",
+      "answer": "Thousands of workers built it for a king, Khufu.",
       "accepted_keywords": [
-        "coffee",
-        "drinks",
-        "umbrellas"
+        "workers",
+        "khufu",
+        "king"
       ]
     },
     {
-      "question": "What does the chef give Ken?",
-      "answer": "Hot noodles.",
+      "question": "What is the name of the camel?",
+      "answer": "Michael Jackson.",
       "accepted_keywords": [
-        "noodles"
+        "michael",
+        "jackson"
       ]
     },
     {
-      "question": "Who shows Ken the chopsticks?",
-      "answer": "A kind woman.",
+      "question": "What do they do on the Nile?",
+      "answer": "They take a small sailboat, a felucca.",
       "accepted_keywords": [
-        "woman"
+        "boat",
+        "felucca",
+        "sail",
+        "sailboat"
       ]
     }
-  ],
-  "word_count": 89
+  ]
 }

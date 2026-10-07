@@ -2,141 +2,162 @@
   "id": "b2-dialogue-04",
   "level": "B2",
   "genre": "dialogue",
-  "title_en": "At the Doctor's",
-  "title_ru": "На приёме у врача",
-  "description_ru": "Пациент жалуется врачу на усталость и головные боли, и врач даёт советы по образу жизни.",
-  "text": "Dr Hughes: Good morning, Mr Novak. What brings you here today?\n\nPeter: Good morning, doctor. For the past month I've been feeling exhausted, and I get terrible headaches almost every afternoon.\n\nDr Hughes: I see. Have you noticed anything that makes the headaches worse?\n\nPeter: Possibly screens. I work at a computer for nearly ten hours a day, and I rarely take a break.\n\nDr Hughes: How have you been sleeping?\n\nPeter: Badly, I'm afraid. I fall asleep quickly, but I wake up at three or four in the morning and can't get back to sleep.\n\nDr Hughes: And what about your diet? Do you drink much coffee?\n\nPeter: Five or six cups a day, to be honest. My colleagues say that I live on caffeine.\n\nDr Hughes: That may be part of the problem. Let me check your blood pressure. Please roll up your sleeve.\n\nPeter: Is it high?\n\nDr Hughes: It's slightly above normal, but nothing to worry about yet. I would say that stress is the main cause. I'm going to send you for a blood test, just to rule out anything more serious.\n\nPeter: Do I have to stop drinking coffee completely?\n\nDr Hughes: Not completely, but I strongly recommend cutting down to two cups, and none after lunch. You should also take a ten-minute walk every few hours and look away from the screen.\n\nPeter: That sounds easy enough. Anything else?\n\nDr Hughes: Yes. Try to go to bed at the same time every night, and switch off your phone an hour before. A study published last year showed that people who followed this advice slept considerably better within two weeks.\n\nPeter: I'll give it a try. Should I come back?\n\nDr Hughes: Make an appointment for three weeks from now. If the headaches continue, we'll look at other options. Meanwhile, drink plenty of water and try not to overdo it.\n\nPeter: Thank you, doctor. I feel better already.",
-  "word_count": 298,
+  "title_en": "Voices From the Mountain",
+  "title_ru": "Голоса с горы",
+  "description_ru": "Интервью для подкаста с волонтёром горноспасательной службы о самых частых ошибках туристов и о том, как правильно готовиться к походу.",
+  "text": "Dana: Welcome back to Outdoor Talk. Today my guest is Callum Frazer, who has been a volunteer with the mountain rescue team for fifteen years. Callum, thank you for joining us.\nCallum: Thanks for having me, Dana. It is a pleasure to be here, and it makes a nice change to be on dry land.\nDana: Let us start with the obvious question. Why does a person spend his free weekends looking for strangers on a cold hillside?\nCallum: Good question. The honest answer is that I was rescued myself when I was nineteen. I had broken my ankle in thick fog, and I was found, after six hours, by two people I had never met. They carried me down on a stretcher and never asked for a penny. I promised myself that I would repay the favour one day.\n\nDana: That is quite a story. What are the most common reasons why people need to be rescued?\nCallum: Most of the calls are not dramatic. People are tired, cold or lost, and often all three. The usual mistake is that they underestimate the weather. It may be sunny in the valley, but on the summit it can be ten degrees colder, and the wind can make it feel much worse.\nDana: So it is not about being unfit?\nCallum: Not necessarily. Some of our busiest customers are very fit people who have been told, by an app or a friend, that a route takes four hours. They start late, they do not take a map, and when the light fades, they discover that the path is not marked.\n\nDana: Is it true that mobile phones have made things worse?\nCallum: Partly. A phone is a wonderful tool, but it makes people overconfident. They assume that a signal will always be available, and that the battery will last all day. In reality, signals disappear in valleys, and batteries die quickly in the cold. I always tell people to carry a paper map and a compass, and to know how to use them.\nDana: And do they listen?\nCallum: Some do. Others look at me as if I had suggested travelling by horse and cart.\n\nDana: What goes into your rucksack when you set off on a rescue?\nCallum: A lot more than you would expect. We carry food, extra clothing, a first-aid kit, ropes, a radio, a torch and, believe it or not, a flask of sweet tea. Tea is the most powerful medicine we have. A shivering person who is given a warm drink will often start to smile within minutes.\nDana: Have you ever been in a situation where you were afraid?\nCallum: Several times. Last winter, we were called out to look for two students who had been reported missing on a ridge. The weather was getting worse, and I remember thinking that we might become the next ones to need help. But we found them in a small hollow, huddled together, and they were fine.\n\nDana: What did you say to them?\nCallum: Honestly, nothing very clever. I asked whether they were hungry, and one of them said, in a very small voice, that he would kill for a sandwich. We had one in our bag, and it was shared between three of us, because the other student had refused to eat it on principle.\nDana: On principle?\nCallum: He was vegetarian, and it was ham. He said that he would rather be cold than be a hypocrite, which I suppose is admirable in its own way.\n\nDana: If our listeners remember only three pieces of advice, what should they be?\nCallum: First, tell somebody where you are going and when you plan to return. Second, check the forecast the night before and again in the morning, and be ready to turn back. The mountain will still be there next week. Third, bring more layers than you think you need. You can always take a jacket off, but you cannot put on one that is still in your cupboard.\nDana: Those are wise words. Is there something you wish people understood about your work?\nCallum: Yes. We are never annoyed when people call us early. It is much better to be called an hour too soon than an hour too late. Nobody has ever been charged for an unnecessary alarm, and we would rather have a thousand false ones than one tragedy.\n\nDana: Finally, what is the best moment of the job?\nCallum: It is always the same. It is the moment when a cold, frightened person sees us coming over the hill, and his face changes. That look has never become ordinary, even after fifteen years. It is the reason why I will keep going until my knees refuse to carry me.\nDana: Callum Frazer, thank you very much for talking to us today, and for everything that you and your colleagues do.\nCallum: Thank you, Dana. And to your listeners, enjoy the hills, but please, take a map.",
+  "word_count": 807,
   "vocabulary": [
     {
-      "word": "exhausted",
-      "ipa_us": "ɪɡˈzɔstɪd",
-      "ipa_uk": "ɪɡˈzɔːstɪd",
-      "translation_ru": "измотан"
+      "word": "volunteer",
+      "ipa_us": "ˌvɑːlənˈtɪr",
+      "ipa_uk": "ˌvɒlənˈtɪə",
+      "translation_ru": "волонтёр"
     },
     {
-      "word": "headaches",
-      "ipa_us": "ˈhɛdˌeɪks",
-      "ipa_uk": "ˈhedeɪks",
-      "translation_ru": "головные боли"
+      "word": "stretcher",
+      "ipa_us": "ˈstrɛtʃər",
+      "ipa_uk": "ˈstretʃə",
+      "translation_ru": "носилки"
     },
     {
-      "word": "rarely",
-      "ipa_us": "ˈrɛrli",
-      "ipa_uk": "ˈreəli",
-      "translation_ru": "редко"
+      "word": "underestimate",
+      "ipa_us": "ˌʌndərˈɛstɪmeɪt",
+      "ipa_uk": "ˌʌndərˈestɪmeɪt",
+      "translation_ru": "недооценивать"
     },
     {
-      "word": "diet",
-      "ipa_us": "ˈdaɪət",
-      "ipa_uk": "ˈdaɪət",
-      "translation_ru": "питание"
+      "word": "summit",
+      "ipa_us": "ˈsʌmɪt",
+      "ipa_uk": "ˈsʌmɪt",
+      "translation_ru": "вершина"
     },
     {
-      "word": "blood pressure",
-      "ipa_us": "blʌd ˈprɛʃər",
-      "ipa_uk": "blʌd ˈpreʃə",
-      "translation_ru": "кровяное давление"
+      "word": "overconfident",
+      "ipa_us": "ˌoʊvərˈkɑːnfɪdənt",
+      "ipa_uk": "ˌəʊvəˈkɒnfɪdənt",
+      "translation_ru": "самоуверенный"
     },
     {
-      "word": "slightly",
-      "ipa_us": "ˈslaɪtli",
-      "ipa_uk": "ˈslaɪtli",
-      "translation_ru": "слегка"
+      "word": "compass",
+      "ipa_us": "ˈkʌmpəs",
+      "ipa_uk": "ˈkʌmpəs",
+      "translation_ru": "компас"
     },
     {
-      "word": "recommend",
-      "ipa_us": "ˌrɛkəˈmɛnd",
-      "ipa_uk": "ˌrekəˈmend",
-      "translation_ru": "рекомендую"
+      "word": "shivering",
+      "ipa_us": "ˈʃɪvərɪŋ",
+      "ipa_uk": "ˈʃɪvərɪŋ",
+      "translation_ru": "дрожащий"
     },
     {
-      "word": "considerably",
-      "ipa_us": "kənˈsɪdərəbli",
-      "ipa_uk": "kənˈsɪdərəbli",
-      "translation_ru": "значительно"
+      "word": "ridge",
+      "ipa_us": "rɪdʒ",
+      "ipa_uk": "rɪdʒ",
+      "translation_ru": "гребень, хребет"
     },
     {
-      "word": "appointment",
-      "ipa_us": "əˈpɔɪntmənt",
-      "ipa_uk": "əˈpɔɪntmənt",
-      "translation_ru": "приём (запись)"
+      "word": "huddled",
+      "ipa_us": "ˈhʌdld",
+      "ipa_uk": "ˈhʌdld",
+      "translation_ru": "прижавшиеся друг к другу"
     },
     {
-      "word": "overdo",
-      "ipa_us": "ˌoʊvərˈdu",
-      "ipa_uk": "ˌəʊvəˈduː",
-      "translation_ru": "переусердствовать"
+      "word": "hypocrite",
+      "ipa_us": "ˈhɪpəkrɪt",
+      "ipa_uk": "ˈhɪpəkrɪt",
+      "translation_ru": "лицемер"
+    },
+    {
+      "word": "unnecessary",
+      "ipa_us": "ʌnˈnɛsəsɛri",
+      "ipa_uk": "ʌnˈnesəsəri",
+      "translation_ru": "ненужный"
+    },
+    {
+      "word": "tragedy",
+      "ipa_us": "ˈtrædʒədi",
+      "ipa_uk": "ˈtrædʒədi",
+      "translation_ru": "трагедия"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "ʌ",
       "examples": [
-        "month",
-        "three",
-        "thank"
+        "summit",
+        "compass",
+        "huddled",
+        "some"
       ],
-      "tip_ru": "Кончик языка слегка просуньте между зубами и выдохните без голоса; не заменяйте звук на «с» или «з»."
-    },
-    {
-      "sound": "r",
-      "examples": [
-        "terrible",
-        "rarely",
-        "recommend"
-      ],
-      "tip_ru": "Кончик языка не касается нёба и не вибрирует; оттяните язык назад и слегка округлите губы."
+      "tip_ru": "Короткий звук, близкий к русскому «а»; рот открыт нешироко, губы не округлены."
     },
     {
       "sound": "h",
       "examples": [
-        "headaches",
-        "high",
-        "have"
+        "have",
+        "hill",
+        "hungry",
+        "hypocrite"
       ],
-      "tip_ru": "Лёгкий выдох без трения в горле; не произносите как русское «х»."
+      "tip_ru": "Лёгкий выдох из горла, как будто согреваете руки; русское «х» слишком жёсткое."
     },
     {
-      "sound": "ɜː",
+      "sound": "ɪ",
       "examples": [
-        "work",
-        "worse",
-        "worry"
+        "ridge",
+        "hill",
+        "drink",
+        "minutes"
       ],
-      "tip_ru": "Долгий гласный: губы не округляйте, язык в середине рта; не заменяйте на «ор» или «ер»."
+      "tip_ru": "Короткий расслабленный звук; не растягивайте его в «и-и»."
+    },
+    {
+      "sound": "word-stress",
+      "examples": [
+        "volunteer",
+        "underestimate",
+        "unnecessary"
+      ],
+      "tip_ru": "Ударение в длинных словах: volunteer на последнем слоге, underestimate и unnecessary на предпоследнем и втором соответственно."
     }
   ],
   "questions": [
     {
-      "question": "How long has Peter felt exhausted?",
-      "answer": "For a month.",
+      "question": "Why did Callum become a rescue volunteer?",
+      "answer": "He was rescued himself at nineteen after breaking his ankle in fog.",
       "accepted_keywords": [
-        "month"
+        "rescued",
+        "ankle",
+        "nineteen",
+        "fog"
       ]
     },
     {
-      "question": "How many cups of coffee does he drink a day?",
-      "answer": "Five or six.",
+      "question": "What is the most common mistake hikers make?",
+      "answer": "They underestimate the weather.",
       "accepted_keywords": [
-        "five",
-        "six"
+        "weather",
+        "underestimate",
+        "cold"
       ]
     },
     {
-      "question": "What does the doctor send him for?",
-      "answer": "A blood test.",
+      "question": "What does Callum say is the most powerful medicine the team carries?",
+      "answer": "Sweet tea.",
       "accepted_keywords": [
-        "blood",
-        "test"
+        "tea",
+        "sweet"
       ]
     },
     {
-      "question": "When should Peter come back?",
-      "answer": "In three weeks.",
+      "question": "What are Callum's three pieces of advice?",
+      "answer": "Tell someone your plans, check the forecast, and bring extra layers.",
       "accepted_keywords": [
-        "three",
-        "weeks"
+        "tell",
+        "forecast",
+        "layers",
+        "jacket"
       ]
     }
   ]

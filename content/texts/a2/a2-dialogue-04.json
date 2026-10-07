@@ -2,121 +2,145 @@
   "id": "a2-dialogue-04",
   "level": "A2",
   "genre": "dialogue",
-  "title_en": "At the Doctor",
-  "title_ru": "У врача",
-  "description_ru": "Пациент с болью в горле приходит на приём. Диалог о здоровье и советах врача.",
-  "text": "Doctor: Good afternoon, Mr Brown. What is the problem?\nMr Brown: I have a terrible sore throat, and I feel tired.\nDoctor: How long have you felt like this?\nMr Brown: Since Monday. Yesterday I also had a headache.\nDoctor: Do you have a fever? Let me check. Open your mouth, please.\nMr Brown: Ahh.\nDoctor: Your throat is red, but it is not serious. You have a cold.\nMr Brown: Do I need medicine?\nDoctor: Not really. You must drink hot water with honey and rest for three days.\nMr Brown: Can I go to work tomorrow?\nDoctor: No, it is better to stay at home. You will feel stronger on Friday.\nMr Brown: Thank you, doctor. I feel better already.\nDoctor: Good. Call me if you are worse.\nMr Brown: I promise. My wife is going to make chicken soup tonight, so I will be fine.",
-  "word_count": 127,
+  "title_en": "Choosing a Holiday",
+  "title_ru": "Выбираем отпуск",
+  "description_ru": "Кейт и Джек сравнивают Испанию, Грецию и Турцию по цене, погоде и дороге и бронируют поездку. Примеры сравнительных степеней.",
+  "text": "Kate: Jack, I have good news. My boss said yes. I can take two weeks of holiday in August.\nJack: That is fantastic! Where do you want to go?\nKate: I want to go somewhere warm. Last year we went to the mountains, and it rained every day.\nJack: I remember. My boots were wet for a week. So the beach this time?\nKate: Yes. But which beach? There are so many choices.\nJack: Let us make a list. I looked at three places yesterday. Spain, Greece and Turkey.\nKate: Tell me about them. Which one is the cheapest?\nJack: Turkey is cheaper than the other two. A hotel with breakfast costs about sixty euros a night.\nKate: And Greece?\nJack: Greece is more expensive, about eighty euros. But the islands are more beautiful, and the food is better.\nKate: I am not sure about that. I loved the food in Spain last time. The seafood was incredible.\nJack: Spain is the most expensive of the three. And it is also the most crowded in August.\nKate: Crowded beaches are not relaxing. I would prefer a quiet place.\nJack: Then I recommend a small Greek island. There are fewer tourists, and the water is clearer.\nKate: How do we get there? Is there a direct flight?\nJack: There is a flight to Athens, and then you take a ferry. The whole trip takes about nine hours.\nKate: That is longer than I wanted. Turkey is closer, right?\nJack: Yes, the flight is only four hours. And it is a bit warmer there than in Greece.\nKate: Hmm. I do not like very hot weather. Thirty-five degrees makes me tired.\nJack: In Greece, it is about thirty in August, and there is a nice wind from the sea.\nKate: That sounds better. What can we do there, apart from lying on the beach?\nJack: We can rent a small boat and visit the other islands. There are also old temples and mountain villages.\nKate: I love old temples. But I do not want to walk too much in the heat.\nJack: We can go early in the morning, before the sun gets strong. And we can rest in the afternoon.\nKate: That is a good plan. What about swimming? I am a slow swimmer, and I am afraid of big waves.\nJack: The bay on this island is very calm. Children swim there all day.\nKate: Excellent. How did you find all this information?\nJack: My colleague Olga went there two years ago. She said it was the best holiday of her life.\nKate: Did she give you the name of the hotel?\nJack: Yes. It is a small family hotel called Blue Door. The owner cooks breakfast for the guests.\nKate: That sounds lovely. How much is it for two weeks?\nJack: About eleven hundred euros for the room, and the flights are three hundred each.\nKate: So the whole holiday costs about seventeen hundred euros. That is a lot of money.\nJack: It is, but we saved nine hundred already. And I am going to get a bonus in June.\nKate: Really? You did not tell me that.\nJack: I wanted it to be a surprise. My manager told me yesterday.\nKate: That is wonderful news. Then we can afford a good holiday.\nJack: Exactly. And we can still buy some gifts for our families.\nKate: Let me look at the website. Oh, the price of the flights is going up next week.\nJack: Then we should book today. Do you have your credit card?\nKate: It is in my bag. But wait, let me check the dates first. Our flight is on the second of August?\nJack: Yes, and we come back on the sixteenth. That is exactly fourteen days.\nKate: Are you sure that your passport is still valid?\nJack: Good question. I will look at it tonight. If it is not, I will renew it tomorrow.\nKate: Please do. Last time, you forgot, and we nearly missed the plane.\nJack: That was five years ago. I am much more careful now.\nKate: Right. And what about insurance? My sister says it is necessary.\nJack: She is right. The booking website offers insurance for twenty euros. It covers lost bags and doctors.\nKate: Let us take it. A broken leg on holiday would be a disaster.\nJack: Please do not say that. You are going to bring bad luck.\nKate: I am only being sensible. Now, which seats do you prefer, a window or an aisle?\nJack: A window, of course. I want to see the islands from the sky.\nKate: Fine, but I choose the next flight. I always get the worst seat.\nJack: Deal. OK, everything is ready. Press the button.\nKate: Done! We are going to Greece in August. I cannot believe it.\nJack: I cannot wait. I am going to pack my sun cream tomorrow.\nKate: It is only March. You are impossible.\nJack: I know. But you can never prepare too early for the sea.",
+  "word_count": 786,
   "vocabulary": [
     {
-      "word": "problem",
-      "ipa_us": "ˈprɑbləm",
-      "ipa_uk": "ˈprɒbləm",
-      "translation_ru": "проблема"
+      "word": "crowded",
+      "ipa_us": "ˈkraʊdɪd",
+      "ipa_uk": "ˈkraʊdɪd",
+      "translation_ru": "многолюдный"
     },
     {
-      "word": "throat",
-      "ipa_us": "θroʊt",
-      "ipa_uk": "θrəʊt",
-      "translation_ru": "горло"
+      "word": "ferry",
+      "ipa_us": "ˈfɛri",
+      "ipa_uk": "ˈferi",
+      "translation_ru": "паром"
     },
     {
-      "word": "headache",
-      "ipa_us": "ˈhedeɪk",
-      "ipa_uk": "ˈhedeɪk",
-      "translation_ru": "головная боль"
+      "word": "island",
+      "ipa_us": "ˈaɪlənd",
+      "ipa_uk": "ˈaɪlənd",
+      "translation_ru": "остров"
     },
     {
-      "word": "fever",
-      "ipa_us": "ˈfiːvər",
-      "ipa_uk": "ˈfiːvə",
-      "translation_ru": "температура"
+      "word": "temples",
+      "ipa_us": "ˈtɛmplz",
+      "ipa_uk": "ˈtemplz",
+      "translation_ru": "храмы"
     },
     {
-      "word": "serious",
-      "ipa_us": "ˈsɪriəs",
-      "ipa_uk": "ˈsɪəriəs",
-      "translation_ru": "серьёзный"
+      "word": "calm",
+      "ipa_us": "kɑːm",
+      "ipa_uk": "kɑːm",
+      "translation_ru": "спокойный"
     },
     {
-      "word": "medicine",
-      "ipa_us": "ˈmedɪsən",
-      "ipa_uk": "ˈmedsən",
-      "translation_ru": "лекарство"
+      "word": "insurance",
+      "ipa_us": "ɪnˈʃʊrəns",
+      "ipa_uk": "ɪnˈʃɔːrəns",
+      "translation_ru": "страховка"
     },
     {
-      "word": "honey",
-      "ipa_us": "ˈhʌni",
-      "ipa_uk": "ˈhʌni",
-      "translation_ru": "мёд"
+      "word": "valid",
+      "ipa_us": "ˈvælɪd",
+      "ipa_uk": "ˈvælɪd",
+      "translation_ru": "действительный"
     },
     {
-      "word": "worse",
-      "ipa_us": "wɜrs",
-      "ipa_uk": "wɜːs",
-      "translation_ru": "хуже"
+      "word": "bonus",
+      "ipa_us": "ˈboʊnəs",
+      "ipa_uk": "ˈbəʊnəs",
+      "translation_ru": "премия"
+    },
+    {
+      "word": "seafood",
+      "ipa_us": "ˈsiːfuːd",
+      "ipa_uk": "ˈsiːfuːd",
+      "translation_ru": "морепродукты"
+    },
+    {
+      "word": "afford",
+      "ipa_us": "əˈfɔːrd",
+      "ipa_uk": "əˈfɔːd",
+      "translation_ru": "позволить себе"
+    },
+    {
+      "word": "direct",
+      "ipa_us": "dəˈrɛkt",
+      "ipa_uk": "daɪˈrekt",
+      "translation_ru": "прямой"
+    },
+    {
+      "word": "renew",
+      "ipa_us": "rɪˈnuː",
+      "ipa_uk": "rɪˈnjuː",
+      "translation_ru": "продлить, обновить"
     }
   ],
   "focus_sounds": [
     {
-      "sound": "θ",
+      "sound": "aɪ",
       "examples": [
-        "throat",
-        "Thank",
-        "three"
+        "flight",
+        "island",
+        "nine"
       ],
-      "tip_ru": "Кончик языка слегка между зубами, выдыхайте воздух без голоса; не заменяйте на «с» или «ф»."
+      "tip_ru": "Дифтонг: широкое «а» плавно переходит в короткое «и»; второй элемент слабее первого."
     },
     {
-      "sound": "r",
+      "sound": "ð",
       "examples": [
-        "terrible",
-        "red",
-        "problem",
-        "rest",
-        "Friday"
+        "weather",
+        "other",
+        "than"
       ],
-      "tip_ru": "Кончик языка поднят и не касается нёба, губы чуть округлены; не раскатистое русское «р»."
+      "tip_ru": "Язык между зубами, как для θ, но с голосом; звук мягкий и звонкий, не «з» и не «д»."
     },
     {
-      "sound": "h",
+      "sound": "iː",
       "examples": [
-        "headache",
-        "have",
-        "honey",
-        "home"
+        "seafood",
+        "three",
+        "beach"
       ],
-      "tip_ru": "Выдыхайте воздух из горла мягко, как на холодное стекло; не русское «х»."
+      "tip_ru": "Долгий звук «и»: губы растянуты, язык высоко впереди; держите его дольше, чем русское «и»."
     }
   ],
   "questions": [
     {
-      "question": "What is wrong with Mr Brown?",
-      "answer": "He has a sore throat.",
+      "question": "Why does Kate want a warm place?",
+      "answer": "Last year it rained every day in the mountains.",
       "accepted_keywords": [
-        "throat"
+        "rained",
+        "rain",
+        "mountains"
       ]
     },
     {
-      "question": "What does the doctor say he has?",
-      "answer": "A cold.",
+      "question": "Which country is the cheapest?",
+      "answer": "Turkey.",
       "accepted_keywords": [
-        "cold"
+        "turkey"
       ]
     },
     {
-      "question": "What must he drink?",
-      "answer": "Hot water with honey.",
+      "question": "Where do they decide to go?",
+      "answer": "To a small Greek island.",
       "accepted_keywords": [
-        "honey",
-        "water"
+        "greece",
+        "greek",
+        "island"
       ]
     },
     {
-      "question": "How many days must he rest?",
-      "answer": "Three days.",
+      "question": "What surprise news does Jack have?",
+      "answer": "He will get a bonus in June.",
       "accepted_keywords": [
-        "three"
+        "bonus"
       ]
     }
   ]
