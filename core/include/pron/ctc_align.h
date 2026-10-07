@@ -1,6 +1,7 @@
 // CTC forced alignment (Viterbi) of an expected label sequence to frame log-posteriors.
 #pragma once
 
+#include <functional>
 #include <vector>
 
 #include "pron/posteriors.h"
@@ -30,5 +31,14 @@ int ctc_min_frames(const std::vector<int>& targets);
 // Viterbi forced alignment with the standard CTC topology (blank, l1, blank, l2, ..., blank).
 // `targets` are column indices into `lp` and must not contain `blank`.
 CtcAlignment ctc_force_align(const LogPosteriors& lp, const std::vector<int>& targets, int blank);
+
+// Banded variant: target i may only be emitted in frames [lo[i], hi[i]) (windows around rough ASR
+// word times), so memory and time scale with the band and a whole long recording can be aligned at
+// once. Log-probabilities come from emit(t, i) for target i, emit(t, -1) for blank. `targets` are
+// ids used only to detect repeats (equal neighbours need a blank between them). Spans' `column`
+// holds the id.
+using CtcEmitFn = std::function<double(int t, int i)>;
+CtcAlignment ctc_force_align_banded(int frames, const std::vector<int>& targets, const CtcEmitFn& emit,
+                                    const std::vector<int>& lo, const std::vector<int>& hi);
 
 }  // namespace pron

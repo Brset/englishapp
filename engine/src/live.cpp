@@ -157,8 +157,8 @@ PRON_API char* pron_live_finish(pron_live* s) {
     try {
         e->last_error.clear();
         if (!s->finished) {
-            // 0.4 s of silence so the last frames leave the encoder's look-ahead, then flush
-            std::vector<float> pad(6400, 0.0f);
+            // 0.8 s of silence so the last frames leave the encoder's look-ahead, then flush
+            std::vector<float> pad(12800, 0.0f);
             SherpaOnnxOnlineStreamAcceptWaveform(s->stream, 16000, pad.data(), static_cast<int32_t>(pad.size()));
             SherpaOnnxOnlineStreamInputFinished(s->stream);
             s->state_json(true);

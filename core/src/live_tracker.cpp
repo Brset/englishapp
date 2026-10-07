@@ -64,14 +64,14 @@ bool is_function_word(const std::string& w) {
     return letters(w) <= 3 || kList.count(w) > 0;
 }
 
-bool live_words_match(const std::string& ref, const std::string& hyp, bool partial) {
+bool live_words_match(const std::string& ref, const std::string& hyp, bool partial, std::size_t min_prefix) {
     if (ref.empty() || hyp.empty()) return false;
     if (ref == hyp) return true;
     if (similarity(ref, hyp) >= 0.7) return true;
     const std::size_t lr = letters(ref), lh = letters(hyp);
     if (lr >= 5 && lh >= 5 && ref.compare(0, 4, hyp, 0, 4) == 0) return true;
     // unfinished last word of a streaming hypothesis ("brot" for "brothers")
-    if (partial && lh >= 3 && lh < lr && ref.compare(0, hyp.size(), hyp) == 0) return true;
+    if (partial && lh >= min_prefix && lh < lr && ref.compare(0, hyp.size(), hyp) == 0) return true;
     return false;
 }
 
@@ -122,7 +122,10 @@ int LiveTracker::process_word(const std::vector<std::string>& hyp, size_t i, boo
     int best = -1;
     double best_cost = 1e9;
     for (int j = lo; j <= hi; ++j) {
-        if (!live_words_match(ref_norm_[j], h, is_tail && !final)) continue;
+        // After the flush the recognizer may still leave the very last word cut ("fa" for "fast"):
+        // accept a 2+ letter prefix, but only for the word the reader was expected to say next.
+        const bool cut_last = is_tail && final && j == cursor_;
+        if (!live_words_match(ref_norm_[j], h, (is_tail && !final) || cut_last, cut_last ? 2 : 3)) continue;
         double cost = (1.0 - similarity(ref_norm_[j], h)) * 4.0;
         if (j >= cursor_) {
             if (hfunc) {  // a function word may only be reached over other function words

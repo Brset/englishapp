@@ -83,4 +83,33 @@ TEST_SUITE("ctc") {
         for (std::size_t i = 1; i < a.spans.size(); ++i)
             CHECK(a.spans[i].start_frame >= a.spans[i - 1].end_frame);
     }
+
+    TEST_CASE("banded alignment matches the full one when windows are wide") {
+        auto lp = peaked({0, 1, 0, 2, 2, 0, 3, 0, 1, 0}, 5);
+        const std::vector<int> tg = {1, 2, 3, 1};
+        auto full = ctc_force_align(lp, tg, B);
+        auto emit = [&](int t, int i) { return static_cast<double>(lp.at(t, i < 0 ? B : tg[static_cast<std::size_t>(i)])); };
+        auto band = ctc_force_align_banded(lp.frames, tg, emit, {0, 0, 0, 0}, {10, 10, 10, 10});
+        REQUIRE(full.ok);
+        REQUIRE(band.ok);
+        CHECK(band.log_prob == doctest::Approx(full.log_prob));
+        for (int i = 0; i < 4; ++i) {
+            CHECK(band.spans[i].start_frame == full.spans[i].start_frame);
+            CHECK(band.spans[i].end_frame == full.spans[i].end_frame);
+        }
+    }
+
+    TEST_CASE("banded alignment keeps each label inside its window") {
+        // label 1 is said twice (frames 1 and 7); the window points to the second occurrence
+        auto lp = peaked({0, 1, 0, 0, 0, 0, 0, 1, 2, 0}, 5);
+        const std::vector<int> tg = {1, 2};
+        auto emit = [&](int t, int i) { return static_cast<double>(lp.at(t, i < 0 ? B : tg[static_cast<std::size_t>(i)])); };
+        auto a = ctc_force_align_banded(lp.frames, tg, emit, {5, 5}, {10, 10});
+        REQUIRE(a.ok);
+        CHECK(a.spans[0].start_frame == 7);
+        CHECK(a.spans[1].start_frame == 8);
+        // contradictory or too narrow windows fail cleanly
+        CHECK_FALSE(ctc_force_align_banded(lp.frames, tg, emit, {5, 0}, {6, 1}).ok);
+        CHECK_FALSE(ctc_force_align_banded(lp.frames, {1, 1}, emit, {3, 3}, {4, 4}).ok);
+    }
 }

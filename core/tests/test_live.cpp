@@ -163,4 +163,13 @@ TEST_SUITE("live") {
         CHECK(j.find("\"state\":\"current\"") != std::string::npos);
         CHECK(j.find("\"changed_from\":0") != std::string::npos);
     }
+
+    TEST_CASE("cut last word is accepted at finish only for the expected word") {
+        LiveTracker t("They walk very fast.");
+        t.update({"THEY", "WALK", "VERY", "FA"}, true);
+        CHECK(t.state().done);
+        LiveTracker u("They walk very fast.");
+        u.update({"THEY", "WALK", "FA"}, true);  // "fa" is not "very": no jump over it
+        CHECK_FALSE(u.state().done);
+    }
 }

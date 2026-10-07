@@ -24,7 +24,8 @@ struct LiveState {
 // dropped without counting as skipped.
 bool is_function_word(const std::string& norm);
 // Fuzzy word match: edit-distance similarity >= 0.7, or equal first 4 letters for long words.
-bool live_words_match(const std::string& ref_norm, const std::string& hyp_norm, bool hyp_is_partial = false);
+bool live_words_match(const std::string& ref_norm, const std::string& hyp_norm, bool hyp_is_partial = false,
+                      std::size_t min_prefix = 3);
 
 class LiveTracker {
 public:

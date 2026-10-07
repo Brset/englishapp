@@ -218,6 +218,90 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
     res.post_used = use_gop;
     const int kInvCols = inventory_columns();
 
+    // Per expected phone: allowed variants -> merged columns (log-sum-exp), so alignment and scoring
+    // take the best of the allowed realisations. equiv: inventory columns (no blank); merged: incl.
+    // blank if the phone is optional.
+    auto phone_columns = [&](const Pronunciation& expected, std::vector<std::vector<int>>& equiv,
+                             std::vector<std::vector<int>>& merged) {
+        const std::size_t L = expected.size();
+        equiv.assign(L, {});
+        merged.assign(L, {});
+        for (std::size_t k = 0; k < L; ++k) {
+            PhonemeVariants pv = phoneme_variants(expected, k, opt.accent);
+            // Character-level IPA models (gruut) have no single token for diphthongs/affricates:
+            // they emit e.g. "e" then "ɪ" for EY. Accept the component phones as realisations.
+            const int pid = phoneme_id(expected[k].symbol);
+            if (pid >= 0 && !vocab_.has_column(column_of_phoneme(pid)))
+                for (int cid : phoneme_components(pid))
+                    if (std::find(pv.ids.begin(), pv.ids.end(), cid) == pv.ids.end()) pv.ids.push_back(cid);
+            for (int id : pv.ids) {
+                int col = column_of_phoneme(id);
+                if (vocab_.has_column(col)) equiv[k].push_back(col);
+            }
+            merged[k] = equiv[k];
+            if (pv.allow_blank) merged[k].push_back(kBlankColumn);
+        }
+    };
+    auto merged_lp = [&](int t, const std::vector<int>& cols) {
+        if (cols.empty()) return -3.0f;  // no label can express this phone: neutral
+        float mx = -INFINITY;
+        for (int c : cols) mx = std::max(mx, inv.at(t, c));
+        double acc = 0.0;
+        for (int c : cols) acc += std::exp(static_cast<double>(inv.at(t, c) - mx));
+        return std::max(-1e4f, mx + static_cast<float>(std::log(acc)));
+    };
+
+    // 5b. Utterance-level forced alignment of all heard words in order. Whisper word times drift by
+    // a few hundred ms, which made per-word windows cut into the neighbours (wrong phones scored,
+    // "my recording" playing the wrong word). Each phone may move up to kSlack around its word's
+    // ASR span; the result gives every word its real frame window.
+    std::vector<std::pair<int, int>> anchor(toks.size(), {-1, -1});
+    if (use_gop) {
+        const double fs = inv.frame_seconds;
+        const int kSlack = static_cast<int>(std::lround(1.5 / fs));
+        std::vector<int> owner, lo, hi, ids;
+        std::vector<std::vector<int>> cols;
+        for (std::size_t i = 0; i < toks.size(); ++i) {
+            const RefWordAlignment& a = al.ref[i];
+            if (a.status == WordStatus::Omitted || a.hyp_index < 0) continue;
+            Pronunciation expected;
+            if (lexicon_.lookup(toks[i].norm, expected) == PronSource::None || expected.empty()) continue;
+            std::vector<std::vector<int>> equiv, merged;
+            phone_columns(expected, equiv, merged);
+            const HypWord& h = hyp[static_cast<std::size_t>(a.hyp_index)];
+            const int w0 = static_cast<int>(std::floor(std::max(0.0, h.start) / fs)) - kSlack;
+            const int w1 = static_cast<int>(std::ceil(std::max(0.0, h.end) / fs)) + kSlack;
+            for (std::size_t k = 0; k < expected.size(); ++k) {
+                owner.push_back(static_cast<int>(i));
+                lo.push_back(w0);
+                hi.push_back(w1);
+                // repeat detection: same allowed columns = same label
+                int id = static_cast<int>(cols.size());
+                if (!cols.empty() && cols.back() == merged[k]) id = ids.back();
+                ids.push_back(id);
+                cols.push_back(merged[k]);
+            }
+        }
+        if (!ids.empty()) {
+            CtcAlignment g = ctc_force_align_banded(
+                inv.frames, ids,
+                [&](int t, int k) {
+                    return k < 0 ? static_cast<double>(inv.at(t, kBlankColumn))
+                                 : static_cast<double>(merged_lp(t, cols[static_cast<std::size_t>(k)]));
+                },
+                lo, hi);
+            if (g.ok) {
+                for (std::size_t k = 0; k < g.spans.size(); ++k) {
+                    auto& an = anchor[static_cast<std::size_t>(owner[k])];
+                    if (an.first < 0) an.first = g.spans[k].start_frame;
+                    an.second = g.spans[k].end_frame;
+                }
+            } else {
+                res.warnings.push_back("utterance-level alignment failed; using ASR word times");
+            }
+        }
+    }
+
     // 6. Per-word results.
     std::map<std::string, std::size_t> advice_index;
     for (std::size_t i = 0; i < toks.size(); ++i) {
@@ -284,28 +368,15 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
             };
             int f0 = to_frame(h.start - opt.word_padding_seconds, false);
             int f1 = to_frame(h.end + opt.word_padding_seconds, true);
+            if (anchor[i].first >= 0) {  // window from the utterance-level alignment (ASR times drift)
+                f0 = std::max(0, anchor[i].first - 2);
+                f1 = std::min(inv.frames, anchor[i].second + 2);
+            }
             f0 = std::max(0, f0);
             f1 = std::min(inv.frames, f1);
             const int L = static_cast<int>(expected.size());
-            // Per expected phone: allowed variants -> one merged column (log-sum-exp) appended to the
-            // word segment, so alignment and scoring take the best of the allowed realisations.
-            std::vector<std::vector<int>> equiv(static_cast<std::size_t>(L));   // inventory columns (no blank)
-            std::vector<std::vector<int>> merged(static_cast<std::size_t>(L));  // incl. blank if optional
-            for (int k = 0; k < L; ++k) {
-                PhonemeVariants pv = phoneme_variants(expected, static_cast<std::size_t>(k), opt.accent);
-                // Character-level IPA models (gruut) have no single token for diphthongs/affricates:
-                // they emit e.g. "e" then "ɪ" for EY. Accept the component phones as realisations.
-                const int pid = phoneme_id(expected[static_cast<std::size_t>(k)].symbol);
-                if (pid >= 0 && !vocab_.has_column(column_of_phoneme(pid)))
-                    for (int cid : phoneme_components(pid))
-                        if (std::find(pv.ids.begin(), pv.ids.end(), cid) == pv.ids.end()) pv.ids.push_back(cid);
-                for (int id : pv.ids) {
-                    int col = column_of_phoneme(id);
-                    if (vocab_.has_column(col)) equiv[static_cast<std::size_t>(k)].push_back(col);
-                }
-                merged[static_cast<std::size_t>(k)] = equiv[static_cast<std::size_t>(k)];
-                if (pv.allow_blank) merged[static_cast<std::size_t>(k)].push_back(kBlankColumn);
-            }
+            std::vector<std::vector<int>> equiv, merged;
+            phone_columns(expected, equiv, merged);
             std::vector<int> targets;
             for (int k = 0; k < L; ++k) targets.push_back(kInvCols + k);
             if (f1 - f0 < ctc_min_frames(targets)) {  // word span too short: widen symmetrically
@@ -319,18 +390,8 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
                 std::copy(base.data.begin() + static_cast<std::ptrdiff_t>(t) * kInvCols,
                           base.data.begin() + static_cast<std::ptrdiff_t>(t + 1) * kInvCols,
                           seg.data.begin() + static_cast<std::ptrdiff_t>(t) * seg.classes);
-                for (int k = 0; k < L; ++k) {
-                    const auto& cols = merged[static_cast<std::size_t>(k)];
-                    float v = -3.0f;  // no label can express this phone: neutral
-                    if (!cols.empty()) {
-                        float mx = -INFINITY;
-                        for (int c : cols) mx = std::max(mx, base.at(t, c));
-                        double acc = 0.0;
-                        for (int c : cols) acc += std::exp(static_cast<double>(base.at(t, c) - mx));
-                        v = std::max(-1e4f, mx + static_cast<float>(std::log(acc)));
-                    }
-                    seg.at(t, kInvCols + k) = v;
-                }
+                for (int k = 0; k < L; ++k)
+                    seg.at(t, kInvCols + k) = merged_lp(f0 + t, merged[static_cast<std::size_t>(k)]);
             }
             CtcAlignment ca = ctc_force_align(seg, targets, kBlankColumn);
             if (ca.ok) {
