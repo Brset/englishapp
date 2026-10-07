@@ -1,10 +1,12 @@
 name: android
 
-# Manual / release-tag builds only: GitHub Actions minutes on this private repo are limited.
+# Public repo: Actions minutes are free. Build on pushes to main only (wip/* snapshots don't build).
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     tags: ['v*']
+    paths: ['android/**', 'core/**', 'engine/**', 'backends/**', 'content/**', 'tools/**', 'models/**', '.github/actions/**', '.github/workflows/android.yml']
 
 concurrency:
   group: android-${{ github.ref }}
