@@ -1,11 +1,10 @@
 name: windows
 
+# Manual / release-tag builds only: GitHub Actions minutes on this private repo are limited.
 on:
-  push:
-    paths: ['windows/**', 'core/**', 'engine/**', '.github/actions/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
-  pull_request:
-    paths: ['windows/**', 'core/**', 'engine/**', '.github/actions/**', 'content/**', 'tools/**', '.github/workflows/windows.yml']
   workflow_dispatch:
+  push:
+    tags: ['v*']
 
 concurrency:
   group: windows-${{ github.ref }}

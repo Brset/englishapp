@@ -1,10 +1,10 @@
 name: core
 
+# Manual / release-tag builds only: GitHub Actions minutes on this private repo are limited.
 on:
-  push:
-    paths: ['core/**', 'engine/**', 'backends/**', 'models/**', 'content/**', 'tools/**', '.github/workflows/core.yml']
-  pull_request:
   workflow_dispatch:
+  push:
+    tags: ['v*']
 
 concurrency:
   group: core-${{ github.ref }}
@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]  # Windows runners cost 2x minutes; the windows workflow already builds the engine
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -40,7 +40,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]  # Windows runners cost 2x minutes; the windows workflow already builds the engine
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
