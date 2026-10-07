@@ -355,6 +355,16 @@ AssessmentResult Assessor::assess(const std::string& reference, const std::vecto
                     }
                 }
                 gop_done = scored > 0;
+                // Word times from the CTC alignment of its phonemes (20 ms frames; whisper times are coarse).
+                // Whisper times stay as the fallback when the alignment is unavailable.
+                {
+                    const int a0 = f0 + ca.spans.front().start_frame;
+                    const int a1 = f0 + ca.spans.back().end_frame;
+                    if (a1 > a0) {
+                        w.start = std::max(0, a0 - 1) * fs;  // one frame of margin: CTC emissions are peaky
+                        w.end = std::min(inv.frames, a1 + 1) * fs;
+                    }
+                }
             } else {
                 res.warnings.push_back("forced alignment failed for word '" + w.norm + "'");
             }

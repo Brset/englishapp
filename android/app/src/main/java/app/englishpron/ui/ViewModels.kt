@@ -264,7 +264,7 @@ class PracticeViewModel(app: Application) : BaseVm(app) {
         if (w.startSec < 0 || w.endSec <= w.startSec) { _s.update { it.copy(error = "Для этого слова нет фрагмента записи") }; return }
         viewModelScope.launch {
             val (pcm, rate) = withContext(Dispatchers.IO) {
-                try { Wav.range(File(path), w.startSec - 0.12, w.endSec + 0.12) } catch (e: Exception) { ShortArray(0) to SAMPLE_RATE }
+                try { Wav.range(File(path), w.startSec - 0.06, w.endSec + 0.06) } catch (e: Exception) { ShortArray(0) to SAMPLE_RATE }
             }
             ctx.tts.stop()
             if (pcm.isEmpty()) _s.update { it.copy(error = "Запись не найдена") } else ctx.player.play(pcm, rate)
