@@ -1,4 +1,5 @@
 // Engine tests. argv[1] = test data dir (contains models/ assembled by fetch_models.cmake).
+#include <algorithm>
 #include <atomic>
 #include <cctype>
 #include <cstring>
@@ -121,6 +122,59 @@ int main(int argc, char** argv) {
             CHECK(!has(j, "\"speech_segments\":[]"));
         } else std::printf("err: %s\n", pron_engine_last_error(e));
         pron_free_string(j);
+        // Time lag regression: 1.5 s of leading silence + 44.1 kHz input. Word starts must be the unpadded
+        // word starts + 1.5 s (within 0.15 s), i.e. relative to the ORIGINAL submitted audio.
+        {
+            const char* kRef = "Think about the weather.";
+            auto word_starts = [&](const char* js) {
+                std::vector<double> v;
+                const char* p = std::strstr(js, "\"words\":[");
+                while (p && (p = std::strstr(p, "\"status\":\"")) != nullptr) {
+                    const char* q = std::strstr(p, "\"start\":");
+                    const char* nx = std::strstr(p + 8, "\"status\":\"");
+                    if (q && (!nx || q < nx) && q[8] != 'n') v.push_back(std::atof(q + 8)); else v.push_back(-1.0);
+                    p += 8;
+                }
+                return v;
+            };
+            char* j0 = pron_engine_assess_f32(e, a, n, sr, kRef);
+            const size_t lead2 = size_t(1.5 * sr);
+            std::vector<float> pad(lead2 + n, 0.0f);
+            for (size_t i = 0; i < n; ++i) pad[lead2 + i] = a[i];
+            // resample the padded signal to 44.1 kHz (linear)
+            const int sr2 = 44100;
+            std::vector<float> up(size_t(double(pad.size()) * sr2 / sr));
+            for (size_t i = 0; i < up.size(); ++i) {
+                const double pos = double(i) * sr / sr2; const size_t i0 = size_t(pos);
+                const size_t i1 = std::min(i0 + 1, pad.size() - 1); const float f = float(pos - double(i0));
+                up[i] = pad[std::min(i0, pad.size() - 1)] * (1 - f) + pad[i1] * f;
+            }
+            char* j1 = pron_engine_assess_f32(e, up.data(), up.size(), sr2, kRef);
+            CHECK(j0 && j1);
+            if (j0 && j1) {
+                auto s0 = word_starts(j0), s1 = word_starts(j1);
+                CHECK(s0.size() == s1.size());
+                int compared = 0;
+                for (size_t i = 0; i < s0.size() && i < s1.size(); ++i) {
+                    if (s0[i] < 0 || s1[i] < 0) continue;
+                    ++compared;
+                    std::printf("word %zu: plain %.3f padded %.3f\n", i, s0[i], s1[i]);
+                    CHECK(std::fabs(s1[i] - (s0[i] + 1.5)) < 0.15);
+                }
+                std::printf("timing-offset words compared: %d\n", compared);
+                // Speech segments (always present) must also be on the original timeline.
+                const char* g0 = std::strstr(j0, "\"speech_segments\":[[");
+                const char* g1 = std::strstr(j1, "\"speech_segments\":[[");
+                CHECK(g0 && g1);
+                if (g0 && g1) {
+                    const double a0 = std::atof(g0 + 20), a1 = std::atof(g1 + 20);
+                    std::printf("first speech start: plain %.3f padded %.3f\n", a0, a1);
+                    CHECK(std::fabs(a1 - (a0 + 1.5)) < 0.15);
+                }
+            }
+            pron_free_string(j0);
+            pron_free_string(j1);
+        }
         pron_engine_free_audio(a);
     }
     char* lk = pron_engine_lookup(e, "think");

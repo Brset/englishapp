@@ -24,8 +24,8 @@ public sealed class AudioPlayer : IDisposable
             var wf = r.WaveFormat;
             int ba = Math.Max(1, wf.BlockAlign);
             long total = r.Length;
-            long from = Math.Clamp((long)(Math.Max(0, startSec - 0.08) * wf.AverageBytesPerSecond) / ba * ba, 0, total);
-            long to = Math.Clamp((long)((endSec + 0.08) * wf.AverageBytesPerSecond) / ba * ba, from, total);
+            long from = Math.Clamp((long)(Math.Max(0, startSec - 0.06) * wf.AverageBytesPerSecond) / ba * ba, 0, total);
+            long to = Math.Clamp((long)((endSec + 0.06) * wf.AverageBytesPerSecond) / ba * ba, from, total);
             if (to - from <= 0) return false;
             r.Position = from;
             var buf = new byte[to - from];
