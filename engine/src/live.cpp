@@ -125,6 +125,11 @@ PRON_API pron_live* pron_live_start(pron_engine* e, const char* reference_utf8) 
         s->tracker = std::make_unique<pron::LiveTracker>(reference_utf8);
         s->stream = SherpaOnnxCreateOnlineStream(rec->rec);
         if (!s->stream) { e->last_error = "failed to create live stream"; return nullptr; }
+        {   // 0.3 s of leading silence: the streaming encoder misses the first word when speech starts
+            // in the very first frames (recording started mid-breath, synthetic audio)
+            std::vector<float> lead(4800, 0.0f);
+            SherpaOnnxOnlineStreamAcceptWaveform(s->stream, 16000, lead.data(), static_cast<int32_t>(lead.size()));
+        }
         return s.release();
     } catch (const std::exception& ex) {
         e->last_error = ex.what();
